@@ -1,0 +1,45 @@
+# Deploy Kali Linux | Launch a Pentest Environment on Railway on Railway
+
+Self-host Kali Linux: Digital Forensics, Auditing, & Penetration Testing
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/deploy-kali-linux)
+
+## About
+
+Deploy a fully functional, browser-accessible Kali Linux environment on Railway in one click. This template runs the official `kalilinux/kali-rolling` Docker image with `ttyd` — giving you a web terminal with authentication, pre-installed pentest tools, and a persistent `/data` volume to keep your work between deployments.
+
+![Kali Linux dashboard screenshot](https://raw.githubusercontent.com/praveen-ks-2001/linux-kali/refs/heads/main/public/kali%20linux.png)
+
+Kali Linux is a Debian-based, open-source distribution built for penetration testing, security auditing, and digital forensics. Maintained by Offensive Security, it ships hundreds of security tools trusted by professionals worldwide.
+
+This Railway template solves the friction of spinning up a disposable, cloud-hosted Kali environment without managing VMs, SSH keys, or bare-metal installs.
+
+**What's included:**
+- `kalilinux/kali-rolling` base image (always up to date)
+- `ttyd` web terminal — access Kali from any browser, password-protected
+- Pre-installed tools: `nmap`, `sqlmap`, `nikto`, `john`, `hydra`, `netcat`, `hydra`, `tmux`
+- `tini` as PID 1 for proper signal handling and zombie reaping
+- `/data` persistent volume — files survive redeployments
+- `fastfetch` system info on every new shell session
+
+## What gets deployed
+
+| Service | Source | Type |
+|---------|--------|------|
+| Kali Linux | [praveen-ks-2001/linux-kali](https://github.com/praveen-ks-2001/linux-kali) | Web service |
+
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PASSWORD` | (secret) | Provide password for system access |
+| `USERNAME` | (secret) | Provide username for system access |
+
+## Configuration
+
+- **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/data`
+
+**Category:** Other · **Languages:** Dockerfile
+
+[View on Railway →](https://railway.com/template/deploy-kali-linux)

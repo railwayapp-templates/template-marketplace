@@ -1,0 +1,128 @@
+# Deploy Kutt on Railway
+
+Kutt is a modern URL shortener with support for custom domains
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kFCDQY)
+
+## About
+
+# Kutt
+
+**Kutt** is a modern URL shortener with support for custom domains. Create and edit links, view statistics, manage users, and more.
+
+## Key features
+
+- Created with self-host in mind:
+  - Zero configuration needed
+  - Easy setup with no build step
+  - Supporting various databases (SQLite, Postgres, MySQL)
+  - Ability to disable registration and anonymous links
+- Custom domain support
+- Set custom URLs, password, description, and expiration time for links
+- View, edit, delete and manage your links
+- Private statistics for shortened URLs
+- Admin page to manage users and links
+- RESTful API
+
+## API
+
+[View API documentation →](https://docs.kutt.it)
+
+## Configuration
+
+The app is configured via environment variables. You can pass environment variables directly or create a `.env` file. View [`.example.env`](./.example.env) file for the list of configurations.
+
+All variables are optional except `JWT_SECRET` which is required on production.
+
+| Variable | Description | Default | Example |
+| -------- | ----------- | ------- | ------- |
+| `JWT_SECRET` | This is used to sign authentication tokens. Use a **long** **random** string. | - | - |
+| `PORT` |  The port to start the app on | `3000` | `8888` |
+| `SITE_NAME` |  Name of the website | `Kutt` | `Your Site` |
+| `DEFAULT_DOMAIN` |  The domain address that this app runs on | `localhost:3000` | `yoursite.com` |
+| `LINK_LENGTH` | The length of of shortened address | `6` | `5` |
+| `DISALLOW_REGISTRATION` | Disable registration. Note that if `MAIL_ENABLED` is set to false, then the registration would still be disabled since it relies on emails to sign up users. | `true` | `false` |
+| `DISALLOW_ANONYMOUS_LINKS` | Disable anonymous link creation | `true` | `false` |
+| `DB_CLIENT` |  Which database client to use. Supported clients: `pg` or `pg-native` for Postgres, `mysql2` for MySQL or MariaDB, `sqlite3` and `better-sqlite3` for SQLite. NOTE: `pg-native` and `better-sqlite3` are not installed by default, use `npm` to install them before use. | `sqlite3` | `pg` |
+| `DB_HOST` | Database connection host. Only if you use Postgres or MySQL. | `localhost` | `your-db-host.com` |
+| `DB_PORT` | Database port. Only if you use Postgres or MySQL. | `5432` (Postgres) | `3306` (MySQL) |
+| `DB_NAME` | Database name. Only if you use Postgres or MySQL. | `kutt` | `mydb` |
+| `DB_USER` | Database user. Only if you use Postgres or MySQL. | `postgres` | `myuser` |
+| `DB_PASSWORD` | Database password. Only if you use Postgres or MySQL. | - | `mypassword` |
+| `DB_SSL` | Whether use SSL for the database connection. Only if you use Postgres or MySQL. | `false` | `true` |
+| `DB_POOL_MIN` | Minimum number of database connection pools. Only if you use Postgres or MySQL. | `0` | `2` |
+| `DB_POOL_MAX` | Maximum number of database connection pools. Only if you use Postgres or MySQL. | `10` | `5` |
+| `REDIS_ENABLED` | Whether to use Redis for cache | `false` | `true` |
+| `REDIS_HOST` | Redis connection host | `127.0.0.1` | `your-redis-host.com` |
+| `REDIS_PORT` | Redis port | `6379` | `6379` |
+| `REDIS_PASSWORD` | Redis passowrd | - | `mypassword` |
+| `REDIS_DB` | Redis database number, between 0 and 15. | `0` | `1` |
+| `SERVER_IP_ADDRESS` | The IP address shown to the user on the setting's page. It's only for display purposes and has no other use. | - | `1.2.3.4` |
+| `SERVER_CNAME_ADDRESS` | The subdomain shown to the user on the setting's page. It's only for display purposes and has no other use. | - | `custom.yoursite.com` |
+| `CUSTOM_DOMAIN_USE_HTTPS` | Use https for links with custom domain. It's on you to generate SSL certificates for those domains manually—at least on this version for now. | `false` | `true` |
+| `ENABLE_RATE_LIMIT` | Enable rate limitting for some API routes. If Redis is enabled uses Redis, otherwise, uses memory. | `false` | `true` |
+| `MAIL_ENABLED` | Enable emails, which are used for signup, verifying or changing email address, resetting password, and sending reports. If is disabled, all these functionalities will be disabled too. | `false` | `true` | 
+| `MAIL_HOST` | Email server host | - | `your-mail-server.com` |
+| `MAIL_PORT` | Email server port | `587` | `465` (SSL) | 
+| `MAIL_USER` | Email server user | - | `myuser` | 
+| `MAIL_PASSWORD` | Email server password for the user | - | `mypassword` | 
+| `MAIL_FROM` | Email address to send the user from | - | `some.address@yoursite.com` | 
+| `MAIL_SECURE` | Whether use SSL for the email server connection | `false` | `true` | 
+| `REPORT_EMAIL` | The email address that will receive submitted reports | - | `some.address@yoursite.com` | 
+| `CONTACT_EMAIL` | The support email address to show on the app | - | `some.address@yoursite.com` | 
+
+## Browser extensions
+
+Download Kutt's extension for web browsers via below links.
+
+- [Chrome](https://chrome.google.com/webstore/detail/kutt/pklakpjfiegjacoppcodencchehlfnpd)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/kutt/)
+
+## Videos
+
+**Official videos**
+
+- [Next.js to htmx – A Real World Example](https://www.youtube.com/watch?v=8RL4NvYZDT4)
+
+## Integrations
+
+**Third-party packages**
+
+
+| Language   | Link                                                                              | Description                                        |
+| ---------- | --------------------------------------------------------------------------------- | -------------------------------------------------- |
+| C# (.NET)  | [KuttSharp](https://github.com/0xaryan/KuttSharp)                                 | .NET package for Kutt.it url shortener             |
+| C# (.NET)  | [Kutt.NET](https://github.com/AlphaNecron/Kutt.NET)                               | C# API Wrapper for Kutt
+| Python     | [kutt-cli](https://github.com/RealAmirali/kutt-cli)                               | Command-line client for Kutt written in Python     |
+| Ruby       | [kutt.rb](https://github.com/RealAmirali/kutt.rb)                                 | Kutt library written in Ruby                       |
+| Rust       | [urlshortener](https://github.com/vityafx/urlshortener-rs)                        | URL shortener library written in Rust              |
+| Rust       | [kutt-rs](https://github.com/robatipoor/kutt-rs)                                  | Command line tool written in Rust                  |
+| Node.js    | [node-kutt](https://github.com/ardalanamini/node-kutt)                            | Node.js client for Kutt.it url shortener           |
+| JavaScript | [kutt-vscode](https://github.com/mehrad77/kutt-vscode)                            | Visual Studio Code extension for Kutt              |
+| Java       | [kutt-desktop](https://github.com/cipher812/kutt-desktop)                         | A Cross platform Java desktop application for Kutt |
+| Go         | [kutt-go](https://github.com/raahii/kutt-go)                                      | Go client for Kutt.it url shortener                |
+| BASH       | [GitHub Gist](https://gist.github.com/hashworks/6d6e4eae8984a5018f7692a796d570b4) | Simple BASH function to access the API             |
+| BASH       | [url-shortener](https://git.tim-peters.org/Tim/url-shortener)                     | Simple BASH script with GUI                        |
+
+## What gets deployed
+
+| Service | Source | Type |
+|---------|--------|------|
+| kutt | `kutt/kutt` | Web service |
+
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `JWT_SECRET` | (secret) | This is used to sign authentication tokens |
+| `DB_FILENAME` | /var/lib/kutt/data.sqlite | DB filename |
+| `DEFAULT_DOMAIN` | - | The domain address that this app runs on |
+
+## Configuration
+
+- **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/var/lib/kutt`
+
+**Category:** Other
+
+[View on Railway →](https://railway.com/template/kFCDQY)

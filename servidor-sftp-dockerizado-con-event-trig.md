@@ -1,0 +1,256 @@
+# Deploy Servidor SFTP Dockerizado con Event Triggers on Railway
+
+Servidor SFTP Dockerizado con Event Triggers
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/servidor-sftp-dockerizado-con-event-trig)
+
+## About
+
+# 🐳 Servidor SFTP Dockerizado con Event Triggers
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+Una solución robusta y contenerizada para la ingesta de archivos mediante SFTP. Este sistema no solo actúa como un servidor de archivos seguro, sino que integra un sistema de **detección de eventos en tiempo real** para procesar datos automáticamente apenas son subidos.
+
+---
+
+## 🚀 Características Principales
+
+*   **🔐 Multi-Tenant Seguro**: Aislamiento total de usuarios mediante `Chroot`. Cada empresa ve únicamente su directorio.
+*   **👀 Watcher Inteligente**: Monitorización recursiva usando `inotify-tools`. Detecta eventos `close_write` para asegurar que el archivo se ha subido completamente.
+*   **⚡ Trigger Automático**: Ejecución inmediata de scripts de carga (`loader.sh`) con inyección de metadatos (Empresa, Sede, Ruta).
+*   **📂 Estructura Dinámica**: Creación automática de usuarios y directorios basada en variables de entorno.
+* **🔋 Baterías Incluidas**: Soporte nativo para Python 3 con drivers para múltiples bases de datos.
+
+---
+
+## 🔌 Bases de Datos Soportadas
+
+El contenedor ya viene pre-instalado con **Python 3** y los siguientes drivers para que tus scripts puedan conectar directo:
+
+| Base de Datos | Driver / Librería | Estado |
+| :--- | :--- | :--- |
+| **Microsoft SQL Server** | `msodbcsql18` + `pyodbc` | ✅ Instalado |
+| **PostgreSQL** | `psycopg2-binary` | ✅ Instalado |
+| **MySQL / MariaDB** | `mysql-connector-python` | ✅ Instalado |
+| **Data Science** | `pandas` | ✅ Instalado |
+| **HTTP Requests** | `requests` | ✅ Instalado |
+
+---
+
+## 🛠️ Arquitectura del Flujo
+
+El sistema sigue el siguiente pipeline de ejecución:
+
+1.  **Conexión**: El cliente conecta vía SFTP (Puerto 2222).
+2.  **Upload**: Sube un archivo a `/upload/{Sede}/archivo.txt`.
+3.  **Detección**: El proceso `watcher.sh` detecta el cierre de escritura del archivo.
+4.  **Parsing**: Se extrae la **Empresa** (del usuario) y la **Sede** (del subdirectorio).
+5.  **Ejecución**: Se invoca al script `loader.sh` con los argumentos estructurados.
+
+```mermaid
+graph LR
+    A[Cliente SFTP] -->|Sube Archivo| B(Contenedor Docker)
+    B -->|inotifywait| C{Watcher.sh}
+    C -->|Detecta Empresa/Sede| D[Loader.sh]
+    D -->|Inserta Datos| E[(Base de Datos)]
+```
+
+## ☁️ Despliegue en Railway (Recomendado)
+
+Este proyecto está optimizado para funcionar nativamente en Railway.
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/servidor-sftp-dockerizado-con-event-trig?referralCode=DFuuA2&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+### Método Manual (Paso a Paso)
+
+1. **Nuevo Proyecto**: En Railway, selecciona "Deploy from GitHub repo" y elige este repositorio.
+2. **Variables de Entorno (OBLIGATORIO)**:
+    * El servicio NO arrancará correctamente sin usuarios definidos.
+    * Ve a la pestaña **Variables** y añade:
+        * `SFTP_USERS` = `EmpresaA:pass123;EmpresaB:pass456`
+3. **Configurar Puertos (CRÍTICO)**:
+    * **Paso A (Variable PORT)**:
+        * Ve a **Variables** en Railway y agrega `PORT` = `22`.
+        * *Explicación*: Esto le dice a Railway que el tráfico interno debe ir al puerto 22 (SSH).
+    * **Paso B (TCP Proxy)**:
+        * Por defecto, SFTP no usa HTTP. Necesitas un **TCP Proxy**.
+        * Ve a **Settings** -> **Networking** -> **Public Networking**.
+        * Haz clic en **TCP Proxy**.
+        * Railway te asignará un dominio (ej. `roundhouse.proxy.rlwy.net`) y un puerto público (ej. `41092`).
+        * **IMPORTANTE**: En FileZilla usa el puerto público (`41092` en este ejemplo), NO el 22.
+
+### Cómo Conectar (Cliente SFTP)
+
+**⚠️ ATENCIÓN: MUY IMPORTANTE**
+Railway te da una dirección completa como `switchback.proxy.rlwy.net:42064`.
+Para conectarte en FileZilla, debes **SEPARAR** los datos. **NO** pegues todo en el campo de servidor.
+
+Sigue este ejemplo exacto:
+
+* **Servidor/Host**: `switchback.proxy.rlwy.net` (Solo las letras)
+* **Puerto**: `42064` (Solo los números del final)
+
+| Dato | Valor (Ejemplo) | Notas |
+| :--- | :--- | :--- |
+| **Protocolo** | `SFTP` | Selecciona SFTP - SSH File Transfer Protocol |
+| **Servidor** | `roundhouse.proxy.rlwy.net` | **SOLO** el dominio, sin el puerto dos puntos |
+| **Puerto** | `41092` | El puerto numérico va en su propia casilla |
+| **Usuario** | `EmpresaA` | El que definiste en Variables |
+| **Contraseña** | `...` | La que definiste en Variables |
+
+### 4. Guardar Archivos (Persistencia)
+
+Si reinicias el servidor en Railway, los archivos subidos se borrarán si no configuras un "Volumen".
+
+1. En Railway, haz clic en tu servicio.
+2. Ve a la pestaña **Volumes**.
+3. Haz clic en el botón **Add Volume** (o `+`).
+4. Escribe `/home` donde dice "Mount Path".
+5. Dale a guardar/Add. Railway reiniciará el servicio y ahora tus archivos estarán seguros.
+
+---
+
+## 🏠 Desarrollo Local (En tu PC)
+
+Instrucciones para probarlo en tu computadora antes de subirlo:
+
+1. Clonar el repositorio.
+2. Editar `docker-compose.yml` si quieres cambiar usuarios de prueba.
+3. Ejecutar:
+
+    ```bash
+    docker-compose up --build
+    ```
+
+4. Conectar usando `localhost` y puerto `2222`.
+
+**Nota sobre Volúmenes en Local**:
+El archivo `docker-compose.yml` ya tiene listo el volumen. Solo descomenta la línea que dice `- ./sftp_data:/home` si quieres ver los archivos en una carpeta de Windows.
+
+---
+
+## 🔧 Personalización Avanzada
+
+### Usuarios y Permisos
+
+Los usuarios se crean automáticamente al iniciar el contenedor basándose en la variable `SFTP_USERS`.
+
+* Formato: `USER:PASS;USER2:PASS2`
+* Cada usuario es "enjaulado" (Chroot) en `/home/{usuario}`.
+* Se crea automáticamente una carpeta `/home/{usuario}/upload` con permisos de escritura.
+
+### Integración de Scripts (El Trigger)
+
+El sistema soporta dos modos de operación para ejecutar lógica cuando llega un archivo:
+
+#### Opción A: Script Global (Por defecto)
+
+Si usas el script que viene en el contenedor (`loader.sh`), este se ejecutará para todos los usuarios.
+
+#### Opción B: Script Personalizado (Por Usuario)
+
+Cada usuario puede subir su PROPIO script para ejecutar sus propias reglas.
+
+1. Conecta por FileZilla con tu usuario.
+2. Verás una carpeta llamada `scripts` (además de `upload`).
+3. Sube tu script con el nombre exacto `loader.sh` dentro de esa carpeta `scripts`.
+4. **¡Listo!** El sistema detectará automáticamente que existe ese archivo y lo usará ESE en lugar del global.
+
+**Argumentos que recibe tu script:**
+El sistema invocará tu script (sea global o personalizado) con estos argumentos:
+
+```bash
+./loader.sh --empresa="EmpresaA" --sede="SedeNorte" --file="/home/.../archivo.txt"
+```
+
+## 🐍 Ejemplo de Script Python (Avanzado)
+
+Si deseas usar Python para insertar los datos en SQL Server, este es un código base robusto que puedes usar.
+
+**Requisitos Previos:**
+Para que este script funcione, asegúrate de crear un archivo `Dockerfile` personalizado donde instales los drivers ODBC y Python, o solicita al administrador que los incluya.
+
+Crea un archivo `loader.py` (y llámalo desde `loader.sh`) con este contenido:
+
+```python
+import pyodbc
+import csv
+import os
+import sys
+import argparse
+from datetime import date, datetime
+
+# Configuración de Argumentos (Recibidos del Trigger)
+parser = argparse.ArgumentParser()
+parser.add_argument("--empresa", help="Nombre de la empresa")
+parser.add_argument("--sede", help="Nombre de la sede")
+parser.add_argument("--file", help="Ruta completa del archivo subido")
+args = parser.parse_args()
+
+# Conexión Global (Usar variables de entorno preferiblemente)
+DB_HOST = os.getenv("DB_HOST", "sql.miempresa.com")
+DB_USER = os.getenv("DB_USER", "usuario_sql")
+DB_PASS = os.getenv("DB_PASS", "password_secreto")
+DB_NAME = os.getenv("DB_NAME", "BaseDatosEmpresa")
+
+CONN_STR = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={DB_HOST};DATABASE={DB_NAME};UID={DB_USER};PWD={DB_PASS}"
+
+def connect_db():
+    try:
+        return pyodbc.connect(CONN_STR, autocommit=True)
+    except Exception as e:
+        print(f"❌ Error conectando a BD: {e}")
+        return None
+
+def process_file(file_path, table_name):
+    conn = connect_db()
+    if not conn: return
+
+    print(f"🔄 Procesando {file_path} hacia tabla {table_name}...")
+    
+    # Lógica de lectura CSV e inserción masiva (Fast ExecuteMany)
+    # ... (Aquí iría tu lógica de parsing y limpieza) ...
+    
+    print("✅ Carga completada.")
+    conn.close()
+
+if __name__ == "__main__":
+    print(f"🚀 Iniciando carga para EMPRESA: {args.empresa} - SEDE: {args.sede}")
+    
+    # Determinar qué tabla cargar según el nombre del archivo
+    filename = os.path.basename(args.file).lower()
+    
+    if "ventas" in filename:
+        process_file(args.file, "Ventas")
+    elif "clientes" in filename:
+        process_file(args.file, "Clientes")
+    else:
+        print(f"⚠️ Archivo desconocido: {filename}. No se sabe dónde cargar.")
+```
+
+**Nota para llamar a este Python desde el `loader.sh`:**
+Tu archivo `loader.sh` en la carpeta `scripts` debería verse así:
+
+```bash
+#!/bin/bash
+# Pasar todos los argumentos al script de Python
+python3 /home/$1/scripts/loader.py "$@"
+```
+
+## What gets deployed
+
+| Service | Source | Type |
+|---------|--------|------|
+| ServidorSFTP | [Kennethguerra3/ServidorSFTP](https://github.com/Kennethguerra3/ServidorSFTP) | Database |
+
+## Configuration
+
+- **TCP Proxies:** 22
+- **Volume:** `/home`
+
+**Category:** Automation · **Languages:** Shell, Dockerfile
+
+[View on Railway →](https://railway.com/template/servidor-sftp-dockerizado-con-event-trig)

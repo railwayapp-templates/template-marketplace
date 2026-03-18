@@ -1,0 +1,51 @@
+# Deploy next-wp on Railway
+
+Headless WordPress using Next.js
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/next-wp)
+
+## About
+
+next-wp is a headless WordPress starter built with Next.js 16, React 19, and TypeScript. It provides a type-safe data layer for the WordPress REST API, server-side pagination, automatic cache revalidation via webhooks, and a complete design system with shadcn/ui and Tailwind CSS.
+
+This template deploys a complete headless WordPress stack: a MySQL database, WordPress CMS, and Next.js frontend. WordPress serves as the content management backend while Next.js delivers a fast, modern frontend. The included revalidation plugin automatically invalidates the Next.js cache when content changes in WordPress, ensuring your site always shows fresh content. Environment variables are pre-configured to connect all three services securely.
+
+## What gets deployed
+
+| Service | Source | Type |
+|---------|--------|------|
+| next-wp | [9d8dev/next-wp](https://github.com/9d8dev/next-wp) | Web service |
+| WordPress | `ghcr.io/9d8dev/next-wp-wordpress:latest` | Web service |
+| MySQL | `mysql:8.0` | Database |
+
+## Environment variables
+
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `NODE_ENV` | next-wp | production | - |
+| `WORDPRESS_WEBHOOK_SECRET` | next-wp | (secret) | - |
+| `WORDPRESS_DB_USER` | WordPress | (secret) | - |
+| `WORDPRESS_DB_PASSWORD` | WordPress | (secret) | - |
+| `MYSQLHOST` | MySQL | - | Railway Private Domain Name. |
+| `MYSQLPORT` | MySQL | 3306 | MySQL port. |
+| `MYSQLUSER` | MySQL | root | MySQL user, used for the Data panel. |
+| `MYSQL_URL` | MySQL | - | URL to connect to MySQL. |
+| `MYSQL_USER` | MySQL | (secret) | - |
+| `MYSQLDATABASE` | MySQL | - | Default database, used for Data panel. |
+| `MYSQLPASSWORD` | MySQL | (secret) | Root password, used for Data panel. |
+| `MYSQL_DATABASE` | MySQL | wordpress | Database to be created on image startup. |
+| `MYSQL_PASSWORD` | MySQL | (secret) | - |
+| `MYSQL_PUBLIC_URL` | MySQL | - | URL to connect to MySQL DB, used for Data panel. |
+| `MYSQL_ROOT_PASSWORD` | MySQL | (secret) | Root password for MySQL DB. |
+
+## Configuration
+
+- **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/var/www/html`
+- **Start command:** `docker-entrypoint.sh mysqld --innodb-use-native-aio=0 --disable-log-bin --performance_schema=0 --innodb-buffer-pool-size=1G`
+- **TCP Proxies:** 3306
+- **Volume:** `/var/lib/mysql`
+
+**Category:** CMS · **Languages:** TypeScript, PHP, CSS, Shell, Dockerfile, JavaScript
+
+[View on Railway →](https://railway.com/template/next-wp)
