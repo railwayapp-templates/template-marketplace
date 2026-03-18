@@ -2,7 +2,7 @@
 
 Next.js SaaS starter with Supabase Auth, Stripe, and multi-tenant orgs.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hopeful-wonder)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hopeful-wonder)
 
 ## About
 
@@ -30,4 +30,4 @@ This template deploys a complete SaaS application on Railway using Nixpacks for 
 
 **Category:** Other · **Languages:** TypeScript, PLpgSQL, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/hopeful-wonder)
+[View on Railway →](https://railway.com/deploy/hopeful-wonder)

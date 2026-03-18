@@ -2,7 +2,7 @@
 
 SIWA stack with Keyring proxy, and Telegram 2FA services.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/siwa-keyring-keyring-proxy-telegram-2fa-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/siwa-keyring-keyring-proxy-telegram-2fa-)
 
 ## About
 
@@ -46,4 +46,4 @@ Hosting siwa-keyring-proxy involves deploying a single Docker container running 
 
 **Category:** Other · **Languages:** TypeScript, Shell, Dockerfile, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/siwa-keyring-keyring-proxy-telegram-2fa-)
+[View on Railway →](https://railway.com/deploy/siwa-keyring-keyring-proxy-telegram-2fa-)

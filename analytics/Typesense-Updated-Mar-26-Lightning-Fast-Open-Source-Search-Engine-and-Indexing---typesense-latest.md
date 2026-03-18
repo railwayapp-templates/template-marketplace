@@ -2,7 +2,7 @@
 
 Typesense [Mar ’26] (Algolia/Elasticsearch Alternative), Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/typesense-latest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/typesense-latest)
 
 ## About
 
@@ -36,4 +36,4 @@ Deploying is as simple as clicking **Deploy Now**, Railway will spin up a manage
 
 **Category:** Analytics · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/typesense-latest)
+[View on Railway →](https://railway.com/deploy/typesense-latest)

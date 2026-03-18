@@ -2,7 +2,7 @@
 
 Private Speech-to-Text STT & Text-to-Speech TTS, OpenAI & 52 voices
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/faster-whisper)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/faster-whisper)
 
 ## About
 
@@ -87,4 +87,4 @@ Private Speech-to-Text STT & Text-to-Speech TTS, OpenAI & 52 voices
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/faster-whisper)
+[View on Railway →](https://railway.com/deploy/faster-whisper)

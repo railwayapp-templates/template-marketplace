@@ -2,7 +2,7 @@
 
 railway for milvus standalone
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/milvus-standalone)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/milvus-standalone)
 
 ## About
 
@@ -37,4 +37,4 @@ Deploying Milvus Standalone on Railway provides a production-ready vector databa
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/milvus-standalone)
+[View on Railway →](https://railway.com/deploy/milvus-standalone)

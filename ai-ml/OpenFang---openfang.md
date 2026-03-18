@@ -2,7 +2,7 @@
 
 A template for OpenFang: The Agent Operating System.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openfang)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openfang)
 
 ## About
 
@@ -40,4 +40,4 @@ OpenFang ships as a single Rust binary with a built-in web dashboard. This templ
 
 **Category:** AI/ML · **Languages:** JavaScript, HTML, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/openfang)
+[View on Railway →](https://railway.com/deploy/openfang)

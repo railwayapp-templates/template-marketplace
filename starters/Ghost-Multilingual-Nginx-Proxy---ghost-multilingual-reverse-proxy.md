@@ -2,7 +2,7 @@
 
 Nginx proxy for multi-language Ghost blogs with subdirectory routing
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ghost-multilingual-reverse-proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ghost-multilingual-reverse-proxy)
 
 ## About
 
@@ -33,4 +33,4 @@ The critical configuration step is ensuring each Ghost instance's public `url` v
 
 **Category:** Starters · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/ghost-multilingual-reverse-proxy)
+[View on Railway →](https://railway.com/deploy/ghost-multilingual-reverse-proxy)

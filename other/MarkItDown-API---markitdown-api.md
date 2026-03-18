@@ -2,7 +2,7 @@
 
 Converts files to Markdown via REST API, secured with Bearer auth.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/markitdown-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/markitdown-api)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting MarkItDown API involves running a Python-based FastAPI application serve
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/markitdown-api)
+[View on Railway →](https://railway.com/deploy/markitdown-api)

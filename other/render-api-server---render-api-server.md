@@ -2,7 +2,7 @@
 
 Async API to render longform videos from multiple audio and backgrounds.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/render-api-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/render-api-server)
 
 ## About
 
@@ -25,4 +25,4 @@ Hosting render-api-server on Railway involves deploying a FastAPI/Uvicorn servic
 
 **Category:** Other · **Languages:** Python, Procfile
 
-[View on Railway →](https://railway.com/template/render-api-server)
+[View on Railway →](https://railway.com/deploy/render-api-server)

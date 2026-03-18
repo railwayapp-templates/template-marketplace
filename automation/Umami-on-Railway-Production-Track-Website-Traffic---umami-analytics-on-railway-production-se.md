@@ -2,7 +2,7 @@
 
 [Mar '26] Open-Source Google Analytics Alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/umami-analytics-on-railway-production-se)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/umami-analytics-on-railway-production-se)
 
 ## About
 
@@ -78,4 +78,4 @@ Hosting Umami involves running the Node.js application alongside a PostgreSQL da
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/umami-analytics-on-railway-production-se)
+[View on Railway →](https://railway.com/deploy/umami-analytics-on-railway-production-se)

@@ -2,7 +2,7 @@
 
 Run a Tailscale Subnet Router on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tailscale)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tailscale)
 
 ## About
 
@@ -119,4 +119,4 @@ You will see your newly deployed machine with its name that was previously deriv
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tailscale)
+[View on Railway →](https://railway.com/deploy/tailscale)

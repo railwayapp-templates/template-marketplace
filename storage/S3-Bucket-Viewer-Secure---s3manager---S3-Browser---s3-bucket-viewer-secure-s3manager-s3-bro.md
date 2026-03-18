@@ -2,7 +2,7 @@
 
 Secure S3 viewer web with Railway Buckets, Basic Auth, UI explorer
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/s3-bucket-viewer-secure-s3manager-s3-bro)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/s3-bucket-viewer-secure-s3manager-s3-bro)
 
 ## About
 
@@ -38,4 +38,4 @@ This template deploys two services: **s3manager** (the S3 web UI) and **caddy-ze
 
 **Category:** Storage · **Languages:** CSS, HTML, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/s3-bucket-viewer-secure-s3manager-s3-bro)
+[View on Railway →](https://railway.com/deploy/s3-bucket-viewer-secure-s3manager-s3-bro)

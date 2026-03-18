@@ -2,7 +2,7 @@
 
 Gatekeeper bot for Telegram groups to verify users on join.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/telegram-gatekeeper-bot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/telegram-gatekeeper-bot)
 
 ## About
 
@@ -30,4 +30,4 @@ making it ideal for running long-lived Telegram bots reliably.
 
 **Category:** Bots · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/telegram-gatekeeper-bot)
+[View on Railway →](https://railway.com/deploy/telegram-gatekeeper-bot)

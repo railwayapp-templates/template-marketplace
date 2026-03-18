@@ -2,7 +2,7 @@
 
 Just one click to run your powerful 24/7 Personal AI Assistant. 🦞🚀
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-4)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting OpenClaw on Railway involves deploying a lightweight yet powerful Docker
 
 **Category:** Automation · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/openclaw-4)
+[View on Railway →](https://railway.com/deploy/openclaw-4)

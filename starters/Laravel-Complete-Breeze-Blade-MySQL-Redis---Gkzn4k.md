@@ -2,7 +2,7 @@
 
 A simple Laravel starter app connected to a MySQL database, Redis cache
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Gkzn4k)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Gkzn4k)
 
 ## About
 
@@ -199,4 +199,4 @@ It spins up 5 services (with the same codebase) in one project. They are:
 
 **Category:** Starters · **Languages:** PHP, Blade, JavaScript, Shell, CSS
 
-[View on Railway →](https://railway.com/template/Gkzn4k)
+[View on Railway →](https://railway.com/deploy/Gkzn4k)

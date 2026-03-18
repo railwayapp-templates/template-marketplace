@@ -2,7 +2,7 @@
 
 Deploy and Host Plane with RabbitMQ with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/plane-with-rabbitmq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/plane-with-rabbitmq)
 
 ## About
 
@@ -180,4 +180,4 @@ Self-hosting Plane entails deploying a multi-service stack consisting of its Nex
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/plane-with-rabbitmq)
+[View on Railway →](https://railway.com/deploy/plane-with-rabbitmq)

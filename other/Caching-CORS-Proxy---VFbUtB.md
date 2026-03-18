@@ -2,7 +2,7 @@
 
 A simple CORS proxy with optional dynamic caching capabilities
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VFbUtB)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VFbUtB)
 
 ## About
 
@@ -68,4 +68,4 @@ _Notice:_ The logo for this template is provided by [VectorPortal](https://vecto
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/VFbUtB)
+[View on Railway →](https://railway.com/deploy/VFbUtB)

@@ -2,7 +2,7 @@
 
 Penpot open-source figma like design tool for design and code collaboration
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/penpot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/penpot)
 
 ## About
 
@@ -70,4 +70,4 @@ Penpot instance stable and performant becomes significantly easier.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/penpot)
+[View on Railway →](https://railway.com/deploy/penpot)

@@ -2,7 +2,7 @@
 
 A FastAPI App for benchmarking LLM models from various vendors.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_-qAbG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_-qAbG)
 
 ## About
 
@@ -48,4 +48,4 @@ A FastAPI App for benchmarking LLM models from various vendors.
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/_-qAbG)
+[View on Railway →](https://railway.com/deploy/_-qAbG)

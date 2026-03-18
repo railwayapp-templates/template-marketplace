@@ -2,7 +2,7 @@
 
 Deploy and Host divine-prosperity with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/divine-prosperity-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/divine-prosperity-1)
 
 ## About
 
@@ -23,4 +23,4 @@ Test
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/divine-prosperity-1)
+[View on Railway →](https://railway.com/deploy/divine-prosperity-1)

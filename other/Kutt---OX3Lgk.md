@@ -2,7 +2,7 @@
 
 Shorten URLs, manage your links and view the click rate statistics.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OX3Lgk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OX3Lgk)
 
 ## About
 
@@ -97,4 +97,4 @@ Shorten URLs, manage your links and view the click rate statistics.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/OX3Lgk)
+[View on Railway →](https://railway.com/deploy/OX3Lgk)

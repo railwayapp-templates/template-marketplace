@@ -2,7 +2,7 @@
 
 Choose tag MySQL version and deploy - default 8.0.35
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mysql-8-or-any-version)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mysql-8-or-any-version)
 
 ## About
 
@@ -31,4 +31,4 @@ This template is hosted as a Docker-based service on Railway. MySQL runs from th
 
 **Category:** Storage · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/mysql-8-or-any-version)
+[View on Railway →](https://railway.com/deploy/mysql-8-or-any-version)

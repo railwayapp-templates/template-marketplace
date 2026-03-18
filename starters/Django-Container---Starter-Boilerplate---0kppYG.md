@@ -2,7 +2,7 @@
 
 Django and Dockerfile Boilerplate optimized for Railway Deployments
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0kppYG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0kppYG)
 
 ## About
 
@@ -58,4 +58,4 @@ Reference blog post on [Coding for Entrepreneurs](https://www.codingforentrepren
 
 **Category:** Starters · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/0kppYG)
+[View on Railway →](https://railway.com/deploy/0kppYG)

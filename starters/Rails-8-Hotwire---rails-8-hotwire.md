@@ -2,7 +2,7 @@
 
 A simple template for full stack Ruby on Rails 8 apps using turbo/hotwire
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rails-8-hotwire)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rails-8-hotwire)
 
 ## About
 
@@ -51,4 +51,4 @@ Deploying Rails with hotwire requires a few moving parts. PostgreSQL, Redis, Act
 
 **Category:** Starters · **Languages:** HTML, Ruby, Dockerfile, Shell, JavaScript, CSS, Procfile
 
-[View on Railway →](https://railway.com/template/rails-8-hotwire)
+[View on Railway →](https://railway.com/deploy/rails-8-hotwire)

@@ -2,7 +2,7 @@
 
 A complete setup for n8n with workers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/EfkjX2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EfkjX2)
 
 ## About
 
@@ -108,4 +108,4 @@ https://docs.n8n.io/hosting/scaling/queue-mode/#webhook-processors
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/EfkjX2)
+[View on Railway →](https://railway.com/deploy/EfkjX2)

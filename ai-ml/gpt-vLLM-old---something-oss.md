@@ -2,7 +2,7 @@
 
 Deploy and Host LLM with VLLM
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/something-oss)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/something-oss)
 
 ## About
 
@@ -49,4 +49,4 @@ Hosting something-oss involves setting up the inference servers, caching layers,
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/something-oss)
+[View on Railway →](https://railway.com/deploy/something-oss)

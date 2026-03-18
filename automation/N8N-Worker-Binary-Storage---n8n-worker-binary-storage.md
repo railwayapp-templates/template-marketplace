@@ -2,7 +2,7 @@
 
 Latest Stable Release of n8n (V2)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-worker-binary-storage)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-worker-binary-storage)
 
 ## About
 
@@ -63,4 +63,4 @@ Hosting n8n in this configuration involves deploying **Queue Mode** to maximize 
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-worker-binary-storage)
+[View on Railway →](https://railway.com/deploy/n8n-worker-binary-storage)

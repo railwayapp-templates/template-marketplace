@@ -2,7 +2,7 @@
 
 Share sensitive information securely with self-destructing links
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/one-time-secret-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/one-time-secret-1)
 
 ## About
 
@@ -47,4 +47,4 @@ overhead low.
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/one-time-secret-1)
+[View on Railway →](https://railway.com/deploy/one-time-secret-1)

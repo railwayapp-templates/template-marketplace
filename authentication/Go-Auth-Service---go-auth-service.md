@@ -2,7 +2,7 @@
 
 Deploy and Host Go Auth Service with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/go-auth-service)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/go-auth-service)
 
 ## About
 
@@ -61,4 +61,4 @@ Hosting Go Auth Service on Railway provides a complete authentication infrastruc
 
 **Category:** Authentication · **Languages:** Go, Makefile, PLpgSQL, Dockerfile
 
-[View on Railway →](https://railway.com/template/go-auth-service)
+[View on Railway →](https://railway.com/deploy/go-auth-service)

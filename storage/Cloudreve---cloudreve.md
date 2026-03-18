@@ -2,7 +2,7 @@
 
 Easily host Cloudreve on Railway for private file storage and sharing.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cloudreve)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cloudreve)
 
 ## About
 
@@ -55,4 +55,4 @@ Hosting Cloudreve on Railway allows you to quickly deploy a powerful and customi
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/cloudreve)
+[View on Railway →](https://railway.com/deploy/cloudreve)

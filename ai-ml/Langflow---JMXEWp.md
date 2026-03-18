@@ -2,7 +2,7 @@
 
 Simple Langflow deployment using PostgreSQL as the database.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JMXEWp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JMXEWp)
 
 ## About
 
@@ -48,4 +48,4 @@ Other environment variables can be found in the [Langflow repo](https://github.c
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/JMXEWp)
+[View on Railway →](https://railway.com/deploy/JMXEWp)

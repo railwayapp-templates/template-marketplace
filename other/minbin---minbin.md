@@ -2,7 +2,7 @@
 
 a minimal, ephemeral pastebin service.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/minbin)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minbin)
 
 ## About
 
@@ -44,4 +44,4 @@ minbin consists of a microservice and a redis-compatible database. everything is
 
 **Category:** Other · **Languages:** HTML, CSS, Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/minbin)
+[View on Railway →](https://railway.com/deploy/minbin)

@@ -2,7 +2,7 @@
 
 Deploy and Host Redis with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/redis)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redis)
 
 ## About
 
@@ -39,4 +39,4 @@ Redis is a popular choice for developers worldwide due to its combination of spe
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/redis)
+[View on Railway →](https://railway.com/deploy/redis)

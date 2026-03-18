@@ -2,7 +2,7 @@
 
 Deploy and Host React router v7 with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/react-router-v7)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/react-router-v7)
 
 ## About
 
@@ -21,4 +21,4 @@ Hosting React Router v7 on Railway involves deploying a Node.js-based React appl
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile, CSS
 
-[View on Railway →](https://railway.com/template/react-router-v7)
+[View on Railway →](https://railway.com/deploy/react-router-v7)

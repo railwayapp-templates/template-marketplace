@@ -2,7 +2,7 @@
 
 Deploy and Host conduit-1-click with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/conduit-1-click)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/conduit-1-click)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting Psiphon Conduit involves deploying a proxy server that acts as a bridge 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/conduit-1-click)
+[View on Railway →](https://railway.com/deploy/conduit-1-click)

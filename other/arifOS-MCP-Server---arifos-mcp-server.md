@@ -2,7 +2,7 @@
 
 Constitutional AI MCP server with 6 tools and 13 governance floors
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/arifos-mcp-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/arifos-mcp-server)
 
 ## About
 
@@ -36,4 +36,4 @@ Deploying arifOS MCP Server gives you a production-ready Constitutional AI gover
 
 **Category:** Other · **Languages:** Python, PowerShell, Shell, HTML, PLpgSQL, Batchfile, CSS, JavaScript, TypeScript, Dockerfile, Nix
 
-[View on Railway →](https://railway.com/template/arifos-mcp-server)
+[View on Railway →](https://railway.com/deploy/arifos-mcp-server)

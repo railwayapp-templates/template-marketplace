@@ -2,7 +2,7 @@
 
 Pre-wired observability — Grafana dashboards, Prometheus metrics, Loki logs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/grafana-stack)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/grafana-stack)
 
 ## About
 
@@ -35,4 +35,4 @@ Running a full observability stack typically involves configuring three separate
 
 **Category:** Observability · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/grafana-stack)
+[View on Railway →](https://railway.com/deploy/grafana-stack)

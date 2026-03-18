@@ -2,7 +2,7 @@
 
 Deploy-ready Apollo Runtime for Apollo GraphOS federation projects.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/apollo-router)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/apollo-router)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting Apollo Runtime involves deploying the Router (and optionally the MCP ser
 
 **Category:** Starters · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/apollo-router)
+[View on Railway →](https://railway.com/deploy/apollo-router)

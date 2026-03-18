@@ -2,7 +2,7 @@
 
 Deploy and Host PostgreSQL 18 on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgresql-18)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresql-18)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting PostgreSQL gives you access to a powerful database server capable of han
 
 **Category:** Storage · **Languages:** Shell
 
-[View on Railway →](https://railway.com/template/postgresql-18)
+[View on Railway →](https://railway.com/deploy/postgresql-18)

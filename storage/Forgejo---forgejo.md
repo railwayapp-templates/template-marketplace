@@ -2,7 +2,7 @@
 
 A self-hosted lightweight software forge
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/forgejo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/forgejo)
 
 ## About
 
@@ -36,4 +36,4 @@ I had to use a [mirror image on docker hub](https://hub.docker.com/r/forgejoclon
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/forgejo)
+[View on Railway →](https://railway.com/deploy/forgejo)

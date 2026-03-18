@@ -2,7 +2,7 @@
 
 An image cache & resize service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wsrvnl)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wsrvnl)
 
 ## About
 
@@ -22,4 +22,4 @@ This template allows you to deploy wsrv.nl out-of-the-box with just one-click.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/wsrvnl)
+[View on Railway →](https://railway.com/deploy/wsrvnl)

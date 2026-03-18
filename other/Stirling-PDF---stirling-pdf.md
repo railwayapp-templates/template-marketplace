@@ -2,7 +2,7 @@
 
 Deploy and Host Stirling-PDF with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/stirling-pdf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/stirling-pdf)
 
 ## About
 
@@ -44,4 +44,4 @@ Railway volumes ensure your configuration, pipelines, logs, and OCR data persist
 
 **Category:** Other · **Languages:** Python, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/stirling-pdf)
+[View on Railway →](https://railway.com/deploy/stirling-pdf)

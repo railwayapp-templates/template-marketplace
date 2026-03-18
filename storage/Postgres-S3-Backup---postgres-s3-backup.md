@@ -2,7 +2,7 @@
 
 A simple method for postgres backups to a S3 instance on railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgres-s3-backup)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-s3-backup)
 
 ## About
 
@@ -37,4 +37,4 @@ Deploying this template gives you a service that performs full PostgreSQL backup
 
 **Category:** Storage · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/postgres-s3-backup)
+[View on Railway →](https://railway.com/deploy/postgres-s3-backup)

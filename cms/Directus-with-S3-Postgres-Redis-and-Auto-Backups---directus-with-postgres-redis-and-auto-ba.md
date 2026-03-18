@@ -2,7 +2,7 @@
 
 Deploy Directus CMS with Postgres, Redis, and Auto Backups in one click!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/directus-with-postgres-redis-and-auto-ba)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/directus-with-postgres-redis-and-auto-ba)
 
 ## About
 
@@ -80,4 +80,4 @@ Directus enables you to design and build a REST + GraphQL API in minutes and ena
 
 **Category:** CMS · **Languages:** TypeScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/directus-with-postgres-redis-and-auto-ba)
+[View on Railway →](https://railway.com/deploy/directus-with-postgres-redis-and-auto-ba)

@@ -2,7 +2,7 @@
 
 Database using Railway logs as storage-medium
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/logcar)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/logcar)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting LogCar on Railway involves deploying a Node.js/TypeScript server that ac
 
 **Category:** Storage · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/logcar)
+[View on Railway →](https://railway.com/deploy/logcar)

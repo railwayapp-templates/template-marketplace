@@ -2,7 +2,7 @@
 
 Zipkin [Mar ’26] (Trace & Monitor Microservice Performance) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zipkin)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zipkin)
 
 ## About
 
@@ -46,4 +46,4 @@ Hetzner offers strong raw performance but expects manual server management and t
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/zipkin)
+[View on Railway →](https://railway.com/deploy/zipkin)

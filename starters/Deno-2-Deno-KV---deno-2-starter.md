@@ -2,7 +2,7 @@
 
 Deploy and Host 🦖 Deno 2 & Deno KV with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/deno-2-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/deno-2-starter)
 
 ## About
 
@@ -35,4 +35,4 @@ Simple starter template with some example code for common use cases.
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/deno-2-starter)
+[View on Railway →](https://railway.com/deploy/deno-2-starter)

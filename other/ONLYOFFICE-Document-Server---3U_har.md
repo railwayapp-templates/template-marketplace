@@ -2,7 +2,7 @@
 
 Your private office anywhere you go!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/3U_har)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/3U_har)
 
 ## About
 
@@ -84,4 +84,4 @@ _ONLYOFFICE Docs is an online office suite comprising viewers and editors for te
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/3U_har)
+[View on Railway →](https://railway.com/deploy/3U_har)

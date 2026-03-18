@@ -2,7 +2,7 @@
 
 A simple API that returns a random rejection reason.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/no-as-a-service)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/no-as-a-service)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting No-as-a-Service is intentionally minimal. The project is a small Express
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/no-as-a-service)
+[View on Railway →](https://railway.com/deploy/no-as-a-service)

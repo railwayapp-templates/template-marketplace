@@ -2,7 +2,7 @@
 
 Deploy and host a full WHM Scrapper stack with PostgreSQL on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/whm-scrapper)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/whm-scrapper)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting WHM Scrapper on Railway creates a production-ready environment with sepa
 
 **Category:** Other · **Languages:** PHP
 
-[View on Railway →](https://railway.com/template/whm-scrapper)
+[View on Railway →](https://railway.com/deploy/whm-scrapper)

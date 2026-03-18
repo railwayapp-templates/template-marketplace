@@ -2,7 +2,7 @@
 
 Deploy your own AI agent that can interact across clients using ElizaOS.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aW47_j)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aW47_j)
 
 ## About
 
@@ -72,4 +72,4 @@ Get your OpenRouter API key at: https://openrouter.ai/
 
 **Category:** AI/ML · **Languages:** TypeScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/aW47_j)
+[View on Railway →](https://railway.com/deploy/aW47_j)

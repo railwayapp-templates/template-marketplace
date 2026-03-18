@@ -2,7 +2,7 @@
 
 Deploy and Host overflowing-fascination with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/overflowing-fascination)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/overflowing-fascination)
 
 ## About
 
@@ -38,4 +38,4 @@ Hosting overflowing-fascination involves setting up a MySQL database for user da
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/overflowing-fascination)
+[View on Railway →](https://railway.com/deploy/overflowing-fascination)

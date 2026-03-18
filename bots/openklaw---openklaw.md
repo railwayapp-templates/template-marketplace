@@ -2,7 +2,7 @@
 
 openclaw+telegram+(free API: https://build.nvidia.com/)+tailscale
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openklaw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openklaw)
 
 ## About
 
@@ -66,4 +66,4 @@ By deploying openklaw on Railway, you are one step closer to supporting a comple
 
 **Category:** Bots · **Languages:** Shell, HTML, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/openklaw)
+[View on Railway →](https://railway.com/deploy/openklaw)

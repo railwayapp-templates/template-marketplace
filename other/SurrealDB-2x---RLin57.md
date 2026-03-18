@@ -2,7 +2,7 @@
 
 A scalable, distributed, collaborative, document-graph database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/RLin57)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/RLin57)
 
 ## About
 
@@ -79,4 +79,4 @@ For guidance on development, and administration, see Their [documentation](https
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/RLin57)
+[View on Railway →](https://railway.com/deploy/RLin57)

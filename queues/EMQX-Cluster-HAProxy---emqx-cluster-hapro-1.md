@@ -2,7 +2,7 @@
 
 Deploy an EMQX Cluster with HAProxy Load Balancing
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/emqx-cluster-hapro-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/emqx-cluster-hapro-1)
 
 ## About
 
@@ -51,4 +51,4 @@ Railway's private networking handles connectivity between components with TLS te
 
 **Category:** Queues · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/emqx-cluster-hapro-1)
+[View on Railway →](https://railway.com/deploy/emqx-cluster-hapro-1)

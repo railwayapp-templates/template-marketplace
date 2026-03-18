@@ -2,7 +2,7 @@
 
 Template mariaDB and Adminer
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZJZedY)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZJZedY)
 
 ## About
 
@@ -74,4 +74,4 @@ Template mariaDB and Adminer
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/ZJZedY)
+[View on Railway →](https://railway.com/deploy/ZJZedY)

@@ -2,7 +2,7 @@
 
 Personal CRM. Document your life.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/G_bkYr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/G_bkYr)
 
 ## About
 
@@ -121,4 +121,4 @@ We’ve also had a lot of positive reviews from people with Asperger syndrome, A
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/G_bkYr)
+[View on Railway →](https://railway.com/deploy/G_bkYr)

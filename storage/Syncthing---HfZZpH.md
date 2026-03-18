@@ -2,7 +2,7 @@
 
 Open source continuous file synchronization
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HfZZpH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HfZZpH)
 
 ## About
 
@@ -29,4 +29,4 @@ By default, Syncthing is set up to allow connections to its interface from anywh
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/HfZZpH)
+[View on Railway →](https://railway.com/deploy/HfZZpH)

@@ -2,7 +2,7 @@
 
 Fabio Load Balancer - Railway Template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fabio)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fabio)
 
 ## About
 
@@ -46,4 +46,4 @@ Hosting fabio on Railway involves deploying a lightweight load balancer that can
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/fabio)
+[View on Railway →](https://railway.com/deploy/fabio)

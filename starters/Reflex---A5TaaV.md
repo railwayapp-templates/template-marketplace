@@ -2,7 +2,7 @@
 
 Reflex is an open-source framework for making web apps in pure Python
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/A5TaaV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/A5TaaV)
 
 ## About
 
@@ -107,4 +107,4 @@ The app state is just a class. State updates are methods in the class. And the U
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/A5TaaV)
+[View on Railway →](https://railway.com/deploy/A5TaaV)

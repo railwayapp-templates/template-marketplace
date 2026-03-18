@@ -2,7 +2,7 @@
 
 Vitess is a database clustering system for horizontal scaling of MySQL.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fsuTFg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fsuTFg)
 
 ## About
 
@@ -37,4 +37,4 @@ Link: https://vitess.io/docs/19.0/get-started/vttestserver-docker-image
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/fsuTFg)
+[View on Railway →](https://railway.com/deploy/fsuTFg)

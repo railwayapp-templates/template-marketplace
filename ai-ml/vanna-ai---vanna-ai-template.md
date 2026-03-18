@@ -2,7 +2,7 @@
 
 Deploy and Host vanna ai with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vanna-ai-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vanna-ai-template)
 
 ## About
 
@@ -77,4 +77,4 @@ Vanna AI is an open-source Python framework that enables natural language queryi
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/vanna-ai-template)
+[View on Railway →](https://railway.com/deploy/vanna-ai-template)

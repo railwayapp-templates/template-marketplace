@@ -2,7 +2,7 @@
 
 Mini ETL Data Platform - Starting ETL Fast and Easy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rRK6Ge)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rRK6Ge)
 
 ## About
 
@@ -50,4 +50,4 @@ Checkout and star the git repository at: https://github.com/longbuivan/datapods-
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/rRK6Ge)
+[View on Railway →](https://railway.com/deploy/rRK6Ge)

@@ -2,7 +2,7 @@
 
 Homarr [Mar ’26] (Customizable Dashboard & App Integrations) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/homarr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/homarr)
 
 ## About
 
@@ -35,4 +35,4 @@ When you deploy Homarr on **Railway**, all the heavy lifting—like server setup
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/homarr)
+[View on Railway →](https://railway.com/deploy/homarr)

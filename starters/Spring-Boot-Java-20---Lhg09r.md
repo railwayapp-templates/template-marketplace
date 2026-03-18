@@ -2,7 +2,7 @@
 
 A Spring Boot starter for Java 20.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Lhg09r)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Lhg09r)
 
 ## About
 
@@ -36,4 +36,4 @@ To read more about Spring Boot, visit the (Spring Boot Learn page)[https://sprin
 
 **Category:** Starters · **Languages:** Java, CSS, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/Lhg09r)
+[View on Railway →](https://railway.com/deploy/Lhg09r)

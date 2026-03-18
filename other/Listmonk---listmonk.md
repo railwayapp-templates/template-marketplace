@@ -2,7 +2,7 @@
 
 Self-hosted newsletter and mailing list manager
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/listmonk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/listmonk)
 
 ## About
 
@@ -50,4 +50,4 @@ Hosting Listmonk gives you access to a complete email marketing platform that ma
 
 **Category:** Other · **Tags:** newsletter, mailing list, golang · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/listmonk)
+[View on Railway →](https://railway.com/deploy/listmonk)

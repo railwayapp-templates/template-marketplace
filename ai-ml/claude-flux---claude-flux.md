@@ -2,7 +2,7 @@
 
 Your personal AI assistant on Telegram, powered by Claude, runs on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/claude-flux)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/claude-flux)
 
 ## About
 
@@ -84,4 +84,4 @@ Claude Flux is a self-hosted AI assistant that runs inside Telegram, powered by 
 
 **Category:** AI/ML · **Languages:** TypeScript, Shell, PLpgSQL, Dockerfile
 
-[View on Railway →](https://railway.com/template/claude-flux)
+[View on Railway →](https://railway.com/deploy/claude-flux)

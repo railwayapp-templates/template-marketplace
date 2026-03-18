@@ -2,7 +2,7 @@
 
 Pocketbase + Stripe | FastPocket Freebie
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/izeSvS)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/izeSvS)
 
 ## About
 
@@ -40,4 +40,4 @@ Use a prebuilt next.js frontend if it takes your fancy by purchasing https://fas
 
 **Category:** Starters · **Languages:** Go, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/izeSvS)
+[View on Railway →](https://railway.com/deploy/izeSvS)

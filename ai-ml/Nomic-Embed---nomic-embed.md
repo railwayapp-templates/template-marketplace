@@ -2,7 +2,7 @@
 
 Generate high-quality text embeddings with Google's best model
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nomic-embed)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nomic-embed)
 
 ## About
 
@@ -39,4 +39,4 @@ The deployment handles long-form document processing, semantic similarity comput
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/nomic-embed)
+[View on Railway →](https://railway.com/deploy/nomic-embed)

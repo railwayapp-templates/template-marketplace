@@ -2,7 +2,7 @@
 
 Deploy and Host n8n-latest with Railway [Updated Jan'26]
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-latest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-latest)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting n8n-latest on Railway allows you to run powerful workflow automation in 
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/n8n-latest)
+[View on Railway →](https://railway.com/deploy/n8n-latest)

@@ -2,7 +2,7 @@
 
 AI-powered RSS reader that helps you read less and learn more
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rundown-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rundown-1)
 
 ## About
 
@@ -41,4 +41,4 @@ Hosting **rundown** on Railway involves deploying multiple services working toge
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/rundown-1)
+[View on Railway →](https://railway.com/deploy/rundown-1)

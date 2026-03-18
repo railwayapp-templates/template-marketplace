@@ -2,7 +2,7 @@
 
 A minimal Deno 2 web server starter template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/CAPR-V)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/CAPR-V)
 
 ## About
 
@@ -29,4 +29,4 @@ GitHub repo: https://github.com/rares04/deno2-web-server-template
 
 **Category:** Starters · **Languages:** HTML, TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/CAPR-V)
+[View on Railway →](https://railway.com/deploy/CAPR-V)

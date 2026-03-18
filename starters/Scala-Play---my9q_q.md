@@ -2,7 +2,7 @@
 
 A simple Play framework app connected to a Postgres database.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/my9q_q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/my9q_q)
 
 ## About
 
@@ -48,4 +48,4 @@ Built on Pekko (Play 3) and Akka (Play 2), Play provides predictable and minimal
 
 **Category:** Starters · **Languages:** Scala, HTML
 
-[View on Railway →](https://railway.com/template/my9q_q)
+[View on Railway →](https://railway.com/deploy/my9q_q)

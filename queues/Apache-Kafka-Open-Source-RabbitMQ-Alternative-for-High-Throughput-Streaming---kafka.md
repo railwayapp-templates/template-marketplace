@@ -2,7 +2,7 @@
 
 Self-host Kafka with KRaft mode, pub/sub, log replay, Flink/Spark-ready
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kafka)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kafka)
 
 ## About
 
@@ -49,4 +49,4 @@ Key features:
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/kafka)
+[View on Railway →](https://railway.com/deploy/kafka)

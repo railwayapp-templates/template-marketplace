@@ -2,7 +2,7 @@
 
 Open-Source Subscription Billing & Payments Platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/oeQY9c)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oeQY9c)
 
 ## About
 
@@ -41,4 +41,4 @@ Please contact beuz at discord if something's not working properly and I'll try 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/oeQY9c)
+[View on Railway →](https://railway.com/deploy/oeQY9c)

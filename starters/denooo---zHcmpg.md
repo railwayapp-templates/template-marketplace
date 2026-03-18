@@ -2,7 +2,7 @@
 
 The sleek, feature-rich module registry for Deno. 📦
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zHcmpg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zHcmpg)
 
 ## About
 
@@ -30,4 +30,4 @@ Click on the button below to get started right away:
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/zHcmpg)
+[View on Railway →](https://railway.com/deploy/zHcmpg)

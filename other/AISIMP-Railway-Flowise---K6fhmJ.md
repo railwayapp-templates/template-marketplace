@@ -2,7 +2,7 @@
 
 Deploying Flowise with Password and Username
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/K6fhmJ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/K6fhmJ)
 
 ## About
 
@@ -36,4 +36,4 @@ you can then easily change them in the Flowise environment
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/K6fhmJ)
+[View on Railway →](https://railway.com/deploy/K6fhmJ)

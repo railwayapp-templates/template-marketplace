@@ -2,7 +2,7 @@
 
 Deploy and Host natural-passion with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/natural-passion-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/natural-passion-1)
 
 ## About
 
@@ -51,4 +51,4 @@ This project hosts three essential services. The Evolution API serves as the mes
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/natural-passion-1)
+[View on Railway →](https://railway.com/deploy/natural-passion-1)

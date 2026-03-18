@@ -2,7 +2,7 @@
 
 Open Source & Self-Hosted uptime monitoring tool (with postgres)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/peekaping-postgres)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/peekaping-postgres)
 
 ## About
 
@@ -28,4 +28,4 @@ On Railway, you deploy Peekaping as a containerized service and attach a databas
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/peekaping-postgres)
+[View on Railway →](https://railway.com/deploy/peekaping-postgres)

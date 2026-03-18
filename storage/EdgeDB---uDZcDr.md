@@ -2,7 +2,7 @@
 
 EdgeDB template based on their Docker deployment guide
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uDZcDr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uDZcDr)
 
 ## About
 
@@ -37,4 +37,4 @@ There are a few additional environment variables that you can configure:
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/uDZcDr)
+[View on Railway →](https://railway.com/deploy/uDZcDr)

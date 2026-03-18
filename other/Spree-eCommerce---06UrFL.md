@@ -2,7 +2,7 @@
 
 Ready-to-use Spree Commerce store with admin dashboard
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/06UrFL)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/06UrFL)
 
 ## About
 
@@ -129,4 +129,4 @@ For issues with:
 
 **Category:** Other · **Languages:** Ruby, HTML, SCSS, Dockerfile, JavaScript, CSS, Shell, Procfile
 
-[View on Railway →](https://railway.com/template/06UrFL)
+[View on Railway →](https://railway.com/deploy/06UrFL)

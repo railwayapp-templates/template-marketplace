@@ -2,7 +2,7 @@
 
 [Mar '26] Host a PostgreSQL database with vector support in under 1 minute
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgres-with-pgvector-engine)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-with-pgvector-engine)
 
 ## About
 
@@ -37,4 +37,4 @@ This template gives you a production-ready PostgreSQL instance with the pgVector
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/postgres-with-pgvector-engine)
+[View on Railway →](https://railway.com/deploy/postgres-with-pgvector-engine)

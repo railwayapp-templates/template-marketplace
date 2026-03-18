@@ -2,7 +2,7 @@
 
 MindsDB is the platform for building AI from enterprise data
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/otiqwz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/otiqwz)
 
 ## About
 
@@ -33,4 +33,4 @@ If you experience any issues related to MKL or your training process does not co
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/otiqwz)
+[View on Railway →](https://railway.com/deploy/otiqwz)

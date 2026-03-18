@@ -2,7 +2,7 @@
 
 Temporal is an open-source durable execution platform for scalable apps
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/temporalio)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/temporalio)
 
 ## About
 
@@ -65,4 +65,4 @@ Hosting Temporal involves deploying five interconnected services: the Temporal S
 
 **Category:** Queues · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/temporalio)
+[View on Railway →](https://railway.com/deploy/temporalio)

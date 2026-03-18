@@ -2,7 +2,7 @@
 
 A template for testing things
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/QmwYS5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/QmwYS5)
 
 ## About
 
@@ -47,4 +47,4 @@ A very good description. A very good description. A very good description. A ver
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/QmwYS5)
+[View on Railway →](https://railway.com/deploy/QmwYS5)

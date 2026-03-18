@@ -2,7 +2,7 @@
 
 Deploy and host coding agents (opencode/claude code/codex) on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/background-agent)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/background-agent)
 
 ## About
 
@@ -52,4 +52,4 @@ You'll configure two public hostnames: one for the API/dashboard and one dedicat
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, Dockerfile, Shell, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/background-agent)
+[View on Railway →](https://railway.com/deploy/background-agent)

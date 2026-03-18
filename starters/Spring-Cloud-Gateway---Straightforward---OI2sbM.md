@@ -2,7 +2,7 @@
 
 Deploy a Spring Cloud Gateway instance. Easily integrated with Eureka
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OI2sbM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OI2sbM)
 
 ## About
 
@@ -51,4 +51,4 @@ In essence, Spring Cloud Gateway is an indispensable tool for developers looking
 
 **Category:** Starters · **Languages:** Dockerfile, Java
 
-[View on Railway →](https://railway.com/template/OI2sbM)
+[View on Railway →](https://railway.com/deploy/OI2sbM)

@@ -2,7 +2,7 @@
 
 A basic Discord bot written in JavaScript
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jX0xQo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jX0xQo)
 
 ## About
 
@@ -42,4 +42,4 @@ discord.js is a powerful�**[Node.js](https://nodejs.org/)** module that allows
 
 **Category:** Bots · **Tags:** discord, javascript · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/jX0xQo)
+[View on Railway →](https://railway.com/deploy/jX0xQo)

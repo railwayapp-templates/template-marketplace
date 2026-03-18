@@ -2,7 +2,7 @@
 
 Sveltekit starter template with essentials util
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n2VG0v)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n2VG0v)
 
 ## About
 
@@ -40,4 +40,4 @@ A clean and modern starter template for building web applications using SvelteKi
 
 **Category:** Starters · **Languages:** JavaScript, TypeScript, HTML, Svelte, CSS
 
-[View on Railway →](https://railway.com/template/n2VG0v)
+[View on Railway →](https://railway.com/deploy/n2VG0v)

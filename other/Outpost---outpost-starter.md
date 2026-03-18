@@ -2,7 +2,7 @@
 
 Send webhooks to HTTP endpoints and directly to message queues
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/outpost-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/outpost-starter)
 
 ## About
 
@@ -70,4 +70,4 @@ Read the [getting started with Outpost and Railway guide](https://outpost.hookde
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/outpost-starter)
+[View on Railway →](https://railway.com/deploy/outpost-starter)

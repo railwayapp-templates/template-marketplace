@@ -2,7 +2,7 @@
 
 🕵️‍♂️ All-in-one OSINT tool for analysing any website
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7Cspyb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7Cspyb)
 
 ## About
 
@@ -181,4 +181,4 @@ It's often useful to check the robots.txt file during an investigation, as it ca
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/7Cspyb)
+[View on Railway →](https://railway.com/deploy/7Cspyb)

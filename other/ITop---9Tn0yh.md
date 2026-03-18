@@ -2,7 +2,7 @@
 
 Open source ITIL ITSM CMDB Software
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/9Tn0yh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9Tn0yh)
 
 ## About
 
@@ -44,4 +44,4 @@ Links:
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/9Tn0yh)
+[View on Railway →](https://railway.com/deploy/9Tn0yh)

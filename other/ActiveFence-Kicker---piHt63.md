@@ -2,7 +2,7 @@
 
 An endpoint for kicking users with the ActiveFence extension.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/piHt63)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/piHt63)
 
 ## About
 
@@ -59,4 +59,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 **Category:** Other · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/piHt63)
+[View on Railway →](https://railway.com/deploy/piHt63)

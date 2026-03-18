@@ -2,7 +2,7 @@
 
 A minimal Streamlit application
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/SyDUOJ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/SyDUOJ)
 
 ## About
 
@@ -41,4 +41,4 @@ This example is set up to use Nixpacks to build and run the app on [Railway Plat
 
 **Category:** AI/ML · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/SyDUOJ)
+[View on Railway →](https://railway.com/deploy/SyDUOJ)

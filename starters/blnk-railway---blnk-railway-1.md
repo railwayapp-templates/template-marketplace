@@ -2,7 +2,7 @@
 
 One-click deployment of Blnk in Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/blnk-railway-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/blnk-railway-1)
 
 ## About
 
@@ -61,4 +61,4 @@ Hosting blnk-railway on Railway means running Blnk Core as one or more Railway s
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/blnk-railway-1)
+[View on Railway →](https://railway.com/deploy/blnk-railway-1)

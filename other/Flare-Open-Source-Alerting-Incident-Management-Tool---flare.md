@@ -2,7 +2,7 @@
 
 Flare (Monitor Systems & Send Smart Alerts) Self Host [Mar ’26]
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flare)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flare)
 
 ## About
 
@@ -45,4 +45,4 @@ When you deploy Flare on Railway, you gain:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/flare)
+[View on Railway →](https://railway.com/deploy/flare)

@@ -2,7 +2,7 @@
 
 The API server for ente photos & auth (2fa). 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/O5gHP2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/O5gHP2)
 
 ## About
 
@@ -92,4 +92,4 @@ You can enable shared folders with a self-hosted instance. However, for simplici
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/O5gHP2)
+[View on Railway →](https://railway.com/deploy/O5gHP2)

@@ -2,7 +2,7 @@
 
 Debian terminal accessible via web browser.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/debian-linux)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/debian-linux)
 
 ## About
 
@@ -32,4 +32,4 @@ Railway provides free tier hosting with:
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/debian-linux)
+[View on Railway →](https://railway.com/deploy/debian-linux)

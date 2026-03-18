@@ -2,7 +2,7 @@
 
 Create chatbots with ease
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/TXdjD7)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TXdjD7)
 
 ## About
 
@@ -56,4 +56,4 @@ Hosting Dialoqbase involves setting up a stack that includes PostgreSQL for data
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/TXdjD7)
+[View on Railway →](https://railway.com/deploy/TXdjD7)

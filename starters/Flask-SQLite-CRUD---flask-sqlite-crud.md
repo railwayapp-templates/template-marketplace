@@ -2,7 +2,7 @@
 
 A Flask + SQLite CRUD app: Search, filter, status toggle, edit & JSON API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flask-sqlite-crud)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flask-sqlite-crud)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting Flask SQLite CRUD involves running a Python WSGI server (Gunicorn) that 
 
 **Category:** Starters · **Languages:** HTML, Python
 
-[View on Railway →](https://railway.com/template/flask-sqlite-crud)
+[View on Railway →](https://railway.com/deploy/flask-sqlite-crud)

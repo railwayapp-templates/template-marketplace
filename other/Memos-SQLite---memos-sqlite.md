@@ -2,7 +2,7 @@
 
 An open-source, self-hosted note-taking service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/memos-sqlite)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/memos-sqlite)
 
 ## About
 
@@ -31,4 +31,4 @@ Memos is designed for effortless self-hosting. The entire application is a singl
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/memos-sqlite)
+[View on Railway →](https://railway.com/deploy/memos-sqlite)

@@ -2,7 +2,7 @@
 
 Cloudflare Tunnel Local Config Managed + Prometheus Metrics
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cIsLIC)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cIsLIC)
 
 ## About
 
@@ -81,4 +81,4 @@ Once the DNS records are created you should now be able to go to your domain and
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/cIsLIC)
+[View on Railway →](https://railway.com/deploy/cIsLIC)

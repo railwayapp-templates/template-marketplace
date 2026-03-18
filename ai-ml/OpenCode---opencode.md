@@ -2,7 +2,7 @@
 
 always-on autonomous AI coding agent.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/opencode)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opencode)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting OpenCode on Railway gives you a persistent, always-on AI coding assistan
 
 **Category:** AI/ML · **Languages:** JavaScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/opencode)
+[View on Railway →](https://railway.com/deploy/opencode)

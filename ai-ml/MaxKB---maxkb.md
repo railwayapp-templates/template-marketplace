@@ -2,7 +2,7 @@
 
 Open-source platform for building enterprise-grade agents
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/maxkb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/maxkb)
 
 ## About
 
@@ -23,4 +23,4 @@ Hosting MaxKB involves setting up the platform to handle AI-driven processes inc
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/maxkb)
+[View on Railway →](https://railway.com/deploy/maxkb)

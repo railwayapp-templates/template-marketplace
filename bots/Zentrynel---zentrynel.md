@@ -2,7 +2,7 @@
 
 Deploy and Host Zentrynel with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zentrynel)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zentrynel)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting Zentrynel on Railway is straightforward. The bot runs as a Docker contai
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/zentrynel)
+[View on Railway →](https://railway.com/deploy/zentrynel)

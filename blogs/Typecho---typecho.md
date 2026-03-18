@@ -2,7 +2,7 @@
 
 Typecho with nightly-php7.4-apache
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/typecho)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/typecho)
 
 ## About
 
@@ -43,4 +43,4 @@ Typecho with official docker image nightly-php7.4-apache.
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/typecho)
+[View on Railway →](https://railway.com/deploy/typecho)

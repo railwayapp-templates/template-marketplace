@@ -2,7 +2,7 @@
 
 An open-source video transcoder.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/indNPy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/indNPy)
 
 ## About
 
@@ -33,4 +33,4 @@ Handbrake is a popular open-source video transcoder for Windows, Mac, and Linux.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/indNPy)
+[View on Railway →](https://railway.com/deploy/indNPy)

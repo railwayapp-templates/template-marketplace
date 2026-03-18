@@ -2,7 +2,7 @@
 
 JupyterLab [Mar ’26] (Code, Analyze & Visualize Data Easily) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/latest-jupyterlab)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/latest-jupyterlab)
 
 ## About
 
@@ -35,4 +35,4 @@ Self-hosting JupyterLab on Railway means you get your own, private, cloud-based 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/latest-jupyterlab)
+[View on Railway →](https://railway.com/deploy/latest-jupyterlab)

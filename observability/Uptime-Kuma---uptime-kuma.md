@@ -2,7 +2,7 @@
 
 Self-hosted uptime monitoring with alerts and a status page
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uptime-kuma)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uptime-kuma)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting Uptime Kuma on Railway provisions a single containerized service running
 
 **Category:** Observability · **Languages:** Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/uptime-kuma)
+[View on Railway →](https://railway.com/deploy/uptime-kuma)

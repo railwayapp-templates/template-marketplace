@@ -2,7 +2,7 @@
 
 Deploy your own minecraft server on spigot
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Fm2T4D)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Fm2T4D)
 
 ## About
 
@@ -35,4 +35,4 @@ Features:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/Fm2T4D)
+[View on Railway →](https://railway.com/deploy/Fm2T4D)

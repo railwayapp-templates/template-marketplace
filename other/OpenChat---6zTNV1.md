@@ -2,7 +2,7 @@
 
 100% Open Source alternative to WhatsApp
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6zTNV1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6zTNV1)
 
 ## About
 
@@ -47,4 +47,4 @@ Experience a chat app that truly gives you control. OpenChat – open-source, op
 
 **Category:** Other · **Languages:** JavaScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/6zTNV1)
+[View on Railway →](https://railway.com/deploy/6zTNV1)

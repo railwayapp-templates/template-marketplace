@@ -2,7 +2,7 @@
 
 Install Magento Version 2.4.7 + Elasticsearch
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/magento-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/magento-1)
 
 ## About
 
@@ -56,4 +56,4 @@ Hosting Magento 2 involves running a PHP application (Nginx + PHP-FPM), a MySQL-
 
 **Category:** CMS · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/magento-1)
+[View on Railway →](https://railway.com/deploy/magento-1)

@@ -2,7 +2,7 @@
 
 Kali linux machine that you can ssh into.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kali-linux-ssh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kali-linux-ssh)
 
 ## About
 
@@ -30,4 +30,4 @@ Deploys the official Kali Linux rolling Docker image with a configured SSH serve
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/kali-linux-ssh)
+[View on Railway →](https://railway.com/deploy/kali-linux-ssh)

@@ -2,7 +2,7 @@
 
 A message queue & streaming server that implements the AMQP 0-9-1 protocol.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/9S4v-Y)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9S4v-Y)
 
 ## About
 
@@ -58,4 +58,4 @@ Read more at [LavinMQ.com](https://lavinmq.com)
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/9S4v-Y)
+[View on Railway →](https://railway.com/deploy/9S4v-Y)

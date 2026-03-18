@@ -2,7 +2,7 @@
 
 Deploy and Host Hummingbird with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hummingbird)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hummingbird)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting Hummingbird means running Swift applications on servers with optimal per
 
 **Category:** Starters · **Languages:** Swift, Dockerfile
 
-[View on Railway →](https://railway.com/template/hummingbird)
+[View on Railway →](https://railway.com/deploy/hummingbird)

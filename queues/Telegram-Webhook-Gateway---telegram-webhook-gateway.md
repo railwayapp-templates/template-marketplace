@@ -2,7 +2,7 @@
 
 Telegram webhook gateway with durable queue and retry support
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/telegram-webhook-gateway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/telegram-webhook-gateway)
 
 ## About
 
@@ -38,4 +38,4 @@ Hosting Telegram Webhook Gateway involves running a lightweight FastAPI service 
 
 **Category:** Queues · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/telegram-webhook-gateway)
+[View on Railway →](https://railway.com/deploy/telegram-webhook-gateway)

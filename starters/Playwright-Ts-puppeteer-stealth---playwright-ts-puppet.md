@@ -2,7 +2,7 @@
 
 Playwright starter template with typescript and puppeteer-stealth
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/playwright-ts-puppet)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/playwright-ts-puppet)
 
 ## About
 
@@ -18,4 +18,4 @@ This template deploys a containerized Playwright automation environment with Typ
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/playwright-ts-puppet)
+[View on Railway →](https://railway.com/deploy/playwright-ts-puppet)

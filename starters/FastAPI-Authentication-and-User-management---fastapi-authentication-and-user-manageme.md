@@ -2,7 +2,7 @@
 
 FastAPI Auth system: JWT tokens, user management, admin panel, frontend.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fastapi-authentication-and-user-manageme)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-authentication-and-user-manageme)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting this service requires a Python runtime and a PostgreSQL database. Railwa
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/fastapi-authentication-and-user-manageme)
+[View on Railway →](https://railway.com/deploy/fastapi-authentication-and-user-manageme)

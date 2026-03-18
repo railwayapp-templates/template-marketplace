@@ -2,7 +2,7 @@
 
 🚀 Database performance testing tool with replication lag measurement
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgresqltimescaledb-load-test)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresqltimescaledb-load-test)
 
 ## About
 
@@ -31,4 +31,4 @@ Deploying this load testing tool on Railway allows you to benchmark your databas
 
 **Category:** Storage · **Languages:** Go, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/postgresqltimescaledb-load-test)
+[View on Railway →](https://railway.com/deploy/postgresqltimescaledb-load-test)

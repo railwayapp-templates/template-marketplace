@@ -2,7 +2,7 @@
 
 Track your personal budget using Actual
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/actual-budget)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/actual-budget)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting Actual is pretty simply, no fancy config needed. After setting up your i
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/actual-budget)
+[View on Railway →](https://railway.com/deploy/actual-budget)

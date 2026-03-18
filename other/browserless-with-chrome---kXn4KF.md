@@ -2,7 +2,7 @@
 
 Browserless with Chrome not Chromium
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kXn4KF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kXn4KF)
 
 ## About
 
@@ -32,4 +32,4 @@ These environment variables configure a secure Browserless server with Chrome fo
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/kXn4KF)
+[View on Railway →](https://railway.com/deploy/kXn4KF)

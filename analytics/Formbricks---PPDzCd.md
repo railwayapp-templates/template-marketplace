@@ -2,7 +2,7 @@
 
 An open source surveys & experience management solution
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/PPDzCd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PPDzCd)
 
 ## About
 
@@ -59,4 +59,4 @@ Formbricks runs as a Next.js application with PostgreSQL backend, requiring Node
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/PPDzCd)
+[View on Railway →](https://railway.com/deploy/PPDzCd)

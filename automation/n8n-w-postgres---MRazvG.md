@@ -2,7 +2,7 @@
 
 Simple n8n deploy. It just works.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/MRazvG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MRazvG)
 
 ## About
 
@@ -53,4 +53,4 @@ Whether you're automating business processes, building internal tools, or connec
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/MRazvG)
+[View on Railway →](https://railway.com/deploy/MRazvG)

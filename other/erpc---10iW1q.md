@@ -2,7 +2,7 @@
 
 Fault-tolerant EVM RPC Proxy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/10iW1q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/10iW1q)
 
 ## About
 
@@ -34,4 +34,4 @@ Check the [docs](https://docs.erpc.cloud/deployment/railway) for deployment inst
 
 **Category:** Other · **Languages:** Shell
 
-[View on Railway →](https://railway.com/template/10iW1q)
+[View on Railway →](https://railway.com/deploy/10iW1q)

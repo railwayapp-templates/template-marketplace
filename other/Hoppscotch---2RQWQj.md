@@ -2,7 +2,7 @@
 
 Open Source API Development Ecosystem
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/2RQWQj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/2RQWQj)
 
 ## About
 
@@ -334,4 +334,4 @@ _Official proxy server is hosted by Hoppscotch - **[GitHub](https://github.com/h
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/2RQWQj)
+[View on Railway →](https://railway.com/deploy/2RQWQj)

@@ -2,7 +2,7 @@
 
 Novu [Mar ’26] (Multi Notification System for Email, SMS, Push) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/novu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/novu)
 
 ## About
 
@@ -84,4 +84,4 @@ Self hosting Novu gives you full control over your infrastructure and ensures yo
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/novu)
+[View on Railway →](https://railway.com/deploy/novu)

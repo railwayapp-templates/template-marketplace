@@ -2,7 +2,7 @@
 
 The open-source project management alternative to Trello.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kanbn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kanbn)
 
 ## About
 
@@ -96,4 +96,4 @@ Once both services are running:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/kanbn)
+[View on Railway →](https://railway.com/deploy/kanbn)

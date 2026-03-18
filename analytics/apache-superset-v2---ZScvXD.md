@@ -2,7 +2,7 @@
 
 An open-source modern data exploration and visualization platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZScvXD)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZScvXD)
 
 ## About
 
@@ -36,4 +36,4 @@ Access the Superset UI and start building your dashboards.
 
 **Category:** Analytics · **Languages:** Dockerfile, Shell, Python
 
-[View on Railway →](https://railway.com/template/ZScvXD)
+[View on Railway →](https://railway.com/deploy/ZScvXD)

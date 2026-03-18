@@ -2,7 +2,7 @@
 
 Flipt [Mar’26] (Feature Flags, LaunchDarkly & Unleash alternative) Selfhost
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flipt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flipt)
 
 ## About
 
@@ -49,4 +49,4 @@ You can **self host Flipt** to manage all your feature flags and configurations 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/flipt)
+[View on Railway →](https://railway.com/deploy/flipt)

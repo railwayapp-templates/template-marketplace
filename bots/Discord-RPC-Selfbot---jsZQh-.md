@@ -2,7 +2,7 @@
 
 A Discord Selfbot for Custom Rich Presence
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jsZQh-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jsZQh-)
 
 ## About
 
@@ -82,4 +82,4 @@ TOKEN=""
 
 **Category:** Bots · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/jsZQh-)
+[View on Railway →](https://railway.com/deploy/jsZQh-)

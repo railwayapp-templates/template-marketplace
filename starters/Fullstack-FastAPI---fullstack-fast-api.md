@@ -2,7 +2,7 @@
 
 Fullstack FastAPI template optimized for Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fullstack-fast-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fullstack-fast-api)
 
 ## About
 
@@ -65,4 +65,4 @@ FastAPI full-stack applications combine high-performance Python backends with mo
 
 **Category:** Starters · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/fullstack-fast-api)
+[View on Railway →](https://railway.com/deploy/fullstack-fast-api)

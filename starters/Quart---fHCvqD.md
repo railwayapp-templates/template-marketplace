@@ -2,7 +2,7 @@
 
 Quart is an async reimplementation of the popular Flask microframework API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fHCvqD)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fHCvqD)
 
 ## About
 
@@ -24,4 +24,4 @@ Quart is developed on [Github](https://github.com/pallets/quart). If you come ac
 
 **Category:** Starters · **Languages:** Python, CSS, HTML
 
-[View on Railway →](https://railway.com/template/fHCvqD)
+[View on Railway →](https://railway.com/deploy/fHCvqD)

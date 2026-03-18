@@ -2,7 +2,7 @@
 
 A lightweight web app for scheduling HTTP requests
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/simple-http-cron)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/simple-http-cron)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting Simple HTTP Cron on Railway involves deploying a single Node.js (Express
 
 **Category:** Automation · **Languages:** HTML, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/simple-http-cron)
+[View on Railway →](https://railway.com/deploy/simple-http-cron)

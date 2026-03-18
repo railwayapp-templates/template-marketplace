@@ -2,7 +2,7 @@
 
 Drizzle Studio [Mar ’26] (Manage DB Schemas & Queries Easily) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/drizzle)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/drizzle)
 
 ## About
 
@@ -33,4 +33,4 @@ Railway makes the hosting process effortless. It eliminates the need for manual 
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/drizzle)
+[View on Railway →](https://railway.com/deploy/drizzle)

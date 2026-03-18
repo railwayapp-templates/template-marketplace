@@ -2,7 +2,7 @@
 
 Prometheus Blackbox Exporter — probe HTTP, TCP, DNS endpoints
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/prometheus-blackbox-exporter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/prometheus-blackbox-exporter)
 
 ## About
 
@@ -87,4 +87,4 @@ Prometheus Blackbox Exporter actively probes HTTP, HTTPS, TCP, DNS, and ICMP end
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/prometheus-blackbox-exporter)
+[View on Railway →](https://railway.com/deploy/prometheus-blackbox-exporter)

@@ -2,7 +2,7 @@
 
 Next.js frontend with Apollo Client already configured to use with GraphQL.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/y1l7kq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/y1l7kq)
 
 ## About
 
@@ -28,4 +28,4 @@ Check out the backend service here: https://railway.app/template/vCAGzF?referral
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/y1l7kq)
+[View on Railway →](https://railway.com/deploy/y1l7kq)

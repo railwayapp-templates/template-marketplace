@@ -2,7 +2,7 @@
 
 A quick setup for PostgreSQL including the Wal2Json Plugin in the template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FcaxSv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FcaxSv)
 
 ## About
 
@@ -41,4 +41,4 @@ Depending on configuration, UPDATE and DELETE operations can include previous ro
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/FcaxSv)
+[View on Railway →](https://railway.com/deploy/FcaxSv)

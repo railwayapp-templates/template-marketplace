@@ -2,7 +2,7 @@
 
 Store, organise, and manage your code snippets efficiently
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HzkYqa)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HzkYqa)
 
 ## About
 
@@ -27,4 +27,4 @@ ByteStash is open source web application designed to store, organise, and manage
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/HzkYqa)
+[View on Railway →](https://railway.com/deploy/HzkYqa)

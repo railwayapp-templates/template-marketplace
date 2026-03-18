@@ -2,7 +2,7 @@
 
 Fastest, smallest, and fully autonomous AI assistant infrastructure.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nullclaw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nullclaw)
 
 ## About
 
@@ -33,4 +33,4 @@ NullClaw runs as a persistent gateway that routes incoming messages through your
 
 **Category:** Automation · **Languages:** Zig, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/nullclaw)
+[View on Railway →](https://railway.com/deploy/nullclaw)

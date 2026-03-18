@@ -2,7 +2,7 @@
 
 Backend Infrastructure for the Ethereum Follow Protocol
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pDGEZm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pDGEZm)
 
 ## About
 
@@ -116,4 +116,4 @@ https://docs.ethfollow.xyz/production/silo
 
 **Category:** Other · **Languages:** PLpgSQL, TypeScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/pDGEZm)
+[View on Railway →](https://railway.com/deploy/pDGEZm)

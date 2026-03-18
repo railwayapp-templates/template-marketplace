@@ -2,7 +2,7 @@
 
 To power websites, blogs, or portfolios from small to enterprise.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7fbyq-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7fbyq-)
 
 ## About
 
@@ -113,4 +113,4 @@ Leave a ⭐ if you like this project.
 
 **Category:** CMS · **Languages:** Dockerfile, TypeScript, JavaScript, CSS, SCSS
 
-[View on Railway →](https://railway.com/template/7fbyq-)
+[View on Railway →](https://railway.com/deploy/7fbyq-)

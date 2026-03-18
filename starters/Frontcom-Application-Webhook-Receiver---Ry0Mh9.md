@@ -2,7 +2,7 @@
 
 Application Webhook receiver for Front
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Ry0Mh9)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Ry0Mh9)
 
 ## About
 
@@ -43,4 +43,4 @@ This template provides a robust foundation for handling events received from an 
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/Ry0Mh9)
+[View on Railway →](https://railway.com/deploy/Ry0Mh9)

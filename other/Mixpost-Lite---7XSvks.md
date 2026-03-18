@@ -2,7 +2,7 @@
 
 For individuals needing essential social media management tool.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7XSvks)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7XSvks)
 
 ## About
 
@@ -48,4 +48,4 @@ Engagement Tracking:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/7XSvks)
+[View on Railway →](https://railway.com/deploy/7XSvks)

@@ -2,7 +2,7 @@
 
 Unite your frontend and serverpod backend under one domain
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fiqpE3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fiqpE3)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosts your frontend at `/*`,backend at `/api/*` while still preserving /v1/webso
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/fiqpE3)
+[View on Railway →](https://railway.com/deploy/fiqpE3)

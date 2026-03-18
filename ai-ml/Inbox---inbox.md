@@ -2,7 +2,7 @@
 
 Dead-simple todo manager for AI agents. SQLite + MCP, nothing else.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/inbox)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/inbox)
 
 ## About
 
@@ -31,4 +31,4 @@ Inbox runs as a single Python process with an embedded SQLite database — no ex
 
 **Category:** AI/ML · **Languages:** Python, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/inbox)
+[View on Railway →](https://railway.com/deploy/inbox)

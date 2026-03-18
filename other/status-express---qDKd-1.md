@@ -2,7 +2,7 @@
 
 A webhook that converts railway events into a readable discord message
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qDKd-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qDKd-1)
 
 ## About
 
@@ -48,4 +48,4 @@ DISCORD_WEBHOOK_URL=your_discord_webhook_url_here
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/qDKd-1)
+[View on Railway →](https://railway.com/deploy/qDKd-1)

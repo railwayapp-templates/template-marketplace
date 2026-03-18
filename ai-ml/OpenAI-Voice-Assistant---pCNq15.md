@@ -2,7 +2,7 @@
 
 Extensible voice assistant template built with the Realtime API and FastAPI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pCNq15)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pCNq15)
 
 ## About
 
@@ -34,4 +34,4 @@ Works best in Chrome, Edge and Safari. Firefox WebRTC performance is not great a
 
 **Category:** AI/ML · **Languages:** JavaScript, Python, HTML
 
-[View on Railway →](https://railway.com/template/pCNq15)
+[View on Railway →](https://railway.com/deploy/pCNq15)

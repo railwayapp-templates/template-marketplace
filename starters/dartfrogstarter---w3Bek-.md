@@ -2,7 +2,7 @@
 
 A starter project for Dart Frog, a fast, minimal backend framework for Dart
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/w3Bek-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/w3Bek-)
 
 ## About
 
@@ -25,4 +25,4 @@ For more information, check out [how to deploy Dart Frog on Railway](https://dar
 
 **Category:** Starters · **Languages:** Dart, Dockerfile
 
-[View on Railway →](https://railway.com/template/w3Bek-)
+[View on Railway →](https://railway.com/deploy/w3Bek-)

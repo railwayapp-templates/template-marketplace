@@ -2,7 +2,7 @@
 
 Mixpost [Mar ’26] (Plan, Schedule & Manage Social Posts Easily) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mixpost)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mixpost)
 
 ## About
 
@@ -67,4 +67,4 @@ With Railway, you can deploy Mixpost in a single click, removing the hassle of s
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/mixpost)
+[View on Railway →](https://railway.com/deploy/mixpost)

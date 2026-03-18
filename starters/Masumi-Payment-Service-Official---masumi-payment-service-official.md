@@ -2,7 +2,7 @@
 
 Deploy Masumi Payment Service for blockchain-based AI agent payments
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/masumi-payment-service-official)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/masumi-payment-service-official)
 
 ## About
 
@@ -60,4 +60,4 @@ Hosting Masumi Payment Service involves deploying a complete payment infrastruct
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, Aiken, CSS, Shell, Dockerfile, SCSS
 
-[View on Railway →](https://railway.com/template/masumi-payment-service-official)
+[View on Railway →](https://railway.com/deploy/masumi-payment-service-official)

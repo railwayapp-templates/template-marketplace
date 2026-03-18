@@ -2,7 +2,7 @@
 
 A MidJourney Wrapper named DandJourney!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aWVdcq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aWVdcq)
 
 ## About
 
@@ -82,4 +82,4 @@ A MidJourney Wrapper named DandJourney!
 
 **Category:** Bots · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/aWVdcq)
+[View on Railway →](https://railway.com/deploy/aWVdcq)

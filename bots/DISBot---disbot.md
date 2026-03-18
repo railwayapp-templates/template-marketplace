@@ -2,7 +2,7 @@
 
 DISBot is a self-hosted Bot that automates Patreon content distribution.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/disbot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/disbot)
 
 ## About
 
@@ -33,4 +33,4 @@ Deploying DISBot requires a platform capable of running Node.js (v20+) and recei
 
 **Category:** Bots · **Languages:** TypeScript, JavaScript, Shell, Dockerfile, PLpgSQL, Procfile
 
-[View on Railway →](https://railway.com/template/disbot)
+[View on Railway →](https://railway.com/deploy/disbot)

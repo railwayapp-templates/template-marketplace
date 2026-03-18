@@ -2,7 +2,7 @@
 
 Grafana, with a volume attached to keep your configurations around
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hn7jCZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hn7jCZ)
 
 ## About
 
@@ -51,4 +51,4 @@ Widely adopted across industries, Grafana is ideal for infrastructure monitoring
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/hn7jCZ)
+[View on Railway →](https://railway.com/deploy/hn7jCZ)

@@ -2,7 +2,7 @@
 
 OnlyOffice [Mar ’26] (Edit & Collaborate on Docs Securely) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/onlyoffice)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/onlyoffice)
 
 ## About
 
@@ -45,4 +45,4 @@ You can self-host ONLYOFFICE to maintain full ownership and control of your data
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/onlyoffice)
+[View on Railway →](https://railway.com/deploy/onlyoffice)

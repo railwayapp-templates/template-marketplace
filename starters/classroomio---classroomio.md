@@ -2,7 +2,7 @@
 
 Simple & Beautiful Alternative to Moodle LMS, EdX, Thinkific and Teachable
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/classroomio)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/classroomio)
 
 ## About
 
@@ -51,4 +51,4 @@ With this template you can run courses and collaborate with students on your own
 
 **Category:** Starters · **Languages:** Svelte, TypeScript, JavaScript, PLpgSQL, MDX, HTML, CSS, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/classroomio)
+[View on Railway →](https://railway.com/deploy/classroomio)

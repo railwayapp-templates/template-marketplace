@@ -2,7 +2,7 @@
 
 ntfy [Mar ’26] (Send Push Messages via Simple HTTP Calls) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ntfy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ntfy)
 
 ## About
 
@@ -25,4 +25,4 @@ Self-hosting Ntfy on Railway allows you to manage your notification service inde
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ntfy)
+[View on Railway →](https://railway.com/deploy/ntfy)

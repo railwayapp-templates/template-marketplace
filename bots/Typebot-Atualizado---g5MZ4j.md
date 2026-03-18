@@ -2,7 +2,7 @@
 
 Typebot facilita a criação de chatbots avançados.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/g5MZ4j)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/g5MZ4j)
 
 ## About
 
@@ -119,4 +119,4 @@ Construído para desenvolvedores :
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/g5MZ4j)
+[View on Railway →](https://railway.com/deploy/g5MZ4j)

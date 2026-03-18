@@ -2,7 +2,7 @@
 
 Backup your Postgres DB to any S3 storage (Backblaze/Cloudflare)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/eIOwd0)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/eIOwd0)
 
 ## About
 
@@ -34,4 +34,4 @@ Based on [Railway's Postgres S3 Backups](https://github.com/railwayapp-templates
 
 **Category:** Automation · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/eIOwd0)
+[View on Railway →](https://railway.com/deploy/eIOwd0)

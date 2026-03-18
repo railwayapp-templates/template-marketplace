@@ -2,7 +2,7 @@
 
 LibreTranslate is a Free and Open Source Machine Translation API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/libretranslate)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/libretranslate)
 
 ## About
 
@@ -18,4 +18,4 @@ LibreTranslate ships as a containerized web service, so hosting is straightforwa
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/libretranslate)
+[View on Railway →](https://railway.com/deploy/libretranslate)

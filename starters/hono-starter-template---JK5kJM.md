@@ -2,7 +2,7 @@
 
 Quickstart to hono + bun + postgres
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JK5kJM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JK5kJM)
 
 ## About
 
@@ -41,4 +41,4 @@ Make sure to detach the upstream repo and connect to your own to start developin
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/JK5kJM)
+[View on Railway →](https://railway.com/deploy/JK5kJM)

@@ -2,7 +2,7 @@
 
 Livewire starter kit powered by FrankenPHP and MySQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/laravel-starter-kit-livewire-mysql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/laravel-starter-kit-livewire-mysql)
 
 ## About
 
@@ -85,4 +85,4 @@ Hosting Laravel Starter Kit Livewire (MySQL) on Railway provides a complete appl
 
 **Category:** Starters · **Languages:** Blade, PHP, Dockerfile, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/laravel-starter-kit-livewire-mysql)
+[View on Railway →](https://railway.com/deploy/laravel-starter-kit-livewire-mysql)

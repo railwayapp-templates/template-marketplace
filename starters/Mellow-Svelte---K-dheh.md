@@ -2,7 +2,7 @@
 
 A full-stack Svelte app with The Boring JavaScript Stack.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/K-dheh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/K-dheh)
 
 ## About
 
@@ -53,4 +53,4 @@ Also you will need to finish up your deploy by following the docs on setup Redis
 
 **Category:** Starters · **Languages:** JavaScript, EJS, Vue, Svelte, CSS, Shell
 
-[View on Railway →](https://railway.com/template/K-dheh)
+[View on Railway →](https://railway.com/deploy/K-dheh)

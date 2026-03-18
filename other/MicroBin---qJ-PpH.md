@@ -2,7 +2,7 @@
 
 A file-sharing and URL shortening web app written in Rust.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qJ-PpH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qJ-PpH)
 
 ## About
 
@@ -75,4 +75,4 @@ This template is NOT maintained by the team behind PicoShare.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/qJ-PpH)
+[View on Railway →](https://railway.com/deploy/qJ-PpH)

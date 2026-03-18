@@ -2,7 +2,7 @@
 
 Run Firefox Browser on your new tab
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/firefox-cloud)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/firefox-cloud)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting Firefox Cloud on Railway enables you to spin up a cloud-based Firefox in
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/firefox-cloud)
+[View on Railway →](https://railway.com/deploy/firefox-cloud)

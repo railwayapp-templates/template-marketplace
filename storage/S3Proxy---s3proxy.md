@@ -2,7 +2,7 @@
 
 Run S3Proxy instance, can be used to expose s3 bucket to the public
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/s3proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/s3proxy)
 
 ## About
 
@@ -35,4 +35,4 @@ Super easy, just fill the required env vars with the S3 backend you want to conn
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/s3proxy)
+[View on Railway →](https://railway.com/deploy/s3proxy)

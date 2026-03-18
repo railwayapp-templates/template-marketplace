@@ -2,7 +2,7 @@
 
 Web browser automation built for everyone, and loved by developers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0jqemX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0jqemX)
 
 ## About
 
@@ -86,4 +86,4 @@ https://github.com/brody192/playwright-example-python
 
 **Category:** Automation · **Tags:** browser, chrome, automation, testing · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/0jqemX)
+[View on Railway →](https://railway.com/deploy/0jqemX)

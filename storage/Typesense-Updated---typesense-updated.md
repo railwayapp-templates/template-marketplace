@@ -2,7 +2,7 @@
 
 Typesense 30 (RC) – fast, typo-tolerant search, easy stable upgrade
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/typesense-updated)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/typesense-updated)
 
 ## About
 
@@ -34,4 +34,4 @@ Persistent volumes are used to ensure indexed data survives restarts and redeplo
 
 **Category:** Storage · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/typesense-updated)
+[View on Railway →](https://railway.com/deploy/typesense-updated)

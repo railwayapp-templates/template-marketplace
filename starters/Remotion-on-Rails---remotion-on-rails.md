@@ -2,7 +2,7 @@
 
 Effortlessly render and store Remotion videos using Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/remotion-on-rails)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/remotion-on-rails)
 
 ## About
 
@@ -44,4 +44,4 @@ With a single click, you’ll have a fully configured Remotion stack running on 
 
 **Category:** Starters · **Languages:** TypeScript, EJS, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/remotion-on-rails)
+[View on Railway →](https://railway.com/deploy/remotion-on-rails)

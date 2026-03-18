@@ -2,7 +2,7 @@
 
 Deploy BookStack on Railway. Alternative to Notion/Confluence. One click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bookstack-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bookstack-1)
 
 ## About
 
@@ -55,4 +55,4 @@ BookStack listens on **port 80 inside the container**, which must be exposed to 
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/bookstack-1)
+[View on Railway →](https://railway.com/deploy/bookstack-1)

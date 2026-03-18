@@ -2,7 +2,7 @@
 
 A community-driven Matrix homeserver
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/continuwuity)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/continuwuity)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting continuwuity involves running a single stateful binary (or OCI container
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/continuwuity)
+[View on Railway →](https://railway.com/deploy/continuwuity)

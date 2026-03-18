@@ -2,7 +2,7 @@
 
 Self-host Evolution: open-source WhatsApp Business API with full control
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/evolution-api-whatsapp-automation)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evolution-api-whatsapp-automation)
 
 ## About
 
@@ -56,4 +56,4 @@ This template deploys Evolution API (`evoapicloud/evolution-api`) with PostgreSQ
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/evolution-api-whatsapp-automation)
+[View on Railway →](https://railway.com/deploy/evolution-api-whatsapp-automation)

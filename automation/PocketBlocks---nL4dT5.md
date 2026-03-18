@@ -2,7 +2,7 @@
 
 Openblocks + PocketBase; Build internal apps easily 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nL4dT5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nL4dT5)
 
 ## About
 
@@ -33,4 +33,4 @@ Clean design: Follows the principles of Ant Design and supports display on scree
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/nL4dT5)
+[View on Railway →](https://railway.com/deploy/nL4dT5)

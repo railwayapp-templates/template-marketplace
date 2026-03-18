@@ -2,7 +2,7 @@
 
 A Hugo + Congo blog template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hugo-blog)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hugo-blog)
 
 ## About
 
@@ -22,4 +22,4 @@ This template installs Hugo, runs the build with `--baseURL=${RAILWAY_PUBLIC_DOM
 
 **Category:** Blogs · **Languages:** HTML, JavaScript
 
-[View on Railway →](https://railway.com/template/hugo-blog)
+[View on Railway →](https://railway.com/deploy/hugo-blog)

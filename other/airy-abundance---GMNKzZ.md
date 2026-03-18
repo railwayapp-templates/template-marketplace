@@ -2,7 +2,7 @@
 
 Best W.A Bot By Mr Frank OFC
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GMNKzZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GMNKzZ)
 
 ## About
 
@@ -29,4 +29,4 @@ Best W.A Bot By Mr Frank OFC
 
 **Category:** Other · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/GMNKzZ)
+[View on Railway →](https://railway.com/deploy/GMNKzZ)

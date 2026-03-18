@@ -2,7 +2,7 @@
 
 Self-healing open source data connector.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wJg5-W)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wJg5-W)
 
 ## About
 
@@ -71,4 +71,4 @@ If you’re spending a lot of time writing code connecting to weird APIs, fumbli
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/wJg5-W)
+[View on Railway →](https://railway.com/deploy/wJg5-W)

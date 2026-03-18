@@ -2,7 +2,7 @@
 
 FastAPI REST API template with Hypercorn | Ready-to-use starter kit ✅️
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fastapi-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-1)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting FastAPI on [Railway](https://railway.app/) provides a streamlined way to
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/fastapi-1)
+[View on Railway →](https://railway.com/deploy/fastapi-1)

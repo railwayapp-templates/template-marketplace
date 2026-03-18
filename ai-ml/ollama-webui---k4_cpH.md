@@ -2,7 +2,7 @@
 
 Web UI for Ollama, frontend for LLMs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/k4_cpH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/k4_cpH)
 
 ## About
 
@@ -57,4 +57,4 @@ Features ⭐
 
 **Category:** AI/ML · **Languages:** Svelte, Python, TypeScript, JavaScript, CSS, HTML, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/k4_cpH)
+[View on Railway →](https://railway.com/deploy/k4_cpH)

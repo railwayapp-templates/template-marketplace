@@ -2,7 +2,7 @@
 
 Latest apache superset...
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/954W6r)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/954W6r)
 
 ## About
 
@@ -25,4 +25,4 @@ Apache Superset has Docker images for deployment but the setting of the admin us
 
 **Category:** Observability · **Languages:** Dockerfile, Shell, Python
 
-[View on Railway →](https://railway.com/template/954W6r)
+[View on Railway →](https://railway.com/deploy/954W6r)

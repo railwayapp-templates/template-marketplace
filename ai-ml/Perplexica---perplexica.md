@@ -2,7 +2,7 @@
 
 Open source alternative to Perplexity AI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/perplexica)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/perplexica)
 
 ## About
 
@@ -23,4 +23,4 @@ Hosting Perplexica involves deploying a full-stack application that includes bot
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/perplexica)
+[View on Railway →](https://railway.com/deploy/perplexica)

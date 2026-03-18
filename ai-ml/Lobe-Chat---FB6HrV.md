@@ -2,7 +2,7 @@
 
 one-click deploy your private ChatGPT/Cluade/LLMs chatbot application
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FB6HrV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FB6HrV)
 
 ## About
 
@@ -33,4 +33,4 @@ Lobe Chat can be deployed with just one click and completed within 1 minute with
 
 **Category:** AI/ML · **Languages:** TypeScript, HTML, Shell, JavaScript, MDX, PLpgSQL, Dockerfile, CSS, TeX
 
-[View on Railway →](https://railway.com/template/FB6HrV)
+[View on Railway →](https://railway.com/deploy/FB6HrV)

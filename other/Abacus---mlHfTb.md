@@ -2,7 +2,7 @@
 
 A highly-scalable and stateless counting API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mlHfTb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mlHfTb)
 
 ## About
 
@@ -56,4 +56,4 @@ API documentation is available at https://jasoncameron.dev/abacus.
 
 **Category:** Other · **Languages:** Go, JavaScript, Dockerfile, Python
 
-[View on Railway →](https://railway.com/template/mlHfTb)
+[View on Railway →](https://railway.com/deploy/mlHfTb)

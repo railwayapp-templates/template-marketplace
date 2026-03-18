@@ -2,7 +2,7 @@
 
 A federation-compatible GraphQL server implemented in Rust
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1KF0vV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1KF0vV)
 
 ## About
 
@@ -34,4 +34,4 @@ This template is maintained by Apollo, so it will be kept up to date and always 
 
 **Category:** Starters · **Languages:** Rust
 
-[View on Railway →](https://railway.com/template/1KF0vV)
+[View on Railway →](https://railway.com/deploy/1KF0vV)

@@ -2,7 +2,7 @@
 
 🤖 An AI assistant answering questions from your documentation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7ihedX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7ihedX)
 
 ## About
 
@@ -83,4 +83,4 @@ After selecting the integration template, you will need to configure the require
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/7ihedX)
+[View on Railway →](https://railway.com/deploy/7ihedX)

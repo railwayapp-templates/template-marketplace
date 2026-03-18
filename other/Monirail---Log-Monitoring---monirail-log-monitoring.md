@@ -2,7 +2,7 @@
 
 Set up alerting for logs and metrics using a Railway function
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/monirail-log-monitoring)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/monirail-log-monitoring)
 
 ## About
 
@@ -30,4 +30,4 @@ Monitor Railway services and notify your team when issues are detected. This is 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/monirail-log-monitoring)
+[View on Railway →](https://railway.com/deploy/monirail-log-monitoring)

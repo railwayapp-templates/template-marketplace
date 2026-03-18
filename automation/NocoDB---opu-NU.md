@@ -2,7 +2,7 @@
 
 The Open Source Airtable Alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/opu-NU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opu-NU)
 
 ## About
 
@@ -57,4 +57,4 @@ Hosting NocoDB means running a no-code database platform that transforms relatio
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/opu-NU)
+[View on Railway →](https://railway.com/deploy/opu-NU)

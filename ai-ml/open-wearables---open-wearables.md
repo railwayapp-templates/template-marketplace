@@ -2,7 +2,7 @@
 
 Unify wearable health data through one AI-ready API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-wearables)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-wearables)
 
 ## About
 
@@ -85,4 +85,4 @@ open-wearables is a open-source platform that unifies wearable device data from 
 
 **Category:** AI/ML · **Languages:** Python, TypeScript, CSS, Dockerfile, Makefile, Shell, Mako, JavaScript
 
-[View on Railway →](https://railway.com/template/open-wearables)
+[View on Railway →](https://railway.com/deploy/open-wearables)

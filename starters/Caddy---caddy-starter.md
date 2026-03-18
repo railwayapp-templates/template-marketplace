@@ -2,7 +2,7 @@
 
 A static website with automatic HTTPS using a Caddy web server.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/caddy-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/caddy-starter)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting Caddy means running a web server that handles HTTP/HTTPS requests, manag
 
 **Category:** Starters · **Tags:** static site, caddy · **Languages:** HTML, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/caddy-starter)
+[View on Railway →](https://railway.com/deploy/caddy-starter)

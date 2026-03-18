@@ -2,7 +2,7 @@
 
 User-friendly ChatGPT UI alternative designed to operate offline. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/2yb5lj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/2yb5lj)
 
 ## About
 
@@ -33,4 +33,4 @@ This template deploys Open WebUI (formerly Ollama WebUI), an extensible, feature
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/2yb5lj)
+[View on Railway →](https://railway.com/deploy/2yb5lj)

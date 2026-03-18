@@ -2,7 +2,7 @@
 
 Starter for BFF, API Rest and microservice with NestJS
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BOGqHd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BOGqHd)
 
 ## About
 
@@ -45,4 +45,4 @@ Demo: https://nestjs-starter.tresdoce.com.ar/v1/docs
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/BOGqHd)
+[View on Railway →](https://railway.com/deploy/BOGqHd)

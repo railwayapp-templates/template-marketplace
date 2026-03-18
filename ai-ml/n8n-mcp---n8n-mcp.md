@@ -2,7 +2,7 @@
 
 Deploy n8n-mcp to enable AI agents to build and edit n8n workflows
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-mcp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-mcp)
 
 ## About
 
@@ -24,4 +24,4 @@ Hosting n8n-mcp involves deploying a lightweight, stateless HTTP server with a p
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/n8n-mcp)
+[View on Railway →](https://railway.com/deploy/n8n-mcp)

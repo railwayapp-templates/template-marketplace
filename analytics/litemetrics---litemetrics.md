@@ -2,7 +2,7 @@
 
 Open-source, self-hosted analytics SDK
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/litemetrics)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/litemetrics)
 
 ## About
 
@@ -77,4 +77,4 @@ Litemetrics is an open-source, self-hosted web analytics platform. It provides a
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/litemetrics)
+[View on Railway →](https://railway.com/deploy/litemetrics)

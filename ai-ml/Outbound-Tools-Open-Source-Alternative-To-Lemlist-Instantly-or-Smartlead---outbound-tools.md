@@ -2,7 +2,7 @@
 
 Outbound email tools to send, tag, and manage via lightweight IMAP/SMTP
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/outbound-tools)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/outbound-tools)
 
 ## About
 
@@ -26,4 +26,4 @@ Deploying Outbound Tools gives you a hosted server that connects to your Mailpoo
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS
 
-[View on Railway →](https://railway.com/template/outbound-tools)
+[View on Railway →](https://railway.com/deploy/outbound-tools)

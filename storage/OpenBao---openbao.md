@@ -2,7 +2,7 @@
 
 Manage, store, and distribute sensitive data.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openbao)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openbao)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting OpenBao involves setting up the necessary infrastructure to support its 
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/openbao)
+[View on Railway →](https://railway.com/deploy/openbao)

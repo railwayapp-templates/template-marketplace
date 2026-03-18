@@ -2,7 +2,7 @@
 
 Deploy and Host Strapi with Cloudflare R2 on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/strapi-with-cloudflare-r2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/strapi-with-cloudflare-r2)
 
 ## About
 
@@ -49,4 +49,4 @@ Hosting Strapi with Cloudflare R2 on Railway allows you to deploy a production-r
 
 **Category:** CMS · **Languages:** TypeScript, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/strapi-with-cloudflare-r2)
+[View on Railway →](https://railway.com/deploy/strapi-with-cloudflare-r2)

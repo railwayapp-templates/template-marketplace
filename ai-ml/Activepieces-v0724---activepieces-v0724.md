@@ -2,7 +2,7 @@
 
 Open source no-code AI automation (alternative to n8n)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/activepieces-v0724)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/activepieces-v0724)
 
 ## About
 
@@ -58,4 +58,4 @@ Hosting Activepieces provides a robust solution for automating tasks and integra
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/activepieces-v0724)
+[View on Railway →](https://railway.com/deploy/activepieces-v0724)

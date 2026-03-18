@@ -2,7 +2,7 @@
 
 Security-hardened always-on OpenClaw AI personal assistant
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-railway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-railway)
 
 ## About
 
@@ -67,4 +67,4 @@ The progressive tier system lets you unlock more capabilities — from basic cha
 
 **Category:** AI/ML · **Languages:** Shell, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/openclaw-railway)
+[View on Railway →](https://railway.com/deploy/openclaw-railway)

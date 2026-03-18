@@ -2,7 +2,7 @@
 
 A minimal Flask application
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zUcpux)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zUcpux)
 
 ## About
 
@@ -33,4 +33,4 @@ Flask is a micro web framework written in Python. It is classified as a microfra
 
 **Category:** Starters · **Tags:** flask, python
 
-[View on Railway →](https://railway.com/template/zUcpux)
+[View on Railway →](https://railway.com/deploy/zUcpux)

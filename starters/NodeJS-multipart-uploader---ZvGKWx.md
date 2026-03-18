@@ -2,7 +2,7 @@
 
 Multipart Upload Manager for uploads to AWS S3
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZvGKWx)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZvGKWx)
 
 ## About
 
@@ -42,4 +42,4 @@ This starter is meant to work in conjunction with a client application or script
 
 **Category:** Starters · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/ZvGKWx)
+[View on Railway →](https://railway.com/deploy/ZvGKWx)

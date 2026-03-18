@@ -2,7 +2,7 @@
 
 Production infrastructure for Nestled.js
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nestledjs-setup-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nestledjs-setup-template)
 
 ## About
 
@@ -111,4 +111,4 @@ Nestled.js is a production-ready NestJS + React starter template with authentica
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/nestledjs-setup-template)
+[View on Railway →](https://railway.com/deploy/nestledjs-setup-template)

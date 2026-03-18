@@ -2,7 +2,7 @@
 
 [Updated Mar '26] Deploy and Host N8N with Workers with one click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-with-workers-and-queue-redis-postgre)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-with-workers-and-queue-redis-postgre)
 
 ## About
 
@@ -84,4 +84,4 @@ Deploying N8N with Workers on Railway involves running n8n in queue mode alongsi
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/n8n-with-workers-and-queue-redis-postgre)
+[View on Railway →](https://railway.com/deploy/n8n-with-workers-and-queue-redis-postgre)

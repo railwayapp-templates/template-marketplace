@@ -2,7 +2,7 @@
 
 Infinitely transfer between devices over pure HTTP with pipes or browsers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zLz276)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zLz276)
 
 ## About
 
@@ -45,4 +45,4 @@ Piping Server is designed based on the ideas as follows.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/zLz276)
+[View on Railway →](https://railway.com/deploy/zLz276)

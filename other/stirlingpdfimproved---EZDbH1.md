@@ -2,7 +2,7 @@
 
 Powerfull PDF editor, with persistent passwords and ALL languages for OCR
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/EZDbH1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EZDbH1)
 
 ## About
 
@@ -31,4 +31,4 @@ Enjoy ! :)
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/EZDbH1)
+[View on Railway →](https://railway.com/deploy/EZDbH1)

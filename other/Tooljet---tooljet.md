@@ -2,7 +2,7 @@
 
 Low-code platform for building business applications
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tooljet)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tooljet)
 
 ## About
 
@@ -68,4 +68,4 @@ Hosting Tooljet involves deploying the application on a server, configuring the 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tooljet)
+[View on Railway →](https://railway.com/deploy/tooljet)

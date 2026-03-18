@@ -2,7 +2,7 @@
 
 A production-ready Flask REST API with CRUD, PostgreSQL, pagination.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flask-rest-api-postgresql-crud-boilerpla)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flask-rest-api-postgresql-crud-boilerpla)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting this boilerplate involves deploying a Flask web server alongside a Postg
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/flask-rest-api-postgresql-crud-boilerpla)
+[View on Railway →](https://railway.com/deploy/flask-rest-api-postgresql-crud-boilerpla)

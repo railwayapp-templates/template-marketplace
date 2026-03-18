@@ -2,7 +2,7 @@
 
 A simple Django application
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GB6Eki)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GB6Eki)
 
 ## About
 
@@ -38,4 +38,4 @@ Django applications on Railway run through automatic detection and configuration
 
 **Category:** Starters · **Tags:** python, webserver · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/GB6Eki)
+[View on Railway →](https://railway.com/deploy/GB6Eki)

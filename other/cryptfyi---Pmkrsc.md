@@ -2,7 +2,7 @@
 
 ephemeral, zero-knowledge, end-to-end encrypted sensitive data sharing
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Pmkrsc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Pmkrsc)
 
 ## About
 
@@ -68,4 +68,4 @@ ephemeral, zero-knowledge, end-to-end encrypted sensitive data sharing
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, HTML, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/Pmkrsc)
+[View on Railway →](https://railway.com/deploy/Pmkrsc)

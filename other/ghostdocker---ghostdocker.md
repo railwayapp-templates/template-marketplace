@@ -2,7 +2,7 @@
 
 A template for ghost with mysql on railway that uses api for email delivery
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ghostdocker)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ghostdocker)
 
 ## About
 
@@ -54,4 +54,4 @@ NB: api not smtp as railway not support smtp
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ghostdocker)
+[View on Railway →](https://railway.com/deploy/ghostdocker)

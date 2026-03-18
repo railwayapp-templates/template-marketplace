@@ -2,7 +2,7 @@
 
 Template for a secure Signal Rest API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/secured-signal-rest-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/secured-signal-rest-api)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting Secured Signal Rest API requires deploying two services: the signal-cli-
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/secured-signal-rest-api)
+[View on Railway →](https://railway.com/deploy/secured-signal-rest-api)

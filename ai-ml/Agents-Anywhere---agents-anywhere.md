@@ -2,7 +2,7 @@
 
 Run coding agents on Railway and connect via SSH
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/agents-anywhere)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/agents-anywhere)
 
 ## About
 
@@ -68,4 +68,4 @@ Agents Anywhere runs Claude Code inside a persistent SSH container on Railway. D
 
 **Category:** AI/ML · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/agents-anywhere)
+[View on Railway →](https://railway.com/deploy/agents-anywhere)

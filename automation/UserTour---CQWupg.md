@@ -2,7 +2,7 @@
 
 Is an open-source tool for building product tours and onboarding flows
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/CQWupg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/CQWupg)
 
 ## About
 
@@ -85,4 +85,4 @@ Usertour is an open-source platform designed to help developers and product team
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/CQWupg)
+[View on Railway →](https://railway.com/deploy/CQWupg)

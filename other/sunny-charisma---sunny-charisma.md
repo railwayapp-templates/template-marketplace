@@ -2,7 +2,7 @@
 
 Deploy and Host sunny-charisma with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sunny-charisma)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sunny-charisma)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting n8n on Railway is simple and efficient. Railway takes care of provisioni
 
 **Category:** Other · **Languages:** TypeScript, Vue, SCSS, JavaScript, Python, Handlebars, HTML, Dockerfile, HCL, Shell, Just, Rich Text Format, CSS, Batchfile
 
-[View on Railway →](https://railway.com/template/sunny-charisma)
+[View on Railway →](https://railway.com/deploy/sunny-charisma)

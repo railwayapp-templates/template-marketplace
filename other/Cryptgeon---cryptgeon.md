@@ -2,7 +2,7 @@
 
 Cryptgeon is a secure, open source sharing note or file service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cryptgeon)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cryptgeon)
 
 ## About
 
@@ -36,4 +36,4 @@ The Cryptgeon application runs on **port 8000**.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/cryptgeon)
+[View on Railway →](https://railway.com/deploy/cryptgeon)

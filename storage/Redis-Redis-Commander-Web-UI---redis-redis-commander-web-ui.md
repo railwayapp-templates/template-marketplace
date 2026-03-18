@@ -2,7 +2,7 @@
 
 One Click Redis + Redis Commander Web UI with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/redis-redis-commander-web-ui)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redis-redis-commander-web-ui)
 
 ## About
 
@@ -39,4 +39,4 @@ Deploying Redis + Redis Commander Web UI on Railway requires no parameters or co
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/redis-redis-commander-web-ui)
+[View on Railway →](https://railway.com/deploy/redis-redis-commander-web-ui)

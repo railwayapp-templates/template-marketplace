@@ -2,7 +2,7 @@
 
 A  simple starter video player in Typescript React
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Sqs3VO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Sqs3VO)
 
 ## About
 
@@ -18,4 +18,4 @@ See the template's readme.md for more information on why Caddy is used, and why 
 
 **Category:** Starters · **Languages:** TypeScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/Sqs3VO)
+[View on Railway →](https://railway.com/deploy/Sqs3VO)

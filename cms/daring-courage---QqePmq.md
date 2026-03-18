@@ -2,7 +2,7 @@
 
 Una implementación de Prueba
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/QqePmq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/QqePmq)
 
 ## About
 
@@ -34,4 +34,4 @@ Esta es una implementación de prueba, a partir de un repositorio clonado de Git
 
 **Category:** CMS · **Languages:** TypeScript, JavaScript, Shell, Handlebars, CSS, HTML
 
-[View on Railway →](https://railway.com/template/QqePmq)
+[View on Railway →](https://railway.com/deploy/QqePmq)

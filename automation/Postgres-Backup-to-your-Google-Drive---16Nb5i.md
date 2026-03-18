@@ -2,7 +2,7 @@
 
 Backup a Postgres DB to your Personal Google Drive
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/16Nb5i)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/16Nb5i)
 
 ## About
 
@@ -74,4 +74,4 @@ You can use `.env.default` as a template for your environment variables.
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/16Nb5i)
+[View on Railway →](https://railway.com/deploy/16Nb5i)

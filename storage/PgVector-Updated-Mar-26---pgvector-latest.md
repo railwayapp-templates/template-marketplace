@@ -2,7 +2,7 @@
 
 PgVector [Mar ’26] (Embeddings & Vector Search for Postgres DBs) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pgvector-latest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pgvector-latest)
 
 ## About
 
@@ -33,4 +33,4 @@ PgVector on Railway runs within a managed PostgreSQL environment, allowing you t
 
 **Category:** Storage · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/pgvector-latest)
+[View on Railway →](https://railway.com/deploy/pgvector-latest)

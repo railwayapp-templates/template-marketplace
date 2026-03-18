@@ -2,7 +2,7 @@
 
 A Privacy-First Link Shortener 🌐🔒
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gSvwgO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gSvwgO)
 
 ## About
 
@@ -51,4 +51,4 @@ The main interface of nxt is a web page where you can enter a URL to shorten. Af
 
 **Category:** Other · **Languages:** HTML, Go, JavaScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/gSvwgO)
+[View on Railway →](https://railway.com/deploy/gSvwgO)

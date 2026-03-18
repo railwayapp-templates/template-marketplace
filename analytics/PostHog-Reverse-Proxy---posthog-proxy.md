@@ -2,7 +2,7 @@
 
 Capture more usage data in PostHog using a reverse proxy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/posthog-proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/posthog-proxy)
 
 ## About
 
@@ -32,4 +32,4 @@ The proxy handles both analytics events and static assets, routing them to the c
 
 **Category:** Analytics · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/posthog-proxy)
+[View on Railway →](https://railway.com/deploy/posthog-proxy)

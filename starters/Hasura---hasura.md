@@ -2,7 +2,7 @@
 
 Instant GraphQL APIs for your PostgreSQL database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hasura)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hasura)
 
 ## About
 
@@ -54,4 +54,4 @@ This example sets up a [Hasura](https://hasura.io/opensource/) instance with a
 
 **Category:** Starters · **Tags:** api, graphql, webserver
 
-[View on Railway →](https://railway.com/template/hasura)
+[View on Railway →](https://railway.com/deploy/hasura)

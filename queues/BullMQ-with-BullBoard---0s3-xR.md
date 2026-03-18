@@ -2,7 +2,7 @@
 
 A queueing solution with a dashboard to visualize, monitor and retry.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0s3-xR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0s3-xR)
 
 ## About
 
@@ -64,4 +64,4 @@ PM2 also supports [Bun](https://bun.sh/). If desired, you can replace the projec
 
 **Category:** Queues · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/0s3-xR)
+[View on Railway →](https://railway.com/deploy/0s3-xR)

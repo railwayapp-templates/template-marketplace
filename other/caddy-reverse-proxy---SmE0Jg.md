@@ -2,7 +2,7 @@
 
 Provides a basic Caddy reverse proxy setup for your Railway project.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/SmE0Jg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/SmE0Jg)
 
 ## About
 
@@ -34,4 +34,4 @@ Ideal for **single-container setups** where you need a simple, secure reverse pr
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/SmE0Jg)
+[View on Railway →](https://railway.com/deploy/SmE0Jg)

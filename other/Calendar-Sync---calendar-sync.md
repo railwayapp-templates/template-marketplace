@@ -2,7 +2,7 @@
 
 Two-way Google Calendar sync with real-time webhooks and filters
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/calendar-sync)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/calendar-sync)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting Calendar Sync on Railway involves deploying the Node.js service, attachi
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/calendar-sync)
+[View on Railway →](https://railway.com/deploy/calendar-sync)

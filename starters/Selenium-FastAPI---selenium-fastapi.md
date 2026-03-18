@@ -2,7 +2,7 @@
 
 Lightweight Selenium and FastAPI template for fast scraping on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/selenium-fastapi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/selenium-fastapi)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting Selenium + FastAPI on Railway ensures that all components needed for hea
 
 **Category:** Starters · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/selenium-fastapi)
+[View on Railway →](https://railway.com/deploy/selenium-fastapi)

@@ -2,7 +2,7 @@
 
 Single-node Confluent Kafka with Golang example consumer and producer.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/PhV3c8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PhV3c8)
 
 ## About
 
@@ -43,4 +43,4 @@ The project deploys an example producer and consumer, written in Go and followin
 
 **Category:** Storage · **Languages:** Go, Dockerfile, Makefile
 
-[View on Railway →](https://railway.com/template/PhV3c8)
+[View on Railway →](https://railway.com/deploy/PhV3c8)

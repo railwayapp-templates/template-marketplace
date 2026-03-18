@@ -2,7 +2,7 @@
 
 Your Own AI Powered Legal Analyst
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/contract-af)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/contract-af)
 
 ## About
 
@@ -41,4 +41,4 @@ Deploying contract-af involves running two services: the **AgentField control pl
 
 **Category:** Other · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/contract-af)
+[View on Railway →](https://railway.com/deploy/contract-af)

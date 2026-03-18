@@ -2,7 +2,7 @@
 
 [Homebrew & TUI support] The AI that actually does things
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting OpenClaw requires building from source, configuring authentication with 
 
 **Category:** AI/ML · **Languages:** HTML, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/openclaw)
+[View on Railway →](https://railway.com/deploy/openclaw)

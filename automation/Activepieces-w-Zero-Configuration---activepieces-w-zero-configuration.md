@@ -2,7 +2,7 @@
 
 Activepieces template fully configured for Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/activepieces-w-zero-configuration)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/activepieces-w-zero-configuration)
 
 ## About
 
@@ -60,4 +60,4 @@ Hosting Activepieces with Zero Configuration on Railway provides an instant, pre
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/activepieces-w-zero-configuration)
+[View on Railway →](https://railway.com/deploy/activepieces-w-zero-configuration)

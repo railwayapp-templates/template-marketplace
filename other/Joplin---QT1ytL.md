@@ -2,7 +2,7 @@
 
 Elevate your productivity with this versatile and intuitive template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/QT1ytL)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/QT1ytL)
 
 ## About
 
@@ -50,4 +50,4 @@ The default credentials are:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/QT1ytL)
+[View on Railway →](https://railway.com/deploy/QT1ytL)

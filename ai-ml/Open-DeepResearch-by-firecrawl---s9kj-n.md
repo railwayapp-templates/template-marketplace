@@ -2,7 +2,7 @@
 
 AI agent that deeply researches the web, using firecrawl and Reasoning LLM
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/s9kj-n)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/s9kj-n)
 
 ## About
 
@@ -71,4 +71,4 @@ Features:
 
 **Category:** AI/ML · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/s9kj-n)
+[View on Railway →](https://railway.com/deploy/s9kj-n)

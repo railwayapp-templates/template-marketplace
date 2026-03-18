@@ -2,7 +2,7 @@
 
 Harness Open Source: SCM, CI/CD, Dev Env, Registry. An E2E dev platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/harness-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/harness-1)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting Harness Open Source involves deploying all the core services—code repo
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/harness-1)
+[View on Railway →](https://railway.com/deploy/harness-1)

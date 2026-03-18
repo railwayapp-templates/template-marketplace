@@ -2,7 +2,7 @@
 
 A tasty, self-hostable Git server for the command line.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/soft-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/soft-server)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting Soft Serve involves running a single Go binary that acts as a custom SSH
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/soft-server)
+[View on Railway →](https://railway.com/deploy/soft-server)

@@ -2,7 +2,7 @@
 
 Discord AI bot using OPENROUTER APIs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/discord-ai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discord-ai)
 
 ## About
 
@@ -27,4 +27,4 @@ Hosting DiscordAI on Railway enables you to deploy a full-stack AI Discord bot i
 
 **Category:** AI/ML · **Languages:** Python, HTML, Procfile
 
-[View on Railway →](https://railway.com/template/discord-ai)
+[View on Railway →](https://railway.com/deploy/discord-ai)

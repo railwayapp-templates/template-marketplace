@@ -2,7 +2,7 @@
 
 Simple hello world app using Serverpod, Flutter, and Dart
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/SJzxFe)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/SJzxFe)
 
 ## About
 
@@ -47,4 +47,4 @@ Simple hello world app using Serverpod, Flutter, and Dart
 
 **Category:** Starters · **Languages:** C++, CMake, Dart, PLpgSQL, Swift, C, HTML, Dockerfile, Kotlin, Objective-C, Shell
 
-[View on Railway →](https://railway.com/template/SJzxFe)
+[View on Railway →](https://railway.com/deploy/SJzxFe)

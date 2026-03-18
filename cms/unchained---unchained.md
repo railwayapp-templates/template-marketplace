@@ -2,7 +2,7 @@
 
 Unchained Engine is an API-first E-Commerce Framework
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/unchained)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/unchained)
 
 ## About
 
@@ -55,4 +55,4 @@ From there we expect you to eject the frontend and backend repositories and cust
 
 **Category:** CMS · **Languages:** TypeScript, Dockerfile, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/unchained)
+[View on Railway →](https://railway.com/deploy/unchained)

@@ -2,7 +2,7 @@
 
 A better alternative to the default discord-github integration.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/github-to-discord-webhook-bridge)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/github-to-discord-webhook-bridge)
 
 ## About
 
@@ -40,4 +40,4 @@ Deploying GitHub to Discord Webhook Bridge involves setting up a Bun-powered web
 
 **Category:** Automation · **Languages:** HTML, TypeScript
 
-[View on Railway →](https://railway.com/template/github-to-discord-webhook-bridge)
+[View on Railway →](https://railway.com/deploy/github-to-discord-webhook-bridge)

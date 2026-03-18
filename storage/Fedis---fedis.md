@@ -2,7 +2,7 @@
 
 Fast Redis-compatible server in Rust
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fedis)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fedis)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting Fedis on Railway is straightforward: run the container, expose port `637
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/fedis)
+[View on Railway →](https://railway.com/deploy/fedis)

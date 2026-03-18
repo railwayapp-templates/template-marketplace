@@ -2,7 +2,7 @@
 
 Complete Postgres database with realtime capabilities and REST API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/MGUlUB)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MGUlUB)
 
 ## About
 
@@ -48,4 +48,4 @@ Ideal for web applications, mobile apps, and services requiring reliable, scalab
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/MGUlUB)
+[View on Railway →](https://railway.com/deploy/MGUlUB)

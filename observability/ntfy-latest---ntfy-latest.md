@@ -2,7 +2,7 @@
 
 Deploy and Host ntfy-latest with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ntfy-latest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ntfy-latest)
 
 ## About
 
@@ -43,4 +43,4 @@ Hosting ntfy-latest on Railway gives you a running notification server without m
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/ntfy-latest)
+[View on Railway →](https://railway.com/deploy/ntfy-latest)

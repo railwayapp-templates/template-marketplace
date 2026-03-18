@@ -2,7 +2,7 @@
 
 A minimal implementation of the Prometheus time series database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/KmJatA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/KmJatA)
 
 ## About
 
@@ -37,4 +37,4 @@ Once you have deployed this template, modifications are simple.:
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/KmJatA)
+[View on Railway →](https://railway.com/deploy/KmJatA)

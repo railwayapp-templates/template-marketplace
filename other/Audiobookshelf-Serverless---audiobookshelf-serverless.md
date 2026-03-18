@@ -2,7 +2,7 @@
 
 Serverless Audiobookshelf with persistent volume template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/audiobookshelf-serverless)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/audiobookshelf-serverless)
 
 ## About
 
@@ -30,4 +30,4 @@ When creating a new Library make sure to use "/persistant/[...]" as path or it w
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/audiobookshelf-serverless)
+[View on Railway →](https://railway.com/deploy/audiobookshelf-serverless)

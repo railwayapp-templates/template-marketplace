@@ -2,7 +2,7 @@
 
 Zalo MCP for AI Assistant
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/thriving-victory)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/thriving-victory)
 
 ## About
 
@@ -18,4 +18,4 @@ Deploying thriving-victory on Railway gives you a private, always-on Zalo backen
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/thriving-victory)
+[View on Railway →](https://railway.com/deploy/thriving-victory)

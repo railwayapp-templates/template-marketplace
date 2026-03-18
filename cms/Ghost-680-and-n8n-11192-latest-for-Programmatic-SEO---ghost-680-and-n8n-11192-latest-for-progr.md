@@ -2,7 +2,7 @@
 
 Perfect for pSEO (blog posts): generate in n8n and auto-publish in Ghost.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ghost-680-and-n8n-11192-latest-for-progr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ghost-680-and-n8n-11192-latest-for-progr)
 
 ## About
 
@@ -18,4 +18,4 @@ Deploying Ghost 6.8.0 and n8n 1.119.2 together on a single infrastructure create
 
 **Category:** CMS · **Languages:** Shell, Dockerfile, jq
 
-[View on Railway →](https://railway.com/template/ghost-680-and-n8n-11192-latest-for-progr)
+[View on Railway →](https://railway.com/deploy/ghost-680-and-n8n-11192-latest-for-progr)

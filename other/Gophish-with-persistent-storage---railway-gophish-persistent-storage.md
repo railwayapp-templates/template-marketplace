@@ -2,7 +2,7 @@
 
 Gophish phishing simulation platform with persistent data storage
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railway-gophish-persistent-storage)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-gophish-persistent-storage)
 
 ## About
 
@@ -22,4 +22,4 @@ This template deploys Gophish with persistent SQLite storage on Railway. The dep
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/railway-gophish-persistent-storage)
+[View on Railway →](https://railway.com/deploy/railway-gophish-persistent-storage)

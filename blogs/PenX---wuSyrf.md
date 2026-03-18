@@ -2,7 +2,7 @@
 
 Build your own web3 individual blog
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wuSyrf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wuSyrf)
 
 ## About
 
@@ -18,4 +18,4 @@ For instance, we provide a more efficient transaction environment. Moreover, wit
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/wuSyrf)
+[View on Railway →](https://railway.com/deploy/wuSyrf)

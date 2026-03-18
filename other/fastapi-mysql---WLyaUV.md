@@ -2,7 +2,7 @@
 
 FastApi template with MySQL database and poetry
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/WLyaUV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/WLyaUV)
 
 ## About
 
@@ -61,4 +61,4 @@ FastApi template with MySQL database and poetry
 
 **Category:** Other · **Languages:** Python, Mako
 
-[View on Railway →](https://railway.com/template/WLyaUV)
+[View on Railway →](https://railway.com/deploy/WLyaUV)

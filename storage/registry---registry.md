@@ -2,7 +2,7 @@
 
 One-click Docker Registry on Railway with S3 storage and basic auth
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/registry)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/registry)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting a Docker Registry requires an S3-compatible object store for image layer
 
 **Category:** Storage · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/registry)
+[View on Railway →](https://railway.com/deploy/registry)

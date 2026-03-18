@@ -2,7 +2,7 @@
 
 Open-source vector similarity search for Postgres
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/3jJFCA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/3jJFCA)
 
 ## About
 
@@ -36,4 +36,4 @@ pgvector runs as a PostgreSQL extension requiring a compatible PostgreSQL versio
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/3jJFCA)
+[View on Railway →](https://railway.com/deploy/3jJFCA)

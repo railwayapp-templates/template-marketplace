@@ -2,7 +2,7 @@
 
 DEPLOY REACT AND DJANGO PROJECT (BEST DONE ON DIFFRENT REPO))
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1DOLZH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1DOLZH)
 
 ## About
 
@@ -29,4 +29,4 @@ THIS TEMPLATE HELPS YOU WITH THAT
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/1DOLZH)
+[View on Railway →](https://railway.com/deploy/1DOLZH)

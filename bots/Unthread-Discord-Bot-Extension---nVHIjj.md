@@ -2,7 +2,7 @@
 
 Integrate Discord with Unthread.io for seamless ticket support. 🎫🤖
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nVHIjj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nVHIjj)
 
 ## About
 
@@ -74,4 +74,4 @@ Hosting the Unthread Discord Bot Extension allows Discord communities and teams 
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/nVHIjj)
+[View on Railway →](https://railway.com/deploy/nVHIjj)

@@ -2,7 +2,7 @@
 
 A personalized, self-hosted dashboard
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/MYrXAY)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MYrXAY)
 
 ## About
 
@@ -26,4 +26,4 @@ The custom theme is based on the NeoVim theme [cyberdream](https://github.com/sc
 
 **Category:** Other · **Languages:** Go, HTML, CSS, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/MYrXAY)
+[View on Railway →](https://railway.com/deploy/MYrXAY)

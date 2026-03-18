@@ -2,7 +2,7 @@
 
 A Caddy reverse proxy for PostHog
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/posthog-caddy-reverse-proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/posthog-caddy-reverse-proxy)
 
 ## About
 
@@ -38,4 +38,4 @@ POSTHOG_ASSETS_HOST=eu-assets.i.posthog.com
 
 **Category:** Analytics · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/posthog-caddy-reverse-proxy)
+[View on Railway →](https://railway.com/deploy/posthog-caddy-reverse-proxy)

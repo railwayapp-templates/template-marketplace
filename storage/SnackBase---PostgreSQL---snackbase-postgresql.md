@@ -2,7 +2,7 @@
 
 A template to spin SnackBase instance with PostgreSQL db
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/snackbase-postgresql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/snackbase-postgresql)
 
 ## About
 
@@ -55,4 +55,4 @@ Hosting SnackBase with PostgreSQL on Railway provides a robust, scalable infrast
 
 **Category:** Storage · **Languages:** Python, TypeScript, HTML, CSS, Dockerfile, Mako, JavaScript
 
-[View on Railway →](https://railway.com/template/snackbase-postgresql)
+[View on Railway →](https://railway.com/deploy/snackbase-postgresql)

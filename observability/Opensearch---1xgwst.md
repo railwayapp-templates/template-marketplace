@@ -2,7 +2,7 @@
 
 OpenSearch is a scalable, open-source search and analytics suite.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1xgwst)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1xgwst)
 
 ## About
 
@@ -43,4 +43,4 @@ Hosting OpenSearch on Railway removes the burden of infrastructure configuration
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/1xgwst)
+[View on Railway →](https://railway.com/deploy/1xgwst)

@@ -2,7 +2,7 @@
 
 Deploy and Host Open Webui with n8n using MCP for full stack AI Automation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-webui-mcpo-n8n)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-webui-mcpo-n8n)
 
 ## About
 
@@ -45,4 +45,4 @@ Railway handles the infrastructure complexity while you focus on building powerf
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile, JavaScript, Svelte, TypeScript, CSS, Shell, HTML, Batchfile, Mako, Makefile
 
-[View on Railway →](https://railway.com/template/open-webui-mcpo-n8n)
+[View on Railway →](https://railway.com/deploy/open-webui-mcpo-n8n)

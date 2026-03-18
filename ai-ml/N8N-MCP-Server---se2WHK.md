@@ -2,7 +2,7 @@
 
 Give your AI Agents access to your n8n. Create workflows and more!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/se2WHK)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/se2WHK)
 
 ## About
 
@@ -137,4 +137,4 @@ REPO: https://github.com/jacob-dietle/n8n-mcp-sse/tree/main
 
 **Category:** AI/ML · **Languages:** TypeScript, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/se2WHK)
+[View on Railway →](https://railway.com/deploy/se2WHK)

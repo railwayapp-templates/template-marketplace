@@ -2,7 +2,7 @@
 
 Zero dependencies - next gen - fully featured - very lightweight
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/G3k1Tv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/G3k1Tv)
 
 ## About
 
@@ -37,4 +37,4 @@ Zero dependencies - next gen - fully featured - very lightweight
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/G3k1Tv)
+[View on Railway →](https://railway.com/deploy/G3k1Tv)

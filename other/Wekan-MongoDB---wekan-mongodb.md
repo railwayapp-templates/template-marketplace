@@ -2,7 +2,7 @@
 
 WeKan ® Open-Source Kanban
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wekan-mongodb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wekan-mongodb)
 
 ## About
 
@@ -41,4 +41,4 @@ One of the biggest advantages of WeKan is its self-hosting option, which gives y
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/wekan-mongodb)
+[View on Railway →](https://railway.com/deploy/wekan-mongodb)

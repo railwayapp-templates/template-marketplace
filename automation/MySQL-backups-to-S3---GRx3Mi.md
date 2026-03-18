@@ -2,7 +2,7 @@
 
 A simple NodeJS application to backup your MySQL database to S3 via a cron.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GRx3Mi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GRx3Mi)
 
 ## About
 
@@ -45,4 +45,4 @@ By default, the cron is running daily at 5 am.
 
 **Category:** Automation · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/GRx3Mi)
+[View on Railway →](https://railway.com/deploy/GRx3Mi)

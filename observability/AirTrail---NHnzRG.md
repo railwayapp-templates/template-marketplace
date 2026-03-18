@@ -2,7 +2,7 @@
 
 A modern, open-source personal flight tracking system.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NHnzRG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NHnzRG)
 
 ## About
 
@@ -136,4 +136,4 @@ The logo is from Lucide, which is a free icon pack that can be found [here](http
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/NHnzRG)
+[View on Railway →](https://railway.com/deploy/NHnzRG)

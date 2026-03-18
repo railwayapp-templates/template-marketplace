@@ -2,7 +2,7 @@
 
 An easily-deployable Discord bot that automatically bans spammers.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/discord-honeypot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discord-honeypot)
 
 ## About
 
@@ -32,4 +32,4 @@ Railway handles build, secrets, and scaling; you just supply env vars and attach
 
 **Category:** Bots · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/discord-honeypot)
+[View on Railway →](https://railway.com/deploy/discord-honeypot)

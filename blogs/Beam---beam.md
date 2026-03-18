@@ -2,7 +2,7 @@
 
 A simple message board for your organization or project
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/beam)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/beam)
 
 ## About
 
@@ -59,4 +59,4 @@ Beam is an simple tool from the folks at PlanetScale to write posts to share acr
 
 **Category:** Blogs · **Languages:** TypeScript, Shell, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/beam)
+[View on Railway →](https://railway.com/deploy/beam)

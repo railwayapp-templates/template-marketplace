@@ -2,7 +2,7 @@
 
 A high-performance NoSQL database system
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6RHNrS)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6RHNrS)
 
 ## About
 
@@ -51,4 +51,4 @@ Please keep in mind that versions with the format YYYY.MAJOR.MINOR are **no long
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/6RHNrS)
+[View on Railway →](https://railway.com/deploy/6RHNrS)

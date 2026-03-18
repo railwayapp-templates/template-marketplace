@@ -2,7 +2,7 @@
 
 A remote instance of CCXT; a common interface/protocol for algotrading I/O
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7xgMCh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7xgMCh)
 
 ## About
 
@@ -36,4 +36,4 @@ works in Node 10.4+, Python 3, PHP 8.1+, netstandard2.0/2.1 and web browsers
 
 **Category:** Analytics · **Languages:** Python, C#, Go, TypeScript, JavaScript, PHP, C, Shell, Cython, C++, Handlebars, HTML, Dockerfile, Batchfile
 
-[View on Railway →](https://railway.com/template/7xgMCh)
+[View on Railway →](https://railway.com/deploy/7xgMCh)

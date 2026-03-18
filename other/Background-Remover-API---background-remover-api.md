@@ -2,7 +2,7 @@
 
 AI background remover API using FastAPI and rembg
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/background-remover-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/background-remover-api)
 
 ## What gets deployed
 
@@ -12,4 +12,4 @@ AI background remover API using FastAPI and rembg
 
 **Category:** Other · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/background-remover-api)
+[View on Railway →](https://railway.com/deploy/background-remover-api)

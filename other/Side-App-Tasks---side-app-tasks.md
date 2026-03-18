@@ -2,7 +2,7 @@
 
 Deploy and Host Side App Tasks with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/side-app-tasks)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/side-app-tasks)
 
 ## About
 
@@ -55,4 +55,4 @@ Hosting Side App Tasks on Railway involves deploying a full-stack Next.js applic
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/side-app-tasks)
+[View on Railway →](https://railway.com/deploy/side-app-tasks)

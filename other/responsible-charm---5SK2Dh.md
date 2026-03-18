@@ -2,7 +2,7 @@
 
 to send the user entered notes to their mail without and login
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5SK2Dh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5SK2Dh)
 
 ## About
 
@@ -26,4 +26,4 @@ Since no login is required, it’s a hassle-free solution for people who prefer 
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/5SK2Dh)
+[View on Railway →](https://railway.com/deploy/5SK2Dh)

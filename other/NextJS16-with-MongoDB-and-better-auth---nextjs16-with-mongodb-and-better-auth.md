@@ -2,7 +2,7 @@
 
 NextJS with best practices and screaming architecture
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs16-with-mongodb-and-better-auth)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs16-with-mongodb-and-better-auth)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting NextJS16 with MongoDB and better-auth involves deploying a full-stack Ja
 
 **Category:** Other · **Languages:** TypeScript, CSS, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/nextjs16-with-mongodb-and-better-auth)
+[View on Railway →](https://railway.com/deploy/nextjs16-with-mongodb-and-better-auth)

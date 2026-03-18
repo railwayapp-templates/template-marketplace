@@ -2,7 +2,7 @@
 
 About Generate customizable GitHub repository banners via URL parameters.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/github-repo-banner)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/github-repo-banner)
 
 ## About
 
@@ -23,4 +23,4 @@ GitHub Repo Banner is a lightweight, stateless API service built with Hono (ultr
 
 **Category:** Other · **Languages:** HTML, TypeScript
 
-[View on Railway →](https://railway.com/template/github-repo-banner)
+[View on Railway →](https://railway.com/deploy/github-repo-banner)

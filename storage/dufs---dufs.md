@@ -2,7 +2,7 @@
 
 Dufs is a lightweight self-hosted file server with a web UI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dufs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dufs)
 
 ## About
 
@@ -33,4 +33,4 @@ This template mirrors the Docker Compose pattern `dufs /data -A` by setting `DUF
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/dufs)
+[View on Railway →](https://railway.com/deploy/dufs)

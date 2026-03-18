@@ -2,7 +2,7 @@
 
 Deploy and Host overflowing-caring with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/overflowing-caring)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/overflowing-caring)
 
 ## About
 
@@ -24,4 +24,4 @@ Hosting the border0 railway template involves running a lightweight connector as
 
 **Category:** Authentication · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/overflowing-caring)
+[View on Railway →](https://railway.com/deploy/overflowing-caring)

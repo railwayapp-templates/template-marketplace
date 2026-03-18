@@ -2,7 +2,7 @@
 
 VSCode with Claude Code in Browser
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/claude-coder-serve-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/claude-coder-serve-1)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting Claude Code Server on Railway gives you a full VS Code development envir
 
 **Category:** Other · **Languages:** TypeScript, Shell, Dockerfile, HTML, CSS, HCL, JavaScript, Mustache, Nix
 
-[View on Railway →](https://railway.com/template/claude-coder-serve-1)
+[View on Railway →](https://railway.com/deploy/claude-coder-serve-1)

@@ -2,7 +2,7 @@
 
 A Line LLM Bot with FastAPI.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/yNppuu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yNppuu)
 
 ## About
 
@@ -48,4 +48,4 @@ Key features:
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/yNppuu)
+[View on Railway →](https://railway.com/deploy/yNppuu)

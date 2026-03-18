@@ -2,7 +2,7 @@
 
 Display the status of your Railway services on a TRMNL e-ink dispay
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railway-terminus)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-terminus)
 
 ## About
 
@@ -32,4 +32,4 @@ TRMNL is great for keeping an eye on things without getting distracted. I wanted
 
 **Category:** Other · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/railway-terminus)
+[View on Railway →](https://railway.com/deploy/railway-terminus)

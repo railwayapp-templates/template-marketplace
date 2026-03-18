@@ -2,7 +2,7 @@
 
 Strong password generator API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/s_q0r3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/s_q0r3)
 
 ## About
 
@@ -92,4 +92,4 @@ curl "http://localhost:8080/?special&amp;lowercase&amp;uppercase&amp;numbers&amp
 
 **Category:** Other · **Languages:** JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/s_q0r3)
+[View on Railway →](https://railway.com/deploy/s_q0r3)

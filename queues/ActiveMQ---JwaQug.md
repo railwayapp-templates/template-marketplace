@@ -2,7 +2,7 @@
 
 The most popular open source, multi-protocol, Java-based message broker.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JwaQug)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JwaQug)
 
 ## About
 
@@ -36,4 +36,4 @@ Apache ActiveMQ® is the most popular open source, multi-protocol, Java-based me
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/JwaQug)
+[View on Railway →](https://railway.com/deploy/JwaQug)

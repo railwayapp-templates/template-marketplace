@@ -2,7 +2,7 @@
 
 Stream data out of your Postgres database with Sequin.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/TXSiv2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TXSiv2)
 
 ## About
 
@@ -58,4 +58,4 @@ You can use it to replicate data from your existing tables to other apps, databa
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/TXSiv2)
+[View on Railway →](https://railway.com/deploy/TXSiv2)

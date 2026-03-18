@@ -2,7 +2,7 @@
 
 A high-performance gateway for GraphQL microservices
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/A-6SvK)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/A-6SvK)
 
 ## About
 
@@ -31,4 +31,4 @@ This template lets you quickly deploy a router that you can point at your [Apoll
 
 **Category:** Starters · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/A-6SvK)
+[View on Railway →](https://railway.com/deploy/A-6SvK)

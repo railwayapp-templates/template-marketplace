@@ -2,7 +2,7 @@
 
 Open-source HTML, Markdown, and Office to PDF conversion service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gotenberg-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gotenberg-1)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting Gotenberg involves deploying a stateless HTTP API that exposes endpoints
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/gotenberg-1)
+[View on Railway →](https://railway.com/deploy/gotenberg-1)

@@ -2,7 +2,7 @@
 
 Ephemeral SMTP server for development purposes.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/maildev)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/maildev)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting Maildev involves deploying the application on a server, configuring the 
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/maildev)
+[View on Railway →](https://railway.com/deploy/maildev)

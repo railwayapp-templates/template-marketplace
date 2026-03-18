@@ -2,7 +2,7 @@
 
 Ultra-Efficient AI Assistant in Go
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/picoclaw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/picoclaw)
 
 ## About
 
@@ -31,4 +31,4 @@ This Railway template deploys PicoClaw from source alongside a Python-based web 
 
 **Category:** AI/ML · **Languages:** HTML, Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/picoclaw)
+[View on Railway →](https://railway.com/deploy/picoclaw)

@@ -2,7 +2,7 @@
 
 Privacy-first PDF tools, fully local and secure
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/localpdfio)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/localpdfio)
 
 ## About
 
@@ -23,4 +23,4 @@ Hosting LocalPDF on Railway gives you a fully self-contained PDF processing serv
 
 **Category:** Other · **Languages:** Python, Shell
 
-[View on Railway →](https://railway.com/template/localpdfio)
+[View on Railway →](https://railway.com/deploy/localpdfio)

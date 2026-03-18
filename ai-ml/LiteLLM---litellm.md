@@ -2,7 +2,7 @@
 
 Unified LLM gateway — route to 100+ providers through one OpenAI-compatible
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/litellm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/litellm)
 
 ## About
 
@@ -33,4 +33,4 @@ LiteLLM runs as an API proxy that translates OpenAI-format requests to provider-
 
 **Category:** AI/ML · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/litellm)
+[View on Railway →](https://railway.com/deploy/litellm)

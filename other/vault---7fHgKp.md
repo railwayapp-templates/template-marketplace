@@ -2,7 +2,7 @@
 
 Gestor de secretos, certificados, keys...
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7fHgKp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7fHgKp)
 
 ## About
 
@@ -43,4 +43,4 @@ Vault cifra un archivo antes de almacenarlo en un bucket de S3.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/7fHgKp)
+[View on Railway →](https://railway.com/deploy/7fHgKp)

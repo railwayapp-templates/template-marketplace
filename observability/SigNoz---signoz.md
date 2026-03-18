@@ -2,7 +2,7 @@
 
 SigNoz is an single tool for APM, logs, traces, metrics & alerts.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/signoz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/signoz)
 
 ## About
 
@@ -65,4 +65,4 @@ The Railway template automatically sets up these services with the necessary env
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/signoz)
+[View on Railway →](https://railway.com/deploy/signoz)

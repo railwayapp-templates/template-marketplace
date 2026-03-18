@@ -2,7 +2,7 @@
 
 Use Coze on your favorite OpenAI client.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/yM5tQL)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yM5tQL)
 
 ## About
 
@@ -34,4 +34,4 @@ Features
 
 **Category:** AI/ML · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/yM5tQL)
+[View on Railway →](https://railway.com/deploy/yM5tQL)

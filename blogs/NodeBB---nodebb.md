@@ -2,7 +2,7 @@
 
 Node.js based forum software built for the modern web
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nodebb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nodebb)
 
 ## About
 
@@ -44,4 +44,4 @@ Hosting NodeBB involves deploying the application on a server, configuring the d
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/nodebb)
+[View on Railway →](https://railway.com/deploy/nodebb)

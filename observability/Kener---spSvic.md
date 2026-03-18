@@ -2,7 +2,7 @@
 
 Stunning Status Pages, batteries included
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/spSvic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/spSvic)
 
 ## About
 
@@ -56,4 +56,4 @@ Kener runs as a single Node.js process in production that bundles a SvelteKit fr
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/spSvic)
+[View on Railway →](https://railway.com/deploy/spSvic)

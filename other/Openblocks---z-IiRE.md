@@ -2,7 +2,7 @@
 
 The Open Source Retool Alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/z-IiRE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/z-IiRE)
 
 ## About
 
@@ -114,4 +114,4 @@ Building an internal app basically takes 5 steps:
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/z-IiRE)
+[View on Railway →](https://railway.com/deploy/z-IiRE)

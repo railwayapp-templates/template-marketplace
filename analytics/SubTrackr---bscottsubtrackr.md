@@ -2,7 +2,7 @@
 
 Self-hosted Subscription Tracker
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bscottsubtrackr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bscottsubtrackr)
 
 ## About
 
@@ -24,4 +24,4 @@ Hosting **SubTrackr** on Railway allows you to run a fully self-contained subscr
 
 **Category:** Analytics · **Languages:** HTML, Go, JavaScript, CSS, Makefile, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/bscottsubtrackr)
+[View on Railway →](https://railway.com/deploy/bscottsubtrackr)

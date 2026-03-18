@@ -2,7 +2,7 @@
 
 A data streaming proxy service that uses Server-Sent Events (SSE).
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_RXeq1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_RXeq1)
 
 ## About
 
@@ -42,4 +42,4 @@ Test out the site by visiting the live page at your Railway domain. Try to creat
 
 **Category:** Other · **Languages:** TypeScript, HTML
 
-[View on Railway →](https://railway.com/template/_RXeq1)
+[View on Railway →](https://railway.com/deploy/_RXeq1)

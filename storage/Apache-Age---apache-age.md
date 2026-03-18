@@ -2,7 +2,7 @@
 
 Apache AGE™ a PostgreSQL graph database functionality with Cypher
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/apache-age)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/apache-age)
 
 ## About
 
@@ -36,4 +36,4 @@ Production deployments benefit from scalable CPU, RAM, and storage resources to 
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/apache-age)
+[View on Railway →](https://railway.com/deploy/apache-age)

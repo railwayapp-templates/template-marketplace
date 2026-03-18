@@ -2,7 +2,7 @@
 
 Next.js app that uses Instagres to generate a claimable db at Neon.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-with-neon-postgres)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-with-neon-postgres)
 
 ## About
 
@@ -22,4 +22,4 @@ Deploying Next.js with Neon Postgres on Railway leverages Neon's [Instagres](htt
 
 **Category:** Storage · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/nextjs-with-neon-postgres)
+[View on Railway →](https://railway.com/deploy/nextjs-with-neon-postgres)

@@ -2,7 +2,7 @@
 
 Graphical Setup + TUI Support + Pairing support
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-railway-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-railway-template)
 
 ## About
 
@@ -42,4 +42,4 @@ This template wraps OpenClaw with a Node.js server providing complete lifecycle 
 
 **Category:** Automation · **Languages:** HTML, JavaScript, CSS, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/openclaw-railway-template)
+[View on Railway →](https://railway.com/deploy/openclaw-railway-template)

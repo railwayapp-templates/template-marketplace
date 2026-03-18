@@ -2,7 +2,7 @@
 
 Configuration management tool for Radarr/Sonarr
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/profilarr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/profilarr)
 
 ## About
 
@@ -23,4 +23,4 @@ Hosting Profilarr involves running a lightweight web application that communicat
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/profilarr)
+[View on Railway →](https://railway.com/deploy/profilarr)

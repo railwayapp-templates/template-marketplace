@@ -2,7 +2,7 @@
 
 Web app for collecting photos/videos from anyone into your Immich server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/immich-drop)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/immich-drop)
 
 ## About
 
@@ -35,4 +35,4 @@ Admin users log in to create public invite links; invite links are always public
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/immich-drop)
+[View on Railway →](https://railway.com/deploy/immich-drop)

@@ -2,7 +2,7 @@
 
 Prod ready Next.js clean architecture, TypeScript, zero-config Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-best-partices-boilerplate)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-best-partices-boilerplate)
 
 ## About
 
@@ -31,4 +31,4 @@ Deploying this template on Railway requires zero configuration. The template inc
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/nextjs-best-partices-boilerplate)
+[View on Railway →](https://railway.com/deploy/nextjs-best-partices-boilerplate)

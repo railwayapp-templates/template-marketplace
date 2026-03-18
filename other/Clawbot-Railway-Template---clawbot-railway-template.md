@@ -2,7 +2,7 @@
 
 Deploy this application on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/clawbot-railway-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/clawbot-railway-template)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting the Clawbot Railway Template involves deploying a containerized Node.js 
 
 **Category:** Other · **Languages:** JavaScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/clawbot-railway-template)
+[View on Railway →](https://railway.com/deploy/clawbot-railway-template)

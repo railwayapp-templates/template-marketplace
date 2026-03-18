@@ -2,7 +2,7 @@
 
 The Open-Source Prompt Engineering Platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1CJho8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1CJho8)
 
 ## About
 
@@ -329,4 +329,4 @@ Hosting Latitude provides a comprehensive platform for AI prompt engineering tha
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/1CJho8)
+[View on Railway →](https://railway.com/deploy/1CJho8)

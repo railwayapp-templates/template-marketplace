@@ -2,7 +2,7 @@
 
 A Hugging Face Transformer Railway Template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/z52Exi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/z52Exi)
 
 ## About
 
@@ -58,4 +58,4 @@ The team at [JigsawStack](https://jigsawstack.com) is launching an embedding mod
 
 **Category:** AI/ML · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/z52Exi)
+[View on Railway →](https://railway.com/deploy/z52Exi)

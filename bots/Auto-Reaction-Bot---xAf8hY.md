@@ -2,7 +2,7 @@
 
 A Telegram Bot that automatically reacts to posts in Telegram All messages.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xAf8hY)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xAf8hY)
 
 ## About
 
@@ -102,4 +102,4 @@ MIT: http://opensource.org/licenses/MIT
 
 **Category:** Bots · **Languages:** JavaScript, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/xAf8hY)
+[View on Railway →](https://railway.com/deploy/xAf8hY)

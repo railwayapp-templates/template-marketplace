@@ -2,7 +2,7 @@
 
 Create sandboxes on Railway with ComputeSDK.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sandbox)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sandbox)
 
 ## About
 
@@ -18,4 +18,4 @@ This template converts Railway into a full-featured sandbox provider for running
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/sandbox)
+[View on Railway →](https://railway.com/deploy/sandbox)

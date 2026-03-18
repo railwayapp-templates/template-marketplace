@@ -2,7 +2,7 @@
 
 O CVDW-CLI é uma ferramenta criada para buscar dados nas APIs do CV CRM
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gwXYQK)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gwXYQK)
 
 ## About
 
@@ -43,4 +43,4 @@ O CVDW Command-line Interface (cvdw-cli) é uma ferramenta projetada para facili
 
 **Category:** Automation · **Languages:** PHP, HTML, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/gwXYQK)
+[View on Railway →](https://railway.com/deploy/gwXYQK)

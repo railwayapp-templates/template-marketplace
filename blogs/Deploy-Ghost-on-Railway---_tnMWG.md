@@ -2,7 +2,7 @@
 
 Ghost allows you to build a website, publish content, newsletters & more.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_tnMWG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_tnMWG)
 
 ## About
 
@@ -59,4 +59,4 @@ If you found this helpful, or have any question, follow me on [X/Twitter : @LeBu
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/_tnMWG)
+[View on Railway →](https://railway.com/deploy/_tnMWG)

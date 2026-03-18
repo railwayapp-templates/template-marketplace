@@ -2,7 +2,7 @@
 
 A Web File Browser using volumes
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Nan7Bs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Nan7Bs)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting FileBrowser involves running a web server that provides file system acce
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/Nan7Bs)
+[View on Railway →](https://railway.com/deploy/Nan7Bs)

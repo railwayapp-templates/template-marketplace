@@ -2,7 +2,7 @@
 
 Build, document, and showcase your React components in a UI library
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kIt8FT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kIt8FT)
 
 ## About
 
@@ -53,4 +53,4 @@ The template deploys as a static build, meaning your component library loads ins
 
 **Category:** Starters · **Languages:** TypeScript, MDX, CSS, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/kIt8FT)
+[View on Railway →](https://railway.com/deploy/kIt8FT)

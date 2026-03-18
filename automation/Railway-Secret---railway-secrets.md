@@ -2,7 +2,7 @@
 
 A self-hosted service to manage and rotate Railway environment variables.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railway-secrets)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-secrets)
 
 ## About
 
@@ -32,4 +32,4 @@ One-click deploy. The volume, health check, and cron service are pre-configured 
 
 **Category:** Automation · **Languages:** PHP, JavaScript, CSS, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/railway-secrets)
+[View on Railway →](https://railway.com/deploy/railway-secrets)

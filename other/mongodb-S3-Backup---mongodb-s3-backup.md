@@ -2,7 +2,7 @@
 
 Deploy and Host mongodb S3 Backup with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mongodb-s3-backup)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mongodb-s3-backup)
 
 ## About
 
@@ -36,4 +36,4 @@ Deploying mongodb S3 Backup on Railway provides a reliable, serverless solution 
 
 **Category:** Other · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/mongodb-s3-backup)
+[View on Railway →](https://railway.com/deploy/mongodb-s3-backup)

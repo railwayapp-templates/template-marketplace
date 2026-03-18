@@ -2,7 +2,7 @@
 
 Ingestion and analysis of structured logs and traces
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/TgfPHD)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TgfPHD)
 
 ## About
 
@@ -47,4 +47,4 @@ See [the Seq docs](https://docs.datalust.co/docs/getting-logs-into-seq) for more
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/TgfPHD)
+[View on Railway →](https://railway.com/deploy/TgfPHD)

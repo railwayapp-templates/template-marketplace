@@ -2,7 +2,7 @@
 
 Firecrawl [Mar ’26] (Data Extraction| Apify & Scrapy alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/firecrawl)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/firecrawl)
 
 ## About
 
@@ -63,4 +63,4 @@ You can **self host Firecrawl** to keep all your crawling operations and data pi
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/firecrawl)
+[View on Railway →](https://railway.com/deploy/firecrawl)

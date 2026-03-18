@@ -2,7 +2,7 @@
 
 secure, no-code, SQLite platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tEWVpP)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tEWVpP)
 
 ## About
 
@@ -58,4 +58,4 @@ For more documentation about how undb works and how to use it, please see:
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/tEWVpP)
+[View on Railway →](https://railway.com/deploy/tEWVpP)

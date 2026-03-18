@@ -2,7 +2,7 @@
 
 High-Performance Vector Database for Scalable AI Applications
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/i1tz3T)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/i1tz3T)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting Qdrant provides a robust solution for applications that demand fast and 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/i1tz3T)
+[View on Railway →](https://railway.com/deploy/i1tz3T)

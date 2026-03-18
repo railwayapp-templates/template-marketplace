@@ -2,7 +2,7 @@
 
 Doku is an open-source LLMOps tool to monitor & evaluate LLM applications
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tZQJlB)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tZQJlB)
 
 ## About
 
@@ -173,4 +173,4 @@ With Doku, you get a simple, powerful view into important info like how much you
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/tZQJlB)
+[View on Railway →](https://railway.com/deploy/tZQJlB)

@@ -2,7 +2,7 @@
 
 rust gRPC + Postgres + backups
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7fGUFg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7fGUFg)
 
 ## About
 
@@ -140,4 +140,4 @@ buf generate
 
 **Category:** Other · **Languages:** Rust, Dockerfile, PLpgSQL, Makefile, Python, Shell
 
-[View on Railway →](https://railway.com/template/7fGUFg)
+[View on Railway →](https://railway.com/deploy/7fGUFg)

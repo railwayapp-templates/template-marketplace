@@ -2,7 +2,7 @@
 
 A Database Built for Scale
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/keydb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/keydb)
 
 ## About
 
@@ -72,4 +72,4 @@ KeyDB enables you to provide a fast and reliable experience to your users.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/keydb)
+[View on Railway →](https://railway.com/deploy/keydb)

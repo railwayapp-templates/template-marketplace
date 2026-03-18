@@ -2,7 +2,7 @@
 
 Deploy and Host EverShop with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/evershop-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evershop-1)
 
 ## About
 
@@ -46,4 +46,4 @@ This template deploys a production-ready e-commerce stack:
 
 **Category:** Other · **Languages:** Python, Shell, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/evershop-1)
+[View on Railway →](https://railway.com/deploy/evershop-1)

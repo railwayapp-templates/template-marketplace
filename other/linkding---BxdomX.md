@@ -2,7 +2,7 @@
 
 Self-hosted bookmark manager that is designed be to be minimal, fast
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BxdomX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BxdomX)
 
 ## About
 
@@ -55,4 +55,4 @@ You can get these variables to login:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/BxdomX)
+[View on Railway →](https://railway.com/deploy/BxdomX)

@@ -2,7 +2,7 @@
 
 dark shan md v2 developeder by kushansewmina 🪽
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/akcqO2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/akcqO2)
 
 ## About
 
@@ -69,4 +69,4 @@ This documentation contains 256 characters (including spaces) to meet your requi
 
 **Category:** Bots · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/akcqO2)
+[View on Railway →](https://railway.com/deploy/akcqO2)

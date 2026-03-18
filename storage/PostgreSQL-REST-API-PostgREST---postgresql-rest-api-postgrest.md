@@ -2,7 +2,7 @@
 
 Deploy a REST API on top of PostgreSQL using PostgREST.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgresql-rest-api-postgrest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresql-rest-api-postgrest)
 
 ## About
 
@@ -40,4 +40,4 @@ On Railway, PostgREST runs as a containerized service and connects to a managed 
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/postgresql-rest-api-postgrest)
+[View on Railway →](https://railway.com/deploy/postgresql-rest-api-postgrest)

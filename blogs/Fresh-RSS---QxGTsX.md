@@ -2,7 +2,7 @@
 
 FreshRSS is a self-hosted RSS feed aggregator.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/QxGTsX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/QxGTsX)
 
 ## About
 
@@ -47,4 +47,4 @@ Finally, FreshRSS supports [extensions](https://github.com/FreshRSS/FreshRSS#ext
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/QxGTsX)
+[View on Railway →](https://railway.com/deploy/QxGTsX)

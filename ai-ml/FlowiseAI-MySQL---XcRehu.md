@@ -2,7 +2,7 @@
 
 FlowiseAI + MySQL Database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/XcRehu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/XcRehu)
 
 ## About
 
@@ -60,4 +60,4 @@ Video guide: https://youtu.be/AXp4cI8Umm4
 
 **Category:** AI/ML · **Languages:** TypeScript, JavaScript, CSS, SCSS, HTML, Dockerfile, Shell, Batchfile
 
-[View on Railway →](https://railway.com/template/XcRehu)
+[View on Railway →](https://railway.com/deploy/XcRehu)

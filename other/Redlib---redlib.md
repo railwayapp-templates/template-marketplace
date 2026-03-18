@@ -2,7 +2,7 @@
 
 An alternative private front-end to Reddit, with its origins in Libreddit.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/redlib)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redlib)
 
 ## About
 
@@ -47,4 +47,4 @@ Hosting Redlib on Railway is simple and efficient because the application is sta
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/redlib)
+[View on Railway →](https://railway.com/deploy/redlib)

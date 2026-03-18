@@ -2,7 +2,7 @@
 
 A template for the LSP Indexer. Get data availability right now.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lsp-indexer)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lsp-indexer)
 
 ## About
 
@@ -49,4 +49,4 @@ Hosting lsp-indexer on Railway involves cloning the repository, installing depen
 
 **Category:** Other · **Languages:** TypeScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/lsp-indexer)
+[View on Railway →](https://railway.com/deploy/lsp-indexer)

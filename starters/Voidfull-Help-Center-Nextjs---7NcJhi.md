@@ -2,7 +2,7 @@
 
 Create a Help Center for your product easily.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7NcJhi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7NcJhi)
 
 ## About
 
@@ -47,4 +47,4 @@ Github: https://github.com/voidfullspace
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/7NcJhi)
+[View on Railway →](https://railway.com/deploy/7NcJhi)

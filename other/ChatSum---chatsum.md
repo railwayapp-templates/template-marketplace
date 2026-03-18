@@ -2,7 +2,7 @@
 
 Servidor FastAPI para extensão ChatSum usando Google Gemini
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/chatsum)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chatsum)
 
 ## About
 
@@ -54,4 +54,4 @@ Railway automatically handles environment variables, networking, deployment, and
 
 **Category:** Other · **Languages:** JavaScript, Python, HTML, CSS, Shell, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/chatsum)
+[View on Railway →](https://railway.com/deploy/chatsum)

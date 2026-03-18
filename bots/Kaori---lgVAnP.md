@@ -2,7 +2,7 @@
 
 Bot Avancés Discord [En Bêta]
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lgVAnP)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lgVAnP)
 
 ## About
 
@@ -24,4 +24,4 @@ Bot Discord polyvalent conçu pour accueillir les nouveaux membres avec style ! 
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/lgVAnP)
+[View on Railway →](https://railway.com/deploy/lgVAnP)

@@ -2,7 +2,7 @@
 
 Open-source URL shortener with analytics, custom slugs, QR codes & API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openshorturl-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openshorturl-1)
 
 ## About
 
@@ -76,4 +76,4 @@ Deploying OpenShortURL on Railway provides a complete URL shortening solution wi
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/openshorturl-1)
+[View on Railway →](https://railway.com/deploy/openshorturl-1)

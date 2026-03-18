@@ -2,7 +2,7 @@
 
 Deploy and Host Kong API Gateway with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kong-api-gateway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kong-api-gateway)
 
 ## About
 
@@ -52,4 +52,4 @@ Hosting Kong involves running the Kong open-source application alongside a dedic
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/kong-api-gateway)
+[View on Railway →](https://railway.com/deploy/kong-api-gateway)

@@ -2,7 +2,7 @@
 
 Pre-scouting app for FRC.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/EphMDM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EphMDM)
 
 ## About
 
@@ -38,4 +38,4 @@ Pre-scouting app is a way to pre-scout for FRC (_**FIRST**_ Robotics Competition
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/EphMDM)
+[View on Railway →](https://railway.com/deploy/EphMDM)

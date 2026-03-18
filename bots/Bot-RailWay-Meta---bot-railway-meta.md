@@ -2,7 +2,7 @@
 
 Bot Meta oficial por Ycloud - Neurolinks
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bot-railway-meta)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bot-railway-meta)
 
 ## About
 
@@ -82,4 +82,4 @@ aEi5S78wya5OZKMmoQcEDWhy
 
 **Category:** Bots · **Languages:** TypeScript, HTML, JavaScript, CSS, PLpgSQL, Dockerfile
 
-[View on Railway →](https://railway.com/template/bot-railway-meta)
+[View on Railway →](https://railway.com/deploy/bot-railway-meta)

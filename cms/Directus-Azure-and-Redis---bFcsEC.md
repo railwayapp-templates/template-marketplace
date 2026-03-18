@@ -2,7 +2,7 @@
 
 Quickly deploy directus docker with redis, pg and azure blog storage
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bFcsEC)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bFcsEC)
 
 ## About
 
@@ -52,4 +52,4 @@ The railway deploy button leverages Directus, Redis, and Azure Blob Storage for 
 
 **Category:** CMS · **Languages:** JavaScript, Procfile
 
-[View on Railway →](https://railway.com/template/bFcsEC)
+[View on Railway →](https://railway.com/deploy/bFcsEC)

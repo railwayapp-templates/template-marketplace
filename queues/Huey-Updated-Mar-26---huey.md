@@ -2,7 +2,7 @@
 
 Huey [Mar ’26] (Run Background Tasks & Schedule Jobs) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/huey)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/huey)
 
 ## About
 
@@ -40,4 +40,4 @@ Image](https://res.cloudinary.com/dojdzamvk/image/upload/Screenshot_2025-10-24_a
 
 **Category:** Queues · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/huey)
+[View on Railway →](https://railway.com/deploy/huey)

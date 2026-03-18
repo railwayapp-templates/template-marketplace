@@ -2,7 +2,7 @@
 
 Reverse proxy that provides auth with Google and more identity providers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/RfKH-J)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/RfKH-J)
 
 ## About
 
@@ -76,4 +76,4 @@ Enjoy secure access to your internal services with OAuth2 Proxy!
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/RfKH-J)
+[View on Railway →](https://railway.com/deploy/RfKH-J)

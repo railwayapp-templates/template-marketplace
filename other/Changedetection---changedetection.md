@@ -2,7 +2,7 @@
 
 Monitor and detect website changes with alerts.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/changedetection)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/changedetection)
 
 ## About
 
@@ -44,4 +44,4 @@ Hosting Changedetection.io requires a containerized deployment with persistent s
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/changedetection)
+[View on Railway →](https://railway.com/deploy/changedetection)

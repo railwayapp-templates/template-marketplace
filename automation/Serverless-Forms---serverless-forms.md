@@ -2,7 +2,7 @@
 
 NodeJS app to send HTML form submissions by email
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/serverless-forms)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/serverless-forms)
 
 ## About
 
@@ -40,4 +40,4 @@ It is a simple nodejs server which forwards all POST submission by email, inspir
 
 **Category:** Automation · **Languages:** JavaScript, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/serverless-forms)
+[View on Railway →](https://railway.com/deploy/serverless-forms)

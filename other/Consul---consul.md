@@ -2,7 +2,7 @@
 
 Deploy and Host Consul with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/consul)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/consul)
 
 ## About
 
@@ -30,4 +30,4 @@ On Railway, this template starts a standalone Consul agent with port **8500** ex
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/consul)
+[View on Railway →](https://railway.com/deploy/consul)

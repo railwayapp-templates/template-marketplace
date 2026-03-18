@@ -2,7 +2,7 @@
 
 High-performance SQLite database for Airtable
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aircache)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aircache)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting Airboost on Railway provides enterprise-grade performance for your Airta
 
 **Category:** Storage · **Languages:** TypeScript, Shell, JavaScript
 
-[View on Railway →](https://railway.com/template/aircache)
+[View on Railway →](https://railway.com/deploy/aircache)

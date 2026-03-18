@@ -2,7 +2,7 @@
 
 A data store built for modern workloads
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dragonfly)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dragonfly)
 
 ## About
 
@@ -63,4 +63,4 @@ DRAGONFLY_URL=${{Dragonfly.DRAGONFLY_PRIVATE_URL}}
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/dragonfly)
+[View on Railway →](https://railway.com/deploy/dragonfly)

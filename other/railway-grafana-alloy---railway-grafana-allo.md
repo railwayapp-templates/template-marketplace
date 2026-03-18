@@ -2,7 +2,7 @@
 
 Deploy and Host railway-grafana-alloy with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railway-grafana-allo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-grafana-allo)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting **railway-grafana-alloy** on Railway sets up Grafana Alloy as a lightwei
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/railway-grafana-allo)
+[View on Railway →](https://railway.com/deploy/railway-grafana-allo)

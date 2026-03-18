@@ -2,7 +2,7 @@
 
 view, edit, manage your PDFs -- simplify your PDF experience
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OII9gz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OII9gz)
 
 ## About
 
@@ -81,4 +81,4 @@ PDFs, so that you can highlight or add information that will be beneficial to yo
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/OII9gz)
+[View on Railway →](https://railway.com/deploy/OII9gz)

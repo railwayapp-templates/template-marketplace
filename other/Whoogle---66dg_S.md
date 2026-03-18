@@ -2,7 +2,7 @@
 
 Google search results without ads and tracking
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/66dg_S)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/66dg_S)
 
 ## About
 
@@ -46,4 +46,4 @@ Optional NoJS mode to view search results in a separate window with JavaScript b
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/66dg_S)
+[View on Railway →](https://railway.com/deploy/66dg_S)

@@ -2,7 +2,7 @@
 
 Deploy and Host MediaWiki on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mediawiki)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mediawiki)
 
 ## About
 
@@ -89,4 +89,4 @@ In  addition, the wiki name (aka site-name) can be  controlled by the following 
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/mediawiki)
+[View on Railway →](https://railway.com/deploy/mediawiki)

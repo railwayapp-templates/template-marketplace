@@ -2,7 +2,7 @@
 
 powered up ChatGPT - Gennerative AI Suite with advanced multi-modal tools
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BOIjs9)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BOIjs9)
 
 ## About
 
@@ -59,4 +59,4 @@ Add extra functionality with these integrations:
 
 **Category:** AI/ML · **Languages:** TypeScript, JavaScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/BOIjs9)
+[View on Railway →](https://railway.com/deploy/BOIjs9)

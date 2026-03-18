@@ -2,7 +2,7 @@
 
 Self-host Uptime Kuma for real-time uptime monitoring and alerts
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uptime-kuma-uptimerobot-alternative)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uptime-kuma-uptimerobot-alternative)
 
 ## About
 
@@ -36,4 +36,4 @@ Single Node.js application with embedded SQLite stored at `/app/data` — your e
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/uptime-kuma-uptimerobot-alternative)
+[View on Railway →](https://railway.com/deploy/uptime-kuma-uptimerobot-alternative)

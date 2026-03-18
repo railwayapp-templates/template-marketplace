@@ -2,7 +2,7 @@
 
 The AI that actually does things.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/clawdbot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/clawdbot)
 
 ## About
 
@@ -29,4 +29,4 @@ Deploy the template and then follow the steps [here](https://farazpatankar.com/p
 
 **Category:** Automation · **Languages:** TypeScript, Swift, JavaScript, Kotlin, Shell, CSS, Python, HTML, Dockerfile, Ruby
 
-[View on Railway →](https://railway.com/template/clawdbot)
+[View on Railway →](https://railway.com/deploy/clawdbot)

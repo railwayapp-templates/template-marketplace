@@ -2,7 +2,7 @@
 
 A cloud IDE built from C9 SDK
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/EjubUu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EjubUu)
 
 ## About
 
@@ -75,4 +75,4 @@ This is a self-hosted IDE / Code editor, built from [C9 SDK](https://github.com/
 
 **Category:** Starters · **Languages:** Shell, Dockerfile, JavaScript, TypeScript
 
-[View on Railway →](https://railway.com/template/EjubUu)
+[View on Railway →](https://railway.com/deploy/EjubUu)

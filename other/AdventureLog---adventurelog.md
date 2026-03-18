@@ -2,7 +2,7 @@
 
 Self-hostable travel tracker and trip planner.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/adventurelog)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/adventurelog)
 
 ## About
 
@@ -49,4 +49,4 @@ It ensures scalability while requiring minimal configuration and offers a smooth
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/adventurelog)
+[View on Railway →](https://railway.com/deploy/adventurelog)

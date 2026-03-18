@@ -2,7 +2,7 @@
 
 A simple, secure, and fast browser-based real-time video calling solution
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mirotalk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mirotalk)
 
 ## About
 
@@ -52,4 +52,4 @@ This template will create a Railway deployment with MiroTalk already installed.
 
 **Category:** Other · **Tags:** javascript, webrtc, video call · **Languages:** JavaScript, HTML, CSS, PHP, Python, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/mirotalk)
+[View on Railway →](https://railway.com/deploy/mirotalk)

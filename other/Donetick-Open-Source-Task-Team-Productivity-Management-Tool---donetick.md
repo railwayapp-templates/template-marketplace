@@ -2,7 +2,7 @@
 
 DoneTick [Mar ’26] (Alternative to Paid to-do Applications) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/donetick)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/donetick)
 
 ## About
 
@@ -40,4 +40,4 @@ Railway runs Donetick in a managed container environment. It handles service res
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/donetick)
+[View on Railway →](https://railway.com/deploy/donetick)

@@ -2,7 +2,7 @@
 
 A simple and easy-to-use OIDC provider
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vdYVQD)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vdYVQD)
 
 ## About
 
@@ -36,4 +36,4 @@ Additionally, what makes Pocket ID special is that it only supports passkey auth
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/vdYVQD)
+[View on Railway →](https://railway.com/deploy/vdYVQD)

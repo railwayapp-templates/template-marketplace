@@ -2,7 +2,7 @@
 
 Appsmith [Mar '26] (Low-Code App Builder w/ DB/API Integrations) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/appsmith-latest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/appsmith-latest)
 
 ## About
 
@@ -30,4 +30,4 @@ You can **self host Appsmith** to ensure that your apps, data connections, and c
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/appsmith-latest)
+[View on Railway →](https://railway.com/deploy/appsmith-latest)

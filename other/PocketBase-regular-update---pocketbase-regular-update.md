@@ -2,7 +2,7 @@
 
 Open Source realtime backend in one service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pocketbase-regular-update)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-regular-update)
 
 ## About
 
@@ -32,4 +32,4 @@ Deploying PocketBase on Railway is straightforward since it's packaged as a sing
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/pocketbase-regular-update)
+[View on Railway →](https://railway.com/deploy/pocketbase-regular-update)

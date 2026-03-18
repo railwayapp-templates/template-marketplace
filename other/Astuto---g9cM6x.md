@@ -2,7 +2,7 @@
 
 A free, open source, self-hosted customer feedback tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/g9cM6x)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/g9cM6x)
 
 ## About
 
@@ -105,4 +105,4 @@ Keep customers in the loop and let them know what you're working on.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/g9cM6x)
+[View on Railway →](https://railway.com/deploy/g9cM6x)

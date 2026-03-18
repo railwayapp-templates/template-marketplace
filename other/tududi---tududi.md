@@ -2,7 +2,7 @@
 
 tududi is a FOSS task and project management service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tududi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tududi)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting tududi is pretty simple: It runs in a Docker container with a local SQLi
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tududi)
+[View on Railway →](https://railway.com/deploy/tududi)

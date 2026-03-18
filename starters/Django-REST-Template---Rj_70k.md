@@ -2,7 +2,7 @@
 
 Django Rest Framework Starter Template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Rj_70k)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Rj_70k)
 
 ## About
 
@@ -90,4 +90,4 @@ Happy coding! 🚀
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/Rj_70k)
+[View on Railway →](https://railway.com/deploy/Rj_70k)

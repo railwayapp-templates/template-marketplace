@@ -2,7 +2,7 @@
 
 One-click deploy Medplum's popular "Foomedical" healthcare starter app
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/XaHdPv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/XaHdPv)
 
 ## About
 
@@ -45,4 +45,4 @@ Foo Medical is designed to be forked and customized for your business' needs. Re
 
 **Category:** Starters · **Languages:** TypeScript, CSS, HTML, JavaScript
 
-[View on Railway →](https://railway.com/template/XaHdPv)
+[View on Railway →](https://railway.com/deploy/XaHdPv)

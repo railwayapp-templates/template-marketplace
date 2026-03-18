@@ -2,7 +2,7 @@
 
 Self Hosted GitHub Alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZHGJu6)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZHGJu6)
 
 ## About
 
@@ -74,4 +74,4 @@ Looking for an overview of the interface? Check it out!
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/ZHGJu6)
+[View on Railway →](https://railway.com/deploy/ZHGJu6)

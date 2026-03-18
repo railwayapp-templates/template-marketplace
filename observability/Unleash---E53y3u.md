@@ -2,7 +2,7 @@
 
 A feature management/rollout software
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/E53y3u)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/E53y3u)
 
 ## About
 
@@ -51,4 +51,4 @@ For detailed documentation and usage instructions, please refer to the [Unleash 
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/E53y3u)
+[View on Railway →](https://railway.com/deploy/E53y3u)

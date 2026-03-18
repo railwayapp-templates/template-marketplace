@@ -2,7 +2,7 @@
 
 High-performance, S3 compatible, secure and reliable storage system
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rustfs-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rustfs-1)
 
 ## About
 
@@ -30,4 +30,4 @@ RustFS provides an easy way to host an S3 compatible object storage with high ef
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/rustfs-1)
+[View on Railway →](https://railway.com/deploy/rustfs-1)

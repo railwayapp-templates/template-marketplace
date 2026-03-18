@@ -2,7 +2,7 @@
 
 Deploy and Host Postgres 18 SSL with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgres-18-ssl)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-18-ssl)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting Postgres 18 involves provisioning a managed PostgreSQL instance, configu
 
 **Category:** Other · **Languages:** Shell
 
-[View on Railway →](https://railway.com/template/postgres-18-ssl)
+[View on Railway →](https://railway.com/deploy/postgres-18-ssl)

@@ -2,7 +2,7 @@
 
 Celery Worker and Beat pre configured to just fork and deploy!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/EE2f_5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EE2f_5)
 
 ## About
 
@@ -45,4 +45,4 @@ Beware! choosing higher concurrency can lead to higher credit usage. It's good f
 
 **Category:** Other · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/EE2f_5)
+[View on Railway →](https://railway.com/deploy/EE2f_5)

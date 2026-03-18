@@ -2,7 +2,7 @@
 
 Director is an open source framework for creating AI agents.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/QJbo7o)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/QJbo7o)
 
 ## About
 
@@ -42,4 +42,4 @@ GitHub: https://github.com/video-db/Director
 
 **Category:** AI/ML · **Languages:** Python, JavaScript, Shell, Makefile, Vue, TypeScript, CSS, Dockerfile, HTML
 
-[View on Railway →](https://railway.com/template/QJbo7o)
+[View on Railway →](https://railway.com/deploy/QJbo7o)

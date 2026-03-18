@@ -2,7 +2,7 @@
 
 Server, NAS, VPS navigation panel, home page and browser home page.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BOpuEm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BOpuEm)
 
 ## About
 
@@ -27,4 +27,4 @@ A navigation panel that allows for the addition of URLs and redirects is an extr
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/BOpuEm)
+[View on Railway →](https://railway.com/deploy/BOpuEm)

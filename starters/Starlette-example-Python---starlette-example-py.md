@@ -2,7 +2,7 @@
 
 A lightweight framework for building async web services in Python
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/starlette-example-py)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/starlette-example-py)
 
 ## About
 
@@ -30,4 +30,4 @@ This template shows how to setup Starlette, so you can start creating things wit
 
 **Category:** Starters · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/starlette-example-py)
+[View on Railway →](https://railway.com/deploy/starlette-example-py)

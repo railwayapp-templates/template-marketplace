@@ -2,7 +2,7 @@
 
 Self-hosted social media management
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cw5DSn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cw5DSn)
 
 ## About
 
@@ -130,4 +130,4 @@ It is the ideal social media management software for bloggers, artisans, entrepr
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/cw5DSn)
+[View on Railway →](https://railway.com/deploy/cw5DSn)

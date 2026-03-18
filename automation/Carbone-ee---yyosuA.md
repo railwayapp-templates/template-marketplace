@@ -2,7 +2,7 @@
 
 Carbone document generator
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/yyosuA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yyosuA)
 
 ## About
 
@@ -42,4 +42,4 @@ Save time using a straightforward API and one tool for everything: Invoices, Rep
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/yyosuA)
+[View on Railway →](https://railway.com/deploy/yyosuA)

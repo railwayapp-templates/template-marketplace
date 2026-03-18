@@ -2,7 +2,7 @@
 
 ´gitrailroad´ A road for any vehicle, walking or running person
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gitrailroad)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gitrailroad)
 
 ## About
 
@@ -18,4 +18,4 @@ I hope that the integration with and the use together with railroad give me A to
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/gitrailroad)
+[View on Railway →](https://railway.com/deploy/gitrailroad)

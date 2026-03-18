@@ -2,7 +2,7 @@
 
 MollySocket allows getting signal notifications via UnifiedPush.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/QhKRXF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/QhKRXF)
 
 ## About
 
@@ -55,4 +55,4 @@ Complete the setup in the Molly app; go to Settings &gt; Notifications &gt; Push
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/QhKRXF)
+[View on Railway →](https://railway.com/deploy/QhKRXF)

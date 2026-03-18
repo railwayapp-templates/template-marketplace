@@ -2,7 +2,7 @@
 
 Self Host NOFX: Autonomous AI trader: multi-model, multi-exchange.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nofx-ai-trading)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nofx-ai-trading)
 
 ## About
 
@@ -57,4 +57,4 @@ Key features:
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/nofx-ai-trading)
+[View on Railway →](https://railway.com/deploy/nofx-ai-trading)

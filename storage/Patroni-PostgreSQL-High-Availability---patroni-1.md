@@ -2,7 +2,7 @@
 
 Patroni PostgreSQL High Availability Cluster
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/patroni-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/patroni-1)
 
 ## About
 
@@ -76,4 +76,4 @@ Hosting Patroni requires orchestrating multiple components: a distributed config
 
 **Category:** Storage · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/patroni-1)
+[View on Railway →](https://railway.com/deploy/patroni-1)

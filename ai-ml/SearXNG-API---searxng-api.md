@@ -2,7 +2,7 @@
 
 A pre-configured SearXNG optimized for private and LLM tool use.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/searxng-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/searxng-api)
 
 ## About
 
@@ -37,4 +37,4 @@ Running SearXNG typically requires configuring YAML settings, managing search en
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/searxng-api)
+[View on Railway →](https://railway.com/deploy/searxng-api)

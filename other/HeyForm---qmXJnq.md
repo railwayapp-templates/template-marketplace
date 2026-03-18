@@ -2,7 +2,7 @@
 
 HeyForm is an open-source form builder
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qmXJnq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qmXJnq)
 
 ## About
 
@@ -82,4 +82,4 @@ HeyForm is open-source under the GNU Affero General Public License v3.0 (AGPL-3.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/qmXJnq)
+[View on Railway →](https://railway.com/deploy/qmXJnq)

@@ -2,7 +2,7 @@
 
 Simple WebSocket Bun server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BLofAq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BLofAq)
 
 ## About
 
@@ -36,4 +36,4 @@ Or deploy this template yourself and tinker with it! 🔥
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/BLofAq)
+[View on Railway →](https://railway.com/deploy/BLofAq)

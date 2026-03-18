@@ -2,7 +2,7 @@
 
 A solid Discord bot foundation built with NestJS that scales to any size
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/discord-nestjs-bot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discord-nestjs-bot)
 
 ## About
 
@@ -25,4 +25,4 @@ Hosting a Discord NestJS Bot on Railway means your bot is always online, automat
 
 **Category:** Bots · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/discord-nestjs-bot)
+[View on Railway →](https://railway.com/deploy/discord-nestjs-bot)

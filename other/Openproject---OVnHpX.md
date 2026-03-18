@@ -2,7 +2,7 @@
 
 OpenProject is a project management software with a focus on sovereignty
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OVnHpX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OVnHpX)
 
 ## About
 
@@ -61,4 +61,4 @@ For detailed information and installation guides, visit the official documentati
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/OVnHpX)
+[View on Railway →](https://railway.com/deploy/OVnHpX)

@@ -2,7 +2,7 @@
 
 Up-to-date code documentation for LLMs and AI code editors
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/context7)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/context7)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting context7 on Railway lets you run the MCP server as a Docker container, p
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/context7)
+[View on Railway →](https://railway.com/deploy/context7)

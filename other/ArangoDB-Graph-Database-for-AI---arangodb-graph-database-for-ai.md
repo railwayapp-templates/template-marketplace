@@ -2,7 +2,7 @@
 
 Graph-native reasoning, vector search, and full-text insights.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/arangodb-graph-database-for-ai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/arangodb-graph-database-for-ai)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting ArangoDB on Railway provides a scalable, multi-model database solution p
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/arangodb-graph-database-for-ai)
+[View on Railway →](https://railway.com/deploy/arangodb-graph-database-for-ai)

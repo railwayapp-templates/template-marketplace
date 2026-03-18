@@ -2,7 +2,7 @@
 
 A comment widget that just works
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hame0C)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hame0C)
 
 ## About
 
@@ -64,4 +64,4 @@ Commento++ is a free, open source, fast, and lightweight comments box that you c
 
 **Category:** Blogs · **Tags:** disqus, comments · **Languages:** Go, JavaScript, SCSS, HTML, PLpgSQL, Makefile, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/hame0C)
+[View on Railway →](https://railway.com/deploy/hame0C)

@@ -2,7 +2,7 @@
 
 Plug-and-play Flask contact form, deploy with one click via Docker/Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pDM1dq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pDM1dq)
 
 ## About
 
@@ -39,4 +39,4 @@ MIT License - Free to use and modify
 
 **Category:** Other · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/pDM1dq)
+[View on Railway →](https://railway.com/deploy/pDM1dq)

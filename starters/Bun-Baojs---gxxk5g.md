@@ -2,7 +2,7 @@
 
 A simple Bao.js webserver running Bun
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gxxk5g)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gxxk5g)
 
 ## About
 
@@ -37,4 +37,4 @@ This template features a simple [Bao.js](https://github.com/mattreid1/baojs) w
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/gxxk5g)
+[View on Railway →](https://railway.com/deploy/gxxk5g)

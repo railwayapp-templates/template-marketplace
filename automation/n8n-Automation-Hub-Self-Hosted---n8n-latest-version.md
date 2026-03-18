@@ -2,7 +2,7 @@
 
 [Mar'26] Deploy and Host n8n Latest Version with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-latest-version)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-latest-version)
 
 ## About
 
@@ -65,4 +65,4 @@ Railway removes these complexities by providing a managed deployment platform wh
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/n8n-latest-version)
+[View on Railway →](https://railway.com/deploy/n8n-latest-version)

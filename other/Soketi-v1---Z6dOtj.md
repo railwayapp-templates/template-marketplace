@@ -2,7 +2,7 @@
 
 Deploy an open-source Pusher-compatible server.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Z6dOtj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Z6dOtj)
 
 ## About
 
@@ -62,4 +62,4 @@ https://laravel.com/docs/9.x/broadcasting
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/Z6dOtj)
+[View on Railway →](https://railway.com/deploy/Z6dOtj)

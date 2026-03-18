@@ -2,7 +2,7 @@
 
 Crawl4AI is an AI-ready web crawler for LLMs, AI agents, & data pipelines.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Owzyy8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Owzyy8)
 
 ## About
 
@@ -45,4 +45,4 @@ https://docs.crawl4ai.com/
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/Owzyy8)
+[View on Railway →](https://railway.com/deploy/Owzyy8)

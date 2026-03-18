@@ -2,7 +2,7 @@
 
 All-in-one platform for social media management with Temporal orchestration
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postiz-temporal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postiz-temporal)
 
 ## About
 
@@ -81,4 +81,4 @@ Hosting Postiz with Temporal involves deploying seven interconnected services: t
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/postiz-temporal)
+[View on Railway →](https://railway.com/deploy/postiz-temporal)

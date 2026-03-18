@@ -2,7 +2,7 @@
 
 Nextcloud server on Railway!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/LddOJ1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/LddOJ1)
 
 ## About
 
@@ -51,4 +51,4 @@ If there are any issues with it, just let me know in the Railway Discord, and I'
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/LddOJ1)
+[View on Railway →](https://railway.com/deploy/LddOJ1)

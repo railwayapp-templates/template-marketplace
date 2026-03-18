@@ -2,7 +2,7 @@
 
 Flowise AI with persisted volume, PostGIS & private networking.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/A7Dwg9)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/A7Dwg9)
 
 ## About
 
@@ -53,4 +53,4 @@ Hosting FlowiseAI involves deploying a Node.js application that requires a persi
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/A7Dwg9)
+[View on Railway →](https://railway.com/deploy/A7Dwg9)

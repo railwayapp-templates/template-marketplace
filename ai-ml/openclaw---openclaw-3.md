@@ -2,7 +2,7 @@
 
 Openclaw Enhanced Launcher.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-3)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting OpenClaw involves building the gateway from source and running it behind
 
 **Category:** AI/ML · **Languages:** JavaScript, Dockerfile, CSS, HTML
 
-[View on Railway →](https://railway.com/template/openclaw-3)
+[View on Railway →](https://railway.com/deploy/openclaw-3)

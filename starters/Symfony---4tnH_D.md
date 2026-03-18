@@ -2,7 +2,7 @@
 
 A simple Symfony app that is connected to a Postgres database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4tnH_D)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4tnH_D)
 
 ## About
 
@@ -70,4 +70,4 @@ The deployment structure follows a "majestic monolith" architecture, where the e
 
 **Category:** Starters · **Languages:** PHP, Shell, JavaScript, Twig, CSS
 
-[View on Railway →](https://railway.com/template/4tnH_D)
+[View on Railway →](https://railway.com/deploy/4tnH_D)

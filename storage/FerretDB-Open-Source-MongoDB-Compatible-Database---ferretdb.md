@@ -2,7 +2,7 @@
 
 FerretDB [Mar ’26] (Run MongoDB Apps on PostgreSQL Backend) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ferretdb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ferretdb)
 
 ## About
 
@@ -33,4 +33,4 @@ FerretDB enables you to use your existing MongoDB tools and drivers seamlessly w
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/ferretdb)
+[View on Railway →](https://railway.com/deploy/ferretdb)

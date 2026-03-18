@@ -2,7 +2,7 @@
 
 Remember, Grasshopper, coding is as much about problem-solving as 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tUSiyV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tUSiyV)
 
 ## About
 
@@ -34,4 +34,4 @@ Remember, Grasshopper, coding is as much about problem-solving as it is about wr
 
 **Category:** Other · **Languages:** Rust, JavaScript, SCSS, HTML, Python, TypeScript, CSS, PLpgSQL, Shell, Smarty, Dockerfile, Ruby
 
-[View on Railway →](https://railway.com/template/tUSiyV)
+[View on Railway →](https://railway.com/deploy/tUSiyV)

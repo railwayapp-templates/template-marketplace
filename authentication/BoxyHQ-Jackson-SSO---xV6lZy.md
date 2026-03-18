@@ -2,7 +2,7 @@
 
 Security Building Blocks For Developers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xV6lZy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xV6lZy)
 
 ## About
 
@@ -42,4 +42,4 @@ BoxyHQ’s SSO solution allows you to go from the first line of code to deployme
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/xV6lZy)
+[View on Railway →](https://railway.com/deploy/xV6lZy)

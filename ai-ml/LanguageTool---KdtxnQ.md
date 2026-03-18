@@ -2,7 +2,7 @@
 
  More than a Grammar Checker
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/KdtxnQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/KdtxnQ)
 
 ## About
 
@@ -37,4 +37,4 @@ Use the following URL in your extension or desktop app:
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/KdtxnQ)
+[View on Railway →](https://railway.com/deploy/KdtxnQ)

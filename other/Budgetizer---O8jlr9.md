@@ -2,7 +2,7 @@
 
 Application web de gestion de finances personnelles et suivi de dépenses.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/O8jlr9)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/O8jlr9)
 
 ## About
 
@@ -51,4 +51,4 @@ Une application web moderne de gestion de finances personnelles construite avec 
 
 **Category:** Other · **Languages:** TypeScript, CSS, JavaScript, Shell
 
-[View on Railway →](https://railway.com/template/O8jlr9)
+[View on Railway →](https://railway.com/deploy/O8jlr9)

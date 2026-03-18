@@ -2,7 +2,7 @@
 
 All-in-one social media management tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xWx2v4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xWx2v4)
 
 ## About
 
@@ -65,4 +65,4 @@ This includes
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/xWx2v4)
+[View on Railway →](https://railway.com/deploy/xWx2v4)

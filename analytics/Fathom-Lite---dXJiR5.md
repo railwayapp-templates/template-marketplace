@@ -2,7 +2,7 @@
 
 An open-source website analytics tool.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dXJiR5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dXJiR5)
 
 ## About
 
@@ -24,4 +24,4 @@ Fathom Analytics is a privacy-focused website analytics service that allows webs
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/dXJiR5)
+[View on Railway →](https://railway.com/deploy/dXJiR5)

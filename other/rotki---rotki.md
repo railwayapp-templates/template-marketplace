@@ -2,7 +2,7 @@
 
 Portfolio tracking, analytics, accounting and management application
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rotki)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rotki)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting rotki requires deploying a Docker container that runs both the Python ba
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/rotki)
+[View on Railway →](https://railway.com/deploy/rotki)

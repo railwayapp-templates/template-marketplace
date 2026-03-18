@@ -2,7 +2,7 @@
 
 Platform to securely manage application configuration and secrets.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/infisical-ha)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/infisical-ha)
 
 ## About
 
@@ -142,4 +142,4 @@ All services communicate over Railway’s private network using internal DNS. Co
 
 **Category:** Authentication · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/infisical-ha)
+[View on Railway →](https://railway.com/deploy/infisical-ha)

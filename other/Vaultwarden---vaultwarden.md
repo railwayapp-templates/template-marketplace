@@ -2,7 +2,7 @@
 
 A self-hosted cross-platform password manager
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vaultwarden)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vaultwarden)
 
 ## About
 
@@ -36,4 +36,4 @@ Alternative implementation of the Bitwarden server API written in Rust and compa
 
 **Category:** Other · **Tags:** password manager, rust, bitwarden · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/vaultwarden)
+[View on Railway →](https://railway.com/deploy/vaultwarden)

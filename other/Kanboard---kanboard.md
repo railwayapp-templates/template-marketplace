@@ -2,7 +2,7 @@
 
 Kanboard template with PostgreSQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kanboard)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kanboard)
 
 ## About
 
@@ -93,4 +93,4 @@ For further configuration options, consult the official documentation at **docs.
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/kanboard)
+[View on Railway →](https://railway.com/deploy/kanboard)

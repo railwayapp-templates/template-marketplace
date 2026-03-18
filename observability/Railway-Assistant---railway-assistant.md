@@ -2,7 +2,7 @@
 
 Send Railway alerts to Telegram & Slack with a lightweight service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railway-assistant)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-assistant)
 
 ## About
 
@@ -44,4 +44,4 @@ The service is fully environment-variable driven — no database, no setup scrip
 
 **Category:** Observability · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/railway-assistant)
+[View on Railway →](https://railway.com/deploy/railway-assistant)

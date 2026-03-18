@@ -2,7 +2,7 @@
 
 🔍 Developer-friendly webhook debugging tool with real-time capture
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/webhook-catcher)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/webhook-catcher)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting `webhook-catcher` on Railway is fast and simple. Once deployed, you'll r
 
 **Category:** Observability · **Languages:** HTML, Python, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/webhook-catcher)
+[View on Railway →](https://railway.com/deploy/webhook-catcher)

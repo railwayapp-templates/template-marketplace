@@ -2,7 +2,7 @@
 
 Open Source backend for your next SaaS and Mobile app in 1 file
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Oasf2M)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Oasf2M)
 
 ## About
 
@@ -31,4 +31,4 @@ different version is required.
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/Oasf2M)
+[View on Railway →](https://railway.com/deploy/Oasf2M)

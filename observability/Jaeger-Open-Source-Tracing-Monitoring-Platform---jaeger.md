@@ -2,7 +2,7 @@
 
 Jaeger (Track Distributed System Performance) Self Host [Mar ’26]
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jaeger)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jaeger)
 
 ## About
 
@@ -22,4 +22,4 @@ Self-hosting Jaeger allows you to keep your observability data under your comple
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/jaeger)
+[View on Railway →](https://railway.com/deploy/jaeger)

@@ -2,7 +2,7 @@
 
 Preconfigured as website builder CMS. Using postgreSQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/L8TUlT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/L8TUlT)
 
 ## About
 
@@ -46,4 +46,4 @@ Click ☝️ to play opn YouTube
 
 **Category:** CMS · **Languages:** TypeScript, JavaScript, CSS, SCSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/L8TUlT)
+[View on Railway →](https://railway.com/deploy/L8TUlT)

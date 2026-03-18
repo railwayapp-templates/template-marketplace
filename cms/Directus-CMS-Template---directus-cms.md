@@ -2,7 +2,7 @@
 
 Directus CMS with official template pre-applied and ready to use
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/directus-cms)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/directus-cms)
 
 ## About
 
@@ -70,4 +70,4 @@ Hosting Directus CMS on Railway provides a complete content management infrastru
 
 **Category:** CMS · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/directus-cms)
+[View on Railway →](https://railway.com/deploy/directus-cms)

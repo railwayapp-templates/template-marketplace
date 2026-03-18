@@ -2,7 +2,7 @@
 
 A Go proxy server for routing traffic based on URLs and ports.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/y0AKsJ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/y0AKsJ)
 
 ## About
 
@@ -29,4 +29,4 @@ The **Simple Golang Proxy Server** is a lightweight proxy server implemented in 
 
 **Category:** Other · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/y0AKsJ)
+[View on Railway →](https://railway.com/deploy/y0AKsJ)

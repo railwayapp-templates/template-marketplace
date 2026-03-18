@@ -2,7 +2,7 @@
 
 Your own ZAP OWASP website vulnerbility scanner. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dCh187)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dCh187)
 
 ## About
 
@@ -38,4 +38,4 @@ This boilerplate deploys a ZAP API-backed web interface alongside a ZAP Docker c
 
 **Category:** Other · **Languages:** TypeScript, CSS, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/dCh187)
+[View on Railway →](https://railway.com/deploy/dCh187)

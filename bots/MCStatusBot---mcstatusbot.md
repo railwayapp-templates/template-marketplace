@@ -2,7 +2,7 @@
 
 A simple Discord.js bot that displays the status of Minecraft servers. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mcstatusbot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mcstatusbot)
 
 ## About
 
@@ -57,4 +57,4 @@ Official Railway Template for https://github.com/RahulR100/mcstatusbot
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/mcstatusbot)
+[View on Railway →](https://railway.com/deploy/mcstatusbot)

@@ -2,7 +2,7 @@
 
 No-nonsense outbound SMS API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ntXGdO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ntXGdO)
 
 ## About
 
@@ -51,4 +51,4 @@ The environment variables are:
 
 **Category:** Other · **Languages:** JavaScript, Procfile
 
-[View on Railway →](https://railway.com/template/ntXGdO)
+[View on Railway →](https://railway.com/deploy/ntXGdO)

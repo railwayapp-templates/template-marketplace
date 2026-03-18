@@ -2,7 +2,7 @@
 
 Open source observability and analytics for LLM applications
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/exma_H)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/exma_H)
 
 ## About
 
@@ -108,4 +108,4 @@ In case of errors, try restarting the application container or join the Discord 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/exma_H)
+[View on Railway →](https://railway.com/deploy/exma_H)

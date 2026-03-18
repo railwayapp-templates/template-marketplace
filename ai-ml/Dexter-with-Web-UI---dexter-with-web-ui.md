@@ -2,7 +2,7 @@
 
 Dexter : autonomous financial research agent with a secure web dashboard.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dexter-with-web-ui)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dexter-with-web-ui)
 
 ## About
 
@@ -45,4 +45,4 @@ This deployment runs a Bun-based web server that exposes a small dashboard plus 
 
 **Category:** AI/ML · **Languages:** TypeScript, Shell, JavaScript
 
-[View on Railway →](https://railway.com/template/dexter-with-web-ui)
+[View on Railway →](https://railway.com/deploy/dexter-with-web-ui)

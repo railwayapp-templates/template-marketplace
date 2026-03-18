@@ -2,7 +2,7 @@
 
 Backend, Admin dashboard and Webshop in one package
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6DeBLr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6DeBLr)
 
 ## About
 
@@ -49,4 +49,4 @@ This boilerplate provides a complete Vendure backend, an admin dashboard, and a 
 
 **Category:** Other · **Languages:** TypeScript, CSS, Handlebars, JavaScript
 
-[View on Railway →](https://railway.com/template/6DeBLr)
+[View on Railway →](https://railway.com/deploy/6DeBLr)

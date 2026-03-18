@@ -2,7 +2,7 @@
 
 Open source platform for building internal applications
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FNZJ8t)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FNZJ8t)
 
 ## About
 
@@ -31,4 +31,4 @@ Budibase offers flexible hosting options to suit different needs. You can self-h
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/FNZJ8t)
+[View on Railway →](https://railway.com/deploy/FNZJ8t)

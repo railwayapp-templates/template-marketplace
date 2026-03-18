@@ -2,7 +2,7 @@
 
 Redis Stack is an enhanced version of Redis. (Legacy)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/675ZtP)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/675ZtP)
 
 ## About
 
@@ -65,4 +65,4 @@ Reduces latency by bringing AI processing closer to the data.
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/675ZtP)
+[View on Railway →](https://railway.com/deploy/675ZtP)

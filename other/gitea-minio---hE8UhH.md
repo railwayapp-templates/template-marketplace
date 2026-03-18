@@ -2,7 +2,7 @@
 
 Gitea is a lightweight, fast, and open-source Git repository.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hE8UhH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hE8UhH)
 
 ## About
 
@@ -79,4 +79,4 @@ Gitea is an excellent alternative for teams looking for autonomy and flexibility
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/hE8UhH)
+[View on Railway →](https://railway.com/deploy/hE8UhH)

@@ -2,7 +2,7 @@
 
 Lightweight Analytics | Posthog, Mixpanel, Google Analytics alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/liwan)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/liwan)
 
 ## About
 
@@ -29,4 +29,4 @@ On first setup, check the deployment logs for the unique link to create the admi
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/liwan)
+[View on Railway →](https://railway.com/deploy/liwan)

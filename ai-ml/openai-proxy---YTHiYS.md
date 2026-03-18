@@ -2,7 +2,7 @@
 
 OpenAI Proxy (100+ LLMs) - OpenAI, Azure, Bedrock, Anthropic, HuggingFace
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/YTHiYS)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/YTHiYS)
 
 ## About
 
@@ -28,4 +28,4 @@ print(openai.ChatCompletion.create(model="test", messages=[{"role":"user", "cont
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/YTHiYS)
+[View on Railway →](https://railway.com/deploy/YTHiYS)

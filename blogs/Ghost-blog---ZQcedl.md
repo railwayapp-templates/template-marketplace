@@ -2,7 +2,7 @@
 
 Ready to use right after launch! No setup required.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZQcedl)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZQcedl)
 
 ## About
 
@@ -58,4 +58,4 @@ This template is launched from a git repository, making it easy to customize sho
 
 **Category:** Blogs · **Languages:** JavaScript, CSS, HTML, Handlebars, XSLT
 
-[View on Railway →](https://railway.com/template/ZQcedl)
+[View on Railway →](https://railway.com/deploy/ZQcedl)

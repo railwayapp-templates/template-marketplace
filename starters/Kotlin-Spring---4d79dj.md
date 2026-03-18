@@ -2,7 +2,7 @@
 
 A working Kotlin Spring template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4d79dj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4d79dj)
 
 ## About
 
@@ -16,4 +16,4 @@ Shipping a Kotlin Spring app is easy with Gradle and Railway. Just add the neces
 
 **Category:** Starters · **Languages:** Kotlin
 
-[View on Railway →](https://railway.com/template/4d79dj)
+[View on Railway →](https://railway.com/deploy/4d79dj)

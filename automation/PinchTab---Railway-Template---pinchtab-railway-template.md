@@ -2,7 +2,7 @@
 
 Headless Chromium as a REST API. Give your AI agent eyes and hands
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pinchtab-railway-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pinchtab-railway-template)
 
 ## About
 
@@ -33,4 +33,4 @@ PinchTab runs as a single container that manages multiple isolated Chrome instan
 
 **Category:** Automation · **Languages:** Go, TypeScript, HTML, Shell, JavaScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/pinchtab-railway-template)
+[View on Railway →](https://railway.com/deploy/pinchtab-railway-template)

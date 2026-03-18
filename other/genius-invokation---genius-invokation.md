@@ -2,7 +2,7 @@
 
 Deploy and Host genius-invokation with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/genius-invokation)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/genius-invokation)
 
 ## About
 
@@ -38,4 +38,4 @@ This template will deploy:
 
 **Category:** Other · **Languages:** TypeScript, C++, Python, CSS, C#, C, JavaScript, HTML, Rust, CMake, Dockerfile
 
-[View on Railway →](https://railway.com/template/genius-invokation)
+[View on Railway →](https://railway.com/deploy/genius-invokation)

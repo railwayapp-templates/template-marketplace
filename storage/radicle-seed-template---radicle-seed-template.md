@@ -2,7 +2,7 @@
 
 Radicle Seed and Explorer
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/radicle-seed-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/radicle-seed-template)
 
 ## About
 
@@ -69,4 +69,4 @@ Radicle-seed-template deploys a self-hosted
 
 **Category:** Storage · **Languages:** Shell
 
-[View on Railway →](https://railway.com/template/radicle-seed-template)
+[View on Railway →](https://railway.com/deploy/radicle-seed-template)

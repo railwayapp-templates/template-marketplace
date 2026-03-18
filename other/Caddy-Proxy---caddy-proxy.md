@@ -2,7 +2,7 @@
 
 Production-Ready Reverse Proxy for Private Networking & Web Socket
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/caddy-proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/caddy-proxy)
 
 ## About
 
@@ -26,4 +26,4 @@ Hosting refers to running your Caddy proxy instance on a cloud platform like Rai
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/caddy-proxy)
+[View on Railway →](https://railway.com/deploy/caddy-proxy)

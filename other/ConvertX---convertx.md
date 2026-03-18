@@ -2,7 +2,7 @@
 
 Self-hosted online file converter supporting over 1,000 formats
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/convertx)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/convertx)
 
 ## About
 
@@ -48,4 +48,4 @@ All data is stored in the attached volume, so keep an eye on usage. If the volum
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/convertx)
+[View on Railway →](https://railway.com/deploy/convertx)

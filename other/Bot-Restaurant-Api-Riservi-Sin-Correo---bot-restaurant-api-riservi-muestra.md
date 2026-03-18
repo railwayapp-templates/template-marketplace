@@ -2,7 +2,7 @@
 
 Deploy and Host Bot-Restaurant-Api-Riservi-Muestra with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bot-restaurant-api-riservi-muestra)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bot-restaurant-api-riservi-muestra)
 
 ## About
 
@@ -42,4 +42,4 @@ Hosting Bot-Restaurant-Api-Riservi-Muestra involves deploying a scalable Node.js
 
 **Category:** Other · **Languages:** TypeScript, HTML, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/bot-restaurant-api-riservi-muestra)
+[View on Railway →](https://railway.com/deploy/bot-restaurant-api-riservi-muestra)

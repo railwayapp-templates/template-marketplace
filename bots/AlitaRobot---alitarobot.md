@@ -2,7 +2,7 @@
 
 Template for Alita Robot Telegram Group Management Bot
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/alitarobot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/alitarobot)
 
 ## About
 
@@ -52,4 +52,4 @@ Deploying Alita Robot requires a PostgreSQL database for persistent storage and 
 
 **Category:** Bots · **Languages:** Go, PLpgSQL, Shell, Makefile
 
-[View on Railway →](https://railway.com/template/alitarobot)
+[View on Railway →](https://railway.com/deploy/alitarobot)

@@ -2,7 +2,7 @@
 
 A bot to bypass the Anti Forward And Copy rule of the telegram API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qHge9_)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qHge9_)
 
 ## About
 
@@ -28,4 +28,4 @@ In anti-forward/copy chats, where content is often protected to maintain privacy
 
 **Category:** Automation · **Languages:** Python, Procfile
 
-[View on Railway →](https://railway.com/template/qHge9_)
+[View on Railway →](https://railway.com/deploy/qHge9_)

@@ -2,7 +2,7 @@
 
 Integration between Google Calendar and Todoist.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/AP1rpk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/AP1rpk)
 
 ## About
 
@@ -42,4 +42,4 @@ Context: I primarily use Todoist to manage my daily tasks, but I'm required to u
 
 **Category:** Automation · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/AP1rpk)
+[View on Railway →](https://railway.com/deploy/AP1rpk)

@@ -2,7 +2,7 @@
 
 A simple webserver written in Go using Gin
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dTvvSf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dTvvSf)
 
 ## About
 
@@ -40,4 +40,4 @@ This template creates a simple Go server with Gin.
 
 **Category:** CMS · **Tags:** golang, webserver
 
-[View on Railway →](https://railway.com/template/dTvvSf)
+[View on Railway →](https://railway.com/deploy/dTvvSf)

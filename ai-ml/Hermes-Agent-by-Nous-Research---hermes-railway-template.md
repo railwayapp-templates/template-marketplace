@@ -2,7 +2,7 @@
 
 Template for Hermes Agent from Nous Research
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hermes-railway-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-railway-template)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting hermes-railway-template on Railway centers on a worker-first runtime wit
 
 **Category:** AI/ML · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/hermes-railway-template)
+[View on Railway →](https://railway.com/deploy/hermes-railway-template)

@@ -2,7 +2,7 @@
 
 A Patroni based High Availability Postgres using etcd
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgres-ha)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-ha)
 
 ## About
 
@@ -88,4 +88,4 @@ Automatically fails over to a secondary if primary is unavailable (while invalid
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/postgres-ha)
+[View on Railway →](https://railway.com/deploy/postgres-ha)

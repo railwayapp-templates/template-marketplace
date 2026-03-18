@@ -2,7 +2,7 @@
 
 Botpress is the ultimate platform for building next-generation chatbots.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/yEID2r)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yEID2r)
 
 ## About
 
@@ -24,4 +24,4 @@ After that, configure your Admin account and you're done!
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/yEID2r)
+[View on Railway →](https://railway.com/deploy/yEID2r)

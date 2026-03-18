@@ -2,7 +2,7 @@
 
 High-performance Vector Database and Vector Search Engine
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dbhF-C)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dbhF-C)
 
 ## About
 
@@ -168,4 +168,4 @@ Qdrant offers the following client libraries to help you integrate it into your 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/dbhF-C)
+[View on Railway →](https://railway.com/deploy/dbhF-C)

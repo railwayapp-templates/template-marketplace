@@ -2,7 +2,7 @@
 
 Account Abstraction ERC-4337 Bundler: Alto by Pimlico
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Uii9K8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Uii9K8)
 
 ## About
 
@@ -102,4 +102,4 @@ Learn more at the repo directly https://github.com/syphrpunk/alto?tab=readme-ov-
 
 **Category:** Other · **Languages:** TypeScript, Solidity, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/Uii9K8)
+[View on Railway →](https://railway.com/deploy/Uii9K8)

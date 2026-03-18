@@ -2,7 +2,7 @@
 
 Wiki.js [Mar ’26] (Create, Edit & Share Knowledge Bases) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wikijs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wikijs)
 
 ## About
 
@@ -34,4 +34,4 @@ You can self-host Wiki.js on Railway to maintain full control over your knowledg
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/wikijs)
+[View on Railway →](https://railway.com/deploy/wikijs)

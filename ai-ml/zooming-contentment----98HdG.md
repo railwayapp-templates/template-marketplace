@@ -2,7 +2,7 @@
 
 AI Coach that helps to improve pronunciation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-98HdG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-98HdG)
 
 ## About
 
@@ -44,4 +44,4 @@ This template deploys an AI-powered pronunciation tutor web service. The backend
 
 **Category:** AI/ML · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/-98HdG)
+[View on Railway →](https://railway.com/deploy/-98HdG)

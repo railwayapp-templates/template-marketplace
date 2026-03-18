@@ -2,7 +2,7 @@
 
 Headless CMS for modern apps, deployed instantly on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/strapi-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/strapi-1)
 
 ## About
 
@@ -45,4 +45,4 @@ Railway makes hosting Strapi effortless by bundling it with a PostgreSQL databas
 
 **Category:** CMS · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/strapi-1)
+[View on Railway →](https://railway.com/deploy/strapi-1)

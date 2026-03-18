@@ -2,7 +2,7 @@
 
 Consistent dev/production setup for Laravel 12 with Railway deployment
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/laravel-12-php-84-mysql-84)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/laravel-12-php-84-mysql-84)
 
 ## About
 
@@ -42,4 +42,4 @@ This template provides a minimal Laravel 12 application stack with Docker contai
 
 **Category:** Other · **Languages:** Blade, PHP, Dockerfile, Shell, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/laravel-12-php-84-mysql-84)
+[View on Railway →](https://railway.com/deploy/laravel-12-php-84-mysql-84)

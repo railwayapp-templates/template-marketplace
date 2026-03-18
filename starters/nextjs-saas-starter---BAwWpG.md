@@ -2,7 +2,7 @@
 
 Simple Saas Starter in Nextjs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BAwWpG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BAwWpG)
 
 ## About
 
@@ -55,4 +55,4 @@ Activity logging system for any user events
 
 **Category:** Starters · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/BAwWpG)
+[View on Railway →](https://railway.com/deploy/BAwWpG)

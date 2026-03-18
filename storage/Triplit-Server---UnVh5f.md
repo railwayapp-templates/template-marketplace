@@ -2,7 +2,7 @@
 
 The official template for self-hosting the Triplit Server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/UnVh5f)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/UnVh5f)
 
 ## About
 
@@ -38,4 +38,4 @@ More info in the [Triplit Docs](https://www.triplit.dev/docs/triplit-cloud/self-
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/UnVh5f)
+[View on Railway →](https://railway.com/deploy/UnVh5f)

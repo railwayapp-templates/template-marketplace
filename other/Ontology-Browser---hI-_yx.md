@@ -2,7 +2,7 @@
 
 A web front-end for navigating and querying OWL ontologies
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hI-_yx)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hI-_yx)
 
 ## About
 
@@ -65,4 +65,4 @@ Please see https://github.com/nickdrummond/ontology-browser for more details
 
 **Category:** Other · **Languages:** Java, JavaScript, HTML, CSS, Procfile
 
-[View on Railway →](https://railway.com/template/hI-_yx)
+[View on Railway →](https://railway.com/deploy/hI-_yx)

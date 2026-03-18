@@ -2,7 +2,7 @@
 
 Open-source, self-hostable remote control and remote access.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/controlr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/controlr)
 
 ## About
 
@@ -75,4 +75,4 @@ For more information, see the GitHub repo: https://github.com/bitbound/controlr
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/controlr)
+[View on Railway →](https://railway.com/deploy/controlr)

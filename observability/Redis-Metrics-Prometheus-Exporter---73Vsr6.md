@@ -2,7 +2,7 @@
 
 A Prometheus exporter for gathering metrics about your Railway Redis DB
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/73Vsr6)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/73Vsr6)
 
 ## About
 
@@ -28,4 +28,4 @@ This template will work immediately if your project already includes a Redis dat
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/73Vsr6)
+[View on Railway →](https://railway.com/deploy/73Vsr6)

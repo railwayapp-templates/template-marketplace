@@ -2,7 +2,7 @@
 
 A basic Kotling Spring Boot server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/w502ro)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/w502ro)
 
 ## About
 
@@ -37,4 +37,4 @@ Spring Boot makes it easy to create stand-alone, production-grade Spring based A
 
 **Category:** Starters · **Tags:** kotlin, spring boot
 
-[View on Railway →](https://railway.com/template/w502ro)
+[View on Railway →](https://railway.com/deploy/w502ro)

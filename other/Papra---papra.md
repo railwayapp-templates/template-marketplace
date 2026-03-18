@@ -2,7 +2,7 @@
 
 The minimalistic document archiving platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/papra)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/papra)
 
 ## About
 
@@ -40,4 +40,4 @@ Hosting Papra involves running its web service alongside a persistent storage la
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/papra)
+[View on Railway →](https://railway.com/deploy/papra)

@@ -2,7 +2,7 @@
 
 Deploy a headless cms with ease
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/squidex-headlesscms)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/squidex-headlesscms)
 
 ## About
 
@@ -265,4 +265,4 @@ Hosting Squidex HeadlessCMS on Railway is straightforward and efficient. The dep
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/squidex-headlesscms)
+[View on Railway →](https://railway.com/deploy/squidex-headlesscms)

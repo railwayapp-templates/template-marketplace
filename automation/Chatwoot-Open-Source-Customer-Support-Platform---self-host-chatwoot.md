@@ -2,7 +2,7 @@
 
 Deploy Chatwoot (Intercom alternative). Live chat, email, WhatsApp, etc.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/self-host-chatwoot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/self-host-chatwoot)
 
 ## About
 
@@ -105,4 +105,4 @@ Key features:
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/self-host-chatwoot)
+[View on Railway →](https://railway.com/deploy/self-host-chatwoot)

@@ -2,7 +2,7 @@
 
 AI-enhanced, auth system, microservices architecture
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ai-enabled-nodejs-microservices-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ai-enabled-nodejs-microservices-starter)
 
 ## About
 
@@ -88,4 +88,4 @@ Hosting this microservices starter involves deploying multiple interconnected se
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/ai-enabled-nodejs-microservices-starter)
+[View on Railway →](https://railway.com/deploy/ai-enabled-nodejs-microservices-starter)

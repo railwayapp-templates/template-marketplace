@@ -2,7 +2,7 @@
 
 EdgeDB template to connect to a managed Railway PostgreSQL instance
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6AT4wH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6AT4wH)
 
 ## About
 
@@ -37,4 +37,4 @@ There are a few additional environment variables that you can configure:
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/6AT4wH)
+[View on Railway →](https://railway.com/deploy/6AT4wH)

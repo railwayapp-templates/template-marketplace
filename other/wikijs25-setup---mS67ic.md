@@ -2,7 +2,7 @@
 
 Wiki.js + Postgres configured template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mS67ic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mS67ic)
 
 ## About
 
@@ -45,4 +45,4 @@ Wiki.js site: https://js.wiki
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/mS67ic)
+[View on Railway →](https://railway.com/deploy/mS67ic)

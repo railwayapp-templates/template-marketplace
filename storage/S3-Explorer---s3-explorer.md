@@ -2,7 +2,7 @@
 
 A native web-based file manager for S3-compatible storage buckets
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/s3-explorer)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/s3-explorer)
 
 ## About
 
@@ -232,4 +232,4 @@ Created by [@subratomandal](https://github.com/subratomandal)
 
 **Category:** Storage · **Languages:** TypeScript, CSS, JavaScript, Dockerfile, HTML
 
-[View on Railway →](https://railway.com/template/s3-explorer)
+[View on Railway →](https://railway.com/deploy/s3-explorer)

@@ -2,7 +2,7 @@
 
 Vikunja is an open source, self-hosted, task management application.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1V8xnQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1V8xnQ)
 
 ## About
 
@@ -52,4 +52,4 @@ AGPLv3
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/1V8xnQ)
+[View on Railway →](https://railway.com/deploy/1V8xnQ)

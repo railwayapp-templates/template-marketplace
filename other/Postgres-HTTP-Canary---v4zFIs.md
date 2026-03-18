@@ -2,7 +2,7 @@
 
 Turns your postgres db into an REST api
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/v4zFIs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/v4zFIs)
 
 ## About
 
@@ -64,4 +64,4 @@ You will find the api under the variables tab. It's randomly generated under cre
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/v4zFIs)
+[View on Railway →](https://railway.com/deploy/v4zFIs)

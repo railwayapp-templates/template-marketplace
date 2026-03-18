@@ -2,7 +2,7 @@
 
 Open Source Commenting Platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/coral-talk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/coral-talk)
 
 ## About
 
@@ -42,4 +42,4 @@ Hosting Coral Talk involves running the Coral application alongside its required
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/coral-talk)
+[View on Railway →](https://railway.com/deploy/coral-talk)

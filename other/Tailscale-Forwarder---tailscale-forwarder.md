@@ -2,7 +2,7 @@
 
 Connect to Railway services that are not publicly accessible
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tailscale-forwarder)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tailscale-forwarder)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting Tailscale Forwarder gives you access to a secure TCP proxy service that 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tailscale-forwarder)
+[View on Railway →](https://railway.com/deploy/tailscale-forwarder)

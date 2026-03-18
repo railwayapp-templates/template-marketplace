@@ -2,7 +2,7 @@
 
 Deploy and Host Wordpress with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wordpress-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wordpress-1)
 
 ## About
 
@@ -41,4 +41,4 @@ Hospedar WordPress no Railway é direto: utilize a imagem oficial do WordPress (
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/wordpress-1)
+[View on Railway →](https://railway.com/deploy/wordpress-1)

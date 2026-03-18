@@ -2,7 +2,7 @@
 
 MLflow Full version see more: www.oploy.eu
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mlflow-full)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mlflow-full)
 
 ## About
 
@@ -46,4 +46,4 @@ When deployed on Railway, MLflow runs as a tracking server accessible through a 
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/mlflow-full)
+[View on Railway →](https://railway.com/deploy/mlflow-full)

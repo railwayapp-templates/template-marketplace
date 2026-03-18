@@ -2,7 +2,7 @@
 
 ⚡ The lightning-fast asynchronous Python web framework
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BK4r9u)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BK4r9u)
 
 ## About
 
@@ -37,4 +37,4 @@ Sanic is a Python 3.8+ web server and web framework that’s written to go fast.
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/BK4r9u)
+[View on Railway →](https://railway.com/deploy/BK4r9u)

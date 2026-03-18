@@ -2,7 +2,7 @@
 
 [Mar '26] Host Meta's Llama models privately, using Ollama + OpenWebUI.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/llama-in-cloud)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/llama-in-cloud)
 
 ## About
 
@@ -37,4 +37,4 @@ Deploying Llama requires two components: an inference engine (Ollama) and a web 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/llama-in-cloud)
+[View on Railway →](https://railway.com/deploy/llama-in-cloud)

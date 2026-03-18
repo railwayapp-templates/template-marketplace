@@ -2,7 +2,7 @@
 
 Deploy Traefik + Tailscale with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/empathetic-serenity)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/empathetic-serenity)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting **this template** on Railway provides an elegant way to manage secure, p
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/empathetic-serenity)
+[View on Railway →](https://railway.com/deploy/empathetic-serenity)

@@ -2,7 +2,7 @@
 
 Run a lightweight Bun-powered proxy that exposes s3 bucket to the public
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/public-blob-proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/public-blob-proxy)
 
 ## About
 
@@ -34,4 +34,4 @@ Blob Butler deploys as a Bun HTTP service on Railway. The template includes an a
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/public-blob-proxy)
+[View on Railway →](https://railway.com/deploy/public-blob-proxy)

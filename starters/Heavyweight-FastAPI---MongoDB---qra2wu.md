@@ -2,7 +2,7 @@
 
 FastAPI template for large projects which uses mongodb
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qra2wu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qra2wu)
 
 ## About
 
@@ -43,4 +43,4 @@ Hosting this project on Railway means you get plug-and-play cloud deployment wit
 
 **Category:** Starters · **Languages:** Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/qra2wu)
+[View on Railway →](https://railway.com/deploy/qra2wu)

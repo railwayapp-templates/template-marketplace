@@ -2,7 +2,7 @@
 
 Free, open-source game server management panel.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JOypuO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JOypuO)
 
 ## About
 
@@ -118,4 +118,4 @@ Code released under the [MIT License](./LICENSE.md).
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/JOypuO)
+[View on Railway →](https://railway.com/deploy/JOypuO)

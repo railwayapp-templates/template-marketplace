@@ -2,7 +2,7 @@
 
 Real-time digital product observability.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/yrOOdm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yrOOdm)
 
 ## About
 
@@ -33,4 +33,4 @@ Read more: https://supso.co/docs/
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/yrOOdm)
+[View on Railway →](https://railway.com/deploy/yrOOdm)

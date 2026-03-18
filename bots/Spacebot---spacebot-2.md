@@ -2,7 +2,7 @@
 
 An AI agent for teams, communities, and multi-user environments.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/spacebot-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/spacebot-2)
 
 ## About
 
@@ -25,4 +25,4 @@ When deployed on Railway, Spacebot runs as a containerized service with environm
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/spacebot-2)
+[View on Railway →](https://railway.com/deploy/spacebot-2)

@@ -2,7 +2,7 @@
 
 Simple starter for a Symfony application, fully configured for deployment 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/E-LDHU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/E-LDHU)
 
 ## About
 
@@ -106,4 +106,4 @@ This project is licensed under the MIT License.
 
 **Category:** Starters · **Languages:** PHP, JavaScript, Twig, CSS
 
-[View on Railway →](https://railway.com/template/E-LDHU)
+[View on Railway →](https://railway.com/deploy/E-LDHU)

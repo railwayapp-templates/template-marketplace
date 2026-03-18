@@ -2,7 +2,7 @@
 
 One-click Grafana/OTLP stack deployment
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/faP63Y)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/faP63Y)
 
 ## About
 
@@ -42,4 +42,4 @@ Hosting this stack involves deploying a unified observability solution that inte
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/faP63Y)
+[View on Railway →](https://railway.com/deploy/faP63Y)

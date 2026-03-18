@@ -2,7 +2,7 @@
 
 The AI that actually does things.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/clawdbot-railway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/clawdbot-railway)
 
 ## About
 
@@ -44,4 +44,4 @@ Deploying MoltBot Railway gives you a production-ready AI assistant in minutes. 
 
 **Category:** Automation · **Languages:** TypeScript, Swift, Kotlin, Shell, CSS, JavaScript, Python, HTML, Dockerfile, Ruby
 
-[View on Railway →](https://railway.com/template/clawdbot-railway)
+[View on Railway →](https://railway.com/deploy/clawdbot-railway)

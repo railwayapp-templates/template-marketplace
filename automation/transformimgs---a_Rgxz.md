@@ -2,7 +2,7 @@
 
 Open Source Image CDN that provides image transformation API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/a_Rgxz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/a_Rgxz)
 
 ## About
 
@@ -204,4 +204,4 @@ You can check out the [MIT](https://github.com/Pixboost/transformimgs/blob/main/
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/a_Rgxz)
+[View on Railway →](https://railway.com/deploy/a_Rgxz)

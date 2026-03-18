@@ -2,7 +2,7 @@
 
 A privacy-first, lightweight note-taking app.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/memos)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/memos)
 
 ## About
 
@@ -42,4 +42,4 @@ Hosting Memos on [Railway](https://railway.app) is simple. We run the official D
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/memos)
+[View on Railway →](https://railway.com/deploy/memos)

@@ -2,7 +2,7 @@
 
 Chat Chat, your own unified chat and search to AI platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-WWW5r)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-WWW5r)
 
 ## About
 
@@ -43,4 +43,4 @@ AI may generate inappropriate content, please use it with caution.
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/-WWW5r)
+[View on Railway →](https://railway.com/deploy/-WWW5r)

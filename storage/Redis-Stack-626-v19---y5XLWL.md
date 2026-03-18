@@ -2,7 +2,7 @@
 
 Redis with extended capabilities.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/y5XLWL)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/y5XLWL)
 
 ## About
 
@@ -47,4 +47,4 @@ Redis Stack unifies and simplifies the developer experience of Redis by offering
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/y5XLWL)
+[View on Railway →](https://railway.com/deploy/y5XLWL)

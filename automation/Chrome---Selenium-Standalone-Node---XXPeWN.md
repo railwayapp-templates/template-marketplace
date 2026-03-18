@@ -2,7 +2,7 @@
 
 Single Instance Chrome Browser Driver 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/XXPeWN)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/XXPeWN)
 
 ## About
 
@@ -54,4 +54,4 @@ Single Instance Chrome Browser Driver
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/XXPeWN)
+[View on Railway →](https://railway.com/deploy/XXPeWN)

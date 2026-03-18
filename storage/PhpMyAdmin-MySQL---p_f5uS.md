@@ -2,7 +2,7 @@
 
 Web UI to manage MySQL databases easily and visually.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/p_f5uS)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/p_f5uS)
 
 ## About
 
@@ -60,4 +60,4 @@ You can configure `phpMyAdmin` using environment variables when running it via D
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/p_f5uS)
+[View on Railway →](https://railway.com/deploy/p_f5uS)

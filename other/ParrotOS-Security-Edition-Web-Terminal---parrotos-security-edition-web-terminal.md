@@ -2,7 +2,7 @@
 
 Instant ParrotOS Security Edition browser terminal powered by ttyd
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/parrotos-security-edition-web-terminal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/parrotos-security-edition-web-terminal)
 
 ## About
 
@@ -32,4 +32,4 @@ A persistent volume is mounted at `/work` to retain tools, configurations, scrip
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/parrotos-security-edition-web-terminal)
+[View on Railway →](https://railway.com/deploy/parrotos-security-edition-web-terminal)

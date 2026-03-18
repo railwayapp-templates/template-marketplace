@@ -2,7 +2,7 @@
 
 Markdown based, collaborative note taking service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hedgedoc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hedgedoc)
 
 ## About
 
@@ -63,4 +63,4 @@ Find more info in the [HedgeDoc Docs](https://docs.hedgedoc.org/configuration).
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/hedgedoc)
+[View on Railway →](https://railway.com/deploy/hedgedoc)

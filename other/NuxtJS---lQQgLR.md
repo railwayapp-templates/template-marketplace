@@ -2,7 +2,7 @@
 
 A basic NuxtJS example app
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lQQgLR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lQQgLR)
 
 ## About
 
@@ -32,4 +32,4 @@ View the official [Nuxt docs](https://nuxtjs.org/).
 
 **Category:** Other · **Tags:** nuxt, typescript
 
-[View on Railway →](https://railway.com/template/lQQgLR)
+[View on Railway →](https://railway.com/deploy/lQQgLR)

@@ -2,7 +2,7 @@
 
 An unofficial template for Mastodon
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Pa4Fcc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Pa4Fcc)
 
 ## About
 
@@ -72,4 +72,4 @@ Template icon: https://joinmastodon.org/ja/branding
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/Pa4Fcc)
+[View on Railway →](https://railway.com/deploy/Pa4Fcc)

@@ -2,7 +2,7 @@
 
 API for detecting disposable email adresses.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tHOg9a)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tHOg9a)
 
 ## About
 
@@ -26,4 +26,4 @@ A simple application written in Go that creates an API endpoint that matches an 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tHOg9a)
+[View on Railway →](https://railway.com/deploy/tHOg9a)

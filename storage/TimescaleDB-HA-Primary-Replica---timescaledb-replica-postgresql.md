@@ -2,7 +2,7 @@
 
 🚀 TimescaleDB HA: Primary + Replica with Pgpool Load Balancer
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/timescaledb-replica-postgresql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/timescaledb-replica-postgresql)
 
 ## About
 
@@ -43,4 +43,4 @@ Deploying this TimescaleDB cluster on Railway provides an out-of-the-box product
 
 **Category:** Storage · **Languages:** Shell, Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/timescaledb-replica-postgresql)
+[View on Railway →](https://railway.com/deploy/timescaledb-replica-postgresql)

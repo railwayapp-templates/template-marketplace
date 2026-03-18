@@ -2,7 +2,7 @@
 
 Deploy n8n with workers, Redis, and Postgres for scalable automation.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-pro-stack)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-pro-stack)
 
 ## About
 
@@ -69,4 +69,4 @@ Hosting the **n8n Pro Stack** involves deploying and linking four core services:
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-pro-stack)
+[View on Railway →](https://railway.com/deploy/n8n-pro-stack)

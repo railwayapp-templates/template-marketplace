@@ -2,7 +2,7 @@
 
 FFmpeg REST API with S3-compatible Storage Support
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ffmpeg-rest-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ffmpeg-rest-api)
 
 ## About
 
@@ -84,4 +84,4 @@ The API is production-ready with OpenAPI documentation, type-safe validation, an
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ffmpeg-rest-api)
+[View on Railway →](https://railway.com/deploy/ffmpeg-rest-api)

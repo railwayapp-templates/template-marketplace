@@ -2,7 +2,7 @@
 
 Minimal installation of Ponder + PostgreSQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ma-2Wo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ma-2Wo)
 
 ## About
 
@@ -58,4 +58,4 @@ This is a minimal installation of Ponder + PostgreSQL that will get you up and r
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/ma-2Wo)
+[View on Railway →](https://railway.com/deploy/ma-2Wo)

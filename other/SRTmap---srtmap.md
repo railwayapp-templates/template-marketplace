@@ -2,7 +2,7 @@
 
 GPS track viewer and fixer for DJI drone SRT subtitle files.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/srtmap)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/srtmap)
 
 ## About
 
@@ -33,4 +33,4 @@ Deploying SRTmap on Railway takes under a minute with this template. The app run
 
 **Category:** Other · **Languages:** HTML, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/srtmap)
+[View on Railway →](https://railway.com/deploy/srtmap)

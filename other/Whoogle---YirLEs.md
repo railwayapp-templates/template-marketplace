@@ -2,7 +2,7 @@
 
 A self-hosted, ad-free, privacy-respecting metasearch engine
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/YirLEs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/YirLEs)
 
 ## About
 
@@ -60,4 +60,4 @@ For more information regarding Environment vairables, Please do checkout here: h
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/YirLEs)
+[View on Railway →](https://railway.com/deploy/YirLEs)

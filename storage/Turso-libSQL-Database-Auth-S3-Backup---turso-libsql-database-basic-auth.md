@@ -2,7 +2,7 @@
 
 Turso-compatible database server with automatic JWT auth and S3 Backup
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/turso-libsql-database-basic-auth)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/turso-libsql-database-basic-auth)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting libSQL on Railway involves deploying a containerized `sqld` server paire
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/turso-libsql-database-basic-auth)
+[View on Railway →](https://railway.com/deploy/turso-libsql-database-basic-auth)

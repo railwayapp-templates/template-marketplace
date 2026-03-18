@@ -2,7 +2,7 @@
 
 Deploy and Host Infisical on Railway with Zero Configuration
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/infisical-resend)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/infisical-resend)
 
 ## About
 
@@ -51,4 +51,4 @@ Hosting Infisical + Resend on **Railway** is intentionally simple. The Railway t
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/infisical-resend)
+[View on Railway →](https://railway.com/deploy/infisical-resend)

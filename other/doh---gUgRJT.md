@@ -2,7 +2,7 @@
 
 a simaple private DNS, work at DoH
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gUgRJT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gUgRJT)
 
 ## About
 
@@ -28,4 +28,4 @@ This project aims to develop a simple yet efficient private DNS service that sup
 
 **Category:** Other · **Languages:** Go, JavaScript, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/gUgRJT)
+[View on Railway →](https://railway.com/deploy/gUgRJT)

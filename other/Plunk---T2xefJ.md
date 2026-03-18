@@ -2,7 +2,7 @@
 
 The Open-Source Email Platform for AWS
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/T2xefJ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/T2xefJ)
 
 ## About
 
@@ -59,4 +59,4 @@ With your AWS setup and keys in hand, you are ready to deploy the template.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/T2xefJ)
+[View on Railway →](https://railway.com/deploy/T2xefJ)

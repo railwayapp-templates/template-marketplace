@@ -2,7 +2,7 @@
 
 High-Performance Valkey In-Memory Database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/M_Q6uM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/M_Q6uM)
 
 ## About
 
@@ -97,4 +97,4 @@ Support me if you think this is good, one dollar is also very valuable to me, I'
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/M_Q6uM)
+[View on Railway →](https://railway.com/deploy/M_Q6uM)

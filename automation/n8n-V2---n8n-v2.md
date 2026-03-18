@@ -2,7 +2,7 @@
 
 Early access to n8n 2.0 - No code automation workflow platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-v2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-v2)
 
 ## About
 
@@ -76,4 +76,4 @@ Self-hosting n8n gives you full ownership of your automations, without being loc
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-v2)
+[View on Railway →](https://railway.com/deploy/n8n-v2)

@@ -2,7 +2,7 @@
 
 Powerfull image handling and manipulation.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/B8vVFQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/B8vVFQ)
 
 ## About
 
@@ -28,4 +28,4 @@ API docs: https://wsrv.nl/
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/B8vVFQ)
+[View on Railway →](https://railway.com/deploy/B8vVFQ)

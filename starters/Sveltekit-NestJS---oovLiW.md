@@ -2,7 +2,7 @@
 
 Full-stack with SvelteKit + NestJS + Prisma + Postgresql with utils
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/oovLiW)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oovLiW)
 
 ## About
 
@@ -58,4 +58,4 @@ Ideal For:
 
 **Category:** Starters · **Languages:** JavaScript, TypeScript, HTML, Svelte, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/oovLiW)
+[View on Railway →](https://railway.com/deploy/oovLiW)

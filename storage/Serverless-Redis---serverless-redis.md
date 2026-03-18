@@ -2,7 +2,7 @@
 
 High Performance HTTP server for Redis with Upstash compatibility.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/serverless-redis)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/serverless-redis)
 
 ## About
 
@@ -37,4 +37,4 @@ This service runs a lightweight Rust HTTP server that bridges HTTP clients to yo
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/serverless-redis)
+[View on Railway →](https://railway.com/deploy/serverless-redis)

@@ -2,7 +2,7 @@
 
 elegram Bot Builder - визуальный конструктор ботов
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aware-encouragement)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aware-encouragement)
 
 ## About
 
@@ -39,4 +39,4 @@ This template runs entirely on Railway's infrastructure. The application is cont
 
 **Category:** Bots · **Languages:** TypeScript, CSS, JavaScript, Python, Batchfile, Shell, Dockerfile, HTML
 
-[View on Railway →](https://railway.com/template/aware-encouragement)
+[View on Railway →](https://railway.com/deploy/aware-encouragement)

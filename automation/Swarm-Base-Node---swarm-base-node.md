@@ -2,7 +2,7 @@
 
 fault-tolerant microservice with built-in encrypted versioning 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/swarm-base-node)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/swarm-base-node)
 
 ## About
 
@@ -23,4 +23,4 @@ fault-tolerant microservice with built-in encrypted versioning
 
 **Category:** Automation · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/swarm-base-node)
+[View on Railway →](https://railway.com/deploy/swarm-base-node)

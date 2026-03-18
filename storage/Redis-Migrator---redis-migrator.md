@@ -2,7 +2,7 @@
 
 Migrate data from a source Redis to a target Redis database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/redis-migrator)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redis-migrator)
 
 ## About
 
@@ -45,4 +45,4 @@ This is a service that will migrate data from the source Redis database to the t
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/redis-migrator)
+[View on Railway →](https://railway.com/deploy/redis-migrator)

@@ -2,7 +2,7 @@
 
 Kestra [Mar ’26] (Data Pipelines/Task Runner/Orchestration Engine) Selfhost
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kestra)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kestra)
 
 ## About
 
@@ -44,4 +44,4 @@ Railway provides the perfect managed environment for self hosting Kestra. It str
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/kestra)
+[View on Railway →](https://railway.com/deploy/kestra)

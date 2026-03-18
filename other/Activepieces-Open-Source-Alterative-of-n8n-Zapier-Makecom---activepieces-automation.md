@@ -2,7 +2,7 @@
 
 Self Host Activepieces: Workflow Automation with 500+ App Integrations
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/activepieces-automation)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/activepieces-automation)
 
 ## About
 
@@ -84,4 +84,4 @@ Activepieces is an open-source, MIT-licensed workflow automation platform that l
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/activepieces-automation)
+[View on Railway →](https://railway.com/deploy/activepieces-automation)

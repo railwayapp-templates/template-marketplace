@@ -2,7 +2,7 @@
 
 ordering system for small business management
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bGmGYQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bGmGYQ)
 
 ## About
 
@@ -34,4 +34,4 @@ The idea is to be a project with a small scope and easy to manage, to then test 
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/bGmGYQ)
+[View on Railway →](https://railway.com/deploy/bGmGYQ)

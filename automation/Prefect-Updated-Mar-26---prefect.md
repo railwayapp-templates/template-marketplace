@@ -2,7 +2,7 @@
 
 Prefect [Mar ’26] (ETL & Automation alternative to Airflow) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/prefect)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/prefect)
 
 ## About
 
@@ -44,4 +44,4 @@ When you deploy Prefect standalone or Prefect 3 on Railway, you get:
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/prefect)
+[View on Railway →](https://railway.com/deploy/prefect)

@@ -2,7 +2,7 @@
 
 Prod-ready N8N 2.0 2.9.4 worker+redis+postgres, secure default, task-runner
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-20-201-v2-w-workers)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-20-201-v2-w-workers)
 
 ## About
 
@@ -85,4 +85,4 @@ This template provisions a production‑grade N8N 2.9.4 stack in queue mode. The
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-20-201-v2-w-workers)
+[View on Railway →](https://railway.com/deploy/n8n-20-201-v2-w-workers)

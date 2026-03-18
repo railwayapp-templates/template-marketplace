@@ -2,7 +2,7 @@
 
 The leading open source automation server.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NwM5O-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NwM5O-)
 
 ## About
 
@@ -45,4 +45,4 @@ To add more agents, use the [Jenkins Agent template](https://railway.app/templat
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/NwM5O-)
+[View on Railway →](https://railway.com/deploy/NwM5O-)

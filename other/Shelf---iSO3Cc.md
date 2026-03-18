@@ -2,7 +2,7 @@
 
 Open Source Asset Management Infrastructure for everyone.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/iSO3Cc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/iSO3Cc)
 
 ## About
 
@@ -65,4 +65,4 @@ In order for OTP to work you need to make your OTP emails. Go to your Supabase d
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/iSO3Cc)
+[View on Railway →](https://railway.com/deploy/iSO3Cc)

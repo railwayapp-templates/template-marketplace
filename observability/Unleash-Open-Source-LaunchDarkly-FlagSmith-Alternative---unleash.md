@@ -2,7 +2,7 @@
 
 Self Host Unleash, control feature releases without touching your codebase
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/unleash)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/unleash)
 
 ## About
 
@@ -58,4 +58,4 @@ Unleash is a feature management platform that lets you decouple deployments from
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/unleash)
+[View on Railway →](https://railway.com/deploy/unleash)

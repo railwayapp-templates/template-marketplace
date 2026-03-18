@@ -2,7 +2,7 @@
 
 Monitor, evaluate & improve your LLM apps!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/8dNq1c)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/8dNq1c)
 
 ## About
 
@@ -61,4 +61,4 @@ To learn more about Langtrace, check out our [docs](https://docs.langtrace.ai/in
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/8dNq1c)
+[View on Railway →](https://railway.com/deploy/8dNq1c)

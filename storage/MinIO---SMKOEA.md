@@ -2,7 +2,7 @@
 
 Open source object storage with an S3 compatible API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/SMKOEA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/SMKOEA)
 
 ## About
 
@@ -47,4 +47,4 @@ Hosting MinIO gives you access to a powerful object storage server that handles 
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/SMKOEA)
+[View on Railway →](https://railway.com/deploy/SMKOEA)

@@ -2,7 +2,7 @@
 
 🚀 Deploy and Host MongoDB 8.2.3 Replica [PRIMARY, SECONDARY, ARBITER]
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mongodb-823-replica)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mongodb-823-replica)
 
 ## About
 
@@ -47,4 +47,4 @@ The template includes an ephemeral initialization service that automatically con
 
 **Category:** Storage · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/mongodb-823-replica)
+[View on Railway →](https://railway.com/deploy/mongodb-823-replica)

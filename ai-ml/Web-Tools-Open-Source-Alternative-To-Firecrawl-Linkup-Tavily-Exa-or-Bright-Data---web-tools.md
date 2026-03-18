@@ -2,7 +2,7 @@
 
 Power your AI apps with the world's most accurate open source web tools
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/web-tools)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/web-tools)
 
 ## About
 
@@ -48,4 +48,4 @@ This template deploys a complete self-hosted web toolkit as four services on Rai
 
 **Category:** AI/ML · **Languages:** TypeScript, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/web-tools)
+[View on Railway →](https://railway.com/deploy/web-tools)

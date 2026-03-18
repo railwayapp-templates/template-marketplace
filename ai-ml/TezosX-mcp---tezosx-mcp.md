@@ -2,7 +2,7 @@
 
 An MCP server enabling AI agents to interact with the Tezos blockchain.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tezosx-mcp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tezosx-mcp)
 
 ## About
 
@@ -29,4 +29,4 @@ Deploying tezosx-mcp on Railway provides a hosted MCP server that AI agents can 
 
 **Category:** AI/ML · **Languages:** TypeScript, Vue, CSS, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/tezosx-mcp)
+[View on Railway →](https://railway.com/deploy/tezosx-mcp)

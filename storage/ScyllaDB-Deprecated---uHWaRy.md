@@ -2,7 +2,7 @@
 
 Use https://railway.app/template/6RHNrS?referralCode=NreDXR instead!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uHWaRy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uHWaRy)
 
 ## About
 
@@ -64,4 +64,4 @@ Use https://railway.app/template/6RHNrS?referralCode=NreDXR instead!
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/uHWaRy)
+[View on Railway →](https://railway.com/deploy/uHWaRy)

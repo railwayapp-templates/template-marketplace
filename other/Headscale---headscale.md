@@ -2,7 +2,7 @@
 
 Self-hosted Tailscale control server — your own WireGuard mesh VPN
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/headscale)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/headscale)
 
 ## About
 
@@ -24,4 +24,4 @@ Hosting Headscale requires a publicly accessible server with persistent storage 
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/headscale)
+[View on Railway →](https://railway.com/deploy/headscale)

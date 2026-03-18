@@ -2,7 +2,7 @@
 
 Customer Identity and Access Management (CIAM) platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fusionauth)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fusionauth)
 
 ## About
 
@@ -44,4 +44,4 @@ This template uses database-based search instead of Elasticsearch/OpenSearch, re
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/fusionauth)
+[View on Railway →](https://railway.com/deploy/fusionauth)

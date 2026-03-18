@@ -2,7 +2,7 @@
 
 Connect to data, visualize, create dashboards, and share insights easily.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mb8XJA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mb8XJA)
 
 ## About
 
@@ -200,4 +200,4 @@ Redash supports more than 35 SQL and NoSQL [data sources](https://redash.io/help
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/mb8XJA)
+[View on Railway →](https://railway.com/deploy/mb8XJA)

@@ -2,7 +2,7 @@
 
 A fully configured Zitadel instance with an optional V2 Login UI.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zitadel-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zitadel-1)
 
 ## About
 
@@ -71,4 +71,4 @@ If you want to use the Login V2 UI, do the following:
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/zitadel-1)
+[View on Railway →](https://railway.com/deploy/zitadel-1)

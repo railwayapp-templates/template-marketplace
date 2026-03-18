@@ -2,7 +2,7 @@
 
 [Premium Template] Easy Way To Create Advanced Chatbots
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5tBOUn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5tBOUn)
 
 ## About
 
@@ -85,4 +85,4 @@ Picture a bot that goes beyond answering questions: it builds relationships, sha
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/5tBOUn)
+[View on Railway →](https://railway.com/deploy/5tBOUn)

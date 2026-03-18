@@ -2,7 +2,7 @@
 
 RSSHub [Mar ’26] (Create RSS feeds from Social Media Sites) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rsshub)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rsshub)
 
 ## About
 
@@ -44,4 +44,4 @@ RSSHub is written in Node.js and distributed as a Docker image on **RSSHub Docke
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/rsshub)
+[View on Railway →](https://railway.com/deploy/rsshub)

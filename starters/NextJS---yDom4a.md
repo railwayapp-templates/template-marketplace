@@ -2,7 +2,7 @@
 
 An example NextJS app. Zero config required.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/yDom4a)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yDom4a)
 
 ## About
 
@@ -32,4 +32,4 @@ For more information, see our [deployment quickstarts](https://docs.railway.app/
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/yDom4a)
+[View on Railway →](https://railway.com/deploy/yDom4a)

@@ -2,7 +2,7 @@
 
 Secure WAHA for Railway with API auth, storage, and webhooks
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/waha-secure-with-webhook)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/waha-secure-with-webhook)
 
 ## About
 
@@ -48,4 +48,4 @@ Hosting WAHA Secure with Webhook on Railway means deploying WAHA as a containeri
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/waha-secure-with-webhook)
+[View on Railway →](https://railway.com/deploy/waha-secure-with-webhook)

@@ -2,7 +2,7 @@
 
 Meilisearch is a flexible and powerful user-focused search engine.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/meilisearch)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/meilisearch)
 
 ## About
 
@@ -33,4 +33,4 @@ Learn more at https://www.meilisearch.com/ and https://www.meilisearch.com/docs.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/meilisearch)
+[View on Railway →](https://railway.com/deploy/meilisearch)

@@ -2,7 +2,7 @@
 
 Open source time-tracking solution for business or freelance.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/E3MdZb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/E3MdZb)
 
 ## About
 
@@ -56,4 +56,4 @@ https://github.com/hellocory/railway-kimai
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/E3MdZb)
+[View on Railway →](https://railway.com/deploy/E3MdZb)

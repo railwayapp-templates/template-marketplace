@@ -2,7 +2,7 @@
 
 Production-ready OpenClaw template, fully maintained
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-2)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting OpenClaw requires running a persistent service capable of executing work
 
 **Category:** AI/ML · **Languages:** TypeScript, Swift, Kotlin, Shell, CSS, JavaScript, Python, Go, HTML, Dockerfile, Ruby
 
-[View on Railway →](https://railway.com/template/openclaw-2)
+[View on Railway →](https://railway.com/deploy/openclaw-2)

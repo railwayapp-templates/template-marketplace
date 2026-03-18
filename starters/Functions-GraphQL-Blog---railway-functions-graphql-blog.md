@@ -2,7 +2,7 @@
 
 A full-stack blog project with a react app, a pothos api and mongo database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railway-functions-graphql-blog)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-functions-graphql-blog)
 
 ## About
 
@@ -58,4 +58,4 @@ With functions' incredible snappiness, getting feedback on changes feels close t
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/railway-functions-graphql-blog)
+[View on Railway →](https://railway.com/deploy/railway-functions-graphql-blog)

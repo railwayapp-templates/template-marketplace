@@ -2,7 +2,7 @@
 
 Expose Discord user presence to a websocket & API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fqla1q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fqla1q)
 
 ## About
 
@@ -41,4 +41,4 @@ Lanyard is a service that makes it super easy to export your live Discord presen
 
 **Category:** Other · **Languages:** Elixir, Dockerfile
 
-[View on Railway →](https://railway.com/template/fqla1q)
+[View on Railway →](https://railway.com/deploy/fqla1q)

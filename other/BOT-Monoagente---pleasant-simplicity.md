@@ -2,7 +2,7 @@
 
 Deploy and Host pleasant-simplicity with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pleasant-simplicity)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pleasant-simplicity)
 
 ## About
 
@@ -52,4 +52,4 @@ Hosting WhatsApp AI Assistant Bot on Railway allows you to deploy a production-r
 
 **Category:** Other · **Languages:** TypeScript, HTML, JavaScript, CSS, PLpgSQL, Dockerfile
 
-[View on Railway →](https://railway.com/template/pleasant-simplicity)
+[View on Railway →](https://railway.com/deploy/pleasant-simplicity)

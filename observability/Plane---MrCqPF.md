@@ -2,7 +2,7 @@
 
 Open-source project management that unlocks customer value
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/MrCqPF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MrCqPF)
 
 ## About
 
@@ -205,4 +205,4 @@ To configure your instance, visit your domain/god-mode and enter your email and 
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/MrCqPF)
+[View on Railway →](https://railway.com/deploy/MrCqPF)

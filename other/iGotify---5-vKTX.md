@@ -2,7 +2,7 @@
 
 Sends Gotify notifications to iOS devices
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5-vKTX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5-vKTX)
 
 ## About
 
@@ -37,4 +37,4 @@ A small Gotify server notification assistant that decrypt the message and trigge
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/5-vKTX)
+[View on Railway →](https://railway.com/deploy/5-vKTX)

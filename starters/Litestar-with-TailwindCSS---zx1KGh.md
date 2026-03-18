@@ -2,7 +2,7 @@
 
 Litestar is a Python framework for building web apps, ML/AI, and APIs.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zx1KGh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zx1KGh)
 
 ## About
 
@@ -56,4 +56,4 @@ A comprehensive, yet easy-to-use API builder that emphasizes **fast development*
 
 **Category:** Starters · **Languages:** CSS, HTML, Makefile, Python, JavaScript
 
-[View on Railway →](https://railway.com/template/zx1KGh)
+[View on Railway →](https://railway.com/deploy/zx1KGh)

@@ -2,7 +2,7 @@
 
 Deploy and Host Unthread WhatsApp Bot with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/unthread-whatsapp-bot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/unthread-whatsapp-bot)
 
 ## About
 
@@ -65,4 +65,4 @@ Hosting the Unthread WhatsApp Bot on Railway involves deploying the bot service 
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/unthread-whatsapp-bot)
+[View on Railway →](https://railway.com/deploy/unthread-whatsapp-bot)

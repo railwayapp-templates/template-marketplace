@@ -2,7 +2,7 @@
 
 Boilerplate and Starter for Next.js 15+, Tailwind CSS 4, and TypeScript.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0tqKLC)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0tqKLC)
 
 ## About
 
@@ -37,4 +37,4 @@ Boilerplate and Starter for Next.js 15+, Tailwind CSS 4, and TypeScript.
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, Shell, CSS
 
-[View on Railway →](https://railway.com/template/0tqKLC)
+[View on Railway →](https://railway.com/deploy/0tqKLC)

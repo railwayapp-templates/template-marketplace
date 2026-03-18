@@ -2,7 +2,7 @@
 
 Free Self-Hosted Zendesk & Help Scout Alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cgZiHc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cgZiHc)
 
 ## About
 
@@ -74,4 +74,4 @@ Need anything else? Suggest features [here](https://freescout.net/request-featur
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/cgZiHc)
+[View on Railway →](https://railway.com/deploy/cgZiHc)

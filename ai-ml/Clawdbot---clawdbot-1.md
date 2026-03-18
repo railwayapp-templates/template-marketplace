@@ -2,7 +2,7 @@
 
 Self-hosted AI agent gateway with web UI. Any LLM provider.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/clawdbot-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/clawdbot-1)
 
 ## About
 
@@ -31,4 +31,4 @@ Clawdbot runs as a Node.js gateway inside a Docker container. This template depl
 
 **Category:** AI/ML · **Languages:** TypeScript, Swift, JavaScript, Kotlin, Shell, CSS, Python, HTML, Dockerfile, Ruby
 
-[View on Railway →](https://railway.com/template/clawdbot-1)
+[View on Railway →](https://railway.com/deploy/clawdbot-1)

@@ -2,7 +2,7 @@
 
 ChromaDB from official docker
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/w0D0Ei)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/w0D0Ei)
 
 ## About
 
@@ -32,4 +32,4 @@ Here I was asked to write 250 characters or more. In case you're wondering what 
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/w0D0Ei)
+[View on Railway →](https://railway.com/deploy/w0D0Ei)

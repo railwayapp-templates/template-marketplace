@@ -2,7 +2,7 @@
 
 Openclaw alternative for teams, communities, and multi-user environments.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/spacebot-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/spacebot-1)
 
 ## About
 
@@ -65,4 +65,4 @@ Spacebot deploys as a single Rust binary with zero external dependencies. It use
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/spacebot-1)
+[View on Railway →](https://railway.com/deploy/spacebot-1)

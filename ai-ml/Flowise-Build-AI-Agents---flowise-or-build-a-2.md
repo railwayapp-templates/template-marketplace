@@ -2,7 +2,7 @@
 
 [Mar '26] Low-code developer tool for building LLM Applications
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flowise-or-build-a-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowise-or-build-a-2)
 
 ## About
 
@@ -37,4 +37,4 @@ This is truly one-click setup territory. You're not managing servers, databases,
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/flowise-or-build-a-2)
+[View on Railway →](https://railway.com/deploy/flowise-or-build-a-2)

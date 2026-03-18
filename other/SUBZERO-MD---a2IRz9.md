@@ -2,7 +2,7 @@
 
 Best W.A Bot By Mr Frank OFC
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/a2IRz9)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/a2IRz9)
 
 ## About
 
@@ -16,4 +16,4 @@ Meet W.A Bot! 🌐🤖 Best Multi-Device Bot by Mr Frank OFC from Earth 🌎 wit
 
 **Category:** Other · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/a2IRz9)
+[View on Railway →](https://railway.com/deploy/a2IRz9)

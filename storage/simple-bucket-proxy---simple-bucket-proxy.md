@@ -2,7 +2,7 @@
 
 A simple Railway bucket proxy with proper cache-control headers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/simple-bucket-proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/simple-bucket-proxy)
 
 ## About
 
@@ -43,4 +43,4 @@ It serves the use case described in Railway docs here: https://docs.railway.com/
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/simple-bucket-proxy)
+[View on Railway →](https://railway.com/deploy/simple-bucket-proxy)

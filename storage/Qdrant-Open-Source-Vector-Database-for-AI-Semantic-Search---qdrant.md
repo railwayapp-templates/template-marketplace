@@ -2,7 +2,7 @@
 
 Qdrant [Mar ’26] (Pinecone & Milvus alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qdrant)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qdrant)
 
 ## About
 
@@ -37,4 +37,4 @@ Qdrant is specifically optimized for **vector search and hybrid search**, making
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/qdrant)
+[View on Railway →](https://railway.com/deploy/qdrant)

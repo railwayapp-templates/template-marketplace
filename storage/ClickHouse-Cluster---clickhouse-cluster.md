@@ -2,7 +2,7 @@
 
 3-shard ClickHouse cluster with 2x replication
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/clickhouse-cluster)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/clickhouse-cluster)
 
 ## About
 
@@ -74,4 +74,4 @@ Hosting a ClickHouse cluster gives you access to a distributed analytical databa
 
 **Category:** Storage · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/clickhouse-cluster)
+[View on Railway →](https://railway.com/deploy/clickhouse-cluster)

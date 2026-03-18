@@ -2,7 +2,7 @@
 
 Template for backfilling on atproto
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/atproto-tap-example)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/atproto-tap-example)
 
 ## About
 
@@ -36,4 +36,4 @@ Set configs and deploy your atproto-tap-example backfiller on Railway.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/atproto-tap-example)
+[View on Railway →](https://railway.com/deploy/atproto-tap-example)

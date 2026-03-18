@@ -2,7 +2,7 @@
 
 Chamber is a web service for containing secrets.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VS9MIg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VS9MIg)
 
 ## About
 
@@ -43,4 +43,4 @@ This service is currently a work in progress. If you're using this in production
 
 **Category:** Other · **Languages:** Rust, Dockerfile, Makefile
 
-[View on Railway →](https://railway.com/template/VS9MIg)
+[View on Railway →](https://railway.com/deploy/VS9MIg)

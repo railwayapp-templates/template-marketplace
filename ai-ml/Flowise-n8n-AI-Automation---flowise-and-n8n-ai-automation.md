@@ -2,7 +2,7 @@
 
 AI agent orchestration with Flowise and workflow automation using n8n
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flowise-and-n8n-ai-automation)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowise-and-n8n-ai-automation)
 
 ## About
 
@@ -64,4 +64,4 @@ automations instead of maintaining servers.
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/flowise-and-n8n-ai-automation)
+[View on Railway →](https://railway.com/deploy/flowise-and-n8n-ai-automation)

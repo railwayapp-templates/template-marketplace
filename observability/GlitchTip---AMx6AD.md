@@ -2,7 +2,7 @@
 
 Simple, open source error tracking with Sentry SDK
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/AMx6AD)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/AMx6AD)
 
 ## About
 
@@ -78,4 +78,4 @@ GlitchTip is the right choice if you value simplicity, affordability, and the fr
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/AMx6AD)
+[View on Railway →](https://railway.com/deploy/AMx6AD)

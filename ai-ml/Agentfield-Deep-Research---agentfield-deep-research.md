@@ -2,7 +2,7 @@
 
 AI powered multi-agent deep research by Agentfield on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/agentfield-deep-research)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/agentfield-deep-research)
 
 ## About
 
@@ -42,4 +42,4 @@ Deploying Agentfield Deep Research involves running two services: the AgentField
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/agentfield-deep-research)
+[View on Railway →](https://railway.com/deploy/agentfield-deep-research)

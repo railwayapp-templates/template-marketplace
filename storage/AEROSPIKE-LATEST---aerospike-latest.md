@@ -2,7 +2,7 @@
 
 Aerospike NoSQL database, with mounted volume for data persistence.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aerospike-latest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aerospike-latest)
 
 ## About
 
@@ -118,4 +118,4 @@ Railway handles all infrastructure dependencies automatically.
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/aerospike-latest)
+[View on Railway →](https://railway.com/deploy/aerospike-latest)

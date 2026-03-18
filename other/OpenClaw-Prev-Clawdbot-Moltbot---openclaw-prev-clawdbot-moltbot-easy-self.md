@@ -2,7 +2,7 @@
 
 [Mar'26] Easy Self Host & Deploy OpenClaw — In Under 10 Mins
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-prev-clawdbot-moltbot-easy-self)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-prev-clawdbot-moltbot-easy-self)
 
 ## About
 
@@ -50,4 +50,4 @@ This Railway template simplifies the entire process by packaging OpenClaw into a
 
 **Category:** Other · **Languages:** HTML, JavaScript, CSS, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/openclaw-prev-clawdbot-moltbot-easy-self)
+[View on Railway →](https://railway.com/deploy/openclaw-prev-clawdbot-moltbot-easy-self)

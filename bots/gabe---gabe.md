@@ -2,7 +2,7 @@
 
 This is Gabe, a Discord bot with various capabilities.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gabe)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gabe)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting Gabe involves running a Node.js 22+ application with a configured Discor
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/gabe)
+[View on Railway →](https://railway.com/deploy/gabe)

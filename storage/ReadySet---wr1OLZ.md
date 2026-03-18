@@ -2,7 +2,7 @@
 
 A lightweight caching engine for Postgres
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wr1OLZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wr1OLZ)
 
 ## About
 
@@ -59,4 +59,4 @@ A lightweight caching engine for Postgres
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/wr1OLZ)
+[View on Railway →](https://railway.com/deploy/wr1OLZ)

@@ -2,7 +2,7 @@
 
 This is AI Chatbot you need to experience
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HqQk1G)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HqQk1G)
 
 ## About
 
@@ -38,4 +38,4 @@ With multilingual capabilities and 24/7 availability, the Financial Assistance C
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/HqQk1G)
+[View on Railway →](https://railway.com/deploy/HqQk1G)

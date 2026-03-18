@@ -2,7 +2,7 @@
 
 The backend platform that keeps your app in sync.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/convex-w-reverse-proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/convex-w-reverse-proxy)
 
 ## About
 
@@ -75,4 +75,4 @@ else to the backend port over Railway private networking.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/convex-w-reverse-proxy)
+[View on Railway →](https://railway.com/deploy/convex-w-reverse-proxy)

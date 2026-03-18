@@ -2,7 +2,7 @@
 
 Trigger authenticated HTTP endpoints on a schedule
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cron-webhook-trigger)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cron-webhook-trigger)
 
 ## About
 
@@ -29,4 +29,4 @@ This template deploys a minimal Bun function on Railway that calls a configured 
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/cron-webhook-trigger)
+[View on Railway →](https://railway.com/deploy/cron-webhook-trigger)

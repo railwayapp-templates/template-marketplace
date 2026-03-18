@@ -2,7 +2,7 @@
 
 Deploy and Host Bob the Bot with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bob-the-bot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bob-the-bot)
 
 ## About
 
@@ -36,4 +36,4 @@ Simply add an api key for OpenRouter or your other preferred provider and a pass
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/bob-the-bot)
+[View on Railway →](https://railway.com/deploy/bob-the-bot)

@@ -2,7 +2,7 @@
 
 A Pocketbase template deployable on railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pocketbaserailway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbaserailway)
 
 ## About
 
@@ -23,4 +23,4 @@ Hosting pocketbase_railway on Railway involves building a statically-linked Go b
 
 **Category:** Starters · **Languages:** Dockerfile, Go, HTML
 
-[View on Railway →](https://railway.com/template/pocketbaserailway)
+[View on Railway →](https://railway.com/deploy/pocketbaserailway)

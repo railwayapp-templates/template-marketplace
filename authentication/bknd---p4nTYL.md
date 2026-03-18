@@ -2,7 +2,7 @@
 
 Feature-rich yet lightweight backend
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/p4nTYL)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/p4nTYL)
 
 ## About
 
@@ -55,4 +55,4 @@ deploying multiple separate services!
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/p4nTYL)
+[View on Railway →](https://railway.com/deploy/p4nTYL)

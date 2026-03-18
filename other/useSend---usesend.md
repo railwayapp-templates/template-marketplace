@@ -2,7 +2,7 @@
 
 Open Source email platform. Sendgrid, Resend alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/usesend)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/usesend)
 
 ## About
 
@@ -125,4 +125,4 @@ Once you logged in to useSend, it will prompt you add ses configuration
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/usesend)
+[View on Railway →](https://railway.com/deploy/usesend)

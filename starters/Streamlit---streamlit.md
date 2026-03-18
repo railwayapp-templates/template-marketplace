@@ -2,7 +2,7 @@
 
 Deploy and Host Streamlit with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/streamlit)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/streamlit)
 
 ## About
 
@@ -18,4 +18,4 @@ The app runs a web server that serves the Streamlit UI to users. Fork the github
 
 **Category:** Starters · **Languages:** Dockerfile, Python
 
-[View on Railway →](https://railway.com/template/streamlit)
+[View on Railway →](https://railway.com/deploy/streamlit)

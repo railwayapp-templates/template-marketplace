@@ -2,7 +2,7 @@
 
 Deploy and Host dagu with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dagu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dagu)
 
 ## About
 
@@ -34,4 +34,4 @@ Dagu is a self-contained workflow engine written in Go with an embedded TypeScri
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/dagu)
+[View on Railway →](https://railway.com/deploy/dagu)

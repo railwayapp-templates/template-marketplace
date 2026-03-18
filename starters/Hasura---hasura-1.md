@@ -2,7 +2,7 @@
 
 Self-hosted realtime GraphQL engine with minimal setup on PostgreSQL.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hasura-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hasura-1)
 
 ## About
 
@@ -34,4 +34,4 @@ Deploying Hasura on Railway allows you to run a production-ready GraphQL backend
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/hasura-1)
+[View on Railway →](https://railway.com/deploy/hasura-1)

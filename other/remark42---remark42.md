@@ -2,7 +2,7 @@
 
 Privacy-focused lightweight commenting engine
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/remark42)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/remark42)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting Remark42 on Railway requires running a Docker container and attaching a 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/remark42)
+[View on Railway →](https://railway.com/deploy/remark42)

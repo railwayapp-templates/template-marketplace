@@ -2,7 +2,7 @@
 
 Unifi & APC Monitoring Dashboard with Telegram Alerts
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mainframe-monitoring-dashboard-alerts)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mainframe-monitoring-dashboard-alerts)
 
 ## About
 
@@ -45,4 +45,4 @@ Hosting this workload means running three core layers reliably: data ingestion, 
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/mainframe-monitoring-dashboard-alerts)
+[View on Railway →](https://railway.com/deploy/mainframe-monitoring-dashboard-alerts)

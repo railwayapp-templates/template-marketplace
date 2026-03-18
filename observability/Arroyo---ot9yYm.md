@@ -2,7 +2,7 @@
 
 A cloud-native stream processing.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ot9yYm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ot9yYm)
 
 ## About
 
@@ -54,4 +54,4 @@ This template provisions Arroyo with PostgreSQL on Railway, with automatic datab
 
 **Category:** Observability · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/ot9yYm)
+[View on Railway →](https://railway.com/deploy/ot9yYm)

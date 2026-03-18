@@ -2,7 +2,7 @@
 
 Document base alternative to Notion
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pC7ctE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pC7ctE)
 
 ## About
 
@@ -34,4 +34,4 @@ Docmost is a open source alternative to Notion. Code is all open source and user
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/pC7ctE)
+[View on Railway →](https://railway.com/deploy/pC7ctE)

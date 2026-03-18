@@ -2,7 +2,7 @@
 
 A Rust-based AI-powered automation API with secure webhook handling.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/CoH8le)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/CoH8le)
 
 ## About
 
@@ -39,4 +39,4 @@ Earn Vaults is perfect for developers looking for a secure, scalable API solutio
 
 **Category:** Other · **Languages:** Rust, HTML, CSS, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/CoH8le)
+[View on Railway →](https://railway.com/deploy/CoH8le)

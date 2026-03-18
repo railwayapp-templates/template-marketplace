@@ -2,7 +2,7 @@
 
 Self-host page share for page asssist
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VbiS2Q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VbiS2Q)
 
 ## About
 
@@ -37,4 +37,4 @@ Repo: https://github.com/n4ze3m/page-assist
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, Dockerfile, CSS
 
-[View on Railway →](https://railway.com/template/VbiS2Q)
+[View on Railway →](https://railway.com/deploy/VbiS2Q)

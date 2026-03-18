@@ -2,7 +2,7 @@
 
 a go Template for Fiber v3
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/go-fiber-v3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/go-fiber-v3)
 
 ## About
 
@@ -22,4 +22,4 @@ Deploying a Go Fiber v3 app on Railway is mainly “push code, Railway builds an
 
 **Category:** Other · **Languages:** Go
 
-[View on Railway →](https://railway.com/template/go-fiber-v3)
+[View on Railway →](https://railway.com/deploy/go-fiber-v3)

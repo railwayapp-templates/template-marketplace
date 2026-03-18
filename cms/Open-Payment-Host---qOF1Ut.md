@@ -2,7 +2,7 @@
 
 Sell what you want without paying double commissions 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qOF1Ut)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qOF1Ut)
 
 ## About
 
@@ -93,4 +93,4 @@ Configuration variables can be filled in after deployment, more details are avai
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/qOF1Ut)
+[View on Railway →](https://railway.com/deploy/qOF1Ut)

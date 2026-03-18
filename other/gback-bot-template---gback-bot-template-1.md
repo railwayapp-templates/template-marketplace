@@ -2,7 +2,7 @@
 
 Deploy and Host gback-bot-template with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gback-bot-template-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gback-bot-template-1)
 
 ## About
 
@@ -30,4 +30,4 @@ Deploy the Railway template and configure the environment variables.
 
 **Category:** Other · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/gback-bot-template-1)
+[View on Railway →](https://railway.com/deploy/gback-bot-template-1)

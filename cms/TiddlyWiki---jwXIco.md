@@ -2,7 +2,7 @@
 
 Unique non-linear notebook for capturing and organising complex information
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jwXIco)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jwXIco)
 
 ## About
 
@@ -44,4 +44,4 @@ The password is set automatically, however you add a custom password when you de
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/jwXIco)
+[View on Railway →](https://railway.com/deploy/jwXIco)

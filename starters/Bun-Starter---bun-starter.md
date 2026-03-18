@@ -2,7 +2,7 @@
 
 Deploy and Host Bun with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bun-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bun-starter)
 
 ## About
 
@@ -20,4 +20,4 @@ Hosting Bun involves running JavaScript and TypeScript applications using Bun's 
 
 **Category:** Starters · **Languages:** CSS, HTML, TypeScript
 
-[View on Railway →](https://railway.com/template/bun-starter)
+[View on Railway →](https://railway.com/deploy/bun-starter)

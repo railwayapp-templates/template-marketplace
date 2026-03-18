@@ -2,7 +2,7 @@
 
 Lightweight highly configurable extremely robust file server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/copyparty)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/copyparty)
 
 ## About
 
@@ -133,4 +133,4 @@ echo "[INFO] To customize configuration, edit ${VOLUME_CONFIG} and restart the c
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/copyparty)
+[View on Railway →](https://railway.com/deploy/copyparty)

@@ -2,7 +2,7 @@
 
 A minimal demo of an end-to-end atproto application
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/atproto-statusphere-app)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/atproto-statusphere-app)
 
 ## About
 
@@ -42,4 +42,4 @@ Aggregating every Statusphere Status event in the atproto network costs approxim
 
 **Category:** Starters · **Languages:** TypeScript, HTML, CSS
 
-[View on Railway →](https://railway.com/template/atproto-statusphere-app)
+[View on Railway →](https://railway.com/deploy/atproto-statusphere-app)

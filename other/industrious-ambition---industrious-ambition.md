@@ -2,7 +2,7 @@
 
 olika whatsapp integration
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/industrious-ambition)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/industrious-ambition)
 
 ## About
 
@@ -46,4 +46,4 @@ Deployments can easily be cloned per client, creating a fully isolated environme
 
 **Category:** Other · **Languages:** Blade, PHP, CSS, JavaScript, PowerShell, Batchfile
 
-[View on Railway →](https://railway.com/template/industrious-ambition)
+[View on Railway →](https://railway.com/deploy/industrious-ambition)

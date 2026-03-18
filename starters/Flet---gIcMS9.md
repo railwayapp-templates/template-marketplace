@@ -2,7 +2,7 @@
 
 The fastest way to build Flutter apps in Python
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gIcMS9)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gIcMS9)
 
 ## About
 
@@ -72,4 +72,4 @@ This will open a new window and any changes made to main.py will be automaticall
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/gIcMS9)
+[View on Railway →](https://railway.com/deploy/gIcMS9)

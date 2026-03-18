@@ -2,7 +2,7 @@
 
 Kutt is a modern URL shortener with support for custom domains
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kFCDQY)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kFCDQY)
 
 ## About
 
@@ -125,4 +125,4 @@ Download Kutt's extension for web browsers via below links.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/kFCDQY)
+[View on Railway →](https://railway.com/deploy/kFCDQY)

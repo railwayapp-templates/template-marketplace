@@ -2,7 +2,7 @@
 
 One-click deploy for Unkey API, including MySQL and Redis.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/unkey-api-management)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/unkey-api-management)
 
 ## About
 
@@ -38,4 +38,4 @@ You need the main Unkey application running alongside a MySQL database, which ac
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/unkey-api-management)
+[View on Railway →](https://railway.com/deploy/unkey-api-management)

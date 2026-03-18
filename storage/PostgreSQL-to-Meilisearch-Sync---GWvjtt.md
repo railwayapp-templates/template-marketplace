@@ -2,7 +2,7 @@
 
 A quick setup for syncing data from PostgreSQL to Meilisearch
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GWvjtt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GWvjtt)
 
 ## About
 
@@ -62,4 +62,4 @@ This template is a straightforward setup for synchronizing PostgreSQL data with 
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/GWvjtt)
+[View on Railway →](https://railway.com/deploy/GWvjtt)

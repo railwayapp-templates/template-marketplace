@@ -2,7 +2,7 @@
 
 AI video generator for Reels, TikTok,  Shorts & YouTube
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/inotmovingtoday)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/inotmovingtoday)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting I Not Moving Today on Railway provides a fully managed Next.js deploymen
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/inotmovingtoday)
+[View on Railway →](https://railway.com/deploy/inotmovingtoday)

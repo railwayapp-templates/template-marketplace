@@ -2,7 +2,7 @@
 
 Fast, flexible, and powerful free comment server for web pages
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/comentario)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/comentario)
 
 ## About
 
@@ -43,4 +43,4 @@ Hosting Comentario on Railway involves containerizing the application using Dock
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/comentario)
+[View on Railway →](https://railway.com/deploy/comentario)

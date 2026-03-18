@@ -2,7 +2,7 @@
 
 The headless browser designed for AI and automation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lightpanda)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lightpanda)
 
 ## About
 
@@ -28,4 +28,4 @@ This template deploys the latest nightly build of Lightpanda Browser with the CD
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/lightpanda)
+[View on Railway →](https://railway.com/deploy/lightpanda)

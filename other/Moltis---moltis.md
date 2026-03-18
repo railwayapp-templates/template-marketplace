@@ -2,7 +2,7 @@
 
 A personal AI gateway written in Rust. One binary, no runtime, no npm.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/moltis)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/moltis)
 
 ## About
 
@@ -35,4 +35,4 @@ Deploying Moltis involves running its pre-built Docker image (`ghcr.io/moltis-or
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/moltis)
+[View on Railway →](https://railway.com/deploy/moltis)

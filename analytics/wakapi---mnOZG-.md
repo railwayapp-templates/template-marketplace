@@ -2,7 +2,7 @@
 
 A minimalist, self-hosted WakaTime-compatible backend for coding statistics
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mnOZG-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mnOZG-)
 
 ## About
 
@@ -45,4 +45,4 @@ For more information about Wakapi, please refer to the original author's reposit
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/mnOZG-)
+[View on Railway →](https://railway.com/deploy/mnOZG-)

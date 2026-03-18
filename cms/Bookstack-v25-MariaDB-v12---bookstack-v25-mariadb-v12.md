@@ -2,7 +2,7 @@
 
 Deployment of BookStack with Redis caching and MariaDB database.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bookstack-v25-mariadb-v12)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bookstack-v25-mariadb-v12)
 
 ## About
 
@@ -55,4 +55,4 @@ Hosting BookStack v25 with MariaDB v12 on Railway involves deploying three inter
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/bookstack-v25-mariadb-v12)
+[View on Railway →](https://railway.com/deploy/bookstack-v25-mariadb-v12)

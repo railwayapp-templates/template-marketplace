@@ -2,7 +2,7 @@
 
 A Fastify-based server for syncing your Stripe account to PostgreSQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/stripe-sync-engine)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/stripe-sync-engine)
 
 ## About
 
@@ -63,4 +63,4 @@ This project synchronizes your Stripe account to a PostgreSQL database. It can b
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/stripe-sync-engine)
+[View on Railway →](https://railway.com/deploy/stripe-sync-engine)

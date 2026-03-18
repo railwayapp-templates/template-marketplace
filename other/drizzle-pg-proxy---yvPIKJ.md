@@ -2,7 +2,7 @@
 
 Postgres DB with Drizzle HTTP Proxy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/yvPIKJ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yvPIKJ)
 
 ## About
 
@@ -45,4 +45,4 @@ Docker Image: [nmajor/drizzle-pg-proxy](https://hub.docker.com/r/nmajor/drizzle-
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/yvPIKJ)
+[View on Railway →](https://railway.com/deploy/yvPIKJ)

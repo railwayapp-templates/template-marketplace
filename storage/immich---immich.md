@@ -2,7 +2,7 @@
 
 Self-hosted Google Photos alternative with AI-powered search
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/immich)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/immich)
 
 ## About
 
@@ -54,4 +54,4 @@ Hosting Immich on Railway gives you a fully managed environment for your persona
 
 **Category:** Storage · **Languages:** Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/immich)
+[View on Railway →](https://railway.com/deploy/immich)

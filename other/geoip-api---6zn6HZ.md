@@ -2,7 +2,7 @@
 
 A self-hosted IP Geo API and Python package that works completely offline!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6zn6HZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6zn6HZ)
 
 ## About
 
@@ -158,4 +158,4 @@ If you have any questions, feedback, or just want to say hi, you can reach out t
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/6zn6HZ)
+[View on Railway →](https://railway.com/deploy/6zn6HZ)

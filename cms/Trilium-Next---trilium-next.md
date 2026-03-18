@@ -2,7 +2,7 @@
 
 Build your personal knowledge base with Trilium Notes
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/trilium-next)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/trilium-next)
 
 ## About
 
@@ -32,4 +32,4 @@ Trilium is a self-hostable note taking application, with a heavy focus on custom
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/trilium-next)
+[View on Railway →](https://railway.com/deploy/trilium-next)

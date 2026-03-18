@@ -2,7 +2,7 @@
 
 MCP gateway — expose web fetch, memory, and reasoning tools to AI clients.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mcp-servers)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mcp-servers)
 
 ## About
 
@@ -24,4 +24,4 @@ MCP servers typically run locally alongside AI clients, limiting them to a singl
 
 **Category:** AI/ML · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/mcp-servers)
+[View on Railway →](https://railway.com/deploy/mcp-servers)

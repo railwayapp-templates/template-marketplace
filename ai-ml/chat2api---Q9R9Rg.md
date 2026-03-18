@@ -2,7 +2,7 @@
 
 A service that can convert ChatGPT on the web to OpenAI API format.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Q9R9Rg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Q9R9Rg)
 
 ## About
 
@@ -246,4 +246,4 @@ MIT License
 
 **Category:** AI/ML · **Languages:** Python, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/Q9R9Rg)
+[View on Railway →](https://railway.com/deploy/Q9R9Rg)

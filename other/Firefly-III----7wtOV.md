@@ -2,7 +2,7 @@
 
 A free and open source personal finance manager
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-7wtOV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-7wtOV)
 
 ## About
 
@@ -71,4 +71,4 @@ _Firefly III is a free and powerful open source personal finance manager_
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/-7wtOV)
+[View on Railway →](https://railway.com/deploy/-7wtOV)

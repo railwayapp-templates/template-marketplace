@@ -2,7 +2,7 @@
 
 Deploy and Host ERPNext with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/erpnext)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/erpnext)
 
 ## About
 
@@ -43,4 +43,4 @@ On Railway, you can containerize ERPNext, configure environment variables, and a
 
 **Category:** Other · **Languages:** Dockerfile, Python, Shell
 
-[View on Railway →](https://railway.com/template/erpnext)
+[View on Railway →](https://railway.com/deploy/erpnext)

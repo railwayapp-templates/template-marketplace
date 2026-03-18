@@ -2,7 +2,7 @@
 
 The de facto standard self-hosted URL shortener with added plugins
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/yourls-mysql-with-plugins)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yourls-mysql-with-plugins)
 
 ## About
 
@@ -57,4 +57,4 @@ To use your own domain for link generation, set  `YOURLS_HOST`  to that domain a
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/yourls-mysql-with-plugins)
+[View on Railway →](https://railway.com/deploy/yourls-mysql-with-plugins)

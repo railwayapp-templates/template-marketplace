@@ -2,7 +2,7 @@
 
 Ready to deploy template for Strapi(TS), Nodemailer, AWS S3, Graphql
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/SQXzME)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/SQXzME)
 
 ## About
 
@@ -48,4 +48,4 @@ This template enables you to deploy a TypeScript-based Strapi v5 project with Po
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/SQXzME)
+[View on Railway →](https://railway.com/deploy/SQXzME)

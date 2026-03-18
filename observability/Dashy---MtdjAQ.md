@@ -2,7 +2,7 @@
 
 Helps you organize your self-hosted services
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/MtdjAQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MtdjAQ)
 
 ## About
 
@@ -69,4 +69,4 @@ For more information, please visit the [Dashy docs](https://dashy.to/docs/).
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/MtdjAQ)
+[View on Railway →](https://railway.com/deploy/MtdjAQ)

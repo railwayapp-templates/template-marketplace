@@ -2,7 +2,7 @@
 
 Deploy and Host Castopod with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/castopod)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/castopod)
 
 ## About
 
@@ -63,4 +63,4 @@ You can also use any other email provider as long as it does not use the blocked
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/castopod)
+[View on Railway →](https://railway.com/deploy/castopod)

@@ -2,7 +2,7 @@
 
 Deploy and Host Qlarr Surveys with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qlarr-surveys)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qlarr-surveys)
 
 ## About
 
@@ -47,4 +47,4 @@ Qlarr Surveys is a Spring Boot monolith application consisting of a Kotlin Multi
 
 **Category:** Other · **Languages:** Kotlin, PLpgSQL, Dockerfile, JavaScript, CSS, HTML, SCSS
 
-[View on Railway →](https://railway.com/template/qlarr-surveys)
+[View on Railway →](https://railway.com/deploy/qlarr-surveys)

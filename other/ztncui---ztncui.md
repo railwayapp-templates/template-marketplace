@@ -2,7 +2,7 @@
 
 ZeroTier with a network controller [based on official image]
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ztncui)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ztncui)
 
 ## About
 
@@ -33,4 +33,4 @@ THIS INSTANCE CANNOT KEEP PANEL'S USER DATA, so if you created a user in the pan
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ztncui)
+[View on Railway →](https://railway.com/deploy/ztncui)

@@ -2,7 +2,7 @@
 
 High-Performance server for NATS.io, cloud and edge native messaging system
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/08FNhp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/08FNhp)
 
 ## About
 
@@ -26,4 +26,4 @@ https://github.com/nats-io/nats-server
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/08FNhp)
+[View on Railway →](https://railway.com/deploy/08FNhp)

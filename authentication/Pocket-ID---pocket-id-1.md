@@ -2,7 +2,7 @@
 
 Self-hosted OIDC provider with passkey authentication
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pocket-id-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocket-id-1)
 
 ## About
 
@@ -41,4 +41,4 @@ Hosting Pocket ID requires a single application container and a PostgreSQL datab
 
 **Category:** Authentication · **Languages:** Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/pocket-id-1)
+[View on Railway →](https://railway.com/deploy/pocket-id-1)

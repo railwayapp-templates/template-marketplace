@@ -2,7 +2,7 @@
 
 Chroma [Mar ’26] (Store, Search & Manage AI Embeddings Fast) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/chroma)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chroma)
 
 ## About
 
@@ -31,4 +31,4 @@ When you **self-host Chroma** on Railway, you maintain full ownership and contro
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/chroma)
+[View on Railway →](https://railway.com/deploy/chroma)

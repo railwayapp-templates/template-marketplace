@@ -2,7 +2,7 @@
 
 Self-Host Notifuse on Railway — email, SMS, push notifications and more.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/self-host-notifuse)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/self-host-notifuse)
 
 ## About
 
@@ -67,4 +67,4 @@ Notifuse is a self-hosted email platform for developers who want full control ov
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/self-host-notifuse)
+[View on Railway →](https://railway.com/deploy/self-host-notifuse)

@@ -2,7 +2,7 @@
 
 Autonomous Activity Tracking & Anomaly Detection
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vygil-ai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vygil-ai)
 
 ## About
 
@@ -26,4 +26,4 @@ Hosting Vygil AI involves deploying a multi-service architecture consisting of a
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/vygil-ai)
+[View on Railway →](https://railway.com/deploy/vygil-ai)

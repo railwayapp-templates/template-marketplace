@@ -2,7 +2,7 @@
 
 Deploy and Host printr-adapter with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/printr-adapter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/printr-adapter)
 
 ## About
 
@@ -190,4 +190,4 @@ ghcr.io/absinthelabs/absinthe-printr:latest
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/printr-adapter)
+[View on Railway →](https://railway.com/deploy/printr-adapter)

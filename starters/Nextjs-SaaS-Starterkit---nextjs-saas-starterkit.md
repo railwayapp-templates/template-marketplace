@@ -2,7 +2,7 @@
 
 Deploy and Host Next.js SaaS Starterkit with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-saas-starterkit)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-saas-starterkit)
 
 ## About
 
@@ -61,4 +61,4 @@ Deploying this kit as a Railway template simplifies the infrastructure orchestra
 
 **Category:** Starters · **Languages:** Dockerfile, TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/nextjs-saas-starterkit)
+[View on Railway →](https://railway.com/deploy/nextjs-saas-starterkit)

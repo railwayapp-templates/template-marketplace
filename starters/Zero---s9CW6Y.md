@@ -2,7 +2,7 @@
 
 Easily deploy Zero on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/s9CW6Y)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/s9CW6Y)
 
 ## About
 
@@ -80,4 +80,4 @@ Components:
 
 **Category:** Starters · **Languages:** Dockerfile, TypeScript, CSS, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/s9CW6Y)
+[View on Railway →](https://railway.com/deploy/s9CW6Y)

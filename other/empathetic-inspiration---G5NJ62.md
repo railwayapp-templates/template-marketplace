@@ -2,7 +2,7 @@
 
 movie api that serve to find movies
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/G5NJ62)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/G5NJ62)
 
 ## About
 
@@ -20,4 +20,4 @@ yeah you just have to use a fetch and then convert it to a json string and it wi
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/G5NJ62)
+[View on Railway →](https://railway.com/deploy/G5NJ62)

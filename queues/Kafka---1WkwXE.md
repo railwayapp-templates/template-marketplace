@@ -2,7 +2,7 @@
 
 Is a UI free, open-source web to monitor and manage Apache Kafka clusters.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1WkwXE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1WkwXE)
 
 ## About
 
@@ -61,4 +61,4 @@ Set up UI for Apache Kafka with just a couple of easy commands to visualize your
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/1WkwXE)
+[View on Railway →](https://railway.com/deploy/1WkwXE)

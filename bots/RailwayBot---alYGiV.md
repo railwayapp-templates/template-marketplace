@@ -2,7 +2,7 @@
 
 A companion bot for railway users, including usage reports and crash alerts
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/alYGiV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/alYGiV)
 
 ## About
 
@@ -31,4 +31,4 @@ RailwayBot is an open source companion bot for railway users, made for fulfillin
 
 **Category:** Bots · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/alYGiV)
+[View on Railway →](https://railway.com/deploy/alYGiV)

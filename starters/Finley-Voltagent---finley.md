@@ -2,7 +2,7 @@
 
 Everything you need to build production-ready AI agents in TypeScript
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/finley)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/finley)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting VoltAgent requires a Node.js service and a PostgreSQL database. The Post
 
 **Category:** Starters · **Languages:** TypeScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/finley)
+[View on Railway →](https://railway.com/deploy/finley)

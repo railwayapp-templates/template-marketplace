@@ -2,7 +2,7 @@
 
 A minimal production-ready node HTTP server with Express and Typescript
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/KwYYFA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/KwYYFA)
 
 ## About
 
@@ -36,4 +36,4 @@ A minimal production-ready node HTTP server with [`express`](https://expressjs.c
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/KwYYFA)
+[View on Railway →](https://railway.com/deploy/KwYYFA)

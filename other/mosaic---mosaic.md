@@ -2,7 +2,7 @@
 
 Your second brain on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mosaic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mosaic)
 
 ## About
 
@@ -45,4 +45,4 @@ Hosting MOS•AI•C requires a robust infrastructure stack including a Next.js 
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, PLpgSQL, CSS, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/mosaic)
+[View on Railway →](https://railway.com/deploy/mosaic)

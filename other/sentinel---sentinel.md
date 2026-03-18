@@ -2,7 +2,7 @@
 
 Deploy and Host sentinel with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sentinel)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sentinel)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting `sentinel` on Railway is straightforward: deploy the container, provide 
 
 **Category:** Other · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/sentinel)
+[View on Railway →](https://railway.com/deploy/sentinel)

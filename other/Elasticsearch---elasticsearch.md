@@ -2,7 +2,7 @@
 
 Elastic is a scalable search and analytics engine for fast data queries
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/elasticsearch)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/elasticsearch)
 
 ## About
 
@@ -33,4 +33,4 @@ Elasticsearch runs as a Java application requiring JVM configuration, memory man
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/elasticsearch)
+[View on Railway →](https://railway.com/deploy/elasticsearch)

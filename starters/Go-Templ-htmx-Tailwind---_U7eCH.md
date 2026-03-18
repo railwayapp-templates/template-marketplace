@@ -2,7 +2,7 @@
 
 Build dynamic websites using Go Templ, HTMX, and Tailwind
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_U7eCH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_U7eCH)
 
 ## About
 
@@ -20,4 +20,4 @@ Build dynamic websites using Go Templ, HTMX, and Tailwind
 
 **Category:** Starters · **Languages:** CSS, Go, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/_U7eCH)
+[View on Railway →](https://railway.com/deploy/_U7eCH)

@@ -2,7 +2,7 @@
 
 An open-source, developer-oriented translation and localization tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/WO-S6B)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/WO-S6B)
 
 ## About
 
@@ -44,4 +44,4 @@ In production, it is recommended to configure any of the available authenticatio
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/WO-S6B)
+[View on Railway →](https://railway.com/deploy/WO-S6B)

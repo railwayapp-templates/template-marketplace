@@ -2,7 +2,7 @@
 
 Record and share your terminal sessions
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cqZ8ew)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cqZ8ew)
 
 ## About
 
@@ -111,4 +111,4 @@ further details.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/cqZ8ew)
+[View on Railway →](https://railway.com/deploy/cqZ8ew)

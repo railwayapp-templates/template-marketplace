@@ -2,7 +2,7 @@
 
 Flowise - low-code LLM apps builder
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pn4G8S)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pn4G8S)
 
 ## About
 
@@ -42,4 +42,4 @@ Flowise - low-code LLM apps builder
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/pn4G8S)
+[View on Railway →](https://railway.com/deploy/pn4G8S)

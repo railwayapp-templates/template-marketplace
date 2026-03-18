@@ -2,7 +2,7 @@
 
 A lexicon-driven ATProto AppView.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/happyview)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/happyview)
 
 ## About
 
@@ -52,4 +52,4 @@ Hosting HappyView requires a Postgres database, an [AIP](https://github.com/graz
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/happyview)
+[View on Railway →](https://railway.com/deploy/happyview)

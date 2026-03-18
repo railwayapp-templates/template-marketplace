@@ -2,7 +2,7 @@
 
 Deploy and host a Citus Postgres 17 Cluster with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/citus-postgres-17-cluster)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/citus-postgres-17-cluster)
 
 ## About
 
@@ -43,4 +43,4 @@ Hosting a Citus Postgres 17 Cluster involves deploying a coordinator node and a 
 
 **Category:** Storage · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/citus-postgres-17-cluster)
+[View on Railway →](https://railway.com/deploy/citus-postgres-17-cluster)

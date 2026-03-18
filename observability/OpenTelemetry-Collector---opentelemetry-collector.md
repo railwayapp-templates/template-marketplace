@@ -2,7 +2,7 @@
 
 Deploy and Host an OpenTelemetry Collector node
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/opentelemetry-collector)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opentelemetry-collector)
 
 ## About
 
@@ -32,4 +32,4 @@ Railway simplifies the deployment by managing service discovery and environment 
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/opentelemetry-collector)
+[View on Railway →](https://railway.com/deploy/opentelemetry-collector)

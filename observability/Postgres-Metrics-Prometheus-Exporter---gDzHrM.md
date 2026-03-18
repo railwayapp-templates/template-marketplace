@@ -2,7 +2,7 @@
 
 A Prometheus exporter for gathering metrics about your Railway Postgres DB
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gDzHrM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gDzHrM)
 
 ## About
 
@@ -25,4 +25,4 @@ This template uses the popular [Prometheus Community's Postgres Exporter](https:
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/gDzHrM)
+[View on Railway →](https://railway.com/deploy/gDzHrM)

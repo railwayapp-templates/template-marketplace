@@ -2,7 +2,7 @@
 
 Private Telegram bot that uploads files to S3-compatible storage
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/telegram-s3-uploader)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/telegram-s3-uploader)
 
 ## About
 
@@ -45,4 +45,4 @@ maintenance minimal.
 
 **Category:** Bots · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/telegram-s3-uploader)
+[View on Railway →](https://railway.com/deploy/telegram-s3-uploader)

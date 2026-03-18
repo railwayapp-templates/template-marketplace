@@ -2,7 +2,7 @@
 
 Postgres with structured logs and correct severity levels
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgres-logs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-logs)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting Postgres Logs on Railway means you get a persistent PostgreSQL database 
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/postgres-logs)
+[View on Railway →](https://railway.com/deploy/postgres-logs)

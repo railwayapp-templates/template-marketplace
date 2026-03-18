@@ -2,7 +2,7 @@
 
 Self-host Gitea - Git, Pull Requests, Gitea Actions CI/CD and more.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gitea)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gitea)
 
 ## About
 
@@ -68,4 +68,4 @@ Key features:
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/gitea)
+[View on Railway →](https://railway.com/deploy/gitea)

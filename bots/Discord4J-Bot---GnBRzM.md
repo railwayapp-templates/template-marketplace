@@ -2,7 +2,7 @@
 
 A template for deploying Discord bots with Discord4J
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GnBRzM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GnBRzM)
 
 ## About
 
@@ -28,4 +28,4 @@ If you wish to test locally, you can make a .env file with a `BOT_TOKEN` variabl
 
 **Category:** Bots · **Languages:** Java, Dockerfile
 
-[View on Railway →](https://railway.com/template/GnBRzM)
+[View on Railway →](https://railway.com/deploy/GnBRzM)

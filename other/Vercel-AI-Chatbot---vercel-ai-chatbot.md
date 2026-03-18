@@ -2,7 +2,7 @@
 
 A full-featured, hackable Next.js AI chatbot built by Vercel
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vercel-ai-chatbot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vercel-ai-chatbot)
 
 ## About
 
@@ -48,4 +48,4 @@ This Railway template provisions everything needed to run the Vercel AI Chatbot 
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/vercel-ai-chatbot)
+[View on Railway →](https://railway.com/deploy/vercel-ai-chatbot)

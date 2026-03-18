@@ -2,7 +2,7 @@
 
 Automated PostgreSQL backups to S3-compatible storage with encryption
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgres-to-r2-backup)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-to-r2-backup)
 
 ## What gets deployed
 
@@ -30,4 +30,4 @@ Automated PostgreSQL backups to S3-compatible storage with encryption
 
 **Category:** Storage · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/postgres-to-r2-backup)
+[View on Railway →](https://railway.com/deploy/postgres-to-r2-backup)

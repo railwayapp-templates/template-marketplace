@@ -2,7 +2,7 @@
 
 Directus starter with postgres for the db and cloudinary for assets.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jXpoBv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jXpoBv)
 
 ## About
 
@@ -61,4 +61,4 @@ To use, enter your admin email, password and Cloudinary details in the environme
 
 **Category:** CMS · **Languages:** TypeScript, Vue, JavaScript, SCSS, CSS, Liquid, Dockerfile, HTML
 
-[View on Railway →](https://railway.com/template/jXpoBv)
+[View on Railway →](https://railway.com/deploy/jXpoBv)

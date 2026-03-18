@@ -2,7 +2,7 @@
 
 Send regular alerts about how many Slack messages you've sent per day/week
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/E2MZIp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/E2MZIp)
 
 ## About
 
@@ -61,4 +61,4 @@ Slack Activity Alerts is fully open source - check out the code [here.](https://
 
 **Category:** Analytics · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/E2MZIp)
+[View on Railway →](https://railway.com/deploy/E2MZIp)

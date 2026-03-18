@@ -2,7 +2,7 @@
 
 A one-click example Hapi server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cixNdw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cixNdw)
 
 ## About
 
@@ -39,4 +39,4 @@ Hapi is the simple, secure framework developers trust****.**** Build powerful, s
 
 **Category:** Starters · **Tags:** hapi, typescript
 
-[View on Railway →](https://railway.com/template/cixNdw)
+[View on Railway →](https://railway.com/deploy/cixNdw)

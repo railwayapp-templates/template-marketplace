@@ -2,7 +2,7 @@
 
 Umami [Mar ’26] (Track Website Visits & Performance) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/umami)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/umami)
 
 ## About
 
@@ -43,4 +43,4 @@ Self-hosting Umami allows you to keep all your analytics data completely under y
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/umami)
+[View on Railway →](https://railway.com/deploy/umami)

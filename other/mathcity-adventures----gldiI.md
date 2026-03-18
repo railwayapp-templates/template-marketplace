@@ -2,7 +2,7 @@
 
 IDK I just figuring out how to publish my web
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-gldiI)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-gldiI)
 
 ## About
 
@@ -16,4 +16,4 @@ ajlkdjflkajslkjkajfdalkja;ks foisjdfokjd;lkja dfjkdlkjkdjf skjdfkjdkjdfflkjsdlkf
 
 **Category:** Other · **Languages:** JavaScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/-gldiI)
+[View on Railway →](https://railway.com/deploy/-gldiI)

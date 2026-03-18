@@ -2,7 +2,7 @@
 
 Sets up Cloudflare Tunnel within your Railway project
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cf-tunnel)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cf-tunnel)
 
 ## About
 
@@ -148,4 +148,4 @@ We are done, you can now open the public domain and you will be routed to your R
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/cf-tunnel)
+[View on Railway →](https://railway.com/deploy/cf-tunnel)

@@ -2,7 +2,7 @@
 
 Node.js, Postgres (pgvector), Redis & Prisma Production Starter
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nodejs-multimodal-rag-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nodejs-multimodal-rag-starter)
 
 ## About
 
@@ -78,4 +78,4 @@ Want to Upgrade to the Pro Template Version? check this [Tutorial](https://githu
 
 **Category:** Starters · **Languages:** JavaScript, HTML, TypeScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/nodejs-multimodal-rag-starter)
+[View on Railway →](https://railway.com/deploy/nodejs-multimodal-rag-starter)

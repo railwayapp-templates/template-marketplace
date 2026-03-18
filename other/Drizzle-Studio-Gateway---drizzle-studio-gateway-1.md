@@ -2,7 +2,7 @@
 
 Drizzle Studio (Gateway) (w/Password + persistent storage) with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/drizzle-studio-gateway-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/drizzle-studio-gateway-1)
 
 ## About
 
@@ -44,4 +44,4 @@ Once deployed, you can use Drizzle Studio in your browser to explore, query, and
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/drizzle-studio-gateway-1)
+[View on Railway →](https://railway.com/deploy/drizzle-studio-gateway-1)

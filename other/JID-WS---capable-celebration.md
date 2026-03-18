@@ -2,7 +2,7 @@
 
 Deploy and Host capable-celebration with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/capable-celebration)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/capable-celebration)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting WhatsApp AI Assistant Bot on Railway allows you to deploy a production-r
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/capable-celebration)
+[View on Railway →](https://railway.com/deploy/capable-celebration)

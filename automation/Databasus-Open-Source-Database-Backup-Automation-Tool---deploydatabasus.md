@@ -2,7 +2,7 @@
 
 Databasus [Mar ’26] (Multi-Database Backup & Restore Workflows), Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/deploydatabasus)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/deploydatabasus)
 
 ## About
 
@@ -36,4 +36,4 @@ Railway runs Databasus in a managed container environment, handling restarts, lo
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/deploydatabasus)
+[View on Railway →](https://railway.com/deploy/deploydatabasus)

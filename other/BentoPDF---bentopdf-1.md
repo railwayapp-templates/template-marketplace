@@ -2,7 +2,7 @@
 
 A Privacy First PDF Toolkit.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bentopdf-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bentopdf-1)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting BentoPDF involves deploying a static, client-side web application backed
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/bentopdf-1)
+[View on Railway →](https://railway.com/deploy/bentopdf-1)

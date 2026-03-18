@@ -2,7 +2,7 @@
 
 An Ionic Angular Starter in Typescript with Standalone Components
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/V7xS0V)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/V7xS0V)
 
 ## About
 
@@ -91,4 +91,4 @@ ionic-angular-starter/
 
 **Category:** Starters · **Languages:** TypeScript, SCSS, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/V7xS0V)
+[View on Railway →](https://railway.com/deploy/V7xS0V)

@@ -2,7 +2,7 @@
 
 A free open source IT asset/license management system
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7Su9hO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7Su9hO)
 
 ## About
 
@@ -156,4 +156,4 @@ Easily integrate your own proprietary systems and workflows with a powerful REST
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/7Su9hO)
+[View on Railway →](https://railway.com/deploy/7Su9hO)

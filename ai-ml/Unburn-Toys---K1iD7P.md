@@ -2,7 +2,7 @@
 
 Everyday AI Tools: Unburn Toys
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/K1iD7P)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/K1iD7P)
 
 ## About
 
@@ -35,4 +35,4 @@ Make this project more awesome by contributing to our project -> [github](https:
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/K1iD7P)
+[View on Railway →](https://railway.com/deploy/K1iD7P)

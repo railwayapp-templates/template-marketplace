@@ -2,7 +2,7 @@
 
 Simple, no frills place to paste text. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NVtpxG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NVtpxG)
 
 ## About
 
@@ -66,4 +66,4 @@ You're also welcome to demo or just use the prod deploy at https://paste.croissa
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/NVtpxG)
+[View on Railway →](https://railway.com/deploy/NVtpxG)

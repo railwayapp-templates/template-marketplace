@@ -2,7 +2,7 @@
 
 A template for deploying FlowiseAI with persisted volume.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fUNRIK)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fUNRIK)
 
 ## About
 
@@ -40,4 +40,4 @@ Jasper @nomocodes
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/fUNRIK)
+[View on Railway →](https://railway.com/deploy/fUNRIK)

@@ -2,7 +2,7 @@
 
 A simple "Most Likely To" minigame.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0luvfZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0luvfZ)
 
 ## About
 
@@ -24,4 +24,4 @@ Simple Most-Likely-To minigame for your community, provides slash command `/most
 
 **Category:** Bots · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/0luvfZ)
+[View on Railway →](https://railway.com/deploy/0luvfZ)

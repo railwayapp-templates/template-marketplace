@@ -2,7 +2,7 @@
 
 Run a single backup of a MySQL database to Cloudflare R2
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7GOA4r)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7GOA4r)
 
 ## About
 
@@ -38,4 +38,4 @@ You can modify the [generated rclone config](https://github.com/dbanty/rclone-my
 
 **Category:** Automation · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/7GOA4r)
+[View on Railway →](https://railway.com/deploy/7GOA4r)

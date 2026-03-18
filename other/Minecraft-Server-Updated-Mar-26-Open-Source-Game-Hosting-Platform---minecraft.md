@@ -2,7 +2,7 @@
 
 Minecraft Server [Mar ’26] (Host Multiplayer Worlds & Mods) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/minecraft)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minecraft)
 
 ## About
 
@@ -56,4 +56,4 @@ Minecraft is one of the most popular sandbox games ever created, allowing player
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/minecraft)
+[View on Railway →](https://railway.com/deploy/minecraft)

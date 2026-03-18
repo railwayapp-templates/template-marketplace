@@ -2,7 +2,7 @@
 
 An open-source LLM app development platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/V1xiql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/V1xiql)
 
 ## About
 
@@ -130,4 +130,4 @@ Hosting Dify means running a comprehensive LLM application platform that orchest
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/V1xiql)
+[View on Railway →](https://railway.com/deploy/V1xiql)

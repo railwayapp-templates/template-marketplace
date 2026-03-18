@@ -2,7 +2,7 @@
 
 Open-source multi-vendor marketplace platform for B2B & B2C.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mercurjs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mercurjs)
 
 ## About
 
@@ -100,4 +100,4 @@ The entire stack is automated to deploy on Railway with PostgreSQL and Redis ser
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/mercurjs)
+[View on Railway →](https://railway.com/deploy/mercurjs)

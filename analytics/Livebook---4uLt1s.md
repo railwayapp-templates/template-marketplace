@@ -2,7 +2,7 @@
 
 Automate code & data workflows with interactive notebooks
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4uLt1s)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4uLt1s)
 
 ## About
 
@@ -64,4 +64,4 @@ will be able to access any file and execute any code in the machine Livebook is 
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/4uLt1s)
+[View on Railway →](https://railway.com/deploy/4uLt1s)

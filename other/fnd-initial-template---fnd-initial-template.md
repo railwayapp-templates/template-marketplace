@@ -2,7 +2,7 @@
 
 Template para alunos da Fábrica de Negócios Digitais
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fnd-initial-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fnd-initial-template)
 
 ## About
 
@@ -65,4 +65,4 @@ Deploying FND SaaS QuickLaunch involves running a NestJS backend API with backgr
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, Shell, Dockerfile, HTML
 
-[View on Railway →](https://railway.com/template/fnd-initial-template)
+[View on Railway →](https://railway.com/deploy/fnd-initial-template)

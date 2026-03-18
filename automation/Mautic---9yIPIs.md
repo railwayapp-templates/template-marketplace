@@ -2,7 +2,7 @@
 
 World’s largest open source marketing automation project.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/9yIPIs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9yIPIs)
 
 ## About
 
@@ -51,4 +51,4 @@ Please don't hesitate to make contributions if you feel the template is lacking!
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/9yIPIs)
+[View on Railway →](https://railway.com/deploy/9yIPIs)

@@ -2,7 +2,7 @@
 
 Open-source digital document signing
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/IGoDnc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/IGoDnc)
 
 ## About
 
@@ -36,4 +36,4 @@ DocuSeal is an open-source, self-hosted platform for seamless digital document s
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/IGoDnc)
+[View on Railway →](https://railway.com/deploy/IGoDnc)

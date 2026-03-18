@@ -2,7 +2,7 @@
 
 FastAPI NSFW Detection API powered by Hugging Face.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Tlmof_)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Tlmof_)
 
 ## About
 
@@ -38,4 +38,4 @@ Helpful Resources
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/Tlmof_)
+[View on Railway →](https://railway.com/deploy/Tlmof_)

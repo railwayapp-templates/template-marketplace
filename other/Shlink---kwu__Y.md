@@ -2,7 +2,7 @@
 
 An easy to use, open-source, link shortener web app and API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kwu__Y)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kwu__Y)
 
 ## About
 
@@ -107,4 +107,4 @@ If you have feedback on this template, [please submit a GitHub issue](https://gi
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/kwu__Y)
+[View on Railway →](https://railway.com/deploy/kwu__Y)

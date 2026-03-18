@@ -2,7 +2,7 @@
 
 Resize, crop, and optimize images on demand via simple URLs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/imagor-transform-images-on-demand)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/imagor-transform-images-on-demand)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting Imagor on Railway means you can instantly deploy a production-ready imag
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/imagor-transform-images-on-demand)
+[View on Railway →](https://railway.com/deploy/imagor-transform-images-on-demand)

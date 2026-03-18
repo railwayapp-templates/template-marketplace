@@ -2,7 +2,7 @@
 
 A simple 1.25 Golang REST API using julienschmidt/httprouter for routing
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/q5VPer)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/q5VPer)
 
 ## About
 
@@ -29,4 +29,4 @@ Once you have the service live in Railway, click on it to see the url it's hoste
 
 **Category:** Starters · **Languages:** Go
 
-[View on Railway →](https://railway.com/template/q5VPer)
+[View on Railway →](https://railway.com/deploy/q5VPer)

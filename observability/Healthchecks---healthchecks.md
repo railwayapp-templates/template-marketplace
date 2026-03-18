@@ -2,7 +2,7 @@
 
 Cron Job Monitoring Service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/healthchecks)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/healthchecks)
 
 ## About
 
@@ -93,4 +93,4 @@ This Railway template comes with **Apprise enabled**, giving you access to 25+ n
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/healthchecks)
+[View on Railway →](https://railway.com/deploy/healthchecks)

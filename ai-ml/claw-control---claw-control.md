@@ -2,7 +2,7 @@
 
 Kanban for AI Agents - Coordinate your AI team with style
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/claw-control)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/claw-control)
 
 ## About
 
@@ -42,4 +42,4 @@ Deploying Claw Control involves running three services: a React frontend dashboa
 
 **Category:** AI/ML · **Languages:** JavaScript, TypeScript, CSS, Dockerfile, HTML, Shell
 
-[View on Railway →](https://railway.com/template/claw-control)
+[View on Railway →](https://railway.com/deploy/claw-control)

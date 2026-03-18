@@ -2,7 +2,7 @@
 
 Autonomous community curation and content creation bot
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/RiUi5U)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/RiUi5U)
 
 ## About
 
@@ -76,4 +76,4 @@ If you want to build and customize feeds:
 
 **Category:** Bots · **Languages:** TypeScript, JavaScript, Shell, CSS, Dockerfile, HTML
 
-[View on Railway →](https://railway.com/template/RiUi5U)
+[View on Railway →](https://railway.com/deploy/RiUi5U)

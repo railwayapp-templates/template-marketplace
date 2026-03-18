@@ -2,7 +2,7 @@
 
 A full-stack React app with The Boring JavaScript Stack.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Yqisvu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Yqisvu)
 
 ## About
 
@@ -53,4 +53,4 @@ Also you will need to finish up your deploy by following the docs on setup Redis
 
 **Category:** Starters · **Languages:** EJS, JavaScript, Vue, Svelte, CSS, Shell
 
-[View on Railway →](https://railway.com/template/Yqisvu)
+[View on Railway →](https://railway.com/deploy/Yqisvu)

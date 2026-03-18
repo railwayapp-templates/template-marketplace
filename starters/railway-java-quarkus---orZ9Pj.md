@@ -2,7 +2,7 @@
 
 Minimal Quarkus rest/http end point
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/orZ9Pj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/orZ9Pj)
 
 ## About
 
@@ -33,4 +33,4 @@ This is a streamlined template for deploying Quarkus applications on Railway.app
 
 **Category:** Starters · **Languages:** Java, Dockerfile
 
-[View on Railway →](https://railway.com/template/orZ9Pj)
+[View on Railway →](https://railway.com/deploy/orZ9Pj)

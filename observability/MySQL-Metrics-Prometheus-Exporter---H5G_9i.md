@@ -2,7 +2,7 @@
 
 A Prometheus exporter for gathering metrics about your MySQL DB
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/H5G_9i)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/H5G_9i)
 
 ## About
 
@@ -49,4 +49,4 @@ GRANT PROCESS, REPLICATION CLIENT, SELECT ON *.* TO 'exporter'@'localhost';
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/H5G_9i)
+[View on Railway →](https://railway.com/deploy/H5G_9i)

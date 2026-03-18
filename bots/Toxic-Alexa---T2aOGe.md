@@ -2,7 +2,7 @@
 
 A Whatsapp Multi Device Bot
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/T2aOGe)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/T2aOGe)
 
 ## About
 
@@ -54,4 +54,4 @@ Overall, the WhatsApp Multi-Device Bot by TurboMods is a comprehensive tool that
 
 **Category:** Bots · **Languages:** JavaScript, HTML, Nix, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/T2aOGe)
+[View on Railway →](https://railway.com/deploy/T2aOGe)

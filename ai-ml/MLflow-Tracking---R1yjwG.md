@@ -2,7 +2,7 @@
 
 The MLflow Tracking is an API and UI for logging ML experiment.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/R1yjwG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/R1yjwG)
 
 ## About
 
@@ -30,4 +30,4 @@ https://mlflow.org/docs/latest/tracking.html
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/R1yjwG)
+[View on Railway →](https://railway.com/deploy/R1yjwG)

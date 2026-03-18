@@ -2,7 +2,7 @@
 
 Open-Source User Onboarding Platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/usertour-production-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/usertour-production-template)
 
 ## About
 
@@ -70,4 +70,4 @@ The UserTour Production Template on Railway provisions everything you need to ru
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/usertour-production-template)
+[View on Railway →](https://railway.com/deploy/usertour-production-template)

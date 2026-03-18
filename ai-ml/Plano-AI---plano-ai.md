@@ -2,7 +2,7 @@
 
 An open-source AI proxy for routing, guardrails & observability
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/plano-ai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/plano-ai)
 
 ## About
 
@@ -52,4 +52,4 @@ Deploying Plano requires a containerized environment with network access to exte
 
 **Category:** AI/ML · **Languages:** Shell, Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/plano-ai)
+[View on Railway →](https://railway.com/deploy/plano-ai)

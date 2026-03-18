@@ -2,7 +2,7 @@
 
 Deploy and Host MoltBot-No-Setup with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/moltbot-no-setup-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/moltbot-no-setup-1)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting MoltBot-No-Setup on Railway is as simple as it gets. Click deploy, enter
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/moltbot-no-setup-1)
+[View on Railway →](https://railway.com/deploy/moltbot-no-setup-1)

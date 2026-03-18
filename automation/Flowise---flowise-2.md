@@ -2,7 +2,7 @@
 
 No-code LLM app builder with Postgres backend
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flowise-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowise-2)
 
 ## About
 
@@ -44,4 +44,4 @@ Hosting Flowise requires a persistent server with access to a database for stori
 
 **Category:** Automation · **Languages:** Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/flowise-2)
+[View on Railway →](https://railway.com/deploy/flowise-2)

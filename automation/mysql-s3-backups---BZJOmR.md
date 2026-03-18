@@ -2,7 +2,7 @@
 
 Backup your MySQL or MariaDB database to S3 via a cron.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BZJOmR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BZJOmR)
 
 ## About
 
@@ -74,4 +74,4 @@ The template uses node-cron or Railway cron, written in TypeScript to dump your 
 
 **Category:** Automation · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/BZJOmR)
+[View on Railway →](https://railway.com/deploy/BZJOmR)

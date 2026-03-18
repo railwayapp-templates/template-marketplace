@@ -2,7 +2,7 @@
 
 Nx Cloud Community Edition
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ORHjp6)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ORHjp6)
 
 ## About
 
@@ -61,4 +61,4 @@ Original Nx Cloud is a service that helps you and your team scale your Nx worksp
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/ORHjp6)
+[View on Railway →](https://railway.com/deploy/ORHjp6)

@@ -2,7 +2,7 @@
 
 R Studio Server preinstalled with many libraries
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/r-studio-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/r-studio-server)
 
 ## About
 
@@ -24,4 +24,4 @@ __RStudio__ is an integrated development environment (IDE) specifically designed
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/r-studio-server)
+[View on Railway →](https://railway.com/deploy/r-studio-server)

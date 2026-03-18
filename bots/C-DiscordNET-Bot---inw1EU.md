@@ -2,7 +2,7 @@
 
 A Discord.NET bot template for making bots with C# using Docker deployments
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/inw1EU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/inw1EU)
 
 ## About
 
@@ -65,4 +65,4 @@ You are all set, time to add your own commands to make the Discord bot your own!
 
 **Category:** Bots · **Languages:** C#, Dockerfile
 
-[View on Railway →](https://railway.com/template/inw1EU)
+[View on Railway →](https://railway.com/deploy/inw1EU)

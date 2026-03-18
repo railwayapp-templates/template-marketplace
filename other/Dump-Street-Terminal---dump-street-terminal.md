@@ -2,7 +2,7 @@
 
 Deploy and Host Dump Street Terminal with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dump-street-terminal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dump-street-terminal)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting DST means running the OpenClaw agent runtime on Railway. The agent conne
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/dump-street-terminal)
+[View on Railway →](https://railway.com/deploy/dump-street-terminal)

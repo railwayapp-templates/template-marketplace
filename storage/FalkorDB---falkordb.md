@@ -2,7 +2,7 @@
 
 High-performance graph database optimized for GraphRAG and AI/ML
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/falkordb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/falkordb)
 
 ## About
 
@@ -33,4 +33,4 @@ FalkorDB runs as a Redis module, requiring Redis 7.4 or higher for the latest ve
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/falkordb)
+[View on Railway →](https://railway.com/deploy/falkordb)

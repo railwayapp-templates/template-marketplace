@@ -2,7 +2,7 @@
 
 Deploy WordPress with MariaDB and Redis 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wordpress-with-redis)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wordpress-with-redis)
 
 ## About
 
@@ -51,4 +51,4 @@ On Railway, you can deploy both services in the same project and connect them th
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/wordpress-with-redis)
+[View on Railway →](https://railway.com/deploy/wordpress-with-redis)

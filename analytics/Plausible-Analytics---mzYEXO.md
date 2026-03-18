@@ -2,7 +2,7 @@
 
 An easy to use, privacy-friendly, open-source Google Analytics alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mzYEXO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mzYEXO)
 
 ## About
 
@@ -57,4 +57,4 @@ Hosting Plausible Analytics involves deploying three interconnected services: th
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/mzYEXO)
+[View on Railway →](https://railway.com/deploy/mzYEXO)

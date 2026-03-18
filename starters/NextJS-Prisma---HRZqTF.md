@@ -2,7 +2,7 @@
 
 An example NextJS app using Prisma
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HRZqTF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HRZqTF)
 
 ## About
 
@@ -47,4 +47,4 @@ View the official [NextJS](https://nextjs.org/) and [Prisma](https://www.prisma.
 
 **Category:** Starters · **Tags:** typescript, frontend, web · **Languages:** TypeScript, CSS
 
-[View on Railway →](https://railway.com/template/HRZqTF)
+[View on Railway →](https://railway.com/deploy/HRZqTF)

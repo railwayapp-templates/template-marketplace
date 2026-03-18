@@ -2,7 +2,7 @@
 
 Template for Kafka + Kafbat UI + Kafka Prometheus Exporter
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kafka-kafbat-ui-kafka-prometheus-exporte)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kafka-kafbat-ui-kafka-prometheus-exporte)
 
 ## About
 
@@ -55,4 +55,4 @@ Hosting Kafka with Kafbat UI and the Kafka Prometheus Exporter involves provisio
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/kafka-kafbat-ui-kafka-prometheus-exporte)
+[View on Railway →](https://railway.com/deploy/kafka-kafbat-ui-kafka-prometheus-exporte)

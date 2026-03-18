@@ -2,7 +2,7 @@
 
 (Official) Powerful, flexible web server with plugins
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/caddy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/caddy)
 
 ## About
 
@@ -32,4 +32,4 @@ Customize the build using Railway environment variables. You can also edit the C
 
 **Category:** Starters · **Languages:** HTML, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/caddy)
+[View on Railway →](https://railway.com/deploy/caddy)

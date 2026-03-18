@@ -2,7 +2,7 @@
 
 A Self-Hosted & Modern Roleplaying Platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/X5tR6G)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/X5tR6G)
 
 ## About
 
@@ -38,4 +38,4 @@ This is based on the dockerized version of the software from https://github.com/
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/X5tR6G)
+[View on Railway →](https://railway.com/deploy/X5tR6G)

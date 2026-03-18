@@ -2,7 +2,7 @@
 
 Power up your documentation with AI - CrawlChat.app
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/crawlchat-20260205)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/crawlchat-20260205)
 
 ## About
 
@@ -151,4 +151,4 @@ It consists on multiple services that are created when you deploy it. Here is a 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/crawlchat-20260205)
+[View on Railway →](https://railway.com/deploy/crawlchat-20260205)

@@ -2,7 +2,7 @@
 
 Sveltekit with Prisma already configured
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sRATcT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sRATcT)
 
 ## About
 
@@ -46,4 +46,4 @@ Bare-bones Sveltekit project with Typescript and Prisma.
 
 **Category:** Starters · **Languages:** JavaScript, TypeScript, HTML, Svelte
 
-[View on Railway →](https://railway.com/template/sRATcT)
+[View on Railway →](https://railway.com/deploy/sRATcT)

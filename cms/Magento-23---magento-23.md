@@ -2,7 +2,7 @@
 
 Install Magento With Native Search Engine
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/magento-23)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/magento-23)
 
 ## About
 
@@ -43,4 +43,4 @@ Hosting Magento 2.3 involves running a PHP application (Nginx + PHP-FPM) and a M
 
 **Category:** CMS · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/magento-23)
+[View on Railway →](https://railway.com/deploy/magento-23)

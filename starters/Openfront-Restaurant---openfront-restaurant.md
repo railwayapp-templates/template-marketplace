@@ -2,7 +2,7 @@
 
 Opensource Toast alternative using Next.js and Keystone.js
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openfront-restaurant)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openfront-restaurant)
 
 ## About
 
@@ -269,4 +269,4 @@ Opensource Toast alternative using Next.js and Keystone.js
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/openfront-restaurant)
+[View on Railway →](https://railway.com/deploy/openfront-restaurant)

@@ -2,7 +2,7 @@
 
 Connect a Rivet application with Rivet Cloud
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rivet-cloud-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rivet-cloud-starter)
 
 ## About
 
@@ -33,4 +33,4 @@ Read the [Rivet quickstart](https://www.rivet.dev/docs) to learn how to get star
 
 **Category:** Starters · **Languages:** TypeScript, HTML
 
-[View on Railway →](https://railway.com/template/rivet-cloud-starter)
+[View on Railway →](https://railway.com/deploy/rivet-cloud-starter)

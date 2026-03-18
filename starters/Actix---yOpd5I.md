@@ -2,7 +2,7 @@
 
 A minimal Actix web server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/yOpd5I)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yOpd5I)
 
 ## About
 
@@ -30,4 +30,4 @@ Actix is a powerful and highly performant web framework for building web servers
 
 **Category:** Starters · **Languages:** Rust
 
-[View on Railway →](https://railway.com/template/yOpd5I)
+[View on Railway →](https://railway.com/deploy/yOpd5I)

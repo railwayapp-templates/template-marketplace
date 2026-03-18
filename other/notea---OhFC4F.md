@@ -2,7 +2,7 @@
 
 Your Self-Hosted Notion-Style Note Taking App
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OhFC4F)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OhFC4F)
 
 ## About
 
@@ -37,4 +37,4 @@ https://github.com/bamtests/notea
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/OhFC4F)
+[View on Railway →](https://railway.com/deploy/OhFC4F)

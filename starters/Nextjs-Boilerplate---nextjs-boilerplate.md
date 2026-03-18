@@ -2,7 +2,7 @@
 
 Full-stack Next.js starter: Auth, PostgreSQL, TypeScript, production-ready
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-boilerplate)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-boilerplate)
 
 ## About
 
@@ -36,4 +36,4 @@ This [Next.js Boilerplate](https://nextjs-boilerplate.com) provides everything n
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/nextjs-boilerplate)
+[View on Railway →](https://railway.com/deploy/nextjs-boilerplate)

@@ -2,7 +2,7 @@
 
 Go + Fiber web server with Zap logging, .env config, and health route
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/go-fiber)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/go-fiber)
 
 ## About
 
@@ -29,4 +29,4 @@ Railway deploys Go + Fiber apps using Nixpacks. Just include a go.mod file and e
 
 **Category:** Starters · **Languages:** Go
 
-[View on Railway →](https://railway.com/template/go-fiber)
+[View on Railway →](https://railway.com/deploy/go-fiber)

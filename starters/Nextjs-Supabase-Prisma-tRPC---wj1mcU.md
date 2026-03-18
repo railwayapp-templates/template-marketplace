@@ -2,7 +2,7 @@
 
 A sensible modern set of defaults for a Next.js app with Supabase (+ auth!)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wj1mcU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wj1mcU)
 
 ## About
 
@@ -77,4 +77,4 @@ You can see examples in `prefetch/page.tsx`, `server-only-fetch/page.tsx`, and `
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS, Shell
 
-[View on Railway →](https://railway.com/template/wj1mcU)
+[View on Railway →](https://railway.com/deploy/wj1mcU)

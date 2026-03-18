@@ -2,7 +2,7 @@
 
 Lightweight connection pooler for PostgreSQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OpUzwe)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OpUzwe)
 
 ## About
 
@@ -99,4 +99,4 @@ Replace `new_user` with the username created in the first step, and replace `rol
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/OpUzwe)
+[View on Railway →](https://railway.com/deploy/OpUzwe)

@@ -2,7 +2,7 @@
 
 Derailer helps test how services handle random dependency failures
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FMEpOh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FMEpOh)
 
 ## About
 
@@ -122,4 +122,4 @@ Run `./gradlew quarkusDev` from the gradle quarkus menu to run in dev mode
 
 **Category:** Observability · **Languages:** Java, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/FMEpOh)
+[View on Railway →](https://railway.com/deploy/FMEpOh)

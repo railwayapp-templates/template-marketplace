@@ -2,7 +2,7 @@
 
 Deploy Spring Cloud Gateway. It acts as an Anti Corruption Layer (ACL)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/CWxqH0)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/CWxqH0)
 
 ## About
 
@@ -51,4 +51,4 @@ In essence, Spring Cloud Gateway is an indispensable tool for developers looking
 
 **Category:** Starters · **Languages:** Java, Dockerfile
 
-[View on Railway →](https://railway.com/template/CWxqH0)
+[View on Railway →](https://railway.com/deploy/CWxqH0)

@@ -2,7 +2,7 @@
 
 An advanced fully modular, extendable Discord bot writen in python!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Ux74pW)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Ux74pW)
 
 ## About
 
@@ -64,4 +64,4 @@ footnote: This deployment is a simplifed version
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/Ux74pW)
+[View on Railway →](https://railway.com/deploy/Ux74pW)

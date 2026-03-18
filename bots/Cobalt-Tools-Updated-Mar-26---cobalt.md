@@ -2,7 +2,7 @@
 
 Cobalt Tools [Mar ’26] (Media Downloader, Converter & Automation) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cobalt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cobalt)
 
 ## About
 
@@ -35,4 +35,4 @@ When self-hosted, Cobalt Tools can be integrated into workflows such as file man
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/cobalt)
+[View on Railway →](https://railway.com/deploy/cobalt)

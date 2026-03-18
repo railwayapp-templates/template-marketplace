@@ -2,7 +2,7 @@
 
 Useful tools for developer and people working in IT
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4v9Fwu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4v9Fwu)
 
 ## About
 
@@ -28,4 +28,4 @@ IT-Tools is an open-source collection of handy, browser-based tools for develope
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/4v9Fwu)
+[View on Railway →](https://railway.com/deploy/4v9Fwu)

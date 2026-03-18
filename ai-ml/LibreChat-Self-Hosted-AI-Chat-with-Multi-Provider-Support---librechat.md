@@ -2,7 +2,7 @@
 
 1-Click LibreChat deploy (OpenAI, Anthropic, Google, Ollama, RAG API)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/librechat)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/librechat)
 
 ## About
 
@@ -152,4 +152,4 @@ All services communicate over Railway's private network — no public exposure o
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/librechat)
+[View on Railway →](https://railway.com/deploy/librechat)

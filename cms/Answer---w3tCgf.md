@@ -2,7 +2,7 @@
 
 A Q&A platform software for teams at any scales. [ Auto Installation ]
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/w3tCgf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/w3tCgf)
 
 ## About
 
@@ -65,4 +65,4 @@ The password is set automatically and can be found in the `ADMIN_PASSWORD` servi
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/w3tCgf)
+[View on Railway →](https://railway.com/deploy/w3tCgf)

@@ -2,7 +2,7 @@
 
 A minimalist, easy-to-host service for sharing images and other files
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1K5sEZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1K5sEZ)
 
 ## About
 
@@ -46,4 +46,4 @@ This template is **NOT** maintained by the team behind PicoShare.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/1K5sEZ)
+[View on Railway →](https://railway.com/deploy/1K5sEZ)

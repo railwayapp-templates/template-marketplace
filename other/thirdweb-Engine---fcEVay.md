@@ -2,7 +2,7 @@
 
 The open-source server for scalable web3 apps.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fcEVay)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fcEVay)
 
 ## About
 
@@ -59,4 +59,4 @@ Hosting thirdweb Engine involves deploying a self-hosted HTTP server that intera
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/fcEVay)
+[View on Railway →](https://railway.com/deploy/fcEVay)

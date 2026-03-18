@@ -2,7 +2,7 @@
 
 An Ionic Angular Starter in Typescript with NgModules
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZogcrR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZogcrR)
 
 ## About
 
@@ -91,4 +91,4 @@ ionic-angular-starter/
 
 **Category:** Starters · **Languages:** TypeScript, SCSS, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/ZogcrR)
+[View on Railway →](https://railway.com/deploy/ZogcrR)

@@ -2,7 +2,7 @@
 
 Cron-based PostgreSQL backup to bucket storage
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/I4zGrH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/I4zGrH)
 
 ## About
 
@@ -33,4 +33,4 @@ PostgreSQL S3 Backups runs as a Node.js application that executes pg_dump operat
 
 **Category:** Automation · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/I4zGrH)
+[View on Railway →](https://railway.com/deploy/I4zGrH)

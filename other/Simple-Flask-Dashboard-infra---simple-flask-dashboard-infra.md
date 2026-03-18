@@ -2,7 +2,7 @@
 
 Quickly Create Infrastructure for Deploying Flask Based Dashboard Apps
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/simple-flask-dashboard-infra)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/simple-flask-dashboard-infra)
 
 ## About
 
@@ -44,4 +44,4 @@ Hosting a **Simple Flask Dashboard infra** on Railway is straightforward and dev
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/simple-flask-dashboard-infra)
+[View on Railway →](https://railway.com/deploy/simple-flask-dashboard-infra)

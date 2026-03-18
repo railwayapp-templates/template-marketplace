@@ -2,7 +2,7 @@
 
 Pi-hole is a DNS sinkhole that protects your devices from unwanted content
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pi-hole)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pi-hole)
 
 ## About
 
@@ -37,4 +37,4 @@ When hosted on Railway, Pi-hole can serve as:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/pi-hole)
+[View on Railway →](https://railway.com/deploy/pi-hole)

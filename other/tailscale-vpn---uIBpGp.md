@@ -2,7 +2,7 @@
 
 Host personal VPN on Railway using Tailscale
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uIBpGp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uIBpGp)
 
 ## About
 
@@ -77,4 +77,4 @@ Host personal VPN on Railway using Tailscale
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/uIBpGp)
+[View on Railway →](https://railway.com/deploy/uIBpGp)

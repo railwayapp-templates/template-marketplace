@@ -2,7 +2,7 @@
 
 An unofficial template for Misskey
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/8bBGvg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/8bBGvg)
 
 ## About
 
@@ -61,4 +61,4 @@ Please report any issues [here](https://github.com/mkizka/misskey-railway-templa
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/8bBGvg)
+[View on Railway →](https://railway.com/deploy/8bBGvg)

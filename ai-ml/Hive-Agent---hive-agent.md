@@ -2,7 +2,7 @@
 
 A deployment template of hive https://github.com/aden-hive/hive
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hive-agent)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hive-agent)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting Hive Agent on Railway involves deploying the service with Docker, settin
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/hive-agent)
+[View on Railway →](https://railway.com/deploy/hive-agent)

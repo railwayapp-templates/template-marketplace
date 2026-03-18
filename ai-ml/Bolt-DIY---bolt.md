@@ -2,7 +2,7 @@
 
 [Updated Mar '26] Deploy and Host Bolt DIY with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bolt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bolt)
 
 ## About
 
@@ -46,4 +46,4 @@ Hosting Bolt.diy on Railway involves deploying the platform using Railway’s in
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/bolt)
+[View on Railway →](https://railway.com/deploy/bolt)

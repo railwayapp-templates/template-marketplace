@@ -2,7 +2,7 @@
 
 Metabase [Mar ’26] (Business Intelligence, Tableau alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/metabase-latest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/metabase-latest)
 
 ## About
 
@@ -42,4 +42,4 @@ Metabase works with various databases like PostgreSQL, MySQL, MongoDB, BigQuery,
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/metabase-latest)
+[View on Railway →](https://railway.com/deploy/metabase-latest)

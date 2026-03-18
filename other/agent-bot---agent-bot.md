@@ -2,7 +2,7 @@
 
 Deploy and host agent-bot on railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/agent-bot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/agent-bot)
 
 ## About
 
@@ -81,4 +81,4 @@ Deploy and host agent-bot on railway
 
 **Category:** Other · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/agent-bot)
+[View on Railway →](https://railway.com/deploy/agent-bot)

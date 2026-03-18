@@ -2,7 +2,7 @@
 
 A powerfull ready-to-deploy api gateway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/IR4lVv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/IR4lVv)
 
 ## About
 
@@ -68,4 +68,4 @@ This setup isolates your internal microservices from the public internet while p
 
 **Category:** Other · **Languages:** Dart, Java, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/IR4lVv)
+[View on Railway →](https://railway.com/deploy/IR4lVv)

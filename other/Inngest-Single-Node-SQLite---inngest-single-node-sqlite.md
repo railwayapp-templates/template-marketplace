@@ -2,7 +2,7 @@
 
 Platform for running durable, event‑driven workflows and background jobs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/inngest-single-node-sqlite)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/inngest-single-node-sqlite)
 
 ## About
 
@@ -36,4 +36,4 @@ By default, the Inngest server uses SQLite for persistence. This is convenient f
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/inngest-single-node-sqlite)
+[View on Railway →](https://railway.com/deploy/inngest-single-node-sqlite)

@@ -2,7 +2,7 @@
 
 Self-hosted sync and storage server for Joplin note-taking app.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/joplin-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/joplin-server)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting Joplin Server gives you full control over your note synchronization proc
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/joplin-server)
+[View on Railway →](https://railway.com/deploy/joplin-server)

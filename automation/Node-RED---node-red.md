@@ -2,7 +2,7 @@
 
 Node-RED deployment with 80+ popular contrib nodes pre-installed.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/node-red)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/node-red)
 
 ## About
 
@@ -29,4 +29,4 @@ Node-RED is a flow-based development tool for visual programming, originally dev
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/node-red)
+[View on Railway →](https://railway.com/deploy/node-red)

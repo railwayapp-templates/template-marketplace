@@ -2,7 +2,7 @@
 
 Deploy and Host DENO EDGE RUNTIME  for SUPABASE with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/edge-runtime)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/edge-runtime)
 
 ## About
 
@@ -26,4 +26,4 @@ This project enables deployment of Supabase Edge Functions on Railway using a cu
 
 **Category:** Storage · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/edge-runtime)
+[View on Railway →](https://railway.com/deploy/edge-runtime)

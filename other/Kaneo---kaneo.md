@@ -2,7 +2,7 @@
 
 The project management tool that gets out of your way.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kaneo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kaneo)
 
 ## About
 
@@ -48,4 +48,4 @@ You do **not** need to manually configure database credentials or service URLs.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/kaneo)
+[View on Railway →](https://railway.com/deploy/kaneo)

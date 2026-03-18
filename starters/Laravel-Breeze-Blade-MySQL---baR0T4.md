@@ -2,7 +2,7 @@
 
 Laravel Breeze Blade MySQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/baR0T4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/baR0T4)
 
 ## About
 
@@ -146,4 +146,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 **Category:** Starters · **Languages:** PHP, Blade, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/baR0T4)
+[View on Railway →](https://railway.com/deploy/baR0T4)

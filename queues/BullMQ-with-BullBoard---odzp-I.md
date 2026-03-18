@@ -2,7 +2,7 @@
 
 A queueing solution with a dashboard to visualize, monitor, retry and...
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/odzp-I)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/odzp-I)
 
 ## About
 
@@ -51,4 +51,4 @@ This template deploys a robust queueing system on Railway using BullMQ and Redis
 
 **Category:** Queues · **Tags:** queues, JavaScript, TypeScript · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/odzp-I)
+[View on Railway →](https://railway.com/deploy/odzp-I)

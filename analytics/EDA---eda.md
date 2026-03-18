@@ -2,7 +2,7 @@
 
 Web application for data analysis and visualization.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/eda)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/eda)
 
 ## About
 
@@ -26,4 +26,4 @@ Password: `default`
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/eda)
+[View on Railway →](https://railway.com/deploy/eda)

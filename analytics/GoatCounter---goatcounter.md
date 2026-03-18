@@ -2,7 +2,7 @@
 
 GoatCounter is an open source web analytics platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/goatcounter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/goatcounter)
 
 ## About
 
@@ -20,4 +20,4 @@ Hosting Goatcounter involves running the Goatcounter server application alongsid
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/goatcounter)
+[View on Railway →](https://railway.com/deploy/goatcounter)

@@ -2,7 +2,7 @@
 
 XWiki [Mar ’26] (Manage Knowledge & Teams Effectively) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xwiki)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xwiki)
 
 ## About
 
@@ -38,4 +38,4 @@ You can self host XWiki on Railway to maintain full control over your organizati
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/xwiki)
+[View on Railway →](https://railway.com/deploy/xwiki)

@@ -2,7 +2,7 @@
 
 Change, Query, Secure, Govern all databases in a single place
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_ce3VS)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_ce3VS)
 
 ## About
 
@@ -105,4 +105,4 @@ Bytebase provides a suite of features to enable organizations to enforce data se
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/_ce3VS)
+[View on Railway →](https://railway.com/deploy/_ce3VS)

@@ -2,7 +2,7 @@
 
 Open Work and Project Management Platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7_OfzR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7_OfzR)
 
 ## About
 
@@ -36,4 +36,4 @@ Open Work and Project Management Platform
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/7_OfzR)
+[View on Railway →](https://railway.com/deploy/7_OfzR)

@@ -2,7 +2,7 @@
 
 Railway Pricing Calculator
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/astonishing-forgiveness)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/astonishing-forgiveness)
 
 ## About
 
@@ -23,4 +23,4 @@ Hosting Railway Pricing Calculator involves deploying a lightweight static web a
 
 **Category:** Analytics · **Languages:** HTML, Python
 
-[View on Railway →](https://railway.com/template/astonishing-forgiveness)
+[View on Railway →](https://railway.com/deploy/astonishing-forgiveness)

@@ -2,7 +2,7 @@
 
 [Mar '26] Self-host GPT-OSS 20B on Railway with a chat UI.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gpt-oss-20b)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gpt-oss-20b)
 
 ## About
 
@@ -44,4 +44,4 @@ The setup includes persistent storage for models, so downloads only happen once,
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/gpt-oss-20b)
+[View on Railway →](https://railway.com/deploy/gpt-oss-20b)

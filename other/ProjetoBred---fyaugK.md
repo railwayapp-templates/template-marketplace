@@ -2,7 +2,7 @@
 
 Teste para Agencia Brand Red
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fyaugK)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fyaugK)
 
 ## About
 
@@ -22,4 +22,4 @@ Estou testando a ferramenta para tentar automatizar o WhatsApp com o as da dasd 
 
 **Category:** Other · **Languages:** TypeScript, PLpgSQL, JavaScript, CSS, Shell
 
-[View on Railway →](https://railway.com/template/fyaugK)
+[View on Railway →](https://railway.com/deploy/fyaugK)

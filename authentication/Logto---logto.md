@@ -2,7 +2,7 @@
 
 Modern open-source auth with multi-tenancy, SSO, and RBAC
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/logto)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/logto)
 
 ## About
 
@@ -93,4 +93,4 @@ This deployment comes with Redis included, but it’s entirely optional. If you 
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/logto)
+[View on Railway →](https://railway.com/deploy/logto)

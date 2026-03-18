@@ -2,7 +2,7 @@
 
 Deploy and host your own LLM with VLLM
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gpt-vllm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gpt-vllm)
 
 ## About
 
@@ -53,4 +53,4 @@ Railway makes it easy to run inference servers, caching layers (like Redis), and
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/gpt-vllm)
+[View on Railway →](https://railway.com/deploy/gpt-vllm)

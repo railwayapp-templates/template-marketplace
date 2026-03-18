@@ -2,7 +2,7 @@
 
 Directus, PostgreSQL, Redis, S3
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZOQXZf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZOQXZf)
 
 ## About
 
@@ -57,4 +57,4 @@ This deploys Directus 10.5
 
 **Category:** CMS · **Languages:** JavaScript, Procfile
 
-[View on Railway →](https://railway.com/template/ZOQXZf)
+[View on Railway →](https://railway.com/deploy/ZOQXZf)

@@ -2,7 +2,7 @@
 
 An image service that helps store and resize images.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/simple-image-service)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/simple-image-service)
 
 ## About
 
@@ -30,4 +30,4 @@ Deploying Simple Image Service on Railway is incredibly straightforward, especia
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/simple-image-service)
+[View on Railway →](https://railway.com/deploy/simple-image-service)

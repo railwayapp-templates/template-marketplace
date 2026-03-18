@@ -2,7 +2,7 @@
 
 Typesense [Meilisearch/Algolia/Elasticsearch Alternative], Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/typesense-instant-elasticsearch-alternat)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/typesense-instant-elasticsearch-alternat)
 
 ## About
 
@@ -43,4 +43,4 @@ Whether you're building a SaaS platform, marketplace, e-commerce store, AI-power
 
 **Category:** Storage · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/typesense-instant-elasticsearch-alternat)
+[View on Railway →](https://railway.com/deploy/typesense-instant-elasticsearch-alternat)

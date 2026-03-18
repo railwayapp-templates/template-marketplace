@@ -2,7 +2,7 @@
 
 🚀 WhatsDesk is a WhatsApp marketing and automation platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/whatsdesk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/whatsdesk)
 
 ## About
 
@@ -45,4 +45,4 @@ WhatsDesk image
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/whatsdesk)
+[View on Railway →](https://railway.com/deploy/whatsdesk)

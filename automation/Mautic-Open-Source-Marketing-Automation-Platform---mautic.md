@@ -2,7 +2,7 @@
 
 Mautic [Mar ’26] (HubSpot & Mailchimp alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mautic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mautic)
 
 ## About
 
@@ -41,4 +41,4 @@ You can self host Mautic to manage all your marketing automation data and config
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/mautic)
+[View on Railway →](https://railway.com/deploy/mautic)

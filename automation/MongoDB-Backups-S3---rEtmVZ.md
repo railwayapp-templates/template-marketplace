@@ -2,7 +2,7 @@
 
 Automated MongoDB database backups and uploading them to S3
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rEtmVZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rEtmVZ)
 
 ## About
 
@@ -61,4 +61,4 @@ BACKUP_RETENTION_DAYS=30  # Keep local backups for 30 days
 
 **Category:** Automation · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/rEtmVZ)
+[View on Railway →](https://railway.com/deploy/rEtmVZ)

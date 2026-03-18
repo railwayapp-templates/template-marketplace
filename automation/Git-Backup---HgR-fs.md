@@ -2,7 +2,7 @@
 
 Automated Github Backup System for Disaster Recovery
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HgR-fs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HgR-fs)
 
 ## About
 
@@ -29,4 +29,4 @@ AWS_BUCKET_NAME=
 
 **Category:** Automation · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/HgR-fs)
+[View on Railway →](https://railway.com/deploy/HgR-fs)

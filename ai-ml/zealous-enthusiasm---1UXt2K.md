@@ -2,7 +2,7 @@
 
 Banco de dados do Trade unico e exclusivo
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1UXt2K)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1UXt2K)
 
 ## About
 
@@ -31,4 +31,4 @@ Banco de dados usado somente para o trade do nosso novo sistema kkkkkkkkkkkkkkkk
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/1UXt2K)
+[View on Railway →](https://railway.com/deploy/1UXt2K)

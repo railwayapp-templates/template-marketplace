@@ -2,7 +2,7 @@
 
 Easily resize images on the fly.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JA6b6b)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JA6b6b)
 
 ## About
 
@@ -28,4 +28,4 @@ https://docs.imgproxy.net/category/usage
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/JA6b6b)
+[View on Railway →](https://railway.com/deploy/JA6b6b)

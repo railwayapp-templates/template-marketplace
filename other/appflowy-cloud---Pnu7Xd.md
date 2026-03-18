@@ -2,7 +2,7 @@
 
 Appflowy cloud services for self-hosting. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Pnu7Xd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Pnu7Xd)
 
 ## About
 
@@ -107,4 +107,4 @@ Reach out to `zahin.dev@gmail.com` for assistance, or the  official appflowy dis
 
 **Category:** Other · **Languages:** Shell, PLpgSQL, Dockerfile, Rust, HTML, CSS, JavaScript, Makefile, RenderScript
 
-[View on Railway →](https://railway.com/template/Pnu7Xd)
+[View on Railway →](https://railway.com/deploy/Pnu7Xd)

@@ -2,7 +2,7 @@
 
 Debian-based security Linux with privacy, forensics, and pentesting tools
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/parrotos-security-edition)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/parrotos-security-edition)
 
 ## About
 
@@ -25,4 +25,4 @@ A persistent volume is mounted at `/work` to retain tools, configurations, scrip
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/parrotos-security-edition)
+[View on Railway →](https://railway.com/deploy/parrotos-security-edition)

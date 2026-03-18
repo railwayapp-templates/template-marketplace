@@ -2,7 +2,7 @@
 
 A full-featured, hackable Next.js AI chatbot. xAI, Groq
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Kd2GIJ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Kd2GIJ)
 
 ## About
 
@@ -56,4 +56,4 @@ This template ships with [xAI](https://x.ai) `grok-2-1212` as the default chat m
 
 **Category:** AI/ML · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/Kd2GIJ)
+[View on Railway →](https://railway.com/deploy/Kd2GIJ)

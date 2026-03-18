@@ -2,7 +2,7 @@
 
 Streamlit apps for stock financial analysis using YFinance/Polygon API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/H1p-V2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/H1p-V2)
 
 ## About
 
@@ -39,4 +39,4 @@ This template uses Streamlit to deploy two simple web apps, respectively using t
 
 **Category:** Starters · **Languages:** Python, Jupyter Notebook
 
-[View on Railway →](https://railway.com/template/H1p-V2)
+[View on Railway →](https://railway.com/deploy/H1p-V2)

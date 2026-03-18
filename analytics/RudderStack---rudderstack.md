@@ -2,7 +2,7 @@
 
 Privacy and Security focused Segment-alternative, in Golang and React.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rudderstack)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rudderstack)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting RudderStack on Railway is easy, all you need is your workspace token fro
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/rudderstack)
+[View on Railway →](https://railway.com/deploy/rudderstack)

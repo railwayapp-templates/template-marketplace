@@ -2,7 +2,7 @@
 
 Deploy Jenkins + Volumen by Itelisoft
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jenkins-volumen-itelisoft)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jenkins-volumen-itelisoft)
 
 ## About
 
@@ -23,4 +23,4 @@ Railway proporciona un entorno en la nube donde Jenkins puede ejecutarse de form
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/jenkins-volumen-itelisoft)
+[View on Railway →](https://railway.com/deploy/jenkins-volumen-itelisoft)

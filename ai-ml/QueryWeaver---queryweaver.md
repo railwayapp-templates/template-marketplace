@@ -2,7 +2,7 @@
 
 Translate natural language into SQL with a graph-powered tool.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/queryweaver)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/queryweaver)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting QueryWeaver on Railway involves deploying the application's backend and 
 
 **Category:** AI/ML · **Languages:** Python, TypeScript, CSS, Jinja, Shell, Makefile, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/queryweaver)
+[View on Railway →](https://railway.com/deploy/queryweaver)

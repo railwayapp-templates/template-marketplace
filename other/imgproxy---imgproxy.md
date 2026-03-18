@@ -2,7 +2,7 @@
 
 Fast and secure on the fly image processing
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/imgproxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/imgproxy)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting imgproxy on Railway gives you a dedicated, production-ready image proces
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/imgproxy)
+[View on Railway →](https://railway.com/deploy/imgproxy)

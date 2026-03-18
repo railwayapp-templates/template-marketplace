@@ -2,7 +2,7 @@
 
 Logos Blockchain devnet node with live web dashboard and p2p networking
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/logos-blockchain-node)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/logos-blockchain-node)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting a Logos Blockchain Node means running a full participant in the Logos te
 
 **Category:** Other · **Languages:** HTML, Python, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/logos-blockchain-node)
+[View on Railway →](https://railway.com/deploy/logos-blockchain-node)

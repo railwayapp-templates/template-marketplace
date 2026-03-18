@@ -2,7 +2,7 @@
 
 libSQL is SQLite for modern applications
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/p121Tx)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/p121Tx)
 
 ## About
 
@@ -69,4 +69,4 @@ libSQL comes with a server mode, libsql-server, and because of other powerful na
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/p121Tx)
+[View on Railway →](https://railway.com/deploy/p121Tx)

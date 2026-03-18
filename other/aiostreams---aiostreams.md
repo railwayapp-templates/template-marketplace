@@ -2,7 +2,7 @@
 
 1-click deploy AIOStreams
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aiostreams)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aiostreams)
 
 ## About
 
@@ -44,4 +44,4 @@ Check out the env sample above for more configuration options. Add the variables
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/aiostreams)
+[View on Railway →](https://railway.com/deploy/aiostreams)

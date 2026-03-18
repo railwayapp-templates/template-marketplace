@@ -2,7 +2,7 @@
 
 Next.js App. Zero config required.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-starter)
 
 ## About
 
@@ -20,4 +20,4 @@ Deploying a Next.js application on Railway involves running your app as a Node.j
 
 **Category:** Storage · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/nextjs-starter)
+[View on Railway →](https://railway.com/deploy/nextjs-starter)

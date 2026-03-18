@@ -2,7 +2,7 @@
 
 Go from zero to production-ready AI gateway in under a minute.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bifrost-ai-gateway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bifrost-ai-gateway)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting Bifrost involves running the gateway service as a containerised applicat
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/bifrost-ai-gateway)
+[View on Railway →](https://railway.com/deploy/bifrost-ai-gateway)

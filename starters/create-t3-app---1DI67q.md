@@ -2,7 +2,7 @@
 
 The easiest way to develop typesafe full stack apps
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1DI67q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1DI67q)
 
 ## About
 
@@ -53,4 +53,4 @@ To enable nextauth head over to the `src/server/auth.ts` file and configure any 
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, Shell, CSS
 
-[View on Railway →](https://railway.com/template/1DI67q)
+[View on Railway →](https://railway.com/deploy/1DI67q)

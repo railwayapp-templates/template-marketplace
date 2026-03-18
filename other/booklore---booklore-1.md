@@ -2,7 +2,7 @@
 
 BookLore is a self-hosted, multi-user digital library for books and comics
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/booklore-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/booklore-1)
 
 ## About
 
@@ -47,4 +47,4 @@ This Railway template deploys BookLore from the official Docker image and wires 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/booklore-1)
+[View on Railway →](https://railway.com/deploy/booklore-1)

@@ -2,7 +2,7 @@
 
 N8N Task Runner - add Python/JavaScript code execution to existing N8N
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-task-runner-only)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-task-runner-only)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting n8n Task Runners involves deploying a service that connects to your exis
 
 **Category:** Automation · **Languages:** TypeScript, Vue, SCSS, JavaScript, Python, Handlebars, Dockerfile, Shell, HCL, HTML, Just, Rich Text Format, CSS, Batchfile
 
-[View on Railway →](https://railway.com/template/n8n-task-runner-only)
+[View on Railway →](https://railway.com/deploy/n8n-task-runner-only)

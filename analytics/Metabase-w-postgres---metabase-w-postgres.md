@@ -2,7 +2,7 @@
 
 Quick analytics and insights to help anyone explore and understand data ✅
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/metabase-w-postgres)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/metabase-w-postgres)
 
 ## About
 
@@ -43,4 +43,4 @@ With Railway’s automatic scaling, environment variable management, and secure 
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/metabase-w-postgres)
+[View on Railway →](https://railway.com/deploy/metabase-w-postgres)

@@ -2,7 +2,7 @@
 
 A minimal Puppeteer setup with Typescript
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/puppeteer-ts)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/puppeteer-ts)
 
 ## About
 
@@ -29,4 +29,4 @@ For detailed instructions, see: [Railway Template Eject Guide](https://docs.rail
 
 **Category:** Automation · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/puppeteer-ts)
+[View on Railway →](https://railway.com/deploy/puppeteer-ts)

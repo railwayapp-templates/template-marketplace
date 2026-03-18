@@ -2,7 +2,7 @@
 
 A platform for searching, monitoring, and analyzing machine-generated data
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/CrRewK)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/CrRewK)
 
 ## About
 
@@ -68,4 +68,4 @@ These resources provide comprehensive information on getting started with Splunk
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/CrRewK)
+[View on Railway →](https://railway.com/deploy/CrRewK)

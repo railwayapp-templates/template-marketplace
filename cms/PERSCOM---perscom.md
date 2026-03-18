@@ -2,7 +2,7 @@
 
 Mission critical tools built specifically for high-speed organizations.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/perscom)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/perscom)
 
 ## About
 
@@ -140,4 +140,4 @@ Deploying Laravel Community involves orchestrating multiple services working tog
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/perscom)
+[View on Railway →](https://railway.com/deploy/perscom)

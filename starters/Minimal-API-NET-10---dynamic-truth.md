@@ -2,7 +2,7 @@
 
 Simple ASP.NET Minimal API (.Net, 10 C#). Basic template, demo endpoints.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dynamic-truth)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dynamic-truth)
 
 ## About
 
@@ -76,4 +76,4 @@ This project is licensed under the MIT License.
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/dynamic-truth)
+[View on Railway →](https://railway.com/deploy/dynamic-truth)

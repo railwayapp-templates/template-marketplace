@@ -2,7 +2,7 @@
 
 Deploy matrix conduit server with Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/matrix-conduit)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/matrix-conduit)
 
 ## About
 
@@ -38,4 +38,4 @@ You can try another matrix server "synapse" here: https://railway.com/deploy/mat
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/matrix-conduit)
+[View on Railway →](https://railway.com/deploy/matrix-conduit)

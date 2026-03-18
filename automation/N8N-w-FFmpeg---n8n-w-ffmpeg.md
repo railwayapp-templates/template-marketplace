@@ -2,7 +2,7 @@
 
 n8n on Railway with FFmpeg preinstalled for video/audio automation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-w-ffmpeg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-w-ffmpeg)
 
 ## About
 
@@ -75,4 +75,4 @@ This template deploys n8n on Railway with a production-ready setup: a main servi
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-w-ffmpeg)
+[View on Railway →](https://railway.com/deploy/n8n-w-ffmpeg)

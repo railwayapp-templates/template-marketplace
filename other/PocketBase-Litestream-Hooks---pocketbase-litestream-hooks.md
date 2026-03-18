@@ -2,7 +2,7 @@
 
 PocketBase with Litestream backups, easy hooks and api rules management.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pocketbase-litestream-hooks)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-litestream-hooks)
 
 ## About
 
@@ -51,4 +51,4 @@ Both are piggy-backing your admin token so they are safe to use!
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/pocketbase-litestream-hooks)
+[View on Railway →](https://railway.com/deploy/pocketbase-litestream-hooks)

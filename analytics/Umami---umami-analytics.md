@@ -2,7 +2,7 @@
 
 An open source, privacy-focused alternative to Google Analytics
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/umami-analytics)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/umami-analytics)
 
 ## About
 
@@ -56,4 +56,4 @@ Hosting Umami gives you access to a complete web analytics solution that tracks 
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/umami-analytics)
+[View on Railway →](https://railway.com/deploy/umami-analytics)

@@ -2,7 +2,7 @@
 
 Static website served with NGINX
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/o3MbZe)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/o3MbZe)
 
 ## About
 
@@ -37,4 +37,4 @@ Documentation: [https://nginx.org/en/docs/](https://nginx.org/en/docs/)
 
 **Category:** Starters · **Tags:** html, website · **Languages:** HTML, CSS, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/o3MbZe)
+[View on Railway →](https://railway.com/deploy/o3MbZe)

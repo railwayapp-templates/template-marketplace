@@ -2,7 +2,7 @@
 
 simple & secured file sharing - (minio S3 included)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_-SCIg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_-SCIg)
 
 ## About
 
@@ -65,4 +65,4 @@ Configuration:
 
 **Category:** Other · **Languages:** JavaScript, HTML, CSS, Kotlin, Swift, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/_-SCIg)
+[View on Railway →](https://railway.com/deploy/_-SCIg)

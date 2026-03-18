@@ -2,7 +2,7 @@
 
 Hubert is the coolest fish
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/9kDZns)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9kDZns)
 
 ## About
 
@@ -28,4 +28,4 @@ Find the original Hubert at https://hubert.fish
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/9kDZns)
+[View on Railway →](https://railway.com/deploy/9kDZns)

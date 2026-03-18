@@ -2,7 +2,7 @@
 
 A ready to use auth server! Secure by default and extremely configurable.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VOQsdL)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VOQsdL)
 
 ## About
 
@@ -84,4 +84,4 @@ Connect your frontend using the Better Auth client library and point it to your 
 
 **Category:** Authentication · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/VOQsdL)
+[View on Railway →](https://railway.com/deploy/VOQsdL)

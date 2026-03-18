@@ -2,7 +2,7 @@
 
 Convex is the open-source reactive database for app developers.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/convex-postgres)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/convex-postgres)
 
 ## About
 
@@ -65,4 +65,4 @@ Links:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/convex-postgres)
+[View on Railway →](https://railway.com/deploy/convex-postgres)

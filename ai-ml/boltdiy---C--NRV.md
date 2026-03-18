@@ -2,7 +2,7 @@
 
 AI-Powered Full-Stack Web Development in the Browser
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/C--NRV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/C--NRV)
 
 ## About
 
@@ -78,4 +78,4 @@ Imagine having a smart coding assistant that understands plain English and can b
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/C--NRV)
+[View on Railway →](https://railway.com/deploy/C--NRV)

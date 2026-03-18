@@ -2,7 +2,7 @@
 
 A Kong Gateway OSS deployment running in hybrid mode
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kong-gateway-oss)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kong-gateway-oss)
 
 ## About
 
@@ -73,4 +73,4 @@ This Kong Gateway OSS template involves provisioning a database, configuring the
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/kong-gateway-oss)
+[View on Railway →](https://railway.com/deploy/kong-gateway-oss)

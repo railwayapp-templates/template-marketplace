@@ -2,7 +2,7 @@
 
 The easiest and most secure way to access and protect infrastructure.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/teleport)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/teleport)
 
 ## About
 
@@ -54,4 +54,4 @@ Hosting Teleport involves deploying the application on a server, configuring the
 
 **Category:** Authentication · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/teleport)
+[View on Railway →](https://railway.com/deploy/teleport)

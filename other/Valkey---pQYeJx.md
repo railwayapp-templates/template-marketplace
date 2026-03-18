@@ -2,7 +2,7 @@
 
 An open source, Redis compatible, in-memory data store
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pQYeJx)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pQYeJx)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting Valkey involves deploying a high-performance in-memory data structure se
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/pQYeJx)
+[View on Railway →](https://railway.com/deploy/pQYeJx)

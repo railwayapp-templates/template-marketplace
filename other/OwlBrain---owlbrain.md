@@ -2,7 +2,7 @@
 
 OwlBrain Railway Deployment Template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/owlbrain)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/owlbrain)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting OwlBrain requires a Node.js server, a SQLite database for persistence, a
 
 **Category:** Other · **Languages:** TypeScript, CSS, HTML, JavaScript
 
-[View on Railway →](https://railway.com/template/owlbrain)
+[View on Railway →](https://railway.com/deploy/owlbrain)

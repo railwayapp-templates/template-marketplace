@@ -2,7 +2,7 @@
 
 Deploy and host GPT-OSS on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gpt-oss)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gpt-oss)
 
 ## About
 
@@ -34,4 +34,4 @@ This template will be kept up to date for ideal optimization.
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/gpt-oss)
+[View on Railway →](https://railway.com/deploy/gpt-oss)

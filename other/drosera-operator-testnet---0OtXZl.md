@@ -2,7 +2,7 @@
 
 Drosera operator and delegation client for testnet. Checkout dev.drosera.io
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0OtXZl)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0OtXZl)
 
 ## About
 
@@ -76,4 +76,4 @@ Now we need to redeploy the service to pick up the networking changes
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/0OtXZl)
+[View on Railway →](https://railway.com/deploy/0OtXZl)

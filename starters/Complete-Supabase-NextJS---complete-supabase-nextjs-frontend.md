@@ -2,7 +2,7 @@
 
 "PG On Rails" | Self-hosted Supabase. Amazing developer experience.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/complete-supabase-nextjs-frontend)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/complete-supabase-nextjs-frontend)
 
 ## About
 
@@ -291,4 +291,4 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 
 **Category:** Starters · **Languages:** TypeScript, PLpgSQL, Dockerfile, CSS, Shell, HTML, JavaScript
 
-[View on Railway →](https://railway.com/template/complete-supabase-nextjs-frontend)
+[View on Railway →](https://railway.com/deploy/complete-supabase-nextjs-frontend)

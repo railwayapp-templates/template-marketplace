@@ -2,7 +2,7 @@
 
 A lightweight REST API gateway supporting 120+ notification services.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/apprise-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/apprise-api)
 
 ## About
 
@@ -33,4 +33,4 @@ Apprise API is a lightweight REST framework built on Django and Gunicorn that wr
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/apprise-api)
+[View on Railway →](https://railway.com/deploy/apprise-api)

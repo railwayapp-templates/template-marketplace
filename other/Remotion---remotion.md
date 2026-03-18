@@ -2,7 +2,7 @@
 
 Deploy and Host Remotion with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/remotion)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/remotion)
 
 ## About
 
@@ -25,4 +25,4 @@ Hosting Remotion requires a Node.js environment with sufficient CPU and memory r
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/remotion)
+[View on Railway →](https://railway.com/deploy/remotion)

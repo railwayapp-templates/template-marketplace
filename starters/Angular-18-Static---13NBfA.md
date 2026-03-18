@@ -2,7 +2,7 @@
 
 The web development framework for building the future
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/13NBfA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/13NBfA)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting Angular involves building your application for production and serving th
 
 **Category:** Starters · **Languages:** HTML, TypeScript, CSS
 
-[View on Railway →](https://railway.com/template/13NBfA)
+[View on Railway →](https://railway.com/deploy/13NBfA)

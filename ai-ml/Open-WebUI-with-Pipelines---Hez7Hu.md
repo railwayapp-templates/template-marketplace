@@ -2,7 +2,7 @@
 
 Open WebUI + Pipelines is an extendable, user friendly self-hosted LLM UI.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Hez7Hu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Hez7Hu)
 
 ## About
 
@@ -47,4 +47,4 @@ Hosting Open WebUI with Pipelines gives you a centralized platform to manage dif
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/Hez7Hu)
+[View on Railway →](https://railway.com/deploy/Hez7Hu)

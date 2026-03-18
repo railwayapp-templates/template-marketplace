@@ -2,7 +2,7 @@
 
 Manage Docker, K3s, and Kubernetes clusters with GUI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/portainer-ce-commu-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/portainer-ce-commu-1)
 
 ## About
 
@@ -30,4 +30,4 @@ Deploying on Railway ensures scalability, automatic resource provisioning, and r
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/portainer-ce-commu-1)
+[View on Railway →](https://railway.com/deploy/portainer-ce-commu-1)

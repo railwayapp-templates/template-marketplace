@@ -2,7 +2,7 @@
 
 Inspect and debug MCP (Model Context Protocol) servers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mcp-inspector)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mcp-inspector)
 
 ## About
 
@@ -27,4 +27,4 @@ Once deployed, MCP Inspector exposes a web interface where you can connect to MC
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/mcp-inspector)
+[View on Railway →](https://railway.com/deploy/mcp-inspector)

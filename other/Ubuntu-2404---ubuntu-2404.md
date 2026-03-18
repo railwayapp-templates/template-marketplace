@@ -2,7 +2,7 @@
 
 Ubuntu 24.04 with Volume. SSH into for diagnostics, testing, and dev tasks.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ubuntu-2404)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ubuntu-2404)
 
 ## About
 
@@ -23,4 +23,4 @@ Deploying Ubuntu 24.04on Railway uses the official minimal Ubuntu Docker image i
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ubuntu-2404)
+[View on Railway →](https://railway.com/deploy/ubuntu-2404)

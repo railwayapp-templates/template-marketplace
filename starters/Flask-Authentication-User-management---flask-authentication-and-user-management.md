@@ -2,7 +2,7 @@
 
 Complete authentication & user management API with live UI. 1 click deploy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flask-authentication-and-user-management)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flask-authentication-and-user-management)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting Flask Authentication & User Management involves running a Gunicorn-serve
 
 **Category:** Starters · **Languages:** HTML, Python
 
-[View on Railway →](https://railway.com/template/flask-authentication-and-user-management)
+[View on Railway →](https://railway.com/deploy/flask-authentication-and-user-management)

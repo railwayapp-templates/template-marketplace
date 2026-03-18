@@ -2,7 +2,7 @@
 
 shrort description efvrevqrwfqrew
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/QpsUpi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/QpsUpi)
 
 ## About
 
@@ -20,4 +20,4 @@ rgferqfgreqgerqgerftgbferdbgrfedbrgebrtegbtergttfeqghbtcfbhrdeqbhartbhrqbhqrhtrq
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/QpsUpi)
+[View on Railway →](https://railway.com/deploy/QpsUpi)

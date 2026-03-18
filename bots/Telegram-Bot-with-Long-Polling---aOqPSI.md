@@ -2,7 +2,7 @@
 
 Python Telegram bot using Long Polling
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aOqPSI)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aOqPSI)
 
 ## About
 
@@ -46,4 +46,4 @@ library.
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/aOqPSI)
+[View on Railway →](https://railway.com/deploy/aOqPSI)

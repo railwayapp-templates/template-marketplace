@@ -2,7 +2,7 @@
 
 MySQL Backup to Cloudflare R2
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wYvGYt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wYvGYt)
 
 ## About
 
@@ -27,4 +27,4 @@ A Docker container that provides automated MySQL database backups to Cloudflare 
 
 **Category:** Automation · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/wYvGYt)
+[View on Railway →](https://railway.com/deploy/wYvGYt)

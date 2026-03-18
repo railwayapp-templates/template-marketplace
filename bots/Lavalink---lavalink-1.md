@@ -2,7 +2,7 @@
 
 Deploy and Host Lavalink with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lavalink-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lavalink-1)
 
 ## About
 
@@ -67,4 +67,4 @@ Lavalink can be hosted on VPS, dedicated servers, or container platforms such as
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/lavalink-1)
+[View on Railway →](https://railway.com/deploy/lavalink-1)

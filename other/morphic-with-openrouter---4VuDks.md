@@ -2,7 +2,7 @@
 
 AI-powered search, perplexity-clone, works with openrouter API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4VuDks)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4VuDks)
 
 ## About
 
@@ -56,4 +56,4 @@ A powerful AI search assistant that combines real-time web search with multiple 
 
 **Category:** Other · **Languages:** TypeScript, CSS, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/4VuDks)
+[View on Railway →](https://railway.com/deploy/4VuDks)

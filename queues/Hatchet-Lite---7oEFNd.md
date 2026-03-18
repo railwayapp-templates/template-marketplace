@@ -2,7 +2,7 @@
 
 Run AI agents, background tasks, and data pipelines at scale with Hatchet
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7oEFNd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7oEFNd)
 
 ## About
 
@@ -64,4 +64,4 @@ All Available Configuration Options: https://docs.hatchet.run/self-hosting/confi
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/7oEFNd)
+[View on Railway →](https://railway.com/deploy/7oEFNd)

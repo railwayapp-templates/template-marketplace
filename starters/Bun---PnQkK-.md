@@ -2,7 +2,7 @@
 
 A minimal Bun web application.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/PnQkK-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PnQkK-)
 
 ## About
 
@@ -33,4 +33,4 @@ Using the provided Dockerfile, this template deploys a minimal web application b
 
 **Category:** Starters · **Languages:** TypeScript, HTML, CSS
 
-[View on Railway →](https://railway.com/template/PnQkK-)
+[View on Railway →](https://railway.com/deploy/PnQkK-)

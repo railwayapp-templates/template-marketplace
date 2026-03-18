@@ -2,7 +2,7 @@
 
 Open-source alternative to Mailchimp, Brevo, Mailjet, Listmonk, Mailerlite
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/notifuse)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/notifuse)
 
 ## About
 
@@ -42,4 +42,4 @@ Notifuse is built with Go and React and requires a PostgreSQL database. On first
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/notifuse)
+[View on Railway →](https://railway.com/deploy/notifuse)

@@ -2,7 +2,7 @@
 
 The Open Source DocuSign Alternative, BYO SMTP
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/documenso-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/documenso-1)
 
 ## About
 
@@ -52,4 +52,4 @@ Bring your own SMTP details, once added, no other setup is required! This is an 
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, Shell, CSS, PLpgSQL, Dockerfile
 
-[View on Railway →](https://railway.com/template/documenso-1)
+[View on Railway →](https://railway.com/deploy/documenso-1)

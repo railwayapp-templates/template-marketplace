@@ -2,7 +2,7 @@
 
 OpenAI-Compatible RESTful APIs for Amazon Bedrock
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/H-Ax3g)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/H-Ax3g)
 
 ## About
 
@@ -50,4 +50,4 @@ Ideal for AI developers looking to expand their model options without extensive 
 
 **Category:** AI/ML · **Languages:** Python, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/H-Ax3g)
+[View on Railway →](https://railway.com/deploy/H-Ax3g)

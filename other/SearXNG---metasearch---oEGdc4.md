@@ -2,7 +2,7 @@
 
 metasearch engine - easily integrate with your AI apps
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/oEGdc4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oEGdc4)
 
 ## About
 
@@ -32,4 +32,4 @@ SearxNG is an open-source metasearch engine that ensures user privacy by not tra
 
 **Category:** Other · **Languages:** Python, Shell, HTML, Less, JavaScript, CSS, Emacs Lisp, Dockerfile, Makefile, Lua
 
-[View on Railway →](https://railway.com/template/oEGdc4)
+[View on Railway →](https://railway.com/deploy/oEGdc4)

@@ -2,7 +2,7 @@
 
 Directus [Mar ’26] (Visualize & Manage Database Content) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/directus)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/directus)
 
 ## About
 
@@ -59,4 +59,4 @@ Hosting Directus on Railway allows you to take complete control of your data and
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/directus)
+[View on Railway →](https://railway.com/deploy/directus)

@@ -2,7 +2,7 @@
 
 🚀 High-Availability Redis featuring Master-Replica with Redis Sentinel
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/redis-ha-cluster-sentinel)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redis-ha-cluster-sentinel)
 
 ## About
 
@@ -32,4 +32,4 @@ Deploying this Redis cluster on Railway provides an instant production environme
 
 **Category:** Storage · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/redis-ha-cluster-sentinel)
+[View on Railway →](https://railway.com/deploy/redis-ha-cluster-sentinel)

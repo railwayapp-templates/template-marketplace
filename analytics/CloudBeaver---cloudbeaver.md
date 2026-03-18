@@ -2,7 +2,7 @@
 
 Web-based client & management tool for databases
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cloudbeaver)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cloudbeaver)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting CloudBeaver on Railway provides a fast and scalable way to run a web-bas
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/cloudbeaver)
+[View on Railway →](https://railway.com/deploy/cloudbeaver)

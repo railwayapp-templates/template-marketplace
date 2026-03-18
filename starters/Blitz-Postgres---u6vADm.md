@@ -2,7 +2,7 @@
 
 A basic Blitz starter using Postgres.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/u6vADm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/u6vADm)
 
 ## About
 
@@ -49,4 +49,4 @@ If you have any suggestions, don't hesitate to open an issue in the template rep
 
 **Category:** Starters · **Languages:** TypeScript, CSS, JavaScript, Shell
 
-[View on Railway →](https://railway.com/template/u6vADm)
+[View on Railway →](https://railway.com/deploy/u6vADm)

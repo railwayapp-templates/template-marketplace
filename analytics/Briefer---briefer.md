@@ -2,7 +2,7 @@
 
 Dashboard visualizations with Jupyter notebooks, Python, SQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/briefer)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/briefer)
 
 ## About
 
@@ -77,4 +77,4 @@ Caveats to note: I've had issues connecting the Briefer API service to the Jupyt
 
 **Category:** Analytics · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/briefer)
+[View on Railway →](https://railway.com/deploy/briefer)

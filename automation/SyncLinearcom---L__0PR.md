@@ -2,7 +2,7 @@
 
 Full two-way sync of Linear and GitHub tickets.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/L__0PR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/L__0PR)
 
 ## About
 
@@ -46,4 +46,4 @@ See the [self-hosting guide](https://github.com/calcom/synclinear.com/blob/main/
 
 **Category:** Automation · **Languages:** TypeScript, CSS, Dockerfile, JavaScript, Procfile
 
-[View on Railway →](https://railway.com/template/L__0PR)
+[View on Railway →](https://railway.com/deploy/L__0PR)

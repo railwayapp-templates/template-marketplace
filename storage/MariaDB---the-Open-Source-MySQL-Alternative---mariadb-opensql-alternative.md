@@ -2,7 +2,7 @@
 
 Self-host MariaDB on Railway - fast, scalable open-source relational DB
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mariadb-opensql-alternative)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mariadb-opensql-alternative)
 
 ## About
 
@@ -44,4 +44,4 @@ MariaDB is an open-source relational database management system created by MySQL
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/mariadb-opensql-alternative)
+[View on Railway →](https://railway.com/deploy/mariadb-opensql-alternative)

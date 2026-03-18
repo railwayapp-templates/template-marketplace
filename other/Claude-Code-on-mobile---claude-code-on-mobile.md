@@ -2,7 +2,7 @@
 
 Use Claude Code on mobile via SSH
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/claude-code-on-mobile)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/claude-code-on-mobile)
 
 ## About
 
@@ -32,4 +32,4 @@ This template creates a Docker container running Ubuntu 22.04 with SSH server en
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/claude-code-on-mobile)
+[View on Railway →](https://railway.com/deploy/claude-code-on-mobile)

@@ -2,7 +2,7 @@
 
 Free selfhosted groceries list for families and shared households.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/koffan)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/koffan)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting Koffan is intentionally simple. The application is a single Go binary ba
 
 **Category:** Other · **Languages:** Go, HTML, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/koffan)
+[View on Railway →](https://railway.com/deploy/koffan)

@@ -2,7 +2,7 @@
 
 Deploy your Minecraft Server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BLEtpx)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BLEtpx)
 
 ## About
 
@@ -40,4 +40,4 @@ Hosting a Minecraft server means running a Java application that manages player 
 
 **Category:** Other · **Languages:** TypeScript, CSS, HTML, Dockerfile, Shell, JavaScript
 
-[View on Railway →](https://railway.com/template/BLEtpx)
+[View on Railway →](https://railway.com/deploy/BLEtpx)

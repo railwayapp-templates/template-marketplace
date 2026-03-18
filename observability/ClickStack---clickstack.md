@@ -2,7 +2,7 @@
 
 A High-Performance OSS Observability Stack on ClickHouse
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/clickstack)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/clickstack)
 
 ## About
 
@@ -62,4 +62,4 @@ ClickStack combines ClickHouse's columnar database engine with HyperDX's purpose
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/clickstack)
+[View on Railway →](https://railway.com/deploy/clickstack)

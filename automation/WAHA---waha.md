@@ -2,7 +2,7 @@
 
 Deploy WAHA: WhatsApp HTTP API with dashboard and Swagger UI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/waha)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/waha)
 
 ## About
 
@@ -49,4 +49,4 @@ Hosting WAHA means running the WAHA service (a Node.js-based WebJS engine) on a 
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/waha)
+[View on Railway →](https://railway.com/deploy/waha)

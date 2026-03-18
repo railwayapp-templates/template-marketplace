@@ -2,7 +2,7 @@
 
 Nx Custom Cache Server (Deno + S3)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-bmO7p)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-bmO7p)
 
 ## About
 
@@ -99,4 +99,4 @@ MIT
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/-bmO7p)
+[View on Railway →](https://railway.com/deploy/-bmO7p)

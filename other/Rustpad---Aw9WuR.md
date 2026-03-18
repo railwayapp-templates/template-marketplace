@@ -2,7 +2,7 @@
 
 Efficient and minimal collaborative code editor
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Aw9WuR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Aw9WuR)
 
 ## About
 
@@ -35,4 +35,4 @@ collaborate in real time while writing code in their browser.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/Aw9WuR)
+[View on Railway →](https://railway.com/deploy/Aw9WuR)

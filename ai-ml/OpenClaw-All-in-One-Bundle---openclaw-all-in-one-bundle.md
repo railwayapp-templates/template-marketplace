@@ -2,7 +2,7 @@
 
 OpenClaw + Web Wizard + Lite Panel + Web TUI + Browser + Searxng Search
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-all-in-one-bundle)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-all-in-one-bundle)
 
 ## About
 
@@ -48,4 +48,4 @@ Hosting OpenClaw requires a single container that runs an Express wrapper server
 
 **Category:** AI/ML · **Languages:** JavaScript, Shell, Dockerfile, Makefile
 
-[View on Railway →](https://railway.com/template/openclaw-all-in-one-bundle)
+[View on Railway →](https://railway.com/deploy/openclaw-all-in-one-bundle)

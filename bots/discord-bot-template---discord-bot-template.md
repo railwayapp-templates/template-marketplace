@@ -2,7 +2,7 @@
 
 Type-safe Discord bot template with Bun + discord.js
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/discord-bot-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discord-bot-template)
 
 ## About
 
@@ -27,4 +27,4 @@ To deploy, you simply connect your repository to Railway and provide the require
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/discord-bot-template)
+[View on Railway →](https://railway.com/deploy/discord-bot-template)

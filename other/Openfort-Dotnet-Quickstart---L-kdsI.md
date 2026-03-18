@@ -2,7 +2,7 @@
 
 Dotnet backend quickstart using Openfort to interact with smart wallets.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/L-kdsI)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/L-kdsI)
 
 ## About
 
@@ -35,4 +35,4 @@ With just one click, deploy your Dotnet backend API to the Railway cloud platfor
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/L-kdsI)
+[View on Railway →](https://railway.com/deploy/L-kdsI)

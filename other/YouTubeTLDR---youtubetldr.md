@@ -2,7 +2,7 @@
 
 A lightweight, self-hosted YouTube video summarizer with Gemini AI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/youtubetldr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/youtubetldr)
 
 ## About
 
@@ -24,4 +24,4 @@ Just add your Google Gemini API key as an environment variable, and you’re liv
 
 **Category:** Other · **Languages:** Rust, JavaScript, CSS, HTML, Nix, Dockerfile
 
-[View on Railway →](https://railway.com/template/youtubetldr)
+[View on Railway →](https://railway.com/deploy/youtubetldr)

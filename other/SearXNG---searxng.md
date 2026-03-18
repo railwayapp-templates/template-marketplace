@@ -2,7 +2,7 @@
 
 A free internet metasearch engine
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/searxng)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/searxng)
 
 ## About
 
@@ -32,4 +32,4 @@ This template allows you to host SearXNG on Railway out-of-the-box using its off
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/searxng)
+[View on Railway →](https://railway.com/deploy/searxng)

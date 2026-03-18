@@ -2,7 +2,7 @@
 
 Open Source Zapier, N8N, Make Alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NIbgNd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NIbgNd)
 
 ## About
 
@@ -78,4 +78,4 @@ There are other existing solutions in the market, like Zapier and Integromat, so
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/NIbgNd)
+[View on Railway →](https://railway.com/deploy/NIbgNd)

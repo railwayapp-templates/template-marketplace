@@ -2,7 +2,7 @@
 
 Test deployed my project first
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lua-protector)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lua-protector)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting lua-protector involves running it as a service or utility within a serve
 
 **Category:** Authentication · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/lua-protector)
+[View on Railway →](https://railway.com/deploy/lua-protector)

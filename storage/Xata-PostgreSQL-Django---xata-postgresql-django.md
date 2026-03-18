@@ -2,7 +2,7 @@
 
 Deploy and Host Xata PostgreSQL + Django with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xata-postgresql-django)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xata-postgresql-django)
 
 ## About
 
@@ -40,4 +40,4 @@ The `DATABASE_URL` is the only environment variable required. Set it to the Post
 
 **Category:** Storage · **Languages:** Python, HTML
 
-[View on Railway →](https://railway.com/template/xata-postgresql-django)
+[View on Railway →](https://railway.com/deploy/xata-postgresql-django)

@@ -2,7 +2,7 @@
 
 Self-hosted Error Tracking. Sentry-SDK compatible
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5pE9hv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5pE9hv)
 
 ## About
 
@@ -64,4 +64,4 @@ Self-hosted Error Tracking. Sentry-SDK compatible
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/5pE9hv)
+[View on Railway →](https://railway.com/deploy/5pE9hv)

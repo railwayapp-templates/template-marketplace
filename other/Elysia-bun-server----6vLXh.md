@@ -2,7 +2,7 @@
 
 Elysia user management API with real-time WebSockets and Swagger UI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-6vLXh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-6vLXh)
 
 ## About
 
@@ -29,4 +29,4 @@ Complete RESTful API built with Elysia and Bun featuring user CRUD operations, r
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/-6vLXh)
+[View on Railway →](https://railway.com/deploy/-6vLXh)

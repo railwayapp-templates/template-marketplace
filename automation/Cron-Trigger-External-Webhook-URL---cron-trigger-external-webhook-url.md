@@ -2,7 +2,7 @@
 
 Call external webhook URL with auth header tokens via Cron Schedule
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cron-trigger-external-webhook-url)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cron-trigger-external-webhook-url)
 
 ## About
 
@@ -29,4 +29,4 @@ This template deploys a minimal Bun function on Railway that calls a configured 
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/cron-trigger-external-webhook-url)
+[View on Railway →](https://railway.com/deploy/cron-trigger-external-webhook-url)

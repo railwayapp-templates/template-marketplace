@@ -2,7 +2,7 @@
 
 The cyber Swiss army knife.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qsqC-R)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qsqC-R)
 
 ## About
 
@@ -42,4 +42,4 @@ Here are some operations that you can perform with CyberChef:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/qsqC-R)
+[View on Railway →](https://railway.com/deploy/qsqC-R)

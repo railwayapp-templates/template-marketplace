@@ -2,7 +2,7 @@
 
 Secure scalable self-hosted backend: persistence, easy deploy, healthcheck.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pocketbase-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-1)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting pocketbase is simple: run the single binary in a container, expose the H
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/pocketbase-1)
+[View on Railway →](https://railway.com/deploy/pocketbase-1)

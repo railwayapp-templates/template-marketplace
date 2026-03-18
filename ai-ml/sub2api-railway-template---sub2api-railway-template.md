@@ -2,7 +2,7 @@
 
 Subscription to API Conversion Platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sub2api-railway-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sub2api-railway-template)
 
 ## About
 
@@ -68,4 +68,4 @@ Hosting Sub2API requires more than just running a container. A production-ready 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/sub2api-railway-template)
+[View on Railway →](https://railway.com/deploy/sub2api-railway-template)

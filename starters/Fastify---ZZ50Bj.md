@@ -2,7 +2,7 @@
 
 Fast and low overhead web framework, for Node.js
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZZ50Bj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZZ50Bj)
 
 ## About
 
@@ -35,4 +35,4 @@ Fastify is a web framework highly focused on providing the best developer experi
 
 **Category:** Starters · **Tags:** typescript, server
 
-[View on Railway →](https://railway.com/template/ZZ50Bj)
+[View on Railway →](https://railway.com/deploy/ZZ50Bj)

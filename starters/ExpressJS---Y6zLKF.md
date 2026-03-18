@@ -2,7 +2,7 @@
 
 A simple ExpressJS app starter.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Y6zLKF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Y6zLKF)
 
 ## About
 
@@ -30,4 +30,4 @@ Express provides a thin layer of fundamental web application features, without o
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/Y6zLKF)
+[View on Railway →](https://railway.com/deploy/Y6zLKF)

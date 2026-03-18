@@ -2,7 +2,7 @@
 
 Deploy and Host FastAPI-React-PGDB with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fastapi-react-pgdb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-react-pgdb)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting FastAPI-MongoDB-Template involves deploying a containerized backend appl
 
 **Category:** Starters · **Languages:** Python, JavaScript, HTML, CSS, Mako, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/fastapi-react-pgdb)
+[View on Railway →](https://railway.com/deploy/fastapi-react-pgdb)

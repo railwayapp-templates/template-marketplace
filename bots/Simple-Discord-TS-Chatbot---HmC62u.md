@@ -2,7 +2,7 @@
 
 Fun but simple addition to your Discord Server!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HmC62u)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HmC62u)
 
 ## About
 
@@ -41,4 +41,4 @@ You can edit the bot accordingly in `config.ts` to provide specific parameters a
 
 **Category:** Bots · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/HmC62u)
+[View on Railway →](https://railway.com/deploy/HmC62u)

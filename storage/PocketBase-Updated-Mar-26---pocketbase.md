@@ -2,7 +2,7 @@
 
 PocketBase [Mar ’26] (Realtime DB, Auth & File Storage Backend) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pocketbase)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase)
 
 ## About
 
@@ -31,4 +31,4 @@ You can self-host Pocketbase to keep all your app data, user authentication, and
 
 **Category:** Storage · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/pocketbase)
+[View on Railway →](https://railway.com/deploy/pocketbase)

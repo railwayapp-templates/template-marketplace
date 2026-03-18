@@ -2,7 +2,7 @@
 
 JanusGraph: an open-source, distributed graph database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/janusgraph-graphdb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/janusgraph-graphdb)
 
 ## About
 
@@ -54,4 +54,4 @@ This template deploys JanusGraph using a robust three-tier architecture: the Jan
 
 **Category:** Storage · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/janusgraph-graphdb)
+[View on Railway →](https://railway.com/deploy/janusgraph-graphdb)

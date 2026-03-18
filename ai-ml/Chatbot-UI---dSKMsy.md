@@ -2,7 +2,7 @@
 
 An open-source ChatGPT UI alternative.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dSKMsy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dSKMsy)
 
 ## About
 
@@ -43,4 +43,4 @@ Since the launch, Chatbot UI has seen several enhancements:
 
 **Category:** AI/ML · **Languages:** TypeScript, PLpgSQL, JavaScript, CSS, Shell
 
-[View on Railway →](https://railway.com/template/dSKMsy)
+[View on Railway →](https://railway.com/deploy/dSKMsy)

@@ -2,7 +2,7 @@
 
 Monitor all your Railway services in Prometheus with zero configuration
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/prometheus-exporter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/prometheus-exporter)
 
 ## About
 
@@ -48,4 +48,4 @@ The exporter collects:
 
 **Category:** Observability · **Languages:** Go
 
-[View on Railway →](https://railway.com/template/prometheus-exporter)
+[View on Railway →](https://railway.com/deploy/prometheus-exporter)

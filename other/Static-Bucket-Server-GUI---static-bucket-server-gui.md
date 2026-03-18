@@ -2,7 +2,7 @@
 
 Allow public GET on your buckets + and private file management.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/static-bucket-server-gui)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/static-bucket-server-gui)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting the Static Bucket Server + GUI involves running a Node.js/Bun Express ap
 
 **Category:** Other · **Languages:** HTML, TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/static-bucket-server-gui)
+[View on Railway →](https://railway.com/deploy/static-bucket-server-gui)

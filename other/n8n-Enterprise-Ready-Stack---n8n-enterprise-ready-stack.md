@@ -2,7 +2,7 @@
 
 🚀 Infinite Scaling n8n + worker + PostgreSQL HA + Redis + Python Runer
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-enterprise-ready-stack)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-enterprise-ready-stack)
 
 ## About
 
@@ -104,4 +104,4 @@ Everything deploys automatically with proper networking, health checks, and rest
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/n8n-enterprise-ready-stack)
+[View on Railway →](https://railway.com/deploy/n8n-enterprise-ready-stack)

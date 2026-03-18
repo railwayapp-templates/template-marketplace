@@ -2,7 +2,7 @@
 
 Optimized PostgreSQL Database Stack
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pfd9YM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pfd9YM)
 
 ## About
 
@@ -163,4 +163,4 @@ Support me if you think this is good, one dollar is also very valuable to me, I'
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/pfd9YM)
+[View on Railway →](https://railway.com/deploy/pfd9YM)

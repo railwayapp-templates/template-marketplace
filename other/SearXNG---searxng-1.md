@@ -2,7 +2,7 @@
 
 Privacy-respecting meta-search engine. No tracking, no data storage
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/searxng-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/searxng-1)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting SearXNG gives you a private search engine under your own control. Becaus
 
 **Category:** Other · **Languages:** Makefile, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/searxng-1)
+[View on Railway →](https://railway.com/deploy/searxng-1)

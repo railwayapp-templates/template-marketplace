@@ -2,7 +2,7 @@
 
 A centralized SQLite storage service for internal Railway workloads.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sqlite-hub)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sqlite-hub)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting SQLite Hub on Railway requires a single service backed by a persistent v
 
 **Category:** Storage · **Languages:** TypeScript, CSS, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/sqlite-hub)
+[View on Railway →](https://railway.com/deploy/sqlite-hub)

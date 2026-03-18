@@ -2,7 +2,7 @@
 
 Deploy and Host Bot-ApiSWS with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bot-apisws)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bot-apisws)
 
 ## About
 
@@ -54,4 +54,4 @@ Hosting Bot-ApiSWS on Railway involves deploying a high-performance Node.js envi
 
 **Category:** Bots · **Languages:** TypeScript, JavaScript, HTML, CSS, PLpgSQL, Dockerfile
 
-[View on Railway →](https://railway.com/template/bot-apisws)
+[View on Railway →](https://railway.com/deploy/bot-apisws)

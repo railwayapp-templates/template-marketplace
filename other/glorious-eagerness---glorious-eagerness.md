@@ -2,7 +2,7 @@
 
 Deploy and Host glorious-eagerness with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/glorious-eagerness)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/glorious-eagerness)
 
 ## About
 
@@ -36,4 +36,4 @@ al;ksdfs
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/glorious-eagerness)
+[View on Railway →](https://railway.com/deploy/glorious-eagerness)

@@ -2,7 +2,7 @@
 
 SolidJS + Vite + Caddy Starter
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/w5OSVq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/w5OSVq)
 
 ## About
 
@@ -50,4 +50,4 @@ The configuration for Caddy is called a Caddyfile, and you can edit that file to
 
 **Category:** Starters · **Languages:** JavaScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/w5OSVq)
+[View on Railway →](https://railway.com/deploy/w5OSVq)

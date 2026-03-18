@@ -2,7 +2,7 @@
 
 An opensource alternative to Google Timeline (Location History)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dawarich)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dawarich)
 
 ## About
 
@@ -58,4 +58,4 @@ To deploy it you just have to fill in a password and a timezone. Afterward deplo
 
 **Category:** Analytics · **Languages:** Ruby, JavaScript, HTML, CSS, Shell, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/dawarich)
+[View on Railway →](https://railway.com/deploy/dawarich)

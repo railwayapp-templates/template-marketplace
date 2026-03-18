@@ -2,7 +2,7 @@
 
 InfluxDB [Mar ’26] (Store & Query Time Series Data Easily) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/influxdb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/influxdb)
 
 ## About
 
@@ -33,4 +33,4 @@ Self-hosting InfluxDB ensures that all your metrics and performance data remain 
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/influxdb)
+[View on Railway →](https://railway.com/deploy/influxdb)

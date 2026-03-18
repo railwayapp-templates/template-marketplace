@@ -2,7 +2,7 @@
 
 Deploy and Host Wordpress High Config with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wordpress-high-confi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wordpress-high-confi)
 
 ## About
 
@@ -61,4 +61,4 @@ Hosting WordPress High Config on Railway allows developers to instantly launch a
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/wordpress-high-confi)
+[View on Railway →](https://railway.com/deploy/wordpress-high-confi)

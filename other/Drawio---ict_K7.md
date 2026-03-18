@@ -2,7 +2,7 @@
 
 A client-side editor for general diagramming and whiteboarding
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ict_K7)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ict_K7)
 
 ## About
 
@@ -29,4 +29,4 @@ This template instantiates draw.io docker image and sets up the correct env vari
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ict_K7)
+[View on Railway →](https://railway.com/deploy/ict_K7)

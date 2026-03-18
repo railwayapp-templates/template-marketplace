@@ -2,7 +2,7 @@
 
 Deploy Qwen3-Embedding(or other models) use llama.cpp
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/genuine-appreciation)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/genuine-appreciation)
 
 ## About
 
@@ -32,4 +32,4 @@ This template builds and deploys a Dockerized llama.cpp server configured for em
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/genuine-appreciation)
+[View on Railway →](https://railway.com/deploy/genuine-appreciation)

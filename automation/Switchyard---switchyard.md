@@ -2,7 +2,7 @@
 
 Pluggable infrastructure platform. Autoscaling, job scheduling, and more.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/switchyard)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/switchyard)
 
 ## About
 
@@ -115,4 +115,4 @@ Switchyard is an infrastructure platform to supplement Railway's existing deploy
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/switchyard)
+[View on Railway →](https://railway.com/deploy/switchyard)

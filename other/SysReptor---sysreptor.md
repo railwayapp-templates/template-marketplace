@@ -2,7 +2,7 @@
 
 Customizable and powerful penetration testing reporting platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sysreptor)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sysreptor)
 
 ## About
 
@@ -50,4 +50,4 @@ This Railway template automatically provisions the application container alongsi
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/sysreptor)
+[View on Railway →](https://railway.com/deploy/sysreptor)

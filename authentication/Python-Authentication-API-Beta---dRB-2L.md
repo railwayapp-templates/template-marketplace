@@ -2,7 +2,7 @@
 
 Python API handles user reg., login, authentication, and profile update.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dRB-2L)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dRB-2L)
 
 ## About
 
@@ -208,4 +208,4 @@ Remember to stop the Docker container when you're finished to free up system res
 
 **Category:** Authentication · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/dRB-2L)
+[View on Railway →](https://railway.com/deploy/dRB-2L)

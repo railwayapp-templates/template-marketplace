@@ -2,7 +2,7 @@
 
 Automatic code review tool that helps you deliver Clean Code.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/68DDoI)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/68DDoI)
 
 ## About
 
@@ -46,4 +46,4 @@ On Railway, you can deploy SonarQube and its PostgreSQL backend without worrying
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/68DDoI)
+[View on Railway →](https://railway.com/deploy/68DDoI)

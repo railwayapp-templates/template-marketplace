@@ -2,7 +2,7 @@
 
 A powerful solution to collect, save, and view websites offline.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/2Vvhmy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/2Vvhmy)
 
 ## About
 
@@ -39,4 +39,4 @@ ArchiveBox is lightweight. It should use ~80mb of RAM idle.
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/2Vvhmy)
+[View on Railway →](https://railway.com/deploy/2Vvhmy)

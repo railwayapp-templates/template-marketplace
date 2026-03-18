@@ -2,7 +2,7 @@
 
 A Discord LLM Bot in Python.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/PVL8qm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PVL8qm)
 
 ## About
 
@@ -137,4 +137,4 @@ Example: @resume_group_session: 789012
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/PVL8qm)
+[View on Railway →](https://railway.com/deploy/PVL8qm)

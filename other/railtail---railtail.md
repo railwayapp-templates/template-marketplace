@@ -2,7 +2,7 @@
 
 Connect to Tailscale nodes from Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railtail)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railtail)
 
 ## About
 
@@ -37,4 +37,4 @@ More information available at https://github.com/half0wl/railtail
 
 **Category:** Other · **Languages:** Go
 
-[View on Railway →](https://railway.com/template/railtail)
+[View on Railway →](https://railway.com/deploy/railtail)

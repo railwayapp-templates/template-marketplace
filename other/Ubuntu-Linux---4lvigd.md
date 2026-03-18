@@ -2,7 +2,7 @@
 
 Ubuntu terminal accessible via web browser
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4lvigd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4lvigd)
 
 ## About
 
@@ -32,4 +32,4 @@ Railway provides free tier hosting with:
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/4lvigd)
+[View on Railway →](https://railway.com/deploy/4lvigd)

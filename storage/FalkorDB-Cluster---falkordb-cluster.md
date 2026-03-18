@@ -2,7 +2,7 @@
 
 High-availability FalkorDB cluster for AI, ML, and GraphRAG workloads.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/falkordb-cluster)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/falkordb-cluster)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting a FalkorDB-cluster involves running multiple database nodes in a coordin
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/falkordb-cluster)
+[View on Railway →](https://railway.com/deploy/falkordb-cluster)

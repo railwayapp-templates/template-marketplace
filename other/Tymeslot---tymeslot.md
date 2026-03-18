@@ -2,7 +2,7 @@
 
 Self-hostable meeting scheduler with calendar sync and video conferencing
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tymeslot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tymeslot)
 
 ## About
 
@@ -41,4 +41,4 @@ Tymeslot is a single Elixir/Phoenix application backed by PostgreSQL. Hosting it
 
 **Category:** Other · **Languages:** Elixir, CSS, JavaScript, Shell, HTML
 
-[View on Railway →](https://railway.com/template/tymeslot)
+[View on Railway →](https://railway.com/deploy/tymeslot)

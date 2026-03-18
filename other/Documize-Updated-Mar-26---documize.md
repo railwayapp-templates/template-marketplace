@@ -2,7 +2,7 @@
 
 Documize [Mar ’26] (Create, Organize & Share Docs Easily) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/documize)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/documize)
 
 ## About
 
@@ -39,4 +39,4 @@ Railway makes the process of deploying and managing Documize incredibly straight
 
 **Category:** Other · **Languages:** JavaScript, Go, Handlebars, SCSS, HTML, CSS, Shell, Dockerfile, Batchfile
 
-[View on Railway →](https://railway.com/template/documize)
+[View on Railway →](https://railway.com/deploy/documize)

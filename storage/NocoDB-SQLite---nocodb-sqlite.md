@@ -2,7 +2,7 @@
 
 [Feb 2026 Update] Convert any database into a no-code platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nocodb-sqlite)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nocodb-sqlite)
 
 ## About
 
@@ -30,4 +30,4 @@ Deploying NocoDB on Railway uses the official Docker image (`nocodb/nocodb:lates
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/nocodb-sqlite)
+[View on Railway →](https://railway.com/deploy/nocodb-sqlite)

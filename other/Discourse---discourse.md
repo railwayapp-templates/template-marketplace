@@ -2,7 +2,7 @@
 
 Have meaningful conversations and collaborate anytime, anywhere
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/discourse)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discourse)
 
 ## About
 
@@ -65,4 +65,4 @@ Hosting Discourse involves setting up a server environment utilizing a bash scri
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/discourse)
+[View on Railway →](https://railway.com/deploy/discourse)

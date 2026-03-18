@@ -2,7 +2,7 @@
 
 Valkey [Mar ’26] (Fast Caching & Real-Time Data Platform) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/valkey)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/valkey)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting Valkey on **Railway** gives you a fully managed, serverless experience w
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/valkey)
+[View on Railway →](https://railway.com/deploy/valkey)

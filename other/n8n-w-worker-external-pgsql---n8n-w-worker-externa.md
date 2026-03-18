@@ -2,7 +2,7 @@
 
 Deploy and Host n8n w/ worker, external pgsql with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-w-worker-externa)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-w-worker-externa)
 
 ## About
 
@@ -70,4 +70,4 @@ This deployment separates the responsibilities of the n8n application to ensure 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/n8n-w-worker-externa)
+[View on Railway →](https://railway.com/deploy/n8n-w-worker-externa)

@@ -2,7 +2,7 @@
 
 Build AI Agents, Visually
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flowise-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowise-1)
 
 ## About
 
@@ -46,4 +46,4 @@ Flowise runs as a Node.js application with a React frontend. By default, it uses
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/flowise-1)
+[View on Railway →](https://railway.com/deploy/flowise-1)

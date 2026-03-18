@@ -2,7 +2,7 @@
 
 A lightweight web-based admin tool for MongoDB databases.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/P7J0lk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/P7J0lk)
 
 ## About
 
@@ -49,4 +49,4 @@ Mongo Express is a web-based administrative interface for MongoDB that allows yo
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/P7J0lk)
+[View on Railway →](https://railway.com/deploy/P7J0lk)

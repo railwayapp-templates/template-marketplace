@@ -2,7 +2,7 @@
 
 Self Host SuperTokens. Email, Social & Passwordless Authentication
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/supertokens)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/supertokens)
 
 ## About
 
@@ -52,4 +52,4 @@ On Railway, SuperTokens Core communicates with PostgreSQL over Railway's private
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/supertokens)
+[View on Railway →](https://railway.com/deploy/supertokens)

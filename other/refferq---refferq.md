@@ -2,7 +2,7 @@
 
 Create, Manage, and Scale your affiliate programs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/refferq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/refferq)
 
 ## About
 
@@ -53,4 +53,4 @@ Deploy Refferq in just a few clicks — no manual configuration or DevOps overhe
 
 **Category:** Other · **Languages:** TypeScript, HTML, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/refferq)
+[View on Railway →](https://railway.com/deploy/refferq)

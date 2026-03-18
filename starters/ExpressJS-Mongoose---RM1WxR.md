@@ -2,7 +2,7 @@
 
 An example Express app connected to a Mongo database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/RM1WxR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/RM1WxR)
 
 ## About
 
@@ -51,4 +51,4 @@ Mongoose is node.js library for elegant mongodb object modeling. Mongoose provid
 
 **Category:** Starters · **Languages:** TypeScript, Procfile
 
-[View on Railway →](https://railway.com/template/RM1WxR)
+[View on Railway →](https://railway.com/deploy/RM1WxR)

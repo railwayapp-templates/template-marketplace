@@ -2,7 +2,7 @@
 
 A performant real-time backend framework and database for apps and games.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/spacetimedb-20)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/spacetimedb-20)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting SpacetimeDB 2.0 on Railway is straightforward: run the official Docker i
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/spacetimedb-20)
+[View on Railway →](https://railway.com/deploy/spacetimedb-20)

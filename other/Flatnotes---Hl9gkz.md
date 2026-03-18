@@ -2,7 +2,7 @@
 
 A lightweight, self-hosted, markdown-based note-taking web app.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Hl9gkz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Hl9gkz)
 
 ## About
 
@@ -38,4 +38,4 @@ This lightweight solution is ideal for individuals or teams who value privacy an
 
 **Category:** Other · **Languages:** Vue, Python, JavaScript, SCSS, Dockerfile, Shell, HTML, CSS
 
-[View on Railway →](https://railway.com/template/Hl9gkz)
+[View on Railway →](https://railway.com/deploy/Hl9gkz)

@@ -2,7 +2,7 @@
 
 Stop paying for Ethereum nodes!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/CObZnk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/CObZnk)
 
 ## About
 
@@ -27,4 +27,4 @@ This project is a Go-based proxy server designed to distribute POST requests acr
 
 **Category:** Other · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/CObZnk)
+[View on Railway →](https://railway.com/deploy/CObZnk)

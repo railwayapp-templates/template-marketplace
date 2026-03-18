@@ -2,7 +2,7 @@
 
 Listens for slack messages and keeps a leaderboard
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pp-bot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pp-bot)
 
 ## About
 
@@ -36,4 +36,4 @@ Clicking the button should work, if it doesn't, open an issue and tell me why, o
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/pp-bot)
+[View on Railway →](https://railway.com/deploy/pp-bot)

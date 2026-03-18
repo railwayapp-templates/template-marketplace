@@ -2,7 +2,7 @@
 
 Open-source time-tracking tool designed for freelancers and teams
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/WaxghR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/WaxghR)
 
 ## About
 
@@ -120,4 +120,4 @@ https://docs.solidtime.io/self-hosting/intro
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/WaxghR)
+[View on Railway →](https://railway.com/deploy/WaxghR)

@@ -2,7 +2,7 @@
 
 Deploy Trigger.dev v4 complete stack: Webapp + Supervisor
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/triggerdev)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/triggerdev)
 
 ## About
 
@@ -98,4 +98,4 @@ Trigger.dev is an open-source platform that lets developers reliably run long-du
 
 **Category:** Automation · **Languages:** TypeScript, Python, JavaScript, Shell, Smarty, Dockerfile, CSS, PLpgSQL
 
-[View on Railway →](https://railway.com/template/triggerdev)
+[View on Railway →](https://railway.com/deploy/triggerdev)

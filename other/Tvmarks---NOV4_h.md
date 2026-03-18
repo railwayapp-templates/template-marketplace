@@ -2,7 +2,7 @@
 
 Tvmarks is a tv tracking site that you own yourself 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NOV4_h)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NOV4_h)
 
 ## About
 
@@ -37,4 +37,4 @@ The site allows the owner to add shows and track which episodes you have watched
 
 **Category:** Other · **Languages:** JavaScript, Handlebars, CSS
 
-[View on Railway →](https://railway.com/template/NOV4_h)
+[View on Railway →](https://railway.com/deploy/NOV4_h)

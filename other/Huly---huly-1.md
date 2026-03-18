@@ -2,7 +2,7 @@
 
 A project management & collaboration tool similar to Linear, Jira or Notion
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/huly-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/huly-1)
 
 ## About
 
@@ -95,4 +95,4 @@ Deploying Huly traditionally requires orchestrating multiple microservices, comp
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/huly-1)
+[View on Railway →](https://railway.com/deploy/huly-1)

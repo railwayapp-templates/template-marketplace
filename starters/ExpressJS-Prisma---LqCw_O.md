@@ -2,7 +2,7 @@
 
 An example ExpressJS application using Prisma
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/LqCw_O)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/LqCw_O)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting Express.js with Prisma means running a Node.js application that combines
 
 **Category:** Starters · **Tags:** webserver, typescript · **Languages:** TypeScript, Procfile
 
-[View on Railway →](https://railway.com/template/LqCw_O)
+[View on Railway →](https://railway.com/deploy/LqCw_O)

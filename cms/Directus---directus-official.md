@@ -2,7 +2,7 @@
 
 Convert any SQL database into a powerful API and CMS platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/directus-official)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/directus-official)
 
 ## About
 
@@ -69,4 +69,4 @@ Hosting Directus on Railway provides a complete infrastructure stack with minima
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/directus-official)
+[View on Railway →](https://railway.com/deploy/directus-official)

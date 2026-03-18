@@ -2,7 +2,7 @@
 
 This template for connect next.js and strapi with internal network.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-strapi-or-internal-net)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-strapi-or-internal-net)
 
 ## About
 
@@ -50,4 +50,4 @@ The key advantage of this template is its configuration: **It utilizes Railway's
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/nextjs-strapi-or-internal-net)
+[View on Railway →](https://railway.com/deploy/nextjs-strapi-or-internal-net)

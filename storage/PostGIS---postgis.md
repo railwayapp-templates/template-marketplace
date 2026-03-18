@@ -2,7 +2,7 @@
 
 PostgreSQL DB enabled with PostGIS
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgis)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgis)
 
 ## About
 
@@ -49,4 +49,4 @@ This template initializes postgres using the self-signed Snakeoil certificate th
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/postgis)
+[View on Railway →](https://railway.com/deploy/postgis)

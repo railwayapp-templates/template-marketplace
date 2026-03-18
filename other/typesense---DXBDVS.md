@@ -2,7 +2,7 @@
 
 Fast, typo-tolerant open source search engine
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/DXBDVS)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/DXBDVS)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting Typesense involves deploying a single binary search engine with no runti
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/DXBDVS)
+[View on Railway →](https://railway.com/deploy/DXBDVS)

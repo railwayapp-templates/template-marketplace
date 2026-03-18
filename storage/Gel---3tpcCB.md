@@ -2,7 +2,7 @@
 
 Gel template based on the Docker deployment guide
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/3tpcCB)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/3tpcCB)
 
 ## About
 
@@ -34,4 +34,4 @@ It consumes less resources than the baseline by changing the variables `GEL_SERV
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/3tpcCB)
+[View on Railway →](https://railway.com/deploy/3tpcCB)

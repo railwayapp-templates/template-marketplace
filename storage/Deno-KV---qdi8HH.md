@@ -2,7 +2,7 @@
 
 DenoKV is a fast, simple key-value DB for persistent storage in Deno apps
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qdi8HH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qdi8HH)
 
 ## About
 
@@ -46,4 +46,4 @@ console.log(await kv.get(["key"])); // Output: value
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/qdi8HH)
+[View on Railway →](https://railway.com/deploy/qdi8HH)

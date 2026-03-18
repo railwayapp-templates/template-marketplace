@@ -2,7 +2,7 @@
 
 The cornerstone of every automated network
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cLm4kn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cLm4kn)
 
 ## About
 
@@ -133,4 +133,4 @@ NetBox is built on the enormously popular Django framework for the Python progra
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/cLm4kn)
+[View on Railway →](https://railway.com/deploy/cLm4kn)

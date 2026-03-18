@@ -2,7 +2,7 @@
 
 1-Click Deploy RSSHub - Self-Hosted RSS Feeds for YouTube, GitHub & More
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/deploy-rsshub)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/deploy-rsshub)
 
 ## About
 
@@ -55,4 +55,4 @@ Self-hosting gives you full control: no rate limits from public instances, no th
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/deploy-rsshub)
+[View on Railway →](https://railway.com/deploy/deploy-rsshub)

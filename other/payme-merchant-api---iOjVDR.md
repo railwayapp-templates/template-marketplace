@@ -2,7 +2,7 @@
 
 A merchant API server for Payme
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/iOjVDR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/iOjVDR)
 
 ## About
 
@@ -41,4 +41,4 @@ This project is a simple API server that allows merchants to accept payments fro
 
 **Category:** Other · **Languages:** Python, Procfile
 
-[View on Railway →](https://railway.com/template/iOjVDR)
+[View on Railway →](https://railway.com/deploy/iOjVDR)

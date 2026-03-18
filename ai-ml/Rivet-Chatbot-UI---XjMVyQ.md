@@ -2,7 +2,7 @@
 
 Hosts Rivet with an Open AI compatible API + Chatbot-UI as a frontend
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/XjMVyQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/XjMVyQ)
 
 ## About
 
@@ -74,4 +74,4 @@ Further configurations can be done in your superbase account, e.g.:
 
 **Category:** AI/ML · **Languages:** TypeScript, JavaScript, PLpgSQL, Shell, CSS
 
-[View on Railway →](https://railway.com/template/XjMVyQ)
+[View on Railway →](https://railway.com/deploy/XjMVyQ)

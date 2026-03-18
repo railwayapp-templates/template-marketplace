@@ -2,7 +2,7 @@
 
 LLM Frontend for Power Users
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/YuyzZp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/YuyzZp)
 
 ## About
 
@@ -42,4 +42,4 @@ This template pretty much uses the original SillyTavern's Docker image but sligh
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/YuyzZp)
+[View on Railway →](https://railway.com/deploy/YuyzZp)

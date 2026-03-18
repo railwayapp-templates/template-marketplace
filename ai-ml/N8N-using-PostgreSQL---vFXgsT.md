@@ -2,7 +2,7 @@
 
 n8n with PostgreSQL, auto-updates, and Community Nodes tool usage support
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vFXgsT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vFXgsT)
 
 ## About
 
@@ -32,4 +32,4 @@ Easily set up n8n with PostgreSQL for workflow storage. This template keeps your
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/vFXgsT)
+[View on Railway →](https://railway.com/deploy/vFXgsT)

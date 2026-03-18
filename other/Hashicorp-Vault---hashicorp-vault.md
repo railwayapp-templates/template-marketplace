@@ -2,7 +2,7 @@
 
 Deploy and Host Hashicorp Vault with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hashicorp-vault)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hashicorp-vault)
 
 ## About
 
@@ -53,4 +53,4 @@ Railway handles networking, secret injection, volumes, and scaling, allowing you
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/hashicorp-vault)
+[View on Railway →](https://railway.com/deploy/hashicorp-vault)

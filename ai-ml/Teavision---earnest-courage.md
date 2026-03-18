@@ -2,7 +2,7 @@
 
 A tool for tea tasters to classify tea regions based on tea liquor color
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/earnest-courage)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/earnest-courage)
 
 ## About
 
@@ -18,4 +18,4 @@ A tool for tea tasters to classify tea regions based on tea liquor color
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/earnest-courage)
+[View on Railway →](https://railway.com/deploy/earnest-courage)

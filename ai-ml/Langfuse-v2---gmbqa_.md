@@ -2,7 +2,7 @@
 
 Open source observability and analytics for LLM applications
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gmbqa_)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gmbqa_)
 
 ## About
 
@@ -43,4 +43,4 @@ In case of errors, try restarting the application container or join the Discord 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/gmbqa_)
+[View on Railway →](https://railway.com/deploy/gmbqa_)

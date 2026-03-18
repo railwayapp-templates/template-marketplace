@@ -2,7 +2,7 @@
 
 The Smartest SQL + noSQL Database Client
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dbgate)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dbgate)
 
 ## About
 
@@ -82,4 +82,4 @@ DbGate is cross-platform database manager. It's designed to be simple to use and
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/dbgate)
+[View on Railway →](https://railway.com/deploy/dbgate)

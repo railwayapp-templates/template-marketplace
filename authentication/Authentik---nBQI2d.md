@@ -2,7 +2,7 @@
 
 Open-source Identity Provider that emphasizes flexibility and versatility.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nBQI2d)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nBQI2d)
 
 ## About
 
@@ -67,4 +67,4 @@ For initial configuration, visit your server url at {URL}/if/flow/initial-setup/
 
 **Category:** Authentication · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/nBQI2d)
+[View on Railway →](https://railway.com/deploy/nBQI2d)

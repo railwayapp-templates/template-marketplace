@@ -2,7 +2,7 @@
 
 Flexible AI workflow automation for technical teams.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-v200-still-cheapest-regular-update)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-v200-still-cheapest-regular-update)
 
 ## About
 
@@ -41,4 +41,4 @@ Hosting n8n with SQLite on Railway provides a budget-friendly solution for workf
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-v200-still-cheapest-regular-update)
+[View on Railway →](https://railway.com/deploy/n8n-v200-still-cheapest-regular-update)

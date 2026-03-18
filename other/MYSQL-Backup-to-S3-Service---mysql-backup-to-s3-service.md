@@ -2,7 +2,7 @@
 
 Quick backup your mysql to any S3 service.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mysql-backup-to-s3-service)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mysql-backup-to-s3-service)
 
 ## About
 
@@ -37,4 +37,4 @@ It is designed to be easy to deploy and maintain. The service is stateless and w
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/mysql-backup-to-s3-service)
+[View on Railway →](https://railway.com/deploy/mysql-backup-to-s3-service)

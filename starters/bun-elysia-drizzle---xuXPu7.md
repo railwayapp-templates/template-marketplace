@@ -2,7 +2,7 @@
 
 Get started with Bun, Elysia and Drizzle ORM
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xuXPu7)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xuXPu7)
 
 ## About
 
@@ -38,4 +38,4 @@ Once this template is deployed, follow these steps to ensure everything is worki
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/xuXPu7)
+[View on Railway →](https://railway.com/deploy/xuXPu7)

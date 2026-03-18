@@ -2,7 +2,7 @@
 
 n8n-Optimized Redis Database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JkJ8MG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JkJ8MG)
 
 ## About
 
@@ -99,4 +99,4 @@ Support me if you think this is good, one dollar is also very valuable to me, I'
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/JkJ8MG)
+[View on Railway →](https://railway.com/deploy/JkJ8MG)

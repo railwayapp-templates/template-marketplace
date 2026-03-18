@@ -2,7 +2,7 @@
 
 Deploy and Host Next-BetterAuth-Drizzle with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/next-betterauth-drizzle)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/next-betterauth-drizzle)
 
 ## About
 
@@ -47,4 +47,4 @@ An simple starter template , that uses next js for both frontend and apis, Postg
 
 **Category:** Starters · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/next-betterauth-drizzle)
+[View on Railway →](https://railway.com/deploy/next-betterauth-drizzle)

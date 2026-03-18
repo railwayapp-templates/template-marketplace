@@ -2,7 +2,7 @@
 
 Deploy and host llama 3.2-1b on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/llama-32-1b)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/llama-32-1b)
 
 ## About
 
@@ -34,4 +34,4 @@ This template will be kept up to date for ideal optimization.
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/llama-32-1b)
+[View on Railway →](https://railway.com/deploy/llama-32-1b)

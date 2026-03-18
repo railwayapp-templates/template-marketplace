@@ -2,7 +2,7 @@
 
 Self-hosted Ghost with MySQL and persistent volume.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tcsVLc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tcsVLc)
 
 ## About
 
@@ -62,4 +62,4 @@ For bulk email newsletter delivery, you'll also need to configure the Mailgun se
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/tcsVLc)
+[View on Railway →](https://railway.com/deploy/tcsVLc)

@@ -2,7 +2,7 @@
 
 Streamline your scheduling process and save time
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/LjpcWZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/LjpcWZ)
 
 ## About
 
@@ -65,4 +65,4 @@ Built with Next.js, Prisma, tRPC &amp; TailwindCSS
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/LjpcWZ)
+[View on Railway →](https://railway.com/deploy/LjpcWZ)

@@ -2,7 +2,7 @@
 
 Send push notifications to your phone or desktop using PUT/POST
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5HQY7M)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5HQY7M)
 
 ## About
 
@@ -37,4 +37,4 @@ Customize your deployment with command line arguments or environment variables.
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/5HQY7M)
+[View on Railway →](https://railway.com/deploy/5HQY7M)

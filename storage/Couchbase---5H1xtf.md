@@ -2,7 +2,7 @@
 
 NoSQL cloud database that delivers versatility, performance & scalability.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5H1xtf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5H1xtf)
 
 ## About
 
@@ -38,4 +38,4 @@ The following steps will guide you through some of the key aspects of Couchbase 
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/5H1xtf)
+[View on Railway →](https://railway.com/deploy/5H1xtf)

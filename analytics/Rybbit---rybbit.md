@@ -2,7 +2,7 @@
 
 Privacy-focused, intuitive web analytics
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rybbit)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rybbit)
 
 ## About
 
@@ -53,4 +53,4 @@ Rybbit Analytics is a self-hostable web and product analytics solution that prov
 
 **Category:** Analytics · **Languages:** TypeScript, JavaScript, CSS, Dockerfile, HTML, Shell
 
-[View on Railway →](https://railway.com/template/rybbit)
+[View on Railway →](https://railway.com/deploy/rybbit)

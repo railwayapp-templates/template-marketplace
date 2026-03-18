@@ -2,7 +2,7 @@
 
 Search Engine Position Rank Tracking App
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/J29H1Z)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/J29H1Z)
 
 ## About
 
@@ -78,4 +78,4 @@ The App uses third party website scrapers like ScrapingAnt, ScrapingRobot or You
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/J29H1Z)
+[View on Railway →](https://railway.com/deploy/J29H1Z)

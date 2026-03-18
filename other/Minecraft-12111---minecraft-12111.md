@@ -2,7 +2,7 @@
 
 Deploy and Host Minecraft 1.21.11 with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/minecraft-12111)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minecraft-12111)
 
 ## About
 
@@ -23,4 +23,4 @@ Hosting MineChamp en Railway despliega automáticamente dos servicios containeri
 
 **Category:** Other · **Languages:** JavaScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/minecraft-12111)
+[View on Railway →](https://railway.com/deploy/minecraft-12111)

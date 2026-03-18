@@ -2,7 +2,7 @@
 
 Spring Boot 2.3.0.RELEASE + MySQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VPihOQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VPihOQ)
 
 ## About
 
@@ -74,4 +74,4 @@ Please replace the placeholders with the actual values.
 
 **Category:** Other · **Languages:** Java, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/VPihOQ)
+[View on Railway →](https://railway.com/deploy/VPihOQ)

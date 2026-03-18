@@ -2,7 +2,7 @@
 
 A starter Create React App that uses Caddy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6sjhSn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6sjhSn)
 
 ## About
 
@@ -22,4 +22,4 @@ React applications require building static assets for production and serving the
 
 **Category:** Starters · **Languages:** HTML, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/6sjhSn)
+[View on Railway →](https://railway.com/deploy/6sjhSn)

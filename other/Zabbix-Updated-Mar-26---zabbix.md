@@ -2,7 +2,7 @@
 
 Zabbix [Mar '26] (Monitor Servers, Apps & Networks) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zabbix)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zabbix)
 
 ## About
 
@@ -46,4 +46,4 @@ You can self-host Zabbix to centralize monitoring and maintain full control over
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/zabbix)
+[View on Railway →](https://railway.com/deploy/zabbix)

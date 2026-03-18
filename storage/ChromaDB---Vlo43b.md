@@ -2,7 +2,7 @@
 
 Template for ChromaDB vector database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Vlo43b)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Vlo43b)
 
 ## About
 
@@ -44,4 +44,4 @@ Any question and remarks can be said in the forum
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/Vlo43b)
+[View on Railway →](https://railway.com/deploy/Vlo43b)

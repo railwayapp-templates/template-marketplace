@@ -2,7 +2,7 @@
 
 An open-source, modern, and powerful status page and monitoring solution
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uptimekit)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uptimekit)
 
 ## About
 
@@ -68,4 +68,4 @@ Hosting uptimekit involves running multiple services that work together: the Das
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/uptimekit)
+[View on Railway →](https://railway.com/deploy/uptimekit)

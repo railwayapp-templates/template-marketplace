@@ -2,7 +2,7 @@
 
 Electric sync-engine for PostgreSQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/F0huGC)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/F0huGC)
 
 ## About
 
@@ -16,4 +16,4 @@ Electric: A Postgres Sync Engine Electric is a Postgres sync engine that solves 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/F0huGC)
+[View on Railway →](https://railway.com/deploy/F0huGC)

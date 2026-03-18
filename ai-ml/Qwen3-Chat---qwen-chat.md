@@ -2,7 +2,7 @@
 
 [Mar '26] Self-host Alibaba's Qwen models locally, using Ollama+OpenWebUI.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qwen-chat)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qwen-chat)
 
 ## About
 
@@ -45,4 +45,4 @@ This is one of the fastest ways to self-host an open-source model without dealin
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/qwen-chat)
+[View on Railway →](https://railway.com/deploy/qwen-chat)

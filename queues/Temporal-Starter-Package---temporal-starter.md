@@ -2,7 +2,7 @@
 
 Deploys repository-configured Temporal with two example apps.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/temporal-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/temporal-starter)
 
 ## About
 
@@ -60,4 +60,4 @@ Hosting Temporal involves setting up the necessary infrastructure to support its
 
 **Category:** Queues · **Languages:** TypeScript, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/temporal-starter)
+[View on Railway →](https://railway.com/deploy/temporal-starter)

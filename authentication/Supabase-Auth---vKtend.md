@@ -2,7 +2,7 @@
 
 Authentication and User Management by Supabase
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vKtend)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vKtend)
 
 ## About
 
@@ -73,4 +73,4 @@ See https://github.com/supabase/auth for a full list of environment variables an
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/vKtend)
+[View on Railway →](https://railway.com/deploy/vKtend)

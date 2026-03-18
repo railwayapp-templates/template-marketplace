@@ -2,7 +2,7 @@
 
 Sample Pinecone apps for document summarization and question-answering.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Rg70kF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Rg70kF)
 
 ## About
 
@@ -39,4 +39,4 @@ This template deploys sample Streamlit web apps for document summarization and g
 
 **Category:** AI/ML · **Languages:** Python, Jupyter Notebook
 
-[View on Railway →](https://railway.com/template/Rg70kF)
+[View on Railway →](https://railway.com/deploy/Rg70kF)

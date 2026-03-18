@@ -2,7 +2,7 @@
 
 The official community platform for Laravel.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/laravel-community)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/laravel-community)
 
 ## About
 
@@ -152,4 +152,4 @@ Deploying Laravel Community involves orchestrating multiple services working tog
 
 **Category:** CMS · **Languages:** PHP, TypeScript, Blade, CSS, Shell, Smarty, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/laravel-community)
+[View on Railway →](https://railway.com/deploy/laravel-community)

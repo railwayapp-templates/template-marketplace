@@ -2,7 +2,7 @@
 
 NextJS + ShadCN with all components preinstalled
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-shadcn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-shadcn)
 
 ## About
 
@@ -28,4 +28,4 @@ Railway provides:
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/nextjs-shadcn)
+[View on Railway →](https://railway.com/deploy/nextjs-shadcn)

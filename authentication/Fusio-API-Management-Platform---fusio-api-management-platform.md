@@ -2,7 +2,7 @@
 
 Fusio 6.2 Self-hosted API management with OAuth2, OpenAPI and admin UI.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fusio-api-management-platform)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fusio-api-management-platform)
 
 ## About
 
@@ -44,4 +44,4 @@ This Railway template deploys Fusio with a MySQL database in a production-ready 
 
 **Category:** Authentication · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/fusio-api-management-platform)
+[View on Railway →](https://railway.com/deploy/fusio-api-management-platform)

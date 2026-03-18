@@ -2,7 +2,7 @@
 
 Deploy a production-ready, high-availability MongoDB cluster
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mongodb-community-server-replica-set)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mongodb-community-server-replica-set)
 
 ## About
 
@@ -73,4 +73,4 @@ Each data-bearing node is attached to a Railway Volume for persistent storage, p
 
 **Category:** AI/ML · **Languages:** Shell, JavaScript, Python, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/mongodb-community-server-replica-set)
+[View on Railway →](https://railway.com/deploy/mongodb-community-server-replica-set)

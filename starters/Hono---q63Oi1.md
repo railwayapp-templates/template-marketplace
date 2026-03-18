@@ -2,7 +2,7 @@
 
 A minimal Hono web application.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/q63Oi1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/q63Oi1)
 
 ## About
 
@@ -30,4 +30,4 @@ If you have any suggestions, don't hesitate to open an issue in the template rep
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/q63Oi1)
+[View on Railway →](https://railway.com/deploy/q63Oi1)

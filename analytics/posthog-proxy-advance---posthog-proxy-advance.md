@@ -2,7 +2,7 @@
 
 Deploy and Host posthog-proxy-advance with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/posthog-proxy-advance)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/posthog-proxy-advance)
 
 ## About
 
@@ -30,4 +30,4 @@ This lightweight nginx container (256MB RAM) acts as a reverse proxy between you
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/posthog-proxy-advance)
+[View on Railway →](https://railway.com/deploy/posthog-proxy-advance)

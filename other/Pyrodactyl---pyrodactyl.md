@@ -2,7 +2,7 @@
 
 The faster, smaller, safer, and more accessible game server panel
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pyrodactyl)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pyrodactyl)
 
 ## About
 
@@ -76,4 +76,4 @@ Hosting Pyrodactyl requires you to deploy the panel itself, alongside a databsae
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/pyrodactyl)
+[View on Railway →](https://railway.com/deploy/pyrodactyl)

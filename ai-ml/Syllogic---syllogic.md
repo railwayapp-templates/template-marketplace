@@ -2,7 +2,7 @@
 
 Self-host your own personal finance app
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/syllogic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/syllogic)
 
 ## About
 
@@ -88,4 +88,4 @@ Hosting syllogic on Railway provisions multiple services: `app` (frontend), `bac
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/syllogic)
+[View on Railway →](https://railway.com/deploy/syllogic)

@@ -2,7 +2,7 @@
 
 A Shopify app using Tanstack, Drizzle, Postgres, and BullMQ with Redis
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tanstack-shopify-app-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tanstack-shopify-app-template)
 
 ## About
 
@@ -53,4 +53,4 @@ Hosting the Tanstack Shopify App Template involves deploying a full-stack applic
 
 **Category:** Other · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/tanstack-shopify-app-template)
+[View on Railway →](https://railway.com/deploy/tanstack-shopify-app-template)

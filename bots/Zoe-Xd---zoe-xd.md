@@ -2,7 +2,7 @@
 
 Zoe-XD is a powerful multi-device WhatsApp bot built with Node.js
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zoe-xd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zoe-xd)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting Zoe-XD on Railway is straightforward and beginner-friendly. You’ll nee
 
 **Category:** Bots · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/zoe-xd)
+[View on Railway →](https://railway.com/deploy/zoe-xd)

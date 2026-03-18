@@ -2,7 +2,7 @@
 
 Deploy a Spring microservice ecosystem with Eureka and Cloud Gateway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/f6CKpT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/f6CKpT)
 
 ## About
 
@@ -95,4 +95,4 @@ In essence, Spring Cloud Gateway is an indispensable tool for developers looking
 
 **Category:** Starters · **Languages:** Java, Dockerfile
 
-[View on Railway →](https://railway.com/template/f6CKpT)
+[View on Railway →](https://railway.com/deploy/f6CKpT)

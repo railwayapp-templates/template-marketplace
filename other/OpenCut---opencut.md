@@ -2,7 +2,7 @@
 
 Free, open-source CapCut alternative. Privacy-first video editor.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/opencut)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opencut)
 
 ## About
 
@@ -81,4 +81,4 @@ _\*At this stage, accounts seem largely redundant; projects and files are stored
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/opencut)
+[View on Railway →](https://railway.com/deploy/opencut)

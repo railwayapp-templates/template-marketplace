@@ -2,7 +2,7 @@
 
 Railway-ready PocketBase with auto setup
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pocketbase-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-2)
 
 ## About
 
@@ -31,4 +31,4 @@ This template uses Docker for consistent deployments and is configured to bind a
 
 **Category:** Storage · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/pocketbase-2)
+[View on Railway →](https://railway.com/deploy/pocketbase-2)

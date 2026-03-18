@@ -2,7 +2,7 @@
 
 Deploy and Host Bot_MultiAgente(5) with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/botmultiagente5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/botmultiagente5)
 
 ## About
 
@@ -53,4 +53,4 @@ This repository is designed for easy deployment on Railway, Docker, or any Node.
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, HTML, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/botmultiagente5)
+[View on Railway →](https://railway.com/deploy/botmultiagente5)

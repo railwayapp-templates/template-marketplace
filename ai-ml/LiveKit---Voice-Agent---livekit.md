@@ -2,7 +2,7 @@
 
 Deploy and Host LiveKit with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/livekit)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/livekit)
 
 ## About
 
@@ -50,4 +50,4 @@ Hosting LiveKit requires running a media server with WebRTC connectivity, a Redi
 
 **Category:** AI/ML · **Languages:** TypeScript, Shell, Python, Dockerfile, CSS, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/livekit)
+[View on Railway →](https://railway.com/deploy/livekit)

@@ -2,7 +2,7 @@
 
 PostgreSQL version 18, on Alpine Linux
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgresql-18-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresql-18-2)
 
 ## About
 
@@ -26,4 +26,4 @@ Hosting PostgreSQL 18 involves running the database engine in a reliable environ
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/postgresql-18-2)
+[View on Railway →](https://railway.com/deploy/postgresql-18-2)

@@ -2,7 +2,7 @@
 
 wadoyuse highlight dat shit
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/59zI_c)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/59zI_c)
 
 ## About
 
@@ -26,4 +26,4 @@ ChatGPT Relay is a dedicated server designed to efficiently forward responses fr
 
 **Category:** Other · **Languages:** JavaScript, CSS, HTML, TypeScript
 
-[View on Railway →](https://railway.com/template/59zI_c)
+[View on Railway →](https://railway.com/deploy/59zI_c)

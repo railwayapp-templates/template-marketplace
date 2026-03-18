@@ -2,7 +2,7 @@
 
 Postiz is an all-in-one platform for social media management
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postiz-app)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postiz-app)
 
 ## About
 
@@ -69,4 +69,4 @@ Hosting Postiz App involves deploying a full-stack application with multiple int
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/postiz-app)
+[View on Railway →](https://railway.com/deploy/postiz-app)

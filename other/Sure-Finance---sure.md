@@ -2,7 +2,7 @@
 
 The personal finance app for everyone
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sure)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sure)
 
 ## About
 
@@ -66,4 +66,4 @@ Hosting **Sure** on Railway gives you a fast and effortless way to bring your pe
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/sure)
+[View on Railway →](https://railway.com/deploy/sure)

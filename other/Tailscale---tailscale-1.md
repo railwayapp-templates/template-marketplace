@@ -2,7 +2,7 @@
 
 Deploy a Tailscale node on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tailscale-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tailscale-1)
 
 ## About
 
@@ -32,4 +32,4 @@ This template will establish a Tailscale node in your Railway environment. Only 
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/tailscale-1)
+[View on Railway →](https://railway.com/deploy/tailscale-1)

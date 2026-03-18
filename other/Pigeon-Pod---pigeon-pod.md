@@ -2,7 +2,7 @@
 
 Listen to YouTube. Anywhere.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pigeon-pod)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pigeon-pod)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting PigeonPod on Railway involves deploying a single container and attaching
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/pigeon-pod)
+[View on Railway →](https://railway.com/deploy/pigeon-pod)

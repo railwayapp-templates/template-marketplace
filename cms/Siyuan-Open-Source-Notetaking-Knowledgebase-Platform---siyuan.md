@@ -2,7 +2,7 @@
 
 Siyuan [Mar ’26] (Privacy-first Notetaker & Knowledge Management) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/siyuan)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/siyuan)
 
 ## About
 
@@ -32,4 +32,4 @@ Siyuan supports local-first notetaking with full Markdown compatibility, block-l
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/siyuan)
+[View on Railway →](https://railway.com/deploy/siyuan)

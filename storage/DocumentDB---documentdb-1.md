@@ -2,7 +2,7 @@
 
 This template deploys the latest official DocumentDB image on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/documentdb-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/documentdb-1)
 
 ## About
 
@@ -71,4 +71,4 @@ This setup ensures your data remains safe and accessible across deployments.
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/documentdb-1)
+[View on Railway →](https://railway.com/deploy/documentdb-1)

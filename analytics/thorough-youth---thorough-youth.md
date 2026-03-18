@@ -2,7 +2,7 @@
 
 Deploy and Host thorough-youth with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/thorough-youth)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/thorough-youth)
 
 ## About
 
@@ -16,4 +16,4 @@ Openclaw is a self-hosted AI gateway and chat platform that connects to messagin
 
 **Category:** Analytics · **Languages:** JavaScript, HTML, Dockerfile, CSS
 
-[View on Railway →](https://railway.com/template/thorough-youth)
+[View on Railway →](https://railway.com/deploy/thorough-youth)

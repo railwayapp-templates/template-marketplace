@@ -2,7 +2,7 @@
 
 Deploy and Host zonal-gentleness with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zonal-gentleness)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zonal-gentleness)
 
 ## About
 
@@ -38,4 +38,4 @@ Each adapter requires a reliable hosting environment to ensure uninterrupted dat
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/zonal-gentleness)
+[View on Railway →](https://railway.com/deploy/zonal-gentleness)

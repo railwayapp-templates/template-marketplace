@@ -2,7 +2,7 @@
 
 A simple Hello world webserver written in node.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/CYqWyQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/CYqWyQ)
 
 ## About
 
@@ -23,4 +23,4 @@ Once the template is used to create a project, it will automatically start witho
 
 **Category:** Starters · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/CYqWyQ)
+[View on Railway →](https://railway.com/deploy/CYqWyQ)

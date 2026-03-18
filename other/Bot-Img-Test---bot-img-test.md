@@ -2,7 +2,7 @@
 
 Deploy and Host Bot-Img-Test with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bot-img-test)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bot-img-test)
 
 ## About
 
@@ -40,4 +40,4 @@ Aquí estoy para potenciar tus ventas, hablemos que puedo hacer por tu negocio. 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/bot-img-test)
+[View on Railway →](https://railway.com/deploy/bot-img-test)

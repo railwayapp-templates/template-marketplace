@@ -2,7 +2,7 @@
 
 An example app running a cron job
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/KViDnA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/KViDnA)
 
 ## About
 
@@ -30,4 +30,4 @@ View the official `[node-cron` repo](https://github.com/node-cron/node-cron).
 
 **Category:** Starters · **Tags:** typescript, cron
 
-[View on Railway →](https://railway.com/template/KViDnA)
+[View on Railway →](https://railway.com/deploy/KViDnA)

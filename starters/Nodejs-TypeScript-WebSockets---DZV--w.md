@@ -2,7 +2,7 @@
 
 WebSocket chatrooms server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/DZV--w)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/DZV--w)
 
 ## About
 
@@ -43,4 +43,4 @@ Key features:
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/DZV--w)
+[View on Railway →](https://railway.com/deploy/DZV--w)

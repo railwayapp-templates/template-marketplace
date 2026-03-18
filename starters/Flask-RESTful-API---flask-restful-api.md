@@ -2,7 +2,7 @@
 
 A minimal Flask RESTful API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flask-restful-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flask-restful-api)
 
 ## About
 
@@ -27,4 +27,4 @@ Hosting a Flask application typically involves running it behind a production-gr
 
 **Category:** Starters · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/flask-restful-api)
+[View on Railway →](https://railway.com/deploy/flask-restful-api)

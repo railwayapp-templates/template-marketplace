@@ -2,7 +2,7 @@
 
 A simple Python GraphQL server. Introspection + production-ready servers.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gPbU5Z)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gPbU5Z)
 
 ## About
 
@@ -33,4 +33,4 @@ Read more about Strawberry at [their website](https://strawberry.rocks/docs)
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/gPbU5Z)
+[View on Railway →](https://railway.com/deploy/gPbU5Z)

@@ -2,7 +2,7 @@
 
 Open-source fine-grained authorization inspired by Google Zanzibar
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/permify)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/permify)
 
 ## About
 
@@ -41,4 +41,4 @@ Both services run on Railway's private network by default, ensuring secure inter
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/permify)
+[View on Railway →](https://railway.com/deploy/permify)

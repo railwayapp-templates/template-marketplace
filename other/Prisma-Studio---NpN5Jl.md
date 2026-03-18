@@ -2,7 +2,7 @@
 
 Quickly host the database viewer Prisma Studio with only a database url
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NpN5Jl)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NpN5Jl)
 
 ## About
 
@@ -75,4 +75,4 @@ Examples of valid schema sources would be:
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/NpN5Jl)
+[View on Railway →](https://railway.com/deploy/NpN5Jl)

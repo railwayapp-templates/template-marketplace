@@ -2,7 +2,7 @@
 
 Grafana, VictoriaMetrics monitoring with Caddy API-key proxy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/victoria-monitoring-stack)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/victoria-monitoring-stack)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting VictoriaMetrics requires orchestrating multiple services: a time series 
 
 **Category:** Observability · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/victoria-monitoring-stack)
+[View on Railway →](https://railway.com/deploy/victoria-monitoring-stack)

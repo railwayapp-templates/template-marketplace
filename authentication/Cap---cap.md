@@ -2,7 +2,7 @@
 
 Self-hosted CAPTCHA for the modern web.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cap)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cap)
 
 ## About
 
@@ -40,4 +40,4 @@ Hosting Cap gives you a privacy-respecting CAPTCHA solution that you fully contr
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/cap)
+[View on Railway →](https://railway.com/deploy/cap)

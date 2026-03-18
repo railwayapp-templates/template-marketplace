@@ -2,7 +2,7 @@
 
 PostgreSQL database service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgresql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresql)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting PostgreSQL gives you access to a powerful database server capable of han
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/postgresql)
+[View on Railway →](https://railway.com/deploy/postgresql)

@@ -2,7 +2,7 @@
 
 A lightweight, modern, tree-based wiki
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/leafwiki)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/leafwiki)
 
 ## About
 
@@ -34,4 +34,4 @@ LeafWiki runs as a single container with no external services required. All wiki
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/leafwiki)
+[View on Railway →](https://railway.com/deploy/leafwiki)

@@ -2,7 +2,7 @@
 
 Deploy Evolution API Lite on Railway. WhatsApp REST API. One click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/evolution-api-lite)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evolution-api-lite)
 
 ## About
 
@@ -54,4 +54,4 @@ Hosting Evolution API Lite requires a PostgreSQL database for persistence (insta
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/evolution-api-lite)
+[View on Railway →](https://railway.com/deploy/evolution-api-lite)

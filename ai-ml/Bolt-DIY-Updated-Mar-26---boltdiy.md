@@ -2,7 +2,7 @@
 
 Bolt DIY [Mar ’26] (AI App/Web Builder, Lovable & V0 alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/boltdiy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/boltdiy)
 
 ## About
 
@@ -45,4 +45,4 @@ With **diy hosting**, you can run self hosted bolt in your own environment and c
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/boltdiy)
+[View on Railway →](https://railway.com/deploy/boltdiy)

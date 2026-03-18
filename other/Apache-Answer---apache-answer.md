@@ -2,7 +2,7 @@
 
 Community‑driven Q&A/knowledge‑base platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/apache-answer)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/apache-answer)
 
 ## About
 
@@ -23,4 +23,4 @@ Hosting Apache Answer requires running a single web application backed by a data
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/apache-answer)
+[View on Railway →](https://railway.com/deploy/apache-answer)

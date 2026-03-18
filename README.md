@@ -1,6 +1,6 @@
 # Railway Templates
 
-One-click deploy templates for Railway. [Browse all templates](https://railway.com/templates)
+One-click deploy templates for Railway. [Browse all templates](https://railway.com/deploy)
 
 ## Templates
 

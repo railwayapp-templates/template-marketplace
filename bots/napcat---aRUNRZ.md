@@ -2,7 +2,7 @@
 
 基于 PC NTQQ 的 QQ Bot 协议端实现
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aRUNRZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aRUNRZ)
 
 ## About
 
@@ -27,4 +27,4 @@
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/aRUNRZ)
+[View on Railway →](https://railway.com/deploy/aRUNRZ)

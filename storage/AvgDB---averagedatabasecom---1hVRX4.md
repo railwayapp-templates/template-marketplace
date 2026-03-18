@@ -2,7 +2,7 @@
 
 The only database built from the ground up for the average developer™
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1hVRX4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1hVRX4)
 
 ## About
 
@@ -23,4 +23,4 @@ With this template, you can run the same AvgDB that powers billions of users, de
 
 **Category:** Storage · **Languages:** TypeScript, Rust, JavaScript, Dockerfile, CSS
 
-[View on Railway →](https://railway.com/template/1hVRX4)
+[View on Railway →](https://railway.com/deploy/1hVRX4)

@@ -2,7 +2,7 @@
 
 Redash [Mar ’26] (Query, Visualize & Share Data Insights) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/redash)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redash)
 
 ## About
 
@@ -43,4 +43,4 @@ You can self-host Redash on Railway to gain full control over your analytics env
 
 **Category:** Analytics · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/redash)
+[View on Railway →](https://railway.com/deploy/redash)

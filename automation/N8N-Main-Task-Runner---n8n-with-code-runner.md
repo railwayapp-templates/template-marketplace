@@ -2,7 +2,7 @@
 
 Deploy n8n with Task Runners - easily add Python/JavaScript dependencies
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-with-code-runner)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-with-code-runner)
 
 ## About
 
@@ -61,4 +61,4 @@ This template provides a complete n8n deployment with three services: PostgreSQL
 
 **Category:** Automation · **Languages:** TypeScript, Vue, SCSS, JavaScript, Python, Handlebars, Dockerfile, Shell, HCL, HTML, Just, Rich Text Format, CSS, Batchfile
 
-[View on Railway →](https://railway.com/template/n8n-with-code-runner)
+[View on Railway →](https://railway.com/deploy/n8n-with-code-runner)

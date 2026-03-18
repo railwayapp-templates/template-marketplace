@@ -2,7 +2,7 @@
 
 Instant Kali Linux browser terminal powered by ttyd
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kali-linux-web-terminal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kali-linux-web-terminal)
 
 ## About
 
@@ -32,4 +32,4 @@ A persistent volume is mounted at `/data` to retain installed tools, scripts, co
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/kali-linux-web-terminal)
+[View on Railway →](https://railway.com/deploy/kali-linux-web-terminal)

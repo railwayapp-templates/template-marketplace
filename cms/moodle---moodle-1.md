@@ -2,7 +2,7 @@
 
 Moodle is a free and open-source learning management system.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/moodle-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/moodle-1)
 
 ## About
 
@@ -53,4 +53,4 @@ Hosting Moodle involves setting up a web server capable of running PHP, configur
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/moodle-1)
+[View on Railway →](https://railway.com/deploy/moodle-1)

@@ -2,7 +2,7 @@
 
 Batteries included API starter using Bun, Elysia, and Drizzle
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/elysia-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/elysia-starter)
 
 ## About
 
@@ -44,4 +44,4 @@ Need help? Check out the [GitHub repo](https://github.com/amorriscode/elysia-sta
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/elysia-starter)
+[View on Railway →](https://railway.com/deploy/elysia-starter)

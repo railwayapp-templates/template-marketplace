@@ -2,7 +2,7 @@
 
 Enterprise n8n Workflow Automation Stack
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xEFh9O)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xEFh9O)
 
 ## About
 
@@ -511,4 +511,4 @@ Support me if you think this is good, one dollar is also very valuable to me, I'
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/xEFh9O)
+[View on Railway →](https://railway.com/deploy/xEFh9O)

@@ -2,7 +2,7 @@
 
 Deploy and Host the Basecut Agent with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/basecut-agent)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/basecut-agent)
 
 ## About
 
@@ -27,4 +27,4 @@ Hosting Basecut Agent on Railway means running the agent as a long-lived contain
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/basecut-agent)
+[View on Railway →](https://railway.com/deploy/basecut-agent)

@@ -2,7 +2,7 @@
 
 Deploy and Host Omni tools with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/omni-tools)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/omni-tools)
 
 ## About
 
@@ -28,4 +28,4 @@ Deploying Omni Tools on Railway is seamless and efficient. The app is built to r
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/omni-tools)
+[View on Railway →](https://railway.com/deploy/omni-tools)

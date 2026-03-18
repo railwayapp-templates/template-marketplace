@@ -2,7 +2,7 @@
 
 PostgreSQL 16 with pgvector and pgvectorscale extensions.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgresql-with-pgvectorscale)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresql-with-pgvectorscale)
 
 ## About
 
@@ -90,4 +90,4 @@ PostgreSQL 16 with pgvector and pgvectorscale extensions for high-performance ve
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/postgresql-with-pgvectorscale)
+[View on Railway →](https://railway.com/deploy/postgresql-with-pgvectorscale)

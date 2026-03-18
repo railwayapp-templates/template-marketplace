@@ -2,7 +2,7 @@
 
 Chrome, Firefox and Edge connected by a Selenium Hub. Deployed with ease.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NG8OnB)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NG8OnB)
 
 ## About
 
@@ -68,4 +68,4 @@ Chrome, Firefox and Edge connected by a Selenium Hub. Deployed with ease.
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/NG8OnB)
+[View on Railway →](https://railway.com/deploy/NG8OnB)

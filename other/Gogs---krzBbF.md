@@ -2,7 +2,7 @@
 
 A painless self-hosted Git service.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/krzBbF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/krzBbF)
 
 ## About
 
@@ -35,4 +35,4 @@ To deploy the Gogs project on Railway, simply click through the process; everyth
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/krzBbF)
+[View on Railway →](https://railway.com/deploy/krzBbF)

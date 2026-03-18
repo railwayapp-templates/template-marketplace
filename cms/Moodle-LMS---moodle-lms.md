@@ -2,7 +2,7 @@
 
 Moodle LMS sandbox — ideal for development, testing, and evaluation.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/moodle-lms)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/moodle-lms)
 
 ## About
 
@@ -38,4 +38,4 @@ For full setup instructions, refer to the [README](https://github.com/JesseZweer
 
 **Category:** CMS · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/moodle-lms)
+[View on Railway →](https://railway.com/deploy/moodle-lms)

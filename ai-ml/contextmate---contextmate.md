@@ -2,7 +2,7 @@
 
 Zero-knowledge encrypted sync server for AI agent context
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/contextmate)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/contextmate)
 
 ## About
 
@@ -56,4 +56,4 @@ Enter your Railway server URL when prompted
 
 **Category:** AI/ML · **Languages:** TypeScript, Astro, CSS, Shell, JavaScript, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/contextmate)
+[View on Railway →](https://railway.com/deploy/contextmate)

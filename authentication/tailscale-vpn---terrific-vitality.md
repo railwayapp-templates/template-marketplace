@@ -2,7 +2,7 @@
 
 VPN Tailscale Userspace ligera. Incluye Exit Node y Proxy SOCKS5.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/terrific-vitality)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/terrific-vitality)
 
 ## About
 
@@ -32,4 +32,4 @@ Al desplegarlo, este servicio actúa como un nodo completo que puede servir como
 
 **Category:** Authentication · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/terrific-vitality)
+[View on Railway →](https://railway.com/deploy/terrific-vitality)

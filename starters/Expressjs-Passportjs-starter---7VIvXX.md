@@ -2,7 +2,7 @@
 
 A simple service with fundamental components setup.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7VIvXX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7VIvXX)
 
 ## About
 
@@ -44,4 +44,4 @@ This is separated from the above section because I have actually tried a few tes
 
 **Category:** Starters · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/7VIvXX)
+[View on Railway →](https://railway.com/deploy/7VIvXX)

@@ -2,7 +2,7 @@
 
 fast and privacy-friendly web app for converting images to WebP format.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/3LQFt-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/3LQFt-)
 
 ## About
 
@@ -34,4 +34,4 @@ TinyWebP is a fast and privacy-friendly web app for converting images to WebP fo
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/3LQFt-)
+[View on Railway →](https://railway.com/deploy/3LQFt-)

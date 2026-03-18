@@ -2,7 +2,7 @@
 
 The ultimate OpenClaw harness. Deploy in minutes, up for months.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-fast-start)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-fast-start)
 
 ## About
 
@@ -70,4 +70,4 @@ Railway handles runtime, networking, and storage so you can focus on using your 
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/openclaw-fast-start)
+[View on Railway →](https://railway.com/deploy/openclaw-fast-start)

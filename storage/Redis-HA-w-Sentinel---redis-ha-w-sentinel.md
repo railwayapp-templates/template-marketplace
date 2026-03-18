@@ -2,7 +2,7 @@
 
 One-click Redis replica set with Sentinel for automated failover
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/redis-ha-w-sentinel)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redis-ha-w-sentinel)
 
 ## About
 
@@ -65,4 +65,4 @@ This template deploys a production-ready, Sentinel-managed Redis stack on Railwa
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/redis-ha-w-sentinel)
+[View on Railway →](https://railway.com/deploy/redis-ha-w-sentinel)

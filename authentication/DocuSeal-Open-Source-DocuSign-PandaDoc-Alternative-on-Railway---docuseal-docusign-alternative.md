@@ -2,7 +2,7 @@
 
 Self-host DocuSeal — Unlimited E-Signature & PDF Signing
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/docuseal-docusign-alternative)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/docuseal-docusign-alternative)
 
 ## About
 
@@ -61,4 +61,4 @@ In this Railway template, DocuSeal connects to Postgres over the private Railway
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/docuseal-docusign-alternative)
+[View on Railway →](https://railway.com/deploy/docuseal-docusign-alternative)

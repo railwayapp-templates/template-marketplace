@@ -2,7 +2,7 @@
 
 A powerful Hono Backend with Drizzle and Postgres for Node.js/Bun
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hIiRi5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hIiRi5)
 
 ## About
 
@@ -118,4 +118,4 @@ Remember to set the `DATABASE_URL` environment variable in your Railway projec
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/hIiRi5)
+[View on Railway →](https://railway.com/deploy/hIiRi5)

@@ -2,7 +2,7 @@
 
 Deploy and Host feisty-compassion with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/feisty-compassion)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/feisty-compassion)
 
 ## About
 
@@ -42,4 +42,4 @@ Environment variable–based configuration
 
 **Category:** Other · **Languages:** HTML, Java, JavaScript, PLpgSQL, CSS
 
-[View on Railway →](https://railway.com/template/feisty-compassion)
+[View on Railway →](https://railway.com/deploy/feisty-compassion)

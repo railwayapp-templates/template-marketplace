@@ -2,7 +2,7 @@
 
 Jitsu [Mar ’26] (Collect & Route Event Data in Real Time) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jitsu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jitsu)
 
 ## About
 
@@ -50,4 +50,4 @@ Self-hosting Jitsu allows you to manage your data pipelines and analytics stream
 
 **Category:** Analytics · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/jitsu)
+[View on Railway →](https://railway.com/deploy/jitsu)

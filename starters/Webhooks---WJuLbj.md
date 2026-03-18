@@ -2,7 +2,7 @@
 
 Simple webhook client and server demo apps.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/WJuLbj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/WJuLbj)
 
 ## About
 
@@ -38,4 +38,4 @@ The webhook server listens on port 3000, and exposes two endpoints `/webhook-1` 
 
 **Category:** Starters · **Languages:** JavaScript, Python
 
-[View on Railway →](https://railway.com/template/WJuLbj)
+[View on Railway →](https://railway.com/deploy/WJuLbj)

@@ -2,7 +2,7 @@
 
 The most scalable open-source MQTT broker for IoT
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/KOG0Z4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/KOG0Z4)
 
 ## About
 
@@ -115,4 +115,4 @@ This template exposes 1883 TCP port directly from emqx service.
 
 **Category:** Queues · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/KOG0Z4)
+[View on Railway →](https://railway.com/deploy/KOG0Z4)

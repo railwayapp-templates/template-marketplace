@@ -2,7 +2,7 @@
 
 An interactive documentation built from an OpenAPI specification
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/swagger-ui)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/swagger-ui)
 
 ## About
 
@@ -49,4 +49,4 @@ This template has multiple environment values that control the behaviour of Swag
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/swagger-ui)
+[View on Railway →](https://railway.com/deploy/swagger-ui)

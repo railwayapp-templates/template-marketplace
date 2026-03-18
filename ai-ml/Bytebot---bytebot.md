@@ -2,7 +2,7 @@
 
 AI desktop agent that automates any computer task through natural language
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bytebot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bytebot)
 
 ## About
 
@@ -47,4 +47,4 @@ Bytebot consists of four integrated components working together:
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/bytebot)
+[View on Railway →](https://railway.com/deploy/bytebot)

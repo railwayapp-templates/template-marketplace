@@ -2,7 +2,7 @@
 
 Deploy and Host Termix with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/termix)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/termix)
 
 ## About
 
@@ -36,4 +36,4 @@ Supported Devices:
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/termix)
+[View on Railway →](https://railway.com/deploy/termix)

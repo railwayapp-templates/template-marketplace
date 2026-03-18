@@ -2,7 +2,7 @@
 
 A FastHTML + Postgres starter for Railway with a guestbook demo and HTMX
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fasthtmlrailwaytemplate)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fasthtmlrailwaytemplate)
 
 ## About
 
@@ -67,4 +67,4 @@ FastHTML is a Python framework for building server-rendered web applications usi
 
 **Category:** Starters · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/fasthtmlrailwaytemplate)
+[View on Railway →](https://railway.com/deploy/fasthtmlrailwaytemplate)

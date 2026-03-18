@@ -2,7 +2,7 @@
 
 Deploy and Host responsible-freedom with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/responsible-freedom)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/responsible-freedom)
 
 ## About
 
@@ -18,4 +18,4 @@ Chat with multiple AI models simultaneously. Get diverse perspectives, compare r
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/responsible-freedom)
+[View on Railway →](https://railway.com/deploy/responsible-freedom)

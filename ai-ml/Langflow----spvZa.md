@@ -2,7 +2,7 @@
 
 Langflow is a low-code app builder for RAG and multi-agent AI applications
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-spvZa)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-spvZa)
 
 ## About
 
@@ -56,4 +56,4 @@ Langflow is a low-code app builder for RAG and multi-agent AI applications. It�
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/-spvZa)
+[View on Railway →](https://railway.com/deploy/-spvZa)

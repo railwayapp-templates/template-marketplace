@@ -2,7 +2,7 @@
 
 One-click PostgreSQL with VectorChord, BM25, and hybrid search.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vchord-suite)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vchord-suite)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting VectorChord Suite requires a PostgreSQL-compatible environment with pers
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/vchord-suite)
+[View on Railway →](https://railway.com/deploy/vchord-suite)

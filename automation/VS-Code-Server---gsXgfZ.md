@@ -2,7 +2,7 @@
 
 Your own personal remote development environment, on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gsXgfZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gsXgfZ)
 
 ## About
 
@@ -39,4 +39,4 @@ A customized code-server deployment template for [Railway](https://railway.app),
 
 **Category:** Automation · **Languages:** HTML, Shell, Go, Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/gsXgfZ)
+[View on Railway →](https://railway.com/deploy/gsXgfZ)

@@ -2,7 +2,7 @@
 
 Single file, realtime multi-user websocket chat using flask-socketio
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flask-websocket-chat)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flask-websocket-chat)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting Flask WebSocket Chat requires a platform that supports persistent WebSoc
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/flask-websocket-chat)
+[View on Railway →](https://railway.com/deploy/flask-websocket-chat)

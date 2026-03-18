@@ -2,7 +2,7 @@
 
 Deploy Drizzle Studio with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/drizzle-studio-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/drizzle-studio-1)
 
 ## About
 
@@ -35,4 +35,4 @@ Railway’s hosting takes care of deployment, scaling, and uptime so you can foc
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/drizzle-studio-1)
+[View on Railway →](https://railway.com/deploy/drizzle-studio-1)

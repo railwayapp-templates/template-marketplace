@@ -2,7 +2,7 @@
 
 Next 15 Starter Template with App Routing
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/U-HNN5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/U-HNN5)
 
 ## About
 
@@ -21,4 +21,4 @@ You can check out [the Next.js GitHub repository](https://github.com/tooniez/nex
 
 **Category:** Starters · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/U-HNN5)
+[View on Railway →](https://railway.com/deploy/U-HNN5)

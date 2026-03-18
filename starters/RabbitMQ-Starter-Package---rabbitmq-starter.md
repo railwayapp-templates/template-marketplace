@@ -2,7 +2,7 @@
 
 Deploys RabbitMQ and two example apps.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rabbitmq-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rabbitmq-starter)
 
 ## About
 
@@ -46,4 +46,4 @@ Hosting RabbitMQ allows you to access a powerful interface for configuration mes
 
 **Category:** Starters · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/rabbitmq-starter)
+[View on Railway →](https://railway.com/deploy/rabbitmq-starter)

@@ -2,7 +2,7 @@
 
 Easy to start with Python FastUI framework Template for a ToDo app
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fastui-todo-app)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastui-todo-app)
 
 ## About
 
@@ -18,4 +18,4 @@ Deploying FastUI ToDo App on Railway requires no special infrastructure. The app
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/fastui-todo-app)
+[View on Railway →](https://railway.com/deploy/fastui-todo-app)

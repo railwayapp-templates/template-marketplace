@@ -2,7 +2,7 @@
 
 One-click self-host WordPress with MariaDB | Blogs, stores, and portfolios
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/deploy-wordpress)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/deploy-wordpress)
 
 ## About
 
@@ -62,4 +62,4 @@ WordPress is the world's most popular open-source CMS, powering over 40% of all 
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/deploy-wordpress)
+[View on Railway →](https://railway.com/deploy/deploy-wordpress)

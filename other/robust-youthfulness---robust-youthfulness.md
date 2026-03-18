@@ -2,7 +2,7 @@
 
 Deploy and Host robust-youthfulness with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/robust-youthfulness)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/robust-youthfulness)
 
 ## About
 
@@ -24,4 +24,4 @@ dfghdfghfsdghsdfghsdfghfsdghsfghbsdfghsfdghsfgh
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/robust-youthfulness)
+[View on Railway →](https://railway.com/deploy/robust-youthfulness)

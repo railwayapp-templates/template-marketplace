@@ -2,7 +2,7 @@
 
 A translation management platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tolgee)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tolgee)
 
 ## About
 
@@ -55,4 +55,4 @@ Hosting Tolgee involves running its Java-based server alongside a PostgreSQL dat
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tolgee)
+[View on Railway →](https://railway.com/deploy/tolgee)

@@ -2,7 +2,7 @@
 
 Assistente de IA Bell'Arte 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4kBx76)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4kBx76)
 
 ## About
 
@@ -16,4 +16,4 @@ O Assistente de Inteligência Artificial Bell'Arte é uma ferramenta revolucion�
 
 **Category:** Other · **Languages:** Python, Procfile
 
-[View on Railway →](https://railway.com/template/4kBx76)
+[View on Railway →](https://railway.com/deploy/4kBx76)

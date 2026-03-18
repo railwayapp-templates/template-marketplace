@@ -2,7 +2,7 @@
 
 An open-source, web-based, self-hosted, collaborative markdown editor.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/9CXSkd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9CXSkd)
 
 ## About
 
@@ -53,4 +53,4 @@ This template uses an older version of Postgres, because Hedgedoc uses an older 
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/9CXSkd)
+[View on Railway →](https://railway.com/deploy/9CXSkd)

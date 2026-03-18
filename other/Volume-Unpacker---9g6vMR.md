@@ -2,7 +2,7 @@
 
 incident recovery tool to unpack a tar
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/9g6vMR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9g6vMR)
 
 ## About
 
@@ -29,4 +29,4 @@ Duis aliquam, neque nec feugiat convallis, lorem justo laoreet urna, non molesti
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/9g6vMR)
+[View on Railway →](https://railway.com/deploy/9g6vMR)

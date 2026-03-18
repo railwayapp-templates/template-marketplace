@@ -2,7 +2,7 @@
 
 EdgeDB [Mar ’26] (Query Data with Modern Graph Features) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/edgedb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/edgedb)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting EdgeDB on Railway allows you to build and scale modern applications effo
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/edgedb)
+[View on Railway →](https://railway.com/deploy/edgedb)

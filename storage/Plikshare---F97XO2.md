@@ -2,7 +2,7 @@
 
 file sharing platform, unlimited users, safe and flexible storage options
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/F97XO2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/F97XO2)
 
 ## About
 
@@ -154,4 +154,4 @@ The name "PlikShare" and the PlikShare logo are trademarks owned by Damian Krych
 
 **Category:** Storage · **Languages:** C#, TypeScript, HTML, SCSS, Shell, PowerShell, Dockerfile
 
-[View on Railway →](https://railway.com/template/F97XO2)
+[View on Railway →](https://railway.com/deploy/F97XO2)

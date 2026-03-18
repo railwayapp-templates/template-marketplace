@@ -2,7 +2,7 @@
 
 An HTTP module server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZweBXA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZweBXA)
 
 ## About
 
@@ -30,4 +30,4 @@ This template starts an example Node.js HTTP Module server. The server started s
 
 **Category:** Starters · **Tags:** webserver, javascript
 
-[View on Railway →](https://railway.com/template/ZweBXA)
+[View on Railway →](https://railway.com/deploy/ZweBXA)

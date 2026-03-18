@@ -2,7 +2,7 @@
 
 The standard MySQL database plus backups to Cloudflare R2
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xNTYS8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xNTYS8)
 
 ## About
 
@@ -56,4 +56,4 @@ You can modify the [generated rclone config](https://github.com/dbanty/rclone-my
 
 **Category:** Storage · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/xNTYS8)
+[View on Railway →](https://railway.com/deploy/xNTYS8)

@@ -2,7 +2,7 @@
 
 Expose your Railway bucket publicly in second!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railproxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railproxy)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting railproxy on Railway is fast, flexible, and requires minimal setup. Once
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/railproxy)
+[View on Railway →](https://railway.com/deploy/railproxy)

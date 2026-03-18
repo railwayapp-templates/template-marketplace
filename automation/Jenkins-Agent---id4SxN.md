@@ -2,7 +2,7 @@
 
 A Jenkins automation agent.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/id4SxN)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/id4SxN)
 
 ## About
 
@@ -58,4 +58,4 @@ Your agent should now be setup.
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/id4SxN)
+[View on Railway →](https://railway.com/deploy/id4SxN)

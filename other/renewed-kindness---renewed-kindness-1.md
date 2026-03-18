@@ -2,7 +2,7 @@
 
 Deploy and Host renewed-kindness with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/renewed-kindness-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/renewed-kindness-1)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting `renewed-kindness` on Railway allows you to deploy both the frontend and
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/renewed-kindness-1)
+[View on Railway →](https://railway.com/deploy/renewed-kindness-1)

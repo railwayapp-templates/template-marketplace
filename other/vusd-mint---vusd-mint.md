@@ -2,7 +2,7 @@
 
 Deploy and Host vusd-mint with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vusd-mint)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vusd-mint)
 
 ## About
 
@@ -37,4 +37,4 @@ Each adapter requires a reliable hosting environment to ensure uninterrupted dat
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/vusd-mint)
+[View on Railway →](https://railway.com/deploy/vusd-mint)

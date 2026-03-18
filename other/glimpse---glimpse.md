@@ -2,7 +2,7 @@
 
 Temporary, secure photo sharing with expiring links.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/glimpse)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/glimpse)
 
 ## About
 
@@ -42,4 +42,4 @@ Glimpse requires a PostgreSQL database and persistent filesystem storage for upl
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/glimpse)
+[View on Railway →](https://railway.com/deploy/glimpse)

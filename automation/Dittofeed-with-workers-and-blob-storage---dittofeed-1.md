@@ -2,7 +2,7 @@
 
 Deploy and host Dittofeed, the messaging Automation for All.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dittofeed-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dittofeed-1)
 
 ## About
 
@@ -115,4 +115,4 @@ All three services must use the same values for these environment variables. Onc
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/dittofeed-1)
+[View on Railway →](https://railway.com/deploy/dittofeed-1)

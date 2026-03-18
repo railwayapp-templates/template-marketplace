@@ -2,7 +2,7 @@
 
 Just one click to trace and monitor the lifecycle of your applications
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jaeger-all-in-one)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jaeger-all-in-one)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting Jaeger All In One on Railway provides a plug-and-play observability back
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/jaeger-all-in-one)
+[View on Railway →](https://railway.com/deploy/jaeger-all-in-one)

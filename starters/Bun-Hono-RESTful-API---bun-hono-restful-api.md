@@ -2,7 +2,7 @@
 
 A minimal & blazing fast Bun Hono API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bun-hono-restful-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bun-hono-restful-api)
 
 ## About
 
@@ -25,4 +25,4 @@ Hosting Bun Hono RESTful API 🔥 on Railway means running a compact, compiled B
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/bun-hono-restful-api)
+[View on Railway →](https://railway.com/deploy/bun-hono-restful-api)

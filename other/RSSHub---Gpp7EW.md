@@ -2,7 +2,7 @@
 
 Everything is RSSible. The world's largest RSS network.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Gpp7EW)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Gpp7EW)
 
 ## About
 
@@ -42,4 +42,4 @@ RSSHub delivers millions of contents aggregated from all kinds of sources, our v
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/Gpp7EW)
+[View on Railway →](https://railway.com/deploy/Gpp7EW)

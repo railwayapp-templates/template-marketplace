@@ -2,7 +2,7 @@
 
 This is an online learning application to Grow up your skills
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FpQ2va)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FpQ2va)
 
 ## About
 
@@ -40,4 +40,4 @@ We believe every learner is an individual and every course is an opportunity to 
 
 **Category:** Blogs · **Languages:** Java
 
-[View on Railway →](https://railway.com/template/FpQ2va)
+[View on Railway →](https://railway.com/deploy/FpQ2va)

@@ -2,7 +2,7 @@
 
 Next-gen, Pusher-compatible, open-source WebSockets server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/soketi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/soketi)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting Soketi involves deploying a WebSocket server that handles real-time conn
 
 **Category:** Starters · **Tags:** websockets, pusher, javascript
 
-[View on Railway →](https://railway.com/template/soketi)
+[View on Railway →](https://railway.com/deploy/soketi)

@@ -2,7 +2,7 @@
 
 An open source, self-hosted links shortener and sharing platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wRT7rD)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wRT7rD)
 
 ## About
 
@@ -65,4 +65,4 @@ That's why we developed Slash, a solution that transforms these links into easil
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/wRT7rD)
+[View on Railway →](https://railway.com/deploy/wRT7rD)

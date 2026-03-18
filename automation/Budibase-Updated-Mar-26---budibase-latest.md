@@ -2,7 +2,7 @@
 
 Budibase [Mar ’26] (Build Business Apps Fast Without Coding) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/budibase-latest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/budibase-latest)
 
 ## About
 
@@ -31,4 +31,4 @@ Self-hosting BudiBase on Railway gives you total control over your data, configu
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/budibase-latest)
+[View on Railway →](https://railway.com/deploy/budibase-latest)

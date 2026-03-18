@@ -2,7 +2,7 @@
 
 Show the current status of the Apex Legends login/matchmaking servers!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/TxkIsO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TxkIsO)
 
 ## About
 
@@ -47,4 +47,4 @@ Show the current status of the Apex Legends login/matchmaking servers!
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/TxkIsO)
+[View on Railway →](https://railway.com/deploy/TxkIsO)

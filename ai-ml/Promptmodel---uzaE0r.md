@@ -2,7 +2,7 @@
 
 Host, engineer and manage prompt & model configurations.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uzaE0r)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uzaE0r)
 
 ## About
 
@@ -85,4 +85,4 @@ https://promptmodel.run/discord
 
 **Category:** AI/ML · **Languages:** TypeScript, Python, Dockerfile, JavaScript, CSS, Mako, Shell
 
-[View on Railway →](https://railway.com/template/uzaE0r)
+[View on Railway →](https://railway.com/deploy/uzaE0r)

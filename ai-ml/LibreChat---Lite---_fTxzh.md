@@ -2,7 +2,7 @@
 
 lite version LibreChat without RAG
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_fTxzh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_fTxzh)
 
 ## About
 
@@ -164,4 +164,4 @@ lite version LibreChat without RAG
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/_fTxzh)
+[View on Railway →](https://railway.com/deploy/_fTxzh)

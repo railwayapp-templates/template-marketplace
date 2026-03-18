@@ -2,7 +2,7 @@
 
 PostgreSQL 16 - Open source database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgresql-16-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresql-16-1)
 
 ## About
 
@@ -35,4 +35,4 @@ Deploying Postgres 16 provides a reliable foundation for modern apps, whether yo
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/postgresql-16-1)
+[View on Railway →](https://railway.com/deploy/postgresql-16-1)

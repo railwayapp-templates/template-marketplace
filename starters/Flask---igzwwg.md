@@ -2,7 +2,7 @@
 
 A minimal Flask web application.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/igzwwg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/igzwwg)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting Flask means running a Python web application through a WSGI server that 
 
 **Category:** Starters · **Languages:** HTML, CSS, Python, Procfile
 
-[View on Railway →](https://railway.com/template/igzwwg)
+[View on Railway →](https://railway.com/deploy/igzwwg)

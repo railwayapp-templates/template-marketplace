@@ -2,7 +2,7 @@
 
 View and query your Postgres instance with a sleek and minimalistic UI.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sZ09XT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sZ09XT)
 
 ## About
 
@@ -58,4 +58,4 @@ Add your database URL and you're good to go!
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/sZ09XT)
+[View on Railway →](https://railway.com/deploy/sZ09XT)

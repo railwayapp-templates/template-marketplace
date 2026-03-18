@@ -2,7 +2,7 @@
 
 Get public bucket URLs and serve files with free egress
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/public-bucket-urls)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/public-bucket-urls)
 
 ## About
 
@@ -39,4 +39,4 @@ With S3-style storage, it’s common to use static URLs that perform an authoriz
 
 **Category:** Storage · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/public-bucket-urls)
+[View on Railway →](https://railway.com/deploy/public-bucket-urls)

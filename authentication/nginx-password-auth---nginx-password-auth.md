@@ -2,7 +2,7 @@
 
 Put any service behind a username / password
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nginx-password-auth)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nginx-password-auth)
 
 ## About
 
@@ -37,4 +37,4 @@ Set the internal network of your service as `ORIGIN` and your username / passwor
 
 **Category:** Authentication · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/nginx-password-auth)
+[View on Railway →](https://railway.com/deploy/nginx-password-auth)

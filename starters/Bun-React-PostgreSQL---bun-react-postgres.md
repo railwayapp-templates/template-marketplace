@@ -2,7 +2,7 @@
 
 Deploy and Host React + PostgreSQL + Bun with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bun-react-postgres)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bun-react-postgres)
 
 ## About
 
@@ -36,4 +36,4 @@ Railway automates deployment by provisioning the PostgreSQL database, detecting 
 
 **Category:** Starters · **Languages:** TypeScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/bun-react-postgres)
+[View on Railway →](https://railway.com/deploy/bun-react-postgres)

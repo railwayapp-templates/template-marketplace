@@ -2,7 +2,7 @@
 
 Deploy and Host FastAPI Strawberry GraphQL with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fastapi-strawberry-graphql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-strawberry-graphql)
 
 ## About
 
@@ -36,4 +36,4 @@ Deploying FastAPI Strawberry GraphQL requires an async-capable Python runtime an
 
 **Category:** Starters · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/fastapi-strawberry-graphql)
+[View on Railway →](https://railway.com/deploy/fastapi-strawberry-graphql)

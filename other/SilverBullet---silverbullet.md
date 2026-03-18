@@ -2,7 +2,7 @@
 
 An open source personal productivity platform built on Markdown and Lua.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/silverbullet)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/silverbullet)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting SilverBullet involves running its Go-based backend alongside a compiled 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/silverbullet)
+[View on Railway →](https://railway.com/deploy/silverbullet)

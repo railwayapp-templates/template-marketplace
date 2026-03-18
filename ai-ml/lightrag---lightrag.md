@@ -2,7 +2,7 @@
 
 One-click Graph RAG • Knowledge Graph + Vector Search • Web UI included
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lightrag)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lightrag)
 
 ## About
 
@@ -39,4 +39,4 @@ This template includes the full LightRAG server with a built-in Web UI for docum
 
 **Category:** AI/ML · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/lightrag)
+[View on Railway →](https://railway.com/deploy/lightrag)

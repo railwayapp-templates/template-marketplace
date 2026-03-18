@@ -2,7 +2,7 @@
 
 Open-Source Personal Subscription Tracker
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wallos)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wallos)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting Wallos involves running its official Docker image. The application requi
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/wallos)
+[View on Railway →](https://railway.com/deploy/wallos)

@@ -2,7 +2,7 @@
 
 ScyllaDB [Mar ’26] (High-Speed, Low-Latency Data Platform) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/scylladb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/scylladb)
 
 ## About
 
@@ -35,4 +35,4 @@ You can self-host ScyllaDB to maintain complete control over your database envir
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/scylladb)
+[View on Railway →](https://railway.com/deploy/scylladb)

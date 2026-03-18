@@ -2,7 +2,7 @@
 
 [Mar '26] Self-host your own LLM model server with a single click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ollama-or-self-host-open-source-llms)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ollama-or-self-host-open-source-llms)
 
 ## About
 
@@ -43,4 +43,4 @@ It’s ideal for creators, developers, or teams who want local AI control with c
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/ollama-or-self-host-open-source-llms)
+[View on Railway →](https://railway.com/deploy/ollama-or-self-host-open-source-llms)

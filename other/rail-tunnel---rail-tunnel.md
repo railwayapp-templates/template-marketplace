@@ -2,7 +2,7 @@
 
 Self-hosted tunneling server for Railway - expose localhost to internet
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rail-tunnel)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rail-tunnel)
 
 ## About
 
@@ -18,4 +18,4 @@ Deploying rail-tunnel on Railway requires zero configuration - Railway automatic
 
 **Category:** Other · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/rail-tunnel)
+[View on Railway →](https://railway.com/deploy/rail-tunnel)

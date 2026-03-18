@@ -2,7 +2,7 @@
 
 Tag-based time tracking tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/e88vkn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/e88vkn)
 
 ## About
 
@@ -40,4 +40,4 @@ You can do it just as you like.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/e88vkn)
+[View on Railway →](https://railway.com/deploy/e88vkn)

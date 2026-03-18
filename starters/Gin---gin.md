@@ -2,7 +2,7 @@
 
 A minimal Gin RESTful API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gin)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gin)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting and deploying this Gin API involves compiling the Go source code into a 
 
 **Category:** Starters · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/gin)
+[View on Railway →](https://railway.com/deploy/gin)

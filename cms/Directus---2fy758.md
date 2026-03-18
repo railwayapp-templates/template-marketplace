@@ -2,7 +2,7 @@
 
 Turn any SQL database into an API. Optional S3 and WebSockets Included!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/2fy758)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/2fy758)
 
 ## About
 
@@ -73,4 +73,4 @@ Directus enables you to design and build a REST + GraphQL API in minutes and ena
 
 **Category:** CMS · **Tags:** api, no-code, analytics, data
 
-[View on Railway →](https://railway.com/template/2fy758)
+[View on Railway →](https://railway.com/deploy/2fy758)

@@ -2,7 +2,7 @@
 
 VS Code in the browser, with full packages
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/9wleNz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9wleNz)
 
 ## About
 
@@ -41,4 +41,4 @@ This template creates a dev environment that you can access from any device.
 
 **Category:** Starters · **Languages:** TypeScript, Go, Dockerfile, Rust, JavaScript, Ruby, Python, PHP, Dart, C#, PowerShell, SCSS, Kotlin, Shell, C, Swift, C++, Nim
 
-[View on Railway →](https://railway.com/template/9wleNz)
+[View on Railway →](https://railway.com/deploy/9wleNz)

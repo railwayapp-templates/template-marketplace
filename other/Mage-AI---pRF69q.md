@@ -2,7 +2,7 @@
 
 The modern replacement for Airflow
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pRF69q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pRF69q)
 
 ## About
 
@@ -105,4 +105,4 @@ Don't have a large team dedicated to Airflow? Mage makes it easy for a single de
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/pRF69q)
+[View on Railway →](https://railway.com/deploy/pRF69q)

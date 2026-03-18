@@ -2,7 +2,7 @@
 
 Deploy and Host Statping ng with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/statping-ng)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/statping-ng)
 
 ## About
 
@@ -21,4 +21,4 @@ Statping-ng is built in Go Language so all you need is the pre-compiled binary b
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/statping-ng)
+[View on Railway →](https://railway.com/deploy/statping-ng)

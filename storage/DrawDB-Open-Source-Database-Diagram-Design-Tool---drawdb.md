@@ -2,7 +2,7 @@
 
 DrawDB [Mar ’26] (Visualize & Design Database Schemas Easily) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/drawdb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/drawdb)
 
 ## About
 
@@ -22,4 +22,4 @@ You can self-host DrawDB to manage all your database design projects privately a
 
 **Category:** Storage · **Languages:** JavaScript, CSS, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/drawdb)
+[View on Railway →](https://railway.com/deploy/drawdb)

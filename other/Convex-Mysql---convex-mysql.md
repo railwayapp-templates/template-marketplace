@@ -2,7 +2,7 @@
 
 Convex is the open-source reactive database for app developers. + Mysql DB.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/convex-mysql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/convex-mysql)
 
 ## About
 
@@ -69,4 +69,4 @@ Links:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/convex-mysql)
+[View on Railway →](https://railway.com/deploy/convex-mysql)

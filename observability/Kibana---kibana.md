@@ -2,7 +2,7 @@
 
 Kibana is a visualization and dashboarding tool for data from Elastic.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kibana)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kibana)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting Kibana involves deploying the web-based UI that connects to your Elastic
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/kibana)
+[View on Railway →](https://railway.com/deploy/kibana)

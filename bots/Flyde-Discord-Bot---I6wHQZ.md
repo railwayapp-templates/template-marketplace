@@ -2,7 +2,7 @@
 
 Visually build a discord bot, using Flyde - the OS Visual-Programming tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/I6wHQZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/I6wHQZ)
 
 ## About
 
@@ -31,4 +31,4 @@ Flyde  is a powerful visual flow-based programming toolkit that enables you to c
 
 **Category:** Bots · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/I6wHQZ)
+[View on Railway →](https://railway.com/deploy/I6wHQZ)

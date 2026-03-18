@@ -2,7 +2,7 @@
 
 Open-source torrent indexer with search, metadata, and classification.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bitmagnet)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bitmagnet)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting Bitmagnet involves running the Bitmagnet container alongside a PostgreSQ
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/bitmagnet)
+[View on Railway →](https://railway.com/deploy/bitmagnet)

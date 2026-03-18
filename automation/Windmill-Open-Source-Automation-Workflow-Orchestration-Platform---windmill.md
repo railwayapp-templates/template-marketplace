@@ -2,7 +2,7 @@
 
 Windmill [Mar’26] (Automation & ScriptFirst, Airflow Alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/windmill)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/windmill)
 
 ## About
 
@@ -41,4 +41,4 @@ Self-hosting Windmill ensures you retain full control of your automations, scrip
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/windmill)
+[View on Railway →](https://railway.com/deploy/windmill)

@@ -2,7 +2,7 @@
 
 A self-hosted, open-source media tracker for movies, TV shows and games.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/watcharr-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/watcharr-1)
 
 ## About
 
@@ -31,4 +31,4 @@ Watcharr runs as a single Docker container with two internal processes: a Go bin
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/watcharr-1)
+[View on Railway →](https://railway.com/deploy/watcharr-1)

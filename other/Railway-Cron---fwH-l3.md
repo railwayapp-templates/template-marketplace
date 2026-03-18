@@ -2,7 +2,7 @@
 
 Railway Cron.. But Better?
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fwH-l3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fwH-l3)
 
 ## About
 
@@ -76,4 +76,4 @@ It doesn't matter if you deploy this template to the team or personal account, a
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/fwH-l3)
+[View on Railway →](https://railway.com/deploy/fwH-l3)

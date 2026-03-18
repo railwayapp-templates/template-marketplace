@@ -2,7 +2,7 @@
 
 A ready-to-use 1.20.1 Minecraft server running the Pumpkin server software.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1201-pumpkin-minec-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1201-pumpkin-minec-1)
 
 ## About
 
@@ -23,4 +23,4 @@ With this template, hosting a Pumpkin Minecraft server is effortless. Railway ha
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/1201-pumpkin-minec-1)
+[View on Railway →](https://railway.com/deploy/1201-pumpkin-minec-1)

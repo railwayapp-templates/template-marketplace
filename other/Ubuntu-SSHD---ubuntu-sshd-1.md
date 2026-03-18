@@ -2,7 +2,7 @@
 
 🚀 Deploy and Host Ubuntu SSHD in a few clicks. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ubuntu-sshd-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ubuntu-sshd-1)
 
 ## About
 
@@ -29,4 +29,4 @@ This Docker image creates an Ubuntu 22.04 environment with OpenSSH server pre-co
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/ubuntu-sshd-1)
+[View on Railway →](https://railway.com/deploy/ubuntu-sshd-1)

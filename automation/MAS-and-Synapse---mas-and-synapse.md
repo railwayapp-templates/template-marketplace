@@ -2,7 +2,7 @@
 
 we use mas and synapse for homeserver
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mas-and-synapse)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mas-and-synapse)
 
 ## About
 
@@ -70,4 +70,4 @@ Hosting MAS and Synapse on Railway involves deploying two tightly integrated ser
 
 **Category:** Automation · **Languages:** Python, Go Template, Go, Jinja, Shell, Dockerfile, HCL
 
-[View on Railway →](https://railway.com/template/mas-and-synapse)
+[View on Railway →](https://railway.com/deploy/mas-and-synapse)

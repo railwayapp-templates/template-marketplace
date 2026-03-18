@@ -2,7 +2,7 @@
 
 Your Data Your Control Authenticate & Authorize User For Free
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/authorizer-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/authorizer-1)
 
 ## About
 
@@ -49,4 +49,4 @@ Authorizer– Open-source auth server supporting 13+ databases, $0/user
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/authorizer-1)
+[View on Railway →](https://railway.com/deploy/authorizer-1)

@@ -2,7 +2,7 @@
 
 Jellyfin [Mar ’26] (Media Server | Kodi, Plex & Emby Alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jellyfin)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jellyfin)
 
 ## About
 
@@ -44,4 +44,4 @@ With one click, you can deploy a **Jellyfin server** and start streaming your pe
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/jellyfin)
+[View on Railway →](https://railway.com/deploy/jellyfin)

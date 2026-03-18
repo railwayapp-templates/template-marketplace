@@ -2,7 +2,7 @@
 
 Deploy and Host dokuwiki with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dokuwiki)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dokuwiki)
 
 ## About
 
@@ -32,4 +32,4 @@ Dokuwiki is a PHP-based, file-only wiki engine prized for its simplicity and cle
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/dokuwiki)
+[View on Railway →](https://railway.com/deploy/dokuwiki)

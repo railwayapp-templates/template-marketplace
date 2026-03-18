@@ -2,7 +2,7 @@
 
 SQL database designed for high availability, scalability and resilience.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cockroachdb-insecure-mode)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cockroachdb-insecure-mode)
 
 ## About
 
@@ -37,4 +37,4 @@ Important: Insecure mode allows the following:
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/cockroachdb-insecure-mode)
+[View on Railway →](https://railway.com/deploy/cockroachdb-insecure-mode)

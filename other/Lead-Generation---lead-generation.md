@@ -2,7 +2,7 @@
 
 B2B lead generation and ROI tracking dashboard for immigration lawyers.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lead-generation)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lead-generation)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting Lead-Generation on Railway involves deploying a Dockerized Python applic
 
 **Category:** Other · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/lead-generation)
+[View on Railway →](https://railway.com/deploy/lead-generation)

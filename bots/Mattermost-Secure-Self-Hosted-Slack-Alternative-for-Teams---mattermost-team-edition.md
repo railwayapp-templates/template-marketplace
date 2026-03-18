@@ -2,7 +2,7 @@
 
 Self-host Mattermost on Railway — channels, threads & file sharing.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mattermost-team-edition)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mattermost-team-edition)
 
 ## About
 
@@ -54,4 +54,4 @@ Key features in the free Team Edition:
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/mattermost-team-edition)
+[View on Railway →](https://railway.com/deploy/mattermost-team-edition)

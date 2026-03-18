@@ -2,7 +2,7 @@
 
 Deploy and Host Discord Member Export with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/discord-member-export)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discord-member-export)
 
 ## About
 
@@ -70,4 +70,4 @@ Discord Member Export is a high-performance Discord bot that exports guild membe
 
 **Category:** Other · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/discord-member-export)
+[View on Railway →](https://railway.com/deploy/discord-member-export)

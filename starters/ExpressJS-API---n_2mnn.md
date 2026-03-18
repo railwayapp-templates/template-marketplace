@@ -2,7 +2,7 @@
 
 An Express server written in TypeScript.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n_2mnn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n_2mnn)
 
 ## About
 
@@ -24,4 +24,4 @@ This template solves these challenges by providing pre-configured routing patter
 
 **Category:** Starters · **Languages:** TypeScript, Procfile
 
-[View on Railway →](https://railway.com/template/n_2mnn)
+[View on Railway →](https://railway.com/deploy/n_2mnn)

@@ -2,7 +2,7 @@
 
 Bun, Hono, and DuckDB API for high-performance data analysis.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/i3i9G7)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/i3i9G7)
 
 ## About
 
@@ -30,4 +30,4 @@ This example uses DuckDB in-memory store.
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/i3i9G7)
+[View on Railway →](https://railway.com/deploy/i3i9G7)

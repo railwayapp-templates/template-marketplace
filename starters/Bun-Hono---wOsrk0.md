@@ -2,7 +2,7 @@
 
 A Bun + Hono Starter with Health Check, Route Grouping, Cors and more!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wOsrk0)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wOsrk0)
 
 ## About
 
@@ -29,4 +29,4 @@ We utilize a multi-stage Dockerfile to compile the application into a binary for
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/wOsrk0)
+[View on Railway →](https://railway.com/deploy/wOsrk0)

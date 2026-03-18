@@ -2,7 +2,7 @@
 
 The personal finance app for everyone
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dFsiOp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dFsiOp)
 
 ## About
 
@@ -78,4 +78,4 @@ Maybe is distributed under an AGPLv3 license. " Maybe" is a trademark of Maybe F
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/dFsiOp)
+[View on Railway →](https://railway.com/deploy/dFsiOp)

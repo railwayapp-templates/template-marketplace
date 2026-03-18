@@ -2,7 +2,7 @@
 
 Open source analytics & monitoring solution for every database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/l-CsZl)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/l-CsZl)
 
 ## About
 
@@ -32,4 +32,4 @@ Create, explore, and share beautiful dashboards that combine data from multiple 
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/l-CsZl)
+[View on Railway →](https://railway.com/deploy/l-CsZl)

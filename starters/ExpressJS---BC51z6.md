@@ -2,7 +2,7 @@
 
 An ExpressJS app using the Pug view engine connected to a Postgres database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BC51z6)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BC51z6)
 
 ## About
 
@@ -52,4 +52,4 @@ The server started returns a timestamp from the database via a page using the Pu
 
 **Category:** Starters · **Languages:** JavaScript, Pug, CSS
 
-[View on Railway →](https://railway.com/template/BC51z6)
+[View on Railway →](https://railway.com/deploy/BC51z6)

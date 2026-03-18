@@ -2,7 +2,7 @@
 
 Door Prize System built with Go (Fiber) & Tailwind UI. Zero-database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/door-prize-web-app)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/door-prize-web-app)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting the Door Prize Web App involves deploying a Go binary along with its sta
 
 **Category:** Other · **Languages:** HTML, JavaScript, Dockerfile, Go
 
-[View on Railway →](https://railway.com/template/door-prize-web-app)
+[View on Railway →](https://railway.com/deploy/door-prize-web-app)

@@ -2,7 +2,7 @@
 
 Lightning-fast digital library for books, docs & research papers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kavita)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kavita)
 
 ## About
 
@@ -33,4 +33,4 @@ WARNING: right now railway does not yet support a good way to manage files on vo
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/kavita)
+[View on Railway →](https://railway.com/deploy/kavita)

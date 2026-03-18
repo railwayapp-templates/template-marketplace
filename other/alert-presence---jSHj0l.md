@@ -2,7 +2,7 @@
 
 nbkrist-student-details-update
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jSHj0l)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jSHj0l)
 
 ## About
 
@@ -21,4 +21,4 @@ This template updates NBKR student details on nbkstudenthub.me by scraping data 
 
 **Category:** Other · **Languages:** Python, HTML, Shell, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/jSHj0l)
+[View on Railway →](https://railway.com/deploy/jSHj0l)

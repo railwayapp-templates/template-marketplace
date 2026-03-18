@@ -2,7 +2,7 @@
 
 🧑‍🚀 The better identity infrastructure for developers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/07_f_Z)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/07_f_Z)
 
 ## About
 
@@ -42,4 +42,4 @@ This auth app allows registering arbitrary many OAuth 2 applications even in fre
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/07_f_Z)
+[View on Railway →](https://railway.com/deploy/07_f_Z)

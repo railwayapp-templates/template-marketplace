@@ -2,7 +2,7 @@
 
 Reproducible environment testing static scanner on AI pickle-based files
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/detecting-ai-pickl-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/detecting-ai-pickl-1)
 
 ## About
 
@@ -49,4 +49,4 @@ Deploying the environment ensures the experiment can be reproduced with the same
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/detecting-ai-pickl-1)
+[View on Railway →](https://railway.com/deploy/detecting-ai-pickl-1)

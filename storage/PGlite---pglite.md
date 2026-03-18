@@ -2,7 +2,7 @@
 
 PGlite a real Postgres database that runs anywhere JavaScript runs.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pglite)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pglite)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting the PGlite HTTP Server means running a Node.js-based application that em
 
 **Category:** Storage · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/pglite)
+[View on Railway →](https://railway.com/deploy/pglite)

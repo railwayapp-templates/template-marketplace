@@ -2,7 +2,7 @@
 
 Full LLM stack on Railway with RAG, LLM proxy, and integrated chat UI.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/llm-stack)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/llm-stack)
 
 ## About
 
@@ -89,4 +89,4 @@ Deploying LLM Stack on Railway is a streamlined, one-click process that automati
 
 **Category:** AI/ML · **Languages:** Shell, JavaScript, Dockerfile, CSS, HTML
 
-[View on Railway →](https://railway.com/template/llm-stack)
+[View on Railway →](https://railway.com/deploy/llm-stack)

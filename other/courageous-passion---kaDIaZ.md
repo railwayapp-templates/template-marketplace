@@ -2,7 +2,7 @@
 
 spectra ai spectra ai spectra ai 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kaDIaZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kaDIaZ)
 
 ## About
 
@@ -27,4 +27,4 @@ spectra ai spectra ai spectra ai spectra ai spectra ai spectra ai spectra ai spe
 
 **Category:** Other · **Languages:** JavaScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/kaDIaZ)
+[View on Railway →](https://railway.com/deploy/kaDIaZ)

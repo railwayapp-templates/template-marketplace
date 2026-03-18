@@ -2,7 +2,7 @@
 
 A minimal Typescript webserver.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hIFwIW)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hIFwIW)
 
 ## About
 
@@ -23,4 +23,4 @@ Once the template is used to create a project, it will automatically start witho
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/hIFwIW)
+[View on Railway →](https://railway.com/deploy/hIFwIW)

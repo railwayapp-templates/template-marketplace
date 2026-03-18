@@ -2,7 +2,7 @@
 
 A modern, open-source personal flight tracking system
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/d9pr8z)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/d9pr8z)
 
 ## About
 
@@ -68,4 +68,4 @@ For detailed installation instructions and further information, refer to the off
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/d9pr8z)
+[View on Railway →](https://railway.com/deploy/d9pr8z)

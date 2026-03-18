@@ -2,7 +2,7 @@
 
 Deploy and Host create-bun-stack with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/create-bun-stack)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/create-bun-stack)
 
 ## About
 
@@ -26,4 +26,4 @@ Hosting `create-bun-stack` on Railway enables instant provisioning of the full s
 
 **Category:** Other · **Languages:** TypeScript, CSS, HTML, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/create-bun-stack)
+[View on Railway →](https://railway.com/deploy/create-bun-stack)

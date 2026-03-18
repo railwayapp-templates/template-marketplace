@@ -2,7 +2,7 @@
 
 SendPortal template with PostgreSQL & Redis
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sendportal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sendportal)
 
 ## About
 
@@ -66,4 +66,4 @@ This template provisions a ready‑to‑run container that serves SendPortal (vi
 
 **Category:** CMS · **Languages:** PHP, Blade, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/sendportal)
+[View on Railway →](https://railway.com/deploy/sendportal)

@@ -2,7 +2,7 @@
 
 A lightweight front-end based commenting system
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/UZB84v)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/UZB84v)
 
 ## About
 
@@ -41,4 +41,4 @@ For more information see: https://waline.js.org/guide/get-started/
 
 **Category:** Blogs · **Languages:** Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/UZB84v)
+[View on Railway →](https://railway.com/deploy/UZB84v)

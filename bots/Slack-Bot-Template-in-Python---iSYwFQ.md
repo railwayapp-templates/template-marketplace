@@ -2,7 +2,7 @@
 
 A simple Slack bot programmed in Python
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/iSYwFQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/iSYwFQ)
 
 ## About
 
@@ -94,4 +94,4 @@ here are the Command Names in the template.
 
 **Category:** Bots · **Languages:** Python, Procfile
 
-[View on Railway →](https://railway.com/template/iSYwFQ)
+[View on Railway →](https://railway.com/deploy/iSYwFQ)

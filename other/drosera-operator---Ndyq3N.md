@@ -2,7 +2,7 @@
 
 Drosera solo operator node for running traps. Checkout dev.drosera.io
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Ndyq3N)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Ndyq3N)
 
 ## About
 
@@ -64,4 +64,4 @@ Now we need to redeploy the service to pick up the networking changes
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/Ndyq3N)
+[View on Railway →](https://railway.com/deploy/Ndyq3N)

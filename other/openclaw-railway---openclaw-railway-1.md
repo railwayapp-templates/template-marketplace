@@ -2,7 +2,7 @@
 
 Deploy and Host openclaw-railway with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-railway-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-railway-1)
 
 ## About
 
@@ -31,4 +31,4 @@ Railway builds the included Docker image and runs it as a private service (no pu
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/openclaw-railway-1)
+[View on Railway →](https://railway.com/deploy/openclaw-railway-1)

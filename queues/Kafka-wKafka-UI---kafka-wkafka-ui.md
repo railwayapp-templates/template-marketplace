@@ -2,7 +2,7 @@
 
 One-click deploy: Kafka (KRaft) + Kafka UI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kafka-wkafka-ui)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kafka-wkafka-ui)
 
 ## About
 
@@ -51,4 +51,4 @@ This template deploys a single Kafka broker using Confluent's cp-kafka (KRaft, n
 
 **Category:** Queues · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/kafka-wkafka-ui)
+[View on Railway →](https://railway.com/deploy/kafka-wkafka-ui)

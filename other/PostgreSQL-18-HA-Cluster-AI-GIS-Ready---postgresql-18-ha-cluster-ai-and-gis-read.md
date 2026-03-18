@@ -2,7 +2,7 @@
 
 🚀 Postgres 18 HA Cluster with AI, GIS, and Cron Extensions. Ready to scale
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgresql-18-ha-cluster-ai-and-gis-read)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresql-18-ha-cluster-ai-and-gis-read)
 
 ## About
 
@@ -41,4 +41,4 @@ This template deploys a complete 3-node PostgreSQL cluster: a Primary (read/writ
 
 **Category:** Other · **Languages:** Go, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/postgresql-18-ha-cluster-ai-and-gis-read)
+[View on Railway →](https://railway.com/deploy/postgresql-18-ha-cluster-ai-and-gis-read)

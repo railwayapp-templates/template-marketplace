@@ -2,7 +2,7 @@
 
 N8N AI complete kit. N8N with Postgres pgvector enabled.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/msyuqd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/msyuqd)
 
 ## About
 
@@ -52,4 +52,4 @@ This template is designed for seamless deployment on Railway, leveraging its rob
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/msyuqd)
+[View on Railway →](https://railway.com/deploy/msyuqd)

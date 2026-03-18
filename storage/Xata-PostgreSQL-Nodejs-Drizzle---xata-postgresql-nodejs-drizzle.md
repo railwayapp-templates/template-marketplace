@@ -2,7 +2,7 @@
 
 Deploy and Host Xata PostgreSQL + Node.js + Drizzle with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xata-postgresql-nodejs-drizzle)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xata-postgresql-nodejs-drizzle)
 
 ## About
 
@@ -40,4 +40,4 @@ The `DATABASE_URL` is the only environment variable required. Set it to the Post
 
 **Category:** Storage · **Languages:** JavaScript, HTML, CSS
 
-[View on Railway →](https://railway.com/template/xata-postgresql-nodejs-drizzle)
+[View on Railway →](https://railway.com/deploy/xata-postgresql-nodejs-drizzle)

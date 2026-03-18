@@ -2,7 +2,7 @@
 
 Fast server-side web app with Go, HTMX, and PostgreSQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/htmx-postgressql-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/htmx-postgressql-starter)
 
 ## About
 
@@ -36,4 +36,4 @@ This template deploys a production-ready Go web server with HTMX for interactive
 
 **Category:** Starters · **Languages:** Go, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/htmx-postgressql-starter)
+[View on Railway →](https://railway.com/deploy/htmx-postgressql-starter)

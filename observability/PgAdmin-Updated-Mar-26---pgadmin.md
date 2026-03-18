@@ -2,7 +2,7 @@
 
 PgAdmin [Mar ’26] (GUI to Manage PostgreSQL Databases) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pgadmin)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pgadmin)
 
 ## About
 
@@ -32,4 +32,4 @@ You can self-host PgAdmin on Railway to gain full control over your PostgreSQL d
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/pgadmin)
+[View on Railway →](https://railway.com/deploy/pgadmin)

@@ -2,7 +2,7 @@
 
 A self-hosted platform for deploying and managing applications.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NNuPfr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NNuPfr)
 
 ## About
 
@@ -50,4 +50,4 @@ A self-hosted platform for deploying and managing applications, similar to Verce
 
 **Category:** Other · **Languages:** TypeScript, CSS, JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/NNuPfr)
+[View on Railway →](https://railway.com/deploy/NNuPfr)

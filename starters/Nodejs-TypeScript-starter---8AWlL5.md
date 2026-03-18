@@ -2,7 +2,7 @@
 
 Next gen - fully featured - very lightweight - no dependencies
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/8AWlL5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/8AWlL5)
 
 ## About
 
@@ -32,4 +32,4 @@ Next gen - fully featured - very lightweight - no dependencies
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/8AWlL5)
+[View on Railway →](https://railway.com/deploy/8AWlL5)

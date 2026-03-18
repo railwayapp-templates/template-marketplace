@@ -2,7 +2,7 @@
 
 The open source relational database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Onvy0F)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Onvy0F)
 
 ## About
 
@@ -38,4 +38,4 @@ Hosting MariaDB involves deploying a database server that runs as a persistent s
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/Onvy0F)
+[View on Railway →](https://railway.com/deploy/Onvy0F)

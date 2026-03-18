@@ -2,7 +2,7 @@
 
 A simple Node.js Express app with PostgreSQL for quick API development.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gLUuoq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gLUuoq)
 
 ## About
 
@@ -16,4 +16,4 @@ A simple Node.js Express app with PostgreSQL for quick API development.A simple 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/gLUuoq)
+[View on Railway →](https://railway.com/deploy/gLUuoq)

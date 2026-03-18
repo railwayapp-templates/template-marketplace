@@ -2,7 +2,7 @@
 
 Deploy and Host Drizzle Studio Gateway with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/drizzle-studio)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/drizzle-studio)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting Drizzle Studio involves deploying a web-based database management interf
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/drizzle-studio)
+[View on Railway →](https://railway.com/deploy/drizzle-studio)

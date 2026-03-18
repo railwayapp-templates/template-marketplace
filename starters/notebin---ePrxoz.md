@@ -2,7 +2,7 @@
 
 A codebin with syntax higlighting and made with ejs.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ePrxoz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ePrxoz)
 
 ## About
 
@@ -49,4 +49,4 @@ A codebin with syntax higlighting and made with ejs.
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/ePrxoz)
+[View on Railway →](https://railway.com/deploy/ePrxoz)

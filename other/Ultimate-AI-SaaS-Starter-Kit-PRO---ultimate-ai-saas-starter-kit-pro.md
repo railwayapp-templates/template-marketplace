@@ -2,7 +2,7 @@
 
 Deploy and Host Ultimate AI SaaS Starter Kit PRO with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ultimate-ai-saas-starter-kit-pro)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ultimate-ai-saas-starter-kit-pro)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting Ultimate AI SaaS Starter Kit PRO on Railway eliminates the complexity of
 
 **Category:** Other · **Languages:** JavaScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/ultimate-ai-saas-starter-kit-pro)
+[View on Railway →](https://railway.com/deploy/ultimate-ai-saas-starter-kit-pro)

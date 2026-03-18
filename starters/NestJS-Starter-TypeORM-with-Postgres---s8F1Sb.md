@@ -2,7 +2,7 @@
 
 Starter for API Rest or microservice with NestJS and TypeORM with postgres
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/s8F1Sb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/s8F1Sb)
 
 ## About
 
@@ -55,4 +55,4 @@ NestJS is a progressive Node.js framework for creating efficient, reliable and s
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/s8F1Sb)
+[View on Railway →](https://railway.com/deploy/s8F1Sb)

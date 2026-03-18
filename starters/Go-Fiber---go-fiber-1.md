@@ -2,7 +2,7 @@
 
 A minimal Go Fiber RESTful API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/go-fiber-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/go-fiber-1)
 
 ## About
 
@@ -24,4 +24,4 @@ Hosting a Go Fiber application typically involves building a small statically-li
 
 **Category:** Starters · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/go-fiber-1)
+[View on Railway →](https://railway.com/deploy/go-fiber-1)

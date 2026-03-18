@@ -2,7 +2,7 @@
 
 Lightweight, cookie-free analytics for privacy-focused websites.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JevCvT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JevCvT)
 
 ## About
 
@@ -75,4 +75,4 @@ The `/tracker` directory is licensed under the MIT License. See [LICENSE](https:
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/JevCvT)
+[View on Railway →](https://railway.com/deploy/JevCvT)

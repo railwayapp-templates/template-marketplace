@@ -2,7 +2,7 @@
 
 NextJS + Better Auth + ShadCN pre-installed
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-better-auth-shadcn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-better-auth-shadcn)
 
 ## About
 
@@ -45,4 +45,4 @@ Railway provides:
 
 **Category:** Starters · **Languages:** TypeScript, CSS, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/nextjs-better-auth-shadcn)
+[View on Railway →](https://railway.com/deploy/nextjs-better-auth-shadcn)

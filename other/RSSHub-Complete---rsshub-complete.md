@@ -2,7 +2,7 @@
 
 🚪 The world's largest RSS network, with the most complete setup.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rsshub-complete)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rsshub-complete)
 
 ## About
 
@@ -50,4 +50,4 @@
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/rsshub-complete)
+[View on Railway →](https://railway.com/deploy/rsshub-complete)

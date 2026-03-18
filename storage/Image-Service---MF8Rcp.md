@@ -2,7 +2,7 @@
 
 Upload, serve, and process images. On-the-fly image optimization and more. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/MF8Rcp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MF8Rcp)
 
 ## About
 
@@ -47,4 +47,4 @@ Upload, serve, and process images on Railways. Includes on-the-fly image resizin
 
 **Category:** Storage · **Languages:** Go, TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/MF8Rcp)
+[View on Railway →](https://railway.com/deploy/MF8Rcp)

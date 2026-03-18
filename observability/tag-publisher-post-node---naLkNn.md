@@ -2,7 +2,7 @@
 
 Demo for Zebra Reader Tag Data Post
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/naLkNn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/naLkNn)
 
 ## About
 
@@ -31,4 +31,4 @@ Note that, basic authentication is added. Please change where needed for usernam
 
 **Category:** Observability · **Languages:** HTML, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/naLkNn)
+[View on Railway →](https://railway.com/deploy/naLkNn)

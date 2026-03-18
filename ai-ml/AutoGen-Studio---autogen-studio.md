@@ -2,7 +2,7 @@
 
 Build Multi-Agent Apps and rapidly prototype AI agents
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/autogen-studio)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/autogen-studio)
 
 ## About
 
@@ -34,4 +34,4 @@ Crucially, this deployment solves the lack of built-in security by automatically
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/autogen-studio)
+[View on Railway →](https://railway.com/deploy/autogen-studio)

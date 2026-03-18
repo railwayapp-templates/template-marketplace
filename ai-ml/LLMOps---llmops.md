@@ -2,7 +2,7 @@
 
 Ship LLM features confidently with production-grade infrastructure.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/llmops)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/llmops)
 
 ## About
 
@@ -35,4 +35,4 @@ Deploying LLMOps involves running a containerized application stack that orchest
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/llmops)
+[View on Railway →](https://railway.com/deploy/llmops)

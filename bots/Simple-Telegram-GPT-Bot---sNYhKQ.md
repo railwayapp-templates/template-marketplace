@@ -2,7 +2,7 @@
 
 A simple AI chatbot leverages GPT models.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sNYhKQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sNYhKQ)
 
 ## About
 
@@ -58,4 +58,4 @@ Any feedback is welcome: https://github.com/kaxing/simple-telegram-gpt-bot/discu
 
 **Category:** Bots · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/sNYhKQ)
+[View on Railway →](https://railway.com/deploy/sNYhKQ)

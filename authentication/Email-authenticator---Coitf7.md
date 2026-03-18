@@ -2,7 +2,7 @@
 
 Email Authentication service.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Coitf7)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Coitf7)
 
 ## About
 
@@ -58,4 +58,4 @@ By default code will disappear in 15 minutes but you can change that.
 
 **Category:** Authentication · **Languages:** Python, Procfile
 
-[View on Railway →](https://railway.com/template/Coitf7)
+[View on Railway →](https://railway.com/deploy/Coitf7)

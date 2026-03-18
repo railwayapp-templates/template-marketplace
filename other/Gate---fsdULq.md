@@ -2,7 +2,7 @@
 
 The Lightweight Minecraft Proxy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fsdULq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fsdULq)
 
 ## About
 
@@ -54,4 +54,4 @@ The player can be moved around the network of Minecraft servers without fully di
 
 **Category:** Other · **Languages:** Go, TypeScript, Vue, CSS, Makefile, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/fsdULq)
+[View on Railway →](https://railway.com/deploy/fsdULq)

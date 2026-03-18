@@ -2,7 +2,7 @@
 
 An open source project management platform for simplicity and efficiency
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/PjKE1E)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PjKE1E)
 
 ## About
 
@@ -77,4 +77,4 @@ Give Kaneo a ⭐ on [GitHub](https://github.com/usekaneo/kaneo) if you find it u
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/PjKE1E)
+[View on Railway →](https://railway.com/deploy/PjKE1E)

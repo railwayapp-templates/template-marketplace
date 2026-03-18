@@ -2,7 +2,7 @@
 
 Mixpanel and Plausible combined into one tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openpanel)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openpanel)
 
 ## About
 
@@ -71,4 +71,4 @@ Hosting OpenPanel involves setting up the necessary infrastructure to support it
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/openpanel)
+[View on Railway →](https://railway.com/deploy/openpanel)

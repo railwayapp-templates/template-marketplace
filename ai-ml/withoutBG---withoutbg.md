@@ -2,7 +2,7 @@
 
 AI Image Background Removal
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/withoutbg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/withoutbg)
 
 ## About
 
@@ -26,4 +26,4 @@ To use this web app as an API, simply POST the image as multi-part form data to 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/withoutbg)
+[View on Railway →](https://railway.com/deploy/withoutbg)

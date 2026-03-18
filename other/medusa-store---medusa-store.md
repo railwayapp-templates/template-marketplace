@@ -2,7 +2,7 @@
 
 Deploy Medusa Worker and Server with a private connection to Redis.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/medusa-store)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/medusa-store)
 
 ## About
 
@@ -62,4 +62,4 @@ Hosting medusa-store involves deploying a Node.js Medusa backend along with supp
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/medusa-store)
+[View on Railway →](https://railway.com/deploy/medusa-store)

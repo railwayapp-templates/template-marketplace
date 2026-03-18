@@ -2,7 +2,7 @@
 
 A simple Rails app
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sibk1f)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sibk1f)
 
 ## About
 
@@ -57,4 +57,4 @@ Note: `rails console` is not supported on Railway.
 
 **Category:** Starters · **Tags:** ruby, server · **Languages:** Ruby, HTML, CSS, JavaScript, Procfile
 
-[View on Railway →](https://railway.com/template/sibk1f)
+[View on Railway →](https://railway.com/deploy/sibk1f)

@@ -2,7 +2,7 @@
 
 Django 5.2 LTS starter with PostgreSQL and production-ready defaults
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/django-starter-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/django-starter-template)
 
 ## About
 
@@ -62,4 +62,4 @@ A production-ready Django 5.2 LTS starter template with PostgreSQL, WhiteNoise s
 
 **Category:** Other · **Languages:** Python, HTML, CSS
 
-[View on Railway →](https://railway.com/template/django-starter-template)
+[View on Railway →](https://railway.com/deploy/django-starter-template)

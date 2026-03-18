@@ -2,7 +2,7 @@
 
 Build modern Telegram bots quickly with TypeScript and Telegraf
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7cnESs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7cnESs)
 
 ## About
 
@@ -37,4 +37,4 @@ This is a deploy-ready Telegram Bot Starter Kit built with TypeScript and Telegr
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/7cnESs)
+[View on Railway →](https://railway.com/deploy/7cnESs)

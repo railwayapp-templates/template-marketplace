@@ -2,7 +2,7 @@
 
 [Mar '26] Self host the most secure & production grade n8n stack.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-on-railway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-on-railway)
 
 ## About
 
@@ -102,4 +102,4 @@ This setup comes fully pre-configured — just click **Deploy** and your **n8n**
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-on-railway)
+[View on Railway →](https://railway.com/deploy/n8n-on-railway)

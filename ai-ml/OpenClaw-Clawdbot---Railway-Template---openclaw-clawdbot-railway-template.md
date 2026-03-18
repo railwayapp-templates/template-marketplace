@@ -2,7 +2,7 @@
 
 Deploy and Host OpenClaw (Clawdbot) - Railway Template with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-clawdbot-railway-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-clawdbot-railway-template)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting OpenClaw (Clawdbot) on Railway deploys a web-accessible OpenClaw (Clawdb
 
 **Category:** AI/ML · **Languages:** JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/openclaw-clawdbot-railway-template)
+[View on Railway →](https://railway.com/deploy/openclaw-clawdbot-railway-template)

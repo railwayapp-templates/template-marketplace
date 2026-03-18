@@ -2,7 +2,7 @@
 
 Image transformation alternative to cloudinary, imgix, twicpics, imagekit
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/repix)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/repix)
 
 ## About
 
@@ -41,4 +41,4 @@ The high-performance image transformation service. Transform, optimize, and deli
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/repix)
+[View on Railway →](https://railway.com/deploy/repix)

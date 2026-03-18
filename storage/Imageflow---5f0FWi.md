@@ -2,7 +2,7 @@
 
 Optimal images at incredible speeds
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5f0FWi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5f0FWi)
 
 ## About
 
@@ -111,4 +111,4 @@ public class Program
 
 **Category:** Storage · **Languages:** C#
 
-[View on Railway →](https://railway.com/template/5f0FWi)
+[View on Railway →](https://railway.com/deploy/5f0FWi)

@@ -2,7 +2,7 @@
 
 Open-source, self-hosted Applicant Tracking System (ATS)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/reqcore)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/reqcore)
 
 ## About
 
@@ -39,4 +39,4 @@ Deploying Reqcore on Railway gives you a fully managed ATS without maintaining y
 
 **Category:** Other · **Languages:** Vue, TypeScript, CSS, Shell, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/reqcore)
+[View on Railway →](https://railway.com/deploy/reqcore)

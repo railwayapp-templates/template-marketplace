@@ -2,7 +2,7 @@
 
 A high-performance, distributed memory object caching system
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jhyKTw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jhyKTw)
 
 ## About
 
@@ -95,4 +95,4 @@ Rather than broadcasting changes to all available hosts, clients directly addres
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/jhyKTw)
+[View on Railway →](https://railway.com/deploy/jhyKTw)

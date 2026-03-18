@@ -2,7 +2,7 @@
 
 The de facto standard self-hosted URL shortener.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/yourls)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yourls)
 
 ## About
 
@@ -72,4 +72,4 @@ From the domain with the “Forbidden” message, add `/admin` to the end of the
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/yourls)
+[View on Railway →](https://railway.com/deploy/yourls)

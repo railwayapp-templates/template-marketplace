@@ -2,7 +2,7 @@
 
 Deploy and Host 🚀 SEO Content Automation with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lynx-seo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lynx-seo)
 
 ## About
 
@@ -119,4 +119,4 @@ This project depends on:
 
 **Category:** Other · **Languages:** TypeScript, CSS, JavaScript, PLpgSQL
 
-[View on Railway →](https://railway.com/template/lynx-seo)
+[View on Railway →](https://railway.com/deploy/lynx-seo)

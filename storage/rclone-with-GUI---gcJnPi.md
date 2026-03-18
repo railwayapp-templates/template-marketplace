@@ -2,7 +2,7 @@
 
 Sync, manage files across clouds and local + GUI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gcJnPi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gcJnPi)
 
 ## About
 
@@ -187,4 +187,4 @@ These backends adapt or modify other storage providers
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/gcJnPi)
+[View on Railway →](https://railway.com/deploy/gcJnPi)

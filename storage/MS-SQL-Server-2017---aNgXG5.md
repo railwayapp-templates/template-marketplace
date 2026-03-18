@@ -2,7 +2,7 @@
 
 Easily deploy an MSSQL Server 2017 instance with pre-configured settings
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aNgXG5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aNgXG5)
 
 ## About
 
@@ -78,4 +78,4 @@ Enjoy using MSSQL Server 2017 on Railway! 🎉
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/aNgXG5)
+[View on Railway →](https://railway.com/deploy/aNgXG5)

@@ -2,7 +2,7 @@
 
 Self-host DIaloqbase. Chat with your docs - PDF, URL, Git, YT
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/self-host-dialoqbase)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/self-host-dialoqbase)
 
 ## About
 
@@ -76,4 +76,4 @@ The Dialoqbase app talks to Postgres over Railway's private network for fast, se
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/self-host-dialoqbase)
+[View on Railway →](https://railway.com/deploy/self-host-dialoqbase)

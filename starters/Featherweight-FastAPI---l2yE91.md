@@ -2,7 +2,7 @@
 
 A lightweight FastAPI starter, with some batteries included.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/l2yE91)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/l2yE91)
 
 ## About
 
@@ -48,4 +48,4 @@ Rather than starting with a template that requires you to rip all sorts of thing
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/l2yE91)
+[View on Railway →](https://railway.com/deploy/l2yE91)

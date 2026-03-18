@@ -2,7 +2,7 @@
 
 Drag-and-drop interface for building AI-powered agents and workflows.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/LcJLmZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/LcJLmZ)
 
 ## About
 
@@ -45,4 +45,4 @@ This template deploys a drag-and-drop web interface for [LangChain](https://pyth
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/LcJLmZ)
+[View on Railway →](https://railway.com/deploy/LcJLmZ)

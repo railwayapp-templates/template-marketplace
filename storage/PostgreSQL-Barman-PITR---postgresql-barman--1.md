@@ -2,7 +2,7 @@
 
 Deploy and Host PostgreSQL + Barman (PITR) with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgresql-barman--1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresql-barman--1)
 
 ## About
 
@@ -49,4 +49,4 @@ This template deploys PostgreSQL with Barman backup management for learning and 
 
 **Category:** Storage · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/postgresql-barman--1)
+[View on Railway →](https://railway.com/deploy/postgresql-barman--1)

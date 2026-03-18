@@ -2,7 +2,7 @@
 
 A production-ready React SaaS app built on The Boring JavaScript Stack
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ascent-react)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ascent-react)
 
 ## About
 
@@ -71,4 +71,4 @@ Railway handles the build process automatically, provisions the database, and ma
 
 **Category:** Starters · **Languages:** JavaScript, EJS, Vue, Svelte, CSS, Shell
 
-[View on Railway →](https://railway.com/template/ascent-react)
+[View on Railway →](https://railway.com/deploy/ascent-react)

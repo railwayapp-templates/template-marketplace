@@ -2,7 +2,7 @@
 
 A lightweight, user-friendly platform for building AI agent workflows.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sim-studio)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sim-studio)
 
 ## About
 
@@ -69,4 +69,4 @@ If you wish to prevent other users accessing your server, you can set the `DISAB
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/sim-studio)
+[View on Railway →](https://railway.com/deploy/sim-studio)

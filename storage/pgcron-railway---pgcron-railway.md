@@ -2,7 +2,7 @@
 
 Open-source cron-based job scheduler for PostgreSQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pgcron-railway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pgcron-railway)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting pgcron-railway involves enabling the pg_cron extension in your Railway P
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/pgcron-railway)
+[View on Railway →](https://railway.com/deploy/pgcron-railway)

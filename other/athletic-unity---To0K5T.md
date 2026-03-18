@@ -2,7 +2,7 @@
 
 1111rthrhtrytrreswwyukuyyjt
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/To0K5T)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/To0K5T)
 
 ## About
 
@@ -27,4 +27,4 @@ dgfhghhhhhhhhhhhhdfddgfdrewredffhgfhhggfhfyhttgrgrdgfhffhghgyrgdfetjghjyiuykujhg
 
 **Category:** Other · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/To0K5T)
+[View on Railway →](https://railway.com/deploy/To0K5T)

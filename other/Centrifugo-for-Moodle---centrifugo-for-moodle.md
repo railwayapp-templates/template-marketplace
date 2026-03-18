@@ -2,7 +2,7 @@
 
 Web sockets support in Moodle (tool_realtime)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/centrifugo-for-moodle)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/centrifugo-for-moodle)
 
 ## About
 
@@ -42,4 +42,4 @@ Once deployed, copy the generated service URL and keys into the Centrifugo plugi
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/centrifugo-for-moodle)
+[View on Railway →](https://railway.com/deploy/centrifugo-for-moodle)

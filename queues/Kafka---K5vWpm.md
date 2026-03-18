@@ -2,7 +2,7 @@
 
 A Kafka template on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/K5vWpm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/K5vWpm)
 
 ## About
 
@@ -56,4 +56,4 @@ This template facilitates the deployment of an instance of [Apache Kafka](https:
 
 **Category:** Queues · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/K5vWpm)
+[View on Railway →](https://railway.com/deploy/K5vWpm)

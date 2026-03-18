@@ -2,7 +2,7 @@
 
 Automated PostgreSQL backups to S3 with restore verification
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sparkling-creation)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sparkling-creation)
 
 ## About
 
@@ -47,4 +47,4 @@ Both services are lightweight containers built on `postgres:16-alpine` with mini
 
 **Category:** Automation · **Languages:** Shell, Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/sparkling-creation)
+[View on Railway →](https://railway.com/deploy/sparkling-creation)

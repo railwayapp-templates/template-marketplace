@@ -2,7 +2,7 @@
 
 TimescaleDB [Mar ’26] (Analyze Time-Based Data Efficiently) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/timescaledb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/timescaledb)
 
 ## About
 
@@ -37,4 +37,4 @@ Railway provides a streamlined experience for developers looking to host Timesca
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/timescaledb)
+[View on Railway →](https://railway.com/deploy/timescaledb)

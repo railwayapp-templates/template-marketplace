@@ -2,7 +2,7 @@
 
 Nextjs starter with Headless Wordpress 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/QA-TYt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/QA-TYt)
 
 ## About
 
@@ -72,4 +72,4 @@ This is a starter template for building a Next.js application that fetches data 
 
 **Category:** Blogs · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/QA-TYt)
+[View on Railway →](https://railway.com/deploy/QA-TYt)

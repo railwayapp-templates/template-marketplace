@@ -2,7 +2,7 @@
 
 Language-agnostic persistent background job server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Hh00T5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Hh00T5)
 
 ## About
 
@@ -44,4 +44,4 @@ Language-agnostic persistent background job server
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/Hh00T5)
+[View on Railway →](https://railway.com/deploy/Hh00T5)

@@ -2,7 +2,7 @@
 
 Geolocate IP/IP location api in one click
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/LiUOsa)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/LiUOsa)
 
 ## About
 
@@ -31,4 +31,4 @@ or https://{your_domain}/me to get your public ip location
 
 **Category:** Other · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/LiUOsa)
+[View on Railway →](https://railway.com/deploy/LiUOsa)

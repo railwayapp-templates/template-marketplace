@@ -2,7 +2,7 @@
 
 Claude Code in a Docker container. Access from any browser, anywhere.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ragent)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ragent)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting Ragent on Railway spins up a Docker container running a Node.js backend 
 
 **Category:** AI/ML · **Languages:** JavaScript, HTML, CSS, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/ragent)
+[View on Railway →](https://railway.com/deploy/ragent)

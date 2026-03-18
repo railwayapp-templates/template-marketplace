@@ -2,7 +2,7 @@
 
 An all-in-one application for RAG, AI Agents, multi-user management & more
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HNSCS1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HNSCS1)
 
 ## About
 
@@ -40,4 +40,4 @@ See supported [LLMs](https://github.com/Mintplex-Labs/anything-llm?tab=readme-ov
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/HNSCS1)
+[View on Railway →](https://railway.com/deploy/HNSCS1)

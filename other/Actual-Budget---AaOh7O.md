@@ -2,7 +2,7 @@
 
 Privacy focused finance manager
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/AaOh7O)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/AaOh7O)
 
 ## About
 
@@ -39,4 +39,4 @@ Happy financing!
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/AaOh7O)
+[View on Railway →](https://railway.com/deploy/AaOh7O)

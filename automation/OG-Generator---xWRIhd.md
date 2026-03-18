@@ -2,7 +2,7 @@
 
 Open Graph image generator for Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xWRIhd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xWRIhd)
 
 ## About
 
@@ -20,4 +20,4 @@ A long description
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/xWRIhd)
+[View on Railway →](https://railway.com/deploy/xWRIhd)

@@ -2,7 +2,7 @@
 
 Deploy-ready Apollo MCP server for Apollo MCP projects
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/apollo-mcp-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/apollo-mcp-server)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting the Apollo MCP Server is a standalone deployment: you run the MCP proces
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/apollo-mcp-server)
+[View on Railway →](https://railway.com/deploy/apollo-mcp-server)

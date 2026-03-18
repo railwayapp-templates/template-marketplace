@@ -2,7 +2,7 @@
 
 The Kanban tracking tool for issues and ideas by 37signals
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fizzy-mysql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fizzy-mysql)
 
 ## About
 
@@ -64,4 +64,4 @@ Hosting Fizzy (MySQL) on Railway runs the Rails app as a web service backed by a
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/fizzy-mysql)
+[View on Railway →](https://railway.com/deploy/fizzy-mysql)

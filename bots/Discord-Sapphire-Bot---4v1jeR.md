@@ -2,7 +2,7 @@
 
 Discord Bot template using Sapphire and Typescript
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4v1jeR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4v1jeR)
 
 ## About
 
@@ -32,4 +32,4 @@ Sapphire is a next-gen object-oriented Discord.js bot framework.
 
 **Category:** Bots · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/4v1jeR)
+[View on Railway →](https://railway.com/deploy/4v1jeR)

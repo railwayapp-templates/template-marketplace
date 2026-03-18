@@ -2,7 +2,7 @@
 
 A self-hosted setup for Atuin, the shell history sync server.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5J-Ofu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5J-Ofu)
 
 ## About
 
@@ -41,4 +41,4 @@ After that you can run `atuin register` to register with your self-hosted instan
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/5J-Ofu)
+[View on Railway →](https://railway.com/deploy/5J-Ofu)

@@ -2,7 +2,7 @@
 
 Production-grade Wordpress on PHP-FPM, mySQL & Redis
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wordpress-nginx-ph-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wordpress-nginx-ph-1)
 
 ## About
 
@@ -69,4 +69,4 @@ Hosting WordPress with Nginx, PHP-FPM, and Redis involves deploying a high-perfo
 
 **Category:** Blogs · **Languages:** Shell, Dockerfile, PHP
 
-[View on Railway →](https://railway.com/template/wordpress-nginx-ph-1)
+[View on Railway →](https://railway.com/deploy/wordpress-nginx-ph-1)

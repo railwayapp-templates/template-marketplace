@@ -2,7 +2,7 @@
 
 Vault container in Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vOXRB-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vOXRB-)
 
 ## About
 
@@ -54,4 +54,4 @@ Once the project deployed, you must init it :
 
 **Category:** Storage · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/vOXRB-)
+[View on Railway →](https://railway.com/deploy/vOXRB-)

@@ -2,7 +2,7 @@
 
 This template will run a Tribes server instance.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tribes-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tribes-server)
 
 ## About
 
@@ -38,4 +38,4 @@ Tribes servers regularly delete information to keep a slim profile and so as to 
 
 **Category:** Other · **Languages:** Python, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/tribes-server)
+[View on Railway →](https://railway.com/deploy/tribes-server)

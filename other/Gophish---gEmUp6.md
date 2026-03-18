@@ -2,7 +2,7 @@
 
 An open-source phishing simulation toolkit for pentesters & security teams.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gEmUp6)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gEmUp6)
 
 ## About
 
@@ -38,4 +38,4 @@ Once deployed, look for the `admin` credentials under the `View Logs` section of
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/gEmUp6)
+[View on Railway →](https://railway.com/deploy/gEmUp6)

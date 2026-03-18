@@ -2,7 +2,7 @@
 
 A Python-based toolkit for Information Gathering & Reconnaissance
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/argus)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/argus)
 
 ## About
 
@@ -32,4 +32,4 @@ Deploying Argus on Railway runs the upstream Argus framework inside a secure, br
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/argus)
+[View on Railway →](https://railway.com/deploy/argus)

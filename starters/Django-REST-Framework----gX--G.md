@@ -2,7 +2,7 @@
 
 Django REST Framework with postgres, redis and whitenoise
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-gX--G)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-gX--G)
 
 ## About
 
@@ -48,4 +48,4 @@ Introducing a streamlined Django template for seamless deployment on Railway! Th
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/-gX--G)
+[View on Railway →](https://railway.com/deploy/-gX--G)

@@ -2,7 +2,7 @@
 
 A small service that verifies specific X/Twitter interactions.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/twitter-media-tracker)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/twitter-media-tracker)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting this project on Railway requires a Node 18+ runtime, an Apify account wi
 
 **Category:** Analytics · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/twitter-media-tracker)
+[View on Railway →](https://railway.com/deploy/twitter-media-tracker)

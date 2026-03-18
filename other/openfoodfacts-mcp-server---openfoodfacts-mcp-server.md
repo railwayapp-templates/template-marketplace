@@ -2,7 +2,7 @@
 
 Deploy and Host openfoodfacts-mcp-server with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openfoodfacts-mcp-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openfoodfacts-mcp-server)
 
 ## About
 
@@ -30,4 +30,4 @@ Simply deploy this template and have a running mcp server. It will take some tim
 
 **Category:** Other · **Languages:** Go, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/openfoodfacts-mcp-server)
+[View on Railway →](https://railway.com/deploy/openfoodfacts-mcp-server)

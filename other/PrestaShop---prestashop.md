@@ -2,7 +2,7 @@
 
 [Updated Mar 2026] PrestaShop 9 Production Template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/prestashop)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/prestashop)
 
 ## About
 
@@ -52,4 +52,4 @@ Hosting PrestaShop requires a PHP-enabled web server (Apache or Nginx), a MySQL 
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/prestashop)
+[View on Railway →](https://railway.com/deploy/prestashop)

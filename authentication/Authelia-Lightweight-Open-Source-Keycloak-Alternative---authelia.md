@@ -2,7 +2,7 @@
 
 Self-Host Authelia -  SSO, TOTP, WebAuthn, OpenID Connect, forward auth
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/authelia)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/authelia)
 
 ## About
 
@@ -72,4 +72,4 @@ Authelia is a lightweight IAM gateway — not a full identity provider. It sits 
 
 **Category:** Authentication · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/authelia)
+[View on Railway →](https://railway.com/deploy/authelia)

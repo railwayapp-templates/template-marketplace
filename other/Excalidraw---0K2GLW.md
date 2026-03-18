@@ -2,7 +2,7 @@
 
 Virtual whiteboard for sketching hand-drawn like diagrams.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0K2GLW)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0K2GLW)
 
 ## About
 
@@ -47,4 +47,4 @@ The Docker image is free of analytics and other tracking libraries.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/0K2GLW)
+[View on Railway →](https://railway.com/deploy/0K2GLW)

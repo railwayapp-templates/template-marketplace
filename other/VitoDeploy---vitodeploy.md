@@ -2,7 +2,7 @@
 
 Free, Self-Hosted, Open-Source Server Management Tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vitodeploy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vitodeploy)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting VitoDeploy on Railway lets you run the Vito web app as a simple containe
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/vitodeploy)
+[View on Railway →](https://railway.com/deploy/vitodeploy)

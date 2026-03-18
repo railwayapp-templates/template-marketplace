@@ -2,7 +2,7 @@
 
 The open source alternative to Trello
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kan)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kan)
 
 ## About
 
@@ -71,4 +71,4 @@ Hosting Kan requires a PostgreSQL database for data storage, which Railway provi
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/kan)
+[View on Railway →](https://railway.com/deploy/kan)

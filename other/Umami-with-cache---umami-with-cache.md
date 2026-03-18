@@ -2,7 +2,7 @@
 
 Umami makes it easy to collect, analyze, and understand your website data
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/umami-with-cache)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/umami-with-cache)
 
 ## About
 
@@ -50,4 +50,4 @@ Deploying Umami with cache on Railway gives you a complete web analytics stack w
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/umami-with-cache)
+[View on Railway →](https://railway.com/deploy/umami-with-cache)

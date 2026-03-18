@@ -2,7 +2,7 @@
 
 Sync files from one bucket to another, using rclone
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bucket-sync)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bucket-sync)
 
 ## About
 
@@ -48,4 +48,4 @@ When you configure and deploy this template, it will start to sync your files. Y
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/bucket-sync)
+[View on Railway →](https://railway.com/deploy/bucket-sync)

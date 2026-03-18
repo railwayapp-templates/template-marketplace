@@ -2,7 +2,7 @@
 
 Minimalist R Shiny Web App 📊
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/r-shiny)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/r-shiny)
 
 ## About
 
@@ -25,4 +25,4 @@ Hosting R Shiny requires an environment pre-configured with the R runtime and ne
 
 **Category:** Starters · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/r-shiny)
+[View on Railway →](https://railway.com/deploy/r-shiny)

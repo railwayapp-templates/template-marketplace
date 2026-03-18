@@ -2,7 +2,7 @@
 
 An open-source project management suite
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/manage)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/manage)
 
 ## About
 
@@ -59,4 +59,4 @@ Deploying Manage on Railway involves provisioning a PostgreSQL database and conf
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/manage)
+[View on Railway →](https://railway.com/deploy/manage)

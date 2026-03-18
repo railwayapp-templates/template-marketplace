@@ -2,7 +2,7 @@
 
 Lightweight, encrypted, and selfhosted Firefox Send alternative. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/c7QMpx)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/c7QMpx)
 
 ## About
 
@@ -31,4 +31,4 @@ Identical files will be deduplicated. An API is available to interact with Gokap
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/c7QMpx)
+[View on Railway →](https://railway.com/deploy/c7QMpx)

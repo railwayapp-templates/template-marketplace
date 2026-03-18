@@ -2,7 +2,7 @@
 
 Strapi v5 + AWS S3 Starter Template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5P18on)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5P18on)
 
 ## About
 
@@ -44,4 +44,4 @@ This template streamlines deploying a Strapi v5 instance with PostgreSQL and AWS
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/5P18on)
+[View on Railway →](https://railway.com/deploy/5P18on)

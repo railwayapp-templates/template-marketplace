@@ -2,7 +2,7 @@
 
 Flexible and secure way to share files and folders
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rLkDBH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rLkDBH)
 
 ## About
 
@@ -64,4 +64,4 @@ The default username and password is `admin`. Recommended to change this immedia
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/rLkDBH)
+[View on Railway →](https://railway.com/deploy/rLkDBH)

@@ -2,7 +2,7 @@
 
 Starter template for Rails 8 with Solid Stack, PostgreSQL, and Docker.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railwayrails8starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railwayrails8starter)
 
 ## About
 
@@ -65,4 +65,4 @@ This template also includes Mission Control Jobs at /jobs, giving you real-time 
 
 **Category:** Starters · **Languages:** Ruby, HTML, Shell, Dockerfile, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/railwayrails8starter)
+[View on Railway →](https://railway.com/deploy/railwayrails8starter)

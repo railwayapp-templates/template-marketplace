@@ -2,7 +2,7 @@
 
 Unite your frontend & backend into one domain
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7uDSyj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7uDSyj)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting a Caddy reverse proxy involves deploying a web server that routes incomi
 
 **Category:** Starters · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/7uDSyj)
+[View on Railway →](https://railway.com/deploy/7uDSyj)

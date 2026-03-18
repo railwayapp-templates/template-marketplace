@@ -2,7 +2,7 @@
 
 Deploy and Host MySQL en Railway with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mysql-en-railway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mysql-en-railway)
 
 ## About
 
@@ -34,4 +34,4 @@ Este proyecto proporciona un contenedor Dockerizado para **MySQL 8.0**, preconfi
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/mysql-en-railway)
+[View on Railway →](https://railway.com/deploy/mysql-en-railway)

@@ -2,7 +2,7 @@
 
 Nanobot 1-Click Deploy for Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nanobot-3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nanobot-3)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting Nanobot involves deploying a backend service that runs your AI agent log
 
 **Category:** Other · **Languages:** HTML, Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/nanobot-3)
+[View on Railway →](https://railway.com/deploy/nanobot-3)

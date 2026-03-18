@@ -2,7 +2,7 @@
 
 Deploy and Host N8N MCP Server with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-mcp-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-mcp-server)
 
 ## About
 
@@ -28,4 +28,4 @@ Deploying the N8N MCP Server on Railway provides an effortless way to host and s
 
 **Category:** Automation · **Languages:** TypeScript, JavaScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/n8n-mcp-server)
+[View on Railway →](https://railway.com/deploy/n8n-mcp-server)

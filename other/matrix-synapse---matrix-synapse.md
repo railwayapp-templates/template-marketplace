@@ -2,7 +2,7 @@
 
 Deploy matrix synapse server with Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/matrix-synapse)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/matrix-synapse)
 
 ## About
 
@@ -55,4 +55,4 @@ https://element-hq.github.io/synapse/latest/usage/configuration/config_documenta
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/matrix-synapse)
+[View on Railway →](https://railway.com/deploy/matrix-synapse)

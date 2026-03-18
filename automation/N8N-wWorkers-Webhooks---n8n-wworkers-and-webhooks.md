@@ -2,7 +2,7 @@
 
 Deploy and Host N8N (w/Workers & Webhooks) with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-wworkers-and-webhooks)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-wworkers-and-webhooks)
 
 ## About
 
@@ -75,4 +75,4 @@ Hosting n8n on Railway is straightforward: provision a service using this templa
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-wworkers-and-webhooks)
+[View on Railway →](https://railway.com/deploy/n8n-wworkers-and-webhooks)

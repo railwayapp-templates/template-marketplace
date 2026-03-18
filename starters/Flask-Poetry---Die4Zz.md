@@ -2,7 +2,7 @@
 
 A minimal Flask application with Poetry
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Die4Zz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Die4Zz)
 
 ## About
 
@@ -35,4 +35,4 @@ This project is a minimal Flask web application that serves a simple "Hello Worl
 
 **Category:** Starters · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/Die4Zz)
+[View on Railway →](https://railway.com/deploy/Die4Zz)

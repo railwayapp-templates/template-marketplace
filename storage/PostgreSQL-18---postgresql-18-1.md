@@ -2,7 +2,7 @@
 
 Deploy and host PostgreSQL 18 on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgresql-18-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresql-18-1)
 
 ## About
 
@@ -41,4 +41,4 @@ Railway's volume system ensures your data persists across deployments, while the
 
 **Category:** Storage · **Languages:** Shell
 
-[View on Railway →](https://railway.com/template/postgresql-18-1)
+[View on Railway →](https://railway.com/deploy/postgresql-18-1)

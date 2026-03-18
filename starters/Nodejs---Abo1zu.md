@@ -2,7 +2,7 @@
 
 A minimal Node.js web application.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Abo1zu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Abo1zu)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting Node.js means running JavaScript applications on the server side using t
 
 **Category:** Starters · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/Abo1zu)
+[View on Railway →](https://railway.com/deploy/Abo1zu)

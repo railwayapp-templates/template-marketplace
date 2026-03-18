@@ -2,7 +2,7 @@
 
 No-Code Form Builder Tailored to Your Brand
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tVI695)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tVI695)
 
 ## About
 
@@ -192,4 +192,4 @@ height: 250px;
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tVI695)
+[View on Railway →](https://railway.com/deploy/tVI695)

@@ -2,7 +2,7 @@
 
 Quickly deploy your openclaw (clawdbot) on Railway: https://openclaw.ai
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/clawdbot-railway-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/clawdbot-railway-template)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting OpenClaw (Clawdbot) on Railway deploys a web-accessible OpenClaw (Clawdb
 
 **Category:** AI/ML · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/clawdbot-railway-template)
+[View on Railway →](https://railway.com/deploy/clawdbot-railway-template)

@@ -2,7 +2,7 @@
 
 MQTT message broker with JWT authentication and authorization
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mosquitto-broker-with-jwt-auth)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mosquitto-broker-with-jwt-auth)
 
 ## About
 
@@ -36,4 +36,4 @@ This template provides a straightforward setup for Eclipse Mosquitto with JWT Au
 
 **Category:** Queues · **Languages:** Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/mosquitto-broker-with-jwt-auth)
+[View on Railway →](https://railway.com/deploy/mosquitto-broker-with-jwt-auth)

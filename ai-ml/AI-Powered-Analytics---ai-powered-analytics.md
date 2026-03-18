@@ -2,7 +2,7 @@
 
 Analyses keywords on google and ai platforms.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ai-powered-analytics)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ai-powered-analytics)
 
 ## About
 
@@ -35,4 +35,4 @@ A MongoDB database, either self-hosted or managed (like MongoDB Atlas), is requi
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/ai-powered-analytics)
+[View on Railway →](https://railway.com/deploy/ai-powered-analytics)

@@ -2,7 +2,7 @@
 
 Monitors ram usage and restarts when exceeded. Supports automatic restarts
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1FHSG9)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1FHSG9)
 
 ## About
 
@@ -39,4 +39,4 @@ The template further uses `RAILWAY_PROJECT_ID`, `RAILWAY_ENVIRONMENT_ID`, and `R
 
 **Category:** Automation · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/1FHSG9)
+[View on Railway →](https://railway.com/deploy/1FHSG9)

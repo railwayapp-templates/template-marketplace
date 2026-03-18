@@ -2,7 +2,7 @@
 
 Simple n8n deploy with Postgres database, it just works.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-1)
 
 ## About
 
@@ -41,4 +41,4 @@ Hosting n8n on Railway is simple. You can quickly set up and deploy an instance 
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-1)
+[View on Railway →](https://railway.com/deploy/n8n-1)

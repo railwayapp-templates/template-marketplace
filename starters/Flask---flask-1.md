@@ -2,7 +2,7 @@
 
 Flask Starter – Lightweight Python boilerplate for web apps
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flask-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flask-1)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting Flask on Railway allows developers to deploy applications with ease, eli
 
 **Category:** Starters · **Languages:** CSS, HTML, Python
 
-[View on Railway →](https://railway.com/template/flask-1)
+[View on Railway →](https://railway.com/deploy/flask-1)

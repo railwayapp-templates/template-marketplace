@@ -2,7 +2,7 @@
 
 PostgreSQL 18 with pgvectorscale and pg_textsearch extensions.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgresql-with-pgvectorscale-and-pgtext)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresql-with-pgvectorscale-and-pgtext)
 
 ## About
 
@@ -31,4 +31,4 @@ This template deploys a PostgreSQL 18 database with three extensions pre-install
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/postgresql-with-pgvectorscale-and-pgtext)
+[View on Railway →](https://railway.com/deploy/postgresql-with-pgvectorscale-and-pgtext)

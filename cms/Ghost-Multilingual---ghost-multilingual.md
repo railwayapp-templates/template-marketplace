@@ -2,7 +2,7 @@
 
 1-Click deploy multilingual Ghost with 2 separate instances
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ghost-multilingual)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ghost-multilingual)
 
 ## About
 
@@ -86,4 +86,4 @@ The 1-click deployment handles all the technical complexity: databases, environm
 
 **Category:** CMS · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/ghost-multilingual)
+[View on Railway →](https://railway.com/deploy/ghost-multilingual)

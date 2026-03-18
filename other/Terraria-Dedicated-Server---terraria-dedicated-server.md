@@ -2,7 +2,7 @@
 
 Self-host a persistent Terraria TShock server using Docker Image
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/terraria-dedicated-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/terraria-dedicated-server)
 
 ## About
 
@@ -35,4 +35,4 @@ The template is designed to work with a single persistent volume, ensuring that 
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/terraria-dedicated-server)
+[View on Railway →](https://railway.com/deploy/terraria-dedicated-server)

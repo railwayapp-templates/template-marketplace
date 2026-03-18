@@ -2,7 +2,7 @@
 
 Deploy a modern IAM solution with Zitadel on Railway in minutes.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zitadel)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zitadel)
 
 ## About
 
@@ -48,4 +48,4 @@ Hosting Zitadel involves running a secure and scalable IAM platform with Postgre
 
 **Category:** Authentication · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/zitadel)
+[View on Railway →](https://railway.com/deploy/zitadel)

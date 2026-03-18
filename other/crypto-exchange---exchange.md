@@ -2,7 +2,7 @@
 
 A full-stack crypto exchange. CLOB + frontend + market-making bots.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/exchange)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/exchange)
 
 ## About
 
@@ -57,4 +57,4 @@ trading strategies through the API.
 
 **Category:** Other · **Languages:** Rust, TypeScript, Python, CSS, Dockerfile, Shell, Just, JavaScript
 
-[View on Railway →](https://railway.com/template/exchange)
+[View on Railway →](https://railway.com/deploy/exchange)

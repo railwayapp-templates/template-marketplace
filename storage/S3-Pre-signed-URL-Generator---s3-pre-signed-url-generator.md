@@ -2,7 +2,7 @@
 
 Create short-lived or permanent pre-signed image URLs for Railway Bucket.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/s3-pre-signed-url-generator)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/s3-pre-signed-url-generator)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting the S3 Pre-signed URL Generator on Railway provides a simple, production
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/s3-pre-signed-url-generator)
+[View on Railway →](https://railway.com/deploy/s3-pre-signed-url-generator)

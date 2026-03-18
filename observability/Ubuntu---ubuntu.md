@@ -2,7 +2,7 @@
 
 Ubuntu in your network for debugging
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ubuntu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ubuntu)
 
 ## About
 
@@ -22,4 +22,4 @@ Deploying Ubuntu on Railway gives you a persistent Linux environment accessible 
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/ubuntu)
+[View on Railway →](https://railway.com/deploy/ubuntu)

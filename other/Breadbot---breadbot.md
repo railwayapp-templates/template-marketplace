@@ -2,7 +2,7 @@
 
 Automated crypto trading bot. Scans Solana & Base 24/7.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/breadbot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/breadbot)
 
 ## About
 
@@ -18,4 +18,4 @@ Breadbot runs as a single service on Railway, connecting to your exchange accoun
 
 **Category:** Other · **Languages:** Python, HTML, JavaScript, CSS, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/breadbot)
+[View on Railway →](https://railway.com/deploy/breadbot)

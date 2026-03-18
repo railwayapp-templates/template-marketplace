@@ -2,7 +2,7 @@
 
 A simple Phoenix app connected to a PostgreSQL database.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0LSBzw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0LSBzw)
 
 ## About
 
@@ -46,4 +46,4 @@ This is a [Phoenix](https://www.phoenixframework.org/) starter app that connects
 
 **Category:** Starters · **Languages:** Elixir, HTML, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/0LSBzw)
+[View on Railway →](https://railway.com/deploy/0LSBzw)

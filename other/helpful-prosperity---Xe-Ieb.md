@@ -2,7 +2,7 @@
 
 Examle site for example data for example serice
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Xe-Ieb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Xe-Ieb)
 
 ## About
 
@@ -31,4 +31,4 @@ this is a text for example data for example service for example webpage with pwa
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/Xe-Ieb)
+[View on Railway →](https://railway.com/deploy/Xe-Ieb)

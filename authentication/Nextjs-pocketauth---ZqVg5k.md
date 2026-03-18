@@ -2,7 +2,7 @@
 
 Nextjs starter with simple auth by Pocketbase 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZqVg5k)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZqVg5k)
 
 ## About
 
@@ -35,4 +35,4 @@ Key Features:
 
 **Category:** Authentication · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/ZqVg5k)
+[View on Railway →](https://railway.com/deploy/ZqVg5k)

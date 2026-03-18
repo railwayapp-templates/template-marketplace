@@ -2,7 +2,7 @@
 
 Highly performant realtime database designed primarily for MMO-RPGs.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JL9J05)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JL9J05)
 
 ## About
 
@@ -27,4 +27,4 @@ SpacetimeDB lets you upload your application logic as "modules" (fancy stored pr
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/JL9J05)
+[View on Railway →](https://railway.com/deploy/JL9J05)

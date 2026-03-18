@@ -2,7 +2,7 @@
 
 Deploy and Host caring-vibrancy with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/caring-vibrancy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/caring-vibrancy)
 
 ## About
 
@@ -18,4 +18,4 @@ First MVP to test railway
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/caring-vibrancy)
+[View on Railway →](https://railway.com/deploy/caring-vibrancy)

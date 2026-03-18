@@ -2,7 +2,7 @@
 
 A modern, lightning-fast file sharing platform built for self-hosting
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JVT41u)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JVT41u)
 
 ## About
 
@@ -39,4 +39,4 @@ This Railway template is officially supported and lets you deploy Flare with jus
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/JVT41u)
+[View on Railway →](https://railway.com/deploy/JVT41u)

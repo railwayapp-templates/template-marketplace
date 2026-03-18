@@ -2,7 +2,7 @@
 
 set up to use googles adk
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/eVpydG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/eVpydG)
 
 ## About
 
@@ -34,4 +34,4 @@ Launch your AI agent project fast with this plug-and-play starter for Google’s
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/eVpydG)
+[View on Railway →](https://railway.com/deploy/eVpydG)

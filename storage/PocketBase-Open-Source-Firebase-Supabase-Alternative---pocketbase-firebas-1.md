@@ -2,7 +2,7 @@
 
 Self-host PocketBase: Realtime DB, Auth & Storage on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pocketbase-firebas-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-firebas-1)
 
 ## About
 
@@ -37,4 +37,4 @@ Key features:
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/pocketbase-firebas-1)
+[View on Railway →](https://railway.com/deploy/pocketbase-firebas-1)

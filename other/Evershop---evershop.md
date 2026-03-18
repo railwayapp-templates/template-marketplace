@@ -2,7 +2,7 @@
 
 🛍️ Typescript E-commerce Platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/evershop)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evershop)
 
 ## About
 
@@ -40,4 +40,4 @@ Deploying Evershop on Railway is a truly one-click experience. Simply provide yo
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/evershop)
+[View on Railway →](https://railway.com/deploy/evershop)

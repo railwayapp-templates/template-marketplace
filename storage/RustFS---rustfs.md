@@ -2,7 +2,7 @@
 
 🚀 High-performance distributed object storage for MinIO alternative.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rustfs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rustfs)
 
 ## About
 
@@ -28,4 +28,4 @@ RustFS is developed with the popular and secure Rust language, compatible with S
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/rustfs)
+[View on Railway →](https://railway.com/deploy/rustfs)

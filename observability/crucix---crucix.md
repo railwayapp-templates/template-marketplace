@@ -2,7 +2,7 @@
 
 Crucix is a self-hosted OSINT intelligence terminal
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/crucix)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/crucix)
 
 ## About
 
@@ -37,4 +37,4 @@ For Railway, the simplest setup is one service deployed from the upstream GitHub
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/crucix)
+[View on Railway →](https://railway.com/deploy/crucix)

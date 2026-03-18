@@ -2,7 +2,7 @@
 
 A HotChocolate C# GraphQL server with support for Apollo Federation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cJcDcc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cJcDcc)
 
 ## About
 
@@ -34,4 +34,4 @@ This template is maintained by Apollo, so it will be kept up to date and always 
 
 **Category:** Starters · **Languages:** C#, Dockerfile
 
-[View on Railway →](https://railway.com/template/cJcDcc)
+[View on Railway →](https://railway.com/deploy/cJcDcc)

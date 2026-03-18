@@ -2,7 +2,7 @@
 
 Access all LLM through the standard OpenAI API format, easy to deploy & use
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/X32mcN)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/X32mcN)
 
 ## About
 
@@ -160,4 +160,4 @@ _✨ Access all LLM through the standard OpenAI API format, easy to deploy &amp;
 
 **Category:** AI/ML · **Languages:** JavaScript, Go, SCSS, CSS, HTML, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/X32mcN)
+[View on Railway →](https://railway.com/deploy/X32mcN)

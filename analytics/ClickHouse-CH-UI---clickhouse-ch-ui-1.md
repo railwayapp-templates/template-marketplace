@@ -2,7 +2,7 @@
 
 ClickHouse OLAP database with CH-UI web interface for data visualization.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/clickhouse-ch-ui-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/clickhouse-ch-ui-1)
 
 ## About
 
@@ -40,4 +40,4 @@ This template deploys a two-service stack:
 
 **Category:** Analytics · **Languages:** Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/clickhouse-ch-ui-1)
+[View on Railway →](https://railway.com/deploy/clickhouse-ch-ui-1)

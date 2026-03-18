@@ -2,7 +2,7 @@
 
 OpenHands: AI agent for coding and deployment
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openhands)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openhands)
 
 ## About
 
@@ -47,4 +47,4 @@ runtime.
 
 **Category:** AI/ML · **Languages:** Python, TypeScript, Shell, Jinja, Go Template, JavaScript, Makefile, CSS, Dockerfile, Mako
 
-[View on Railway →](https://railway.com/template/openhands)
+[View on Railway →](https://railway.com/deploy/openhands)

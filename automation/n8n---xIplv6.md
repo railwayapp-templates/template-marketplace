@@ -2,7 +2,7 @@
 
 Simple and dependable automation platform using n8n + PostgreSQL.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xIplv6)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xIplv6)
 
 ## About
 
@@ -63,4 +63,4 @@ _I'm myselft a user of this template, so expect further updates and maintenance.
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/xIplv6)
+[View on Railway →](https://railway.com/deploy/xIplv6)

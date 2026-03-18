@@ -2,7 +2,7 @@
 
 Open-Source markdown editor - your new home for notes
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sJu2rT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sJu2rT)
 
 ## About
 
@@ -66,4 +66,4 @@ Haptic is currently still in active development.
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/sJu2rT)
+[View on Railway →](https://railway.com/deploy/sJu2rT)

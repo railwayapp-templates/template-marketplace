@@ -2,7 +2,7 @@
 
 A fast, scalable, easy to use, extensible monolith backend using NestJs+TS
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5eHaqw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5eHaqw)
 
 ## About
 
@@ -108,4 +108,4 @@ Overview:
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/5eHaqw)
+[View on Railway →](https://railway.com/deploy/5eHaqw)

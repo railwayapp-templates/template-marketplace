@@ -2,7 +2,7 @@
 
 Deploy and Host Bot-RialWay-API-Commit with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bot-rialway-api-commit)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bot-rialway-api-commit)
 
 ## About
 
@@ -52,4 +52,4 @@ This bot is hosted on Railway to provide scalable, reliable, and easy deployment
 
 **Category:** Other · **Languages:** TypeScript, CSS, JavaScript, Dockerfile, HTML
 
-[View on Railway →](https://railway.com/template/bot-rialway-api-commit)
+[View on Railway →](https://railway.com/deploy/bot-rialway-api-commit)

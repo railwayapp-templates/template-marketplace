@@ -2,7 +2,7 @@
 
 Deploy and Host ClaudeOS with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/claudeos)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/claudeos)
 
 ## About
 
@@ -23,4 +23,4 @@ ClaudeOS runs as a single Docker container that bundles a Node.js supervisor pro
 
 **Category:** Other · **Languages:** JavaScript, TypeScript, CSS, Nix, HTML, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/claudeos)
+[View on Railway →](https://railway.com/deploy/claudeos)

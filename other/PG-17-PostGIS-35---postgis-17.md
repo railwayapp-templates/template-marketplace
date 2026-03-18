@@ -2,7 +2,7 @@
 
 This is a PostgreSQL version 17 with PostGIS support
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgis-17)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgis-17)
 
 ## About
 
@@ -34,4 +34,4 @@ You can host it the same way you do with a normal PG 17 database, no other confi
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/postgis-17)
+[View on Railway →](https://railway.com/deploy/postgis-17)

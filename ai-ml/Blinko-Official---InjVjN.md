@@ -2,7 +2,7 @@
 
 An open-source, self-hosted personal AI note tool prioritizing privacy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/InjVjN)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/InjVjN)
 
 ## About
 
@@ -79,4 +79,4 @@ If you find Blinko valuable, consider supporting us! Your contribution will enab
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/InjVjN)
+[View on Railway →](https://railway.com/deploy/InjVjN)

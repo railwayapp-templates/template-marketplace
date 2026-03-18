@@ -2,7 +2,7 @@
 
 System transforming physical paperwork into a searchable online archive
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/b72Thf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/b72Thf)
 
 ## About
 
@@ -76,4 +76,4 @@ Of course there's a lot of configuration you can add to this service through env
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/b72Thf)
+[View on Railway →](https://railway.com/deploy/b72Thf)

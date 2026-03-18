@@ -2,7 +2,7 @@
 
 Deploy and Host FastRTC with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fastrtc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastrtc)
 
 ## About
 
@@ -28,4 +28,4 @@ FastRTC requires a persistent server to handle WebRTC connections—serverless f
 
 **Category:** AI/ML · **Languages:** HTML, Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/fastrtc)
+[View on Railway →](https://railway.com/deploy/fastrtc)

@@ -2,7 +2,7 @@
 
 Deploy Whatsmiau on Railway. WhatsApp REST API. One click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/whatsmiau)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/whatsmiau)
 
 ## About
 
@@ -54,4 +54,4 @@ Hosting WhatsMiau requires a PostgreSQL database for persistence (instances and 
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/whatsmiau)
+[View on Railway →](https://railway.com/deploy/whatsmiau)

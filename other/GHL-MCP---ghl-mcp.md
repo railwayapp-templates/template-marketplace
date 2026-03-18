@@ -2,7 +2,7 @@
 
 Deploy and Host GHL MCP with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ghl-mcp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ghl-mcp)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting GHL MCP on Railway provides a production-ready bridge between AI platfor
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/ghl-mcp)
+[View on Railway →](https://railway.com/deploy/ghl-mcp)

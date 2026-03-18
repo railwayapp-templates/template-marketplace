@@ -2,7 +2,7 @@
 
 PB with access to Hooks and CMS
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6ckIwL)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6ckIwL)
 
 ## About
 
@@ -21,4 +21,4 @@ This setup provides access to the hooks folder for custom server-side logic and 
 
 **Category:** Starters · **Languages:** Dockerfile, Shell, JavaScript
 
-[View on Railway →](https://railway.com/template/6ckIwL)
+[View on Railway →](https://railway.com/deploy/6ckIwL)

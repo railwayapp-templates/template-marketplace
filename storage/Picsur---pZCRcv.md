@@ -2,7 +2,7 @@
 
 Easily host and programmatically transform your own images.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pZCRcv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pZCRcv)
 
 ## About
 
@@ -40,4 +40,4 @@ Hosting Picsur involves deploying a web service that handles image uploads, conv
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/pZCRcv)
+[View on Railway →](https://railway.com/deploy/pZCRcv)

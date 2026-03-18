@@ -2,7 +2,7 @@
 
 Keycloak template with keywind theme + apple and discord providers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mSwigX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mSwigX)
 
 ## About
 
@@ -62,4 +62,4 @@ It should be pretty straight forward to run, just set up an admin login and pass
 
 **Category:** Authentication · **Languages:** FreeMarker, Dockerfile
 
-[View on Railway →](https://railway.com/template/mSwigX)
+[View on Railway →](https://railway.com/deploy/mSwigX)

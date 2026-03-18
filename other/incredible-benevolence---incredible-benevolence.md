@@ -2,7 +2,7 @@
 
 Deploy and Host incredible-benevolence with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/incredible-benevolence)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/incredible-benevolence)
 
 ## About
 
@@ -24,4 +24,4 @@ Deploy and Host incredible-benevolence with Railway
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/incredible-benevolence)
+[View on Railway →](https://railway.com/deploy/incredible-benevolence)

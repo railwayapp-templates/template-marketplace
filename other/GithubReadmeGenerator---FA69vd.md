@@ -2,7 +2,7 @@
 
 A Tool that generates a customized SVG for in your Github profile readme
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FA69vd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FA69vd)
 
 ## About
 
@@ -49,4 +49,4 @@ Customize further using environment variables. Feel free to contribute on Github
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/FA69vd)
+[View on Railway →](https://railway.com/deploy/FA69vd)

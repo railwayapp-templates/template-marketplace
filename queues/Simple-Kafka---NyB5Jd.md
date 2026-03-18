@@ -2,7 +2,7 @@
 
 Simple Kafka Setup For Small Projects
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NyB5Jd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NyB5Jd)
 
 ## About
 
@@ -108,4 +108,4 @@ Would you like me to add a **connection test section** (e.g., using `kafka-conso
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/NyB5Jd)
+[View on Railway →](https://railway.com/deploy/NyB5Jd)

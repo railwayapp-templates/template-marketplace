@@ -2,7 +2,7 @@
 
 Deploy and Host Resend SMTP Gateway with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/resend-railway-smtp-gateway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/resend-railway-smtp-gateway)
 
 ## About
 
@@ -25,4 +25,4 @@ Hosting this gateway on Railway involves building and deploying the Go service a
 
 **Category:** Other · **Languages:** Go, Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/resend-railway-smtp-gateway)
+[View on Railway →](https://railway.com/deploy/resend-railway-smtp-gateway)

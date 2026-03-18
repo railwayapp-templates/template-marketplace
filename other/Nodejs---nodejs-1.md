@@ -2,7 +2,7 @@
 
 A minimal Node.js web application for REST APIs or web servers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nodejs-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nodejs-1)
 
 ## About
 
@@ -25,4 +25,4 @@ Hosting Node.js applications requires a platform that supports JavaScript runtim
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/nodejs-1)
+[View on Railway →](https://railway.com/deploy/nodejs-1)

@@ -2,7 +2,7 @@
 
 Movie Visper🎬🍿 - A WhatsApp User Bot for Movies
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/MjUXiK)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MjUXiK)
 
 ## About
 
@@ -22,4 +22,4 @@ Movie Visper is a multi-device WhatsApp user bot that allows you to search, stre
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/MjUXiK)
+[View on Railway →](https://railway.com/deploy/MjUXiK)

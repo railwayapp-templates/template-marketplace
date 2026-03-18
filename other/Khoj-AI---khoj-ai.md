@@ -2,7 +2,7 @@
 
 Ask anything, understand documents, create new content
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/khoj-ai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/khoj-ai)
 
 ## About
 
@@ -62,4 +62,4 @@ Hosting Khoj AI on [Railway](https://railway.app/) provides a simple and powerfu
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/khoj-ai)
+[View on Railway →](https://railway.com/deploy/khoj-ai)

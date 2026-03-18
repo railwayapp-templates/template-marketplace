@@ -2,7 +2,7 @@
 
 S3-compatible object storage with isolated bucket and console services
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/minio-isolated-services)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minio-isolated-services)
 
 ## About
 
@@ -51,4 +51,4 @@ You can configure security-sensitive options such as STS token duration, expose 
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/minio-isolated-services)
+[View on Railway →](https://railway.com/deploy/minio-isolated-services)

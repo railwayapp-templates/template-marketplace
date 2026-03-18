@@ -2,7 +2,7 @@
 
 Display your current Goodreads reading progress on TRMNL e-ink devices.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/trmnl-goodreads-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/trmnl-goodreads-template)
 
 ## About
 
@@ -23,4 +23,4 @@ This lightweight Flask application continuously processes your Goodreads RSS fee
 
 **Category:** Other · **Languages:** Python, Procfile
 
-[View on Railway →](https://railway.com/template/trmnl-goodreads-template)
+[View on Railway →](https://railway.com/deploy/trmnl-goodreads-template)

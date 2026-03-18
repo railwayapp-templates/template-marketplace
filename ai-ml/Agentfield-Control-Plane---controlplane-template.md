@@ -2,7 +2,7 @@
 
 Kubernetes-style orchestration for multi-agent AI systems with IAM
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/controlplane-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/controlplane-template)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting AgentField requires a PostgreSQL database for persistent storage and a s
 
 **Category:** AI/ML · **Languages:** Go, TypeScript, Python, Shell, CSS, JavaScript, Go Template, Makefile, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/controlplane-template)
+[View on Railway →](https://railway.com/deploy/controlplane-template)

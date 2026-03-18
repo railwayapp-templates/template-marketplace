@@ -2,7 +2,7 @@
 
 Plots conflicts, security events, threat indicators on an interactive map
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-source-intelligence-command-center)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-source-intelligence-command-center)
 
 ## About
 
@@ -27,4 +27,4 @@ A real-time global situational awareness platform that plots security events, ge
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/open-source-intelligence-command-center)
+[View on Railway →](https://railway.com/deploy/open-source-intelligence-command-center)

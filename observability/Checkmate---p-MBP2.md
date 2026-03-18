@@ -2,7 +2,7 @@
 
 An open-source uptime & infrastructure monitoring tool. Alternative to Kuma
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/p-MBP2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/p-MBP2)
 
 ## About
 
@@ -54,4 +54,4 @@ Checkmate is an open-source, self-hosted tool designed to track and monitor serv
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/p-MBP2)
+[View on Railway →](https://railway.com/deploy/p-MBP2)

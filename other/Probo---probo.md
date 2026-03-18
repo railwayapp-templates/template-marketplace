@@ -2,7 +2,7 @@
 
 Hands-off compliance: get SOC 2, ISO & HIPAA certified with ease.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/probo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/probo)
 
 ## About
 
@@ -61,4 +61,4 @@ Hosting Probo on Railway is as simple as clicking one button, no configuration n
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/probo)
+[View on Railway →](https://railway.com/deploy/probo)

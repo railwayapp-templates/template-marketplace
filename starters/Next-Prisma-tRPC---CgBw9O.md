@@ -2,7 +2,7 @@
 
 A sample NextJS app using tRPC
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/CgBw9O)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/CgBw9O)
 
 ## About
 
@@ -48,4 +48,4 @@ View the official [tRPC website](https://trpc.io/).
 
 **Category:** Starters · **Tags:** trpc, next, typescript, web · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/CgBw9O)
+[View on Railway →](https://railway.com/deploy/CgBw9O)

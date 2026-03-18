@@ -2,7 +2,7 @@
 
 Outline [Mar ’26] (Team Wiki, Notion & Confluence alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/outline)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/outline)
 
 ## About
 
@@ -59,4 +59,4 @@ You can self host Outline to keep all your documents, team notes, and knowledge 
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/outline)
+[View on Railway →](https://railway.com/deploy/outline)

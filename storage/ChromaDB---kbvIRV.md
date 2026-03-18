@@ -2,7 +2,7 @@
 
 The AI-native embedding database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kbvIRV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kbvIRV)
 
 ## About
 
@@ -39,4 +39,4 @@ ChromaDB deployments on Railway benefit from scalable CPU, RAM and storage while
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/kbvIRV)
+[View on Railway →](https://railway.com/deploy/kbvIRV)
