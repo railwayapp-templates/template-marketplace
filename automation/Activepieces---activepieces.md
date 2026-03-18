@@ -59,6 +59,6 @@ Hosting Activepieces provides a robust solution for automating tasks and integra
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
 
-**Category:** Automation
+**Category:** Automation · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/activepieces)

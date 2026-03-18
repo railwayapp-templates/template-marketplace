@@ -20,6 +20,6 @@ Deploying Next.js with Neon Postgres on Railway leverages Neon's [Instagres](htt
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Storage · **Languages:** TypeScript, JavaScript, CSS
+**Category:** Storage · **Verified:** Yes · **Languages:** TypeScript, JavaScript, CSS
 
 [View on Railway →](https://railway.com/deploy/nextjs-with-neon-postgres)

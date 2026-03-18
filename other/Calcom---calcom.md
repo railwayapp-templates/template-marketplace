@@ -48,6 +48,6 @@ Cal.com runs as a Next.js application with a database backend, requiring calenda
 - **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other
+**Category:** Other · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/calcom)

@@ -18,6 +18,6 @@ Hosting Bun involves running JavaScript and TypeScript applications using Bun's 
 |---------|--------|------|
 | Bun | [bun-templates/railway-starter](https://github.com/bun-templates/railway-starter) | Worker |
 
-**Category:** Starters · **Languages:** CSS, HTML, TypeScript
+**Category:** Starters · **Verified:** Yes · **Languages:** CSS, HTML, TypeScript
 
 [View on Railway →](https://railway.com/deploy/bun-starter)

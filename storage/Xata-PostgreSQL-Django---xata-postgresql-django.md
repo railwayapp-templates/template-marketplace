@@ -38,6 +38,6 @@ The `DATABASE_URL` is the only environment variable required. Set it to the Post
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Storage · **Languages:** Python, HTML
+**Category:** Storage · **Verified:** Yes · **Languages:** Python, HTML
 
 [View on Railway →](https://railway.com/deploy/xata-postgresql-django)

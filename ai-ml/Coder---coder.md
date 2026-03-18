@@ -42,6 +42,6 @@ This Railway template handles the Coder server hosting, environment variables fo
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** AI/ML
+**Category:** AI/ML · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/coder)

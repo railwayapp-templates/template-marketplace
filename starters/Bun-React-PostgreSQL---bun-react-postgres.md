@@ -34,6 +34,6 @@ Railway automates deployment by provisioning the PostgreSQL database, detecting 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Starters · **Languages:** TypeScript, CSS, HTML
+**Category:** Starters · **Verified:** Yes · **Languages:** TypeScript, CSS, HTML
 
 [View on Railway →](https://railway.com/deploy/bun-react-postgres)

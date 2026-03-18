@@ -30,6 +30,6 @@ Customize the build using Railway environment variables. You can also edit the C
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Languages:** HTML, Shell, Dockerfile
+**Category:** Starters · **Verified:** Yes · **Languages:** HTML, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/caddy)

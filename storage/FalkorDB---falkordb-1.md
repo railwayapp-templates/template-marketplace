@@ -32,6 +32,6 @@ Railway ensures persistent storage, simple configuration, and seamless scaling a
 - **TCP Proxies:** 16379
 - **Volume:** `/var/lib/falkordb/data`
 
-**Category:** Storage
+**Category:** Storage · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/falkordb-1)

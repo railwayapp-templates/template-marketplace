@@ -57,6 +57,6 @@ Read the [Rivet quickstart](https://www.rivet.dev/docs) to learn how to get star
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Starters · **Languages:** TypeScript, HTML
+**Category:** Starters · **Verified:** Yes · **Languages:** TypeScript, HTML
 
 [View on Railway →](https://railway.com/deploy/rivet-starter)

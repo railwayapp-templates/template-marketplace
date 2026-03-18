@@ -40,6 +40,6 @@ Railway’s hosting takes care of deployment, scaling, and uptime so you can foc
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app`
 
-**Category:** Other
+**Category:** Other · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/drizzle-studio-gateway)

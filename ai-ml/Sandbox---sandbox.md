@@ -16,6 +16,6 @@ This template converts Railway into a full-featured sandbox provider for running
 |---------|--------|------|
 | Compute Sandbox | `computesdk/compute` | Worker |
 
-**Category:** AI/ML
+**Category:** AI/ML · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/sandbox)

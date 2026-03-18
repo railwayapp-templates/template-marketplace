@@ -30,6 +30,6 @@ Hosting the Apollo MCP Server is a standalone deployment: you run the MCP proces
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** AI/ML · **Languages:** Dockerfile
+**Category:** AI/ML · **Verified:** Yes · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/apollo-mcp-server)

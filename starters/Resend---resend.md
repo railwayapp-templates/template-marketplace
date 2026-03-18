@@ -26,6 +26,6 @@ Hosting Resend gives you the power to send emails from your application with ful
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Languages:** TypeScript
+**Category:** Starters · **Verified:** Yes · **Languages:** TypeScript
 
 [View on Railway →](https://railway.com/deploy/resend)

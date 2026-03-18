@@ -72,6 +72,6 @@ Hosting a ClickHouse cluster gives you access to a distributed analytical databa
 - **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 9000
 
-**Category:** Storage · **Languages:** Shell, Dockerfile
+**Category:** Storage · **Verified:** Yes · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/clickhouse-cluster)

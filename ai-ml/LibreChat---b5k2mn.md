@@ -201,6 +201,6 @@ You’re one click away from running a complete, production-ready AI platform wi
 - **Start command:** `docker-entrypoint.sh mongod --ipv6 --bind_ip ::,0.0.0.0`
 - **Volume:** `/data/db`
 
-**Category:** AI/ML
+**Category:** AI/ML · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/b5k2mn)

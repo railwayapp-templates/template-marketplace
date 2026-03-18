@@ -39,6 +39,6 @@ This template deploys a Phoenix/Elixir service with an attached Postgres databas
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Observability · **Languages:** Elixir, HTML, CSS, JavaScript, Shell
+**Category:** Observability · **Verified:** Yes · **Languages:** Elixir, HTML, CSS, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/incident-response)

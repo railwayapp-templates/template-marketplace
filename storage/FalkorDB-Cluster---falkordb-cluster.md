@@ -37,6 +37,6 @@ Hosting a FalkorDB-cluster involves running multiple database nodes in a coordin
 - **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Storage
+**Category:** Storage · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/falkordb-cluster)

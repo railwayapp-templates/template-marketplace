@@ -77,6 +77,6 @@ After deploying this template, users should:
 - **Healthcheck:** `/v1/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Automation
+**Category:** Automation · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/steelbrowser)

@@ -46,6 +46,6 @@ Once deployed, additional Postgres databases can be created on the internal Post
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Other
+**Category:** Other · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/mathesar)
