@@ -68,6 +68,6 @@ Hosting Directus CMS on Railway provides a complete content management infrastru
 - **Volume:** `/data`
 - **Healthcheck:** `/server/health`
 
-**Category:** CMS · **Languages:** Shell, Dockerfile
+**Category:** CMS · **Verified:** Yes · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/directus-cms)

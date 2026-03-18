@@ -20,6 +20,6 @@ Railway automates deployment by detecting the Next.js project, using Bun to exec
 |---------|--------|------|
 | Bun | [bun-templates/railway-nextjs-starter](https://github.com/bun-templates/railway-nextjs-starter) | Worker |
 
-**Category:** Starters · **Languages:** CSS, TypeScript, JavaScript
+**Category:** Starters · **Verified:** Yes · **Languages:** CSS, TypeScript, JavaScript
 
 [View on Railway →](https://railway.com/deploy/bun-nextjs-starter)

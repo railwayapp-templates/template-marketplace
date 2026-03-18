@@ -30,6 +30,6 @@ The proxy handles both analytics events and static assets, routing them to the c
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Analytics · **Languages:** Dockerfile
+**Category:** Analytics · **Verified:** Yes · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/posthog-proxy)

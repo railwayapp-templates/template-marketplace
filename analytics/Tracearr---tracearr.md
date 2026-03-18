@@ -55,6 +55,6 @@ This Railway template deploys Tracearr as a turnkey, one-click setup — no manu
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Analytics
+**Category:** Analytics · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/tracearr)

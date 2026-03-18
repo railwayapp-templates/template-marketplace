@@ -68,6 +68,6 @@ Read the [getting started with Outpost and Railway guide](https://outpost.hookde
 - **Volume:** `/var/lib/rabbitmq`
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Other
+**Category:** Other · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/outpost-starter)

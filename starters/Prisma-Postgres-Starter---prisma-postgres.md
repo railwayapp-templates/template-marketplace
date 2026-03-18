@@ -16,6 +16,6 @@ When deployed on Railway, this template automatically provisions and configures 
 |---------|--------|------|
 | Prisma Postgres | [prisma/official-prisma-railway](https://github.com/prisma/official-prisma-railway) | Worker |
 
-**Category:** Starters · **Languages:** TypeScript, JavaScript, CSS
+**Category:** Starters · **Verified:** Yes · **Languages:** TypeScript, JavaScript, CSS
 
 [View on Railway →](https://railway.com/deploy/prisma-postgres)

@@ -60,6 +60,6 @@ The application is container-native and configured entirely via environment vari
 - **Healthcheck:** `/_health/`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Observability
+**Category:** Observability · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/glitchtip)

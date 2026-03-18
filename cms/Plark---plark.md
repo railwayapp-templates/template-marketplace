@@ -25,6 +25,6 @@ Self-hosted Website Builder
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/data`
 
-**Category:** CMS
+**Category:** CMS · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/plark)

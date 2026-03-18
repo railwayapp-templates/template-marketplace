@@ -67,6 +67,6 @@ Hosting Directus on Railway provides a complete infrastructure stack with minima
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** CMS
+**Category:** CMS · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/directus-official)

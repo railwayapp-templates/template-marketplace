@@ -69,6 +69,6 @@ Valkey for caching on Railway.
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
 
-**Category:** Other
+**Category:** Other · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/logchimp)

@@ -26,6 +26,6 @@ Hosting an Astro application gives you access to a high-performance web framewor
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Languages:** Astro, JavaScript
+**Category:** Starters · **Verified:** Yes · **Languages:** Astro, JavaScript
 
 [View on Railway →](https://railway.com/deploy/astro-starter)

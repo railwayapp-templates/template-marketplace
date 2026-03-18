@@ -30,6 +30,6 @@ Hosting Apollo Runtime involves deploying the Router (and optionally the MCP ser
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Languages:** Dockerfile
+**Category:** Starters · **Verified:** Yes · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/apollo-router)

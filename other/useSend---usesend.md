@@ -123,6 +123,6 @@ Once you logged in to useSend, it will prompt you add ses configuration
 - **Start command:** `/bin/sh -c "exec console server --host 0.0.0.0 --port $PORT"`
 - **Healthcheck:** `/login`
 
-**Category:** Other · **Languages:** Dockerfile
+**Category:** Other · **Verified:** Yes · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/usesend)

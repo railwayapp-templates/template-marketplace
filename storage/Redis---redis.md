@@ -37,6 +37,6 @@ Redis is a popular choice for developers worldwide due to its combination of spe
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
 
-**Category:** Storage
+**Category:** Storage · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/redis)

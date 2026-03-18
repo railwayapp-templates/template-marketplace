@@ -36,6 +36,6 @@ For more information on deploying and hosting ParadeDB, see the [ParadeDB deploy
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Storage
+**Category:** Storage · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/paradedb)

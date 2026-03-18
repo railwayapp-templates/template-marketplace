@@ -72,6 +72,6 @@ Your app will then run, but you'll need to create a mirror of the repo in your o
 - **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Languages:** TypeScript, JavaScript, Astro, CSS
+**Category:** Starters · **Verified:** Yes · **Languages:** TypeScript, JavaScript, Astro, CSS
 
 [View on Railway →](https://railway.com/deploy/open-saas)
