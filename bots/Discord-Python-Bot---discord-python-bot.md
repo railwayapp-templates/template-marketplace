@@ -2,7 +2,7 @@
 
 A simple Discord Bot written in Python
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/discord-python-bot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discord-python-bot)
 
 ## About
 
@@ -30,4 +30,4 @@ With Railway, you can deploy the bot directly from a repository and run it as a 
 
 **Category:** Bots · **Tags:** python, discord · **Languages:** Python, Procfile
 
-[View on Railway →](https://railway.com/template/discord-python-bot)
+[View on Railway →](https://railway.com/deploy/discord-python-bot)

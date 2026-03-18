@@ -2,7 +2,7 @@
 
 A simple starter project for a Meteor full-stack Javascript Framework
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NGEqSA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NGEqSA)
 
 ## About
 
@@ -112,4 +112,4 @@ This project is licensed under the MIT License.
 
 **Category:** Starters · **Languages:** JavaScript, HTML, CSS
 
-[View on Railway →](https://railway.com/template/NGEqSA)
+[View on Railway →](https://railway.com/deploy/NGEqSA)

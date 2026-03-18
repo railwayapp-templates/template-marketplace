@@ -2,7 +2,7 @@
 
 [Mar'26] Production-ready WordPress with Mariadb & scalable storage
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wordpress-pro-scalable-cloud-hosting)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wordpress-pro-scalable-cloud-hosting)
 
 ## About
 
@@ -49,4 +49,4 @@ Unlike traditional hosting panels (cPanel, Plesk), Railway provides developer-fr
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/wordpress-pro-scalable-cloud-hosting)
+[View on Railway →](https://railway.com/deploy/wordpress-pro-scalable-cloud-hosting)

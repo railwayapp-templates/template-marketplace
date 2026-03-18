@@ -2,7 +2,7 @@
 
 A Gofiber api with gorm as orm using mysql
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n_Nx2x)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n_Nx2x)
 
 ## About
 
@@ -47,4 +47,4 @@ to deploy you will need a mysql database give login env aka MYSQLUSER, MYSQLHOST
 
 **Category:** Other · **Languages:** Go
 
-[View on Railway →](https://railway.com/template/n_Nx2x)
+[View on Railway →](https://railway.com/deploy/n_Nx2x)

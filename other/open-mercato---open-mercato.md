@@ -2,7 +2,7 @@
 
 Deploy and Host open-mercato with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-mercato)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-mercato)
 
 ## About
 
@@ -65,4 +65,4 @@ This template deploys open-mercato service, along with the neccessary dependenci
 
 **Category:** Other · **Languages:** TypeScript, MDX, JavaScript, Python, CSS, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/open-mercato)
+[View on Railway →](https://railway.com/deploy/open-mercato)

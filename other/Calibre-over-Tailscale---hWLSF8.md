@@ -2,7 +2,7 @@
 
 E-book library manager running over tailscale
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hWLSF8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hWLSF8)
 
 ## About
 
@@ -36,4 +36,4 @@ This template will automatically set you up for success with Calibre over Tailsc
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/hWLSF8)
+[View on Railway →](https://railway.com/deploy/hWLSF8)

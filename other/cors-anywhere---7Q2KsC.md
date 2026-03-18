@@ -2,7 +2,7 @@
 
 CORS Anywhere is a NodeJS reverse proxy.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7Q2KsC)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7Q2KsC)
 
 ## About
 
@@ -211,4 +211,4 @@ SOFTWARE.
 
 **Category:** Other · **Languages:** JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/7Q2KsC)
+[View on Railway →](https://railway.com/deploy/7Q2KsC)

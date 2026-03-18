@@ -2,7 +2,7 @@
 
 Your self-hosted knowledge base. Just deploy it
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/notediscovery)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/notediscovery)
 
 ## About
 
@@ -20,4 +20,4 @@ Hosting NoteDiscovery involves running a simple Node.js-based web server connect
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/notediscovery)
+[View on Railway →](https://railway.com/deploy/notediscovery)

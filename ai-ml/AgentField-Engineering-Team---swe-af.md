@@ -2,7 +2,7 @@
 
 AI Powered Engineering Team
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/swe-af)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/swe-af)
 
 ## About
 
@@ -42,4 +42,4 @@ SWE-AF runs as two Docker services: an AgentField control plane for orchestratio
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile, Makefile
 
-[View on Railway →](https://railway.com/template/swe-af)
+[View on Railway →](https://railway.com/deploy/swe-af)

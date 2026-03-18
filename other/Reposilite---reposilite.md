@@ -2,7 +2,7 @@
 
 Lightweight and easy-to-use repository manager for Maven-based artifacts.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/reposilite)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/reposilite)
 
 ## About
 
@@ -37,4 +37,4 @@ On Railway, you can deploy the official Docker image, mount a volume for `/data`
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/reposilite)
+[View on Railway →](https://railway.com/deploy/reposilite)

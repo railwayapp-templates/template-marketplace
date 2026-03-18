@@ -2,7 +2,7 @@
 
 Deploy and Host pms-docker-railway with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pms-docker-railway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pms-docker-railway)
 
 ## About
 
@@ -140,4 +140,4 @@ Optimizado por **WarsTrom** con estándares de seguridad Enterprise.
 
 **Category:** Other · **Languages:** Shell, Go Template, Dockerfile, Makefile
 
-[View on Railway →](https://railway.com/template/pms-docker-railway)
+[View on Railway →](https://railway.com/deploy/pms-docker-railway)

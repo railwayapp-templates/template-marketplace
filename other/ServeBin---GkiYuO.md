@@ -2,7 +2,7 @@
 
 Elevating HTTP Testing to Effortless Debugging.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GkiYuO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GkiYuO)
 
 ## About
 
@@ -36,4 +36,4 @@ ServeBin is a cutting-edge HTTP testing and debugging tool, built with the lates
 
 **Category:** Other · **Languages:** Go, HTML
 
-[View on Railway →](https://railway.com/template/GkiYuO)
+[View on Railway →](https://railway.com/deploy/GkiYuO)

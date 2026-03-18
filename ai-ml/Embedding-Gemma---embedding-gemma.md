@@ -2,7 +2,7 @@
 
 Generate high-quality text embeddings with Google's best model
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/embedding-gemma)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/embedding-gemma)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting EmbeddingGemma provides access to the highest-ranking open multilingual 
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/embedding-gemma)
+[View on Railway →](https://railway.com/deploy/embedding-gemma)

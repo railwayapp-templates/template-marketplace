@@ -2,7 +2,7 @@
 
 Host your own server for the PenguinMod storage extension
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/seDKg9)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/seDKg9)
 
 ## About
 
@@ -28,4 +28,4 @@ Use this to host your own server for the [PenguinMod](https://penguinmod.com/) s
 
 **Category:** Storage · **Languages:** Go, Shell
 
-[View on Railway →](https://railway.com/template/seDKg9)
+[View on Railway →](https://railway.com/deploy/seDKg9)

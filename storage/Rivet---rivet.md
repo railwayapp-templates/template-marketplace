@@ -2,7 +2,7 @@
 
 Self-host Rivet on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rivet)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rivet)
 
 ## About
 
@@ -61,4 +61,4 @@ Get started with the [Rivet quickstart](https://rivet.dev/docs) first.
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/rivet)
+[View on Railway →](https://railway.com/deploy/rivet)

@@ -2,7 +2,7 @@
 
 this is a deploymentv of an hr system
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/splendid-trust)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/splendid-trust)
 
 ## About
 
@@ -18,4 +18,4 @@ i trust th splendid to deploy my ht system req, i need  to  make an hr system , 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/splendid-trust)
+[View on Railway →](https://railway.com/deploy/splendid-trust)

@@ -2,7 +2,7 @@
 
 PgWeb [Mar ’26] (Open-Source PostgreSQL Web Client & Viewer) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pgweb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pgweb)
 
 ## About
 
@@ -36,4 +36,4 @@ Self-hosting Pgweb gives you complete control over your PostgreSQL management to
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/pgweb)
+[View on Railway →](https://railway.com/deploy/pgweb)

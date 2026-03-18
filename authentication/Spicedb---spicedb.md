@@ -2,7 +2,7 @@
 
 Deploying Authzed Spicedb
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/spicedb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/spicedb)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting SpiceDB mainly involves running the SpiceDB service plus a supported dat
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/spicedb)
+[View on Railway →](https://railway.com/deploy/spicedb)

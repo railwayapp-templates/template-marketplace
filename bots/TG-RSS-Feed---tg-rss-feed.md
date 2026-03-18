@@ -2,7 +2,7 @@
 
 Deploy and Host TG RSS Feed with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tg-rss-feed)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tg-rss-feed)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting TG RSS Feed on Railway is straightforward and requires minimal configura
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/tg-rss-feed)
+[View on Railway →](https://railway.com/deploy/tg-rss-feed)

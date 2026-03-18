@@ -2,7 +2,7 @@
 
 Postgres cluster for high availability and redundancy with pgvector
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1CQq0n)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1CQq0n)
 
 ## About
 
@@ -62,4 +62,4 @@ Run `CREATE EXTENSION vector;` after deploying the template to activate the pgve
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/1CQq0n)
+[View on Railway →](https://railway.com/deploy/1CQq0n)

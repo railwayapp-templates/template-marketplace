@@ -2,7 +2,7 @@
 
 Loki (Grafana) [Mar ’26] (Real-time monitoring and observability) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/loki)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/loki)
 
 ## About
 
@@ -31,4 +31,4 @@ Railway simplifies the self-hosting process by providing containerized environme
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/loki)
+[View on Railway →](https://railway.com/deploy/loki)

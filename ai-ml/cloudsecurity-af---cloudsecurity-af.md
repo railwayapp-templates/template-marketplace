@@ -2,7 +2,7 @@
 
 AI Powered Cloud Security Analysis
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cloudsecurity-af)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cloudsecurity-af)
 
 ## About
 
@@ -39,4 +39,4 @@ cloudsecurity-af runs as two Railway services: the AgentField control plane and 
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/cloudsecurity-af)
+[View on Railway →](https://railway.com/deploy/cloudsecurity-af)

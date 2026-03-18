@@ -2,7 +2,7 @@
 
 One Click deployment of Popular Open Source Social media scheduling tool.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Rd76MM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Rd76MM)
 
 ## About
 
@@ -70,4 +70,4 @@ Postiz leverages a multi-container setup including frontend, backend, Redis, Pos
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/Rd76MM)
+[View on Railway →](https://railway.com/deploy/Rd76MM)

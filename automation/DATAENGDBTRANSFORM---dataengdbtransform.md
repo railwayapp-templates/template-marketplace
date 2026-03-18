@@ -2,7 +2,7 @@
 
 Deploy and Host DBTRANSFORM with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dataengdbtransform)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dataengdbtransform)
 
 ## About
 
@@ -29,4 +29,4 @@ N/A
 
 **Category:** Automation · **Languages:** Shell
 
-[View on Railway →](https://railway.com/template/dataengdbtransform)
+[View on Railway →](https://railway.com/deploy/dataengdbtransform)

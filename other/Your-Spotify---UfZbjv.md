@@ -2,7 +2,7 @@
 
 A self-hosted Spotify tracking dashboard
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/UfZbjv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/UfZbjv)
 
 ## About
 
@@ -111,4 +111,4 @@ For more information, visit the [upstream repository](https://github.com/yooooom
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/UfZbjv)
+[View on Railway →](https://railway.com/deploy/UfZbjv)

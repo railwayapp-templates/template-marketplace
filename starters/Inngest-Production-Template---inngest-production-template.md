@@ -2,7 +2,7 @@
 
 [Updated Mar 2026] Preconfigured production inngest with postgres and redis
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/inngest-production-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/inngest-production-template)
 
 ## About
 
@@ -48,4 +48,4 @@ Deploying Inngest in production involves running a self-hosted server with exter
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/inngest-production-template)
+[View on Railway →](https://railway.com/deploy/inngest-production-template)

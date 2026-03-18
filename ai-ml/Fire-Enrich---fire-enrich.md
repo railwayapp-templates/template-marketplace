@@ -2,7 +2,7 @@
 
 Fire Enrich - AI-Powered Data Enrichment Tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fire-enrich)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fire-enrich)
 
 ## About
 
@@ -31,4 +31,4 @@ Deploying Fire Enrich on Railway provides a streamlined, production-ready enviro
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/fire-enrich)
+[View on Railway →](https://railway.com/deploy/fire-enrich)

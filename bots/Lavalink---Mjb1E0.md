@@ -2,7 +2,7 @@
 
 Standalone audio sending node based on Lavaplayer.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Mjb1E0)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Mjb1E0)
 
 ## About
 
@@ -71,4 +71,4 @@ Being used in production by FredBoat, Dyno, LewdBot, and more.
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/Mjb1E0)
+[View on Railway →](https://railway.com/deploy/Mjb1E0)

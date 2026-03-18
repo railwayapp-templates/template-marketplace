@@ -2,7 +2,7 @@
 
 FlowiseAI + PostgreSQL Database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/oBCbmw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oBCbmw)
 
 ## About
 
@@ -55,4 +55,4 @@ Video Guide: https://youtu.be/FQSqDQi9FOA
 
 **Category:** AI/ML · **Languages:** TypeScript, JavaScript, CSS, SCSS, HTML, Dockerfile, Shell, Batchfile
 
-[View on Railway →](https://railway.com/template/oBCbmw)
+[View on Railway →](https://railway.com/deploy/oBCbmw)

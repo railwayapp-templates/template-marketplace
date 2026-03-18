@@ -2,7 +2,7 @@
 
 Build the tools you can’t buy off the shelf
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/8cHdPG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/8cHdPG)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting Appsmith involves deploying a full-stack application platform that provi
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/8cHdPG)
+[View on Railway →](https://railway.com/deploy/8cHdPG)

@@ -2,7 +2,7 @@
 
 A modern really-real-time collaborative document editor
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NG6XMi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NG6XMi)
 
 ## About
 
@@ -55,4 +55,4 @@ Check out the etherpad wiki for more information [here](https://github.com/ether
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/NG6XMi)
+[View on Railway →](https://railway.com/deploy/NG6XMi)

@@ -2,7 +2,7 @@
 
 Postiz [Mar ’26] (Social Media Scheduler & AI Content Planner) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postiz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postiz)
 
 ## About
 
@@ -60,4 +60,4 @@ Hosting Postiz on Railway gives you complete control over your content schedulin
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/postiz)
+[View on Railway →](https://railway.com/deploy/postiz)

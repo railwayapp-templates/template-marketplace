@@ -2,7 +2,7 @@
 
 Tier [Mar ’26] (Manage Subscriptions & Pricing Models) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tier)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tier)
 
 ## About
 
@@ -28,4 +28,4 @@ Tier is a powerful, open-source billing and pricing management platform that hel
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tier)
+[View on Railway →](https://railway.com/deploy/tier)

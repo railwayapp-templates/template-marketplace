@@ -2,7 +2,7 @@
 
 🚀 v2.10.1 support Google Gemini Pro model.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/K4qfIt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/K4qfIt)
 
 ## About
 
@@ -41,4 +41,4 @@ Roadmap
 
 **Category:** Bots · **Languages:** TypeScript, SCSS, JavaScript, Shell, Dockerfile, Rust
 
-[View on Railway →](https://railway.com/template/K4qfIt)
+[View on Railway →](https://railway.com/deploy/K4qfIt)

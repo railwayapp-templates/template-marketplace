@@ -2,7 +2,7 @@
 
 Starts and Stops railway services based on a cron schedule
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railway-service-cron)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-service-cron)
 
 ## About
 
@@ -25,4 +25,4 @@ Deploying Railway Service Cron creates a lightweight Alpine-based container (~10
 
 **Category:** Automation · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/railway-service-cron)
+[View on Railway →](https://railway.com/deploy/railway-service-cron)

@@ -2,7 +2,7 @@
 
 Full ecommerce solution, manage products, inventory, orders, etc.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Fb6KUX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Fb6KUX)
 
 ## About
 
@@ -83,4 +83,4 @@ GitHub: [https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate](https://
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/Fb6KUX)
+[View on Railway →](https://railway.com/deploy/Fb6KUX)

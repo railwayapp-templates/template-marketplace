@@ -2,7 +2,7 @@
 
 Deploy and Host express-ts-starter with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/express-ts-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/express-ts-starter)
 
 ## About
 
@@ -23,4 +23,4 @@ Hosting **express-ts-starter** on Railway means you can go from zero to a runnin
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/express-ts-starter)
+[View on Railway →](https://railway.com/deploy/express-ts-starter)

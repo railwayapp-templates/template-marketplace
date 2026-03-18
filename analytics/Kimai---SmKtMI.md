@@ -2,7 +2,7 @@
 
 Professional grade time-tracking application, free and open-source
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/SmKtMI)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/SmKtMI)
 
 ## About
 
@@ -32,4 +32,4 @@ JSON API, invoicing, data exports, multi-timer and punch-in punch-out mode, tagg
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/SmKtMI)
+[View on Railway →](https://railway.com/deploy/SmKtMI)

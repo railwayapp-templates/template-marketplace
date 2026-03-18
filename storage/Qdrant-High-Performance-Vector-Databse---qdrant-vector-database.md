@@ -2,7 +2,7 @@
 
 Self-Host Qdrant - Semantic Search, Recommendation Systems, and RAG
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qdrant-vector-database)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qdrant-vector-database)
 
 ## About
 
@@ -41,4 +41,4 @@ Qdrant is an open-source, high-performance vector database and similarity search
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/qdrant-vector-database)
+[View on Railway →](https://railway.com/deploy/qdrant-vector-database)

@@ -2,7 +2,7 @@
 
 A performance dashboard for Postgres
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/QUJmGE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/QUJmGE)
 
 ## About
 
@@ -35,4 +35,4 @@ Steps:
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/QUJmGE)
+[View on Railway →](https://railway.com/deploy/QUJmGE)

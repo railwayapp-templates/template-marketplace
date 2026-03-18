@@ -2,7 +2,7 @@
 
 An ExpressJS application connected to a PostgreSQL database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VUVlu3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VUVlu3)
 
 ## About
 
@@ -45,4 +45,4 @@ Node.js. Express is ideal for web applications and APIs and provides a thin laye
 
 **Category:** Starters · **Tags:** webserver, typescript · **Languages:** TypeScript, Procfile
 
-[View on Railway →](https://railway.com/template/VUVlu3)
+[View on Railway →](https://railway.com/deploy/VUVlu3)

@@ -2,7 +2,7 @@
 
 A lightweight Caddy-based authentication proxy that protects services.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/caddy-zero-trust)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/caddy-zero-trust)
 
 ## About
 
@@ -30,4 +30,4 @@ Deploying caddy-auth-proxy on Railway requires minimal configuration. The servic
 
 **Category:** Authentication · **Languages:** CSS, HTML, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/caddy-zero-trust)
+[View on Railway →](https://railway.com/deploy/caddy-zero-trust)

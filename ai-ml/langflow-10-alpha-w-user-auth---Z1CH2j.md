@@ -2,7 +2,7 @@
 
 Authenticated langflow sessions only.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Z1CH2j)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Z1CH2j)
 
 ## About
 
@@ -43,4 +43,4 @@ LANGFLOW_SECRET_KEY=randomly_generated_secure_key
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/Z1CH2j)
+[View on Railway →](https://railway.com/deploy/Z1CH2j)

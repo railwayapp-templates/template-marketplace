@@ -2,7 +2,7 @@
 
 Deploy and Host BentoPDF + Auth with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bentopdf-auth)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bentopdf-auth)
 
 ## About
 
@@ -30,4 +30,4 @@ This template deploys two services: BentoPDF as the core PDF processing applicat
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/bentopdf-auth)
+[View on Railway →](https://railway.com/deploy/bentopdf-auth)

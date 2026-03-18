@@ -2,7 +2,7 @@
 
 [Mar '26] 1-Click Deploy AI Agent Securely (TUI Support, Manage Devices)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-prev-clawdbot-moltbot-self-host)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-prev-clawdbot-moltbot-self-host)
 
 ## About
 
@@ -36,4 +36,4 @@ Deploying OpenClaw on Railway traditionally requires interactive terminal access
 
 **Category:** Automation · **Languages:** HTML, JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/openclaw-prev-clawdbot-moltbot-self-host)
+[View on Railway →](https://railway.com/deploy/openclaw-prev-clawdbot-moltbot-self-host)

@@ -2,7 +2,7 @@
 
 Graph-vector memory service for AI assistants: https://automem.ai/
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/automem-ai-memory-service)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/automem-ai-memory-service)
 
 ## About
 
@@ -88,4 +88,4 @@ Railway is a singular platform to deploy your infrastructure stack. Railway will
 
 **Category:** AI/ML · **Languages:** Python, JavaScript, Shell, Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/automem-ai-memory-service)
+[View on Railway →](https://railway.com/deploy/automem-ai-memory-service)

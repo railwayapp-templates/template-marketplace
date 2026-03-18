@@ -2,7 +2,7 @@
 
 🏕 Opinionated Vite + Vue Starter Template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Van86l)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Van86l)
 
 ## About
 
@@ -133,4 +133,4 @@ As this template is strongly opinionated, the following provides a curated list 
 
 **Category:** Starters · **Languages:** TypeScript, Vue, HTML, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/Van86l)
+[View on Railway →](https://railway.com/deploy/Van86l)

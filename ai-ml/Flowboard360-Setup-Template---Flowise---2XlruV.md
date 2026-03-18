@@ -2,7 +2,7 @@
 
 Self hosted dashboard for your Flowise chatbots
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/2XlruV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/2XlruV)
 
 ## About
 
@@ -55,4 +55,4 @@ Effortlessly track, monitor, and share Flowise chatbot reports with your clients
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/2XlruV)
+[View on Railway →](https://railway.com/deploy/2XlruV)

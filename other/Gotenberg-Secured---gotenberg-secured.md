@@ -2,7 +2,7 @@
 
 API for PDF conversion | StirlingPDF, PDF.co alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gotenberg-secured)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gotenberg-secured)
 
 ## About
 
@@ -33,4 +33,4 @@ This version deploys the official Gotenberg docker image and adds basic auth sec
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/gotenberg-secured)
+[View on Railway →](https://railway.com/deploy/gotenberg-secured)

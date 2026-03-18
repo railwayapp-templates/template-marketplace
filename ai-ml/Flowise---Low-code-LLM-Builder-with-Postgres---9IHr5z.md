@@ -2,7 +2,7 @@
 
 Flowise - Low code LLM Apps Builder with Postgres
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/9IHr5z)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9IHr5z)
 
 ## About
 
@@ -49,4 +49,4 @@ This template includes Postgres so all the data will be persisted in case the se
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/9IHr5z)
+[View on Railway →](https://railway.com/deploy/9IHr5z)

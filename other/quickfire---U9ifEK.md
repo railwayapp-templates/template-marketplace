@@ -2,7 +2,7 @@
 
 Quickfire Minecraft Server. Simple and fast.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/U9ifEK)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/U9ifEK)
 
 ## About
 
@@ -39,4 +39,4 @@ And there should be an address that looks something like this: monorail.proxy.rl
 
 **Category:** Other · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/U9ifEK)
+[View on Railway →](https://railway.com/deploy/U9ifEK)

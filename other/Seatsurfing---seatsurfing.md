@@ -2,7 +2,7 @@
 
 Deploy and Host Seatsurfing with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/seatsurfing)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/seatsurfing)
 
 ## About
 
@@ -35,4 +35,4 @@ Seatsurfing offers a robust set of features designed for modern workplace manage
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/seatsurfing)
+[View on Railway →](https://railway.com/deploy/seatsurfing)

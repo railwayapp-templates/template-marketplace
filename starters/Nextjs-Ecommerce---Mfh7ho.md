@@ -2,7 +2,7 @@
 
 ecommerce template using Stripe Products & Checkout
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Mfh7ho)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Mfh7ho)
 
 ## About
 
@@ -38,4 +38,4 @@ This template is perfect for developers looking to launch an e-commerce site qui
 
 **Category:** Starters · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/Mfh7ho)
+[View on Railway →](https://railway.com/deploy/Mfh7ho)

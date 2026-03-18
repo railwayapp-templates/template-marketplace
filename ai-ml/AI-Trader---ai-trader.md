@@ -2,7 +2,7 @@
 
 AI-Trader with MCP tools, UI dashboard. AI Trader IA Trader
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ai-trader)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ai-trader)
 
 ## About
 
@@ -46,4 +46,4 @@ A persistent Railway Volume is mounted at `/app/data` to store datasets and run 
 
 **Category:** AI/ML · **Languages:** Python, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/ai-trader)
+[View on Railway →](https://railway.com/deploy/ai-trader)

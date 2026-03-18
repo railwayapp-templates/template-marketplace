@@ -2,7 +2,7 @@
 
 The urPodder deployment template for Podcast Syncing.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/y__BwA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/y__BwA)
 
 ## About
 
@@ -30,4 +30,4 @@ Get more info and code at the [UrPodder Readme](https://codeberg.org/meadowhawk/
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/y__BwA)
+[View on Railway →](https://railway.com/deploy/y__BwA)

@@ -2,7 +2,7 @@
 
 An open-source ChatGPT UI alternative.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Mvjjpn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Mvjjpn)
 
 ## About
 
@@ -45,4 +45,4 @@ Provide the following values during deployment or later:
 
 **Category:** Other · **Languages:** TypeScript, SCSS, JavaScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/Mvjjpn)
+[View on Railway →](https://railway.com/deploy/Mvjjpn)

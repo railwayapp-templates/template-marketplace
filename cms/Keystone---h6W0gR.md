@@ -2,7 +2,7 @@
 
 The superpowered CMS for developers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/h6W0gR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/h6W0gR)
 
 ## About
 
@@ -48,4 +48,4 @@ Perfect for blogs, e-commerce, or any content-driven application. Fork the githu
 
 **Category:** CMS · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/h6W0gR)
+[View on Railway →](https://railway.com/deploy/h6W0gR)

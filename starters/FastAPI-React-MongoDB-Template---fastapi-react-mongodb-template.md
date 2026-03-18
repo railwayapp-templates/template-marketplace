@@ -2,7 +2,7 @@
 
 Deploy and Host FastAPI-React-MongoDB-Template with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fastapi-react-mongodb-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-react-mongodb-template)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting FastAPI-React-MongoDB-Template involves deploying a containerized full-s
 
 **Category:** Starters · **Languages:** JavaScript, Python, HTML, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/fastapi-react-mongodb-template)
+[View on Railway →](https://railway.com/deploy/fastapi-react-mongodb-template)

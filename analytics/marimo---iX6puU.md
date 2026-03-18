@@ -2,7 +2,7 @@
 
 Deploy marimo - a next-generation reactive notebook for Python and SQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/iX6puU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/iX6puU)
 
 ## About
 
@@ -45,4 +45,4 @@ and deployable as apps.
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/iX6puU)
+[View on Railway →](https://railway.com/deploy/iX6puU)

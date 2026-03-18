@@ -2,7 +2,7 @@
 
 Simple request logger for debugging webhooks that require public urls.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Is-oSM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Is-oSM)
 
 ## About
 
@@ -26,4 +26,4 @@ Steps:
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/Is-oSM)
+[View on Railway →](https://railway.com/deploy/Is-oSM)

@@ -2,7 +2,7 @@
 
 A unified IM-style platform for AI coding agents
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/agentim)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/agentim)
 
 ## About
 
@@ -77,4 +77,4 @@ AgentIM is a unified IM platform that turns AI coding agents (Claude Code, Codex
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/agentim)
+[View on Railway →](https://railway.com/deploy/agentim)

@@ -2,7 +2,7 @@
 
 Weaviate is an open source vector database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uWRHq5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uWRHq5)
 
 ## About
 
@@ -33,4 +33,4 @@ Weaviate is an open source vector database that stores both objects and vectors,
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/uWRHq5)
+[View on Railway →](https://railway.com/deploy/uWRHq5)

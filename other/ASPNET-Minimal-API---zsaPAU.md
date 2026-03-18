@@ -2,7 +2,7 @@
 
 A simple hello-world application made in C# with minimal API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zsaPAU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zsaPAU)
 
 ## About
 
@@ -106,4 +106,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/zsaPAU)
+[View on Railway →](https://railway.com/deploy/zsaPAU)

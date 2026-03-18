@@ -2,7 +2,7 @@
 
 DocsGPT is a cutting-edge open-source solution
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZEv1r5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZEv1r5)
 
 ## About
 
@@ -22,4 +22,4 @@ Say goodbye to time-consuming manual searches, and let DocsGPT help you quickly 
 
 **Category:** Other · **Languages:** Python, TypeScript, CSS, JavaScript, HTML, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/ZEv1r5)
+[View on Railway →](https://railway.com/deploy/ZEv1r5)

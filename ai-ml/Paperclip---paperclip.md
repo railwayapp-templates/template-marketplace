@@ -2,7 +2,7 @@
 
 Deploy Paperclip in one click with persistent volume storage.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/paperclip)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/paperclip)
 
 ## About
 
@@ -49,4 +49,4 @@ This template gives you a one-click deploy: a Railway project with the Paperclip
 
 **Category:** AI/ML · **Languages:** JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/paperclip)
+[View on Railway →](https://railway.com/deploy/paperclip)

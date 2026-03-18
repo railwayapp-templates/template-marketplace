@@ -2,7 +2,7 @@
 
 Backup your PostgreSQL database into a S3 bucket using Railway CRON
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/UGKaB8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/UGKaB8)
 
 ## About
 
@@ -39,4 +39,4 @@ Fill the template environment variables and configure the CRON job in the servic
 
 **Category:** Storage · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/UGKaB8)
+[View on Railway →](https://railway.com/deploy/UGKaB8)

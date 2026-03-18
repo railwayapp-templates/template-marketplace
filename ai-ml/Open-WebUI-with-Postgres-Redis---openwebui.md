@@ -2,7 +2,7 @@
 
 Self-host OpenWebUI; Postgres survives redeploys, Redis scales sessions
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openwebui)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openwebui)
 
 ## About
 
@@ -71,4 +71,4 @@ OpenWebUI ships with a built-in vector store (ChromaDB). Unless you're running h
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/openwebui)
+[View on Railway →](https://railway.com/deploy/openwebui)

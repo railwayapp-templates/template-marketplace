@@ -2,7 +2,7 @@
 
 Minimalist self-hosted customer feedback CMS
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kJ5jtI)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kJ5jtI)
 
 ## About
 
@@ -59,4 +59,4 @@ More details documentation is coming.
 
 **Category:** CMS · **Languages:** TypeScript, MDX, Dockerfile, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/kJ5jtI)
+[View on Railway →](https://railway.com/deploy/kJ5jtI)

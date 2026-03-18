@@ -2,7 +2,7 @@
 
 web element and rtc and the for call
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fronted)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fronted)
 
 ## About
 
@@ -52,4 +52,4 @@ Hosting fronted on Railway involves deploying a frontend service that can serve 
 
 **Category:** Automation · **Languages:** Python, Go Template, Go, Jinja, Shell, Dockerfile, HCL
 
-[View on Railway →](https://railway.com/template/fronted)
+[View on Railway →](https://railway.com/deploy/fronted)

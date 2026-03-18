@@ -2,7 +2,7 @@
 
 Redis key-value data store (maintained template)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/redis-maintained)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redis-maintained)
 
 ## About
 
@@ -36,4 +36,4 @@ Railway handles infrastructure tasks like restarts, scaling, and networking. Thi
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/redis-maintained)
+[View on Railway →](https://railway.com/deploy/redis-maintained)

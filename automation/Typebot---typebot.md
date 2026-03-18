@@ -2,7 +2,7 @@
 
 Build advanced chatbots visually
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/typebot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/typebot)
 
 ## About
 
@@ -113,4 +113,4 @@ Hosting Typebot gives you access to a powerful chatbot creation platform capable
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/typebot)
+[View on Railway →](https://railway.com/deploy/typebot)

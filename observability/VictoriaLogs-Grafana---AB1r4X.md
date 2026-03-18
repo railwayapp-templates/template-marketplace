@@ -2,7 +2,7 @@
 
 Bare bones Grafana provisioned with VictoriaLogs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/AB1r4X)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/AB1r4X)
 
 ## About
 
@@ -62,4 +62,4 @@ The provisioned Grafana configuration can be found [here](https://github.com/Bat
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/AB1r4X)
+[View on Railway →](https://railway.com/deploy/AB1r4X)

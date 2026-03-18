@@ -2,7 +2,7 @@
 
 Build your personal knowledge base with Trilium Notes.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jsMnJe)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jsMnJe)
 
 ## About
 
@@ -29,4 +29,4 @@ It listens by default on port 8080 and should be accessible instantly (after dep
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/jsMnJe)
+[View on Railway →](https://railway.com/deploy/jsMnJe)

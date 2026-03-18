@@ -2,7 +2,7 @@
 
 A simple Clojure Luminus app connected to Postgres database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/DsDYI2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/DsDYI2)
 
 ## About
 
@@ -43,4 +43,4 @@ This is a [Luminus](https://luminusweb.com) starter app that connects to a Postg
 
 **Category:** Starters · **Languages:** Clojure, HTML, CSS
 
-[View on Railway →](https://railway.com/template/DsDYI2)
+[View on Railway →](https://railway.com/deploy/DsDYI2)

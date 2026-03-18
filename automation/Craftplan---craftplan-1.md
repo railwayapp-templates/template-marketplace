@@ -2,7 +2,7 @@
 
 Open-source ERP for artisanal manufacturers and craft businesses.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/craftplan-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/craftplan-1)
 
 ## About
 
@@ -51,4 +51,4 @@ Craftplan is built with Elixir, the Ash Framework, and Phoenix LiveView, and is 
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/craftplan-1)
+[View on Railway →](https://railway.com/deploy/craftplan-1)

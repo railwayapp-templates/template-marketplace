@@ -2,7 +2,7 @@
 
 Tiny encryption API in Rust
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bifrost)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bifrost)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting Bifrost requires a PostgreSQL database for persistent storage and a few 
 
 **Category:** Other · **Languages:** Rust, Dockerfile
 
-[View on Railway →](https://railway.com/template/bifrost)
+[View on Railway →](https://railway.com/deploy/bifrost)

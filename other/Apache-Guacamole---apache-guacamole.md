@@ -2,7 +2,7 @@
 
 Clientless remote desktop gateway for protocols like VNC, RDP, and SSH
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/apache-guacamole)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/apache-guacamole)
 
 ## About
 
@@ -54,4 +54,4 @@ For security reasons, you should change this password immediately after logging 
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/apache-guacamole)
+[View on Railway →](https://railway.com/deploy/apache-guacamole)

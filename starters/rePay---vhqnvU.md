@@ -2,7 +2,7 @@
 
 Remix Frontend + PayloadCMS on MongoDB
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vhqnvU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vhqnvU)
 
 ## About
 
@@ -45,4 +45,4 @@ install [Docker Desktop](https://www.docker.com/products/docker-desktop/) and ru
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, Dockerfile, CSS
 
-[View on Railway →](https://railway.com/template/vhqnvU)
+[View on Railway →](https://railway.com/deploy/vhqnvU)

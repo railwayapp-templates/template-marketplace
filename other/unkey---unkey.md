@@ -2,7 +2,7 @@
 
 Unkey - The Developer Platform for Modern APIs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/unkey)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/unkey)
 
 ## About
 
@@ -72,4 +72,4 @@ Earlier versions depended on third-party providers like PlanetScale. The modern 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/unkey)
+[View on Railway →](https://railway.com/deploy/unkey)

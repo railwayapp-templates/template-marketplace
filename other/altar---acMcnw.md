@@ -2,7 +2,7 @@
 
 A lightweight API for identicon generation.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/acMcnw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/acMcnw)
 
 ## About
 
@@ -35,4 +35,4 @@ Altar was built from the ground up with minimal dependencies but is inspired by 
 
 **Category:** Other · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/acMcnw)
+[View on Railway →](https://railway.com/deploy/acMcnw)

@@ -2,7 +2,7 @@
 
 Open-source platform to create and manage AI agents
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mpbtSK)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mpbtSK)
 
 ## About
 
@@ -81,4 +81,4 @@ Hosting Evo AI allows you to leverage its full capabilities for developing and m
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/mpbtSK)
+[View on Railway →](https://railway.com/deploy/mpbtSK)

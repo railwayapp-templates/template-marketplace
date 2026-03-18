@@ -2,7 +2,7 @@
 
 PhotoPrism [Mar ’26] (Google Photos alternative & RAW support) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/photoprism)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/photoprism)
 
 ## About
 
@@ -40,4 +40,4 @@ You can self-host PhotoPrism using **Docker** or **Docker Compose** to keep all 
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/photoprism)
+[View on Railway →](https://railway.com/deploy/photoprism)

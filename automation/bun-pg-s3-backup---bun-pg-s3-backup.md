@@ -2,7 +2,7 @@
 
 A simple Bun cron job to backup PostgreSQL databases to an S3 bucket
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bun-pg-s3-backup)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bun-pg-s3-backup)
 
 ## About
 
@@ -37,4 +37,4 @@ The service has a default backup retention duration of 7 days. Customize this in
 
 **Category:** Automation · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/bun-pg-s3-backup)
+[View on Railway →](https://railway.com/deploy/bun-pg-s3-backup)

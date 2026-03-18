@@ -2,7 +2,7 @@
 
 Cachet is an open source status page system.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cachet)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cachet)
 
 ## About
 
@@ -41,4 +41,4 @@ A demo is available on the [official website](https://demo.cachethq.io/).
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/cachet)
+[View on Railway →](https://railway.com/deploy/cachet)

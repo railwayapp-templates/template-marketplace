@@ -2,7 +2,7 @@
 
 open-source project management alternative to Trello
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kanbn-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kanbn-1)
 
 ## About
 
@@ -40,4 +40,4 @@ Kan is a Next.js application that requires a PostgreSQL database. For a minimal 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/kanbn-1)
+[View on Railway →](https://railway.com/deploy/kanbn-1)

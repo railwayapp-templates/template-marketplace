@@ -2,7 +2,7 @@
 
 Free OpenCode LLM Agent for Python, NodeJS, Bun, Go, Rust safely YOLO!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/opencode-webui-workspace)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opencode-webui-workspace)
 
 ## About
 
@@ -29,4 +29,4 @@ Deploying OpenCode WebUI Workspace involves running a Docker container that bund
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/opencode-webui-workspace)
+[View on Railway →](https://railway.com/deploy/opencode-webui-workspace)

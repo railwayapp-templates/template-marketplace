@@ -2,7 +2,7 @@
 
 Token generator for Agora RTM, Video SDK, and Chat.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NKYzQA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NKYzQA)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting an Agora Token Service means running a web API that generates authentica
 
 **Category:** Authentication · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/NKYzQA)
+[View on Railway →](https://railway.com/deploy/NKYzQA)

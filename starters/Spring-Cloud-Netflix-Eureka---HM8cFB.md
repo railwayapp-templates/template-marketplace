@@ -2,7 +2,7 @@
 
 Deploy a Spring Cloud Netflix Eureka server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HM8cFB)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HM8cFB)
 
 ## About
 
@@ -46,4 +46,4 @@ In summary, Spring Cloud Netflix Eureka is an essential tool for building scalab
 
 **Category:** Starters · **Languages:** Dockerfile, Java
 
-[View on Railway →](https://railway.com/template/HM8cFB)
+[View on Railway →](https://railway.com/deploy/HM8cFB)

@@ -2,7 +2,7 @@
 
 Blazor Server starter for building web apps with C# and .NET 9
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/blazor-server-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/blazor-server-starter)
 
 ## About
 
@@ -131,4 +131,4 @@ app.MapGet("/api/data", () => Results.Ok(myData));
 
 **Category:** Starters · **Languages:** CSS, HTML, C#, Dockerfile
 
-[View on Railway →](https://railway.com/template/blazor-server-starter)
+[View on Railway →](https://railway.com/deploy/blazor-server-starter)

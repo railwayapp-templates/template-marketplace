@@ -2,7 +2,7 @@
 
 Memos [Mar ’26] (Open-Source Knowledge Base & Memo Notes Tool), Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/memo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/memo)
 
 ## About
 
@@ -34,4 +34,4 @@ You can self host the **Memos App** to keep all your online memo notes and confi
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/memo)
+[View on Railway →](https://railway.com/deploy/memo)

@@ -2,7 +2,7 @@
 
 An agentic Incident response agent, powered by Tessera
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/incident-response)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/incident-response)
 
 ## About
 
@@ -41,4 +41,4 @@ This template deploys a Phoenix/Elixir service with an attached Postgres databas
 
 **Category:** Observability · **Languages:** Elixir, HTML, CSS, JavaScript, Shell
 
-[View on Railway →](https://railway.com/template/incident-response)
+[View on Railway →](https://railway.com/deploy/incident-response)

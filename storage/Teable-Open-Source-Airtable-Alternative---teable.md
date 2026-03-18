@@ -2,7 +2,7 @@
 
 Teable [Mar ’26] (Airtable & Baserow alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/teable)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/teable)
 
 ## About
 
@@ -37,4 +37,4 @@ You can self host Teable to manage all your projects, data, and team workflows e
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/teable)
+[View on Railway →](https://railway.com/deploy/teable)

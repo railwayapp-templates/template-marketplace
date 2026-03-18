@@ -2,7 +2,7 @@
 
 Get dynamically generated GitHub stats on your READMEs!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/github-readme-stats)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/github-readme-stats)
 
 ## About
 
@@ -32,4 +32,4 @@ This Railway template deploys a self-hosted instance of GitHub Readme Stats usin
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/github-readme-stats)
+[View on Railway →](https://railway.com/deploy/github-readme-stats)

@@ -2,7 +2,7 @@
 
 High performance nats server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/AEaP8G)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/AEaP8G)
 
 ## About
 
@@ -36,4 +36,4 @@ Perfect for developers looking to implement **pub/sub**, **request/reply**, and 
 
 **Category:** Queues · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/AEaP8G)
+[View on Railway →](https://railway.com/deploy/AEaP8G)

@@ -2,7 +2,7 @@
 
 Railway Postgres 17 + Extensions
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/daaDbI)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/daaDbI)
 
 ## About
 
@@ -32,4 +32,4 @@ This template deploys a production-ready PostgreSQL 17 instance with SSL certifi
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/daaDbI)
+[View on Railway →](https://railway.com/deploy/daaDbI)

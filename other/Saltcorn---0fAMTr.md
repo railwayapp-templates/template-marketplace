@@ -2,7 +2,7 @@
 
 No-code/low-code platform | Alternative to AppSmith, Retool, Budibase
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0fAMTr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0fAMTr)
 
 ## About
 
@@ -49,4 +49,4 @@ Saltcorn is an extensible open source no-code database application builder. Use 
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/0fAMTr)
+[View on Railway →](https://railway.com/deploy/0fAMTr)

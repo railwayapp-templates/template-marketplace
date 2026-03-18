@@ -2,7 +2,7 @@
 
 Reliable Node.js webhook server for Unthread.io events. 🎫⚡
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/unthread-webhook-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/unthread-webhook-server)
 
 ## About
 
@@ -47,4 +47,4 @@ Hosting Unthread Webhook Server allows you to receive and process real-time even
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/unthread-webhook-server)
+[View on Railway →](https://railway.com/deploy/unthread-webhook-server)

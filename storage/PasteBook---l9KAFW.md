@@ -2,7 +2,7 @@
 
 An easy on the eyes, lightning fast pastebin built with Svelte and Rust.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/l9KAFW)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/l9KAFW)
 
 ## About
 
@@ -48,4 +48,4 @@ An easy on the eyes, portable, lightning fast pastebin written in Svelte and Rus
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/l9KAFW)
+[View on Railway →](https://railway.com/deploy/l9KAFW)

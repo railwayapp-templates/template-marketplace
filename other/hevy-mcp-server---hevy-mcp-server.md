@@ -2,7 +2,7 @@
 
 AI agents connect to Hevy workout tracking and history.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hevy-mcp-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hevy-mcp-server)
 
 ## About
 
@@ -18,4 +18,4 @@ Deploying hevy-mcp-server requires a running server that can handle SSE (Server-
 
 **Category:** Other · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/hevy-mcp-server)
+[View on Railway →](https://railway.com/deploy/hevy-mcp-server)

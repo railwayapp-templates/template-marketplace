@@ -2,7 +2,7 @@
 
 Mock REST API powered by Restapify, perfect for testing and development.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HK3yyB)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HK3yyB)
 
 ## About
 
@@ -115,4 +115,4 @@ Once deployed:
 
 **Category:** Starters · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/HK3yyB)
+[View on Railway →](https://railway.com/deploy/HK3yyB)

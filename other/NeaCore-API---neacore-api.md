@@ -2,7 +2,7 @@
 
 Deploy and Host NeaCore-API with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/neacore-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/neacore-api)
 
 ## About
 
@@ -54,4 +54,4 @@ Hosting NeaCore-API on Railway is the fastest way to get a secure Node.js backen
 
 **Category:** Other · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/neacore-api)
+[View on Railway →](https://railway.com/deploy/neacore-api)

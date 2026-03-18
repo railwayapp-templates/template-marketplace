@@ -2,7 +2,7 @@
 
 Deploy Mayin with PostgreSQL preconfigured on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mayin-ai-visibility-saas)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mayin-ai-visibility-saas)
 
 ## About
 
@@ -34,4 +34,4 @@ After deployment, you can configure Mayin for your business, activate your licen
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, PLpgSQL, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/mayin-ai-visibility-saas)
+[View on Railway →](https://railway.com/deploy/mayin-ai-visibility-saas)

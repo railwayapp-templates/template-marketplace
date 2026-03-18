@@ -2,7 +2,7 @@
 
 Template for a basic DocSpell installation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/docspell)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/docspell)
 
 ## About
 
@@ -79,4 +79,4 @@ The fulltext search index is another separate component, where currently SOLR an
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/docspell)
+[View on Railway →](https://railway.com/deploy/docspell)

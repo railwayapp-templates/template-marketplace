@@ -2,7 +2,7 @@
 
 A lakeFS server for git-like object versioning
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lakefs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lakefs)
 
 ## About
 
@@ -45,4 +45,4 @@ Railway provides an ideal environment for hosting lakeFS with its integrated Pos
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/lakefs)
+[View on Railway →](https://railway.com/deploy/lakefs)

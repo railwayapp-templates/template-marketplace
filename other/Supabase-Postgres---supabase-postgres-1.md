@@ -2,7 +2,7 @@
 
 Supabase Postgres with 50+ extensions and optimized defaults
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/supabase-postgres-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/supabase-postgres-1)
 
 ## About
 
@@ -48,4 +48,4 @@ Railway handles persistent volume mounting, automated backups (if you're on the 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/supabase-postgres-1)
+[View on Railway →](https://railway.com/deploy/supabase-postgres-1)

@@ -2,7 +2,7 @@
 
 Media tracker for movies, TV shows, anime, manga, video games, and books.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-TD4-4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-TD4-4)
 
 ## About
 
@@ -62,4 +62,4 @@ _Note: This is a community-made template and therefore not supported by the Yamt
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/-TD4-4)
+[View on Railway →](https://railway.com/deploy/-TD4-4)

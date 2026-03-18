@@ -2,7 +2,7 @@
 
 Beautiful, realtime collaborative, feature packed, and markdown compatible.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/LNLiaz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/LNLiaz)
 
 ## About
 
@@ -115,4 +115,4 @@ It is possible to setup email-only login after you've signed in with one of the 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/LNLiaz)
+[View on Railway →](https://railway.com/deploy/LNLiaz)

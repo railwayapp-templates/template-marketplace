@@ -2,7 +2,7 @@
 
 Self-hosted book and audiobook library management.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/booklore)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/booklore)
 
 ## About
 
@@ -42,4 +42,4 @@ BookLore runs as a Java application server backed by MariaDB. This template hand
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/booklore)
+[View on Railway →](https://railway.com/deploy/booklore)

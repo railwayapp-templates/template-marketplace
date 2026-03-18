@@ -2,7 +2,7 @@
 
 Thumbor [Mar ’26] (Cloudinary, Imgix & Imgproxy alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/thumbor)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/thumbor)
 
 ## About
 
@@ -43,4 +43,4 @@ Self-hosting Thumbor on Railway makes it simple to deploy, scale, and manage ima
 
 **Category:** Other · **Languages:** Smarty, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/thumbor)
+[View on Railway →](https://railway.com/deploy/thumbor)

@@ -2,7 +2,7 @@
 
 A lightweight, high-performance Rust email archiver with WebUI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bichon)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bichon)
 
 ## About
 
@@ -31,4 +31,4 @@ On Railway, you deploy the Bichon container and attach a persistent volume for i
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/bichon)
+[View on Railway →](https://railway.com/deploy/bichon)

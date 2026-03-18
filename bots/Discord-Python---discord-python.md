@@ -2,7 +2,7 @@
 
 A simple Python Discord bot built using the discord.py
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/discord-python)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discord-python)
 
 ## About
 
@@ -22,4 +22,4 @@ This Discord bot is designed to run continuously on cloud platforms. Since Disco
 
 **Category:** Bots · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/discord-python)
+[View on Railway →](https://railway.com/deploy/discord-python)

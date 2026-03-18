@@ -2,7 +2,7 @@
 
 Example Interval app for browsing your Spotify playlists.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tkbFsY)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tkbFsY)
 
 ## About
 
@@ -75,4 +75,4 @@ Or open an issue on the GitHub repo: https://github.com/danphilibin/interval-spo
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/tkbFsY)
+[View on Railway →](https://railway.com/deploy/tkbFsY)

@@ -2,7 +2,7 @@
 
 Docmost [Mar ’26] (Team Collab | Notion & Confluence alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/docmost)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/docmost)
 
 ## About
 
@@ -46,4 +46,4 @@ You can self host Docmost to keep all your documentation and notes under your fu
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/docmost)
+[View on Railway →](https://railway.com/deploy/docmost)

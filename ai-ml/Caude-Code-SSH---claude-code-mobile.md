@@ -2,7 +2,7 @@
 
 Run Claude Code safely from anywhere via SSH in 2 simple steps.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/claude-code-mobile)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/claude-code-mobile)
 
 ## About
 
@@ -34,4 +34,4 @@ Claude Code is powerful, but it requires a terminal. That's fine at your desk �
 
 **Category:** AI/ML · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/claude-code-mobile)
+[View on Railway →](https://railway.com/deploy/claude-code-mobile)

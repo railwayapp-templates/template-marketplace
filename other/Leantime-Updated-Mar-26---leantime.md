@@ -2,7 +2,7 @@
 
 Leantime [Mar ’26] (PM | Jira, Trello & Asana alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/leantime)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/leantime)
 
 ## About
 
@@ -59,4 +59,4 @@ Thanks to **Railway**, you can deploy Leantime instantly in managed Docker conta
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/leantime)
+[View on Railway →](https://railway.com/deploy/leantime)

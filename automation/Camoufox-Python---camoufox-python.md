@@ -2,7 +2,7 @@
 
 An open source anti-detect browser with robust fingerprint injection.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/camoufox-python)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/camoufox-python)
 
 ## About
 
@@ -18,4 +18,4 @@ This template sets up Camoufox with Python in a containerized environment on Rai
 
 **Category:** Automation · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/camoufox-python)
+[View on Railway →](https://railway.com/deploy/camoufox-python)

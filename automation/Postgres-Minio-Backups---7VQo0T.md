@@ -2,7 +2,7 @@
 
 A Docker to backup your PostgreSQL database to Minio via a cron.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7VQo0T)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7VQo0T)
 
 ## About
 
@@ -55,4 +55,4 @@ pg_restore -v -d postgres_connection_string filename.bak
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/7VQo0T)
+[View on Railway →](https://railway.com/deploy/7VQo0T)

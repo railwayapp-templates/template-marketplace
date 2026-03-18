@@ -2,7 +2,7 @@
 
 Deploy and Host go-interview-practice with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/go-interview-practice)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/go-interview-practice)
 
 ## About
 
@@ -34,4 +34,4 @@ Deploy your own private instance for teams, educational institutions, or organiz
 
 **Category:** Other · **Languages:** Go, HTML, Shell, Python, JavaScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/go-interview-practice)
+[View on Railway →](https://railway.com/deploy/go-interview-practice)

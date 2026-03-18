@@ -2,7 +2,7 @@
 
 Creates a Neo4j graph database + volume (upd 5/9/25 works with Metal now!).
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZVljtU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZVljtU)
 
 ## About
 
@@ -40,4 +40,4 @@ WARNING: This cannot be run on a Trial account because the VMs are too small to 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/ZVljtU)
+[View on Railway →](https://railway.com/deploy/ZVljtU)

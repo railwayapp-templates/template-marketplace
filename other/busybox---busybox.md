@@ -2,7 +2,7 @@
 
 The Swiss Army Knife of Embedded Linux ideal for debugging and diagnostics.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/busybox)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/busybox)
 
 ## About
 
@@ -22,4 +22,4 @@ Deploying BusyBox on Railway gives you a minimal Linux environment with essentia
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/busybox)
+[View on Railway →](https://railway.com/deploy/busybox)

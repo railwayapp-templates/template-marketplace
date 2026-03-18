@@ -2,7 +2,7 @@
 
 🧙 A modern replacement for Airflow.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Cr5cge)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Cr5cge)
 
 ## About
 
@@ -239,4 +239,4 @@ See the [LICENSE](LICENSE) file for licensing information.
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/Cr5cge)
+[View on Railway →](https://railway.com/deploy/Cr5cge)

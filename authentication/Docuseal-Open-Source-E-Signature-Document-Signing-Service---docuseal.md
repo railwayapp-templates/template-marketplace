@@ -2,7 +2,7 @@
 
 Docuseal [Mar ’26] (DocuSign & HelloSign alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/docuseal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/docuseal)
 
 ## About
 
@@ -51,4 +51,4 @@ With Railway, you benefit from automated scaling, environment variable managemen
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/docuseal)
+[View on Railway →](https://railway.com/deploy/docuseal)

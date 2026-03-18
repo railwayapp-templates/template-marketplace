@@ -2,7 +2,7 @@
 
 Deploy and Host Qwen3-0.6b on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qwen3-06b)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qwen3-06b)
 
 ## About
 
@@ -34,4 +34,4 @@ This template will be kept up to date for ideal optimization.
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/qwen3-06b)
+[View on Railway →](https://railway.com/deploy/qwen3-06b)

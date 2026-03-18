@@ -2,7 +2,7 @@
 
 A self-hosted recipe manager and meal planner for the whole family
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aEkcNZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aEkcNZ)
 
 ## About
 
@@ -53,4 +53,4 @@ _Note: This is a community-made template and therefore not supported by the Meal
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/aEkcNZ)
+[View on Railway →](https://railway.com/deploy/aEkcNZ)

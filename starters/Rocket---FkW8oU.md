@@ -2,7 +2,7 @@
 
 A webserver written in Rust using Rocket
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FkW8oU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FkW8oU)
 
 ## About
 
@@ -37,4 +37,4 @@ For more info: see the [railwayapp-templates/rocket](https://github.com/railwaya
 
 **Category:** Starters · **Tags:** webserver, rust
 
-[View on Railway →](https://railway.com/template/FkW8oU)
+[View on Railway →](https://railway.com/deploy/FkW8oU)

@@ -2,7 +2,7 @@
 
 Production-ready Task Management REST API with ASP.NET Core 9 + PostgreSQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/taskflow-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/taskflow-api)
 
 ## About
 
@@ -68,4 +68,4 @@ TaskFlow API is a production-ready RESTful task management API built with ASP.NE
 
 **Category:** Starters · **Languages:** C#, Dockerfile
 
-[View on Railway →](https://railway.com/template/taskflow-api)
+[View on Railway →](https://railway.com/deploy/taskflow-api)

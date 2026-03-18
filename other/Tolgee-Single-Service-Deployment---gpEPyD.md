@@ -2,7 +2,7 @@
 
 An effortless open-source localization platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gpEPyD)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gpEPyD)
 
 ## About
 
@@ -59,4 +59,4 @@ TOLGEE_SMTP_PASSWORD=************
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/gpEPyD)
+[View on Railway →](https://railway.com/deploy/gpEPyD)

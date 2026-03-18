@@ -2,7 +2,7 @@
 
 Headless WordPress using Next.js
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/next-wp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/next-wp)
 
 ## About
 
@@ -48,4 +48,4 @@ This template deploys a complete headless WordPress stack: a MySQL database, Wor
 
 **Category:** CMS · **Languages:** TypeScript, PHP, CSS, Shell, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/next-wp)
+[View on Railway →](https://railway.com/deploy/next-wp)

@@ -2,7 +2,7 @@
 
 Deploy a S3-compatible storage service with a pre-named bucket.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/simple-s3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/simple-s3)
 
 ## About
 
@@ -38,4 +38,4 @@ Hosting this Simple S3 (MinIO) service on Railway is streamlined through this te
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/simple-s3)
+[View on Railway →](https://railway.com/deploy/simple-s3)

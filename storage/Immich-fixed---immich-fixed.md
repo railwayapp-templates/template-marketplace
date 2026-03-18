@@ -2,7 +2,7 @@
 
 Open Source Google Photos alternative. Fixed and Simplified.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/immich-fixed)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/immich-fixed)
 
 ## About
 
@@ -52,4 +52,4 @@ Other templates that attempt to deploy Redis will bug out because Railway's inte
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/immich-fixed)
+[View on Railway →](https://railway.com/deploy/immich-fixed)

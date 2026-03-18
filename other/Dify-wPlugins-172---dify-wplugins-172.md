@@ -2,7 +2,7 @@
 
 Deploy and Host Dify (w/Plugins) 1.7.2 with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dify-wplugins-172)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dify-wplugins-172)
 
 ## About
 
@@ -146,4 +146,4 @@ Hosting Dify on Railway is straightforward: provision a service from this templa
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/dify-wplugins-172)
+[View on Railway →](https://railway.com/deploy/dify-wplugins-172)

@@ -2,7 +2,7 @@
 
 An official GUI for Redis
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/redis-insights-redis-gui)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redis-insights-redis-gui)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting Redis Insights - Redis GUI on Railway makes it easy to deploy a powerful
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/redis-insights-redis-gui)
+[View on Railway →](https://railway.com/deploy/redis-insights-redis-gui)

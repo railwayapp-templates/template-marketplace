@@ -2,7 +2,7 @@
 
 ⚠️⚠️⚠️A template for Pstream backend ⚠️⚠️⚠️LOOK AT NOTICE BELOW
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pstreambackend)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pstreambackend)
 
 ## About
 
@@ -42,4 +42,4 @@ Use it if you like faster speeds about 90% of the time. Make sure to set your re
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/pstreambackend)
+[View on Railway →](https://railway.com/deploy/pstreambackend)

@@ -2,7 +2,7 @@
 
 A Railway Wrapper for Chirpstack
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/chirpstack-rw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chirpstack-rw)
 
 ## About
 
@@ -127,4 +127,4 @@ ChirpStack RW is a 1‑click Railway template that deploys the ChirpStack LoRaWA
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/chirpstack-rw)
+[View on Railway →](https://railway.com/deploy/chirpstack-rw)

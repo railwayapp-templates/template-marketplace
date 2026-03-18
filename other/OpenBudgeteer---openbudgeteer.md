@@ -2,7 +2,7 @@
 
 Budgeting app based on the bucket budgeting principle
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openbudgeteer)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openbudgeteer)
 
 ## About
 
@@ -48,4 +48,4 @@ Hosting OpenBudgeteer involves running the web application alongside a PostgreSQ
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/openbudgeteer)
+[View on Railway →](https://railway.com/deploy/openbudgeteer)

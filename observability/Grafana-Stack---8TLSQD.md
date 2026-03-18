@@ -2,7 +2,7 @@
 
 One-click observability with Loki, Prometheus, Tempo, and Grafana
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/8TLSQD)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/8TLSQD)
 
 ## About
 
@@ -54,4 +54,4 @@ Hosting a Grafana Stack involves deploying four integrated observability service
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/8TLSQD)
+[View on Railway →](https://railway.com/deploy/8TLSQD)

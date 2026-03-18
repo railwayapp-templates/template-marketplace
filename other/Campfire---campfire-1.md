@@ -2,7 +2,7 @@
 
 Super simple group chat, without a subscription.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/campfire-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/campfire-1)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting Campfire involves running a single Dockerized application on infrastruct
 
 **Category:** Other · **Languages:** Ruby, HTML, JavaScript, CSS, Shell, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/campfire-1)
+[View on Railway →](https://railway.com/deploy/campfire-1)

@@ -2,7 +2,7 @@
 
 [Mar '26] The cheapest n8n instance. Period.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-starter-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-starter-1)
 
 ## About
 
@@ -42,4 +42,4 @@ By skipping the need for a full database or Redis, this deployment stays **light
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-starter-1)
+[View on Railway →](https://railway.com/deploy/n8n-starter-1)

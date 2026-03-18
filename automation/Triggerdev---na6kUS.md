@@ -2,7 +2,7 @@
 
 Open source background jobs framework for TypeScript.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/na6kUS)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/na6kUS)
 
 ## About
 
@@ -47,4 +47,4 @@ Create long-running jobs directly in your codebase with features like API integr
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/na6kUS)
+[View on Railway →](https://railway.com/deploy/na6kUS)

@@ -2,7 +2,7 @@
 
 Deploy and Host TeleCode with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/telecode)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/telecode)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting TeleCode involves deploying a Python-based Telegram bot that integrates 
 
 **Category:** Other · **Languages:** Python, Procfile
 
-[View on Railway →](https://railway.com/template/telecode)
+[View on Railway →](https://railway.com/deploy/telecode)

@@ -2,7 +2,7 @@
 
 Bot Meta oficial por Ycloud - Neurolinks - Multi Agente (5)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bot-railway-multiagente-meta-5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bot-railway-multiagente-meta-5)
 
 ## About
 
@@ -86,4 +86,4 @@ aEi5S78wya5OZKMmoQcEDWhy
 
 **Category:** Bots · **Languages:** TypeScript, HTML, JavaScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/bot-railway-multiagente-meta-5)
+[View on Railway →](https://railway.com/deploy/bot-railway-multiagente-meta-5)

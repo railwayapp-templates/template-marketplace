@@ -2,7 +2,7 @@
 
 Deploy and Host Sim AI with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sim-ai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sim-ai)
 
 ## About
 
@@ -41,4 +41,4 @@ Hosting Sim AI involves deploying its full-stack application, which includes a N
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/sim-ai)
+[View on Railway →](https://railway.com/deploy/sim-ai)

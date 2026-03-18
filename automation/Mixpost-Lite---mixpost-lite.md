@@ -2,7 +2,7 @@
 
 Social media management tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mixpost-lite)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mixpost-lite)
 
 ## About
 
@@ -59,4 +59,4 @@ Hosting Mixpost Lite requires running a Laravel-based PHP application with suppo
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/mixpost-lite)
+[View on Railway →](https://railway.com/deploy/mixpost-lite)

@@ -2,7 +2,7 @@
 
 Deploy Foundry VTT v13 server instantly, ready for epic TTRPG adventures!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/foundry-virtual-tabletop-v13)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/foundry-virtual-tabletop-v13)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting Foundry VTT v13 involves running the official Node.js application in a D
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/foundry-virtual-tabletop-v13)
+[View on Railway →](https://railway.com/deploy/foundry-virtual-tabletop-v13)

@@ -2,7 +2,7 @@
 
 Production-ready Spree eCommerce with admin & storefront
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/spree-ecommerce-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/spree-ecommerce-1)
 
 ## About
 
@@ -62,4 +62,4 @@ Spree's modular architecture allows for easy customization and extension through
 
 **Category:** Other · **Languages:** Ruby, CSS, HTML, Dockerfile, Shell, JavaScript, Procfile
 
-[View on Railway →](https://railway.com/template/spree-ecommerce-1)
+[View on Railway →](https://railway.com/deploy/spree-ecommerce-1)

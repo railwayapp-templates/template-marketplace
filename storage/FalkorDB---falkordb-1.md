@@ -2,7 +2,7 @@
 
 A FalkorDB single instance for AI, ML, and GraphRAG workloads.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/falkordb-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/falkordb-1)
 
 ## About
 
@@ -34,4 +34,4 @@ Railway ensures persistent storage, simple configuration, and seamless scaling a
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/falkordb-1)
+[View on Railway →](https://railway.com/deploy/falkordb-1)

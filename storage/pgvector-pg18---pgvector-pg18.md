@@ -2,7 +2,7 @@
 
 PostgreSQL 18 with powerful vector search support.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pgvector-pg18)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pgvector-pg18)
 
 ## About
 
@@ -45,4 +45,4 @@ This template provides PostgreSQL v18 with the pgvector extension pre-installed.
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/pgvector-pg18)
+[View on Railway →](https://railway.com/deploy/pgvector-pg18)

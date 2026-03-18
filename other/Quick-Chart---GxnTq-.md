@@ -2,7 +2,7 @@
 
 API service that generates chart images for emails, reports, and dashboards
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GxnTq-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GxnTq-)
 
 ## About
 
@@ -82,4 +82,4 @@ qc.to_file('chart.png')
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/GxnTq-)
+[View on Railway →](https://railway.com/deploy/GxnTq-)

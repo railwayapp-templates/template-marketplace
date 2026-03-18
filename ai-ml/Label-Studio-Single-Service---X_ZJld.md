@@ -2,7 +2,7 @@
 
 Deploys Label Studio via a single docker image
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/X_ZJld)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/X_ZJld)
 
 ## About
 
@@ -35,4 +35,4 @@ Deploys [Label Studio](https://github.com/HumanSignal/label-studio) to a public 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/X_ZJld)
+[View on Railway →](https://railway.com/deploy/X_ZJld)

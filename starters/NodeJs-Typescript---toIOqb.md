@@ -2,7 +2,7 @@
 
 A Node.js Express server with TypeScript, auth, and flexible logging setup
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/toIOqb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/toIOqb)
 
 ## About
 
@@ -100,4 +100,4 @@ Logging automatically switches based on the `NODE_ENV`:
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/toIOqb)
+[View on Railway →](https://railway.com/deploy/toIOqb)

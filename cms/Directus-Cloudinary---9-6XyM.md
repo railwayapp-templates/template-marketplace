@@ -2,7 +2,7 @@
 
 Open-source CMS platform for building websites and internal tools.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/9-6XyM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9-6XyM)
 
 ## About
 
@@ -60,4 +60,4 @@ Combining the utility of a Headless CMS with the power of a Backend-as-a-Service
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/9-6XyM)
+[View on Railway →](https://railway.com/deploy/9-6XyM)

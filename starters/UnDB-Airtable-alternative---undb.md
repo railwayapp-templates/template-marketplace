@@ -2,7 +2,7 @@
 
 [Mar ’26] Host Latest Version of UnDB on Railway with one click
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/undb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/undb)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting undb on Railway is the fastest way to deploy your own secure, scalable n
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/undb)
+[View on Railway →](https://railway.com/deploy/undb)

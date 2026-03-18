@@ -2,7 +2,7 @@
 
 A simple Beego app connected to a Postgres database.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/CPq9Ry)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/CPq9Ry)
 
 ## About
 
@@ -48,4 +48,4 @@ A Beego (Golang) starter app connected to a Postgres database.
 
 **Category:** Starters · **Languages:** Smarty, Go
 
-[View on Railway →](https://railway.com/template/CPq9Ry)
+[View on Railway →](https://railway.com/deploy/CPq9Ry)

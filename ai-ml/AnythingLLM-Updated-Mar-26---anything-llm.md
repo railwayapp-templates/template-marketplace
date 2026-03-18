@@ -2,7 +2,7 @@
 
 AnythingLLM [Mar ’26] (Chat, RAG & Local AI Assistants) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/anything-llm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/anything-llm)
 
 ## About
 
@@ -31,4 +31,4 @@ Self-hosting AnythingLLM gives you full control over your data, configurations, 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/anything-llm)
+[View on Railway →](https://railway.com/deploy/anything-llm)

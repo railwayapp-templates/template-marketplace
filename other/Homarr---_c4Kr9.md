@@ -2,7 +2,7 @@
 
 A simple, yet powerful dashboard for your server.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_c4Kr9)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_c4Kr9)
 
 ## About
 
@@ -48,4 +48,4 @@ https://homarr.dev/
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/_c4Kr9)
+[View on Railway →](https://railway.com/deploy/_c4Kr9)

@@ -2,7 +2,7 @@
 
 A lightweight Caddy reverse proxy with HTTP Basic Authentication.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/caddy-password-auth)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/caddy-password-auth)
 
 ## About
 
@@ -29,4 +29,4 @@ A lightweight Caddy reverse proxy with HTTP Basic Authentication for Railway.
 
 **Category:** Authentication · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/caddy-password-auth)
+[View on Railway →](https://railway.com/deploy/caddy-password-auth)

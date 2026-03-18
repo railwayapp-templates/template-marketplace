@@ -2,7 +2,7 @@
 
 SoraFlows is a browser interface for OpenAI Sora, generate text-to-video. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/39bNf0)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/39bNf0)
 
 ## About
 
@@ -27,4 +27,4 @@ Introduced by OpenAI, Sora is an advanced AI model capable of generating realist
 
 **Category:** AI/ML · **Languages:** TypeScript, JavaScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/39bNf0)
+[View on Railway →](https://railway.com/deploy/39bNf0)

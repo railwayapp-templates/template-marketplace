@@ -2,7 +2,7 @@
 
 The avatar service that offers everything you need to retrieve user avatars
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pzsyBK)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pzsyBK)
 
 ## About
 
@@ -33,4 +33,4 @@ Deploy unavatar.io to Railway with a single click and integrate universal avatar
 
 **Category:** Other · **Languages:** JavaScript, CSS, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/pzsyBK)
+[View on Railway →](https://railway.com/deploy/pzsyBK)

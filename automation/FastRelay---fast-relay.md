@@ -2,7 +2,7 @@
 
 Fast HTTP proxy with Gist config, smart routing, and custom responses
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fast-relay)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fast-relay)
 
 ## About
 
@@ -40,4 +40,4 @@ Fast Relay handles JSON, form-data, file uploads, and text formats automatically
 
 **Category:** Automation · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/fast-relay)
+[View on Railway →](https://railway.com/deploy/fast-relay)

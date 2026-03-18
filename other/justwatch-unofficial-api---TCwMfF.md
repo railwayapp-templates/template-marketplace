@@ -2,7 +2,7 @@
 
 Unofficial API for JustWatch
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/TCwMfF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TCwMfF)
 
 ## About
 
@@ -19,4 +19,4 @@ This API is unofficial and not endorsed by or affiliated with JustWatch. Use it 
 
 **Category:** Other · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/TCwMfF)
+[View on Railway →](https://railway.com/deploy/TCwMfF)

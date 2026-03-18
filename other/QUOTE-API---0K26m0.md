@@ -2,7 +2,7 @@
 
 quote message generator api
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0K26m0)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0K26m0)
 
 ## About
 
@@ -29,4 +29,4 @@ Nullam risus enim, fermentum non sem a, dictum tristique enim. Mauris et pharetr
 
 **Category:** Other · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/0K26m0)
+[View on Railway →](https://railway.com/deploy/0K26m0)

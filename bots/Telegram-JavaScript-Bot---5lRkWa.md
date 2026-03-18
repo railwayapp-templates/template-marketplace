@@ -2,7 +2,7 @@
 
 A template for Telegram bot in JavaScript using grammY
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5lRkWa)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5lRkWa)
 
 ## About
 
@@ -42,4 +42,4 @@ Telegram-JavaScript-Bot is a simple Telegram bot made with JavaScript. It uses [
 
 **Category:** Bots · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/5lRkWa)
+[View on Railway →](https://railway.com/deploy/5lRkWa)

@@ -2,7 +2,7 @@
 
 OpenClaw template with persistent secure storage for skills and context
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-secure)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-secure)
 
 ## About
 
@@ -31,4 +31,4 @@ Deploying OpenClaw on Railway provisions a Node.js gateway server with a Go tool
 
 **Category:** AI/ML · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/openclaw-secure)
+[View on Railway →](https://railway.com/deploy/openclaw-secure)

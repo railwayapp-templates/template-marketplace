@@ -2,7 +2,7 @@
 
 DiscordJS ESM bot boilerplate with Railway deployment and dev scripts.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/discordjs-esm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discordjs-esm)
 
 ## About
 
@@ -26,4 +26,4 @@ Hosting a DiscordJS ESM bot involves setting up a Discord application, configuri
 
 **Category:** Bots · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/discordjs-esm)
+[View on Railway →](https://railway.com/deploy/discordjs-esm)

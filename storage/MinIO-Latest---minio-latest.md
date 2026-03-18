@@ -2,7 +2,7 @@
 
 S3 compatible File Storage
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/minio-latest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minio-latest)
 
 ## About
 
@@ -40,4 +40,4 @@ Hosting MinIO from source puts you in the driver's seat of your storage infrastr
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/minio-latest)
+[View on Railway →](https://railway.com/deploy/minio-latest)

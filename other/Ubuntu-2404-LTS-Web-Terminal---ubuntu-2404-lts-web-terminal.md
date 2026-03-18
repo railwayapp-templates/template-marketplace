@@ -2,7 +2,7 @@
 
 Access a full Ubuntu 24.04 LTS terminal from your browser, anywhere.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ubuntu-2404-lts-web-terminal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ubuntu-2404-lts-web-terminal)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting a web terminal requires a containerized Ubuntu environment with ttyd ser
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/ubuntu-2404-lts-web-terminal)
+[View on Railway →](https://railway.com/deploy/ubuntu-2404-lts-web-terminal)

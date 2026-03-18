@@ -2,7 +2,7 @@
 
 official open source version of Bolt.new
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/abVHie)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/abVHie)
 
 ## About
 
@@ -81,4 +81,4 @@ DEFAULT_NUM_CTX=6144 # Consumes 24GB of VRAM
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/abVHie)
+[View on Railway →](https://railway.com/deploy/abVHie)

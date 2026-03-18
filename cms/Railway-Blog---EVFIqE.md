@@ -2,7 +2,7 @@
 
 The official Railway blog
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/EVFIqE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EVFIqE)
 
 ## About
 
@@ -40,4 +40,4 @@ View the production deployment of official **Railway Blog** to see an example.
 
 **Category:** CMS · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/EVFIqE)
+[View on Railway →](https://railway.com/deploy/EVFIqE)

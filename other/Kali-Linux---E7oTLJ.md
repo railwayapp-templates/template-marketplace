@@ -2,7 +2,7 @@
 
 Kali Linux with the tools you love and a shell, all accessible over the web
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/E7oTLJ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/E7oTLJ)
 
 ## About
 
@@ -70,4 +70,4 @@ docker run --rm -e USERNAME=admin -e PASSWORD=password -e PORT=8080 -p 8080:8080
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/E7oTLJ)
+[View on Railway →](https://railway.com/deploy/E7oTLJ)

@@ -2,7 +2,7 @@
 
 A fast, fun, and small ActivityPub server for the Fediverse
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/apM9fC)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/apM9fC)
 
 ## About
 
@@ -61,4 +61,4 @@ Your timeline and your experience are shaped by who you follow and how you inter
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/apM9fC)
+[View on Railway →](https://railway.com/deploy/apM9fC)

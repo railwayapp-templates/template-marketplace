@@ -2,7 +2,7 @@
 
 Discord.js. 24/7. Connect BuildShip / Fastgen / serverless backend.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xyquaG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xyquaG)
 
 ## About
 
@@ -36,4 +36,4 @@ More detailed instructions: https://github.com/matthewlal/discord.js-bot-nocode/
 
 **Category:** Bots · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/xyquaG)
+[View on Railway →](https://railway.com/deploy/xyquaG)

@@ -2,7 +2,7 @@
 
 E-commerce website LuminaVision
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/luminavision)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/luminavision)
 
 ## About
 
@@ -36,4 +36,4 @@ Basic Django set up and Stripe set up all you need to start and configure this p
 
 **Category:** Other · **Languages:** Python, CSS, HTML, JavaScript
 
-[View on Railway →](https://railway.com/template/luminavision)
+[View on Railway →](https://railway.com/deploy/luminavision)

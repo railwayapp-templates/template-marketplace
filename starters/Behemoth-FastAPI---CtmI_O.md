@@ -2,7 +2,7 @@
 
 FastAPI Template For Engineers Building Complex Systems
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/CtmI_O)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/CtmI_O)
 
 ## About
 
@@ -56,4 +56,4 @@ FastAPI Template For Engineers Building Complex Systems
 
 **Category:** Starters · **Languages:** Python, Mako, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/CtmI_O)
+[View on Railway →](https://railway.com/deploy/CtmI_O)

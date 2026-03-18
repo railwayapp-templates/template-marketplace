@@ -2,7 +2,7 @@
 
 ReScript React Template with Caddy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/SSNJUD)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/SSNJUD)
 
 ## About
 
@@ -43,4 +43,4 @@ Feel free to contribute! If you find any bugs or want to suggest improvements, p
 
 **Category:** Other · **Languages:** JavaScript, ReScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/SSNJUD)
+[View on Railway →](https://railway.com/deploy/SSNJUD)

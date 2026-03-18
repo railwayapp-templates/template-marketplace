@@ -2,7 +2,7 @@
 
 A relational model database server produced by Microsoft
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wcAazg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wcAazg)
 
 ## About
 
@@ -60,4 +60,4 @@ SQL Server Developer edition lets developers build any kind of application on to
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/wcAazg)
+[View on Railway →](https://railway.com/deploy/wcAazg)

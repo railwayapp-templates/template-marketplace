@@ -2,7 +2,7 @@
 
 Self-host Outline. Fast Wiki, Docs, Search, Real-Time Collab
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/outline-notion-alternative)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/outline-notion-alternative)
 
 ## About
 
@@ -80,4 +80,4 @@ Key features:
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/outline-notion-alternative)
+[View on Railway →](https://railway.com/deploy/outline-notion-alternative)

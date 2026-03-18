@@ -2,7 +2,7 @@
 
 Privacy-first, Agnostic Telemetry for Self-Hosted Software
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/self-hosted-metrics-shm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/self-hosted-metrics-shm)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting SHM on Railway involves deploying the SHM server (a Go service with an e
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/self-hosted-metrics-shm)
+[View on Railway →](https://railway.com/deploy/self-hosted-metrics-shm)

@@ -2,7 +2,7 @@
 
 Community‑driven Q&A/knowledge‑base platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/apache-answer-postgres)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/apache-answer-postgres)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting Apache Answer on Railway with Postgres involves running the Apache Answe
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/apache-answer-postgres)
+[View on Railway →](https://railway.com/deploy/apache-answer-postgres)

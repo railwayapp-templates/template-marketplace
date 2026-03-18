@@ -2,7 +2,7 @@
 
 Protect a web service of any kind (like FastAPI) behind a cloudflare tunnel
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fastapi-service-with-a-firewall-via-clou)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-service-with-a-firewall-via-clou)
 
 ## About
 
@@ -37,4 +37,4 @@ The only thing you'll need is a cloudflare account. Setting up the tunnel and th
 
 **Category:** Starters · **Languages:** Python, TypeScript, HTML, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/fastapi-service-with-a-firewall-via-clou)
+[View on Railway →](https://railway.com/deploy/fastapi-service-with-a-firewall-via-clou)

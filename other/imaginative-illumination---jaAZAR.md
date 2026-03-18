@@ -2,7 +2,7 @@
 
 this is the description of the app
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jaAZAR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jaAZAR)
 
 ## About
 
@@ -20,4 +20,4 @@ EventSwift is a cutting-edge mobile application designed to streamline event man
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/jaAZAR)
+[View on Railway →](https://railway.com/deploy/jaAZAR)

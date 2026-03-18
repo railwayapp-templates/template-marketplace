@@ -2,7 +2,7 @@
 
 Beautiful, FastAPI realtime multi-user websocket chat
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fastapi-websocket-chat)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-websocket-chat)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting a WebSocket chat app requires a platform that supports persistent, long-
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/fastapi-websocket-chat)
+[View on Railway →](https://railway.com/deploy/fastapi-websocket-chat)

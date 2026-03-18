@@ -2,7 +2,7 @@
 
 DailyTxT is an encrypted Diary/Journal WebApp
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dailytxt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dailytxt)
 
 ## About
 
@@ -33,4 +33,4 @@ DailyTxT runs as a single Docker-based web service and does not require an exter
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/dailytxt)
+[View on Railway →](https://railway.com/deploy/dailytxt)

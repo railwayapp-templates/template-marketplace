@@ -2,7 +2,7 @@
 
 Private Django API server with a public Next.js app. Example use case.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/LWkkqf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/LWkkqf)
 
 ## About
 
@@ -54,4 +54,4 @@ TailwindCSS and ShadCN are also excellent design libraries that I have baked in 
 
 **Category:** Other · **Languages:** JavaScript, Python, Dockerfile, CSS
 
-[View on Railway →](https://railway.com/template/LWkkqf)
+[View on Railway →](https://railway.com/deploy/LWkkqf)

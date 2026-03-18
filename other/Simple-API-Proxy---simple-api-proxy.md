@@ -2,7 +2,7 @@
 
 Simple run, configure DNS to *.yourdomain.com and setup in UI your proxies!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/simple-api-proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/simple-api-proxy)
 
 ## About
 
@@ -30,4 +30,4 @@ Just install the template, generate domain and connect to your DNS provider in *
 
 **Category:** Other · **Languages:** Python, HTML, Procfile
 
-[View on Railway →](https://railway.com/template/simple-api-proxy)
+[View on Railway →](https://railway.com/deploy/simple-api-proxy)

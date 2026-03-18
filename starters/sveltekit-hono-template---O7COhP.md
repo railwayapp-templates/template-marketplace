@@ -2,7 +2,7 @@
 
 sveltekit with hono as api, builtin openapi doc generation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/O7COhP)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/O7COhP)
 
 ## About
 
@@ -28,4 +28,4 @@ Look for lib/api-client.ts for the hono rpc file, checkout https://hono.dev/docs
 
 **Category:** Starters · **Languages:** TypeScript, HTML, Dockerfile, Svelte, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/O7COhP)
+[View on Railway →](https://railway.com/deploy/O7COhP)

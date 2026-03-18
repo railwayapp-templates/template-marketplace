@@ -2,7 +2,7 @@
 
 Build better products with customer feedback
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/logchimp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/logchimp)
 
 ## About
 
@@ -71,4 +71,4 @@ Valkey for caching on Railway.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/logchimp)
+[View on Railway →](https://railway.com/deploy/logchimp)

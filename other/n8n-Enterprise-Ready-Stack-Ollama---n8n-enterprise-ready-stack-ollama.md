@@ -2,7 +2,7 @@
 
 🚀 Infinite Scaling n8n + worker + PostgreSQL HA + Redis + Runer + Ollama
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-enterprise-ready-stack-ollama)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-enterprise-ready-stack-ollama)
 
 ## About
 
@@ -102,4 +102,4 @@ Ollama allows you to run open-source large language models (LLMs) locally. By ho
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/n8n-enterprise-ready-stack-ollama)
+[View on Railway →](https://railway.com/deploy/n8n-enterprise-ready-stack-ollama)

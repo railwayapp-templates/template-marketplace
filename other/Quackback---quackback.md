@@ -2,7 +2,7 @@
 
 Open-source feedback platform with voting, roadmaps & changelogs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/quackback)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/quackback)
 
 ## About
 
@@ -67,4 +67,4 @@ Quackback is the open-source alternative to Canny and UserVoice. Collect feature
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/quackback)
+[View on Railway →](https://railway.com/deploy/quackback)

@@ -2,7 +2,7 @@
 
 Directus (Docker) + PostGIS (Docker/TCP) + S3
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/XQc69P)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/XQc69P)
 
 ## About
 
@@ -55,4 +55,4 @@ Hosting Directus with PostGIS and S3 on Railway involves deploying a containeriz
 
 **Category:** CMS · **Languages:** JavaScript, Dockerfile, TypeScript, Shell
 
-[View on Railway →](https://railway.com/template/XQc69P)
+[View on Railway →](https://railway.com/deploy/XQc69P)

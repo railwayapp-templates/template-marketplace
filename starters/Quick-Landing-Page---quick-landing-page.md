@@ -2,7 +2,7 @@
 
 Monorepo with multiple Astro static sites, a Hono API and Postgres
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/quick-landing-page)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/quick-landing-page)
 
 ## About
 
@@ -45,4 +45,4 @@ This template deploys a full multi-service stack: three Astro static landing pag
 
 **Category:** Starters · **Languages:** Astro, TypeScript, CSS, JavaScript, Shell
 
-[View on Railway →](https://railway.com/template/quick-landing-page)
+[View on Railway →](https://railway.com/deploy/quick-landing-page)

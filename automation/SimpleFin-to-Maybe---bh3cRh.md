@@ -2,7 +2,7 @@
 
 An add-on to sync financial accounts between SimpleFIN and Maybe 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bh3cRh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bh3cRh)
 
 ## About
 
@@ -55,4 +55,4 @@ https://github.com/Toby-Null/SimpleFIN-to-Maybe/
 
 **Category:** Automation · **Languages:** JavaScript, EJS, CSS
 
-[View on Railway →](https://railway.com/template/bh3cRh)
+[View on Railway →](https://railway.com/deploy/bh3cRh)

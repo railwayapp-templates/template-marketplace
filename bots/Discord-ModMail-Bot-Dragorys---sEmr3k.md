@@ -2,7 +2,7 @@
 
 ModMail Discord Bot (Dragory)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sEmr3k)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sEmr3k)
 
 ## About
 
@@ -71,4 +71,4 @@ Railway should have a way to update it automatically (?)
 
 **Category:** Bots · **Languages:** Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/sEmr3k)
+[View on Railway →](https://railway.com/deploy/sEmr3k)

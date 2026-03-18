@@ -2,7 +2,7 @@
 
 Deploy and Host marketplace.openship.org with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/marketplaceopenshiporg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/marketplaceopenshiporg)
 
 ## About
 
@@ -22,4 +22,4 @@ The marketplace is a Next.js 15 application built on Model Context Protocol (MCP
 
 **Category:** Other · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/marketplaceopenshiporg)
+[View on Railway →](https://railway.com/deploy/marketplaceopenshiporg)

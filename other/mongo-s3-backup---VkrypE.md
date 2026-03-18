@@ -2,7 +2,7 @@
 
 A simple NodeJS app to back up your MongoDB database to S3 via a cron.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VkrypE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VkrypE)
 
 ## About
 
@@ -37,4 +37,4 @@ Support for custom buckets: The script also supports using a `AWS_S3_ENDPOINT` e
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/VkrypE)
+[View on Railway →](https://railway.com/deploy/VkrypE)

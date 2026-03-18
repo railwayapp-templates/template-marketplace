@@ -2,7 +2,7 @@
 
 Now you can install your desired nodes once and it's done forever!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-w-postgresql-and-persistent-nodes)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-w-postgresql-and-persistent-nodes)
 
 ## About
 
@@ -55,4 +55,4 @@ The result is a stable automation backend where workflows, data, and extensions 
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/n8n-w-postgresql-and-persistent-nodes)
+[View on Railway →](https://railway.com/deploy/n8n-w-postgresql-and-persistent-nodes)

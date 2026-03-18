@@ -2,7 +2,7 @@
 
 A scalable, distributed, collaborative, document-graph database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/surrealdb-3x)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/surrealdb-3x)
 
 ## About
 
@@ -43,4 +43,4 @@ SurrealDB 3.x supports TiKV as a distributed storage backend for clustered deplo
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/surrealdb-3x)
+[View on Railway →](https://railway.com/deploy/surrealdb-3x)

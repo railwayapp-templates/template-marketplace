@@ -2,7 +2,7 @@
 
 Self-Host Nextcloud on Railway — File Storage, Calendars, and Contacts
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/self-host-nextcloud)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/self-host-nextcloud)
 
 ## About
 
@@ -76,4 +76,4 @@ Nextcloud is a free, open-source content collaboration platform — a self-hoste
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/self-host-nextcloud)
+[View on Railway →](https://railway.com/deploy/self-host-nextcloud)

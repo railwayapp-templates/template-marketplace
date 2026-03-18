@@ -2,7 +2,7 @@
 
 [Mar '26] Host any LLM Model using Ollama & Use in Jupyter Notebooks
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ollama-jupyter-lab-or-run-local-llms-fro)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ollama-jupyter-lab-or-run-local-llms-fro)
 
 ## About
 
@@ -38,4 +38,4 @@ Ollama + Jupyter Lab lets you run **local large language models (LLMs)** and int
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/ollama-jupyter-lab-or-run-local-llms-fro)
+[View on Railway →](https://railway.com/deploy/ollama-jupyter-lab-or-run-local-llms-fro)

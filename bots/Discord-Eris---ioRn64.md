@@ -2,7 +2,7 @@
 
 A basic Discord bot written using the Eris library
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ioRn64)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ioRn64)
 
 ## About
 
@@ -41,4 +41,4 @@ Eris is a Node.JS Discord library. This template launches a server with a Discor
 
 **Category:** Bots · **Tags:** discord, eris, javascript
 
-[View on Railway →](https://railway.com/template/ioRn64)
+[View on Railway →](https://railway.com/deploy/ioRn64)

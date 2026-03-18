@@ -2,7 +2,7 @@
 
 Mattermost [Mar '26] (Slack Alternative & Secure Messaging) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mattermost)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mattermost)
 
 ## About
 
@@ -39,4 +39,4 @@ You can **self host Mattermost with Docker** to keep all your messages, files, a
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/mattermost)
+[View on Railway →](https://railway.com/deploy/mattermost)

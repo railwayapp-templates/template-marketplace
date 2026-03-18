@@ -2,7 +2,7 @@
 
 Nextjs, Better Auth, Prisma, Shadcn/UI, Resend, Postgres Template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-better-auth-prisma-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-better-auth-prisma-template)
 
 ## About
 
@@ -42,4 +42,4 @@ This template provides a complete authentication and database solution for moder
 
 **Category:** Other · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/nextjs-better-auth-prisma-template)
+[View on Railway →](https://railway.com/deploy/nextjs-better-auth-prisma-template)

@@ -2,7 +2,7 @@
 
 AI powered Deep Research - Open Source
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/deerflow)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/deerflow)
 
 ## About
 
@@ -47,4 +47,4 @@ Hosting DeerFlow on Railway provides a one-click way to set up and run the compl
 
 **Category:** AI/ML · **Languages:** Python, TypeScript, CSS, JavaScript, Dockerfile, Makefile, Shell, Batchfile
 
-[View on Railway →](https://railway.com/template/deerflow)
+[View on Railway →](https://railway.com/deploy/deerflow)

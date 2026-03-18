@@ -2,7 +2,7 @@
 
 Lightweight, scalable, easy-to-deploy RSS feed service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pfvWZK)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pfvWZK)
 
 ## About
 
@@ -40,4 +40,4 @@ Deploy and configure your RSS feed in the curate.config.json.
 
 **Category:** Blogs · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/pfvWZK)
+[View on Railway →](https://railway.com/deploy/pfvWZK)

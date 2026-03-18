@@ -2,7 +2,7 @@
 
 Node / Express server to receive Zoom Platform and Zoom Video SDK Webhooks
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ERSEbO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ERSEbO)
 
 ## About
 
@@ -80,4 +80,4 @@ From: [https://github.com/zoom/webhook-sample/](https://github.com/zoom/webhook-
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/ERSEbO)
+[View on Railway →](https://railway.com/deploy/ERSEbO)

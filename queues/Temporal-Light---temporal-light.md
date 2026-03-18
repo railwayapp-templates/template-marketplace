@@ -2,7 +2,7 @@
 
 Open source durable execution platform (Non-production)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/temporal-light)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/temporal-light)
 
 ## About
 
@@ -68,4 +68,4 @@ Hosting Temporal involves setting up the necessary infrastructure to support its
 
 **Category:** Queues · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/temporal-light)
+[View on Railway →](https://railway.com/deploy/temporal-light)

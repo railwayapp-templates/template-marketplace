@@ -2,7 +2,7 @@
 
 Deploy and Host astrotradeai.com with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cheerful-respect)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cheerful-respect)
 
 ## About
 
@@ -68,4 +68,4 @@ By deploying AstrotradeAI.com on Railway, you are one step closer to supporting 
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/cheerful-respect)
+[View on Railway →](https://railway.com/deploy/cheerful-respect)

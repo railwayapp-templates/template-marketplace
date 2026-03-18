@@ -2,7 +2,7 @@
 
 Deploy and Host blnk with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/blnk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/blnk)
 
 ## About
 
@@ -54,4 +54,4 @@ blnk is an open-source double-entry ledger and financial transaction engine for 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/blnk)
+[View on Railway →](https://railway.com/deploy/blnk)

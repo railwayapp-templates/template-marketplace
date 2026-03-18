@@ -2,7 +2,7 @@
 
 Official GlitchTip open source error tracking https://glitchtip.com/
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/glitchtip)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/glitchtip)
 
 ## About
 
@@ -62,4 +62,4 @@ The application is container-native and configured entirely via environment vari
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/glitchtip)
+[View on Railway →](https://railway.com/deploy/glitchtip)

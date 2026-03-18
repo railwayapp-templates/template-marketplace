@@ -2,7 +2,7 @@
 
 PodFetch is a self-hosted podcast manager built with Rust and React.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/podfetch-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/podfetch-template)
 
 ## About
 
@@ -33,4 +33,4 @@ This Railway template uses the official Docker image `samuel19982/podfetch:lates
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/podfetch-template)
+[View on Railway →](https://railway.com/deploy/podfetch-template)

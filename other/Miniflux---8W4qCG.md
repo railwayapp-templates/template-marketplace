@@ -2,7 +2,7 @@
 
 Miniflux is a minimalist and opinionated RSS feed reader
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/8W4qCG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/8W4qCG)
 
 ## About
 
@@ -53,4 +53,4 @@ Miniflux provides a number of configuration options that can be set from environ
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/8W4qCG)
+[View on Railway →](https://railway.com/deploy/8W4qCG)

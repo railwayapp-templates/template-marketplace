@@ -2,7 +2,7 @@
 
 Next.js 16.1 bundled with TailwindCSS 4 and Shadcn UI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-16)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-16)
 
 ## About
 
@@ -20,4 +20,4 @@ This application deploys fine onto railway a single deployment and will run Next
 
 **Category:** Starters · **Languages:** CSS, TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/nextjs-16)
+[View on Railway →](https://railway.com/deploy/nextjs-16)

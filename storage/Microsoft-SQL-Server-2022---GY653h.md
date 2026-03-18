@@ -2,7 +2,7 @@
 
 Deploy MSSQL Server 2022 with persistent storage and TCP connectivity
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GY653h)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GY653h)
 
 ## About
 
@@ -41,4 +41,4 @@ This template is designed to deploy and configure a **Microsoft SQL Server 2022*
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/GY653h)
+[View on Railway →](https://railway.com/deploy/GY653h)

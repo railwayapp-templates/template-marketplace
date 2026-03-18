@@ -2,7 +2,7 @@
 
 GitHub profile stats for Readme file generated on the fly!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/github-statcrab)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/github-statcrab)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting github-statcrab involves deploying a Rust web server that connects to th
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/github-statcrab)
+[View on Railway →](https://railway.com/deploy/github-statcrab)

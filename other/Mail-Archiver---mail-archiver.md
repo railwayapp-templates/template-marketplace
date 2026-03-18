@@ -2,7 +2,7 @@
 
 Archive, search, and export emails from multiple accounts
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mail-archiver)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mail-archiver)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting Mail-Archiver involves running an automated service that archives, store
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/mail-archiver)
+[View on Railway →](https://railway.com/deploy/mail-archiver)

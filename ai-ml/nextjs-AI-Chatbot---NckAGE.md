@@ -2,7 +2,7 @@
 
 A full-featured, hackable Next.js AI chatbot built by Vercel
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NckAGE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NckAGE)
 
 ## About
 
@@ -110,4 +110,4 @@ Your app template should now be running on [localhost:3000](http://localhost:300
 
 **Category:** AI/ML · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/NckAGE)
+[View on Railway →](https://railway.com/deploy/NckAGE)

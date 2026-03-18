@@ -2,7 +2,7 @@
 
 Instant Ubuntu 25.10 browser terminal powered by ttyd
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ubuntu-2510-web-terminal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ubuntu-2510-web-terminal)
 
 ## About
 
@@ -30,4 +30,4 @@ Deploying Ubuntu 25.10 (Web Terminal) on Railway uses the official minimal Ubunt
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/ubuntu-2510-web-terminal)
+[View on Railway →](https://railway.com/deploy/ubuntu-2510-web-terminal)

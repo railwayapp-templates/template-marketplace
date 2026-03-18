@@ -2,7 +2,7 @@
 
 AI agent for Slack with a browser, scheduler, and web dashboard.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/browserbird-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/browserbird-1)
 
 ## About
 
@@ -38,4 +38,4 @@ The VM service runs a headless desktop environment with Chromium, accessible thr
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/browserbird-1)
+[View on Railway →](https://railway.com/deploy/browserbird-1)

@@ -2,7 +2,7 @@
 
 Modern cron job manager with dashboard, built on Bun. Deploy in 30 seconds.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/worthy-nourishment)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/worthy-nourishment)
 
 ## About
 
@@ -37,4 +37,4 @@ Railway auto-installs Bun and handles dependency installation. Configure require
 
 **Category:** Automation · **Languages:** TypeScript, Dockerfile, CSS, HTML
 
-[View on Railway →](https://railway.com/template/worthy-nourishment)
+[View on Railway →](https://railway.com/deploy/worthy-nourishment)

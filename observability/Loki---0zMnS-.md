@@ -2,7 +2,7 @@
 
 Loki is a horizontally scalable, log aggregation system
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0zMnS-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0zMnS-)
 
 ## About
 
@@ -31,4 +31,4 @@ Loki is a horizontally scalable, multi-tenant log aggregation system created by 
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/0zMnS-)
+[View on Railway →](https://railway.com/deploy/0zMnS-)

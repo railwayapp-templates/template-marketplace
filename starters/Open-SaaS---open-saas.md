@@ -2,7 +2,7 @@
 
 full-featured SaaS starter for React, NodeJS, & Prisma powered by Wasp =}
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-saas)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-saas)
 
 ## About
 
@@ -74,4 +74,4 @@ Your app will then run, but you'll need to create a mirror of the repo in your o
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, Astro, CSS
 
-[View on Railway →](https://railway.com/template/open-saas)
+[View on Railway →](https://railway.com/deploy/open-saas)

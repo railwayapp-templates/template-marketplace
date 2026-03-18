@@ -2,7 +2,7 @@
 
 Turn your PostgreSQL database into a RESTful API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0cbz2v)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0cbz2v)
 
 ## About
 
@@ -85,4 +85,4 @@ Follow the [PostgREST tutorial](https://docs.postgrest.org/en/stable/tutorials/t
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/0cbz2v)
+[View on Railway →](https://railway.com/deploy/0cbz2v)

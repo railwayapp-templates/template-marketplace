@@ -2,7 +2,7 @@
 
 The better auth and identity infrastructure
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/K_cg9u)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/K_cg9u)
 
 ## About
 
@@ -43,4 +43,4 @@ Repository: https://github.com/logto-io/logto
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/K_cg9u)
+[View on Railway →](https://railway.com/deploy/K_cg9u)

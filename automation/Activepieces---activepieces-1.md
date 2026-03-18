@@ -2,7 +2,7 @@
 
 Open-source no-code workflow automation platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/activepieces-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/activepieces-1)
 
 ## About
 
@@ -55,4 +55,4 @@ Hosting Activepieces on Railway gives you a fully managed deployment of the auto
 
 **Category:** Automation · **Languages:** Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/activepieces-1)
+[View on Railway →](https://railway.com/deploy/activepieces-1)

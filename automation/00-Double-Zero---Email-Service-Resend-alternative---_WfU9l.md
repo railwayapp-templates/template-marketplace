@@ -2,7 +2,7 @@
 
 A markdown email micro service for the people! - Free alternative to Resend
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_WfU9l)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_WfU9l)
 
 ## About
 
@@ -61,4 +61,4 @@ More details: https://github.com/technomancy-dev/00/
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/_WfU9l)
+[View on Railway →](https://railway.com/deploy/_WfU9l)

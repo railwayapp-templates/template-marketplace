@@ -2,7 +2,7 @@
 
 Sample LangChain apps for search, text, document, URL, and news summaries.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/oE8sWo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oE8sWo)
 
 ## About
 
@@ -71,4 +71,4 @@ A sample Streamlit application for Google news search and summaries using LangCh
 
 **Category:** AI/ML · **Languages:** Python, Jupyter Notebook
 
-[View on Railway →](https://railway.com/template/oE8sWo)
+[View on Railway →](https://railway.com/deploy/oE8sWo)

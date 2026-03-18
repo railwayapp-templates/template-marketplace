@@ -2,7 +2,7 @@
 
 A template to spin SnackBase instance with SQLite db
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/snackbase-sqlite)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/snackbase-sqlite)
 
 ## About
 
@@ -48,4 +48,4 @@ Hosting SnackBase with SQLite on Railway involves deploying a containerized Fast
 
 **Category:** Storage · **Languages:** Python, TypeScript, HTML, CSS, Dockerfile, Mako, JavaScript
 
-[View on Railway →](https://railway.com/template/snackbase-sqlite)
+[View on Railway →](https://railway.com/deploy/snackbase-sqlite)

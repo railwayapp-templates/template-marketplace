@@ -2,7 +2,7 @@
 
 Deploy a Kubo server in railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kubo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kubo)
 
 ## About
 
@@ -37,4 +37,4 @@ Kubo runs as a single service that exposes IPFS HTTP APIs and gateway endpoints 
 
 **Category:** Storage · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/kubo)
+[View on Railway →](https://railway.com/deploy/kubo)

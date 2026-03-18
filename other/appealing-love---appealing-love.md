@@ -2,7 +2,7 @@
 
 The best Tinfoil store that scrapes for you
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/appealing-love)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/appealing-love)
 
 ## What gets deployed
 
@@ -25,4 +25,4 @@ The best Tinfoil store that scrapes for you
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/appealing-love)
+[View on Railway →](https://railway.com/deploy/appealing-love)

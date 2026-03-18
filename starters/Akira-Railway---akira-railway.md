@@ -2,7 +2,7 @@
 
 SaaS starter kit with auth, payments, database, and email on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/akira-railway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/akira-railway)
 
 ## About
 
@@ -62,4 +62,4 @@ Akira-Railway is a SaaS starter kit based on [Akira](https://akira.sachi.dev). I
 
 **Category:** Starters · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/akira-railway)
+[View on Railway →](https://railway.com/deploy/akira-railway)

@@ -2,7 +2,7 @@
 
 Connect CEX and DEX exchanges across multi messaging platforms.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZVM0QG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZVM0QG)
 
 ## About
 
@@ -55,4 +55,4 @@ Easily deploy via Docker on self-hosted platform or Paas.<br>
 
 **Category:** Other · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/ZVM0QG)
+[View on Railway →](https://railway.com/deploy/ZVM0QG)

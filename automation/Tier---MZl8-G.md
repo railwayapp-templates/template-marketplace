@@ -2,7 +2,7 @@
 
 A single tool to configure,orchestrate and manage your entire pricing stack
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/MZl8-G)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MZl8-G)
 
 ## About
 
@@ -35,4 +35,4 @@ https://github.com/tierrun/node-sdk
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/MZl8-G)
+[View on Railway →](https://railway.com/deploy/MZl8-G)

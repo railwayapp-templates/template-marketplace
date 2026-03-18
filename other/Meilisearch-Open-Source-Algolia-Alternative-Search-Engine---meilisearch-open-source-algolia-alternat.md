@@ -2,7 +2,7 @@
 
 Meilisearch provides lightning-fast search with semantic capabilities
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/meilisearch-open-source-algolia-alternat)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/meilisearch-open-source-algolia-alternat)
 
 ## About
 
@@ -44,4 +44,4 @@ Meilisearch runs as a single binary with persistent storage at `/meili_data/data
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/meilisearch-open-source-algolia-alternat)
+[View on Railway →](https://railway.com/deploy/meilisearch-open-source-algolia-alternat)

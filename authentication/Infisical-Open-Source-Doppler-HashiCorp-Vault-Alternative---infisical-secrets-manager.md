@@ -2,7 +2,7 @@
 
 Self Host Infisical, Manage API keys, certs, & other secrets on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/infisical-secrets-manager)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/infisical-secrets-manager)
 
 ## About
 
@@ -65,4 +65,4 @@ This template deploys the standalone `infisical/infisical` Docker image. Infisic
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/infisical-secrets-manager)
+[View on Railway →](https://railway.com/deploy/infisical-secrets-manager)

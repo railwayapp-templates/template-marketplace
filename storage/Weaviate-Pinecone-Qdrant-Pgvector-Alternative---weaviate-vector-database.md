@@ -2,7 +2,7 @@
 
 Self Host Weaviate. Built-in support for vectorization (using OpenAI, etc.)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/weaviate-vector-database)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/weaviate-vector-database)
 
 ## About
 
@@ -54,4 +54,4 @@ This template ships with `DEFAULT_VECTORIZER_MODULE="none"`, meaning you bring y
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/weaviate-vector-database)
+[View on Railway →](https://railway.com/deploy/weaviate-vector-database)

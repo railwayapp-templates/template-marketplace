@@ -2,7 +2,7 @@
 
 A simple OIDC / OAuth Identity Provider (IdP) server for your tailnet.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tsidp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tsidp)
 
 ## About
 
@@ -35,4 +35,4 @@ To any application that supports a custom auth provider, tsidp presents itself a
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/tsidp)
+[View on Railway →](https://railway.com/deploy/tsidp)

@@ -2,7 +2,7 @@
 
 Deploy and Host OpenClaw on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-fmr-moltbot-clawdbot-railway-te)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-fmr-moltbot-clawdbot-railway-te)
 
 ## About
 
@@ -36,4 +36,4 @@ This template simplifies Openclaw deployment by packaging the AI assistant with 
 
 **Category:** Automation · **Languages:** JavaScript, HTML, Dockerfile, CSS
 
-[View on Railway →](https://railway.com/template/openclaw-fmr-moltbot-clawdbot-railway-te)
+[View on Railway →](https://railway.com/deploy/openclaw-fmr-moltbot-clawdbot-railway-te)

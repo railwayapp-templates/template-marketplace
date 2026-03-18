@@ -2,7 +2,7 @@
 
 A free and open-source resume builder
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Op_-gE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Op_-gE)
 
 ## About
 
@@ -157,4 +157,4 @@ Start creating your standout resume with Reactive Resume today!
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/Op_-gE)
+[View on Railway →](https://railway.com/deploy/Op_-gE)

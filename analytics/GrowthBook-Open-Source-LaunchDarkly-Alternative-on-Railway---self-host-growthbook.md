@@ -2,7 +2,7 @@
 
 Self Host GrowthBook: Feature Flags, A/B Testing & Analytics
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/self-host-growthbook)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/self-host-growthbook)
 
 ## About
 
@@ -65,4 +65,4 @@ GrowthBook is a warehouse-native experimentation platform. Unlike tools that sto
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/self-host-growthbook)
+[View on Railway →](https://railway.com/deploy/self-host-growthbook)

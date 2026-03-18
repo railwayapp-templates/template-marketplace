@@ -2,7 +2,7 @@
 
 Deploy and Host Passbolt CE with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/passbolt-ce)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/passbolt-ce)
 
 ## About
 
@@ -47,4 +47,4 @@ You will have to SSH to the server using [Railway CLI](https://docs.railway.com/
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/passbolt-ce)
+[View on Railway →](https://railway.com/deploy/passbolt-ce)

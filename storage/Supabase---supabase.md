@@ -2,7 +2,7 @@
 
 Supabase without Functions and Logflare
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/supabase)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/supabase)
 
 ## About
 
@@ -124,4 +124,4 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 
 **Category:** Storage · **Languages:** PLpgSQL, Shell, Dockerfile, Elixir
 
-[View on Railway →](https://railway.com/template/supabase)
+[View on Railway →](https://railway.com/deploy/supabase)

@@ -2,7 +2,7 @@
 
 A customer communication platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/chatwoot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chatwoot)
 
 ## About
 
@@ -58,4 +58,4 @@ Hosting Chatwoot gives you access to a complete customer engagement platform tha
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/chatwoot)
+[View on Railway →](https://railway.com/deploy/chatwoot)

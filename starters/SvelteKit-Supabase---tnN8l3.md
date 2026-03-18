@@ -2,7 +2,7 @@
 
 A modern web app starter powered by SvelteKit and Supabase
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tnN8l3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tnN8l3)
 
 ## About
 
@@ -74,4 +74,4 @@ src/
 
 **Category:** Starters · **Languages:** Svelte, TypeScript, JavaScript, HTML, CSS
 
-[View on Railway →](https://railway.com/template/tnN8l3)
+[View on Railway →](https://railway.com/deploy/tnN8l3)

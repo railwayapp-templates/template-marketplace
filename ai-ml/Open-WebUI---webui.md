@@ -2,7 +2,7 @@
 
 Extensible, Feature-Rich, and User-Friendly Self-Hosted AI Platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/webui)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/webui)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting Open WebUI involves deploying a comprehensive AI chat interface that can
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/webui)
+[View on Railway →](https://railway.com/deploy/webui)

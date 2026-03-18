@@ -2,7 +2,7 @@
 
 Verdaccio — a lightweight Node.js private proxy registry
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BK-Q7H)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BK-Q7H)
 
 ## About
 
@@ -28,4 +28,4 @@ Verdaccio is a simple, zero-config-required local private NPM registry. No need 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/BK-Q7H)
+[View on Railway →](https://railway.com/deploy/BK-Q7H)

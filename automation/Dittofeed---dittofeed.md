@@ -2,7 +2,7 @@
 
 Messaging Automation for All
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dittofeed)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dittofeed)
 
 ## About
 
@@ -54,4 +54,4 @@ Send any message across any channel. Welcome emails, appointment reminders, pass
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/dittofeed)
+[View on Railway →](https://railway.com/deploy/dittofeed)

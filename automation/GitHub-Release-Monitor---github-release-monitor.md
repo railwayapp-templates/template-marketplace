@@ -2,7 +2,7 @@
 
 Automatically monitor GitHub repository releases and receive notifications
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/github-release-monitor)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/github-release-monitor)
 
 ## About
 
@@ -57,4 +57,4 @@ The following actions are **optional**, but **strongly recommended** by the main
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/github-release-monitor)
+[View on Railway →](https://railway.com/deploy/github-release-monitor)

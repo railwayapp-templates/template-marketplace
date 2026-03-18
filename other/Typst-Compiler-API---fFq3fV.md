@@ -2,7 +2,7 @@
 
 compile typst markup remotely by a simple API call
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fFq3fV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fFq3fV)
 
 ## About
 
@@ -29,4 +29,4 @@ Currently, there is no way to compile a file that loads external resources (imag
 
 **Category:** Other · **Languages:** Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/fFq3fV)
+[View on Railway →](https://railway.com/deploy/fFq3fV)

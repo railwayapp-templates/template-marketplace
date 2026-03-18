@@ -2,7 +2,7 @@
 
 The Inworld integration token generation project
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FIgbO1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FIgbO1)
 
 ## About
 
@@ -33,4 +33,4 @@ An Inworld account is required: https://inworld.ai/
 
 **Category:** Other · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/FIgbO1)
+[View on Railway →](https://railway.com/deploy/FIgbO1)

@@ -2,7 +2,7 @@
 
 A Discord bot for the Ragpi AI Assistant
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cgiAdr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cgiAdr)
 
 ## About
 
@@ -28,4 +28,4 @@ This is a template for the Ragpi Discord integration. You can find out more on h
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/cgiAdr)
+[View on Railway →](https://railway.com/deploy/cgiAdr)

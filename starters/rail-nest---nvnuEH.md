@@ -2,7 +2,7 @@
 
 Nestjs + Redis + Postgres + Cron
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nvnuEH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nvnuEH)
 
 ## About
 
@@ -40,4 +40,4 @@ The template features a Nestjs application at its core, coupled with Redis inste
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/nvnuEH)
+[View on Railway →](https://railway.com/deploy/nvnuEH)

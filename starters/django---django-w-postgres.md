@@ -2,7 +2,7 @@
 
 Django starter with PostgreSQL for simple and efficient setup
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/django-w-postgres)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/django-w-postgres)
 
 ## About
 
@@ -37,4 +37,4 @@ This template offers a straightforward way to run a Django application with Post
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/django-w-postgres)
+[View on Railway →](https://railway.com/deploy/django-w-postgres)

@@ -2,7 +2,7 @@
 
 Change Detection is an open source tool for monitoring websites for changes
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sXmRro)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sXmRro)
 
 ## About
 
@@ -36,4 +36,4 @@ Make sure to adjust the BASE_URL variable after deploying and adding a domain, t
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/sXmRro)
+[View on Railway →](https://railway.com/deploy/sXmRro)

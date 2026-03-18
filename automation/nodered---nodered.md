@@ -2,7 +2,7 @@
 
 NodeRED with data stored in volume
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nodered)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nodered)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting Node-RED requires persistent storage for flows, credentials, and setting
 
 **Category:** Automation · **Languages:** JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/nodered)
+[View on Railway →](https://railway.com/deploy/nodered)

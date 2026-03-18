@@ -2,7 +2,7 @@
 
 The Vonage Video Learning Server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GHmSB0)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GHmSB0)
 
 ## About
 
@@ -31,4 +31,4 @@ A sample server app shows you how to use Vonage Video Node Server SDK to create 
 
 **Category:** Other · **Languages:** JavaScript, Pug, CSS, Procfile
 
-[View on Railway →](https://railway.com/template/GHmSB0)
+[View on Railway →](https://railway.com/deploy/GHmSB0)

@@ -2,7 +2,7 @@
 
 Self-hosted newsletter and mailing list manager
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/listmonk-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/listmonk-1)
 
 ## About
 
@@ -50,4 +50,4 @@ Hosting Listmonk on Railway is fast and hassle-free. You’ll deploy the Listmon
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/listmonk-1)
+[View on Railway →](https://railway.com/deploy/listmonk-1)

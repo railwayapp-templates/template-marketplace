@@ -2,7 +2,7 @@
 
 A drop-in Redis replacement. 3-5x faster.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lux)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lux)
 
 ## About
 
@@ -22,4 +22,4 @@ Deploying Lux on Railway uses the official Docker image (`ghcr.io/lux-db/lux:lat
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/lux)
+[View on Railway →](https://railway.com/deploy/lux)

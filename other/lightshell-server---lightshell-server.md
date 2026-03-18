@@ -2,7 +2,7 @@
 
 Release server for LightShell app auto-updates and signed binaries.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lightshell-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lightshell-server)
 
 ## About
 
@@ -66,4 +66,4 @@ lightshell-server is a lightweight Hono-based TypeScript server for hosting sign
 
 **Category:** Other · **Languages:** TypeScript, Svelte, CSS, HTML, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/lightshell-server)
+[View on Railway →](https://railway.com/deploy/lightshell-server)

@@ -2,7 +2,7 @@
 
 Cron job and background task monitoring service, written in Python & Django
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jL-MMA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jL-MMA)
 
 ## About
 
@@ -70,4 +70,4 @@ For more detailed information and advanced usage, be sure to check out the offic
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/jL-MMA)
+[View on Railway →](https://railway.com/deploy/jL-MMA)

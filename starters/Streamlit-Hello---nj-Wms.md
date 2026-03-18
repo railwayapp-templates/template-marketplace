@@ -2,7 +2,7 @@
 
 The streamlit hello demo app
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nj-Wms)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nj-Wms)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting Streamlit involves deploying a Python web application that converts your
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/nj-Wms)
+[View on Railway →](https://railway.com/deploy/nj-Wms)

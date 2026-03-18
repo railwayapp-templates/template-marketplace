@@ -2,7 +2,7 @@
 
 Distributed n8n v2 setup with Postgres, Redis and worker execution
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-v2-postgres-redis-workers)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-v2-postgres-redis-workers)
 
 ## About
 
@@ -146,4 +146,4 @@ operating workflows instead of infrastructure.
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-v2-postgres-redis-workers)
+[View on Railway →](https://railway.com/deploy/n8n-v2-postgres-redis-workers)

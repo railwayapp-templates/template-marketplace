@@ -2,7 +2,7 @@
 
 MCP server for WHOOP - integrate your fitness and biometric data with Poke
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/whoop-mcp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/whoop-mcp)
 
 ## About
 
@@ -26,4 +26,4 @@ Deploy this MCP server to make your WHOOP data available to AI applications and 
 
 **Category:** Other · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/whoop-mcp)
+[View on Railway →](https://railway.com/deploy/whoop-mcp)

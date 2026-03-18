@@ -2,7 +2,7 @@
 
 A NextJS app to handle QStash queue messages (and publish them too!)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kCPk-X)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kCPk-X)
 
 ## About
 
@@ -46,4 +46,4 @@ You can now extend this to handle all of your background work super simply. No m
 
 **Category:** Queues · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/kCPk-X)
+[View on Railway →](https://railway.com/deploy/kCPk-X)

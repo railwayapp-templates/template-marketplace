@@ -2,7 +2,7 @@
 
 ImgProxy [Mar ’26] (Fast Resizing & CDN Alternative), Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/img-proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/img-proxy)
 
 ## About
 
@@ -56,4 +56,4 @@ In short: click deploy → get a live Imgproxy URL → start serving optimized i
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/img-proxy)
+[View on Railway →](https://railway.com/deploy/img-proxy)

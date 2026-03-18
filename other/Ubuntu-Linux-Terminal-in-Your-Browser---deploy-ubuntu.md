@@ -2,7 +2,7 @@
 
 Self-host a secure Ubuntu shell accessible from any browser
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/deploy-ubuntu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/deploy-ubuntu)
 
 ## About
 
@@ -38,4 +38,4 @@ Ubuntu is the world's most popular open-source Linux distribution, powering ever
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/deploy-ubuntu)
+[View on Railway →](https://railway.com/deploy/deploy-ubuntu)

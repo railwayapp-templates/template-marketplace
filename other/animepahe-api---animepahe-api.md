@@ -2,7 +2,7 @@
 
 Deploy and Host animepahe-api with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/animepahe-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/animepahe-api)
 
 ## About
 
@@ -29,4 +29,4 @@ This API requires specific configurations and dependencies to handle web scrapin
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/animepahe-api)
+[View on Railway →](https://railway.com/deploy/animepahe-api)

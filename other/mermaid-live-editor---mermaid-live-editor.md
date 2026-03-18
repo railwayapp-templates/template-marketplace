@@ -2,7 +2,7 @@
 
 JavaScript based diagramming and charting tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mermaid-live-editor)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mermaid-live-editor)
 
 ## About
 
@@ -22,4 +22,4 @@ Running mermaid‑live‑editor onRailway gives you a stateless, auto‑scaling
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/mermaid-live-editor)
+[View on Railway →](https://railway.com/deploy/mermaid-live-editor)

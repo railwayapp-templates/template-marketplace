@@ -2,7 +2,7 @@
 
 One‑click Redis Cluster (3 nodes + 3 replicas) with automatic failover
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/redis-ha-w-cluster-mode-sharded-33)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redis-ha-w-cluster-mode-sharded-33)
 
 ## About
 
@@ -57,4 +57,4 @@ This template provisions six Redis services in cluster mode (3 masters + 3 repli
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/redis-ha-w-cluster-mode-sharded-33)
+[View on Railway →](https://railway.com/deploy/redis-ha-w-cluster-mode-sharded-33)

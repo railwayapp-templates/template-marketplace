@@ -2,7 +2,7 @@
 
 N8N Template for Scalable n8n with Integrated Backup
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/a_pour)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/a_pour)
 
 ## About
 
@@ -153,4 +153,4 @@ Enjoy
 
 **Category:** Automation · **Languages:** Python, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/a_pour)
+[View on Railway →](https://railway.com/deploy/a_pour)

@@ -2,7 +2,7 @@
 
 A self-hosted dashboard that puts all your feeds in one place
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZHBnkG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZHBnkG)
 
 ## About
 
@@ -76,4 +76,4 @@ Feature requests are tagged with one of the following:
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/ZHBnkG)
+[View on Railway →](https://railway.com/deploy/ZHBnkG)

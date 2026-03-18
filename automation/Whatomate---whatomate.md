@@ -2,7 +2,7 @@
 
 Comprehensive WhatsApp Solution for Organizations
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/whatomate)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/whatomate)
 
 ## About
 
@@ -61,4 +61,4 @@ You can increase the number of workers by scaling the worker component!
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/whatomate)
+[View on Railway →](https://railway.com/deploy/whatomate)

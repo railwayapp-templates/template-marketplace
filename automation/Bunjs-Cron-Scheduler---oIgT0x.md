@@ -2,7 +2,7 @@
 
 Simple Cron Job Scheduler that uses Bun.js and environment variables
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/oIgT0x)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oIgT0x)
 
 ## About
 
@@ -207,4 +207,4 @@ Licensed under the [MIT license](https://github.com/tsykin/cron-env/blob/main/LI
 
 **Category:** Automation · **Languages:** TypeScript, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/oIgT0x)
+[View on Railway →](https://railway.com/deploy/oIgT0x)

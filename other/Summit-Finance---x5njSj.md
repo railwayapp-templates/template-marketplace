@@ -2,7 +2,7 @@
 
 Modern invoicing created by kugie.app, designed for small businesses.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/x5njSj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/x5njSj)
 
 ## About
 
@@ -70,4 +70,4 @@ Summit Finance runs on Railway's cloud infrastructure providing:
 
 **Category:** Other · **Languages:** Dockerfile, TypeScript, JavaScript, Shell, CSS
 
-[View on Railway →](https://railway.com/template/x5njSj)
+[View on Railway →](https://railway.com/deploy/x5njSj)

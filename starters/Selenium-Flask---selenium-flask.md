@@ -2,7 +2,7 @@
 
 Lightweight Selenium and Flask template for quick scraping on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/selenium-flask)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/selenium-flask)
 
 ## About
 
@@ -27,4 +27,4 @@ Hosting Selenium + Flask on Railway means your scraping logic runs in a containe
 
 **Category:** Starters · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/selenium-flask)
+[View on Railway →](https://railway.com/deploy/selenium-flask)

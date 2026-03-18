@@ -2,7 +2,7 @@
 
 Open-source database diagrams editor, and visualize DB with a single query
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fnMtKA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fnMtKA)
 
 ## About
 
@@ -109,4 +109,4 @@ ChartDB is licensed under the [GNU Affero General Public License v3.0](https://g
 
 **Category:** Automation · **Languages:** TypeScript, JavaScript, CSS, HTML, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/fnMtKA)
+[View on Railway →](https://railway.com/deploy/fnMtKA)

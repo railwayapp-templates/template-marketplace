@@ -2,7 +2,7 @@
 
 An open source wealth management software built with web technology
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/koSYWQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/koSYWQ)
 
 ## About
 
@@ -72,4 +72,4 @@ Ghostfolio is for you if you are...
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/koSYWQ)
+[View on Railway →](https://railway.com/deploy/koSYWQ)

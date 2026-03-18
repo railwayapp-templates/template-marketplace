@@ -2,7 +2,7 @@
 
 Generate JWTs for Zoom Meeting SDK
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JsX6Pk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JsX6Pk)
 
 ## About
 
@@ -159,4 +159,4 @@ From: https://github.com/zoom/meetingsdk-auth-endpoint-sample/
 
 **Category:** Other · **Languages:** JavaScript, Shell
 
-[View on Railway →](https://railway.com/template/JsX6Pk)
+[View on Railway →](https://railway.com/deploy/JsX6Pk)

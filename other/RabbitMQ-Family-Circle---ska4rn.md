@@ -2,7 +2,7 @@
 
 3.13.3-management - RabbitMQ - UI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ska4rn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ska4rn)
 
 ## About
 
@@ -74,4 +74,4 @@ Please replace the placeholders with the actual values.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ska4rn)
+[View on Railway →](https://railway.com/deploy/ska4rn)

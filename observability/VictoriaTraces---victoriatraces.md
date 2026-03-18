@@ -2,7 +2,7 @@
 
 Database designed for storing and querying distributed tracing data
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/victoriatraces)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/victoriatraces)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting VictoriaTraces involves deploying its lightweight binary or Docker image
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/victoriatraces)
+[View on Railway →](https://railway.com/deploy/victoriatraces)

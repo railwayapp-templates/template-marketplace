@@ -2,7 +2,7 @@
 
 SuperTokens — User Authentication
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/i1xFfT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/i1xFfT)
 
 ## About
 
@@ -39,4 +39,4 @@ Add secure login and session management to your apps. SDKs available for popular
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/i1xFfT)
+[View on Railway →](https://railway.com/deploy/i1xFfT)

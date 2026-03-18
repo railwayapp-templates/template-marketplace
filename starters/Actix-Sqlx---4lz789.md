@@ -2,7 +2,7 @@
 
 Minimal Actix web application pre-configured with SQLx and database pooling
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4lz789)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4lz789)
 
 ## About
 
@@ -46,4 +46,4 @@ Actix is a powerful and highly performant web framework for building web servers
 
 **Category:** Starters · **Languages:** Rust
 
-[View on Railway →](https://railway.com/template/4lz789)
+[View on Railway →](https://railway.com/deploy/4lz789)

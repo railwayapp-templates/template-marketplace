@@ -2,7 +2,7 @@
 
 DVWA is an intentionally vulnerable web app to help understand attacks.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GFqNIL)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GFqNIL)
 
 ## About
 
@@ -58,4 +58,4 @@ Modified Repo: https://github.com/w33ts/DVWA
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/GFqNIL)
+[View on Railway →](https://railway.com/deploy/GFqNIL)

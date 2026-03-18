@@ -2,7 +2,7 @@
 
 Vercel-like stack: ISR (Redis), cached Images, Postgres (Prisma) & Auth.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-production-starter-suite)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-production-starter-suite)
 
 ## About
 
@@ -50,4 +50,4 @@ The build system is engineered to handle "chicken-and-egg" deployment scenarios 
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/nextjs-production-starter-suite)
+[View on Railway →](https://railway.com/deploy/nextjs-production-starter-suite)

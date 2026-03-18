@@ -2,7 +2,7 @@
 
 The open source Loom alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/PwpGcf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PwpGcf)
 
 ## About
 
@@ -57,4 +57,4 @@ When logging in, a magic link will be printed to the server container's Deploy L
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/PwpGcf)
+[View on Railway →](https://railway.com/deploy/PwpGcf)

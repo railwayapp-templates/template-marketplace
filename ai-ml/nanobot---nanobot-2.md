@@ -2,7 +2,7 @@
 
 🐈 nanobot: The Ultra-Lightweight OpenClaw
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nanobot-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nanobot-2)
 
 ## About
 
@@ -32,4 +32,4 @@ This template provides a straightforward setup for nanobot with data persistence
 
 **Category:** AI/ML · **Languages:** Python, TypeScript, Shell, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/nanobot-2)
+[View on Railway →](https://railway.com/deploy/nanobot-2)

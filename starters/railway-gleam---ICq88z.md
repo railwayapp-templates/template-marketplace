@@ -2,7 +2,7 @@
 
 A template for running a Gleam + Mist webserver on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ICq88z)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ICq88z)
 
 ## About
 
@@ -20,4 +20,4 @@ This is a template for running a fault-tolerant [Mist](https://github.com/rawhat
 
 **Category:** Starters · **Languages:** Gleam, Dockerfile
 
-[View on Railway →](https://railway.com/template/ICq88z)
+[View on Railway →](https://railway.com/deploy/ICq88z)

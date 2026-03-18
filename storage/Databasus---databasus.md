@@ -2,7 +2,7 @@
 
 Tool to backup PostgreSQL, MySQL, MariaDB and MongoDB.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/databasus)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/databasus)
 
 ## About
 
@@ -27,4 +27,4 @@ Hosting Databasus on Railway simplifies the deployment of a robust, self-hosted 
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/databasus)
+[View on Railway →](https://railway.com/deploy/databasus)

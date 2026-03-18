@@ -2,7 +2,7 @@
 
 Self-host Plausible Analytics — privacy-first, GDPR-Compliant Web Analytics
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/plausible)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/plausible)
 
 ## About
 
@@ -66,4 +66,4 @@ Plausible CE is the self-hosted, AGPL-licensed release of [Plausible Analytics](
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/plausible)
+[View on Railway →](https://railway.com/deploy/plausible)

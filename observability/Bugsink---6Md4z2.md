@@ -2,7 +2,7 @@
 
 Self-hosted Error Tracking
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6Md4z2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6Md4z2)
 
 ## About
 
@@ -49,4 +49,4 @@ If you want to get notifications, add EMAIL_HOST etc. (see https://www.bugsink.c
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/6Md4z2)
+[View on Railway →](https://railway.com/deploy/6Md4z2)

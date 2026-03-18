@@ -2,7 +2,7 @@
 
 Full ecommerce solution, manage products, inventory, orders, etc.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/QvfPwp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/QvfPwp)
 
 ## About
 
@@ -64,4 +64,4 @@ Instructions: [https://funkyton.com/medusajs-free-fully-open-source-ecommerce-so
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/QvfPwp)
+[View on Railway →](https://railway.com/deploy/QvfPwp)

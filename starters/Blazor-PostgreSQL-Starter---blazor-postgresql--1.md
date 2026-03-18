@@ -2,7 +2,7 @@
 
 Full-stack Blazor Server + PostgreSQL with Entity Framework Core
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/blazor-postgresql--1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/blazor-postgresql--1)
 
 ## About
 
@@ -38,4 +38,4 @@ Deploying Blazor + PostgreSQL Starter involves a multi-stage Docker build that c
 
 **Category:** Starters · **Languages:** HTML, CSS, C#, Dockerfile
 
-[View on Railway →](https://railway.com/template/blazor-postgresql--1)
+[View on Railway →](https://railway.com/deploy/blazor-postgresql--1)

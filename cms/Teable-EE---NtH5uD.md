@@ -2,7 +2,7 @@
 
 Teable scalable edition, Airtable alternative with AI agent integrated
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NtH5uD)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NtH5uD)
 
 ## About
 
@@ -92,4 +92,4 @@ visite https://app.teable.io/setting/license-plan to subscribe to the License
 
 **Category:** CMS · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/NtH5uD)
+[View on Railway →](https://railway.com/deploy/NtH5uD)

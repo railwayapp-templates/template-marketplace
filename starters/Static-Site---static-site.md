@@ -2,7 +2,7 @@
 
 Deploy a Static Site to a Bucket with Functions on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/static-site)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/static-site)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting a static site involves serving pre-built HTML, CSS, and JavaScript files
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/static-site)
+[View on Railway →](https://railway.com/deploy/static-site)

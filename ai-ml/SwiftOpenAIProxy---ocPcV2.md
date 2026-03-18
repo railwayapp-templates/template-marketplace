@@ -2,7 +2,7 @@
 
 Server-side Swift OpenAI reverse proxy server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ocPcV2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ocPcV2)
 
 ## About
 
@@ -43,4 +43,4 @@ SwiftOpenAIProxy is a server-side Swift reverse proxy created for iOS and macOS 
 
 **Category:** AI/ML · **Languages:** Swift, Dockerfile
 
-[View on Railway →](https://railway.com/template/ocPcV2)
+[View on Railway →](https://railway.com/deploy/ocPcV2)

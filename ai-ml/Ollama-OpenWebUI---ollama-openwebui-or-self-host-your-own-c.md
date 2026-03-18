@@ -2,7 +2,7 @@
 
 [Mar '26] Deploy open-source LLMs with a simple, private web interface.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ollama-openwebui-or-self-host-your-own-c)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ollama-openwebui-or-self-host-your-own-c)
 
 ## About
 
@@ -50,4 +50,4 @@ It’s ideal for creators, developers, or teams who want local AI control with c
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/ollama-openwebui-or-self-host-your-own-c)
+[View on Railway →](https://railway.com/deploy/ollama-openwebui-or-self-host-your-own-c)

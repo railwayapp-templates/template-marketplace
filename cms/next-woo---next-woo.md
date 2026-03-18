@@ -2,7 +2,7 @@
 
 Headless WooCommerce using Next.js
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/next-woo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/next-woo)
 
 ## About
 
@@ -50,4 +50,4 @@ This template deploys a complete headless WooCommerce stack: a MySQL database, W
 
 **Category:** CMS · **Languages:** TypeScript, PHP, CSS, Shell, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/next-woo)
+[View on Railway →](https://railway.com/deploy/next-woo)

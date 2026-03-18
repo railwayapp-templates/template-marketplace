@@ -2,7 +2,7 @@
 
 Starter for your backend AI-powered app
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5o0WPC)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5o0WPC)
 
 ## About
 
@@ -34,4 +34,4 @@ Key Features:
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/5o0WPC)
+[View on Railway →](https://railway.com/deploy/5o0WPC)

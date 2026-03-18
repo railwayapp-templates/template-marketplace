@@ -2,7 +2,7 @@
 
 Tasks.md is a lightweight kanban board.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tasksmd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tasksmd)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting Tasks.md is intentionally simple. The application runs as a single web s
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tasksmd)
+[View on Railway →](https://railway.com/deploy/tasksmd)

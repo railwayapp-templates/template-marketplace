@@ -2,7 +2,7 @@
 
 A minimal PgBouncer image for Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/L09YMd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/L09YMd)
 
 ## About
 
@@ -32,4 +32,4 @@ Use this template to deploy a PgBouncer instance on Railway. To get started, dep
 
 **Category:** Other · **Languages:** Shell, Dockerfile, Makefile
 
-[View on Railway →](https://railway.com/template/L09YMd)
+[View on Railway →](https://railway.com/deploy/L09YMd)

@@ -2,7 +2,7 @@
 
 Deploy and Host Tweet Database with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tweet-database)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tweet-database)
 
 ## About
 
@@ -35,4 +35,4 @@ When deployed on Railway, the service runs as a containerized application connec
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/tweet-database)
+[View on Railway →](https://railway.com/deploy/tweet-database)

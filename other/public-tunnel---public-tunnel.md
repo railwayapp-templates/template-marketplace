@@ -2,7 +2,7 @@
 
 Make public TCP port use Tailscale and Socat
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/public-tunnel)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/public-tunnel)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting public-tunnel on Railway allows you to create a publicly accessible TCP 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/public-tunnel)
+[View on Railway →](https://railway.com/deploy/public-tunnel)

@@ -2,7 +2,7 @@
 
 Retrieval Augmented Generation (RAG) chatbot powered by Weaviate
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/QFa7Oq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/QFa7Oq)
 
 ## About
 
@@ -43,4 +43,4 @@ Key Features:
 
 **Category:** AI/ML · **Languages:** TypeScript, Python, HTML, GLSL, JavaScript, Dockerfile, CSS, Shell
 
-[View on Railway →](https://railway.com/template/QFa7Oq)
+[View on Railway →](https://railway.com/deploy/QFa7Oq)

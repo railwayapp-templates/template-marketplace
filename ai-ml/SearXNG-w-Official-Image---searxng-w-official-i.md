@@ -2,7 +2,7 @@
 
 Bring powerful AI search to your apps with a self-hosted metasearch engine
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/searxng-w-official-i)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/searxng-w-official-i)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting SearXNG involves deploying a containerized metasearch engine that acts a
 
 **Category:** AI/ML · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/searxng-w-official-i)
+[View on Railway →](https://railway.com/deploy/searxng-w-official-i)

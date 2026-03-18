@@ -2,7 +2,7 @@
 
 One-Click deployment of Free and Open Source Machine Translation API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/libretranslate-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/libretranslate-1)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting LibreTranslate involves deploying a Docker container that serves the API
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/libretranslate-1)
+[View on Railway →](https://railway.com/deploy/libretranslate-1)

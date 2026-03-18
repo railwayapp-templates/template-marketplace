@@ -2,7 +2,7 @@
 
 Deploy and Host railway.uz - ticket finder with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railwayuz-checker)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railwayuz-checker)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting railway.uz - ticket finder involves deploying a web application that con
 
 **Category:** Automation · **Languages:** PHP, Dockerfile
 
-[View on Railway →](https://railway.com/template/railwayuz-checker)
+[View on Railway →](https://railway.com/deploy/railwayuz-checker)

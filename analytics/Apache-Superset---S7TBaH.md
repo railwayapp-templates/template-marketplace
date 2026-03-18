@@ -2,7 +2,7 @@
 
 Data Visualization and Data Exploration | Looker, Tableau alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/S7TBaH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/S7TBaH)
 
 ## About
 
@@ -40,4 +40,4 @@ Superset is a modern data exploration and data visualization platform. Superset 
 
 **Category:** Analytics · **Languages:** Dockerfile, Shell, Python
 
-[View on Railway →](https://railway.com/template/S7TBaH)
+[View on Railway →](https://railway.com/deploy/S7TBaH)

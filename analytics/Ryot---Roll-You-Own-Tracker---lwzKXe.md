@@ -2,7 +2,7 @@
 
 Track all facets of your life!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lwzKXe)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lwzKXe)
 
 ## About
 
@@ -37,4 +37,4 @@ special tool on your computer or phone that lets you keep track of all these dig
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/lwzKXe)
+[View on Railway →](https://railway.com/deploy/lwzKXe)

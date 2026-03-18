@@ -2,7 +2,7 @@
 
 Open-Source Billing, Built for Hosting
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/paymenter-or-open-source-billing)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/paymenter-or-open-source-billing)
 
 ## About
 
@@ -53,4 +53,4 @@ Hosting Paymenter requires a reliable PHP environment coupled with a persistent 
 
 **Category:** Automation · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/paymenter-or-open-source-billing)
+[View on Railway →](https://railway.com/deploy/paymenter-or-open-source-billing)

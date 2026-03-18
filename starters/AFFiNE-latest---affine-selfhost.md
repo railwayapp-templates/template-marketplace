@@ -2,7 +2,7 @@
 
 Selfhosted sync backend for AFFiNE version 0.23.0+
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/affine-selfhost)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/affine-selfhost)
 
 ## About
 
@@ -61,4 +61,4 @@ This template offers a simple way to host AFFiNE Cloud on Railway with all the d
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/affine-selfhost)
+[View on Railway →](https://railway.com/deploy/affine-selfhost)

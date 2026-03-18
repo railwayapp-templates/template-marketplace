@@ -2,7 +2,7 @@
 
 Vaultwarden, an open source, self-hostable Bitwarden backend
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vaultwarden-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vaultwarden-2)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting Vaultwarden requires persistent storage for the SQLite database (default
 
 **Category:** Authentication · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/vaultwarden-2)
+[View on Railway →](https://railway.com/deploy/vaultwarden-2)

@@ -2,7 +2,7 @@
 
 SFTPGo is an event-driven SFTP, FTP/S, HTTP/S and WebDAV server.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sftpgo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sftpgo)
 
 ## About
 
@@ -42,4 +42,4 @@ With SFTPGo you can leverage local and cloud storage backends for exchanging and
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/sftpgo)
+[View on Railway →](https://railway.com/deploy/sftpgo)

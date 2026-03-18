@@ -2,7 +2,7 @@
 
 A production-ready Conversational AI applications framework in Python. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/atS4DW)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/atS4DW)
 
 ## About
 
@@ -57,4 +57,4 @@ Chainlit is compatible with all Python programs and libraries. That being said, 
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/atS4DW)
+[View on Railway →](https://railway.com/deploy/atS4DW)

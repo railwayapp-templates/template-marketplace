@@ -2,7 +2,7 @@
 
 Starter ASP.NET Core API baked with env variables.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fKgMtM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fKgMtM)
 
 ## About
 
@@ -79,4 +79,4 @@ Don't forget to give the project a star!
 
 **Category:** Starters · **Languages:** C#
 
-[View on Railway →](https://railway.com/template/fKgMtM)
+[View on Railway →](https://railway.com/deploy/fKgMtM)

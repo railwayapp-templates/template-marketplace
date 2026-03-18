@@ -2,7 +2,7 @@
 
 Self Hosted Docker Registry
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FCYzGQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FCYzGQ)
 
 ## About
 
@@ -51,4 +51,4 @@ $ docker push /
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/FCYzGQ)
+[View on Railway →](https://railway.com/deploy/FCYzGQ)

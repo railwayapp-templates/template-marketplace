@@ -2,7 +2,7 @@
 
 [Mar '26] OpenWebUI | Self-hosted AI interface. Connect with any LLM model.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-webui-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-webui-2)
 
 ## About
 
@@ -37,4 +37,4 @@ Railway automatically builds, configures, and exposes your instance with HTTPS, 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/open-webui-2)
+[View on Railway →](https://railway.com/deploy/open-webui-2)

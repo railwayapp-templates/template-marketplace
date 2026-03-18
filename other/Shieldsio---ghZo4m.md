@@ -2,7 +2,7 @@
 
 Concise, consistent, and legible badges
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ghZo4m)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ghZo4m)
 
 ## About
 
@@ -28,4 +28,4 @@ https://shields.io/docs
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ghZo4m)
+[View on Railway →](https://railway.com/deploy/ghZo4m)

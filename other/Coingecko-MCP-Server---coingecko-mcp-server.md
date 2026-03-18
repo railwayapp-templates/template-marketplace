@@ -2,7 +2,7 @@
 
 Coingecko MCP Server on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/coingecko-mcp-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/coingecko-mcp-server)
 
 ## About
 
@@ -34,4 +34,4 @@ One click and boom it is done
 
 **Category:** Other · **Languages:** Python, Shell, Procfile
 
-[View on Railway →](https://railway.com/template/coingecko-mcp-server)
+[View on Railway →](https://railway.com/deploy/coingecko-mcp-server)

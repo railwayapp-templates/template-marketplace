@@ -2,7 +2,7 @@
 
 Deploy and Host QR Reader/Generator API with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qr-readergenerator-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qr-readergenerator-1)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting the QR Reader/Generator API on Railway means effortless deployment and s
 
 **Category:** Other · **Languages:** Python, Dockerfile, Batchfile
 
-[View on Railway →](https://railway.com/template/qr-readergenerator-1)
+[View on Railway →](https://railway.com/deploy/qr-readergenerator-1)

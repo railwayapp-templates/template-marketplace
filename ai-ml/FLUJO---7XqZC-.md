@@ -2,7 +2,7 @@
 
 Orchestrates AI models, MCP servers, and workflows via a single interface.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7XqZC-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7XqZC-)
 
 ## About
 
@@ -272,4 +272,4 @@ FLUJO provides comprehensive support for the Model Context Protocol (MCP), allow
 
 **Category:** AI/ML · **Languages:** TypeScript, HTML, JavaScript, Shell, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/7XqZC-)
+[View on Railway →](https://railway.com/deploy/7XqZC-)

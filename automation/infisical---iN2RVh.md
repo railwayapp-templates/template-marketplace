@@ -2,7 +2,7 @@
 
 Infisical - Secure and Cost-Optimized for Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/iN2RVh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/iN2RVh)
 
 ## About
 
@@ -73,4 +73,4 @@ N'oubliez pas d'utiliser le "sleep mode" et d'ajuster les ressources de chacun d
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/iN2RVh)
+[View on Railway →](https://railway.com/deploy/iN2RVh)

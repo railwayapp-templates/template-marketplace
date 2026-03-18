@@ -2,7 +2,7 @@
 
 PostgreSQL database with a CRON job that uploads a backup to S3
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/XV2dlg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/XV2dlg)
 
 ## About
 
@@ -65,4 +65,4 @@ This template contains a PostgreSQL database and a CRON job that automatically c
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/XV2dlg)
+[View on Railway →](https://railway.com/deploy/XV2dlg)

@@ -2,7 +2,7 @@
 
 A super fast Airtable alternative with AI agent integrated
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wada5e)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wada5e)
 
 ## About
 
@@ -143,4 +143,4 @@ Choose the SQL database you like
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/wada5e)
+[View on Railway →](https://railway.com/deploy/wada5e)

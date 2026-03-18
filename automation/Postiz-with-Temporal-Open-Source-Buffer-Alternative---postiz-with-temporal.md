@@ -2,7 +2,7 @@
 
 1 Click Self-Host Postiz. Schedule posts in 30+ social platforms with AI.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postiz-with-temporal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postiz-with-temporal)
 
 ## About
 
@@ -116,4 +116,4 @@ The Elasticsearch service uses a custom-wrapped image  because Railway rejects d
 
 **Category:** Automation · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/postiz-with-temporal)
+[View on Railway →](https://railway.com/deploy/postiz-with-temporal)

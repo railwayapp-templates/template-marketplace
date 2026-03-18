@@ -2,7 +2,7 @@
 
 Deploy and Host sanyamusic with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/victorious-passion)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/victorious-passion)
 
 ## About
 
@@ -26,4 +26,4 @@ Deploy and Host sanyamusic with Railway
 
 **Category:** Bots · **Languages:** Python, Shell, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/victorious-passion)
+[View on Railway →](https://railway.com/deploy/victorious-passion)

@@ -2,7 +2,7 @@
 
 Your own MadBull AI assistant with web dashboard and setup wizard.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/madbull)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/madbull)
 
 ## About
 
@@ -29,4 +29,4 @@ This template deploys MadBull on Railway with a guided setup wizard. After deplo
 
 **Category:** AI/ML · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/madbull)
+[View on Railway →](https://railway.com/deploy/madbull)

@@ -2,7 +2,7 @@
 
 Unofficial Bitwarden Compatible Server Written in Rust
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vaultwarden-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vaultwarden-1)
 
 ## About
 
@@ -42,4 +42,4 @@ Hosting Vaultwarden on Railway is simple, fast, and production-ready. You’ll r
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/vaultwarden-1)
+[View on Railway →](https://railway.com/deploy/vaultwarden-1)

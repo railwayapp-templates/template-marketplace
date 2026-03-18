@@ -2,7 +2,7 @@
 
 WBO is a free and open-source online collaborative whiteboard
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wbo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wbo)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting WBO on Railway involves running a single Node.js-based web application t
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/wbo)
+[View on Railway →](https://railway.com/deploy/wbo)

@@ -2,7 +2,7 @@
 
 Grafana, Loki and Prometheus with a centralized OTEL Collector
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/grafana-loki-and-prometheus-with-otel-co)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/grafana-loki-and-prometheus-with-otel-co)
 
 ## About
 
@@ -53,4 +53,4 @@ Deploying this stack involves configuring four interconnected services: the Open
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/grafana-loki-and-prometheus-with-otel-co)
+[View on Railway →](https://railway.com/deploy/grafana-loki-and-prometheus-with-otel-co)

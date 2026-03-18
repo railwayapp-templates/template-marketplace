@@ -2,7 +2,7 @@
 
 Just one click to deploy and run your own website.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wordpress-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wordpress-2)
 
 ## About
 
@@ -41,4 +41,4 @@ Hosting WordPress on Railway eliminates the traditional headache of manual serve
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/wordpress-2)
+[View on Railway →](https://railway.com/deploy/wordpress-2)

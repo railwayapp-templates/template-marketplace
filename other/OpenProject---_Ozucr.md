@@ -2,7 +2,7 @@
 
 OpenProject is a project management software with a focus on sovereignty
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_Ozucr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_Ozucr)
 
 ## About
 
@@ -49,4 +49,4 @@ If you'd like to deploy a worker based installation refers to
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/_Ozucr)
+[View on Railway →](https://railway.com/deploy/_Ozucr)

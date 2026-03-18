@@ -2,7 +2,7 @@
 
 GPT-4 chatbot with context
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1cSU5t)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1cSU5t)
 
 ## About
 
@@ -50,4 +50,4 @@ This is a stater Discord bot that keeps user context in a Postgres database and 
 
 **Category:** Bots · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/1cSU5t)
+[View on Railway →](https://railway.com/deploy/1cSU5t)

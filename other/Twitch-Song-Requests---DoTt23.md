@@ -2,7 +2,7 @@
 
 Queue song requests in Spotify with Twitch channel points.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/DoTt23)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/DoTt23)
 
 ## About
 
@@ -39,4 +39,4 @@ Creates a Postgres database (which is optional), and a Go HTTP server. The purpo
 
 **Category:** Other · **Languages:** Go, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/DoTt23)
+[View on Railway →](https://railway.com/deploy/DoTt23)

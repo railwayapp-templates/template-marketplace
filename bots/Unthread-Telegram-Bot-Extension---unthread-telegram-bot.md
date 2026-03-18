@@ -2,7 +2,7 @@
 
 Support ticket bot for Telegram groups powered by Unthread.io. 🎫🤖
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/unthread-telegram-bot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/unthread-telegram-bot)
 
 ## About
 
@@ -83,4 +83,4 @@ Hosting the Unthread Telegram Bot allows you to turn your internal Telegram grou
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/unthread-telegram-bot)
+[View on Railway →](https://railway.com/deploy/unthread-telegram-bot)

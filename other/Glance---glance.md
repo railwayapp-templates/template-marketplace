@@ -2,7 +2,7 @@
 
 A self-hosted dashboard that puts all your feeds in one place.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/glance)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/glance)
 
 ## About
 
@@ -24,4 +24,4 @@ Simply deploy the template to get started. To make changes to the layout, fork t
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/glance)
+[View on Railway →](https://railway.com/deploy/glance)

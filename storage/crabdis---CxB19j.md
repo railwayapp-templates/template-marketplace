@@ -2,7 +2,7 @@
 
 It's like Redis but a bit rusty...
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/CxB19j)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/CxB19j)
 
 ## About
 
@@ -74,4 +74,4 @@ This project is licensed under the [MIT License](https://github.com/pxseu/crabdi
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/CxB19j)
+[View on Railway →](https://railway.com/deploy/CxB19j)

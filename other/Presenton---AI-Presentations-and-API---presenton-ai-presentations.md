@@ -2,7 +2,7 @@
 
 Create beautiful AI Presentations with Presenton - UI and API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/presenton-ai-presentations)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/presenton-ai-presentations)
 
 ## About
 
@@ -25,4 +25,4 @@ You can provide your own model keys and optionally disable user modifications vi
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/presenton-ai-presentations)
+[View on Railway →](https://railway.com/deploy/presenton-ai-presentations)

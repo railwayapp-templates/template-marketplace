@@ -2,7 +2,7 @@
 
 The open-source intelligent calendar that adapts to your workflow.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5M2-4G)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5M2-4G)
 
 ## About
 
@@ -42,4 +42,4 @@ To integrate Google Calendar, set the `GOOGLE_CLIENT_ID` AND `GOOGLE_CLIENT_SECR
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/5M2-4G)
+[View on Railway →](https://railway.com/deploy/5M2-4G)

@@ -2,7 +2,7 @@
 
  Self-hostable worker infrastructure, preconfigured to work out of the box.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/UI371k)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/UI371k)
 
 ## About
 
@@ -100,4 +100,4 @@ You can build your entire infra on top of Windmill!
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/UI371k)
+[View on Railway →](https://railway.com/deploy/UI371k)

@@ -2,7 +2,7 @@
 
 the famous AI Chat UI but easier to work with codes -- similar to v0.dev
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-webui-with-arti)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-webui-with-arti)
 
 ## About
 
@@ -28,4 +28,4 @@ Railway simplifies the deployment by handling environment setup, builds, and sca
 
 **Category:** AI/ML · **Languages:** JavaScript, Svelte, Python, TypeScript, CSS, Shell, Dockerfile, HTML, Batchfile, Mako, Makefile
 
-[View on Railway →](https://railway.com/template/open-webui-with-arti)
+[View on Railway →](https://railway.com/deploy/open-webui-with-arti)

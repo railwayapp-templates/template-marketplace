@@ -2,7 +2,7 @@
 
 Deploy and Host exciting-motivation with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/exciting-motivation)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/exciting-motivation)
 
 ## About
 
@@ -22,4 +22,4 @@ Exciting motivation is the inner drive that comes from enthusiasm and curiosity,
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/exciting-motivation)
+[View on Railway →](https://railway.com/deploy/exciting-motivation)

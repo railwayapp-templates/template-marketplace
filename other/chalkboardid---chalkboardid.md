@@ -2,7 +2,7 @@
 
 Modern open source billiard hall management software
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/chalkboardid)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chalkboardid)
 
 ## About
 
@@ -43,4 +43,4 @@ Deploying [chalkboard.id](https://chalkboard.id) on Railway provides a productio
 
 **Category:** Other · **Languages:** TypeScript, CSS, JavaScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/chalkboardid)
+[View on Railway →](https://railway.com/deploy/chalkboardid)

@@ -2,7 +2,7 @@
 
 Latest version of OpenClaw - Simple Setup - by K7CFO
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railclaw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railclaw)
 
 ## About
 
@@ -33,4 +33,4 @@ Railclaw runs as a single Railway service with a persistent volume at `/data`. O
 
 **Category:** Bots · **Languages:** JavaScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/railclaw)
+[View on Railway →](https://railway.com/deploy/railclaw)

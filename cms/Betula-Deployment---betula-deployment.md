@@ -2,7 +2,7 @@
 
 Federated bookmark manager with ActivityPub support
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/betula-deployment)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/betula-deployment)
 
 ## About
 
@@ -38,4 +38,4 @@ Betula is a lightweight, single-user bookmark manager with Fediverse integration
 
 **Category:** CMS · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/betula-deployment)
+[View on Railway →](https://railway.com/deploy/betula-deployment)

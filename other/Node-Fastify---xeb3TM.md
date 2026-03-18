@@ -2,7 +2,7 @@
 
 A minimal production-ready node HTTP server with fastify and typescript
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xeb3TM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xeb3TM)
 
 ## About
 
@@ -39,4 +39,4 @@ A minimal production-ready node HTTP server with [`Fastify`](https://fastify.dev
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/xeb3TM)
+[View on Railway →](https://railway.com/deploy/xeb3TM)

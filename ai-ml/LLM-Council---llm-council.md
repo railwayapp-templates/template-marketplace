@@ -2,7 +2,7 @@
 
 Multi-model AI deliberation for higher-quality decisions
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/llm-council)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/llm-council)
 
 ## About
 
@@ -33,4 +33,4 @@ Build time is approximately 2-3 minutes. No database required—fully stateless.
 
 **Category:** AI/ML · **Languages:** Python, Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/llm-council)
+[View on Railway →](https://railway.com/deploy/llm-council)

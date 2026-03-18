@@ -2,7 +2,7 @@
 
 Self hosted and developer friendly mobile linking
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rowt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rowt)
 
 ## About
 
@@ -44,4 +44,4 @@ This template hosts rowt server created using [create-rowt-server](https://githu
 
 **Category:** Analytics · **Languages:** TypeScript, HTML, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/rowt)
+[View on Railway →](https://railway.com/deploy/rowt)

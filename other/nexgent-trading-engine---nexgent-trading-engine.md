@@ -2,7 +2,7 @@
 
 Nexgent AI's open-source trading platform for Solana
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nexgent-trading-engine)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nexgent-trading-engine)
 
 ## About
 
@@ -53,4 +53,4 @@ Deploying Nexgent requires running an Express.js backend server alongside Postgr
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/nexgent-trading-engine)
+[View on Railway →](https://railway.com/deploy/nexgent-trading-engine)

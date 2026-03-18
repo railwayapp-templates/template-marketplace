@@ -2,7 +2,7 @@
 
 A UI-first Identity Access Management (IAM) / Single-Sign-On (SSO) platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OJXBP4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OJXBP4)
 
 ## About
 
@@ -41,4 +41,4 @@ admin
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/OJXBP4)
+[View on Railway →](https://railway.com/deploy/OJXBP4)

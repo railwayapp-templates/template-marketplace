@@ -2,7 +2,7 @@
 
 Bluesky PDS (Personal Data Server)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xBNJ1u)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xBNJ1u)
 
 ## About
 
@@ -46,4 +46,4 @@ PDS hosting previously required running installation scripts on VPS, but with Pa
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/xBNJ1u)
+[View on Railway →](https://railway.com/deploy/xBNJ1u)

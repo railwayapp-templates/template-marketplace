@@ -2,7 +2,7 @@
 
 A headless open-source GraphQL commerce platform for the modern web.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mFsdab)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mFsdab)
 
 ## About
 
@@ -65,4 +65,4 @@ See also:
 
 **Category:** Starters · **Languages:** TypeScript, Handlebars, Dockerfile
 
-[View on Railway →](https://railway.com/template/mFsdab)
+[View on Railway →](https://railway.com/deploy/mFsdab)

@@ -2,7 +2,7 @@
 
 A lightweight and powerful self hosted CMS
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/raytha-cms)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/raytha-cms)
 
 ## About
 
@@ -49,4 +49,4 @@ Hosting Raytha CMS is straightforward. Run a single Docker container, connect it
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/raytha-cms)
+[View on Railway →](https://railway.com/deploy/raytha-cms)

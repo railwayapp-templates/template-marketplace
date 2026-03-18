@@ -2,7 +2,7 @@
 
 Datadog Agent with a Node App, forwarding logs and metrics.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/saGmYG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/saGmYG)
 
 ## About
 
@@ -51,4 +51,4 @@ You will need your Datadog API key and Datadog Site value.
 
 **Category:** Observability · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/saGmYG)
+[View on Railway →](https://railway.com/deploy/saGmYG)

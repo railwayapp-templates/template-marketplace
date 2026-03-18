@@ -2,7 +2,7 @@
 
 nanobot: The Ultra-Lightweight Clawdbot 🐈 + 🦙
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nanobot-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nanobot-1)
 
 ## About
 
@@ -43,4 +43,4 @@ Railway handles infrastructure, networking, and scaling so you can focus on conf
 
 **Category:** Bots · **Languages:** Python, Svelte, JavaScript, TypeScript, CSS, Shell, Dockerfile, HTML, Batchfile, Mako, Makefile
 
-[View on Railway →](https://railway.com/template/nanobot-1)
+[View on Railway →](https://railway.com/deploy/nanobot-1)

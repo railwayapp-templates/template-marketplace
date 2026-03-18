@@ -2,7 +2,7 @@
 
 Deploys MariaDB with Adminer UI from a repo
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BrjaHe)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BrjaHe)
 
 ## About
 
@@ -70,4 +70,4 @@ The intent is also to maintain high compatibility with MySQL, ensuring a library
 
 **Category:** Starters · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/BrjaHe)
+[View on Railway →](https://railway.com/deploy/BrjaHe)

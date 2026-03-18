@@ -2,7 +2,7 @@
 
 Store snippets privately over your own tailnet
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VMGRyO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VMGRyO)
 
 ## About
 
@@ -34,4 +34,4 @@ This template uses [the `tclip` Docker image](https://github.com/tailscale-dev/t
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/VMGRyO)
+[View on Railway →](https://railway.com/deploy/VMGRyO)

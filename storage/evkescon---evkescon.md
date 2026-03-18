@@ -2,7 +2,7 @@
 
 Deploy and Host evkescon with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/evkescon)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evkescon)
 
 ## About
 
@@ -42,4 +42,4 @@ Hosting **evkescon** on Railway involves deploying a Node.js backend server conn
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/evkescon)
+[View on Railway →](https://railway.com/deploy/evkescon)

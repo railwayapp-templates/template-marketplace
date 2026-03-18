@@ -2,7 +2,7 @@
 
 VS Code in the browser
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/code-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/code-server)
 
 ## About
 
@@ -45,4 +45,4 @@ This template creates a dev environment that you can access from any device.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/code-server)
+[View on Railway →](https://railway.com/deploy/code-server)

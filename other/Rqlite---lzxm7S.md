@@ -2,7 +2,7 @@
 
 Lightweight, easy-to-use, distributed relational database built on SQLite
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lzxm7S)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lzxm7S)
 
 ## About
 
@@ -35,4 +35,4 @@ Everything is ready! No need to change env variables
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/lzxm7S)
+[View on Railway →](https://railway.com/deploy/lzxm7S)

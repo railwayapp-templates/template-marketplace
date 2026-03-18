@@ -2,7 +2,7 @@
 
 Open Source Browser API for AI Agents & Apps.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/steelbrowser)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/steelbrowser)
 
 ## About
 
@@ -79,4 +79,4 @@ After deploying this template, users should:
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/steelbrowser)
+[View on Railway →](https://railway.com/deploy/steelbrowser)

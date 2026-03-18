@@ -2,7 +2,7 @@
 
 No need for OpenClaw! Your own computer on the cloud, free via Nvidia NIM
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/free-open-webui-te-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/free-open-webui-te-1)
 
 ## About
 
@@ -31,4 +31,4 @@ free-open-webui-terminal bundles Open WebUI (a full-featured ChatGPT-style inter
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/free-open-webui-te-1)
+[View on Railway →](https://railway.com/deploy/free-open-webui-te-1)

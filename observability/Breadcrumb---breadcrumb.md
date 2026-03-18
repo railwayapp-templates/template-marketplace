@@ -2,7 +2,7 @@
 
 Simple, self-hosted LLM observability for TypeScript
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/breadcrumb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/breadcrumb)
 
 ## About
 
@@ -62,4 +62,4 @@ To deploy, you need to provision PostgreSQL and ClickHouse instances, set enviro
 
 **Category:** Observability · **Languages:** TypeScript, MDX, CSS, Dockerfile, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/breadcrumb)
+[View on Railway →](https://railway.com/deploy/breadcrumb)

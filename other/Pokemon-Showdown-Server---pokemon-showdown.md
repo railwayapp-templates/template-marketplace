@@ -2,7 +2,7 @@
 
 Deploy your own Pokemon Showdown battle server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pokemon-showdown)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pokemon-showdown)
 
 ## About
 
@@ -32,4 +32,4 @@ Deploy your own Pokemon Showdown battle server
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/pokemon-showdown)
+[View on Railway →](https://railway.com/deploy/pokemon-showdown)

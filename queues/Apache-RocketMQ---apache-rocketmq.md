@@ -2,7 +2,7 @@
 
 Spins up a RocketMQ broker + HTTP Proxy + NameServer
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/apache-rocketmq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/apache-rocketmq)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting Apache RocketMQ requires two core components working together: a NameSer
 
 **Category:** Queues · **Languages:** Shell
 
-[View on Railway →](https://railway.com/template/apache-rocketmq)
+[View on Railway →](https://railway.com/deploy/apache-rocketmq)

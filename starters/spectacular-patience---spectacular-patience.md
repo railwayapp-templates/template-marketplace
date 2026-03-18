@@ -2,7 +2,7 @@
 
 novel provably fair casino platform, with several types of games
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/spectacular-patience)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/spectacular-patience)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting/deploying spectacular-patience typically involves provisioning a server 
 
 **Category:** Starters · **Languages:** TypeScript, CSS, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/spectacular-patience)
+[View on Railway →](https://railway.com/deploy/spectacular-patience)

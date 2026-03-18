@@ -2,7 +2,7 @@
 
 Lightweight MQTT message broker.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mosquitto-broker)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mosquitto-broker)
 
 ## About
 
@@ -34,4 +34,4 @@ This template provides a straightforward setup for Eclipse Mosquitto with minima
 
 **Category:** Queues · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/mosquitto-broker)
+[View on Railway →](https://railway.com/deploy/mosquitto-broker)

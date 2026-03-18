@@ -2,7 +2,7 @@
 
 LLM Observability, OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/YJ_Ivb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/YJ_Ivb)
 
 ## About
 
@@ -147,4 +147,4 @@ Langfuse is an **open source LLM engineering** platform. It helps teams collabor
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/YJ_Ivb)
+[View on Railway →](https://railway.com/deploy/YJ_Ivb)

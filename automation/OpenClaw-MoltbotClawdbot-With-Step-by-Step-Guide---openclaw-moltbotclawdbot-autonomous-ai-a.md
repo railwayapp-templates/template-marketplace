@@ -2,7 +2,7 @@
 
 [Mar '26] Deploy OpenClaw without CLI (Steps In Overview). Just Deploy It!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-moltbotclawdbot-autonomous-ai-a)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-moltbotclawdbot-autonomous-ai-a)
 
 ## About
 
@@ -38,4 +38,4 @@ Deploying OpenClaw on Railway traditionally requires interactive terminal access
 
 **Category:** Automation · **Languages:** HTML, JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/openclaw-moltbotclawdbot-autonomous-ai-a)
+[View on Railway →](https://railway.com/deploy/openclaw-moltbotclawdbot-autonomous-ai-a)

@@ -2,7 +2,7 @@
 
 API for URL shortener writtein in Golang
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xAJ1-J)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xAJ1-J)
 
 ## About
 
@@ -44,4 +44,4 @@ https://twitter.com/championswimmer
 
 **Category:** Starters · **Languages:** Go, HTML, Makefile, Dockerfile, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/xAJ1-J)
+[View on Railway →](https://railway.com/deploy/xAJ1-J)

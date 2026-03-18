@@ -2,7 +2,7 @@
 
 Walrus Upload Relay with JWT Auth
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/walrus-secured-upload-relay)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/walrus-secured-upload-relay)
 
 ## About
 
@@ -43,4 +43,4 @@ By deploying walrus-secured-upload-relay on Railway, you are one step closer to 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/walrus-secured-upload-relay)
+[View on Railway →](https://railway.com/deploy/walrus-secured-upload-relay)

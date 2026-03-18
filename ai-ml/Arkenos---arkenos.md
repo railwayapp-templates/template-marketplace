@@ -2,7 +2,7 @@
 
 Composable orchestration layer for conversational AI infrastructure.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/arkenos)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/arkenos)
 
 ## About
 
@@ -46,4 +46,4 @@ Once all 4 services show as "Online", open your deployed **Frontend** URL and si
 
 **Category:** AI/ML · **Languages:** TypeScript, Python, CSS, Dockerfile, Batchfile, Shell, Mako, JavaScript
 
-[View on Railway →](https://railway.com/template/arkenos)
+[View on Railway →](https://railway.com/deploy/arkenos)

@@ -2,7 +2,7 @@
 
 Open source server management software for SSH, VNC & RDP
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nexterm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nexterm)
 
 ## About
 
@@ -29,4 +29,4 @@ Nexterm is deployed as a Docker container, making it straightforward on platform
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/nexterm)
+[View on Railway →](https://railway.com/deploy/nexterm)

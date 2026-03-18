@@ -2,7 +2,7 @@
 
 A setup for Payload using postgreSQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/3QUkyF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/3QUkyF)
 
 ## About
 
@@ -38,4 +38,4 @@ There is a migration script that runs before the npm run serve command which you
 
 **Category:** CMS · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/3QUkyF)
+[View on Railway →](https://railway.com/deploy/3QUkyF)

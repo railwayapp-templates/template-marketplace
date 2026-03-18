@@ -2,7 +2,7 @@
 
 The #1 Open-Source CRM Modern, powerful, affordable.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4_LQ-T)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4_LQ-T)
 
 ## About
 
@@ -70,4 +70,4 @@ Hosting and deploying TwentyCRM involves setting up the TwentyCRM application on
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/4_LQ-T)
+[View on Railway →](https://railway.com/deploy/4_LQ-T)

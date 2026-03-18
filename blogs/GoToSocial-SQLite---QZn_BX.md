@@ -2,7 +2,7 @@
 
 A fast, fun, and small ActivityPub server for the Fediverse
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/QZn_BX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/QZn_BX)
 
 ## About
 
@@ -53,4 +53,4 @@ If you have any queries regarding this template in specific then reach out to me
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/QZn_BX)
+[View on Railway →](https://railway.com/deploy/QZn_BX)

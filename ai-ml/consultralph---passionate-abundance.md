@@ -2,7 +2,7 @@
 
 ConsultRalph - AI autonomous agent for consultants
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/passionate-abundance)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/passionate-abundance)
 
 ## About
 
@@ -28,4 +28,4 @@ It's very important that you sign up on [Valyu AI](https://platform.valyu.ai/aut
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/passionate-abundance)
+[View on Railway →](https://railway.com/deploy/passionate-abundance)

@@ -2,7 +2,7 @@
 
 A Clone of Glance with GitHub Gist API and single volume support
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/UGcNz8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/UGcNz8)
 
 ## About
 
@@ -95,4 +95,4 @@ Feature requests are tagged with one of the following:
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/UGcNz8)
+[View on Railway →](https://railway.com/deploy/UGcNz8)

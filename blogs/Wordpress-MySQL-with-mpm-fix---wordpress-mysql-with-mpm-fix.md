@@ -2,7 +2,7 @@
 
 This is a simple Wordpress template with mpm fix and mysql image.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wordpress-mysql-with-mpm-fix)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wordpress-mysql-with-mpm-fix)
 
 ## About
 
@@ -47,4 +47,4 @@ This is a pure Wordpress deployment. No additional plugins, no themes. After dep
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/wordpress-mysql-with-mpm-fix)
+[View on Railway →](https://railway.com/deploy/wordpress-mysql-with-mpm-fix)

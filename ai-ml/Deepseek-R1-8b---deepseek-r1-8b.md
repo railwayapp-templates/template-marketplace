@@ -2,7 +2,7 @@
 
 Deploy and host Deepseek-R1-8b on railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/deepseek-r1-8b)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/deepseek-r1-8b)
 
 ## About
 
@@ -34,4 +34,4 @@ This template will be kept up to date for ideal optimization.
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/deepseek-r1-8b)
+[View on Railway →](https://railway.com/deploy/deepseek-r1-8b)

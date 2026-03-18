@@ -2,7 +2,7 @@
 
 GrowthBook is an open-source platform for feature flagging and A/B testing.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/growthbook)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/growthbook)
 
 ## About
 
@@ -43,4 +43,4 @@ GrowthBook consists of a NextJS front-end, an ExpressJS API, and a Python stats 
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/growthbook)
+[View on Railway →](https://railway.com/deploy/growthbook)

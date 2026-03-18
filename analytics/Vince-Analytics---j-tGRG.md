@@ -2,7 +2,7 @@
 
 Cost effective, self-hosted website analytics, based on Plausible
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/j-tGRG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/j-tGRG)
 
 ## About
 
@@ -68,4 +68,4 @@ For further information about Vince Analytics, visit the [official website](http
 
 **Category:** Analytics · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/j-tGRG)
+[View on Railway →](https://railway.com/deploy/j-tGRG)

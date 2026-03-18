@@ -2,7 +2,7 @@
 
 Sample LlamaIndex apps for chatting with PDFs and URL summaries.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GpZ0J4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GpZ0J4)
 
 ## About
 
@@ -38,4 +38,4 @@ You'll need API keys from [OpenAI](https://platform.openai.com/api-keys) and [Ll
 
 **Category:** AI/ML · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/GpZ0J4)
+[View on Railway →](https://railway.com/deploy/GpZ0J4)

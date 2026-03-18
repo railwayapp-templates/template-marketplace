@@ -2,7 +2,7 @@
 
 Deploy a GRPC reverse proxy with Caddy.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wlxtbV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wlxtbV)
 
 ## About
 
@@ -31,4 +31,4 @@ By default, the `Caddyfile` is configured to reverse proxy gRPC requests.
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/wlxtbV)
+[View on Railway →](https://railway.com/deploy/wlxtbV)

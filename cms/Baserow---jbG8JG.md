@@ -2,7 +2,7 @@
 
 Open source no-code database and an Airtable alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jbG8JG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jbG8JG)
 
 ## About
 
@@ -56,4 +56,4 @@ Railway simplifies the deployment process, allowing you to host Baserow effortle
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/jbG8JG)
+[View on Railway →](https://railway.com/deploy/jbG8JG)

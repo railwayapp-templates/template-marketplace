@@ -2,7 +2,7 @@
 
 Use Railway Volumes with Django
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/AWUIv6)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/AWUIv6)
 
 ## About
 
@@ -58,4 +58,4 @@ if not os.path.exists(new_directory):
 
 **Category:** Starters · **Languages:** Python, HTML
 
-[View on Railway →](https://railway.com/template/AWUIv6)
+[View on Railway →](https://railway.com/deploy/AWUIv6)

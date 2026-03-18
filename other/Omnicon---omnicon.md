@@ -2,7 +2,7 @@
 
 Multi-channel messaging SaaS built on the WhatsApp Cloud API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/omnicon)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/omnicon)
 
 ## About
 
@@ -46,4 +46,4 @@ Hosting Omnicon on Railway involves deploying the application service, attaching
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/omnicon)
+[View on Railway →](https://railway.com/deploy/omnicon)

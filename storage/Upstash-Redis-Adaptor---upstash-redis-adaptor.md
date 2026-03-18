@@ -2,7 +2,7 @@
 
 Self-hosted Upstash-compatible Redis HTTP API for edge environments
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/upstash-redis-adaptor)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/upstash-redis-adaptor)
 
 ## About
 
@@ -38,4 +38,4 @@ Deploying Upstash Redis Adaptor involves running a small Hono + Bun server that 
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/upstash-redis-adaptor)
+[View on Railway →](https://railway.com/deploy/upstash-redis-adaptor)

@@ -2,7 +2,7 @@
 
 Abstract Mainnet External Node
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rzhVvU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rzhVvU)
 
 ## About
 
@@ -77,4 +77,4 @@ By default the node will utilize a snapshot for fast syncing. To disable snapsho
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/rzhVvU)
+[View on Railway →](https://railway.com/deploy/rzhVvU)

@@ -2,7 +2,7 @@
 
 Podly creates ad-free podcast RSS feeds
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/podly)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/podly)
 
 ## About
 
@@ -35,4 +35,4 @@ Use the configuration UI to connect Podly to an LLM and transcription services. 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/podly)
+[View on Railway →](https://railway.com/deploy/podly)

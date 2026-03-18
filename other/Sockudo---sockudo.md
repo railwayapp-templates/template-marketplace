@@ -2,7 +2,7 @@
 
 Pusher compatible realtime server, performant alternative to socketi.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sockudo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sockudo)
 
 ## About
 
@@ -70,4 +70,4 @@ First-class TypeScript client with Filter API, delta reconstruction, and ergonom
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/sockudo)
+[View on Railway →](https://railway.com/deploy/sockudo)

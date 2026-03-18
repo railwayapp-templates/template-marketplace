@@ -2,7 +2,7 @@
 
 MongoDB  database service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mongo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mongo)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting MongoDB gives you access to a flexible document database capable of hand
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/mongo)
+[View on Railway →](https://railway.com/deploy/mongo)

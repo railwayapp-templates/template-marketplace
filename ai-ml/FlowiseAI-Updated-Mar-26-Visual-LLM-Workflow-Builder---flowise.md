@@ -2,7 +2,7 @@
 
 Flowise [Mar ’26], Visual LLM Flow Builder (OpenPipe Alternative), Selfhost
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flowise)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowise)
 
 ## About
 
@@ -40,4 +40,4 @@ Self hosting Flowise empowers you to run the platform entirely on your own infra
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/flowise)
+[View on Railway →](https://railway.com/deploy/flowise)

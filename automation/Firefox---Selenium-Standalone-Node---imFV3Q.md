@@ -2,7 +2,7 @@
 
 Single Instance Firefox Browser Driver
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/imFV3Q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/imFV3Q)
 
 ## About
 
@@ -53,4 +53,4 @@ Single Instance Firefox Browser Driver
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/imFV3Q)
+[View on Railway →](https://railway.com/deploy/imFV3Q)

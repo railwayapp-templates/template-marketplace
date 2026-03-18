@@ -2,7 +2,7 @@
 
 2026 Neo4j template with adjustable heap, plugins, etc
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/neo4j)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/neo4j)
 
 ## About
 
@@ -72,4 +72,4 @@ Neo4j is a graph database designed for connected data, relationship-heavy querie
 
 **Category:** Storage · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/neo4j)
+[View on Railway →](https://railway.com/deploy/neo4j)

@@ -2,7 +2,7 @@
 
 Open WebUI with MCP-to-OpenAPI proxy server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xB7OU2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xB7OU2)
 
 ## About
 
@@ -81,4 +81,4 @@ Deploy this template to quickly set up an environment where your MCP tools are r
 
 **Category:** AI/ML · **Languages:** JavaScript, Svelte, Python, TypeScript, CSS, Shell, Dockerfile, HTML, Batchfile, Mako, Makefile
 
-[View on Railway →](https://railway.com/template/xB7OU2)
+[View on Railway →](https://railway.com/deploy/xB7OU2)

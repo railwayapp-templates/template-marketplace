@@ -2,7 +2,7 @@
 
 Label Studio [Mar ’26] (Label Data for ML & AI Training) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/label-studio)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/label-studio)
 
 ## About
 
@@ -49,4 +49,4 @@ You can self-host Label Studio on Railway to gain full control over your data, a
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/label-studio)
+[View on Railway →](https://railway.com/deploy/label-studio)

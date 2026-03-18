@@ -2,7 +2,7 @@
 
 Check if coordinate is on water (seas, lakes, and rivers) with 1m precision
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/MfUYQX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MfUYQX)
 
 ## About
 
@@ -45,4 +45,4 @@ Check if coordinate is on water (seas, lakes, and rivers) with 1m precision
 
 **Category:** Other · **Languages:** TypeScript, HTML, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/MfUYQX)
+[View on Railway →](https://railway.com/deploy/MfUYQX)

@@ -2,7 +2,7 @@
 
 1 click Self-host Postiz v2.11.3. Schedule, publish & automate social posts
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/deploy-postiz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/deploy-postiz)
 
 ## About
 
@@ -74,4 +74,4 @@ Postiz (GitHub: [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app))
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/deploy-postiz)
+[View on Railway →](https://railway.com/deploy/deploy-postiz)

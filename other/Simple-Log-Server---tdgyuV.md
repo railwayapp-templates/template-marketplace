@@ -2,7 +2,7 @@
 
 Realtime logs via websocket
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tdgyuV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tdgyuV)
 
 ## About
 
@@ -54,4 +54,4 @@ Construct the body of your request like so:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tdgyuV)
+[View on Railway →](https://railway.com/deploy/tdgyuV)

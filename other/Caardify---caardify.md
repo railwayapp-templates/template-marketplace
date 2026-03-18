@@ -2,7 +2,7 @@
 
 Add necessary secrets before deploying
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/caardify)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/caardify)
 
 ## About
 
@@ -101,4 +101,4 @@ Hosting Caardify involves deploying a full-stack web application that includes a
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/caardify)
+[View on Railway →](https://railway.com/deploy/caardify)

@@ -2,7 +2,7 @@
 
 Deploy Nullclaw with one click on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nullclaw-railway-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nullclaw-railway-template)
 
 ## About
 
@@ -41,4 +41,4 @@ Hosting nullclaw-railway-template requires deploying a Docker container that run
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/nullclaw-railway-template)
+[View on Railway →](https://railway.com/deploy/nullclaw-railway-template)

@@ -2,7 +2,7 @@
 
 Powerful web analytics platform that gives you 100% data ownership
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/MiHicG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MiHicG)
 
 ## About
 
@@ -81,4 +81,4 @@ Documentation and more info on https://matomo.org.
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/MiHicG)
+[View on Railway →](https://railway.com/deploy/MiHicG)

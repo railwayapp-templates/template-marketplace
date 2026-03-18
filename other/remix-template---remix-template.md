@@ -2,7 +2,7 @@
 
 Deploy and Host remix-template with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/remix-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/remix-template)
 
 ## About
 
@@ -22,4 +22,4 @@ This Remix template is designed for seamless deployment on Railway's platform. I
 
 **Category:** Other · **Languages:** TypeScript, HTML, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/remix-template)
+[View on Railway →](https://railway.com/deploy/remix-template)

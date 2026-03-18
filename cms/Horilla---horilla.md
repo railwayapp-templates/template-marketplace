@@ -2,7 +2,7 @@
 
 Open-source HRMS (Horilla) for managing employees, payroll, and more.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/horilla)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/horilla)
 
 ## About
 
@@ -48,4 +48,4 @@ It is strongly recommended to change these credentials immediately after your fi
 
 **Category:** CMS · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/horilla)
+[View on Railway →](https://railway.com/deploy/horilla)

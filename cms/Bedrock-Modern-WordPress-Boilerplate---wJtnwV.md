@@ -2,7 +2,7 @@
 
 Bedrock | Modern WordPress Boilerplate
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wJtnwV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wJtnwV)
 
 ## About
 
@@ -68,4 +68,4 @@ This template is undergoing active development and currently awaiting a Volumes 
 
 **Category:** CMS · **Languages:** PHP
 
-[View on Railway →](https://railway.com/template/wJtnwV)
+[View on Railway →](https://railway.com/deploy/wJtnwV)

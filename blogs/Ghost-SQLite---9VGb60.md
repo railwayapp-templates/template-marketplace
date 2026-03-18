@@ -2,7 +2,7 @@
 
 Self-hosted Ghost with SQLite and persistent volume.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/9VGb60)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9VGb60)
 
 ## About
 
@@ -52,4 +52,4 @@ Note: This template should ideally be used for non-critical or lightweight blogs
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/9VGb60)
+[View on Railway →](https://railway.com/deploy/9VGb60)

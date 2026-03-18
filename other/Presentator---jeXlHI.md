@@ -2,7 +2,7 @@
 
 A free and open source design feedback and presentation platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jeXlHI)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jeXlHI)
 
 ## About
 
@@ -43,4 +43,4 @@ https://github.com/presentator/presentator/blob/master/README.md
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/jeXlHI)
+[View on Railway →](https://railway.com/deploy/jeXlHI)

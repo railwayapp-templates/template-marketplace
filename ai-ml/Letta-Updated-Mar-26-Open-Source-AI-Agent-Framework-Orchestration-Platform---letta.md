@@ -2,7 +2,7 @@
 
 Letta [Mar ’26] (Build, Deploy & Manage AI Agents Seamlessly) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/letta)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/letta)
 
 ## About
 
@@ -30,4 +30,4 @@ Letta is an open-source, voice and chat AI assistant framework designed for deve
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/letta)
+[View on Railway →](https://railway.com/deploy/letta)

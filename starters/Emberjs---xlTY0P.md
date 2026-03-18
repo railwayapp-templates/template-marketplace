@@ -2,7 +2,7 @@
 
 An Ember.js starter in Javascript, comes already configured with railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xlTY0P)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xlTY0P)
 
 ## About
 
@@ -106,4 +106,4 @@ This project is licensed under the MIT License.
 
 **Category:** Starters · **Languages:** JavaScript, HTML, Handlebars, CSS
 
-[View on Railway →](https://railway.com/template/xlTY0P)
+[View on Railway →](https://railway.com/deploy/xlTY0P)

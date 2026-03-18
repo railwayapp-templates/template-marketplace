@@ -2,7 +2,7 @@
 
 Inngest development server with Postgres and Redis
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/TCH1Tp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TCH1Tp)
 
 ## About
 
@@ -48,4 +48,4 @@ Inngest is an event-driven durable execution platform that allows you to run fas
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/TCH1Tp)
+[View on Railway →](https://railway.com/deploy/TCH1Tp)

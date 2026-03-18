@@ -2,7 +2,7 @@
 
 Turn your audience into a business.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ghost)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ghost)
 
 ## About
 
@@ -57,4 +57,4 @@ Ghost is a powerful app for new-media creators to publish, share, and grow a bus
 
 **Category:** Blogs · **Languages:** JavaScript, Shell, Procfile
 
-[View on Railway →](https://railway.com/template/ghost)
+[View on Railway →](https://railway.com/deploy/ghost)

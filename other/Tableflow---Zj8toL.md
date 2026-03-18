@@ -2,7 +2,7 @@
 
 The open source CSV importer
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Zj8toL)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Zj8toL)
 
 ## About
 
@@ -105,4 +105,4 @@ TableFlow offers a wide range of features to help you manage and work with your 
 
 **Category:** Other · **Languages:** Go, TypeScript, SCSS, Dockerfile, CSS, JavaScript, HTML, Shell
 
-[View on Railway →](https://railway.com/template/Zj8toL)
+[View on Railway →](https://railway.com/deploy/Zj8toL)

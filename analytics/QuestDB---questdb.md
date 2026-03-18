@@ -2,7 +2,7 @@
 
 High-performance time-series database with built-in web console
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/questdb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/questdb)
 
 ## About
 
@@ -37,4 +37,4 @@ This template deploys a production-ready QuestDB instance:
 
 **Category:** Analytics · **Languages:** Python, Shell, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/questdb)
+[View on Railway →](https://railway.com/deploy/questdb)

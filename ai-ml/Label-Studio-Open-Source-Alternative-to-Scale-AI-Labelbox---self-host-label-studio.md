@@ -2,7 +2,7 @@
 
 Self Host Label Studio. Data labeling for images, text, audio & video.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/self-host-label-studio)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/self-host-label-studio)
 
 ## About
 
@@ -62,4 +62,4 @@ On Railway, Label Studio connects to Postgres over the private network and persi
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/self-host-label-studio)
+[View on Railway →](https://railway.com/deploy/self-host-label-studio)

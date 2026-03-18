@@ -2,7 +2,7 @@
 
 Visual AI agent workflow builder powered by Firecrawl
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-agent-builder)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-agent-builder)
 
 ## About
 
@@ -40,4 +40,4 @@ Hosting Open Agent Builder requires a Next.js 16 application with external manag
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/open-agent-builder)
+[View on Railway →](https://railway.com/deploy/open-agent-builder)

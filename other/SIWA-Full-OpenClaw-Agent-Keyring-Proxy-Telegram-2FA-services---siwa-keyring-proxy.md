@@ -2,7 +2,7 @@
 
 SIWA stack with OpenClaw agent, Keyring proxy, and Telegram 2FA services.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/siwa-keyring-proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/siwa-keyring-proxy)
 
 ## About
 
@@ -53,4 +53,4 @@ Hosting siwa-keyring-proxy involves deploying a single Docker container running 
 
 **Category:** Other · **Languages:** HTML, JavaScript, Dockerfile, Shell, TypeScript, CSS
 
-[View on Railway →](https://railway.com/template/siwa-keyring-proxy)
+[View on Railway →](https://railway.com/deploy/siwa-keyring-proxy)

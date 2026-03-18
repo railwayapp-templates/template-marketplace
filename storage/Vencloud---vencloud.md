@@ -2,7 +2,7 @@
 
 Official Vencord cloud settings sync API for self-hosting.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vencloud)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vencloud)
 
 ## About
 
@@ -43,4 +43,4 @@ Hosting Vencloud involves deploying a Go-based API server with Redis for data st
 
 **Category:** Storage · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/vencloud)
+[View on Railway →](https://railway.com/deploy/vencloud)

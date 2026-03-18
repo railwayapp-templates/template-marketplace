@@ -2,7 +2,7 @@
 
 The MTProto proxy is a container that automatically sets up a proxy server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/telegram-mtproxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/telegram-mtproxy)
 
 ## About
 
@@ -23,4 +23,4 @@ Hosting Telegram MTProxy involves running a Docker container that automatically 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/telegram-mtproxy)
+[View on Railway →](https://railway.com/deploy/telegram-mtproxy)

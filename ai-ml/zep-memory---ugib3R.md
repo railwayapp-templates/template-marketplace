@@ -2,7 +2,7 @@
 
 Conversational LLM Application Framework
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ugib3R)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ugib3R)
 
 ## About
 
@@ -53,4 +53,4 @@ See more about Zep at [getzep.com](https://getzep.com).
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/ugib3R)
+[View on Railway →](https://railway.com/deploy/ugib3R)

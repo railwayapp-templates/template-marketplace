@@ -2,7 +2,7 @@
 
 Deploy and Host Metabase - Open source AI Analytics with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/metabase-open-source-ai-analytics)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/metabase-open-source-ai-analytics)
 
 ## About
 
@@ -42,4 +42,4 @@ Railway handles the infrastructure complexity behind the scenes—automatic scal
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/metabase-open-source-ai-analytics)
+[View on Railway →](https://railway.com/deploy/metabase-open-source-ai-analytics)

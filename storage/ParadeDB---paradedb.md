@@ -2,7 +2,7 @@
 
 Simple, Elastic-quality search for Postgres
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/paradedb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/paradedb)
 
 ## About
 
@@ -38,4 +38,4 @@ For more information on deploying and hosting ParadeDB, see the [ParadeDB deploy
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/paradedb)
+[View on Railway →](https://railway.com/deploy/paradedb)

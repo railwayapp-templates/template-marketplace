@@ -2,7 +2,7 @@
 
 Deploy and Host OpenAI-Agent-SDK with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openai-agent-sdk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openai-agent-sdk)
 
 ## About
 
@@ -37,4 +37,4 @@ Deploying this template involves hosting a FastAPI backend with dual Gradio inte
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/openai-agent-sdk)
+[View on Railway →](https://railway.com/deploy/openai-agent-sdk)

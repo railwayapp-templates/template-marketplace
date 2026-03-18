@@ -2,7 +2,7 @@
 
 Token server for Agora SDKs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/huuDOY)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/huuDOY)
 
 ## About
 
@@ -104,4 +104,4 @@ source: github.com/AgoraIO-Community/Agora-Node-TokenServer
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/huuDOY)
+[View on Railway →](https://railway.com/deploy/huuDOY)

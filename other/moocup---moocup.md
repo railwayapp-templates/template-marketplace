@@ -2,7 +2,7 @@
 
 Visual screenshot editor for stunning screenshots
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/moocup)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/moocup)
 
 ## About
 
@@ -23,4 +23,4 @@ moocup is designed to be a offilne-first app, so even if you do not have access 
 
 **Category:** Other · **Languages:** TypeScript, CSS, HTML, JavaScript
 
-[View on Railway →](https://railway.com/template/moocup)
+[View on Railway →](https://railway.com/deploy/moocup)

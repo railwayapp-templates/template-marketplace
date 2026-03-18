@@ -2,7 +2,7 @@
 
 Template ajustado de bugs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/b_LXy3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/b_LXy3)
 
 ## About
 
@@ -69,4 +69,4 @@ Depois de fazer esse ajuste, só executar o deploy novamente.
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/b_LXy3)
+[View on Railway →](https://railway.com/deploy/b_LXy3)

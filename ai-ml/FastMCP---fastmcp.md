@@ -2,7 +2,7 @@
 
 Deploy and Host FastMCP with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fastmcp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastmcp)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting FastMCP on Railway provides a seamless way to deploy your Model Context 
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/fastmcp)
+[View on Railway →](https://railway.com/deploy/fastmcp)

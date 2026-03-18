@@ -2,7 +2,7 @@
 
 Trello alternative. Kanban-style project maangement
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/8ttegs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/8ttegs)
 
 ## About
 
@@ -60,4 +60,4 @@ Single sign-on via OpenID Connect
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/8ttegs)
+[View on Railway →](https://railway.com/deploy/8ttegs)

@@ -2,7 +2,7 @@
 
 Open Source, Privacy-First Simple Analytics for Mobile, Desktop, and Web
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6MbF4W)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6MbF4W)
 
 ## About
 
@@ -95,4 +95,4 @@ Aptabase provides SDKs for the most popular frameworks and languages to make it 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/6MbF4W)
+[View on Railway →](https://railway.com/deploy/6MbF4W)

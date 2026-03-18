@@ -2,7 +2,7 @@
 
 UI library for building apps with world-class design.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/76DR9Q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/76DR9Q)
 
 ## About
 
@@ -36,4 +36,4 @@ Grab a copy from the [Figma Community](https://figma.com/).
 
 **Category:** Starters · **Languages:** SCSS, TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/76DR9Q)
+[View on Railway →](https://railway.com/deploy/76DR9Q)

@@ -2,7 +2,7 @@
 
 A powerful workflow automation tool for technical people
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-with-webhook-processors)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-with-webhook-processors)
 
 ## About
 
@@ -114,4 +114,4 @@ Hosting n8n (w/ webhook processors) means running a workflow automation platform
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-with-webhook-processors)
+[View on Railway →](https://railway.com/deploy/n8n-with-webhook-processors)

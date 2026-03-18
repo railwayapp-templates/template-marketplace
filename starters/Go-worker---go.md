@@ -2,7 +2,7 @@
 
 Go worker (non-API) with .env config and structured Zap logging
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/go)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/go)
 
 ## About
 
@@ -27,4 +27,4 @@ Custom build or binary name? Add a nixpacks.toml to override build/start command
 
 **Category:** Starters · **Languages:** Go
 
-[View on Railway →](https://railway.com/template/go)
+[View on Railway →](https://railway.com/deploy/go)

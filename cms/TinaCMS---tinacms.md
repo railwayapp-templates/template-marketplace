@@ -2,7 +2,7 @@
 
 Deploy and Host TinaCMS with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tinacms)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tinacms)
 
 ## About
 
@@ -38,4 +38,4 @@ Hosting TinaCMS on Railway allows you to quickly deploy your CMS backend without
 
 **Category:** CMS · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/tinacms)
+[View on Railway →](https://railway.com/deploy/tinacms)

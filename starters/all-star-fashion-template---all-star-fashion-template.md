@@ -2,7 +2,7 @@
 
 Deploy and Host all-star-fashion-template with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/all-star-fashion-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/all-star-fashion-template)
 
 ## About
 
@@ -43,4 +43,4 @@ When deployed on Railway, the application runs using the Deno runtime and serves
 
 **Category:** Starters · **Languages:** TypeScript, Shell, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/all-star-fashion-template)
+[View on Railway →](https://railway.com/deploy/all-star-fashion-template)

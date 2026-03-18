@@ -2,7 +2,7 @@
 
 Minecraft Server 1.21.11, despliega tu servidor vanilla en 5 minutos
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/minechamp-minecraft-server-12111)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minechamp-minecraft-server-12111)
 
 ## About
 
@@ -29,4 +29,4 @@ Railway proporciona hosting en la nube con recursos escalables, facturación por
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/minechamp-minecraft-server-12111)
+[View on Railway →](https://railway.com/deploy/minechamp-minecraft-server-12111)

@@ -2,7 +2,7 @@
 
 Deploy and Host Postgres 🥇 Daily Backups with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgres-daily-backups)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-daily-backups)
 
 ## About
 
@@ -42,4 +42,4 @@ Postgres 🥇 Daily Backups seamlessly integrates with Railway's PostgreSQL data
 
 **Category:** Storage · **Languages:** Go, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/postgres-daily-backups)
+[View on Railway →](https://railway.com/deploy/postgres-daily-backups)

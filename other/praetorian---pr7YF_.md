@@ -2,7 +2,7 @@
 
 A lightweight service for wrapping and unwrapping data encryption keys.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pr7YF_)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pr7YF_)
 
 ## About
 
@@ -111,4 +111,4 @@ When you want to read the data, you must perform the following steps within your
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/pr7YF_)
+[View on Railway →](https://railway.com/deploy/pr7YF_)

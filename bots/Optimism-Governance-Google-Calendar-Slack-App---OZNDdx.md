@@ -2,7 +2,7 @@
 
 Slack bot for Optimism Governance events with auto reminders & summaries
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OZNDdx)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OZNDdx)
 
 ## About
 
@@ -42,4 +42,4 @@ The bot monitors the official Optimism Governance Google Calendar and sends noti
 
 **Category:** Bots · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/OZNDdx)
+[View on Railway →](https://railway.com/deploy/OZNDdx)

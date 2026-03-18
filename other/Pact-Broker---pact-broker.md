@@ -2,7 +2,7 @@
 
 Deploy and host a Pact Broker on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pact-broker)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pact-broker)
 
 ## About
 
@@ -41,4 +41,4 @@ Deploying this template should hopefully be straightforward. No config changes a
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/pact-broker)
+[View on Railway →](https://railway.com/deploy/pact-broker)

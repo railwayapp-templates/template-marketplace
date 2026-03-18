@@ -2,7 +2,7 @@
 
 bot for transform link from inst
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/superb-nurturing)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/superb-nurturing)
 
 ## About
 
@@ -24,4 +24,4 @@ This bot runs continuously as a Node.js service using the Telegram Bot API. It m
 
 **Category:** Bots · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/superb-nurturing)
+[View on Railway →](https://railway.com/deploy/superb-nurturing)

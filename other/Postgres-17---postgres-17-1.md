@@ -2,7 +2,7 @@
 
 Deploy and Host Postgres 17 with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgres-17-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-17-1)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting Postgres 17 involves provisioning a managed PostgreSQL instance, configu
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/postgres-17-1)
+[View on Railway →](https://railway.com/deploy/postgres-17-1)

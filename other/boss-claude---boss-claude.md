@@ -2,7 +2,7 @@
 
 AI orchestration framework for Claude Code CLI with Redis-backed memory 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/boss-claude)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/boss-claude)
 
 ## About
 
@@ -74,4 +74,4 @@ Boss-claude is an AI orchestration framework for Claude Code CLI that acts as a 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/boss-claude)
+[View on Railway →](https://railway.com/deploy/boss-claude)

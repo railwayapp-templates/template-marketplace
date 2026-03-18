@@ -2,7 +2,7 @@
 
 Classic theme in TypeScript
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OZVYQA)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OZVYQA)
 
 ## About
 
@@ -53,4 +53,4 @@ Docusaurus is widely used in the software development world and is an excellent 
 
 **Category:** Starters · **Languages:** JavaScript, TypeScript, CSS, Dockerfile, MDX
 
-[View on Railway →](https://railway.com/template/OZVYQA)
+[View on Railway →](https://railway.com/deploy/OZVYQA)

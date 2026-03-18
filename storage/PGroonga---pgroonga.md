@@ -2,7 +2,7 @@
 
 Enable super-fast, multilingual full-text search within PostgreSQL.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pgroonga)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pgroonga)
 
 ## About
 
@@ -51,4 +51,4 @@ https://github.com/pgroonga/redmine-full-text-search-railway-sample
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/pgroonga)
+[View on Railway →](https://railway.com/deploy/pgroonga)

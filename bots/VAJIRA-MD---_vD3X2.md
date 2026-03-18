@@ -2,7 +2,7 @@
 
 World best whtsapp bot VAJIRA MD
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_vD3X2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_vD3X2)
 
 ## About
 
@@ -38,4 +38,4 @@ https://chat.whatsapp.com/HR9gfaczPi837u67bykIDr
 
 **Category:** Bots · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/_vD3X2)
+[View on Railway →](https://railway.com/deploy/_vD3X2)

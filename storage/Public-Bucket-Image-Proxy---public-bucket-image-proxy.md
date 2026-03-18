@@ -2,7 +2,7 @@
 
 Public proxy for images in a bucket, with image optimization using imgproxy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/public-bucket-image-proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/public-bucket-image-proxy)
 
 ## About
 
@@ -39,4 +39,4 @@ Deploy a production-ready instance with zero configuration. It connects seamless
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/public-bucket-image-proxy)
+[View on Railway →](https://railway.com/deploy/public-bucket-image-proxy)

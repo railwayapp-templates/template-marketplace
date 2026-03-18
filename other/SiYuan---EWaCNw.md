@@ -2,7 +2,7 @@
 
 A privacy-first, fully OSS personal knowledge management software
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/EWaCNw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EWaCNw)
 
 ## About
 
@@ -96,4 +96,4 @@ Developed and maintained by the SiYuan community. Railway template by Mykal and 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/EWaCNw)
+[View on Railway →](https://railway.com/deploy/EWaCNw)

@@ -2,7 +2,7 @@
 
 Open device management for everyone 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wTPHPC)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wTPHPC)
 
 ## About
 
@@ -70,4 +70,4 @@ Documentation: [fleetdm.com/docs](https://fleetdm.com/docs/get-started/why-fleet
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/wTPHPC)
+[View on Railway →](https://railway.com/deploy/wTPHPC)

@@ -2,7 +2,7 @@
 
 The official bullstudio Railway template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bullstudio)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bullstudio)
 
 ## About
 
@@ -48,4 +48,4 @@ Bullstudio's architecture consists of the main web app, a workers app, a Postgre
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/bullstudio)
+[View on Railway →](https://railway.com/deploy/bullstudio)

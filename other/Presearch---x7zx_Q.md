@@ -2,7 +2,7 @@
 
 Get your node up and running in just a few seconds.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/x7zx_Q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/x7zx_Q)
 
 ## About
 
@@ -27,4 +27,4 @@ Presearch is building a decentralized search engine. You can add your own server
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/x7zx_Q)
+[View on Railway →](https://railway.com/deploy/x7zx_Q)

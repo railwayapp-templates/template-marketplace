@@ -2,7 +2,7 @@
 
 Open Source Pastebin Alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jQiMgn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jQiMgn)
 
 ## About
 
@@ -45,4 +45,4 @@ To use an alternative storage option, please refer to the [README](https://githu
 
 **Category:** Other · **Languages:** JavaScript, CSS, HTML, Dockerfile, Shell, Procfile
 
-[View on Railway →](https://railway.com/template/jQiMgn)
+[View on Railway →](https://railway.com/deploy/jQiMgn)

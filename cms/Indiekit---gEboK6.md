@@ -2,7 +2,7 @@
 
 A minimal Indiekit server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gEboK6)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gEboK6)
 
 ## About
 
@@ -53,4 +53,4 @@ Indiekit is extensible via its [plugin API](https://getindiekit.com/plugins/api/
 
 **Category:** CMS · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/gEboK6)
+[View on Railway →](https://railway.com/deploy/gEboK6)

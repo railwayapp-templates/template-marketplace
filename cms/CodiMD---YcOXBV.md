@@ -2,7 +2,7 @@
 
 CodiMD - The best platform to write and share markdown.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/YcOXBV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/YcOXBV)
 
 ## About
 
@@ -46,4 +46,4 @@ Overall, CodiMD is a versatile and powerful tool for collaborative markdown edit
 
 **Category:** CMS · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/YcOXBV)
+[View on Railway →](https://railway.com/deploy/YcOXBV)

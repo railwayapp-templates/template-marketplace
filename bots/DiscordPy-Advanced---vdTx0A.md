@@ -2,7 +2,7 @@
 
 An advanced boilerplate for bots using discord.py
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vdTx0A)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vdTx0A)
 
 ## About
 
@@ -48,4 +48,4 @@ This bot comes bundled with a bunch of things to make sure you kick-start your b
 
 **Category:** Bots · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/vdTx0A)
+[View on Railway →](https://railway.com/deploy/vdTx0A)

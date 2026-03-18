@@ -2,7 +2,7 @@
 
 Easily download your Railway volume data as a ZIP file.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/EBwdAh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EBwdAh)
 
 ## About
 
@@ -52,4 +52,4 @@ Once you have downloaded the ZIP file, you can re-mount the volume to the origin
 
 **Category:** Storage · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/EBwdAh)
+[View on Railway →](https://railway.com/deploy/EBwdAh)

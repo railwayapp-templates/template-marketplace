@@ -2,7 +2,7 @@
 
 Stirling PDF [Mar ’26] (Manage, Transfer & Organise Files) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/stirlingpdf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/stirlingpdf)
 
 ## About
 
@@ -31,4 +31,4 @@ By hosting Stirling PDF yourself, you can customize the instance to your needs, 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/stirlingpdf)
+[View on Railway →](https://railway.com/deploy/stirlingpdf)

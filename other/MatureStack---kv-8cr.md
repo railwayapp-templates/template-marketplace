@@ -2,7 +2,7 @@
 
 Template for the MatureStack Boilerplate
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kv-8cr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kv-8cr)
 
 ## About
 
@@ -53,4 +53,4 @@ MatureStack is a paid boilerplate, you will only get access to the linked privat
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/kv-8cr)
+[View on Railway →](https://railway.com/deploy/kv-8cr)

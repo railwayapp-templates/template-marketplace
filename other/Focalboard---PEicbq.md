@@ -2,7 +2,7 @@
 
 Open source project management for technical teams
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/PEicbq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PEicbq)
 
 ## About
 
@@ -68,4 +68,4 @@ We have tons of documentation to help you make the most out of focalboard, head 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/PEicbq)
+[View on Railway →](https://railway.com/deploy/PEicbq)

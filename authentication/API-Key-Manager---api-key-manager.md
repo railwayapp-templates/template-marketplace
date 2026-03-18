@@ -2,7 +2,7 @@
 
 Deploy and Host API Key Manager with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/api-key-manager)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/api-key-manager)
 
 ## About
 
@@ -49,4 +49,4 @@ API Key Manager requires PostgreSQL for data persistence and Redis for rate limi
 
 **Category:** Authentication · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/api-key-manager)
+[View on Railway →](https://railway.com/deploy/api-key-manager)

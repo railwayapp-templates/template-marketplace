@@ -2,7 +2,7 @@
 
 A local hosted web based PDF editor
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Rn4VSj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Rn4VSj)
 
 ## About
 
@@ -46,4 +46,4 @@ All files and PDFs exist either exclusively on the client side, reside in server
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/Rn4VSj)
+[View on Railway →](https://railway.com/deploy/Rn4VSj)

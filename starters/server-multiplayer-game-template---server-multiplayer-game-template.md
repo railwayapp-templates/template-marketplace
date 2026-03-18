@@ -2,7 +2,7 @@
 
 Deploy and Host server-multiplayer-game-template with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/server-multiplayer-game-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/server-multiplayer-game-template)
 
 ## About
 
@@ -31,4 +31,4 @@ This server template provides the backend for real-time multiplayer games with m
 
 **Category:** Starters · **Languages:** JavaScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/server-multiplayer-game-template)
+[View on Railway →](https://railway.com/deploy/server-multiplayer-game-template)

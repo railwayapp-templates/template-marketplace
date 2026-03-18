@@ -2,7 +2,7 @@
 
 Relational database server with persistent storage and TCP connectivity
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/microsoft-sql-server-2025)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/microsoft-sql-server-2025)
 
 ## About
 
@@ -47,4 +47,4 @@ You must also ensure that your deployment complies with the licensing terms of t
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/microsoft-sql-server-2025)
+[View on Railway →](https://railway.com/deploy/microsoft-sql-server-2025)

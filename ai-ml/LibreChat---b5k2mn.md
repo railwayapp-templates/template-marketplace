@@ -2,7 +2,7 @@
 
 Open-source ChatGPT clone: multi-model, agents, search, multi-user auth
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/b5k2mn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/b5k2mn)
 
 ## About
 
@@ -203,4 +203,4 @@ You’re one click away from running a complete, production-ready AI platform wi
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/b5k2mn)
+[View on Railway →](https://railway.com/deploy/b5k2mn)

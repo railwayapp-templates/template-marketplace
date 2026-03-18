@@ -2,7 +2,7 @@
 
 Full BunkerWeb AIO setup with CrowdSec enabled, pre-configured for Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bunkerweb-aio-with-crowdsec)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bunkerweb-aio-with-crowdsec)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting BunkerWeb AIO with CrowdSec involves deploying a containerized instance 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/bunkerweb-aio-with-crowdsec)
+[View on Railway →](https://railway.com/deploy/bunkerweb-aio-with-crowdsec)

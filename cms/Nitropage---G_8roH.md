@@ -2,7 +2,7 @@
 
 A self-hosted visual website builder and CMS.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/G_8roH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/G_8roH)
 
 ## About
 
@@ -42,4 +42,4 @@ https://nitropage.org
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/G_8roH)
+[View on Railway →](https://railway.com/deploy/G_8roH)

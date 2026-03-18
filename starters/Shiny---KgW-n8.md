@@ -2,7 +2,7 @@
 
 An example R Shiny application
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/KgW-n8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/KgW-n8)
 
 ## About
 
@@ -24,4 +24,4 @@ This template gives you boilerplate to go and deploy an R Shiny application. Dat
 
 **Category:** Starters · **Tags:** data, analytics, r
 
-[View on Railway →](https://railway.com/template/KgW-n8)
+[View on Railway →](https://railway.com/deploy/KgW-n8)

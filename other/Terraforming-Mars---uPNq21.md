@@ -2,7 +2,7 @@
 
 An open-source online implementation of the board game Terraforming Mars.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uPNq21)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uPNq21)
 
 ## About
 
@@ -26,4 +26,4 @@ The board game is great and this repository highly recommends purchasing it for 
 
 **Category:** Other · **Languages:** TypeScript, Vue, Less, HTML, JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/uPNq21)
+[View on Railway →](https://railway.com/deploy/uPNq21)

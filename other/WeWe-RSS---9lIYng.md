@@ -2,7 +2,7 @@
 
 🤗 更优雅的微信公众号订阅方式，支持私有化部署、微信公众号RSS生成
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/9lIYng)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9lIYng)
 
 ## About
 
@@ -45,4 +45,4 @@
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/9lIYng)
+[View on Railway →](https://railway.com/deploy/9lIYng)

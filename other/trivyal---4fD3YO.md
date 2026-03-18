@@ -2,7 +2,7 @@
 
 Create and play fun trivia games with friends!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4fD3YO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4fD3YO)
 
 ## About
 
@@ -69,4 +69,4 @@ Users can sign up for an account to be able to create games and host them, or ju
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/4fD3YO)
+[View on Railway →](https://railway.com/deploy/4fD3YO)

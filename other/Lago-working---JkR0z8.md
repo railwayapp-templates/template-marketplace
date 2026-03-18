@@ -2,7 +2,7 @@
 
 Open-source software for metering and usage-based billing.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JkR0z8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JkR0z8)
 
 ## About
 
@@ -68,4 +68,4 @@ After deployed, you can access the service through the frontend url (after creat
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/JkR0z8)
+[View on Railway →](https://railway.com/deploy/JkR0z8)

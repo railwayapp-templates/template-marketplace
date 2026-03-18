@@ -2,7 +2,7 @@
 
 [Mar '26] Ensure To Have >64GB Memory Available to Host Successfully
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gpt-oss-120b)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gpt-oss-120b)
 
 ## About
 
@@ -44,4 +44,4 @@ The setup includes persistent storage for models, so downloads only happen once,
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/gpt-oss-120b)
+[View on Railway →](https://railway.com/deploy/gpt-oss-120b)

@@ -2,7 +2,7 @@
 
 Minimal Caddy reverse proxy for backend services on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/caddy-backend-proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/caddy-backend-proxy)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting Caddy Backend Proxy on Railway is straightforward and requires minimal c
 
 **Category:** Starters · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/caddy-backend-proxy)
+[View on Railway →](https://railway.com/deploy/caddy-backend-proxy)

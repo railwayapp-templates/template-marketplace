@@ -2,7 +2,7 @@
 
 This is a Laravel blade starter app connected to a Railway MySQL database.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JL9ADu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JL9ADu)
 
 ## About
 
@@ -157,4 +157,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 **Category:** Starters · **Languages:** PHP, Blade, JavaScript
 
-[View on Railway →](https://railway.com/template/JL9ADu)
+[View on Railway →](https://railway.com/deploy/JL9ADu)

@@ -2,7 +2,7 @@
 
 Template for Chatwoot with WhatsApp, Email and Automation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/chatwoot-all-in-one-pgvector)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chatwoot-all-in-one-pgvector)
 
 ## About
 
@@ -45,4 +45,4 @@ Crucially, it provisions a **PostgreSQL database with the `pgvector` extension e
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/chatwoot-all-in-one-pgvector)
+[View on Railway →](https://railway.com/deploy/chatwoot-all-in-one-pgvector)

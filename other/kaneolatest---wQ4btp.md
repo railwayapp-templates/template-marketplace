@@ -2,7 +2,7 @@
 
 An open source project management platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wQ4btp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wQ4btp)
 
 ## About
 
@@ -45,4 +45,4 @@ An open source project management platform focused on simplicity and efficiency.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/wQ4btp)
+[View on Railway →](https://railway.com/deploy/wQ4btp)

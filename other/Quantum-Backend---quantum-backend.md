@@ -2,7 +2,7 @@
 
 Deploy and Host Quantum-Backend with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/quantum-backend)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/quantum-backend)
 
 ## About
 
@@ -39,4 +39,4 @@ An Amazon Analytics tool
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/quantum-backend)
+[View on Railway →](https://railway.com/deploy/quantum-backend)

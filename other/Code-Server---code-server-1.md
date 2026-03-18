@@ -2,7 +2,7 @@
 
 Code, test and deploy without leaving your browser !
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/code-server-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/code-server-1)
 
 ## About
 
@@ -47,4 +47,4 @@ All files and configurations persist between restarts, making it suitable for co
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/code-server-1)
+[View on Railway →](https://railway.com/deploy/code-server-1)

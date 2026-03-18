@@ -2,7 +2,7 @@
 
 Sync server of PenX  for cross device sync data
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/L-0Ee-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/L-0Ee-)
 
 ## About
 
@@ -33,4 +33,4 @@ Version control - GitHub-Based Version control Out-of-box
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/L-0Ee-)
+[View on Railway →](https://railway.com/deploy/L-0Ee-)

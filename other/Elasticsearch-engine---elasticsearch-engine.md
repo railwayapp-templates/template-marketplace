@@ -2,7 +2,7 @@
 
 Elasticsearch: Open source search & analytics for speed, scale, and AI.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/elasticsearch-engine)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/elasticsearch-engine)
 
 ## About
 
@@ -33,4 +33,4 @@ Deploying Elasticsearch requires careful configuration of JVM heap settings, per
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/elasticsearch-engine)
+[View on Railway →](https://railway.com/deploy/elasticsearch-engine)

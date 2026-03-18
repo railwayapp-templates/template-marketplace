@@ -2,7 +2,7 @@
 
 Message broker with management dashboard, persistent storage, and AMQP.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rabbitmq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rabbitmq)
 
 ## About
 
@@ -25,4 +25,4 @@ Hosting RabbitMQ requires a persistent server to maintain message durability and
 
 **Category:** Queues · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/rabbitmq)
+[View on Railway →](https://railway.com/deploy/rabbitmq)

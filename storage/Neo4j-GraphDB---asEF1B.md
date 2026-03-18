@@ -2,7 +2,7 @@
 
 Deploy a fully managed Neo4j instance on Railway with ease.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/asEF1B)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/asEF1B)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting Neo4j GraphDB involves setting up a graph database server with proper me
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/asEF1B)
+[View on Railway →](https://railway.com/deploy/asEF1B)

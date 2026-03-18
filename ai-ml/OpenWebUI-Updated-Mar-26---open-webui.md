@@ -2,7 +2,7 @@
 
 OpenWebUI [Mar ’26] (Chat with Local or Remote AI Models) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-webui)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-webui)
 
 ## About
 
@@ -30,4 +30,4 @@ Self-hosting OpenWebUI on Railway gives you the power to run AI interfaces your 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/open-webui)
+[View on Railway →](https://railway.com/deploy/open-webui)

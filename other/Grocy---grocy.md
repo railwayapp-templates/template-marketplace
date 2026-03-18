@@ -2,7 +2,7 @@
 
 The Open-Source Self-Hosted Grocery & Household Management Solution
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/grocy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/grocy)
 
 ## About
 
@@ -32,4 +32,4 @@ This specific template includes a custom patch to handle DNS resolution. It auto
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/grocy)
+[View on Railway →](https://railway.com/deploy/grocy)

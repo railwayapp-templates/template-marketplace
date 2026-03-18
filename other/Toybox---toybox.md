@@ -2,7 +2,7 @@
 
 Toybox is a BSD-licensed collection of Linux command-line utilities
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/toybox)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/toybox)
 
 ## About
 
@@ -22,4 +22,4 @@ Deploy Toybox on Railway for a minimal shell environment accessible via SSH. Use
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/toybox)
+[View on Railway →](https://railway.com/deploy/toybox)

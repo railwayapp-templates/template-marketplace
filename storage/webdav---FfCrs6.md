@@ -2,7 +2,7 @@
 
 A single user WebDAV server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FfCrs6)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FfCrs6)
 
 ## About
 
@@ -37,4 +37,4 @@ Password: The PASSWORD environment variable you set
 
 **Category:** Storage · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/FfCrs6)
+[View on Railway →](https://railway.com/deploy/FfCrs6)

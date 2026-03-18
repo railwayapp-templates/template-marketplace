@@ -2,7 +2,7 @@
 
 Documenso [Mar ’26] (E-Sign & Manage Documents Securely) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/documenso)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/documenso)
 
 ## About
 
@@ -53,4 +53,4 @@ Self-hosting Documenso on Railway gives you:
 
 **Category:** Automation · **Languages:** TypeScript, JavaScript, Shell, CSS, PLpgSQL, Dockerfile
 
-[View on Railway →](https://railway.com/template/documenso)
+[View on Railway →](https://railway.com/deploy/documenso)

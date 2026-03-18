@@ -2,7 +2,7 @@
 
 Agents that monitor and act on your behalf. Your agents are standing by!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/YeKqIX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/YeKqIX)
 
 ## About
 
@@ -39,4 +39,4 @@ You can leave all env variables as is.
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/YeKqIX)
+[View on Railway →](https://railway.com/deploy/YeKqIX)

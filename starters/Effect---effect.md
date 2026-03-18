@@ -2,7 +2,7 @@
 
 A starter TypeScript Effect application.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/effect)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/effect)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting Effect involves deploying your application on a cloud platform, ensuring
 
 **Category:** Starters · **Languages:** JavaScript, TypeScript
 
-[View on Railway →](https://railway.com/template/effect)
+[View on Railway →](https://railway.com/deploy/effect)

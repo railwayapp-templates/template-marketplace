@@ -2,7 +2,7 @@
 
 AliasVault is a privacy-first password manager with built-in email aliasing
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aliasvault-railway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aliasvault-railway)
 
 ## About
 
@@ -32,4 +32,4 @@ This Railway template uses the official `ghcr.io/aliasvault/aliasvault:latest` a
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/aliasvault-railway)
+[View on Railway →](https://railway.com/deploy/aliasvault-railway)

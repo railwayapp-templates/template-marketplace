@@ -2,7 +2,7 @@
 
 aitekflow is a app builder
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/f53xGc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/f53xGc)
 
 ## About
 
@@ -22,4 +22,4 @@ AitekFlow App Builder is a no-code platform designed to empower users to create 
 
 **Category:** Automation · **Languages:** JavaScript, CSS, Dockerfile, HTML, Shell, HCL
 
-[View on Railway →](https://railway.com/template/f53xGc)
+[View on Railway →](https://railway.com/deploy/f53xGc)

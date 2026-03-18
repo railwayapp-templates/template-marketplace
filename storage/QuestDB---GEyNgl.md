@@ -2,7 +2,7 @@
 
 QuestDB is the world's fastest growing open-source time-series database.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GEyNgl)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GEyNgl)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting QuestDB provides a high-performance time-series database solution optimi
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/GEyNgl)
+[View on Railway →](https://railway.com/deploy/GEyNgl)

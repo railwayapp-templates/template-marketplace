@@ -2,7 +2,7 @@
 
 n8n [Mar '26] (Workflows/Integrations/API Automation/AI Coding) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n)
 
 ## About
 
@@ -44,4 +44,4 @@ The core platform is free under a fair-code n8n license, giving you the flexibil
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/n8n)
+[View on Railway →](https://railway.com/deploy/n8n)

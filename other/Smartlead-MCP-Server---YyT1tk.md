@@ -2,7 +2,7 @@
 
 Give your AI agents access to your Smartlead. Create campaigns and more!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/YyT1tk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/YyT1tk)
 
 ## About
 
@@ -152,4 +152,4 @@ REPO: https://github.com/jacob-dietle/smartlead-mcp-server-sse
 
 **Category:** Other · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/YyT1tk)
+[View on Railway →](https://railway.com/deploy/YyT1tk)

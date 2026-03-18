@@ -2,7 +2,7 @@
 
 AirTrail (Track App Events & Audit Changes) Self Host [Mar ’26]
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/airtrail)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/airtrail)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting AirTrail on **Railway** ensures that all your flight data, maps, and con
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/airtrail)
+[View on Railway →](https://railway.com/deploy/airtrail)

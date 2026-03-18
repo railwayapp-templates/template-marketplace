@@ -2,7 +2,7 @@
 
 The simplest way to build internal tools without building UIs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tFqAVW)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tFqAVW)
 
 ## About
 
@@ -63,4 +63,4 @@ As Railway charges per usage it highly depends on your traffic, for me it costs 
 
 **Category:** Other · **Languages:** TypeScript, SCSS, JavaScript, CSS, Handlebars, Shell, HTML, PLpgSQL, Dockerfile
 
-[View on Railway →](https://railway.com/template/tFqAVW)
+[View on Railway →](https://railway.com/deploy/tFqAVW)

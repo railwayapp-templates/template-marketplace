@@ -2,7 +2,7 @@
 
 Node/Express server to generate a Video SDK JWT for Zoom Video SDK
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dO2hTU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dO2hTU)
 
 ## About
 
@@ -145,4 +145,4 @@ source: https://github.com/zoom/videosdk-auth-endpoint-sample
 
 **Category:** Other · **Languages:** JavaScript, Shell
 
-[View on Railway →](https://railway.com/template/dO2hTU)
+[View on Railway →](https://railway.com/deploy/dO2hTU)

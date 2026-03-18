@@ -2,7 +2,7 @@
 
 Collaborative wiki and documentation. Alternative to Notion & Confluence. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/W4t6Ei)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/W4t6Ei)
 
 ## About
 
@@ -63,4 +63,4 @@ The Docmost container connects to the Redis instance through the public URL. Con
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/W4t6Ei)
+[View on Railway →](https://railway.com/deploy/W4t6Ei)

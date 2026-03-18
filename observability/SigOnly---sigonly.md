@@ -2,7 +2,7 @@
 
 Deploy SigNoz with a working demo app & config in one click
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sigonly)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sigonly)
 
 ## About
 
@@ -86,4 +86,4 @@ The Railway template automatically sets up these services with the necessary env
 
 **Category:** Observability · **Languages:** Kotlin
 
-[View on Railway →](https://railway.com/template/sigonly)
+[View on Railway →](https://railway.com/deploy/sigonly)

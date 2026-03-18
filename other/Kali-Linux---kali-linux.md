@@ -2,7 +2,7 @@
 
 Kali Linux rolling Docker image for penetration testing and security labs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kali-linux)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kali-linux)
 
 ## About
 
@@ -39,4 +39,4 @@ apt update && apt -y install kali-linux-headless
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/kali-linux)
+[View on Railway →](https://railway.com/deploy/kali-linux)

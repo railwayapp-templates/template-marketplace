@@ -2,7 +2,7 @@
 
 Open-source analytics platform for web and mobile apps
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openpanel-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openpanel-1)
 
 ## About
 
@@ -77,4 +77,4 @@ A Caddy reverse proxy is included so the dashboard and API are served from a sin
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/openpanel-1)
+[View on Railway →](https://railway.com/deploy/openpanel-1)

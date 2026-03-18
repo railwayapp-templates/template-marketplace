@@ -2,7 +2,7 @@
 
 A simple utility to backup Postgres databases to S3 using Bun.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgresql-s3-backups)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresql-s3-backups)
 
 ## About
 
@@ -36,4 +36,4 @@ PostgreSQL S3 Backups runs as a Bun application that executes `pg_dump` operatio
 
 **Category:** Automation · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/postgresql-s3-backups)
+[View on Railway →](https://railway.com/deploy/postgresql-s3-backups)

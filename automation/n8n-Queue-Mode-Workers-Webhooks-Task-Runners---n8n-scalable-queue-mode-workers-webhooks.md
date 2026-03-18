@@ -2,7 +2,7 @@
 
 Production-ready n8n with Redis queue, workers, webhooks, and task runners
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-scalable-queue-mode-workers-webhooks)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-scalable-queue-mode-workers-webhooks)
 
 ## About
 
@@ -129,4 +129,4 @@ Running n8n on Railway allows you to leverage managed infrastructure, automatic 
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-scalable-queue-mode-workers-webhooks)
+[View on Railway →](https://railway.com/deploy/n8n-scalable-queue-mode-workers-webhooks)

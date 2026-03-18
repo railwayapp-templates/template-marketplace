@@ -2,7 +2,7 @@
 
 Zitadel on Railway with PostgreSQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Msn-6E)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Msn-6E)
 
 ## About
 
@@ -58,4 +58,4 @@ Zitadel on Railway with PostgreSQL
 
 **Category:** Authentication · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/Msn-6E)
+[View on Railway →](https://railway.com/deploy/Msn-6E)

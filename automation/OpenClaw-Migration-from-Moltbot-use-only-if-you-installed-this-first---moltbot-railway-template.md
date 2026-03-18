@@ -2,7 +2,7 @@
 
 (Use this instead  https://railway.com/deploy/openclaw-railway-template)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/moltbot-railway-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/moltbot-railway-template)
 
 ## About
 
@@ -45,4 +45,4 @@ This template wraps OpenClaw with a Node.js server providing complete lifecycle 
 
 **Category:** Automation · **Languages:** JavaScript, HTML, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/moltbot-railway-template)
+[View on Railway →](https://railway.com/deploy/moltbot-railway-template)

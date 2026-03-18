@@ -2,7 +2,7 @@
 
 A Privacy First PDF Toolkit | StirlingPDF alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bentopdf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bentopdf)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting BentoPDF involves deploying a modern web application that leverages fron
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/bentopdf)
+[View on Railway →](https://railway.com/deploy/bentopdf)

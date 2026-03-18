@@ -2,7 +2,7 @@
 
 Open platform to collect and prioritize feedback
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/21E4xW)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/21E4xW)
 
 ## About
 
@@ -68,4 +68,4 @@ Open platform to collect and prioritize feedback
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/21E4xW)
+[View on Railway →](https://railway.com/deploy/21E4xW)

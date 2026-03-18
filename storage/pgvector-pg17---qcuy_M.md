@@ -2,7 +2,7 @@
 
 PostgreSQL 17 with powerful vector search support.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qcuy_M)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qcuy_M)
 
 ## About
 
@@ -81,4 +81,4 @@ For more details on PGVector, visit the official GitHub repository: https://gith
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/qcuy_M)
+[View on Railway →](https://railway.com/deploy/qcuy_M)

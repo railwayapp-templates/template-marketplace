@@ -2,7 +2,7 @@
 
 A starter template to deploy a slash-create server.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GL2qbv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GL2qbv)
 
 ## About
 
@@ -41,4 +41,4 @@ A starter template to deploy a slash-create server.
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/GL2qbv)
+[View on Railway →](https://railway.com/deploy/GL2qbv)

@@ -2,7 +2,7 @@
 
 The open-source web application to draw mind maps together.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/SXkslC)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/SXkslC)
 
 ## About
 
@@ -66,4 +66,4 @@ Mind maps are particularly effective to learn or organize ideas, for example in 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/SXkslC)
+[View on Railway →](https://railway.com/deploy/SXkslC)

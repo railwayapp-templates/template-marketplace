@@ -2,7 +2,7 @@
 
 Deploy and Host skillful-energy with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/skillful-energy-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/skillful-energy-1)
 
 ## About
 
@@ -18,4 +18,4 @@ Not much!
 
 **Category:** Other · **Languages:** HTML, Java, CSS
 
-[View on Railway →](https://railway.com/template/skillful-energy-1)
+[View on Railway →](https://railway.com/deploy/skillful-energy-1)

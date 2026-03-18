@@ -2,7 +2,7 @@
 
 Self-host Open-source workflow automation: 400+ integrations, AI agent
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-production-stack)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-production-stack)
 
 ## About
 
@@ -131,4 +131,4 @@ The main instance never executes workflows itself — it only manages the UI and
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-production-stack)
+[View on Railway →](https://railway.com/deploy/n8n-production-stack)

@@ -2,7 +2,7 @@
 
 Super simple group chat, without a subscription.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/campfire)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/campfire)
 
 ## About
 
@@ -36,4 +36,4 @@ Campfire is a Ruby on Rails application that uses SQLite to store its data, so y
 
 **Category:** Other · **Languages:** Ruby, HTML, JavaScript, CSS, Shell, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/campfire)
+[View on Railway →](https://railway.com/deploy/campfire)

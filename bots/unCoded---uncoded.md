@@ -2,7 +2,7 @@
 
 Start unCoded TradingBot on railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uncoded)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uncoded)
 
 ## About
 
@@ -112,4 +112,4 @@ Set Usage Limit to 100$ for Safety in Railway
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/uncoded)
+[View on Railway →](https://railway.com/deploy/uncoded)

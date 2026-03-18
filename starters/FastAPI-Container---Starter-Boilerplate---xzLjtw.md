@@ -2,7 +2,7 @@
 
 FastAPI and Dockerfile Boilerplate optimized for Railway Deployments
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xzLjtw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xzLjtw)
 
 ## About
 
@@ -33,4 +33,4 @@ Template: https://fastapicontainer.com
 
 **Category:** Starters · **Languages:** Dockerfile, Python
 
-[View on Railway →](https://railway.com/template/xzLjtw)
+[View on Railway →](https://railway.com/deploy/xzLjtw)

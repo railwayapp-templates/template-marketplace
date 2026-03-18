@@ -2,7 +2,7 @@
 
 An example Backstage application
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/backstage)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/backstage)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting Backstage involves deploying a multi-layered application consisting of a
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/backstage)
+[View on Railway →](https://railway.com/deploy/backstage)

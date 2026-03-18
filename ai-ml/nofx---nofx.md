@@ -2,7 +2,7 @@
 
 AI-Powered Trading Platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nofx)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nofx)
 
 ## About
 
@@ -57,4 +57,4 @@ Deploy NOFX - an open-source AI trading platform that lets you run multiple AI m
 
 **Category:** AI/ML · **Languages:** Go, TypeScript, Shell, CSS, JavaScript, Makefile, HTML
 
-[View on Railway →](https://railway.com/template/nofx)
+[View on Railway →](https://railway.com/deploy/nofx)

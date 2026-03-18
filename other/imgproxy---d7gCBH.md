@@ -2,7 +2,7 @@
 
 Fast and secure standalone server for resizing and converting remote images
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/d7gCBH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/d7gCBH)
 
 ## About
 
@@ -63,4 +63,4 @@ imgproxy is distributed with the [MIT License](https://github.com/imgproxy/imgpr
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/d7gCBH)
+[View on Railway →](https://railway.com/deploy/d7gCBH)

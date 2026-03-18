@@ -2,7 +2,7 @@
 
 Self-hosted file-sharing platform with Laravel & Vue.js for file transfers.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/erugo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/erugo)
 
 ## About
 
@@ -46,4 +46,4 @@ Erugo is a self-hosted file-sharing platform built with Laravel (PHP) and Vue.js
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/erugo)
+[View on Railway →](https://railway.com/deploy/erugo)

@@ -2,7 +2,7 @@
 
 [Updated Mar '26] Host Latest Version of Abacus on Railway with one click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/abacus)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/abacus)
 
 ## About
 
@@ -42,4 +42,4 @@ Hosting Abacus on Railway enables developers to quickly launch their own real-ti
 
 **Category:** Other · **Languages:** Go, JavaScript, Dockerfile, Python
 
-[View on Railway →](https://railway.com/template/abacus)
+[View on Railway →](https://railway.com/deploy/abacus)

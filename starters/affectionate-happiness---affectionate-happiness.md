@@ -2,7 +2,7 @@
 
 TanStack Start with MongoDB
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/affectionate-happiness)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/affectionate-happiness)
 
 ## About
 
@@ -42,4 +42,4 @@ You'll need to clone the repository and then deploy it to Railway.
 
 **Category:** Starters · **Languages:** TypeScript, CSS
 
-[View on Railway →](https://railway.com/template/affectionate-happiness)
+[View on Railway →](https://railway.com/deploy/affectionate-happiness)

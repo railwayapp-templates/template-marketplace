@@ -2,7 +2,7 @@
 
 Test internal-only apps and APIs for performance and reliability.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/checkly)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/checkly)
 
 ## About
 
@@ -34,4 +34,4 @@ Please read Checkly's [getting started](https://www.checklyhq.com/docs/private-l
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/checkly)
+[View on Railway →](https://railway.com/deploy/checkly)

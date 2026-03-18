@@ -2,7 +2,7 @@
 
 Llana [Mar ’26] (Run, Chain & Manage AI Models Easily) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/llana)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/llana)
 
 ## About
 
@@ -42,4 +42,4 @@ You can self-host Llana on Railway to run your own AI orchestration infrastructu
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/llana)
+[View on Railway →](https://railway.com/deploy/llana)

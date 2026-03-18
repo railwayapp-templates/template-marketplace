@@ -2,7 +2,7 @@
 
 The power of centralized access
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FwxPvi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FwxPvi)
 
 ## About
 
@@ -38,4 +38,4 @@ Using the image built and provided by Rocker Project, RStudio Server by Posit en
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/FwxPvi)
+[View on Railway →](https://railway.com/deploy/FwxPvi)

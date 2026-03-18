@@ -2,7 +2,7 @@
 
 A stunning and user-friendly photo management system
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lychee)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lychee)
 
 ## About
 
@@ -46,4 +46,4 @@ All the files you upload (as well as the configs) are persistent and stored in t
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/lychee)
+[View on Railway →](https://railway.com/deploy/lychee)

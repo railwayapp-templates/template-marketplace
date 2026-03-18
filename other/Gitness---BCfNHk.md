@@ -2,7 +2,7 @@
 
 Lightweight, fast code hosting and CI service (powered by Drone)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BCfNHk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BCfNHk)
 
 ## About
 
@@ -51,4 +51,4 @@ Gitness is building on top of Drone to create a new, open source developer platf
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/BCfNHk)
+[View on Railway →](https://railway.com/deploy/BCfNHk)

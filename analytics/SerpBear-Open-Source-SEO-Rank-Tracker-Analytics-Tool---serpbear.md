@@ -2,7 +2,7 @@
 
 SerpBear [Mar ’26] (Track Keyword Rankings & SERP Changes) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/serpbear)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/serpbear)
 
 ## About
 
@@ -36,4 +36,4 @@ Self-hosting SerpBear on Railway provides you with complete control over your SE
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/serpbear)
+[View on Railway →](https://railway.com/deploy/serpbear)

@@ -2,7 +2,7 @@
 
 LobeChat, GitHub-based auth, ChatGPT, GPT-4, Bing, Anthropic, DALL-E-3
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/XJrbIL)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/XJrbIL)
 
 ## About
 
@@ -70,4 +70,4 @@ LobeChat is an open-source, AI-powered chatbot platform designed for seamless an
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/XJrbIL)
+[View on Railway →](https://railway.com/deploy/XJrbIL)

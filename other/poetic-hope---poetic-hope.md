@@ -2,7 +2,7 @@
 
 Deploy and Host poetic-hope with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/poetic-hope)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/poetic-hope)
 
 ## About
 
@@ -21,4 +21,4 @@ You don’t need to manage servers, Nginx, or Docker manually — Railway takes 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/poetic-hope)
+[View on Railway →](https://railway.com/deploy/poetic-hope)

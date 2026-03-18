@@ -2,7 +2,7 @@
 
 Deploy and Host 1Password Connect API and Server with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1password-connect-api-and-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1password-connect-api-and-server)
 
 ## About
 
@@ -44,4 +44,4 @@ cat 1password-credentials.json | base64 | tr '/+' '_-' | tr -d '=' | tr -d '\n'
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/1password-connect-api-and-server)
+[View on Railway →](https://railway.com/deploy/1password-connect-api-and-server)

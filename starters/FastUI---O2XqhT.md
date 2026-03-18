@@ -2,7 +2,7 @@
 
 A minimal python FastAPI server with a declarative frontend
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/O2XqhT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/O2XqhT)
 
 ## About
 
@@ -29,4 +29,4 @@ Learn more:
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/O2XqhT)
+[View on Railway →](https://railway.com/deploy/O2XqhT)

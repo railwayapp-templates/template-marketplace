@@ -2,7 +2,7 @@
 
 AI powered Therapy with AI-Human Therapist
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/innerlink-nextjs-better-auth-postgres)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/innerlink-nextjs-better-auth-postgres)
 
 ## About
 
@@ -61,4 +61,4 @@ This template is optimized for **Railway deployment** with one-click setup inclu
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/innerlink-nextjs-better-auth-postgres)
+[View on Railway →](https://railway.com/deploy/innerlink-nextjs-better-auth-postgres)

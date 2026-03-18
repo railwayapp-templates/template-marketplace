@@ -2,7 +2,7 @@
 
 Alert manager that routes incidents to Slack, email, and more.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-k85cF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-k85cF)
 
 ## About
 
@@ -87,4 +87,4 @@ Learn more at: [https://github.com/VersusControl/versus-incident](https://github
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/-k85cF)
+[View on Railway →](https://railway.com/deploy/-k85cF)

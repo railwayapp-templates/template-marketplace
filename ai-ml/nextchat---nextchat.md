@@ -2,7 +2,7 @@
 
 ✨ Light and Fast AI Assistant template for Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextchat)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextchat)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting NextChat gives you complete control over your AI interactions. The appli
 
 **Category:** AI/ML · **Languages:** TypeScript, SCSS, JavaScript, Rust, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/nextchat)
+[View on Railway →](https://railway.com/deploy/nextchat)

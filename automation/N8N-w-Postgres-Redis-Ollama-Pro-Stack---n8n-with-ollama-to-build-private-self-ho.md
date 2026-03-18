@@ -2,7 +2,7 @@
 
 [Mar '26] Build Automation Workflows Using Self Hosted LLM Models
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-with-ollama-to-build-private-self-ho)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-with-ollama-to-build-private-self-ho)
 
 ## About
 
@@ -109,4 +109,4 @@ The result is a fully private, self-hosted AI automation platform where all infe
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-with-ollama-to-build-private-self-ho)
+[View on Railway →](https://railway.com/deploy/n8n-with-ollama-to-build-private-self-ho)

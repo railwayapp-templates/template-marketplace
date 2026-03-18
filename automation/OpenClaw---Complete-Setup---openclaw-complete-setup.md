@@ -2,7 +2,7 @@
 
 24/7 Personal AI Agent. Graphical Setup + TUI Support + Pairing Support. 🚀
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-complete-setup)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-complete-setup)
 
 ## About
 
@@ -40,4 +40,4 @@ This template wraps OpenClaw with a Node.js management layer, providing a comple
 
 **Category:** Automation · **Languages:** HTML, JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/openclaw-complete-setup)
+[View on Railway →](https://railway.com/deploy/openclaw-complete-setup)

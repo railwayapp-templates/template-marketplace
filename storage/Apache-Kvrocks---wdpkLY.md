@@ -2,7 +2,7 @@
 
 A drop-in replacement for Redis to store data on a volume.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wdpkLY)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wdpkLY)
 
 ## About
 
@@ -33,4 +33,4 @@ Reference the `KVROCKS_PRIVATE_URL` variable from your service to connect to Kvr
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/wdpkLY)
+[View on Railway →](https://railway.com/deploy/wdpkLY)

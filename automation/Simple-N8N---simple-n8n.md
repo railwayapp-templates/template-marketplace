@@ -2,7 +2,7 @@
 
 N8N (self-hosted), PostgreSQL, simple and fast. [Updated 2026]
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/simple-n8n)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/simple-n8n)
 
 ## What gets deployed
 
@@ -41,4 +41,4 @@ N8N (self-hosted), PostgreSQL, simple and fast. [Updated 2026]
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/simple-n8n)
+[View on Railway →](https://railway.com/deploy/simple-n8n)

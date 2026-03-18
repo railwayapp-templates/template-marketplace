@@ -2,7 +2,7 @@
 
 Temporal with S3 archive.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aWCIba)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aWCIba)
 
 ## About
 
@@ -48,4 +48,4 @@ Integrate Temporal with S3 for seamless workflow execution and durable archiving
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/aWCIba)
+[View on Railway →](https://railway.com/deploy/aWCIba)

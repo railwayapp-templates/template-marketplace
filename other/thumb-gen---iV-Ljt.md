@@ -2,7 +2,7 @@
 
 🎨 Free online thumbnail generator for videos, Lottie, images & text. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/iV-Ljt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/iV-Ljt)
 
 ## About
 
@@ -361,4 +361,4 @@ If you found ThumbGen helpful, please:
 
 **Category:** Other · **Languages:** Vue, TypeScript, CSS, HTML, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/iV-Ljt)
+[View on Railway →](https://railway.com/deploy/iV-Ljt)

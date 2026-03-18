@@ -2,7 +2,7 @@
 
 Powerful and Extensible Open Source Wiki Software
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1ASvMI)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1ASvMI)
 
 ## About
 
@@ -58,4 +58,4 @@ _The most powerful and extensible open source Wiki software. Make documentation 
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/1ASvMI)
+[View on Railway →](https://railway.com/deploy/1ASvMI)

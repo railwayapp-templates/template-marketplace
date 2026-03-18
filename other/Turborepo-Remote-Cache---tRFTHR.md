@@ -2,7 +2,7 @@
 
 Open source implementation of the Turborepo custom remote cache server.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tRFTHR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tRFTHR)
 
 ## About
 
@@ -93,4 +93,4 @@ Join Railway's [Discord community](https://discord.gg/railway) for additional su
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tRFTHR)
+[View on Railway →](https://railway.com/deploy/tRFTHR)

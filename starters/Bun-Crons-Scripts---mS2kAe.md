@@ -2,7 +2,7 @@
 
 A simple setup for running Bun crons or scripts.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mS2kAe)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mS2kAe)
 
 ## About
 
@@ -26,4 +26,4 @@ set your cron schedule in the service settings, and you're off to the races.
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/mS2kAe)
+[View on Railway →](https://railway.com/deploy/mS2kAe)

@@ -2,7 +2,7 @@
 
 Deploy and Host devjournal with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/devjournal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/devjournal)
 
 ## About
 
@@ -59,4 +59,4 @@ Railway’s developer-friendly workflow aligns well with devjournal’s educatio
 
 **Category:** Other · **Languages:** TypeScript, Go, SCSS, HTML, Shell, JavaScript, PLpgSQL
 
-[View on Railway →](https://railway.com/template/devjournal)
+[View on Railway →](https://railway.com/deploy/devjournal)

@@ -2,7 +2,7 @@
 
 A n8n ready to production multi worker in 1 click
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-ready-production)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-ready-production)
 
 ## About
 
@@ -93,4 +93,4 @@ This production configuration is suitable for teams, SaaS integrations, or inter
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-ready-production)
+[View on Railway →](https://railway.com/deploy/n8n-ready-production)

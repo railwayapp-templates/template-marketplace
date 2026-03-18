@@ -2,7 +2,7 @@
 
 Chat-based SQL Client and Editor for the next decade
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/KsHjEY)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/KsHjEY)
 
 ## About
 
@@ -109,4 +109,4 @@ docker run --name sqlchat --platform linux/amd64 --env NEXTAUTH_SECRET="$(openss
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/KsHjEY)
+[View on Railway →](https://railway.com/deploy/KsHjEY)

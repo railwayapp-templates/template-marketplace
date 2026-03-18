@@ -2,7 +2,7 @@
 
 A Blazing Fast AI Gateway. Route to 100+ LLMs with 1 fast & friendly API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jOsex-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jOsex-)
 
 ## About
 
@@ -52,4 +52,4 @@ Gateway streamlines requests to 100+ open & closed source models with a unified 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/jOsex-)
+[View on Railway →](https://railway.com/deploy/jOsex-)

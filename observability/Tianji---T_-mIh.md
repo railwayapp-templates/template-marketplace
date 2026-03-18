@@ -2,7 +2,7 @@
 
 Website Analytics + Uptime Monitor + Server Status
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/T_-mIh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/T_-mIh)
 
 ## About
 
@@ -42,4 +42,4 @@ Traditional monitoring setups often require juggling multiple specialized tools:
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/T_-mIh)
+[View on Railway →](https://railway.com/deploy/T_-mIh)

@@ -2,7 +2,7 @@
 
 ChatGPT on open-webui -minimal and easy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/U-DJZB)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/U-DJZB)
 
 ## About
 
@@ -27,4 +27,4 @@ ChatGPT on OpenWebUI offers a seamless experience through the OpenAI API. Its mi
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/U-DJZB)
+[View on Railway →](https://railway.com/deploy/U-DJZB)

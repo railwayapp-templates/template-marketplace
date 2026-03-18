@@ -2,7 +2,7 @@
 
   Rust (Axum) + Next.js monorepo with PostgreSQL and type-safe API SDK
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rust-react-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rust-react-starter)
 
 ## About
 
@@ -121,4 +121,4 @@ https://github.com/trevor-trinh/rust-react-starter
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/rust-react-starter)
+[View on Railway →](https://railway.com/deploy/rust-react-starter)

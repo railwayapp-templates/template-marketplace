@@ -2,7 +2,7 @@
 
 The default Vite + React starter, with Caddy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NeiLty)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NeiLty)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting a Vite + React application gives you access to a modern frontend develop
 
 **Category:** Starters · **Languages:** JavaScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/NeiLty)
+[View on Railway →](https://railway.com/deploy/NeiLty)

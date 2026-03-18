@@ -2,7 +2,7 @@
 
 Kodus AI self-hosted on Railway with API, Web, Worker, and webhooks.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kodus-selfhosted)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kodus-selfhosted)
 
 ## About
 
@@ -184,4 +184,4 @@ kodus-selfhosted is the self-hosted version of Kodus AI, an automated code revie
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/kodus-selfhosted)
+[View on Railway →](https://railway.com/deploy/kodus-selfhosted)

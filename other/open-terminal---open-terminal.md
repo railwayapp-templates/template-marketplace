@@ -2,7 +2,7 @@
 
 A computer you can curl ⚡
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-terminal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-terminal)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting open-terminal on Railway means deploying the official container image as
 
 **Category:** Other · **Languages:** Python, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/open-terminal)
+[View on Railway →](https://railway.com/deploy/open-terminal)

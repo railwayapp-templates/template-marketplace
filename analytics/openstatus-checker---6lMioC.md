@@ -2,7 +2,7 @@
 
 The checker service to ping external service.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6lMioC)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6lMioC)
 
 ## About
 
@@ -20,4 +20,4 @@ The OpenStatus Checker is a lightweight service designed to monitor the availabi
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/6lMioC)
+[View on Railway →](https://railway.com/deploy/6lMioC)

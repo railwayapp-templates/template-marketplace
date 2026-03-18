@@ -2,7 +2,7 @@
 
 Deploy and Host Next.js MongoDB SaaS with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-mongodb-saas)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-mongodb-saas)
 
 ## About
 
@@ -51,4 +51,4 @@ Hosting this kit on Railway is a true **one-click experience**. The template aut
 
 **Category:** Starters · **Languages:** Shell, Dockerfile, TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/nextjs-mongodb-saas)
+[View on Railway →](https://railway.com/deploy/nextjs-mongodb-saas)

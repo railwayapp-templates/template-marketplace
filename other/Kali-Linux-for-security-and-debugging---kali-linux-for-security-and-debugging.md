@@ -2,7 +2,7 @@
 
 Kali Linux with 600+ security tools on Railway. Ready to deploy.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kali-linux-for-security-and-debugging)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kali-linux-for-security-and-debugging)
 
 ## About
 
@@ -18,4 +18,4 @@ Deploying Kali Linux on Railway gives you a persistent security-focused Linux en
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/kali-linux-for-security-and-debugging)
+[View on Railway →](https://railway.com/deploy/kali-linux-for-security-and-debugging)

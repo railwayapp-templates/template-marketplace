@@ -2,7 +2,7 @@
 
 Node-RED with Model Context Protocol (MCP)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/node-red-mcp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/node-red-mcp)
 
 ## About
 
@@ -33,4 +33,4 @@ This will allow Node-RED to communicate with the backend and execute AI prompts 
 
 **Category:** AI/ML · **Languages:** JavaScript, HTML, TypeScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/node-red-mcp)
+[View on Railway →](https://railway.com/deploy/node-red-mcp)

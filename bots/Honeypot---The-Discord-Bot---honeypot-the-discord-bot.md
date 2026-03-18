@@ -2,7 +2,7 @@
 
 An anti-spam discord bot that helps you deal with server spammers!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/honeypot-the-discord-bot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/honeypot-the-discord-bot)
 
 ## About
 
@@ -53,4 +53,4 @@ You can view the full guide to using the bot on our website, at https://honeypot
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/honeypot-the-discord-bot)
+[View on Railway →](https://railway.com/deploy/honeypot-the-discord-bot)

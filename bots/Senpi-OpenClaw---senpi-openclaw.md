@@ -2,7 +2,7 @@
 
 One-click Hyperliquid AI trading agent with 31 tools—live in 2 minutes.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/senpi-openclaw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/senpi-openclaw)
 
 ## About
 
@@ -45,4 +45,4 @@ This isn’t a bot. It’s a learning co-pilot with memory that adapts to how yo
 
 **Category:** Bots · **Languages:** JavaScript, Dockerfile, HTML, CSS
 
-[View on Railway →](https://railway.com/template/senpi-openclaw)
+[View on Railway →](https://railway.com/deploy/senpi-openclaw)

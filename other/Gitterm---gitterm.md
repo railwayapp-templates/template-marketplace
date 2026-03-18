@@ -2,7 +2,7 @@
 
 Run Opencode Anytime, Anywhere, on Any Cloud
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gitterm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gitterm)
 
 ## About
 
@@ -120,4 +120,4 @@ On startup, the server automatically:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/gitterm)
+[View on Railway →](https://railway.com/deploy/gitterm)

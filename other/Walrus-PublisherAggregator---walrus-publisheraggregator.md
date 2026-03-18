@@ -2,7 +2,7 @@
 
 Template to run your own Walrus Publisher and/or Aggregator
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/walrus-publisheraggregator)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/walrus-publisheraggregator)
 
 ## About
 
@@ -54,4 +54,4 @@ Hosting Walrus services involves running HTTP endpoints that interact with the W
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/walrus-publisheraggregator)
+[View on Railway →](https://railway.com/deploy/walrus-publisheraggregator)

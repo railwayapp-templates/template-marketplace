@@ -2,7 +2,7 @@
 
 ZenML [Mar ’26] (ML Pipelines, MLflow & Airflow alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zenml)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zenml)
 
 ## About
 
@@ -44,4 +44,4 @@ ZenML self-hosting allows you to:
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/zenml)
+[View on Railway →](https://railway.com/deploy/zenml)

@@ -2,7 +2,7 @@
 
 Deploy and Host Postgres + PgBouncer + PgAdmin with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgres-pgbouncer-pgadmin)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-pgbouncer-pgadmin)
 
 ## About
 
@@ -56,4 +56,4 @@ Deploying this trio involves orchestrating three distinct services to work in ha
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/postgres-pgbouncer-pgadmin)
+[View on Railway →](https://railway.com/deploy/postgres-pgbouncer-pgadmin)

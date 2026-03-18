@@ -2,7 +2,7 @@
 
 A Lightweight, Production-Ready Remix Stack for your next SaaS Application.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Bw4Gck)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Bw4Gck)
 
 ## About
 
@@ -80,4 +80,4 @@ Special thanks to [@mw10013](https://github.com/mw10013) who has been part of th
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/Bw4Gck)
+[View on Railway →](https://railway.com/deploy/Bw4Gck)

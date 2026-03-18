@@ -2,7 +2,7 @@
 
 Smarter RSS management, more efficient information access
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/KnVkVX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/KnVkVX)
 
 ## About
 
@@ -42,4 +42,4 @@ Smarter RSS management, more efficient information access
 
 **Category:** AI/ML · **Languages:** Python, HTML, XSLT, Dockerfile, Shell, JavaScript
 
-[View on Railway →](https://railway.com/template/KnVkVX)
+[View on Railway →](https://railway.com/deploy/KnVkVX)

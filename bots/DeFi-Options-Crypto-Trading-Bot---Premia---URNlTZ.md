@@ -2,7 +2,7 @@
 
 Onchain options market making bot deployed to Arbitrum
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/URNlTZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/URNlTZ)
 
 ## About
 
@@ -37,4 +37,4 @@ This software is for educational purposes only. Do not risk money which you are 
 
 **Category:** Bots · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/URNlTZ)
+[View on Railway →](https://railway.com/deploy/URNlTZ)

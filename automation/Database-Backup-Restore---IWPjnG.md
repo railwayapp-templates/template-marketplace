@@ -2,7 +2,7 @@
 
 highly configurable solution for automated database backup and restore
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/IWPjnG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/IWPjnG)
 
 ## About
 
@@ -110,4 +110,4 @@ https://github.com/JamesWRC/db-backup
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/IWPjnG)
+[View on Railway →](https://railway.com/deploy/IWPjnG)

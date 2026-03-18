@@ -2,7 +2,7 @@
 
 Deploy zeroclaw with 1 click
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zeroclaw-railway-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zeroclaw-railway-template)
 
 ## About
 
@@ -22,4 +22,4 @@ Deploying ZeroClaw involves building a statically compiled Rust binary inside a 
 
 **Category:** Automation · **Languages:** Rust, TypeScript, Shell, Python, Dockerfile, C++, Slint, CSS, Nix, HTML
 
-[View on Railway →](https://railway.com/template/zeroclaw-railway-template)
+[View on Railway →](https://railway.com/deploy/zeroclaw-railway-template)

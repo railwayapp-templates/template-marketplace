@@ -2,7 +2,7 @@
 
 MageAI [Mar ’26] (Build, Orchestrate & Monitor Data Flows) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mageai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mageai)
 
 ## About
 
@@ -39,4 +39,4 @@ Self-hosting MageAI gives you complete control over your data orchestration envi
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/mageai)
+[View on Railway →](https://railway.com/deploy/mageai)

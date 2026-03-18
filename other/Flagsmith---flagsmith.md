@@ -2,7 +2,7 @@
 
 Open-source feature flag & remote config platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flagsmith)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flagsmith)
 
 ## About
 
@@ -42,4 +42,4 @@ Hosting Flagsmith involves deploying its API, UI, and background task processor 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/flagsmith)
+[View on Railway →](https://railway.com/deploy/flagsmith)

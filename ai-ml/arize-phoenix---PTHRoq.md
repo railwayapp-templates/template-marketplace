@@ -2,7 +2,7 @@
 
 AI Observability & Evaluation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/PTHRoq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PTHRoq)
 
 ## About
 
@@ -65,4 +65,4 @@ Like what you see? Give us a ★ on GitHub!
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/PTHRoq)
+[View on Railway →](https://railway.com/deploy/PTHRoq)

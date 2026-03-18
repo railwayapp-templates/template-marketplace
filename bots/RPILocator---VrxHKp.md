@@ -2,7 +2,7 @@
 
 A bot for notifying you when a new Raspberry Pi comes in stock
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VrxHKp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VrxHKp)
 
 ## About
 
@@ -31,4 +31,4 @@ The RSS feed is checked once per minute
 
 **Category:** Bots · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/VrxHKp)
+[View on Railway →](https://railway.com/deploy/VrxHKp)

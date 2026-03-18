@@ -2,7 +2,7 @@
 
 Deploy and Host GTM Server Tagging on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gtm-server-tagging)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gtm-server-tagging)
 
 ## About
 
@@ -32,4 +32,4 @@ A server container is built from Google’s official GTM image and listens on po
 
 **Category:** Analytics · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/gtm-server-tagging)
+[View on Railway →](https://railway.com/deploy/gtm-server-tagging)

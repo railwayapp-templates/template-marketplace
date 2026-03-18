@@ -2,7 +2,7 @@
 
 n8n Railway Timezone Patcher
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/courteous-gentleness)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/courteous-gentleness)
 
 ## About
 
@@ -26,4 +26,4 @@ By default, n8n creates new workflows using the `America/New_York` timezone, whi
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/courteous-gentleness)
+[View on Railway →](https://railway.com/deploy/courteous-gentleness)

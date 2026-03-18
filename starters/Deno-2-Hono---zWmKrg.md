@@ -2,7 +2,7 @@
 
 A Deno 2 + Hono Starter with Health Check, Route Grouping, Cors and more!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zWmKrg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zWmKrg)
 
 ## About
 
@@ -33,4 +33,4 @@ We also utilize a `Dockerfile` as Railway only provides Deno 1 at the moment.
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/zWmKrg)
+[View on Railway →](https://railway.com/deploy/zWmKrg)

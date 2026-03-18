@@ -2,7 +2,7 @@
 
 openclaw template for railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-1)
 
 ## About
 
@@ -29,4 +29,4 @@ You'll need to configure channel credentials for each messaging platform you wan
 
 **Category:** Bots · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/openclaw-1)
+[View on Railway →](https://railway.com/deploy/openclaw-1)

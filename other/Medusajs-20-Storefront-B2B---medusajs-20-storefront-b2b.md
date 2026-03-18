@@ -2,7 +2,7 @@
 
 Fork of the official Medusajs V2 B2B starter, tweaked for Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/medusajs-20-storefront-b2b)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/medusajs-20-storefront-b2b)
 
 ## About
 
@@ -78,4 +78,4 @@ If you run into issues or missing functions, please report in the discussion for
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/medusajs-20-storefront-b2b)
+[View on Railway →](https://railway.com/deploy/medusajs-20-storefront-b2b)

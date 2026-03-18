@@ -2,7 +2,7 @@
 
 Deploy an example LangServe app to Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tCk1po)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tCk1po)
 
 ## About
 
@@ -28,4 +28,4 @@ This template provides a pre-configured LangServe application, ready for deploym
 
 **Category:** Other · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/tCk1po)
+[View on Railway →](https://railway.com/deploy/tCk1po)

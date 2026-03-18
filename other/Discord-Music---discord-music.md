@@ -2,7 +2,7 @@
 
 Deploy and Host Discord-Music with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/discord-music)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discord-music)
 
 ## About
 
@@ -27,4 +27,4 @@ Hosting Discord-Music involves running a persistent service that maintains a Web
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/discord-music)
+[View on Railway →](https://railway.com/deploy/discord-music)

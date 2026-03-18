@@ -2,7 +2,7 @@
 
 Free Openclaw via Nvidia NIM + Claude Code
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/free-the-claw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/free-the-claw)
 
 ## About
 
@@ -60,4 +60,4 @@ For persistent hosting, deploy on [Railway](https://railway.com) with two servic
 
 **Category:** Bots · **Languages:** JavaScript, Shell
 
-[View on Railway →](https://railway.com/template/free-the-claw)
+[View on Railway →](https://railway.com/deploy/free-the-claw)

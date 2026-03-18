@@ -2,7 +2,7 @@
 
 Infisical [Mar ’26] (Securely Store & Sync Environment Variables) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/infisical)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/infisical)
 
 ## About
 
@@ -50,4 +50,4 @@ Self-hosting Infisical on Railway means you can have complete control over your 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/infisical)
+[View on Railway →](https://railway.com/deploy/infisical)

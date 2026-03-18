@@ -2,7 +2,7 @@
 
 Explore + Share beautiful photos and videos on the Fediverse
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OZSdEw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OZSdEw)
 
 ## About
 
@@ -102,4 +102,4 @@ Specifically, you may want to:
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/OZSdEw)
+[View on Railway →](https://railway.com/deploy/OZSdEw)

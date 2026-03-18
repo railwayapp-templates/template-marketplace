@@ -2,7 +2,7 @@
 
 A production-ready blog built with Next.js 14 and Strapi CMS
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0wEVIJ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0wEVIJ)
 
 ## About
 
@@ -55,4 +55,4 @@ To make Strapi host the files in a S3 Bucket, [follow the instructions of this p
 
 **Category:** Blogs · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/0wEVIJ)
+[View on Railway →](https://railway.com/deploy/0wEVIJ)

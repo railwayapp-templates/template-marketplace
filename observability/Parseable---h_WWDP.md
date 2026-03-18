@@ -2,7 +2,7 @@
 
 Lightweight, high performance log analytics for the cloud native era
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/h_WWDP)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/h_WWDP)
 
 ## About
 
@@ -85,4 +85,4 @@ curl --location --request POST '{service domain}/api/v1/ingest' \
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/h_WWDP)
+[View on Railway →](https://railway.com/deploy/h_WWDP)

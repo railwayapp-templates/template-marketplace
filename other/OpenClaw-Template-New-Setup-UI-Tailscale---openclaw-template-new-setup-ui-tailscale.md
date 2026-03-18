@@ -2,7 +2,7 @@
 
 Quickly deploy your openclaw (clawdbot) on Railway: https://openclaw.ai
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-template-new-setup-ui-tailscale)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-template-new-setup-ui-tailscale)
 
 ## About
 
@@ -34,4 +34,4 @@ This template wraps OpenClaw with a Node.js server providing complete lifecycle 
 
 **Category:** Other · **Languages:** JavaScript, HTML, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/openclaw-template-new-setup-ui-tailscale)
+[View on Railway →](https://railway.com/deploy/openclaw-template-new-setup-ui-tailscale)

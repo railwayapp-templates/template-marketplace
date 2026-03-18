@@ -2,7 +2,7 @@
 
 A bolt template made by Faisal for UndetectableAI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Akvll8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Akvll8)
 
 ## About
 
@@ -26,4 +26,4 @@ To learn more about what UndetectableAI does, please [visit this link](https://u
 
 **Category:** AI/ML · **Languages:** TypeScript, SCSS, JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/Akvll8)
+[View on Railway →](https://railway.com/deploy/Akvll8)

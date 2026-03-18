@@ -2,7 +2,7 @@
 
 virtual hand-drawn style whiteboard. Collaborative and end-to-end encrypted
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/f7vLxp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/f7vLxp)
 
 ## About
 
@@ -38,4 +38,4 @@ Components:
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/f7vLxp)
+[View on Railway →](https://railway.com/deploy/f7vLxp)

@@ -2,7 +2,7 @@
 
 MedusaJS + Storefront + Railway Bucket (Optimized for low-cost)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/medusajs-storefront-railway-bucket)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/medusajs-storefront-railway-bucket)
 
 ## About
 
@@ -60,4 +60,4 @@ Suitable for prototyping, custom e-commerce projects, and production deployments
 
 **Category:** Other · **Languages:** TypeScript, Shell, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/medusajs-storefront-railway-bucket)
+[View on Railway →](https://railway.com/deploy/medusajs-storefront-railway-bucket)

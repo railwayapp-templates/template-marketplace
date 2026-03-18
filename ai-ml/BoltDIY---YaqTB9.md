@@ -2,7 +2,7 @@
 
 Build, run, and deploy full-stack web apps using any LLM of your choice!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/YaqTB9)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/YaqTB9)
 
 ## About
 
@@ -55,4 +55,4 @@ Simply input the API key(s) for the providers you wish to use, deploy the app, a
 
 **Category:** AI/ML · **Languages:** TypeScript, SCSS, JavaScript, Shell, Dockerfile, CSS
 
-[View on Railway →](https://railway.com/template/YaqTB9)
+[View on Railway →](https://railway.com/deploy/YaqTB9)

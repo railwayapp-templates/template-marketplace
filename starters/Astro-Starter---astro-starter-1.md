@@ -2,7 +2,7 @@
 
 A simple Astro starter for fast, lightweight, and easy web builds.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/astro-starter-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/astro-starter-1)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting an Astro Starter application gives you a streamlined, performance‑driv
 
 **Category:** Starters · **Languages:** Astro, JavaScript
 
-[View on Railway →](https://railway.com/template/astro-starter-1)
+[View on Railway →](https://railway.com/deploy/astro-starter-1)

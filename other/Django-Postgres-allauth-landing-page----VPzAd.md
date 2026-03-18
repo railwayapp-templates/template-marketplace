@@ -2,7 +2,7 @@
 
 A django  Postgres railway template with allauth authentication
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-VPzAd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-VPzAd)
 
 ## About
 
@@ -38,4 +38,4 @@ A responsive Django landing page with Postgres Database and allauth authenticati
 
 **Category:** Other · **Languages:** HTML, Python, CSS, Procfile
 
-[View on Railway →](https://railway.com/template/-VPzAd)
+[View on Railway →](https://railway.com/deploy/-VPzAd)

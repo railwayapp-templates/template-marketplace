@@ -2,7 +2,7 @@
 
 Build and deploy software across many servers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/komodo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/komodo)
 
 ## About
 
@@ -46,4 +46,4 @@ Hosting Komodo involves setting up the necessary infrastructure to support its v
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/komodo)
+[View on Railway →](https://railway.com/deploy/komodo)

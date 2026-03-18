@@ -2,7 +2,7 @@
 
 Node app to backup MySQL database and upload it to Cloudinary.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mT6Hiw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mT6Hiw)
 
 ## About
 
@@ -61,4 +61,4 @@ The folder for backups will be automatically created with the following name: <b
 
 **Category:** Automation · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/mT6Hiw)
+[View on Railway →](https://railway.com/deploy/mT6Hiw)

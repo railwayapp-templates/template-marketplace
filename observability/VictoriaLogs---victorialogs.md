@@ -2,7 +2,7 @@
 
 High-performance, cost-effective, scalable, open-source logs database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/victorialogs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/victorialogs)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting VictoriaLogs on Railway requires configuring the official Docker contain
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/victorialogs)
+[View on Railway →](https://railway.com/deploy/victorialogs)

@@ -2,7 +2,7 @@
 
 SQLite3 is a lightweight database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jOiNFt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jOiNFt)
 
 ## About
 
@@ -67,4 +67,4 @@ It includes sample data for a `trains` table.
 
 **Category:** Storage · **Languages:** Shell, Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/jOiNFt)
+[View on Railway →](https://railway.com/deploy/jOiNFt)

@@ -2,7 +2,7 @@
 
 A lightweight, open source, stateless alternative to linktree and many.link
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/littlelink-server-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/littlelink-server-1)
 
 ## About
 
@@ -64,4 +64,4 @@ Hosting LittleLink Server is straightforward due to its containerized nature. It
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/littlelink-server-1)
+[View on Railway →](https://railway.com/deploy/littlelink-server-1)

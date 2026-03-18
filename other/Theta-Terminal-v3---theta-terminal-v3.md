@@ -2,7 +2,7 @@
 
 Theta Terminal running inside a Docker container for easy deployment
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/theta-terminal-v3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/theta-terminal-v3)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting Theta Terminal v3 runs a lightweight bridge between Theta Data servers a
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/theta-terminal-v3)
+[View on Railway →](https://railway.com/deploy/theta-terminal-v3)

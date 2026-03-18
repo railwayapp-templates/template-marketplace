@@ -2,7 +2,7 @@
 
 This template provides a fully typed GQL API server + Postgres DB
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/expressgraphqltypeorm-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/expressgraphqltypeorm-starter)
 
 ## About
 
@@ -42,4 +42,4 @@ Hosting this starter on Railway allows you to quickly deploy a robust backend wi
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/expressgraphqltypeorm-starter)
+[View on Railway →](https://railway.com/deploy/expressgraphqltypeorm-starter)

@@ -2,7 +2,7 @@
 
 Cron Rust Runner — ultra-light HTTP schedule second precision - light cron
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cron-rust)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cron-rust)
 
 ## About
 
@@ -75,4 +75,4 @@ Rust + `ureq` (sync, minimal)
 
 **Category:** Automation · **Languages:** Rust
 
-[View on Railway →](https://railway.com/template/cron-rust)
+[View on Railway →](https://railway.com/deploy/cron-rust)

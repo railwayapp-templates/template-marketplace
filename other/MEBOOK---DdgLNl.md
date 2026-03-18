@@ -2,7 +2,7 @@
 
 MEBOOK MEBOOK MEBOOK MEBOOK MEBOOK MEBOOK 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/DdgLNl)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/DdgLNl)
 
 ## About
 
@@ -16,4 +16,4 @@ MEBOOK MEBOOK MEBOOK MEBOOK MEBOOK MEBOOK MEBOOK MEBOOK MEBOOK MEBOOK MEBOOK MEB
 
 **Category:** Other · **Languages:** JavaScript, Pug, CSS
 
-[View on Railway →](https://railway.com/template/DdgLNl)
+[View on Railway →](https://railway.com/deploy/DdgLNl)

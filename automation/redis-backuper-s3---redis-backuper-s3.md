@@ -2,7 +2,7 @@
 
 backup your redis db and upload to a s3 bucket
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/redis-backuper-s3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redis-backuper-s3)
 
 ## About
 
@@ -27,4 +27,4 @@ Deploying redis-backuper-s3 involves running a containerized Python service that
 
 **Category:** Automation · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/redis-backuper-s3)
+[View on Railway →](https://railway.com/deploy/redis-backuper-s3)

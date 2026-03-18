@@ -2,7 +2,7 @@
 
 Project Management, Time Tracking and Focus App 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n5zFIT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n5zFIT)
 
 ## About
 
@@ -43,4 +43,4 @@ Project Management, Time Tracking and Focus App
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/n5zFIT)
+[View on Railway →](https://railway.com/deploy/n5zFIT)

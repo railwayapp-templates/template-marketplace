@@ -2,7 +2,7 @@
 
 Discord.js starter template. Create a fork to modify.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/discordjs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discordjs)
 
 ## About
 
@@ -26,4 +26,4 @@ The `TOKEN` variable should be set to your Discord bot's token. Instructions for
 
 **Category:** Starters · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/discordjs)
+[View on Railway →](https://railway.com/deploy/discordjs)

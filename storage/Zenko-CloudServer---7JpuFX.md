@@ -2,7 +2,7 @@
 
 A Zenko CloudServer S3 file storage instance
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7JpuFX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7JpuFX)
 
 ## About
 
@@ -64,4 +64,4 @@ For additional configuration, view the variables available for Zenko CloudServer
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/7JpuFX)
+[View on Railway →](https://railway.com/deploy/7JpuFX)

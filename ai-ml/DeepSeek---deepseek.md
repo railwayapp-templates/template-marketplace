@@ -2,7 +2,7 @@
 
 [Mar '26] Self Host DeepSeek models and chat via a chat UI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/deepseek)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/deepseek)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting DeepSeek models usually requires configuring an inference backend, setti
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/deepseek)
+[View on Railway →](https://railway.com/deploy/deepseek)

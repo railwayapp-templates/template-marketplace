@@ -2,7 +2,7 @@
 
 Flowise AI with Workers - persisted volume, PostGIS & private networking.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flowiseai-with-workers)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowiseai-with-workers)
 
 ## About
 
@@ -89,4 +89,4 @@ Hosting FlowiseAI with Workers involves deploying a scalable AI workflow platfor
 
 **Category:** AI/ML · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/flowiseai-with-workers)
+[View on Railway →](https://railway.com/deploy/flowiseai-with-workers)

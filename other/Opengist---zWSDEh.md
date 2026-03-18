@@ -2,7 +2,7 @@
 
 Self-hosted pastebin powered by Git, open-source alternative to Github Gist
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zWSDEh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zWSDEh)
 
 ## About
 
@@ -49,4 +49,4 @@ SSH Git operations are unlikely to work and show the correct port externally due
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/zWSDEh)
+[View on Railway →](https://railway.com/deploy/zWSDEh)

@@ -2,7 +2,7 @@
 
 Deploy and Host Drizzle Gateway - Best free Database GUI with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/drizzle-gateway-best-free-database-gui)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/drizzle-gateway-best-free-database-gui)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting Drizzle Gateway involves deploying a Node.js application that connects t
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/drizzle-gateway-best-free-database-gui)
+[View on Railway →](https://railway.com/deploy/drizzle-gateway-best-free-database-gui)

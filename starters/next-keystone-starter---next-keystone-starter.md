@@ -2,7 +2,7 @@
 
 Deploy and Host next-keystone-starter with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/next-keystone-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/next-keystone-starter)
 
 ## About
 
@@ -219,4 +219,4 @@ Deploy and Host next-keystone-starter with Railway
 
 **Category:** Starters · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/next-keystone-starter)
+[View on Railway →](https://railway.com/deploy/next-keystone-starter)

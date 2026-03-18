@@ -2,7 +2,7 @@
 
 Open source google photos alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/k-RfAP)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/k-RfAP)
 
 ## About
 
@@ -51,4 +51,4 @@ High performance self-hosted photo and video management solution
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/k-RfAP)
+[View on Railway →](https://railway.com/deploy/k-RfAP)

@@ -2,7 +2,7 @@
 
 Grist is an Airtable / Google Sheets alternative
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fQSStq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fQSStq)
 
 ## About
 
@@ -85,4 +85,4 @@ Here are some specific feature highlights of Grist:
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/fQSStq)
+[View on Railway →](https://railway.com/deploy/fQSStq)

@@ -2,7 +2,7 @@
 
 Deploy a scalable self-hosted GitHub Actions Runner.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pXId5Q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pXId5Q)
 
 ## About
 
@@ -29,4 +29,4 @@ Deploy a scalable self-hosted GitHub Actions Runner.
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/pXId5Q)
+[View on Railway →](https://railway.com/deploy/pXId5Q)

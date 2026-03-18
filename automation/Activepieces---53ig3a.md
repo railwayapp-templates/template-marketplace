@@ -2,7 +2,7 @@
 
 Activepieces Deployment via GitHub
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/53ig3a)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/53ig3a)
 
 ## About
 
@@ -59,4 +59,4 @@ Detailed documentation is available a https://www.activepieces.com/docs/getting-
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/53ig3a)
+[View on Railway →](https://railway.com/deploy/53ig3a)

@@ -2,7 +2,7 @@
 
 A game of life tutorial in Rust and WebAssembly
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Qda1TD)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Qda1TD)
 
 ## About
 
@@ -34,4 +34,4 @@ View the official [Tutorial](https://rustwasm.github.io/docs/book/game-of-life/i
 
 **Category:** Other · **Tags:** rust, wasm, typescript, nextjs
 
-[View on Railway →](https://railway.com/template/Qda1TD)
+[View on Railway →](https://railway.com/deploy/Qda1TD)

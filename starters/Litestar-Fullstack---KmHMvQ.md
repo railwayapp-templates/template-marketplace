@@ -2,7 +2,7 @@
 
 A fullstack web app for the Litestar Framework
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/KmHMvQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/KmHMvQ)
 
 ## About
 
@@ -79,4 +79,4 @@ Features:
 
 **Category:** Starters · **Languages:** Python, TypeScript, Dockerfile, Makefile, JavaScript, Mako, CSS, Jinja, Shell
 
-[View on Railway →](https://railway.com/template/KmHMvQ)
+[View on Railway →](https://railway.com/deploy/KmHMvQ)

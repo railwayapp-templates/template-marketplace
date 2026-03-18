@@ -2,7 +2,7 @@
 
  A nimble Mastodon web client 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/elk-zone)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/elk-zone)
 
 ## About
 
@@ -26,4 +26,4 @@ All configuration, including dependency management and build steps, are done wit
 
 **Category:** Other · **Languages:** Vue, TypeScript, CSS, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/elk-zone)
+[View on Railway →](https://railway.com/deploy/elk-zone)

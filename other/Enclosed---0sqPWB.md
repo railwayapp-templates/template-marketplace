@@ -2,7 +2,7 @@
 
 A minimalistic application designed for sending private and secure notes.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0sqPWB)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0sqPWB)
 
 ## About
 
@@ -32,4 +32,4 @@ Github: https://github.com/CorentinTh/enclosed
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/0sqPWB)
+[View on Railway →](https://railway.com/deploy/0sqPWB)

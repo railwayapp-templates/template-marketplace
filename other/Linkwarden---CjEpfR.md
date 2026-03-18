@@ -2,7 +2,7 @@
 
 Open-source collaborative bookmark manager
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/CjEpfR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/CjEpfR)
 
 ## About
 
@@ -82,4 +82,4 @@ For information on how to get started or to set up your own instance, please vis
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/CjEpfR)
+[View on Railway →](https://railway.com/deploy/CjEpfR)

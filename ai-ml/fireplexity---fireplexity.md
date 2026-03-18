@@ -2,7 +2,7 @@
 
 Fast AI search engine with citations and streaming responses.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fireplexity)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fireplexity)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting and deploying Fireplexity involves setting up an efficient Node.js envir
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/fireplexity)
+[View on Railway →](https://railway.com/deploy/fireplexity)

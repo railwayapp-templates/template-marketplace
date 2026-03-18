@@ -2,7 +2,7 @@
 
 An open-source scheduling and collaboration tool.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fEb1qz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fEb1qz)
 
 ## About
 
@@ -97,4 +97,4 @@ Depending on how comfortable you are with technical things, you can either run R
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/fEb1qz)
+[View on Railway →](https://railway.com/deploy/fEb1qz)

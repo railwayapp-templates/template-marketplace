@@ -2,7 +2,7 @@
 
 OpenClaw alternative with multi-channel, memory & Agents SDK built in
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nanoclaw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nanoclaw)
 
 ## About
 
@@ -42,4 +42,4 @@ All five channels (Slack, Telegram, Discord, WhatsApp, Gmail) are pre-installed.
 
 **Category:** AI/ML · **Languages:** TypeScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/nanoclaw)
+[View on Railway →](https://railway.com/deploy/nanoclaw)

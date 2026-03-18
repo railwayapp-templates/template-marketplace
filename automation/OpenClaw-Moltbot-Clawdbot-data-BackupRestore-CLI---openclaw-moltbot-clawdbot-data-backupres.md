@@ -2,7 +2,7 @@
 
 OpenClaw (Moltbot, Clawdbot) + data Backup/Restore with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-moltbot-clawdbot-data-backupres)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-moltbot-clawdbot-data-backupres)
 
 ## About
 
@@ -51,4 +51,4 @@ Railway volumes persist your state across redeployments. The attached Railway Bu
 
 **Category:** Automation · **Languages:** TypeScript, Swift, Kotlin, Shell, CSS, JavaScript, Go, Python, HTML, Dockerfile, Ruby
 
-[View on Railway →](https://railway.com/template/openclaw-moltbot-clawdbot-data-backupres)
+[View on Railway →](https://railway.com/deploy/openclaw-moltbot-clawdbot-data-backupres)

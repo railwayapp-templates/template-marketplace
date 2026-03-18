@@ -2,7 +2,7 @@
 
 Zero Config WordPress Template (MPM Patched)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wordpress-mpm-patched)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wordpress-mpm-patched)
 
 ## About
 
@@ -56,4 +56,4 @@ This template is heavily inspired by existing WordPress templates, with the MPM 
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/wordpress-mpm-patched)
+[View on Railway →](https://railway.com/deploy/wordpress-mpm-patched)

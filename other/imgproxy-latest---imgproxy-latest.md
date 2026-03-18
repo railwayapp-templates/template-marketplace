@@ -2,7 +2,7 @@
 
 server for resizing, processing, and converting images.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/imgproxy-latest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/imgproxy-latest)
 
 ## About
 
@@ -22,4 +22,4 @@ Deploying imgproxy on Railway gives you an image processing API that transforms 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/imgproxy-latest)
+[View on Railway →](https://railway.com/deploy/imgproxy-latest)

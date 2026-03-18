@@ -2,7 +2,7 @@
 
 A simple KTOR Blog server made with Kotlin
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Ty7Bjd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Ty7Bjd)
 
 ## About
 
@@ -44,4 +44,4 @@ Currently the api is deployed on *web-production-147b.up.railway.app [link](http
 
 **Category:** Other · **Languages:** Kotlin, Procfile
 
-[View on Railway →](https://railway.com/template/Ty7Bjd)
+[View on Railway →](https://railway.com/deploy/Ty7Bjd)

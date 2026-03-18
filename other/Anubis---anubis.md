@@ -2,7 +2,7 @@
 
 Protect your sites from AI scrapers.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/anubis)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/anubis)
 
 ## About
 
@@ -27,4 +27,4 @@ The variables in this template are the most likely to be used; for other configu
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/anubis)
+[View on Railway →](https://railway.com/deploy/anubis)

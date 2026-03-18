@@ -2,7 +2,7 @@
 
 Pocketbase with Litestream Streaming Replication
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/s9RV_t)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/s9RV_t)
 
 ## About
 
@@ -54,4 +54,4 @@ Use as a standalone app or as Go framework, that you can extend via hooks to cre
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/s9RV_t)
+[View on Railway →](https://railway.com/deploy/s9RV_t)

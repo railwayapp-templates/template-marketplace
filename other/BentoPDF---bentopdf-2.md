@@ -2,7 +2,7 @@
 
 BentoPDF is a powerful, privacy-first, client-side PDF toolkit.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bentopdf-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bentopdf-2)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting BentoPDF involves deploying a containerized web server (typically Nginx)
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/bentopdf-2)
+[View on Railway →](https://railway.com/deploy/bentopdf-2)

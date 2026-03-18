@@ -2,7 +2,7 @@
 
 Payload V3 ready to use with DB -
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/XprvFZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/XprvFZ)
 
 ## About
 
@@ -42,4 +42,4 @@ https://payloadcms.com/docs/getting-started/what-is-payload
 
 **Category:** CMS · **Languages:** TypeScript, Dockerfile, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/XprvFZ)
+[View on Railway →](https://railway.com/deploy/XprvFZ)

@@ -2,7 +2,7 @@
 
 Huginn [Mar’26] (Workflows, Automation | IFTTT/Zapier Alternative) Selfhost
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/huginn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/huginn)
 
 ## About
 
@@ -50,4 +50,4 @@ With Railway, deploying Huginn docker compose setups becomes a one-click process
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/huginn)
+[View on Railway →](https://railway.com/deploy/huginn)

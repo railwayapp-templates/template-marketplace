@@ -2,7 +2,7 @@
 
 n8n w/internal Redis, Postgres, workers, webhook processor. 1-click deploy.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fes8j0)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fes8j0)
 
 ## About
 
@@ -92,4 +92,4 @@ Changelog:
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/fes8j0)
+[View on Railway →](https://railway.com/deploy/fes8j0)

@@ -2,7 +2,7 @@
 
 The personal retro game collection cabinet in your browser.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/retroassembly)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/retroassembly)
 
 ## About
 
@@ -45,4 +45,4 @@ Hosting RetroAssembly involves deploying a TypeScript-based web application that
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/retroassembly)
+[View on Railway →](https://railway.com/deploy/retroassembly)

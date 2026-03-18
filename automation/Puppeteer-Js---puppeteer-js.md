@@ -2,7 +2,7 @@
 
 A minimal Puppeteer setup with JavaScript
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/puppeteer-js)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/puppeteer-js)
 
 ## About
 
@@ -29,4 +29,4 @@ For detailed instructions, see: [Railway Template Eject Guide](https://docs.rail
 
 **Category:** Automation · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/puppeteer-js)
+[View on Railway →](https://railway.com/deploy/puppeteer-js)

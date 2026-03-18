@@ -2,7 +2,7 @@
 
 Quickly run any shell script in a Railway container.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railway-shell-function)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-shell-function)
 
 ## About
 
@@ -34,4 +34,4 @@ Take the output string and put it in the `SCRIPT` environmental variable. Deploy
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/railway-shell-function)
+[View on Railway →](https://railway.com/deploy/railway-shell-function)

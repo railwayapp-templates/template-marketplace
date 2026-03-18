@@ -2,7 +2,7 @@
 
 Modern, powerful, affordable platform to manage your customer relationships
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/twenty-or-the-1-open-source-crm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/twenty-or-the-1-open-source-crm)
 
 ## About
 
@@ -57,4 +57,4 @@ Hosting Twenty requires a robust architecture capable of simultaneously managing
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/twenty-or-the-1-open-source-crm)
+[View on Railway →](https://railway.com/deploy/twenty-or-the-1-open-source-crm)

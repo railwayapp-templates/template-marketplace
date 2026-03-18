@@ -2,7 +2,7 @@
 
 Open-source LLM platform for prompt management, tracing, evals & metrics
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kUsf_w)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kUsf_w)
 
 ## About
 
@@ -96,4 +96,4 @@ Comprehensive API: Langfuse is frequently used to power bespoke LLMOps workflows
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/kUsf_w)
+[View on Railway →](https://railway.com/deploy/kUsf_w)

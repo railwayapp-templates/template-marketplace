@@ -2,7 +2,7 @@
 
 Minimal Node.js Starter – Lightweight Express.js Boilerplate for Web Apps
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nodejs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nodejs)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting Node.js on Railway allows developers to deploy applications seamlessly w
 
 **Category:** Starters · **Languages:** HTML, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/nodejs)
+[View on Railway →](https://railway.com/deploy/nodejs)

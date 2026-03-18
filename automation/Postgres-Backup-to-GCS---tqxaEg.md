@@ -2,7 +2,7 @@
 
 Postgres backups to Google Cloud Storage (GCS)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tqxaEg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tqxaEg)
 
 ## About
 
@@ -37,4 +37,4 @@ Requires:
 
 **Category:** Automation · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/tqxaEg)
+[View on Railway →](https://railway.com/deploy/tqxaEg)

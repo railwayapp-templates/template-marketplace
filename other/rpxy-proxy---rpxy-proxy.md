@@ -2,7 +2,7 @@
 
 rpxy reverse proxy template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rpxy-proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rpxy-proxy)
 
 ## About
 
@@ -40,4 +40,4 @@ Hosting rpxy on Railway involves deploying a high-performance reverse proxy that
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/rpxy-proxy)
+[View on Railway →](https://railway.com/deploy/rpxy-proxy)

@@ -2,7 +2,7 @@
 
 Lite version of the Makerkit Next.js Supabase kit
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-supabase-saas-starter-lite)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-supabase-saas-starter-lite)
 
 ## About
 
@@ -41,4 +41,4 @@ SUPABASE_SERVICE_ROLE_KEY
 
 **Category:** Starters · **Languages:** TypeScript, HTML, JavaScript, CSS, PLpgSQL, Handlebars
 
-[View on Railway →](https://railway.com/template/nextjs-supabase-saas-starter-lite)
+[View on Railway →](https://railway.com/deploy/nextjs-supabase-saas-starter-lite)

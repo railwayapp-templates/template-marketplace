@@ -2,7 +2,7 @@
 
 Minimalistic web app designed for sending private and secure notes.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5gOoRm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5gOoRm)
 
 ## About
 
@@ -48,4 +48,4 @@ Features:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/5gOoRm)
+[View on Railway →](https://railway.com/deploy/5gOoRm)

@@ -2,7 +2,7 @@
 
 Scrape anything with a simple chat  [powered by Firecrawl & OpenAI]
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/UzxNSc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/UzxNSc)
 
 ## About
 
@@ -116,4 +116,4 @@ Knowledge Base: Create and maintain a personal knowledge repository
 
 **Category:** AI/ML · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/UzxNSc)
+[View on Railway →](https://railway.com/deploy/UzxNSc)

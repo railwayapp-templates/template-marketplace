@@ -2,7 +2,7 @@
 
 A simple Sinatra webserver
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/oo2_Dy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oo2_Dy)
 
 ## About
 
@@ -30,4 +30,4 @@ end
 
 **Category:** Starters · **Tags:** ruby, webserver
 
-[View on Railway →](https://railway.com/template/oo2_Dy)
+[View on Railway →](https://railway.com/deploy/oo2_Dy)

@@ -2,7 +2,7 @@
 
 Open-source antivirus engine.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/MAnG6f)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MAnG6f)
 
 ## About
 
@@ -47,4 +47,4 @@ Example(s):
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/MAnG6f)
+[View on Railway →](https://railway.com/deploy/MAnG6f)

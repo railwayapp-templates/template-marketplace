@@ -2,7 +2,7 @@
 
 Instant duckduckgo style bang redirects - 14,000+ shortcuts in ~1ms
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/flashbang)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flashbang)
 
 ## About
 
@@ -18,4 +18,4 @@ Deploying flashbang on Railway is straightforward — Railway auto-detects the D
 
 **Category:** Other · **Languages:** TypeScript, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/flashbang)
+[View on Railway →](https://railway.com/deploy/flashbang)

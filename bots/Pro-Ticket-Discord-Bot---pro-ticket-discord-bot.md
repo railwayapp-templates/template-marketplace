@@ -2,7 +2,7 @@
 
 Ticket bot. 3 languages (PT, ES, EN). Web panel for stats, reports & config
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pro-ticket-discord-bot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pro-ticket-discord-bot)
 
 ## About
 
@@ -48,4 +48,4 @@ Hosting Pro Ticket on Railway provides a complete infrastructure with MongoDB, a
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/pro-ticket-discord-bot)
+[View on Railway →](https://railway.com/deploy/pro-ticket-discord-bot)

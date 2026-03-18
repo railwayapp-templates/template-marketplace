@@ -2,7 +2,7 @@
 
 Simple, hostable, open source chatting.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/once-campfire)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/once-campfire)
 
 ## About
 
@@ -33,4 +33,4 @@ Campfire is an installable, self-hosted group chat system. Easily invite people.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/once-campfire)
+[View on Railway →](https://railway.com/deploy/once-campfire)

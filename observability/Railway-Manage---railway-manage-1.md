@@ -2,7 +2,7 @@
 
 Internal disaster-recovery and operations control plane for projects.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railway-manage-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-manage-1)
 
 ## About
 
@@ -31,4 +31,4 @@ Railway Manage runs as a single unified container: a Node.js backend, a prebuilt
 
 **Category:** Observability · **Languages:** JavaScript, CSS, Just, Dockerfile, Shell, HTML
 
-[View on Railway →](https://railway.com/template/railway-manage-1)
+[View on Railway →](https://railway.com/deploy/railway-manage-1)

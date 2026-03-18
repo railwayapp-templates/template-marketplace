@@ -2,7 +2,7 @@
 
 Weaviate DB with secure, password-protected default configuration.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/weaviate)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/weaviate)
 
 ## About
 
@@ -40,4 +40,4 @@ Running Weaviate typically requires managing dependencies like authentication, p
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/weaviate)
+[View on Railway →](https://railway.com/deploy/weaviate)

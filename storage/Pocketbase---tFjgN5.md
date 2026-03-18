@@ -2,7 +2,7 @@
 
 Open Source backend for your next SaaS and Mobile app in 1 file
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tFjgN5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tFjgN5)
 
 ## About
 
@@ -185,4 +185,4 @@ Later we can always refer to it and/or take pieces of your implementation when t
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/tFjgN5)
+[View on Railway →](https://railway.com/deploy/tFjgN5)

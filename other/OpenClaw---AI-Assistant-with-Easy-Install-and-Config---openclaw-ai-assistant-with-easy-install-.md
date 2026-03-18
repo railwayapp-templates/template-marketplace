@@ -2,7 +2,7 @@
 
 Deploy OpenClaw AI coding assistant with one click. Web-based setup, no cmd
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-ai-assistant-with-easy-install-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-ai-assistant-with-easy-install-)
 
 ## About
 
@@ -81,4 +81,4 @@ Deploy OpenClaw AI coding assistant with one click. Web-based setup, no cmd
 
 **Category:** Other · **Languages:** JavaScript, HTML, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/openclaw-ai-assistant-with-easy-install-)
+[View on Railway →](https://railway.com/deploy/openclaw-ai-assistant-with-easy-install-)

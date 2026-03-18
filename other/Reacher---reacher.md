@@ -2,7 +2,7 @@
 
 Open-Source Email Verification API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/reacher)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/reacher)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting Reacher involves deploying its Rust-based API service and required backg
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/reacher)
+[View on Railway →](https://railway.com/deploy/reacher)

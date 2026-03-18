@@ -2,7 +2,7 @@
 
 Go + Gin web server with Zap logging, .env config, and health check route
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/go-gin)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/go-gin)
 
 ## About
 
@@ -29,4 +29,4 @@ Railway deploys Go + Gin projects using [Nixpacks](https://nixpacks.com), which 
 
 **Category:** Starters · **Languages:** Go
 
-[View on Railway →](https://railway.com/template/go-gin)
+[View on Railway →](https://railway.com/deploy/go-gin)

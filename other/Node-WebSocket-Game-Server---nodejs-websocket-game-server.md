@@ -2,7 +2,7 @@
 
 Multiplayer WebSocket relay server with rooms and msgpack. Node.js + TS.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nodejs-websocket-game-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nodejs-websocket-game-server)
 
 ## About
 
@@ -34,4 +34,4 @@ This template deploys a stateless WebSocket relay server that manages rooms and 
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/nodejs-websocket-game-server)
+[View on Railway →](https://railway.com/deploy/nodejs-websocket-game-server)

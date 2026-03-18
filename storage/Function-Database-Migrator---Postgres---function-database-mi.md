@@ -2,7 +2,7 @@
 
 Migrate your postgres database from point A to point B using functions
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/function-database-mi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/function-database-mi)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting Function Database Migrator - Postgres on Railway allows you to trigger d
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/function-database-mi)
+[View on Railway →](https://railway.com/deploy/function-database-mi)

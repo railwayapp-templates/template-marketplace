@@ -2,7 +2,7 @@
 
 AFFiNE - Self-host version  
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/affine)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/affine)
 
 ## About
 
@@ -51,4 +51,4 @@ Self-hosting AFFiNE requires Docker with three services: AFFiNE server, PostgreS
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/affine)
+[View on Railway →](https://railway.com/deploy/affine)

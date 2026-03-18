@@ -2,7 +2,7 @@
 
 Supports seamless local dev (sync plugins/themes/uploads)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wordpress-nodejsdocker)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wordpress-nodejsdocker)
 
 ## About
 
@@ -183,4 +183,4 @@ By deploying WordPress (Node.js/Docker) on Railway, you are one step closer to s
 
 **Category:** CMS · **Languages:** Shell, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/wordpress-nodejsdocker)
+[View on Railway →](https://railway.com/deploy/wordpress-nodejsdocker)

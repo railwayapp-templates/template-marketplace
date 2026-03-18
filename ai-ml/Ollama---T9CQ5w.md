@@ -2,7 +2,7 @@
 
 A powerful and user-friendly platform for running LLMs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/T9CQ5w)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/T9CQ5w)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting Ollama means running an AI model deployment platform that manages model 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/T9CQ5w)
+[View on Railway →](https://railway.com/deploy/T9CQ5w)

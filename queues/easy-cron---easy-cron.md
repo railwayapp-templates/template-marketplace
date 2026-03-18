@@ -2,7 +2,7 @@
 
 A distributed cron job scheduler
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/easy-cron)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/easy-cron)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting EasyCron requires a PostgreSQL database for storing job definitions, sch
 
 **Category:** Queues · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/easy-cron)
+[View on Railway →](https://railway.com/deploy/easy-cron)

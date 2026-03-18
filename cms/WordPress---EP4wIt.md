@@ -2,7 +2,7 @@
 
 A content management system (CMS) written in PHP
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/EP4wIt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EP4wIt)
 
 ## About
 
@@ -59,4 +59,4 @@ Hosting WordPress means running a PHP-based content management system that handl
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/EP4wIt)
+[View on Railway →](https://railway.com/deploy/EP4wIt)

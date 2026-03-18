@@ -2,7 +2,7 @@
 
 A PostgreSQL instance with `vector` extension enabled.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uYYYQy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uYYYQy)
 
 ## About
 
@@ -40,4 +40,4 @@ This template deploys a Postgres instance with `pgvector`, an extension which gi
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/uYYYQy)
+[View on Railway →](https://railway.com/deploy/uYYYQy)

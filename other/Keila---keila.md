@@ -2,7 +2,7 @@
 
 Self-hosted newsletter platform with powerful features
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/keila)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/keila)
 
 ## About
 
@@ -46,4 +46,4 @@ Keila is an Elixir/Phoenix application that requires a PostgreSQL database for s
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/keila)
+[View on Railway →](https://railway.com/deploy/keila)

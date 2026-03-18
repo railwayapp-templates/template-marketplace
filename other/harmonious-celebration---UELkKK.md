@@ -2,7 +2,7 @@
 
 It is web soccet chat, where you can guess the word that admin think
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/UELkKK)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/UELkKK)
 
 ## About
 
@@ -89,4 +89,4 @@ Enhance UI with more animations
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/UELkKK)
+[View on Railway →](https://railway.com/deploy/UELkKK)

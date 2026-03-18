@@ -2,7 +2,7 @@
 
 A self-hostable bookmark-everything app with AI and full text search
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/karakeep)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/karakeep)
 
 ## About
 
@@ -48,4 +48,4 @@ Hosting Karakeep involves setting up the application’s backend, frontend, and 
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/karakeep)
+[View on Railway →](https://railway.com/deploy/karakeep)

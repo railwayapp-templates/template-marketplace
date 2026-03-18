@@ -2,7 +2,7 @@
 
 for deploy tg bot  through railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/iyC1fF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/iyC1fF)
 
 ## About
 
@@ -26,4 +26,4 @@ my bot @kyro_aibot  https://railway.com/template/iyC1fF?referralCode=TydyT_    @
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/iyC1fF)
+[View on Railway →](https://railway.com/deploy/iyC1fF)

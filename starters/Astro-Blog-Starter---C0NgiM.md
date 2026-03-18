@@ -2,7 +2,7 @@
 
 A simple Astro blog starter
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/C0NgiM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/C0NgiM)
 
 ## About
 
@@ -75,4 +75,4 @@ This theme is based off of the lovely [Bear Blog](https://github.com/HermanMarti
 
 **Category:** Starters · **Languages:** Astro, CSS, MDX, JavaScript, Dockerfile, TypeScript
 
-[View on Railway →](https://railway.com/template/C0NgiM)
+[View on Railway →](https://railway.com/deploy/C0NgiM)

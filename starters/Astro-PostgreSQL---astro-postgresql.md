@@ -2,7 +2,7 @@
 
 Blazing fast Astro with PostgreSQL database - zero config deployment
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/astro-postgresql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/astro-postgresql)
 
 ## About
 
@@ -38,4 +38,4 @@ This template deploys a complete Astro application with PostgreSQL database inte
 
 **Category:** Starters · **Languages:** Astro, TypeScript, Dockerfile, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/astro-postgresql)
+[View on Railway →](https://railway.com/deploy/astro-postgresql)

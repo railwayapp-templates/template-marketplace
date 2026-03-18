@@ -2,7 +2,7 @@
 
 Secure links that only work once
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/one-time-secret)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/one-time-secret)
 
 ## About
 
@@ -52,4 +52,4 @@ When you send people sensitive info like passwords and private links via email o
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/one-time-secret)
+[View on Railway →](https://railway.com/deploy/one-time-secret)

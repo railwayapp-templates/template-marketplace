@@ -2,7 +2,7 @@
 
 Self Host Langfuse on Railway. Traces, Evals & Prompt Management
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/langfuse)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/langfuse)
 
 ## About
 
@@ -138,4 +138,4 @@ The v3 architecture queues all incoming trace events to S3 (MinIO) immediately o
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/langfuse)
+[View on Railway →](https://railway.com/deploy/langfuse)

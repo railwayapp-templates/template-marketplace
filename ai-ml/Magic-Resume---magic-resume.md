@@ -2,7 +2,7 @@
 
 AI-powered resume builder with real-time preview, auto-save, and PDF export
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/magic-resume)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/magic-resume)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting Magic Resume is straightforward and requires minimal configuration. No d
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/magic-resume)
+[View on Railway →](https://railway.com/deploy/magic-resume)

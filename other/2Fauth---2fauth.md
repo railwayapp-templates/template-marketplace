@@ -2,7 +2,7 @@
 
 Deploy and Host 2Fauth with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/2fauth)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/2fauth)
 
 ## About
 
@@ -73,4 +73,4 @@ Hosting 2Fauth allows you to run your own secure 2FA service on your infrastruct
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/2fauth)
+[View on Railway →](https://railway.com/deploy/2fauth)

@@ -2,7 +2,7 @@
 
 A powerful workflow automation tool for technical people
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-with-workers)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-with-workers)
 
 ## About
 
@@ -89,4 +89,4 @@ n8n (w/ workers) runs as a multi-service architecture where the main instance ha
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-with-workers)
+[View on Railway →](https://railway.com/deploy/n8n-with-workers)

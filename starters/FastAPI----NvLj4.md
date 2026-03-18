@@ -2,7 +2,7 @@
 
 Web framework for developing RESTful APIs in Python
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-NvLj4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-NvLj4)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting FastAPI means running a Python web application that leverages ASGI serve
 
 **Category:** Starters · **Tags:** python, server · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/-NvLj4)
+[View on Railway →](https://railway.com/deploy/-NvLj4)

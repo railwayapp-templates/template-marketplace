@@ -2,7 +2,7 @@
 
 Self-Host spoo.me URL shortener on railway.app
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_6W-dI)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_6W-dI)
 
 ## About
 
@@ -28,4 +28,4 @@ Deploying steps:
 
 **Category:** Other · **Languages:** Python, JavaScript
 
-[View on Railway →](https://railway.com/template/_6W-dI)
+[View on Railway →](https://railway.com/deploy/_6W-dI)

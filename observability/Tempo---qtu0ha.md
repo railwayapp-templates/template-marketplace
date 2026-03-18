@@ -2,7 +2,7 @@
 
 Grafana Tempo server for visualization and analysis of tracing data
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qtu0ha)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qtu0ha)
 
 ## About
 
@@ -64,4 +64,4 @@ If you find a bug in the template for railway, you can [submit an issue](https:/
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/qtu0ha)
+[View on Railway →](https://railway.com/deploy/qtu0ha)

@@ -2,7 +2,7 @@
 
 Durable workflows, pub/sub, key/value and cron with Dapr & Diagrid Catalyst
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railway-catalyst-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-catalyst-starter)
 
 ## About
 
@@ -57,4 +57,4 @@ _Note_: This starter template only demonstrates how to use Durable Workflows in 
 
 **Category:** Starters · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/railway-catalyst-starter)
+[View on Railway →](https://railway.com/deploy/railway-catalyst-starter)

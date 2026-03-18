@@ -2,7 +2,7 @@
 
 Lightweight MinIO with console and S3 API in one service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/minio-single-service)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minio-single-service)
 
 ## About
 
@@ -46,4 +46,4 @@ You can control security-sensitive settings such as STS token duration and persi
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/minio-single-service)
+[View on Railway →](https://railway.com/deploy/minio-single-service)

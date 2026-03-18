@@ -2,7 +2,7 @@
 
 Blazor Server with ASP.NET Identity auth and PostgreSQL - production ready
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/blazor-authentication-postgres)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/blazor-authentication-postgres)
 
 ## About
 
@@ -38,4 +38,4 @@ This template deploys a complete authentication-ready Blazor Server application 
 
 **Category:** Starters · **Languages:** HTML, C#, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/blazor-authentication-postgres)
+[View on Railway →](https://railway.com/deploy/blazor-authentication-postgres)

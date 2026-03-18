@@ -2,7 +2,7 @@
 
 Log drains for Railway - forwards logs to observability platforms
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/locomotive)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/locomotive)
 
 ## About
 
@@ -255,4 +255,4 @@ Configuration is done through environment variables. See explanation and example
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/locomotive)
+[View on Railway →](https://railway.com/deploy/locomotive)

@@ -2,7 +2,7 @@
 
 A easy way to deploy your own graph node for LUKSO blockchain.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qgkIko)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qgkIko)
 
 ## About
 
@@ -47,4 +47,4 @@ Disclaimers:
 
 **Category:** Other · **Languages:** Go, Shell, Makefile, Dockerfile, Python, PureBasic
 
-[View on Railway →](https://railway.com/template/qgkIko)
+[View on Railway →](https://railway.com/deploy/qgkIko)

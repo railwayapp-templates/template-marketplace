@@ -2,7 +2,7 @@
 
 AI-First Business OS for solopreneurs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/alfredos)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/alfredos)
 
 ## About
 
@@ -247,4 +247,4 @@ Typical hosting costs start at $5-20/month depending on usage, replacing $1,000+
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, Handlebars, Shell, HTML, Smarty, Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/alfredos)
+[View on Railway →](https://railway.com/deploy/alfredos)

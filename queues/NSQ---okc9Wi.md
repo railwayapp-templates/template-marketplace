@@ -2,7 +2,7 @@
 
 Realtime distributed messaging platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/okc9Wi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/okc9Wi)
 
 ## About
 
@@ -105,4 +105,4 @@ NSQ is a realtime distributed messaging platform.
 
 **Category:** Queues · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/okc9Wi)
+[View on Railway →](https://railway.com/deploy/okc9Wi)

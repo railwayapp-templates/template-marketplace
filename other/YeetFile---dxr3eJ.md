@@ -2,7 +2,7 @@
 
 Encrypted file sharing and file/password vault service 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dxr3eJ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dxr3eJ)
 
 ## About
 
@@ -92,4 +92,4 @@ ___
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/dxr3eJ)
+[View on Railway →](https://railway.com/deploy/dxr3eJ)

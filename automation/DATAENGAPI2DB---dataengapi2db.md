@@ -2,7 +2,7 @@
 
 Deploy and Host API2DB-DATAENG-TEMPLATE with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dataengapi2db)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dataengapi2db)
 
 ## About
 
@@ -101,4 +101,4 @@ Fetch JSON from any HTTP API and store it in PostgreSQL. Ideal for scheduled ETL
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/dataengapi2db)
+[View on Railway →](https://railway.com/deploy/dataengapi2db)

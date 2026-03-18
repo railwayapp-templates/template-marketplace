@@ -2,7 +2,7 @@
 
 Rocicorp's ZeroSync engine for local-first apps
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Z-5ubo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Z-5ubo)
 
 ## About
 
@@ -75,4 +75,4 @@ You may have to play around with the `ZERO_NUM_SYNC_WORKERS` to figure out what 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/Z-5ubo)
+[View on Railway →](https://railway.com/deploy/Z-5ubo)

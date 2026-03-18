@@ -2,7 +2,7 @@
 
 Official Docker image - AI vector database for RAG, LLMs & hybrid search
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/chromadb-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chromadb-1)
 
 ## About
 
@@ -93,4 +93,4 @@ Official Docker image - AI vector database for RAG, LLMs & hybrid search
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/chromadb-1)
+[View on Railway →](https://railway.com/deploy/chromadb-1)

@@ -2,7 +2,7 @@
 
 Basic structure of a Django app with Postgres, Celery, Redis, and Flower.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/a6vvTu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/a6vvTu)
 
 ## About
 
@@ -52,4 +52,4 @@ Requires wiring up access between databases and app & Celery.
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/a6vvTu)
+[View on Railway →](https://railway.com/deploy/a6vvTu)

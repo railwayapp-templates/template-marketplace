@@ -2,7 +2,7 @@
 
 Spark Stack is an tool for building web apps with prompts.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/61t3xx)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/61t3xx)
 
 ## About
 
@@ -58,4 +58,4 @@ Spark Stack is an tool for building web applications through an AI-powered chat 
 
 **Category:** AI/ML · **Languages:** JavaScript, Python, CSS, Dockerfile, Mako
 
-[View on Railway →](https://railway.com/template/61t3xx)
+[View on Railway →](https://railway.com/deploy/61t3xx)

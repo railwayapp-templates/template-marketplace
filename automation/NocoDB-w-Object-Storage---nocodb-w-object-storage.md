@@ -2,7 +2,7 @@
 
 OSS Airtable Alternative. Deployment optimized for maintainability.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nocodb-w-object-storage)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nocodb-w-object-storage)
 
 ## About
 
@@ -63,4 +63,4 @@ Railway is the **simplest way to deploy and scale infrastructure**—no DevOps e
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/nocodb-w-object-storage)
+[View on Railway →](https://railway.com/deploy/nocodb-w-object-storage)

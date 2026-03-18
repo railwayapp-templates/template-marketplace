@@ -2,7 +2,7 @@
 
 A popular self-hosted "headless" CMS
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/e10OW1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/e10OW1)
 
 ## About
 
@@ -87,4 +87,4 @@ In summary, the Railway.app Strapi template provides a seamless and efficient wa
 
 **Category:** CMS · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/e10OW1)
+[View on Railway →](https://railway.com/deploy/e10OW1)

@@ -2,7 +2,7 @@
 
 Open Source & Self-Hosted uptime monitoring tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/peekaping)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/peekaping)
 
 ## About
 
@@ -27,4 +27,4 @@ On Railway, you deploy Peekaping as a containerized service and attach a databas
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/peekaping)
+[View on Railway →](https://railway.com/deploy/peekaping)

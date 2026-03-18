@@ -2,7 +2,7 @@
 
 A template for VibeKit - A production-ready Next.js boilerplate by datayolk
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vibekit-deployment)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vibekit-deployment)
 
 ## About
 
@@ -38,4 +38,4 @@ The deployment automatically runs database migrations and seeds initial data on 
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/vibekit-deployment)
+[View on Railway →](https://railway.com/deploy/vibekit-deployment)

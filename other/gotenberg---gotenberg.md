@@ -2,7 +2,7 @@
 
 Gotenberg - containerized API for seamless PDF conversion.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gotenberg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gotenberg)
 
 ## About
 
@@ -26,4 +26,4 @@ Deploying Gotenberg on Railway involves building or referencing the official Doc
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/gotenberg)
+[View on Railway →](https://railway.com/deploy/gotenberg)

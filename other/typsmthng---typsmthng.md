@@ -2,7 +2,7 @@
 
 A browser-native Typst editor with live preview
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/typsmthng)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/typsmthng)
 
 ## About
 
@@ -22,4 +22,4 @@ typsmthng is a static single-page application built with React 19, TypeScript, a
 
 **Category:** Other · **Languages:** TypeScript, CSS, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/typsmthng)
+[View on Railway →](https://railway.com/deploy/typsmthng)

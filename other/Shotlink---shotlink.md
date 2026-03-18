@@ -2,7 +2,7 @@
 
 Shotlink is a REST API service that allows capture websites screenshots.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/shotlink)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/shotlink)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting Shotlink involves running a Go-based web service that interfaces with Ch
 
 **Category:** Other · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/shotlink)
+[View on Railway →](https://railway.com/deploy/shotlink)

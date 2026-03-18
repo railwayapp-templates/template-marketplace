@@ -2,7 +2,7 @@
 
 An example Laravel application
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fWEWWf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fWEWWf)
 
 ## About
 
@@ -86,4 +86,4 @@ Laravel is the PHP Frameworkfor Web Artisans. Laravel is a web application frame
 
 **Category:** Starters · **Tags:** php · **Languages:** PHP, Blade, JavaScript
 
-[View on Railway →](https://railway.com/template/fWEWWf)
+[View on Railway →](https://railway.com/deploy/fWEWWf)

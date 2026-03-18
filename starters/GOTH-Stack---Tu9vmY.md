@@ -2,7 +2,7 @@
 
 A Go + Go Templates + HTMX Starter
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Tu9vmY)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Tu9vmY)
 
 ## About
 
@@ -39,4 +39,4 @@ Once deployed, you should be good to begin modifying the code to make changes. T
 
 **Category:** Starters · **Languages:** Go, HTML, Shell
 
-[View on Railway →](https://railway.com/template/Tu9vmY)
+[View on Railway →](https://railway.com/deploy/Tu9vmY)

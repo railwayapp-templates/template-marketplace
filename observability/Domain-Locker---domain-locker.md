@@ -2,7 +2,7 @@
 
 The Central Hub for all your Domain Names
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/domain-locker)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/domain-locker)
 
 ## About
 
@@ -38,4 +38,4 @@ Hosting Domain Locker involves deploying a full-stack application consisting of 
 
 **Category:** Observability · **Languages:** TypeScript, HTML, SCSS, PLpgSQL, Shell, CSS, Dockerfile, JavaScript, Smarty
 
-[View on Railway →](https://railway.com/template/domain-locker)
+[View on Railway →](https://railway.com/deploy/domain-locker)

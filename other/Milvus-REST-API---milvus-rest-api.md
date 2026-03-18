@@ -2,7 +2,7 @@
 
 Milvus DB with native features and REST APIs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/milvus-rest-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/milvus-rest-api)
 
 ## About
 
@@ -47,4 +47,4 @@ This Railway template deploys a complete 5-service architecture in one click: Mi
 
 **Category:** Other · **Languages:** Python, Shell
 
-[View on Railway →](https://railway.com/template/milvus-rest-api)
+[View on Railway →](https://railway.com/deploy/milvus-rest-api)

@@ -2,7 +2,7 @@
 
 Launch a Self-Hosted Newsletter with Listmonk on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/listmonk-mailchimp-alternative)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/listmonk-mailchimp-alternative)
 
 ## About
 
@@ -61,4 +61,4 @@ Key features:
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/listmonk-mailchimp-alternative)
+[View on Railway →](https://railway.com/deploy/listmonk-mailchimp-alternative)

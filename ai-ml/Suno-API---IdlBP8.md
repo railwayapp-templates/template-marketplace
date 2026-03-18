@@ -2,7 +2,7 @@
 
 REST API for Suno AI for interacting with Suno AI's music generator.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/IdlBP8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/IdlBP8)
 
 ## About
 
@@ -172,4 +172,4 @@ If you have any questions, feedback, or just want to say hi, you can reach out t
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/IdlBP8)
+[View on Railway →](https://railway.com/deploy/IdlBP8)

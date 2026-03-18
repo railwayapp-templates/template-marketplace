@@ -2,7 +2,7 @@
 
 Deploy a discoverable Spring Boot-based microservice with Java
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JvYvDw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JvYvDw)
 
 ## About
 
@@ -60,4 +60,4 @@ Check out [Spring Cloud Netflix Eureka](https://railway.app/template/HM8cFB?refe
 
 **Category:** Starters · **Languages:** Java, Dockerfile
 
-[View on Railway →](https://railway.com/template/JvYvDw)
+[View on Railway →](https://railway.com/deploy/JvYvDw)

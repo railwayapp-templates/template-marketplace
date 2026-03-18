@@ -2,7 +2,7 @@
 
 Simple HTTP uptime monitor with email and webhook alerts
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Y_0mDB)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Y_0mDB)
 
 ## About
 
@@ -54,4 +54,4 @@ CIAO is an open-source HTTP monitoring tool that helps you track the status of w
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/Y_0mDB)
+[View on Railway →](https://railway.com/deploy/Y_0mDB)

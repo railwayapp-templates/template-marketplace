@@ -2,7 +2,7 @@
 
 Make your Railway Buckets public and geo-distributed.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/public-buckets)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/public-buckets)
 
 ## About
 
@@ -49,4 +49,4 @@ Deploying a Go based docker image, that can be replicated across regions, as it'
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/public-buckets)
+[View on Railway →](https://railway.com/deploy/public-buckets)

@@ -2,7 +2,7 @@
 
 A self-contained template for LiteLLM Proxy Server with  DB/Cache
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Lm9gxI)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Lm9gxI)
 
 ## About
 
@@ -142,4 +142,4 @@ For additional configuration options and advanced settings, please refer to the 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/Lm9gxI)
+[View on Railway →](https://railway.com/deploy/Lm9gxI)

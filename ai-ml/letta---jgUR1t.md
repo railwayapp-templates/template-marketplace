@@ -2,7 +2,7 @@
 
 Deploy a Letta server (uses the latest Letta Docker image)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jgUR1t)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jgUR1t)
 
 ## About
 
@@ -52,4 +52,4 @@ To connect Letta to an additional API provider, you can go to your Railway deplo
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/jgUR1t)
+[View on Railway →](https://railway.com/deploy/jgUR1t)

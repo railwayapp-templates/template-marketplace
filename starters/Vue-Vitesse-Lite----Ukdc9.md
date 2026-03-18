@@ -2,7 +2,7 @@
 
 ⛺️ Lightweight version of Vitesse Vue
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-Ukdc9)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-Ukdc9)
 
 ## About
 
@@ -66,4 +66,4 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 
 **Category:** Starters · **Languages:** TypeScript, Vue, HTML, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/-Ukdc9)
+[View on Railway →](https://railway.com/deploy/-Ukdc9)

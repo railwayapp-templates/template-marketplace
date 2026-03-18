@@ -2,7 +2,7 @@
 
 Invoice Ninja [Mar '26] (Create, Send & Track Invoices Easily) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/invoiceninja)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/invoiceninja)
 
 ## About
 
@@ -54,4 +54,4 @@ You can self-host Invoice Ninja to maintain full control over your client data, 
 
 **Category:** Automation · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/invoiceninja)
+[View on Railway →](https://railway.com/deploy/invoiceninja)

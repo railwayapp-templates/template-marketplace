@@ -2,7 +2,7 @@
 
 Push notifications made easy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ntfy-push-notifications-made-easy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ntfy-push-notifications-made-easy)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting ntfy on Railway involves deploying a lightweight Go server that provides
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ntfy-push-notifications-made-easy)
+[View on Railway →](https://railway.com/deploy/ntfy-push-notifications-made-easy)

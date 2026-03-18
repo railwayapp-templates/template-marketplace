@@ -2,7 +2,7 @@
 
 Telegram bot that turns file uploads into secure public download links
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/telegram-file-to-link-bot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/telegram-file-to-link-bot)
 
 ## About
 
@@ -66,4 +66,4 @@ Hosting Telegram File To Link Bot involves running a Python-based backend that i
 
 **Category:** Bots · **Languages:** Python, HTML, CSS, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/telegram-file-to-link-bot)
+[View on Railway →](https://railway.com/deploy/telegram-file-to-link-bot)

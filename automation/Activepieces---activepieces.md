@@ -2,7 +2,7 @@
 
 Automation software that's AI-first, no-code & open-source
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/activepieces)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/activepieces)
 
 ## About
 
@@ -61,4 +61,4 @@ Hosting Activepieces provides a robust solution for automating tasks and integra
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/activepieces)
+[View on Railway →](https://railway.com/deploy/activepieces)

@@ -2,7 +2,7 @@
 
 Simplify, secure, and manage your PDF effortlessly.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZelMkZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZelMkZ)
 
 ## About
 
@@ -81,4 +81,4 @@ Get all information on a PDF to view or export as JSON
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ZelMkZ)
+[View on Railway →](https://railway.com/deploy/ZelMkZ)

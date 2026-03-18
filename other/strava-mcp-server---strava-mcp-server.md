@@ -2,7 +2,7 @@
 
 AI agents connect to Strava activities and athlete data.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/strava-mcp-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/strava-mcp-server)
 
 ## About
 
@@ -18,4 +18,4 @@ Deploying strava-mcp-server requires a server that handles OAuth 2.0 token manag
 
 **Category:** Other · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/strava-mcp-server)
+[View on Railway →](https://railway.com/deploy/strava-mcp-server)

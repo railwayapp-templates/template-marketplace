@@ -2,7 +2,7 @@
 
 Telegram Unifi Monitoring Bot
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/waking-life-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/waking-life-server)
 
 ## About
 
@@ -38,4 +38,4 @@ This FastAPI-based service receives motion detection events from UniFi Protect a
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/waking-life-server)
+[View on Railway →](https://railway.com/deploy/waking-life-server)

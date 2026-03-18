@@ -2,7 +2,7 @@
 
 ExpressJS API Starter with basic examples
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Vp8hse)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Vp8hse)
 
 ## About
 
@@ -44,4 +44,4 @@ The `hello` route is defined  in the `helloRoute`
 
 **Category:** Starters · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/Vp8hse)
+[View on Railway →](https://railway.com/deploy/Vp8hse)

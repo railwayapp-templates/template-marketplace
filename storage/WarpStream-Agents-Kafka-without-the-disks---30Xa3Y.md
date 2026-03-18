@@ -2,7 +2,7 @@
 
 Official template for deploying the WarpStream Agents.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/30Xa3Y)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/30Xa3Y)
 
 ## About
 
@@ -38,4 +38,4 @@ In addition, you will also need an S3-compatible object store. We recommend [Clo
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/30Xa3Y)
+[View on Railway →](https://railway.com/deploy/30Xa3Y)

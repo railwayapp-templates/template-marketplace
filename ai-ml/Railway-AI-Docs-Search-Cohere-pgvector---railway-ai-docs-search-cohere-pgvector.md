@@ -2,7 +2,7 @@
 
 Semantic search engine for your documents, using Cohere embeddings
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railway-ai-docs-search-cohere-pgvector)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-ai-docs-search-cohere-pgvector)
 
 ## About
 
@@ -97,4 +97,4 @@ By deploying Railway AI Docs Search (Cohere + pgvector) on Railway, you are one 
 
 **Category:** AI/ML · **Languages:** JavaScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/railway-ai-docs-search-cohere-pgvector)
+[View on Railway →](https://railway.com/deploy/railway-ai-docs-search-cohere-pgvector)

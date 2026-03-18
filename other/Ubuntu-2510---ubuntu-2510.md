@@ -2,7 +2,7 @@
 
 Ubuntu 25.10 with Volume. SSH into for diagnostics, testing, and dev tasks.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ubuntu-2510)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ubuntu-2510)
 
 ## About
 
@@ -23,4 +23,4 @@ Deploying Ubuntu 25.10 on Railway uses the official minimal Ubuntu Docker image 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ubuntu-2510)
+[View on Railway →](https://railway.com/deploy/ubuntu-2510)

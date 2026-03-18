@@ -2,7 +2,7 @@
 
 Alternative, self-hosted implementation of the Bitwarden password manager.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xNfnyW)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xNfnyW)
 
 ## About
 
@@ -41,4 +41,4 @@ The template deploys a lightweight Vaultwarden service from the official docker 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/xNfnyW)
+[View on Railway →](https://railway.com/deploy/xNfnyW)

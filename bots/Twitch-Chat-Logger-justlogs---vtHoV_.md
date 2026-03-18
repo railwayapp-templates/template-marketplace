@@ -2,7 +2,7 @@
 
 JustLogs template for twitch logging
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vtHoV_)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vtHoV_)
 
 ## About
 
@@ -43,4 +43,4 @@ Several variables need to be set and will be populated in the configuration file
 
 **Category:** Bots · **Languages:** Python, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/vtHoV_)
+[View on Railway →](https://railway.com/deploy/vtHoV_)

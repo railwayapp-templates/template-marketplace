@@ -2,7 +2,7 @@
 
 🪄1-Click Deploy | High Performance N8N setup with Postgres17 + Redis + MCP
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-20-pro-queue-mode-workers-webhooks-m)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-20-pro-queue-mode-workers-webhooks-m)
 
 ## About
 
@@ -247,4 +247,4 @@ Hosting n8n in this configuration requires orchestrating multiple interconnected
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-20-pro-queue-mode-workers-webhooks-m)
+[View on Railway →](https://railway.com/deploy/n8n-20-pro-queue-mode-workers-webhooks-m)

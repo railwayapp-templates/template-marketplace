@@ -2,7 +2,7 @@
 
 An attendance website, built for FRC.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/frc-attendance)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/frc-attendance)
 
 ## About
 
@@ -36,4 +36,4 @@ frc-attendance is a project backed by Nuxt 3 for the frontend and Rust's poem-we
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/frc-attendance)
+[View on Railway →](https://railway.com/deploy/frc-attendance)

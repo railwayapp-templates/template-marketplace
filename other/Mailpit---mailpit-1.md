@@ -2,7 +2,7 @@
 
 Lightweight SMTP server & email testing tool with web UI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mailpit-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mailpit-1)
 
 ## About
 
@@ -33,4 +33,4 @@ Mailpit runs a small SMTP server and message viewer that fits well into developm
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/mailpit-1)
+[View on Railway →](https://railway.com/deploy/mailpit-1)

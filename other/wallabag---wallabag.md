@@ -2,7 +2,7 @@
 
 Save and classify articles. Read them later. Freely.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wallabag)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wallabag)
 
 ## About
 
@@ -57,4 +57,4 @@ A typical deployment also requires configuring background jobs for importing art
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/wallabag)
+[View on Railway →](https://railway.com/deploy/wallabag)

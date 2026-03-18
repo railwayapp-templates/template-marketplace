@@ -2,7 +2,7 @@
 
 Self-hosted Website Builder
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/plark)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/plark)
 
 ## About
 
@@ -27,4 +27,4 @@ Self-hosted Website Builder
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/plark)
+[View on Railway →](https://railway.com/deploy/plark)

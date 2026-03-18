@@ -2,7 +2,7 @@
 
 cunxg oj ddossdfsfdsfdsfdsfd
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xKXePg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xKXePg)
 
 ## About
 
@@ -16,4 +16,4 @@ cunxg oj ddossdfsfdsfdsfdsfdcunxg oj ddossdfsfdsfdsfdsfdcunxg oj ddossdfsfdsfdsf
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/xKXePg)
+[View on Railway →](https://railway.com/deploy/xKXePg)

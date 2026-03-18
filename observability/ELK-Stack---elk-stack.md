@@ -2,7 +2,7 @@
 
 One-click elasticsearch/kibana/logstash/filebeat stack deployment.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/elk-stack)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/elk-stack)
 
 ## About
 
@@ -52,4 +52,4 @@ Hosting ELK Stack on Railway means you can quickly obtain a highly available and
 
 **Category:** Observability · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/elk-stack)
+[View on Railway →](https://railway.com/deploy/elk-stack)

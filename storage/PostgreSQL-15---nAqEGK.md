@@ -2,7 +2,7 @@
 
 PostgreSQL 15 database with data persistence and TCP Proxy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nAqEGK)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nAqEGK)
 
 ## About
 
@@ -51,4 +51,4 @@ psql "postgres://railway:PASSWORD@PROXY_DOMAIN:PROXY_PORT/railway"
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/nAqEGK)
+[View on Railway →](https://railway.com/deploy/nAqEGK)

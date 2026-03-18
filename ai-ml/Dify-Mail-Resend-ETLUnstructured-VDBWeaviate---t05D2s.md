@@ -2,7 +2,7 @@
 
 Dify works with Resend + Unstructured + Weaviate
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/t05D2s)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/t05D2s)
 
 ## About
 
@@ -221,4 +221,4 @@ Just to redeploy the following service (Deploy from the latest Dify’s Docker I
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/t05D2s)
+[View on Railway →](https://railway.com/deploy/t05D2s)

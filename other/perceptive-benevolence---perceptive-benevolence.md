@@ -2,7 +2,7 @@
 
 Deploy Woki-lite in Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/perceptive-benevolence)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/perceptive-benevolence)
 
 ## About
 
@@ -34,4 +34,4 @@ Deploying WokiLite involves running a Node.js backend (Express.js API) and servi
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/perceptive-benevolence)
+[View on Railway →](https://railway.com/deploy/perceptive-benevolence)

@@ -2,7 +2,7 @@
 
 Kitten TTS [Mar ’26] (Generate Natural AI Voices Instantly) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kittentts)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kittentts)
 
 ## About
 
@@ -28,4 +28,4 @@ When you self-host **KittenTTS** on Railway, you get complete control over your 
 
 **Category:** AI/ML · **Languages:** Python, CSS, JavaScript, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/kittentts)
+[View on Railway →](https://railway.com/deploy/kittentts)

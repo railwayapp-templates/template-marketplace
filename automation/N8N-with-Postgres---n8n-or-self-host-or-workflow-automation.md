@@ -2,7 +2,7 @@
 
 [Mar '26] The cheapest n8n instance with database. Period.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-or-self-host-or-workflow-automation)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-or-self-host-or-workflow-automation)
 
 ## About
 
@@ -72,4 +72,4 @@ Every parameter is well-documented in the **[official n8n environment variable r
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-or-self-host-or-workflow-automation)
+[View on Railway →](https://railway.com/deploy/n8n-or-self-host-or-workflow-automation)

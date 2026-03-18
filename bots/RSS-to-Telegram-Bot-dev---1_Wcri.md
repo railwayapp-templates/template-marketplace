@@ -2,7 +2,7 @@
 
 A Telegram RSS bot that cares about your reading experience
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/1_Wcri)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1_Wcri)
 
 ## About
 
@@ -46,4 +46,4 @@ For more details, refer to the [deployment guide](https://github.com/Rongronggg9
 
 **Category:** Bots · **Languages:** Python, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/1_Wcri)
+[View on Railway →](https://railway.com/deploy/1_Wcri)

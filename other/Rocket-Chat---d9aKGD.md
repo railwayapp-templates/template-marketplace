@@ -2,7 +2,7 @@
 
 Team communication platform with strong data protection.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/d9aKGD)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/d9aKGD)
 
 ## About
 
@@ -47,4 +47,4 @@ If you have trouble during the initial setup at the last step, then try redeploy
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/d9aKGD)
+[View on Railway →](https://railway.com/deploy/d9aKGD)

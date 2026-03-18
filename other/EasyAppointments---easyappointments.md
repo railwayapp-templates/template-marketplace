@@ -2,7 +2,7 @@
 
 Web application for managing appointment scheduling
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/easyappointments)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/easyappointments)
 
 ## About
 
@@ -44,4 +44,4 @@ Hosting Easy!Appointments gives you full control over your scheduling platform. 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/easyappointments)
+[View on Railway →](https://railway.com/deploy/easyappointments)

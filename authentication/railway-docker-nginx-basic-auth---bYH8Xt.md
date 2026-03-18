@@ -2,7 +2,7 @@
 
 Add basic auth to your web app.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bYH8Xt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bYH8Xt)
 
 ## About
 
@@ -34,4 +34,4 @@ Just leave `ENABLE_ALPINE_PRIVATE_NETWORKING` with value `true`.
 
 **Category:** Authentication · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/bYH8Xt)
+[View on Railway →](https://railway.com/deploy/bYH8Xt)

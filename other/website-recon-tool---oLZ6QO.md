@@ -2,7 +2,7 @@
 
 Web Recon Tool 🔍 An efficient reconnaissance tool for security researchers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/oLZ6QO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oLZ6QO)
 
 ## About
 
@@ -16,4 +16,4 @@ Web Recon Tool 🔍 – A robust reconnaissance solution tailored for security r
 
 **Category:** Other · **Languages:** Go
 
-[View on Railway →](https://railway.com/template/oLZ6QO)
+[View on Railway →](https://railway.com/deploy/oLZ6QO)

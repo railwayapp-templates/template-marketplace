@@ -2,7 +2,7 @@
 
 Ready made template to make your KOmpanion instance
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n9t_1r)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n9t_1r)
 
 ## About
 
@@ -41,4 +41,4 @@ https://github.com/vanadium23/kompanion?tab=readme-ov-file#configuration
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/n9t_1r)
+[View on Railway →](https://railway.com/deploy/n9t_1r)

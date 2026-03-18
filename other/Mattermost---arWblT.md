@@ -2,7 +2,7 @@
 
 An open source alternative to Slack and Microsoft Teams.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/arWblT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/arWblT)
 
 ## About
 
@@ -44,4 +44,4 @@ If you add a different domain, you just need to re-deploy the app for the change
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/arWblT)
+[View on Railway →](https://railway.com/deploy/arWblT)

@@ -2,7 +2,7 @@
 
 OpenAPI-compatible with Swagger and redoc, using fastopenapi
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/SE518g)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/SE518g)
 
 ## About
 
@@ -40,4 +40,4 @@ The application provides two interactive API documentation interfaces:
 
 **Category:** Starters · **Languages:** Python, HTML, CSS, Procfile
 
-[View on Railway →](https://railway.com/template/SE518g)
+[View on Railway →](https://railway.com/deploy/SE518g)

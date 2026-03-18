@@ -2,7 +2,7 @@
 
  A ShareX/file upload server that is easy to use, packed with features!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vBGKg3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vBGKg3)
 
 ## About
 
@@ -79,4 +79,4 @@ The default credentials are "administrator" and "password". Once you login pleas
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/vBGKg3)
+[View on Railway →](https://railway.com/deploy/vBGKg3)

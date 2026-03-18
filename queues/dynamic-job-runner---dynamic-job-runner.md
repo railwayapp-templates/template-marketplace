@@ -2,7 +2,7 @@
 
 A .NET Scheduler easy to use.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dynamic-job-runner)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dynamic-job-runner)
 
 ## About
 
@@ -51,4 +51,4 @@ A .NET Scheduler easy to use.
 
 **Category:** Queues · **Languages:** C#, HTML, Dockerfile, CSS
 
-[View on Railway →](https://railway.com/template/dynamic-job-runner)
+[View on Railway →](https://railway.com/deploy/dynamic-job-runner)

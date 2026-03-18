@@ -2,7 +2,7 @@
 
 vector, full-text, regex, and metadata search.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/chromadb-latest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chromadb-latest)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting ChromaDB involves setting up a server instance that runs the Chroma serv
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/chromadb-latest)
+[View on Railway →](https://railway.com/deploy/chromadb-latest)

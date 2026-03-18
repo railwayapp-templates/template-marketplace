@@ -2,7 +2,7 @@
 
 Array Ventures: Coworker Agent
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/coworker)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/coworker)
 
 ## About
 
@@ -37,4 +37,4 @@ This template deploys a complete Coworker stack: the Mastra server, Inngest for 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/coworker)
+[View on Railway →](https://railway.com/deploy/coworker)

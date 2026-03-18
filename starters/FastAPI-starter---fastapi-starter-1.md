@@ -2,7 +2,7 @@
 
 A small fastapi server template with uv and uvicorn
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fastapi-starter-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-starter-1)
 
 ## About
 
@@ -44,4 +44,4 @@ This example starts up a [FastAPI](https://fastapi.tiangolo.com/) server.
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/fastapi-starter-1)
+[View on Railway →](https://railway.com/deploy/fastapi-starter-1)

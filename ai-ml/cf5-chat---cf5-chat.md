@@ -2,7 +2,7 @@
 
 Chat with multiple models in a sleek interface.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cf5-chat)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cf5-chat)
 
 ## About
 
@@ -38,4 +38,4 @@ CF5 Chat requires that you have a Postgres database and host the Svelte web app 
 
 **Category:** AI/ML · **Languages:** Svelte, TypeScript, JavaScript, SCSS, HTML
 
-[View on Railway →](https://railway.com/template/cf5-chat)
+[View on Railway →](https://railway.com/deploy/cf5-chat)

@@ -2,7 +2,7 @@
 
 Deploy and Host NocoDB + MinIO (Console & Storage) with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nocodb-minio-console-and-storage)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nocodb-minio-console-and-storage)
 
 ## About
 
@@ -69,4 +69,4 @@ This template deploys six services: NocoDB as the core application, PostgreSQL f
 
 **Category:** CMS · **Languages:** Dockerfile, Python, Shell
 
-[View on Railway →](https://railway.com/template/nocodb-minio-console-and-storage)
+[View on Railway →](https://railway.com/deploy/nocodb-minio-console-and-storage)

@@ -2,7 +2,7 @@
 
 Single MongoDB replica set for use with clients needing a replica set.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dxhww9)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dxhww9)
 
 ## About
 
@@ -103,4 +103,4 @@ The MongoDB instance is built directly from the [official MongoDB image in Docke
 
 **Category:** Storage · **Languages:** Shell, JavaScript, Python, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/dxhww9)
+[View on Railway →](https://railway.com/deploy/dxhww9)

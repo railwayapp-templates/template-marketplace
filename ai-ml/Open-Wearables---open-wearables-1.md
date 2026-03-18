@@ -2,7 +2,7 @@
 
 Self-hosted platform to unify wearable data.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-wearables-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-wearables-1)
 
 ## About
 
@@ -77,4 +77,4 @@ Open Wearables is designed for self-hosting with minimal setup complexity. The p
 
 **Category:** AI/ML · **Languages:** Python, TypeScript, MDX, CSS, Dockerfile, Makefile, Shell, Mako, JavaScript
 
-[View on Railway →](https://railway.com/template/open-wearables-1)
+[View on Railway →](https://railway.com/deploy/open-wearables-1)

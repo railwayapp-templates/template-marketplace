@@ -2,7 +2,7 @@
 
 Transform your Bento profile with a personalized domain name
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6fVSiZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6fVSiZ)
 
 ## About
 
@@ -35,4 +35,4 @@ Transform your Bento profile with a personalized domain name
 
 **Category:** Blogs · **Languages:** TypeScript, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/6fVSiZ)
+[View on Railway →](https://railway.com/deploy/6fVSiZ)

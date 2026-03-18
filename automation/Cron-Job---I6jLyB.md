@@ -2,7 +2,7 @@
 
 Run cron jobs on Railway using Node.js
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/I6jLyB)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/I6jLyB)
 
 ## About
 
@@ -29,4 +29,4 @@ For more details refer - https://github.com/rajdeep-ghosh/cronjob
 
 **Category:** Automation · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/I6jLyB)
+[View on Railway →](https://railway.com/deploy/I6jLyB)

@@ -2,7 +2,7 @@
 
 Simple Bot Polymarket copy-trading (buy & sell) with auto cashout
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/polymarket-bot-v2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/polymarket-bot-v2)
 
 ## About
 
@@ -50,4 +50,4 @@ Hosting Polymarket Bot V2 on Railway means running a long‑lived Node.js proces
 
 **Category:** Bots · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/polymarket-bot-v2)
+[View on Railway →](https://railway.com/deploy/polymarket-bot-v2)

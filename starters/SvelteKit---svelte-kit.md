@@ -2,7 +2,7 @@
 
 An example SvelteKit application
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/svelte-kit)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/svelte-kit)
 
 ## About
 
@@ -24,4 +24,4 @@ This provides a pre-configured setup for deploying your web application on Railw
 
 **Category:** Starters · **Tags:** web, frontend, typescript · **Languages:** TypeScript, Svelte, CSS, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/svelte-kit)
+[View on Railway →](https://railway.com/deploy/svelte-kit)

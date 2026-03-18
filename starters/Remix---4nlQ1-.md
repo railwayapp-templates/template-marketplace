@@ -2,7 +2,7 @@
 
 Starter Remix JS app using create-remix@2.9.2
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4nlQ1-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4nlQ1-)
 
 ## About
 
@@ -24,4 +24,4 @@ Make sure you have a url setup so you can access your new Remix app!
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/4nlQ1-)
+[View on Railway →](https://railway.com/deploy/4nlQ1-)

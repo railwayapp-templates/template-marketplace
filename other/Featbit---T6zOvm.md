@@ -2,7 +2,7 @@
 
 Open-source feature flags management tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/T6zOvm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/T6zOvm)
 
 ## About
 
@@ -115,4 +115,4 @@ Open-source feature flags management tool
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/T6zOvm)
+[View on Railway →](https://railway.com/deploy/T6zOvm)

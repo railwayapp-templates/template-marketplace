@@ -2,7 +2,7 @@
 
 Send emails directly from ChatGPT, Claude, Cursor & any AI assistant!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gmail-mcp-sever)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gmail-mcp-sever)
 
 ## About
 
@@ -44,4 +44,4 @@ Hosting the Gmail MCP Server on Railway transforms it from a local script into a
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/gmail-mcp-sever)
+[View on Railway →](https://railway.com/deploy/gmail-mcp-sever)

@@ -2,7 +2,7 @@
 
 Roundcube with MySQL as Database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VgpEjU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VgpEjU)
 
 ## About
 
@@ -51,4 +51,4 @@ Using this template, you can easily deploy a Roundcube with MySQL on Railway.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/VgpEjU)
+[View on Railway →](https://railway.com/deploy/VgpEjU)

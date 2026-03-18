@@ -2,7 +2,7 @@
 
 Open-source CRM with a 360° customer view, sales and marketing automation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-7e9P7)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-7e9P7)
 
 ## About
 
@@ -48,4 +48,4 @@ Hosting SuiteCRM allows organizations to maintain full control over their CRM da
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/-7e9P7)
+[View on Railway →](https://railway.com/deploy/-7e9P7)

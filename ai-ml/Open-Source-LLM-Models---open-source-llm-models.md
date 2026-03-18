@@ -2,7 +2,7 @@
 
 [Mar '26] Self host open LLMs + connect your ChatGPT Account
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-source-llm-models)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-source-llm-models)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting open‑source LLMs normally involves downloading models, configuring sto
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/open-source-llm-models)
+[View on Railway →](https://railway.com/deploy/open-source-llm-models)

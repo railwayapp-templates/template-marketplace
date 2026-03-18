@@ -2,7 +2,7 @@
 
 Link your OpenAI Assistants to a database + Evaluate Assistant responses
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-M8zbi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-M8zbi)
 
 ## About
 
@@ -46,4 +46,4 @@ You will probably find this repo useful if one or more of these points apply:
 
 **Category:** AI/ML · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/-M8zbi)
+[View on Railway →](https://railway.com/deploy/-M8zbi)

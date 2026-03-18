@@ -2,7 +2,7 @@
 
 FastAPI server to serve sentence-transformer embeddings
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/oFLL6X)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oFLL6X)
 
 ## About
 
@@ -33,4 +33,4 @@ Usage is simple, just post {"texts":["hello","world"]} to /embed on the exposed 
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/oFLL6X)
+[View on Railway →](https://railway.com/deploy/oFLL6X)

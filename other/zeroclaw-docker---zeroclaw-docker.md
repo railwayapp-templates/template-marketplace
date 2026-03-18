@@ -2,7 +2,7 @@
 
 Deploy and Host zeroclaw-docker with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zeroclaw-docker)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zeroclaw-docker)
 
 ## About
 
@@ -31,4 +31,4 @@ Deploying ZeroClaw involves building a statically compiled Rust binary inside a 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/zeroclaw-docker)
+[View on Railway →](https://railway.com/deploy/zeroclaw-docker)

@@ -2,7 +2,7 @@
 
 Deploy and host OpenFGA with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openfga)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openfga)
 
 ## About
 
@@ -47,4 +47,4 @@ OpenFGA is configured with a [pre-shared key](https://openfga.dev/docs/getting-s
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/openfga)
+[View on Railway →](https://railway.com/deploy/openfga)

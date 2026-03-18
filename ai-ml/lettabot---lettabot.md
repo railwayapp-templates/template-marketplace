@@ -2,7 +2,7 @@
 
 Your personal AI assistant that remembers everything.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lettabot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lettabot)
 
 ## About
 
@@ -52,4 +52,4 @@ your Letta agent. On first deploy, it automatically discovers or creates an agen
 
 **Category:** AI/ML · **Languages:** TypeScript, JavaScript, Python, MDX, Shell
 
-[View on Railway →](https://railway.com/template/lettabot)
+[View on Railway →](https://railway.com/deploy/lettabot)

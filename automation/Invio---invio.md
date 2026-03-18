@@ -2,7 +2,7 @@
 
 Self-hosted invoicing without the bloat.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/invio)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/invio)
 
 ## About
 
@@ -47,4 +47,4 @@ Hosting Invio on Railway involves deploying a lightweight web application that r
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/invio)
+[View on Railway →](https://railway.com/deploy/invio)

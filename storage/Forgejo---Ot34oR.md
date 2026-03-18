@@ -2,7 +2,7 @@
 
 Forgejo is a self-hosted lightweight software forge.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Ot34oR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Ot34oR)
 
 ## About
 
@@ -41,4 +41,4 @@ To deploy the Gitea project on Railway, just click through, all environment vari
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/Ot34oR)
+[View on Railway →](https://railway.com/deploy/Ot34oR)

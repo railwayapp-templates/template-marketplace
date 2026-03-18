@@ -2,7 +2,7 @@
 
 Deploy and host Open Lovable on Railway with ComputeSDK
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-lovable)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-lovable)
 
 ## About
 
@@ -39,4 +39,4 @@ All you need is a Firecrawl API key, a ComputeSDK API key, a Gemini/OpenAI/Anthr
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/open-lovable)
+[View on Railway →](https://railway.com/deploy/open-lovable)

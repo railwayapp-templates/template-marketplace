@@ -2,7 +2,7 @@
 
 Ultra-Lightweight Personal AI Assistant
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nanobot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nanobot)
 
 ## About
 
@@ -32,4 +32,4 @@ This template deploys nanobot with a web-based configuration UI and status dashb
 
 **Category:** AI/ML · **Languages:** HTML, Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/nanobot)
+[View on Railway →](https://railway.com/deploy/nanobot)

@@ -2,7 +2,7 @@
 
 Plan AI - Your new meeting AI meeting tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/plan-ai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/plan-ai)
 
 ## About
 
@@ -54,4 +54,4 @@ Deploying Plan AI involves running the Node.js/Express backend with PostgreSQL a
 
 **Category:** Other · **Languages:** TypeScript, HTML, Dockerfile, JavaScript, CSS, Shell
 
-[View on Railway →](https://railway.com/template/plan-ai)
+[View on Railway →](https://railway.com/deploy/plan-ai)

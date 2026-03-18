@@ -2,7 +2,7 @@
 
 Open-source AI usage metering and billing platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openmonetize)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openmonetize)
 
 ## About
 
@@ -77,4 +77,4 @@ Hosting OpenMonetize involves deploying a set of microservices and data stores. 
 
 **Category:** AI/ML · **Languages:** Python, TypeScript, Shell, CSS, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/openmonetize)
+[View on Railway →](https://railway.com/deploy/openmonetize)

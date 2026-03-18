@@ -2,7 +2,7 @@
 
 GraphQL API collection generator service using Graphman and Flask.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/graphman)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/graphman)
 
 ## About
 
@@ -56,4 +56,4 @@ The Graphman component expects two environment variables.  Both are preconfigure
 
 **Category:** Automation · **Languages:** TypeScript, Python, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/graphman)
+[View on Railway →](https://railway.com/deploy/graphman)

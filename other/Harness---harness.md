@@ -2,7 +2,7 @@
 
 End-to-end platform with SCM, CI/CD, hosted envs, and artifact registries
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/harness)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/harness)
 
 ## About
 
@@ -29,4 +29,4 @@ Harness Open Source is a modern, all-in-one development platform offering integr
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/harness)
+[View on Railway →](https://railway.com/deploy/harness)

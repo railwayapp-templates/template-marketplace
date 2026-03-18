@@ -2,7 +2,7 @@
 
 This is a Web3 NextJS starter dApp.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-web3-starte-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-web3-starte-1)
 
 ## About
 
@@ -32,4 +32,4 @@ The app is configured for a simple Railway deployment and showcases some basic s
 
 **Category:** Starters · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/nextjs-web3-starte-1)
+[View on Railway →](https://railway.com/deploy/nextjs-web3-starte-1)

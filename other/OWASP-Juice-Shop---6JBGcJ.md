@@ -2,7 +2,7 @@
 
 An intentionally vulnerable web app for security skills testing.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6JBGcJ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6JBGcJ)
 
 ## About
 
@@ -24,4 +24,4 @@ An intentionally vulnerable web app for security skills testing.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/6JBGcJ)
+[View on Railway →](https://railway.com/deploy/6JBGcJ)

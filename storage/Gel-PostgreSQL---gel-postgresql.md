@@ -2,7 +2,7 @@
 
 Gel supercharges PostgreSQL with a modern data model, graph queries & auth.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gel-postgresql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gel-postgresql)
 
 ## About
 
@@ -42,4 +42,4 @@ The deployment handles automatic schema migrations, connection management betwee
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/gel-postgresql)
+[View on Railway →](https://railway.com/deploy/gel-postgresql)

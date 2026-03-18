@@ -2,7 +2,7 @@
 
 A simple Discord bot written in Go
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/TZ2dBZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TZ2dBZ)
 
 ## About
 
@@ -38,4 +38,4 @@ DiscordGo is a [Go](https://golang.org/) package that provides low level bindin
 
 **Category:** Bots · **Tags:** discord, golang
 
-[View on Railway →](https://railway.com/template/TZ2dBZ)
+[View on Railway →](https://railway.com/deploy/TZ2dBZ)

@@ -2,7 +2,7 @@
 
 A railway template to deploy Phase Secrets Manager.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FgdM-Z)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FgdM-Z)
 
 ## About
 
@@ -109,4 +109,4 @@ Slack: https://slack.phase.dev
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/FgdM-Z)
+[View on Railway →](https://railway.com/deploy/FgdM-Z)

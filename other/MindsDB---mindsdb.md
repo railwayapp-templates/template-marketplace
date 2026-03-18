@@ -2,7 +2,7 @@
 
 MindsDB is an open-source platform brings AI directly to databases.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mindsdb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mindsdb)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting MindsDB involves running its server, configuring database connections, a
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/mindsdb)
+[View on Railway →](https://railway.com/deploy/mindsdb)

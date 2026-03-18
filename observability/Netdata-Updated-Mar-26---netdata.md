@@ -2,7 +2,7 @@
 
 Netdata [Mar ’26] (Application Monitoring alternative to Datadog) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/netdata)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/netdata)
 
 ## About
 
@@ -34,4 +34,4 @@ You can self-host Netdata to monitor your servers, apps, and cloud environments 
 
 **Category:** Observability · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/netdata)
+[View on Railway →](https://railway.com/deploy/netdata)

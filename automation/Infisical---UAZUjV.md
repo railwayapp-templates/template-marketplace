@@ -2,7 +2,7 @@
 
 Sync secrets across your team/infrastructure and prevent secret leaks.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/UAZUjV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/UAZUjV)
 
 ## About
 
@@ -62,4 +62,4 @@ https://github.com/Infisical/infisical/blob/main/.env.example
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/UAZUjV)
+[View on Railway →](https://railway.com/deploy/UAZUjV)

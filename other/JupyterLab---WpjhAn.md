@@ -2,7 +2,7 @@
 
 JupyterLab Is A Next-Generation Notebook Interface
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/WpjhAn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/WpjhAn)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting JupyterLab involves running and maintaining a web server that provides c
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/WpjhAn)
+[View on Railway →](https://railway.com/deploy/WpjhAn)

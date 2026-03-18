@@ -2,7 +2,7 @@
 
 Password Generation Should Be Simple And Secure.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/v9JNhZ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/v9JNhZ)
 
 ## About
 
@@ -40,4 +40,4 @@ PSWD allows you to easily generate strong, unique passwords tailored to your sec
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/v9JNhZ)
+[View on Railway →](https://railway.com/deploy/v9JNhZ)

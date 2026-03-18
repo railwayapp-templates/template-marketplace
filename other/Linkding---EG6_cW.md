@@ -2,7 +2,7 @@
 
 🔖 Bookmark manager designed be to be minimal, fast, and easy to set up.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/EG6_cW)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EG6_cW)
 
 ## About
 
@@ -42,4 +42,4 @@ It lets you save, organize, and search your favorite links — like a personal a
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/EG6_cW)
+[View on Railway →](https://railway.com/deploy/EG6_cW)

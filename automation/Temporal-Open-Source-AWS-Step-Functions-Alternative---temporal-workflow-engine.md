@@ -2,7 +2,7 @@
 
 Self-host Temporal. Durable Workflow Engine for workflow Orchestration
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/temporal-workflow-engine)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/temporal-workflow-engine)
 
 ## About
 
@@ -76,4 +76,4 @@ Key features:
 
 **Category:** Automation · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/temporal-workflow-engine)
+[View on Railway →](https://railway.com/deploy/temporal-workflow-engine)

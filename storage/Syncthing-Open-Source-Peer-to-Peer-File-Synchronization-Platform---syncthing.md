@@ -2,7 +2,7 @@
 
 Syncthing [Mar ’26] (OSS File Sync Alternative to Google Drive) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/syncthing)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/syncthing)
 
 ## About
 
@@ -33,4 +33,4 @@ Self-hosting Syncthing with Docker gives you full control over your file synchro
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/syncthing)
+[View on Railway →](https://railway.com/deploy/syncthing)

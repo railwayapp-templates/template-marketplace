@@ -2,7 +2,7 @@
 
 Open Source MongoDB drop-in replacement
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cMeXM0)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cMeXM0)
 
 ## About
 
@@ -54,4 +54,4 @@ Recognizing this, FerretDB is here to fill that gap.
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/cMeXM0)
+[View on Railway →](https://railway.com/deploy/cMeXM0)

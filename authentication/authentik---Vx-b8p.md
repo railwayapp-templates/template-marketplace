@@ -2,7 +2,7 @@
 
 A working template to spin up authentik with minimal resources.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Vx-b8p)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Vx-b8p)
 
 ## About
 
@@ -80,4 +80,4 @@ This Docker image injects a custom css file. You can configure the brand and sec
 
 **Category:** Authentication · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/Vx-b8p)
+[View on Railway →](https://railway.com/deploy/Vx-b8p)

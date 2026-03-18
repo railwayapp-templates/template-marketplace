@@ -2,7 +2,7 @@
 
 A simple self-hosted docker registry
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/docker-registry)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/docker-registry)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting a Docker Registry gives you full control over your image storage, access
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/docker-registry)
+[View on Railway →](https://railway.com/deploy/docker-registry)

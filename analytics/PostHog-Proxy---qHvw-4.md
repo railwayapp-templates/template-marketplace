@@ -2,7 +2,7 @@
 
 Allows you to send events to PostHog Cloud using your own domain.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qHvw-4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qHvw-4)
 
 ## About
 
@@ -32,4 +32,4 @@ It's recommend that you associate this service to a custom domain. If your front
 
 **Category:** Analytics · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/qHvw-4)
+[View on Railway →](https://railway.com/deploy/qHvw-4)

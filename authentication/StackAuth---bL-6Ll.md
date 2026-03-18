@@ -2,7 +2,7 @@
 
 auth0 and Clerk selfhostable alternative. robust, secured, and customizable
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bL-6Ll)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bL-6Ll)
 
 ## About
 
@@ -125,4 +125,4 @@ To get notified first when we add new features, please subscribe to [our newslet
 
 **Category:** Authentication · **Languages:** TypeScript, JavaScript, HTML, CSS, Dockerfile, PLpgSQL, Shell, Python
 
-[View on Railway →](https://railway.com/template/bL-6Ll)
+[View on Railway →](https://railway.com/deploy/bL-6Ll)

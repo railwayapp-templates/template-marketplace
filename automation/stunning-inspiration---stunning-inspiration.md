@@ -2,7 +2,7 @@
 
 Save Tidal Daily Discovery mixes to daily playlists
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/stunning-inspiration)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/stunning-inspiration)
 
 ## About
 
@@ -23,4 +23,4 @@ By deploying Tidal Mix Sync on Railway, you are one step closer to supporting a 
 
 **Category:** Automation · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/stunning-inspiration)
+[View on Railway →](https://railway.com/deploy/stunning-inspiration)

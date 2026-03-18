@@ -2,7 +2,7 @@
 
 Automated news crawling, daily summaries, RSS tracking, and web reports.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/trendradar-automated-news-monitoring-and)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/trendradar-automated-news-monitoring-and)
 
 ## About
 
@@ -75,4 +75,4 @@ This template deploys TrendRadar as a cron-based service on Railway. It periodic
 
 **Category:** AI/ML · **Languages:** CSS, HTML, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/trendradar-automated-news-monitoring-and)
+[View on Railway →](https://railway.com/deploy/trendradar-automated-news-monitoring-and)

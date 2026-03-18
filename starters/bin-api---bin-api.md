@@ -2,7 +2,7 @@
 
 A minimalist HTTP API for testing and debugging HTTP requests
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bin-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bin-api)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting bin-api involves deploying a lightweight Go-based HTTP server that proce
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/bin-api)
+[View on Railway →](https://railway.com/deploy/bin-api)

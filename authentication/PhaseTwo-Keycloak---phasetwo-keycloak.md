@@ -2,7 +2,7 @@
 
 Keycloak with extensions for orgs, events, themes, and more.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/phasetwo-keycloak)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/phasetwo-keycloak)
 
 ## About
 
@@ -61,4 +61,4 @@ After deploying your instance, create a new admin user and delete the bootstrap 
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/phasetwo-keycloak)
+[View on Railway →](https://railway.com/deploy/phasetwo-keycloak)

@@ -2,7 +2,7 @@
 
 [Mar '26] Simple 1-click deploy OpenClaw (Clawdbot)  on VPS | TUI Support
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-railway-t-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-railway-t-1)
 
 ## About
 
@@ -38,4 +38,4 @@ Hosting OpenClaw involves running it as a long-lived service with access to envi
 
 **Category:** AI/ML · **Languages:** HTML, JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/openclaw-railway-t-1)
+[View on Railway →](https://railway.com/deploy/openclaw-railway-t-1)

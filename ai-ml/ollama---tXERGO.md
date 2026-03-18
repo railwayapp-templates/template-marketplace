@@ -2,7 +2,7 @@
 
 ollama container with a demo/testing interface
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tXERGO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tXERGO)
 
 ## About
 
@@ -33,4 +33,4 @@ You can load multiple models and test switch between them quickly to test each o
 
 **Category:** AI/ML · **Languages:** Svelte, TypeScript, JavaScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/tXERGO)
+[View on Railway →](https://railway.com/deploy/tXERGO)

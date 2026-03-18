@@ -2,7 +2,7 @@
 
 Deploy the self-hosted version of PostHog.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/posthog-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/posthog-1)
 
 ## About
 
@@ -160,4 +160,4 @@ This template simplifies the entire process by provisioning everything needed to
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/posthog-1)
+[View on Railway →](https://railway.com/deploy/posthog-1)

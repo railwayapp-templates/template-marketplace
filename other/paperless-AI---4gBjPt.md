@@ -2,7 +2,7 @@
 
 automatically analyze and tag your documents from paperless-ngx
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4gBjPt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4gBjPt)
 
 ## About
 
@@ -89,4 +89,4 @@ Simplify your document workflows with Paperless-AI!
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/4gBjPt)
+[View on Railway →](https://railway.com/deploy/4gBjPt)

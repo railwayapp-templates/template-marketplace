@@ -2,7 +2,7 @@
 
  A template to host a LangServe server backed by a Neo4j Symantec Layer.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/langserve-neo4j-symantec-layer)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/langserve-neo4j-symantec-layer)
 
 ## About
 
@@ -32,4 +32,4 @@ This template deploys two services on Railway: the LangServe app and a Neo4j dat
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/langserve-neo4j-symantec-layer)
+[View on Railway →](https://railway.com/deploy/langserve-neo4j-symantec-layer)

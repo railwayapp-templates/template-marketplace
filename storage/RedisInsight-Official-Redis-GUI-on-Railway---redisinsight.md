@@ -2,7 +2,7 @@
 
 Self-host the Redis GUI. Browse keys, profile memory, run commands
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/redisinsight)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redisinsight)
 
 ## About
 
@@ -41,4 +41,4 @@ Key features:
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/redisinsight)
+[View on Railway →](https://railway.com/deploy/redisinsight)

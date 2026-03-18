@@ -2,7 +2,7 @@
 
 Deploy and Host Prisma Postgres with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/prisma-postgres)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/prisma-postgres)
 
 ## About
 
@@ -18,4 +18,4 @@ When deployed on Railway, this template automatically provisions and configures 
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/prisma-postgres)
+[View on Railway →](https://railway.com/deploy/prisma-postgres)

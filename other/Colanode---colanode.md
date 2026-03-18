@@ -2,7 +2,7 @@
 
 Open-source Notion alternative with local-first data control.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/colanode)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/colanode)
 
 ## About
 
@@ -89,4 +89,4 @@ Hosting Colanode involves deploying a client-server architecture where the serve
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/colanode)
+[View on Railway →](https://railway.com/deploy/colanode)

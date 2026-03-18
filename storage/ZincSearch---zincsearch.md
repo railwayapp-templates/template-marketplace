@@ -2,7 +2,7 @@
 
 ZincSearch a lightweight alternative to elasticsearch written in Go.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zincsearch)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zincsearch)
 
 ## About
 
@@ -59,4 +59,4 @@ Hosting ZincSearch on Railway provides an effortless way to deploy and manage yo
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/zincsearch)
+[View on Railway →](https://railway.com/deploy/zincsearch)

@@ -2,7 +2,7 @@
 
 A simple Discord bot using Typescript and discord.js
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/EWKFBX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EWKFBX)
 
 ## About
 
@@ -42,4 +42,4 @@ After you've deployed the template, you can add a bot to your server using this 
 
 **Category:** Bots · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/EWKFBX)
+[View on Railway →](https://railway.com/deploy/EWKFBX)

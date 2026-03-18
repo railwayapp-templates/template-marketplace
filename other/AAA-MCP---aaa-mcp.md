@@ -2,7 +2,7 @@
 
 Deploy and Host AAA MCP with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aaa-mcp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aaa-mcp)
 
 ## About
 
@@ -44,4 +44,4 @@ Hosting AAA MCP on Railway gives you an always‑on MCP server exposing governan
 
 **Category:** Other · **Languages:** Python, TypeScript, PowerShell, HTML, Shell, Batchfile, CSS, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/aaa-mcp)
+[View on Railway →](https://railway.com/deploy/aaa-mcp)

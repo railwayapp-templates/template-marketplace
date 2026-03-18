@@ -2,7 +2,7 @@
 
 Deploy and Host Fizzy with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fizzy-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fizzy-2)
 
 ## About
 
@@ -50,4 +50,4 @@ Fizzy is built on Ruby on Rails with Hotwire (Turbo + Stimulus) for reactive ser
 
 **Category:** Other · **Languages:** Ruby, HTML, CSS, JavaScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/fizzy-2)
+[View on Railway →](https://railway.com/deploy/fizzy-2)

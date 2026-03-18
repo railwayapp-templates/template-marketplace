@@ -2,7 +2,7 @@
 
 LunaTV Enhanced Edition 是基于 MoonTV 深度二次开发的全功能影视聚合播放平台。在原版基础上提升在线观影体验。
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lunatv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lunatv)
 
 ## About
 
@@ -39,4 +39,4 @@ LunaTV Enhanced Edition 是基于 MoonTV 深度二次开发的全功能影视聚
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/lunatv)
+[View on Railway →](https://railway.com/deploy/lunatv)

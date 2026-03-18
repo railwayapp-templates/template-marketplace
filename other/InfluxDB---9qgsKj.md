@@ -2,7 +2,7 @@
 
 High-performance time-series database optimized
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/9qgsKj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9qgsKj)
 
 ## About
 
@@ -41,4 +41,4 @@ With this template, you can quickly spin up a ready-to-use InfluxDB instance on 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/9qgsKj)
+[View on Railway →](https://railway.com/deploy/9qgsKj)

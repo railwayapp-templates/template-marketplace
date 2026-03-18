@@ -2,7 +2,7 @@
 
 Tool to automatically ensure high code quality, and security
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/S_qmV5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/S_qmV5)
 
 ## About
 
@@ -55,4 +55,4 @@ For more information, visit the [SonarQube Documentation](https://docs.sonarqube
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/S_qmV5)
+[View on Railway →](https://railway.com/deploy/S_qmV5)

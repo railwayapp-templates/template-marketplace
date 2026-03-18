@@ -2,7 +2,7 @@
 
 Preserve web content via distributed archiving projects.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/archiveteam-warrior)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/archiveteam-warrior)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting the ArchiveTeam Warrior on Railway is straightforward and requires no ma
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/archiveteam-warrior)
+[View on Railway →](https://railway.com/deploy/archiveteam-warrior)

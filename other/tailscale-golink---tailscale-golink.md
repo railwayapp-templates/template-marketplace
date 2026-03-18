@@ -2,7 +2,7 @@
 
 A shortlink service for your private network (tailnet).
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tailscale-golink)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tailscale-golink)
 
 ## About
 
@@ -28,4 +28,4 @@ golink is a private *experimental* shortlink service for your tailnet. It lets y
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tailscale-golink)
+[View on Railway →](https://railway.com/deploy/tailscale-golink)

@@ -2,7 +2,7 @@
 
 Langflow [Mar '26] (LLM Workflow Builder, Flowise alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/langflow)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/langflow)
 
 ## About
 
@@ -40,4 +40,4 @@ Unlike traditional hosting where you configure every server detail, Railway stre
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/langflow)
+[View on Railway →](https://railway.com/deploy/langflow)

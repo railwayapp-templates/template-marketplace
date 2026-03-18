@@ -2,7 +2,7 @@
 
 LibreChat is a free, open source AI chat platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HxvQtm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HxvQtm)
 
 ## About
 
@@ -152,4 +152,4 @@ Hosting LibreChat provides a comprehensive AI chat platform that combines the fa
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/HxvQtm)
+[View on Railway →](https://railway.com/deploy/HxvQtm)

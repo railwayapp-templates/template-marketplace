@@ -2,7 +2,7 @@
 
 A smooth S3 GUI for managing your bucket
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mini-s3-manager)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mini-s3-manager)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting Mini S3 Manager is straightforward as it's packaged as a single Bun appl
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/mini-s3-manager)
+[View on Railway →](https://railway.com/deploy/mini-s3-manager)

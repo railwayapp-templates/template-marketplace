@@ -2,7 +2,7 @@
 
 Deploy Team Collaboration with Appwrite, ElevenLabs, Resend & Firecrawl
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/teamx-appwrite)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/teamx-appwrite)
 
 ## About
 
@@ -52,4 +52,4 @@ Hosting TeamX - Appwrite involves deploying your frontend app on Railway while c
 
 **Category:** Starters · **Languages:** JavaScript, Python, CSS
 
-[View on Railway →](https://railway.com/template/teamx-appwrite)
+[View on Railway →](https://railway.com/deploy/teamx-appwrite)

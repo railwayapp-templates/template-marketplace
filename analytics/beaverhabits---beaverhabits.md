@@ -2,7 +2,7 @@
 
 Open-source, private, and portable Habit Tracker with charts & streaks.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/beaverhabits)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/beaverhabits)
 
 ## About
 
@@ -47,4 +47,4 @@ Wife
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/beaverhabits)
+[View on Railway →](https://railway.com/deploy/beaverhabits)

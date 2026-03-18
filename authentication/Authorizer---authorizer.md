@@ -2,7 +2,7 @@
 
 Open-source authentication and authorization solution for your business.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/authorizer)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/authorizer)
 
 ## About
 
@@ -57,4 +57,4 @@ Authorizer is an open-source authentication and authorization solution that 
 
 **Category:** Authentication · **Tags:** authentication, authorization · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/authorizer)
+[View on Railway →](https://railway.com/deploy/authorizer)

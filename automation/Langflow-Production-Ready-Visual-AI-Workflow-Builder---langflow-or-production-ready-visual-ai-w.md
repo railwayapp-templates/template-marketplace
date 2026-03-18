@@ -2,7 +2,7 @@
 
 Self-host Langflow on Railway - build LLM apps with drag-and-drop UI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/langflow-or-production-ready-visual-ai-w)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/langflow-or-production-ready-visual-ai-w)
 
 ## About
 
@@ -56,4 +56,4 @@ This Railway template deploys `langflowai/langflow:latest` with a dedicated Post
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/langflow-or-production-ready-visual-ai-w)
+[View on Railway →](https://railway.com/deploy/langflow-or-production-ready-visual-ai-w)

@@ -2,7 +2,7 @@
 
 A simple server using Bun
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/F0K-j3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/F0K-j3)
 
 ## About
 
@@ -22,4 +22,4 @@ The server itself just follows the getting started guide on bun.sh. Easy as pie!
 
 **Category:** Other · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/F0K-j3)
+[View on Railway →](https://railway.com/deploy/F0K-j3)

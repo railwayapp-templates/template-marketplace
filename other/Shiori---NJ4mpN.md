@@ -2,7 +2,7 @@
 
 Simple bookmark manager built with Go
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NJ4mpN)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NJ4mpN)
 
 ## About
 
@@ -61,4 +61,4 @@ Shiori is a simple bookmarks manager written in the Go language. Intended as a s
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/NJ4mpN)
+[View on Railway →](https://railway.com/deploy/NJ4mpN)

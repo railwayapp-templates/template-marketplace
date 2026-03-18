@@ -2,7 +2,7 @@
 
 Deploy and Host fashop (go nextjs) with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fashop-go-nextjs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fashop-go-nextjs)
 
 ## About
 
@@ -50,4 +50,4 @@ When deployed on Railway, both services can run in a managed environment with au
 
 **Category:** Other · **Languages:** TypeScript, Go, CSS, Dockerfile, JavaScript, Shell
 
-[View on Railway →](https://railway.com/template/fashop-go-nextjs)
+[View on Railway →](https://railway.com/deploy/fashop-go-nextjs)

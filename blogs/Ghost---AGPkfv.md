@@ -2,7 +2,7 @@
 
 Deploy Ghost to Railway with ease. Almost no configuration needed.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/AGPkfv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/AGPkfv)
 
 ## About
 
@@ -42,4 +42,4 @@ Are you happy with this template? Please share your thoughts on [my blog](https:
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/AGPkfv)
+[View on Railway →](https://railway.com/deploy/AGPkfv)

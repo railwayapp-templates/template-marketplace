@@ -2,7 +2,7 @@
 
 Deploy and Host The Avengers with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bot-empire)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bot-empire)
 
 ## About
 
@@ -31,4 +31,4 @@ The Avengers runs on OpenClaw's gateway platform, deployed as a single Railway s
 
 **Category:** Bots · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/bot-empire)
+[View on Railway →](https://railway.com/deploy/bot-empire)

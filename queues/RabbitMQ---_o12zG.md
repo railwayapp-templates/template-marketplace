@@ -2,7 +2,7 @@
 
 Feature rich, multi-protocol messaging and streaming broker
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_o12zG)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_o12zG)
 
 ## About
 
@@ -38,4 +38,4 @@ Hosting RabbitMQ allows you to access a powerful interface for configuration mes
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/_o12zG)
+[View on Railway →](https://railway.com/deploy/_o12zG)

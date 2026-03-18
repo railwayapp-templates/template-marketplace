@@ -2,7 +2,7 @@
 
 Fast, modular TypeScript backend.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nestjs-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nestjs-starter)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting this NestJS application on Railway is straightforward and requires zero 
 
 **Category:** Other · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/nestjs-starter)
+[View on Railway →](https://railway.com/deploy/nestjs-starter)

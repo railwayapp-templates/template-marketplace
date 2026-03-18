@@ -2,7 +2,7 @@
 
 A minimal production-ready golang HTTP server with go-chi/chi
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FdfQPz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FdfQPz)
 
 ## About
 
@@ -32,4 +32,4 @@ A minimal production-ready golang HTTP server with [`go-chi/chi`](https://github
 
 **Category:** Starters · **Languages:** Go
 
-[View on Railway →](https://railway.com/template/FdfQPz)
+[View on Railway →](https://railway.com/deploy/FdfQPz)

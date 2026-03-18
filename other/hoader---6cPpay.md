@@ -2,7 +2,7 @@
 
 bookmark manaer -- save, organize, and search saved contents easily
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6cPpay)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6cPpay)
 
 ## About
 
@@ -43,4 +43,4 @@ Hoarder combines AI-driven functionality with privacy-focused self-hosting, maki
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/6cPpay)
+[View on Railway →](https://railway.com/deploy/6cPpay)

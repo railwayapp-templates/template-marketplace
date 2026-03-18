@@ -2,7 +2,7 @@
 
 Meilisearch is a flexible and powerful user-focused search engine.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/meilisearch-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/meilisearch-1)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting Meilisearch involves running a lightweight binary that handles indexing 
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/meilisearch-1)
+[View on Railway →](https://railway.com/deploy/meilisearch-1)

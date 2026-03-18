@@ -2,7 +2,7 @@
 
 [Mar '26] One click setup for private LLM chat and agent workflows
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/anythingllm-on-railway-or-1-click-llm-ap)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/anythingllm-on-railway-or-1-click-llm-ap)
 
 ## About
 
@@ -40,4 +40,4 @@ It’s ideal for developers, data teams, or businesses looking for fast, secure,
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/anythingllm-on-railway-or-1-click-llm-ap)
+[View on Railway →](https://railway.com/deploy/anythingllm-on-railway-or-1-click-llm-ap)

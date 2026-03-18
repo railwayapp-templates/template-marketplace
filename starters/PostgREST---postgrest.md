@@ -2,7 +2,7 @@
 
 Instant Restful APIs for your PostgreSQL database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgrest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgrest)
 
 ## About
 
@@ -40,4 +40,4 @@ Hosting PostgREST on Railway is simple: run the official Docker image and point 
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/postgrest)
+[View on Railway →](https://railway.com/deploy/postgrest)

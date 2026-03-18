@@ -2,7 +2,7 @@
 
 Indonesia administrative area API 🇮🇩 built with Nest.js + Prisma
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/idn-area-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/idn-area-api)
 
 ## About
 
@@ -47,4 +47,4 @@ Built with NestJS framework and writen in TypeScript. Prisma is used as the ORM 
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/idn-area-api)
+[View on Railway →](https://railway.com/deploy/idn-area-api)

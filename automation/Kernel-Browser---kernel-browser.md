@@ -2,7 +2,7 @@
 
 Crazy Fast Browser Infrastructure
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kernel-browser)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kernel-browser)
 
 ## About
 
@@ -36,4 +36,4 @@ Deploying Kernel Browser involves running a multi-service Docker container that 
 
 **Category:** Automation · **Languages:** Go, Shell, TypeScript, Vue, Makefile, JavaScript, C, Dockerfile, Python, SCSS, M4, HTML
 
-[View on Railway →](https://railway.com/template/kernel-browser)
+[View on Railway →](https://railway.com/deploy/kernel-browser)

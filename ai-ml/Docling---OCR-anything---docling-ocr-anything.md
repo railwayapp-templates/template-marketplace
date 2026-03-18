@@ -2,7 +2,7 @@
 
 Get any document AI / LLM Ready
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/docling-ocr-anything)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/docling-ocr-anything)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting Docling provides a comprehensive document processing service capable of 
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/docling-ocr-anything)
+[View on Railway →](https://railway.com/deploy/docling-ocr-anything)

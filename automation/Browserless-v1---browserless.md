@@ -2,7 +2,7 @@
 
 Web browser automation built for everyone, and loved by developers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/browserless)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/browserless)
 
 ## About
 
@@ -95,4 +95,4 @@ https://github.com/brody192/chromedp-example (Golang)
 
 **Category:** Automation · **Tags:** browser, chrome, automation, testing · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/browserless)
+[View on Railway →](https://railway.com/deploy/browserless)

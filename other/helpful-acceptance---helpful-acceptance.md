@@ -2,7 +2,7 @@
 
 Adyen 4.5.0 Encryption With JS
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/helpful-acceptance)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/helpful-acceptance)
 
 ## About
 
@@ -28,4 +28,4 @@ In short, deploying this script is a critical part of creating a secure, PCI-com
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/helpful-acceptance)
+[View on Railway →](https://railway.com/deploy/helpful-acceptance)

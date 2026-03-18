@@ -2,7 +2,7 @@
 
 new & improved strapi official demo app, deployed in 1 click
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/84HU7D)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/84HU7D)
 
 ## About
 
@@ -63,4 +63,4 @@ And the best part is that it's fully open source. Check out the LaunchPad reposi
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/84HU7D)
+[View on Railway →](https://railway.com/deploy/84HU7D)

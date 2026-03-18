@@ -2,7 +2,7 @@
 
 The free, Open Source alternative to OpenAI, Claude and others.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/localai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/localai)
 
 ## About
 
@@ -29,4 +29,4 @@ No configuration required. Simply click to deploy.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/localai)
+[View on Railway →](https://railway.com/deploy/localai)

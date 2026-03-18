@@ -2,7 +2,7 @@
 
 Track, Organize, and Manage your Things.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/A6PKuM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/A6PKuM)
 
 ## About
 
@@ -73,4 +73,4 @@ Homebox is currently in early active development and is currently in **beta** st
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/A6PKuM)
+[View on Railway →](https://railway.com/deploy/A6PKuM)

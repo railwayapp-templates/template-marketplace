@@ -2,7 +2,7 @@
 
 IBATIN test environment for web development and content validation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ibatin-pruebas)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ibatin-pruebas)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting ibatin-pruebas involves deploying a preview and testing version of the I
 
 **Category:** Bots · **Languages:** HTML, JavaScript
 
-[View on Railway →](https://railway.com/template/ibatin-pruebas)
+[View on Railway →](https://railway.com/deploy/ibatin-pruebas)

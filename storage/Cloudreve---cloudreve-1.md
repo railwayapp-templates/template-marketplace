@@ -2,7 +2,7 @@
 
 Self-hosted Cloud Storage - Open source alternative to google drive
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cloudreve-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cloudreve-1)
 
 ## About
 
@@ -46,4 +46,4 @@ I’ve personally tested many open source storage systems while searching for so
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/cloudreve-1)
+[View on Railway →](https://railway.com/deploy/cloudreve-1)

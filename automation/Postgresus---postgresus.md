@@ -2,7 +2,7 @@
 
 Automated Postgre backups, with multiple storage options and notifications
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgresus)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresus)
 
 ## About
 
@@ -23,4 +23,4 @@ Hosting Postgresus on Railway means running an always‑on service that connects
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/postgresus)
+[View on Railway →](https://railway.com/deploy/postgresus)

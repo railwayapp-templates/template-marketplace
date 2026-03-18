@@ -2,7 +2,7 @@
 
 A simple script to automatically back up multiple databases to S3.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/U_wjYd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/U_wjYd)
 
 ## About
 
@@ -73,4 +73,4 @@ DATABASES="mysql://user:password@host:port/database,postgresql://user:password@h
 
 **Category:** Automation · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/U_wjYd)
+[View on Railway →](https://railway.com/deploy/U_wjYd)

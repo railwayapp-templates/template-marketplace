@@ -2,7 +2,7 @@
 
 A starter template for Ktor.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zB6nSu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zB6nSu)
 
 ## About
 
@@ -27,4 +27,4 @@ Ktor is a highly flexible and versatile Kotlin framework that offers a powerful 
 
 **Category:** Starters · **Languages:** Kotlin
 
-[View on Railway →](https://railway.com/template/zB6nSu)
+[View on Railway →](https://railway.com/deploy/zB6nSu)

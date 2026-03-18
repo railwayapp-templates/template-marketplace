@@ -2,7 +2,7 @@
 
 AI Powered Security Analyst
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sec-af)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sec-af)
 
 ## About
 
@@ -39,4 +39,4 @@ sec-af runs as two Railway services: the AgentField control plane and the sec-af
 
 **Category:** Other · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/sec-af)
+[View on Railway →](https://railway.com/deploy/sec-af)

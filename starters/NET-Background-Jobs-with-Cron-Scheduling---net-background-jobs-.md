@@ -2,7 +2,7 @@
 
 .NET Starter template for Background Jobs & Cron Jobs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/net-background-jobs-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/net-background-jobs-)
 
 ## About
 
@@ -25,4 +25,4 @@ This template deploys a production-ready .NET 9 worker service with comprehensiv
 
 **Category:** Starters · **Languages:** C#, Dockerfile
 
-[View on Railway →](https://railway.com/template/net-background-jobs-)
+[View on Railway →](https://railway.com/deploy/net-background-jobs-)

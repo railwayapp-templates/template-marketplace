@@ -2,7 +2,7 @@
 
 Deploy and Host Convex with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/convex)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/convex)
 
 ## About
 
@@ -62,4 +62,4 @@ Self-hosting Convex gives you full control over deployment, scaling, and securit
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/convex)
+[View on Railway →](https://railway.com/deploy/convex)

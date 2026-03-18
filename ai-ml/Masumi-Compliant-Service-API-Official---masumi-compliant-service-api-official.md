@@ -2,7 +2,7 @@
 
 Deploy Masumi-compliant AI agent wrapper
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/masumi-compliant-service-api-official)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/masumi-compliant-service-api-official)
 
 ## About
 
@@ -34,4 +34,4 @@ This wrapper creates a FastAPI service that bridges your custom AI logic with Ma
 
 **Category:** AI/ML · **Languages:** Python, Procfile
 
-[View on Railway →](https://railway.com/template/masumi-compliant-service-api-official)
+[View on Railway →](https://railway.com/deploy/masumi-compliant-service-api-official)

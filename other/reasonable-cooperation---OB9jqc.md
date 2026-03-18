@@ -2,7 +2,7 @@
 
 operationroom dubai customs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OB9jqc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OB9jqc)
 
 ## About
 
@@ -16,4 +16,4 @@ sdfgsdfgdsfgdsfgdsfgdfgsdrtgewrtyergdsfgsdrtgersgesrgtsadrfgsregsergtsgdrtgsr5gs
 
 **Category:** Other · **Languages:** Python, HTML
 
-[View on Railway →](https://railway.com/template/OB9jqc)
+[View on Railway →](https://railway.com/deploy/OB9jqc)

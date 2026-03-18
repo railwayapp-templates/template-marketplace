@@ -2,7 +2,7 @@
 
 Simplify Tasks & Chores, Together!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/donetick-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/donetick-1)
 
 ## About
 
@@ -30,4 +30,4 @@ Host your own Donetick Instance with ease!
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/donetick-1)
+[View on Railway →](https://railway.com/deploy/donetick-1)

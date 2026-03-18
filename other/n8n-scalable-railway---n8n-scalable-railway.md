@@ -2,7 +2,7 @@
 
 Scalable production-ready n8n setup
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-scalable-railway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-scalable-railway)
 
 ## About
 
@@ -135,4 +135,4 @@ Everything is preconfigured for real-world, enterprise-grade workloads.
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/n8n-scalable-railway)
+[View on Railway →](https://railway.com/deploy/n8n-scalable-railway)

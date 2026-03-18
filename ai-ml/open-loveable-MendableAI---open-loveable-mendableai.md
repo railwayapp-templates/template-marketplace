@@ -2,7 +2,7 @@
 
 Deploy and Host open-loveable (MendableAI) with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-loveable-mendableai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-loveable-mendableai)
 
 ## About
 
@@ -33,4 +33,4 @@ Chat with AI to build React apps instantly. An example app made by the Firecrawl
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/open-loveable-mendableai)
+[View on Railway →](https://railway.com/deploy/open-loveable-mendableai)

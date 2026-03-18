@@ -2,7 +2,7 @@
 
 $10 Hardware · 10MB RAM · 1s Boot 🚀🦞!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/picoclaw-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/picoclaw-1)
 
 ## About
 
@@ -74,4 +74,4 @@ No config files, no manual setup, no headaches. Railway's managed runtime + Pico
 
 **Category:** Automation · **Languages:** Go, Shell, Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/picoclaw-1)
+[View on Railway →](https://railway.com/deploy/picoclaw-1)

@@ -2,7 +2,7 @@
 
 Deploy and Host nginx-modsecurity-waf with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nginx-modsecurity-waf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nginx-modsecurity-waf)
 
 ## About
 
@@ -45,4 +45,4 @@ Deploying nginx-modsecurity-waf means running an Nginx reverse proxy with ModSec
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/nginx-modsecurity-waf)
+[View on Railway →](https://railway.com/deploy/nginx-modsecurity-waf)

@@ -2,7 +2,7 @@
 
 Electric for your existing Postgres. Sync little subsets of your data.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/electricsql-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/electricsql-1)
 
 ## About
 
@@ -39,4 +39,4 @@ restart the db, that's it!
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/electricsql-1)
+[View on Railway →](https://railway.com/deploy/electricsql-1)

@@ -2,7 +2,7 @@
 
 PostgreSQL database service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7MJ9UM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7MJ9UM)
 
 ## About
 
@@ -71,4 +71,4 @@ CREATE EXTENSION IF NOT EXISTS pg_duckdb;
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/7MJ9UM)
+[View on Railway →](https://railway.com/deploy/7MJ9UM)

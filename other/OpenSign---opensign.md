@@ -2,7 +2,7 @@
 
 Self-hosted document signing — upload, place fields, send for signatures
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/opensign)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opensign)
 
 ## About
 
@@ -34,4 +34,4 @@ OpenSign is a MERN-stack application consisting of a React frontend, a Node.js/E
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/opensign)
+[View on Railway →](https://railway.com/deploy/opensign)

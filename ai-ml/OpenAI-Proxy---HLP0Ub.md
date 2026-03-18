@@ -2,7 +2,7 @@
 
 OpenAI Proxy (100+ LLMs) - OpenAI, Azure, Bedrock, Anthropic, HuggingFace
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HLP0Ub)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HLP0Ub)
 
 ## About
 
@@ -52,4 +52,4 @@ print(response)
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/HLP0Ub)
+[View on Railway →](https://railway.com/deploy/HLP0Ub)

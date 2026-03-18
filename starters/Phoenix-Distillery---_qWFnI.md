@@ -2,7 +2,7 @@
 
 A simple Phoenix app deployed with Distillery and connected to PostgreSQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_qWFnI)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_qWFnI)
 
 ## About
 
@@ -47,4 +47,4 @@ This is a [Phoenix](https://www.phoenixframework.org/) starter app with Distille
 
 **Category:** Starters · **Languages:** Elixir, HTML, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/_qWFnI)
+[View on Railway →](https://railway.com/deploy/_qWFnI)

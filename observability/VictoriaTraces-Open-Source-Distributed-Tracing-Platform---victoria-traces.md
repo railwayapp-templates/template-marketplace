@@ -2,7 +2,7 @@
 
 VictoriaTraces [Mar ’26] (Jaeger & Zipkin Alternative), Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/victoria-traces)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/victoria-traces)
 
 ## About
 
@@ -47,4 +47,4 @@ Railway runs VictoriaTraces in a managed container environment, automatically ha
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/victoria-traces)
+[View on Railway →](https://railway.com/deploy/victoria-traces)

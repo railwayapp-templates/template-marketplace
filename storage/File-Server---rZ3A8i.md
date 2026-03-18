@@ -2,7 +2,7 @@
 
 An open-source easy to use file server. Uses the local-filesystem or S3
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rZ3A8i)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rZ3A8i)
 
 ## About
 
@@ -66,4 +66,4 @@ If you wanna allow all file types update the `FILE_SERVER_ALLOWED_FILE_TYPES` to
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/rZ3A8i)
+[View on Railway →](https://railway.com/deploy/rZ3A8i)

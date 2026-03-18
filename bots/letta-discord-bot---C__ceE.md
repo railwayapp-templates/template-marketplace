@@ -2,7 +2,7 @@
 
 An example Discord chatbot built on the Letta API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/C__ceE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/C__ceE)
 
 ## About
 
@@ -46,4 +46,4 @@ You need a Discord bot application configured, and a Letta Cloud API key (or a s
 
 **Category:** Bots · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/C__ceE)
+[View on Railway →](https://railway.com/deploy/C__ceE)

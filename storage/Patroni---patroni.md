@@ -2,7 +2,7 @@
 
 Patroni is a template for high availability (HA) PostgreSQL.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/patroni)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/patroni)
 
 ## About
 
@@ -102,4 +102,4 @@ Patroni is a template for high availability (HA) PostgreSQL solutions using Pyth
 
 **Category:** Storage · **Languages:** Python, Gherkin, Dockerfile, Shell, Clojure
 
-[View on Railway →](https://railway.com/template/patroni)
+[View on Railway →](https://railway.com/deploy/patroni)

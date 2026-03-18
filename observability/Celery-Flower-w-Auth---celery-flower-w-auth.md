@@ -2,7 +2,7 @@
 
 Celery Flower is a real-time web-based monitor for Celery task queues.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/celery-flower-w-auth)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/celery-flower-w-auth)
 
 ## About
 
@@ -40,4 +40,4 @@ This deployment consists of two services: Flower and caddy-zero-trust. Flower co
 
 **Category:** Observability · **Languages:** Python, Shell, Dockerfile, CSS, HTML
 
-[View on Railway →](https://railway.com/template/celery-flower-w-auth)
+[View on Railway →](https://railway.com/deploy/celery-flower-w-auth)

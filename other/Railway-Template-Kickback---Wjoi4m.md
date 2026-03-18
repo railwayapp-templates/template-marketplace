@@ -2,7 +2,7 @@
 
 Make your Railway Template Kickback public!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Wjoi4m)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Wjoi4m)
 
 ## About
 
@@ -22,4 +22,4 @@ This project is a simple and effective Railway template designed to host a publi
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/Wjoi4m)
+[View on Railway →](https://railway.com/deploy/Wjoi4m)

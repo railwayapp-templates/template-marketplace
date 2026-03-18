@@ -2,7 +2,7 @@
 
 Summarize Slack threads with AI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pwcyob)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pwcyob)
 
 ## About
 
@@ -35,4 +35,4 @@ You'll need an AI provider to use this project, like [OpenAI](https://openai.com
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/pwcyob)
+[View on Railway →](https://railway.com/deploy/pwcyob)

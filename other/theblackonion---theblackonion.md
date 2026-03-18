@@ -2,7 +2,7 @@
 
 Deploy and Host theblackonion chat with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/theblackonion)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/theblackonion)
 
 ## About
 
@@ -38,4 +38,4 @@ Deploy your own instance to Railway with a single click:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/theblackonion)
+[View on Railway →](https://railway.com/deploy/theblackonion)

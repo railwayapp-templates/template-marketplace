@@ -2,7 +2,7 @@
 
 Personalised AI chatbot that retains information with the help of Mem0
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mem0-chatbot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mem0-chatbot)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting Mem0 is extremely easy. Add your Mem0 and OpenAI API Keys as your variab
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/mem0-chatbot)
+[View on Railway →](https://railway.com/deploy/mem0-chatbot)

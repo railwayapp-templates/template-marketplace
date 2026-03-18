@@ -2,7 +2,7 @@
 
 A discord bot that would create codebins using https://notebin.cf
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/3NbRXM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/3NbRXM)
 
 ## About
 
@@ -49,4 +49,4 @@ A discord bot that would create codebins using https://notebin.cf
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/3NbRXM)
+[View on Railway →](https://railway.com/deploy/3NbRXM)

@@ -2,7 +2,7 @@
 
 Deploy Nextcloud with Bucket storage for scalable cloud file hosting
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextcloud)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextcloud)
 
 ## About
 
@@ -53,4 +53,4 @@ Hosting Nextcloud on Railway runs the official Nextcloud container as a managed 
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/nextcloud)
+[View on Railway →](https://railway.com/deploy/nextcloud)

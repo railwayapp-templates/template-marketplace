@@ -2,7 +2,7 @@
 
 The open-source feedback platform for LLMs
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/KNxfha)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/KNxfha)
 
 ## About
 
@@ -50,4 +50,4 @@ Deploy and start using Argilla on Railway in no time. You can find full document
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/KNxfha)
+[View on Railway →](https://railway.com/deploy/KNxfha)

@@ -2,7 +2,7 @@
 
 Deploy and Host Meilisearch + UI with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/meilisearch-ui)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/meilisearch-ui)
 
 ## About
 
@@ -45,4 +45,4 @@ Docs:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/meilisearch-ui)
+[View on Railway →](https://railway.com/deploy/meilisearch-ui)

@@ -2,7 +2,7 @@
 
 An example Remix paired with a PostgresSQL Database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/remix)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/remix)
 
 ## About
 
@@ -45,4 +45,4 @@ View the indie stack app at [https://github.com/remix-run/indie-stack](https://g
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/remix)
+[View on Railway →](https://railway.com/deploy/remix)

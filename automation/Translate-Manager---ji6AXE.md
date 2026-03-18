@@ -2,7 +2,7 @@
 
 i18n painel translate manager usin Ai
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ji6AXE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ji6AXE)
 
 ## About
 
@@ -52,4 +52,4 @@ Principais Características
 
 **Category:** Automation · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/ji6AXE)
+[View on Railway →](https://railway.com/deploy/ji6AXE)

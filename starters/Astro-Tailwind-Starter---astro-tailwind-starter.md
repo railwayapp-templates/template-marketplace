@@ -2,7 +2,7 @@
 
 A minimal, modern starter kit with Astro 5 and Tailwind 4 preconfigured
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/astro-tailwind-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/astro-tailwind-starter)
 
 ## About
 
@@ -22,4 +22,4 @@ Copy the template, and it should build with the default configuration using `npm
 
 **Category:** Starters · **Languages:** Astro, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/astro-tailwind-starter)
+[View on Railway →](https://railway.com/deploy/astro-tailwind-starter)

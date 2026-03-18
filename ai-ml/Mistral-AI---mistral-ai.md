@@ -2,7 +2,7 @@
 
 [Mar '26] Self-host Mistral models locally, using Ollama+OpenWebUI.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mistral-ai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mistral-ai)
 
 ## About
 
@@ -39,4 +39,4 @@ Railway handles the networking between services, persistent storage, and environ
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/mistral-ai)
+[View on Railway →](https://railway.com/deploy/mistral-ai)

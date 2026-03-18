@@ -2,7 +2,7 @@
 
 Deploy and host a CheckCle instance.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/checkcle)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/checkcle)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting CheckCle involves running its official Docker image to spin up a full-fe
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/checkcle)
+[View on Railway →](https://railway.com/deploy/checkcle)

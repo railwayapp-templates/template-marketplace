@@ -2,7 +2,7 @@
 
 Self-Host Metabase | Self-service analytics, dashboards, and exploration
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/self-host-metabase)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/self-host-metabase)
 
 ## About
 
@@ -60,4 +60,4 @@ Metabase is an open-source business intelligence and data visualization platform
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/self-host-metabase)
+[View on Railway →](https://railway.com/deploy/self-host-metabase)

@@ -2,7 +2,7 @@
 
 [Mar '26] One-click JupyterLab hosting for big data, and ML workflows.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jupyter-notebook-and-jupyterlab-cloud-de)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jupyter-notebook-and-jupyterlab-cloud-de)
 
 ## About
 
@@ -42,4 +42,4 @@ Railway handles the rest: restarts, infrastructure, storage mounts, and scaling 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/jupyter-notebook-and-jupyterlab-cloud-de)
+[View on Railway →](https://railway.com/deploy/jupyter-notebook-and-jupyterlab-cloud-de)

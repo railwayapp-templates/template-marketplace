@@ -2,7 +2,7 @@
 
 Lago [Mar ’26] (GetLago) (Stripe Billing & Chargebee alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lago)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lago)
 
 ## About
 
@@ -57,4 +57,4 @@ When you **self host Lago billing**, you keep all your financial data and custom
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/lago)
+[View on Railway →](https://railway.com/deploy/lago)

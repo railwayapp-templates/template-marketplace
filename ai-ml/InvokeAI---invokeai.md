@@ -2,7 +2,7 @@
 
 A powerful creative engine and WebUI for Stable Diffusion image generation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/invokeai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/invokeai)
 
 ## About
 
@@ -25,4 +25,4 @@ Hosting InvokeAI involves deploying a Python-based application that serves a Rea
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/invokeai)
+[View on Railway →](https://railway.com/deploy/invokeai)

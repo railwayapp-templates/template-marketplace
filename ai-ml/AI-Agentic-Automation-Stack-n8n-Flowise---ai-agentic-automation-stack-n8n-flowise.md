@@ -2,7 +2,7 @@
 
 All-in-One AI Automation Stack: workflows, agents, vector DB, web scraping
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ai-agentic-automation-stack-n8n-flowise)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ai-agentic-automation-stack-n8n-flowise)
 
 ## About
 
@@ -188,4 +188,4 @@ Hosting this stack involves deploying 9 interconnected services: n8n main orches
 
 **Category:** AI/ML · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/ai-agentic-automation-stack-n8n-flowise)
+[View on Railway →](https://railway.com/deploy/ai-agentic-automation-stack-n8n-flowise)

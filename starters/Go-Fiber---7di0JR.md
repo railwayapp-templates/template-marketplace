@@ -2,7 +2,7 @@
 
 A simple Fiber webserver
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7di0JR)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7di0JR)
 
 ## About
 
@@ -39,4 +39,4 @@ Fiber is a Go web framework built on top of Fasthttp, the **fastest** HTTP eng
 
 **Category:** Starters · **Tags:** golang, webserver · **Languages:** Go
 
-[View on Railway →](https://railway.com/template/7di0JR)
+[View on Railway →](https://railway.com/deploy/7di0JR)

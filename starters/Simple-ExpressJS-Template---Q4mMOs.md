@@ -2,7 +2,7 @@
 
 Express template with examples for middleware & separated routers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Q4mMOs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Q4mMOs)
 
 ## About
 
@@ -29,4 +29,4 @@ Files:
 
 **Category:** Starters · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/Q4mMOs)
+[View on Railway →](https://railway.com/deploy/Q4mMOs)

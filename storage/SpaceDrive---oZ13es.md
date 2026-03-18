@@ -2,7 +2,7 @@
 
 Unify files from all devices and clouds in a single, easy-to-use explorer.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/oZ13es)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oZ13es)
 
 ## About
 
@@ -73,4 +73,4 @@ Experience the ultimate in file management with Spacedrive. Below is a detailed 
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/oZ13es)
+[View on Railway →](https://railway.com/deploy/oZ13es)

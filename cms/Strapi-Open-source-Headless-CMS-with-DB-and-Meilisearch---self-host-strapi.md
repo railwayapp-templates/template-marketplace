@@ -2,7 +2,7 @@
 
 Self Host Strapi: REST & GraphQL APIs, full-text search, admin panel
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/self-host-strapi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/self-host-strapi)
 
 ## About
 
@@ -73,4 +73,4 @@ Strapi is an open-source, Node.js-based headless CMS that decouples content mana
 
 **Category:** CMS · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/self-host-strapi)
+[View on Railway →](https://railway.com/deploy/self-host-strapi)

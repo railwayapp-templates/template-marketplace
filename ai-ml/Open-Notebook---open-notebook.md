@@ -2,7 +2,7 @@
 
 Deploy and Host Open Notebook with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/open-notebook)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-notebook)
 
 ## About
 
@@ -61,4 +61,4 @@ Deploying Open Notebook involves running a Docker container that bundles the Nex
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/open-notebook)
+[View on Railway →](https://railway.com/deploy/open-notebook)

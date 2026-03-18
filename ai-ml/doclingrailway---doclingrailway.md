@@ -2,7 +2,7 @@
 
 Docling + authentication + IP filtering + Gzip + Autosleep configured
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/doclingrailway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/doclingrailway)
 
 ## About
 
@@ -52,4 +52,4 @@ With sleep mode enabled, your Docling instance stays efficient and eco-friendly.
 
 **Category:** AI/ML · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/doclingrailway)
+[View on Railway →](https://railway.com/deploy/doclingrailway)

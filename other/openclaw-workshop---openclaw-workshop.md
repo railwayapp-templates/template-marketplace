@@ -2,7 +2,7 @@
 
 openclaw workshop template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-workshop)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-workshop)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting OpenClaw requires a persistent server that maintains WebSocket connectio
 
 **Category:** Other · **Languages:** Shell, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/openclaw-workshop)
+[View on Railway →](https://railway.com/deploy/openclaw-workshop)

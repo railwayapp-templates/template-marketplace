@@ -2,7 +2,7 @@
 
 Basic Langserve server with the pirate speak template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pW9tXP)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pW9tXP)
 
 ## About
 
@@ -40,4 +40,4 @@ Note that when adding a new template you must also add it to the poetry project 
 
 **Category:** AI/ML · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/pW9tXP)
+[View on Railway →](https://railway.com/deploy/pW9tXP)

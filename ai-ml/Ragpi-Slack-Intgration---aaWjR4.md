@@ -2,7 +2,7 @@
 
 A Slack bot for the Ragpi AI Assistant
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/aaWjR4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aaWjR4)
 
 ## About
 
@@ -29,4 +29,4 @@ This is a template for the Ragpi Slack integration. You can find out more on how
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/aaWjR4)
+[View on Railway →](https://railway.com/deploy/aaWjR4)

@@ -2,7 +2,7 @@
 
 A powerful workflow automation tool for technical people
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-ai-starter-kit)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-ai-starter-kit)
 
 ## About
 
@@ -97,4 +97,4 @@ Hosting the n8n (AI Starter Kit) means running multiple AI-focused services incl
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/n8n-ai-starter-kit)
+[View on Railway →](https://railway.com/deploy/n8n-ai-starter-kit)

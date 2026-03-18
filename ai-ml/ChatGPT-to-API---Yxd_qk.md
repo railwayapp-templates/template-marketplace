@@ -2,7 +2,7 @@
 
 Create a fake API using ChatGPT's website
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Yxd_qk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Yxd_qk)
 
 ## About
 
@@ -51,4 +51,4 @@ Create a fake API using ChatGPT's website
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/Yxd_qk)
+[View on Railway →](https://railway.com/deploy/Yxd_qk)

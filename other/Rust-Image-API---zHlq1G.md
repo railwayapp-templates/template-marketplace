@@ -2,7 +2,7 @@
 
 Fast image manipulation API in Rust
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zHlq1G)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zHlq1G)
 
 ## About
 
@@ -60,4 +60,4 @@ GET /v1/unsharpen//?url=
 
 **Category:** Other · **Languages:** Rust, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/zHlq1G)
+[View on Railway →](https://railway.com/deploy/zHlq1G)

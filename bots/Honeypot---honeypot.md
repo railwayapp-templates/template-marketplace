@@ -2,7 +2,7 @@
 
 🍯 Catch and ban Discord spam bots by monitoring a "#honeypot" channel!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/honeypot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/honeypot)
 
 ## About
 
@@ -38,4 +38,4 @@ Very simple, all you need to do is add the bot token in `DISCORD_TOKEN` and then
 
 **Category:** Bots · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/honeypot)
+[View on Railway →](https://railway.com/deploy/honeypot)

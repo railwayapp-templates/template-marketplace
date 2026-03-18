@@ -2,7 +2,7 @@
 
 Setup for Kong Gateway with PostgreSQL and Konga UI management.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Addl8t)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Addl8t)
 
 ## About
 
@@ -134,4 +134,4 @@ This setup ensures a robust and easy-to-manage environment for API management us
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/Addl8t)
+[View on Railway →](https://railway.com/deploy/Addl8t)

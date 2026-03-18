@@ -2,7 +2,7 @@
 
 A single-node ClickHouse database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/clickhouse)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/clickhouse)
 
 ## About
 
@@ -42,4 +42,4 @@ ClickHouse processes analytical queries 100-1000x faster than traditional row-or
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/clickhouse)
+[View on Railway →](https://railway.com/deploy/clickhouse)

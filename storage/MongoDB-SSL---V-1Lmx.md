@@ -2,7 +2,7 @@
 
 SSL-enabled MongoDB service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/V-1Lmx)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/V-1Lmx)
 
 ## About
 
@@ -120,4 +120,4 @@ References the official Railway postgres-ssl service at https://github.com/railw
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/V-1Lmx)
+[View on Railway →](https://railway.com/deploy/V-1Lmx)

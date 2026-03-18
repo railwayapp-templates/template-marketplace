@@ -2,7 +2,7 @@
 
 The Open Source DocuSign Alternative.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/DjrRRX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/DjrRRX)
 
 ## About
 
@@ -59,4 +59,4 @@ Documenso aims to be the world's most trusted document-signing tool.  You can th
 
 **Category:** Other · **Languages:** TypeScript, MDX, JavaScript, Shell, Dockerfile, CSS
 
-[View on Railway →](https://railway.com/template/DjrRRX)
+[View on Railway →](https://railway.com/deploy/DjrRRX)

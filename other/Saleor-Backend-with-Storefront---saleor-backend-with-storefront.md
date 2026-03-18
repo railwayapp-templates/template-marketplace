@@ -2,7 +2,7 @@
 
 Saleor backend services - API, Dashboard, Worker & Scheduler with Store
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/saleor-backend-with-storefront)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/saleor-backend-with-storefront)
 
 ## About
 
@@ -88,4 +88,4 @@ A typical Saleor deployment consists of multiple services: the API (Django/Graph
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile, JavaScript, CSS, Shell
 
-[View on Railway →](https://railway.com/template/saleor-backend-with-storefront)
+[View on Railway →](https://railway.com/deploy/saleor-backend-with-storefront)

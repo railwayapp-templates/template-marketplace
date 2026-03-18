@@ -2,7 +2,7 @@
 
 Create avatars for your profiles, designs, websites or apps.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dicebear)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dicebear)
 
 ## About
 
@@ -53,4 +53,4 @@ Hosting Dicebear on your own infrastructure gives you more flexibility and faste
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/dicebear)
+[View on Railway →](https://railway.com/deploy/dicebear)

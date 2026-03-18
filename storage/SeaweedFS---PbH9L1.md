@@ -2,7 +2,7 @@
 
 S3 Compatible Server ontop SeaweedFS (Apache-2.0 license)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/PbH9L1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PbH9L1)
 
 ## About
 
@@ -32,4 +32,4 @@ https://github.com/seaweedfs/seaweedfs/wiki/Amazon-S3-API
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/PbH9L1)
+[View on Railway →](https://railway.com/deploy/PbH9L1)

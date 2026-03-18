@@ -2,7 +2,7 @@
 
 Portainer [Mar ’26] (Container Management & Self Hosting) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/portainer)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/portainer)
 
 ## About
 
@@ -30,4 +30,4 @@ The **Portainer installation** process on Railway is extremely simplified — yo
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/portainer)
+[View on Railway →](https://railway.com/deploy/portainer)

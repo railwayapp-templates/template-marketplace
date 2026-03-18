@@ -2,7 +2,7 @@
 
 Hollo's official Railway template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/eopPyH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/eopPyH)
 
 ## About
 
@@ -63,4 +63,4 @@ Once you've created your profile, you're ready to start enjoying Hollo. It's wor
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/eopPyH)
+[View on Railway →](https://railway.com/deploy/eopPyH)

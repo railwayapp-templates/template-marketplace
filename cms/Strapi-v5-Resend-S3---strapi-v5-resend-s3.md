@@ -2,7 +2,7 @@
 
 Deploy and Host Strapi v5 + Resend + S3 with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/strapi-v5-resend-s3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/strapi-v5-resend-s3)
 
 ## About
 
@@ -49,4 +49,4 @@ This template provisions a Strapi v5 app backed by PostgreSQL on Railway, with S
 
 **Category:** CMS · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/strapi-v5-resend-s3)
+[View on Railway →](https://railway.com/deploy/strapi-v5-resend-s3)

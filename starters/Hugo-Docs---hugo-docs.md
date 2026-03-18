@@ -2,7 +2,7 @@
 
 A hugo + Books template = generating documentation
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hugo-docs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hugo-docs)
 
 ## About
 
@@ -22,4 +22,4 @@ This template installs Hugo and uses the Hugo Book theme specifically designed f
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/hugo-docs)
+[View on Railway →](https://railway.com/deploy/hugo-docs)

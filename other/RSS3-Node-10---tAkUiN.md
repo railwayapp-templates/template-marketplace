@@ -2,7 +2,7 @@
 
 A lightweight service that joins the RSS3 Network as a node.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tAkUiN)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tAkUiN)
 
 ## About
 
@@ -84,4 +84,4 @@ Join the RSS3 Discord: [RSS3 Discord](https://link.rss3.io/discord)
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tAkUiN)
+[View on Railway →](https://railway.com/deploy/tAkUiN)

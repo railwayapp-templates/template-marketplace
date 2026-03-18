@@ -2,7 +2,7 @@
 
 💸 Open-source warranty tracker for individuals and teams.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/warracker)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/warracker)
 
 ## About
 
@@ -44,4 +44,4 @@ It helps you monitor, analyze, and visualize security vulnerabilities (CVEs) in 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/warracker)
+[View on Railway →](https://railway.com/deploy/warracker)

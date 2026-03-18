@@ -2,7 +2,7 @@
 
 The open business management platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ever-gauzy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ever-gauzy)
 
 ## About
 
@@ -53,4 +53,4 @@ Hosting Ever Gauzy involves setting up both its backend (API) and frontend (UI) 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ever-gauzy)
+[View on Railway →](https://railway.com/deploy/ever-gauzy)

@@ -2,7 +2,7 @@
 
 Lavalink server premium for private use
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lavalink)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lavalink)
 
 ## About
 
@@ -20,4 +20,4 @@ Lavalink server premium for private use.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/lavalink)
+[View on Railway →](https://railway.com/deploy/lavalink)

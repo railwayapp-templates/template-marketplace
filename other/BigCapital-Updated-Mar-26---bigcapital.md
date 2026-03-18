@@ -2,7 +2,7 @@
 
 BigCapital [Mar ’26] (Track Finances & Manage Business Data) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bigcapital)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bigcapital)
 
 ## About
 
@@ -71,4 +71,4 @@ You can self-host BigCapital to keep all your business data, transactions, and c
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/bigcapital)
+[View on Railway →](https://railway.com/deploy/bigcapital)

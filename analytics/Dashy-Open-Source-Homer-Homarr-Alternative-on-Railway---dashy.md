@@ -2,7 +2,7 @@
 
 Self Host Dashy. Open Source Start Page with Widgets & Themes
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dashy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dashy)
 
 ## About
 
@@ -44,4 +44,4 @@ Key features:
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/dashy)
+[View on Railway →](https://railway.com/deploy/dashy)

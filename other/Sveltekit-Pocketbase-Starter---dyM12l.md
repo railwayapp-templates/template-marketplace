@@ -2,7 +2,7 @@
 
 Basic Sveltekit and Pocketbase Starter with Docker
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/dyM12l)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dyM12l)
 
 ## About
 
@@ -32,4 +32,4 @@ Happy coding!
 
 **Category:** Other · **Languages:** JavaScript, Dockerfile, TypeScript, HTML, Svelte, CSS
 
-[View on Railway →](https://railway.com/template/dyM12l)
+[View on Railway →](https://railway.com/deploy/dyM12l)

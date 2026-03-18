@@ -2,7 +2,7 @@
 
 Deploy and Host ntfy with storage with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ntfy-with-storage)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ntfy-with-storage)
 
 ## About
 
@@ -45,4 +45,4 @@ This build includes persistent disk storage and full user control. Your ntfy ins
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/ntfy-with-storage)
+[View on Railway →](https://railway.com/deploy/ntfy-with-storage)

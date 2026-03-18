@@ -2,7 +2,7 @@
 
 Glance Dashboard with U.S. Stocks, Tech, and F1 news
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uqFsmi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uqFsmi)
 
 ## About
 
@@ -26,4 +26,4 @@ I take no responsibility, nor have the capacity, to troubleshoot your project, a
 
 **Category:** Blogs · **Languages:** Go, HTML, JavaScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/uqFsmi)
+[View on Railway →](https://railway.com/deploy/uqFsmi)

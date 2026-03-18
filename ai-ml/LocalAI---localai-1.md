@@ -2,7 +2,7 @@
 
 Zero Config | One Click | Fully Persisted | Secured UI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/localai-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/localai-1)
 
 ## About
 
@@ -36,4 +36,4 @@ Hosting LocalAI on Railway enables you to run a fully self-managed AI backend wi
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/localai-1)
+[View on Railway →](https://railway.com/deploy/localai-1)

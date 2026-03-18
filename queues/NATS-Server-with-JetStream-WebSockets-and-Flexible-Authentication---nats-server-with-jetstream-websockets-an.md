@@ -2,7 +2,7 @@
 
 This NATS Server is configured for production environments.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nats-server-with-jetstream-websockets-an)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nats-server-with-jetstream-websockets-an)
 
 ## About
 
@@ -65,4 +65,4 @@ Hosting this NATS container on Railway simplifies security by utilizing the plat
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/nats-server-with-jetstream-websockets-an)
+[View on Railway →](https://railway.com/deploy/nats-server-with-jetstream-websockets-an)

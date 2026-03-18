@@ -2,7 +2,7 @@
 
 Deploy River UI easily for managing background jobs in Go applications
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/2vnBb4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/2vnBb4)
 
 ## About
 
@@ -38,4 +38,4 @@ For issues with the template itself, please each out to me at youssef@reflectfy.
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/2vnBb4)
+[View on Railway →](https://railway.com/deploy/2vnBb4)

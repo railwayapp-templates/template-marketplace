@@ -2,7 +2,7 @@
 
  An open-source AI chatbot app powered by Model Context Protocol (MCP)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/KPUOlm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/KPUOlm)
 
 ## About
 
@@ -100,4 +100,4 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, Python, JavaScript
 
-[View on Railway →](https://railway.com/template/KPUOlm)
+[View on Railway →](https://railway.com/deploy/KPUOlm)

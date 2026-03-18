@@ -2,7 +2,7 @@
 
 Open-source backend in 1 with Realtime DB, Auth, and File Storage.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pocketbase-for-production)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-for-production)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting PocketBase for production involves managing a single-binary application 
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/pocketbase-for-production)
+[View on Railway →](https://railway.com/deploy/pocketbase-for-production)

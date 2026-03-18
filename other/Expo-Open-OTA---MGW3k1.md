@@ -2,7 +2,7 @@
 
 An open-source Go implementation of the Expo Updates protocol
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/MGW3k1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MGW3k1)
 
 ## About
 
@@ -43,4 +43,4 @@ For detailed information and to explore the core functionalities of expo-open-ot
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/MGW3k1)
+[View on Railway →](https://railway.com/deploy/MGW3k1)

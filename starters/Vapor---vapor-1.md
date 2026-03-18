@@ -2,7 +2,7 @@
 
 Deploy and Host Vapor with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vapor-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vapor-1)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting Vapor means running Swift apps on servers. You need to compile Swift cod
 
 **Category:** Starters · **Languages:** Swift, Dockerfile
 
-[View on Railway →](https://railway.com/template/vapor-1)
+[View on Railway →](https://railway.com/deploy/vapor-1)

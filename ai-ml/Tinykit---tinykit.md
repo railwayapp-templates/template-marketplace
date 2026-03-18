@@ -2,7 +2,7 @@
 
 Self-hosted Lovable/v0 alternative. Real-time database & storage included.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tinykit)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tinykit)
 
 ## About
 
@@ -27,4 +27,4 @@ Because it is architected for density, it is extremely lightweight. You can run 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/tinykit)
+[View on Railway →](https://railway.com/deploy/tinykit)

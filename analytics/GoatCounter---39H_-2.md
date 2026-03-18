@@ -2,7 +2,7 @@
 
 GoatCounter is an open source, privacy-friendly, web analytics platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/39H_-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/39H_-2)
 
 ## About
 
@@ -82,4 +82,4 @@ Sending metrics to your new goatcounter requires adding a `
 
 **Category:** Analytics · **Languages:** Go, JavaScript, CSS, HTML, Shell, PLpgSQL
 
-[View on Railway →](https://railway.com/template/39H_-2)
+[View on Railway →](https://railway.com/deploy/39H_-2)

@@ -2,7 +2,7 @@
 
 An open-source modern data exploration and visualization platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/c0hqeB)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/c0hqeB)
 
 ## About
 
@@ -48,4 +48,4 @@ Default credentias are usual admin:admin but it's recommended you change it once
 
 **Category:** Analytics · **Languages:** Shell, Dockerfile, Python
 
-[View on Railway →](https://railway.com/template/c0hqeB)
+[View on Railway →](https://railway.com/deploy/c0hqeB)

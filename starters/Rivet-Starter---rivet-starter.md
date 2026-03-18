@@ -2,7 +2,7 @@
 
 Self-host Rivet with a starter application on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rivet-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rivet-starter)
 
 ## About
 
@@ -59,4 +59,4 @@ Read the [Rivet quickstart](https://www.rivet.dev/docs) to learn how to get star
 
 **Category:** Starters · **Languages:** TypeScript, HTML
 
-[View on Railway →](https://railway.com/template/rivet-starter)
+[View on Railway →](https://railway.com/deploy/rivet-starter)

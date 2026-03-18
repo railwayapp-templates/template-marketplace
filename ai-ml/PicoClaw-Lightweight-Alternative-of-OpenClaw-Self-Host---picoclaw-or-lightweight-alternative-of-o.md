@@ -2,7 +2,7 @@
 
 [Mar '26] One-click deploy PicoClaw. Any LLM. Any messaging platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/picoclaw-or-lightweight-alternative-of-o)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/picoclaw-or-lightweight-alternative-of-o)
 
 ## About
 
@@ -41,4 +41,4 @@ The only real work is configuring your provider and channel correctly. Once that
 
 **Category:** AI/ML · **Languages:** HTML, Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/picoclaw-or-lightweight-alternative-of-o)
+[View on Railway →](https://railway.com/deploy/picoclaw-or-lightweight-alternative-of-o)

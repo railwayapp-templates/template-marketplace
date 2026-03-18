@@ -2,7 +2,7 @@
 
 Go + Echo web server with Zap logging, .env config, and health endpoint
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/go-echo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/go-echo)
 
 ## About
 
@@ -29,4 +29,4 @@ Railway uses [Nixpacks](https://nixpacks.com) to build and deploy Go + Echo proj
 
 **Category:** Starters · **Languages:** Go
 
-[View on Railway →](https://railway.com/template/go-echo)
+[View on Railway →](https://railway.com/deploy/go-echo)

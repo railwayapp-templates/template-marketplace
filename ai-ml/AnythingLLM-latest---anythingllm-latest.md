@@ -2,7 +2,7 @@
 
 Chat with docs, use AI Agents, and more
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/anythingllm-latest)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/anythingllm-latest)
 
 ## About
 
@@ -31,4 +31,4 @@ Deploying AnythingLLM on Railway gives you a full-featured AI chat platform with
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/anythingllm-latest)
+[View on Railway →](https://railway.com/deploy/anythingllm-latest)

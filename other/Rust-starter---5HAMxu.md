@@ -2,7 +2,7 @@
 
 A simple web-server written in Rust using axum
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/5HAMxu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5HAMxu)
 
 ## About
 
@@ -24,4 +24,4 @@ This template uses `axum`s Router, to create an app router, to which routes are 
 
 **Category:** Other · **Languages:** Rust
 
-[View on Railway →](https://railway.com/template/5HAMxu)
+[View on Railway →](https://railway.com/deploy/5HAMxu)

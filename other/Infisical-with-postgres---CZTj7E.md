@@ -2,7 +2,7 @@
 
 Platform to securely manage application configuration and secrets
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/CZTj7E)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/CZTj7E)
 
 ## About
 
@@ -77,4 +77,4 @@ This is why you have chosen Infisical, right? Infisical has a [full list](https:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/CZTj7E)
+[View on Railway →](https://railway.com/deploy/CZTj7E)

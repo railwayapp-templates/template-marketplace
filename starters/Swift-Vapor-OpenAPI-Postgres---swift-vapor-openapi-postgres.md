@@ -2,7 +2,7 @@
 
 A starter Swift Server using Vapor, OpenAPI, and Postgres
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/swift-vapor-openapi-postgres)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/swift-vapor-openapi-postgres)
 
 ## About
 
@@ -37,4 +37,4 @@ The app uses a Postgres database to store the TODOs.
 
 **Category:** Starters · **Languages:** Swift, Dockerfile
 
-[View on Railway →](https://railway.com/template/swift-vapor-openapi-postgres)
+[View on Railway →](https://railway.com/deploy/swift-vapor-openapi-postgres)

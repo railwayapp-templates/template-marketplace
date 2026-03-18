@@ -2,7 +2,7 @@
 
 A lightweight, self-hosted friendly RSS aggregator and reader
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/XSPFK0)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/XSPFK0)
 
 ## About
 
@@ -53,4 +53,4 @@ Key features include:
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/XSPFK0)
+[View on Railway →](https://railway.com/deploy/XSPFK0)

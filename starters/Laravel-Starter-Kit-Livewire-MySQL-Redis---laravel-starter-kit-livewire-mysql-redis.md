@@ -2,7 +2,7 @@
 
 Livewire starter kit powered by FrankenPHP, MySQL and Redis
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/laravel-starter-kit-livewire-mysql-redis)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/laravel-starter-kit-livewire-mysql-redis)
 
 ## About
 
@@ -107,4 +107,4 @@ Hosting Laravel Starter Kit Livewire (MySQL, Redis) on Railway provides a comple
 
 **Category:** Starters · **Languages:** Blade, PHP, Dockerfile, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/laravel-starter-kit-livewire-mysql-redis)
+[View on Railway →](https://railway.com/deploy/laravel-starter-kit-livewire-mysql-redis)

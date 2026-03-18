@@ -2,7 +2,7 @@
 
 pnpm monorepo with Supabase, Better Auth, Drizzle ORM, and shadcn/ui.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/trustworthy-smile)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/trustworthy-smile)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting this template requires a PostgreSQL database and a few environment varia
 
 **Category:** Starters · **Languages:** TypeScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/trustworthy-smile)
+[View on Railway →](https://railway.com/deploy/trustworthy-smile)

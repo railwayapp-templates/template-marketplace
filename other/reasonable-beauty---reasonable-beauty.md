@@ -2,7 +2,7 @@
 
 Deploy and Host reasonable-beauty with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/reasonable-beauty)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/reasonable-beauty)
 
 ## About
 
@@ -30,4 +30,4 @@ Python dependency, httpx, and no other dependencies.
 
 **Category:** Other · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/reasonable-beauty)
+[View on Railway →](https://railway.com/deploy/reasonable-beauty)

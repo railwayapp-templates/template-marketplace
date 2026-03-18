@@ -2,7 +2,7 @@
 
 A simple home inventory management software
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/unXB5b)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/unXB5b)
 
 ## About
 
@@ -44,4 +44,4 @@ Homebox is the inventory and organization system built for the Home User! With a
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/unXB5b)
+[View on Railway →](https://railway.com/deploy/unXB5b)

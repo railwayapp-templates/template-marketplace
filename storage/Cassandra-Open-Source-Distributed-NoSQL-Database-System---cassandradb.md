@@ -2,7 +2,7 @@
 
 Cassandra [Mar ’26] (Manage Massive Data with High Availability) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cassandradb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cassandradb)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting Cassandra on Railway allows developers to enjoy a simple yet powerful wa
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/cassandradb)
+[View on Railway →](https://railway.com/deploy/cassandradb)

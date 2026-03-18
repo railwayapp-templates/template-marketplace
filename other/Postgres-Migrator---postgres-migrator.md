@@ -2,7 +2,7 @@
 
 PostgreSQL database migrator using native pg_dump/pg_restore
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgres-migrator)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-migrator)
 
 ## About
 
@@ -87,4 +87,4 @@ Postgres Migrator is a PostgreSQL database migration tool that uses native
 
 **Category:** Other · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/postgres-migrator)
+[View on Railway →](https://railway.com/deploy/postgres-migrator)

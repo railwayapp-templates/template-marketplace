@@ -2,7 +2,7 @@
 
 Postgres for search and analytics
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FFIUl4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FFIUl4)
 
 ## About
 
@@ -31,4 +31,4 @@ ParadeDB is not a fork of Postgres, but regular Postgres with custom extensions 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/FFIUl4)
+[View on Railway →](https://railway.com/deploy/FFIUl4)

@@ -2,7 +2,7 @@
 
 WordPress [Mar '26] (Create Blogs & Websites Effortlessly) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/latest-wordpress)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/latest-wordpress)
 
 ## About
 
@@ -43,4 +43,4 @@ When hosting WordPress on **Railway**, you get the perfect combination of simpli
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/latest-wordpress)
+[View on Railway →](https://railway.com/deploy/latest-wordpress)

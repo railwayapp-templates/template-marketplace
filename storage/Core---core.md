@@ -2,7 +2,7 @@
 
 Your Personal Memory Layer for AI Apps
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/core)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/core)
 
 ## About
 
@@ -70,4 +70,4 @@ Deploying core includes configuring your AI providers (OpenAI, Anthropic, etc.).
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/core)
+[View on Railway →](https://railway.com/deploy/core)

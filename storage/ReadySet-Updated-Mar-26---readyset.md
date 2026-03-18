@@ -2,7 +2,7 @@
 
 ReadySet [Mar ’26] (Speed Up Queries & Scale Databases Fast) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/readyset)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/readyset)
 
 ## About
 
@@ -38,4 +38,4 @@ Railway makes it simple to self-host Readyset in a few clicks. You can deploy Re
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/readyset)
+[View on Railway →](https://railway.com/deploy/readyset)

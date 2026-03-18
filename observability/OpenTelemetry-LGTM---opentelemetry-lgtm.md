@@ -2,7 +2,7 @@
 
 Deploy and Host the Grafana LGTM stack with Opentelemetry Collector
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/opentelemetry-lgtm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opentelemetry-lgtm)
 
 ## About
 
@@ -48,4 +48,4 @@ On Railway, this template deploys all components with private service networking
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/opentelemetry-lgtm)
+[View on Railway →](https://railway.com/deploy/opentelemetry-lgtm)

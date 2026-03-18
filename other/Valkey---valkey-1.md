@@ -2,7 +2,7 @@
 
 A distributed key-value database for caching and realtime workloads.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/valkey-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/valkey-1)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting Valkey on Railway is streamlined and production-ready. You’ll deploy V
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/valkey-1)
+[View on Railway →](https://railway.com/deploy/valkey-1)

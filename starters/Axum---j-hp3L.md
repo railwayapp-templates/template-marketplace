@@ -2,7 +2,7 @@
 
 A minimal Axum web server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/j-hp3L)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/j-hp3L)
 
 ## About
 
@@ -30,4 +30,4 @@ Axum is a web framework for building asynchronous and highly scalable applicatio
 
 **Category:** Starters · **Languages:** Rust
 
-[View on Railway →](https://railway.com/template/j-hp3L)
+[View on Railway →](https://railway.com/deploy/j-hp3L)

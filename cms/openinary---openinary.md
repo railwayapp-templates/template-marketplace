@@ -2,7 +2,7 @@
 
 Self-hosted Cloudinary alternative. Image & video transforms via URL.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openinary)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openinary)
 
 ## About
 
@@ -67,4 +67,4 @@ Self-hosted Cloudinary alternative. Image & video transforms via URL.
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/openinary)
+[View on Railway →](https://railway.com/deploy/openinary)

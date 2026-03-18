@@ -2,7 +2,7 @@
 
 Hosted IPFS Gateway & HTTP Proxy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/PhPjgz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PhPjgz)
 
 ## About
 
@@ -82,4 +82,4 @@ anywhere that can run a **`Dockerfile`** 🐳
 
 **Category:** Other · **Languages:** Shell, TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/PhPjgz)
+[View on Railway →](https://railway.com/deploy/PhPjgz)

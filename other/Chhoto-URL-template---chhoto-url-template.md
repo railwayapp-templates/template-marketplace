@@ -2,7 +2,7 @@
 
 Chhoto URL: lightweight self-hosted URL shortener built in Rust
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/chhoto-url-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chhoto-url-template)
 
 ## About
 
@@ -45,4 +45,4 @@ Hosting Chhoto URL involves deploying a single Rust-based web service backed by 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/chhoto-url-template)
+[View on Railway →](https://railway.com/deploy/chhoto-url-template)

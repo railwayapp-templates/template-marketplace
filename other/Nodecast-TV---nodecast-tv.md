@@ -2,7 +2,7 @@
 
 nodecast-tv is a modern, web-based IPTV player
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nodecast-tv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nodecast-tv)
 
 ## About
 
@@ -32,4 +32,4 @@ This Railway template deploys Nodecast TV from a **Docker image** and attaches a
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/nodecast-tv)
+[View on Railway →](https://railway.com/deploy/nodecast-tv)

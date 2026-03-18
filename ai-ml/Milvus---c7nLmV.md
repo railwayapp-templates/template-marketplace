@@ -2,7 +2,7 @@
 
 Milvus Standalone: Cloud-native vector DB for scalable, fast ANN search.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/c7nLmV)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/c7nLmV)
 
 ## About
 
@@ -47,4 +47,4 @@ Hosting Milvus provides a scalable vector database solution for AI applications 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/c7nLmV)
+[View on Railway →](https://railway.com/deploy/c7nLmV)

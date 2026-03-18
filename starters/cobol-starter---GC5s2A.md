@@ -2,7 +2,7 @@
 
 A starter project for cobol
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GC5s2A)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GC5s2A)
 
 ## About
 
@@ -22,4 +22,4 @@ https://nixpacks.com/docs/providers/cobol
 
 **Category:** Starters · **Languages:** COBOL
 
-[View on Railway →](https://railway.com/template/GC5s2A)
+[View on Railway →](https://railway.com/deploy/GC5s2A)

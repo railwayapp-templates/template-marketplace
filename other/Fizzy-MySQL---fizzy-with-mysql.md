@@ -2,7 +2,7 @@
 
 Kanban as it should be. Not as it has been.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fizzy-with-mysql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fizzy-with-mysql)
 
 ## About
 
@@ -60,4 +60,4 @@ Fizzy is a self-hosted Rails application that uses SQLite for data storage and S
 
 **Category:** Other · **Languages:** Ruby, HTML, CSS, JavaScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/fizzy-with-mysql)
+[View on Railway →](https://railway.com/deploy/fizzy-with-mysql)

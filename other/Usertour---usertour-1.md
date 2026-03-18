@@ -2,7 +2,7 @@
 
 Usertour is an open-source user onboarding platform.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/usertour-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/usertour-1)
 
 ## About
 
@@ -88,4 +88,4 @@ When you host Usertour yourself:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/usertour-1)
+[View on Railway →](https://railway.com/deploy/usertour-1)

@@ -2,7 +2,7 @@
 
 A full-featured database management tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Pcgkm8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Pcgkm8)
 
 ## About
 
@@ -58,4 +58,4 @@ Features
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/Pcgkm8)
+[View on Railway →](https://railway.com/deploy/Pcgkm8)

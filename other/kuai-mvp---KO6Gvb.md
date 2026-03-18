@@ -2,7 +2,7 @@
 
 A template to deploy for DApp mvp with kuai
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/KO6Gvb)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/KO6Gvb)
 
 ## About
 
@@ -45,4 +45,4 @@ You can find an online preview of the Kuai MVP DApp at https://kuai-mvp-dapp-ui.
 
 **Category:** Other · **Languages:** TypeScript, SCSS, JavaScript, HTML, Rust, CSS, Shell, Dockerfile, Makefile
 
-[View on Railway →](https://railway.com/template/KO6Gvb)
+[View on Railway →](https://railway.com/deploy/KO6Gvb)

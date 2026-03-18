@@ -2,7 +2,7 @@
 
 the AI-native open-source embedding database
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tifygm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tifygm)
 
 ## About
 
@@ -35,4 +35,4 @@ Chroma is licensed under the [Apache 2.0](https://github.com/chroma-core/chroma/
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/tifygm)
+[View on Railway →](https://railway.com/deploy/tifygm)

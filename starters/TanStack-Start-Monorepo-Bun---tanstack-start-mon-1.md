@@ -2,7 +2,7 @@
 
 Bun monorepo with Supabase, Better Auth, Drizzle ORM, and shadcn/ui.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tanstack-start-mon-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tanstack-start-mon-1)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting this template requires a PostgreSQL database and a few environment varia
 
 **Category:** Starters · **Languages:** TypeScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/tanstack-start-mon-1)
+[View on Railway →](https://railway.com/deploy/tanstack-start-mon-1)

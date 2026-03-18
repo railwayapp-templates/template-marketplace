@@ -2,7 +2,7 @@
 
 The complete platform for product integrations
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/H2gR1X)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/H2gR1X)
 
 ## About
 
@@ -37,4 +37,4 @@ The complete platform for product integrations
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/H2gR1X)
+[View on Railway →](https://railway.com/deploy/H2gR1X)

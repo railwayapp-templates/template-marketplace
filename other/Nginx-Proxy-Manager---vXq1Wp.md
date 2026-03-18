@@ -2,7 +2,7 @@
 
 Expose web services easily and securely.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vXq1Wp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vXq1Wp)
 
 ## About
 
@@ -39,4 +39,4 @@ To get started, login with the default credentials i.e. `admin@example.com` as t
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/vXq1Wp)
+[View on Railway →](https://railway.com/deploy/vXq1Wp)

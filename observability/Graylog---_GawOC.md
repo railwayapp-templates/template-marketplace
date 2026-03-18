@@ -2,7 +2,7 @@
 
 Free and open log management
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_GawOC)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_GawOC)
 
 ## About
 
@@ -59,4 +59,4 @@ No further configuration is required, simply deploy the template and you're good
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/_GawOC)
+[View on Railway →](https://railway.com/deploy/_GawOC)

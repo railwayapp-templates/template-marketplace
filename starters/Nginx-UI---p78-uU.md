@@ -2,7 +2,7 @@
 
 A web-based dashboard to manage NGINX configs with ease.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/p78-uU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/p78-uU)
 
 ## About
 
@@ -83,4 +83,4 @@ You can bind a custom domain to your Railway project for production use.
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/p78-uU)
+[View on Railway →](https://railway.com/deploy/p78-uU)

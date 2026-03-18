@@ -2,7 +2,7 @@
 
 An Ionic Vue Starter in Typescript, comes already configured with railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mKJHrx)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mKJHrx)
 
 ## About
 
@@ -88,4 +88,4 @@ ionic-vue-starter/
 
 **Category:** Starters · **Languages:** TypeScript, Vue, HTML, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/mKJHrx)
+[View on Railway →](https://railway.com/deploy/mKJHrx)

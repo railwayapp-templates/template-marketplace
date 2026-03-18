@@ -2,7 +2,7 @@
 
 A barebones TypeScript React starter with TanStack Router & Query setup
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/EF4fed)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EF4fed)
 
 ## About
 
@@ -40,4 +40,4 @@ See: https://github.com/brody192/vite-react-template#-why-use-caddy-when-deployi
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/EF4fed)
+[View on Railway →](https://railway.com/deploy/EF4fed)

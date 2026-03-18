@@ -2,7 +2,7 @@
 
 Effortless PostgreSQL backups with a user-friendly web interface!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vT0tcc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vT0tcc)
 
 ## About
 
@@ -62,4 +62,4 @@ Got ideas to improve [PG Back Web](https://github.com/eduardolat/pgbackweb)? Con
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/vT0tcc)
+[View on Railway →](https://railway.com/deploy/vT0tcc)

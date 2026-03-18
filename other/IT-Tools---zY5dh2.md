@@ -2,7 +2,7 @@
 
 Collection of handy online tools for developers, with great UX as a web app
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zY5dh2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zY5dh2)
 
 ## About
 
@@ -55,4 +55,4 @@ This project is under the [GNU GPLv3](LICENSE).
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/zY5dh2)
+[View on Railway →](https://railway.com/deploy/zY5dh2)

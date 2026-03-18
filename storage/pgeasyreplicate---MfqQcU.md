@@ -2,7 +2,7 @@
 
 Set up logical replication between two PostgreSQL databases.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/MfqQcU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MfqQcU)
 
 ## About
 
@@ -27,4 +27,4 @@ Learn more at https://github.com/shayonj/pg_easy_replicate.
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/MfqQcU)
+[View on Railway →](https://railway.com/deploy/MfqQcU)

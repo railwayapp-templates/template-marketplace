@@ -2,7 +2,7 @@
 
 The OS for your personal finances.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/er6blq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/er6blq)
 
 ## About
 
@@ -85,4 +85,4 @@ _"Yashu Mittal" is not affiliated with Maybe Finance, Inc. in any way or form._
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/er6blq)
+[View on Railway →](https://railway.com/deploy/er6blq)

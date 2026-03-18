@@ -2,7 +2,7 @@
 
 Deploy ClickHouse OLAP database with one click - version-agnostic & secure
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/clickhouse-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/clickhouse-1)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting ClickHouse requires server configuration, dependency management, network
 
 **Category:** Analytics · **Languages:** C++, Assembly, Python, Shell, C, Jinja, CMake, HTML, JavaScript, Clojure, Dockerfile, ANTLR, Rust, Java, C#, Perl, Cap'n Proto, Go, PLpgSQL, GAP, PHP, Roff, CSS, Vim Script, DIGITAL Command Language
 
-[View on Railway →](https://railway.com/template/clickhouse-1)
+[View on Railway →](https://railway.com/deploy/clickhouse-1)

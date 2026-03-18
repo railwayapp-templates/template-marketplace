@@ -2,7 +2,7 @@
 
 Mint NFTs & Cryptocurrencies with thirdweb in a single-page app.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xyxkOh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xyxkOh)
 
 ## About
 
@@ -83,4 +83,4 @@ We look forward to seeing you there!
 
 **Category:** Starters · **Languages:** TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/template/xyxkOh)
+[View on Railway →](https://railway.com/deploy/xyxkOh)

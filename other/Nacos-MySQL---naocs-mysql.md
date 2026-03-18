@@ -2,7 +2,7 @@
 
 Deploy and Host Nacos-MySQL with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/naocs-mysql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/naocs-mysql)
 
 ## About
 
@@ -50,4 +50,4 @@ This template deploys a Nacos server connected to a MySQL database, following th
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/naocs-mysql)
+[View on Railway →](https://railway.com/deploy/naocs-mysql)

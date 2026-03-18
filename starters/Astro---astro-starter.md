@@ -2,7 +2,7 @@
 
 The basic Astro template‎ 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/astro-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/astro-starter)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting an Astro application gives you access to a high-performance web framewor
 
 **Category:** Starters · **Languages:** Astro, JavaScript
 
-[View on Railway →](https://railway.com/template/astro-starter)
+[View on Railway →](https://railway.com/deploy/astro-starter)

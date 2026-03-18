@@ -2,7 +2,7 @@
 
 imgproxy with S3 source for fast image delivery
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6HKVuw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6HKVuw)
 
 ## About
 
@@ -51,4 +51,4 @@ This template for Railway sets up imgproxy with an S3 source, enabling efficient
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/6HKVuw)
+[View on Railway →](https://railway.com/deploy/6HKVuw)

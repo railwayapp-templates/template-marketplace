@@ -2,7 +2,7 @@
 
 A no-code blazing fast EVM indexer tool built in rust.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Rqrlcf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Rqrlcf)
 
 ## About
 
@@ -35,4 +35,4 @@ To deploy against your own contract configuration, fork https://github.com/o-az/
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/Rqrlcf)
+[View on Railway →](https://railway.com/deploy/Rqrlcf)

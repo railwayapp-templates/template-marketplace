@@ -2,7 +2,7 @@
 
 Deploy an ecommerce backend and admin using Medusa
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pwNTJ1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pwNTJ1)
 
 ## About
 
@@ -64,4 +64,4 @@ Please consider [giving Medusa a star on GitHub](https://github.com/medusajs/med
 
 **Category:** Other · **Languages:** TypeScript, JavaScript
 
-[View on Railway →](https://railway.com/template/pwNTJ1)
+[View on Railway →](https://railway.com/deploy/pwNTJ1)

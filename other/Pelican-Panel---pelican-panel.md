@@ -2,7 +2,7 @@
 
 From prehistoric to peak performance: Pelican takes flight!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pelican-panel)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pelican-panel)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting Pelican Panel on Railway provides a streamlined environment for running 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/pelican-panel)
+[View on Railway →](https://railway.com/deploy/pelican-panel)

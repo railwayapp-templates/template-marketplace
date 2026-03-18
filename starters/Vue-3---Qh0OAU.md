@@ -2,7 +2,7 @@
 
 Get started developing with Vue and Vite today!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Qh0OAU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Qh0OAU)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting Vue 3 involves building your application for production and serving it t
 
 **Category:** Starters · **Languages:** Vue, CSS, HTML, TypeScript
 
-[View on Railway →](https://railway.com/template/Qh0OAU)
+[View on Railway →](https://railway.com/deploy/Qh0OAU)

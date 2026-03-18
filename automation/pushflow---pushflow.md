@@ -2,7 +2,7 @@
 
 A plug-and-play web push notification management subsystem for any app!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pushflow)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pushflow)
 
 ## About
 
@@ -53,4 +53,4 @@ We utilize the following:
 
 **Category:** Automation · **Languages:** Rust, TypeScript, SCSS, JavaScript
 
-[View on Railway →](https://railway.com/template/pushflow)
+[View on Railway →](https://railway.com/deploy/pushflow)

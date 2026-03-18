@@ -2,7 +2,7 @@
 
 An ecosystem replacement for Tidbyt
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tronbyt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tronbyt)
 
 ## About
 
@@ -27,4 +27,4 @@ By default, you will be prompted to create an admin user after your first deploy
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/tronbyt)
+[View on Railway →](https://railway.com/deploy/tronbyt)

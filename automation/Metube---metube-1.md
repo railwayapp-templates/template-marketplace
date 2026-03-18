@@ -2,7 +2,7 @@
 
 Web GUI for youtube-dl with playlist support.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/metube-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/metube-1)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting MeTube involves deploying a containerized application (Docker) that mana
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/metube-1)
+[View on Railway →](https://railway.com/deploy/metube-1)

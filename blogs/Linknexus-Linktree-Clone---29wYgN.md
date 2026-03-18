@@ -2,7 +2,7 @@
 
 Create and manage your own social media reference landing page.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/29wYgN)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/29wYgN)
 
 ## About
 
@@ -39,4 +39,4 @@ Your go-to social media reference hub! Streamline your platforms, curate content
 
 **Category:** Blogs · **Languages:** Svelte, TypeScript, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/29wYgN)
+[View on Railway →](https://railway.com/deploy/29wYgN)

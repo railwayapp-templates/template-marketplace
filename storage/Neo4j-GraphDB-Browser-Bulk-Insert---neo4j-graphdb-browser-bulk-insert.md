@@ -2,7 +2,7 @@
 
 Deploy a fully managed Neo4j instance on Railway with ease.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/neo4j-graphdb-browser-bulk-insert)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/neo4j-graphdb-browser-bulk-insert)
 
 ## About
 
@@ -41,4 +41,4 @@ perfect for developers and data teams who need to rapidly prototype, test, or de
 
 **Category:** Storage · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/neo4j-graphdb-browser-bulk-insert)
+[View on Railway →](https://railway.com/deploy/neo4j-graphdb-browser-bulk-insert)

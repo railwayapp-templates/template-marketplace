@@ -2,7 +2,7 @@
 
 AI video generator for Reels/TikTok/Shorts using Google Gemini & Veo
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/i-give-up)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/i-give-up)
 
 ## About
 
@@ -40,4 +40,4 @@ Hosting I Give Up on Railway provides a fully managed Next.js deployment with au
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/i-give-up)
+[View on Railway →](https://railway.com/deploy/i-give-up)

@@ -2,7 +2,7 @@
 
 Full-stack type safe template: Bun + Effect + ElysiaJS + Svelte
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/buffet-modern-starter-for-bun)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/buffet-modern-starter-for-bun)
 
 ## About
 
@@ -32,4 +32,4 @@ Buffet runs as a single Bun service that serves both the API and the Svelte SPA.
 
 **Category:** Starters · **Languages:** Svelte, TypeScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/buffet-modern-starter-for-bun)
+[View on Railway →](https://railway.com/deploy/buffet-modern-starter-for-bun)

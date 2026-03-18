@@ -2,7 +2,7 @@
 
 Send transactional and marketing emails from your app
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/resend)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/resend)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting Resend gives you the power to send emails from your application with ful
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/resend)
+[View on Railway →](https://railway.com/deploy/resend)

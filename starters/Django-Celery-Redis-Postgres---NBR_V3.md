@@ -2,7 +2,7 @@
 
 Full Django/Postgres stack with Celery tasks and Redis as cache/queue.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NBR_V3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NBR_V3)
 
 ## About
 
@@ -58,4 +58,4 @@ Check out the full readme and brief on GitHub: https://github.com/Antvirf/railwa
 
 **Category:** Starters · **Languages:** Python, Dockerfile, Shell, Makefile
 
-[View on Railway →](https://railway.com/template/NBR_V3)
+[View on Railway →](https://railway.com/deploy/NBR_V3)

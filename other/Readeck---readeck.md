@@ -2,7 +2,7 @@
 
 📚 A simple web application for read-it-later and bookmarking.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/readeck)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/readeck)
 
 ## About
 
@@ -43,4 +43,4 @@ Think of it as your personal reading vault — collect, organize, and preserve a
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/readeck)
+[View on Railway →](https://railway.com/deploy/readeck)

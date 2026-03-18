@@ -2,7 +2,7 @@
 
 A powerful CMS, BaaS, and more. Power any project with Directus 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Uxq3ot)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Uxq3ot)
 
 ## About
 
@@ -42,4 +42,4 @@ A powerful CMS, BaaS, and more. Power any project with Directus – a composable
 
 **Category:** CMS · **Languages:** JavaScript, Procfile
 
-[View on Railway →](https://railway.com/template/Uxq3ot)
+[View on Railway →](https://railway.com/deploy/Uxq3ot)

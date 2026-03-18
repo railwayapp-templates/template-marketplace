@@ -2,7 +2,7 @@
 
 basic discord javascript code that follows guidelines and helps you online
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/discordjsuser)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discordjsuser)
 
 ## About
 
@@ -26,4 +26,4 @@ uses dc api just to help youout and it wont do anything, good for templates
 
 **Category:** Other · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/discordjsuser)
+[View on Railway →](https://railway.com/deploy/discordjsuser)

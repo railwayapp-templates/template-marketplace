@@ -2,7 +2,7 @@
 
 A template to quickly deploy Javelit apps.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/javelit-app)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/javelit-app)
 
 ## About
 
@@ -37,4 +37,4 @@ This app can automatically refresh if the code at the URL is changed. Enable thi
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/javelit-app)
+[View on Railway →](https://railway.com/deploy/javelit-app)

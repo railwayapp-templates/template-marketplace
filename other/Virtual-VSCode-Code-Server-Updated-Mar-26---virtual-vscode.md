@@ -2,7 +2,7 @@
 
 Code Server [Mar ’26] Host Latest Version of Code Server on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/virtual-vscode)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/virtual-vscode)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting **virtual-vscode** involves running the project in a cloud container, wh
 
 **Category:** Other · **Languages:** Shell, TypeScript, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/virtual-vscode)
+[View on Railway →](https://railway.com/deploy/virtual-vscode)

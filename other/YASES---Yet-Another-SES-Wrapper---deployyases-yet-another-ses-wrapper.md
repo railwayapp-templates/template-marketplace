@@ -2,7 +2,7 @@
 
 A self-hosted email service built on AWS SES with a nice dashboard
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/deployyases-yet-another-ses-wrapper)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/deployyases-yet-another-ses-wrapper)
 
 ## About
 
@@ -58,4 +58,4 @@ This template is ready to use, you just need some ENV variables. Railway will ta
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/deployyases-yet-another-ses-wrapper)
+[View on Railway →](https://railway.com/deploy/deployyases-yet-another-ses-wrapper)

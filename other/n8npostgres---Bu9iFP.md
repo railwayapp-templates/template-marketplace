@@ -2,7 +2,7 @@
 
 n8n + postgres Low Memory
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Bu9iFP)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Bu9iFP)
 
 ## About
 
@@ -36,4 +36,4 @@ Optimiza n8n con PostgreSQL en entornos de baja memoria limitando la retención 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/Bu9iFP)
+[View on Railway →](https://railway.com/deploy/Bu9iFP)

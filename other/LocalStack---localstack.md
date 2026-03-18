@@ -2,7 +2,7 @@
 
 AWS, but local in the cloud
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/localstack)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/localstack)
 
 ## About
 
@@ -51,4 +51,4 @@ When deployed on **Railway**, LocalStack becomes a shared, always-available back
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/localstack)
+[View on Railway →](https://railway.com/deploy/localstack)

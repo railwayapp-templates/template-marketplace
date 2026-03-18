@@ -2,7 +2,7 @@
 
 Your AI Concierge That Never Sleeps
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jack-the-butler)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jack-the-butler)
 
 ## About
 
@@ -25,4 +25,4 @@ The system is highly flexible regarding its "brain." You can connect Jack to pre
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/jack-the-butler)
+[View on Railway →](https://railway.com/deploy/jack-the-butler)

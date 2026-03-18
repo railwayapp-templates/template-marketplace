@@ -2,7 +2,7 @@
 
 Redis key-value data store
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bitnami-redis)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bitnami-redis)
 
 ## About
 
@@ -37,4 +37,4 @@ Hosting Redis gives you access to a high-performance in-memory database capable 
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/bitnami-redis)
+[View on Railway →](https://railway.com/deploy/bitnami-redis)

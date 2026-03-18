@@ -2,7 +2,7 @@
 
 openclaw for Railway with a minimal reverse proxy wrapper.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-with-native-onboard)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-with-native-onboard)
 
 ## About
 
@@ -34,4 +34,4 @@ Hosting OpenClaw with native onboard on Railway involves deploying a Docker cont
 
 **Category:** AI/ML · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/openclaw-with-native-onboard)
+[View on Railway →](https://railway.com/deploy/openclaw-with-native-onboard)

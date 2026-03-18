@@ -2,7 +2,7 @@
 
 E-commerce order management system that enables multi-channel fulfillment
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openship)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openship)
 
 ## About
 
@@ -209,4 +209,4 @@ E-commerce order management system that enables multi-channel fulfillment
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/openship)
+[View on Railway →](https://railway.com/deploy/openship)

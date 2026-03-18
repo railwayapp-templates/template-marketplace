@@ -2,7 +2,7 @@
 
 Deploy and Host FossFLOW with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fossflow)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fossflow)
 
 ## About
 
@@ -30,4 +30,4 @@ Deploying FossFLOW involves hosting a static frontend plus an optional server-si
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/fossflow)
+[View on Railway →](https://railway.com/deploy/fossflow)

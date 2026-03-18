@@ -2,7 +2,7 @@
 
 Deploy and host wordpress on Railway using the Bitnami Wordpress Image
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wordpress-bitnami-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wordpress-bitnami-1)
 
 ## About
 
@@ -43,4 +43,4 @@ Hosting WordPress traditionally requires configuring web servers, PHP environmen
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/wordpress-bitnami-1)
+[View on Railway →](https://railway.com/deploy/wordpress-bitnami-1)

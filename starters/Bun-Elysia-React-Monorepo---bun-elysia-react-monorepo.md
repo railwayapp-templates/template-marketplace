@@ -2,7 +2,7 @@
 
 Deploy and host a Bun monorepo with Elysia and React
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bun-elysia-react-monorepo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bun-elysia-react-monorepo)
 
 ## About
 
@@ -39,4 +39,4 @@ Deploying a monorepo requires coordinating multiple services that share code and
 
 **Category:** Starters · **Languages:** TypeScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/bun-elysia-react-monorepo)
+[View on Railway →](https://railway.com/deploy/bun-elysia-react-monorepo)

@@ -2,7 +2,7 @@
 
 Django for Feed, AI, Game Custom
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/django-ai-blog-game-hub)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/django-ai-blog-game-hub)
 
 ## About
 
@@ -56,4 +56,4 @@ Hosting django-ai-blog-game-hub on Railway provides a quick and reliable way to 
 
 **Category:** Blogs · **Languages:** HTML, Python, JavaScript, Dockerfile, CSS, Procfile
 
-[View on Railway →](https://railway.com/template/django-ai-blog-game-hub)
+[View on Railway →](https://railway.com/deploy/django-ai-blog-game-hub)

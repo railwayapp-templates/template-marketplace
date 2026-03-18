@@ -2,7 +2,7 @@
 
 German Werks LTD Template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-hjLx0)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-hjLx0)
 
 ## About
 
@@ -81,4 +81,4 @@ Template marketplace: Choose from pre-built templates for common web application
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/-hjLx0)
+[View on Railway →](https://railway.com/deploy/-hjLx0)

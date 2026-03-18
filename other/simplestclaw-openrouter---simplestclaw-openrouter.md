@@ -2,7 +2,7 @@
 
 One-click OpenClaw deployment. AI assistant that runs 24/7.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/simplestclaw-openrouter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/simplestclaw-openrouter)
 
 ## About
 
@@ -25,4 +25,4 @@ SimplestClaw packages OpenClaw into a Railway-ready deployment. Your gateway run
 
 **Category:** Other · **Languages:** TypeScript, Rust, JavaScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/simplestclaw-openrouter)
+[View on Railway →](https://railway.com/deploy/simplestclaw-openrouter)

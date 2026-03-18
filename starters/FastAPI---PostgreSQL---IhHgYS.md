@@ -2,7 +2,7 @@
 
 A comprehensive FastAPI and PostgreSQL template.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/IhHgYS)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/IhHgYS)
 
 ## About
 
@@ -77,4 +77,4 @@ Whether you're prototyping a side project or scaffolding a production service, t
 
 **Category:** Starters · **Languages:** Python, CSS, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/IhHgYS)
+[View on Railway →](https://railway.com/deploy/IhHgYS)

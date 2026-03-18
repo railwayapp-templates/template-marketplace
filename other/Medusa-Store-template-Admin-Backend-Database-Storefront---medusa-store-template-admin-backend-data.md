@@ -2,7 +2,7 @@
 
 Vite + React + PostgreSQL + Next JS
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/medusa-store-template-admin-backend-data)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/medusa-store-template-admin-backend-data)
 
 ## About
 
@@ -42,4 +42,4 @@ Hosting and deploying the Medusa Store template involves launching its backend A
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/medusa-store-template-admin-backend-data)
+[View on Railway →](https://railway.com/deploy/medusa-store-template-admin-backend-data)

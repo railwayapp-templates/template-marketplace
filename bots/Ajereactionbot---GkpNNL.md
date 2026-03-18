@@ -2,7 +2,7 @@
 
 ✨ This Bot can Auto-react to Channel Posts, Groups and Private Chats. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/GkpNNL)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/GkpNNL)
 
 ## About
 
@@ -35,4 +35,4 @@ RESTRICTED_CHATS: A list of chat IDs where the bot should not react to messages 
 
 **Category:** Bots · **Languages:** JavaScript, Dockerfile, Procfile
 
-[View on Railway →](https://railway.com/template/GkpNNL)
+[View on Railway →](https://railway.com/deploy/GkpNNL)

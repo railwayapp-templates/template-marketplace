@@ -2,7 +2,7 @@
 
 The popular T3 App ready to go on Railway with Postgres.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Qi2Q_U)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Qi2Q_U)
 
 ## About
 
@@ -53,4 +53,4 @@ If you have any suggestions, don't hesitate to open an issue in the template rep
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/Qi2Q_U)
+[View on Railway →](https://railway.com/deploy/Qi2Q_U)

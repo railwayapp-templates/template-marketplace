@@ -2,7 +2,7 @@
 
 Play with a real Slurm scheduler on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/slurm-on-railway)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/slurm-on-railway)
 
 ## About
 
@@ -22,4 +22,4 @@ One-click deploy
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/slurm-on-railway)
+[View on Railway →](https://railway.com/deploy/slurm-on-railway)

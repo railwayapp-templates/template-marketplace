@@ -2,7 +2,7 @@
 
 A small Next + Payload starter for NGOs and agencies.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ngo-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ngo-starter)
 
 ## About
 
@@ -40,4 +40,4 @@ Hosting NGO Starter involves deploying both the frontend (built with Next.js) an
 
 **Category:** CMS · **Languages:** TypeScript, JavaScript, Dockerfile, CSS, SCSS, Shell
 
-[View on Railway →](https://railway.com/template/ngo-starter)
+[View on Railway →](https://railway.com/deploy/ngo-starter)

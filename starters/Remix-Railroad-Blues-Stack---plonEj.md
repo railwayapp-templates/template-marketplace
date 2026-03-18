@@ -2,7 +2,7 @@
 
 Remix + Postgres optimized for Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/plonEj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/plonEj)
 
 ## About
 
@@ -100,4 +100,4 @@ For an experiment with no traffic, this should cost about $2/mo to keep deployed
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, Dockerfile, Shell, CSS
 
-[View on Railway →](https://railway.com/template/plonEj)
+[View on Railway →](https://railway.com/deploy/plonEj)

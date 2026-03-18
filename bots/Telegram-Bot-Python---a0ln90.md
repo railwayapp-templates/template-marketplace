@@ -2,7 +2,7 @@
 
 A simple Python Telegram bot built using the telebot
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/a0ln90)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/a0ln90)
 
 ## About
 
@@ -83,4 +83,4 @@ Open Telegram, start a chat with your bot, and try the commands `/start` or `
 
 **Category:** Bots · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/a0ln90)
+[View on Railway →](https://railway.com/deploy/a0ln90)

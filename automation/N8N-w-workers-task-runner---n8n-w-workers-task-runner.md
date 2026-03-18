@@ -2,7 +2,7 @@
 
 n8n with workers and external task runners for secure scaling
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-w-workers-task-runner)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-w-workers-task-runner)
 
 ## About
 
@@ -83,4 +83,4 @@ This template deploys n8n on Railway with a production-ready setup: a main servi
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/n8n-w-workers-task-runner)
+[View on Railway →](https://railway.com/deploy/n8n-w-workers-task-runner)

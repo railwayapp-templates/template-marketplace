@@ -2,7 +2,7 @@
 
 Deploy the Claude Agent SDK to the cloud. Invoke via API or webhooks
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cloude-agent)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cloude-agent)
 
 ## About
 
@@ -40,4 +40,4 @@ One click deploy. Just add an ANTHROPIC_API_KEY to the environment variables, al
 
 **Category:** AI/ML · **Languages:** HTML, Python, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/cloude-agent)
+[View on Railway →](https://railway.com/deploy/cloude-agent)

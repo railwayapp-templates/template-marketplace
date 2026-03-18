@@ -2,7 +2,7 @@
 
 Effortlessly deploy a status page and start monitoring endpoints in minutes
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VkhOWC)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VkhOWC)
 
 ## About
 
@@ -34,4 +34,4 @@ Effortlessly deploy a status page and start monitoring endpoints in minutes
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/VkhOWC)
+[View on Railway →](https://railway.com/deploy/VkhOWC)

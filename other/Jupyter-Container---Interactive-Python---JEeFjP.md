@@ -2,7 +2,7 @@
 
 Python Jupyter Notebooks Server. Customizable Dockerfile! By Justin Mitchel
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/JEeFjP)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/JEeFjP)
 
 ## About
 
@@ -49,4 +49,4 @@ All code is available at: https://github.com/jmitchel3/jupyter-container
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/JEeFjP)
+[View on Railway →](https://railway.com/deploy/JEeFjP)

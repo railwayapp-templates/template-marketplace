@@ -2,7 +2,7 @@
 
 Simple & customizable endpoints for querying rich blockchain data.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Dyj5IJ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Dyj5IJ)
 
 ## About
 
@@ -135,4 +135,4 @@ We look forward to seeing you there!
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/Dyj5IJ)
+[View on Railway →](https://railway.com/deploy/Dyj5IJ)

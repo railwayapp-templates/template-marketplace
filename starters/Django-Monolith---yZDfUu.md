@@ -2,7 +2,7 @@
 
 A Django app connected to a Postgres database with Celery and Celery Beat.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/yZDfUu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yZDfUu)
 
 ## About
 
@@ -72,4 +72,4 @@ It spins up 5 services (with the same codebase) in one project. They are:
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/yZDfUu)
+[View on Railway →](https://railway.com/deploy/yZDfUu)

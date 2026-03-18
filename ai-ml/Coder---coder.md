@@ -2,7 +2,7 @@
 
 Secure environments for developers and their agents.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/coder)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/coder)
 
 ## About
 
@@ -44,4 +44,4 @@ This Railway template handles the Coder server hosting, environment variables fo
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/coder)
+[View on Railway →](https://railway.com/deploy/coder)

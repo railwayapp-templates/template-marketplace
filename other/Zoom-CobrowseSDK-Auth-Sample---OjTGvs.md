@@ -2,7 +2,7 @@
 
 Generate a Zoom Cobrowse SDK JWT to join Zoom Cobrowse SDK sessions
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OjTGvs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OjTGvs)
 
 ## About
 
@@ -72,4 +72,4 @@ In the Cobrowse SDK, for the **agent** you can pass in the `token` to the `ACCES
 
 **Category:** Other · **Languages:** JavaScript, Shell
 
-[View on Railway →](https://railway.com/template/OjTGvs)
+[View on Railway →](https://railway.com/deploy/OjTGvs)

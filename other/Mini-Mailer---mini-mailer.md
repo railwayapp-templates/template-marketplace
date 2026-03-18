@@ -2,7 +2,7 @@
 
 Local SMTP to HTTP Proxy for Mailgun, Postmark, and MailerSend
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mini-mailer)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mini-mailer)
 
 ## About
 
@@ -38,4 +38,4 @@ To send emails, configure your application to send email with:
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/mini-mailer)
+[View on Railway →](https://railway.com/deploy/mini-mailer)

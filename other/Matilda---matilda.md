@@ -2,7 +2,7 @@
 
 Project manager for better companies
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/matilda)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/matilda)
 
 ## About
 
@@ -47,4 +47,4 @@ L'applicazione non richiede specifiche dipendenze, ma è consigliato l'uso di Po
 
 **Category:** Other · **Languages:** Ruby, HTML, JavaScript, SCSS, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/matilda)
+[View on Railway →](https://railway.com/deploy/matilda)

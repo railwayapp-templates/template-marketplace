@@ -2,7 +2,7 @@
 
 InsForge is a backend development platform designed for agentic coding.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/insforge)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/insforge)
 
 ## About
 
@@ -70,4 +70,4 @@ InsForge enables coding agents to provision and operate backend infrastructure s
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/insforge)
+[View on Railway →](https://railway.com/deploy/insforge)

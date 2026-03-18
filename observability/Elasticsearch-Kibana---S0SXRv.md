@@ -2,7 +2,7 @@
 
 Elasticsearch is a search engine based on the Lucene library.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/S0SXRv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/S0SXRv)
 
 ## About
 
@@ -47,4 +47,4 @@ Hosting them on Railway means you don’t need to manage infrastructure. You can
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/S0SXRv)
+[View on Railway →](https://railway.com/deploy/S0SXRv)

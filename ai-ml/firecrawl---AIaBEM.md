@@ -2,7 +2,7 @@
 
 firecrawl api server + worker without auth, works with dify
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/AIaBEM)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/AIaBEM)
 
 ## About
 
@@ -73,4 +73,4 @@ _This repository is in its early development stages. We are still merging custom
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/AIaBEM)
+[View on Railway →](https://railway.com/deploy/AIaBEM)

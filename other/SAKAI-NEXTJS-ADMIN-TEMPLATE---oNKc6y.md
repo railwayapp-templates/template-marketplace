@@ -2,7 +2,7 @@
 
 An easily deployable Admin Panel build on Next js and Sakai Primefacs.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/oNKc6y)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oNKc6y)
 
 ## About
 
@@ -24,4 +24,4 @@ Sakai is ideal for enterprise dashboards, content management systems, and admin 
 
 **Category:** Other · **Languages:** CSS, TypeScript, SCSS, JavaScript
 
-[View on Railway →](https://railway.com/template/oNKc6y)
+[View on Railway →](https://railway.com/deploy/oNKc6y)

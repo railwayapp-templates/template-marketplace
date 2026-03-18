@@ -2,7 +2,7 @@
 
 Vert is a lightweight tool that turns one file format into another.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vert)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vert)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting Vert involves running a small server that exposes its conversion capabil
 
 **Category:** Other · **Languages:** Svelte, TypeScript, SCSS, JavaScript, HTML, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/vert)
+[View on Railway →](https://railway.com/deploy/vert)

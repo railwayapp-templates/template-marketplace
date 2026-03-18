@@ -2,7 +2,7 @@
 
 new-api (AI) railway template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/newapi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/newapi)
 
 ## About
 
@@ -51,4 +51,4 @@ Hosting newapi requires a web server to run the Go-based backend along with a Re
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/newapi)
+[View on Railway →](https://railway.com/deploy/newapi)

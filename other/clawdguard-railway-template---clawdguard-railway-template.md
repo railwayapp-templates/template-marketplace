@@ -2,7 +2,7 @@
 
 GUI-first, Shodan-proof Clawdbot template for Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/clawdguard-railway-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/clawdguard-railway-template)
 
 ## About
 
@@ -38,4 +38,4 @@ Deploying Clawdbot typically exposes port 18789 to the public internet, making i
 
 **Category:** Other · **Languages:** JavaScript, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/clawdguard-railway-template)
+[View on Railway →](https://railway.com/deploy/clawdguard-railway-template)

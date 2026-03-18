@@ -2,7 +2,7 @@
 
 Deploy and Host sparkleprotocolv7 with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/univ2-adapter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/univ2-adapter)
 
 ## About
 
@@ -37,4 +37,4 @@ Each adapter requires a reliable hosting environment to ensure uninterrupted dat
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/univ2-adapter)
+[View on Railway →](https://railway.com/deploy/univ2-adapter)

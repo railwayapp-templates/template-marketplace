@@ -2,7 +2,7 @@
 
 A project renders at scale GTFS files on the browser without backend
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nJ-5yD)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nJ-5yD)
 
 ## About
 
@@ -42,4 +42,4 @@ GTFS Viz is a static web application built with Vite, React, and DuckDB WASM. Th
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, HTML, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/nJ-5yD)
+[View on Railway →](https://railway.com/deploy/nJ-5yD)

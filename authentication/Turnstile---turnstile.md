@@ -2,7 +2,7 @@
 
 A reverse proxy that authenticates users via Railway's OAuth flow.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/turnstile)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/turnstile)
 
 ## About
 
@@ -35,4 +35,4 @@ The service handles session management, WebSocket and SSE upgrades, and all OAut
 
 **Category:** Authentication · **Languages:** Go
 
-[View on Railway →](https://railway.com/template/turnstile)
+[View on Railway →](https://railway.com/deploy/turnstile)

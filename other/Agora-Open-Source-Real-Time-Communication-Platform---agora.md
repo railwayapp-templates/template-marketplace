@@ -2,7 +2,7 @@
 
 Agora [Mar ’26] (Enable Voice, Video & Chat in Apps) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/agora)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/agora)
 
 ## About
 
@@ -26,4 +26,4 @@ You can self-host Agora services on Railway to gain full control over your deplo
 
 **Category:** Other · **Languages:** Go, Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/agora)
+[View on Railway →](https://railway.com/deploy/agora)

@@ -2,7 +2,7 @@
 
 All your business on one platform. Simple, efficient, yet affordable!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/m3dQ_V)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/m3dQ_V)
 
 ## About
 
@@ -50,4 +50,4 @@ Odoo runs as a Python WSGI application with PostgreSQL backend, requiring worker
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/m3dQ_V)
+[View on Railway →](https://railway.com/deploy/m3dQ_V)

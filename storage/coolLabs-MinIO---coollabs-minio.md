@@ -2,7 +2,7 @@
 
 Deploy and Host coolLabs MinIO with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/coollabs-minio)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/coollabs-minio)
 
 ## About
 
@@ -47,4 +47,4 @@ Hosting MinIO provides a self-contained, high-performance storage server capable
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/coollabs-minio)
+[View on Railway →](https://railway.com/deploy/coollabs-minio)

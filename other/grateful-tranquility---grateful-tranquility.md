@@ -2,7 +2,7 @@
 
 Deploy and Host grateful-tranquility with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/grateful-tranquility)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/grateful-tranquility)
 
 ## About
 
@@ -32,4 +32,4 @@ This project is hosted on Railway as a web service. It uses Node.js and Express,
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/grateful-tranquility)
+[View on Railway →](https://railway.com/deploy/grateful-tranquility)

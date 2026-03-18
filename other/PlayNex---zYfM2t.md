@@ -2,7 +2,7 @@
 
 A robust backend with interactive RESTful API's for a video streaming
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zYfM2t)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zYfM2t)
 
 ## About
 
@@ -37,4 +37,4 @@ PlayNex is a robust backend for a YouTube-like video streaming application, inte
 
 **Category:** Other · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/zYfM2t)
+[View on Railway →](https://railway.com/deploy/zYfM2t)

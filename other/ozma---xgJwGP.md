@@ -2,7 +2,7 @@
 
 A CRM/ERP platform for rapid development of customizable web apps
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/xgJwGP)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xgJwGP)
 
 ## About
 
@@ -90,4 +90,4 @@ Ozma is an open-source CRM/ERP platform that allows for the rapid development of
 
 **Category:** Other · **Languages:** Vue, TypeScript, SCSS, JavaScript, HTML, CSS, Python, Shell, Nix
 
-[View on Railway →](https://railway.com/template/xgJwGP)
+[View on Railway →](https://railway.com/deploy/xgJwGP)

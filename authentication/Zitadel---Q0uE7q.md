@@ -2,7 +2,7 @@
 
 Robust & customizable turnkey solution for authentication and authorization
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Q0uE7q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Q0uE7q)
 
 ## About
 
@@ -61,4 +61,4 @@ RootPassword1!
 
 **Category:** Authentication · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/Q0uE7q)
+[View on Railway →](https://railway.com/deploy/Q0uE7q)

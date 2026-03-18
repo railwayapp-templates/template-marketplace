@@ -2,7 +2,7 @@
 
 A simple gRPC reverse proxy using Caddy.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kkr4w6)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kkr4w6)
 
 ## About
 
@@ -25,4 +25,4 @@ Hosting a gRPC reverse proxy provides a crucial infrastructure component for mic
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/kkr4w6)
+[View on Railway →](https://railway.com/deploy/kkr4w6)

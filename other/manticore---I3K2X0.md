@@ -2,7 +2,7 @@
 
 Manticore Search – easy-to-use open-source fast database for search
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/I3K2X0)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/I3K2X0)
 
 ## About
 
@@ -26,4 +26,4 @@ Manticore Search is an open-source database that was created in 2017 as a contin
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/I3K2X0)
+[View on Railway →](https://railway.com/deploy/I3K2X0)

@@ -2,7 +2,7 @@
 
 The cheapest n8n with PostgreSQL database.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nIAh-Q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nIAh-Q)
 
 ## About
 
@@ -46,4 +46,4 @@ NOTE: This is the official image + some community nodes!
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/nIAh-Q)
+[View on Railway →](https://railway.com/deploy/nIAh-Q)

@@ -2,7 +2,7 @@
 
 Low-code, extendable API integration & automation platform. Just deploy it
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bytechef)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bytechef)
 
 ## About
 
@@ -38,4 +38,4 @@ ByteChef can be self-hosted on various platforms to give you full control over y
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/bytechef)
+[View on Railway →](https://railway.com/deploy/bytechef)

@@ -2,7 +2,7 @@
 
 Full stack, modern web application template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/full-stack-fastapi-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/full-stack-fastapi-template)
 
 ## About
 
@@ -56,4 +56,4 @@ Hosting the full stack FastAPI template involves deploying both the frontend and
 
 **Category:** Starters · **Languages:** TypeScript, Python, HTML, Shell, Dockerfile, Mako, Jinja
 
-[View on Railway →](https://railway.com/template/full-stack-fastapi-template)
+[View on Railway →](https://railway.com/deploy/full-stack-fastapi-template)

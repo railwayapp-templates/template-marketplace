@@ -2,7 +2,7 @@
 
 Quickstarter template for using FastHTML on railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/TaT_7R)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TaT_7R)
 
 ## About
 
@@ -28,4 +28,4 @@ Hope it's useful! Feel free to create an issue on github if you have any issues.
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/TaT_7R)
+[View on Railway →](https://railway.com/deploy/TaT_7R)

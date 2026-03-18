@@ -2,7 +2,7 @@
 
 Open Source Go Backend that Includes Embedded Database (SQLite)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/backend)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/backend)
 
 ## About
 
@@ -26,4 +26,4 @@ Hosting PocketBase on Railway provides a cloud-based solution for running your b
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/backend)
+[View on Railway →](https://railway.com/deploy/backend)

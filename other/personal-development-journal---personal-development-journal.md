@@ -2,7 +2,7 @@
 
 Deploy your own customizeable Personal Development Journal
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/personal-development-journal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/personal-development-journal)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting personal-development-journal on Railway runs the Flask feedback server t
 
 **Category:** Other · **Languages:** Python, Procfile
 
-[View on Railway →](https://railway.com/template/personal-development-journal)
+[View on Railway →](https://railway.com/deploy/personal-development-journal)

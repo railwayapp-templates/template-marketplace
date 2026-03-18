@@ -2,7 +2,7 @@
 
 Self-hosted, analytics tool for those who care about privacy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ackee)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ackee)
 
 ## About
 
@@ -49,4 +49,4 @@ Hosting Ackee involves deploying a lightweight Node.js application with a MongoD
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/ackee)
+[View on Railway →](https://railway.com/deploy/ackee)

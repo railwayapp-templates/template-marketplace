@@ -2,7 +2,7 @@
 
 Debian 13 with Volume. SSH into for diagnostics, testing, and dev tasks.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/debian-13)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/debian-13)
 
 ## About
 
@@ -23,4 +23,4 @@ Deploying Debian 13 on Railway uses the official minimal Debian Docker image in 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/debian-13)
+[View on Railway →](https://railway.com/deploy/debian-13)

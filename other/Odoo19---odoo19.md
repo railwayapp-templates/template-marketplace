@@ -2,7 +2,7 @@
 
 Imagen Docker Official clonada del repo original
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/odoo19)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/odoo19)
 
 ## About
 
@@ -37,4 +37,4 @@ Deploying Odoo19 involves setting up a Python-based web application with Postgre
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/odoo19)
+[View on Railway →](https://railway.com/deploy/odoo19)

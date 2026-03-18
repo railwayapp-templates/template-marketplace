@@ -2,7 +2,7 @@
 
 Automate your WhatsApp with workflows
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/waha-n8n)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/waha-n8n)
 
 ## About
 
@@ -74,4 +74,4 @@ Hosting WAHA alongside n8n gives you a complete WhatsApp automation backend runn
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/waha-n8n)
+[View on Railway →](https://railway.com/deploy/waha-n8n)

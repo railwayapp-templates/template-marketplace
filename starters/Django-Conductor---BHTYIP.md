@@ -2,7 +2,7 @@
 
 A simple project using Docker, Django and HTMX
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/BHTYIP)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BHTYIP)
 
 ## About
 
@@ -49,4 +49,4 @@ When it is time for deployment, ```railway up``` will push any changes onto `Rai
 
 **Category:** Starters · **Languages:** Python, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/BHTYIP)
+[View on Railway →](https://railway.com/deploy/BHTYIP)

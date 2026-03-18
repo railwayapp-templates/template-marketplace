@@ -2,7 +2,7 @@
 
 Servidor SFTP Dockerizado con Event Triggers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/servidor-sftp-dockerizado-con-event-trig)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/servidor-sftp-dockerizado-con-event-trig)
 
 ## About
 
@@ -253,4 +253,4 @@ python3 /home/$1/scripts/loader.py "$@"
 
 **Category:** Automation · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/servidor-sftp-dockerizado-con-event-trig)
+[View on Railway →](https://railway.com/deploy/servidor-sftp-dockerizado-con-event-trig)

@@ -2,7 +2,7 @@
 
 Drizzle Studio but with multiple connections
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VT5SfC)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VT5SfC)
 
 ## About
 
@@ -34,4 +34,4 @@ https://x.com/DrizzleORM/status/1816789492230942941
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/VT5SfC)
+[View on Railway →](https://railway.com/deploy/VT5SfC)

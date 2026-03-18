@@ -2,7 +2,7 @@
 
 Multiplayer WebSocket relay server with rooms and msgpack. Bun-native.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bun-websocket-game-server)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bun-websocket-game-server)
 
 ## About
 
@@ -34,4 +34,4 @@ This template deploys a stateless WebSocket relay server built on Bun's native W
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/bun-websocket-game-server)
+[View on Railway →](https://railway.com/deploy/bun-websocket-game-server)

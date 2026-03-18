@@ -2,7 +2,7 @@
 
 Minimal Debian-based Linux for privacy-focused and custom workloads
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/parrotos-core-edition)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/parrotos-core-edition)
 
 ## About
 
@@ -25,4 +25,4 @@ A persistent volume is mounted at `/work` to retain system configurations, insta
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/parrotos-core-edition)
+[View on Railway →](https://railway.com/deploy/parrotos-core-edition)

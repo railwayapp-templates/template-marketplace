@@ -2,7 +2,7 @@
 
 Template simples Flowise AI. Defina usuário, senha e faça o deploy.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/DC2bT-)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/DC2bT-)
 
 ## About
 
@@ -56,4 +56,4 @@ Sem complicações, sem configurações avançadas. Comece agora e aproveite o p
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/DC2bT-)
+[View on Railway →](https://railway.com/deploy/DC2bT-)

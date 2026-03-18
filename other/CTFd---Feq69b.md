@@ -2,7 +2,7 @@
 
 An open-source platform to run capture-the-flag events.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Feq69b)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Feq69b)
 
 ## About
 
@@ -30,4 +30,4 @@ An open-source platform to run capture-the-flag events.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/Feq69b)
+[View on Railway →](https://railway.com/deploy/Feq69b)

@@ -2,7 +2,7 @@
 
 Matomo [Mar ’26] (Managed Analytics & Tracking, GA Alternative), Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/matomo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/matomo)
 
 ## About
 
@@ -41,4 +41,4 @@ You can self host Matomo to keep all your analytics data and configurations enti
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/matomo)
+[View on Railway →](https://railway.com/deploy/matomo)

@@ -2,7 +2,7 @@
 
 A self-hosted vehicle expense tracking system with multi-user support.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hammond)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hammond)
 
 ## About
 
@@ -29,4 +29,4 @@ Simple 1-click deploy on railway.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/hammond)
+[View on Railway →](https://railway.com/deploy/hammond)

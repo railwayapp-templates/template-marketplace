@@ -2,7 +2,7 @@
 
 Moltbot setup with Cloudflare Tunnel secured
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/secure-moltbot-railway-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/secure-moltbot-railway-template)
 
 ## About
 
@@ -28,4 +28,4 @@ This template deploys MoltBot with production-grade security configured out-of-t
 
 **Category:** AI/ML · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/secure-moltbot-railway-template)
+[View on Railway →](https://railway.com/deploy/secure-moltbot-railway-template)

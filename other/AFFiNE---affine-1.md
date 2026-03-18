@@ -2,7 +2,7 @@
 
 A basic, out-of-the-box setup of Affine.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/affine-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/affine-1)
 
 ## About
 
@@ -46,4 +46,4 @@ Template orchestrates AFFiNE NestJS server, PostgreSQL, Redis. Links environment
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/affine-1)
+[View on Railway →](https://railway.com/deploy/affine-1)

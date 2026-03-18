@@ -2,7 +2,7 @@
 
 Build Real-Time Knowledge Graphs for AI Agents
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/graphiti-neo4j)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/graphiti-neo4j)
 
 ## About
 
@@ -59,4 +59,4 @@ or applications that require rich relationship modeling.
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/graphiti-neo4j)
+[View on Railway →](https://railway.com/deploy/graphiti-neo4j)

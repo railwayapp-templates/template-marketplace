@@ -2,7 +2,7 @@
 
 A Railway starter template based on Remix, PostgreSQL (Prisma) and Radix UI
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VeLWVf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VeLWVf)
 
 ## About
 
@@ -45,4 +45,4 @@ This starter comes with some batteries included:
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/VeLWVf)
+[View on Railway →](https://railway.com/deploy/VeLWVf)

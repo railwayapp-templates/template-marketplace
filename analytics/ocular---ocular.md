@@ -2,7 +2,7 @@
 
 A self-hosted, open-source personal budgeting app with Sankey diagrams. 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ocular)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ocular)
 
 ## About
 
@@ -44,4 +44,4 @@ Ocular runs as a single Docker container bundling a Vue 3 SPA frontend (served b
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/ocular)
+[View on Railway →](https://railway.com/deploy/ocular)

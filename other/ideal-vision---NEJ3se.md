@@ -2,7 +2,7 @@
 
 balance-management to balance your incomes, expenses and budget
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NEJ3se)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NEJ3se)
 
 ## About
 
@@ -16,4 +16,4 @@ It's a project to control a companies' incomes, expenses and budget. You can cre
 
 **Category:** Other · **Languages:** Java, Dockerfile
 
-[View on Railway →](https://railway.com/template/NEJ3se)
+[View on Railway →](https://railway.com/deploy/NEJ3se)

@@ -2,7 +2,7 @@
 
 🔥 The most advanced open-source online code execution system in the world.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/h9hIWO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/h9hIWO)
 
 ## About
 
@@ -68,4 +68,4 @@ To see Judge0 in action, try Judge0 IDE - our free and open-source online code e
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/h9hIWO)
+[View on Railway →](https://railway.com/deploy/h9hIWO)

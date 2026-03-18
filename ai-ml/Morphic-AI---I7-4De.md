@@ -2,7 +2,7 @@
 
 Perplexity-like answer engine powered with AI,
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/I7-4De)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/I7-4De)
 
 ## About
 
@@ -46,4 +46,4 @@ This project is designed to make AI-powered search easy and improve user experie
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/I7-4De)
+[View on Railway →](https://railway.com/deploy/I7-4De)

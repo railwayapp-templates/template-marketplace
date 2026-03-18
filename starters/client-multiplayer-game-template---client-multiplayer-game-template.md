@@ -2,7 +2,7 @@
 
 Deploy and Host client-multiplayer-game-template with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/client-multiplayer-game-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/client-multiplayer-game-template)
 
 ## About
 
@@ -28,4 +28,4 @@ This client template provides the frontend for real-time multiplayer games with 
 
 **Category:** Starters · **Languages:** JavaScript, CSS, HTML
 
-[View on Railway →](https://railway.com/template/client-multiplayer-game-template)
+[View on Railway →](https://railway.com/deploy/client-multiplayer-game-template)

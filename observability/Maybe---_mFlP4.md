@@ -2,7 +2,7 @@
 
 The OS for your personal finances
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_mFlP4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_mFlP4)
 
 ## About
 
@@ -50,4 +50,4 @@ This template should give you a minimal Maybe install. After creating your accou
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/_mFlP4)
+[View on Railway →](https://railway.com/deploy/_mFlP4)

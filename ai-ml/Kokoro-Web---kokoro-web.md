@@ -2,7 +2,7 @@
 
 Free AI Voice Generator with API integration
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kokoro-web)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kokoro-web)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting Kokoro Web on Railway gives you a self-hosted text-to-speech service wit
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/kokoro-web)
+[View on Railway →](https://railway.com/deploy/kokoro-web)

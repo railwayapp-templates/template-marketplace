@@ -2,7 +2,7 @@
 
 A worflow automation for Digital Team Academy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/71sXeU)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/71sXeU)
 
 ## About
 
@@ -77,4 +77,4 @@ N8N is a versatile and powerful tool for automating workflows and integrating ap
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/71sXeU)
+[View on Railway →](https://railway.com/deploy/71sXeU)

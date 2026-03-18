@@ -2,7 +2,7 @@
 
 Self-hostable minimalist Map tracker and Trip planner
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/trip)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/trip)
 
 ## About
 
@@ -23,4 +23,4 @@ Hosting TRIP on Railway consists of deploying a prebuilt Docker image and attach
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/trip)
+[View on Railway →](https://railway.com/deploy/trip)

@@ -2,7 +2,7 @@
 
 n8n ai automation template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Xx4_lu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Xx4_lu)
 
 ## About
 
@@ -54,4 +54,4 @@ Whether you need to streamline communication between agents, automate tasks, or 
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/Xx4_lu)
+[View on Railway →](https://railway.com/deploy/Xx4_lu)

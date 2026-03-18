@@ -2,7 +2,7 @@
 
 A simple job queue service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/quirrel)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/quirrel)
 
 ## About
 
@@ -48,4 +48,4 @@ View the official [Quirrel](https://quirrel.dev/) website.
 
 **Category:** Queues · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/quirrel)
+[View on Railway →](https://railway.com/deploy/quirrel)

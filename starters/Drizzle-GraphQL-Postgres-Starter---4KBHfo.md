@@ -2,7 +2,7 @@
 
 A simple GraphQL API using Drizzle schemas
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/4KBHfo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4KBHfo)
 
 ## About
 
@@ -53,4 +53,4 @@ This template combines GraphQL, Drizzle and Typescript to make a perfect starter
 
 **Category:** Starters · **Languages:** TypeScript
 
-[View on Railway →](https://railway.com/template/4KBHfo)
+[View on Railway →](https://railway.com/deploy/4KBHfo)

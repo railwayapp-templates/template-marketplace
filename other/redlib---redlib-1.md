@@ -2,7 +2,7 @@
 
 Private front-end for Reddit
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/redlib-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redlib-1)
 
 ## About
 
@@ -35,4 +35,4 @@ See additional configuration options here: https://github.com/redlib-org/redlib/
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/redlib-1)
+[View on Railway →](https://railway.com/deploy/redlib-1)

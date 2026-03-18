@@ -2,7 +2,7 @@
 
 Gitness [Mar ’26] (Code Hosting, CI/CD & Collaboration) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gitness)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gitness)
 
 ## About
 
@@ -45,4 +45,4 @@ Because Railway offers the easiest and fastest way to deploy open-source tools. 
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/gitness)
+[View on Railway →](https://railway.com/deploy/gitness)

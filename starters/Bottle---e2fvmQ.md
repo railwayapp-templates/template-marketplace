@@ -2,7 +2,7 @@
 
 Bottle is a fast simple and lightweight WSGI micro web-framework for Python
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/e2fvmQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/e2fvmQ)
 
 ## About
 
@@ -30,4 +30,4 @@ Hosting Bottle applications requires a WSGI server for production deployments. T
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/e2fvmQ)
+[View on Railway →](https://railway.com/deploy/e2fvmQ)

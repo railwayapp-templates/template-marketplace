@@ -2,7 +2,7 @@
 
 A scheduled Playwright test runner, using Lambdatest
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/O6ga73)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/O6ga73)
 
 ## About
 
@@ -28,4 +28,4 @@ To write your own test, eject the github repo and clone your copy. Write test an
 
 **Category:** Automation · **Languages:** HTML, JavaScript, TypeScript, C#, Python, Java, Gherkin
 
-[View on Railway →](https://railway.com/template/O6ga73)
+[View on Railway →](https://railway.com/deploy/O6ga73)

@@ -2,7 +2,7 @@
 
 A file list program that supports multiple storage
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openlist)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openlist)
 
 ## About
 
@@ -34,4 +34,4 @@ By deploying OpenList on Railway, you are one step closer to supporting a comple
 
 **Category:** Storage · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/openlist)
+[View on Railway →](https://railway.com/deploy/openlist)

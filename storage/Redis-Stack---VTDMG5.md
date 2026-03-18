@@ -2,7 +2,7 @@
 
 Redis Stack is an enhanced version of Redis. Updated template.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VTDMG5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VTDMG5)
 
 ## About
 
@@ -44,4 +44,4 @@ AI/ML Integration with RedisAI: Enables running AI/ML inference directly in Redi
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/VTDMG5)
+[View on Railway →](https://railway.com/deploy/VTDMG5)

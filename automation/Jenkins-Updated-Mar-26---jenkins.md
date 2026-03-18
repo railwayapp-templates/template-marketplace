@@ -2,7 +2,7 @@
 
 Jenkins [Mar ’26] (Automate Builds, Tests & Deployments Easily) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jenkins)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jenkins)
 
 ## About
 
@@ -23,4 +23,4 @@ Self-hosting Jenkins on Railway allows you to fully control your CI/CD workflows
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/jenkins)
+[View on Railway →](https://railway.com/deploy/jenkins)

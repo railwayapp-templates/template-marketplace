@@ -2,7 +2,7 @@
 
 Component-based CMS with a code editor, visual editing, and static sites.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/palacms)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/palacms)
 
 ## About
 
@@ -35,4 +35,4 @@ Pala is self-contained Svelte application with a Pocketbase backend. There's no 
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/palacms)
+[View on Railway →](https://railway.com/deploy/palacms)

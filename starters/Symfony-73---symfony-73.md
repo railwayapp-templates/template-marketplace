@@ -2,7 +2,7 @@
 
 An up-to-date Symfony installation. Includes app, worker and database.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/symfony-73)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/symfony-73)
 
 ## About
 
@@ -44,4 +44,4 @@ After you deploy the template, you can open the public URL of your **railway-app
 
 **Category:** Starters · **Languages:** PHP
 
-[View on Railway →](https://railway.com/template/symfony-73)
+[View on Railway →](https://railway.com/deploy/symfony-73)

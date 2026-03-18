@@ -2,7 +2,7 @@
 
 The AI-native embedding database (Legacy)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/chromadb-063)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chromadb-063)
 
 ## About
 
@@ -39,4 +39,4 @@ ChromaDB deployments on Railway benefit from scalable CPU, RAM and storage while
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/chromadb-063)
+[View on Railway →](https://railway.com/deploy/chromadb-063)

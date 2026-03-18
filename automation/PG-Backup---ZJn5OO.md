@@ -2,7 +2,7 @@
 
 A container for creating & uploading postgres backups to s3 compat. buckets
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZJn5OO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZJn5OO)
 
 ## About
 
@@ -41,4 +41,4 @@ Then, every time cron hits, a backup is made, and uploaded to s3. If the total b
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/ZJn5OO)
+[View on Railway →](https://railway.com/deploy/ZJn5OO)

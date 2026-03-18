@@ -2,7 +2,7 @@
 
 Docker-compose port for peppermint.sh
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZIVdC1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZIVdC1)
 
 ## About
 
@@ -42,4 +42,4 @@ This comprehensive guide covers initial setup, practical usage, and advanced dev
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ZIVdC1)
+[View on Railway →](https://railway.com/deploy/ZIVdC1)

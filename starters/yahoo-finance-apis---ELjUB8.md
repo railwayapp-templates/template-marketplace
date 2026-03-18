@@ -2,7 +2,7 @@
 
 Deploy a real-time stock price API with FastAPI in one click!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ELjUB8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ELjUB8)
 
 ## About
 
@@ -38,4 +38,4 @@ Perfect for developers, students, and finance enthusiasts who want fast and easy
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/ELjUB8)
+[View on Railway →](https://railway.com/deploy/ELjUB8)

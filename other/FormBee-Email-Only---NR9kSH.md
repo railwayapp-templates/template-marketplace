@@ -2,7 +2,7 @@
 
 Open-Source Form backend for sending form data to email easily
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NR9kSH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NR9kSH)
 
 ## About
 
@@ -32,4 +32,4 @@ Easily self-host FormBee's open-source form backend. This template allows you to
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/NR9kSH)
+[View on Railway →](https://railway.com/deploy/NR9kSH)

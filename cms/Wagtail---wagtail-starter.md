@@ -2,7 +2,7 @@
 
 A production-ready Wagtail CMS starter template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wagtail-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wagtail-starter)
 
 ## About
 
@@ -70,4 +70,4 @@ Wagtail Starter is a production-ready Wagtail CMS template pre-configured for Ra
 
 **Category:** CMS · **Languages:** Python, HTML, CSS
 
-[View on Railway →](https://railway.com/template/wagtail-starter)
+[View on Railway →](https://railway.com/deploy/wagtail-starter)

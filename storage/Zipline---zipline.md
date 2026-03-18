@@ -2,7 +2,7 @@
 
 The next generation ShareX / File upload server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zipline)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zipline)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting Zipline requires a server environment that can run Docker containers. Th
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/zipline)
+[View on Railway →](https://railway.com/deploy/zipline)

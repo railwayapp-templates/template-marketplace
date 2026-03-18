@@ -2,7 +2,7 @@
 
 smartShop E-commerce store
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/EsarAd)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EsarAd)
 
 ## About
 
@@ -34,4 +34,4 @@ smartShop E-commerce storesmartShop E-commerce storesmartShop E-commerce storesm
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/EsarAd)
+[View on Railway →](https://railway.com/deploy/EsarAd)

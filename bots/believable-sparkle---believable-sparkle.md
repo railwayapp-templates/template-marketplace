@@ -2,7 +2,7 @@
 
 A simple template for host your telegram bots
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/believable-sparkle)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/believable-sparkle)
 
 ## About
 
@@ -26,4 +26,4 @@ Hosting believable-sparkle on Railway involves deploying a lightweight Docker co
 
 **Category:** Bots · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/believable-sparkle)
+[View on Railway →](https://railway.com/deploy/believable-sparkle)

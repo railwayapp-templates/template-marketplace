@@ -2,7 +2,7 @@
 
 An open-source alternative to Crowdin, Phrase or Lokalise
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/IsMFRe)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/IsMFRe)
 
 ## About
 
@@ -98,4 +98,4 @@ For more detailed documentation about Tolgee, visit [tolgee.io](https://tolgee.i
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/IsMFRe)
+[View on Railway →](https://railway.com/deploy/IsMFRe)

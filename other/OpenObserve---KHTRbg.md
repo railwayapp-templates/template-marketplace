@@ -2,7 +2,7 @@
 
 Full stack observability​
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/KHTRbg)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/KHTRbg)
 
 ## About
 
@@ -101,4 +101,4 @@ Some of the features are:
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/KHTRbg)
+[View on Railway →](https://railway.com/deploy/KHTRbg)

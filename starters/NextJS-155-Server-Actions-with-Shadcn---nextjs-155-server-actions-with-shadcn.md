@@ -2,7 +2,7 @@
 
 Better-Auth Ready with Auth flows and Server actions (Prod ready)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs-155-server-actions-with-shadcn)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-155-server-actions-with-shadcn)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting this setup involves deploying a **full-stack application** that heavily 
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/nextjs-155-server-actions-with-shadcn)
+[View on Railway →](https://railway.com/deploy/nextjs-155-server-actions-with-shadcn)

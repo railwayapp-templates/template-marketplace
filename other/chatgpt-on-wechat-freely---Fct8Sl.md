@@ -2,7 +2,7 @@
 
 This Template allow you to deploy weChat robot simply. Default use link ai.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Fct8Sl)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Fct8Sl)
 
 ## About
 
@@ -26,4 +26,4 @@ Default use link ai. You can register at https://chat.link-ai.tech. And you can 
 
 **Category:** Other · **Languages:** Python, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/Fct8Sl)
+[View on Railway →](https://railway.com/deploy/Fct8Sl)

@@ -2,7 +2,7 @@
 
 Account Abstraction ERC-4337 Bundler: Skandha by Etherspot
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uOkE4n)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uOkE4n)
 
 ## About
 
@@ -123,4 +123,4 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE. See the [LICENSE]
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, Solidity, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/uOkE4n)
+[View on Railway →](https://railway.com/deploy/uOkE4n)

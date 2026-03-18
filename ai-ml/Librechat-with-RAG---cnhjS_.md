@@ -2,7 +2,7 @@
 
 Librechat.ai with RAG enabled
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cnhjS_)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cnhjS_)
 
 ## About
 
@@ -155,4 +155,4 @@ Applicable to various natural language processing tasks, including dialogue syst
 
 **Category:** AI/ML · **Languages:** Python, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/cnhjS_)
+[View on Railway →](https://railway.com/deploy/cnhjS_)

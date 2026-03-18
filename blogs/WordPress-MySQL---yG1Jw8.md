@@ -2,7 +2,7 @@
 
 Zero Config | One click | WordPress | Docker | MySQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/yG1Jw8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yG1Jw8)
 
 ## About
 
@@ -63,4 +63,4 @@ Zero Config | One click | WordPress | Docker | MySQL
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/template/yG1Jw8)
+[View on Railway →](https://railway.com/deploy/yG1Jw8)

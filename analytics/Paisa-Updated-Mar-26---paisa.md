@@ -2,7 +2,7 @@
 
 Paisa [Mar ’26] (Track Expenses & Manage Budgets Easily) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/paisa)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/paisa)
 
 ## About
 
@@ -29,4 +29,4 @@ Self-hosting Paisa allows you to manage your complete financial data locally or 
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/paisa)
+[View on Railway →](https://railway.com/deploy/paisa)

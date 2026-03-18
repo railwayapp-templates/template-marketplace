@@ -2,7 +2,7 @@
 
 Opentelemetry with Jaeger
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OocRiw)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OocRiw)
 
 ## About
 
@@ -36,4 +36,4 @@ Jaeger is a distributed tracing system. It receives data from the Otel Collector
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/OocRiw)
+[View on Railway →](https://railway.com/deploy/OocRiw)

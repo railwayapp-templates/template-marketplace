@@ -2,7 +2,7 @@
 
 A complete real-time multiplayer lobby system with WebSockets.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/multiplayer-web-lobby)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/multiplayer-web-lobby)
 
 ## About
 
@@ -49,4 +49,4 @@ Hosting Multiplayer-Web-Lobby involves deploying two containerized services: a N
 
 **Category:** Other · **Languages:** JavaScript, HTML, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/multiplayer-web-lobby)
+[View on Railway →](https://railway.com/deploy/multiplayer-web-lobby)

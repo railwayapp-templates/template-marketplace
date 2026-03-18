@@ -2,7 +2,7 @@
 
 Configuración Docker lista para producción para desplegar SQL Server 2022
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/sql-server-2022-en-railway-optimizado)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sql-server-2022-en-railway-optimizado)
 
 ## About
 
@@ -27,4 +27,4 @@ Este proyecto está diseñado para ser alojado rápida y fácilmente en platafor
 
 **Category:** Storage · **Languages:** Dockerfile, Shell, TSQL
 
-[View on Railway →](https://railway.com/template/sql-server-2022-en-railway-optimizado)
+[View on Railway →](https://railway.com/deploy/sql-server-2022-en-railway-optimizado)

@@ -2,7 +2,7 @@
 
 Joplin [Mar ’26] (Markdown Notes, Task List & E2E Encrypted Sync) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/joplin)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/joplin)
 
 ## About
 
@@ -36,4 +36,4 @@ You can self host Joplin to keep all your notes, to-dos, and personal informatio
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/joplin)
+[View on Railway →](https://railway.com/deploy/joplin)

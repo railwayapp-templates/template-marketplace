@@ -2,7 +2,7 @@
 
 🤖️ Deploy ChatGPT on WeChat in 2 steps! 🤖️
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zKIfYk)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zKIfYk)
 
 ## About
 
@@ -48,4 +48,4 @@ Fill in the following blanks:
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/template/zKIfYk)
+[View on Railway →](https://railway.com/deploy/zKIfYk)

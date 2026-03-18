@@ -2,7 +2,7 @@
 
 Open Source backend for your next SaaS and Mobile app in 1 file
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/XfUmjI)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/XfUmjI)
 
 ## About
 
@@ -41,4 +41,4 @@ Use as a standalone app or as Go framework, that you can extend via hooks to cre
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/XfUmjI)
+[View on Railway →](https://railway.com/deploy/XfUmjI)

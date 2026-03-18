@@ -2,7 +2,7 @@
 
 FastAPI template integrated with celery
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fastapi-celery-beat-worker-flower)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-celery-beat-worker-flower)
 
 ## About
 
@@ -50,4 +50,4 @@ This deployment consists of 5 interconnected services running on Railway's platf
 
 **Category:** Starters · **Languages:** CSS, HTML, Dockerfile, Shell, Python
 
-[View on Railway →](https://railway.com/template/fastapi-celery-beat-worker-flower)
+[View on Railway →](https://railway.com/deploy/fastapi-celery-beat-worker-flower)

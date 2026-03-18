@@ -2,7 +2,7 @@
 
 A Sails starter app with React, Postgres, Redis, Inertia & Tailwind
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ia84_3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ia84_3)
 
 ## About
 
@@ -64,4 +64,4 @@ With The Boring JavaScript Stack, you don't need 👇🏾
 
 **Category:** Other · **Languages:** EJS, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/ia84_3)
+[View on Railway →](https://railway.com/deploy/ia84_3)

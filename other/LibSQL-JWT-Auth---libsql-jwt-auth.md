@@ -2,7 +2,7 @@
 
 LibSQL + JWT Generation + Example in Go
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/libsql-jwt-auth)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/libsql-jwt-auth)
 
 ## About
 
@@ -33,4 +33,4 @@ This template spins up a LibSQL server with JWT auth pre-configured via `SQLD_AU
 
 **Category:** Other · **Languages:** Go, Dockerfile
 
-[View on Railway →](https://railway.com/template/libsql-jwt-auth)
+[View on Railway →](https://railway.com/deploy/libsql-jwt-auth)

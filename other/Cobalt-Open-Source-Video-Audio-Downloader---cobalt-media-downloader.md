@@ -2,7 +2,7 @@
 
 Self-Host Cobalt on Railway and get a public media download API instantly
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cobalt-media-downloader)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cobalt-media-downloader)
 
 ## About
 
@@ -40,4 +40,4 @@ The Railway template deploys the Cobalt API service. The API exposes a single en
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/cobalt-media-downloader)
+[View on Railway →](https://railway.com/deploy/cobalt-media-downloader)

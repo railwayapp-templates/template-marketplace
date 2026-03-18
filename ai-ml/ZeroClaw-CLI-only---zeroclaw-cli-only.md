@@ -2,7 +2,7 @@
 
 Manage your zeroclaw directly in terminal with railway-cli ssh
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zeroclaw-cli-only)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zeroclaw-cli-only)
 
 ## About
 
@@ -18,4 +18,4 @@ Deploying ZeroClaw on Railway involves building the Rust binary from source in a
 
 **Category:** AI/ML · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/zeroclaw-cli-only)
+[View on Railway →](https://railway.com/deploy/zeroclaw-cli-only)

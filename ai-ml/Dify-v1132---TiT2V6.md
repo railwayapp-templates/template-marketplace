@@ -2,7 +2,7 @@
 
 Open-source AI platform with BaaS & LLMOps for all users.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/TiT2V6)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TiT2V6)
 
 ## About
 
@@ -217,4 +217,4 @@ With Dify, you can skip the complexity and focus on what matters most - creating
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/TiT2V6)
+[View on Railway →](https://railway.com/deploy/TiT2V6)

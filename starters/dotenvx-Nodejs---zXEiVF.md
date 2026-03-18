@@ -2,7 +2,7 @@
 
 A minimal dotenvx -environment variables- setup in a Node.js application
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zXEiVF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zXEiVF)
 
 ## About
 
@@ -176,4 +176,4 @@ This template is licensed under the MIT License. See the [LICENSE](/LICENSE) fil
 
 **Category:** Starters · **Languages:** JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/zXEiVF)
+[View on Railway →](https://railway.com/deploy/zXEiVF)

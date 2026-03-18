@@ -2,7 +2,7 @@
 
 Build AI Agents with no code and control them using our realtime SDK.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/48SIfr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/48SIfr)
 
 ## About
 
@@ -61,4 +61,4 @@ Step 3: read [our documentation](https://github.com/supallm/supallm) to know mor
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/48SIfr)
+[View on Railway →](https://railway.com/deploy/48SIfr)

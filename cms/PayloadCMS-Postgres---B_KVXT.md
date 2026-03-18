@@ -2,7 +2,7 @@
 
 PayloadCMS v2 with PostgreSQL Database Service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/B_KVXT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/B_KVXT)
 
 ## About
 
@@ -79,4 +79,4 @@ Update the `.env` file variable `DATABASE_URI` appropriately to point to the cor
 
 **Category:** CMS · **Languages:** TypeScript, Shell
 
-[View on Railway →](https://railway.com/template/B_KVXT)
+[View on Railway →](https://railway.com/deploy/B_KVXT)

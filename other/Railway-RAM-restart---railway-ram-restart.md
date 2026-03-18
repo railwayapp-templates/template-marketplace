@@ -2,7 +2,7 @@
 
 monitoring service memory usage or automatically restarting services
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railway-ram-restart)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-ram-restart)
 
 ## About
 
@@ -27,4 +27,4 @@ Deploying Railway RAM Restart involves creating a dedicated monitoring service w
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/railway-ram-restart)
+[View on Railway →](https://railway.com/deploy/railway-ram-restart)

@@ -2,7 +2,7 @@
 
 Fast, simple, scalable, HTTP microservice for high-level image processing
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/SaS706)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/SaS706)
 
 ## About
 
@@ -29,4 +29,4 @@ Github: https://github.com/h2non/imaginary
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/SaS706)
+[View on Railway →](https://railway.com/deploy/SaS706)

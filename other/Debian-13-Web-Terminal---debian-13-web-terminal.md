@@ -2,7 +2,7 @@
 
 Instant Debian 13 browser terminal powered by ttyd
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/debian-13-web-terminal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/debian-13-web-terminal)
 
 ## About
 
@@ -30,4 +30,4 @@ Deploying Debian 13 (Web Terminal) on Railway uses the official minimal Debian D
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/debian-13-web-terminal)
+[View on Railway →](https://railway.com/deploy/debian-13-web-terminal)

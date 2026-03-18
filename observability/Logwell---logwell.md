@@ -2,7 +2,7 @@
 
 Self-hosted logging platform with SSE, full text search, and OTLP ingestion
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/logwell)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/logwell)
 
 ## About
 
@@ -38,4 +38,4 @@ Hosting Logwell requires a PostgreSQL database and a Bun runtime environment. Th
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/template/logwell)
+[View on Railway →](https://railway.com/deploy/logwell)

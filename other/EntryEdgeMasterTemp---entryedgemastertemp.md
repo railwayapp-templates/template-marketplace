@@ -2,7 +2,7 @@
 
 Entry Edge templates for all customers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/entryedgemastertemp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/entryedgemastertemp)
 
 ## About
 
@@ -59,4 +59,4 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/entryedgemastertemp)
+[View on Railway →](https://railway.com/deploy/entryedgemastertemp)

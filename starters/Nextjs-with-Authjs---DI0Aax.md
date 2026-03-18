@@ -2,7 +2,7 @@
 
 Nextjs starter with Auth.js for user authentication
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/DI0Aax)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/DI0Aax)
 
 ## About
 
@@ -49,4 +49,4 @@ This starter is equipped with a robust development environment and a complete to
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/DI0Aax)
+[View on Railway →](https://railway.com/deploy/DI0Aax)

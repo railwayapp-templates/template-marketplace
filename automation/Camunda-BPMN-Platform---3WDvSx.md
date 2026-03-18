@@ -2,7 +2,7 @@
 
 Camunda BPM Platform: Workflow and process automation with BPMN and DMN.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/3WDvSx)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/3WDvSx)
 
 ## About
 
@@ -42,4 +42,4 @@ This setup allows you to quickly start using Camunda and leverage its features f
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/3WDvSx)
+[View on Railway →](https://railway.com/deploy/3WDvSx)

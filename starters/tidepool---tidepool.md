@@ -2,7 +2,7 @@
 
 Deploy and Host tidepool with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tidepool)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tidepool)
 
 ## About
 
@@ -39,4 +39,4 @@ Tidepool deploys as two stateless services: a query service for read-only vector
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/template/tidepool)
+[View on Railway →](https://railway.com/deploy/tidepool)

@@ -2,7 +2,7 @@
 
 Open-source vector similarity search for Postgres
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/pgvector-18-trixie)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pgvector-18-trixie)
 
 ## About
 
@@ -41,4 +41,4 @@ Hosting pgvector involves provisioning a managed PostgreSQL instance with the pg
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/pgvector-18-trixie)
+[View on Railway →](https://railway.com/deploy/pgvector-18-trixie)

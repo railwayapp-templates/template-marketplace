@@ -2,7 +2,7 @@
 
 Simple, easy-to-use platform for organising and storing information.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bookstack)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bookstack)
 
 ## About
 
@@ -94,4 +94,4 @@ Hosting BookStack involves running a PHP/Laravel application backed by a databas
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/bookstack)
+[View on Railway →](https://railway.com/deploy/bookstack)

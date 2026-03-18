@@ -2,7 +2,7 @@
 
 A simple file server using Express and Multer. Also includes an API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/iiWiUr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/iiWiUr)
 
 ## About
 
@@ -59,4 +59,4 @@ Any error/bug, dont be silly and open an issue on https://github.com/nsx07/stora
 
 **Category:** Storage · **Languages:** TypeScript, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/iiWiUr)
+[View on Railway →](https://railway.com/deploy/iiWiUr)

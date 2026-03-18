@@ -2,7 +2,7 @@
 
 Fastest enterprise AI gateway (50x faster than LiteLLM).
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bifrost-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bifrost-1)
 
 ## About
 
@@ -28,4 +28,4 @@ Bifrost deploys as a containerized gateway that proxies requests to multiple AI 
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/bifrost-1)
+[View on Railway →](https://railway.com/deploy/bifrost-1)

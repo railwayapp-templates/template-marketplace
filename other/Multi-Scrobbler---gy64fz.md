@@ -2,7 +2,7 @@
 
  Scrobble music from multiple sources to multiple clients 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gy64fz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gy64fz)
 
 ## About
 
@@ -28,4 +28,4 @@ Multi-Scrobbler now supports extensive configuration of sources and clients via 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/gy64fz)
+[View on Railway →](https://railway.com/deploy/gy64fz)

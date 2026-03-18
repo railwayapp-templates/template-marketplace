@@ -2,7 +2,7 @@
 
 A FastHTML starter project using Poetry as the package manager.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HBHYEX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HBHYEX)
 
 ## About
 
@@ -26,4 +26,4 @@ You can expand this as much as you want to as well. Read the [FastHTML docs](htt
 
 **Category:** Starters · **Languages:** Dockerfile, Python
 
-[View on Railway →](https://railway.com/template/HBHYEX)
+[View on Railway →](https://railway.com/deploy/HBHYEX)

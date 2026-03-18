@@ -2,7 +2,7 @@
 
 Full ecommerce solution, manage products, inventory, orders, etc.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gkU-27)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gkU-27)
 
 ## About
 
@@ -94,4 +94,4 @@ Host the next-gen MedusaJS 2.0 e-commerce stack—complete with storefront, admi
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/gkU-27)
+[View on Railway →](https://railway.com/deploy/gkU-27)

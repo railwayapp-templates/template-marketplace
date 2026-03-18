@@ -2,7 +2,7 @@
 
 Open-source notification infrastructure
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/U3QiXi)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/U3QiXi)
 
 ## About
 
@@ -164,4 +164,4 @@ Build powerful notification experiences with Novu!
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/U3QiXi)
+[View on Railway →](https://railway.com/deploy/U3QiXi)

@@ -2,7 +2,7 @@
 
 The most popular admin web interface for PostgreSQL databases.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/h1EXJT)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/h1EXJT)
 
 ## About
 
@@ -34,4 +34,4 @@ See [this page](https://www.pgadmin.org/features) for the complete feature set, 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/h1EXJT)
+[View on Railway →](https://railway.com/deploy/h1EXJT)

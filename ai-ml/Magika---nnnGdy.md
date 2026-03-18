@@ -2,7 +2,7 @@
 
 An AI powered file type detection tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nnnGdy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nnnGdy)
 
 ## About
 
@@ -44,4 +44,4 @@ An AI powered file type detection tool
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/nnnGdy)
+[View on Railway →](https://railway.com/deploy/nnnGdy)

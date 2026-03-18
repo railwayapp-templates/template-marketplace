@@ -2,7 +2,7 @@
 
 marlo — intelligent email for busy people.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/marlo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/marlo)
 
 ## About
 
@@ -100,4 +100,4 @@ Marlo runs as a containerized microservice architecture with three core services
 
 **Category:** Other · **Languages:** TypeScript, Astro, PLpgSQL, CSS, Dockerfile, Shell, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/marlo)
+[View on Railway →](https://railway.com/deploy/marlo)

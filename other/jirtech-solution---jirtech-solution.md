@@ -2,7 +2,7 @@
 
 Deploy and Host jirtech-solution with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/jirtech-solution)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jirtech-solution)
 
 ## About
 
@@ -37,4 +37,4 @@ The server binds to 0.0.0.0 and dynamically respects the hosting provider’s PO
 
 **Category:** Other · **Languages:** HTML, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/jirtech-solution)
+[View on Railway →](https://railway.com/deploy/jirtech-solution)

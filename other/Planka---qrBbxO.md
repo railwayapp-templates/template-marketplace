@@ -2,7 +2,7 @@
 
 Elegant open source project tracking
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qrBbxO)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qrBbxO)
 
 ## About
 
@@ -60,4 +60,4 @@ https://docs.planka.cloud/docs/intro
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/qrBbxO)
+[View on Railway →](https://railway.com/deploy/qrBbxO)

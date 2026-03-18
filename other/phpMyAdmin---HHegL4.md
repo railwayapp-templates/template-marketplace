@@ -2,7 +2,7 @@
 
 phpMyAdmin is a free database management tool written in PHP.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HHegL4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HHegL4)
 
 ## About
 
@@ -31,4 +31,4 @@ You can find some more info about configuring env variables here: https://docs.p
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/HHegL4)
+[View on Railway →](https://railway.com/deploy/HHegL4)

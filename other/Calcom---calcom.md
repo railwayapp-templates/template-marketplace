@@ -2,7 +2,7 @@
 
 Deploy and Host Cal.com with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/calcom)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/calcom)
 
 ## About
 
@@ -50,4 +50,4 @@ Cal.com runs as a Next.js application with a database backend, requiring calenda
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/calcom)
+[View on Railway →](https://railway.com/deploy/calcom)

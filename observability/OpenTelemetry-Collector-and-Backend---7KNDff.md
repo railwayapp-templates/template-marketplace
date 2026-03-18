@@ -2,7 +2,7 @@
 
 OpenTelemetry Collector with Backend Stack
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/7KNDff)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7KNDff)
 
 ## About
 
@@ -72,4 +72,4 @@ Prometheus is a systems monitoring and alerting toolkit.  It receives data from 
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/7KNDff)
+[View on Railway →](https://railway.com/deploy/7KNDff)

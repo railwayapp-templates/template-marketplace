@@ -2,7 +2,7 @@
 
 Deploy Drupal, an open source content management platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/OmuxnN)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/OmuxnN)
 
 ## About
 
@@ -52,4 +52,4 @@ No further configuration is required, after starting the service, and installing
 
 **Category:** CMS · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/OmuxnN)
+[View on Railway →](https://railway.com/deploy/OmuxnN)

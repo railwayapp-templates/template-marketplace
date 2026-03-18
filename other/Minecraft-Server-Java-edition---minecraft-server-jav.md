@@ -2,7 +2,7 @@
 
 Ready-to-Deploy Minecraft Server (java edition)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/minecraft-server-jav)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minecraft-server-jav)
 
 ## About
 
@@ -34,4 +34,4 @@ Running this Minecraft server involves launching a Java application that handles
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/minecraft-server-jav)
+[View on Railway →](https://railway.com/deploy/minecraft-server-jav)

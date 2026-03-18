@@ -2,7 +2,7 @@
 
 A self-hosted GitHub Actions runner
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cd7y1G)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cd7y1G)
 
 ## About
 
@@ -49,4 +49,4 @@ Do not use app sleeping with this template. Runners work by long-polling and wil
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/cd7y1G)
+[View on Railway →](https://railway.com/deploy/cd7y1G)

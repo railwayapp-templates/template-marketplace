@@ -2,7 +2,7 @@
 
 The Enterprise File Management Solution
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uIibtY)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uIibtY)
 
 ## About
 
@@ -71,4 +71,4 @@ Filestash is an excellent tool for developers who need a versatile, secure, and 
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/uIibtY)
+[View on Railway →](https://railway.com/deploy/uIibtY)

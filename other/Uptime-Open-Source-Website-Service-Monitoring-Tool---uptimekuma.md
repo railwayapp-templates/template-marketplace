@@ -2,7 +2,7 @@
 
 [Updated Mar '26] Self-hosted Website and Service monitoring tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/uptimekuma)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uptimekuma)
 
 ## About
 
@@ -42,4 +42,4 @@ Railway runs Uptime Kuma in a managed container environment, handling restarts, 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/uptimekuma)
+[View on Railway →](https://railway.com/deploy/uptimekuma)

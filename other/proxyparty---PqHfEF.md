@@ -2,7 +2,7 @@
 
 It's like proxyparty.hackclub.com, but in Caddy!
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/PqHfEF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PqHfEF)
 
 ## About
 
@@ -28,4 +28,4 @@ Build your own `proxyparty.hackclub.com` backend, but with Caddy on Docker, for 
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/PqHfEF)
+[View on Railway →](https://railway.com/deploy/PqHfEF)

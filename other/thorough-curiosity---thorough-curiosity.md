@@ -2,7 +2,7 @@
 
 Deploy and Host thorough-curiosity with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/thorough-curiosity)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/thorough-curiosity)
 
 ## About
 
@@ -20,4 +20,4 @@ ok no
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/thorough-curiosity)
+[View on Railway →](https://railway.com/deploy/thorough-curiosity)

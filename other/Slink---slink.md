@@ -2,7 +2,7 @@
 
 Self-hosted image sharing service.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/slink)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/slink)
 
 ## About
 
@@ -43,4 +43,4 @@ Hosting Slink involves running a PHP/Symfony application alongside its frontend 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/slink)
+[View on Railway →](https://railway.com/deploy/slink)

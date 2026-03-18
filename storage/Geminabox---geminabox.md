@@ -2,7 +2,7 @@
 
 Private Ruby Gem server (Geminabox)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/geminabox)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/geminabox)
 
 ## About
 
@@ -32,4 +32,4 @@ This template sets up a volume, and optionally basic authentication.
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/geminabox)
+[View on Railway →](https://railway.com/deploy/geminabox)

@@ -2,7 +2,7 @@
 
 Time-series database built on top of Postgres
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VSbF5V)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VSbF5V)
 
 ## About
 
@@ -36,4 +36,4 @@ Read the docs for usage info [docs.timescale.com](https://docs.timescale.com/)
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/VSbF5V)
+[View on Railway →](https://railway.com/deploy/VSbF5V)

@@ -2,7 +2,7 @@
 
 Deploy ChatGPT App for WooCommerce. Show your products catalog in ChatGPT.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/woocommerce-chatgpt-app)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/woocommerce-chatgpt-app)
 
 ## About
 
@@ -24,4 +24,4 @@ This template deploys a Node.js application that connects your WooCommerce store
 
 **Category:** Other · **Languages:** TypeScript, Shell, HTML
 
-[View on Railway →](https://railway.com/template/woocommerce-chatgpt-app)
+[View on Railway →](https://railway.com/deploy/woocommerce-chatgpt-app)

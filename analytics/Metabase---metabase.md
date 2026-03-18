@@ -2,7 +2,7 @@
 
 Fast analytics and integrated tooling for companies exploring their data
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/metabase)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/metabase)
 
 ## About
 
@@ -47,4 +47,4 @@ Hosting Metabase gives you access to a comprehensive business intelligence platf
 
 **Category:** Analytics · **Tags:** analytics, business intelligence, data
 
-[View on Railway →](https://railway.com/template/metabase)
+[View on Railway →](https://railway.com/deploy/metabase)

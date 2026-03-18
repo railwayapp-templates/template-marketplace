@@ -2,7 +2,7 @@
 
 n8n with Separate Worker & Webhook using External DB
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Gos_2q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Gos_2q)
 
 ## About
 
@@ -85,4 +85,4 @@ This Railway template deploys n8n with a scalable architecture, separating the w
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/Gos_2q)
+[View on Railway →](https://railway.com/deploy/Gos_2q)

@@ -2,7 +2,7 @@
 
 IsoCIty is an Open Source Fully Featured City Builder
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/isocity)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/isocity)
 
 ## About
 
@@ -32,4 +32,4 @@ Railway handles all server management, SSL certificates, and infrastructure scal
 
 **Category:** Other · **Languages:** TypeScript, CSS, JavaScript, Shell
 
-[View on Railway →](https://railway.com/template/isocity)
+[View on Railway →](https://railway.com/deploy/isocity)

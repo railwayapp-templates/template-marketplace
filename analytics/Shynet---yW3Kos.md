@@ -2,7 +2,7 @@
 
 Modern, privacy-friendly web analytics that works without cookies or JS.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/yW3Kos)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yW3Kos)
 
 ## About
 
@@ -86,4 +86,4 @@ Shynet is a privacy-friendly, cookie-free web analytics tool. It's open source a
 
 **Category:** Analytics · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/yW3Kos)
+[View on Railway →](https://railway.com/deploy/yW3Kos)

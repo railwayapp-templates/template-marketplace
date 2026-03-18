@@ -2,7 +2,7 @@
 
 A powerful platform for running AI models securely through API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ollama-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ollama-api)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting Ollama API involves containerizing the Ollama runtime environment and ex
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/ollama-api)
+[View on Railway →](https://railway.com/deploy/ollama-api)

@@ -2,7 +2,7 @@
 
 a telegram bot using Gemini-pro
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HIsbMv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HIsbMv)
 
 ## About
 
@@ -23,4 +23,4 @@ Make up the word count. Make up the word count. Make up the word count. Make up 
 
 **Category:** Other · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/HIsbMv)
+[View on Railway →](https://railway.com/deploy/HIsbMv)

@@ -2,7 +2,7 @@
 
 Traefik [Mar ’26] (Managed Reverse Proxy & Load Balancer), Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/traefik)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/traefik)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting Traefik on Railway lets you deploy a robust reverse proxy and load balan
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/traefik)
+[View on Railway →](https://railway.com/deploy/traefik)

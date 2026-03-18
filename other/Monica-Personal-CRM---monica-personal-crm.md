@@ -2,7 +2,7 @@
 
 Deploy an instance of Monica, a personal CRM for keeping track of things.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/monica-personal-crm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/monica-personal-crm)
 
 ## About
 
@@ -45,4 +45,4 @@ One-click deploy of a small POC instance.
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/template/monica-personal-crm)
+[View on Railway →](https://railway.com/deploy/monica-personal-crm)

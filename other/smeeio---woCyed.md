@@ -2,7 +2,7 @@
 
 Webhook payload delivery service
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/woCyed)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/woCyed)
 
 ## About
 
@@ -54,4 +54,4 @@ Webhook payloads are never stored on the server, or in any database; the Smee.io
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/woCyed)
+[View on Railway →](https://railway.com/deploy/woCyed)

@@ -2,7 +2,7 @@
 
 PostgreSQL DB enabled with TimescaleDB and PostGIS
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ZZURpX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZZURpX)
 
 ## About
 
@@ -59,4 +59,4 @@ Extends PostgreSQL by adding support for storing, indexing, and querying geograp
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/ZZURpX)
+[View on Railway →](https://railway.com/deploy/ZZURpX)

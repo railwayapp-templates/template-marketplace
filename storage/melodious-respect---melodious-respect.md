@@ -2,7 +2,7 @@
 
 A personal music streaming server built with Nim
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/melodious-respect)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/melodious-respect)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting **melodious-respect** on Railway allows you to run a private, on-demand 
 
 **Category:** Storage · **Languages:** JavaScript, Nim, CSS, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/melodious-respect)
+[View on Railway →](https://railway.com/deploy/melodious-respect)

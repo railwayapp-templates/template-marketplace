@@ -2,7 +2,7 @@
 
 A complete Sails starter app connected to a PostgreSQL database.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/t3sAEH)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/t3sAEH)
 
 ## About
 
@@ -58,4 +58,4 @@ This is a [Sails](https://sailsjs.com/) starter app that connects to a Railway P
 
 **Category:** Starters · **Languages:** JavaScript, EJS, Less
 
-[View on Railway →](https://railway.com/template/t3sAEH)
+[View on Railway →](https://railway.com/deploy/t3sAEH)

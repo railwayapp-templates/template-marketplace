@@ -2,7 +2,7 @@
 
 Deploy ChatGPT Telegram Bot with optional Pinecone on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/6T8UU3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6T8UU3)
 
 ## About
 
@@ -44,4 +44,4 @@ Enjoy seamless deployment and scaling with Railway's infrastructure!
 
 **Category:** Bots · **Languages:** TypeScript, Jupyter Notebook, Dockerfile, JavaScript
 
-[View on Railway →](https://railway.com/template/6T8UU3)
+[View on Railway →](https://railway.com/deploy/6T8UU3)

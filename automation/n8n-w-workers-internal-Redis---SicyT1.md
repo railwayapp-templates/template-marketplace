@@ -2,7 +2,7 @@
 
 Setup of n8n with internal Redis, Postgres and workers. Just deploy it
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/SicyT1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/SicyT1)
 
 ## About
 
@@ -128,4 +128,4 @@ Need help? Our community forum is the place to get support and connect with othe
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/SicyT1)
+[View on Railway →](https://railway.com/deploy/SicyT1)

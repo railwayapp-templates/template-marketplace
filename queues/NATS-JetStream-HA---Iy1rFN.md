@@ -2,7 +2,7 @@
 
 NATS JetStream cluster with 3 servers
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Iy1rFN)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Iy1rFN)
 
 ## About
 
@@ -38,4 +38,4 @@ For more information, check out https://nats.io.
 
 **Category:** Queues
 
-[View on Railway →](https://railway.com/template/Iy1rFN)
+[View on Railway →](https://railway.com/deploy/Iy1rFN)

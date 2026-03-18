@@ -2,7 +2,7 @@
 
 Powerful backup automation for your remote storage Encrypt with ease.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/zerobyte)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zerobyte)
 
 ## About
 
@@ -22,4 +22,4 @@ Encrypt, compress, and protect your data with ease
 
 **Category:** Automation · **Languages:** TypeScript, CSS, Dockerfile
 
-[View on Railway →](https://railway.com/template/zerobyte)
+[View on Railway →](https://railway.com/deploy/zerobyte)

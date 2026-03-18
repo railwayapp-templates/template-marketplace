@@ -2,7 +2,7 @@
 
 A user-friendly GUI for managing and running CrewAI agents and tasks
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/VGkXVo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/VGkXVo)
 
 ## About
 
@@ -60,4 +60,4 @@ Video tutorial on CrewAI Studio made by Josh Poco
 
 **Category:** Other · **Languages:** Python, Shell, Batchfile, Dockerfile
 
-[View on Railway →](https://railway.com/template/VGkXVo)
+[View on Railway →](https://railway.com/deploy/VGkXVo)

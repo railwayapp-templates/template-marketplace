@@ -2,7 +2,7 @@
 
 Postgres image supporting PostGIS and Uber's H3 extensions.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0c4k7A)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0c4k7A)
 
 ## About
 
@@ -87,4 +87,4 @@ Developed and maintained by [Chike Ozulumba](https://chikeozulumba.com). For iss
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/0c4k7A)
+[View on Railway →](https://railway.com/deploy/0c4k7A)

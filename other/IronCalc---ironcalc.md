@@ -2,7 +2,7 @@
 
 Deploy and Host IronCalc with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ironcalc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ironcalc)
 
 ## About
 
@@ -29,4 +29,4 @@ Railway handles networking, container orchestration, and scaling automatically, 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/ironcalc)
+[View on Railway →](https://railway.com/deploy/ironcalc)

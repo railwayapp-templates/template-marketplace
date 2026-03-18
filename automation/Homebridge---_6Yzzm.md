@@ -2,7 +2,7 @@
 
 Lightweight server that emulates the iOS HomeKit API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_6Yzzm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_6Yzzm)
 
 ## About
 
@@ -33,4 +33,4 @@ You can explore all available plugins at the NPM website by [searching for the k
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/_6Yzzm)
+[View on Railway →](https://railway.com/deploy/_6Yzzm)

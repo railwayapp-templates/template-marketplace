@@ -2,7 +2,7 @@
 
 The best free self-hosted web-based file manager.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/filebrowser-quantum)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/filebrowser-quantum)
 
 ## About
 
@@ -28,4 +28,4 @@ Hosting Filebrowser-Quantum is mainly about persistence and access. You deploy t
 
 **Category:** Other · **Languages:** Go, Vue, JavaScript, TypeScript, CSS, Makefile, HTML, Dockerfile, Slim, Shell
 
-[View on Railway →](https://railway.com/template/filebrowser-quantum)
+[View on Railway →](https://railway.com/deploy/filebrowser-quantum)

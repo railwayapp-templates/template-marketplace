@@ -2,7 +2,7 @@
 
 Vitesse for Nuxt 3 🏔💚⚡️
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wWYXbc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wWYXbc)
 
 ## About
 
@@ -53,4 +53,4 @@ Vitesse for Nuxt 3 🏔💚⚡️
 
 **Category:** Starters · **Languages:** TypeScript, Vue, JavaScript
 
-[View on Railway →](https://railway.com/template/wWYXbc)
+[View on Railway →](https://railway.com/deploy/wWYXbc)

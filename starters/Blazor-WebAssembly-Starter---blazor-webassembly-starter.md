@@ -2,7 +2,7 @@
 
 Client-side Blazor WASM with C# - runs entirely in the browser
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/blazor-webassembly-starter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/blazor-webassembly-starter)
 
 ## About
 
@@ -22,4 +22,4 @@ Blazor WebAssembly compiles your C# code to WebAssembly and runs entirely in the
 
 **Category:** Starters · **Languages:** CSS, HTML, Dockerfile, C#
 
-[View on Railway →](https://railway.com/template/blazor-webassembly-starter)
+[View on Railway →](https://railway.com/deploy/blazor-webassembly-starter)

@@ -2,7 +2,7 @@
 
 Open source background jobs with no timeouts
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/qcn55C)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qcn55C)
 
 ## About
 
@@ -68,4 +68,4 @@ https://github.com/triggerdotdev/docker/blob/main/.env.example
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/qcn55C)
+[View on Railway →](https://railway.com/deploy/qcn55C)

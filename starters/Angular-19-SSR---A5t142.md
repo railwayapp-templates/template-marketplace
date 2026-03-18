@@ -2,7 +2,7 @@
 
 The web development framework for building the future
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/A5t142)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/A5t142)
 
 ## About
 
@@ -46,4 +46,4 @@ Thats all the changes needed to deploy a server side rendered Angular 19 app on 
 
 **Category:** Starters · **Languages:** HTML, TypeScript, CSS
 
-[View on Railway →](https://railway.com/template/A5t142)
+[View on Railway →](https://railway.com/deploy/A5t142)

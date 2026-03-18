@@ -2,7 +2,7 @@
 
 An intuitive, open-source UI to view, edit, and query Postgres data
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/mathesar)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mathesar)
 
 ## About
 
@@ -48,4 +48,4 @@ Once deployed, additional Postgres databases can be created on the internal Post
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/mathesar)
+[View on Railway →](https://railway.com/deploy/mathesar)

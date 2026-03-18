@@ -2,7 +2,7 @@
 
 A simple server for sending and receiving messages
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HcjHbf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HcjHbf)
 
 ## About
 
@@ -68,4 +68,4 @@ Features
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/HcjHbf)
+[View on Railway →](https://railway.com/deploy/HcjHbf)

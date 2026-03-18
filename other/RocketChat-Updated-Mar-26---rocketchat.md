@@ -2,7 +2,7 @@
 
 Rocket Chat [Mar '26] (Chat Platform, Slack & Teams alternative) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/rocketchat)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rocketchat)
 
 ## About
 
@@ -38,4 +38,4 @@ Railway allows you to spin up Rocket Chat instantly, without worrying about serv
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/rocketchat)
+[View on Railway →](https://railway.com/deploy/rocketchat)

@@ -2,7 +2,7 @@
 
 Deploy Postgres + PgBouncer for efficient DB pooling
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgres-pgbouncer)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-pgbouncer)
 
 ## About
 
@@ -51,4 +51,4 @@ configuring database infrastructure.
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/postgres-pgbouncer)
+[View on Railway →](https://railway.com/deploy/postgres-pgbouncer)

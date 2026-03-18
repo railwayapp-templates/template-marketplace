@@ -2,7 +2,7 @@
 
 Sign In With Ethereum OpenID Connect Provider
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/siwe-oidc)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/siwe-oidc)
 
 ## About
 
@@ -66,4 +66,4 @@ By deploying SIWE-OIDC on Railway, you are one step closer to supporting a compl
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/siwe-oidc)
+[View on Railway →](https://railway.com/deploy/siwe-oidc)

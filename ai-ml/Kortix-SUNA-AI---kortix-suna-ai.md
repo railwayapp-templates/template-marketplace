@@ -2,7 +2,7 @@
 
 Deploy and Host Kortix SUNA AI with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kortix-suna-ai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kortix-suna-ai)
 
 ## About
 
@@ -68,4 +68,4 @@ Suna is an open-source AI assistant designed to simplify real-world tasks throug
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript, Python, PLpgSQL, Dockerfile, HTML, Shell
 
-[View on Railway →](https://railway.com/template/kortix-suna-ai)
+[View on Railway →](https://railway.com/deploy/kortix-suna-ai)

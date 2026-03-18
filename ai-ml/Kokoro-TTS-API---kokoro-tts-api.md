@@ -2,7 +2,7 @@
 
 FastAPI Wrapper for Kokoro Text to Speech
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/kokoro-tts-api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kokoro-tts-api)
 
 ## About
 
@@ -28,4 +28,4 @@ Deploying Kokoro-FastAPI on Railway gives you an OpenAI-compatible text-to-speec
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/kokoro-tts-api)
+[View on Railway →](https://railway.com/deploy/kokoro-tts-api)

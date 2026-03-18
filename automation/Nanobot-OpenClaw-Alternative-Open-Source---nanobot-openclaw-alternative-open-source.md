@@ -2,7 +2,7 @@
 
 [Mar '26] Self Host an AI Agent with API and Chat Integation (Telegram/WA)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nanobot-openclaw-alternative-open-source)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nanobot-openclaw-alternative-open-source)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting Nanobot on Railway means running it as a Docker-based backend service. T
 
 **Category:** Automation · **Languages:** HTML, Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/nanobot-openclaw-alternative-open-source)
+[View on Railway →](https://railway.com/deploy/nanobot-openclaw-alternative-open-source)

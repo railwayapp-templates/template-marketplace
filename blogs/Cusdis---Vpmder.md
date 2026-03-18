@@ -2,7 +2,7 @@
 
 Lightweight, privacy-friendly alternative to Disqus
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Vpmder)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Vpmder)
 
 ## About
 
@@ -55,4 +55,4 @@ Cusdis is an open-source, lightweight (~5kb gzip), privacy-friendly alternative 
 
 **Category:** Blogs · **Languages:** TypeScript, JavaScript, Svelte, HTML, Dockerfile, CSS
 
-[View on Railway →](https://railway.com/template/Vpmder)
+[View on Railway →](https://railway.com/deploy/Vpmder)

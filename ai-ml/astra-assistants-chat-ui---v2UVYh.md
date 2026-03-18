@@ -2,7 +2,7 @@
 
 DataStax Open Source GenAI Starter
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/v2UVYh)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/v2UVYh)
 
 ## About
 
@@ -67,4 +67,4 @@ Additional models can be added to the MODELS variable.
 
 **Category:** AI/ML · **Languages:** TypeScript, Svelte, JavaScript, HTML, Dockerfile, Shell, CSS
 
-[View on Railway →](https://railway.com/template/v2UVYh)
+[View on Railway →](https://railway.com/deploy/v2UVYh)

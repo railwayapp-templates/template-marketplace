@@ -2,7 +2,7 @@
 
 An agile project planning tool and Pivotal Tracker drop-in replacement.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cm42-central)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cm42-central)
 
 ## About
 
@@ -90,4 +90,4 @@ Hosting CM42 Central on Railway provides a scalable, modern environment for agil
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/cm42-central)
+[View on Railway →](https://railway.com/deploy/cm42-central)

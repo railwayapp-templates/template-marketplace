@@ -2,7 +2,7 @@
 
 Deploy and Host Cassandra with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/cassandra)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cassandra)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting Cassandra involves deploying a distributed database system that can scal
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/cassandra)
+[View on Railway →](https://railway.com/deploy/cassandra)

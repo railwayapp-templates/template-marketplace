@@ -2,7 +2,7 @@
 
 FastAPI Template for Large Projects
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/XJzuMz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/XJzuMz)
 
 ## About
 
@@ -185,4 +185,4 @@ If you have any questions or suggestions, feel free to reach out to me:
 
 **Category:** Starters · **Languages:** Python, Mako, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/XJzuMz)
+[View on Railway →](https://railway.com/deploy/XJzuMz)

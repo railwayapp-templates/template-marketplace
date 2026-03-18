@@ -2,7 +2,7 @@
 
 Automated self hosted convex backups to s3 providers.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/convex-backups)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/convex-backups)
 
 ## About
 
@@ -57,4 +57,4 @@ SUPPORT_OBJECT_LOCK - Enables support for buckets with object lock by providing 
 
 **Category:** Automation · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/template/convex-backups)
+[View on Railway →](https://railway.com/deploy/convex-backups)

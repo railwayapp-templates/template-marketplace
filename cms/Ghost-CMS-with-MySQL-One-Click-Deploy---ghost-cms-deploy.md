@@ -2,7 +2,7 @@
 
 Self Host Ghost CMS + MySQL + SMTP — publishing platform on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ghost-cms-deploy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ghost-cms-deploy)
 
 ## About
 
@@ -65,4 +65,4 @@ Ghost is an open-source, Node.js-based publishing platform built for professiona
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/ghost-cms-deploy)
+[View on Railway →](https://railway.com/deploy/ghost-cms-deploy)

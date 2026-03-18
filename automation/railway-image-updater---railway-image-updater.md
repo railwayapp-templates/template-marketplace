@@ -2,7 +2,7 @@
 
 Trigger multiple docker deployments for a new docker image tag.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/railway-image-updater)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-image-updater)
 
 ## About
 
@@ -29,4 +29,4 @@ Railway Image Updater runs as a small HTTP service inside your Railway project. 
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/template/railway-image-updater)
+[View on Railway →](https://railway.com/deploy/railway-image-updater)

@@ -2,7 +2,7 @@
 
 Jenkins is an automation tool for CI/CD in software projects. 🚀
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/0ygwi8)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/0ygwi8)
 
 ## About
 
@@ -49,4 +49,4 @@ To set custom credentials, define the following environment variables:
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/0ygwi8)
+[View on Railway →](https://railway.com/deploy/0ygwi8)

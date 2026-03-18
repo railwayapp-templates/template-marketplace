@@ -2,7 +2,7 @@
 
 Open-source identity provider with SSO, OIDC, SAML, MFA, and LDAP support
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/authentik-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/authentik-1)
 
 ## About
 
@@ -61,4 +61,4 @@ Hosting Authentik requires running two coordinated services ΓÇö a server (han
 
 **Category:** Authentication · **Languages:** Makefile, Dockerfile
 
-[View on Railway →](https://railway.com/template/authentik-1)
+[View on Railway →](https://railway.com/deploy/authentik-1)

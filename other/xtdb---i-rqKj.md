@@ -2,7 +2,7 @@
 
 A single node XTDB deployment
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/i-rqKj)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/i-rqKj)
 
 ## About
 
@@ -58,4 +58,4 @@ Github: https://github.com/xtdb/xtdb
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/i-rqKj)
+[View on Railway →](https://railway.com/deploy/i-rqKj)

@@ -2,7 +2,7 @@
 
 Deploy OpenUI: AI-powered UI generation with GitHub OAuth and OpenAI API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/NzJO6n)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/NzJO6n)
 
 ## About
 
@@ -58,4 +58,4 @@ For more information on configuring and using OpenUI, please refer to the [offic
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/NzJO6n)
+[View on Railway →](https://railway.com/deploy/NzJO6n)

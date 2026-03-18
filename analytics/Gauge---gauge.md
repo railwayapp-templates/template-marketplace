@@ -2,7 +2,7 @@
 
 A complete metrics and analytics stack for Railway Template creators.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/gauge)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gauge)
 
 ## About
 
@@ -55,4 +55,4 @@ The system automatically handles time-series growth calculations (24h, 7d, 30d) 
 
 **Category:** Analytics · **Languages:** TypeScript, PLpgSQL, Dockerfile
 
-[View on Railway →](https://railway.com/template/gauge)
+[View on Railway →](https://railway.com/deploy/gauge)

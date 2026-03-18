@@ -2,7 +2,7 @@
 
 Seamless multi-master syncing database with an intuitive HTTP/JSON API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/eRC98l)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/eRC98l)
 
 ## About
 
@@ -78,4 +78,4 @@ The Couch Replication Protocol lets your data flow seamlessly between server clu
 
 **Category:** Storage · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/eRC98l)
+[View on Railway →](https://railway.com/deploy/eRC98l)

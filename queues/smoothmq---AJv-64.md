@@ -2,7 +2,7 @@
 
 A drop-in replacement for AWS SQS
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/AJv-64)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/AJv-64)
 
 ## About
 
@@ -34,4 +34,4 @@ It is written in Go, deploys as a single binary, and stores data on local disk.
 
 **Category:** Queues · **Languages:** Go, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/template/AJv-64)
+[View on Railway →](https://railway.com/deploy/AJv-64)

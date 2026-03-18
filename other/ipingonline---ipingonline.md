@@ -2,7 +2,7 @@
 
 hello world hello world hello world 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/ipingonline)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ipingonline)
 
 ## About
 
@@ -18,4 +18,4 @@ https://railway.com/deploy/51OMdu?referralCode=Y3vrzJ&amp;utm_medium=integration
 
 **Category:** Other · **Languages:** TypeScript, CSS, PLpgSQL, HTML, JavaScript
 
-[View on Railway →](https://railway.com/template/ipingonline)
+[View on Railway →](https://railway.com/deploy/ipingonline)

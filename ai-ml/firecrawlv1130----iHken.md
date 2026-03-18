@@ -2,7 +2,7 @@
 
 Scrape, crawl and extract with a single API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/-iHken)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-iHken)
 
 ## About
 
@@ -118,4 +118,4 @@ Check out the following resources to get started:
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/-iHken)
+[View on Railway →](https://railway.com/deploy/-iHken)

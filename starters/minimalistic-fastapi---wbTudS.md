@@ -2,7 +2,7 @@
 
 Simple but complete and scalable FastAPI & PostgreSQL API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/wbTudS)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wbTudS)
 
 ## About
 
@@ -70,4 +70,4 @@ Note: Railway will automatically detect the Python requirements and set up the n
 
 **Category:** Starters · **Languages:** Python, Mako
 
-[View on Railway →](https://railway.com/template/wbTudS)
+[View on Railway →](https://railway.com/deploy/wbTudS)

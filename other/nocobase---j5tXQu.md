@@ -2,7 +2,7 @@
 
 No-code/low-code platform for building apps. Alternative to Retool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/j5tXQu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/j5tXQu)
 
 ## About
 
@@ -64,4 +64,4 @@ NocoBase adopts plugin architecture, all new functions can be realized by develo
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/j5tXQu)
+[View on Railway →](https://railway.com/deploy/j5tXQu)

@@ -2,7 +2,7 @@
 
 Real-time analytics and intelligent detection for Plex, Jellyfin, and Emby.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tracearr)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tracearr)
 
 ## About
 
@@ -57,4 +57,4 @@ This Railway template deploys Tracearr as a turnkey, one-click setup — no manu
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/template/tracearr)
+[View on Railway →](https://railway.com/deploy/tracearr)

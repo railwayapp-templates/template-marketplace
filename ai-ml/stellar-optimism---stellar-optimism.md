@@ -2,7 +2,7 @@
 
 i made an api for this project
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/stellar-optimism)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/stellar-optimism)
 
 ## About
 
@@ -24,4 +24,4 @@ I am the sole maintainer and host of this project.
 
 **Category:** AI/ML · **Languages:** Python, Procfile
 
-[View on Railway →](https://railway.com/template/stellar-optimism)
+[View on Railway →](https://railway.com/deploy/stellar-optimism)

@@ -2,7 +2,7 @@
 
 Minimalist, open source online pastebin
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tJKuUQ)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tJKuUQ)
 
 ## About
 
@@ -38,4 +38,4 @@ Installation requires no configuration
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/tJKuUQ)
+[View on Railway →](https://railway.com/deploy/tJKuUQ)

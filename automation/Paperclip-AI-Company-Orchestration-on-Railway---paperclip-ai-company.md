@@ -2,7 +2,7 @@
 
 Self Host Paperclip | Launch Your AI Company with Paperclip on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/paperclip-ai-company)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/paperclip-ai-company)
 
 ## About
 
@@ -64,4 +64,4 @@ Paperclip is a Node.js server with a React UI that models a business as an org c
 
 **Category:** Automation · **Languages:** HTML, JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/paperclip-ai-company)
+[View on Railway →](https://railway.com/deploy/paperclip-ai-company)

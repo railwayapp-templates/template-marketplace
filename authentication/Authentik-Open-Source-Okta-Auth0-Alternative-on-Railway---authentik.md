@@ -2,7 +2,7 @@
 
 Self Host Authentik - OAuth2, SAML, LDAP, MFA and more.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/authentik)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/authentik)
 
 ## About
 
@@ -72,4 +72,4 @@ Key features:
 
 **Category:** Authentication
 
-[View on Railway →](https://railway.com/template/authentik)
+[View on Railway →](https://railway.com/deploy/authentik)

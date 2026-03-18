@@ -2,7 +2,7 @@
 
 Your own API Hub to learn & master API interaction
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/B2f7Hq)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/B2f7Hq)
 
 ## About
 
@@ -101,4 +101,4 @@ By combining open source principles, accessibility, and a focus on learning, our
 
 **Category:** Other · **Languages:** JavaScript, HTML, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/B2f7Hq)
+[View on Railway →](https://railway.com/deploy/B2f7Hq)

@@ -2,7 +2,7 @@
 
 TabbyML Self-hosted AI code completion server using OpenAI.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/tabby-ai-code-assistant)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tabby-ai-code-assistant)
 
 ## About
 
@@ -36,4 +36,4 @@ It mounts a persistent **Railway Volume at `/data`**, ensuring that your user ac
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/tabby-ai-code-assistant)
+[View on Railway →](https://railway.com/deploy/tabby-ai-code-assistant)

@@ -2,7 +2,7 @@
 
 https://github.com/tailscale-dev/tclip
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/HzYDtl)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/HzYDtl)
 
 ## About
 
@@ -29,4 +29,4 @@ Instructions are available inside the GitHub repo, but you'll need a TS_AUTHKEY 
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/HzYDtl)
+[View on Railway →](https://railway.com/deploy/HzYDtl)

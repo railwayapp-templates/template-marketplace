@@ -2,7 +2,7 @@
 
 Self-hosted, privacy-first Gmail cleanup tool
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/inboxorcist)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/inboxorcist)
 
 ## About
 
@@ -76,4 +76,4 @@ Inboxorcist is a powerful Gmail cleanup tool with advanced filtering capabilitie
 
 **Category:** Automation · **Languages:** TypeScript, MDX, Shell, PowerShell, CSS, Dockerfile, JavaScript, HTML
 
-[View on Railway →](https://railway.com/template/inboxorcist)
+[View on Railway →](https://railway.com/deploy/inboxorcist)

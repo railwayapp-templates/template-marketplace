@@ -2,7 +2,7 @@
 
 Effortlessly upload and save images as WebP with API key security.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/8d2Rdz)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/8d2Rdz)
 
 ## About
 
@@ -186,4 +186,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 **Category:** Storage · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/8d2Rdz)
+[View on Railway →](https://railway.com/deploy/8d2Rdz)

@@ -2,7 +2,7 @@
 
 Minimal Streamlit app for AI/ML, Analytics, and more
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/FcYr3g)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FcYr3g)
 
 ## About
 
@@ -23,4 +23,4 @@ No HTML. No writing API endpoints. Just Python.
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/FcYr3g)
+[View on Railway →](https://railway.com/deploy/FcYr3g)

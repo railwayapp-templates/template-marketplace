@@ -2,7 +2,7 @@
 
 Fast, collaborative knowledge base and wiki for your team.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/outline-wiki)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/outline-wiki)
 
 ## About
 
@@ -91,4 +91,4 @@ PostgreSQL, Redis, and the storage bucket communicate with Outline over Railway'
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/outline-wiki)
+[View on Railway →](https://railway.com/deploy/outline-wiki)

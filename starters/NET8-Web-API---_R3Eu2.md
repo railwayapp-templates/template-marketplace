@@ -2,7 +2,7 @@
 
 A basic ASP.NET Core Web API template (.NET 8)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/_R3Eu2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/_R3Eu2)
 
 ## About
 
@@ -160,4 +160,4 @@ documenting them with Scalar. Feel free to use and modify it for your own projec
 
 **Category:** Starters · **Languages:** C#, Dockerfile
 
-[View on Railway →](https://railway.com/template/_R3Eu2)
+[View on Railway →](https://railway.com/deploy/_R3Eu2)

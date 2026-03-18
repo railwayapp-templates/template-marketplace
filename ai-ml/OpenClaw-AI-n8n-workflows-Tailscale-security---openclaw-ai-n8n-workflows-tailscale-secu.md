@@ -2,7 +2,7 @@
 
 OpenClaw AI Agent Stack — n8n , Tailscale Mesh, Modal & 500+ Integrations
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/openclaw-ai-n8n-workflows-tailscale-secu)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-ai-n8n-workflows-tailscale-secu)
 
 ## About
 
@@ -121,4 +121,4 @@ The standard OpenClaw Railway template gets you a gateway. This template gets yo
 
 **Category:** AI/ML · **Languages:** JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/openclaw-ai-n8n-workflows-tailscale-secu)
+[View on Railway →](https://railway.com/deploy/openclaw-ai-n8n-workflows-tailscale-secu)

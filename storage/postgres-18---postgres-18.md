@@ -2,7 +2,7 @@
 
 Deploy and Host PostgreSQL 18 with SSL on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/postgres-18)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-18)
 
 ## About
 
@@ -31,4 +31,4 @@ Hosting PostgreSQL gives you access to a powerful database server capable of han
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/postgres-18)
+[View on Railway →](https://railway.com/deploy/postgres-18)

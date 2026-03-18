@@ -2,7 +2,7 @@
 
 Deploy and Host thriving-bravery with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/thriving-bravery)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/thriving-bravery)
 
 ## About
 
@@ -22,4 +22,4 @@ Deploy and Host thriving-bravery with Railway
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/thriving-bravery)
+[View on Railway →](https://railway.com/deploy/thriving-bravery)

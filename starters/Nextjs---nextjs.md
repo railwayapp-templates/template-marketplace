@@ -2,7 +2,7 @@
 
 A minimal NextJS application with Prisma ORM and PostgreSQL
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/nextjs)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs)
 
 ## About
 
@@ -35,4 +35,4 @@ Hosting Next.js involves building the application, serving pre-rendered pages, a
 
 **Category:** Starters · **Languages:** TypeScript, CSS
 
-[View on Railway →](https://railway.com/template/nextjs)
+[View on Railway →](https://railway.com/deploy/nextjs)

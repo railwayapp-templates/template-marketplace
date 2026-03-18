@@ -2,7 +2,7 @@
 
 Deploy and Host marvelous-tenderness with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/marvelous-tenderness)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/marvelous-tenderness)
 
 ## About
 
@@ -22,4 +22,4 @@ Hosting UX Audit Bot involves running a Node.js Express server that uses Puppete
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/marvelous-tenderness)
+[View on Railway →](https://railway.com/deploy/marvelous-tenderness)

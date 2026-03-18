@@ -2,7 +2,7 @@
 
 n8n-MCP for dev/prod use. by czlonkowski
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/n8n-mcp-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-mcp-2)
 
 ## About
 
@@ -40,4 +40,4 @@ Railway deployment provides instant cloud hosting with zero server setup. The se
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/template/n8n-mcp-2)
+[View on Railway →](https://railway.com/deploy/n8n-mcp-2)

@@ -2,7 +2,7 @@
 
 A FastAPI SQLite CRUD: dark-themed UI, search, stats dashboard, RESTful API
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/fastapi-sqlite-crud)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-sqlite-crud)
 
 ## About
 
@@ -18,4 +18,4 @@ Hosting a FastAPI SQLite CRUD app involves running a Python ASGI server (Uvicorn
 
 **Category:** Starters · **Languages:** Python
 
-[View on Railway →](https://railway.com/template/fastapi-sqlite-crud)
+[View on Railway →](https://railway.com/deploy/fastapi-sqlite-crud)

@@ -2,7 +2,7 @@
 
 A Web Widget for the Ragpi AI Assistant
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/scntIP)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/scntIP)
 
 ## About
 
@@ -34,4 +34,4 @@ This is a template for the Ragpi Web Widget integration. You can find out more o
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/template/scntIP)
+[View on Railway →](https://railway.com/deploy/scntIP)

@@ -2,7 +2,7 @@
 
 N8N unlock full features by Bé Bước
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/bebuoc-n8n-unlock-full)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bebuoc-n8n-unlock-full)
 
 ## About
 
@@ -78,4 +78,4 @@ Hosting bebuoc-n8n-unlock-full on Railway offers a quick and easy way to set up 
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/template/bebuoc-n8n-unlock-full)
+[View on Railway →](https://railway.com/deploy/bebuoc-n8n-unlock-full)

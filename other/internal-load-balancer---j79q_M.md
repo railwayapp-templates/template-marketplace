@@ -2,7 +2,7 @@
 
 A load balancer for internal networking
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/j79q_M)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/j79q_M)
 
 ## About
 
@@ -28,4 +28,4 @@ The only thing you need to configure is the `TARGET` environment variable to the
 
 **Category:** Other · **Languages:** JavaScript
 
-[View on Railway →](https://railway.com/template/j79q_M)
+[View on Railway →](https://railway.com/deploy/j79q_M)

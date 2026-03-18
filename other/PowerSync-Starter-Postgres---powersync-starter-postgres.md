@@ -2,7 +2,7 @@
 
 PowerSync Open Edition Starter with Postgres. Build synced apps.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/powersync-starter-postgres)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/powersync-starter-postgres)
 
 ## About
 
@@ -66,4 +66,4 @@ Railway automatically connects these services and manages environment variables,
 
 **Category:** Other · **Languages:** JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/powersync-starter-postgres)
+[View on Railway →](https://railway.com/deploy/powersync-starter-postgres)

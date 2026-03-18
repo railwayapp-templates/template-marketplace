@@ -2,7 +2,7 @@
 
 Hugo static site generator (empty project template)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hugo)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hugo)
 
 ## About
 
@@ -22,4 +22,4 @@ This template uses Nixpacks to install Hugo and build your static site. Custom l
 
 **Category:** Other · **Languages:** HTML
 
-[View on Railway →](https://railway.com/template/hugo)
+[View on Railway →](https://railway.com/deploy/hugo)

@@ -2,7 +2,7 @@
 
 Open source feature flag service for gradual rollouts and testing.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/TSv4bp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TSv4bp)
 
 ## About
 
@@ -124,4 +124,4 @@ If you prefer not to self-host, Flipt also offers a managed cloud version that m
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/template/TSv4bp)
+[View on Railway →](https://railway.com/deploy/TSv4bp)

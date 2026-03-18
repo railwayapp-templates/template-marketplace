@@ -2,7 +2,7 @@
 
 Quickly save links, notes, and images
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/lGB4F_)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lGB4F_)
 
 ## About
 
@@ -57,4 +57,4 @@ Quickly save links, notes, and images
 
 **Category:** AI/ML · **Languages:** Dockerfile, Shell
 
-[View on Railway →](https://railway.com/template/lGB4F_)
+[View on Railway →](https://railway.com/deploy/lGB4F_)

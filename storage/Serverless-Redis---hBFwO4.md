@@ -2,7 +2,7 @@
 
 Redis HTTP Server (Upstash compatibility) 
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/hBFwO4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hBFwO4)
 
 ## About
 
@@ -47,4 +47,4 @@ This template is an HTTP server that interacts with the Redis database via HTTP 
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/template/hBFwO4)
+[View on Railway →](https://railway.com/deploy/hBFwO4)

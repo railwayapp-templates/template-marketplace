@@ -2,7 +2,7 @@
 
 Clean template using Express.js, Prisma, GraphQL, SQLite, and Apollo Server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/vCAGzF)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vCAGzF)
 
 ## About
 
@@ -26,4 +26,4 @@ This template is a backend service built with Express.js, Prisma ORM, and Apollo
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/template/vCAGzF)
+[View on Railway →](https://railway.com/deploy/vCAGzF)

@@ -2,7 +2,7 @@
 
 Deploy and Host whatsapp mcp with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/whatsapp-mcp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/whatsapp-mcp)
 
 ## About
 
@@ -41,4 +41,4 @@ Hosting WhatsApp MCP involves running your AI assistant’s backend in the cloud
 
 **Category:** Other · **Languages:** Python, Dockerfile
 
-[View on Railway →](https://railway.com/template/whatsapp-mcp)
+[View on Railway →](https://railway.com/deploy/whatsapp-mcp)
