@@ -46,6 +46,7 @@ Get started with the [Rivet quickstart](https://rivet.dev/docs) first.
 | `PORT` | Rivet | 6420 | Port Rivet Engine is listening on. |
 | `RIVET__POSTGRES__URL` | Rivet | - | Postgres URL to connect to. |
 | `RIVET__AUTH__ADMIN_TOKEN` | Rivet | (secret) | Secret admin token to use to manage Rivet. |
+| `PGSSLMODE` | Postgres | disable | - |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |

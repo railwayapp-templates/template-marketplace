@@ -16,6 +16,7 @@ Hosting Kan requires a PostgreSQL database for data storage, which Railway provi
 |---------|--------|------|
 | Redis | `redis:8.2.1` | Database |
 | Web | `ghcr.io/kanbn/kan:latest` | Web service |
+| kanbn/kan-migrate:latest | `ghcr.io/kanbn/kan-migrate:latest` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 
 ## Environment variables
