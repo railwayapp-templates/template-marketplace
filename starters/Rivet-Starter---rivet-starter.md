@@ -41,6 +41,7 @@ Read the [Rivet quickstart](https://www.rivet.dev/docs) to learn how to get star
 | `PORT` | Rivet | 6420 | Port Rivet Engine is listening on. |
 | `RIVET__POSTGRES__URL` | Rivet | - | Postgres URL to connect to. |
 | `RIVET__AUTH__ADMIN_TOKEN` | Rivet | (secret) | Secret admin token to use to manage Rivet. |
+| `PGSSLMODE` | Postgres | disable | - |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
@@ -56,6 +57,7 @@ Read the [Rivet quickstart](https://www.rivet.dev/docs) to learn how to get star
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/api/rivet/health`
 
 **Category:** Starters · **Verified:** Yes · **Languages:** TypeScript, HTML
 

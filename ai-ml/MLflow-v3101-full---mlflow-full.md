@@ -17,7 +17,7 @@ When deployed on Railway, MLflow runs as a tracking server accessible through a 
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| MLflow | [oploy-eu/MLflow](https://github.com/oploy-eu/MLflow) (branch: main) | Web service |
+| MLflow | [oploy-eu/mlflow-tracking-server](https://github.com/oploy-eu/mlflow-tracking-server) | Web service |
 
 ## Environment variables
 
@@ -44,6 +44,6 @@ When deployed on Railway, MLflow runs as a tracking server accessible through a 
 - **Volume:** `/var/lib/postgresql/data`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** AI/ML · **Languages:** Dockerfile
+**Category:** AI/ML · **Languages:** Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/mlflow-full)

@@ -27,8 +27,8 @@ Authelia is a lightweight IAM gateway — not a full identity provider. It sits 
 | Service | Source | Type |
 |---------|--------|------|
 | Authelia | [praveen-ks-2001/authelia-railway-template](https://github.com/praveen-ks-2001/authelia-railway-template) | Web service |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:edge` | Database |
 | Redis | `redis:8.2.1` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
@@ -50,11 +50,6 @@ Authelia is a lightweight IAM gateway — not a full identity provider. It sits 
 | `AUTHELIA_SESSION_REDIS_PORT` | Authelia | - | Redis port for session storage |
 | `AUTHELIA_SESSION_REDIS_PASSWORD` | Authelia | (secret) | Redis password for session auth |
 | `AUTHELIA_STORAGE_ENCRYPTION_KEY` | Authelia | - | Key encrypting stored sensitive data |
-| `POSTGRES_DB` | Postgres | railway | Initial database created on startup |
-| `DATABASE_URL` | Postgres | - | Internal Postgres connection string |
-| `POSTGRES_USER` | Postgres | (secret) | Default database superuser name |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | Postgres database user password |
-| `DATABASE_PUBLIC_URL` | Postgres | - | Public Postgres connection string |
 | `REDISHOST` | Redis | - | Internal Redis service hostname |
 | `REDISPORT` | Redis | 6379 | Redis server listening port |
 | `REDISUSER` | Redis | default | Redis default authentication user |
@@ -62,13 +57,19 @@ Authelia is a lightweight IAM gateway — not a full identity provider. It sits 
 | `REDISPASSWORD` | Redis | (secret) | Redis password environment reference |
 | `REDIS_PASSWORD` | Redis | (secret) | Password for Redis authentication |
 | `REDIS_PUBLIC_URL` | Redis | - | Public Redis connection URL |
+| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **Volume:** `/data`
+- **TCP Proxies:** 5432
+- **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Authentication · **Languages:** Shell, Dockerfile
 

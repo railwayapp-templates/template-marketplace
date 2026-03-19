@@ -1,14 +1,45 @@
 # Deploy Kernel Browser on Railway
 
-Crazy Fast Browser Infrastructure
+Sandboxed Chrome for browser automation, scraping, and AI agents
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kernel-browser)
 
 ## About
 
-Kernel Browser is a cloud-native, sandboxed Chromium environment built for browser automation and AI agents. It exposes a REST API for screen recording, screenshots, keyboard/mouse control, file system access, and process execution — all backed by a full X11 desktop with Chrome DevTools Protocol support.
+# Deploy Kernel Browser on Railway
 
-Deploying Kernel Browser involves running a multi-service Docker container that orchestrates Xorg, Mutter (window manager), D-Bus, Chromium, and a Go-based API server via Supervisord. The container starts a virtual display, launches a headful Chromium instance with remote debugging enabled, and exposes two network interfaces: a REST API on port 10001 for automation commands and a WebSocket proxy on port 9222 for direct Chrome DevTools Protocol access. The image requires running as root with `--no-sandbox` and `--disable-dev-shm-usage` flags due to container constraints. A health check on `/spec.yaml` confirms full stack readiness.
+Kernel Browser provides sandboxed, ready-to-use Chrome browsers for browser automation and AI agent workloads. Deploy a full Chromium environment with CDP (Chrome DevTools Protocol) support, live GUI streaming, and session recording.
+
+## Features
+
+- **Chrome DevTools Protocol** — Connect Playwright, Puppeteer, or any CDP-based framework
+- **Live GUI streaming** — Monitor and control the browser via WebRTC or VNC
+- **Session recording** — Capture and replay browser sessions as MP4 video
+- **Pre-built Docker image** — Fast deploys from GHCR, no build-time compilation
+- **REST API** — Control mouse, keyboard, and screen capture programmatically
+
+## Getting Started
+
+1. Click **Deploy on Railway**
+2. The browser container starts automatically with supervisord
+3. Connect via CDP at port 9222 or use the REST API at port 10001
+4. Optionally enable live view with `ENABLE_WEBRTC=true`
+
+## Connecting via Playwright
+
+```typescript
+const browser = await chromium.connectOverCDP('ws://YOUR_RAILWAY_URL:9222');
+const page = await browser.newPage();
+await page.goto('https://example.com');
+```
+
+## Environment Variables
+
+All variables are pre-configured with sensible defaults. Key ones:
+
+- `PORT` — API server port (default: 10001)
+- `RUN_AS_ROOT` — Required for Railway (default: true)
+- `CHROMIUM_FLAGS` — Browser launch flags for containerized environments
 
 ## What gets deployed
 
@@ -34,6 +65,6 @@ Deploying Kernel Browser involves running a multi-service Docker container that 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/home/kernel`
 
-**Category:** Automation · **Languages:** Go, Shell, TypeScript, Vue, Makefile, JavaScript, C, Dockerfile, Python, SCSS, M4, HTML
+**Category:** Automation · **Languages:** Go, Shell, TypeScript, Vue, Makefile, JavaScript, C, Dockerfile, Python, HTML, SCSS, M4
 
 [View on Railway →](https://railway.com/deploy/kernel-browser)
