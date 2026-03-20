@@ -43,7 +43,7 @@ Quackback is the open-source alternative to Canny and UserVoice. Collect feature
 | Service | Source | Type |
 |---------|--------|------|
 | quackback | `ghcr.io/quackbackio/quackback:latest` | Web service |
-| dragonfly | `ghcr.io/dragonflydb/dragonfly:v1.36.0` | Database |
+| dragonfly | `ghcr.io/dragonflydb/dragonfly:v1.37.0` | Database |
 | postgres | `pgvector/pgvector:pg18` | Database |
 
 ## Environment variables

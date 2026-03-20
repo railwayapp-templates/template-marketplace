@@ -1,4 +1,4 @@
-# Deploy OpenClawd on Railway
+# Deploy OpenClaw on Railway
 
 Personal AI assistant for WhatsApp, Telegram, Slack, and 20+ channels
 
@@ -33,7 +33,7 @@ No required variables — the gateway starts in unconfigured mode and guides you
 
 | Service | Source | Type |
 |---------|--------|------|
-| MoltBot | [serkanhaslak/clawdbot-railway](https://github.com/serkanhaslak/clawdbot-railway) | Web service |
+| OpenClaw | [serkanhaslak/openclaw-railway](https://github.com/serkanhaslak/openclaw-railway) | Web service |
 
 ## Environment variables
 
@@ -44,22 +44,16 @@ No required variables — the gateway starts in unconfigured mode and guides you
 | `NODE_ENV` | production |
 | `OPENAI_API_KEY` | (secret) |
 | `ANTHROPIC_API_KEY` | (secret) |
-| `CLAWDBOT_OAUTH_DIR` | /app/data/credentials |
-| `CLAWDBOT_STATE_DIR` | /app/data |
-| `CLAWDBOT_CONFIG_DIR` | /app/data/.clawdbot |
-| `CLAWDBOT_BRIDGE_PORT` | 18790 |
-| `CLAWDBOT_CONFIG_PATH` | /app/config/railway.clawdbot.json |
+| `OPENCLAW_STATE_DIR` | /data/.openclaw |
 | `TWILIO_WHATSAPP_FROM` | whatsapp:+ |
-| `CLAWDBOT_GATEWAY_BIND` | 0.0.0.0 |
-| `CLAWDBOT_GATEWAY_PORT` | 18789 |
-| `CLAWDBOT_GATEWAY_TOKEN` | (secret) |
-| `CLAWDBOT_WORKSPACE_DIR` | /app/data/clawd |
-| `CLAWDBOT_LOAD_SHELL_ENV` | 0 |
+| `OPENCLAW_GATEWAY_TOKEN` | (secret) |
+| `OPENCLAW_WORKSPACE_DIR` | /data/workspace |
+| `OPENCLAW_LOAD_SHELL_ENV` | 0 |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/app/data`
+- **Volume:** `/data`
 
 **Category:** Automation · **Languages:** TypeScript, Swift, Kotlin, Shell, JavaScript, CSS, Go, Python, HTML, Dockerfile, PowerShell, Ruby
 

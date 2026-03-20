@@ -20,6 +20,7 @@ Once all 4 services show as "Online", open your deployed **Frontend** URL and si
 
 | Service | Source | Type |
 |---------|--------|------|
+| arkenos-minio | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
 | arkenos-backend | [Arkenos-World/Arkenos](https://github.com/Arkenos-World/Arkenos) (root: /backend) | Web service |
 | arkenos-agent | [Arkenos-World/Arkenos](https://github.com/Arkenos-World/Arkenos) (root: /agent) | Worker |
 | arkenos-frontend | [Arkenos-World/Arkenos](https://github.com/Arkenos-World/Arkenos) (root: /frontend) | Web service |
@@ -29,8 +30,15 @@ Once all 4 services show as "Online", open your deployed **Frontend** URL and si
 
 | Variable | Service | Default |
 | --------- | ------- | ------- |
+| `PORT` | arkenos-minio | 9000 |
+| `MINIO_ROOT_USER` | arkenos-minio | (secret) |
+| `MINIO_ROOT_PASSWORD` | arkenos-minio | (secret) |
 | `PORT` | arkenos-backend | 8000 |
 | `DEBUG` | arkenos-backend | false |
+| `MINIO_BUCKET` | arkenos-backend | arkenos |
+| `MINIO_USE_SSL` | arkenos-backend | false |
+| `MINIO_ACCESS_KEY` | arkenos-backend | minioadmin |
+| `MINIO_SECRET_KEY` | arkenos-backend | (secret) |
 | `POSTGRES_PASSWORD` | arkenos-agent | (secret) |
 | `NODE_VERSION` | arkenos-frontend | 20 |
 | `POSTGRES_DB` | arkenos-db | railway |
@@ -39,11 +47,12 @@ Once all 4 services show as "Online", open your deployed **Frontend** URL and si
 
 ## Configuration
 
+- **Start command:** `minio server /data`
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Start command:** `npm start`
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** AI/ML · **Languages:** TypeScript, Python, CSS, Dockerfile, Batchfile, Shell, Mako, JavaScript
+**Category:** AI/ML · **Languages:** TypeScript, Python, CSS, Shell, Dockerfile, Batchfile, Mako, JavaScript
 
 [View on Railway →](https://railway.com/deploy/arkenos)
