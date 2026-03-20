@@ -16,7 +16,7 @@ Uptime Kuma runs as a Node.js application that continuously monitors your servic
 
 | Service | Source | Type |
 |---------|--------|------|
-| Uptime Kuma | `louislam/uptime-kuma:latest` | Web service |
+| Uptime Kuma | `louislam/uptime-kuma:2` | Web service |
 
 ## Configuration
 

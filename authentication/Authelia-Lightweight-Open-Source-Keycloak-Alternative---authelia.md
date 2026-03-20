@@ -40,14 +40,15 @@ Authelia is a lightweight IAM gateway — not a full identity provider. It sits 
 | `PG_DATABASE` | Authelia | - | Postgres database name reference |
 | `PG_PASSWORD` | Authelia | (secret) | Postgres database password reference |
 | `PG_USERNAME` | Authelia | (secret) | Postgres database username reference |
+| `INIT_PASSWORD` | Authelia | (secret) | Initial admin password first boot |
+| `INIT_USERNAME` | Authelia | (secret) | Initial admin username for setup |
 | `AUTHELIA_DOMAIN` | Authelia | - | Root domain for authentication service |
 | `AUTH_JWT_SECRET` | Authelia | (secret) | Secret for JWT token signing |
 | `AUTHELIA_AUTH_URL` | Authelia | - | Public authentication service URL |
-| `AUTHELIA_INIT_PASSWORD` | Authelia | (secret) | Initial admin password first boot |
-| `AUTHELIA_INIT_USERNAME` | Authelia | (secret) | Initial admin username for setup |
 | `AUTHELIA_SESSION_SECRET` | Authelia | (secret) | Secret for session cookie signing |
 | `AUTHELIA_SESSION_REDIS_HOST` | Authelia | - | Redis host for session storage |
 | `AUTHELIA_SESSION_REDIS_PORT` | Authelia | - | Redis port for session storage |
+| `ACCESS_CONTROL_DEFAULT_POLICY` | Authelia | one_factor | Change to two factor to setup totp - also need to setup SMTP variables |
 | `AUTHELIA_SESSION_REDIS_PASSWORD` | Authelia | (secret) | Redis password for session auth |
 | `AUTHELIA_STORAGE_ENCRYPTION_KEY` | Authelia | - | Key encrypting stored sensitive data |
 | `REDISHOST` | Redis | - | Internal Redis service hostname |
@@ -66,6 +67,7 @@ Authelia is a lightweight IAM gateway — not a full identity provider. It sits 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/config`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **Volume:** `/data`
 - **TCP Proxies:** 5432
