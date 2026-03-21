@@ -16,7 +16,7 @@ Deploying Inngest in production involves running a self-hosted server with exter
 |---------|--------|------|
 | InngestPostgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 | InngestRedis | `redis:8.2.1` | Database |
-| InngestApp | `inngest/inngest:v1.17.4` | Web service |
+| InngestApp | `inngest/inngest:v1.17.5` | Web service |
 
 ## Environment variables
 
