@@ -115,71 +115,66 @@ You’re one click away from running a complete, production-ready AI platform wi
 | `JWT_SECRET` | RAG API | (secret) | - |
 | `DEBUG_RAG_API` | RAG API | false | - |
 | `POSTGRES_USER` | RAG API | (secret) | - |
-| `OPENAI_API_KEY` | RAG API | (secret) | set a random value if you want to setup RAG later otherwise checkout https://www.librechat.ai/docs/configuration/rag_api |
 | `POSTGRES_PASSWORD` | RAG API | (secret) | - |
+| `RAG_OPENAI_API_KEY` | RAG API | (secret) | OpenAI API key for embeddings. Required if using openai provider. Overrides OPENAI_API_KEY to avoid conflicts with LibreChat. |
 | `EMBEDDINGS_PROVIDER` | RAG API | openai | - |
 | `HOST` | LibreChat | 0.0.0.0 | - |
-| `PROXY` | LibreChat | - | PROXY is to be used by all endpoints |
-| `SEARCH` | LibreChat | true | enables search in messages and conversations |
+| `PROXY` | LibreChat | - | Proxy URL used by all endpoints (leave empty if not needed) |
+| `SEARCH` | LibreChat | true | Enable search in messages and conversations via Meilisearch |
 | `NO_INDEX` | LibreChat | true | - |
 | `APP_TITLE` | LibreChat | LibreChat | - |
-| `ENDPOINTS` | LibreChat | openAI,agents,assistants,azureOpenAI,google,anthropic,custom | customize the available endpoints in LibreChat |
-| `LOGIN_MAX` | LibreChat | (secret) | The max amount of logins allowed per IP per LOGIN_WINDOW |
+| `ENDPOINTS` | LibreChat | openAI,agents,assistants,azureOpenAI,google,anthropic,custom | Comma-separated list of available endpoints |
+| `LOGIN_MAX` | LibreChat | (secret) | Max logins allowed per IP per LOGIN_WINDOW |
 | `GOOGLE_KEY` | LibreChat | user_provided | - |
 | `JWT_SECRET` | LibreChat | (secret) | - |
 | `CONFIG_PATH` | LibreChat | https://raw.githubusercontent.com/LibreChat-AI/librechat-config-yaml/main/librechat-up-l.yaml | - |
 | `TITLE_CONVO` | LibreChat | true | - |
-| `BAN_DURATION` | LibreChat | 1000 * 60 * 60 * 2 | How long the user and associated IP are banned for (in milliseconds) |
-| `BAN_INTERVAL` | LibreChat | 20 | The user will be banned everytime their score reaches/crosses over the interval threshold |
-| `DEBUG_OPENAI` | LibreChat | false | Set to true to enable debug mode for the OpenAI endpoint |
+| `TRUST_PROXY` | LibreChat | 1 | - |
+| `BAN_DURATION` | LibreChat | 7200000 | Ban duration in milliseconds (default: 2 hours) |
+| `BAN_INTERVAL` | LibreChat | 20 | Ban triggers when violation score reaches this threshold |
 | `GROQ_API_KEY` | LibreChat | (secret) | - |
-| `LOGIN_WINDOW` | LibreChat | (secret) | In minutes, determines the window of time for LOGIN_MAX logins |
-| `REGISTER_MAX` | LibreChat | 5 | In minutes, determines the window of time for REGISTER_MAX registrations |
-| `AZURE_API_KEY` | LibreChat | (secret) | - |
+| `LOGIN_WINDOW` | LibreChat | (secret) | Login rate limit window in minutes |
+| `REGISTER_MAX` | LibreChat | 5 | Max registrations allowed per IP per REGISTER_WINDOW |
 | `CHECK_BALANCE` | LibreChat | false | - |
-| `DEBUG_CONSOLE` | LibreChat | false | Enable verbose server output in the console with 'true' , though it's not recommended due to high verbosity. |
+| `CUSTOM_FOOTER` | LibreChat | - | Custom footer text displayed in the UI |
+| `DEBUG_CONSOLE` | LibreChat | false | Enable verbose server output in the console (not recommended for production) |
 | `DEBUG_LOGGING` | LibreChat | true | - |
-| `DEBUG_PLUGINS` | LibreChat | true | Set to false to disable debug mode for plugins |
-| `GOOGLE_MODELS` | LibreChat | gemini-2.5-pro,gemini-2.5-pro-preview-06-05,gemini-2.5-pro-preview-05-06,gemini-2.5-pro-preview-03-25,gemini-2.5-flash,gemini-2.5-flash-preview-05-20,gemini-2.5-flash-lite-preview-06-17,gemini-2.0-flash,gemini-2.0-flash-exp,gemini-2.0-flash-lite-preview-02-05,gemini-2.0-flash-thinking-exp,gemini-2.0-flash-thinking-exp-1219,gemini-2.0-pro-exp-02-05,gemini-exp-1206,gemini-1.5-flash-001,gemini-1.5-flash-002,gemini-1.5-flash-latest,gemini-1.5-pro-001,gemini-1.5-pro-002,gemini-1.5-pro-latest | - |
-| `OPENAI_MODELS` | LibreChat | gpt-3.5-turbo,gpt-3.5-turbo-0125,gpt-3.5-turbo-1106,gpt-3.5-turbo-16k,gpt-3.5-turbo-instruct,gpt-3.5-turbo-instruct-0914,gpt-4,gpt-4-0125-preview,gpt-4-0613,gpt-4-1106-preview,gpt-4-turbo,gpt-4-turbo-2024-04-09,gpt-4-turbo-preview,gpt-4.1,gpt-4.1-2025-04-14,gpt-4.1-mini,gpt-4.1-mini-2025-04-14,gpt-4.1-nano,gpt-4.1-nano-2025-04-14,gpt-4.5-preview,gpt-4.5-preview-2025-02-27,gpt-4o,gpt-4o-2024-05-13,gpt-4o-2024-08-06,gpt-4o-2024-11-20,gpt-4o-mini,gpt-4o-mini-2024-07-18,gpt-4o-mini-realtime-preview,gpt-4o-mini-realtime-preview-2024-12-17,gpt-4o-mini-search-preview,gpt-4o-mini-search-preview-2025-03-11,gpt-4o-realtime-preview,gpt-4o-realtime-preview-2024-10-01,gpt-4o-realtime-preview-2024-12-17,gpt-4o-realtime-preview-2025-06-03,gpt-4o-search-preview,gpt-4o-search-preview-2025-03-11,gpt-4o-mini-tts,gpt-4o-mini-search-preview,gpt-4o-mini-search-preview-2025-03-11,gpt-5,gpt-5-2025-08-07,gpt-5-mini,gpt-5-mini-2025-08-07,gpt-5-nano,gpt-5-nano-2025-08-07,gpt-5-chat-latest,gpt-5-codex,gpt-5-pro,gpt-5-pro-2025-10-06,gpt-5-search-api,gpt-5-search-api-2025-10-14,gpt-realtime,gpt-realtime-2025-08-28,gpt-realtime-mini,gpt-realtime-mini-2025-10-06,gpt-image-1,gpt-image-1-mini,o1,o1-2024-12-17,o1-mini,o1-mini-2024-09-12,o1-preview,o1-preview-2024-09-12,o1-pro,o1-pro-2025-03-19,o3,o3-2025-04-16,o3-mini,o3-mini-2025-01-31,o4-mini,o4-mini-2025-04-16,o4-mini-deep-research,o4-mini-deep-research-2025-06-26,davinci-002,babbage-002,codex-mini-latest,chatgpt-4o-latest | - |
-| `BAN_VIOLATIONS` | LibreChat | true | Whether or not to enable banning users for violations (they will still be logged) |
-| `MESSAGE_IP_MAX` | LibreChat | 40 | The max amount of messages an IP can send per MESSAGE_IP_WINDOW |
+| `GOOGLE_MODELS` | LibreChat | gemini-3.1-pro-preview,gemini-3.1-pro-preview-customtools,gemini-3-flash-preview,gemini-3.1-flash-lite-preview,gemini-2.5-pro,gemini-2.5-flash,gemini-2.5-flash-lite,gemini-2.0-flash,gemini-2.0-flash-lite | - |
+| `OPENAI_MODELS` | LibreChat | gpt-5.4,gpt-5.4-pro,gpt-5.4-mini,gpt-5.4-nano,gpt-5.2,gpt-5,gpt-5-mini,gpt-5-nano,gpt-4o,gpt-4o-mini,o3,o4-mini,gpt-image-1,chatgpt-4o-latest | - |
+| `BAN_VIOLATIONS` | LibreChat | true | Enable banning users for violations |
+| `MESSAGE_IP_MAX` | LibreChat | 40 | Max messages per IP per MESSAGE_IP_WINDOW |
 | `OPENAI_API_KEY` | LibreChat | (secret) | - |
 | `OPENROUTER_KEY` | LibreChat | user_provided | - |
-| `SESSION_EXPIRY` | LibreChat | 1000 * 60 * 15 | - |
+| `SESSION_EXPIRY` | LibreChat | 900000 | - |
 | `MISTRAL_API_KEY` | LibreChat | (secret) | - |
-| `REGISTER_WINDOW` | LibreChat | 60 | In minutes, determines the window of time for REGISTER_MAX registrations |
-| `ANYSCALE_API_KEY` | LibreChat | (secret) | - |
-| `LIMIT_MESSAGE_IP` | LibreChat | true | Whether to limit the amount of messages an IP can send per MESSAGE_IP_WINDOW |
-| `MESSAGE_USER_MAX` | LibreChat | 40 | The max amount of messages an IP can send per MESSAGE_USER_WINDOW |
-| `ALLOW_EMAIL_LOGIN` | LibreChat | (secret) | Email login. Set to true or false to enable or disable ONLY email login |
+| `REGISTER_WINDOW` | LibreChat | 60 | Registration rate limit window in minutes |
+| `DEEPSEEK_API_KEY` | LibreChat | (secret) | API key for DeepSeek |
+| `LIMIT_MESSAGE_IP` | LibreChat | true | Enable IP-based message rate limiting |
+| `MESSAGE_USER_MAX` | LibreChat | 40 | Max messages per user per MESSAGE_USER_WINDOW |
+| `ALLOW_EMAIL_LOGIN` | LibreChat | (secret) | Enable or disable email/password login |
 | `ANTHROPIC_API_KEY` | LibreChat | (secret) | - |
 | `FIREWORKS_API_KEY` | LibreChat | (secret) | - |
-| `MESSAGE_IP_WINDOW` | LibreChat | 1 | In minutes, determines the window of time for MESSAGE_IP_MAX messages |
-| `OPENAI_MODERATION` | LibreChat | false | Set to true or false, Whether or not to enable OpenAI moderation on the OpenAI and Plugins endpoints |
-| `ALLOW_REGISTRATION` | LibreChat | true | Email registration of new users. Set to true or false to enable or disable Email registration |
-| `ALLOW_SOCIAL_LOGIN` | LibreChat | (secret) | Allow users to connect to LibreChat with various social networks, see below. Set to true or false to enable or disable |
+| `MESSAGE_IP_WINDOW` | LibreChat | 1 | IP message rate limit window in minutes |
+| `ALLOW_REGISTRATION` | LibreChat | true | Enable or disable email registration of new users |
+| `ALLOW_SOCIAL_LOGIN` | LibreChat | (secret) | Enable social login (configure provider client IDs/secrets below) |
 | `JWT_REFRESH_SECRET` | LibreChat | (secret) | - |
-| `LIMIT_MESSAGE_USER` | LibreChat | (secret) | Whether to limit the amount of messages an IP can send per MESSAGE_USER_WINDOW |
-| `MEILI_NO_ANALYTICS` | LibreChat | true | disable anonymized telemetry analytics for MeiliSearch for absolute privacy |
-| `OPENROUTER_API_KEY` | LibreChat | (secret) | - |
+| `LIMIT_MESSAGE_USER` | LibreChat | (secret) | Enable user-based message rate limiting |
+| `MEILI_NO_ANALYTICS` | LibreChat | true | Disable anonymized telemetry analytics for Meilisearch |
 | `PERPLEXITY_API_KEY` | LibreChat | (secret) | - |
 | `TOGETHERAI_API_KEY` | LibreChat | (secret) | - |
 | `GITHUB_CALLBACK_URL` | LibreChat | /oauth/github/callback | - |
 | `GOOGLE_CALLBACK_URL` | LibreChat | /oauth/google/callback | - |
-| `MESSAGE_USER_WINDOW` | LibreChat | 1 | In minutes, determines the window of time for MESSAGE_USER_MAX messages |
+| `MESSAGE_USER_WINDOW` | LibreChat | 1 | User message rate limit window in minutes |
 | `DISCORD_CALLBACK_URL` | LibreChat | /oauth/discord/callback | - |
 | `GITHUB_CLIENT_SECRET` | LibreChat | (secret) | - |
 | `GOOGLE_CLIENT_SECRET` | LibreChat | (secret) | - |
 | `REFRESH_TOKEN_EXPIRY` | LibreChat | (secret) | - |
 | `DISCORD_CLIENT_SECRET` | LibreChat | (secret) | - |
-| `FACEBOOK_CALLBACK_URL` | LibreChat | /oauth/facebook/callback | - |
 | `LOGIN_VIOLATION_SCORE` | LibreChat | (secret) | - |
-| `CONCURRENT_MESSAGE_MAX` | LibreChat | 2 | The max amount of messages a user can send per request |
-| `FACEBOOK_CLIENT_SECRET` | LibreChat | (secret) | - |
+| `CONCURRENT_MESSAGE_MAX` | LibreChat | 2 | Max concurrent messages per user |
 | `MESSAGE_VIOLATION_SCORE` | LibreChat | 1 | - |
-| `ALLOW_SOCIAL_REGISTRATION` | LibreChat | false | Enable or disable registration of new user using various social network. Set to true or false to enable or disable |
-| `LIMIT_CONCURRENT_MESSAGES` | LibreChat | true | Whether to limit the amount of messages a user can send per request |
+| `ALLOW_SOCIAL_REGISTRATION` | LibreChat | false | Allow new users to register via social login |
+| `LIMIT_CONCURRENT_MESSAGES` | LibreChat | true | Limit concurrent messages per user |
 | `CONCURRENT_VIOLATION_SCORE` | LibreChat | 1 | - |
 | `NON_BROWSER_VIOLATION_SCORE` | LibreChat | 20 | - |
 | `REGISTRATION_VIOLATION_SCORE` | LibreChat | 1 | - |

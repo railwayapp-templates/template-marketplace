@@ -1,4 +1,4 @@
-# Deploy markitdown-mcp-rest on Railway
+# Deploy Markitdown - MCP + REST on Railway
 
 Deploy and Host markitdown-mcp-rest with Railway
 

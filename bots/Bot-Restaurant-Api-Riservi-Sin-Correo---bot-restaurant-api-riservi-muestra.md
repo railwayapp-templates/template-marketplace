@@ -31,8 +31,10 @@ Hosting Bot-Restaurant-Api-Riservi-Muestra involves deploying a scalable Node.js
 | `msjSeguimiento2` | - | Personaliza el segundo msj de seguimiento |
 | `msjSeguimiento3` | - | Personaliza el msj de seguimiento Final |
 | `ASSISTANT_ID_IMG` | - | ID Asistente Especialista en Imagenes |
+| `BACKOFFICE_TOKEN` | (secret) | Token de acceso al BackOffice (CRM) |
 | `ID_GRUPO_RESUMEN` | - | JID grupo de Whastapp donde se envian los resumen |
 | `OPENAI_API_KEY_IMG` | (secret) | APIKEY asistente Img OpenAI |
+| `EXTRA_SYSTEM_PROMPT` | "" | Instruccion adicional de refuerzo que persiste en el contexto |
 | `timeOutSeguimiento3` | - | Personaliza el tiempo de espera entre el 2do y 3er msj de seguimiento |
 | ` timeOutSeguimiento2` | - | Personaliza el tiempo de espera entre el 1er y 2do msj de seguimiento |
 
@@ -40,6 +42,6 @@ Hosting Bot-Restaurant-Api-Riservi-Muestra involves deploying a scalable Node.js
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other · **Languages:** TypeScript, HTML, Dockerfile, JavaScript
+**Category:** Bots · **Languages:** TypeScript, HTML, JavaScript, CSS, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/bot-restaurant-api-riservi-muestra)
