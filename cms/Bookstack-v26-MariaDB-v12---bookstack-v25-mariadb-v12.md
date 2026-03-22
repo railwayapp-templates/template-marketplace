@@ -1,4 +1,4 @@
-# Deploy Bookstack v25 + MariaDB v12 on Railway
+# Deploy Bookstack v26 + MariaDB v12 on Railway
 
 Deployment of BookStack with Redis caching and MariaDB database.
 
@@ -14,8 +14,8 @@ Hosting BookStack v25 with MariaDB v12 on Railway involves deploying three inter
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `redis:8.4.0` | Database |
-| Bookstack | `andreidrang/bookstack-railway:25.12.6` | Web service |
+| Redis | `redis:8.6.1` | Database |
+| Bookstack | `andreidrang/bookstack-railway:26.03.1` | Web service |
 | MariaDB | `mariadb:12.1.2` | Database |
 
 ## Environment variables

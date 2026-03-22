@@ -37,12 +37,14 @@ Hosting Bot-ApiSWS on Railway involves deploying a high-performance Node.js envi
 | `msjSeguimiento2` | MSJ 2 de seguimiento, \nSigo aquí para ayudarte a optimizar ventas | Personaliza el segundo msj de seguimiento |
 | `msjSeguimiento3` | Msj 3 de seguimiento.\n\nAquí estoy para potenciar tus ventas, hablemos que puedo hacer por tu negocio. | Personaliza el msj de seguimiento Final |
 | `ASSISTANT_ID_IMG` | asst_xHtjJK7Kt2mnw3jmiYa9PMyr | ID Asistente Especialista en Imagenes |
+| `BACKOFFICE_TOKEN` | (secret) | Token de acceso al BackOffice (CRM) |
 | `ID_GRUPO_RESUMEN` | 0000000000000@g.us | JID (Identificador Unico) de Grupo WS donde enviar reportes |
 | `SHEET_ID_RESUMEN` | default | ID Sheets donde se guarda los resumen (Hoja1) |
 | `GOOGLE_CALENDAR_ID` | primary | ID Calendar google |
 | `GOOGLE_PRIVATE_KEY` | -----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC6ifEL7kVO7ytN\nN8MoSVcuUTgOvEl7nazqYEUoHCbwZp+2pHeMXuoYR2rQ9f939d50l7OyqeOs5YgK\n8ly3vQOqNLt7FgagD16bJVnFbIN8TFcGbmFkitMUBVL4KM6WPZS3aprGzlyE0Bxu\nC4vEb5K0dzOxkFuYkkPsIX5nAqGs5bCj+rg5s8jbJCvY+Ka74CsIeBnCWQVIMV5/\nVOfcv5QEmXYoiLKt5xV/XeEih4YRXrQchIjxLCGeShgw7WI2CV3Y1YallRH1SOgc\nF1gSxCnZNa0m0vJDYGmu7nV1EGO4VQwFnvFcgxrgzruQOVqncYZGNkVXkDefubKV\n1pdc1h8rAgMBAAECggEAErwD34TgpRrUKH8vNH6ZKOezT5eNccLWOPvONkcNihtk\ncv11nD10GVgi3DW4oJ2q597Mh2cUnKq4zRCmSzXKhm+hXK1LoQuqHr7Tk0Zgtj0c\niGLRmT1wEZSvTokapnAs3XbxcIINPLGCCXNTaDkkbMeEA5NR/7LA65g5j7Lt9eU3\ndhC9LFcbOyLxlJFFXxbq/B1zZh9sGqoHmn9yOcbHNQd3W9pMKqNIh90xzdkVr3E0\nS8tv6wU56PRtcjEVKJxS3Qcxk41urju4DSKDo8K3PuZjna1uW6ymL1zMOOXZovnl\nvmk4YcpEOdRcfGBWJepi3jp+cU0o4DcS6uObbvDXQQKBgQD1UtSZa2ua+i/FDvON\nKGh6aCbZ8JVk1/I2NuOViTXRHJhpIL4GXjWgpOD/9S5skNW9NB/F5Pr82y3a3sRh\nzyqiSE1gOm5pap/PUoX9QavtdrGbLlasbLizHsDeD390ihV4IuVYmqTnBiGJ62GH\n0P7vu2mUMW5n9JqvAMqWZ5cwMQKBgQDCqC+P8fnJIkosd5wCxSmqcNmNd+MfOrky\nOCTn3WrDdVGL2ekCdsOdBnLbnRg+HqSqytg12ENPThqrDjsS2XjF74I29VdESTmx\nh5TnIq4r/IzXFSYBL8LJ7pMLAFx8Bb0tWWRPcRlSHCavtZz+2xgXGggsc2QUYSWU\n+CDWnrwqGwKBgQDX1nRuNvCJfa0htzHY88BYUeI8xUrrWoMj58779ah/vqTpeYE2\noRSVrfq3t8OMiTFEMePyfK/GYCBL/MrTMy3TccGB9GbIIKNSCM0SMQFO/6rrWS2w\nrkcicOBHf2Mn6YVSGYGnHwgOqno/mfRJRjvGOCF/3K3CkJa3ef7DrYh7QQKBgENE\ny+r6vE99whRL4WYzrIpyJTx2Sc7pBEcOj/Jw2gxh5qRl0dhAIqmJKPgr+cy92joL\nj1xMODaXzy9943xIGyyL8Hv9nQLEK2PmbtbRbU9WH3XUoSWX08Dk6XvLzCov8YhS\ndA/gDdgKUnQ2VuLb5B9Xp6t01QkV6V7pwK9qe6wxAoGBAKA2o4zvAhNXnAPcskmR\nzDVdTQBZf49A4bfLLLfs7pxopgAZSOpD0pcU/jMoBww7Ko6xMnrpSP0kRO/LCvcq\nQWzgkOl3iUhueVDSynlSarP+1g27wWNNGssN8xqwQ1nXdjLWEBRCqINMzCM/7B8Q\naEi5S78wya5OZKMmoQcEDWhy\n-----END PRIVATE KEY-----\n | Clave Privada de Servico Google |
 | `ID_GRUPO_RESUMEN_2` | 000000000000@g.us | JID (identificador unico) de Grupo WS donde enviar el reporte G2 |
 | `OPENAI_API_KEY_IMG` | (secret) | APIKEY de ASISTENTE IMG OPENAI |
+| `EXTRA_SYSTEM_PROMPT` | "" | Instruccion adicional de refuerzo que persiste en el contexto |
 | `GOOGLE_CLIENT_EMAIL` | bot-ws-test-v1@bot-test-v1-450813.iam.gserviceaccount.com | Correo compartdo en el sheet |
 | `GOOGLE_MAPS_API_KEY` | (secret) | APIKEY Google Maps |
 | `timeOutSeguimiento2` | 45 | Personaliza el tiempo de espera entre el 1er y 2do msj de seguimiento |
@@ -52,6 +54,6 @@ Hosting Bot-ApiSWS on Railway involves deploying a high-performance Node.js envi
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Bots · **Languages:** TypeScript, JavaScript, HTML, CSS, PLpgSQL, Dockerfile
+**Category:** Bots · **Languages:** TypeScript, JavaScript, CSS, HTML, PLpgSQL, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/bot-apisws)
