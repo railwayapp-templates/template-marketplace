@@ -23,7 +23,6 @@ Hosting LiveKit requires running a media server with WebRTC connectivity, a Redi
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `AGENT_MODE` | voice-agent | pipeline | controls which agent mode runs |
 | `OPENAI_API_KEY` | voice-agent | (secret) | Your OpenAI API key |
 | `LIVEKIT_API_KEY` | voice-agent | (secret) | - |
 | `LIVEKIT_API_SECRET` | voice-agent | (secret) | - |
@@ -48,6 +47,6 @@ Hosting LiveKit requires running a media server with WebRTC connectivity, a Redi
 - **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 7882
 
-**Category:** AI/ML · **Languages:** TypeScript, Shell, Python, Dockerfile, CSS, JavaScript, HTML
+**Category:** AI/ML · **Languages:** TypeScript, Python, Shell, Dockerfile, CSS, JavaScript, HTML
 
 [View on Railway →](https://railway.com/deploy/livekit)

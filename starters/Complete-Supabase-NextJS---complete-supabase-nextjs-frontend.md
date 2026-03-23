@@ -50,11 +50,13 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 | `PGRST_DB_URI` | PostgREST | - | Private connection string for Postgres. |
 | `PGRST_DB_SCHEMAS` | PostgREST | public,storage,graphql_public | Schemas within Postgres that PostgREST is permitted to expose via RESTful API. |
 | `PGRST_JWT_SECRET` | PostgREST | (secret) | Project JWT secret. |
+| `PGRST_DB_MAX_ROWS` | PostgREST | 1000 | Max number of rows returned by a request. |
 | `PGRST_SERVER_HOST` | PostgREST | :: | Defines the network interface that the server binds to when it starts. |
 | `PGRST_SERVER_PORT` | PostgREST | - | The port that PostgREST listens at. |
 | `PGRST_DB_ANON_ROLE` | PostgREST | anon | Anon role used in JWTs. |
 | `PGRST_DB_USE_LEGACY_GUCS` | PostgREST | false | Whether to use legacy Grand Unified Scheme (GUC) variables. Keep set to "false". |
 | `PGRST_APP_SETTINGS_JWT_EXP` | PostgREST | - | Time before refreshing sessions. Defaults to an hour. |
+| `PGRST_DB_EXTRA_SEARCH_PATH` | PostgREST | public | Extra schemas added to the search_path of every request. |
 | `PGRST_APP_SETTINGS_JWT_SECRET` | PostgREST | (secret) | Project JWT secret. |
 | `PORT` | Edge Functions | 9000 | All PG On Rails services declare PORT to standardize building urls within the Railway private network. |
 | `JWT_SECRET` | Edge Functions | (secret) | Project JWT secret. |
