@@ -50,11 +50,13 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 | `PGRST_DB_URI` | PostgREST | - | Private connection string for Postgres. |
 | `PGRST_DB_SCHEMAS` | PostgREST | public,storage,graphql_public | Schemas within Postgres that PostgREST is permitted to expose via RESTful API. |
 | `PGRST_JWT_SECRET` | PostgREST | (secret) | Project JWT secret. |
+| `PGRST_DB_MAX_ROWS` | PostgREST | 1000 | Max number of rows returned by a request. |
 | `PGRST_SERVER_HOST` | PostgREST | :: | Defines the network interface that the server binds to when it starts. |
 | `PGRST_SERVER_PORT` | PostgREST | - | The port that PostgREST listens at. |
 | `PGRST_DB_ANON_ROLE` | PostgREST | anon | Anon role used in JWTs. |
 | `PGRST_DB_USE_LEGACY_GUCS` | PostgREST | false | Whether to use legacy Grand Unified Scheme (GUC) variables. Keep set to "false". |
 | `PGRST_APP_SETTINGS_JWT_EXP` | PostgREST | - | Time before refreshing sessions. Defaults to an hour. |
+| `PGRST_DB_EXTRA_SEARCH_PATH` | PostgREST | public | Extra schemas added to the search_path of every request. |
 | `PGRST_APP_SETTINGS_JWT_SECRET` | PostgREST | (secret) | Project JWT secret. |
 | `PORT` | Edge Functions | 9000 | All PG On Rails services declare PORT to standardize building urls within the Railway private network. |
 | `JWT_SECRET` | Edge Functions | (secret) | Project JWT secret. |
@@ -64,6 +66,8 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 | `EDGE_RUNTIME_PORT` | Edge Functions | - | The port that Edge Functions will listen at. |
 | `SUPABASE_ANON_KEY` | Edge Functions | - | Project anon key. |
 | `EDGE_RUNTIME_LISTEN` | Edge Functions | :: | Defines the network interface that the server binds to when it starts. |
+| `SUPABASE_SECRET_KEYS` | Edge Functions | (secret) | New opaque API keys |
+| `SUPABASE_PUBLISHABLE_KEYS` | Edge Functions | - | New opaque API keys |
 | `SUPABASE_SERVICE_ROLE_KEY` | Edge Functions | - | Project service role key. |
 | `PORT` | Supabase Storage | 5000 | All PG On Rails services declare PORT to standardize building urls within the Railway private network. |
 | `ANON_KEY` | Supabase Storage | - | Project anon key. |
@@ -83,7 +87,6 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 | `FILE_SIZE_LIMIT` | Supabase Storage | 52428800 | File size |
 | `STORAGE_BACKEND` | Supabase Storage | s3 | Storage backend. Can also be "file" but must be "s3" on Railway. |
 | `DB_INSTALL_ROLES` | Supabase Storage | false | Whether to install storage DB roles. |
-| `PGRST_JWT_SECRET` | Supabase Storage | (secret) | Project JWT secret for PostgREST. |
 | `AWS_ACCESS_KEY_ID` | Supabase Storage | - | S3 id. |
 | `DATABASE_POOL_URL` | Supabase Storage | - | PgBouncer connection string. |
 | `SERVER_ADMIN_PORT` | Supabase Storage | 5001 | The port to access Storage admin functions. |
@@ -166,6 +169,8 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 | `DASHBOARD_PASSWORD` | Kong | (secret) | Password to access Supabase Studio. |
 | `DASHBOARD_USERNAME` | Kong | (secret) | Username to access Supabase Studio. |
 | `SUPABASE_SERVICE_KEY` | Kong | - | Project service role key. |
+| `KONG_PROXY_ACCESS_LOG` | Kong | /dev/stdout combined | - |
+| `KONG_DNS_NOT_FOUND_TTL` | Kong | 1 | - |
 | `KONG_DECLARATIVE_CONFIG` | Kong | /home/kong/kong.yml | Local filepath to kong.yml |
 | `KONG_NGINX_WORKER_PROCESSES` | Kong | 2 | Sets the number of Nginx worker processes Kong spawns to handle incoming network connections and process requests. Setting to "auto" will match the number of CPU cores, for max cuncurrency and higher memory overhead. |
 | `KONG_NGINX_PROXY_PROXY_BUFFERS` | Kong | 64 160k | Number and size of in-memory buffers to handle responses from upstream services. If the upstream response (headers + initial body) fits within this buffer size, it’s handled entirely in memory — faster and more efficient. |

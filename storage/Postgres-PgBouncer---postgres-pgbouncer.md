@@ -24,7 +24,7 @@ configuring database infrastructure.
 | Service | Source | Type |
 |---------|--------|------|
 | PGBouncer | `railwayapp/pgbouncer` | TCP service |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 

@@ -18,10 +18,13 @@ Hosting markitdown-mcp-rest on Railway gives you a production-ready document-to-
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `MARKITDOWN_API_TOKEN` | (secret) |
-| `MARKITDOWN_ENABLE_PLUGINS` | true |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `LLM_MODEL` | - | Your OpenAI compatible LLM Model |
+| `LLM_API_KEY` | (secret) | Your OpenAI compatible LLM key |
+| `LLM_BASE_URL` | - | Your OpenAI compatible LLM API URL |
+| `MARKITDOWN_API_TOKEN` | (secret) | - |
+| `MARKITDOWN_ENABLE_PLUGINS` | true | - |
 
 ## Configuration
 

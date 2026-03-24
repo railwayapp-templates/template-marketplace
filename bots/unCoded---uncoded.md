@@ -82,8 +82,9 @@ Set Usage Limit to 100$ for Safety in Railway
 | Service | Source | Type |
 |---------|--------|------|
 | UnCodedDatabase | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
-| unCodedTradingBot | `aureumvictoria/uncoded-trading-bot:2025.09.09` | Worker |
-| unCodedTelegramBot | `aureumvictoria/uncoded-telegram-bot:2025.09.21` | Worker |
+| unCodedTradingBot | `aureumvictoria/uncoded-trading-bot:3` | Worker |
+| unCodedTelegramBot | `aureumvictoria/uncoded-telegram-bot:3` | Worker |
+| unCodedUiBot | `tbotteam/uncoded-js-frontend:final` | Web service |
 
 ## Environment variables
 
@@ -104,11 +105,17 @@ Set Usage Limit to 100$ for Safety in Railway
 | `POSTGRES_USER` | unCodedTelegramBot | (secret) | - |
 | `POSTGRES_PASSWORD` | unCodedTelegramBot | (secret) | - |
 | `TELEGRAM_BOT_TOKEN` | unCodedTelegramBot | (secret) | - |
+| `PORT` | unCodedUiBot | 4000 | - |
+| `DOCKER_ENV` | unCodedUiBot | true | - |
+| `APP_PASSWORD` | unCodedUiBot | (secret) | - |
+| `POSTGRES_USER` | unCodedUiBot | (secret) | - |
+| `POSTGRES_PASSWORD` | unCodedUiBot | (secret) | - |
 
 ## Configuration
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** Bots
 
