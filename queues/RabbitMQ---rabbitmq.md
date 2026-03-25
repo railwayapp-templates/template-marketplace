@@ -18,10 +18,11 @@ Hosting RabbitMQ requires a persistent server to maintain message durability and
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `RABBITMQ_DEFAULT_USER` | (secret) |
-| `RABBITMQ_DEFAULT_VHOST` | / |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `RABBITMQ_DEFAULT_PASS` | - | Default Password |
+| `RABBITMQ_DEFAULT_USER` | (secret) | Default username |
+| `RABBITMQ_DEFAULT_VHOST` | / | Vhost entry |
 
 **Category:** Queues · **Languages:** Dockerfile
 

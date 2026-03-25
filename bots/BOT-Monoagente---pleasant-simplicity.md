@@ -49,9 +49,8 @@ Hosting WhatsApp AI Assistant Bot on Railway allows you to deploy a production-r
 
 ## Configuration
 
-- **Healthcheck:** `/status`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Bots · **Languages:** TypeScript, JavaScript, CSS, HTML, PLpgSQL, Dockerfile
+**Category:** Bots · **Languages:** TypeScript, JavaScript, HTML, CSS, PLpgSQL, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/pleasant-simplicity)

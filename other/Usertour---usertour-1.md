@@ -6,16 +6,16 @@ Usertour is an open-source user onboarding platform.
 
 ## About
 
-Railway handles deployment automatically.  
-This template provisions the Usertour app along with its required services.
+Railway provisions Usertour with required services automatically.
 
 ---
 
-When you host Usertour yourself:
+When self-hosting:
 
-- You retain **full control** of your data
-- You are responsible for infrastructure and backups
-- AGPL v3 license applies to self-hosted usage
+- Full data ownership
+- No vendor lock-in
+- You manage infra and backups
+- AGPL v3 applies
 
 ---
 

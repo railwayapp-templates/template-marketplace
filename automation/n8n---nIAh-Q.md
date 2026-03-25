@@ -14,7 +14,7 @@ NOTE: This is the official image + some community nodes!
 
 | Service | Source | Type |
 |---------|--------|------|
-| n8n | `br1cascio/n8n:1.123.20` | Web service |
+| n8n | `br1cascio/n8n:1.123.26` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
 
 ## Environment variables
