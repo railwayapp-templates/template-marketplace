@@ -116,7 +116,7 @@ You’re one click away from running a complete, production-ready AI platform wi
 | `DEBUG_RAG_API` | RAG API | false | - |
 | `POSTGRES_USER` | RAG API | (secret) | - |
 | `POSTGRES_PASSWORD` | RAG API | (secret) | - |
-| `RAG_OPENAI_API_KEY` | RAG API | (secret) | OpenAI API key for embeddings. Required if using openai provider. Overrides OPENAI_API_KEY to avoid conflicts with LibreChat. |
+| `RAG_OPENAI_API_KEY` | RAG API | (secret) | OpenAI API key for embeddings. Required if using openai provider. Overrides OPENAI_API_KEY to avoid conflicts with LibreChat. Set to random value if you want to set up RAG later |
 | `EMBEDDINGS_PROVIDER` | RAG API | openai | - |
 | `HOST` | LibreChat | 0.0.0.0 | - |
 | `PROXY` | LibreChat | - | Proxy URL used by all endpoints (leave empty if not needed) |

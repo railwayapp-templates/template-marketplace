@@ -32,7 +32,7 @@ OpenClaw (formerly ClawdBot/MoltBot) is a fully open-source (MIT), local-first p
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `PORT` | 8080 | Express server port (Railway sets automatically) |
-| `OPENCLAW_VERSION` | 2026.3.13 | Pin openclaw version. |
+| `OPENCLAW_VERSION` | 2026.3.23 | Pin openclaw version. |
 | `OPENCLAW_GATEWAY_TOKEN` | (secret) | Auth token for gateway proxy and device management |
 | `WRAPPER_ADMIN_PASSWORD` | (secret) | Password for /admin, and /api endpoints |
 

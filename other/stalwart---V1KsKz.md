@@ -74,7 +74,7 @@ Key features:
 
 | Service | Source | Type |
 |---------|--------|------|
-| stalwartlabs/stalwart | `stalwartlabs/stalwart:v0.14.1` | Database |
+| stalwartlabs/stalwart | `stalwartlabs/stalwart:v0.15.5` | Database |
 
 ## Configuration
 
