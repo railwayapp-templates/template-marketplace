@@ -82,8 +82,8 @@ Set Usage Limit to 100$ for Safety in Railway
 | Service | Source | Type |
 |---------|--------|------|
 | UnCodedDatabase | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
-| unCodedTradingBot | `aureumvictoria/uncoded-trading-bot:3` | Worker |
-| unCodedTelegramBot | `aureumvictoria/uncoded-telegram-bot:3` | Worker |
+| unCodedTradingBot | `aureumvictoria/uncoded-trading-bot:7` | Worker |
+| unCodedTelegramBot | `aureumvictoria/uncoded-telegram-bot:7` | Worker |
 | unCodedUiBot | `tbotteam/uncoded-js-frontend:final` | Web service |
 
 ## Environment variables
@@ -109,6 +109,7 @@ Set Usage Limit to 100$ for Safety in Railway
 | `DOCKER_ENV` | unCodedUiBot | true | - |
 | `APP_PASSWORD` | unCodedUiBot | (secret) | - |
 | `POSTGRES_USER` | unCodedUiBot | (secret) | - |
+| `VIEWER_PASSWORD` | unCodedUiBot | (secret) | VIEWER no Config |
 | `POSTGRES_PASSWORD` | unCodedUiBot | (secret) | - |
 
 ## Configuration
