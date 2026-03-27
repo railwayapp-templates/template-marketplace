@@ -20,7 +20,7 @@ WhatsApp Group Monitor runs as a single Node.js process that maintains a persist
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `LOG_LEVEL` | info | Logging verbosity: debug, info, warn, or error |
+| `LOG_LEVEL` | warn | Logging verbosity: debug, info, warn, or error |
 | `ADMIN_PASSWORD` | (secret) | Password for web access |
 | `ADMIN_USERNAME` | (secret) | Username for web access |
 

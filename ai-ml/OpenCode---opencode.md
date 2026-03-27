@@ -20,8 +20,12 @@ Hosting OpenCode on Railway gives you a persistent, always-on AI coding assistan
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
+| `LOG_LEVEL` | INFO | - |
 | `GITHUB_TOKEN` | (secret) | - |
+| `ENABLE_MONITOR` | true | - |
 | `CONTEXT7_API_KEY` | (secret) | - |
+| `OPENCLAW_API_KEY` | (secret) | for openclaw hooks |
+| `OPENCODE_VERSION` | 1.3.2 | - |
 | `PLANETSCALE_API_TOKEN` | (secret) | - |
 | `OPENCODE_SERVER_PASSWORD` | (secret) | default username: openwork |
 | `OPENCODE_SERVER_USERNAME` | (secret) | don't change this value |

@@ -82,8 +82,9 @@ Set Usage Limit to 100$ for Safety in Railway
 | Service | Source | Type |
 |---------|--------|------|
 | UnCodedDatabase | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
-| unCodedTradingBot | `aureumvictoria/uncoded-trading-bot:3` | Worker |
-| unCodedTelegramBot | `aureumvictoria/uncoded-telegram-bot:3` | Worker |
+| unCodedTradingBot | `aureumvictoria/uncoded-trading-bot:7` | Worker |
+| unCodedTelegramBot | `aureumvictoria/uncoded-telegram-bot:7` | Worker |
+| uncodedSignalBot | `aureumvictoria/uncoded-signal-bot:7` | Web service |
 | unCodedUiBot | `tbotteam/uncoded-js-frontend:final` | Web service |
 
 ## Environment variables
@@ -105,10 +106,14 @@ Set Usage Limit to 100$ for Safety in Railway
 | `POSTGRES_USER` | unCodedTelegramBot | (secret) | - |
 | `POSTGRES_PASSWORD` | unCodedTelegramBot | (secret) | - |
 | `TELEGRAM_BOT_TOKEN` | unCodedTelegramBot | (secret) | - |
+| `POSTGRES_USER` | uncodedSignalBot | (secret) | - |
+| `POSTGRES_PASSWORD` | uncodedSignalBot | (secret) | - |
+| `TRADINGVIEW_WEBHOOK_SECRET` | uncodedSignalBot | (secret) | - |
 | `PORT` | unCodedUiBot | 4000 | - |
 | `DOCKER_ENV` | unCodedUiBot | true | - |
 | `APP_PASSWORD` | unCodedUiBot | (secret) | - |
 | `POSTGRES_USER` | unCodedUiBot | (secret) | - |
+| `VIEWER_PASSWORD` | unCodedUiBot | (secret) | VIEWER no Config |
 | `POSTGRES_PASSWORD` | unCodedUiBot | (secret) | - |
 
 ## Configuration

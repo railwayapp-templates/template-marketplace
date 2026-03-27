@@ -1,6 +1,6 @@
-# Deploy loyal-nurturing on Railway
+# Deploy Spacebot on Railway
 
-Deploy and Host loyal-nurturing with Railway
+Deploy and Host Spacebot with Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/loyal-nurturing)
 

@@ -15,7 +15,8 @@ Breadbot runs as a single service on Railway, connecting to your exchange accoun
 | Service | Source | Type |
 |---------|--------|------|
 | breadbot-deploy | [getbreadbot/breadbot-deploy](https://github.com/getbreadbot/breadbot-deploy) | Worker |
+| breadbot-panel | [getbreadbot/breadbot-deploy](https://github.com/getbreadbot/breadbot-deploy) (root: panel) | Worker |
 
-**Category:** Other · **Languages:** Python, HTML, JavaScript, CSS, Shell, Dockerfile
+**Category:** Other · **Languages:** Python, JavaScript, HTML, CSS, Shell, Dockerfile, Procfile
 
 [View on Railway →](https://railway.com/deploy/breadbot)

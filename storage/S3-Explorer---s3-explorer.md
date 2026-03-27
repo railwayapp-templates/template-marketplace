@@ -22,11 +22,11 @@ Managing S3 buckets often requires command-line tools or provider-specific dashb
 
 Supported Providers:
 
-1. AWS S3
-2. Cloudflare R2
-3. MinIO
-4. DigitalOcean Spaces
-5. Any S3-compatible storage
+1. Railway Volume
+2. AWS S3
+3. Cloudflare R2
+4. MinIO
+5. DigitalOcean Spaces
 
 ### Screenshots
 
@@ -42,41 +42,7 @@ Supported Providers:
   <img alt="S3 Explorer Connection manager" src="https://raw.githubusercontent.com/subratomandal/s3explorer/main/apps/client/public/c.png">
 </p>
 
-### Architecture
 
-```mermaid
-flowchart TB
-    subgraph Client["Browser Client"]
-        UI["React + Tailwind UI"]
-        API["API Client"]
-    end
-
-    subgraph Server["Express Server"]
-        Auth["Auth Middleware"]
-        Routes["API Routes"]
-        Session["Session Store"]
-        Crypto["AES-256-GCM"]
-    end
-
-    subgraph Storage["Persistence Layer"]
-        SQLite[("SQLite DB")]
-        EncKey["Encryption Key"]
-    end
-
-    subgraph External["S3 Providers"]
-        S3["AWS S3 / R2 / MinIO"]
-    end
-
-    UI --&gt; API
-    API --&gt;|HTTPS + Cookies| Auth
-    Auth --&gt; Routes
-    Routes --&gt; Session
-    Routes --&gt; Crypto
-    Session --&gt; SQLite
-    Crypto --&gt; EncKey
-    Crypto --&gt; SQLite
-    Routes --&gt;|S3 SDK| S3
-```
 
 ### Security Features
 
@@ -179,6 +145,15 @@ Backend runs on :3000, frontend on :5173.
 5. `NODE_ENV` (optional): Environment (`production` / `development`)
 
 ### Provider Setup Guide
+
+#### Railway Buckets
+
+1. Create a Bucket in your Railway project canvas
+2. Go to the Bucket's Credentials tab
+3. Use values:
+   1. Endpoint: Your Bucket endpoint from the Credentials tab
+   2. Access Key: Your Bucket Access Key ID
+   3. Secret Key: Your Bucket Secret Access Key
 
 #### Cloudflare R2
 

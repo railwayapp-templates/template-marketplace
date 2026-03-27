@@ -8,6 +8,8 @@ A minimal Flask web application.
 
 Flask is a lightweight web application framework written in Python. It is based on the Werkzeug WSGI toolkit and the Jinja2 template engine, and is one of the most popular Python frameworks around. It does not require specific tools or libraries, but supports a wide range of extensions for building web applications.
 
+This template deploys a minimal Flask app served by Gunicorn — a production-grade WSGI server — giving you a clean, working foundation to build any Python web application on top of.
+
 Hosting Flask means running a Python web application through a WSGI server that handles HTTP requests and responses using the Werkzeug toolkit and Jinja2 templating. The framework provides minimal structure requiring configuration for production concerns like WSGI server setup, static file serving, database connections, and environment variable management. Development uses Flask's built-in server while production requires WSGI servers like Gunicorn or uWSGI with proper configuration. Railway simplifies Flask deployment by automatically detecting Python applications, managing dependencies through requirements.txt, configuring WSGI servers, and handling environment variables for different deployment stages.
 
 ## What gets deployed

@@ -153,7 +153,7 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 | `REST_PORT` | Kong | - | REST port for routing. |
 | `STUDIO_HOST` | Kong | - | Studio host for routing. |
 | `STUDIO_PORT` | Kong | - | Studio port for routing. |
-| `KONG_PLUGINS` | Kong | request-transformer,cors,key-auth,acl,basic-auth,request-termination,ip-restriction | Plugins that Kong will load and make available at runtime. |
+| `KONG_PLUGINS` | Kong | request-transformer,cors,key-auth,acl,basic-auth,request-termination,ip-restriction,post-function | Plugins that Kong will load and make available at runtime. |
 | `STORAGE_HOST` | Kong | - | Storage host for routing. |
 | `STORAGE_PORT` | Kong | - | Storage port for routing. |
 | `KONG_DATABASE` | Kong | off | Setting to "off" enables DB-less mode, loading config from kong.yml instead of a database. Ideal for containerized, version-controlled deployments. |
@@ -171,7 +171,7 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 | `SUPABASE_SERVICE_KEY` | Kong | - | Project service role key. |
 | `KONG_PROXY_ACCESS_LOG` | Kong | /dev/stdout combined | - |
 | `KONG_DNS_NOT_FOUND_TTL` | Kong | 1 | - |
-| `KONG_DECLARATIVE_CONFIG` | Kong | /home/kong/kong.yml | Local filepath to kong.yml |
+| `KONG_DECLARATIVE_CONFIG` | Kong | /usr/local/kong/kong.yml | Local filepath to kong.yml |
 | `KONG_NGINX_WORKER_PROCESSES` | Kong | 2 | Sets the number of Nginx worker processes Kong spawns to handle incoming network connections and process requests. Setting to "auto" will match the number of CPU cores, for max cuncurrency and higher memory overhead. |
 | `KONG_NGINX_PROXY_PROXY_BUFFERS` | Kong | 64 160k | Number and size of in-memory buffers to handle responses from upstream services. If the upstream response (headers + initial body) fits within this buffer size, it’s handled entirely in memory — faster and more efficient. |
 | `PORT` | imgproxy | 5001 | All PG On Rails services declare PORT to standardize building urls within the Railway private network. |
@@ -294,6 +294,6 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 - **TCP Proxies:** 9000
 - **Volume:** `/data`
 
-**Category:** Starters · **Languages:** TypeScript, PLpgSQL, Dockerfile, CSS, Shell, HTML, JavaScript
+**Category:** Starters · **Languages:** TypeScript, Shell, PLpgSQL, Dockerfile, CSS, HTML, JavaScript
 
 [View on Railway →](https://railway.com/deploy/complete-supabase-nextjs-frontend)

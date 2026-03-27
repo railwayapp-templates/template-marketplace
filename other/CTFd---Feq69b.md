@@ -20,9 +20,9 @@ An open-source platform to run capture-the-flag events.
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `PORT` | 8000 |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 8000 | Default port |
 
 ## Configuration
 
