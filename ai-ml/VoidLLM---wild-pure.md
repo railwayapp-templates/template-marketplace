@@ -1,4 +1,4 @@
-# Deploy wild-pure on Railway
+# Deploy VoidLLM on Railway
 
 Lightweight, privacy-first LLM proxy
 
