@@ -1,6 +1,6 @@
 # Deploy Flipt Local on Railway
 
-Flipt v2 with local storage, persistent volume, and correct permissions.
+Flipt v2 with local, persistent storage and proper file permissions.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flipt-local)
 

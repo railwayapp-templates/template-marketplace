@@ -6,15 +6,9 @@ Drag-and-drop interface for building AI-powered agents and workflows.
 
 ## About
 
-##Template
-This template deploys a drag-and-drop web interface for [LangChain](https://python.langchain.com/en/latest/index.html), an open-source framework for integrating applications with large language models (LLMs).
+Langflow is an open-source visual platform for building, testing, and deploying AI workflows and agents. It provides a drag-and-drop canvas for connecting LLMs, prompts, memory, tools, vector databases, and APIs into production-ready pipelines — no coding required to prototype, coding-friendly when you need it.
 
-##Overview
-[LangFlow](https://github.com/logspace-ai/langflow) is a GUI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows with drag-and-drop components and a chat box. Drag sidebar components onto the canvas and connect them together to create your pipeline. LangFlow provides a range of LangChain components to choose from, including LLMs, prompt serializers, agents, and chains.
-
-##Learn More
-* [Prototype LangChain Flows Visually with LangFlow](https://alphasec.io/prototype-langchain-flows-visually-with-langflow/)
-* [langflow](https://github.com/logspace-ai/langflow) GitHub repo
+Langflow is a Python application served via Docker. This Railway template deploys the official Docker image, alongside a Railway-provisioned PostgreSQL service for production-grade storage. Langflow is available on a Railway-provided HTTPS domain immediately after deployment. On first launch, the setup wizard creates an initial admin account.
 
 ## What gets deployed
 

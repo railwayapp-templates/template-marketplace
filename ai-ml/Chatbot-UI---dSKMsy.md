@@ -6,23 +6,9 @@ An open-source ChatGPT UI alternative.
 
 ## About
 
-##Overview
-[Chatbot UI](https://github.com/mckaywrigley/chatbot-ui) is an open-source ChatGPT UI alternative built using Next.js, TypeScript, and Tailwind CSS. Chatbot UI can be deployed locally, or hosted on cloud and web app hosting platforms like AWS, Google Cloud, Railway, Vercel, and more.
+Chatbot UI is an open-source AI chat interface built with Next.js, TypeScript, and Tailwind CSS. It supports multiple AI model providers — including OpenAI, Anthropic, Google, and Ollama — and offers a polished chat experience with folders, prompt templates, conversation history, and more.
 
-Note: Chatbot UI now requires a Supabase backend. Please create an account and get the details for the required variables first.
-* `NEXT_PUBLIC_SUPABASE_URL`
-* `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-* `SUPABASE_SERVICE_ROLE_KEY`
-
-##Highlights
-Since the launch, Chatbot UI has seen several enhancements:
-* Ability to create folders, prompt templates, and customise system prompt
-* Ability to name conversations, highlight code syntax, and support Markdown
-* Ability to import/export chats, stop message generation, and search chats
-* Google Search integration and more (coming soon...)
-
-##Learn More
-* [Open-Source ChatGPT UI Alternative with Chatbot UI](https://alphasec.io/open-source-chatgpt-ui-alternative-with-chatbot-ui/)
+Chatbot UI v2.0 is a Next.js application that requires a [Supabase](https://supabase.com/) project as its backend for authentication, conversation storage, and user settings. You must create a Supabase project and obtain its credentials before deploying — Railway provides the hosting for the Next.js frontend, while Supabase handles the database and auth layer. Once the three required Supabase environment variables are set, Railway builds and deploys the app automatically from the GitHub source.
 
 ## What gets deployed
 
