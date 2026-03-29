@@ -1,8 +1,8 @@
-# Deploy Postbase on Railway
+# Deploy Postbase (v0.01) on Railway
 
 The open-source alternative to Firebase and Supabase
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postbase)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postbase-v001)
 
 ## About
 
@@ -21,15 +21,10 @@ Postbase ships as a single Docker container bundling PostgreSQL 18 (with pg_cron
 | Variable | Default |
 | --------- | ------- |
 | `AUTH_SECRET` | (secret) |
-| `POSTGRES_DB` | N76ajJPP69zZGboyZvVn7IxuOa280R |
-| `NEXTAUTH_URL` | update_later |
+| `POSTGRES_DB` | postbase |
 | `POSTGRES_USER` | (secret) |
-| `MINIO_ENDPOINT` | http://localhost:9000 |
-| `MINIO_ROOT_USER` | (secret) |
 | `NEXTAUTH_SECRET` | (secret) |
-| `MINIO_SECRET_KEY` | (secret) |
 | `POSTGRES_PASSWORD` | (secret) |
-| `MINIO_ROOT_PASSWORD` | (secret) |
 | `POSTBASE_JWT_SECRET` | (secret) |
 
 ## Configuration
@@ -39,4 +34,4 @@ Postbase ships as a single Docker container bundling PostgreSQL 18 (with pg_cron
 
 **Category:** Other · **Languages:** TypeScript, Shell, Dockerfile, JavaScript, CSS
 
-[View on Railway →](https://railway.com/deploy/postbase)
+[View on Railway →](https://railway.com/deploy/postbase-v001)

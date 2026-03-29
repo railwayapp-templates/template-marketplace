@@ -25,9 +25,11 @@ Your website's embed snippet cannot talk directly to Anthropic or OpenAI — API
 | `ANTHROPIC_API_KEY` | (secret) | Required when DEFAULT_LLM_PROVIDER=anthropic |
 | `DEFAULT_LLM_MODEL` | - | Leave blank to use the built-in default for the chosen provider |
 | `LEADS_WEBHOOK_URL` | - | Your backend endpoint that receives lead data via POST when a visitor qualifies or clicks the CTA |
-| `WIDGET_TOKEN_SECRET` | (secret) | Pre-generated secret — copy from your download page	 |
+| `WIDGET_TOKEN_ISSUER` | (secret) | - |
+| `WIDGET_TOKEN_SECRET` | (secret) | Pre-generated secret — copy from your download page |
 | `DEFAULT_LLM_PROVIDER` | anthropic | Change to openai or gemini if you don't have an Anthropic key |
 | `LEADS_WEBHOOK_SECRET` | (secret) | If set, every webhook request includes X-Matchwiser-Signature: sha256=<hmac> so you can verify authenticity |
+| `WIDGET_TOKEN_AUDIENCE` | (secret) | - |
 
 **Category:** AI/ML
 

@@ -1,26 +1,18 @@
 # Deploy neo4j on Railway
 
-Creates a Neo4j graph database + volume (upd 5/9/25 works with Metal now!).
+Creates a Neo4j graph database and volume for persistent storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ZVljtU)
 
 ## About
 
-(5/9/24 updated to work with Metal!)
-
-This template starts an instance of Neo4j with attached storage. This is a very basic configuration that allows client (such as Neo4j Desktop) to connect via Bolt to the TCP proxy. 
-
-The NEO4J_AUTH variable configures the initial password for the default user "neo4j".
-
-Neo4j tends to overestimate the memory requirements when deployed via Docker, so he memory size variables are required. They can be tweaked depending on the size of your application.
-
-WARNING: This cannot be run on a Trial account because the VMs are too small to support running Neo4j.
+Hosting Neo4j GraphDB involves setting up a graph database server with proper memory configuration, authentication, and network access. This template provides a pre-configured Neo4j instance with bulk data import capabilities, configurable memory settings, and automatic TCP address generation for easy connection from your applications.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| neo4j | `neo4j:5.26-community-bullseye` | Database |
+| Neo4j Graph Database (Metal-Ready) | `neo4j:5.26-community-bullseye` | Database |
 
 ## Environment variables
 

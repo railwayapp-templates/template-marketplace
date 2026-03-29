@@ -6,11 +6,9 @@ An open-source website analytics tool.
 
 ## About
 
-##Template
-This template deploys [Fathom Lite](https://github.com/usefathom/fathom), an open-source version of the [Fathom Analytics](https://usefathom.com/) website analytics service.
+Fathom Lite is an open-source, privacy-focused website analytics tool built with Go and Preact. It tracks page views, referrers, bounce rates, and average session duration — without collecting any personally identifiable information (PII) or setting tracking cookies.
 
-##Overview
-Fathom Analytics is a privacy-focused website analytics service that allows website owners to track visitor statistics and gain insights into website performance, without collecting any personally identifiable information (PII) from visitors. Fathom Lite, is the open-source version of Fathom Analytics. It can be self-hosted, but comes without SLAs and additional features that come with the paid version.
+Fathom Lite is a single Go binary served via Docker. By default it uses a SQLite database stored in the working directory, making it a zero-dependency deployment — no external database required. This Railway template deploys the official Docker image with SQLite, giving you a lightweight analytics dashboard reachable on a Railway-provided HTTPS domain immediately after deployment. On first launch, add a user account via the Railway shell, then create a site in the dashboard and paste the provided tracking snippet into your website.
 
 ## What gets deployed
 

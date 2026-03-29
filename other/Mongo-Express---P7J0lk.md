@@ -6,14 +6,9 @@ A lightweight web-based admin tool for MongoDB databases.
 
 ## About
 
-##Template
-This template deploys [Mongo Express](https://github.com/mongo-express/mongo-express), a lightweight web-based administrative tool for MongoDB databases. It also creates a sample MongoDB database instance to test Mongo Express capabilities. Just wait 1-2 minutes after deployment for the web interface to be ready.
+Mongo Express is an open-source, web-based administrative interface for MongoDB built with Node.js, Express, and Bootstrap. It lets you manage databases, collections, and documents through a clean browser UI — no MongoDB client installation required.
 
-##Overview
-Mongo Express is a web-based administrative interface for MongoDB that allows you to easily manage your databases. It provides a simple, yet powerful way to view, add, edit, and delete data in your MongoDB databases.
-
-##Learn More
-* [Mongo Express: MongoDB Management Made Easy](https://alphasec.io/mongo-express-mongodb-management-made-easy/)
+Hosting Mongo Express gives you a persistent, private web UI for managing any MongoDB instance — whether that's a Railway-provisioned MongoDB database or an external connection string. This template deploys the official Mongo Express Docker image alongside a sample MongoDB instance so you can test the interface immediately. The web UI is protected by a username and password configured at deploy time. Allow 1–2 minutes after deployment for both services to initialise before accessing the interface.
 
 ## What gets deployed
 
@@ -35,7 +30,11 @@ Mongo Express is a web-based administrative interface for MongoDB that allows yo
 | `MONGO_INITDB_ROOT_PASSWORD` | MongoDB | (secret) | Root user password, set during initialization. |
 | `MONGO_INITDB_ROOT_USERNAME` | MongoDB | (secret) | User created during initialization, given the root role. |
 | `PORT` | mongo-express | 8081 | mongo-express port |
-| `MONGOPASSWORD` | mongo-express | (secret) | - |
+| `MONGOHOST` | mongo-express | - | mongo host |
+| `MONGOPORT` | mongo-express | - | mongo port |
+| `MONGOUSER` | mongo-express | - | mongo user |
+| `MONGO_URL` | mongo-express | - | mongo url |
+| `MONGOPASSWORD` | mongo-express | (secret) | mongo password |
 | `ME_CONFIG_MONGODB_URL` | mongo-express | - | MongoDB connection URL |
 | `ME_CONFIG_BASICAUTH_PASSWORD` | mongo-express | (secret) | mongo-express web password |
 | `ME_CONFIG_BASICAUTH_USERNAME` | mongo-express | (secret) | mongo-express web username |

@@ -63,17 +63,19 @@ calm-fair is a Slack bot that tracks GitHub pull request activity in real time. 
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
+| `TEAMMATES` | - | Comma-separated name-to-GitHub-username mappings (e.g. Maurice:m_moss,Roy:rt123) so the bot understands real names when answering questions |
 | `GITHUB_TOKEN` | (secret) | Personal access token (repo, read:org) |
 | `EMOJI_APPROVED` | white_check_mark | Slack emoji name (without colons) reacted to the PR message when approved |
 | `MENTION_PREFIX` | <!here> | Text prepended to every PR notification. Supports Slack mention syntax. |
 | `SLACK_BOT_TOKEN` | (secret) | Bot token(xoxb-...) |
 | `GITHUB_REPO_NAME` | - | Repository name |
 | `SLACK_CHANNEL_ID` | - | Channel to post PR messages in |
+| `ANTHROPIC_API_KEY` | (secret) | Anthropic API key to power natural language understanding for @mention commands |
 | `GITHUB_REPO_OWNER` | - | GitHub org or username |
 | `SLACK_SIGNING_SECRET` | (secret) | From Slack app Basic Information |
 | `GITHUB_WEBHOOK_SECRET` | (secret) | Secret set on the GitHub webhook |
 | `EMOJI_CHANGES_REQUESTED` | rabbit | Slack emoji name reacted when a reviewer requests changes. |
 
-**Category:** Other · **Languages:** JavaScript
+**Category:** Bots · **Languages:** JavaScript
 
 [View on Railway →](https://railway.com/deploy/calm-fair)

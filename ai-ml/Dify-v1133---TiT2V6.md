@@ -1,4 +1,4 @@
-# Deploy Dify v1.13.2 on Railway
+# Deploy Dify v1.13.3 on Railway
 
 Open-source AI platform with BaaS & LLMOps for all users.
 
@@ -77,14 +77,14 @@ With Dify, you can skip the complexity and focus on what matters most - creating
 |---------|--------|------|
 | Weaviate | `semitechnologies/weaviate:1.32.19` | Database |
 | Storage provision | `minio/mc:RELEASE.2025-02-21T16-00-46Z` | Database |
-| Sandbox | `langgenius/dify-sandbox:0.2.12` | Database |
-| Worker | `langgenius/dify-api:1.13.2` | Worker |
-| Api | `langgenius/dify-api:1.13.2` | Web service |
+| Sandbox | `langgenius/dify-sandbox:0.2.14` | Database |
+| Worker | `langgenius/dify-api:1.13.3` | Worker |
+| Api | `langgenius/dify-api:1.13.3` | Web service |
 | Storage | `minio/minio:RELEASE.2025-02-28T09-55-16Z` | Database |
 | plugin-daemon | `langgenius/dify-plugin-daemon:0.5.4-local` | Database |
 | Postgres | `postgres:15-alpine` | Database |
 | Redis | `redis:6-alpine` | Database |
-| Web | `langgenius/dify-web:1.13.2` | Web service |
+| Web | `langgenius/dify-web:1.13.3` | Web service |
 
 ## Environment variables
 
