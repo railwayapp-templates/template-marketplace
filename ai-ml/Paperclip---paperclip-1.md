@@ -6,9 +6,9 @@ One-click persistent Paperclip on Railway with built-in setup flow.
 
 ## About
 
-Paperclip is an open-source orchestration platform for autonomous AI companies. You define a mission, assign AI roles (CEO, CTO, engineers, marketers), and run operations through goals, tickets, heartbeats, governance controls, and budgets. It is self-hosted, MIT licensed, and designed for operating one or many AI-driven organizations from a single control plane.
+Paperclip is an open-source orchestration platform for autonomous AI companies. It lets you define a mission, assign AI roles like CEO, CTO, engineers, and marketers, and run operations through goals, tickets, heartbeats, governance controls, and budgets. It is self-hosted, MIT licensed, and built to manage one or many AI-driven organizations from a single control plane.
 
-Hosting Paperclip means running its control plane, persistence layer, and agent integration points in a stable production environment. In this Railway template, a setup wrapper handles onboarding, bootstrap invite flow, and secure proxying to the internal Paperclip service. You deploy with Docker, attach a Postgres database, configure auth/public URLs, and add provider API keys for the local adapters you use (OpenAI, Anthropic, Gemini, etc.). The deployment supports multi-company operation, governance workflows, and persistent state for long-running agent organizations. Health and setup endpoints are included so operators can validate readiness and onboarding status quickly after deploys or restarts.
+Hosting Paperclip involves running its control plane, persistence layer, and agent integration points in a stable production environment. In this Railway template, a setup wrapper manages onboarding, bootstrap invite flow, and secure proxying to the internal Paperclip service. Deployment is handled with Docker, alongside a connected PostgreSQL database and configuration for auth and public URLs. You can also add API keys for the local model providers you want to use, such as OpenAI, Anthropic, or Gemini. The setup supports multi-company operation, governance workflows, and persistent state, with health and setup endpoints available to validate readiness and onboarding after deploys or restarts.
 
 ## What gets deployed
 

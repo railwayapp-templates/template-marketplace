@@ -6,11 +6,9 @@ An open-source platform to run capture-the-flag events.
 
 ## About
 
-##Overview
-[CTFd](https://ctfd.io/) is an open-source platform that can be used to run CTF events for free. It offers a user-friendly web interface for both administrators and players, and has a modular system allowing for integrations with other external services. CTFd is very popular among security enthusiasts and has been used to host some of the largest CTF events in the world.
+CTFd is an open-source platform for running Capture The Flag (CTF) events. It provides a user-friendly web interface for administrators to create challenges and manage participants, and for players to submit flags and track their standings on a live scoreboard. It has been used to host some of the largest CTF events in the world.
 
-##Learn More
-* [Run Capture-The-Flag Events with CTFd](https://alphasec.io/run-capture-the-flag-events-with-ctfd/)
+This Railway template deploys the official CTFd Docker image as a single service, using SQLite for storage — no external database or cache required. CTFd is configured behind Railway's proxy and is reachable on a Railway-provided HTTPS domain immediately after deployment. The initial setup wizard runs on first launch to configure the event name, mode, and admin credentials. For larger or longer-running events, upgrading to an external MySQL and Redis backend is recommended.
 
 ## What gets deployed
 

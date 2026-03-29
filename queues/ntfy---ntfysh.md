@@ -1,6 +1,6 @@
 # Deploy ntfy on Railway
 
-An open-source, self-hostable push notification service
+An open-source, self-hostable push notification service.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ntfysh)
 
