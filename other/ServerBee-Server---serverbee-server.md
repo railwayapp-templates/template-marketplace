@@ -20,7 +20,7 @@ instances, point them to the Railway URL with a discovery key, and start monitor
 
 | Service | Source | Type |
 |---------|--------|------|
-| ServerBee | [ZingerLittleBee/ServerBee](https://github.com/ZingerLittleBee/ServerBee) (root: /deploy/railway) | Worker |
+| ServerBee | [ZingerLittleBee/ServerBee](https://github.com/ZingerLittleBee/ServerBee) (root: /deploy/railway) | Database |
 
 ## Environment variables
 
@@ -41,6 +41,10 @@ instances, point them to the Railway URL with a discovery key, and start monitor
 | `SERVERBEE_RETENTION__RECORDS_HOURLY_DAYS` | 90 | 小时聚合保留天数 |
 | `SERVERBEE_RETENTION__SERVICE_MONITOR_DAYS` | 30 | 服务监控保留天数 |
 
-**Category:** Other · **Languages:** Rust, TypeScript, MDX, CSS, Shell, Dockerfile, Makefile, HTML, JavaScript
+## Configuration
+
+- **Volume:** `/data`
+
+**Category:** Other · **Languages:** Rust, TypeScript, MDX, Shell, Swift, CSS, Dockerfile, Makefile, HTML, JavaScript
 
 [View on Railway →](https://railway.com/deploy/serverbee-server)
