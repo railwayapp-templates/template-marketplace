@@ -21,13 +21,16 @@ Hosting WhatsApp AI Assistant Bot on Railway allows you to deploy a production-r
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `msjCierre` | Msj de cierre y envio de reporte. 😊 - TEST | Msj enviado al finalizar el hilo de conversación |
+| `META_APP_ID` | 1493670789148486 | - |
 | `ASSISTANT_ID` | asst_++++++++++ | ID de asistente creado en Platform OpenAI |
 | `SUPABASE_KEY` | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlneWljb3pqZXd4YnlpeHRwamxvIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2ODIzMTEwNSwiZXhwIjoyMDgzODA3MTA1fQ.p6GAb9R5agjjxnL3F_zMkL2CHGMTUK77TrKHn7qeq0o | ApiKey Base de Datos |
 | `SUPABASE_URL` | https://ygyicozjewxbyixtpjlo.supabase.co | URL Base de Datos |
 | `timeOutCierre` | 7 | Tiempo de espera entre el ultimo msj del usuario y el cierre de la comunicación (tambien es el tiempo del primer msj de reconexión) |
 | `ASSISTANT_NAME` | Asistente sin Nombre Definido  | Nombre Visible del Asistente en WebChat |
 | `DOCX_ID_UPDATE` | default | ID´s del Documento Drive subidos al Asistente (separados por coma si son varios) |
+| `META_CONFIG_ID` | 770821995864139 | - |
 | `OPENAI_API_KEY` | (secret) | APIKEY de asistente de Platform OpenAI |
+| `META_APP_SECRET` | (secret) | - |
 | `SHEET_ID_UPDATE` | default | ID´s del Sheets Drive subidos al Asistente como Json (separados por coma si son varios) |
 | `VECTOR_STORE_ID` | vs_++++++++++ | ID del Vector Store OpenAI |
 | `msjSeguimiento1` | MSJ 1 de Seguimiento.\n(Este es un mensaje de seguimiento 😉) | Personaliza el primer msj de seguimiento |

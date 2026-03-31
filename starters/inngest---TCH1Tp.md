@@ -13,8 +13,8 @@ Inngest is an event-driven durable execution platform that allows you to run fas
 | Service | Source | Type |
 |---------|--------|------|
 | inngest/inngest | `inngest/inngest` | Web service |
-| Redis | `bitnami/redis:7.2.5` | Database |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
+| Redis | `redis:8.2.1` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
@@ -22,15 +22,12 @@ Inngest is an event-driven durable execution platform that allows you to run fas
 | --------- | ------- | ------- | ----------- |
 | `INNGEST_DEV` | inngest/inngest | 1 | - |
 | `INNGEST_PORT` | inngest/inngest | 8288 | - |
-| `REDISHOST` | Redis | - | Railway Private Domain Name. |
-| `REDISPORT` | Redis | 6379 | Port to connect to Redis. |
-| `REDISUSER` | Redis | default | Default user to connect to Redis. |
-| `REDIS_URL` | Redis | - | URL to connect to Redis over the private network. |
-| `REDISPASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PUBLIC_URL` | Redis | - | Public URL to connect to Redis, needed for the Data panel. |
-| `REDIS_RDB_POLICY` | Redis | 3600#1 300#100 60#10000 | Set a RDB snapshot policy. |
-| `REDIS_AOF_ENABLED` | Redis | no | Disable writing to AOF file. |
+| `REDISPORT` | Redis | 6379 | - |
+| `REDISUSER` | Redis | default | - |
+| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
+| `REDISPASSWORD` | Redis | (secret) | - |
+| `REDIS_PASSWORD` | Redis | (secret) | - |
+| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
@@ -41,8 +38,9 @@ Inngest is an event-driven durable execution platform that allows you to run fas
 
 - **Start command:** `/bin/sh -c "inngest start --postgres-uri $INNGEST_POSTGRES_URI"`
 - **Networking:** Public domain with automatic HTTPS
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
-- **Volume:** `/bitnami`
+- **Volume:** `/data`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
