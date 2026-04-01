@@ -14,7 +14,7 @@ Your website's embed snippet cannot talk directly to Anthropic or OpenAI — API
 
 | Service | Source | Type |
 |---------|--------|------|
-| raonicaselli/propwidget-proxy:latest | `raonicaselli/propwidget-proxy:latest` | Worker |
+| raonicaselli/propwidget-proxy:latest | `raonicaselli/matchwiser-proxy` | Worker |
 
 ## Environment variables
 

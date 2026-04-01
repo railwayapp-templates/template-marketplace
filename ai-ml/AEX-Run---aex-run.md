@@ -71,6 +71,7 @@ AEX Run is an AI-First, self-hosted, single-tenant ERP. Users interact entirely 
 | `DATABASE_URL` | api | - | PostgreSQL connection string |
 | `ENCRYPTION_KEY` | api | - | 32-char key for encrypting plugin credentials (AES-256) |
 | `BETTER_AUTH_URL` | api | - | Public URL of the API (used for auth callbacks) |
+| `ANTHROPIC_API_KEY` | api | (secret) | Anthropic SDK API Key |
 | `BETTER_AUTH_SECRET` | api | (secret) | Secret key for session signing and JWT tokens |
 
 ## Configuration
