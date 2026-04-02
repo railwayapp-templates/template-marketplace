@@ -18,9 +18,7 @@ jobs:
       - name: Generate catalog
         run: bun run scripts/generate-template-catalog.ts
 
-      - name: Create PR and auto-merge
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push changes
         run: |
           git config user.name "railway-bot"
           git config user.email "bot@railway.com"
@@ -29,9 +27,5 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          BRANCH="catalog-update-$(date -u +%Y-%m-%d)"
-          git checkout -b "$BRANCH"
           git commit -m "Update template catalog $(date -u +%Y-%m-%d)"
-          git push -u origin "$BRANCH"
-          PR_URL=$(gh pr create --title "Update template catalog $(date -u +%Y-%m-%d)" --body "Automated daily sync." --base main)
-          gh pr merge "$PR_URL" --squash --auto
+          git push origin main
