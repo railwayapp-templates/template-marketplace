@@ -1,6 +1,6 @@
 # Deploy JupyterLab | Use Open Source Models in Notebooks Directly on Railway
 
-[Mar '26] Host any LLM Model using Ollama & Use in Jupyter Notebooks
+[Apr '26] Host any LLM Model using Ollama & Use in Jupyter Notebooks
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ollama-jupyter-lab-or-run-local-llms-fro)
 

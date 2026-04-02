@@ -1,6 +1,6 @@
 # Deploy OpenClaw (Prev Clawdbot, Moltbot) | Self Host OpenClaw on Railway on Railway
 
-[Mar '26] 1-Click Deploy AI Agent Securely (TUI Support, Manage Devices)
+[Apr '26] 1-Click Deploy AI Agent Securely (TUI Support, Manage Devices)
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-prev-clawdbot-moltbot-self-host)
 
@@ -23,7 +23,7 @@ Deploying OpenClaw on Railway traditionally requires interactive terminal access
 | `PORT` | 8080 | Port for wrapper server. |
 | `ENABLE_WEB_TUI` | false | Gives an option Terminal UI |
 | `SETUP_PASSWORD` | (secret) | Password to access /setup wizard |
-| `OPENCLAW_VERSION` | 2026.3.31 | Pin openclaw version. Use 'latest' to always take the most recent version. |
+| `OPENCLAW_VERSION` | 2026.4.1 | Pin openclaw version. Use 'latest' to always take the most recent version. |
 | `OPENCLAW_STATE_DIR` | /data/.openclaw | Where config and credentials are stored. |
 | `INTERNAL_GATEWAY_HOST` | 127.0.0.1 | Internal host for gateway |
 | `INTERNAL_GATEWAY_PORT` | 18789 | Internal port for OpenClaw gateway. |

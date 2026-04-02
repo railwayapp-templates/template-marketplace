@@ -1,6 +1,6 @@
 # Deploy Nanobot | OpenClaw Alternative (Open Source ) on Railway
 
-[Mar '26] Self Host an AI Agent with API and Chat Integation (Telegram/WA)
+[Apr '26] Self Host an AI Agent with API and Chat Integation (Telegram/WA)
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nanobot-openclaw-alternative-open-source)
 

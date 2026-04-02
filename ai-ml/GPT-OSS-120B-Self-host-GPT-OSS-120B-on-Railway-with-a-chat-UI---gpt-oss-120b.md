@@ -1,6 +1,6 @@
 # Deploy GPT-OSS 120B | Self-host GPT OSS 120B on Railway with a chat UI on Railway
 
-[Mar '26] Ensure To Have >64GB Memory Available to Host Successfully
+[Apr '26] Ensure To Have >64GB Memory Available to Host Successfully
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gpt-oss-120b)
 

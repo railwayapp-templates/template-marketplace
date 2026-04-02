@@ -16,7 +16,7 @@ Deploying core includes configuring your AI providers (OpenAI, Anthropic, etc.).
 |---------|--------|------|
 | Postgres | `pgvector/pgvector:pg18-trixie` | Database |
 | Redis | `redis:8.2.1` | Database |
-| core | `redplanethq/core:0.5.9` | Web service |
+| core | `redplanethq/core:0.6.0` | Web service |
 | neo4j | `redplanethq/neo4j:0.1.0` | Database |
 
 ## Environment variables
@@ -36,6 +36,7 @@ Deploying core includes configuring your AI providers (OpenAI, Anthropic, etc.).
 | `NEO4J_URI` | core | bolt://neo4j:7687 | - |
 | `NEO4J_AUTH` | core | neo4j/27192e6432564f4788d55c15131bd5ac | - |
 | `LOGIN_ORIGIN` | core | (secret) | - |
+| `AZURE_API_KEY` | core | (secret) | - |
 | `POSTGRES_USER` | core | (secret) | - |
 | `ENCRYPTION_KEY` | core | 2818143646516f6fffd707b36f334bbb | - |
 | `GRAPH_PROVIDER` | core | neo4j | - |
@@ -52,6 +53,7 @@ Deploying core includes configuring your AI providers (OpenAI, Anthropic, etc.).
 | `ENABLE_EMAIL_LOGIN` | core | (secret) | - |
 | `REDIS_TLS_DISABLED` | core | true | - |
 | `EMBEDDING_MODEL_SIZE` | core | 1536 | - |
+| `GOOGLE_GENERATIVE_AI_API_KEY` | core | (secret) | - |
 | `NEO4J_AUTH` | neo4j | neo4j/27192e6432564f4788d55c15131bd5ac | - |
 | `NEO4J_apoc_export_file_enabled` | neo4j | true | - |
 | `NEO4J_apoc_import_file_enabled` | neo4j | true | - |

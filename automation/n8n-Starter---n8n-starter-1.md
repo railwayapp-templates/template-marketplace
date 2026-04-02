@@ -1,6 +1,6 @@
 # Deploy n8n Starter on Railway
 
-[Mar '26] The cheapest n8n instance. Period.
+[Apr '26] The cheapest n8n instance. Period.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-starter-1)
 

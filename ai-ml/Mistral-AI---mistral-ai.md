@@ -1,6 +1,6 @@
 # Deploy Mistral AI on Railway
 
-[Mar '26] Self-host Mistral models locally, using Ollama+OpenWebUI.
+[Apr '26] Self-host Mistral models locally, using Ollama+OpenWebUI.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mistral-ai)
 
