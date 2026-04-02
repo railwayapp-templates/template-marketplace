@@ -33,7 +33,7 @@ OpenClaw is a fully open-source (MIT), local-first personal AI agent. It runs as
 | --------- | ------- | ------- | ----------- |
 | `PORT` | OpenClaw 🦞  | 8080 | HTTP server listening port |
 | `OLLAMA_BASE_URL` | OpenClaw 🦞  | - | Ollama internal service endpoint |
-| `OPENCLAW_VERSION` | OpenClaw 🦞  | 2026.3.31 | OpenClaw service version |
+| `OPENCLAW_VERSION` | OpenClaw 🦞  | 2026.4.1 | OpenClaw service version |
 | `OPENCLAW_GATEWAY_TOKEN` | OpenClaw 🦞  | (secret) | Gateway authentication token |
 | `WRAPPER_ADMIN_PASSWORD` | OpenClaw 🦞  | (secret) | Admin panel access password |
 | `OLLAMA_HOST` | Ollama | :: | Bind address for Ollama server |

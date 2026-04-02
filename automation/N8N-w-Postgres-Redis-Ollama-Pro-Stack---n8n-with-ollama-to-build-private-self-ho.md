@@ -1,6 +1,6 @@
 # Deploy N8N [w/ Postgres + Redis + Ollama] | Pro Stack on Railway
 
-[Mar '26] Build Automation Workflows Using Self Hosted LLM Models
+[Apr '26] Build Automation Workflows Using Self Hosted LLM Models
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-with-ollama-to-build-private-self-ho)
 

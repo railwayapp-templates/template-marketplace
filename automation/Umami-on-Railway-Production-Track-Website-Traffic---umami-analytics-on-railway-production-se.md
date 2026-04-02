@@ -1,6 +1,6 @@
 # Deploy Umami on Railway (Production) | Track Website Traffic on Railway
 
-[Mar '26] Open-Source Google Analytics Alternative
+[Apr '26] Open-Source Google Analytics Alternative
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/umami-analytics-on-railway-production-se)
 

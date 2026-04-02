@@ -52,11 +52,13 @@ Your app will then run, but you'll need to create a mirror of the repo in your o
 | `PLAUSIBLE_BASE_URL` | Server | https://plausible.io/api | - |
 | `POLAR_SANDBOX_MODE` | Server | true | For production, set this to false, make sure to generate production organization and products. |
 | `AWS_S3_FILES_BUCKET` | Server | your-bucket-name | - |
+| `LEMONSQUEEZY_API_KEY` | Server | (secret) | - |
 | `POLAR_WEBHOOK_SECRET` | Server | (secret) | - |
 | `AWS_S3_IAM_ACCESS_KEY` | Server | ACK... | - |
 | `AWS_S3_IAM_SECRET_KEY` | Server | (secret) | - |
+| `LEMONSQUEEZY_STORE_ID` | Server | dummy-value | - |
 | `STRIPE_WEBHOOK_SECRET` | Server | (secret) | - |
-| `STRIPE_CUSTOMER_PORTAL_URL` | Server | https://billing.stripe.com/... | - |
+| `LEMONSQUEEZY_WEBHOOK_SECRET` | Server | (secret) | - |
 | `PAYMENTS_CREDITS_10_PLAN_ID` | Server | 012345 | - |
 | `GOOGLE_ANALYTICS_PRIVATE_KEY` | Server | LS02... | - |
 | `GOOGLE_ANALYTICS_PROPERTY_ID` | Server | dummy-value | - |
@@ -72,6 +74,6 @@ Your app will then run, but you'll need to create a mirror of the repo in your o
 - **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Verified:** Yes · **Languages:** TypeScript, JavaScript, Astro, CSS
+**Category:** Starters · **Verified:** Yes · **Languages:** TypeScript, CSS, Astro, JavaScript
 
 [View on Railway →](https://railway.com/deploy/open-saas)

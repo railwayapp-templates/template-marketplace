@@ -1,6 +1,6 @@
 # Deploy GPT-OSS 20B on Railway
 
-[Mar '26] Self-host GPT-OSS 20B on Railway with a chat UI.
+[Apr '26] Self-host GPT-OSS 20B on Railway with a chat UI.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gpt-oss-20b)
 

@@ -1,6 +1,6 @@
 # Deploy OpenClaw (Prev Clawdbot, Moltbot) on Railway
 
-[Mar'26] Easy Self Host & Deploy OpenClaw — In Under 10 Mins
+[Apr'26] Easy Self Host & Deploy OpenClaw — In Under 10 Mins
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-prev-clawdbot-moltbot-easy-self)
 

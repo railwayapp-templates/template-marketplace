@@ -42,22 +42,22 @@ Quackback is the open-source alternative to Canny and UserVoice. Collect feature
 
 | Service | Source | Type |
 |---------|--------|------|
-| quackback | `ghcr.io/quackbackio/quackback:latest` | Web service |
-| dragonfly | `ghcr.io/dragonflydb/dragonfly:v1.37.0` | Database |
-| postgres | `pgvector/pgvector:pg18` | Database |
+| Quackback | `ghcr.io/quackbackio/quackback:latest` | Web service |
+| Dragonfly | `ghcr.io/dragonflydb/dragonfly:v1.37.0` | Database |
+| Postgres | `pgvector/pgvector:pg18` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default |
 | --------- | ------- | ------- |
-| `PORT` | quackback | 3000 |
-| `NODE_ENV` | quackback | production |
-| `SECRET_KEY` | quackback | (secret) |
-| `S3_FORCE_PATH_STYLE` | quackback | true |
-| `S3_SECRET_ACCESS_KEY` | quackback | (secret) |
-| `POSTGRES_DB` | postgres | quackback |
-| `POSTGRES_USER` | postgres | (secret) |
-| `POSTGRES_PASSWORD` | postgres | (secret) |
+| `PORT` | Quackback | 3000 |
+| `NODE_ENV` | Quackback | production |
+| `SECRET_KEY` | Quackback | (secret) |
+| `S3_FORCE_PATH_STYLE` | Quackback | true |
+| `S3_SECRET_ACCESS_KEY` | Quackback | (secret) |
+| `POSTGRES_DB` | Postgres | quackback |
+| `POSTGRES_USER` | Postgres | (secret) |
+| `POSTGRES_PASSWORD` | Postgres | (secret) |
 
 ## Configuration
 

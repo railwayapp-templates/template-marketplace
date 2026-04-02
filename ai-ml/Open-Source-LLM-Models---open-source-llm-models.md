@@ -1,6 +1,6 @@
 # Deploy Open Source LLM Models on Railway
 
-[Mar '26] Self host open LLMs + connect your ChatGPT Account
+[Apr '26] Self host open LLMs + connect your ChatGPT Account
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-source-llm-models)
 
