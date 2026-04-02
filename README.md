@@ -662,6 +662,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [ExpressJS Prisma](./starters/ExpressJS-Prisma---LqCw_O.md) | Starters |  | TypeScript, Procfile | [Deploy](https://railway.com/deploy/LqCw_O) |
 | [Extract Chat - chat with firecrawl](./ai-ml/Extract-Chat---chat-with-firecrawl---UzxNSc.md) | AI/ML |  | TypeScript, JavaScript, CSS | [Deploy](https://railway.com/deploy/UzxNSc) |
 | [fabio](./other/fabio---fabio.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/fabio) |
+| [fair-warm](./ai-ml/fair-warm---fair-warm.md) | AI/ML |  | Python, HTML, JavaScript, Shell, Procfile | [Deploy](https://railway.com/deploy/fair-warm) |
 | [Faktory](./queues/Faktory---Hh00T5.md) | Queues |  | - | [Deploy](https://railway.com/deploy/Hh00T5) |
 | [FalkorDB](./storage/FalkorDB---falkordb-1.md) | Storage | Yes | - | [Deploy](https://railway.com/deploy/falkordb-1) |
 | [FalkorDB](./storage/FalkorDB---falkordb.md) | Storage |  | - | [Deploy](https://railway.com/deploy/falkordb) |
@@ -1490,6 +1491,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [NetBox](./other/NetBox---cLm4kn.md) | Other |  | - | [Deploy](https://railway.com/deploy/cLm4kn) |
 | [Netdata [Updated Mar ’26]](./observability/Netdata-Updated-Mar-26---netdata.md) | Observability |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/netdata) |
 | [New API](./ai-ml/New-API---new-api.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/new-api) |
+| [New Strapi Project](./cms/New-Strapi-Project---new-strapi-project.md) | CMS |  | JavaScript, TypeScript | [Deploy](https://railway.com/deploy/new-strapi-project) |
 | [newapi](./ai-ml/newapi---newapi.md) | AI/ML |  | Dockerfile | [Deploy](https://railway.com/deploy/newapi) |
 | [nexgent-trading-engine](./other/nexgent-trading-engine---nexgent-trading-engine.md) | Other |  | TypeScript, JavaScript, CSS | [Deploy](https://railway.com/deploy/nexgent-trading-engine) |
 | [Next 15 App Router](./starters/Next-15-App-Router---U-HNN5.md) | Starters |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/U-HNN5) |
@@ -1865,7 +1867,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Portainer CE (Community Edition)](./observability/Portainer-CE-Community-Edition---portainer-ce-commu-1.md) | Observability |  | - | [Deploy](https://railway.com/deploy/portainer-ce-commu-1) |
 | [Portainer Server](./other/Portainer-Server---portainer-server.md) | Other |  | - | [Deploy](https://railway.com/deploy/portainer-server) |
 | [Portkey AI - Gateway](./ai-ml/Portkey-AI---Gateway---jOsex-.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/jOsex-) |
-| [Postbase (v0.01)](./other/Postbase-v001---postbase-v001.md) | Other |  | TypeScript, Shell, Dockerfile, CSS, JavaScript | [Deploy](https://railway.com/deploy/postbase-v001) |
+| [Postbase](./other/Postbase---postbase-1.md) | Other |  | TypeScript, Shell, Dockerfile, CSS, JavaScript | [Deploy](https://railway.com/deploy/postbase-1) |
 | [PostGIS](./storage/PostGIS---postgis.md) | Storage |  | - | [Deploy](https://railway.com/deploy/postgis) |
 | [Postgres + PgBouncer](./storage/Postgres-PgBouncer---postgres-pgbouncer.md) | Storage |  | - | [Deploy](https://railway.com/deploy/postgres-pgbouncer) |
 | [Postgres + PgBouncer + PgAdmin](./other/Postgres-PgBouncer-PgAdmin---postgres-pgbouncer-pgadmin.md) | Other |  | - | [Deploy](https://railway.com/deploy/postgres-pgbouncer-pgadmin) |
@@ -2278,6 +2280,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [SpacetimeDB 2.0](./storage/SpacetimeDB-20---spacetimedb-20.md) | Storage |  | - | [Deploy](https://railway.com/deploy/spacetimedb-20) |
 | [spark-stack-template](./ai-ml/spark-stack-template---61t3xx.md) | AI/ML |  | JavaScript, Python, CSS, Dockerfile, Mako | [Deploy](https://railway.com/deploy/61t3xx) |
 | [sparkling-spirit](./other/sparkling-spirit---QpsUpi.md) | Other |  | - | [Deploy](https://railway.com/deploy/QpsUpi) |
+| [Sparkz Discord Analytics](./analytics/Sparkz-Discord-Analytics---sparkz-discord-analytics.md) | Analytics |  | TypeScript, CSS | [Deploy](https://railway.com/deploy/sparkz-discord-analytics) |
 | [spectacular-patience](./starters/spectacular-patience---spectacular-patience.md) | Starters |  | TypeScript, CSS, JavaScript, HTML | [Deploy](https://railway.com/deploy/spectacular-patience) |
 | [Spicedb](./authentication/Spicedb---spicedb.md) | Authentication |  | - | [Deploy](https://railway.com/deploy/spicedb) |
 | [splendid-trust](./other/splendid-trust---splendid-trust.md) | Other |  | - | [Deploy](https://railway.com/deploy/splendid-trust) |
@@ -2554,6 +2557,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Uptime Kuma (w/ MariaDB)](./observability/Uptime-Kuma-w-MariaDB---uptime-kuma-w-mariadb.md) | Observability |  | - | [Deploy](https://railway.com/deploy/uptime-kuma-w-mariadb) |
 | [uptimekit](./observability/uptimekit---uptimekit.md) | Observability |  | - | [Deploy](https://railway.com/deploy/uptimekit) |
 | [UrPodder](./other/UrPodder---y__BwA.md) | Other |  | - | [Deploy](https://railway.com/deploy/y__BwA) |
+| [userefract.io](./other/userefractio---userefractio.md) | Other |  | TypeScript, HTML, Shell, Makefile, JavaScript, Dockerfile, CSS | [Deploy](https://railway.com/deploy/userefractio) |
 | [Usertour](./other/Usertour---usertour-1.md) | Other |  | - | [Deploy](https://railway.com/deploy/usertour-1) |
 | [UserTour](./automation/UserTour---CQWupg.md) | Automation |  | - | [Deploy](https://railway.com/deploy/CQWupg) |
 | [UserTour Production Template](./starters/UserTour-Production-Template---usertour-production-template.md) | Starters |  | - | [Deploy](https://railway.com/deploy/usertour-production-template) |
