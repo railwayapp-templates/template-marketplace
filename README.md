@@ -241,7 +241,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Botway CE](./starters/Botway-CE---9wleNz.md) | Starters |  | TypeScript, Go, Dockerfile, Rust, JavaScript, Ruby, Python, PHP, Dart, C#, PowerShell, SCSS, Kotlin, Shell, C, Swift, C++, Nim | [Deploy](https://railway.com/deploy/9wleNz) |
 | [BoxyHQ / Jackson SSO](./authentication/BoxyHQ-Jackson-SSO---xV6lZy.md) | Authentication |  | - | [Deploy](https://railway.com/deploy/xV6lZy) |
 | [Breadbot](./other/Breadbot---breadbot.md) | Other |  | Python, JavaScript, HTML, CSS, Shell, Dockerfile, Procfile | [Deploy](https://railway.com/deploy/breadbot) |
-| [Breadcrumb](./observability/Breadcrumb---breadcrumb.md) | Observability |  | TypeScript, MDX, CSS, Dockerfile, JavaScript, HTML | [Deploy](https://railway.com/deploy/breadcrumb) |
+| [Breadcrumb](./observability/Breadcrumb---breadcrumb.md) | Observability |  | TypeScript, MDX, CSS, Dockerfile, HTML, JavaScript | [Deploy](https://railway.com/deploy/breadcrumb) |
 | [Briefer](./analytics/Briefer---briefer.md) | Analytics |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/briefer) |
 | [BrowserBird](./ai-ml/BrowserBird---browserbird-1.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/browserbird-1) |
 | [Browserless v1](./automation/Browserless-v1---browserless.md) | Automation |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/browserless) |
@@ -337,6 +337,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Chatwoot](./other/Chatwoot---chatwoot.md) | Other |  | - | [Deploy](https://railway.com/deploy/chatwoot) |
 | [Chatwoot - All In One (PGVector)](./other/Chatwoot---All-In-One-PGVector---chatwoot-all-in-one-pgvector.md) | Other |  | - | [Deploy](https://railway.com/deploy/chatwoot-all-in-one-pgvector) |
 | [Chatwoot - Open-Source Customer Support Platform](./automation/Chatwoot-Open-Source-Customer-Support-Platform---self-host-chatwoot.md) | Automation |  | - | [Deploy](https://railway.com/deploy/self-host-chatwoot) |
+| [Chatwoot Community](./other/Chatwoot-Community---chatwoot-community.md) | Other |  | - | [Deploy](https://railway.com/deploy/chatwoot-community) |
 | [CheckCle](./observability/CheckCle---checkcle.md) | Observability |  | - | [Deploy](https://railway.com/deploy/checkcle) |
 | [Checkly Agent](./observability/Checkly-Agent---checkly.md) | Observability |  | - | [Deploy](https://railway.com/deploy/checkly) |
 | [Checkmate](./observability/Checkmate---p-MBP2.md) | Observability |  | - | [Deploy](https://railway.com/deploy/p-MBP2) |
@@ -1440,6 +1441,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [N8N MCP Server](./ai-ml/N8N-MCP-Server---se2WHK.md) | AI/ML |  | TypeScript, JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/se2WHK) |
 | [n8n Pro Stack](./automation/n8n-Pro-Stack---n8n-pro-stack.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-pro-stack) |
 | [N8N Pro Stack [w/ Worker & Postgres]](./automation/N8N-Pro-Stack-w-Worker-Postgres---n8n-on-railway.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-on-railway) |
+| [n8n Production Starter with Workers](./other/n8n-Production-Starter-with-Workers---n8n-production-starter-with-workers.md) | Other |  | - | [Deploy](https://railway.com/deploy/n8n-production-starter-with-workers) |
 | [n8n ready production](./automation/n8n-ready-production---n8n-ready-production.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-ready-production) |
 | [n8n Single Node](./automation/n8n-Single-Node---n8n-single-node.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-single-node) |
 | [n8n Starter](./automation/n8n-Starter---n8n-starter-1.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-starter-1) |
@@ -1533,6 +1535,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [NextJs Best Partices Boilerplate](./starters/NextJs-Best-Partices-Boilerplate---nextjs-best-partices-boilerplate.md) | Starters |  | - | [Deploy](https://railway.com/deploy/nextjs-best-partices-boilerplate) |
 | [NextJS Prisma](./starters/NextJS-Prisma---HRZqTF.md) | Starters |  | TypeScript, CSS | [Deploy](https://railway.com/deploy/HRZqTF) |
 | [NextJS Web3 Starter](./starters/NextJS-Web3-Starter---nextjs-web3-starte-1.md) | Starters |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/nextjs-web3-starte-1) |
+| [Nextjs with Inngest](./queues/Nextjs-with-Inngest---nextjs-with-inngest.md) | Queues |  | TypeScript, JavaScript, CSS | [Deploy](https://railway.com/deploy/nextjs-with-inngest) |
 | [Nextjs-Ecommerce](./starters/Nextjs-Ecommerce---Mfh7ho.md) | Starters |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/Mfh7ho) |
 | [Nextjs-pocketauth](./authentication/Nextjs-pocketauth---ZqVg5k.md) | Authentication |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/ZqVg5k) |
 | [nextjs-saas-starter](./starters/nextjs-saas-starter---BAwWpG.md) | Starters |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/BAwWpG) |
@@ -2005,6 +2008,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [rail-nest](./starters/rail-nest---nvnuEH.md) | Starters |  | TypeScript, JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/nvnuEH) |
 | [rail-tunnel](./other/rail-tunnel---rail-tunnel.md) | Other |  | Go, Dockerfile | [Deploy](https://railway.com/deploy/rail-tunnel) |
 | [railclaw](./bots/railclaw---railclaw.md) | Bots |  | JavaScript, Shell, Dockerfile | [Deploy](https://railway.com/deploy/railclaw) |
+| [RailClaw](./ai-ml/RailClaw---railclaw-1.md) | AI/ML |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/railclaw-1) |
 | [railq](./queues/railq---railq.md) | Queues |  | Go, Dockerfile | [Deploy](https://railway.com/deploy/railq) |
 | [Rails](./starters/Rails---sibk1f.md) | Starters |  | Ruby, HTML, CSS, JavaScript, Procfile | [Deploy](https://railway.com/deploy/sibk1f) |
 | [Rails 8 + Hotwire](./starters/Rails-8-Hotwire---rails-8-hotwire.md) | Starters |  | HTML, Ruby, Dockerfile, Shell, JavaScript, CSS, Procfile | [Deploy](https://railway.com/deploy/rails-8-hotwire) |
@@ -2297,10 +2301,11 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Spring Microservice Ecosystem](./starters/Spring-Microservice-Ecosystem---f6CKpT.md) | Starters |  | Java, Dockerfile | [Deploy](https://railway.com/deploy/f6CKpT) |
 | [SQL Server 2022 en Railway (Optimizado)](./storage/SQL-Server-2022-en-Railway-Optimizado---sql-server-2022-en-railway-optimizado.md) | Storage |  | Dockerfile, Shell, TSQL | [Deploy](https://railway.com/deploy/sql-server-2022-en-railway-optimizado) |
 | [sqlchat](./ai-ml/sqlchat---KsHjEY.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/KsHjEY) |
-| [SQLite Hub](./storage/SQLite-Hub---sqlite-hub.md) | Storage |  | TypeScript, CSS, Dockerfile, JavaScript | [Deploy](https://railway.com/deploy/sqlite-hub) |
+| [SQLite Hub](./storage/SQLite-Hub---sqlite-hub.md) | Storage |  | TypeScript, Go, CSS, Shell, Just, Dockerfile, JavaScript | [Deploy](https://railway.com/deploy/sqlite-hub) |
 | [SQLite3](./storage/SQLite3---jOiNFt.md) | Storage |  | Shell, Python, Dockerfile | [Deploy](https://railway.com/deploy/jOiNFt) |
 | [Squidex HeadlessCMS](./cms/Squidex-HeadlessCMS---squidex-headlesscms.md) | CMS |  | - | [Deploy](https://railway.com/deploy/squidex-headlesscms) |
 | [SRTmap](./other/SRTmap---srtmap.md) | Other |  | HTML, JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/srtmap) |
+| [Sshwifty](./authentication/Sshwifty---sshwifty.md) | Authentication |  | - | [Deploy](https://railway.com/deploy/sshwifty) |
 | [StackAuth](./authentication/StackAuth---bL-6Ll.md) | Authentication |  | TypeScript, JavaScript, HTML, CSS, Dockerfile, PLpgSQL, Shell, Python | [Deploy](https://railway.com/deploy/bL-6Ll) |
 | [stalwart](./other/stalwart---stalwart.md) | Other |  | - | [Deploy](https://railway.com/deploy/stalwart) |
 | [stalwart](./other/stalwart---V1KsKz.md) | Other |  | - | [Deploy](https://railway.com/deploy/V1KsKz) |

@@ -14,24 +14,20 @@ Hosting SQLite Hub on Railway requires a single service backed by a persistent v
 
 | Service | Source | Type |
 |---------|--------|------|
-| sqlite-hub | [0xdps/sqlite-hub](https://github.com/0xdps/sqlite-hub) | Web service |
+| sqlite-hub | [0xdps/sqlite-hub-template](https://github.com/0xdps/sqlite-hub-template) | Web service |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `DATA_PATH` | /db | Absolute path where .db files are stored. Must match your Railway volume mount path, e.g. /data. |
-| `ADMIN_TOKEN` | (secret) | Password to log in to the admin dashboard at /login. Does not grant API access. |
-| `SESSION_SECRET` | (secret) | Signing secret for encrypted session cookies. Minimum 32 characters |
-| `MAX_VOLUME_USAGE_PERCENT` | 85 | Blocks new database creation once the volume exceeds this % of used space. |
+| `ADMIN_TOKEN` | (secret) | Admin API + dashboard auth token (min 8 chars). |
+| `SESSION_SECRET` | (secret) | Iron-session cookie signing key — must be at least 32 chars. |
 
 ## Configuration
 
-- **Start command:** `node server.js`
-- **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** Storage · **Languages:** TypeScript, CSS, Dockerfile, JavaScript
+**Category:** Storage · **Languages:** TypeScript, Go, CSS, Shell, Just, Dockerfile, JavaScript
 
 [View on Railway →](https://railway.com/deploy/sqlite-hub)

@@ -50,6 +50,7 @@ To deploy, you need to provision PostgreSQL and ClickHouse instances, set enviro
 | `CLICKHOUSE_PASSWORD` | ClickHouse | (secret) | Clickhouse password |
 | `PUBLIC_DATABASE_URL` | ClickHouse | - | Clickhouse public databse url |
 | `PUBLIC_DATABASE_JDBC_URL` | ClickHouse | - | Clickhouse public database jdbc url |
+| `CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT` | ClickHouse | 1 | Default role permissions |
 
 ## Configuration
 
@@ -57,9 +58,10 @@ To deploy, you need to provision PostgreSQL and ClickHouse instances, set enviro
 - **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Start command:** `bash -c 'echo "<clickhouse><custom_settings_prefixes>SQL_</custom_settings_prefixes></clickhouse>" > /etc/clickhouse-server/config.d/custom.xml && /entrypoint.sh'`
 - **Healthcheck:** `/ping`
 - **Volume:** `/var/lib/clickhouse`
 
-**Category:** Observability · **Languages:** TypeScript, MDX, CSS, Dockerfile, JavaScript, HTML
+**Category:** Observability · **Languages:** TypeScript, MDX, CSS, Dockerfile, HTML, JavaScript
 
 [View on Railway →](https://railway.com/deploy/breadcrumb)
