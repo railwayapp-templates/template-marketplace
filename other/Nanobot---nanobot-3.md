@@ -24,6 +24,7 @@ Hosting Nanobot involves deploying a backend service that runs your AI agent log
 
 ## Configuration
 
+- **TCP Proxies:** 8080
 - **Volume:** `/data`
 
 **Category:** Other · **Languages:** HTML, Python, Dockerfile, Shell

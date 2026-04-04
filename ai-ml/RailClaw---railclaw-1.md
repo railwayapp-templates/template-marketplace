@@ -1,37 +1,37 @@
 # Deploy RailClaw on Railway
 
-One-click OpenClaw gateway — persistent, containerized, just add API keys.
+One-click OpenClaw deployment — persistent, containerized, just add keys.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railclaw-1)
 
 ## About
 
-RailClaw is an open-source AI agent gateway that connects language models to messaging channels like Telegram. It provides a single multiplexed endpoint for WebSocket and HTTP traffic, built-in auth, a control UI, and channel health monitoring out of the box.
+RailClaw is a secure, containerized, one-click deploy of OpenClaw on Railway — a pre-configured gateway with Control UI, token auth, channel health monitoring and persistent storage. No manual config files, no CLI setup, just deploy and connect.
 
-Hosting RailClaw requires a persistent process that stays online to maintain connections to messaging channels and handle incoming requests. The gateway needs API keys for your chosen LLM provider (Anthropic, OpenAI), a bot token for each messaging channel, and a secure gateway auth token. 
+Hosting RailClaw requires a persistent process that stays online to maintain connections to messaging channels and handle incoming requests. 
 
-Railway handles the container lifecycle, health
-checks, and automatic restarts — so the gateway stays available without manual intervention. Configuration is injected via environment variables at deploy time, with no files to manage.
+The gateway needs API keys for your chosen LLM provider (Anthropic, OpenAI) and a secure gateway auth token.                          
+
+Railway handles the container lifecycle, health checks, and automatic restarts — so the gateway stays available without manual intervention. 
+
+Configuration is injected via environment variables at deploy time, with no files to manage.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| openclaw-railway-template | [looselyorganized/openclaw-railway-template](https://github.com/looselyorganized/openclaw-railway-template) | Web service |
+| railclaw | [looselyorganized/railclaw](https://github.com/looselyorganized/railclaw) | Web service |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
+| `PORT` | 18789 | Port the gateway listens on — must match OpenClaw's default (18789)  |
 | `BRAVE_API_KEY` | (secret) | Enables the web_search tool for live web results |
-| `OPENAI_API_KEY` | (secret) | Alternative LLM provider for GPT models (fallback if no Anthropic key)  |
-| `OPENCLAW_MODEL` | - | Default personality model (e.g. anthropic/claude-sonnet-4-6)    |
-| `ANTHROPIC_API_KEY` | (secret) | Powers the agent's conversational model (Claude)  |
-| `CONTROL_UI_ENABLED` | true | Enable gateway Control UI (true/false) |
-| `TELEGRAM_BOT_TOKEN` | (secret) | Bot token from @BotFather on Telegram enabling TG conversations. |
-| `TELEGRAM_DM_POLICY` | - | DM access policy: "allowlist" or "open" |
-| `TELEGRAM_ALLOW_FROM` | - | Comma-separated Telegram user IDs allowed to message the bot |
-| `OPENCLAW_GATEWAY_TOKEN` | (secret) | Random string to secure gateway API access |
+| `OPENAI_API_KEY` | (secret) | Alternative LLM provider for GPT models |
+| `OPENCLAW_MODEL ` | - | Default agent model (default: anthropic/claude-sonnet-4-6) |
+| `ANTHROPIC_API_KEY ` | (secret) | Powers the agent's conversational model (Claude). Get one at console.anthropic.com |
+| `OPENCLAW_GATEWAY_TOKEN` | (secret) | Random string to secure gateway API access. |
 
 ## Configuration
 

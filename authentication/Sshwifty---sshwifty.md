@@ -16,6 +16,12 @@ Sshwifty is a single Go binary served via Docker that acts as a proxy between th
 |---------|--------|------|
 | sshwifty | `niruix/sshwifty:latest` | Web service |
 
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `SSHWIFTY_LISTENPORT` | 8080 | Sshwifty port |
+
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS

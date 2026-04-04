@@ -43,7 +43,7 @@ Vektora Auto-Trade Bot connects to the Vektora signal server via WebSocket, rece
 
 | Service | Source | Type |
 |---------|--------|------|
-| vektora-bot | [twahidin/vektora-bot](https://github.com/twahidin/vektora-bot) | Worker |
+| vektora-bot | [vektora-trade/vektora-bot](https://github.com/vektora-trade/vektora-bot) | Worker |
 
 ## Environment variables
 

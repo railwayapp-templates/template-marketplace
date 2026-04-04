@@ -1,4 +1,4 @@
-# Deploy New Strapi Project on Railway
+# Deploy Strapi Legacio on Railway
 
 Deploy and Host New Strapi Project with Railway
 
