@@ -22,10 +22,10 @@ This template provides a straightforward setup for Eclipse Mosquitto with minima
 | --------- | ------- | ----------- |
 | `MOSQUITTO_WS_HOST` | - | The host for websockets connections |
 | `MOSQUITTO_WS_PORT` | 443 | The external port for websocket connections |
-| `MOSQUITTO_PASSWORD` | (secret) | - |
+| `MOSQUITTO_PASSWORD` | (secret) | The password for connections |
 | `MOSQUITTO_TCP_HOST` | - | The host for TCP connections |
 | `MOSQUITTO_TCP_PORT` | - | The external port for the TCP Proxy |
-| `MOSQUITTO_USERNAME` | (secret) | - |
+| `MOSQUITTO_USERNAME` | (secret) | The username for connections |
 
 ## Configuration
 

@@ -12,13 +12,21 @@ Mini Mailer does not currently support attachments and is designed to run on an 
 
 Mini Mailer is a simple serverless application that creates an SMTP server on ports 25, 2525, and 587, and a HTTP server on port 80 used for health checks. The SMTP server listens for incoming SMTP connections and forwards the email to the HTTP endpoint.
 
-Mini Mailer requires no configuration or dependencies and will automatically detect the email service provider based on the API token used.
+Mini Mailer requires no configuration or dependencies and will automatically detect the email service provider based on the API token or SMTP username.
 
 To send emails, configure your application to send email with:
 - Host: your Mini Mailer host (e.g. `mini-mailer.railway.internal`).
 - Port: `25`, `2525`, or `587`.
-- Username: For Mailgun, this is the domain name (e.g. `mg.yourdomain.com`). For Postmark and MailerSend, this is any username.
+- Username: For Mailgun, this is the domain name (e.g. `mg.yourdomain.com`). For Postmark and MailerSend, this can be any username.
 - Password: Your email service provider's API key or token.
+
+### Username Format
+
+You can specify any username and Mini Mailer will attempt to identify the provider based on the API key. To manually set the provider, specify either `mailgun`, `mailgun-eu`, `postmark`, or `mailersend` as the username (or local part of the username).
+
+For example, to send to Postmark, you could use the username `postmark`, or `postmark@yourdomain.com`.
+
+For Mailgun, you must specify the sending domain in the username, either like `sendingdomain.com` or `mailgun@sendingdomain.com` where sendingdomain.com is the domain configured for your Mailgun API key.
 
 ## What gets deployed
 
