@@ -6,29 +6,13 @@ Vault container in Railway
 
 ## About
 
-Once the project deployed, you must init it : 
- 
-1- Generate a domain to access it outside of railway. 
+HashiCorp Vault is a secrets management tool that provides secure storage, dynamic credentials, encryption as a service, and fine-grained access control for sensitive data. This template deploys a production-ready Vault server on Railway with sensible defaults and an easy path to scale.
 
-2- Download `vault` cli
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hashicorp-vault?referralCode=C3Uv6n&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
-3- Run : $env:VAULT_ADDR="https://${{GENERATED_DOMAIN}}"
+![Vault dashboard UI](https://raw.githubusercontent.com/FournyP/vault-railway-template/main/docs/images/vault-dashboard.png)
 
-4- Run : vault operator init
-
-5- Store unseal keys securly ! For more information: https://developer.hashicorp.com/vault/docs/concepts/seal
-
-6- Run $env:VAULT_TOKEN="${{GENERATED_TOKEN}}"
-
-7- Mount services you need (Kvv1, Kvv2, etc...)
-
-8- Create tokens for your services as you need
-
-9- Everything you want...
-
-10- Revoke root token (You can regenerate one using unseal keys, see: https://developer.hashicorp.com/vault/tutorials/operations/generate-root)
-
-11- Remove generated domain (use private network in your railway project)
+Vault runs as a single service that exposes an HTTP API and an optional web UI for managing secrets, policies, and authentication methods. It can operate in development mode with in-memory storage for quick testing, or in production mode with persistent file-based storage. Railway makes it simple to deploy Vault without managing servers, while enabling vertical scaling and persistent storage for your secrets engine.
 
 ## What gets deployed
 

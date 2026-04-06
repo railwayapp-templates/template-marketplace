@@ -57,7 +57,7 @@ Imagine having a smart coding assistant that understands plain English and can b
 | `NODE_ENV` | development |
 | `XAI_API_KEY` | (secret) |
 | `GROQ_API_KEY` | (secret) |
-| `VITE_HMR_HOST` | 0.0.0.0 |
+| `VITE_HMR_HOST` | localhost |
 | `VITE_HMR_PORT` | 5173 |
 | `OPENAI_API_KEY` | (secret) |
 | `VITE_LOG_LEVEL` | debug |
