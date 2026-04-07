@@ -33,9 +33,8 @@ Very simple, all you need to do is add the bot token in `DISCORD_TOKEN` and then
 
 ## Configuration
 
-- **Start command:** `bun start`
 - **Volume:** `/data`
 
-**Category:** Bots · **Languages:** TypeScript
+**Category:** Bots · **Languages:** TypeScript, Dockerfile, Witcher Script
 
 [View on Railway →](https://railway.com/deploy/honeypot)

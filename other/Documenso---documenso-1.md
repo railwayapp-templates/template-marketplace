@@ -1,6 +1,6 @@
 # Deploy Documenso on Railway
 
-The Open Source DocuSign Alternative, BYO SMTP
+The Open Source DocuSign Alternative, BYO SMTP.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/documenso-1)
 
