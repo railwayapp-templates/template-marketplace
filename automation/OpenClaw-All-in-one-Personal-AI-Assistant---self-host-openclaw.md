@@ -1,6 +1,6 @@
-# Deploy OpenClaw | Personal AI Assistant on Railway
+# Deploy OpenClaw | All-in-one Personal AI Assistant on Railway
 
-Self Host Openclaw. Web Setup, Admin Dashboard, Terminal, Pairing and more.
+Self Host Openclaw w/ Web Setup + Admin Dashboard + TUI + Pairing & more
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/self-host-openclaw)
 

@@ -25,6 +25,7 @@ Hosting SQLite Hub on Railway requires a single service backed by a persistent v
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
