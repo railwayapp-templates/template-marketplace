@@ -1,4 +1,4 @@
-# Deploy finance-tracker on Railway
+# Deploy Finance Tracker on Railway
 
 Track spending, budgets, and household finances. Own your data.
 

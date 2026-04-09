@@ -14,7 +14,6 @@ Hosting Bull Board requires a running Redis instance that your BullMQ workers al
 
 | Service | Source | Type |
 |---------|--------|------|
-| example-worker | [wfalowski/bull-board-hono](https://github.com/wfalowski/bull-board-hono) (root: ./example/) | Worker |
 | Bull Board | `ghcr.io/wfalowski/bull-board-hono:latest` | Web service |
 | Redis | `redis:8.2.1` | Database |
 
@@ -22,7 +21,6 @@ Hosting Bull Board requires a running Redis instance that your BullMQ workers al
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `REDIS_FAMILY` | example-worker | 6 | - |
 | `BASE_PATH` | Bull Board | / | Bull board UI base path |
 | `AUTH_PASSWORD` | Bull Board | (secret) | Basic auth password |
 | `AUTH_USERNAME` | Bull Board | (secret) | Basic auth user name |
@@ -36,12 +34,11 @@ Hosting Bull Board requires a running Redis instance that your BullMQ workers al
 
 ## Configuration
 
-- **Start command:** `npm run start`
 - **Networking:** Public domain with automatic HTTPS
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
 
-**Category:** Queues · **Languages:** TypeScript, JavaScript, Dockerfile
+**Category:** Queues
 
 [View on Railway →](https://railway.com/deploy/bull-board)

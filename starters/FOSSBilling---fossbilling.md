@@ -14,25 +14,30 @@ Hosting FOSSBilling means running a long-lived PHP application behind a web serv
 
 | Service | Source | Type |
 |---------|--------|------|
-| fossbilling | [blacksoulgem95/FOSSBilling-railway](https://github.com/blacksoulgem95/FOSSBilling-railway) (root: /) | Web service |
-| MySQL | `mysql:9.4` | Database |
+| FOSSBilling | `ghcr.io/blacksoulgem95/fossbilling-railway:latest` | Database |
+| MySQL | `mysql:9.6` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `PORT` | fossbilling | 8000 | Mount endpoint to port 8000 |
-| `MYSQLPORT` | MySQL | 3306 | - |
-| `MYSQLPASSWORD` | MySQL | (secret) | - |
-| `MYSQL_ROOT_PASSWORD` | MySQL | (secret) | - |
+| `PORT` | FOSSBilling | 8000 | Nginx Listen Port |
+| `MYSQLHOST` | MySQL | - | MySQL Host |
+| `MYSQLPORT` | MySQL | 3306 | MySQL Port |
+| `MYSQLUSER` | MySQL | root | MySQL User |
+| `MYSQL_URL` | MySQL | - | MySQL URL |
+| `MYSQLDATABASE` | MySQL | - | MySQL Database Name |
+| `MYSQLPASSWORD` | MySQL | (secret) | MySQL Password |
+| `MYSQL_DATABASE` | MySQL | - | MySQL Database Name (Reference) |
+| `MYSQL_PUBLIC_URL` | MySQL | - | MySQL Public URL |
+| `MYSQL_ROOT_PASSWORD` | MySQL | (secret) | MySQL ROOT Password |
 
 ## Configuration
 
-- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app`
 - **Start command:** `docker-entrypoint.sh mysqld --innodb-use-native-aio=0 --disable-log-bin --performance_schema=0 --innodb-buffer-pool-size=1G`
 - **Volume:** `/var/lib/mysql`
 
-**Category:** Starters · **Languages:** Dockerfile
+**Category:** Starters
 
 [View on Railway →](https://railway.com/deploy/fossbilling)

@@ -42,6 +42,7 @@ If you’re looking for a broader all-in-one experience that includes photos, pa
 | `MYSQL_DATABASE` | MySQL | seafile |
 | `MYSQL_ROOT_PASSWORD` | MySQL | (secret) |
 | `DB_USER_HOST` | Seafile | % |
+| `SEAFILE_ADMIN_EMAIL` | Seafile | admin@example.com |
 | `ONLYOFFICE_JWT_SECRET` | Seafile | (secret) |
 | `SEAFILE_ADMIN_PASSWORD` | Seafile | (secret) |
 | `SEAFILE_SERVER_PROTOCOL` | Seafile | https |

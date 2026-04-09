@@ -44,6 +44,6 @@ This template deploys three services on Railway: a Node.js/Express/Socket.io API
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
 
-**Category:** Other
+**Category:** Starters
 
 [View on Railway →](https://railway.com/deploy/leaderboard)
