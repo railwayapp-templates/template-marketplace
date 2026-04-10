@@ -19,23 +19,27 @@ This template deploys Ghost on the official Docker image and MySQL 8 on a separa
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `MYSQL_USER` | mysql | (secret) |
-| `MYSQL_DATABASE` | mysql | ghost |
-| `MYSQL_PASSWORD` | mysql | (secret) |
-| `MYSQL_ROOT_PASSWORD` | mysql | (secret) |
-| `PORT` | ghost | 2368 |
-| `server__host` | ghost | 0.0.0.0 |
-| `server__port` | ghost | 2368 |
-| `database__client` | ghost | mysql |
-| `database__connection__port` | ghost | 3306 |
-| `database__connection__user` | ghost | (secret) |
-| `database__connection__password` | ghost | (secret) |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `MYSQL_USER` | mysql | (secret) | Application username Ghost uses to connect to MySQL. |
+| `MYSQL_DATABASE` | mysql | ghost | Database name created for the Ghost application. |
+| `MYSQL_PASSWORD` | mysql | (secret) | Generated password for the Ghost MySQL application user. |
+| `MYSQL_ROOT_PASSWORD` | mysql | (secret) | Generated root password for administrative MySQL access. |
+| `url` | ghost | - | Ghost site URL. Railway fills this from the generated public domain. |
+| `PORT` | ghost | 2368 | Railway HTTP proxy port for the Ghost service. |
+| `server__host` | ghost | 0.0.0.0 | Bind Ghost to all network interfaces inside the container. |
+| `server__port` | ghost | 2368 | Ghost application port exposed by the container. |
+| `database__client` | ghost | mysql | Database driver Ghost should use. |
+| `database__connection__host` | ghost | - | Private hostname for the MySQL service on Railway. |
+| `database__connection__port` | ghost | 3306 | Internal MySQL port. |
+| `database__connection__user` | ghost | (secret) | MySQL user Ghost uses for application queries. |
+| `database__connection__database` | ghost | - | MySQL database Ghost stores content in. |
+| `database__connection__password` | ghost | (secret) | Password for the Ghost MySQL application user. |
 
 ## Configuration
 
 - **Volume:** `/var/lib/mysql`
+- **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/ghost/content`
 

@@ -1,6 +1,6 @@
-# Deploy Prefect [Updated Mar ’26] on Railway
+# Deploy Prefect [Updated Apr ’26] on Railway
 
-Prefect [Mar ’26] (ETL & Automation alternative to Airflow) Self Host
+Prefect [Apr ’26] (ETL & Automation alternative to Airflow) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/prefect)
 

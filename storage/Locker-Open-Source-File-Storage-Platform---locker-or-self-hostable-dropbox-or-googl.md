@@ -14,28 +14,32 @@ Locker is a Next.js 16 application backed by PostgreSQL with Drizzle ORM. This R
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | locker | [alphasecio/locker](https://github.com/alphasecio/locker) | Web service |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `POSTGRES_USER` | Postgres | (secret) | - |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | - |
 | `DATABASE_URL` | locker | - | Postgres database URL |
 | `LOCAL_BLOB_DIR` | locker | /data | Local blob directory |
 | `BETTER_AUTH_URL` | locker | - | BetterAuth URL |
 | `BETTER_AUTH_SECRET` | locker | (secret) | BetterAuth secret |
 | `NEXT_PUBLIC_APP_URL` | locker | - | Next public app URL |
 | `BLOB_STORAGE_PROVIDER` | locker | local | Blob storage provider (local as default) |
+| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 
 ## Configuration
 
-- **Volume:** `/var/lib/postgresql/data`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
+- **TCP Proxies:** 5432
+- **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Storage · **Languages:** JavaScript, TypeScript, CSS, Dockerfile
+**Category:** Storage · **Languages:** TypeScript, JavaScript, CSS, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/locker-or-self-hostable-dropbox-or-googl)

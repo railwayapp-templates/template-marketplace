@@ -12,11 +12,11 @@ Seafile + ONLYOFFICE is a powerful self-hosted file cloud and document editing s
 
 ![ONLYOFFICE](https://github.com/rpuls/my-own-suite/blob/main/site/src/assets/screenshots/onlyoffice/onlyoffice-open-source-self-hosted-office-suite-word-document-real-time-collaboration-editor.png?raw=true)
 
-Hosting Seafile + ONLYOFFICE gives you a private alternative to services like Google Drive, OneDrive, or Dropbox, without sacrificing modern collaboration features. You get full ownership of your files and data while still enjoying browser-based editing, sharing, and syncing across devices.
+Hosting Seafile + ONLYOFFICE gives you a private alternative to services like Google Drive, OneDrive, or Dropbox, without sacrificing modern collaboration features. You get full ownership and control over your deployment while still enjoying browser-based editing, sharing, and syncing across devices.
 
-This template provides a ready-to-run setup where Seafile and ONLYOFFICE are pre-configured to work together seamlessly. Railway handles the infrastructure and deployment, so you can focus on using your cloud instead of managing servers.
+This template provides a ready-to-run setup where Seafile and ONLYOFFICE are pre-configured to work together seamlessly. Railway handles the infrastructure and deployment, so you can focus on using your cloud instead of wiring services together manually.
 
-If you’re looking for a broader all-in-one experience that includes photos, passwords, calendars, and more, check out My Own Suite, which builds on setups like this into a complete private cloud ecosystem.
+If you are looking for a broader all-in-one experience that includes photos, passwords, calendars, and more, check out My Own Suite, which builds on setups like this into a complete private cloud ecosystem.
 
 ## What gets deployed
 

@@ -1,4 +1,4 @@
-# Deploy diom on Railway
+# Deploy Diom on Railway
 
 Template to deploy a Diom server
 

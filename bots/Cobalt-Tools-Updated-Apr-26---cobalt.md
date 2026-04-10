@@ -1,6 +1,6 @@
-# Deploy Cobalt Tools [Updated Mar ’26] on Railway
+# Deploy Cobalt Tools [Updated Apr ’26] on Railway
 
-Cobalt Tools [Mar ’26] (Media Downloader, Converter & Automation) Self Host
+Cobalt Tools [Apr ’26] (Media Downloader, Converter & Automation) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cobalt)
 

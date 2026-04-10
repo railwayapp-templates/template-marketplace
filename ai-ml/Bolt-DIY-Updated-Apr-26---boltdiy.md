@@ -1,6 +1,6 @@
-# Deploy Bolt DIY [Updated Mar ’26] on Railway
+# Deploy Bolt DIY [Updated Apr ’26] on Railway
 
-Bolt DIY [Mar ’26] (AI App/Web Builder, Lovable & V0 alternative) Self Host
+Bolt DIY [Apr ’26] (AI App/Web Builder, Lovable & V0 alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/boltdiy)
 
