@@ -10,7 +10,7 @@ The Postgres Backup API is a lightweight Node.js service that allows you to secu
 
 Hosting this backup service on Railway involves deploying a lightweight container capable of running both Node.js and the native PostgreSQL client tools.
 
-When deployed on Railway, the Express server listens for HTTP GET requests on the `/backup` route. To ensure safety in a public cloud environment, the deployment relies on environment variables to establish the database connection and enforce token-based authentication for all backup requests.
+When deployed on Railway, the Express server listens for HTTP GET requests on the `/` route. To ensure safety in a public cloud environment, the deployment relies on environment variables to establish the database connection and enforce token-based authentication for all backup requests.
 
 ## What gets deployed
 
