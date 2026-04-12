@@ -20,8 +20,12 @@ With tailored support for:
 - Loki
 - Sentry
 - Papertrail
+- SigNoz
+- OpenTelemetry HTTP
 
 And more with the standard JSON and JSON Lines modes.
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/locomotive)
 
 ## Configuration
 
@@ -84,6 +88,8 @@ Configuration is done through environment variables. See explanation and example
     - Example for Datadog: `https://http-intake.logs.datadoghq.com/api/v2/logs`
     - Example for Axiom: `https://api.axiom.co/v1/datasets/{DATASET_NAME}/ingest`
     - Example for BetterStack: `https://in.logs.betterstack.com`
+    - Example for SigNoz: `https://ingest.{REGION}.signoz.cloud:443/v1/logs`
+    - Example for OpenTelemetry HTTP: `https://{OTEL_HTTP_ENDPOINT}/v1/logs`
 
     See [Provider specific setup](#provider-specific-setup) for more information.
 
@@ -118,10 +124,12 @@ Configuration is done through environment variables. See explanation and example
     - `betterstack`
     - `loki`
     - `sentry`
+    - `signoz`
+    - `otel_http`
 
     <br>
 
-- `LOCOMOTIVE_REPORT_STATUS_EVERY` - Reports the status of the locomotive every 1 minute.
+- `LOCOMOTIVE_REPORT_STATUS_EVERY` - Reports the status of the locomotive every 5 seconds.
 
     **Optional**.
 
@@ -232,6 +240,31 @@ Configuration is done through environment variables. See explanation and example
     The key can again be found in the 'Client Keys (DSN)' section of the Sentry project settings; it will be the user part of the given DSN.
 
     <br>
+
+#### SigNoz
+
+&gt; [!NOTE]
+&gt; The `signoz` mode targets **SigNoz Cloud** only. For self-hosted SigNoz, use the [`otel_http`](#opentelemetry-http) mode with your OTel Collector URL (e.g. `http://{SIGNOZ_HOSTNAME}:4318/v1/logs`).
+
+- `LOCOMOTIVE_WEBHOOK_MODE` - `signoz`
+
+- `LOCOMOTIVE_WEBHOOK_URL` - `https://ingest.{REGION}.signoz.cloud:443/v1/logs`
+
+    Replace `{REGION}` with your SigNoz Cloud region (e.g. `us`, `in`, `eu`).
+
+- `LOCOMOTIVE_ADDITIONAL_HEADERS` - `signoz-ingestion-key={SIGNOZ_INGESTION_KEY}`
+
+    The ingestion URL and key can be found in your SigNoz Cloud dashboard under 'Settings' &gt; 'Ingestion Settings'. See the [SigNoz Cloud Ingestion docs](https://signoz.io/docs/ingestion/signoz-cloud/overview/) for more information.
+
+    <br>
+
+#### OpenTelemetry HTTP
+
+- `LOCOMOTIVE_WEBHOOK_MODE` - `otel_http`
+
+- `LOCOMOTIVE_WEBHOOK_URL` - `https://{OTEL_COLLECTOR_HOSTNAME}/v1/logs`
+
+    The hostname would depend on where you are running your OpenTelemetry Collector. Remember to also add the port if necessary, likely `4318`.
 
 ## What gets deployed
 

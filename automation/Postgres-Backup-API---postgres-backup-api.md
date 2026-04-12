@@ -23,6 +23,7 @@ When deployed on Railway, the Express server listens for HTTP GET requests on th
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `PORT` | 8080 | Application port |
+| `PG_VERSION` | 18 | Your Postgres database version |
 | `DATABASE_URL` | - | Your Postgres database's internal or external URL |
 | `SECRET_TOKEN` | (secret) | Secure your backup endpoint using a secret token |
 

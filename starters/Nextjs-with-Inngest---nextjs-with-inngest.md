@@ -6,11 +6,7 @@ Nextjs + Inngest starter template
 
 ## About
 
-==============================================
-
 Next.js is a powerful React framework for building modern web applications, while Inngest is an event-driven queue and background job platform. Together, they allow developers to easily build, queue, and execute reliable background tasks, scheduled jobs, and complex workflows directly within their Next.js API routes without managing external worker servers.
-
----------------------------------
 
 Deploying a self-hosted Inngest setup alongside Next.js on Railway involves running both the Next.js application and the open-source Inngest server as separate services within a single project. The Inngest server requires Redis and PostgreSQL backing services to manage state and queues.
 
@@ -64,6 +60,6 @@ The core challenge is establishing secure, reliable communication between the tw
 - **Healthcheck:** `/api/health`
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Queues · **Languages:** TypeScript, JavaScript, CSS
+**Category:** Starters · **Languages:** TypeScript, JavaScript, CSS
 
 [View on Railway →](https://railway.com/deploy/nextjs-with-inngest)

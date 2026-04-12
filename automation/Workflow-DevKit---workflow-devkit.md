@@ -8,10 +8,6 @@ Self-hosted durable workflows with observability - backed by Postgres
 
 [Workflow DevKit](https://useworkflow.dev) is a durable execution framework for JavaScript and TypeScript. It lets you build long-running, stateful workflows that can pause, resume, retry, and survive restarts, with built-in [observability](https://useworkflow.dev/docs/observability) for inspecting runs, steps, and events.
 
-This template deploys a minimal self-hosted [Workflow DevKit](https://useworkflow.dev) setup on Railway using the [Postgres World](https://useworkflow.dev/docs/deploying/world/postgres-world). It runs a flight booking example app and also hosts the Workflow observability UI, both connected to the same PostgreSQL database. The template is designed as a simple starter for running workflows outside of Vercel with durable state, a long-running worker process, and a live dashboard powered by Workflow’s [observability web package](https://github.com/vercel/workflow/tree/main/packages/web).
-
-Important: the observability UI in this template is intentionally unauthenticated for demo purposes. Anyone with the public URL can access it. For real deployments, you should keep observability private on an internal network, or fork the [`packages/web`](https://github.com/vercel/workflow/tree/main/packages/web) package from the [Workflow repository](https://github.com/vercel/workflow) and add your own authentication.
-
 ## What gets deployed
 
 | Service | Source | Type |
