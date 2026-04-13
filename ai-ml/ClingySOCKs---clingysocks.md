@@ -15,25 +15,26 @@ ClingySOCKs deploys as two services: a **FastAPI backend** (Python) that handles
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| baysuk728/clingysocks-frontend:latest | `ghcr.io/baysuk728/clingysocks-frontend:latest` | Web service |
-| baysuk728/clingysocks-backend:latest | `ghcr.io/baysuk728/clingysocks-backend:latest` | Web service |
+| frontend | `ghcr.io/baysuk728/clingysocks-frontend:latest` | Web service |
+| backend | `ghcr.io/baysuk728/clingysocks-backend:latest` | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `POSTGRES_DB` | Postgres | - | Internal database variable. Do not modify! |
+| `POSTGRES_DB` | Postgres | postgres | Internal database variable. Do not modify! |
 | `DATABASE_URL` | Postgres | - | Internal database variable. Do not modify! |
 | `POSTGRES_USER` | Postgres | (secret) | Internal database variable. Do not modify! |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Internal database variable. Do not modify! |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Internal database variable. Do not modify! |
-| `VITE_MEMORY_API_URL` | baysuk728/clingysocks-frontend:latest | - | uto-generated link to your backend API. Do not modify. |
-| `JWT_SECRET` | baysuk728/clingysocks-backend:latest | (secret) | JWT secret for local auth tokens (auto-generated if empty, set for production) |
-| `CORS_ORIGINS` | baysuk728/clingysocks-backend:latest | - | Internal variable. Do not modify! |
-| `DATABASE_URL` | baysuk728/clingysocks-backend:latest | - | Internal variable. Do not modify! |
-| `ENCRYPTION_KEY` | baysuk728/clingysocks-backend:latest | - | Encryption key for API keys stored in DB (64 hex chars or passphrase) |
-| `REQUIRE_SECRETS` | baysuk728/clingysocks-backend:latest | (secret) | Set to true to refuse startup without ENCRYPTION_KEY and JWT_SECRET |
-| `OPENROUTER_API_KEY` | baysuk728/clingysocks-backend:latest | (secret) | REQUIRED: Your OpenRouter API key. Get one at https://openrouter.ai/keys — This is the only key you need to start using the app! |
+| `PORT` | frontend | 80 | Internal variable. Do not modify! |
+| `VITE_MEMORY_API_URL` | frontend | - | uto-generated link to your backend API. Do not modify. |
+| `JWT_SECRET` | backend | (secret) | JWT secret for local auth tokens (auto-generated if empty, set for production) |
+| `CORS_ORIGINS` | backend | - | Internal variable. Do not modify! |
+| `DATABASE_URL` | backend | - | Internal variable. Do not modify! |
+| `ENCRYPTION_KEY` | backend | - | Encryption key for API keys stored in DB (64 hex chars or passphrase) |
+| `REQUIRE_SECRETS` | backend | (secret) | Set to true to refuse startup without ENCRYPTION_KEY and JWT_SECRET |
+| `OPENROUTER_API_KEY` | backend | (secret) | REQUIRED: Your OpenRouter API key. Get one at https://openrouter.ai/keys — This is the only key you need to start using the app! |
 
 ## Configuration
 

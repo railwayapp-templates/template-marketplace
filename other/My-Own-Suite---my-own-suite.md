@@ -37,6 +37,8 @@ Hosting My Own Suite means running your own connected set of everyday cloud tool
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
 | `DB_USER_HOST` | Seafile | % | - |
+| `SMTP_PASSWORD` | Seafile | (secret) | - |
+| `SMTP_USERNAME` | Seafile | (secret) | - |
 | `ONLYOFFICE_JWT_SECRET` | Seafile | (secret) | - |
 | `SEAFILE_ADMIN_PASSWORD` | Seafile | (secret) | - |
 | `SEAFILE_SERVER_PROTOCOL` | Seafile | https | - |
@@ -50,8 +52,16 @@ Hosting My Own Suite means running your own connected set of everyday cloud tool
 | `POSTGRES_USER` | Vaultwarden-Postgres | (secret) | - |
 | `POSTGRES_PASSWORD` | Vaultwarden-Postgres | (secret) | - |
 | `TIMEZONE` | My Own Suite | UTC | Use any TZ identifier from [this list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#Type) |
+| `SMTP_FROM` | My Own Suite | noreply@example.com | Sender email shown on outgoing mail |
+| `SMTP_HOST` | My Own Suite | smtp.example.com | Custom SMTP host for advanced users |
+| `SMTP_PORT` | My Own Suite | 587 | Custom SMTP port, usually 587 for STARTTLS |
+| `SMTP_ENABLED` | My Own Suite | false | Enable email features for compatible apps |
+| `SMTP_PASSWORD` | My Own Suite | (secret) | Custom SMTP password or API key |
+| `SMTP_SECURITY` | My Own Suite | starttls | SMTP security: starttls, force_tls, or off |
+| `SMTP_USERNAME` | My Own Suite | (secret) | Custom SMTP username |
 | `OWNER_PASSWORD` | My Own Suite | (secret) | - |
 | `SESSION_SECRET` | My Own Suite | (secret) | - |
+| `SMTP_FROM_NAME` | My Own Suite | My Own Suite | Sender name shown in inboxes |
 | `PUBLIC_URL_SCHEME` | My Own Suite | https | - |
 | `SEAFILE_ADMIN_PASSWORD` | My Own Suite | (secret) | - |
 | `RADICALE_ADMIN_PASSWORD` | My Own Suite | (secret) | - |
@@ -80,6 +90,8 @@ Hosting My Own Suite means running your own connected set of everyday cloud tool
 | `ALLOW_PRIVATE_IP_ADDRESS` | OnlyOffice | true | - |
 | `ADMIN_TOKEN` | Vaultwarden | (secret) | - |
 | `ROCKET_PORT` | Vaultwarden | 80 | - |
+| `SMTP_PASSWORD` | Vaultwarden | (secret) | - |
+| `SMTP_USERNAME` | Vaultwarden | (secret) | - |
 | `WEBSOCKET_ENABLED` | Vaultwarden | true | - |
 | `LANGS` | Stirling | en_GB | - |
 | `SYSTEM_DISABLEPIXEL` | Stirling | true | Disables analytics/tracking pixel behavior and related consent-prompt tracking hooks. |

@@ -1585,6 +1585,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Nitropage](./cms/Nitropage---G_8roH.md) | CMS |  | - | [Deploy](https://railway.com/deploy/G_8roH) |
 | [Nitropage with Postgres](./cms/Nitropage-with-Postgres---gWj8Bm.md) | CMS |  | - | [Deploy](https://railway.com/deploy/gWj8Bm) |
 | [No-as-a-Service](./other/No-as-a-Service---no-as-a-service.md) | Other |  | JavaScript | [Deploy](https://railway.com/deploy/no-as-a-service) |
+| [NOBUS-BOT](./bots/NOBUS-BOT---nobus-bot.md) | Bots |  | Python | [Deploy](https://railway.com/deploy/nobus-bot) |
 | [nocobase](./other/nocobase---j5tXQu.md) | Other |  | - | [Deploy](https://railway.com/deploy/j5tXQu) |
 | [NocoDB](./automation/NocoDB---opu-NU.md) | Automation |  | - | [Deploy](https://railway.com/deploy/opu-NU) |
 | [NocoDB (w/ Object Storage)](./automation/NocoDB-w-Object-Storage---nocodb-w-object-storage.md) | Automation |  | - | [Deploy](https://railway.com/deploy/nocodb-w-object-storage) |
@@ -2454,6 +2455,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [TanStack Start - Drizzle](./starters/TanStack-Start---Drizzle---nAdb0P.md) | Starters |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/nAdb0P) |
 | [TanStack Start Monorepo](./starters/TanStack-Start-Monorepo---trustworthy-smile.md) | Starters |  | TypeScript, CSS, Dockerfile | [Deploy](https://railway.com/deploy/trustworthy-smile) |
 | [TanStack Start Monorepo Bun](./starters/TanStack-Start-Monorepo-Bun---tanstack-start-mon-1.md) | Starters |  | TypeScript, CSS, Dockerfile | [Deploy](https://railway.com/deploy/tanstack-start-mon-1) |
+| [Tarsee](./ai-ml/Tarsee---tarsee.md) | AI/ML |  | JavaScript, CSS, HTML, Python, Shell, Dockerfile | [Deploy](https://railway.com/deploy/tarsee) |
 | [TaskFlow API](./starters/TaskFlow-API---taskflow-api.md) | Starters |  | C#, Dockerfile | [Deploy](https://railway.com/deploy/taskflow-api) |
 | [Tasks.md](./other/Tasksmd---tasksmd.md) | Other |  | - | [Deploy](https://railway.com/deploy/tasksmd) |
 | [taxhacker](./other/taxhacker---taxhacker-1.md) | Other |  | - | [Deploy](https://railway.com/deploy/taxhacker-1) |
