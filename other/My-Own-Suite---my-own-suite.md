@@ -67,6 +67,9 @@ Hosting My Own Suite means running your own connected set of everyday cloud tool
 | `RADICALE_ADMIN_PASSWORD` | My Own Suite | (secret) | - |
 | `RADICALE_ADMIN_USERNAME` | My Own Suite | (secret) | - |
 | `SUITE_MANAGER_BASE_PATH` | My Own Suite | /setup | - |
+| `SUITE_MANAGER_GITHUB_REPO` | My Own Suite | rpuls/my-own-suite | - |
+| `SUITE_MANAGER_UPDATES_MODE` | My Own Suite | notify-only | - |
+| `SUITE_MANAGER_UPDATES_ENABLED` | My Own Suite | true | - |
 | `PORT` | radicale-proxy | 3000 | - |
 | `RADICALE_PORT` | radicale-proxy | 5232 | - |
 | `CALENDAR_PROXY_TOKEN` | radicale-proxy | (secret) | - |

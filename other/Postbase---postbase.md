@@ -2,7 +2,7 @@
 
 The open-source alternative to Firebase and Supabase
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postbase-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postbase)
 
 ## About
 
@@ -36,6 +36,6 @@ Postbase ships as a single Docker container bundling PostgreSQL 18 (with pg_cron
 - **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other · **Languages:** TypeScript, Shell, Dockerfile, CSS, JavaScript
+**Category:** Other · **Verified:** Yes · **Languages:** TypeScript, Shell, Dockerfile, CSS, JavaScript
 
-[View on Railway →](https://railway.com/deploy/postbase-1)
+[View on Railway →](https://railway.com/deploy/postbase)
