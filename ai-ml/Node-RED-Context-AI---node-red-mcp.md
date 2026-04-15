@@ -1,6 +1,6 @@
-# Deploy Node-Red (w/ MCP servers) on Railway
+# Deploy Node-RED Context AI on Railway
 
-Node-RED with Model Context Protocol (MCP)
+AI workflows in Node-RED using Model Context Protocol (MCP)
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/node-red-mcp)
 
@@ -10,7 +10,7 @@ Node-RED MCP servers a visual automation environment that combines Node-RED with
 
 This template deploys two services:
 - A Node-RED instance with volume persistence to store flows
-- A Node.js MCP Host that connects to OpenAI using the MCP SDK
+- A Node.js-based MCP host acts as a bridge, enabling integration with LLM providers such as OpenAI, Anthropic, Gemini, and OpenRouter through the MCP SDK.
 
 After deployment, you must configure Node-RED to communicate with MCP Host:
 1. Go to your deployed mcp-host service in Railway.
@@ -25,11 +25,13 @@ This will allow Node-RED to communicate with the backend and execute AI prompts 
 | Service | Source | Type |
 |---------|--------|------|
 | node-red | [moises-paschoalick/node-red-mcp-server](https://github.com/moises-paschoalick/node-red-mcp-server) (root: node-red-docker) | Web service |
-| node-red-mcp-server | [moises-paschoalick/node-red-mcp-server](https://github.com/moises-paschoalick/node-red-mcp-server) | Web service |
+| bridge-mcp-server | [moises-paschoalick/node-red-mcp-server](https://github.com/moises-paschoalick/node-red-mcp-server) | Web service |
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/data`
 
 **Category:** AI/ML · **Languages:** JavaScript, HTML, TypeScript, Shell, Dockerfile
 

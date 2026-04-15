@@ -1,6 +1,6 @@
 # Deploy Strapi Legacio on Railway
 
-Deploy and Host New Strapi Project with Railway
+Strapi Legacio Template base
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/new-strapi-project)
 
@@ -35,6 +35,7 @@ Deploying this Strapi project requires a Node.js runtime to serve the API and ad
 | `CLOUDINARY_NAME` | new-cms | dbiigubyd | - |
 | `DATABASE_CLIENT` | new-cms | postgres | - |
 | `ADMIN_JWT_SECRET` | new-cms | (secret) | - |
+| `CLOUDINARY_FOLDER` | new-cms | strapi-sites-v3/ | - |
 | `CLOUDINARY_SECRET` | new-cms | (secret) | - |
 | `TRANSFER_TOKEN_SALT` | new-cms | (secret) | - |
 

@@ -30,7 +30,7 @@ Fizzy is built on Ruby on Rails with Hotwire (Turbo + Stimulus) for reactive ser
 | `SMTP_ADDRESS` | - | Hostname of your SMTP server (e.g., smtp.mailgun.org, smtp.sendgrid.net) |
 | `SMTP_PASSWORD` | (secret) | Password or API key for SMTP authentication |
 | `SMTP_USERNAME` | (secret) | Username for SMTP authentication |
-| `CSP_CONNECT_SRC` | storage.railway.app | CSP config to allow connections to Railway storage |
+| `CSP_CONNECT_SRC` | storage.railway.app t3.storageapi.dev | CSP Source connect for S3 |
 | `SECRET_KEY_BASE` | (secret) | 128-character hex string used to encrypt sessions and secure cookies |
 | `S3_ACCESS_KEY_ID` | - | S3 access key ID |
 | `VAPID_PUBLIC_KEY` | - | Public key for browser push notifications |
