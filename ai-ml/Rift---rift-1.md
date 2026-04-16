@@ -32,7 +32,9 @@ Self-hosting Rift on Railway is a good fit for teams that want more control over
 | `POSTGRES_PASSWORD` | Postgres | (secret) | - |
 | `REDIS_URL` | Rift | - | Redis URL for Rate Limiting |
 | `S3_REGION` | Rift | - | S3 Bucket Region |
+| `QDRANT_URL` | Rift | - | Qdrant URL for Vector Embedding |
 | `S3_ENDPOINT` | Rift | - | S3 Bucket Endpoint |
+| `QDRANT_API_KEY` | Rift | (secret) | QDRANT Access API key |
 | `S3_BUCKET_NAME` | Rift | - | S3 Bucket Name |
 | `ZERO_QUERY_URL` | Rift | - | URL for Zero Query Transactions |
 | `BETTER_AUTH_URL` | Rift | - | Deployment URL used for Auth |
@@ -45,9 +47,11 @@ Self-hosting Rift on Railway is a good fit for teams that want more control over
 | `S3_SECRET_ACCESS_KEY` | Rift | (secret) | S3 Bucket Secret Key for accessing the data |
 | `VITE_BETTER_AUTH_URL` | Rift | - | Deployment URL used for Auth |
 | `VITE_SELF_HOST_SOURCE` | Rift | Railway | Used to know the self-hosting setup process |
+| `CF_MARKDOWN_WORKER_URL` | Rift | - | Optional Service to convert files to markdown |
 | `VITE_APP_INSTANCE_MODE` | Rift | self_hosted | Change the behavior the app to work with self hosting enviroments |
 | `SELF_HOSTED_SETUP_TOKEN` | Rift | (secret) | Create a password; you will require it on sign-up. |
 | `UPLOAD_STORAGE_PROVIDER` | Rift | s3_compatible | Changes the bucket service used |
+| `CF_MARKDOWN_WORKER_TOKEN` | Rift | (secret) | Token to access Cloudflare ToMarkdown Worker |
 | `ZERO_QUERY_FORWARD_COOKIES` | Rift | true | Allow Zero to foward the user cookies to the backend |
 | `ZERO_MUTATE_FORWARD_COOKIES` | Rift | true | Allow Zero to foward the user cookies to the backend |
 | `PORT` | Zero | 4848 | - |
@@ -60,6 +64,7 @@ Self-hosting Rift on Railway is a good fit for teams that want more control over
 | `REDISPASSWORD` | Redis | (secret) | - |
 | `REDIS_PASSWORD` | Redis | (secret) | - |
 | `PORT` | qdrant | 6333 | - |
+| `QDRANT_URL` | qdrant | - | The private DNS name of the service. |
 | `QDRANT__SERVICE__API_KEY
 ` | qdrant | (secret) | - |
 

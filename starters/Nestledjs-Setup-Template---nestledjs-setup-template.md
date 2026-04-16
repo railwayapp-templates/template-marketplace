@@ -50,8 +50,8 @@ Nestled.js is a production-ready NestJS + React starter template with authentica
 |---------|--------|------|
 | PgBouncer | `railwayapp/pgbouncer:latest` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
-| api | [pirateandfox/muzebook](https://github.com/pirateandfox/muzebook) | Web service |
-| web | [pirateandfox/muzebook](https://github.com/pirateandfox/muzebook) | Web service |
+| api | [nestledjs/nestled-template](https://github.com/nestledjs/nestled-template) | Web service |
+| web | [nestledjs/nestled-template](https://github.com/nestledjs/nestled-template) | Web service |
 | Redis | `railwayapp/redis:7.2.5` | Database |
 
 ## Environment variables
@@ -109,6 +109,6 @@ Nestled.js is a production-ready NestJS + React starter template with authentica
 - **Start command:** `npm run start:web`
 - **Volume:** `/bitnami`
 
-**Category:** Starters
+**Category:** Starters · **Languages:** TypeScript, Shell, JavaScript, Dockerfile, CSS
 
 [View on Railway →](https://railway.com/deploy/nestledjs-setup-template)
