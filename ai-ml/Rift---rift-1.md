@@ -47,11 +47,12 @@ Self-hosting Rift on Railway is a good fit for teams that want more control over
 | `S3_SECRET_ACCESS_KEY` | Rift | (secret) | S3 Bucket Secret Key for accessing the data |
 | `VITE_BETTER_AUTH_URL` | Rift | - | Deployment URL used for Auth |
 | `VITE_SELF_HOST_SOURCE` | Rift | Railway | Used to know the self-hosting setup process |
-| `CF_MARKDOWN_WORKER_URL` | Rift | - | Optional Service to convert files to markdown |
+| `CF_MARKDOWN_WORKER_URL` | Rift | - | (Optional) Service to convert files to markdown |
 | `VITE_APP_INSTANCE_MODE` | Rift | self_hosted | Change the behavior the app to work with self hosting enviroments |
+| `BYOK_ENCRYPTION_KEY_B64` | Rift | - | Used to secure BYOK encryption |
 | `SELF_HOSTED_SETUP_TOKEN` | Rift | (secret) | Create a password; you will require it on sign-up. |
 | `UPLOAD_STORAGE_PROVIDER` | Rift | s3_compatible | Changes the bucket service used |
-| `CF_MARKDOWN_WORKER_TOKEN` | Rift | (secret) | Token to access Cloudflare ToMarkdown Worker |
+| `CF_MARKDOWN_WORKER_TOKEN` | Rift | (secret) | (Optional) Token to access Cloudflare ToMarkdown Worker |
 | `ZERO_QUERY_FORWARD_COOKIES` | Rift | true | Allow Zero to foward the user cookies to the backend |
 | `ZERO_MUTATE_FORWARD_COOKIES` | Rift | true | Allow Zero to foward the user cookies to the backend |
 | `PORT` | Zero | 4848 | - |

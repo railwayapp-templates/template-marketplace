@@ -29,24 +29,32 @@ If you are looking for a broader all-in-one experience that includes photos, pas
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `JWT_SECRET` | OnlyOffice | (secret) |
-| `JWT_ENABLED` | OnlyOffice | true |
-| `SECURE_LINK_SECRET` | OnlyOffice | (secret) |
-| `ALLOW_META_IP_ADDRESS` | OnlyOffice | true |
-| `ALLOW_PRIVATE_IP_ADDRESS` | OnlyOffice | true |
-| `MYSQLPORT` | MySQL | 3306 |
-| `MYSQLUSER` | MySQL | root |
-| `MYSQLPASSWORD` | MySQL | (secret) |
-| `MYSQL_DATABASE` | MySQL | seafile |
-| `MYSQL_ROOT_PASSWORD` | MySQL | (secret) |
-| `DB_USER_HOST` | Seafile | % |
-| `SEAFILE_ADMIN_EMAIL` | Seafile | admin@example.com |
-| `ONLYOFFICE_JWT_SECRET` | Seafile | (secret) |
-| `SEAFILE_ADMIN_PASSWORD` | Seafile | (secret) |
-| `SEAFILE_SERVER_PROTOCOL` | Seafile | https |
-| `VERIFY_ONLYOFFICE_CERTIFICATE` | Seafile | true |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `JWT_SECRET` | OnlyOffice | (secret) | - |
+| `JWT_ENABLED` | OnlyOffice | true | - |
+| `SECURE_LINK_SECRET` | OnlyOffice | (secret) | - |
+| `ALLOW_META_IP_ADDRESS` | OnlyOffice | true | - |
+| `ALLOW_PRIVATE_IP_ADDRESS` | OnlyOffice | true | - |
+| `MYSQLPORT` | MySQL | 3306 | - |
+| `MYSQLUSER` | MySQL | root | - |
+| `MYSQLPASSWORD` | MySQL | (secret) | - |
+| `MYSQL_DATABASE` | MySQL | seafile | - |
+| `MYSQL_ROOT_PASSWORD` | MySQL | (secret) | - |
+| `SMTP_FROM` | Seafile | noreply@example.com | Sender email shown on outgoing mail |
+| `SMTP_HOST` | Seafile | smtp.example.com | Custom SMTP host for advanced users |
+| `SMTP_PORT` | Seafile | 587 | Custom SMTP port, usually 587 for STARTTLS |
+| `DB_USER_HOST` | Seafile | % | - |
+| `SMTP_ENABLED` | Seafile | false | OBD: requires Railway pro plan ‼️ Enable email features for compatible apps |
+| `SMTP_PASSWORD` | Seafile | (secret) | Custom SMTP password or API key |
+| `SMTP_SECURITY` | Seafile | starttls | SMTP security: starttls, force_tls, or off |
+| `SMTP_USERNAME` | Seafile | (secret) | Custom SMTP username |
+| `SEAFILE_ADMIN_EMAIL` | Seafile | admin@example.com | - |
+| `ONLYOFFICE_JWT_SECRET` | Seafile | (secret) | - |
+| `SEAFILE_ADMIN_PASSWORD` | Seafile | (secret) | - |
+| `SEAFILE_SERVER_PROTOCOL` | Seafile | https | - |
+| `SEAFILE_SERVER_LETSENCRYPT` | Seafile | false | required for adding custom domain, SSL will be handled by Railway |
+| `VERIFY_ONLYOFFICE_CERTIFICATE` | Seafile | true | - |
 
 ## Configuration
 

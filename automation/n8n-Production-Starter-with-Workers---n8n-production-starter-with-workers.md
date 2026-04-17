@@ -22,10 +22,10 @@ This separation allows the system to scale horizontally without blocking the mai
 
 | Service | Source | Type |
 |---------|--------|------|
-| n8n worker | `n8nio/n8n:2.14.2` | Worker |
-| n8n admin | `n8nio/n8n:2.14.2` | Database |
-| redis | `redis:8.2.1` | Database |
-| postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| n8n worker | `n8nio/n8n:2.16.1` | Worker |
+| n8n admin | `n8nio/n8n:2.16.1` | Database |
+| redis for n8n | `redis:8.2.1` | Database |
+| postgres for n8n | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
@@ -73,16 +73,17 @@ This separation allows the system to scale horizontally without blocking the mai
 | `EXECUTIONS_DATA_SAVE_MANUAL_EXECUTIONS` | n8n admin | true |
 | `EXECUTIONS_DATA_PRUNE_HARD_DELETE_INTERVAL` | n8n admin | 15 |
 | `EXECUTIONS_DATA_PRUNE_SOFT_DELETE_INTERVAL` | n8n admin | 60 |
-| `REDISPORT` | redis | 6379 |
-| `REDISUSER` | redis | default |
-| `REDISPASSWORD` | redis | (secret) |
-| `REDIS_PASSWORD` | redis | (secret) |
-| `POSTGRES_DB` | postgres | main |
-| `POSTGRES_USER` | postgres | (secret) |
-| `POSTGRES_PASSWORD` | postgres | (secret) |
+| `REDISPORT` | redis for n8n | 6379 |
+| `REDISUSER` | redis for n8n | default |
+| `REDISPASSWORD` | redis for n8n | (secret) |
+| `REDIS_PASSWORD` | redis for n8n | (secret) |
+| `POSTGRES_DB` | postgres for n8n | main |
+| `POSTGRES_USER` | postgres for n8n | (secret) |
+| `POSTGRES_PASSWORD` | postgres for n8n | (secret) |
 
 ## Configuration
 
+- **Start command:** `n8n worker`
 - **Volume:** `/home/node/.n8n`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
@@ -90,6 +91,6 @@ This separation allows the system to scale horizontally without blocking the mai
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Other
+**Category:** Automation
 
 [View on Railway →](https://railway.com/deploy/n8n-production-starter-with-workers)

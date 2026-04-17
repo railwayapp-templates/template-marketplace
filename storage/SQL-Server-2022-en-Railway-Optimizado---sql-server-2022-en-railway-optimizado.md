@@ -18,13 +18,29 @@ Este proyecto está diseñado para ser alojado rápida y fácilmente en platafor
 
 | Variable | Default |
 | --------- | ------- |
+| `TZ` | America/Lima |
+| `MSSQL_PID` | Developer |
+| `MSSQL_LCID` | 3082 |
+| `ACCEPT_EULA` | Y |
+| `MSSQL_LOG_DIR` | /var/opt/mssql/log |
+| `MSSQL_SUSPEND` | false |
+| `MSSQL_DATA_DIR` | /var/opt/mssql/data |
+| `MSSQL_COLLATION` | 82)mZWo#4hk.KWVDi(Yy |
+| `MSSQL_BACKUP_DIR` | /var/opt/mssql/backup |
 | `MSSQL_SA_PASSWORD` | (secret) |
+| `MSSQL_SECRETS_DIR` | (secret) |
+| `MSSQL_AGENT_ENABLED` | true |
+| `MSSQL_DUMP_ON_ERROR` | 0 |
+| `MSSQL_TCP_KEEPALIVE` | 30000 |
+| `MSSQL_ENABLE_COREDUMP` | 0 |
+| `MSSQL_MEMORY_LIMIT_MB` | 4000 |
+| `MSSQL_TCP_KEEPALIVE_INTERVAL` | 1000 |
 
 ## Configuration
 
 - **TCP Proxies:** 1433
 - **Volume:** `/var/opt/mssql`
 
-**Category:** Storage · **Languages:** Dockerfile, Shell, TSQL
+**Category:** Storage · **Languages:** Shell, Dockerfile, TSQL
 
 [View on Railway →](https://railway.com/deploy/sql-server-2022-en-railway-optimizado)

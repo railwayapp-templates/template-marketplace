@@ -1,15 +1,14 @@
 # Deploy Libredesk on Railway
 
-Modern, open source, self-hosted customer support desk. Single binary app.
+Modern, open source, self-hosted omnichannel customer support desk.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/libredesk)
 
 ## About
 
-Libredesk is a modern, open source, self-hosted customer support desk. Shared inboxes, automation, SLA management, CSAT surveys, and AI-assisted responses - all in a single binary.
+Libredesk is a modern, open source, self-hosted omnichannel customer support desk. Live chat, email, automation, SLA management, CSAT surveys, and AI-assisted responses — all packed into a single binary.
 
-This template deploys Libredesk with PostgreSQL and Redis pre-configured. On first deploy, the database schema is installed and an admin user is created with the password you provide.      
-Upgrades are automatic - just redeploy with the latest image and migrations run on startup.
+This template deploys Libredesk with PostgreSQL and Redis pre-configured. On first deploy, the database schema is installed and an admin user is created with the password you provide. Upgrades are automatic - just redeploy with the latest image and migrations run on startup.
 
 ## What gets deployed
 

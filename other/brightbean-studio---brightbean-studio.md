@@ -22,7 +22,9 @@ Brightbean-studio is a Django app that needs three things: a web process, a back
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `APP_URL` | brightbean-studio-web | - | User should add after initial deployment correct URL |
 | `SECRET_KEY` | brightbean-studio-web | (secret) | - |
+| `ALLOWED_HOSTS` | brightbean-studio-web | * | User should later remove wild card and change to correct host |
 | `STORAGE_BACKEND` | brightbean-studio-web | local | User can change later to S3 |
 | `DJANGO_SETTINGS_MODULE` | brightbean-studio-web | config.settings.production | - |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
@@ -30,18 +32,19 @@ Brightbean-studio is a Django app that needs three things: a web process, a back
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `APP_URL` | brightbean-studio-worker | - | User should add after initial deployment correct URL  |
 | `SECRET_KEY` | brightbean-studio-worker | (secret) | - |
+| `ALLOWED_HOSTS` | brightbean-studio-worker | * | User should later remove wild card and change to correct host |
 | `STORAGE_BACKEND` | brightbean-studio-worker | local | User can change later to S3 |
 | `DJANGO_SETTINGS_MODULE` | brightbean-studio-worker | config.settings.production | - |
 
 ## Configuration
 
-- **Start command:** `python manage.py migrate && echo GUNICORN_STARTING_ON_PORT=$PORT && exec gunicorn config.wsgi:application --bind 0.0.0.0:${PORT:-8000} --workers 1 --log-level debug --error-logfile - --access-logfile - --capture-output`
 - **Healthcheck:** `/health/`
 - **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
-- **Start command:** `python manage.py process_tasks`
+- **Start command:** `python manage.py migrate && python manage.py process_tasks`
 
 **Category:** Other · **Languages:** HTML, Python, CSS, JavaScript, Makefile, Dockerfile, Procfile
 

@@ -14,7 +14,7 @@ Hosting Shotlink involves running a Go-based web service that interfaces with Ch
 
 | Service | Source | Type |
 |---------|--------|------|
-| Shotlink | [Gausix/Shotlink](https://github.com/Gausix/Shotlink) | Worker |
+| Shotlink | [YeDawa/Shotlink](https://github.com/YeDawa/Shotlink) | Worker |
 
 **Category:** Other · **Languages:** Go, Dockerfile
 

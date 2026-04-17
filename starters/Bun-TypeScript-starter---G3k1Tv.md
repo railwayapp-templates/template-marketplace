@@ -33,6 +33,7 @@ Zero dependencies - next gen - fully featured - very lightweight
 
 ## Configuration
 
+- **Start command:** `./app`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Starters · **Languages:** TypeScript
