@@ -6,7 +6,7 @@ Full ecommerce solution, manage products, inventory, orders, etc.
 
 ## About
 
-Deploy a **best-in-class e-commerce stack** in minutes. This boilerplate brings you an all-in-one MedusaJS 2.0 webshop solution, preconfigured with backend, admin dashboard, and a connected storefront (webshop). Everything you need to get started with a modern, feature-rich shop, now updated to **v2.12.1 🤩 (7. December 2025)**.
+Deploy a **best-in-class e-commerce stack** in minutes. This boilerplate brings you an all-in-one MedusaJS 2.0 webshop solution, preconfigured with backend, admin dashboard, and a connected storefront (webshop). Everything you need to get started with a modern, feature-rich shop, now updated to **v2.13.6 🤩 (19. April 2026)**.
 
 ### Video Instructions
 [![Watch the video](https://img.youtube.com/vi/Gr5F2j5B-os/maxresdefault.jpg)](https://youtu.be/Gr5F2j5B-os)

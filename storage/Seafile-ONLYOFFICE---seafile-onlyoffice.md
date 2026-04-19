@@ -8,7 +8,11 @@ Private Open Source Version of Google; Drive + Docs + Sheets + Slides
 
 Seafile + ONLYOFFICE is a powerful self-hosted file cloud and document editing stack that lets you store, sync, and collaborate on files with full control. Seafile provides fast and reliable file syncing and sharing, while ONLYOFFICE adds real-time collaborative editing for documents, spreadsheets, and presentations, all running on your own infrastructure.
 
-![Seafile](https://github.com/rpuls/my-own-suite/blob/main/site/src/assets/screenshots/seafile/seafile-private-cloud-starred-library-favorites-quick-access-dashboard.png?raw=true)
+### Video Instructions
+[![Watch the video](https://i3.ytimg.com/vi/VBZGHCjFHlw/maxresdefault.jpg)](https://youtu.be/VBZGHCjFHlw)
+Click ☝️ to play on YouTube
+
+Blog article: https://funkyton.com/goodbye-google-drive-my-self-hosted-drive-and-docs-replacement/
 
 ![ONLYOFFICE](https://github.com/rpuls/my-own-suite/blob/main/site/src/assets/screenshots/onlyoffice/onlyoffice-open-source-self-hosted-office-suite-word-document-real-time-collaboration-editor.png?raw=true)
 
