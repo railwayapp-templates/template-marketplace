@@ -6,9 +6,13 @@ Self-host Apache Superset — open-source BI and data visualization
 
 ## About
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/superset?referralCode=QXdhdr&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 Apache Superset is a modern, open-source data exploration and visualization platform — think Tableau or Looker, but free and self-hostable. It lets analysts and engineers query any SQL-speaking database, build rich interactive dashboards, and schedule alerts and reports without handing data to a SaaS vendor.
 
 Deploy Apache Superset on Railway with a pre-wired PostgreSQL metadata database, a Redis cache and Celery broker, and dedicated worker and beat services. Self-host Superset in minutes, keep full control of your BI stack, and pay only for the compute you use.
+
+![Apache Superset Railway Architecture](https://res.cloudinary.com/asset-cloudinary/image/upload/v1776594994/superset_railway_arch_gjnpfy.png)
 
 Apache Superset (v6.0.1) is a web application built on Flask, React, and SQLAlchemy. It ships its own query engine (SQL Lab), a drag-and-drop chart builder with 50+ visualization types, a dashboard layout engine with cross-filters and drill-down, and a role-based access control system.
 
@@ -48,9 +52,9 @@ Architecture on Railway uses five services: the Superset gunicorn web app, a Cel
 | `DATABASE_URL` | Superset | - | Metadata DB connection string |
 | `SUPERSET_ENV` | Superset | production | Production mode flag |
 | `SUPERSET_PORT` | Superset | 8088 | Internal gunicorn port |
-| `ADMIN_PASSWORD` | Superset | (secret) | Bootstrap admin password |
+| `ADMIN_PASSWORD` | Superset | (secret) | Specify Bootstrap admin password. Note bootstrap username is 'admin' |
 | `DATABASE_DIALECT` | Superset | postgresql | Triggers psycopg2-binary install |
-| `SUPERSET_CONFIG_B64` | Superset | aW1wb3J0IG9zClNRTEFMQ0hFTVlfREFUQUJBU0VfVVJJID0gb3MuZW52aXJvbi5nZXQoIkRBVEFCQVNFX1VSTCIpCnIgPSBvcy5lbnZpcm9uLmdldCgiUkVESVNfVVJMIiwgInJlZGlzOi8vbG9jYWxob3N0OjYzNzkiKS5yc3RyaXAoIi8iKQpjbGFzcyBDZWxlcnlDb25maWc6CiAgICBicm9rZXJfdXJsID0gciArICIvMCIKICAgIHJlc3VsdF9iYWNrZW5kID0gciArICIvMSIKQ0VMRVJZX0NPTkZJRyA9IENlbGVyeUNvbmZpZwpDQUNIRV9DT05GSUcgPSB7IkNBQ0hFX1RZUEUiOiAiUmVkaXNDYWNoZSIsICJDQUNIRV9SRURJU19VUkwiOiByICsgIi8yIiwgIkNBQ0hFX0RFRkFVTFRfVElNRU9VVCI6IDMwMCwgIkNBQ0hFX0tFWV9QUkVGSVgiOiAic3VwZXJzZXRfIn0KREFUQV9DQUNIRV9DT05GSUcgPSB7IkNBQ0hFX1RZUEUiOiAiUmVkaXNDYWNoZSIsICJDQUNIRV9SRURJU19VUkwiOiByICsgIi8zIiwgIkNBQ0hFX0RFRkFVTFRfVElNRU9VVCI6IDMwMCwgIkNBQ0hFX0tFWV9QUkVGSVgiOiAic3VwZXJzZXRfZGF0YV8ifQpGRUFUVVJFX0ZMQUdTID0geyJBTEVSVF9SRVBPUlRTIjogVHJ1ZSwgIkRBU0hCT0FSRF9SQkFDIjogVHJ1ZSwgIkVNQkVEREVEX1NVUEVSU0VUIjogVHJ1ZX0KVEFMSVNNQU5fRU5BQkxFRCA9IEZhbHNlCldURl9DU1JGX0VOQUJMRUQgPSBUcnVlCldURl9DU1JGX1RJTUVfTElNSVQgPSBOb25lClNFU1NJT05fQ09PS0lFX0hUVFBPTkxZID0gVHJ1ZQpTRVNTSU9OX0NPT0tJRV9TRUNVUkUgPSBUcnVlClNFU1NJT05fQ09PS0lFX1NBTUVTSVRFID0gIkxheCIKRU5BQkxFX1BST1hZX0ZJWCA9IFRydWUK | Base64 superset_config.py |
+| `SUPERSET_CONFIG_B64` | Superset | aW1wb3J0IG9zClNRTEFMQ0hFTVlfREFUQUJBU0VfVVJJID0gb3MuZW52aXJvbi5nZXQoIkRBVEFCQVNFX1VSTCIpCnIgPSBvcy5lbnZpcm9uLmdldCgiUkVESVNfVVJMIiwgInJlZGlzOi8vbG9jYWxob3N0OjYzNzkiKS5yc3RyaXAoIi8iKQpjbGFzcyBDZWxlcnlDb25maWc6CiAgICBicm9rZXJfdXJsID0gciArICIvMCIKICAgIHJlc3VsdF9iYWNrZW5kID0gciArICIvMSIKQ0VMRVJZX0NPTkZJRyA9IENlbGVyeUNvbmZpZwpDQUNIRV9DT05GSUcgPSB7IkNBQ0hFX1RZUEUiOiAiUmVkaXNDYWNoZSIsICJDQUNIRV9SRURJU19VUkwiOiByICsgIi8yIiwgIkNBQ0hFX0RFRkFVTFRfVElNRU9VVCI6IDMwMCwgIkNBQ0hFX0tFWV9QUkVGSVgiOiAic3VwZXJzZXRfIn0KREFUQV9DQUNIRV9DT05GSUcgPSB7IkNBQ0hFX1RZUEUiOiAiUmVkaXNDYWNoZSIsICJDQUNIRV9SRURJU19VUkwiOiByICsgIi8zIiwgIkNBQ0hFX0RFRkFVTFRfVElNRU9VVCI6IDMwMCwgIkNBQ0hFX0tFWV9QUkVGSVgiOiAic3VwZXJzZXRfZGF0YV8ifQpGRUFUVVJFX0ZMQUdTID0geyJBTEVSVF9SRVBPUlRTIjogVHJ1ZSwgIkRBU0hCT0FSRF9SQkFDIjogVHJ1ZSwgIkVNQkVEREVEX1NVUEVSU0VUIjogVHJ1ZX0KVEFMSVNNQU5fRU5BQkxFRCA9IEZhbHNlCldURl9DU1JGX0VOQUJMRUQgPSBUcnVlCldURl9DU1JGX1RJTUVfTElNSVQgPSBOb25lClNFU1NJT05fQ09PS0lFX0hUVFBPTkxZID0gVHJ1ZQpTRVNTSU9OX0NPT0tJRV9TRUNVUkUgPSBUcnVlClNFU1NJT05fQ09PS0lFX1NBTUVTSVRFID0gIkxheCIKRU5BQkxFX1BST1hZX0ZJWCA9IFRydWUK | Base64 superset_config.py, feel free to update it with another base64 key at bootstrap |
 | `SUPERSET_SECRET_KEY` | Superset | (secret) | Flask session signing key |
 | `SUPERSET_LOAD_EXAMPLES` | Superset | no | Skip loading example dashboards |
 | `DEV_MODE` | Superset-Worker | false | Disable dev mode |

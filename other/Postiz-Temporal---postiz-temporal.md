@@ -6,7 +6,7 @@ All-in-one platform for social media management with Temporal orchestration
 
 ## About
 
-<img alt="Postiz Logo" src="https://github.com/user-attachments/assets/f0d30d70-dddb-4142-8876-e9aa6ed1cb99" width="280">
+<img width="280" src="https://github.com/user-attachments/assets/f0d30d70-dddb-4142-8876-e9aa6ed1cb99" alt="Postiz Logo">
 Postiz is an open-source social media scheduling and management platform with AI-powered content creation, multi-platform publishing across 19+ networks, team collaboration, and automation features. This template bundles Postiz with Temporal for durable workflow orchestration, ensuring scheduled posts publish reliably even through server restarts or network failures.
 
 ![Image 1](https://github.com/user-attachments/assets/a27ee220-beb7-4c7e-8c1b-2c44301f82ef)

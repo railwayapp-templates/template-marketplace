@@ -21,7 +21,6 @@ You do not need to know how to code to launch this! Railway handles all the serv
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `Port` | card-app-prod | 3000 | - |
 | `PROVISIONING_TOKEN` | card-app-prod | (secret) | Insert Provisioning Code Below! |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |

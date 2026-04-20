@@ -6,7 +6,9 @@ Claude-native workflow automation. Alpha — not production-ready.
 
 ## About
 
-Zyk is Claude-native workflow automation. Describe what you want in conversation, Claude generates real TypeScript and deploys it as a durable workflow — with   retries, scheduling, and human-in-the-loop built in. No node editors, no connectors to configure.                                                            
+![Zyk Demo](https://raw.githubusercontent.com/zyk-hq-dev/zyk/b979a2b3627aceded4402443e4d1f3630f29ee3d/assets/zyk-demo.gif)
+                                                                                                                                                                                                                                                                                             
+  Zyk is Claude-native workflow automation. Describe what you want in conversation, Claude generates real TypeScript and deploys it as a durable workflow — with   retries, scheduling, and human-in-the-loop built in. No node editors, no connectors to configure.                                                            
                                                                                                                                                                 
   ## About Hosting Zyk                                                                                                                                          
 
