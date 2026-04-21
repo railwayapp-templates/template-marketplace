@@ -1,6 +1,6 @@
 # Deploy Senpi OpenClaw on Railway
 
-One-click Hyperliquid AI trading agent with 31 tools—live in 2 minutes.
+One-click Hyperliquid AI trading agent with 58 tools—live in 2 minutes.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/senpi-openclaw)
 

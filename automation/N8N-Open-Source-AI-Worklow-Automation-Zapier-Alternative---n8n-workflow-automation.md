@@ -1,30 +1,30 @@
-# Deploy n8n-production-stack (w/ worker & webhook) on Railway
+# Deploy N8N | Open-Source AI Worklow Automation | Zapier Alternative on Railway
 
-Self-host Open-source workflow automation: 400+ integrations, AI agent
+Self-host n8n workflow automation with workers, postgres, webhooks & Redis
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-production-stack)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-workflow-automation)
 
 ## About
 
-Deploy a production-grade, self-hosted n8n instance on Railway in one click. This template provisions the full queue-mode architecture: a **main instance** (UI + API), a **worker** (workflow execution), a **webhook processor** (dedicated webhook handling), **PostgreSQL** for persistence, and **Redis** for the job queue — all pre-wired with private networking.
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-workflow-automation?referralCode=QXdhdr&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
-n8n is an open-source workflow automation platform that lets you connect 400+ apps, APIs, and services using a visual node editor — with the option to drop into JavaScript when you need it. Unlike SaaS tools, self-hosting n8n means your credentials and execution data never leave your infrastructure.
+n8n is an open-source, fair-code workflow automation platform that lets you connect 400+ apps, databases, and APIs through a visual node editor — with full code escape hatches when drag-and-drop isn't enough. Self-host n8n on Railway to keep your workflow data, API keys, and customer payloads in infrastructure you control, instead of routing them through a third-party SaaS.
 
-**Key features:**
-- 400+ native integrations (Slack, GitHub, Postgres, OpenAI, Stripe, and more)
-- Visual workflow builder with native code nodes (JavaScript/Python)
-- AI agent support via LangChain integration
-- Git-based version control for workflows
-- Webhook triggers, cron schedules, and event-based execution
+This Railway deployment runs a production-grade, queue-mode n8n stack: a main editor/API service, a dedicated worker pool, a separate webhook processor, PostgreSQL for persistence, and Redis as the BullMQ job broker. Every tier scales independently, so you can handle thousands of concurrent executions by adding workers without touching the editor.
 
-**Architecture in this template:**
+![n8n Railway architecture](https://res.cloudinary.com/asset-cloudinary/image/upload/v1776701287/n8n-automation-architecture_j84mbk.png)
 
-```
-Incoming webhook → Webhook Processor → Redis (Bull queue) → Worker executes
-Scheduled trigger → Main instance    → Redis (Bull queue) → Worker executes
-```
+n8n (pronounced "n-eight-n", short for nodemation) is a workflow automation tool maintained by n8n GmbH under the Sustainable Use License. Unlike no-code SaaS tools, self-hosted n8n gives you root-level control over data, execution logs, and custom JavaScript/Python code nodes — without per-execution pricing or step caps.
 
-The main instance never executes workflows itself — it only manages the UI and dispatches jobs. This prevents long-running workflows from blocking the editor or incoming webhooks.
+Key features:
+- Visual drag-and-drop editor with 400+ integrations
+- Code nodes (JavaScript + Python) for custom logic inside any workflow
+- Webhook, schedule, and event triggers
+- Queue mode for horizontal scaling across worker processes
+- Built-in version control, error workflows, and execution replay
+- AI nodes with native LangChain integration
+
+The deployment uses queue mode (`EXECUTIONS_MODE=queue`) — the main service enqueues jobs to Redis, and a pool of worker replicas pulls them off in parallel.
 
 ## What gets deployed
 
@@ -131,4 +131,4 @@ The main instance never executes workflows itself — it only manages the UI and
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/deploy/n8n-production-stack)
+[View on Railway →](https://railway.com/deploy/n8n-workflow-automation)
