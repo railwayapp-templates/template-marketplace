@@ -1,6 +1,6 @@
 # Deploy TwentyCRM on Railway
 
-Deploy the latest version of Twenty CRM (v1.*) on Railway with S3 Bucket
+Deploy the latest version of Twenty CRM (v2) on Railway with S3 Bucket
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nAL3hA)
 

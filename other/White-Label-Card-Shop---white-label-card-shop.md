@@ -14,14 +14,14 @@ You do not need to know how to code to launch this! Railway handles all the serv
 
 | Service | Source | Type |
 |---------|--------|------|
-| card-app-prod | [Verdic-Admin/card-app-prod](https://github.com/Verdic-Admin/card-app-prod) | Web service |
+| card-app-prod | [Verdic-Admin/card-app-prod](https://github.com/Verdic-Admin/card-app-prod) | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `PROVISIONING_TOKEN` | card-app-prod | (secret) | Insert Provisioning Code Below! |
+| `PLAYERINDEX_API_KEY` | card-app-prod | (secret) | Insert API Code Below! |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
@@ -30,7 +30,6 @@ You do not need to know how to code to launch this! Railway handles all the serv
 
 ## Configuration
 
-- **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
