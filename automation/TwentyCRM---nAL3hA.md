@@ -1,12 +1,12 @@
 # Deploy TwentyCRM on Railway
 
-Deploy the latest version of Twenty CRM (v2) on Railway with S3 Bucket
+Deploy the latest version (v2) of open-source CRM Twenty,  with S3 Bucket
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nAL3hA)
 
 ## About
 
-[Twenty CRM](https://twenty.com) is a modern, open-source customer relationship management system built for fast-growing companies. It adapts to your workflows, integrates directly with your customer data, and serves as a flexible platform for sales, support, and marketing operations.
+[TwentyCRM](https://twenty.com) is a modern, open-source customer relationship management system built for fast-growing companies. It adapts to your workflows, integrates directly with your customer data, and serves as a flexible platform for sales, support, and marketing operations.
 
 Hosting Twenty CRM involves deploying a self-hosted backend that manages your customer relationships, workflows, and internal processes. The platform is fully open-source and gives you control over infrastructure, data, and customization. You’ll configure environment variables, set up required services like PostgreSQL and Redis, and follow the standard deployment flow. With proper setup, Twenty CRM becomes a scalable and reliable customer operating system.
 
