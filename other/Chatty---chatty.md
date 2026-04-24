@@ -22,9 +22,7 @@ Deploying Chatty on Railway takes about 5 minutes. Click the deploy button, set 
 | --------- | ------- | ----------- |
 | `JWT_SECRET` | (secret) | - |
 | `AUTH_PASSWORD` | (secret) | Main password for Chatty access.  |
-| `GOOGLE_CLIENT_ID` | 493800201008-r75onc11p6uvk9r5u6pvuocouvbftviu.apps.googleusercontent.com | - |
 | `GOOGLE_CLIENT_SECRET` | (secret) | - |
-| `QUICKBOOKS_CLIENT_ID` | AB3XbbW3S1vM1ArJ6wE50sT5urcTpJBrvn9Vqthh40WQPJEXd1 | - |
 | `QUICKBOOKS_CLIENT_SECRET` | (secret) | - |
 
 ## Configuration
