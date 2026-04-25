@@ -1,6 +1,6 @@
 # Deploy ZenML (Open-Source MLOps Framework & Pipeline Orchestration Tool) on Railway
 
-ZenML [Mar ’26] (ML Pipelines, MLflow & Airflow alternative) Self Host
+ZenML [May ’26] (ML Pipelines, MLflow & Airflow alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zenml)
 

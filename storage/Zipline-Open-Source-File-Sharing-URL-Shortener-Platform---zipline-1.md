@@ -1,6 +1,6 @@
 # Deploy Zipline (Open-Source File Sharing & URL Shortener Platform) on Railway
 
-Zipline [Mar ’26] (Simple File Hosting & Link Shortening Tool) Self Host
+Zipline [May ’26] (Simple File Hosting & Link Shortening Tool) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zipline-1)
 

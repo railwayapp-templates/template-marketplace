@@ -1,6 +1,6 @@
 # Deploy Wiki.js (Open-Source Wiki & Documentation Platform) on Railway
 
-Wiki.js [Mar ’26] (Create, Edit & Share Knowledge Bases) Self Host
+Wiki.js [May ’26] (Create, Edit & Share Knowledge Bases) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wikijs)
 

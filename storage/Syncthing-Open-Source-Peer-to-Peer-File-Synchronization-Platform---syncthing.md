@@ -1,6 +1,6 @@
 # Deploy Syncthing (Open-Source Peer-to-Peer File Synchronization Platform) on Railway
 
-Syncthing [Mar ’26] (OSS File Sync Alternative to Google Drive) Self Host
+Syncthing [May ’26] (OSS File Sync Alternative to Google Drive) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/syncthing)
 

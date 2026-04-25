@@ -1,6 +1,6 @@
 # Deploy Donetick (Open-Source Task & Team Productivity Management Tool) on Railway
 
-DoneTick [Mar ’26] (Alternative to Paid to-do Applications) Self Host
+DoneTick [May ’26] (Alternative to Paid to-do Applications) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/donetick)
 

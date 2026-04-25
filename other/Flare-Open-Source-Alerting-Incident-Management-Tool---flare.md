@@ -1,6 +1,6 @@
 # Deploy Flare (Open-Source Alerting & Incident Management Tool) on Railway
 
-Flare (Monitor Systems & Send Smart Alerts) Self Host [Mar ’26]
+Flare (Monitor Systems & Send Smart Alerts) Self Host [May ’26]
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flare)
 

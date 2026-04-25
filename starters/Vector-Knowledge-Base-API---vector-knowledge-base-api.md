@@ -27,6 +27,7 @@ On deployment, the API initializes its database schema and is ready to index doc
 | `POSTGRES_DB` | postgres for vector index | railway |
 | `POSTGRES_USER` | postgres for vector index | (secret) |
 | `POSTGRES_PASSWORD` | postgres for vector index | (secret) |
+| `PORT` | vector index | 8000 |
 | `API_KEY` | vector index | (secret) |
 | `APP_ENV` | vector index | production |
 | `APP_NAME` | vector index | qdrant-starter-api |
@@ -37,6 +38,7 @@ On deployment, the API initializes its database schema and is ready to index doc
 | `QDRANT_API_KEY` | vector index | (secret) |
 | `EMBEDDING_MODEL` | vector index | BAAI/bge-small-en-v1.5 |
 | `QDRANT_COLLECTION` | vector index | documents |
+| `PORT` | qdrant for vector index | 6333 |
 | `QDRANT__SERVICE__API_KEY` | qdrant for vector index | (secret) |
 
 ## Configuration

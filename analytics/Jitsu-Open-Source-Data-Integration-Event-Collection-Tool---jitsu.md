@@ -1,6 +1,6 @@
 # Deploy Jitsu (Open-Source Data Integration & Event Collection Tool) on Railway
 
-Jitsu [Mar ’26] (Collect & Route Event Data in Real Time) Self Host
+Jitsu [May ’26] (Collect & Route Event Data in Real Time) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jitsu)
 

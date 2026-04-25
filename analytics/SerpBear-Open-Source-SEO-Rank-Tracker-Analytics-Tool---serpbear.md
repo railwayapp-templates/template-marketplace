@@ -1,6 +1,6 @@
 # Deploy SerpBear (Open-Source SEO Rank Tracker & Analytics Tool) on Railway
 
-SerpBear [Mar ’26] (Track Keyword Rankings & SERP Changes) Self Host
+SerpBear [May ’26] (Track Keyword Rankings & SERP Changes) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/serpbear)
 

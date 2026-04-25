@@ -52,33 +52,53 @@ Railway is a singular platform to deploy your infrastructure stack. Railway will
 
 | Service | Source | Type |
 |---------|--------|------|
-| AutoMem | [verygoodplugins/automem](https://github.com/verygoodplugins/automem) | Web service |
-| FalkorDB | `falkordb/falkordb:latest` | Web service |
-| SSE Service | [verygoodplugins/automem](https://github.com/verygoodplugins/automem) (root: /mcp-sse-server) | Web service |
+| qdrant | `qdrant/qdrant` | Worker |
+| memory-service | [verygoodplugins/automem](https://github.com/verygoodplugins/automem) | Web service |
+| falkordb | `falkordb/falkordb:latest` | Web service |
+| mcp-sse-server | [verygoodplugins/automem](https://github.com/verygoodplugins/automem) (root: /mcp-sse-server) | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `PORT` | AutoMem | 8001 | API port (required for SSE Service to connect) |
-| `QDRANT_URL` | AutoMem | - | Qdrant Cloud URL. Get free tier at cloud.qdrant.io |
-| `VECTOR_SIZE` | AutoMem | 3072 | Must match embedding model: 3072 for large, 768 for small |
-| `FALKORDB_HOST` | AutoMem | - | Internal hostname for FalkorDB service |
-| `FALKORDB_PORT` | AutoMem | 6379 | FalkorDB port |
-| `FALKORDB_GRAPH` | AutoMem | memories | Graph name for storing memories |
-| `OPENAI_API_KEY` | AutoMem | (secret) | Required for embeddings and classification. Get from platform.openai.com |
-| `QDRANT_API_KEY` | AutoMem | (secret) | Qdrant API key from your cluster dashboard |
-| `ADMIN_API_TOKEN` | AutoMem | (secret) | Admin token for /enrichment and /admin endpoints |
-| `EMBEDDING_MODEL` | AutoMem | text-embedding-3-large | OpenAI embedding model. Use text-embedding-3-small for lower cost. |
-| `AUTOMEM_API_TOKEN` | AutoMem | (secret) | API token for memory operations. Use in your MCP clients. |
-| `FALKORDB_PASSWORD` | AutoMem | (secret) | Password from FalkorDB service |
-| `CLASSIFICATION_MODEL` | AutoMem | gpt-5.2 | LLM for memory classification. Use gpt-4.1-mini to reduce costs. |
-| `REDIS_ARGS` | FalkorDB | --save 60 1 --appendonly yes --appendfsync everysec | Persist data to disk every 60s and on every write |
-| `FALKOR_PORT` | FalkorDB | 6379 | FalkorDB port (Redis protocol) |
-| `FALKOR_PASSWORD` | FalkorDB | (secret) | Auto-generated password for FalkorDB access |
-| `PORT` | SSE Service | 8080 | SSE server port |
-| `AUTOMEM_ENDPOINT` | SSE Service | - | Internal URL to AutoMem API |
-| `AUTOMEM_API_TOKEN` | SSE Service | (secret) | API token from AutoMem service |
+| `PORT` | qdrant | 6333 | Qdrant HTTP API port. |
+| `QDRANT__SERVICE__HOST` | qdrant | :: | Required on Railway. Enables dual-stack IPv6/IPv4 binding for internal networking. |
+| `PORT` | memory-service | 8001 | API port. Required so internal services like mcp-sse-server can connect reliably. |
+| `QDRANT_URL` | memory-service | - | Optional override for Qdrant Cloud. Leave blank to use the in-project qdrant service instead. |
+| `QDRANT_HOST` | memory-service | - | Internal hostname for the in-project Qdrant service. |
+| `QDRANT_PORT` | memory-service | 6333 | Qdrant port for internal networking. |
+| `VECTOR_SIZE` | memory-service | 1024 | Default embedding dimension. Matches voyage-4 and the current recommended default. |
+| `VOYAGE_MODEL` | memory-service | voyage-4 | Voyage embedding model. voyage-4 with VECTOR_SIZE=1024 is the current recommended default. |
+| `FALKORDB_HOST` | memory-service | - | Internal hostname for the FalkorDB service. |
+| `FALKORDB_PORT` | memory-service | 6379 | FalkorDB port. |
+| `FALKORDB_GRAPH` | memory-service | memories | Graph name used for memory storage. |
+| `OPENAI_API_KEY` | memory-service | (secret) | Optional OpenAI key for embeddings and classification. Required unless you use Voyage or another provider. |
+| `QDRANT_API_KEY` | memory-service | (secret) | Optional Qdrant API key. Only needed for Qdrant Cloud or protected external Qdrant. |
+| `VOYAGE_API_KEY` | memory-service | (secret) | Optional Voyage API key. If set, EMBEDDING_PROVIDER=auto will prefer Voyage. |
+| `ADMIN_API_TOKEN` | memory-service | (secret) | Admin token for /enrichment and /admin endpoints. |
+| `EMBEDDING_MODEL` | memory-service | text-embedding-3-small | OpenAI embedding model used when OpenAI is selected. Use text-embedding-3-large for 3072d. |
+| `OPENAI_BASE_URL` | memory-service | - | Optional custom OpenAI-compatible endpoint (OpenRouter, LiteLLM, vLLM, Azure, etc.). |
+| `GRAPH_VIEWER_URL` | memory-service | - | Optional standalone graph-viewer URL. Leave blank unless you deploy the public viewer service (https://github.com/verygoodplugins/automem-graph-viewer). |
+| `AUTOMEM_API_TOKEN` | memory-service | (secret) | API token for memory operations. Use in MCP clients and direct API calls. |
+| `FALKORDB_PASSWORD` | memory-service | (secret) | Password pulled from the FalkorDB service. |
+| `QDRANT_COLLECTION` | memory-service | memories | Qdrant collection name for embeddings. |
+| `EMBEDDING_PROVIDER` | memory-service | auto | Default provider strategy. Prefers Voyage if VOYAGE_API_KEY is set, then OpenAI, then local fallbacks. |
+| `ENABLE_GRAPH_VIEWER` | memory-service | true | Keep /viewer compatibility routes enabled on the API. |
+| `CLASSIFICATION_MODEL` | memory-service | gpt-5.4-mini | Default classification model for memory typing. Cheap and aligned with current code defaults. |
+| `VECTOR_SIZE_AUTODETECT` | memory-service | true | Safely adopt an existing Qdrant collection dimension instead of failing on mismatch. |
+| `VIEWER_ALLOWED_ORIGINS` | memory-service | - | Optional comma-separated CORS allowlist for the standalone graph-viewer. |
+| `PORT` | falkordb | 6379 | Service port exposed by Railway for FalkorDB. |
+| `REDIS_ARGS` | falkordb | --save 60 1 --appendonly yes --appendfsync everysec | Persistence settings: snapshot + append-only log. |
+| `FALKOR_PORT` | falkordb | 6379 | FalkorDB Redis protocol port. |
+| `FALKOR_PASSWORD` | falkordb | (secret) | Auto-generated password for FalkorDB access. |
+| `FALKOR_USERNAME` | falkordb | (secret) | Default FalkorDB username. |
+| `PORT` | mcp-sse-server | 8080 | MCP bridge port. |
+| `AUTOMEM_API_URL` | mcp-sse-server | - | Internal URL for the AutoMem API service. |
+| `AUTOMEM_API_TOKEN` | mcp-sse-server | (secret) | Reuse the main API token from memory-service. |
+| `HEALTH_TIMEOUT_MS` | mcp-sse-server | 5000 | Timeout for health probes against the AutoMem API. |
+| `UPSTREAM_TIMEOUT_MS` | mcp-sse-server | 15000 | Timeout for upstream AutoMem API calls. |
+| `UPSTREAM_MAX_RETRIES` | mcp-sse-server | 2 | Retry count for transient upstream failures. |
+| `HEALTH_PROBE_INTERVAL_MS` | mcp-sse-server | 30000 | Background health probe interval in milliseconds. |
 
 ## Configuration
 

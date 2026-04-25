@@ -1,6 +1,6 @@
 # Deploy ntfy (Open-Source Notification & Push Messaging Service) on Railway
 
-ntfy [Mar ’26] (Send Push Messages via Simple HTTP Calls) Self Host
+ntfy [May ’26] (Send Push Messages via Simple HTTP Calls) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ntfy)
 

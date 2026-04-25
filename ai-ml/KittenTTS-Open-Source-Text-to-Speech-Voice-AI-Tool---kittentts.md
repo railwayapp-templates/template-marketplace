@@ -1,6 +1,6 @@
 # Deploy KittenTTS (Open-Source Text-to-Speech & Voice AI Tool) on Railway
 
-Kitten TTS [Mar ’26] (Generate Natural AI Voices Instantly) Self Host
+Kitten TTS [May ’26] (Generate Natural AI Voices Instantly) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kittentts)
 

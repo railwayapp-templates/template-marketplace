@@ -1,6 +1,6 @@
 # Deploy MageAI or Mage AI (Open-Source Data Pipeline & Workflow Tool) on Railway
 
-MageAI [Mar ’26] (Build, Orchestrate & Monitor Data Flows) Self Host
+MageAI [May ’26] (Build, Orchestrate & Monitor Data Flows) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mageai)
 

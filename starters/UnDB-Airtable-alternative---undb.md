@@ -1,6 +1,6 @@
 # Deploy UnDB (Airtable alternative) on Railway
 
-[Mar ’26] Host Latest Version of UnDB on Railway with one click
+[May ’26] Host Latest Version of UnDB on Railway with one click
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/undb)
 

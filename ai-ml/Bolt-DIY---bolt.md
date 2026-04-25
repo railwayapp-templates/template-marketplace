@@ -1,6 +1,6 @@
 # Deploy Bolt DIY on Railway
 
-[Updated Mar '26] Deploy and Host Bolt DIY with Railway
+[Updated May '26] Deploy and Host Bolt DIY with Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bolt)
 

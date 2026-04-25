@@ -1,6 +1,6 @@
 # Deploy Flipt (Open-Source Feature Flag & Experimentation Platform) on Railway
 
-Flipt [Mar’26] (Feature Flags, LaunchDarkly & Unleash alternative) Selfhost
+Flipt [May’26] (Feature Flags, LaunchDarkly & Unleash alternative) Selfhost
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flipt)
 

@@ -1,6 +1,6 @@
 # Deploy Uptime (Open-Source Website & Service Monitoring Tool) on Railway
 
-[Updated Mar '26] Self-hosted Website and Service monitoring tool
+[Updated May '26] Self-hosted Website and Service monitoring tool
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uptimekuma)
 

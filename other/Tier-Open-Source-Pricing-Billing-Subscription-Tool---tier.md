@@ -1,6 +1,6 @@
 # Deploy Tier (Open-Source Pricing, Billing & Subscription Tool) on Railway
 
-Tier [Mar ’26] (Manage Subscriptions & Pricing Models) Self Host
+Tier [May ’26] (Manage Subscriptions & Pricing Models) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tier)
 

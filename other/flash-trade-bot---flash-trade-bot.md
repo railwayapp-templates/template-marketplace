@@ -18,25 +18,27 @@ Deploying flash-trade-bot on Railway gives you an always-on Express server behin
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `ASSET` | BTC |
-| `NETWORK` | mainnet-beta |
-| `LEVERAGE` | 2 |
-| `DRY_RUN_ONLY` | false |
-| `WEBHOOK_SECRET` | (secret) |
-| `COLLATERAL_USDC` | 20 |
-| `SLIPPAGE_EXIT_BPS` | 150 |
-| `SLIPPAGE_ENTRY_BPS` | 100 |
-| `TELEGRAM_BOT_TOKEN` | (secret) |
-| `MAX_DAILY_LOSS_USDC` | 15 |
-| `I_UNDERSTAND_REAL_MONEY` | no |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `ASSET` | BTC | - |
+| `NETWORK` | mainnet-beta | - |
+| `LEVERAGE` | 2 | Leverage multiplier, 1-10. |
+| `SETUP_MODE` | true | - |
+| `DRY_RUN_ONLY` | false | Keep false. Script-only mode; server refuses to boot when true. |
+| `WEBHOOK_SECRET` | (secret) | - |
+| `COLLATERAL_USDC` | 20 | Per-trade collateral, USD. Adjustable via dashboard sliders. |
+| `SLIPPAGE_EXIT_BPS` | 150 | Exit slippage tolerance, basis points. Higher than entry. |
+| `SLIPPAGE_ENTRY_BPS` | 100 | Entry slippage tolerance, basis points. 100 = 1%. |
+| `TELEGRAM_BOT_TOKEN` | (secret) | - |
+| `MAX_DAILY_LOSS_USDC` | 15 | Daily realized-loss circuit breaker. Bot auto-halts when hit; auto-clears at UTC midnight. |
+| `I_UNDERSTAND_REAL_MONEY` | yes | Must be literal yes to trade on mainnet. You are acknowledging real-money risk. |
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** Other · **Languages:** TypeScript, Dockerfile
+**Category:** Other · **Languages:** TypeScript, Dockerfile, JavaScript, CSS
 
 [View on Railway →](https://railway.com/deploy/flash-trade-bot)

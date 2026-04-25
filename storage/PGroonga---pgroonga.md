@@ -49,6 +49,6 @@ https://github.com/pgroonga/redmine-full-text-search-railway-sample
 - **Start command:** `/bin/sh -c "unset PGPORT; docker-entrypoint.sh postgres --port=5432"`
 - **Volume:** `/var/lib/postgresql`
 
-**Category:** Storage
+**Category:** Storage · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/pgroonga)

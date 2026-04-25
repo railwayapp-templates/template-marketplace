@@ -1,6 +1,6 @@
 # Deploy Databasus (Open-Source Database Backup & Automation Tool) on Railway
 
-Databasus [Mar ’26] (Multi-Database Backup & Restore Workflows), Self Host
+Databasus [May ’26] (Multi-Database Backup & Restore Workflows), Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/deploydatabasus)
 

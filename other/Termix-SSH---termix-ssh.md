@@ -24,6 +24,6 @@ Desktop and mobile app files are avaliable to install on GitHub. They are easy t
 - **Healthcheck:** `/heath`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other
+**Category:** Other · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/termix-ssh)

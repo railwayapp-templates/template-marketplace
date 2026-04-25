@@ -1,6 +1,6 @@
 # Deploy ScyllaDB (Open-Source NoSQL Database & Cassandra Alternative) on Railway
 
-ScyllaDB [Mar ’26] (High-Speed, Low-Latency Data Platform) Self Host
+ScyllaDB [May ’26] (High-Speed, Low-Latency Data Platform) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/scylladb)
 

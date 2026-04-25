@@ -1,6 +1,6 @@
 # Deploy EdgeDB (Open-Source Graph-Relational Database System) on Railway
 
-EdgeDB [Mar ’26] (Query Data with Modern Graph Features) Self Host
+EdgeDB [May ’26] (Query Data with Modern Graph Features) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/edgedb)
 

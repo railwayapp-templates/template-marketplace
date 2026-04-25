@@ -1,6 +1,6 @@
 # Deploy Infisical (Open-Source Secrets Management & Env Vault) on Railway
 
-Infisical [Mar ’26] (Securely Store & Sync Environment Variables) Self Host
+Infisical [May ’26] (Securely Store & Sync Environment Variables) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/infisical)
 

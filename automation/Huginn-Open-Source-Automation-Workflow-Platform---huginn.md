@@ -1,6 +1,6 @@
 # Deploy Huginn (Open-Source Automation & Workflow Platform) on Railway
 
-Huginn [Mar’26] (Workflows, Automation | IFTTT/Zapier Alternative) Selfhost
+Huginn [May’26] (Workflows, Automation | IFTTT/Zapier Alternative) Selfhost
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/huginn)
 
