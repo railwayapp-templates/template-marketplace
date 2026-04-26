@@ -52,60 +52,61 @@ Railway is a singular platform to deploy your infrastructure stack. Railway will
 
 | Service | Source | Type |
 |---------|--------|------|
-| qdrant | `qdrant/qdrant` | Worker |
-| memory-service | [verygoodplugins/automem](https://github.com/verygoodplugins/automem) | Web service |
+| mcp-automem | `ghcr.io/verygoodplugins/mcp-automem:stable` | Web service |
+| qdrant | `qdrant/qdrant` | Database |
+| automem | `ghcr.io/verygoodplugins/automem:stable` | Web service |
 | falkordb | `falkordb/falkordb:latest` | Web service |
-| mcp-sse-server | [verygoodplugins/automem](https://github.com/verygoodplugins/automem) (root: /mcp-sse-server) | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `PORT` | mcp-automem | 8080 | MCP bridge port. |
+| `AUTOMEM_API_URL` | mcp-automem | - | Internal URL for the AutoMem API service. |
+| `AUTOMEM_API_TOKEN` | mcp-automem | (secret) | Reuse the main API token from memory-service. |
+| `HEALTH_TIMEOUT_MS` | mcp-automem | 5000 | Timeout for health probes against the AutoMem API. |
+| `UPSTREAM_TIMEOUT_MS` | mcp-automem | 15000 | Timeout for upstream AutoMem API calls. |
+| `UPSTREAM_MAX_RETRIES` | mcp-automem | 5 | Retry count for transient upstream failures. |
+| `HEALTH_PROBE_INTERVAL_MS` | mcp-automem | 30000 | Background health probe interval in milliseconds. |
 | `PORT` | qdrant | 6333 | Qdrant HTTP API port. |
 | `QDRANT__SERVICE__HOST` | qdrant | :: | Required on Railway. Enables dual-stack IPv6/IPv4 binding for internal networking. |
-| `PORT` | memory-service | 8001 | API port. Required so internal services like mcp-sse-server can connect reliably. |
-| `QDRANT_URL` | memory-service | - | Optional override for Qdrant Cloud. Leave blank to use the in-project qdrant service instead. |
-| `QDRANT_HOST` | memory-service | - | Internal hostname for the in-project Qdrant service. |
-| `QDRANT_PORT` | memory-service | 6333 | Qdrant port for internal networking. |
-| `VECTOR_SIZE` | memory-service | 1024 | Default embedding dimension. Matches voyage-4 and the current recommended default. |
-| `VOYAGE_MODEL` | memory-service | voyage-4 | Voyage embedding model. voyage-4 with VECTOR_SIZE=1024 is the current recommended default. |
-| `FALKORDB_HOST` | memory-service | - | Internal hostname for the FalkorDB service. |
-| `FALKORDB_PORT` | memory-service | 6379 | FalkorDB port. |
-| `FALKORDB_GRAPH` | memory-service | memories | Graph name used for memory storage. |
-| `OPENAI_API_KEY` | memory-service | (secret) | Optional OpenAI key for embeddings and classification. Required unless you use Voyage or another provider. |
-| `QDRANT_API_KEY` | memory-service | (secret) | Optional Qdrant API key. Only needed for Qdrant Cloud or protected external Qdrant. |
-| `VOYAGE_API_KEY` | memory-service | (secret) | Optional Voyage API key. If set, EMBEDDING_PROVIDER=auto will prefer Voyage. |
-| `ADMIN_API_TOKEN` | memory-service | (secret) | Admin token for /enrichment and /admin endpoints. |
-| `EMBEDDING_MODEL` | memory-service | text-embedding-3-small | OpenAI embedding model used when OpenAI is selected. Use text-embedding-3-large for 3072d. |
-| `OPENAI_BASE_URL` | memory-service | - | Optional custom OpenAI-compatible endpoint (OpenRouter, LiteLLM, vLLM, Azure, etc.). |
-| `GRAPH_VIEWER_URL` | memory-service | - | Optional standalone graph-viewer URL. Leave blank unless you deploy the public viewer service (https://github.com/verygoodplugins/automem-graph-viewer). |
-| `AUTOMEM_API_TOKEN` | memory-service | (secret) | API token for memory operations. Use in MCP clients and direct API calls. |
-| `FALKORDB_PASSWORD` | memory-service | (secret) | Password pulled from the FalkorDB service. |
-| `QDRANT_COLLECTION` | memory-service | memories | Qdrant collection name for embeddings. |
-| `EMBEDDING_PROVIDER` | memory-service | auto | Default provider strategy. Prefers Voyage if VOYAGE_API_KEY is set, then OpenAI, then local fallbacks. |
-| `ENABLE_GRAPH_VIEWER` | memory-service | true | Keep /viewer compatibility routes enabled on the API. |
-| `CLASSIFICATION_MODEL` | memory-service | gpt-5.4-mini | Default classification model for memory typing. Cheap and aligned with current code defaults. |
-| `VECTOR_SIZE_AUTODETECT` | memory-service | true | Safely adopt an existing Qdrant collection dimension instead of failing on mismatch. |
-| `VIEWER_ALLOWED_ORIGINS` | memory-service | - | Optional comma-separated CORS allowlist for the standalone graph-viewer. |
+| `PORT` | automem | 8001 | API port. Required so internal services like mcp-automem can connect reliably. |
+| `QDRANT_URL` | automem | - | Optional override for Qdrant Cloud. Leave blank to use the in-project qdrant service instead. |
+| `QDRANT_HOST` | automem | - | Internal hostname for the in-project Qdrant service. |
+| `QDRANT_PORT` | automem | 6333 | Qdrant port for internal networking. |
+| `VECTOR_SIZE` | automem | 1024 | Default embedding dimension. Matches voyage-4 and the current recommended default. |
+| `VOYAGE_MODEL` | automem | voyage-4 | Voyage embedding model. voyage-4 with VECTOR_SIZE=1024 is the current recommended default. |
+| `FALKORDB_HOST` | automem | - | Internal hostname for the FalkorDB service. |
+| `FALKORDB_PORT` | automem | 6379 | FalkorDB port. |
+| `FALKORDB_GRAPH` | automem | memories | Graph name used for memory storage. |
+| `OPENAI_API_KEY` | automem | (secret) | Optional OpenAI key for embeddings and classification. Required unless you use Voyage or another provider. |
+| `QDRANT_API_KEY` | automem | (secret) | Optional Qdrant API key. Only needed for Qdrant Cloud or protected external Qdrant. |
+| `VOYAGE_API_KEY` | automem | (secret) | Optional Voyage API key. If set, EMBEDDING_PROVIDER=auto will prefer Voyage. |
+| `ADMIN_API_TOKEN` | automem | (secret) | Admin token for /enrichment and /admin endpoints. |
+| `EMBEDDING_MODEL` | automem | text-embedding-3-small | OpenAI embedding model used when OpenAI is selected. Use text-embedding-3-small for 1536d. |
+| `OPENAI_BASE_URL` | automem | - | Optional custom OpenAI-compatible endpoint (OpenRouter, LiteLLM, vLLM, Azure, etc.). |
+| `GRAPH_VIEWER_URL` | automem | - | Optional standalone graph-viewer URL. Leave blank unless you deploy the public viewer service (https://github.com/verygoodplugins/automem-graph-viewer). |
+| `AUTOMEM_API_TOKEN` | automem | (secret) | API token for memory operations. Use in MCP clients and direct API calls. |
+| `FALKORDB_PASSWORD` | automem | (secret) | Password pulled from the FalkorDB service. |
+| `QDRANT_COLLECTION` | automem | memories | Qdrant collection name for embeddings. |
+| `EMBEDDING_PROVIDER` | automem | auto | Default provider strategy. Prefers Voyage if VOYAGE_API_KEY is set, then OpenAI, then local fallbacks. |
+| `ENABLE_GRAPH_VIEWER` | automem | true | Keep /viewer compatibility routes enabled on the API. |
+| `CLASSIFICATION_MODEL` | automem | gpt-5.4-mini | Default classification model for memory typing. Cheap and aligned with current code defaults. |
+| `VECTOR_SIZE_AUTODETECT` | automem | true | Safely adopt an existing Qdrant collection dimension instead of failing on mismatch. |
+| `VIEWER_ALLOWED_ORIGINS` | automem | - | Optional comma-separated CORS allowlist for the standalone graph-viewer. |
 | `PORT` | falkordb | 6379 | Service port exposed by Railway for FalkorDB. |
 | `REDIS_ARGS` | falkordb | --save 60 1 --appendonly yes --appendfsync everysec | Persistence settings: snapshot + append-only log. |
 | `FALKOR_PORT` | falkordb | 6379 | FalkorDB Redis protocol port. |
 | `FALKOR_PASSWORD` | falkordb | (secret) | Auto-generated password for FalkorDB access. |
 | `FALKOR_USERNAME` | falkordb | (secret) | Default FalkorDB username. |
-| `PORT` | mcp-sse-server | 8080 | MCP bridge port. |
-| `AUTOMEM_API_URL` | mcp-sse-server | - | Internal URL for the AutoMem API service. |
-| `AUTOMEM_API_TOKEN` | mcp-sse-server | (secret) | Reuse the main API token from memory-service. |
-| `HEALTH_TIMEOUT_MS` | mcp-sse-server | 5000 | Timeout for health probes against the AutoMem API. |
-| `UPSTREAM_TIMEOUT_MS` | mcp-sse-server | 15000 | Timeout for upstream AutoMem API calls. |
-| `UPSTREAM_MAX_RETRIES` | mcp-sse-server | 2 | Retry count for transient upstream failures. |
-| `HEALTH_PROBE_INTERVAL_MS` | mcp-sse-server | 30000 | Background health probe interval in milliseconds. |
 
 ## Configuration
 
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/qdrant/storage`
 - **Volume:** `/var/lib/falkordb/data`
 
-**Category:** AI/ML · **Languages:** Python, JavaScript, Shell, Makefile, Dockerfile
+**Category:** AI/ML
 
 [View on Railway →](https://railway.com/deploy/automem-ai-memory-service)

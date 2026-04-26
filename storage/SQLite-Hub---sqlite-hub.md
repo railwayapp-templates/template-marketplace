@@ -14,21 +14,23 @@ Hosting SQLite Hub on Railway requires a single service backed by a persistent v
 
 | Service | Source | Type |
 |---------|--------|------|
-| sqlite-hub | [0xdps/sqlite-hub-template](https://github.com/0xdps/sqlite-hub-template) | Web service |
+| SQLite Hub | `ghcr.io/0xdps/mesahub-core:latest` | Web service |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `ADMIN_TOKEN` | (secret) | Admin API + dashboard auth token (min 8 chars). |
-| `SESSION_SECRET` | (secret) | Iron-session cookie signing key — must be at least 32 chars. |
+| `ADMIN_TOKEN` | (secret) | Admin Token |
+| `SESSION_SECRET` | (secret) | Secret Session Key |
+| `CORS_ALLOWED_ORIGINS` | * | CORS allowed origins for cross-origin browser integrations. |
+| `FILE_TOKEN_SIGNING_SECRET` | (secret) | File Token Signing Key |
 
 ## Configuration
 
-- **Healthcheck:** `/health`
+- **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** Storage · **Languages:** TypeScript, Go, CSS, Shell, Just, Dockerfile, JavaScript
+**Category:** Storage
 
 [View on Railway →](https://railway.com/deploy/sqlite-hub)
