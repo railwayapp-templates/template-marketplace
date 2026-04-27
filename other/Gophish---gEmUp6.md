@@ -6,17 +6,11 @@ An open-source phishing simulation toolkit for pentesters & security teams.
 
 ## About
 
-### Overview
-This template deploys [Gophish](https://getgophish.com), an open-source phishing simulation toolkit for pentesters and security teams. You can create email templates, define user groups, launch campaigns, and track responses, to test your organization's exposure to phishing attacks.
+Gophish is an open-source phishing simulation framework for pentesters and security teams. It lets you build phishing email templates, define target user groups, launch scheduled campaigns, and track responses in near real-time — helping organisations test and improve their resilience to phishing attacks.
 
-### Configuration
-The template uses the Gophish Docker image with some environment variables pre-configured to work on Railway; if you want to understand (or change) environment variables, see the source [here](https://github.com/gophish/gophish/blob/master/docker/run.sh) and the docs [here](https://docs.getgophish.com/user-guide/installation).
-  
-Once deployed, look for the `admin` credentials under the `View Logs` section of the `Deployments` tab - you'll find an entry similar to '*Please login with the username admin and the password 0f564d8fxd9161d25*'.
-
-### References
-* [Phishing Attack Simulation with Gophish](https://alphasec.io/phishing-attack-simulation-with-gophish)
-* [Gophish GitHub repo](https://github.com/gophish/gophish)
+Gophish runs as a single Go binary served via Docker with two interfaces: an admin server for managing campaigns and a phishing server that handles the actual email links and landing pages. This Railway template deploys the official Gophish Docker image with environment variables pre-configured for Railway's networking model. The admin interface is exposed on Railway's public domain; the phishing server runs on a separate internal port. No database or persistent volume is required for basic use — Gophish uses a SQLite database stored inside the container.
+ 
+⚠️ **Gophish should only be used against systems and users you have explicit, written authorisation to test. Unauthorised phishing simulations may be illegal.**
 
 ## What gets deployed
 

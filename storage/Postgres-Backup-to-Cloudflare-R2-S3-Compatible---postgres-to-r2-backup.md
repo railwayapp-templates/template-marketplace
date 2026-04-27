@@ -14,6 +14,7 @@ Automated PostgreSQL backups to S3-compatible storage with encryption
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
+| `RUN_ONCE` | true | Run once and exit |
 | `BACKUP_TIME` | 00:00 | Daily backup time (UTC, HH:MM) |
 | `DUMP_FORMAT` | dump | Backup format: sql, plain, dump, custom, tar |
 | `MAX_BACKUPS` | 7 | Number of backups to keep before auto-deletion |

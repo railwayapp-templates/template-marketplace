@@ -6,17 +6,9 @@ Streamlit apps for stock financial analysis using YFinance/Polygon API.
 
 ## About
 
-##Overview
-[Streamlit](https://streamlit.io/) is an open-source Python library that allows you to create and share interactive web apps and data visualisations in Python with ease. You create web apps using Python code, but with powerful add-on capabilities by Streamlit. It includes built-in support for several data visualisation libraries like matplotlib, pandas, and plotly, making it easy to create interactive charts and graphs that update in real-time based on user input.
+Stock financial analysis involves retrieving and visualising real-time and historical market data for a given stock ticker. This template uses [Streamlit](https://streamlit.io/) with the [YFinance](https://github.com/ranaroussi/yfinance) and [Massive](https://massive.com/) (formerly Polygon.io) APIs to display key financial metrics interactively.
 
-##Template
-This template uses Streamlit to deploy two simple web apps, respectively using the YFinance API and Polygon API to retrieve stock quote information.
-
-##Learn More
-* [Build an Interactive Python Web App with Streamlit](https://alphasec.io/build-an-interactive-python-web-app-with-streamlit/)
-* [Stock Financial Analysis with Streamlit and YFinance API](https://alphasec.io/stock-financial-analysis-with-streamlit-and-yfinance-api/)
-* [streamlit-yfinance](https://github.com/alphasecio/streamlit-yfinance) GitHub repo
-* [streamlit-polygon](https://github.com/alphasecio/streamlit-polygon) GitHub repo
+Hosting a stock financial analysis app requires a Python runtime with access to financial data APIs and a web server to serve the Streamlit interface. This template deploys two Streamlit apps — one powered by the YFinance API and one by the Massive API (formerly Polygon.io). Each app retrieves stock ticker details, plots a 30-day historical price chart, and displays key financial metrics including market cap, revenue, assets, liabilities, EPS, and previous day's OHLCV data. Railway handles all infrastructure provisioning, so no manual server configuration is required.
 
 ## What gets deployed
 

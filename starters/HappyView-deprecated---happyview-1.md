@@ -1,10 +1,14 @@
-# Deploy HappyView on Railway
+# Deploy HappyView (deprecated) on Railway
 
 A lexicon-driven ATProto AppView.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/happyview)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/happyview-1)
 
 ## About
+
+> This template deploys HappyView v1, which is no longer supported. Depending on which database you prefer, our updated templates are available here:
+> * [HappyView w/ SQLite](https://railway.com/deploy/happyview-2-sqlite-1?referralCode=0QOgj_)
+> * [HappyView w/ Postgres](https://railway.com/deploy/happyview-2-postgresql)
 
 HappyView is a lexicon-driven [ATProto](https://atproto.com/) [AppView](https://atproto.com/guides/glossary#app-view). Upload lexicon definitions at runtime and HappyView dynamically generates XRPC query and procedure endpoints, indexes records from the network, and proxies writes to users' PDSes — no restart required.
 
@@ -52,4 +56,4 @@ Hosting HappyView requires a Postgres database, an [AIP](https://github.com/graz
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/deploy/happyview)
+[View on Railway →](https://railway.com/deploy/happyview-1)

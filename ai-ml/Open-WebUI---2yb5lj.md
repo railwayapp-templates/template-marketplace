@@ -6,13 +6,9 @@ User-friendly ChatGPT UI alternative designed to operate offline.
 
 ## About
 
-### Overview
-This template deploys Open WebUI (formerly Ollama WebUI), an extensible, feature-rich, and user-friendly self-hosted web interface designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs.
+Open WebUI (formerly Ollama WebUI) is an extensible, self-hosted web interface for interacting with large language models. It supports Ollama and any OpenAI-compatible API, giving you a polished ChatGPT-like experience on your own infrastructure — with no data leaving your deployment.
 
-### Learn More
-* [Open-Source ChatGPT UI Alternative with Open WebUI](https://alphasec.io/open-source-chatgpt-ui-alternative-with-open-webui/)
-* [Open WebUI site](https://openwebui.com/)
-* [Open WebUI GitHub repo](https://github.com/open-webui/open-webui)
+Open WebUI is a single Docker container that serves a full-featured chat interface backed by a SQLite database. This Railway template deploys the container with a persistent volume for storing conversations, uploaded documents, user accounts, and settings across redeploys. On first visit, you create an admin account — the first user registered automatically receives admin privileges. Connect it to OpenAI-compatible APIs via environment variables or configure providers directly in the UI after login. Ollama is not bundled — if you want local model inference, deploy Ollama as a separate Railway service and point OLLAMA_BASE_URL at it.
 
 ## What gets deployed
 

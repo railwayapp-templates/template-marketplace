@@ -16,16 +16,16 @@ The template uses the official [NousResearch/hermes-agent](https://github.com/No
 
 ![Hermes Agent Official dashboard](https://res.cloudinary.com/asset-cloudinary/image/upload/v1776497358/hermes-official-dashboard_gu3gwl.png)
 
+![Hermes Agent official dashboard](https://res.cloudinary.com/asset-cloudinary/image/upload/v1777189955/c6e0f435-b614-4c09-b71e-ebdf42f172c3.png)
+
 Hermes Agent is a fully autonomous AI agent by Nous Research that lives on your server and communicates through messaging channels — there is no web chat UI. It remembers conversations, builds its own skills, and improves with every interaction.
 
 - **Learning loop** — agent-curated memory, autonomous skill creation, self-improving skills, and FTS5 session search with LLM summarization
 - **Multi-channel** — Telegram, Discord, Slack, WhatsApp, Signal, Email, Mattermost, Matrix via unified gateway
 - **200+ LLM models** — connect via OpenAI, Anthropic, Google Gemini, OpenRouter, DeepSeek, DashScope, GLM/Z.AI, Kimi, MiniMax, or HuggingFace
 - **Tool integrations** — search (Tavily, Parallel), scraping (Firecrawl), image gen (FAL), browser automation (Browserbase), GitHub, voice (Whisper/TTS)
-- **Parallel subagents** — spawn isolated subagents for concurrent workstreams
 - **Cron scheduler** — schedule automated tasks across platforms, manageable from the built-in dashboard
 - **Native Hermes dashboard** — full in-browser Keys tab, skills, toolsets, analytics, session history, and log viewer proxied at `/` behind the same login
-- **MIT licensed** — fully open source
 
 ## What gets deployed
 

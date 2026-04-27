@@ -1,6 +1,6 @@
 # Deploy Core on Railway
 
-Your Personal Memory Layer for AI Apps
+An AI butler that acts - deploy it
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/core)
 
@@ -16,7 +16,7 @@ Deploying core includes configuring your AI providers (OpenAI, Anthropic, etc.).
 |---------|--------|------|
 | Postgres | `pgvector/pgvector:pg18-trixie` | Database |
 | Redis | `redis:8.2.1` | Database |
-| core | `redplanethq/core:0.6.0` | Web service |
+| core | `redplanethq/core:0.7.4` | Web service |
 | neo4j | `redplanethq/neo4j:0.1.0` | Database |
 
 ## Environment variables

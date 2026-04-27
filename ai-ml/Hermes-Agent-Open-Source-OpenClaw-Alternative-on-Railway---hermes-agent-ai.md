@@ -6,7 +6,8 @@ Self Host Hermes Agent: Autonomous AI agent w/ self-improving, tools & more
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-ai?referralCode=QXdhdr&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-ai?referralCode=QXdhdr)
+
 
 Deploy Hermes Agent — the self-improving, open-source AI agent built by [Nous Research](https://nousresearch.com/). Hermes Agent is an autonomous agent that connects to your messaging channels (Telegram, Discord, Slack, WhatsApp, Email), learns from every interaction, creates its own skills, and gets more capable over time. It's not a chatbot wrapper — it's a persistent agent with tool use, memory, and a built-in learning loop.
 
