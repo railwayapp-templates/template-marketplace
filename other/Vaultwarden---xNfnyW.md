@@ -6,18 +6,9 @@ Alternative, self-hosted implementation of the Bitwarden password manager.
 
 ## About
 
-### Overview
-This template deploys [Vaultwarden](https://github.com/dani-garcia/vaultwarden), a self-hosted, Rust-based, alternative implementation of the Bitwarden password manager. 
+Vaultwarden is a lightweight, self-hosted alternative implementation of the Bitwarden password manager server, written in Rust. It is fully compatible with all official Bitwarden clients — browser extensions, desktop apps, and mobile apps — while being far less resource-intensive than the official server.
 
-The template deploys a lightweight Vaultwarden service from the official docker image and uses a mounted volume for persistent storage. It offers a full implementation of the Bitwarden Server API, including:
-* Organizations support
-* Attachments and Send
-* Vault API support
-* Serving the static files for Vault interface
-* Website icons API
-* Authenticator and U2F support
-* YubiKey and Duo support
-* Emergency access
+Vaultwarden implements the full Bitwarden Server API as a single Rust binary served via Docker. This Railway template deploys the official image with a persistent volume at `/data` for storing the encrypted vault database, attachments, and configuration. The admin panel is protected by a token set at deploy time. Railway handles HTTPS at the platform level — set `DOMAIN` to your Railway public URL (or custom domain) so Vaultwarden can generate correct URLs for client sync, attachments, and the admin panel. The first user to register becomes the vault owner; you can disable further registrations via the admin panel after your initial setup.
 
 ## What gets deployed
 

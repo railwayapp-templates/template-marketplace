@@ -31,7 +31,6 @@ On its first boot, a custom shell script automatically initializes the cluster t
 ## Configuration
 
 - **Start command:** `sh /start.sh`
-- **Healthcheck:** `/?health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 

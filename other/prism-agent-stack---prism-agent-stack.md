@@ -33,7 +33,6 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 | Service | Source | Type |
 |---------|--------|------|
 | discord-adapter | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/source-adapter) | Web service |
-| api | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/api) | Web service |
 | codex-runtime | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/codex-runtime) | Database |
 | knowledge-cron | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/prism-trigger) | Worker |
 | discord-sync-cron | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/prism-trigger) | Worker |
@@ -79,17 +78,6 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 | `SOURCE_CHECKPOINT_OVERLAP_MINUTES` | discord-adapter | 5 | Minutes of overlap when resuming Discord sync checkpoints. |
 | `VOICE_TRANSCRIPTION_RESPONSE_FORMAT` | discord-adapter | json | Response format sent to the transcription endpoint. |
 | `CODEX_RUNTIME_REQUEST_TIMEOUT_SECONDS` | discord-adapter | 660 | Timeout for adapter calls to Codex Runtime. |
-| `PORT` | api | 4010 | Port the API service listens on. |
-| `NODE_ENV` | api | production | Runtime environment for the API service. |
-| `ADMIN_EMAIL` | api | admin@local.agent | Initial admin account email. |
-| `APP_BASE_URL` | api | - | Public URL for the API service. |
-| `ADMIN_PASSWORD` | api | (secret) | Generated initial admin password. |
-| `SESSION_SECRET` | api | (secret) | Secret used to sign API sessions. |
-| `COMMUNITY_PROVIDER` | api | discord | Community adapter provider enabled for this stack. |
-| `PRISM_AGENT_DATA_ROOT` | api | /data | Mounted data directory for API runtime state. |
-| `PRISM_MEMORY_BASE_URL` | api | - | Private URL for |
-| `CODEX_RUNTIME_BASE_URL` | api | - | Private URL |
-| `INTERNAL_SERVICE_TOKEN` | api | (secret) | Shared token for internal service-to-service API calls. |
 | `PORT` | codex-runtime | 3030 | Port the Codex Runtime service listens on. |
 | `NODE_ENV` | codex-runtime | production | Runtime environment for Codex Runtime. |
 | `CODEX_HOME` | codex-runtime | /data/codex | Mounted Codex home directory for auth and thread state. |
@@ -122,11 +110,21 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 | `PORT` | prism-memory | 8788 | Port the Prism Memory service listens on. |
 | `PRISM_API_KEY` | prism-memory | (secret) | API key used to authorize Prism Memory API calls. |
 | `PRISM_API_SPACE` | prism-memory | community | Runtime Prism Memory space slug. |
+| `PRISM_GITHUB_TOKEN` | prism-memory | (secret) | github auth for private repos |
 | `PRISM_API_DATA_ROOT` | prism-memory | /data | Mounted data directory for Prism Memory runtime state. |
 | `PORT` | site | 3100 | Port the site service listens on. |
 | `NODE_ENV` | site | production | Runtime environment for the site service. |
-| `API_INTERNAL_BASE_URL` | site | - | Server-side API URL used by the |
-| `NEXT_PUBLIC_API_BASE_URL` | site | - | Browser-facing API URL used by the site. |
+| `ADMIN_EMAIL` | site | admin@local.agent | Admin bootstrap email |
+| `PRISM_API_KEY` | site | (secret) | Full Prism Memory key used |
+| `ADMIN_PASSWORD` | site | (secret) | Temporary admin password; change after deploy |
+| `SESSION_SECRET` | site | (secret) | Session signing secret for admin auth |
+| `COMMUNITY_PROVIDER` | site | discord | Community identity provider used by the app |
+| `PRISM_AGENT_DATA_ROOT` | site | /data | App SQLite/data root mounted on site |
+| `PRISM_MEMORY_BASE_URL` | site | - | Prism Memory base URL |
+| `CODEX_RUNTIME_BASE_URL` | site | - | Internal Codex runtime base URL |
+| `INTERNAL_SERVICE_TOKEN` | site | (secret) | Shared internal service token for |
+| `SITE_USE_LOCAL_APP_API` | site | true | Makes site own the app API and SQLite-backed |
+| `NEXT_PUBLIC_API_BASE_URL` | site | - | Browser- |
 
 ## Configuration
 
@@ -134,7 +132,6 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 - **Healthcheck:** `/api/health`
-- **Healthcheck:** `/`
 
 **Category:** Other · **Languages:** TypeScript, Python, Shell, JavaScript, CSS, Dockerfile
 

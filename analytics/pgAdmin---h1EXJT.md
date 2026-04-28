@@ -6,10 +6,9 @@ The most popular admin web interface for PostgreSQL databases.
 
 ## About
 
-### Overview
-This template deploys [pgAdmin](https://www.pgadmin.org), the most popular open-source administration and development platform for PostgreSQL databases.
+pgAdmin is the most widely used open-source administration and development platform for PostgreSQL. It provides a web-based GUI for managing databases, running queries, inspecting schemas, monitoring server activity, and performing backups — all without needing a local PostgreSQL client installed.
 
-See [this page](https://www.pgadmin.org/features) for the complete feature set, and [this page](https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html#environment-variables) for additional environment variables that can be configured during/after deployment to enhance pgAdmin capabilities.
+pgAdmin runs as a single Docker container that serves a full-featured database management interface. This Railway template deploys the official image with the admin email and password configured at deploy time. No persistent volume is required for basic use — server connection definitions can be saved to the container, though they will reset on redeploy unless a volume is attached. pgAdmin is most useful when deployed alongside a Railway PostgreSQL service; connect to it by adding a new server in pgAdmin using Railway's internal `DATABASE_URL` credentials.
 
 ## What gets deployed
 
@@ -32,6 +31,6 @@ See [this page](https://www.pgadmin.org/features) for the complete feature set, 
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other
+**Category:** Analytics
 
 [View on Railway →](https://railway.com/deploy/h1EXJT)

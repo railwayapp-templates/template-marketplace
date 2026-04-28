@@ -6,16 +6,9 @@ Simple webhook client and server demo apps.
 
 ## About
 
-## Template
-This template deploys two services - one each for the webhook server and client. The webhook server is built with Node.js and Express, while the webhook client is built with Streamlit.
+A minimal but realistic webhook client-server demo. The server receives signed webhook payloads and verifies them using HMAC-SHA256. The client provides a Streamlit UI to send signed or unsigned requests to any webhook endpoint — a practical introduction to the full webhook security pattern.
 
-## Overview
-The webhook server listens on port 3000, and exposes two endpoints `/webhook-1` and `/webhook-2`. The webhook client takes Webhook URL and JSON Payload as inputs, and makes an HTTP POST request to the specified webhook endpoint URL along with the payload. Please note that this is an extremely simple example, and should not be used as-is in any production capacity without appropriate security measures.
-
-## Learn More
-* [Getting Started with Webhooks: Part 1 - Webhook Servers](https://alphasec.io/getting-started-with-webhooks-part-1-webhook-servers/)
-* [Getting Started with Webhooks: Part 2 - Webhook Clients](https://alphasec.io/getting-started-with-webhooks-part-2-webhook-clients/)
-* [webhook-client-server](https://github.com/alphasecio/webhook-client-server) GitHub repo
+This Railway template deploys two services: a Node.js/Express webhook server and a Streamlit webhook client. The server exposes a parameterised `/webhook/:event` endpoint that accepts any event name, optionally verifies an HMAC-SHA256 signature against a shared secret, logs the event type and payload, and returns the received data as JSON. The client sends HTTP POST requests with a configurable URL, event type, JSON payload, and optional shared secret — if a secret is provided, the payload is signed automatically before sending. Both services are pre-configured to communicate over Railway's private internal network.
 
 ## What gets deployed
 

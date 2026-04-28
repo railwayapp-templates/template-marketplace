@@ -6,16 +6,9 @@ Sample LlamaIndex apps for chatting with PDFs and URL summaries.
 
 ## About
 
-### Overview
-This template deploys a collection of Streamlit apps that utilize the [LlamaIndex](https://www.llamaindex.ai) framework for interacting with large language models (LLMs). LlamaIndex is an open-source project that provides a simple interface between LLMs and external data sources like APIs, PDFs, SQL etc. It provides indices over structured and unstructured data, helping to abstract away the differences across data sources.
+LlamaIndex is an open-source framework for building LLM-powered applications over your own data. This template deploys two Streamlit apps — one for chatting with PDFs using LlamaParse, and one for summarizing URLs using Google Gemini — each demonstrating a core LlamaIndex pattern: document ingestion, indexing, and retrieval-augmented generation (RAG).
 
-###Pre-requisites
-You'll need API keys from [OpenAI](https://platform.openai.com/api-keys) and [LlamaCloud](https://cloud.llamaindex.ai/api-key) for this project.
-
-###Learn More
-* [Chat with PDF using LlamaIndex and LlamaParse](https://alphasec.io/chat-with-pdf-using-llamaindex-and-llamaparse)
-* [Blinkist for URLs with LlamaIndex and OpenAI](https://alphasec.io/blinkist-for-urls-with-llama-index-and-openai)
-* [llama-index](https://github.com/alphasecio/llama-index) GitHub repo
+Both apps are single-service Streamlit deployments with no persistent storage or database required. The PDF chat app uses LlamaParse to parse uploaded PDFs and OpenAI to answer queries over the indexed content. The URL summarizer uses Google Gemini to generate summaries of web pages fetched at runtime. API keys are entered via the sidebar at runtime — nothing is stored server-side. Railway handles HTTPS and port binding automatically via the `railway.toml` start command in each app.
 
 ## What gets deployed
 
