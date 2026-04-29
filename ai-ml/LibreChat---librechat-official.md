@@ -139,8 +139,8 @@ You’re one click away from running a complete, production-ready AI platform wi
 | `CUSTOM_FOOTER` | LibreChat | - | Custom footer text displayed in the UI |
 | `DEBUG_CONSOLE` | LibreChat | false | Enable verbose server output in the console (not recommended for production) |
 | `DEBUG_LOGGING` | LibreChat | true | - |
-| `GOOGLE_MODELS` | LibreChat | gemini-3.1-pro-preview,gemini-3.1-pro-preview-customtools,gemini-3-flash-preview,gemini-3.1-flash-lite-preview,gemini-2.5-pro,gemini-2.5-flash,gemini-2.5-flash-lite,gemini-2.0-flash,gemini-2.0-flash-lite | - |
-| `OPENAI_MODELS` | LibreChat | gpt-5.4,gpt-5.4-pro,gpt-5.4-mini,gpt-5.4-nano,gpt-5.2,gpt-5,gpt-5-mini,gpt-5-nano,gpt-4o,gpt-4o-mini,o3,o4-mini,gpt-image-1,chatgpt-4o-latest | - |
+| `GOOGLE_MODELS` | LibreChat | gemini-3.1-pro-preview,gemini-3.1-flash-lite-preview,gemini-3-pro,gemini-2.5-pro,gemini-2.5-flash,gemini-2.5-flash-lite,gemini-2.0-flash,gemini-2.0-flash-lite,gemini-live-2.5-flash-preview,gemini-2.5-flash-preview-09-2025,gemini-2.5-flash-lite-preview-09-2025,gemini-2.0-flash-live-001,gemini-2.0-flash-lite,gemini-1.5-pro,gemini-1.5-flash,gemini-1.5-flash-8b | - |
+| `OPENAI_MODELS` | LibreChat | gpt-5.5,gpt-5.5-pro,gpt-5.4,gpt-5.4-pro,gpt-5.4-mini,gpt-5.4-nano,gpt-5.3-codex,gpt-5.2,gpt-5.2-chat,gpt-5.2-pro,gpt-5.1,gpt-5.1-chat-latest,gpt-5,gpt-5-chat-latest,gpt-5-mini,gpt-5-nano,gpt-5-pro,gpt-5.1-codex,gpt-5-codex,gpt-5.1-codex-mini,codex-mini-latest,gpt-5-search-api,gpt-4.1,gpt-4.1-mini,gpt-4.1-nano,gpt-4o,gpt-4o-mini,gpt-4o-2024-05-13,gpt-4o-search-preview,gpt-4o-mini-search-preview,o4-mini,o4-mini-deep-research,o3,o3-pro,o3-deep-research,o3-mini,o1,o1-pro,o1-mini,chatgpt-4o-latest,gpt-4-turbo-2024-04-09,gpt-4-0125-preview,gpt-4-1106-preview,gpt-4-1106-vision-preview,gpt-4-0613,gpt-4-0314,gpt-4-32k,gpt-3.5-turbo,gpt-3.5-turbo-0125,gpt-3.5-turbo-1106,gpt-3.5-turbo-0613,gpt-3.5-turbo-16k-0613,gpt-3.5-0301,gpt-3.5-turbo-instruct,davinci-002,babbage-002 | - |
 | `BAN_VIOLATIONS` | LibreChat | true | Enable banning users for violations |
 | `MESSAGE_IP_MAX` | LibreChat | 40 | Max messages per IP per MESSAGE_IP_WINDOW |
 | `OPENAI_API_KEY` | LibreChat | (secret) | - |
@@ -148,6 +148,7 @@ You’re one click away from running a complete, production-ready AI platform wi
 | `SESSION_EXPIRY` | LibreChat | 900000 | - |
 | `MISTRAL_API_KEY` | LibreChat | (secret) | - |
 | `REGISTER_WINDOW` | LibreChat | 60 | Registration rate limit window in minutes |
+| `ANTHROPIC_MODELS` | LibreChat | claude-opus-4-7,claude-opus-4-6,claude-sonnet-4-6,claude-opus-4-5,claude-haiku-4-5-20251001,claude-sonnet-4-5-20250929,claude-opus-4-1-20250805,claude-opus-4-20250514,claude-sonnet-4-20250514,claude-3-7-sonnet-20250219,claude-3-5-haiku-20241022,claude-3-haiku-20240307,claude-3-opus-20240229 | - |
 | `DEEPSEEK_API_KEY` | LibreChat | (secret) | API key for DeepSeek |
 | `LIMIT_MESSAGE_IP` | LibreChat | true | Enable IP-based message rate limiting |
 | `MESSAGE_USER_MAX` | LibreChat | 40 | Max messages per user per MESSAGE_USER_WINDOW |

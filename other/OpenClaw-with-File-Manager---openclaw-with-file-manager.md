@@ -26,11 +26,13 @@ This Railway template packages OpenClaw, a gateway dashboard, and a C9-style fil
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
+| `VNC_PASSWORD` | (secret) | Connect a domain on port 6080 to use noVNC |
 | `C9SDK_PASSWORD` | (secret) | - |
 | `OPENAI_API_KEY` | (secret) | - |
 | `TELEGRAM_BOT_TOKEN` | (secret) | - |
 | `OPENCLAW_GATEWAY_TOKEN` | (secret) | - |
-| `INITIAL_OPENCLAW_VERSION` | 2026.4.22 | You can install a higher version later |
+| `CUSTOM_PROVIDER_API_KEY` | (secret) | - |
+| `INITIAL_OPENCLAW_VERSION` | latest | You can install a higher version later |
 
 ## Configuration
 
