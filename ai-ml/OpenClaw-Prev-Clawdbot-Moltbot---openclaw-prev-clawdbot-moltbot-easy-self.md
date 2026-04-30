@@ -48,6 +48,6 @@ This Railway template simplifies the entire process by packaging OpenClaw into a
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** Other · **Languages:** HTML, JavaScript, CSS, Dockerfile, Shell
+**Category:** AI/ML · **Languages:** HTML, JavaScript, CSS, Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/openclaw-prev-clawdbot-moltbot-easy-self)

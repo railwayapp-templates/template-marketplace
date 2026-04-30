@@ -1,6 +1,6 @@
 # Deploy WordPress Pro – Scalable Cloud Hosting on Railway
 
-[Mar'26] Production-ready WordPress with Mariadb & scalable storage
+Production-ready WordPress with Mariadb & scalable storage
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wordpress-pro-scalable-cloud-hosting)
 
