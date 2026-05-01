@@ -34,9 +34,7 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 |---------|--------|------|
 | discord-adapter | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/source-adapter) | Web service |
 | codex-runtime | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/codex-runtime) | Database |
-| knowledge-cron | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/prism-trigger) | Worker |
-| discord-sync-cron | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/prism-trigger) | Worker |
-| memory-cron | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/prism-trigger) | Worker |
+| task-runner | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/task-runner) | Worker |
 | prism-memory | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/prism-memory) | Web service |
 | site | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/site) | Web service |
 
@@ -91,22 +89,13 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 | `CODEX_RUNTIME_TIMEOUT_MS` | codex-runtime | 600000 | Maximum Codex execution timeout in milliseconds. |
 | `TARGET_REPO_GITHUB_TOKEN` | codex-runtime | (secret) | Optional GitHub token for cloning or pushing private target repositories. |
 | `CODEX_TARGET_WORKSPACE_ROOT` | codex-runtime | /data/workspaces | Mounted directory for cloned target repositories. |
-| `PRISM_API_BASE` | knowledge-cron | - | Public URL for the Prism Memory service. |
-| `PRISM_TRIGGER_BODY` | knowledge-cron | {} | JSON body sent to the knowledge run endpoint. |
-| `PRISM_TRIGGER_PATH` | knowledge-cron | /ops/knowledge/run | Prism Memory endpoint that promotes, validates, and indexes knowledge |
-| `PRISM_TRIGGER_AUTH_TOKEN` | knowledge-cron | (secret) | Prism Memory API key reference. |
-| `PRISM_TRIGGER_AUTH_HEADER` | knowledge-cron | X-Prism-Api-Key | Header name used to send the Prism API key. |
-| `PRISM_API_BASE` | discord-sync-cron | - | Public URL for the Discord adapter service. |
-| `PRISM_TRIGGER_BODY` | discord-sync-cron | {} | JSON body sent to the Discord sync endpoint. |
-| `PRISM_TRIGGER_PATH` | discord-sync-cron | /sync | Path on the Discord adapter that triggers Discord message sync. |
-| `PRISM_TRIGGER_DISABLED` | discord-sync-cron | true | Keeps Discord sync disabled until Discord credentials are configured. |
-| `PRISM_TRIGGER_AUTH_TOKEN` | discord-sync-cron | (secret) | Shared token used to authorize cron calls |
-| `PRISM_TRIGGER_AUTH_HEADER` | discord-sync-cron | X-Adapter-Token | Header name used to send the Discord adapter auth token. |
-| `PRISM_API_BASE` | memory-cron | - | Public URL for the Prism Memory service. |
-| `PRISM_TRIGGER_BODY` | memory-cron | {} | JSON body sent to the memory run endpoint. |
-| `PRISM_TRIGGER_PATH` | memory-cron | /ops/memory/run | Prism Memory endpoint that runs collection, digest, memory, and seeds. |
-| `PRISM_TRIGGER_AUTH_TOKEN` | memory-cron | (secret) | Prism Memory API key reference. |
-| `PRISM_TRIGGER_AUTH_HEADER` | memory-cron | X-Prism-Api-Key | Header name used to send the Prism API key. |
+| `PORT` | task-runner | 8790 | Task runner HTTP port |
+| `PRISM_API_KEY` | task-runner | (secret) | Auth token for Prism Memory |
+| `TASK_RUNNER_TOKEN` | task-runner | (secret) | Auth token for manual |
+| `SOURCE_ADAPTER_TOKEN` | task-runner | (secret) | Auth token |
+| `TASK_RUNNER_DISABLED` | task-runner | false | Keep scheduler enabled |
+| `APP_API_SERVICE_TOKEN` | task-runner | (secret) | Auth token for site |
+| `TASK_RUNNER_POLL_SECONDS` | task-runner | 60 | Poll DB schedules once per minute |
 | `PORT` | prism-memory | 8788 | Port the Prism Memory service listens on. |
 | `PRISM_API_KEY` | prism-memory | (secret) | API key used to authorize Prism Memory API calls. |
 | `PRISM_API_SPACE` | prism-memory | community | Runtime Prism Memory space slug. |
@@ -119,6 +108,7 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 | `ADMIN_PASSWORD` | site | (secret) | Temporary admin password; change after deploy |
 | `SESSION_SECRET` | site | (secret) | Session signing secret for admin auth |
 | `COMMUNITY_PROVIDER` | site | discord | Community identity provider used by the app |
+| `TASK_RUNNER_BASE_URL` | site | - | Private task-runner URL for admin Tasks tab and manual runs |
 | `PRISM_AGENT_DATA_ROOT` | site | /data | App SQLite/data root mounted on site |
 | `PRISM_MEMORY_BASE_URL` | site | - | Prism Memory base URL |
 | `CODEX_RUNTIME_BASE_URL` | site | - | Internal Codex runtime base URL |

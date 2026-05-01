@@ -38,7 +38,7 @@ Self-hosted Cloudinary alternative. Image & video transforms via URL.
 
    Once deployed, Openinary exposes a URL-based transformation API:
 
-   `
+   ```
    # Resize image to 800×600, convert to WebP
    GET /t/w_800,h_600,f_webp,q_80/photo.jpg
 
@@ -47,7 +47,7 @@ Self-hosted Cloudinary alternative. Image & video transforms via URL.
 
    # Compress video for web
    GET /t/w_1280,h_720,q_75/video.mp4
-   `
+   ```
 
    Visit /setup after first deploy to create your admin account and generate API keys.
 
