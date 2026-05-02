@@ -1,6 +1,6 @@
 # Deploy OpenClaw (Prev Clawdbot, Moltbot) | Self Host OpenClaw on Railway on Railway
 
-[Apr '26] 1-Click Deploy AI Agent Securely (TUI Support, Manage Devices)
+[May '26] 1-Click Deploy AI Agent Securely (TUI Support, Manage Devices)
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-prev-clawdbot-moltbot-self-host)
 

@@ -8,7 +8,7 @@ Graphical Setup + TUI Support + Pairing support
 
 Production-ready deployment package for OpenClaw, an AI coding assistant that integrates with multiple chat platforms. Features a web-based management interface, enterprise-grade health monitoring, persistent storage, and automatic gateway management—no command-line experience required.
 
-**Battle-tested with over 2,000 production deployments.**
+**Battle-tested with over 2,500 production deployments.**
 
 IF YOU ARE UPGRADING FROM A PREVIOW VERSION REMOVE THE ENV VAR 'OPENCLAW_ENTRY' AS NOW OPENCLAW IS INSTALLED VIA NPM
 

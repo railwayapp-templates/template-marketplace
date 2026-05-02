@@ -49,6 +49,7 @@ Paperclip is a Node.js server with a React UI that models a business as an org c
 | `PAPERCLIP_DEPLOYMENT_MODE` | Paperclip | authenticated | Deployment access mode configuration |
 | `BETTER_AUTH_TRUSTED_ORIGINS` | Paperclip | - | Trusted origins for authentication |
 | `PAPERCLIP_ALLOWED_HOSTNAMES` | Paperclip | - | Allowed hostnames for incoming requests |
+| `PAPERCLIP_STORAGE_LOCAL_DIR` | Paperclip | - | Point the local directory to folder in the volume for persistence |
 | `PAPERCLIP_DEPLOYMENT_EXPOSURE` | Paperclip | public | Application exposure visibility setting - keep it public for elevated checks |
 | `POSTGRES_DB` | Postgres | railway | Initial database created on startup |
 | `DATABASE_URL` | Postgres | - | Internal Postgres connection string |

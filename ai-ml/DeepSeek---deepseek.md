@@ -1,6 +1,6 @@
 # Deploy DeepSeek on Railway
 
-[Apr '26] Self Host DeepSeek models and chat via a chat UI
+[May '26] Self Host DeepSeek models and chat via a chat UI
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/deepseek)
 

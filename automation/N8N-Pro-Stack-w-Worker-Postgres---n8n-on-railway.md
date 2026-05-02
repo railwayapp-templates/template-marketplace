@@ -1,6 +1,6 @@
 # Deploy N8N Pro Stack [w/ Worker & Postgres] on Railway
 
-[Apr '26] Self host the most secure & production grade n8n stack.
+[May '26] Self host the most secure & production grade n8n stack.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-on-railway)
 

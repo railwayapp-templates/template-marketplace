@@ -1,6 +1,6 @@
-# Deploy Ollama [Updated Apr '26] on Railway
+# Deploy Ollama [Updated May '26] on Railway
 
-[Apr '26] Self-host your own LLM model server with a single click.
+[May '26] Self-host your own LLM model server with a single click.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ollama-or-self-host-open-source-llms)
 

@@ -1,4 +1,4 @@
-# Deploy Ghost blog  on Railway
+# Deploy Ghost CMS 6 on Railway
 
 Ready to use right after launch! No setup required.
 
@@ -56,6 +56,6 @@ This template is launched from a git repository, making it easy to customize sho
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/content/images`
 
-**Category:** Blogs · **Languages:** JavaScript, CSS, HTML, Handlebars, XSLT
+**Category:** Blogs · **Languages:** JavaScript, Handlebars, CSS, HTML, TypeScript, Shell, XSLT
 
 [View on Railway →](https://railway.com/deploy/ZQcedl)

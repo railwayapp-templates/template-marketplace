@@ -1,6 +1,6 @@
 # Deploy OpenClaw Railway Template on Railway
 
-[Apr '26] Simple 1-click deploy OpenClaw (Clawdbot)  on VPS | TUI Support
+[May '26] Simple 1-click deploy OpenClaw (Clawdbot)  on VPS | TUI Support
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-railway-t-1)
 

@@ -1,6 +1,6 @@
 # Deploy OpenClaw (Moltbot/Clawdbot) – With Step by Step Guide on Railway
 
-[Apr '26] Deploy OpenClaw without CLI (Steps In Overview). Just Deploy It!
+[May '26] Deploy OpenClaw without CLI (Steps In Overview). Just Deploy It!
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-moltbotclawdbot-autonomous-ai-a)
 

@@ -47,7 +47,7 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 | `SOURCE_KIND` | discord-adapter | discord | Source provider handled by this adapter. |
 | `SOURCE_SPACE` | discord-adapter | community | Prism Memory space this adapter writes into. Must match PRISM_API_SPACE. |
 | `PRISM_API_KEY` | discord-adapter | (secret) | Prism Memory API key reference. |
-| `PRISM_API_BASE` | discord-adapter | - | Public URL for Prism Memory ingest calls. |
+| `PRISM_API_BASE` | discord-adapter | - | Private URL for Prism Memory ingest calls. |
 | `APP_API_BASE_URL` | discord-adapter | - | Private URL for the API service using |
 | `DISCORD_GUILD_ID` | discord-adapter | - | Discord guild ID to sync and serve. Required to enable Discord. |
 | `SOURCE_SYNC_MODE` | discord-adapter | manual | Sync mode for Discord ingestion. |
@@ -68,6 +68,7 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 | `VOICE_TRANSCRIPTION_API_KEY` | discord-adapter | (secret) | Optional API key for the configured voice transcription endpoint. |
 | `VOICE_TRANSCRIPTION_BASE_URL` | discord-adapter | https://api.venice.ai/api/v1/audio/transcriptions | Optional Whisper-compatible |
 | `VOICE_TRANSCRIPTION_LANGUAGE` | discord-adapter | en | Optional transcription language hint. |
+| `PRISM_ARTIFACT_PUBLIC_BASE_URL` | discord-adapter | - | Public url for prism memory artifacts |
 | `VOICE_CHAT_IGNORE_BOT_MESSAGES` | discord-adapter | true | Skips bot messages when stitching voice channel chat into transcripts. |
 | `VOICE_TRANSCRIPTION_TIMESTAMPS` | discord-adapter | true | Requests timestamp segments from the transcription endpoint. |
 | `DISCORD_ATTACHMENT_TEXT_ENABLED` | discord-adapter | true | Enables extraction of text-like Discord attachments. |
@@ -95,6 +96,7 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 | `SOURCE_ADAPTER_TOKEN` | task-runner | (secret) | Auth token |
 | `TASK_RUNNER_DISABLED` | task-runner | false | Keep scheduler enabled |
 | `APP_API_SERVICE_TOKEN` | task-runner | (secret) | Auth token for site |
+| `CODEX_RUNTIME_BASE_URL` | task-runner | - | codex runtime for codex-prompt tasks |
 | `TASK_RUNNER_POLL_SECONDS` | task-runner | 60 | Poll DB schedules once per minute |
 | `PORT` | prism-memory | 8788 | Port the Prism Memory service listens on. |
 | `PRISM_API_KEY` | prism-memory | (secret) | API key used to authorize Prism Memory API calls. |

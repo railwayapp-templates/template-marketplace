@@ -1,6 +1,6 @@
 # Deploy AnythingLLM on Railway
 
-[Apr '26] One click setup for private LLM chat and agent workflows
+[May '26] One click setup for private LLM chat and agent workflows
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/anythingllm-on-railway-or-1-click-llm-ap)
 

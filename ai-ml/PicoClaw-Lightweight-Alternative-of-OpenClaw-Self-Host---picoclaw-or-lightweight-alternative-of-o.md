@@ -1,6 +1,6 @@
 # Deploy PicoClaw | Lightweight Alternative of OpenClaw | Self Host on Railway
 
-[Apr '26] One-click deploy PicoClaw. Any LLM. Any messaging platform.
+[May '26] One-click deploy PicoClaw. Any LLM. Any messaging platform.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/picoclaw-or-lightweight-alternative-of-o)
 

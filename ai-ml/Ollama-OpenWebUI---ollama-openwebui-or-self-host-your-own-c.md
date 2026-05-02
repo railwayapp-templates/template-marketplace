@@ -1,6 +1,6 @@
 # Deploy Ollama + OpenWebUI on Railway
 
-[Apr '26] Deploy open-source LLMs with a simple, private web interface.
+[May '26] Deploy open-source LLMs with a simple, private web interface.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ollama-openwebui-or-self-host-your-own-c)
 
