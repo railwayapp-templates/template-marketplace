@@ -1,4 +1,4 @@
-# Deploy Flowise — LLM Agent & RAG Builder on Railway
+# Deploy Flowise -  LLM Agent & RAG Builder on Railway
 
 Self-hosted drag-and-drop builder for LLM agents and RAG pipelines.
 

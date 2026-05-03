@@ -6,11 +6,90 @@ A FalkorDB single instance for AI, ML, and GraphRAG workloads.
 
 ## About
 
-**FalkorDB** is a high-performance, single-node graph database optimized for low-latency, AI/ML, and GraphRAG applications. It enables you to store, query, and analyze complex connected data with exceptional speed and efficiency. This deployment also includes **FalkorDB-Browser** for easy, interactive access to your database.
+## Deploy and Host FalkorDB on Railway
 
-Hosting a FalkorDB single instance provides a fast and lightweight environment ideal for development, prototyping, or production workloads that don’t require clustering. Railway manages the containerization, networking, and environment setup automatically. Once deployed, you can connect to your FalkorDB instance through the provided endpoint or use **FalkorDB-Browser** to explore your data visually.
+[FalkorDB](https://www.falkordb.com) is a high-performance graph database purpose-built for GraphRAG, knowledge graphs, and AI/ML applications. It uses [GraphBLAS](https://graphblas.org/) for sparse adjacency matrix graph representation, delivering low-latency Cypher queries on highly connected data.
 
-Railway ensures persistent storage, simple configuration, and seamless scaling as your application grows — all without managing infrastructure manually.
+This template deploys a **standalone FalkorDB instance** with:
+- One FalkorDB service (server + browser UI)
+- A persistent Railway volume for data storage
+- Auto-generated connection variables (`FALKORDB_PRIVATE_URL`, `FALKORDB_PUBLIC_URL`, `FALKORDB_PASSWORD`, `FALKORDB_HOST`, `FALKORDB_PORT`)
+
+## Common Use Cases
+
+- **GraphRAG for LLM Applications** — Ground LLM responses in a structured knowledge graph to reduce hallucinations and improve retrieval accuracy
+- **Agentic Memory** — Give AI agents persistent, queryable memory across sessions using graph relationships
+- **Recommendation Engines** — Model user-item relationships and traverse them for real-time personalized recommendations
+- **Fraud Detection** — Detect suspicious transaction patterns through multi-hop graph traversal
+- **Knowledge Management** — Connect documents, concepts, and entities for intelligent enterprise search
+
+## Connecting to FalkorDB
+
+After deployment, Railway injects connection variables into your services. Use `FALKORDB_PRIVATE_URL` for services running inside the same Railway project, and `FALKORDB_PUBLIC_URL` for external or local access.
+
+### Node.js / TypeScript
+
+```typescript
+import { FalkorDB } from 'falkordb';
+
+const db = await FalkorDB.connect({
+  socket: {
+    host: process.env.FALKORDB_HOST,
+    port: Number(process.env.FALKORDB_PORT)
+  },
+  password: process.env.FALKORDB_PASSWORD
+});
+
+const graph = db.selectGraph('MyGraph');
+await graph.query(`CREATE (:Person {name: 'Alice', role: 'Engineer'})`);
+
+const result = await graph.query(
+  `MATCH (p:Person) WHERE p.role = $role RETURN p.name`,
+  { params: { role: 'Engineer' } }
+);
+
+db.close();
+```
+
+### Python
+
+```python
+import os
+from falkordb import FalkorDB
+
+db = FalkorDB.from_url(os.environ["FALKORDB_PRIVATE_URL"])
+graph = db.select_graph("MyGraph")
+
+graph.query("CREATE (:Person {name: 'Alice', role: 'Engineer'})")
+result = graph.query(
+    "MATCH (p:Person) WHERE p.role = $role RETURN p.name",
+    {"role": "Engineer"}
+)
+```
+
+### redis-cli (quick test)
+
+```bash
+redis-cli -u "$FALKORDB_PUBLIC_URL" GRAPH.QUERY MyGraph "RETURN 'connected' AS status"
+```
+
+FalkorDB integrates with popular AI frameworks including [LangChain](https://python.langchain.com/docs/integrations/graphs/falkordb/), [LlamaIndex](https://docs.llamaindex.ai/en/stable/examples/query_engine/falkordb_query_engine/), and [GraphRAG-SDK](https://github.com/FalkorDB/GraphRAG-SDK).
+
+## Browser Interface
+
+The FalkorDB Browser is included in this deployment. After deploying, click the public domain in your Railway service settings to open it. Use `FALKORDB_PASSWORD` from the **Variables** tab to log in.
+
+## Data Persistence
+
+Your data is stored on a Railway volume mounted to the FalkorDB container. Data survives restarts and redeployments. For production workloads, configure Railway volume backups and review [FalkorDB durability options](https://docs.falkordb.com/operations/durability/).
+
+## Resources
+
+- [FalkorDB on Railway — Full Guide](https://docs.falkordb.com/operations/railway)
+- [FalkorDB Documentation](https://docs.falkordb.com/)
+- [FalkorDB Docker Hub](https://hub.docker.com/r/falkordb/falkordb)
+- [FalkorDB GitHub](https://github.com/FalkorDB/FalkorDB)
+- [Community Discord](https://discord.gg/falkordb)
 
 ## What gets deployed
 

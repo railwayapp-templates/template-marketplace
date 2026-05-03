@@ -16,7 +16,7 @@ If you'd prefer to use PostgreSQL, check out the [HappyView w/ Postgres template
 
 | Service | Source | Type |
 |---------|--------|------|
-| HappyView | `ghcr.io/gamesgamesgamesgamesgames/happyview:2.4.0` | Web service |
+| HappyView | `ghcr.io/gamesgamesgamesgamesgames/happyview:2.4.1` | Web service |
 
 ## Environment variables
 
@@ -24,7 +24,7 @@ If you'd prefer to use PostgreSQL, check out the [HappyView w/ Postgres template
 | --------- | ------- | ----------- |
 | `RUST_LOG` | happyview=info,tower_http=info | Log level filter |
 | `PUBLIC_URL` | - | Your public URL (e.g. https://happyview-production.up.railway.app) |
-| `DATABASE_URL` | sqlite://data/happyview.db?mode=rwc | Database connection string |
+| `DATABASE_URL` | sqlite:///data/happyview.db?mode=rwc | Database connection string |
 | `SESSION_SECRET` | (secret) | A random 64+ character string (e.g. `openssl rand -base64 48`) |
 | `TOKEN_ENCRYPTION_KEY` | (secret) | Base64-encoded 32-byte key for encrypting plugin secrets and DPoP private keys at rest. Required for dashboard-managed plugin secrets and third-party app OAuth sessions (e.g. `openssl rand -base64 32`) |
 

@@ -1,6 +1,6 @@
 # Deploy PrestaShop on Railway
 
-[Updated Mar 2026] PrestaShop 9 Production Template
+[Updated May 2026] PrestaShop 9 Production Template
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/prestashop)
 

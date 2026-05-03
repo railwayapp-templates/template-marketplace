@@ -6,7 +6,7 @@ n8n [May '26] (Workflows/Integrations/API Automation/AI Coding) Self Host
 
 ## About
 
-n8n.io is an open-source workflow automation tool available on n8n GitHub, making it easy to connect apps, APIs, and even coding AI into powerful automations. With a simple setup and options like n8n download, you can design complex n8n workflows without heavy coding. Built for developers and teams, n8n gives you full control and flexibility.
+n8n.io is a workflow automation tool available on n8n GitHub, making it easy to connect apps, APIs, and even coding AI into powerful automations. With a simple setup and options like n8n download, you can design complex n8n workflows without heavy coding. Built for developers and teams, n8n gives you full control and flexibility.
 
 The core platform is free under a fair-code n8n license, giving you the flexibility to build without vendor lock-in. Hosting n8n on Railway makes it simple to deploy and run your own instance in minutes, so you get the full power of automation with complete control.
 

@@ -1,6 +1,6 @@
-# Deploy Unthread WhatsApp Bot on Railway
+# Deploy Unthread WhatsApp Bot Extension on Railway
 
-Deploy and Host Unthread WhatsApp Bot with Railway
+Deploy the official Unthread extension for WhatsApp. 🎫🤖
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/unthread-whatsapp-bot)
 

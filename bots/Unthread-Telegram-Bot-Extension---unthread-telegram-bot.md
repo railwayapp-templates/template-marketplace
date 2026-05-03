@@ -1,6 +1,6 @@
 # Deploy Unthread Telegram Bot Extension on Railway
 
-Support ticket bot for Telegram groups powered by Unthread.io. 🎫🤖
+Deploy the official Unthread extension for Telegram. 🎫🤖
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/unthread-telegram-bot)
 

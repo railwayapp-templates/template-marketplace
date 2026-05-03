@@ -1,6 +1,6 @@
 # Deploy Unthread Discord Bot Extension on Railway
 
-Integrate Discord with Unthread.io for seamless ticket support. 🎫🤖
+Deploy the official Unthread extension for Discord. 🎫🤖
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nVHIjj)
 
