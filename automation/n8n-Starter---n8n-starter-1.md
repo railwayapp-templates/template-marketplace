@@ -6,7 +6,7 @@
 
 ## About
 
-**n8n** (pronounced “n-eight-n”) is a powerful, open-source automation tool that lets you build workflows visually, connecting APIs, services, and databases without writing full-blown code.
+**n8n** (pronounced “n-eight-n”) is a powerful, automation tool that lets you build workflows visually, connecting APIs, services, and databases without writing full-blown code.
 
 With this n8n starter kit, you can deploy and **host n8n in one click**.  It’s built for **beginners, makers, and hobbyists** who want a **quick, cost-effective, and hassle-free** way to explore workflow automation or prototype data-driven systems without spending hours on setup.
 

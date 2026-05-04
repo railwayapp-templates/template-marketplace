@@ -18,16 +18,21 @@ VIC is a Node.js/Express application that proxies and aggregates sports betting 
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `ODDS_API_KEY` | (secret) |
-| `CLAUDE_API_KEY` | (secret) |
-| `TELEGRAM_BOT_TOKEN` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `DATA_DIR` | - | Where your data is keep |
+| `UNIT_SIZE` | - | Default unit size in $ |
+| `ODDS_REGION` | - | Select your Odds-API regions. |
+| `DEFAULT_BOOK` | - | What is your default sports book. |
+| `ODDS_API_KEY` | (secret) | Add your assign Odds-API key. |
+| `CLAUDE_API_KEY` | (secret) | Add your assigned Claude API key. |
+| `TELEGRAM_CHAT_ID` | - | Add your Telegram user ID. |
+| `TELEGRAM_BOT_TOKEN` | (secret) | Add your Telegram Bot token from BotFather. |
 
 ## Configuration
 
 - **Volume:** `/data`
 
-**Category:** Automation · **Languages:** HTML, JavaScript, CSS, Shell, Batchfile, PowerShell, Procfile
+**Category:** AI/ML · **Languages:** HTML, JavaScript, CSS, Shell, Batchfile, PowerShell, Procfile
 
 [View on Railway →](https://railway.com/deploy/vegasintelligenceconsole)

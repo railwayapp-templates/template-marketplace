@@ -6,7 +6,7 @@
 
 ## About
 
-**n8n** is an open-source workflow automation tool that lets you connect apps, APIs, and databases to automate anything — from moving data between **Google Sheets** and **Slack** to building complex backend integrations.
+**n8n** is a fair-code licensed workflow automation tool that lets you connect apps, APIs, and databases to automate anything — from moving data between **Google Sheets** and **Slack** to building complex backend integrations.
 
 With this **one-click Railway deployment**, you get a fully configured, **production-ready n8n setup** complete with **PostgreSQL** for persistent data storage.
 

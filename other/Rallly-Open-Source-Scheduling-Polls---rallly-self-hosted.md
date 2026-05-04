@@ -1,14 +1,14 @@
-# Deploy rallly-self-hosted on Railway
+# Deploy Rallly | Open-Source Scheduling Polls on Railway
 
-Deploy and Host rallly-self-hosted with Railway
+Self-Host Rallly : Doodle & Calendly Alternative, No Per-Seat Fees
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rallly-self-hosted)
 
 ## About
 
-Rallly is an open-source scheduling and polling platform that eliminates the back-and-forth of finding meeting times. Create a poll, share a link, and let participants vote on their availability - no sign-up required. A self-hosted, privacy-first alternative to Doodle and Calendly.
+Rallly is an open-source scheduling tool that kills the "when works for everyone?" email chain. Create a poll with date options, share a link, and participants vote on their availability - no account needed. It's a self-hosted alternative to Doodle and Calendly, built with Next.js and Prisma.
 
-Self-hosting Rallly gives you complete ownership of your scheduling data - participant names, email addresses, and availability responses stay on your own infrastructure. This Railway template deploys Rallly with a managed PostgreSQL database, auto-generated encryption keys, and a public HTTPS domain. Railway handles SSL, networking, and container orchestration so you can focus on scheduling. Unlike Doodle Pro ($6.95/user/month) or Calendly ($10/seat/month), self-hosting Rallly on Railway costs a flat ~$5/month with unlimited polls, unlimited participants, and no per-seat pricing.
+Doodle Pro costs $6.95/user/month. Calendly starts at $10/seat/month. For a 10-person team, that's $70-100/month just to schedule meetings. Self-hosting Rallly on Railway costs ~$5/month total - unlimited polls, unlimited participants, zero per-seat fees. This template deploys Rallly with a managed PostgreSQL database, auto-generated session encryption, and a public HTTPS domain. Railway handles SSL and container restarts automatically. Your participants' names, emails, and availability data stay on your infrastructure - which matters if you're scheduling under GDPR or working with sensitive client contacts. Deploy in under two minutes, create your first poll in three clicks.
 
 ## What gets deployed
 
@@ -22,6 +22,8 @@ Self-hosting Rallly gives you complete ownership of your scheduling data - parti
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
 | `PORT` | rallly | 3000 | - |
+| `SMTP_USER` | rallly | (secret) | - |
+| `SMTP_SECURE` | rallly | true | - |
 | `SUPPORT_EMAIL` | rallly | noreply@rallly.co | - |
 | `ALLOWED_EMAILS` | rallly | * | - |
 | `SECRET_PASSWORD` | rallly | (secret) | - |

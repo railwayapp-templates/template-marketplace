@@ -16,8 +16,8 @@ Hosting the Unthread Discord Bot Extension allows Discord communities and teams 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Discord Bot | `wgtechlabs/unthread-discord-bot:1.1.0` | Worker |
-| Webhook Server | `wgtechlabs/unthread-webhook-server:1.0.0-beta.7` | Web service |
+| Discord Bot | `wgtechlabs/unthread-discord-bot:latest` | Worker |
+| Webhook Server | `wgtechlabs/unthread-webhook-server:latest` | Web service |
 | Postgres (Platform) | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 | Redis (Webhook) | `redis:8-alpine` | Database |
 | Redis (Platform) | `redis:8-alpine` | Database |

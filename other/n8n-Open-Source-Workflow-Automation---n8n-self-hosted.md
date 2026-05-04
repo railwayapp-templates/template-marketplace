@@ -1,14 +1,14 @@
-# Deploy n8n-self-hosted on Railway
+# Deploy n8n | Open-Source Workflow Automation on Railway
 
-Deploy and Host n8n-self-hosted with Railway
+Self-Host n8n : Zapier & Make Alternative, 400+ Integrations
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-self-hosted)
 
 ## About
 
-n8n is an open-source workflow automation platform that lets you connect 400+ apps, APIs, and AI models with a visual drag-and-drop editor. Build everything from simple Zapier-style automations to complex AI agent workflows - self-hosted with full data ownership, no per-workflow limits, and zero vendor lock-in.
+n8n is an open-source workflow automation platform that connects 400+ apps, APIs, and AI models through a visual drag-and-drop editor. Think Zapier, but you own the server. Build anything from a simple "new lead → Slack notification" zap to a multi-step AI agent that researches, writes, and publishes - with no per-workflow limits and no vendor lock-in.
 
-Self-hosting n8n gives you complete control over your automation infrastructure - your workflows, credentials, and execution data stay on your own servers. This Railway template deploys n8n with a managed PostgreSQL database, pre-configured with secure environment variables, persistent storage, and a public HTTPS domain. Railway handles networking, SSL certificates, and container orchestration so you can focus on building workflows. Unlike n8n Cloud ($24/month for 2,500 executions), self-hosting on Railway costs ~$5-10/month with unlimited executions - making it ideal for teams running high-volume automations.
+Here's the math that makes self-hosting obvious: n8n Cloud charges $24/month for 2,500 executions. A busy team burns through that in a week. Self-hosting on Railway? ~$5-10/month with unlimited executions. That's a ~$240/year saving at minimum. This template deploys n8n with a managed PostgreSQL database, auto-generated encryption keys, and a public HTTPS domain - all pre-wired. Railway handles SSL, networking, and container restarts so you don't touch infrastructure. Your workflows, credentials, and execution data stay on your own instance. No third-party analytics. No usage caps. And because it's Railway, you can scale up with a slider if your automations get heavy.
 
 ## What gets deployed
 

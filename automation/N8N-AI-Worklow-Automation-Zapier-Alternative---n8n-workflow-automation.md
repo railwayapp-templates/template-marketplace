@@ -1,4 +1,4 @@
-# Deploy N8N | Open-Source AI Worklow Automation | Zapier Alternative on Railway
+# Deploy N8N | AI Worklow Automation | Zapier Alternative on Railway
 
 Self-host n8n workflow automation with workers, postgres, webhooks & Redis
 
@@ -8,7 +8,7 @@ Self-host n8n workflow automation with workers, postgres, webhooks & Redis
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-workflow-automation?referralCode=QXdhdr&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
-n8n is an open-source, fair-code workflow automation platform that lets you connect 400+ apps, databases, and APIs through a visual node editor — with full code escape hatches when drag-and-drop isn't enough. Self-host n8n on Railway to keep your workflow data, API keys, and customer payloads in infrastructure you control, instead of routing them through a third-party SaaS.
+n8n is fair-code distributed under the Sustainable Use License and n8n Enterprise License automation platform that lets you connect 400+ apps, databases, and APIs through a visual node editor — with full code escape hatches when drag-and-drop isn't enough. Self-host n8n on Railway to keep your workflow data, API keys, and customer payloads in infrastructure you control, instead of routing them through a third-party SaaS.
 
 This Railway deployment runs a production-grade, queue-mode n8n stack: a main editor/API service, a dedicated worker pool, a separate webhook processor, PostgreSQL for persistence, and Redis as the BullMQ job broker. Every tier scales independently, so you can handle thousands of concurrent executions by adding workers without touching the editor.
 
