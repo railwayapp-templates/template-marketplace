@@ -1,6 +1,6 @@
-# Deploy Langfuse on Railway
+# Deploy Langfuse v3 — LLM Observability (Production-Ready Bundle) on Railway
 
-LLM Observability, OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more
+Self-host alternative to LangSmith and DataDog LLM Observability
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/YJ_Ivb)
 
@@ -73,7 +73,7 @@ Langfuse is an **open source LLM engineering** platform. It helps teams collabor
 
 | Service | Source | Type |
 |---------|--------|------|
-| redis | `bitnami/redis:7.2.5` | Database |
+| redis | `bitnamilegacy/redis:7.2.5` | Database |
 | postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
 | langfuse-web | `langfuse/langfuse:3` | Web service |
 | clickhouse | `clickhouse/clickhouse-server:24` | Database |
@@ -89,7 +89,7 @@ Langfuse is an **open source LLM engineering** platform. It helps teams collabor
 | `REDISPASSWORD` | redis | (secret) |
 | `REDIS_PASSWORD` | redis | (secret) |
 | `REDIS_RDB_POLICY` | redis | 3600#1 300#100 60#10000 |
-| `REDIS_AOF_ENABLED` | redis | no |
+| `REDIS_AOF_ENABLED` | redis | yes |
 | `POSTGRES_DB` | postgres | railway |
 | `POSTGRES_USER` | postgres | (secret) |
 | `POSTGRES_PASSWORD` | postgres | (secret) |
@@ -103,8 +103,6 @@ Langfuse is an **open source LLM engineering** platform. It helps teams collabor
 | `LANGFUSE_S3_MEDIA_UPLOAD_BUCKET` | langfuse-web | langfuse |
 | `LANGFUSE_S3_MEDIA_UPLOAD_PREFIX` | langfuse-web | media/ |
 | `LANGFUSE_S3_MEDIA_UPLOAD_REGION` | langfuse-web | us-east-1 |
-| `LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID` | langfuse-web | minio |
-| `LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID` | langfuse-web | minio |
 | `LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE` | langfuse-web | true |
 | `LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE` | langfuse-web | true |
 | `LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY` | langfuse-web | (secret) |
@@ -127,8 +125,6 @@ Langfuse is an **open source LLM engineering** platform. It helps teams collabor
 | `LANGFUSE_S3_MEDIA_UPLOAD_BUCKET` | langfuse-worker | langfuse |
 | `LANGFUSE_S3_MEDIA_UPLOAD_PREFIX` | langfuse-worker | media/ |
 | `LANGFUSE_S3_MEDIA_UPLOAD_REGION` | langfuse-worker | us-east-1 |
-| `LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID` | langfuse-worker | minio |
-| `LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID` | langfuse-worker | minio |
 | `LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE` | langfuse-worker | true |
 | `LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE` | langfuse-worker | true |
 | `LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY` | langfuse-worker | (secret) |

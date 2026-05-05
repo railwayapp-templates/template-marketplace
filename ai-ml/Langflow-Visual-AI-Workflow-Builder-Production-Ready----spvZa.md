@@ -1,4 +1,4 @@
-# Deploy Langflow on Railway
+# Deploy Langflow â€” Visual AI Workflow Builder (Production-Ready) on Railway
 
 Langflow is a low-code app builder for RAG and multi-agent AI applications
 
@@ -38,6 +38,7 @@ Langflow is a low-code app builder for RAG and multi-agent AI applications. Itâ€
 | `LANGFLOW_PORT` | langflow | - | Port |
 | `LANGFLOW_SUPERUSER` | langflow | admin | Superuser |
 | `LANGFLOW_AUTO_LOGIN` | langflow | (secret) | Auth login |
+| `LANGFLOW_CONFIG_DIR` | langflow | /app/langflow | Langflow Config Directory |
 | `LANGFLOW_SECRET_KEY` | langflow | (secret) | Secret Key |
 | `LANGFLOW_DATABASE_URL` | langflow | - | DB URL |
 | `LANGFLOW_NEW_USER_IS_ACTIVE` | langflow | false | New user is active |
@@ -50,6 +51,8 @@ Langflow is a low-code app builder for RAG and multi-agent AI applications. Itâ€
 
 ## Configuration
 
+- **Start command:** `python -m langflow run --host 0.0.0.0`
+- **Healthcheck:** `/health_check`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/langflow`
 - **Volume:** `/var/lib/postgresql/data`

@@ -1,6 +1,6 @@
 # Deploy Redis Latest on Railway
 
-[Mar'26] Deploy and Host Redis Latest with Railway
+[May'26] Deploy and Host Redis Latest with Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redis-latest)
 

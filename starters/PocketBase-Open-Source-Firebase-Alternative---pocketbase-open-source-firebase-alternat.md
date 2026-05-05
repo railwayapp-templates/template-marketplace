@@ -1,6 +1,6 @@
 # Deploy PocketBase – Open Source Firebase Alternative on Railway
 
-Self-hosted PocketBase: SQLite backend, auth & realtime API.
+[May'26] Self-hosted PocketBase: SQLite backend, auth & realtime API.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-open-source-firebase-alternat)
 

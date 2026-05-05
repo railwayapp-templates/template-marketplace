@@ -1,6 +1,6 @@
 # Deploy Serverless Redis on Railway
 
-Redis HTTP Server (Upstash compatibility) 
+Self-hosted Upstash. Redis with REST API — drop-in for @upstash/redis SDK
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hBFwO4)
 
