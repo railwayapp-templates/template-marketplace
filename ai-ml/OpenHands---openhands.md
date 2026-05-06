@@ -1,6 +1,6 @@
 # Deploy OpenHands on Railway
 
-Openhands: AI agent for coding and deployment. open hands
+openhands: AI agent for coding and deployment. open hands
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openhands)
 

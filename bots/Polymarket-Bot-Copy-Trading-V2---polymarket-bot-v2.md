@@ -1,6 +1,6 @@
 # Deploy Polymarket Bot Copy-Trading V2 on Railway
 
-Simple Bot Polymarket copy-trading (buy & sell) with auto cashout
+Simple bot polymarket copy-trading (buy & sell) with auto cashout
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/polymarket-bot-v2)
 

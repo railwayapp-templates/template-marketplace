@@ -1,6 +1,6 @@
 # Deploy Hyperswitch - Open-Source Stripe Alternative (Payments Router) on Railway
 
-Self-host Hyperswitch on Railway. Open-source Stripe alternative in Rust.
+Self-host hyperswitch on Railway. Open-source Stripe alternative in Rust.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hyperswitch-open-source-stripe-alternati)
 

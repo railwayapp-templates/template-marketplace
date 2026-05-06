@@ -18,7 +18,11 @@ Self-hosted Mailchimp alternative. Bring your own SES, SendGrid, or Mailgun and 
 
 | Service | Source | Type |
 |---------|--------|------|
-| mddanishyusuf/maillayer-pro:1 | `ghcr.io/mddanishyusuf/maillayer-pro:1` | Worker |
+| mddanishyusuf/maillayer-pro:1 | `ghcr.io/mddanishyusuf/maillayer-pro:1` | Database |
+
+## Configuration
+
+- **Volume:** `/app/data`
 
 **Category:** Automation
 

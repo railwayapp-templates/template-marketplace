@@ -1,6 +1,6 @@
-# Deploy Fusio – API Management Platform on Railway
+# Deploy Fusio - API Management Platform on Railway
 
-Fusio 6.2 Self-hosted API management with OAuth2, OpenAPI and admin UI.
+fusio 6.2 Self-hosted API management with OAuth2, OpenAPI and admin UI.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fusio-api-management-platform)
 

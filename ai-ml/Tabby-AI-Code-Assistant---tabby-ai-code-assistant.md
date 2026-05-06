@@ -1,6 +1,6 @@
 # Deploy Tabby AI Code Assistant on Railway
 
-TabbyML Self-hosted AI code completion server using OpenAI.
+TabbyML Self-hosted AI code completion server using OpenAI. tabby
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tabby-ai-code-assistant)
 

@@ -1,4 +1,4 @@
-# Deploy Webhook-Tester on Railway
+# Deploy Webhook Tester on Railway
 
 Powerful tool for testing WebHooks and more | Webhook.site alternative
 

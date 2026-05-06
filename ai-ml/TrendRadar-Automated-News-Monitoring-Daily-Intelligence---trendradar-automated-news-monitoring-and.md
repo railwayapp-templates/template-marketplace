@@ -1,6 +1,6 @@
 # Deploy TrendRadar — Automated News Monitoring & Daily Intelligence on Railway
 
-Automated news crawling, daily summaries, RSS tracking, and web reports.
+trendradar, automated news crawling, summaries, RSS tracking, web reports.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/trendradar-automated-news-monitoring-and)
 
