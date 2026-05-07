@@ -15,7 +15,7 @@ The core platform is free and open-source under AGPL-3.0, giving you complete fl
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| docmost-railway-template | [Amritasha/docmost-railway-template](https://github.com/Amritasha/docmost-railway-template) | Worker |
+| docmost-railway-template | [Amritasha/docmost-railway-template](https://github.com/Amritasha/docmost-railway-template) | Web service |
 | Redis | `redis:8.2.1` | Database |
 
 ## Environment variables
@@ -43,6 +43,7 @@ The core platform is free and open-source under AGPL-3.0, giving you complete fl
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Networking:** Public domain with automatic HTTPS
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
 - **Volume:** `/data`

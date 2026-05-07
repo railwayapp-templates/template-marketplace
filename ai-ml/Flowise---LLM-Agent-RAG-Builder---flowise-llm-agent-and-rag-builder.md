@@ -21,7 +21,7 @@ Flowise runs as a single container with embedded SQLite — no external database
 
 | Service | Source | Type |
 |---------|--------|------|
-| flowise-railway-template | [Amritasha/flowise-railway-template](https://github.com/Amritasha/flowise-railway-template) | Worker |
+| flowise-railway-template | [Amritasha/flowise-railway-template](https://github.com/Amritasha/flowise-railway-template) | Web service |
 
 ## Environment variables
 
@@ -29,6 +29,10 @@ Flowise runs as a single container with embedded SQLite — no external database
 | --------- | ------- |
 | `FLOWISE_PASSWORD` | (secret) |
 | `FLOWISE_USERNAME` | (secret) |
+
+## Configuration
+
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** AI/ML · **Languages:** Dockerfile
 

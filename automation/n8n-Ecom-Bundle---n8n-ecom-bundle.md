@@ -1,8 +1,8 @@
-# Deploy n8n Ecom Automation on Railway
+# Deploy n8n Ecom Bundle on Railway
 
 Self-hosted n8n with 7 pre-built Shopify automations
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-ecom-automation)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-ecom-bundle)
 
 ## About
 
@@ -14,22 +14,22 @@ The core n8n platform is free and open-source under the Sustainable Use License,
 
 | Service | Source | Type |
 |---------|--------|------|
-| n8n-ecom | [Amritasha/n8n-ecom](https://github.com/Amritasha/n8n-ecom) | Database |
+| n8n-ecom | [Amritasha/n8n-ecom](https://github.com/Amritasha/n8n-ecom) | Web service |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `WEBHOOK_URL` | - | Your Railway domain e.g. https://xyz.up.railway.app |
-| `GENERIC_TIMEZONE` | America/New_York | Your timezone |
+| `GENERIC_TIMEZONE` | America/New_York | - |
 | `N8N_ENCRYPTION_KEY` | - | Run openssl rand -hex 16 to generate |
 | `N8N_BASIC_AUTH_USER` | (secret) | admin |
 | `N8N_BASIC_AUTH_PASSWORD` | (secret) | Your n8n login password |
 
 ## Configuration
 
-- **Volume:** `/home/node/.n8n`
+- **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/data/n8n`
 
 **Category:** Automation · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/deploy/n8n-ecom-automation)
+[View on Railway →](https://railway.com/deploy/n8n-ecom-bundle)

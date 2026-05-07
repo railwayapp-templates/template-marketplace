@@ -26,6 +26,6 @@ Deploying takes three steps. First, deploy this template and add a persistent vo
 
 - **Volume:** `/root`
 
-**Category:** Other · **Languages:** Python, Dockerfile
+**Category:** Other · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/letta-code-remote)

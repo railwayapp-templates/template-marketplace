@@ -1,4 +1,4 @@
-# Deploy EmailFlare on Railway
+# Deploy Cloudflare Email on Railway
 
 EmailFlare is a self-hosted email sending platform built around Cloudflare
 

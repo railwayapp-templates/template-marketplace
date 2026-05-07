@@ -6,26 +6,9 @@ MCP security proxy — blocks prompt injection & attacks instantly.
 
 ## About
 
-McpVanguard is a security proxy for the Model Context Protocol (MCP).  
-It sits between AI agents and system tools and applies three layers of inspection:
+McpVanguard is a security gateway for the Model Context Protocol (MCP). It sits between AI agents and MCP tools, enforcing layered protection with static threat detection, optional semantic intent scoring, behavioral session controls, metadata inspection, and upstream trust checks such as capability and integrity verification.
 
-- Static threat signatures  
-- Semantic intent scoring (LLM-based)  
-- Behavioral / entropy-based throttling  
-
----
-
-Deploying McpVanguard on Railway allows you to expose MCP tools securely over the internet.
-
-Using the SSE (Server-Sent Events) bridge:
-
-- Remote agents connect through an authenticated endpoint  
-- TLS is handled automatically by Railway  
-- Redis can be attached for persistent session and rate-limit state  
-
-This setup allows the proxy to run continuously with minimal infrastructure overhead.
-
----
+Hosting McpVanguard on Railway lets you expose MCP tools over a secure network endpoint while keeping policy enforcement in front of your upstream server. In a typical deployment, Railway runs the McpVanguard SSE gateway as the public entrypoint and McpVanguard launches or connects to an MCP-compatible upstream server behind it. Railway handles public networking and TLS, while McpVanguard adds request inspection, auth enforcement, filesystem and tool restrictions, metadata poisoning defenses, and structured security decisions. Redis can be attached for behavioral state, rate limiting, and session-aware enforcement across multiple requests.
 
 ## What gets deployed
 

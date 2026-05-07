@@ -28,6 +28,6 @@ AdClaw runs as a single FastAPI server with a React console, packaged in one Doc
 - **Healthcheck:** `/api/diagnostics/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** AI/ML
+**Category:** AI/ML · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/adclaw)
