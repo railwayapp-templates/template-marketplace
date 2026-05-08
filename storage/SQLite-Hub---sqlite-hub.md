@@ -14,7 +14,7 @@ Hosting SQLite Hub on Railway requires a single service backed by a persistent v
 
 | Service | Source | Type |
 |---------|--------|------|
-| SQLite Hub | `ghcr.io/0xdps/mesahub-core:latest` | Web service |
+| SQLite Hub | `ghcr.io/mesahub-db/mesahub-core:latest` | Web service |
 
 ## Environment variables
 

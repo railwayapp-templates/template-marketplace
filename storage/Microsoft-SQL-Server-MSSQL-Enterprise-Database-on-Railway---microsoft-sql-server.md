@@ -1,6 +1,6 @@
-# Deploy Microsoft SQL Server | Enterprise Database on Railway on Railway
+# Deploy Microsoft SQL Server, MSSQL | Enterprise Database on Railway on Railway
 
-Self-host Microsoft SQL Server. Persistent storage, TCP proxy, SSMS-ready
+Self-host MsSQL Server. Persistent storage, TCP proxy, SSMS-ready
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/microsoft-sql-server)
 
