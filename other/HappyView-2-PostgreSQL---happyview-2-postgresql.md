@@ -17,7 +17,7 @@ If you'd prefer to use SQLite, check out the [HappyView w/ SQLite template](http
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| HappyView | `ghcr.io/gamesgamesgamesgamesgames/happyview:2.5.1` | Web service |
+| HappyView | `ghcr.io/gamesgamesgamesgamesgames/happyview:2.5.2` | Web service |
 
 ## Environment variables
 

@@ -21,9 +21,9 @@ Deploying OpenClaw on Railway traditionally requires interactive terminal access
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `PORT` | 8080 | Port for wrapper server. |
-| `ENABLE_WEB_TUI` | false | Gives an option Terminal UI |
+| `ENABLE_WEB_TUI` | true | Gives an option Terminal UI |
 | `SETUP_PASSWORD` | (secret) | Password to access /setup wizard |
-| `OPENCLAW_VERSION` | 2026.5.2 | Pin openclaw version. Use 'latest' to always take the most recent version. |
+| `OPENCLAW_VERSION` | 2026.5.7 | Pin openclaw version. Use 'latest' to always take the most recent version. |
 | `OPENCLAW_STATE_DIR` | /data/.openclaw | Where config and credentials are stored. |
 | `INTERNAL_GATEWAY_HOST` | 127.0.0.1 | Internal host for gateway |
 | `INTERNAL_GATEWAY_PORT` | 18789 | Internal port for OpenClaw gateway. |

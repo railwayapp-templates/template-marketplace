@@ -73,8 +73,8 @@ By deploying OpenCode on Railway, you are one step closer to supporting a comple
 | --------- | ------- | ----------- |
 | `LOG_LEVEL` | INFO | - |
 | `SOURCE_MODE` | true | if build from source |
-| `OPENCODE_REF` | v1.4.3 | version of opencode |
-| `ENABLE_MONITOR` | false | - |
+| `OPENCODE_REF` | v1.14.41 | version of opencode |
+| `ENABLE_MONITOR` | true | - |
 | `OPENCODE_SERVER_PASSWORD` | (secret) | default username: opencode |
 | `OPENCODE_SERVER_USERNAME` | (secret) | - |
 

@@ -8,6 +8,8 @@ Quick analytics and insights to help anyone explore and understand data ✅
 
 Metabase is a powerful open-source business intelligence and data visualization platform that makes it easy for anyone to ask questions about data and get insights. It provides a user-friendly interface for creating dashboards, generating reports, and performing data analysis without requiring SQL knowledge, while also supporting advanced users with native query capabilities.
 
+![](https://i.imgur.com/ro5HC11.png)
+
 Hosting Metabase with a built-in PostgreSQL database on Railway gives you access to a complete business intelligence platform that’s ready to use out of the box. PostgreSQL is provisioned automatically, ensuring persistent storage for your analytics environment.  
 
 Metabase connects seamlessly to multiple data sources, provides interactive dashboards, and enables self-service analytics for your team. It offers intuitive data exploration tools, automated dashboard refresh, user permission management, and embedded analytics capabilities.  

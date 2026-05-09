@@ -1,4 +1,4 @@
-# Deploy Hermes Agent [Updated May'26] on Railway
+# Deploy Hermes Agent | OpenClaw Alternative on Railway [May'26] on Railway
 
 [May'26] Hermes AI agent – faster & smarter than OpenClaw & Claude agents.
 

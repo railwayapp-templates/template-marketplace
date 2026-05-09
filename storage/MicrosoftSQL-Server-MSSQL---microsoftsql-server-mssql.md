@@ -34,6 +34,7 @@ Key features include:
 
 ## Configuration
 
+- **Start command:** `/opt/mssql/bin/sqlservr -T1800`
 - **Volume:** `/var/opt/mssql`
 
 **Category:** Storage · **Languages:** Dockerfile

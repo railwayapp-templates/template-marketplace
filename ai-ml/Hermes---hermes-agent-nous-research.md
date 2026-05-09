@@ -1,6 +1,6 @@
-# Deploy Hermes Agent | Self Improving Agent By Nous Research on Railway
+# Deploy Hermes on Railway
 
-Self Host Hermes Agent, Cron, Skills, Analytics with The Official Dashboard
+Self Host Hermes Agent. Self Improving Agent By Nous Research.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-nous-research)
 

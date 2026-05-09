@@ -69,33 +69,18 @@ MIT
 
 | Service | Source | Type |
 |---------|--------|------|
-| MinIO Bucket Creator | `minio/mc:RELEASE.2025-04-08T15-39-49Z` | Database |
-| MinIO | `minio/minio:RELEASE.2025-04-08T15-41-24Z` | Database |
 | nx-cache-server | `ghcr.io/ikatsuba/nx-cache-server:latest` | Web service |
 
 ## Environment variables
 
-| Variable | Service | Default | Description |
-| --------- | ------- | ------- | ----------- |
-| `MINIO_BUCKET` | MinIO Bucket Creator | - | MinIO Bucket |
-| `MINIO_ENDPOINT` | MinIO Bucket Creator | - | MinIO Endpoint |
-| `MINIO_ROOT_USER` | MinIO Bucket Creator | (secret) | MinIO Root User |
-| `MINIO_ROOT_PASSWORD` | MinIO Bucket Creator | (secret) | MinIO Root Password |
-| `PORT` | MinIO | 9000 | MinIO Port |
-| `MINIO_BUCKET` | MinIO | nx-cloud | MinIO Bucket |
-| `MINIO_ROOT_USER` | MinIO | (secret) | MinIO Root User |
-| `MINIO_ROOT_PASSWORD` | MinIO | (secret) | MinIO Root Password |
-| `AWS_REGION` | nx-cache-server | us-east-1 | - |
-| `AWS_SECRET_ACCESS_KEY` | nx-cache-server | (secret) | - |
-| `NX_CACHE_ACCESS_TOKEN` | nx-cache-server | (secret) | - |
+| Variable | Default |
+| --------- | ------- |
+| `AWS_SECRET_ACCESS_KEY` | (secret) |
+| `NX_CACHE_ACCESS_TOKEN` | (secret) |
 
 ## Configuration
 
-- **Start command:** `/bin/sh -c "sleep 10 && /usr/bin/mc config host add minio ${MINIO_ENDPOINT} ${MINIO_ROOT_USER} ${MINIO_ROOT_PASSWORD} && /usr/bin/mc mb minio/${MINIO_BUCKET} && /usr/bin/mc anonymous set public minio/${MINIO_BUCKET}/public && exit 0"`
-- **Start command:** `/bin/sh -c "minio server --address [::]:$PORT $RAILWAY_VOLUME_MOUNT_PATH"`
-- **Healthcheck:** `/minio/health/ready`
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/data`
 
 **Category:** Other
 

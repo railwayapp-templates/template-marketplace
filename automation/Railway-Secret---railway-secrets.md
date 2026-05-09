@@ -14,7 +14,7 @@ One-click deploy. The volume, health check, and cron service are pre-configured 
 
 | Service | Source | Type |
 |---------|--------|------|
-| railway-secret | [0xdps/railway-secrets](https://github.com/0xdps/railway-secrets) | Web service |
+| railway-secret | `ghcr.io/0xdps/railway-secret:latest` | Web service |
 
 ## Environment variables
 
@@ -28,8 +28,8 @@ One-click deploy. The volume, health check, and cron service are pre-configured 
 
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/var/www/html/storage`
+- **Volume:** `/data`
 
-**Category:** Automation · **Languages:** PHP, JavaScript, CSS, Dockerfile, Shell
+**Category:** Automation
 
 [View on Railway →](https://railway.com/deploy/railway-secrets)
