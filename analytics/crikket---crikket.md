@@ -14,26 +14,41 @@ On Railway, crikket can be deployed using separate services for the web app and 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Crikket Web | `ghcr.io/redpangilinan/crikket-web:latest` | Web service |
-| Crikket Server | `ghcr.io/redpangilinan/crikket-server:latest` | Web service |
-| Crikket Migrate | `ghcr.io/redpangilinan/crikket-server:latest` | Worker |
-| Crikket Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| crikket-web | [saenyakorn/crikket](https://github.com/saenyakorn/crikket) (root: /apps/web) | Web service |
+| crikket-migrate | [saenyakorn/crikket](https://github.com/saenyakorn/crikket) (root: /apps/server) | Worker |
+| crikket-postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| crikket-server | [saenyakorn/crikket](https://github.com/saenyakorn/crikket) (root: /apps/server) | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `NEXT_PUBLIC_GOOGLE_AUTH_ENABLED` | Crikket Web | false | - |
-| `STORAGE_BUCKET` | Crikket Server | crikket | - |
-| `ENABLE_PAYMENTS` | Crikket Server | false | - |
-| `BETTER_AUTH_SECRET` | Crikket Server | (secret) | - |
-| `STORAGE_ADDRESSING_STYLE` | Crikket Server | path | - |
-| `STORAGE_SECRET_ACCESS_KEY` | Crikket Server | (secret) | - |
-| `POSTGRES_DB` | Crikket Postgres | railway | Default database created when image is started. |
-| `DATABASE_URL` | Crikket Postgres | - | URL to connect to Postgres database. |
-| `POSTGRES_USER` | Crikket Postgres | (secret) | User to connect to Postgres DB |
-| `POSTGRES_PASSWORD` | Crikket Postgres | (secret) | Password to connect to DB |
-| `DATABASE_PUBLIC_URL` | Crikket Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `NEXT_PUBLIC_APP_URL` | crikket-web | - | Primary web app URL. |
+| `NEXT_PUBLIC_SITE_URL` | crikket-web | - | Public site URL for metadata/canonical links. |
+| `NEXT_PUBLIC_SERVER_URL` | crikket-web | - | Public API/server base URL used by the web app. |
+| `NODE_ENV` | crikket-migrate | production | - |
+| `POSTGRES_DB` | crikket-postgres | railway | Default database created when image is started. |
+| `DATABASE_URL` | crikket-postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | crikket-postgres | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | crikket-postgres | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | crikket-postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `NODE_ENV` | crikket-server | production | Core |
+| `RESEND_API_KEY` | crikket-server | (secret) | - |
+| `STORAGE_BUCKET` | crikket-server | crikket | - |
+| `STORAGE_REGION` | crikket-server | auto | - |
+| `ENABLE_PAYMENTS` | crikket-server | false | Storage (MinIO) |
+| `RESEND_FROM_EMAIL` | crikket-server | - | Optional security/rate limiting |
+| `BETTER_AUTH_SECRET` | crikket-server | (secret) | - |
+| `POLAR_ACCESS_TOKEN` | crikket-server | (secret) | - |
+| `STORAGE_PUBLIC_URL` | crikket-server | - | Optional OAuth / Email |
+| `GOOGLE_CLIENT_SECRET` | crikket-server | (secret) | - |
+| `POLAR_WEBHOOK_SECRET` | crikket-server | (secret) | - |
+| `TURNSTILE_SECRET_KEY` | crikket-server | (secret) | Optional Polar (only if ENABLE_PAYMENTS=true) |
+| `ALLOWED_SIGNUP_DOMAINS` | crikket-server | * | - |
+| `STORAGE_ADDRESSING_STYLE` | crikket-server | path | - |
+| `UPSTASH_REDIS_REST_TOKEN` | crikket-server | (secret) | - |
+| `STORAGE_SECRET_ACCESS_KEY` | crikket-server | (secret) | - |
+| `CAPTURE_SUBMIT_TOKEN_SECRET` | crikket-server | (secret) | - |
 
 ## Configuration
 
@@ -42,6 +57,6 @@ On Railway, crikket can be deployed using separate services for the web app and 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Analytics
+**Category:** Analytics · **Languages:** TypeScript, MDX, Shell, CSS, Dockerfile, JavaScript, HTML
 
 [View on Railway →](https://railway.com/deploy/crikket)
