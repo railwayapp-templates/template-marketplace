@@ -6,6 +6,8 @@ Self Host Supabase. Auth, APIs, Functions, Subs, Vector embeddings & more
 
 ## About
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/supabase-firebase-alternative?referralCode=QXdhdr)
+
 Supabase is an open-source Firebase alternative that gives you a hosted PostgreSQL database, authentication, file storage, real-time subscriptions, auto-generated REST and GraphQL APIs, and edge functions — all behind a single API gateway. Self-host Supabase on Railway when you want the full Firebase developer experience without vendor lock-in, and the freedom to run on your own infrastructure with a single click.
 
 This Railway template deploys the complete twelve-service Supabase stack — `postgres`, `kong` (API gateway), `auth` (GoTrue), `rest` (PostgREST), `realtime`, `storage`, `imgproxy`, `meta` (postgres-meta), `functions` (edge-runtime), `analytics` (Logflare), `studio` (the dashboard), and `supavisor` (connection pooler) — pre-wired with cross-service references, JWT keys, and a public domain pointing at Kong. The Vector log shipper is intentionally omitted because it requires `docker.sock` access that Railway does not expose; Railway's own logging serves the same purpose.

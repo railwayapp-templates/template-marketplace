@@ -6,21 +6,27 @@ No vector DB, no chunking. LLM reasoning-based RAG with 98.7% accuracy.
 
 ## About
 
-**PageIndex** is an open-source, vectorless RAG (Retrieval-Augmented Generation) framework by VectifyAI. Instead of relying on vector databases and semantic similarity search, PageIndex builds a hierarchical tree index from your documents and uses LLM reasoning to retrieve the most relevant sections — just like a human expert would.
+![PageIndex](https://github.com/user-attachments/assets/46201e72-675b-43bc-bfbd-081cc6b65a1d)
+
+**PageIndex** is an open-source, vectorless RAG (Retrieval-Augmented Generation) framework by VectifyAI. Instead of vector databases and similarity search, it builds a hierarchical tree index from your documents and uses LLM reasoning to retrieve the most relevant sections — the way a domain expert would navigate a document, not a search engine.
 
 **No Vector DB. No Chunking. Just Reasoning.**
 
-Traditional RAG systems approximate relevance through vector similarity. PageIndex uses an agentic, in-context tree search that navigates documents the way domain experts do — making it ideal for financial reports, legal filings, academic papers, technical manuals, and any long-form professional document.
+Traditional RAG approximates relevance through embedding distance. PageIndex uses agentic tree search — navigating your document the way a domain expert would — making it ideal for financial reports, legal filings, academic papers, and any long-form professional document where similarity ≠ relevance. Inspired by AlphaGo, PageIndex performs retrieval in two steps: (1) generate a hierarchical "Table-of-Contents" tree index from your document, and (2) perform reasoning-based retrieval through LLM-guided tree search. It achieves state-of-the-art **98.7% accuracy on FinanceBench**, outperforming all vector-based RAG baselines.
 
-Inspired by AlphaGo, PageIndex performs retrieval in two steps: (1) generate a hierarchical "Table-of-Contents" tree index from your document, and (2) perform reasoning-based retrieval through LLM-guided tree search. It achieves state-of-the-art **98.7% accuracy on FinanceBench**, outperforming all vector-based RAG baselines.
-
-This Railway template deploys a self-hosted PageIndex instance with everything pre-configured. You bring your LLM API key (OpenAI, Anthropic, or any LiteLLM-compatible provider), and Railway handles the infrastructure. Once deployed, you can generate PageIndex tree structures from any PDF document and run reasoning-based retrieval queries — no vector database setup, no embedding pipelines, no chunking configuration required. The template is ready for both standalone use and integration with agentic frameworks like OpenAI Agents SDK.
+This Railway template wraps PageIndex in a production-ready HTTP API. Bring your OpenAI (or any LiteLLM-compatible) API key, and Railway handles the rest. Upload a PDF or Markdown file, get back a structured JSON tree — ready to plug into your RAG pipeline, agentic workflow, or MCP client. No vector database setup, no embedding pipelines, no chunking configuration required.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| PageIndex | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | Worker |
+| PageIndex | [sahilrupani/pageindex-railway](https://github.com/sahilrupani/pageindex-railway) | Worker |
+
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `OPENAI_API_KEY` | (secret) | Passed to LiteLLM, works with OpenAI. Required for all indexing |
 
 **Category:** AI/ML · **Languages:** Python
 

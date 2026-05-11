@@ -2,13 +2,21 @@
 
 Hermes Agent + Hermes Web UI + Web TUI + Browser + Searxng Search
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-all-in-one-bundle)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-all-in-one)
 
 ## About
+
+<img width="80" src="https://somi-public-assets.s3.ap-southeast-1.amazonaws.com/railway/hermes-agent-logo.png" alt="Hermes Agent Logo">
 
 Hermes Agent is a self-improving, open-source AI agent from Nous Research. It connects to messaging channels such as Telegram, Discord, Slack, WhatsApp, Signal, and Email, remembers previous work, creates and improves skills, and can run scheduled automations. This Railway template packages Hermes with [Hermes WebUI](https://github.com/nesquena/hermes-webui) — the popular community web interface — so you get a polished browser experience for chat, sessions, settings, and onboarding right after deploy.
 
 The template also includes a companion SearXNG service so Hermes has private, self-hosted web search available without third-party search API keys.
+
+<img src="https://somi-public-assets.s3.ap-southeast-1.amazonaws.com/railway/hermes-agent-webui.png" alt="Hermes Agent WebUI">
+
+<img src="https://somi-public-assets.s3.ap-southeast-1.amazonaws.com/railway/hermes-agent-webui-onboarding.jpg" alt="Hermes Agent WebUI Onboarding">
+
+<img src="https://somi-public-assets.s3.ap-southeast-1.amazonaws.com/railway/hermes-agent-gateway-telegram.png" alt="Hermes Agent Gateway Telegram">
 
 ### Web-Based TUI: One-Click OAuth, No SSH Required
 
@@ -16,9 +24,17 @@ Headless OAuth is a nightmare — no browser, no localhost callback, no easy way
 
 **One-Click OAuth.** `/tui` runs Hermes' device-code flow for you. Click "Login with ChatGPT (Codex)", scan the code on your phone, and you're chatting with GPT-5.5 through your existing **$20/mo ChatGPT subscription** — no API key, no per-token billing, no SSH tunnels, no `xdg-open` errors. Same flow works for **Nous Portal**, **Anthropic (Claude Max)**, and **GitHub Copilot**. For other providers (OpenRouter, DeepSeek, Gemini API, etc.), paste your API key into the WebUI Settings panel.
 
+<img src="https://somi-public-assets.s3.ap-southeast-1.amazonaws.com/railway/openai-codex-cli-oauth-1.jpg" alt="OpenAI Codex CLI OAuth">
+
+<img width="300" src="https://somi-public-assets.s3.ap-southeast-1.amazonaws.com/railway/openai-codex-cli-oauth-2.png" alt="OpenAI Codex CLI OAuth">
+
 **Full web shell.** `/tui` also exposes a long-lived `/bin/bash` pane for the moments you need to peek at logs, inspect `/data`, or run a `hermes` CLI command directly — no `railway ssh` setup, no local CLI install required. Authentication reuses the WebUI's `hermes_session` cookie, so the shell is gated behind the same admin password as the rest of the UI.
 
+<img src="https://somi-public-assets.s3.ap-southeast-1.amazonaws.com/railway/hermes-agent-web-tui.png" alt="Hermes Agent TUI">
+
 ### Built-In Chromium: Real Browser Automation Out of the Box
+
+<img src="https://somi-public-assets.s3.ap-southeast-1.amazonaws.com/railway/hermes-agent-web-browser.png" alt="Hermes Agent Chromium Browser">
 
 Most Railway templates that "support a browser tool" leave you to figure out the runtime yourself — Hermes happily calls Playwright, but only if Chromium and its system libraries are actually installed. This template ships with **Playwright Chromium pre-installed** in the container, so Hermes' browser tool works the moment the deploy finishes. No `apt-get install`, no missing `libnss3` errors, no headless-shell dance.
 
@@ -66,4 +82,4 @@ An optional `START_GATEWAY=true` environment variable enables the messaging gate
 
 **Category:** Other · **Languages:** Python, HTML, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/deploy/hermes-agent-all-in-one-bundle)
+[View on Railway →](https://railway.com/deploy/hermes-agent-all-in-one)

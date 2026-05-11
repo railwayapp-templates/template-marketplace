@@ -70,7 +70,7 @@ Feature requests are tagged with one of the following:
 ## Configuration
 
 - **Start command:** `/bin/sh -c 'if [ ! -f /app/config/glance.yml ]; then echo "Config not found in volume, downloading configuration..." && wget -O /app/config/glance.yml $GLANCE_CONFIG_SOURCE && echo "Configuration has been populated in /app/config/glance.yml"; else echo "Configuration found in volume, continuing with startup..."; fi && echo "Starting Glance..." && ./glance --config /app/config/glance.yml'`
-- **Healthcheck:** `/api/healthz`
+- **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/config`
 

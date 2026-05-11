@@ -1,4 +1,4 @@
-# Deploy trading-agents-swarm on Railway
+# Deploy TradingAgents on Railway
 
 Swarm of AI Agents helping to do extension stock analysis
 

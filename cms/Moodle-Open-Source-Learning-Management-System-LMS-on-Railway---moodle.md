@@ -47,7 +47,6 @@ This template deploys two services: the Moodle application server (Bitnami legac
 | `MOODLE_DATABASE_HOST` | Moodle | - | MariaDB internal hostname |
 | `MOODLE_DATABASE_NAME` | Moodle | - | Target database name |
 | `MOODLE_DATABASE_USER` | Moodle | (secret) | Database username |
-| `MOODLE_SKIP_BOOTSTRAP` | Moodle | yes | Skip installer on restarts |
 | `MOODLE_DATABASE_PASSWORD` | Moodle | (secret) | Database password |
 | `MOODLE_DATABASE_PORT_NUMBER` | Moodle | 3306 | MariaDB port |
 | `MARIADB_USER` | MariaDB | (secret) | Application database user |
@@ -60,7 +59,7 @@ This template deploys two services: the Moodle application server (Bitnami legac
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/bitnami/moodledata`
+- **Volume:** `/bitnami/moodle`
 - **Volume:** `/bitnami/mariadb`
 
 **Category:** CMS

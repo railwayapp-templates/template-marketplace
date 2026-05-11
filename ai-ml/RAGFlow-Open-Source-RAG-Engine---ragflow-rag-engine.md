@@ -29,7 +29,7 @@ Key features of self-hosted RAGFlow:
 |---------|--------|------|
 | Redis | `redis:8.2.1` | Database |
 | MinIO | `quay.io/minio/minio:latest` | Database |
-| Elasticsearch | `elasticsearch:8.11.3` | Database |
+| Elasticsearch | `elasticsearch:8.11.3` | Worker |
 | RAGFlow | `infiniflow/ragflow:v0.25.2` | Web service |
 | MySQL | `mysql:9.4` | Database |
 
@@ -90,7 +90,6 @@ Key features of self-hosted RAGFlow:
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **Volume:** `/data`
 - **Start command:** `minio server /data --console-address :9001`
-- **Volume:** `/usr/share/elasticsearch/data`
 - **Networking:** Public domain with automatic HTTPS
 - **Start command:** `docker-entrypoint.sh mysqld --innodb-use-native-aio=0 --disable-log-bin --performance_schema=0 --innodb-buffer-pool-size=1G`
 - **Volume:** `/var/lib/mysql`

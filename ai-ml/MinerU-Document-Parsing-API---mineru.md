@@ -6,6 +6,8 @@ Self-host MinerU PDF parser with an OpenAI-compatible API
 
 ## About
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mineru?referralCode=QXdhdr)
+
 MinerU is an open-source document parsing engine from Shanghai AI Lab's OpenDataLab that converts PDFs, images, and Office documents into LLM-ready Markdown and JSON. Self-host MinerU on Railway when you want a private, OCR-capable document parser for your RAG pipeline, knowledge base ingestion, or agentic workflow — no per-page cloud OCR fees and no third-party telemetry on your documents.
 
 This Railway template deploys MinerU's `mineru-api` FastAPI server in pure CPU mode (`pipeline` backend) using a custom Python 3.12 Dockerfile, with a persistent volume for the Hugging Face model cache and a public HTTPS URL on port 8000. Pipeline models (~1–2 GB of layout, OCR, table, and formula recognizers) lazy-download on the first request and are cached on the volume for all subsequent boots.

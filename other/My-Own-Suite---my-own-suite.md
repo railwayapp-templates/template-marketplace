@@ -22,7 +22,7 @@ Hosting My Own Suite means running your own connected set of everyday cloud tool
 | My Own Suite | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/suite-manager) | Web service |
 | radicale-proxy | `ghcr.io/railwayapp/function-bun:1.3.0` | Web service |
 | Immich | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/immich) | Web service |
-| Memcached | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/seafile) | Worker |
+| seafile-valkey | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/seafile) | Worker |
 | Immich-ml | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/immich) | Worker |
 | Radicale | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/radicale) | Web service |
 | Immich-postgres | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/immich) | Database |
@@ -36,13 +36,21 @@ Hosting My Own Suite means running your own connected set of everyday cloud tool
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `DB_USER_HOST` | Seafile | % | - |
+| `REDIS_PORT` | Seafile | 6379 | - |
 | `SMTP_PASSWORD` | Seafile | (secret) | - |
 | `SMTP_USERNAME` | Seafile | (secret) | - |
+| `CACHE_PROVIDER` | Seafile | redis | - |
+| `REDIS_PASSWORD` | Seafile | (secret) | - |
 | `ONLYOFFICE_JWT_SECRET` | Seafile | (secret) | - |
-| `SEAFILE_ADMIN_PASSWORD` | Seafile | (secret) | - |
+| `SEAFILE_MYSQL_DB_USER` | Seafile | (secret) | - |
 | `SEAFILE_SERVER_PROTOCOL` | Seafile | https | - |
+| `SEAFILE_MYSQL_DB_PASSWORD` | Seafile | (secret) | - |
+| `INIT_SEAFILE_ADMIN_PASSWORD` | Seafile | (secret) | - |
 | `VERIFY_ONLYOFFICE_CERTIFICATE` | Seafile | true | - |
+| `SEAFILE_MYSQL_DB_CCNET_DB_NAME` | Seafile | ccnet_db | - |
+| `SEAFILE_MYSQL_DB_SEAHUB_DB_NAME` | Seafile | seahub_db | - |
+| `INIT_SEAFILE_MYSQL_ROOT_PASSWORD` | Seafile | (secret) | - |
+| `SEAFILE_MYSQL_DB_SEAFILE_DB_NAME` | Seafile | seafile_db | - |
 | `MYSQLPORT` | MySQL | 3306 | - |
 | `MYSQLUSER` | MySQL | root | - |
 | `MYSQLPASSWORD` | MySQL | (secret) | - |
@@ -63,12 +71,12 @@ Hosting My Own Suite means running your own connected set of everyday cloud tool
 | `SESSION_SECRET` | My Own Suite | (secret) | - |
 | `SMTP_FROM_NAME` | My Own Suite | My Own Suite | Sender name shown in inboxes |
 | `PUBLIC_URL_SCHEME` | My Own Suite | https | - |
-| `SEAFILE_ADMIN_PASSWORD` | My Own Suite | (secret) | - |
 | `RADICALE_ADMIN_PASSWORD` | My Own Suite | (secret) | - |
 | `RADICALE_ADMIN_USERNAME` | My Own Suite | (secret) | - |
 | `SUITE_MANAGER_BASE_PATH` | My Own Suite | /setup | - |
 | `SUITE_MANAGER_GITHUB_REPO` | My Own Suite | rpuls/my-own-suite | - |
 | `SUITE_MANAGER_UPDATES_MODE` | My Own Suite | notify-only | - |
+| `INIT_SEAFILE_ADMIN_PASSWORD` | My Own Suite | (secret) | - |
 | `SUITE_MANAGER_UPDATES_ENABLED` | My Own Suite | true | - |
 | `PORT` | radicale-proxy | 3000 | - |
 | `RADICALE_PORT` | radicale-proxy | 5232 | - |
@@ -80,6 +88,7 @@ Hosting My Own Suite means running your own connected set of everyday cloud tool
 | `DB_USERNAME` | Immich | (secret) | - |
 | `REDIS_PASSWORD` | Immich | (secret) | - |
 | `UPLOAD_LOCATION` | Immich | /usr/src/app/upload | - |
+| `REDIS_PASSWORD` | seafile-valkey | (secret) | - |
 | `RADICALE_ADMIN_PASSWORD` | Radicale | (secret) | - |
 | `RADICALE_ADMIN_USERNAME` | Radicale | (secret) | - |
 | `POSTGRES_DB` | Immich-postgres | immich | - |
@@ -114,7 +123,7 @@ Hosting My Own Suite means running your own connected set of everyday cloud tool
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `./run.sh Ly8gaW5kZXgudHN4IChCdW4gdjEuMyBydW50aW1lKQppbXBvcnQgeyBIb25vIH0gZnJvbSAiaG9ub0A0IjsKaW1wb3J0IHsgY29ycyB9IGZyb20gImhvbm8vY29ycyI7Cgpjb25zdCBhcHAgPSBuZXcgSG9ubygpOwphcHAudXNlKCIvKiIsIGNvcnMoKSk7Cgpjb25zdCBUT0tFTiA9IHByb2Nlc3MuZW52LkNBTEVOREFSX1BST1hZX1RPS0VOID8/ICIiOwpjb25zdCBVU0VSID0gcHJvY2Vzcy5lbnYuUkFESUNBTEVfQURNSU5fVVNFUk5BTUUgPz8gIiI7CmNvbnN0IFBBU1MgPSBwcm9jZXNzLmVudi5SQURJQ0FMRV9BRE1JTl9QQVNTV09SRCA/PyAiIjsKY29uc3QgSE9TVCA9IHByb2Nlc3MuZW52LlJBRElDQUxFX1BSSVZBVEVfRE9NQUlOID8/ICJyYWRpY2FsZS5yYWlsd2F5LmludGVybmFsIjsKY29uc3QgUkFESUNBTEVfUE9SVCA9IHByb2Nlc3MuZW52LlJBRElDQUxFX1BPUlQgPz8gIjUyMzIiOwoKYXBwLmdldCgiLyIsIChjKSA9PiBjLnRleHQoImNhbGVuZGFyLXByb3h5IikpOwphcHAuZ2V0KCIvYXBpL2hlYWx0aCIsIChjKSA9PiBjLmpzb24oeyBzdGF0dXM6ICJvayIgfSkpOwoKYXBwLmdldCgiL2ludGVybmFsL3JhZGljYWxlLWljYWwvOnRva2VuIiwgYXN5bmMgKGMpID0+IHsKICBjb25zdCBpbmNvbWluZyA9IGMucmVxLnBhcmFtKCJ0b2tlbiIpOwogIGlmICghVE9LRU4gfHwgaW5jb21pbmcgIT09IFRPS0VOKSByZXR1cm4gYy50ZXh0KCJVbmF1dGhvcml6ZWQiLCA0MDEpOwogIGlmICghVVNFUiB8fCAhUEFTUykgcmV0dXJuIGMudGV4dCgiTWlzc2luZyBSYWRpY2FsZSBjcmVkZW50aWFscyIsIDUwMCk7CgogIGNvbnN0IHVwc3RyZWFtID0gYGh0dHA6Ly8ke0hPU1R9OiR7UkFESUNBTEVfUE9SVH0vJHtlbmNvZGVVUklDb21wb25lbnQoCiAgICBVU0VSCiAgKX0vZGVmYXVsdC1jYWxlbmRhci8/ZXhwb3J0YDsKICBjb25zdCBhdXRoID0gIkJhc2ljICIgKyBCdWZmZXIuZnJvbShgJHtVU0VSfToke1BBU1N9YCkudG9TdHJpbmcoImJhc2U2NCIpOwoKICB0cnkgewogICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2godXBzdHJlYW0sIHsKICAgICAgaGVhZGVyczogewogICAgICAgIEF1dGhvcml6YXRpb246IGF1dGgsCiAgICAgICAgQWNjZXB0OiAidGV4dC9jYWxlbmRhciwqLyo7cT0wLjgiLAogICAgICB9LAogICAgfSk7CgogICAgY29uc3QgY29udGVudFR5cGUgPQogICAgICByZXMuaGVhZGVycy5nZXQoImNvbnRlbnQtdHlwZSIpID8/ICJ0ZXh0L2NhbGVuZGFyOyBjaGFyc2V0PXV0Zi04IjsKICAgIHJldHVybiBuZXcgUmVzcG9uc2UocmVzLmJvZHksIHsKICAgICAgc3RhdHVzOiByZXMuc3RhdHVzLAogICAgICBoZWFkZXJzOiB7CiAgICAgICAgImNvbnRlbnQtdHlwZSI6IGNvbnRlbnRUeXBlLAogICAgICAgICJjYWNoZS1jb250cm9sIjogIm5vLXN0b3JlIiwKICAgICAgfSwKICAgIH0pOwogIH0gY2F0Y2ggKGVycikgewogICAgcmV0dXJuIGMudGV4dChgVXBzdHJlYW0gY29ubmVjdGlvbiBmYWlsZWQ6ICR7U3RyaW5nKGVycil9YCwgNTAyKTsKICB9Cn0pOwoKQnVuLnNlcnZlKHsKICBwb3J0OiBOdW1iZXIocHJvY2Vzcy5lbnYuUE9SVCA/PyAzMDAwKSwKICBmZXRjaDogYXBwLmZldGNoLAp9KTsK`
 - **Volume:** `/usr/src/app/upload`
-- **Start command:** `docker-entrypoint.sh memcached -vv --max-item-size=32m`
+- **Start command:** `sh -lc 'valkey-server --requirepass "$REDIS_PASSWORD" --appendonly no'`
 - **Volume:** `/data`
 - **Start command:** `/usr/local/bin/immich-docker-entrypoint.sh postgres -c config_file=/etc/postgresql/postgresql.conf -c shared_preload_libraries=vchord.so,vectors.so`
 - **Healthcheck:** `/healthcheck`
@@ -122,6 +131,6 @@ Hosting My Own Suite means running your own connected set of everyday cloud tool
 - **Volume:** `/configs`
 - **Start command:** `sh -lc 'valkey-server --requirepass "$REDIS_PASSWORD"'`
 
-**Category:** Other · **Languages:** TypeScript, CSS, JavaScript, MDX, Astro, Shell, Dockerfile, PowerShell, HTML
+**Category:** Other · **Languages:** TypeScript, JavaScript, CSS, MDX, Astro, Shell, Dockerfile, PowerShell, HTML
 
 [View on Railway →](https://railway.com/deploy/my-own-suite)
