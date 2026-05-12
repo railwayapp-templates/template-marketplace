@@ -1,4 +1,4 @@
-# Deploy Paperclip Stack | Persistent Storage and PostgreSQL on Railway
+# Deploy Paperclip with postgres on Railway
 
 Hire AI employees, automate jobs, and run your business 🚀
 

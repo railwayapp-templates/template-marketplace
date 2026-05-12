@@ -59,7 +59,6 @@ kodus-selfhosted is the self-hosted version of Kodus AI, an automated code revie
 | kodus-ai-api | `ghcr.io/kodustech/kodus-ai-api` | Web service |
 | kodus-rabbitmq | `ghcr.io/kodustech/kodus-rabbitmq` | Database |
 | pgvector | [kodustech/kodus-installer](https://github.com/kodustech/kodus-installer) (root: /docker/pgvector) | Worker |
-| kodus-service-ast | `ghcr.io/kodustech/kodus-service-ast` | Worker |
 | kodus-ai-worker | `ghcr.io/kodustech/kodus-ai-worker` | Worker |
 
 ## Environment variables
@@ -67,6 +66,8 @@ kodus-selfhosted is the self-hosted version of Kodus AI, an automated code revie
 | Variable | Service | Default |
 | --------- | ------- | ------- |
 | `WEB_NODE_ENV` | kodus-web | self-hosted |
+| `WEB_PORT_API` | kodus-web | 443 |
+| `NEXTAUTH_SECRET` | kodus-web | (secret) |
 | `WEB_NEXTAUTH_SECRET` | kodus-web | (secret) |
 | `WEB_SUPPORT_DOCS_URL` | kodus-web | https://docs.kodus.io/ |
 | `WEB_SUPPORT_DISCORD_INVITE_URL` | kodus-web | https://discord.gg/TFZBRk9fT6 |
@@ -76,11 +77,16 @@ kodus-selfhosted is the self-hosted version of Kodus AI, an automated code revie
 | `RUN_SEEDS` | kodus-ai-webhook | false |
 | `API_JWT_SECRET` | kodus-ai-webhook | (secret) |
 | `RUN_MIGRATIONS` | kodus-ai-webhook | false |
+| `NEXTAUTH_SECRET` | kodus-ai-webhook | (secret) |
 | `API_WEBHOOKS_PORT` | kodus-ai-webhook | 3332 |
 | `API_MG_DB_PASSWORD` | kodus-ai-webhook | (secret) |
 | `API_MG_DB_USERNAME` | kodus-ai-webhook | (secret) |
 | `API_PG_DB_PASSWORD` | kodus-ai-webhook | (secret) |
 | `API_PG_DB_USERNAME` | kodus-ai-webhook | (secret) |
+| `API_OPEN_AI_API_KEY` | kodus-ai-webhook | (secret) |
+| `LANGFUSE_SECRET_KEY` | kodus-ai-webhook | (secret) |
+| `WEB_NEXTAUTH_SECRET` | kodus-ai-webhook | (secret) |
+| `API_MORPHLLM_API_KEY` | kodus-ai-webhook | (secret) |
 | `API_JWT_REFRESH_SECRET` | kodus-ai-webhook | (secret) |
 | `CODE_MANAGEMENT_SECRET` | kodus-ai-webhook | (secret) |
 | `CODE_MANAGEMENT_WEBHOOK_TOKEN` | kodus-ai-webhook | (secret) |
@@ -109,17 +115,19 @@ kodus-selfhosted is the self-hosted version of Kodus AI, an automated code revie
 | `RUN_SEEDS` | kodus-ai-api | true |
 | `API_NODE_ENV` | kodus-ai-api | production |
 | `USE_LOCAL_DB` | kodus-ai-api | true |
-| `API_LOG_LEVEL` | kodus-ai-api | info |
+| `API_LOG_LEVEL` | kodus-ai-api | error |
 | `API_CLOUD_MODE` | kodus-ai-api | false |
-| `API_CRYPTO_KEY` | kodus-ai-api | 844258d13c99e4d6600eb7f44e2f72e4b19261bec3fcb5f4710be808124fb2e7 |
 | `API_JWT_SECRET` | kodus-ai-api | (secret) |
 | `API_LOG_PRETTY` | kodus-ai-api | false |
 | `API_PG_DB_PORT` | kodus-ai-api | 5432 |
 | `RUN_MIGRATIONS` | kodus-ai-api | true |
+| `NEXTAUTH_SECRET` | kodus-ai-api | (secret) |
 | `API_DATABASE_ENV` | kodus-ai-api | development |
-| `SANDBOX_PROVIDER` | kodus-ai-api | manual |
+| `LANGFUSE_TRACING` | kodus-ai-api | false |
+| `SANDBOX_PROVIDER` | kodus-ai-api | auto |
 | `API_RATE_INTERVAL` | kodus-ai-api | 1000 |
 | `API_WEBHOOKS_PORT` | kodus-ai-api | 3332 |
+| `LANGFUSE_BASE_URL` | kodus-ai-api | https://cloud.langfuse.com |
 | `API_JWT_EXPIRES_IN` | kodus-ai-api | 365d |
 | `API_MG_DB_DATABASE` | kodus-ai-api | kodus_db |
 | `API_MG_DB_PASSWORD` | kodus-ai-api | (secret) |
@@ -128,12 +136,19 @@ kodus-selfhosted is the self-hosted version of Kodus AI, an automated code revie
 | `API_PG_DB_USERNAME` | kodus-ai-api | (secret) |
 | `USE_LOCAL_RABBITMQ` | kodus-ai-api | true |
 | `API_OPEN_AI_API_KEY` | kodus-ai-api | (secret) |
+| `LANGFUSE_SECRET_KEY` | kodus-ai-api | (secret) |
+| `WEB_NEXTAUTH_SECRET` | kodus-ai-api | (secret) |
+| `API_MORPHLLM_API_KEY` | kodus-ai-api | (secret) |
 | `API_RABBITMQ_ENABLED` | kodus-ai-api | true |
 | `API_RATE_MAX_REQUEST` | kodus-ai-api | 1000 |
+| `LANGFUSE_ENVIRONMENT` | kodus-ai-api | production |
 | `API_CRON_KODY_LEARNING` | kodus-ai-api | 0 0 * * 6 |
 | `API_JWT_REFRESH_SECRET` | kodus-ai-api | (secret) |
 | `API_MCP_SERVER_ENABLED` | kodus-ai-api | true |
 | `CODE_MANAGEMENT_SECRET` | kodus-ai-api | (secret) |
+| `API_AGENT_REVIEW_ENABLED` | kodus-ai-api | true |
+| `API_DATABASE_DISABLE_SSL` | kodus-ai-api | true |
+| `KODUS_TELEMETRY_DISABLED` | kodus-ai-api | false |
 | `GLOBAL_API_CONTAINER_NAME` | kodus-ai-api | kodus-api |
 | `API_ENABLE_CODE_REVIEW_AST` | kodus-ai-api | true |
 | `API_JWT_REFRESH_EXPIRES_IN` | kodus-ai-api | 365d |
@@ -144,33 +159,20 @@ kodus-selfhosted is the self-hosted version of Kodus AI, an automated code revie
 | `POSTGRES_DB` | pgvector | kodus_db |
 | `POSTGRES_USER` | pgvector | (secret) |
 | `POSTGRES_PASSWORD` | pgvector | (secret) |
-| `API_PORT` | kodus-service-ast | 3002 |
-| `NODE_ENV` | kodus-service-ast | production |
-| `RABBIT_SAC` | kodus-service-ast | false |
-| `API_NODE_ENV` | kodus-service-ast | production |
-| `API_LOG_LEVEL` | kodus-service-ast | info |
-| `API_LOG_PRETTY` | kodus-service-ast | true |
-| `API_PG_DB_PORT` | kodus-service-ast | 5432 |
-| `CONTAINER_NAME` | kodus-service-ast | kodus-service-ast |
-| `RABBIT_PREFETCH` | kodus-service-ast | 1 |
-| `API_DATABASE_ENV` | kodus-service-ast | development |
-| `API_PG_DB_SCHEMA` | kodus-service-ast | kodus_workflow |
-| `API_PG_DB_DATABASE` | kodus-service-ast | kodus_db |
-| `API_PG_DB_PASSWORD` | kodus-service-ast | (secret) |
-| `API_PG_DB_USERNAME` | kodus-service-ast | (secret) |
-| `RABBIT_RETRY_QUEUE` | kodus-service-ast | ast.jobs.retry.q |
-| `RABBIT_RETRY_TTL_MS` | kodus-service-ast | 60000 |
-| `API_DATABASE_DISABLE_SSL` | kodus-service-ast | true |
-| `RABBIT_PUBLISH_TIMEOUT_MS` | kodus-service-ast | 5000 |
 | `NODE_ENV` | kodus-ai-worker | production |
 | `RUN_SEEDS` | kodus-ai-worker | false |
 | `API_JWT_SECRET` | kodus-ai-worker | (secret) |
 | `RUN_MIGRATIONS` | kodus-ai-worker | false |
+| `NEXTAUTH_SECRET` | kodus-ai-worker | (secret) |
 | `API_WEBHOOKS_PORT` | kodus-ai-worker | 3332 |
 | `API_MG_DB_PASSWORD` | kodus-ai-worker | (secret) |
 | `API_MG_DB_USERNAME` | kodus-ai-worker | (secret) |
 | `API_PG_DB_PASSWORD` | kodus-ai-worker | (secret) |
 | `API_PG_DB_USERNAME` | kodus-ai-worker | (secret) |
+| `API_OPEN_AI_API_KEY` | kodus-ai-worker | (secret) |
+| `LANGFUSE_SECRET_KEY` | kodus-ai-worker | (secret) |
+| `WEB_NEXTAUTH_SECRET` | kodus-ai-worker | (secret) |
+| `API_MORPHLLM_API_KEY` | kodus-ai-worker | (secret) |
 | `API_JWT_REFRESH_SECRET` | kodus-ai-worker | (secret) |
 | `CODE_MANAGEMENT_SECRET` | kodus-ai-worker | (secret) |
 | `CODE_MANAGEMENT_WEBHOOK_TOKEN` | kodus-ai-worker | (secret) |

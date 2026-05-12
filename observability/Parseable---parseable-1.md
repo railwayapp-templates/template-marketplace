@@ -6,8 +6,6 @@ Unified observability platform
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/parseable)
-
 [Parseable](https://parseable.com) is an open source telemetry data lake. Deploy it on [Railway](https://railway.com) in one click with S3-compatible object storage powered by Railway Buckets.
 
 Parseable ingests logs, metrics, and traces via a simple REST API and stores them efficiently on S3-compatible object storage. With Parseable on Railway, you get a fully managed deployment with persistent storage, automatic health checks, and zero infrastructure setup. The platform supports standard ingestion protocols including OpenTelemetry, Fluent Bit, and direct HTTP, making it a drop-in backend for any observability pipeline.
@@ -36,7 +34,8 @@ Parseable ingests logs, metrics, and traces via a simple REST API and stores the
 - **Start command:** `parseable s3-store`
 - **Healthcheck:** `/api/v1/readiness`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/data/staging`
 
-**Category:** Other · **Languages:** Dockerfile
+**Category:** Observability · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/parseable-1)

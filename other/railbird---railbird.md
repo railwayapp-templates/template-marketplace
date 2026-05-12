@@ -14,7 +14,7 @@ Hosting railbird is a matter of running a single Go binary as its own Railway se
 
 | Service | Source | Type |
 |---------|--------|------|
-| railbird | [jratienza65/railbird](https://github.com/jratienza65/railbird) | Worker |
+| railbird | [jratienza65/railbird](https://github.com/jratienza65/railbird) | Database |
 
 ## Environment variables
 
@@ -25,6 +25,10 @@ Hosting railbird is a matter of running a single Go binary as its own Railway se
 | `NB_STATE_DIR` | /var/lib/netbird/data | - |
 | `NB_DEVICE_NAME` | railbird | - |
 | `NB_MANAGEMENT_URL` | https://api.netbird.io | - |
+
+## Configuration
+
+- **Volume:** `/var/lib/netbird/data`
 
 **Category:** Other · **Languages:** Go, Dockerfile
 

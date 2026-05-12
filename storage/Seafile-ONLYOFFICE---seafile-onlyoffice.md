@@ -26,7 +26,7 @@ If you are looking for a broader all-in-one experience that includes photos, pas
 
 | Service | Source | Type |
 |---------|--------|------|
-| Memcached | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/seafile) | Worker |
+| seafile-valkey | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/seafile) | Worker |
 | OnlyOffice | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/onlyoffice) | Web service |
 | MySQL | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/seafile) | Database |
 | Seafile | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/seafile) | Web service |
@@ -35,6 +35,7 @@ If you are looking for a broader all-in-one experience that includes photos, pas
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `REDIS_PASSWORD` | seafile-valkey | (secret) | - |
 | `JWT_SECRET` | OnlyOffice | (secret) | - |
 | `JWT_ENABLED` | OnlyOffice | true | - |
 | `SECURE_LINK_SECRET` | OnlyOffice | (secret) | - |
@@ -48,21 +49,28 @@ If you are looking for a broader all-in-one experience that includes photos, pas
 | `SMTP_FROM` | Seafile | noreply@example.com | Sender email shown on outgoing mail |
 | `SMTP_HOST` | Seafile | smtp.example.com | Custom SMTP host for advanced users |
 | `SMTP_PORT` | Seafile | 587 | Custom SMTP port, usually 587 for STARTTLS |
-| `DB_USER_HOST` | Seafile | % | - |
+| `REDIS_PORT` | Seafile | 6379 | - |
 | `SMTP_ENABLED` | Seafile | false | OBD: requires Railway pro plan ‼️ Enable email features for compatible apps |
 | `SMTP_PASSWORD` | Seafile | (secret) | Custom SMTP password or API key |
 | `SMTP_SECURITY` | Seafile | starttls | SMTP security: starttls, force_tls, or off |
 | `SMTP_USERNAME` | Seafile | (secret) | Custom SMTP username |
-| `SEAFILE_ADMIN_EMAIL` | Seafile | admin@example.com | - |
+| `CACHE_PROVIDER` | Seafile | redis | - |
+| `REDIS_PASSWORD` | Seafile | (secret) | - |
 | `ONLYOFFICE_JWT_SECRET` | Seafile | (secret) | - |
-| `SEAFILE_ADMIN_PASSWORD` | Seafile | (secret) | - |
+| `SEAFILE_MYSQL_DB_USER` | Seafile | (secret) | - |
 | `SEAFILE_SERVER_PROTOCOL` | Seafile | https | - |
+| `SEAFILE_MYSQL_DB_PASSWORD` | Seafile | (secret) | - |
 | `SEAFILE_SERVER_LETSENCRYPT` | Seafile | false | required for adding custom domain, SSL will be handled by Railway |
+| `INIT_SEAFILE_ADMIN_PASSWORD` | Seafile | (secret) | - |
 | `VERIFY_ONLYOFFICE_CERTIFICATE` | Seafile | true | - |
+| `SEAFILE_MYSQL_DB_CCNET_DB_NAME` | Seafile | ccnet_db | - |
+| `SEAFILE_MYSQL_DB_SEAHUB_DB_NAME` | Seafile | seahub_db | - |
+| `INIT_SEAFILE_MYSQL_ROOT_PASSWORD` | Seafile | (secret) | - |
+| `SEAFILE_MYSQL_DB_SEAFILE_DB_NAME` | Seafile | seafile_db | - |
 
 ## Configuration
 
-- **Start command:** `docker-entrypoint.sh memcached -vv --max-item-size=32m`
+- **Start command:** `sh -lc 'valkey-server --requirepass "$REDIS_PASSWORD" --appendonly no'`
 - **Healthcheck:** `/healthcheck`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/www/onlyoffice/Data`
@@ -70,6 +78,6 @@ If you are looking for a broader all-in-one experience that includes photos, pas
 - **Volume:** `/var/lib/mysql`
 - **Volume:** `/shared`
 
-**Category:** Storage · **Languages:** TypeScript, CSS, JavaScript, MDX, Astro, Shell, Dockerfile, PowerShell, HTML
+**Category:** Storage · **Languages:** TypeScript, JavaScript, CSS, MDX, Astro, Shell, Dockerfile, PowerShell, HTML
 
 [View on Railway →](https://railway.com/deploy/seafile-onlyoffice)
