@@ -1,4 +1,4 @@
-# Deploy Libredesk on Railway
+# Deploy libredesk on Railway
 
 Modern, open source, self-hosted omnichannel customer support desk.
 
@@ -25,14 +25,18 @@ This template deploys Libredesk with PostgreSQL and Redis pre-configured. On fir
 | `POSTGRES_DB` | Postgres | libredesk | - |
 | `POSTGRES_USER` | Postgres | (secret) | - |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | - |
-| `PORT` | libredesk | 9000 | - |
-| `LIBREDESK_APP__ENV` | libredesk | prod | - |
-| `LIBREDESK_DB__PORT` | libredesk | 5432 | - |
-| `LIBREDESK_DB__USER` | libredesk | (secret) | - |
-| `LIBREDESK_DB__PASSWORD` | libredesk | (secret) | - |
-| `LIBREDESK_DB__SSL_MODE` | libredesk | disable | - |
-| `LIBREDESK_APP__SERVER__ADDRESS` | libredesk | 0.0.0.0:9000 | - |
-| `LIBREDESK_SYSTEM_USER_PASSWORD` | libredesk | (secret) | Min 10 chars. Must include uppercase, lowercase, number, and special character. e.g. MyPassword@123; Login with email 'System' and this password after deploy. |
+| `PORT` | libredesk | 9000 | Libredesk http server port |
+| `LIBREDESK_APP__ENV` | libredesk | prod | Environment either prod / dev |
+| `LIBREDESK_DB__HOST` | libredesk | - | Hostname for database |
+| `LIBREDESK_DB__PORT` | libredesk | 5432 | Database port |
+| `LIBREDESK_DB__USER` | libredesk | (secret) | DB user |
+| `LIBREDESK_REDIS__URL` | libredesk | - | Redis connection url (DSN) |
+| `LIBREDESK_DB__DATABASE` | libredesk | - | Database name |
+| `LIBREDESK_DB__PASSWORD` | libredesk | (secret) | Database password |
+| `LIBREDESK_DB__SSL_MODE` | libredesk | disable | SSL mode for database connection |
+| `LIBREDESK_APP__ENCRYPTION_KEY` | libredesk | - | Libredesk encryption key |
+| `LIBREDESK_APP__SERVER__ADDRESS` | libredesk | 0.0.0.0:9000 | Address on which the libredesk http server listens to |
+| `LIBREDESK_SYSTEM_USER_PASSWORD` | libredesk | (secret) | Set a password with at least 10 characters. It must include an uppercase letter, a lowercase letter, a number, and a special character. For example: MyPassword@123. Save this password somewhere safe before deploying. Once your deployment is live, open your deployment URL and log in using the email `System` and the password you set here. |
 | `REDISPORT` | Redis | 6379 | - |
 | `REDISUSER` | Redis | default | - |
 | `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |

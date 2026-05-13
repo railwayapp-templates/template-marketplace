@@ -12,6 +12,8 @@ LLM Frontend for Power Users
 After deploying, it may take a couple minutes for it to be ready, check `Deploy Logs` to see if it's ready.  
 I also highly recommend you to change the password of default user to something else as soon as you're able to access ST.
 
+**IF YOU'RE SEEING 502 BAD GATEWAY, PLEASE CHECK DEPLOY LOGS! SILLYTAVERN PROBABLY STILL BOOTING UP, IT TAKES AWHILE FOR IT TO FULLY LOADED ESPECIALLY AFTER UPDATE!**
+
 ---
 
 SillyTavern (or ST for short) is a locally installed user interface that allows you to interact with text generation LLMs, image generation engines, and TTS voice models. Our goal is to empower users with as much utility and control over their LLM prompts as possible, embracing the steep learning curve as part of the fun.

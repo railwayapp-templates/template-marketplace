@@ -1,6 +1,6 @@
-# Deploy Postiz [with Temporal] | Open-Source Buffer Alternative on Railway
+# Deploy Postiz on Railway
 
-1 Click Self-Host Postiz. Schedule posts in 30+ social platforms with AI.
+Self-Host Postiz (Temporal). Schedule posts in 30+ social platforms with AI
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postiz-with-temporal)
 

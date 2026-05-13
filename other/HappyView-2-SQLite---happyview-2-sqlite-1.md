@@ -16,7 +16,7 @@ If you'd prefer to use PostgreSQL, check out the [HappyView w/ Postgres template
 
 | Service | Source | Type |
 |---------|--------|------|
-| HappyView | `ghcr.io/gamesgamesgamesgamesgames/happyview:2.5.2` | Web service |
+| HappyView | `ghcr.io/gamesgamesgamesgamesgames/happyview:2.6.0` | Web service |
 
 ## Environment variables
 

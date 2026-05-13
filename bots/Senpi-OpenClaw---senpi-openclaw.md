@@ -29,10 +29,12 @@ This isn’t a bot. It’s a learning co-pilot with memory that adapts to how yo
 | `OPENCLAW_ENTRY` | /openclaw/dist/entry.js | - |
 | `SETUP_PASSWORD` | (secret) | Create a new password for OpenClaw. |
 | `MCPORTER_CONFIG` | /data/.openclaw/config/mcporter.json | - |
+| `SENPI_STATE_DIR` | /data/.openclaw/senpi-state | - |
 | `TELEGRAM_USERID` | - | Your Telegram user ID (numeric). To find it, open https://t.me/userinfobot on Telegram. |
 | `OPENCLAW_VERSION` | v2026.2.22 | openclaw version, default is v2026.2.22 |
 | `SENPI_AUTH_TOKEN` | (secret) | Get this at https://senpi.ai |
 | `OPENCLAW_STATE_DIR` | /data/.openclaw | - |
+| `SENPI_TRACKING_URL` | https://agent-telemetry.prod.senpi.ai | - |
 | `TELEGRAM_BOT_TOKEN` | (secret) | Create your Telegram bot via https://t.me/BotFather and paste the token here. Make sure to tap "Start" in your bot's chat afterward. |
 | `INTERNAL_GATEWAY_HOST` | 127.0.0.1 | - |
 | `INTERNAL_GATEWAY_PORT` | 18789 | - |

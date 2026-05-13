@@ -1,4 +1,4 @@
-# Deploy OpenClaw AI Agent on Railway
+# Deploy OpenClaw (Clawdbot) - Complete Setup 🦞 on Railway
 
 Self-host OpenClaw AI Agent with web setup, dashboard, TUI & pairing 🤖
 

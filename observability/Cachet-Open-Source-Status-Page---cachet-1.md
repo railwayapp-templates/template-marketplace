@@ -8,7 +8,13 @@ Open source status page. Communicate downtime & build user trust.
 
 Cachet is the leading open-source status page system trusted by 15,000+ GitHub stars and used by organizations like Boeing, Siemens, Ubuntu, and Michelin. Deploy your own self-hosted, branded status page in one click on Railway — no DevOps expertise required.
 
-Hosting Cachet on Railway gives you a fully self-hosted status page with zero vendor lock-in. Cachet is built on modern Laravel 10 and Vue 3, making it fast, secure, and easy to maintain. Railway handles all the infrastructure complexity — server provisioning, networking, and scaling — so you can focus on keeping your users informed during incidents and outages. Your data stays on your own infrastructure, and you pay no SaaS subscription fees.
+**Own your incident communication. No SaaS fees. No vendor lock-in.**
+
+When something goes wrong, your users shouldn't find out from Twitter. Cachet gives you a public-facing status page where visitors check service health in real time, and a secure admin dashboard where your team manages incidents, components, and metrics. Built on Laravel and Vue 3 — fast, maintainable, and production-ready out of the box.
+
+This Railway template deploys Cachet with a pre-configured PostgreSQL database, automated TLS, and a public HTTPS URL ready the moment deployment completes. The first visit launches Cachet's built-in setup wizard — name your status page, set your timezone, create your admin account. No CLI access, no config files, no DevOps knowledge required.
+
+Your data stays on your own Railway infrastructure. You pay for compute and database usage only — a typical Cachet deployment runs under $5/month on Railway. Commercial alternatives like Atlassian Statuspage start at $29/month and scale to $1,499/month for enterprise plans.
 
 ## What gets deployed
 
