@@ -22,7 +22,7 @@ This template is an HTTP server that interacts with the Redis database via HTTP 
 
 | Service | Source | Type |
 |---------|--------|------|
-| http | `ghcr.io/ikatsuba/serverless-redis:latest` | Database |
+| http | `ghcr.io/ikatsuba/serverless-redis:2.2.1` | Database |
 | Redis | `redis/redis-stack` | Database |
 
 ## Environment variables
@@ -35,6 +35,7 @@ This template is an HTTP server that interacts with the Redis database via HTTP 
 | `REDIS_URL` | http | - | Private Redis URL |
 | `PUBLIC_URL` | http | - | Public URL |
 | `PRIVATE_URL` | http | - | Private URL |
+| `SR_IDLE_TIMEOUT_MS` | http | 300000 | - |
 | `ENABLE_ALPINE_PRIVATE_NETWORKING` | http | true | - |
 | `REDISUSER` | Redis | default | - |
 | `REDISPASSWORD` | Redis | (secret) | - |

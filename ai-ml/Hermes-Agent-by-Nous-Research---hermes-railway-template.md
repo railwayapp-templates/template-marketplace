@@ -1,6 +1,6 @@
 # Deploy Hermes Agent by Nous Research on Railway
 
-Template for Hermes Agent from Nous Research
+Template for Hermes Agent by Nous Research
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-railway-template)
 

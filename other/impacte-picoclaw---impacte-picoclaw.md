@@ -1,6 +1,6 @@
 # Deploy impacte-picoclaw on Railway
 
-Deploy and Host impacte-picoclaw with Railway
+The simplest curated setup for PicoClaw - brought to you by impacte.tech
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/impacte-picoclaw)
 

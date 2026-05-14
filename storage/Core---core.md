@@ -16,7 +16,7 @@ Deploying core includes configuring your AI providers (OpenAI, Anthropic, etc.).
 |---------|--------|------|
 | Postgres | `pgvector/pgvector:pg18-trixie` | Database |
 | Redis | `redis:8.2.1` | Database |
-| core | `redplanethq/core:0.7.4` | Web service |
+| core | `redplanethq/core:0.7.10` | Web service |
 | neo4j | `redplanethq/neo4j:0.1.0` | Database |
 
 ## Environment variables

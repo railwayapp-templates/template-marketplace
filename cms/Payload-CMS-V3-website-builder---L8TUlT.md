@@ -7,7 +7,7 @@ Preconfigured as website builder CMS. Using postgreSQL
 ## About
 
 Launch your own powerful, open-source website or blog with **Payload CMS 3**, preconfigured to use PostgreSQL instead of MongoDB for smoother Railway hosting. Includes blog, pages, forms, user auth, and comment system, all based on the official Payload "website" starter.  
-**Updated to v3.82.1 ✅ 11 April 2026**
+**Updated to v3.84.1 ✅ 13 May 2026**
 
 This boilerplate lets you deploy **Payload CMS**, a headless CMS and website builder, with a single click, no configuration needed. The template replaces MongoDB with PostgreSQL, making it 100% Railway-compatible. It includes built-in collections for pages, posts, forms, users, and comments.  
 Deploy and go live in minutes. After setup, you’ll land on the Payload welcome screen to create an admin user and seed your site with demo content. Out of the box, this is a great builder for blogs, portfolios, landing pages, or product sites. Looking to expand? Payload offers unmatched flexibility to customize content types, integrations, and UI.

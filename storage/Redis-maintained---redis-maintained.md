@@ -18,7 +18,7 @@ Railway handles infrastructure tasks like restarts, scaling, and networking. Thi
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `redis:8.6.1` | Database |
+| Redis | `redis:8.6.3` | Database |
 
 ## Environment variables
 

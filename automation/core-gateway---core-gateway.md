@@ -56,7 +56,7 @@ The CoreBrain Gateway is a single-container runtime that gives your CORE workspa
 
 | Service | Source | Type |
 |---------|--------|------|
-| core-gateway | `redplanethq/core-gateway:0.6.5` | Database |
+| core-gateway | `redplanethq/core-gateway:0.6.6` | Database |
 
 ## Environment variables
 

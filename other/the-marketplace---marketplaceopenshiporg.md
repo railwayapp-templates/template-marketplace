@@ -1,6 +1,6 @@
-# Deploy marketplace.openship.org on Railway
+# Deploy the / marketplace on Railway
 
-Deploy and Host marketplace.openship.org with Railway
+Agentic commerce marketplace chat - connect and buy from stores directly
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/marketplaceopenshiporg)
 

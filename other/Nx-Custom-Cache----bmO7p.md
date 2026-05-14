@@ -69,7 +69,7 @@ MIT
 
 | Service | Source | Type |
 |---------|--------|------|
-| nx-cache-server | `ghcr.io/ikatsuba/nx-cache-server:latest` | Web service |
+| nx-cache-server | `ghcr.io/ikatsuba/nx-cache-server:1.1` | Web service |
 
 ## Environment variables
 
