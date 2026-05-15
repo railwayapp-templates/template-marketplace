@@ -42,6 +42,10 @@ This example starts up a [FastAPI](https://fastapi.tiangolo.com/) server.
 |---------|--------|------|
 | fastapi-mini-starter | [lNamelessl/fastapi-starter](https://github.com/lNamelessl/fastapi-starter) | Worker |
 
+## Configuration
+
+- **Healthcheck:** `/health`
+
 **Category:** Starters · **Languages:** Python
 
 [View on Railway →](https://railway.com/deploy/fastapi-starter-1)

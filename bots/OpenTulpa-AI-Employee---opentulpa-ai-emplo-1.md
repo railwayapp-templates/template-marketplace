@@ -2,7 +2,7 @@
 
 Self-hosted Telegram AI employee with durable memory.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opentulpa-ai-employee)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opentulpa-ai-emplo-1)
 
 ## About
 
@@ -20,11 +20,14 @@ The deployed service exposes health checks at `/healthz` and `/agent/healthz`. W
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `TELEGRAM_BOT_TOKEN` | (secret) |
-| `TELEGRAM_WEBHOOK_SECRET` | (secret) |
-| `OPENAI_COMPATIBLE_API_KEY` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `COMPOSIO_API_KEY` | (secret) | Optional. Enables Composio Tool Router integrations such as Google Sheets, Gmail, Slack, Notion, HubSpot, Instagram, and other connected SaaS tools. |
+| `TELEGRAM_BOT_TOKEN` | (secret) | - |
+| `BROWSER_USE_API_KEY` | (secret) | - |
+| `LANGFUSE_SECRET_KEY` | (secret) | - |
+| `TELEGRAM_WEBHOOK_SECRET` | (secret) | - |
+| `OPENAI_COMPATIBLE_API_KEY` | (secret) | - |
 
 ## Configuration
 
@@ -35,4 +38,4 @@ The deployed service exposes health checks at `/healthz` and `/agent/healthz`. W
 
 **Category:** Bots · **Languages:** Python, Shell, Dockerfile
 
-[View on Railway →](https://railway.com/deploy/opentulpa-ai-employee)
+[View on Railway →](https://railway.com/deploy/opentulpa-ai-emplo-1)

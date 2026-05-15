@@ -14,7 +14,7 @@ Hosting Pro Ticket on Railway provides a complete infrastructure with MongoDB, a
 
 | Service | Source | Type |
 |---------|--------|------|
-| Pro Ticket Bot | `ghcr.io/jorgehenrrique/pro-ticket-bot:latest` | Web service |
+| Pro Ticket Bot | [jorgehenrrique/docker-discord-bot-pro-ticket](https://github.com/jorgehenrrique/docker-discord-bot-pro-ticket) | Web service |
 | MongoDB | `mongo:8.2.4` | Database |
 
 ## Environment variables
@@ -46,6 +46,6 @@ Hosting Pro Ticket on Railway provides a complete infrastructure with MongoDB, a
 - **Start command:** `docker-entrypoint.sh mongod --ipv6 --bind_ip ::,0.0.0.0 --setParameter diagnosticDataCollectionEnabled=false`
 - **Volume:** `/data/db`
 
-**Category:** Bots
+**Category:** Bots · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/pro-ticket-discord-bot)

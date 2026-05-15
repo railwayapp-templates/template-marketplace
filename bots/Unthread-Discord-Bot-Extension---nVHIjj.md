@@ -16,16 +16,22 @@ Hosting the Unthread Discord Bot Extension allows Discord communities and teams 
 
 | Service | Source | Type |
 |---------|--------|------|
+| Redis — Webhook | `redis:8.2.1` | Database |
 | Discord Bot | `wgtechlabs/unthread-discord-bot:latest` | Worker |
 | Webhook Server | `wgtechlabs/unthread-webhook-server:latest` | Web service |
-| Postgres (Platform) | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Redis (Webhook) | `redis:8-alpine` | Database |
-| Redis (Platform) | `redis:8-alpine` | Database |
+| Postgres — Platform | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| Redis — Platform | `redis:8.2.1` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `REDISPORT` | Redis — Webhook | 6379 | - |
+| `REDISUSER` | Redis — Webhook | default | - |
+| `REDIS_URL` | Redis — Webhook | - | Connection string for connecting to redis using the private network |
+| `REDISPASSWORD` | Redis — Webhook | (secret) | - |
+| `REDIS_PASSWORD` | Redis — Webhook | (secret) | - |
+| `REDIS_PUBLIC_URL` | Redis — Webhook | - | Connection string for connecting to redis externally |
 | `GUILD_ID` | Discord Bot | - | Discord Server ID (enable developer mode and copy) - REQUIRED |
 | `NODE_ENV` | Discord Bot | production | Environment mode (keep as production for Railway) |
 | `CLIENT_ID` | Discord Bot | - | Discord Application ID from Developer Portal - REQUIRED |
@@ -45,32 +51,26 @@ Hosting the Unthread Discord Bot Extension allows Discord communities and teams 
 | `REDIS_URL` | Webhook Server | - | Auto-configured Redis for webhook event storage |
 | `TARGET_PLATFORM` | Webhook Server | discord | Platform integration: "discord" or "telegram" - REQUIRED |
 | `UNTHREAD_WEBHOOK_SECRET` | Webhook Server | (secret) | Webhook secret from Unthread dashboard - REQUIRED |
-| `POSTGRES_DB` | Postgres (Platform) | railway | Default database created when image is started. |
-| `DATABASE_URL` | Postgres (Platform) | - | URL to connect to Postgres database. |
-| `POSTGRES_USER` | Postgres (Platform) | (secret) | User to connect to Postgres DB |
-| `POSTGRES_PASSWORD` | Postgres (Platform) | (secret) | Password to connect to DB |
-| `DATABASE_PUBLIC_URL` | Postgres (Platform) | - | Public URL to connect to Postgres database, used by the Data panel. |
-| `REDISPORT` | Redis (Webhook) | 6379 | - |
-| `REDISUSER` | Redis (Webhook) | default | - |
-| `REDIS_URL` | Redis (Webhook) | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis (Webhook) | (secret) | - |
-| `REDIS_PASSWORD` | Redis (Webhook) | (secret) | - |
-| `REDIS_PUBLIC_URL` | Redis (Webhook) | - | Connection string for connecting to redis externally |
-| `REDISPORT` | Redis (Platform) | 6379 | - |
-| `REDISUSER` | Redis (Platform) | default | - |
-| `REDIS_URL` | Redis (Platform) | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis (Platform) | (secret) | - |
-| `REDIS_PASSWORD` | Redis (Platform) | (secret) | - |
-| `REDIS_PUBLIC_URL` | Redis (Platform) | - | Connection string for connecting to redis externally |
+| `POSTGRES_DB` | Postgres — Platform | railway | Default database created when image is started. |
+| `DATABASE_URL` | Postgres — Platform | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres — Platform | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | Postgres — Platform | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | Postgres — Platform | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `REDISPORT` | Redis — Platform | 6379 | - |
+| `REDISUSER` | Redis — Platform | default | - |
+| `REDIS_URL` | Redis — Platform | - | Connection string for connecting to redis using the private network |
+| `REDISPASSWORD` | Redis — Platform | (secret) | - |
+| `REDIS_PASSWORD` | Redis — Platform | (secret) | - |
+| `REDIS_PUBLIC_URL` | Redis — Platform | - | Connection string for connecting to redis externally |
 
 ## Configuration
 
-- **Networking:** Public domain with automatic HTTPS
-- **TCP Proxies:** 5432
-- **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
+- **Networking:** Public domain with automatic HTTPS
+- **TCP Proxies:** 5432
+- **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Bots
 

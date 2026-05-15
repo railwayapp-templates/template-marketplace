@@ -38,6 +38,6 @@ Railway abstracts all of this complexity. OpenClaw is deployed into a managed co
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** AI/ML · **Languages:** HTML, JavaScript, CSS, Dockerfile, Shell
+**Category:** AI/ML · **Languages:** JavaScript, HTML, CSS, Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/openclaw-prev-clawdbot-moltbot-easy-self)

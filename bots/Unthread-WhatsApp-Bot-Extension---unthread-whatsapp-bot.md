@@ -14,35 +14,35 @@ Hosting the Unthread WhatsApp Bot on Railway involves deploying the bot service 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis Platform | `redis:8.2.1` | Database |
-| Redis Webhook | `redis:8.2.1` | Database |
+| Redis — Platform | `redis:8.2.1` | Database |
+| Redis — Webhook | `redis:8.2.1` | Database |
 | Webhook Server | `wgtechlabs/unthread-webhook-server:latest` | Worker |
-| Postgres Platform | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
+| Postgres — Platform | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 | WhatsApp Bot | `wgtechlabs/unthread-whatsapp-bot:latest` | Worker |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `REDISPORT` | Redis Platform | 6379 | - |
-| `REDISUSER` | Redis Platform | default | - |
-| `REDIS_URL` | Redis Platform | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis Platform | (secret) | - |
-| `REDIS_PASSWORD` | Redis Platform | (secret) | - |
-| `REDIS_PUBLIC_URL` | Redis Platform | - | Connection string for connecting to redis externally |
-| `REDISPORT` | Redis Webhook | 6379 | - |
-| `REDISUSER` | Redis Webhook | default | - |
-| `REDIS_URL` | Redis Webhook | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis Webhook | (secret) | - |
-| `REDIS_PASSWORD` | Redis Webhook | (secret) | - |
-| `REDIS_PUBLIC_URL` | Redis Webhook | - | Connection string for connecting to redis externally |
+| `REDISPORT` | Redis — Platform | 6379 | - |
+| `REDISUSER` | Redis — Platform | default | - |
+| `REDIS_URL` | Redis — Platform | - | Connection string for connecting to redis using the private network |
+| `REDISPASSWORD` | Redis — Platform | (secret) | - |
+| `REDIS_PASSWORD` | Redis — Platform | (secret) | - |
+| `REDIS_PUBLIC_URL` | Redis — Platform | - | Connection string for connecting to redis externally |
+| `REDISPORT` | Redis — Webhook | 6379 | - |
+| `REDISUSER` | Redis — Webhook | default | - |
+| `REDIS_URL` | Redis — Webhook | - | Connection string for connecting to redis using the private network |
+| `REDISPASSWORD` | Redis — Webhook | (secret) | - |
+| `REDIS_PASSWORD` | Redis — Webhook | (secret) | - |
+| `REDIS_PUBLIC_URL` | Redis — Webhook | - | Connection string for connecting to redis externally |
 | `TARGET_PLATFORM` | Webhook Server | whatsapp | - |
 | `UNTHREAD_WEBHOOK_SECRET` | Webhook Server | (secret) | - |
-| `POSTGRES_DB` | Postgres Platform | railway | Default database created when image is started. |
-| `DATABASE_URL` | Postgres Platform | - | URL to connect to Postgres database. |
-| `POSTGRES_USER` | Postgres Platform | (secret) | User to connect to Postgres DB |
-| `POSTGRES_PASSWORD` | Postgres Platform | (secret) | Password to connect to DB |
-| `DATABASE_PUBLIC_URL` | Postgres Platform | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `POSTGRES_DB` | Postgres — Platform | railway | Default database created when image is started. |
+| `DATABASE_URL` | Postgres — Platform | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres — Platform | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | Postgres — Platform | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | Postgres — Platform | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `PORT` | WhatsApp Bot | 3000 | Application port used by the bot service |
 | `NODE_ENV` | WhatsApp Bot | production | Environment mode for Railway deployments; keep as production |
 | `REDIS_URL` | WhatsApp Bot | - | Redis for platform caching; optional but recommended |
