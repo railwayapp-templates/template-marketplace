@@ -25,6 +25,7 @@ Fizzy is a self-hosted Rails application that uses SQLite for data storage and S
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `APP_HOST` | - | Your application domain |
+| `BASE_URL` | - | Your application base URL |
 | `S3_BUCKET` | - | S3 bucket name |
 | `S3_REGION` | - | S3 region |
 | `SMTP_PORT` | 587 | SMTP server port. Defaults to 587 |

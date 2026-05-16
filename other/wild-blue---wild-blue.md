@@ -14,8 +14,8 @@ Deploy Flow360 on Railway to run AI workflows, chatbots, APIs, and document proc
 
 | Service | Source | Type |
 |---------|--------|------|
-| hazizi1998/flow360-api | `hazizi1998/flow360-api` | Worker |
-| hazizi1998/flow360 | `hazizi1998/flow360` | Worker |
+| hazizi1998/flow360-api | `hazizi1998/flow360-api:1.0.8` | Worker |
+| hazizi1998/flow360 | `hazizi1998/flow360:1.0.13` | Worker |
 | MySQL | `mysql:9.4` | Database |
 
 ## Environment variables

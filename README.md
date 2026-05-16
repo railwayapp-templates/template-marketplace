@@ -68,7 +68,6 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [AgentLogs](./ai-ml/AgentLogs---agentlogs.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/agentlogs) |
 | [Agentmemory - Self-hosted Memory for AI Agents](./ai-ml/Agentmemory---Self-hosted-Memory-for-AI-Agents---agentmemory-self-hosted-memory-for-ai-ag.md) | AI/ML |  | CSS, HTML, Dockerfile, Shell | [Deploy](https://railway.com/deploy/agentmemory-self-hosted-memory-for-ai-ag) |
 | [AgentOS](./other/AgentOS---agentos.md) | Other |  | Shell, Python, Dockerfile | [Deploy](https://railway.com/deploy/agentos) |
-| [Agents Anywhere](./ai-ml/Agents-Anywhere---agents-anywhere.md) | AI/ML |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/agents-anywhere) |
 | [Agora (Open-Source Real-Time Communication Platform)](./other/Agora-Open-Source-Real-Time-Communication-Platform---agora.md) | Other |  | Go, Makefile, Dockerfile | [Deploy](https://railway.com/deploy/agora) |
 | [Agora Node Token Server](./other/Agora-Node-Token-Server---huuDOY.md) | Other |  | - | [Deploy](https://railway.com/deploy/huuDOY) |
 | [Agora Token Deployment](./authentication/Agora-Token-Deployment---NKYzQA.md) | Authentication |  | Go, Dockerfile | [Deploy](https://railway.com/deploy/NKYzQA) |
@@ -172,6 +171,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Astuto](./other/Astuto---g9cM6x.md) | Other |  | - | [Deploy](https://railway.com/deploy/g9cM6x) |
 | [athletic-unity](./other/athletic-unity---To0K5T.md) | Other |  | Python | [Deploy](https://railway.com/deploy/To0K5T) |
 | [atomic](./ai-ml/atomic---atomic.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/atomic) |
+| [Atomic](./ai-ml/Atomic---atomic-1.md) | AI/ML |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/atomic-1) |
 | [atproto statusphere app](./starters/atproto-statusphere-app---atproto-statusphere-app.md) | Starters |  | TypeScript, HTML, CSS | [Deploy](https://railway.com/deploy/atproto-statusphere-app) |
 | [atproto-tap-example](./other/atproto-tap-example---atproto-tap-example.md) | Other |  | - | [Deploy](https://railway.com/deploy/atproto-tap-example) |
 | [Atuin Shell History Server](./other/Atuin-Shell-History-Server---5J-Ofu.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/5J-Ofu) |
@@ -455,6 +455,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Code Server](./other/Code-Server---code-server.md) | Other |  | - | [Deploy](https://railway.com/deploy/code-server) |
 | [Coder](./ai-ml/Coder---coder.md) | AI/ML | Yes | - | [Deploy](https://railway.com/deploy/coder) |
 | [Coder - Open Source GitHub Codespaces Alternative](./other/Coder-Open-Source-GitHub-Codespaces-Alternative---coder-remote-development.md) | Other |  | - | [Deploy](https://railway.com/deploy/coder-remote-development) |
+| [codex-anywhere](./ai-ml/codex-anywhere---codex-anywhere.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/codex-anywhere) |
 | [CodiMD](./cms/CodiMD---YcOXBV.md) | CMS |  | Dockerfile | [Deploy](https://railway.com/deploy/YcOXBV) |
 | [Cognee AI Memory Platform with MCP](./ai-ml/Cognee-AI-Memory-Platform-with-MCP---cognee-ai-memory-p-1.md) | AI/ML |  | Python, Shell, Dockerfile, Mako | [Deploy](https://railway.com/deploy/cognee-ai-memory-p-1) |
 | [Coingecko MCP Server](./other/Coingecko-MCP-Server---coingecko-mcp-server.md) | Other |  | Python, Shell, Procfile | [Deploy](https://railway.com/deploy/coingecko-mcp-server) |
@@ -779,6 +780,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [FastAPI Strawberry GraphQL](./starters/FastAPI-Strawberry-GraphQL---fastapi-strawberry-graphql.md) | Starters |  | Python, Dockerfile | [Deploy](https://railway.com/deploy/fastapi-strawberry-graphql) |
 | [FastAPI WebSocket Chat](./starters/FastAPI-WebSocket-Chat---fastapi-websocket-chat.md) | Starters |  | Python | [Deploy](https://railway.com/deploy/fastapi-websocket-chat) |
 | [fastapi-mysql](./other/fastapi-mysql---WLyaUV.md) | Other |  | Python, Mako | [Deploy](https://railway.com/deploy/WLyaUV) |
+| [FastAPI-Postgres-starter template](./starters/FastAPI-Postgres-starter-template---fastapi-postgres-starter-template.md) | Starters |  | Python, Mako, Dockerfile | [Deploy](https://railway.com/deploy/fastapi-postgres-starter-template) |
 | [FastAPI-React-Postgres-starter](./starters/FastAPI-React-Postgres-starter---fastapi-react-postgres-starter.md) | Starters |  | Python, TypeScript, CSS, Makefile, Shell, Batchfile, Dockerfile, Mako, HTML | [Deploy](https://railway.com/deploy/fastapi-react-postgres-starter) |
 | [FastAPI-starter](./starters/FastAPI-starter---fastapi-starter-1.md) | Starters |  | Python | [Deploy](https://railway.com/deploy/fastapi-starter-1) |
 | [FastAPIChat](./ai-ml/FastAPIChat---_-qAbG.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/_-qAbG) |
@@ -1080,6 +1082,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Hermes Agent Complete Setup 🤖](./ai-ml/Hermes-Agent-Complete-Setup---hermes-agent-nousresearch.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/hermes-agent-nousresearch) |
 | [Hermes Agent with Web GUI](./ai-ml/Hermes-Agent-with-Web-GUI---hermes-agent-with-web-gui.md) | AI/ML |  | Python, Dockerfile, Shell | [Deploy](https://railway.com/deploy/hermes-agent-with-web-gui) |
 | [Hermes Gateway via Tailscale](./bots/Hermes-Gateway-via-Tailscale---hermes-gateway-via-tailscale.md) | Bots |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/hermes-gateway-via-tailscale) |
+| [Hermes Station](./ai-ml/Hermes-Station---hermes-station.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/hermes-station) |
 | [hermes-all-in-one](./ai-ml/hermes-all-in-one---hermes-all-in-one.md) | AI/ML |  | Python, JavaScript, HTML, CSS, Shell, Dockerfile | [Deploy](https://railway.com/deploy/hermes-all-in-one) |
 | [hermes-webui](./ai-ml/hermes-webui---hermes-webui.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/hermes-webui) |
 | [hermes-workspace](./ai-ml/hermes-workspace---hermes-workspace.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/hermes-workspace) |
@@ -1687,7 +1690,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [n8n using Docker ](./other/n8n-using-Docker---n8n-using-docker.md) | Other |  | - | [Deploy](https://railway.com/deploy/n8n-using-docker) |
 | [N8N using PostgreSQL](./ai-ml/N8N-using-PostgreSQL---vFXgsT.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/vFXgsT) |
 | [n8n V2](./automation/n8n-V2---n8n-v2.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-v2) |
-| [N8N V2 (2.9.4) (w/ workers)](./automation/N8N-V2-294-w-workers---n8n-20-201-v2-w-workers.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-20-201-v2-w-workers) |
+| [N8N V2 (2.20.9) (w/ workers)](./automation/N8N-V2-2209-w-workers---n8n-20-201-v2-w-workers.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-20-201-v2-w-workers) |
 | [n8n v2 (Postgres + Redis + Workers)](./automation/n8n-v2-Postgres-Redis-Workers---n8n-v2-postgres-redis-workers.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-v2-postgres-redis-workers) |
 | [n8n v2.7.1 (cheapest to run, regular update)](./automation/n8n-v271-cheapest-to-run-regular-update---n8n-v200-still-cheapest-regular-update.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-v200-still-cheapest-regular-update) |
 | [n8n w/ worker, external pgsql](./other/n8n-w-worker-external-pgsql---n8n-w-worker-externa.md) | Other |  | - | [Deploy](https://railway.com/deploy/n8n-w-worker-externa) |
@@ -1958,6 +1961,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Opengist](./other/Opengist---zWSDEh.md) | Other |  | - | [Deploy](https://railway.com/deploy/zWSDEh) |
 | [OpenHands](./ai-ml/OpenHands---openhands.md) | AI/ML |  | Python, TypeScript, Shell, Jinja, Go Template, JavaScript, Makefile, CSS, Dockerfile, Mako | [Deploy](https://railway.com/deploy/openhands) |
 | [OpenHands - Open Source Devin Alternative](./ai-ml/OpenHands-Open-Source-Devin-Alternative---openhands-ai-agent.md) | AI/ML |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/openhands-ai-agent) |
+| [OpenHands Coding Agent](./other/OpenHands-Coding-Agent---openhands-coding-agent.md) | Other |  | Python, TypeScript, Go Template, Jinja, Makefile, CSS, JavaScript, Shell, Dockerfile, Mako | [Deploy](https://railway.com/deploy/openhands-coding-agent) |
 | [OpenHuman](./ai-ml/OpenHuman---openhuman.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/openhuman) |
 | [openinary](./cms/openinary---openinary.md) | CMS |  | - | [Deploy](https://railway.com/deploy/openinary) |
 | [openklaw](./bots/openklaw---openklaw.md) | Bots |  | Shell, HTML, JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/openklaw) |
@@ -2045,6 +2049,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [payme-merchant-api](./other/payme-merchant-api---iOjVDR.md) | Other |  | Python, Procfile | [Deploy](https://railway.com/deploy/iOjVDR) |
 | [Paymenter [Updated May '26]](./automation/Paymenter-Updated-May-26---paymenter.md) | Automation |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/paymenter) |
 | [Paymenter - Open-Source Billing](./automation/Paymenter-Open-Source-Billing---paymenter-or-open-source-billing.md) | Automation |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/paymenter-or-open-source-billing) |
+| [PBI Gateway](./other/PBI-Gateway---pbi-gateway.md) | Other |  | JavaScript, TypeScript, HTML, CSS, HCL, Less, PowerShell, Dockerfile | [Deploy](https://railway.com/deploy/pbi-gateway) |
 | [pdfding](./other/pdfding---OII9gz.md) | Other |  | - | [Deploy](https://railway.com/deploy/OII9gz) |
 | [Peekaping + Postgres](./automation/Peekaping-Postgres---peekaping-postgres.md) | Automation |  | - | [Deploy](https://railway.com/deploy/peekaping-postgres) |
 | [Peekaping + SQlite](./automation/Peekaping-SQlite---peekaping.md) | Automation |  | - | [Deploy](https://railway.com/deploy/peekaping) |

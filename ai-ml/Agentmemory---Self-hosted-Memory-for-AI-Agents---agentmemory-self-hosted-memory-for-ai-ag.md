@@ -6,13 +6,7 @@ Persistent memory server for MCP agents. agentmemory agent memory
 
 ## About
 
-Agentmemory is a persistent memory server for AI coding agents. It captures useful context across sessions, stores it on a Railway volume, and exposes memory through REST and MCP so tools such as OpenAI Codex CLI, Claude Code, Cursor, Cline, Goose, and other compatible agents can share the same long-term project memory.
-
-Hosting Agentmemory on Railway means running the memory server as an always-on backend for your AI agents. Railway provides the public HTTPS endpoint, injects runtime variables, and mounts a persistent volume at `/data` so memory survives restarts and redeployments.
-
-This template configures Agentmemory to listen on Railway’s runtime port, stores iii-engine and Agentmemory data on the volume, and protects the REST API with a shared secret. The public service should expose only the REST API. Internal streams, the iii-engine port, and the optional viewer should remain private unless you intentionally protect them with a reverse proxy such as Caddy with Basic Auth.
-
-The default deployment can run without any LLM provider key. In that mode, Agentmemory uses no-op LLM summarization and BM25/graph-based retrieval. This is useful for templates because it avoids requiring paid API keys. If you want LLM-backed compression and summarization, add a supported provider key later.
+Agentmemory (github : https://github.com/rohitg00/agentmemory) is a persistent memory server for AI coding agents. It stores useful project context across sessions on a Railway volume and exposes that memory through REST and MCP so tools such as OpenAI Codex CLI, Claude Code, Cursor, Cline, Goose, and other compatible agents can share the same long-term project memory.
 
 ## What gets deployed
 

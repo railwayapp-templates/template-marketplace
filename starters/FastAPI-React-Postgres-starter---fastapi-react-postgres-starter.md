@@ -1,6 +1,6 @@
 # Deploy FastAPI-React-Postgres-starter on Railway
 
-Deploy and Host FastAPI-MongoDB with Railway
+Deploy and Host FastAPI + React + PGDB with Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-react-postgres-starter)
 
@@ -35,6 +35,7 @@ Hosting this stack involves orchestrating three distinct components that must co
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 

@@ -1,6 +1,6 @@
-# Deploy N8N V2 (2.9.4) (w/ workers) on Railway
+# Deploy N8N V2 (2.20.9) (w/ workers) on Railway
 
-Prod-ready N8N 2.0 2.9.4 worker+redis+postgres, secure default, task-runner
+Prod-ready N8N 2.0 2.20.9 worker+redis+postgres, secure default
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-20-201-v2-w-workers)
 
@@ -8,15 +8,15 @@ Prod-ready N8N 2.0 2.9.4 worker+redis+postgres, secure default, task-runner
 
 N8N 2.x is a major release of the open‑source workflow automation platform, continuing the **secure‑by‑default** approach introduced in N8N 2.x and expanding the AI and credential-management feature set. This template deploys a dedicated **main** service for the editor and API plus a **worker** service for queue processing, backed by PostgreSQL and Redis for durable, scalable automation.
 
-This template provisions a production‑grade N8N 2.9.4 stack in queue mode. The main instance exposes the editor and webhooks, while workers consume jobs from a Redis‑backed queue to execute workflows in parallel. PostgreSQL stores workflows, credentials, and execution logs. Security‑oriented defaults are enabled, including environment‑variable blocking inside workflows and stricter settings‑file permissions, aligning with the hardening changes introduced in N8N 2.x. Railway manages networking, TLS termination, and scaling, so you can focus on building automations rather than servers. You can horizontally scale workers as your workload grows, without changing your workflows.
+This template provisions a production‑grade N8N 2.20.9 stack in queue mode. The main instance exposes the editor and webhooks, while workers consume jobs from a Redis‑backed queue to execute workflows in parallel. PostgreSQL stores workflows, credentials, and execution logs. Security‑oriented defaults are enabled, including environment‑variable blocking inside workflows and stricter settings‑file permissions, aligning with the hardening changes introduced in N8N 2.x. Railway manages networking, TLS termination, and scaling, so you can focus on building automations rather than servers. You can horizontally scale workers as your workload grows, without changing your workflows.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| n8n-main | `n8nio/n8n:2.9.4` | Web service |
+| n8n-main | `n8nio/n8n:2.20.9` | Web service |
 | Redis | `railwayapp/redis` | Database |
-| n8n-worker | `n8nio/n8n:2.9.4` | Worker |
+| n8n-worker | `n8nio/n8n:2.20.9` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17.7` | Database |
 
 ## Environment variables

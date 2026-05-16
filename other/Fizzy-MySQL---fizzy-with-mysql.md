@@ -25,22 +25,35 @@ Fizzy is a self-hosted Rails application that uses SQLite for data storage and S
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `SMTP_PORT` | fizzy | 587 | - |
-| `MYSQL_USER` | fizzy | (secret) | - |
-| `SMTP_PASSWORD` | fizzy | (secret) | - |
-| `SMTP_USERNAME` | fizzy | (secret) | - |
-| `MYSQL_PASSWORD` | fizzy | (secret) | - |
-| `MYSQL_SSL_MODE` | fizzy | REQUIRED | - |
-| `CSP_CONNECT_SRC` | fizzy | storage.railway.app | - |
-| `SECRET_KEY_BASE` | fizzy | (secret) | - |
-| `WEB_CONCURRENCY` | fizzy | 8 | - |
-| `DATABASE_ADAPTER` | fizzy | mysql | - |
-| `S3_FORCE_PATH_STYLE` | fizzy | true | - |
-| `SMTP_AUTHENTICATION` | fizzy | plain | - |
-| `SOLID_QUEUE_IN_PUMA` | fizzy | true | - |
-| `S3_SECRET_ACCESS_KEY` | fizzy | (secret) | - |
-| `ACTIVE_STORAGE_SERVICE` | fizzy | s3 | - |
-| `SMTP_ENABLE_STARTTLS_AUTO` | fizzy | true | - |
+| `APP_HOST` | fizzy | - | Your application host |
+| `BASE_URL` | fizzy | - | Your application base URL |
+| `S3_BUCKET` | fizzy | - | S3 Bucket name |
+| `S3_REGION` | fizzy | - | S3 Bucket region |
+| `SMTP_PORT` | fizzy | 587 | SMTP port |
+| `MYSQL_HOST` | fizzy | - | Database host |
+| `MYSQL_PORT` | fizzy | - | Database port |
+| `MYSQL_USER` | fizzy | (secret) | Database user |
+| `S3_ENDPOINT` | fizzy | - | S3 endpoint |
+| `SMTP_DOMAIN` | fizzy | - | SMTP Domain |
+| `SMTP_ADDRESS` | fizzy | - | SMTP mail address |
+| `SMTP_PASSWORD` | fizzy | (secret) | SMTP password |
+| `SMTP_USERNAME` | fizzy | (secret) | SMTP username |
+| `MYSQL_PASSWORD` | fizzy | (secret) | Database password |
+| `MYSQL_SSL_MODE` | fizzy | REQUIRED | Database SSL mode |
+| `CSP_CONNECT_SRC` | fizzy | storage.railway.app | Enable CSP |
+| `SECRET_KEY_BASE` | fizzy | (secret) | App secret |
+| `WEB_CONCURRENCY` | fizzy | 8 | Restrict concurrency |
+| `DATABASE_ADAPTER` | fizzy | mysql | Database driver |
+| `S3_ACCESS_KEY_ID` | fizzy | - | S3 access key id |
+| `VAPID_PUBLIC_KEY` | fizzy | - | VAPID (Voluntary Application Server Identification) keys to send browser push notifications |
+| `VAPID_PRIVATE_KEY` | fizzy | - | VAPID (Voluntary Application Server Identification) keys to send browser push notifications |
+| `MAILER_FROM_ADDRESS` | fizzy | - | Mailer from address |
+| `S3_FORCE_PATH_STYLE` | fizzy | true | S3 force path style |
+| `SMTP_AUTHENTICATION` | fizzy | plain | SMTP auth |
+| `SOLID_QUEUE_IN_PUMA` | fizzy | true | Queue in PUMA |
+| `S3_SECRET_ACCESS_KEY` | fizzy | (secret) | S3 secret |
+| `ACTIVE_STORAGE_SERVICE` | fizzy | s3 | Use S3 for storage |
+| `SMTP_ENABLE_STARTTLS_AUTO` | fizzy | true | SMTP TLS auto |
 | `MYSQLHOST` | MySQL | - | Railway Private Domain Name. |
 | `MYSQLPORT` | MySQL | 3306 | MySQL port. |
 | `MYSQLUSER` | MySQL | root | MySQL user, used for the Data panel. |
