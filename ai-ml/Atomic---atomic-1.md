@@ -14,7 +14,7 @@ Atomic runs as a single Rust binary backed by SQLite (with the `sqlite-vec` exte
 
 | Service | Source | Type |
 |---------|--------|------|
-| atomic-railway | [youssefsiam38/atomic-railway](https://github.com/youssefsiam38/atomic-railway) | Web service |
+| Atomic | [youssefsiam38/atomic-railway](https://github.com/youssefsiam38/atomic-railway) | Web service |
 
 ## Environment variables
 

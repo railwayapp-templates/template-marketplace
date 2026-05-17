@@ -32,11 +32,11 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 
 | Service | Source | Type |
 |---------|--------|------|
-| discord-adapter | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/source-adapter) | Web service |
-| codex-runtime | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/codex-runtime) | Database |
-| task-runner | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/task-runner) | Worker |
-| prism-memory | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/prism-memory) | Web service |
-| site | [raid-guild/prism-railway-template](https://github.com/raid-guild/prism-railway-template) (root: /services/site) | Web service |
+| discord-adapter | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/source-adapter) | Web service |
+| codex-runtime | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/codex-runtime) | Database |
+| task-runner | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/task-runner) | Worker |
+| prism-memory | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/prism-memory) | Web service |
+| site | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/site) | Web service |
 
 ## Environment variables
 

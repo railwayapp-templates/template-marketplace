@@ -59,6 +59,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [AFFiNE - Open Source Notion, Miro Alternative on Railway](./cms/AFFiNE-Open-Source-Notion-Miro-Alternative-on-Railway---affine-notion-alternative.md) | CMS |  | - | [Deploy](https://railway.com/deploy/affine-notion-alternative) |
 | [Affine with AI Copilot](./starters/Affine-with-AI-Copilot---affine-with-ai-copilot.md) | Starters |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/affine-with-ai-copilot) |
 | [AFFiNE-latest](./starters/AFFiNE-latest---affine-selfhost.md) | Starters |  | - | [Deploy](https://railway.com/deploy/affine-selfhost) |
+| [Agent Artifact Engine](./other/Agent-Artifact-Engine---agent-artifact-engine.md) | Other |  | TypeScript, Dockerfile | [Deploy](https://railway.com/deploy/agent-artifact-engine) |
 | [Agent Gateway](./ai-ml/Agent-Gateway---agent-gateway.md) | AI/ML |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/agent-gateway) |
 | [agent-bot](./other/agent-bot---agent-bot.md) | Other |  | TypeScript | [Deploy](https://railway.com/deploy/agent-bot) |
 | [Agentfield Control Plane](./ai-ml/Agentfield-Control-Plane---controlplane-template.md) | AI/ML |  | Go, TypeScript, Python, Shell, CSS, JavaScript, Go Template, Makefile, HTML, Dockerfile | [Deploy](https://railway.com/deploy/controlplane-template) |
@@ -191,6 +192,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Automatisch - with Redis & Postgres](./automation/Automatisch---with-Redis-Postgres---automatisch.md) | Automation |  | - | [Deploy](https://railway.com/deploy/automatisch) |
 | [Automatisch - Open Source N8N, Zapier Alternative](./automation/Automatisch-Open-Source-N8N-Zapier-Alternative---automatisch-workflow-automation.md) | Automation |  | - | [Deploy](https://railway.com/deploy/automatisch-workflow-automation) |
 | [AutoMem - AI Memory Service](./ai-ml/AutoMem---AI-Memory-Service---automem-ai-memory-service.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/automem-ai-memory-service) |
+| [Autoscaled Github Actions Runner](./automation/Autoscaled-Github-Actions-Runner---autoscaled-github-actions-runner.md) | Automation |  | Go, Dockerfile | [Deploy](https://railway.com/deploy/autoscaled-github-actions-runner) |
 | [AutoVault](./ai-ml/AutoVault---autovault.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/autovault) |
 | [AvgDB - averagedatabase.com](./storage/AvgDB---averagedatabasecom---1hVRX4.md) | Storage |  | TypeScript, Rust, JavaScript, Dockerfile, CSS | [Deploy](https://railway.com/deploy/1hVRX4) |
 | [aware-encouragement](./bots/aware-encouragement---aware-encouragement.md) | Bots |  | TypeScript, CSS, JavaScript, Python, Batchfile, Shell, Dockerfile, HTML | [Deploy](https://railway.com/deploy/aware-encouragement) |
@@ -523,6 +525,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [DailyTxT](./other/DailyTxT---dailytxt.md) | Other |  | - | [Deploy](https://railway.com/deploy/dailytxt) |
 | [DandJourney](./bots/DandJourney---aWVdcq.md) | Bots |  | Python | [Deploy](https://railway.com/deploy/aWVdcq) |
 | [Dapr Workflow Starter](./starters/Dapr-Workflow-Starter---railway-catalyst-starter.md) | Starters |  | Python, Dockerfile | [Deploy](https://railway.com/deploy/railway-catalyst-starter) |
+| [daring-analysis](./other/daring-analysis---daring-analysis-2.md) | Other |  | Go, JavaScript, Shell, Python, HTML, CSS, Dockerfile | [Deploy](https://railway.com/deploy/daring-analysis-2) |
 | [daring-courage](./cms/daring-courage---QqePmq.md) | CMS |  | TypeScript, JavaScript, Shell, Handlebars, CSS, HTML | [Deploy](https://railway.com/deploy/QqePmq) |
 | [DARK-SHAN-MD-V2](./bots/DARK-SHAN-MD-V2---akcqO2.md) | Bots |  | JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/akcqO2) |
 | [dart_frog_starter](./starters/dartfrogstarter---w3Bek-.md) | Starters |  | Dart, Dockerfile | [Deploy](https://railway.com/deploy/w3Bek-) |
@@ -1065,6 +1068,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [helpful-acceptance](./other/helpful-acceptance---helpful-acceptance.md) | Other |  | JavaScript | [Deploy](https://railway.com/deploy/helpful-acceptance) |
 | [helpful-prosperity](./other/helpful-prosperity---Xe-Ieb.md) | Other |  | - | [Deploy](https://railway.com/deploy/Xe-Ieb) |
 | [hemistaking-adapter](./other/hemistaking-adapter---hemistaking-adapter.md) | Other |  | - | [Deploy](https://railway.com/deploy/hemistaking-adapter) |
+| [Hemmelig.app](./authentication/Hemmeligapp---hemmeligapp.md) | Authentication |  | - | [Deploy](https://railway.com/deploy/hemmeligapp) |
 | [Hermes](./ai-ml/Hermes---hermes-agent-nous-research.md) | AI/ML |  | HTML, Python, Dockerfile, Shell | [Deploy](https://railway.com/deploy/hermes-agent-nous-research) |
 | [Hermes Agent](./ai-ml/Hermes-Agent---hermes-agent-2.md) | AI/ML |  | HTML, Python, Dockerfile, Shell | [Deploy](https://railway.com/deploy/hermes-agent-2) |
 | [Hermes Agent](./ai-ml/Hermes-Agent---hermes-agent-1.md) | AI/ML |  | JavaScript, Dockerfile, Shell | [Deploy](https://railway.com/deploy/hermes-agent-1) |
@@ -2339,10 +2343,14 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Railway Bucket Proxy](./storage/Railway-Bucket-Proxy---railproxy.md) | Storage |  | - | [Deploy](https://railway.com/deploy/railproxy) |
 | [Railway Caddy Function](./other/Railway-Caddy-Function---railway-caddy-function.md) | Other |  | - | [Deploy](https://railway.com/deploy/railway-caddy-function) |
 | [Railway Cron](./other/Railway-Cron---fwH-l3.md) | Other |  | - | [Deploy](https://railway.com/deploy/fwH-l3) |
+| [Railway Data Stack](./analytics/Railway-Data-Stack---railway-data-stack.md) | Analytics |  | Python, Dockerfile | [Deploy](https://railway.com/deploy/railway-data-stack) |
 | [Railway Derailer](./observability/Railway-Derailer---FMEpOh.md) | Observability |  | Java, HTML, Dockerfile | [Deploy](https://railway.com/deploy/FMEpOh) |
+| [Railway Job Engine](./queues/Railway-Job-Engine---railway-job-engine.md) | Queues |  | TypeScript | [Deploy](https://railway.com/deploy/railway-job-engine) |
 | [Railway Manage](./observability/Railway-Manage---railway-manage-1.md) | Observability |  | JavaScript, CSS, Just, Dockerfile, Shell, HTML | [Deploy](https://railway.com/deploy/railway-manage-1) |
+| [Railway RAG Stack](./ai-ml/Railway-RAG-Stack---railway-rag-stack.md) | AI/ML |  | TypeScript, Shell, Dockerfile | [Deploy](https://railway.com/deploy/railway-rag-stack) |
 | [Railway Ram Restart](./automation/Railway-Ram-Restart---1FHSG9.md) | Automation |  | JavaScript | [Deploy](https://railway.com/deploy/1FHSG9) |
 | [Railway RAM restart](./other/Railway-RAM-restart---railway-ram-restart.md) | Other |  | TypeScript, Dockerfile | [Deploy](https://railway.com/deploy/railway-ram-restart) |
+| [Railway SaaS Starter](./starters/Railway-SaaS-Starter---railway-saas-starter.md) | Starters |  | TypeScript | [Deploy](https://railway.com/deploy/railway-saas-starter) |
 | [Railway Secret](./automation/Railway-Secret---railway-secrets.md) | Automation |  | - | [Deploy](https://railway.com/deploy/railway-secrets) |
 | [Railway Service Cron](./automation/Railway-Service-Cron---railway-service-cron.md) | Automation |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/railway-service-cron) |
 | [Railway Shell Function](./other/Railway-Shell-Function---railway-shell-function.md) | Other |  | - | [Deploy](https://railway.com/deploy/railway-shell-function) |
@@ -2666,6 +2674,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Statusnook](./observability/Statusnook---VkhOWC.md) | Observability |  | - | [Deploy](https://railway.com/deploy/VkhOWC) |
 | [Steel Browser](./automation/Steel-Browser---steelbrowser.md) | Automation | Yes | - | [Deploy](https://railway.com/deploy/steelbrowser) |
 | [Steel Browser - Open-Source Headless Browser API](./automation/Steel-Browser-Open-Source-Headless-Browser-API---steel-browser.md) | Automation |  | - | [Deploy](https://railway.com/deploy/steel-browser) |
+| [Steel Trader — Inventory Management](./other/Steel-Trader-Inventory-Management---steel-trader-inventory-management.md) | Other |  | TypeScript, Python, Shell, JavaScript, CSS, HTML | [Deploy](https://railway.com/deploy/steel-trader-inventory-management) |
 | [stellar-optimism](./ai-ml/stellar-optimism---stellar-optimism.md) | AI/ML |  | Python, Procfile | [Deploy](https://railway.com/deploy/stellar-optimism) |
 | [Stirling (Open-Source File Manager & Data Transfer Tool)](./other/Stirling-Open-Source-File-Manager-Data-Transfer-Tool---stirlingpdf.md) | Other |  | - | [Deploy](https://railway.com/deploy/stirlingpdf) |
 | [Stirling PDF](./other/Stirling-PDF---Rn4VSj.md) | Other |  | - | [Deploy](https://railway.com/deploy/Rn4VSj) |

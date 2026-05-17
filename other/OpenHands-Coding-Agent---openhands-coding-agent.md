@@ -8,11 +8,14 @@ Self-hosted autonomous AI engineer. Open-source, model-agnostic, free
 
 ![OpenHands](https://opengraph.githubassets.com/4a3fa291732195ae8467266dd5a49902a29d66a2efa92dcdd854c9c7a7e035f3/OpenHands/OpenHands)
 
-OpenHands is an open-source, model-agnostic platform for autonomous AI software development. Unlike coding assistants that suggest snippets, OpenHands runs agents that plan, write, debug, and apply changes across your entire codebase — end to end — using any frontier LLM you choose.
+**Self-host the open-source alternative to Devin — no $500/month subscription, no vendor lock-in,
+no per-seat fees.**
 
-Hosting OpenHands requires a sandboxed Docker runtime environment where agents can safely execute terminal commands, edit files, install dependencies, and browse the web without touching your host system. The deployment exposes a browser-accessible web UI for interacting with your AI engineer, a persistent volume to retain workspace state across restarts, and environment variables for connecting your preferred LLM provider (Anthropic, OpenAI, Google, DeepSeek, or any OpenAI-compatible endpoint). Railway handles the container orchestration, public URL provisioning, and volume management so you can focus on running tasks rather than managing infrastructure.
+OpenHands is the leading open-source autonomous AI software engineer with **70k+ GitHub stars**,
+$18.8M in funding, and an MIT license. It writes code, runs terminal commands, browses the web,
+and opens pull requests — all inside a sandboxed environment — using whatever LLM you bring.
 
-![OpenHands Dashboard](https://res.cloudinary.com/asset-cloudinary/image/upload/v1776595971/openhands_dashboard_ltl7nw.png)
+---
 
 ## What gets deployed
 
