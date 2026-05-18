@@ -6,9 +6,28 @@
 
 ## About
 
-Hermes is a next-generation AI agent framework engineered for speed, intelligence, and production-grade reliability. Outperforming OpenClaw and Claude agents out of the box, Hermes delivers faster inference, smarter multi-step tool use, and a seamless one-click deployment experience on Railway — so you can ship your AI assistant in minutes, not days.
+![Hermes AI Agent](https://opengraph.githubassets.com/97e67c0384b7aab88e8e998a588a777bd1fe51724c9e34f46c83555bbc1b2502/NousResearch/hermes-agent)
 
-Hosting Hermes on Railway is effortless. Railway auto-provisions all required infrastructure — compute, networking, and environment variables — so there is zero manual configuration. Hermes runs as a persistent, always-on AI agent service that scales vertically and horizontally with a single click. Whether you are handling 10 requests a day or 10,000, Railway dynamically allocates resources to match your workload. Persistent storage, environment secret management, and CI/CD pipelines are all built in. No DevOps expertise required — just deploy, configure your API keys, and your Hermes agent is live and ready to serve users globally within minutes.
+Hermes is an open-source AI agent framework built for production — fast inference, multi-step
+tool use, persistent memory, and LLM-agnostic design. Connect OpenAI, Anthropic, Groq, Ollama,
+or any OpenAI-compatible endpoint and deploy a fully functional AI agent in minutes with one-click
+Railway deployment. No DevOps expertise required.
+
+---
+
+Running a production AI agent requires a persistent runtime, database-backed memory, secure
+credential management, and a public HTTPS endpoint for integrations. Without a managed host,
+you're configuring Docker, inter-service networking, SSL, and environment variable handling
+manually.
+
+Railway provisions all of it automatically. Hermes runs as an always-on agent service with
+vertical and horizontal scaling available via a single click. Persistent memory, secret
+management, and HTTPS are handled out of the box.
+
+Typical cost: **~$5–10/month** on Railway's Hobby plan for the full three-service stack.
+LLM API costs are separate and depend on your provider and usage volume.
+
+---
 
 ## What gets deployed
 

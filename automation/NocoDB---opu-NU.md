@@ -16,39 +16,34 @@ Hosting NocoDB means running a no-code database platform that transforms relatio
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `railwayapp/redis:8.2` | Database |
+| Redis | `redis:8.2.1` | Database |
 | NocoDB | `nocodb/nocodb` | Web service |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:latest` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `REDISHOST` | Redis | - | Railway Private Domain Name. |
-| `REDISPORT` | Redis | 6379 | Port to connect to Redis. |
-| `REDISUSER` | Redis | default | Default user to connect to Redis. |
-| `REDIS_URL` | Redis | - | URL to connect to Redis over the private network. |
-| `REDISPASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PUBLIC_URL` | Redis | - | Public URL to connect to Redis, needed for the Data panel. |
-| `REDIS_RDB_POLICY` | Redis | 3600#1 300#100 60#10000 | Set a RDB snapshot policy. |
-| `REDIS_AOF_ENABLED` | Redis | no | Disable writing to AOF file. |
+| `REDISPORT` | Redis | 6379 | - |
+| `REDISUSER` | Redis | default | - |
+| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
+| `REDISPASSWORD` | Redis | (secret) | - |
+| `REDIS_PASSWORD` | Redis | (secret) | - |
+| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 | `NC_DB` | NocoDB | - | Postgres Database URL - You likely don't need to change this! |
 | `NC_REDIS_URL` | NocoDB | - | Redis URL - You likely don't need to change this! |
 | `NC_PUBLIC_URL` | NocoDB | - | Public NocoDB URL |
 | `NC_AUTH_JWT_SECRET` | NocoDB | (secret) | JWT secret used for auth and storing other secrets |
 | `ENABLE_ALPINE_PRIVATE_NETWORKING` | NocoDB | true | Proper private networking for Alpine based images |
-| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
-| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database |
-| `PGPRIVATEHOST` | Postgres | - | Railway Private Domain |
-| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
+| `POSTGRES_DB` | Postgres | railway | - |
+| `POSTGRES_USER` | Postgres | (secret) | - |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
-| `DATABASE_PRIVATE_URL` | Postgres | - | URL to connect to Postgres database |
 
 ## Configuration
 
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
-- **Volume:** `/bitnami`
+- **Volume:** `/data`
 - **Healthcheck:** `/api/v1/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/usr/app/data/`

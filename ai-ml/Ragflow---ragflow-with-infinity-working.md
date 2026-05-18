@@ -1,6 +1,6 @@
 # Deploy Ragflow on Railway
 
-ragflow stack with Infinity and MinIO, tested 100% work, RAGFlow
+ragflow stack with Infinity and MinIO, tested 100% work, RAGFlow rag
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ragflow-with-infinity-working)
 

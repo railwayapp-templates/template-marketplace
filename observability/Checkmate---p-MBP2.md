@@ -21,17 +21,14 @@ Checkmate is an open-source, self-hosted tool designed to track and monitor serv
 
 | Service | Source | Type |
 |---------|--------|------|
-| client | `ghcr.io/bluewave-labs/checkmate-client:v3.5.1` | Web service |
-| MongoDB | `ghcr.io/bluewave-labs/checkmate-mongo:latest` | Database |
-| server | `ghcr.io/bluewave-labs/checkmate-backend:v3.5.1` | Web service |
+| Checkmate | `ghcr.io/bluewave-labs/checkmate-backend-mono:latest` | Web service |
+| MongoDB | `mongo:8.0` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `DUMMY` | client | - | Dummy to wait for server |
-| `UPTIME_APP_CLIENT_HOST` | client | - | is used for building some links that point to the client |
-| `UPTIME_APP_API_BASE_URL` | client | - | points the client to the server |
+| `JWT_SECRET` | Checkmate | (secret) | - |
 | `MONGOHOST` | MongoDB | - | Railway Private Domain Name. |
 | `MONGOPORT` | MongoDB | 27017 | MongoDB Port. |
 | `MONGOUSER` | MongoDB | - | Mongodb user. |
@@ -40,10 +37,6 @@ Checkmate is an open-source, self-hosted tool designed to track and monitor serv
 | `MONGO_PUBLIC_URL` | MongoDB | - | Public URL to connect to MongoDB, used for Data panel. |
 | `MONGO_INITDB_ROOT_PASSWORD` | MongoDB | (secret) | Root user password, set during initialization. |
 | `MONGO_INITDB_ROOT_USERNAME` | MongoDB | (secret) | User created during initialization, given the root role. |
-| `PORT` | server | 5000 | Port |
-| `JWT_SECRET` | server | (secret) | Super secret |
-| `CLIENT_HOST` | server | - | The origin that the API server will approve requests from |
-| `DB_CONNECTION_STRING` | server | - | Mongo URL |
 
 ## Configuration
 

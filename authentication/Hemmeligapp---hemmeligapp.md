@@ -8,8 +8,6 @@ Hemmelig - Encrypted Secret Sharing
 
 Hemmelig.app is an open-source encrypted secret-sharing app for sending sensitive data securely. It uses client-side encryption, expiring links, view limits, optional passwords, and self-destructing messages so secrets are not exposed to the server.
 
-Hosting Hemmelig.app on Railway means deploying the app from Docker or GitHub, setting required environment variables, and adding persistent storage for the database and uploads. Railway handles networking, domains, runtime, and scaling, while Hemmelig manages encrypted secret creation, access limits, and expiration.
-
 ## What gets deployed
 
 | Service | Source | Type |
@@ -28,7 +26,6 @@ Hosting Hemmelig.app on Railway means deploying the app from Docker or GitHub, s
 
 ## Configuration
 
-- **Healthcheck:** `/api/health/ready`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Authentication

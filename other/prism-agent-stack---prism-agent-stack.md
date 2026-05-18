@@ -90,14 +90,16 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 | `CODEX_RUNTIME_TIMEOUT_MS` | codex-runtime | 600000 | Maximum Codex execution timeout in milliseconds. |
 | `TARGET_REPO_GITHUB_TOKEN` | codex-runtime | (secret) | Optional GitHub token for cloning or pushing private target repositories. |
 | `CODEX_TARGET_WORKSPACE_ROOT` | codex-runtime | /data/workspaces | Mounted directory for cloned target repositories. |
+| `COMMUNICATION_ADAPTER_TOKEN` | codex-runtime | (secret) | direct source adapter token |
+| `COMMUNICATION_ADAPTER_BASE_URL` | codex-runtime | - | direct source adapter |
 | `PORT` | task-runner | 8790 | Task runner HTTP port |
 | `PRISM_API_KEY` | task-runner | (secret) | Auth token for Prism Memory |
 | `TASK_RUNNER_TOKEN` | task-runner | (secret) | Auth token for manual |
-| `SOURCE_ADAPTER_TOKEN` | task-runner | (secret) | Auth token |
 | `TASK_RUNNER_DISABLED` | task-runner | false | Keep scheduler enabled |
 | `APP_API_SERVICE_TOKEN` | task-runner | (secret) | Auth token for site |
 | `CODEX_RUNTIME_BASE_URL` | task-runner | - | codex runtime for codex-prompt tasks |
 | `TASK_RUNNER_POLL_SECONDS` | task-runner | 60 | Poll DB schedules once per minute |
+| `COMMUNICATION_ADAPTER_TOKEN` | task-runner | (secret) | Auth token |
 | `PORT` | prism-memory | 8788 | Port the Prism Memory service listens on. |
 | `PRISM_API_KEY` | prism-memory | (secret) | API key used to authorize Prism Memory API calls. |
 | `PRISM_API_SPACE` | prism-memory | community | Runtime Prism Memory space slug. |

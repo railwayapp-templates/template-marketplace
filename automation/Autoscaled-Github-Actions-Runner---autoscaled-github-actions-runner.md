@@ -6,13 +6,13 @@ Autoscale ephemeral GitHub Actions runners on Railway.
 
 ## About
 
-Autoscaled Github Actions Runner is a self-hosted CI runner solution that automatically scales GitHub Actions runner replicas on Railway in response to job demand — adding replicas as jobs queue and resetting back to one once all runners go inactive.
+Autoscaled Github Actions Runner is a self-hosted CI runner solution that automatically scales GitHub Actions runner replicas on Railway in response to job demand — adding replicas as jobs queue and resetting back to one once all jobs are complete.
 
-Self-hosted GitHub Actions runners on Railway come with a difficult tradeoff. Non-ephemeral runners stay registered and ready for jobs, but remain alive between runs — consuming significant memory on Railway even when idle. Ephemeral runners (`--ephemeral`) solve the memory problem by exiting cleanly after each job, but they deregister from GitHub on exit, leaving replicas inactive with no way to pick up the next job without a manual redeploy.
+Self-hosted GitHub Actions runners on Railway come with a difficult tradeoff. Non-ephemeral runners stay registered and ready for jobs, but remain alive between runs — consuming significant memory on Railway even when idle. Ephemeral runners (`--ephemeral`) solve the memory problem by exiting cleanly after each job, but they deregister from GitHub on exit, leaving no runner available to pick up the next job without a manual redeploy.
 
-This autoscaler solves both problems. It listens for GitHub `workflow_job` webhook events and calls the Railway GraphQL API to automatically redeploy the runner when a new job arrives, scale up replicas for concurrent workloads, and reset back to one replica once all jobs complete and runners go inactive.
+This autoscaler solves both problems. It keeps one replica always running and ready for jobs, listens for GitHub `workflow_job` webhook events, and calls the Railway GraphQL API to automatically scale up replicas for concurrent workloads and reset back to one replica once all jobs are complete.
 
-> **Important:** Scaling down is intentionally limited. Railway's API can only set a desired replica count — it cannot target a specific replica for removal. Terminating a random replica risks canceling an in-flight job on another runner. To avoid this, the autoscaler only resets replicas once all jobs are complete and runners are already inactive. **This template is not suitable for projects where runners are consistently active.** If your runners are always busy, use non-ephemeral runners instead, which stay registered between jobs without needing to be restarted.
+> **Important:** Scaling down is intentionally limited. Railway's API can only set a desired replica count — it cannot target a specific replica for removal. Terminating a random replica risks canceling an in-flight job on another runner. To avoid this, the autoscaler only resets replicas once all jobs are complete. **This template is not suitable for projects where runners are consistently running many concurrent jobs** — replicas will keep scaling up, with many sitting idle, and will never reset back to 1 if jobs are frequently running.
 
 ## What gets deployed
 
