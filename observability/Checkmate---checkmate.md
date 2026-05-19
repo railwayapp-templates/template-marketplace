@@ -2,20 +2,13 @@
 
 An open-source uptime & infrastructure monitoring tool. Alternative to Kuma
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/p-MBP2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/checkmate)
 
 ## About
 
-![](https://checkmate.so/checkmate-logo-dark-bg.png)
+Uptime, pagespeed, hardware, and incident alerts in one self-hosted dashboard. No per-monitor pricing. No data leaving your infrastructure.
 
-<p align="center"><strong>An open source uptime and infrastructure monitoring application</strong></p>
-
-![](https://checkmate.so/uptimemonitoring.jpg)
-
-Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations.
-
-- You'll have to restart (Not Redeploy) the frontend container as it will crash because it starts faster than the server container. 
-- You'll have to point the created domain to port 80 in the frontend container as it doesn’t works automatically and as by now it’s not configurable in the template.
+Checkmate is an open-source, self-hosted monitoring platform for uptime checks, infrastructure metrics, PageSpeed monitoring, Docker health checks, incident management, and public status pages. Deploying Checkmate on Railway gives you a managed environment for running the application without maintaining your own servers or Kubernetes cluster. A typical deployment includes the Checkmate web application and a MongoDB database, with optional Capture agents installed on external servers to collect hardware metrics like CPU, memory, disk, and network usage. Railway simplifies deployment, scaling, networking, and environment management so you can get a production-ready monitoring stack running in minutes.
 
 ## What gets deployed
 
@@ -47,4 +40,4 @@ Checkmate is an open-source, self-hosted tool designed to track and monitor serv
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/deploy/p-MBP2)
+[View on Railway →](https://railway.com/deploy/checkmate)

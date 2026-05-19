@@ -1,4 +1,4 @@
-# Deploy Kali Linux on Railway
+# Deploy Kali Linux - Web Terminal on Railway
 
 Deploy Kali Linux Rolling and access via high-performance web terminal 🐉🌐
 

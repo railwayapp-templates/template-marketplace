@@ -1,4 +1,4 @@
-# Deploy Terraria Dedicated Server on Railway
+# Deploy Terraria server on Railway
 
 Self-host a persistent terraria TShock server using Docker Image
 

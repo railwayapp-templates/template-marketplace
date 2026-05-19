@@ -1,4 +1,4 @@
-# Deploy Ubuntu 22.04 on Railway
+# Deploy Ubuntu 22.04 - Web Terminal on Railway
 
 Ubuntu 22.04 LTS terminal accessible via your web browser! 🌐✨
 

@@ -1,4 +1,4 @@
-# Deploy Ubuntu on Railway
+# Deploy Ubuntu - Web Terminal on Railway
 
 Deploy any Ubuntu version and access it through your browser! 🚀🌐✨
 

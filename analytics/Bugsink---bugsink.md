@@ -2,37 +2,19 @@
 
 Self-hosted Error Tracking. Sentry-SDK compatible
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/5pE9hv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bugsink)
 
 ## About
 
-# Bugsink
+Hosting Bugsink requires deploying the application server alongside a PostgreSQL database for storing events, issues, users, and project metadata. Since Bugsink supports standard Sentry SDKs, teams can integrate it into existing applications with minimal setup changes.
 
- ![](https://www.bugsink.com/static/images/bugsink-logo.7a9597e724ff.webp)
-
-#### Error tracking
-
-- Get notified about errors in your applications as they happen.
-
-- All the information needed to triage and fix them in a single location.
-
-#### Built to self-host
-
-- Have full control over your data by running Bugsink on servers that you own or rent yourself.
-
-- Installation is easy, and we provide detailed instructions to help you get started.
-
-#### Sentry Compatible
-
-- To report errors to Bugsink, you only need to add a few lines of code to your application.
-
-- Bugsink is compatible with Sentry's open source SDKs which are available for most popular programming languages.
+Railway simplifies deployment by handling infrastructure provisioning, networking, environment variables, persistent storage, and service orchestration. A typical deployment includes a Bugsink web service, a PostgreSQL database, persistent storage volumes, and optional SMTP configuration for notifications. Railway also supports automatic deployments from GitHub and seamless scaling as your monitoring needs grow.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| Bugsink | `bugsink/bugsink:2.0.12` | Web service |
+| Bugsink | `bugsink/bugsink:2.1.3` | Web service |
 | MySQL | `mysql:9` | Database |
 
 ## Environment variables
@@ -64,4 +46,4 @@ Self-hosted Error Tracking. Sentry-SDK compatible
 
 **Category:** Analytics
 
-[View on Railway →](https://railway.com/deploy/5pE9hv)
+[View on Railway →](https://railway.com/deploy/bugsink)

@@ -2,7 +2,7 @@
 
 The #1 Open-Source CRM Modern, powerful, affordable.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/4_LQ-T)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/twentycrm)
 
 ## About
 
@@ -17,10 +17,10 @@ Hosting and deploying TwentyCRM involves setting up the TwentyCRM application on
 
 | Service | Source | Type |
 |---------|--------|------|
-| Twenty | `twentycrm/twenty:v1.18.1` | Web service |
-| Twenty Worker | `twentycrm/twenty:v1.18.1` | Worker |
+| Twenty | `twentycrm/twenty:v2.5.3` | Web service |
+| Twenty Worker | `twentycrm/twenty:v2.5.3` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
-| Redis | `redis:8.2.1` | Database |
+| Redis | `redis:latest` | Database |
 
 ## Environment variables
 
@@ -70,4 +70,4 @@ Hosting and deploying TwentyCRM involves setting up the TwentyCRM application on
 
 **Category:** Automation
 
-[View on Railway →](https://railway.com/deploy/4_LQ-T)
+[View on Railway →](https://railway.com/deploy/twentycrm)
