@@ -2,7 +2,7 @@
 
 Deploy and Host FastAPI-PGDB Railway with one click
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-postgres-starter-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-postgres-s-1)
 
 ## About
 
@@ -42,4 +42,4 @@ The template includes PostgreSQL integration, automatic health checks, productio
 
 **Category:** Starters · **Languages:** Python, Mako, Dockerfile
 
-[View on Railway →](https://railway.com/deploy/fastapi-postgres-starter-template)
+[View on Railway →](https://railway.com/deploy/fastapi-postgres-s-1)

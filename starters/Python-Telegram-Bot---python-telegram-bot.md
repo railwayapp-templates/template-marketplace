@@ -12,7 +12,7 @@ Python Telegram Bot is a simple starter bot built with `python-telegram-bot`. It
 
 Hosting a Python Telegram Bot means running a long-lived Python process that connects to Telegram, listens for incoming messages, and responds through the Telegram Bot API. This template uses environment variables for configuration, so your bot token stays separate from the codebase. After deployment, the bot starts automatically and keeps running as a service. It uses long polling, so you do not need to configure a webhook or public domain. Once the `BOT_TOKEN` variable is added, the bot can respond to commands, normal text messages, and menu button interactions.
 
-### How to Use
+### How to Edit
 
 After deploying this template, the app is already running on Railway. You can open the generated Railway domain to test the starter app immediately.
 
