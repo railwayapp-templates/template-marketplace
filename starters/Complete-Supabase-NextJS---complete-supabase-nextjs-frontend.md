@@ -232,6 +232,7 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 | `GOTRUE_SMTP_PASS` | Supabase Auth | abcd efgh ijkl mnop | SMTP password for authentication with the server. |
 | `GOTRUE_SMTP_PORT` | Supabase Auth | 587 | The port your SMTP provider listens at. |
 | `GOTRUE_SMTP_USER` | Supabase Auth | (secret) | SMTP user for authentication with the server. |
+| `GOTRUE_JWT_ISSUER` | Supabase Auth | - | Value for the 'iss' field in session tokens |
 | `GOTRUE_JWT_SECRET` | Supabase Auth | (secret) | Project JWT secret. |
 | `GOTRUE_DB_DATABASE_URL` | Supabase Auth | - | Postgres connection string. |
 | `GOTRUE_JWT_ADMIN_ROLES` | Supabase Auth | service_role | Admin role to include in service_role JWTs. |
@@ -294,6 +295,6 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 - **TCP Proxies:** 9000
 - **Volume:** `/data`
 
-**Category:** Starters · **Languages:** TypeScript, Shell, PLpgSQL, Dockerfile, CSS, HTML, JavaScript
+**Category:** Starters · **Languages:** TypeScript, Shell, PLpgSQL, JavaScript, Dockerfile, CSS, HTML
 
 [View on Railway →](https://railway.com/deploy/complete-supabase-nextjs-frontend)

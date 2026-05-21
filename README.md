@@ -271,6 +271,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Bookstack v26 + MariaDB v12](./cms/Bookstack-v26-MariaDB-v12---bookstack-v25-mariadb-v12.md) | CMS |  | - | [Deploy](https://railway.com/deploy/bookstack-v25-mariadb-v12) |
 | [boss-claude](./other/boss-claude---boss-claude.md) | Other |  | - | [Deploy](https://railway.com/deploy/boss-claude) |
 | [Bot Empire](./bots/Bot-Empire---bot-empire.md) | Bots |  | JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/bot-empire) |
+| [Bot WhatsApp Web](./bots/Bot-WhatsApp-Web---bot-whatsapp-web.md) | Bots |  | TypeScript, HTML, CSS, JavaScript, Procfile | [Deploy](https://railway.com/deploy/bot-whatsapp-web) |
 | [Bot_MultiAgente(5)](./bots/BotMultiAgente5---botmultiagente5.md) | Bots |  | TypeScript, HTML, CSS, JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/botmultiagente5) |
 | [Bot-ApiSWS](./bots/Bot-ApiSWS---bot-apisws.md) | Bots |  | TypeScript, JavaScript, CSS, HTML, PLpgSQL, Dockerfile | [Deploy](https://railway.com/deploy/bot-apisws) |
 | [Bot-Img-Test](./other/Bot-Img-Test---bot-img-test.md) | Other |  | - | [Deploy](https://railway.com/deploy/bot-img-test) |
@@ -353,6 +354,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Calibre over Tailscale](./other/Calibre-over-Tailscale---hWLSF8.md) | Other |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/hWLSF8) |
 | [Calibre-Web - Your Personal Ebook Server](./other/Calibre-Web-Your-Personal-Ebook-Server---calibre-web.md) | Other |  | - | [Deploy](https://railway.com/deploy/calibre-web) |
 | [calm-blue](./automation/calm-blue---calm-blue.md) | Automation |  | - | [Deploy](https://railway.com/deploy/calm-blue) |
+| [calm-dark](./other/calm-dark---calm-dark.md) | Other |  | JavaScript, CSS, PLpgSQL, Python, Dockerfile, HTML, Procfile | [Deploy](https://railway.com/deploy/calm-dark) |
 | [Camoufox (Python)](./automation/Camoufox-Python---camoufox-python.md) | Automation |  | Python, Dockerfile | [Deploy](https://railway.com/deploy/camoufox-python) |
 | [Campfire](./other/Campfire---campfire-1.md) | Other |  | Ruby, HTML, JavaScript, CSS, Shell, Dockerfile, Procfile | [Deploy](https://railway.com/deploy/campfire-1) |
 | [Campfire](./other/Campfire---campfire.md) | Other |  | Ruby, HTML, JavaScript, CSS, Shell, Dockerfile, Procfile | [Deploy](https://railway.com/deploy/campfire) |
@@ -465,7 +467,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Colanode](./other/Colanode---colanode.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/colanode) |
 | [Comentario](./other/Comentario---comentario.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/comentario) |
 | [Commento++](./blogs/Commento---hame0C.md) | Blogs |  | Go, JavaScript, SCSS, HTML, PLpgSQL, Makefile, Shell, Dockerfile | [Deploy](https://railway.com/deploy/hame0C) |
-| [Complete Supabase + NextJS](./starters/Complete-Supabase-NextJS---complete-supabase-nextjs-frontend.md) | Starters |  | TypeScript, Shell, PLpgSQL, Dockerfile, CSS, HTML, JavaScript | [Deploy](https://railway.com/deploy/complete-supabase-nextjs-frontend) |
+| [Complete Supabase + NextJS](./starters/Complete-Supabase-NextJS---complete-supabase-nextjs-frontend.md) | Starters |  | TypeScript, Shell, PLpgSQL, JavaScript, Dockerfile, CSS, HTML | [Deploy](https://railway.com/deploy/complete-supabase-nextjs-frontend) |
 | [conduit-1-click](./other/conduit-1-click---conduit-1-click.md) | Other |  | - | [Deploy](https://railway.com/deploy/conduit-1-click) |
 | [Consul](./other/Consul---consul.md) | Other |  | - | [Deploy](https://railway.com/deploy/consul) |
 | [consultralph](./ai-ml/consultralph---passionate-abundance.md) | AI/ML |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/passionate-abundance) |
@@ -1175,6 +1177,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [inboxorcist](./automation/inboxorcist---inboxorcist.md) | Automation |  | TypeScript, MDX, Shell, PowerShell, CSS, Dockerfile, JavaScript, HTML | [Deploy](https://railway.com/deploy/inboxorcist) |
 | [Incident Response Agent](./observability/Incident-Response-Agent---incident-response.md) | Observability | Yes | Elixir, HTML, CSS, JavaScript, Shell | [Deploy](https://railway.com/deploy/incident-response) |
 | [incredible-benevolence](./other/incredible-benevolence---incredible-benevolence.md) | Other |  | - | [Deploy](https://railway.com/deploy/incredible-benevolence) |
+| [INCUBATEURIA - BOT](./other/INCUBATEURIA---BOT---incubateuria-img-docker.md) | Other |  | - | [Deploy](https://railway.com/deploy/incubateuria-img-docker) |
 | [Indiekit](./cms/Indiekit---gEboK6.md) | CMS |  | JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/gEboK6) |
 | [industrious-ambition](./other/industrious-ambition---industrious-ambition.md) | Other |  | Blade, PHP, CSS, JavaScript, PowerShell, Batchfile | [Deploy](https://railway.com/deploy/industrious-ambition) |
 | [infisical](./automation/infisical---iN2RVh.md) | Automation |  | - | [Deploy](https://railway.com/deploy/iN2RVh) |
@@ -2688,6 +2691,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Statping ng](./observability/Statping-ng---statping-ng.md) | Observability |  | - | [Deploy](https://railway.com/deploy/statping-ng) |
 | [status-express](./other/status-express---qDKd-1.md) | Other |  | - | [Deploy](https://railway.com/deploy/qDKd-1) |
 | [Statusnook](./observability/Statusnook---VkhOWC.md) | Observability |  | - | [Deploy](https://railway.com/deploy/VkhOWC) |
+| [StatView](./observability/StatView---statview.md) | Observability |  | - | [Deploy](https://railway.com/deploy/statview) |
 | [Steel Browser](./automation/Steel-Browser---steelbrowser.md) | Automation | Yes | - | [Deploy](https://railway.com/deploy/steelbrowser) |
 | [Steel Browser - Open-Source Headless Browser API](./automation/Steel-Browser-Open-Source-Headless-Browser-API---steel-browser.md) | Automation |  | - | [Deploy](https://railway.com/deploy/steel-browser) |
 | [stellar-optimism](./ai-ml/stellar-optimism---stellar-optimism.md) | AI/ML |  | Python, Procfile | [Deploy](https://railway.com/deploy/stellar-optimism) |
@@ -2921,11 +2925,13 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Ubuntu 22.04 - Web Terminal](./other/Ubuntu-2204---Web-Terminal---ubuntu-2204.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/ubuntu-2204) |
 | [Ubuntu 22.04 LTS](./other/Ubuntu-2204-LTS---ubuntu-2204-lts.md) | Other |  | - | [Deploy](https://railway.com/deploy/ubuntu-2204-lts) |
 | [Ubuntu 24.04](./other/Ubuntu-2404---ubuntu-2404.md) | Other |  | - | [Deploy](https://railway.com/deploy/ubuntu-2404) |
+| [Ubuntu 24.04 - Web Terminal](./other/Ubuntu-2404---Web-Terminal---ubuntu-2404-web-terminal.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/ubuntu-2404-web-terminal) |
 | [Ubuntu 24.04 LTS](./other/Ubuntu-2404-LTS---ubuntu-2404-lts.md) | Other |  | - | [Deploy](https://railway.com/deploy/ubuntu-2404-lts) |
 | [Ubuntu 24.04 LTS Web Terminal](./other/Ubuntu-2404-LTS-Web-Terminal---ubuntu-2404-lts-web-terminal.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/ubuntu-2404-lts-web-terminal) |
 | [Ubuntu 25.10](./other/Ubuntu-2510---ubuntu-2510.md) | Other |  | - | [Deploy](https://railway.com/deploy/ubuntu-2510) |
 | [Ubuntu 25.10 (Web Terminal)](./other/Ubuntu-2510-Web-Terminal---ubuntu-2510-web-terminal.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/ubuntu-2510-web-terminal) |
 | [Ubuntu 26.04](./other/Ubuntu-2604---ubuntu-2604.md) | Other |  | - | [Deploy](https://railway.com/deploy/ubuntu-2604) |
+| [Ubuntu 26.04 - Web Terminal](./other/Ubuntu-2604---Web-Terminal---ubuntu-2604-web-based-terminal.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/ubuntu-2604-web-based-terminal) |
 | [Ubuntu 26.04 (Web Terminal)](./other/Ubuntu-2604-Web-Terminal---ubuntu-2604-web-terminal.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/ubuntu-2604-web-terminal) |
 | [Ubuntu 26.04 LTS](./other/Ubuntu-2604-LTS---ubuntu-2604-lts.md) | Other |  | - | [Deploy](https://railway.com/deploy/ubuntu-2604-lts) |
 | [Ubuntu Linux - Most Popular Linux Distro](./other/Ubuntu-Linux-Most-Popular-Linux-Distro---ubuntu-linux.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/ubuntu-linux) |

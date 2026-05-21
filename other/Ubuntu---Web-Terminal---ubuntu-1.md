@@ -32,7 +32,6 @@ Once deployed on Railway, the system automatically handles networking, SSL encry
 | `USERNAME` | (secret) | - |
 | `MAINTAINER` | ASEP SAPUTRA | - |
 | `PROJECT_NAME` | ubuntu-on-browser | - |
-| `INSTALLED_VER` | latest | - |
 | `UBUNTU_VERSION` | - | Choose your preferred version (20.04, 22.04, 24.04, etc.). Defaults to latest if not specified. |
 | `DEBIAN_FRONTEND` | noninteractive | - |
 
