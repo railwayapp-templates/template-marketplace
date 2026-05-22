@@ -1,8 +1,8 @@
-# Deploy Convex + Mysql on Railway
+# Deploy Convex & Postgres - Official on Railway
 
-Convex is the open-source reactive database for app developers. + Mysql DB.
+Convex is the open-source reactive database for app developers + Postgres.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/convex-mysql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/convex-postgres)
 
 ## About
 
@@ -31,7 +31,7 @@ Links:
 
 | Service | Source | Type |
 |---------|--------|------|
-| MySQL | `mysql:9` | Database |
+| Postgres | `postgres:17` | Database |
 | convex-backend | `ghcr.io/get-convex/convex-backend:latest` | Web service |
 | convex-dashboard | `ghcr.io/get-convex/convex-dashboard:latest` | Web service |
 
@@ -39,21 +39,18 @@ Links:
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `MYSQLHOST` | MySQL | - | Railway Private Domain Name. |
-| `MYSQLPORT` | MySQL | 3306 | MySQL port. |
-| `MYSQLUSER` | MySQL | root | MySQL user, used for the Data panel. |
-| `MYSQL_URL` | MySQL | - | URL to connect to MySQL. |
-| `MYSQLDATABASE` | MySQL | - | Default database, used for Data panel. |
-| `MYSQLPASSWORD` | MySQL | (secret) | Root password, used for Data panel. |
-| `MYSQL_DATABASE` | MySQL | convex_self_hosted | Database to be created on image startup. |
-| `MYSQL_PUBLIC_URL` | MySQL | - | URL to connect to MySQL DB, used for Data panel. |
-| `MYSQL_ROOT_PASSWORD` | MySQL | (secret) | Root password for MySQL DB. |
+| `PGSSLMODE` | Postgres | disable | - |
+| `POSTGRES_DB` | Postgres | convex_self_hosted | Default database created when image is started. |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `PORT` | convex-backend | 3210 | - |
 | `INSTANCE_NAME` | convex-backend | convex_self_hosted | Instance name |
 | `DISABLE_BEACON` | convex-backend | true | Optional tracking beacon to convex.dev |
 | `INSTANCE_SECRET` | convex-backend | (secret) | Instance secret |
 | `CONVEX_SITE_ORIGIN` | convex-backend | - | Public http url |
-| `DO_NOT_REQUIRE_SSL` | convex-backend | true | - |
+| `DO_NOT_REQUIRE_SSL` | convex-backend | false | - |
 | `CONVEX_CLOUD_ORIGIN` | convex-backend | - | Public instance url |
 | `CONVEX_SELF_HOSTED_URL` | convex-backend | - | Public instance url |
 | `PORT` | convex-dashboard | 6791 | - |
@@ -61,12 +58,11 @@ Links:
 
 ## Configuration
 
-- **Start command:** `docker-entrypoint.sh mysqld --innodb-use-native-aio=0 --disable-log-bin --performance_schema=0 --innodb-buffer-pool-size=1G`
-- **TCP Proxies:** 3306
-- **Volume:** `/var/lib/mysql`
+- **TCP Proxies:** 5432
+- **Volume:** `/var/lib/postgresql/data`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/convex/data`
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/deploy/convex-mysql)
+[View on Railway →](https://railway.com/deploy/convex-postgres)

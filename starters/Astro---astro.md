@@ -1,8 +1,8 @@
-# Deploy Astro Starter on Railway
+# Deploy Astro on Railway
 
 A simple Astro starter for fast, lightweight, and easy web builds.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/astro-starter-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/astro)
 
 ## About
 
@@ -14,7 +14,7 @@ Hosting an Astro Starter application gives you a streamlined, performance‑driv
 
 | Service | Source | Type |
 |---------|--------|------|
-| astro-starter | [brody192/astro-basic-template](https://github.com/brody192/astro-basic-template) | Web service |
+| astro | [brody192/astro-basic-template](https://github.com/brody192/astro-basic-template) | Web service |
 
 ## Configuration
 
@@ -22,4 +22,4 @@ Hosting an Astro Starter application gives you a streamlined, performance‑driv
 
 **Category:** Starters · **Languages:** Astro, JavaScript
 
-[View on Railway →](https://railway.com/deploy/astro-starter-1)
+[View on Railway →](https://railway.com/deploy/astro)
