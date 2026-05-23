@@ -33,7 +33,7 @@ En quelques minutes, tu passes d'un serveur vide à une agence pleinement opéra
 
 | Service | Source | Type |
 |---------|--------|------|
-| gabmerlin/incubateur-ia-bot:latest | `ghcr.io/gabmerlin/incubateur-ia-bot:latest` | Database |
+| INCUBATEURIA - DISOCRD | `ghcr.io/estebane57/incubateur-ia-bot:latest` | Database |
 
 ## Environment variables
 
