@@ -1,6 +1,6 @@
 # Deploy Docmost on Railway
 
-Self-hosted Notion alternative with real-time collaborative editing.
+Self-hosted Confluence alternative with real-time collaborative editing.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/docmost-1)
 

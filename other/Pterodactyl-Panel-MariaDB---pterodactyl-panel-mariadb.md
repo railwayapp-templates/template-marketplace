@@ -6,91 +6,14 @@ Pterodactyl Panel with MariaDB, Redis, volumes, and private networking.
 
 ## About
 
-# Pterodactyl Panel Railway Template
+Run the Pterodactyl Panel on Railway with MariaDB, Redis, persistent panel storage, and private networking.
 
-This folder tracks a Railway template for the Pterodactyl Panel.
-
-Published template: 
-
-## Stack
-
-- Pterodactyl Panel via the official `ghcr.io/pterodactyl/panel` image
-- MariaDB on a private Railway service, exposed to the Panel as MySQL-compatible storage
-- Railway Redis on a private Railway service
-- Persistent volumes for database data and Panel state/logs/config
-- Railway public domain for the Panel UI
-
-## Why This Template Should Convert
-
-- Pterodactyl has clear marketplace demand and a high active-project ratio.
-- The app is sticky because users keep game hosting control planes alive.
-- The existing marketplace option leaves room for a clearer, supportable Railway-native setup.
-- The official container already handles DB waiting, migrations, seeds, cron, PHP-FPM, nginx, and the queue worker.
-
-## Runtime Shape
-
-- `panel`
-  - Image: `ghcr.io/pterodactyl/panel:latest`
-  - Public domain on port `80`
-  - Volume mounted at `/app/var`
-- `mysql`
-  - Image: `mariadb:11`
-  - Private only
-  - Volume mounted at `/var/lib/mysql`
-- `redis`
-  - Railway Redis database service
-  - Private only
-  - Ephemeral cache/session/queue service
-
-## Key Variables
-
-Panel:
-
-- `APP_ENV=production`
-- `APP_DEBUG=false`
-- `PORT=80`
-- `APP_URL=https://${{RAILWAY_PUBLIC_DOMAIN}}`
-- `APP_TIMEZONE=UTC`
-- `APP_SERVICE_AUTHOR=noreply@example.com`
-- `APP_ENVIRONMENT_ONLY=false`
-- `APP_KEY=`
-- `HASHIDS_SALT=`
-- `HASHIDS_LENGTH=8`
-- `DB_CONNECTION=mysql`
-- `DB_HOST=${{mysql.RAILWAY_PRIVATE_DOMAIN}}`
-- `DB_DATABASE=${{mysql.MARIADB_DATABASE}}`
-- `DB_USERNAME=${{mysql.MARIADB_USER}}`
-- `DB_PASSWORD=${{mysql.MARIADB_PASSWORD}}`
-- `REDIS_HOST=${{Redis.RAILWAY_PRIVATE_DOMAIN}}`
-- `REDIS_PORT=${{Redis.REDISPORT}}`
-- `REDIS_PASSWORD=${{Redis.REDIS_PASSWORD}}`
-- `CACHE_DRIVER=redis`
-- `SESSION_DRIVER=redis`
-- `QUEUE_CONNECTION=redis`
-- `QUEUE_DRIVER=redis`
-- `MAIL_MAILER=log`
-- `MAIL_DRIVER=log`
-- `MAIL_FROM_ADDRESS=noreply@example.com`
-- `MAIL_FROM_NAME=Pterodactyl Panel`
-
-MariaDB/MySQL-compatible database:
-
-- `MARIADB_DATABASE=${{RAILWAY_SERVICE_NAME}}`
-- `MARIADB_USER=${{RAILWAY_SERVICE_NAME}}`
-- `MARIADB_PASSWORD=`
-- `MARIADB_ROOT_PASSWORD=`
-
-## Required First-Admin Step
-
-After the first successful deploy, create the admin account from Railway SSH:
-
-```sh
-railway ssh --service panel php artisan p:user:make
-```
-
-The Panel is only the web control plane. Users still need one or more Wings nodes on infrastructure that supports Docker and game-server networking.
-
-Railway currently supports one volume mount per service in this template flow, so the Panel persists `/app/var`. Nginx config, cert cache, and logs remain ephemeral.
+- `panel`: public Pterodactyl Panel service
+- `mariadb`: private database service
+- `redis`: private cache/session/queue service
+- Persistent Panel volume for state, nginx config, certificates, and logs
+- Generated database and application secrets
+- First-admin creation notes in the template checklist
 
 ## What gets deployed
 

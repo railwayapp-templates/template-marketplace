@@ -1,8 +1,8 @@
-# Deploy Paperclip with postgres on Railway
+# Deploy Paperclip - Complete Setup on Railway
 
 Hire AI employees, automate jobs, and run your business 🚀
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/paperclip-3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/paperclip-complete-setup)
 
 ## About
 
@@ -41,6 +41,6 @@ Hosting Paperclip on Railway involves deploying a Node.js-based service with a b
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Automation · **Languages:** HTML, JavaScript, Dockerfile, Shell
+**Category:** AI/ML · **Languages:** HTML, JavaScript, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/deploy/paperclip-3)
+[View on Railway →](https://railway.com/deploy/paperclip-complete-setup)

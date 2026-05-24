@@ -1,14 +1,19 @@
 # Deploy Formbricks + Postgres on Railway
 
-Self-hosted surveys with Postgres, Valkey, volumes, and private networking.
+Formbricks surveys with Postgres, Valkey, persistent uploads, secrets.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/formbricks-postgres)
 
 ## About
 
-Formbricks is an open-source survey and product feedback platform for collecting user insights, in-app feedback, and customer research. This template deploys Formbricks with Postgres, Valkey, persistent storage, and Railway private networking.
+Self-host Formbricks surveys and experience management on Railway with Postgres, Valkey, generated secrets, persistent uploads, and private networking.
 
-This template runs the official Formbricks container behind a Railway public domain, with Postgres for application data and Valkey for cache and rate-limit support. Database and cache traffic stay on Railway private networking, while only the Formbricks web service is exposed publicly.
+- `formbricks`: public Formbricks web service
+- `postgres`: private Postgres database
+- `valkey`: private cache service for rate limits, caching, and audit logging
+- Persistent upload storage
+- Generated auth, encryption, cron, database, and cache secrets
+- One-domain default setup for fast first launch
 
 ## What gets deployed
 

@@ -1,14 +1,19 @@
 # Deploy Ghost CMS + MySQL on Railway
 
-Ghost CMS with MySQL 8, persistent volumes, and private networking.
+Ghost 6 with MySQL 8, volumes, private networking, and safer startup.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ghost-cms-mysql)
 
 ## About
 
-Ghost is an open-source publishing platform built for modern blogs, newsletters, memberships, and editorial sites. This template packages Ghost 6 with MySQL 8, persistent volumes, and Railway private networking so you get a clean, production-ready starting point without hand-wiring database connections or storage.
+Run Ghost 6 on Railway with MySQL 8, persistent content storage, persistent database storage, private networking, and a Railway public domain.
 
-This template deploys Ghost on the official Docker image and MySQL 8 on a separate private Railway service. Ghost content persists on a dedicated volume, MySQL data persists on its own volume, and the app is configured to use Railway's public domain plus private service-to-service networking. Database passwords are generated automatically for each deployment, so you can launch quickly and then customize themes, email, and custom domains after the initial boot.
+- `ghost`: official `ghost:6-alpine` image exposed on port `2368`
+- `mysql`: official `mysql:8.4` image on Railway private networking
+- Persistent Ghost content volume at `/var/lib/ghost/content`
+- Persistent MySQL volume at `/var/lib/mysql`
+- Generated MySQL application and root passwords
+- Ghost configured with Railway's public domain and private MySQL host
 
 ## What gets deployed
 
@@ -39,7 +44,7 @@ This template deploys Ghost on the official Docker image and MySQL 8 on a separa
 ## Configuration
 
 - **Volume:** `/var/lib/mysql`
-- **Healthcheck:** `/`
+- **Start command:** `/bin/sh -lc 'set -eu; host="${database__connection__host:-mysql.railway.internal}"; port="${database__connection__port:-3306}"; attempt=1; until node -e "const net=require(process.argv[3]); const socket=net.createConnection({host:process.argv[1],port:Number(process.argv[2])},()=>process.exit(0)); socket.setTimeout(3000); socket.on(process.argv[4],()=>process.exit(1)); socket.on(process.argv[5],()=>process.exit(1));" "$host" "$port" net error timeout; do if [ "$attempt" -ge 60 ]; then echo "MySQL did not become reachable at $host:$port"; exit 1; fi; echo "Waiting for MySQL at $host:$port ($attempt/60)"; attempt=$((attempt + 1)); sleep 2; done; exec docker-entrypoint.sh node current/index.js'`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/ghost/content`
 

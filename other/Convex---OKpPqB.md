@@ -1,4 +1,4 @@
-# Deploy Convex - Official on Railway
+# Deploy Convex on Railway
 
 Convex is the open-source reactive database for app developers.
 

@@ -55,6 +55,7 @@ Hosting the **n8n Pro Stack** involves deploying and linking four core services:
 | `N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS` | Worker | true |
 | `REDISPORT` | Redis | 6379 |
 | `REDISUSER` | Redis | default |
+| `REDISPASSWORD` | Redis | (secret) |
 | `REDIS_PASSWORD` | Redis | (secret) |
 
 ## Configuration

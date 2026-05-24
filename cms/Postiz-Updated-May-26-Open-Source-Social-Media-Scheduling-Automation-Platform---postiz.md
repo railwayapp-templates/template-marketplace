@@ -19,7 +19,7 @@ Hosting Postiz on Railway gives you complete control over your content schedulin
 | temporal-postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | temporal-ui | `temporalio/ui` | Web service |
 | temporal-admin-tools | `temporalio/admin-tools` | Worker |
-| elasticsearch-railway | [Shinyduo/elasticsearch-railway](https://github.com/Shinyduo/elasticsearch-railway) | Worker |
+| elasticsearch-railway | [Shinyduo/elasticsearch-railway](https://github.com/Shinyduo/elasticsearch-railway) | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 | temporal_server | `temporalio/auto-setup` | Worker |
 
@@ -85,6 +85,7 @@ Hosting Postiz on Railway gives you complete control over your content schedulin
 - **Volume:** `/data`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Volume:** `/esdata`
 
 **Category:** CMS · **Languages:** Dockerfile, Shell
 

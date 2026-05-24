@@ -1,6 +1,6 @@
-# Deploy metabase on Railway
+# Deploy Metabase [updated May'26] on Railway
 
-Deploy and Host metabase with Railway
+Self-hosted Tableau alternative — dashboards, charts, SQL & team analytics.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/metabase-1)
 
