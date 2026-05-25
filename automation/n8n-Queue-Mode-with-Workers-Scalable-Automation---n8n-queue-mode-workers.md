@@ -110,6 +110,6 @@ the cap entirely.
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** AI/ML
+**Category:** Automation
 
 [View on Railway →](https://railway.com/deploy/n8n-queue-mode-workers)

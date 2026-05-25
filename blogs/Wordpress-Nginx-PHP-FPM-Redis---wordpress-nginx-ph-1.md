@@ -1,14 +1,14 @@
 # Deploy Wordpress Nginx PHP-FPM Redis on Railway
 
-Production-grade Wordpress on PHP-FPM, mySQL & Redis
+Production-grade Wordpress 7 on PHP-FPM, mySQL & Redis
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wordpress-nginx-ph-1)
 
 ## About
 
-A production-ready WordPress deployment featuring a security-hardened custom Docker image with Nginx and PHP-FPM 8.3, integrated with Railway's managed MySQL and Redis databases, plus a phpMyAdmin interface for database management.
+A production-ready WordPress deployment featuring a security-hardened custom Docker image with Nginx and PHP-FPM 8.4, integrated with Railway's managed MySQL and Redis databases, plus a phpMyAdmin interface for database management.
 
-Hosting WordPress with Nginx, PHP-FPM, and Redis involves deploying a high-performance web stack optimized for production environments. This configuration uses Nginx as the web server for efficient request handling, PHP-FPM 8.3 for processing PHP code, and Redis for persistent object caching and session storage. The setup includes security hardening measures such as XML-RPC disabling, protected wp-config.php, upload directory PHP execution blocking, and security headers. Railway's managed MySQL database handles persistent data storage, while phpMyAdmin provides a web-based interface for database administration. WP-CLI is pre-installed for advanced command-line site management.
+Hosting WordPress with Nginx, PHP-FPM, and Redis involves deploying a high-performance web stack optimized for production environments. This configuration uses Nginx as the web server for efficient request handling, PHP-FPM 8.4 for processing PHP code, and Redis for persistent object caching and session storage. The setup includes security hardening measures such as XML-RPC disabling, protected wp-config.php, upload directory PHP execution blocking, and security headers. Railway's managed MySQL database handles persistent data storage, while phpMyAdmin provides a web-based interface for database administration. WP-CLI is pre-installed for advanced command-line site management.
 
 ## What gets deployed
 

@@ -46,6 +46,7 @@ Railway provides persistent volume storage, secure networking, automatic deploym
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
 **Category:** Storage

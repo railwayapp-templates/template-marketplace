@@ -23,6 +23,9 @@ Self hosting Hermes Agent means your conversations, memories, skills, and API ke
 | `NOCODB_MCP_URL` | - | NocoDB MCP |
 | `OWNER_WHATSAPP` | - | User whatsapp number for notifications |
 | `NOCODB_MCP_TOKEN` | (secret) | NocoDb MCP token |
+| `TELEGRAM_BOT_TOKEN` | (secret) | Telegram bot token |
+| `TELEGRAM_HOME_CHANNEL` | - | Telegram home channel ID |
+| `TELEGRAM_ALLOWED_USERS` | - | Telegram user IDs allowed (get ID from @userinfobot) |
 | `WASENDER_WEBHOOK_SECRET` | (secret) | WasenderAPI webhook secret |
 | `WASENDER_PERSONAL_ACCESS_TOKEN` | (secret) | WasenderAPI Personal Access Token |
 
