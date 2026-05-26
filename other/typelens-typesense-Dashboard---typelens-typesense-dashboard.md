@@ -34,7 +34,7 @@ This template deploys two Railway services: Typesense (the search engine) and ty
 | `TYPESENSE_PORT` | typelens | - | The typesense api port |
 | `TYPESENSE_API_KEY` | typelens | (secret) | The typesense api key |
 | `TYPESENSE_PROTOCOL` | typelens | http | The typesense api protocol (http or https) |
-| `TYPESENSE_SERVER_NAME` | typelens | Default | The name/label for the typesense server |
+| `TYPESENSE_SERVER_NAME` | typelens | Typesense | The name/label for the typesense server |
 
 ## Configuration
 

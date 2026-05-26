@@ -102,6 +102,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [all-url-uploader](./bots/all-url-uploader---all-url-uploader.md) | Bots |  | Python, Dockerfile | [Deploy](https://railway.com/deploy/all-url-uploader) |
 | [AlmaLinux 9](./other/AlmaLinux-9---alma-linux.md) | Other |  | - | [Deploy](https://railway.com/deploy/alma-linux) |
 | [AlphaClaw](./automation/AlphaClaw---alphaclaw.md) | Automation |  | Dockerfile | [Deploy](https://railway.com/deploy/alphaclaw) |
+| [AlphaClaw — OpenClaw Manager with Google Workspace](./automation/AlphaClaw-OpenClaw-Manager-with-Google-Workspace---alphaclaw-openclaw-manager.md) | Automation |  | Dockerfile | [Deploy](https://railway.com/deploy/alphaclaw-openclaw-manager) |
 | [AlphaClaw Quick Start](./ai-ml/AlphaClaw-Quick-Start---openclaw-fast-start.md) | AI/ML |  | Dockerfile | [Deploy](https://railway.com/deploy/openclaw-fast-start) |
 | [Alpine Linux](./other/Alpine-Linux---alpine-linux.md) | Other |  | - | [Deploy](https://railway.com/deploy/alpine-linux) |
 | [altar](./other/altar---acMcnw.md) | Other |  | Python | [Deploy](https://railway.com/deploy/acMcnw) |
@@ -1971,6 +1972,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [OpenClaw (Prev Clawdbot, Moltbot) - Self Host OpenClaw on Railway](./automation/OpenClaw-Prev-Clawdbot-Moltbot-Self-Host-OpenClaw-on-Railway---openclaw-prev-clawdbot-moltbot-self-host.md) | Automation |  | HTML, JavaScript, Dockerfile, Shell | [Deploy](https://railway.com/deploy/openclaw-prev-clawdbot-moltbot-self-host) |
 | [OpenClaw (Secure)](./ai-ml/OpenClaw-Secure---openclaw-secure.md) | AI/ML |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/openclaw-secure) |
 | [OpenClaw [Updated May '26]](./bots/OpenClaw-Updated-May-26---open-claw.md) | Bots |  | JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/open-claw) |
+| [OpenClaw + Bright Data](./other/OpenClaw-Bright-Data---openclaw-bright-data.md) | Other |  | Shell, JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/openclaw-bright-data) |
 | [OpenClaw + Ollama on Railway - Self-Hosted Personal AI Assistant](./automation/OpenClaw-Ollama-on-Railway-Self-Hosted-Personal-AI-Assistant---openclaw-with-ollama.md) | Automation |  | HTML, JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/openclaw-with-ollama) |
 | [OpenClaw - All-in-one Personal AI Assistant](./automation/OpenClaw-All-in-one-Personal-AI-Assistant---self-host-openclaw.md) | Automation |  | HTML, JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/self-host-openclaw) |
 | [OpenClaw AI + n8n workflows + Tailscale security](./ai-ml/OpenClaw-AI-n8n-workflows-Tailscale-security---openclaw-ai-n8n-workflows-tailscale-secu.md) | AI/ML |  | JavaScript, Dockerfile, Shell | [Deploy](https://railway.com/deploy/openclaw-ai-n8n-workflows-tailscale-secu) |
@@ -2299,6 +2301,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [prism-agent-stack](./other/prism-agent-stack---prism-agent-stack.md) | Other |  | TypeScript, Python, Shell, JavaScript, CSS, Dockerfile | [Deploy](https://railway.com/deploy/prism-agent-stack) |
 | [Prisma Postgres Starter](./starters/Prisma-Postgres-Starter---prisma-postgres.md) | Starters | Yes | TypeScript, JavaScript, CSS | [Deploy](https://railway.com/deploy/prisma-postgres) |
 | [Prisma Studio](./other/Prisma-Studio---NpN5Jl.md) | Other |  | JavaScript | [Deploy](https://railway.com/deploy/NpN5Jl) |
+| [PrivaPaid](./other/PrivaPaid---privapaid.md) | Other |  | TypeScript, HTML, Shell, PLpgSQL, Dockerfile, CSS, JavaScript | [Deploy](https://railway.com/deploy/privapaid) |
 | [private-python-registry](./storage/private-python-registry---private-python-registry.md) | Storage |  | Shell, CSS, Dockerfile | [Deploy](https://railway.com/deploy/private-python-registry) |
 | [PrivateBin](./cms/PrivateBin---tJKuUQ.md) | CMS |  | - | [Deploy](https://railway.com/deploy/tJKuUQ) |
 | [Pro Ticket Discord Bot](./bots/Pro-Ticket-Discord-Bot---pro-ticket-discord-bot.md) | Bots |  | Dockerfile | [Deploy](https://railway.com/deploy/pro-ticket-discord-bot) |
