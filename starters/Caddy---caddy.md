@@ -10,7 +10,9 @@ The official template for Caddy: a popular, powerful web server that supports nu
 
 This starter template runs a vanilla build and serves a static page as a welcome message.
 
-Customize the build using Railway environment variables. You can also edit the Caddyfile directly from your own repo to have more control over the configuration.
+Customize the build using Railway environment variables. Set the `CADDY_PLUGINS` variable with a space-separated list of plugins for a custom Caddy build.
+
+You can also edit the Caddyfile directly from your own repo to have more control over the configuration.
 
 [Caddy configuration is famously simple.](https://caddyserver.com/docs/caddyfile)
 

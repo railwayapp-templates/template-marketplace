@@ -1,6 +1,6 @@
-# Deploy Vercel Workflows Chat on Railway
+# Deploy Nextjs with Background Jobs on Railway
 
-A Chat(Streaming) example using vercel workflows
+Nextjs with vercel workflows for Cron Jobs, Webhooks & Durable Functions.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vercel-workflow)
 
@@ -14,7 +14,7 @@ While Vercel natively provides a fully managed infrastructure for Workflows, dep
 
 | Service | Source | Type |
 |---------|--------|------|
-| vercel-workflow | [iqbalexperience/vercel-workflow-chat-example](https://github.com/iqbalexperience/vercel-workflow-chat-example) | Web service |
+| vercel-workflow | [iqbalexperience/nextjs-workflow-postgres-starter](https://github.com/iqbalexperience/nextjs-workflow-postgres-starter) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | workflow-logs | [iqbalexperience/vercel-workflow-chat-example](https://github.com/iqbalexperience/vercel-workflow-chat-example) | Web service |
 
@@ -22,7 +22,6 @@ While Vercel natively provides a fully managed infrastructure for Workflows, dep
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `OPENAI_API_KEY` | vercel-workflow | (secret) | Add openai apikey for chat example. |
 | `WORKFLOW_TARGET_WORLD` | vercel-workflow | @workflow/world-postgres | - |
 | `WORKFLOW_POSTGRES_MAX_POOL_SIZE` | vercel-workflow | 10 | - |
 | `WORKFLOW_POSTGRES_WORKER_CONCURRENCY` | vercel-workflow | 10 | Adjust it according to processor count |

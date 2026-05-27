@@ -14,7 +14,7 @@ VIC is a Node.js/Express application that proxies and aggregates sports betting 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Vegas Intelligence Console(VIC) | [oddsifylabs/vic](https://github.com/oddsifylabs/vic) | Database |
+| VIC v3 | [oddsifylabs/vic](https://github.com/oddsifylabs/vic) | Database |
 
 ## Environment variables
 
@@ -33,6 +33,6 @@ VIC is a Node.js/Express application that proxies and aggregates sports betting 
 
 - **Volume:** `/data`
 
-**Category:** AI/ML · **Languages:** HTML, JavaScript, CSS, Shell, Batchfile, PowerShell, Procfile
+**Category:** AI/ML · **Languages:** HTML, JavaScript, CSS, Shell, Batchfile, PowerShell, Dockerfile, Procfile
 
 [View on Railway →](https://railway.com/deploy/vegasintelligenceconsole)

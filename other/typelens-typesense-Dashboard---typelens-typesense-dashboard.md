@@ -14,7 +14,7 @@ This template deploys two Railway services: Typesense (the search engine) and ty
 
 | Service | Source | Type |
 |---------|--------|------|
-| typesense | [railwayapp-templates/typesense](https://github.com/railwayapp-templates/typesense) | Web service |
+| typesense | [copperline-ai/typesense-railway](https://github.com/copperline-ai/typesense-railway) | Web service |
 | typelens | `ghcr.io/copperline-ai/typelens:latest` | Web service |
 
 ## Environment variables
