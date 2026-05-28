@@ -1,6 +1,6 @@
-# Deploy WebSurfer [Updated May '26] on Railway
+# Deploy WebSurfer [Updated Jun '26] on Railway
 
-WebSurfer [May '26] (Open-Source LLM Web Fetching API) Self Host
+WebSurfer [Jun '26] (Open-Source LLM Web Fetching API) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/websurfer)
 

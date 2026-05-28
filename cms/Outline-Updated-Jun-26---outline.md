@@ -1,6 +1,6 @@
-# Deploy Outline [Updated May ’26] on Railway
+# Deploy Outline [Updated Jun ’26] on Railway
 
-Outline [May ’26] (Team Wiki, Notion & Confluence alternative) Self Host
+Outline [Jun ’26] (Team Wiki, Notion & Confluence alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/outline)
 

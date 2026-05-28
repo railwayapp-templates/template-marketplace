@@ -1,6 +1,6 @@
-# Deploy Traefik [Updated May ’26] on Railway
+# Deploy Traefik [Updated Jun ’26] on Railway
 
-Traefik [May ’26] (Managed Reverse Proxy & Load Balancer), Self Host
+Traefik [Jun ’26] (Managed Reverse Proxy & Load Balancer), Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/traefik)
 
