@@ -1,6 +1,6 @@
 # Deploy XWiki (Open-Source Enterprise Wiki & Collaboration Tool) on Railway
 
-XWiki [May ’26] (Manage Knowledge & Teams Effectively) Self Host
+XWiki [Jun ’26] (Manage Knowledge & Teams Effectively) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xwiki)
 

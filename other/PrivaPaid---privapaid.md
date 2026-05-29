@@ -22,7 +22,7 @@ This template deploys PrivaPaid alongside a managed Postgres database. The Next.
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
 | `NEXTAUTH_SECRET` | privapaid | (secret) | - |
-| `SATSRAIL_API_URL` | privapaid | https://satsrail.com | - |
+| `SATSRAIL_API_URL` | privapaid | https://satsrail.com/api/v1 | - |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
@@ -34,6 +34,6 @@ This template deploys PrivaPaid alongside a managed Postgres database. The Next.
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Other · **Languages:** TypeScript, HTML, Shell, PLpgSQL, Dockerfile, CSS, JavaScript
+**Category:** Other · **Languages:** TypeScript, Shell, HTML, PLpgSQL, Dockerfile, CSS, JavaScript
 
 [View on Railway →](https://railway.com/deploy/privapaid)

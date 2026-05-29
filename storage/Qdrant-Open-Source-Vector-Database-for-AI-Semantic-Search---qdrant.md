@@ -1,6 +1,6 @@
 # Deploy Qdrant (Open-Source Vector Database for AI & Semantic Search) on Railway
 
-Qdrant [May ’26] (Pinecone & Milvus alternative) Self Host
+Qdrant [Jun ’26] (Pinecone & Milvus alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qdrant)
 

@@ -1,6 +1,6 @@
 # Deploy Passbolt CE on Railway
 
-Deploy and Host Passbolt CE with Railway
+Deploy and Host Passbolt CE (Open Source Team Password Manager) on Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/passbolt-ce)
 

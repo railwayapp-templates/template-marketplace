@@ -1,6 +1,6 @@
 # Deploy PicFlow: On-the-fly Image Processing on Railway
 
-High-performance Bun image server with real-time Sharp transforms.
+High-performance, streaming image optimization built with Sharp+Bun.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/picflow-on-the-fly-image-processing)
 

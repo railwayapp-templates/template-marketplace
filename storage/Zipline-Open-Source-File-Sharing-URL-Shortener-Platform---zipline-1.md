@@ -1,6 +1,6 @@
 # Deploy Zipline (Open-Source File Sharing & URL Shortener Platform) on Railway
 
-Zipline [May ’26] (Simple File Hosting & Link Shortening Tool) Self Host
+Zipline [Jun ’26] (Simple File Hosting & Link Shortening Tool) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zipline-1)
 
@@ -15,7 +15,7 @@ Self-hosting Zipline means you maintain full control over your uploaded files, c
 | Service | Source | Type |
 |---------|--------|------|
 | zipline | `diced/zipline:latest` | Web service |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
@@ -26,14 +26,17 @@ Self-hosting Zipline means you maintain full control over your uploaded files, c
 | `DATASOURCE_TYPE` | zipline | local | Change to S3 if using S3 |
 | `DATASOURCE_LOCAL_DIRECTORY` | zipline | ./uploads | - |
 | `DATASOURCE_S3_SECRET_ACCESS_KEY` | zipline | (secret) | - |
-| `POSTGRES_DB` | Postgres | railway | - |
-| `POSTGRES_USER` | Postgres | (secret) | - |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | - |
+| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/uploads`
+- **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Storage

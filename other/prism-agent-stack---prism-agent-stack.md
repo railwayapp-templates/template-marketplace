@@ -32,7 +32,7 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 
 | Service | Source | Type |
 |---------|--------|------|
-| discord-adapter | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/source-adapter) | Web service |
+| comms-adapter | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/source-adapter) | Web service |
 | codex-runtime | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/codex-runtime) | Database |
 | task-runner | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/task-runner) | Worker |
 | prism-memory | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/prism-memory) | Web service |
@@ -42,41 +42,41 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `PORT` | discord-adapter | 8789 | Port the Discord adapter listens on. |
-| `NODE_ENV` | discord-adapter | production | Runtime environment for the Discord adapter. |
-| `SOURCE_KIND` | discord-adapter | discord | Source provider handled by this adapter. |
-| `SOURCE_SPACE` | discord-adapter | community | Prism Memory space this adapter writes into. Must match PRISM_API_SPACE. |
-| `PRISM_API_KEY` | discord-adapter | (secret) | Prism Memory API key reference. |
-| `PRISM_API_BASE` | discord-adapter | - | Private URL for Prism Memory ingest calls. |
-| `APP_API_BASE_URL` | discord-adapter | - | Private URL for the API service using |
-| `DISCORD_GUILD_ID` | discord-adapter | - | Discord guild ID to sync and serve. Required to enable Discord. |
-| `SOURCE_SYNC_MODE` | discord-adapter | manual | Sync mode for Discord ingestion. |
-| `DISCORD_BOT_TOKEN` | discord-adapter | (secret) | Discord bot token. Required to enable Discord sync/chat. |
-| `PRISM_INGEST_PATH` | discord-adapter | /ingest/messages | Prism Memory ingest endpoint path. |
-| `DISCORD_CHAT_ENABLED` | discord-adapter | true | Enables Discord mention/thread chat bridge. |
-| `SOURCE_ADAPTER_TOKEN` | discord-adapter | (secret) | Token used to authorize calls to the adapter. |
-| `VOICE_DAVE_ENCRYPTION` | discord-adapter | true | Enables Discord DAVE voice encryption support when available. |
-| `CODEX_RUNTIME_BASE_URL` | discord-adapter | - | Private URL |
-| `DISCORD_APPLICATION_ID` | discord-adapter | - | Optional Discord application ID. Recommended for slash command registration. |
-| `INTERNAL_SERVICE_TOKEN` | discord-adapter | (secret) | Internal API service token reference. |
-| `SOURCE_ADAPTER_DATA_ROOT` | discord-adapter | /data | Mounted data directory for checkpoints and recordings. |
-| `DISCORD_REGISTER_COMMANDS` | discord-adapter | true | Automatically registers Discord slash commands on startup. |
-| `DISCORD_SYNC_WINDOW_HOURS` | discord-adapter | 24 | Lookback window for Discord sync. |
-| `VOICE_TRANSCRIPTION_MODEL` | discord-adapter | nvidia/parakeet-tdt-0.6b-v3 | Model sent to the transcription endpoint. |
-| `DISCORD_EMBED_TEXT_ENABLED` | discord-adapter | true | Enables preservation of Discord embed text. |
-| `DISCORD_IGNORE_BOT_MESSAGES` | discord-adapter | false | Whether bot messages are skipped during sync. |
-| `VOICE_TRANSCRIPTION_API_KEY` | discord-adapter | (secret) | Optional API key for the configured voice transcription endpoint. |
-| `VOICE_TRANSCRIPTION_BASE_URL` | discord-adapter | https://api.venice.ai/api/v1/audio/transcriptions | Optional Whisper-compatible |
-| `VOICE_TRANSCRIPTION_LANGUAGE` | discord-adapter | en | Optional transcription language hint. |
-| `PRISM_ARTIFACT_PUBLIC_BASE_URL` | discord-adapter | - | Public url for prism memory artifacts |
-| `VOICE_CHAT_IGNORE_BOT_MESSAGES` | discord-adapter | true | Skips bot messages when stitching voice channel chat into transcripts. |
-| `VOICE_TRANSCRIPTION_TIMESTAMPS` | discord-adapter | true | Requests timestamp segments from the transcription endpoint. |
-| `DISCORD_ATTACHMENT_TEXT_ENABLED` | discord-adapter | true | Enables extraction of text-like Discord attachments. |
-| `DISCORD_INCLUDE_ARCHIVED_THREADS` | discord-adapter | false | Whether archived threads are included during sync. |
-| `DISCORD_MAX_MESSAGES_PER_CHANNEL` | discord-adapter | 200 | Maximum messages fetched per channel per sync. |
-| `SOURCE_CHECKPOINT_OVERLAP_MINUTES` | discord-adapter | 5 | Minutes of overlap when resuming Discord sync checkpoints. |
-| `VOICE_TRANSCRIPTION_RESPONSE_FORMAT` | discord-adapter | json | Response format sent to the transcription endpoint. |
-| `CODEX_RUNTIME_REQUEST_TIMEOUT_SECONDS` | discord-adapter | 660 | Timeout for adapter calls to Codex Runtime. |
+| `PORT` | comms-adapter | 8789 | Port the Comms adapter listens on. |
+| `NODE_ENV` | comms-adapter | production | Runtime environment for the Comms adapter. |
+| `SOURCE_KIND` | comms-adapter | discord | Source provider handled by this adapter. |
+| `SOURCE_SPACE` | comms-adapter | community | Prism Memory space this adapter writes into. Must match PRISM_API_SPACE. |
+| `PRISM_API_KEY` | comms-adapter | (secret) | Prism Memory API key reference. |
+| `PRISM_API_BASE` | comms-adapter | - | Private URL for Prism Memory ingest calls. |
+| `APP_API_BASE_URL` | comms-adapter | - | Private URL for the API service using |
+| `DISCORD_GUILD_ID` | comms-adapter | - | Discord guild ID to sync and serve. Required to enable Discord. |
+| `SOURCE_SYNC_MODE` | comms-adapter | manual | Sync mode for Discord ingestion. |
+| `DISCORD_BOT_TOKEN` | comms-adapter | (secret) | Discord bot token. Required to enable Discord sync/chat. |
+| `PRISM_INGEST_PATH` | comms-adapter | /ingest/messages | Prism Memory ingest endpoint path. |
+| `DISCORD_CHAT_ENABLED` | comms-adapter | true | Enables Discord mention/thread chat bridge. |
+| `SOURCE_ADAPTER_TOKEN` | comms-adapter | (secret) | Token used to authorize calls to the adapter. |
+| `VOICE_DAVE_ENCRYPTION` | comms-adapter | true | Enables Discord DAVE voice encryption support when available. |
+| `CODEX_RUNTIME_BASE_URL` | comms-adapter | - | Private URL |
+| `DISCORD_APPLICATION_ID` | comms-adapter | - | Optional Discord application ID. Recommended for slash command registration. |
+| `INTERNAL_SERVICE_TOKEN` | comms-adapter | (secret) | Internal API service token reference. |
+| `SOURCE_ADAPTER_DATA_ROOT` | comms-adapter | /data | Mounted data directory for checkpoints and recordings. |
+| `DISCORD_REGISTER_COMMANDS` | comms-adapter | true | Automatically registers Discord slash commands on startup. |
+| `DISCORD_SYNC_WINDOW_HOURS` | comms-adapter | 24 | Lookback window for Discord sync. |
+| `VOICE_TRANSCRIPTION_MODEL` | comms-adapter | nvidia/parakeet-tdt-0.6b-v3 | Model sent to the transcription endpoint. |
+| `DISCORD_EMBED_TEXT_ENABLED` | comms-adapter | true | Enables preservation of Discord embed text. |
+| `DISCORD_IGNORE_BOT_MESSAGES` | comms-adapter | false | Whether bot messages are skipped during sync. |
+| `VOICE_TRANSCRIPTION_API_KEY` | comms-adapter | (secret) | Optional API key for the configured voice transcription endpoint. |
+| `VOICE_TRANSCRIPTION_BASE_URL` | comms-adapter | https://api.venice.ai/api/v1/audio/transcriptions | Optional Whisper-compatible |
+| `VOICE_TRANSCRIPTION_LANGUAGE` | comms-adapter | en | Optional transcription language hint. |
+| `PRISM_ARTIFACT_PUBLIC_BASE_URL` | comms-adapter | - | Public url for prism memory artifacts |
+| `VOICE_CHAT_IGNORE_BOT_MESSAGES` | comms-adapter | true | Skips bot messages when stitching voice channel chat into transcripts. |
+| `VOICE_TRANSCRIPTION_TIMESTAMPS` | comms-adapter | true | Requests timestamp segments from the transcription endpoint. |
+| `DISCORD_ATTACHMENT_TEXT_ENABLED` | comms-adapter | true | Enables extraction of text-like Discord attachments. |
+| `DISCORD_INCLUDE_ARCHIVED_THREADS` | comms-adapter | false | Whether archived threads are included during sync. |
+| `DISCORD_MAX_MESSAGES_PER_CHANNEL` | comms-adapter | 200 | Maximum messages fetched per channel per sync. |
+| `SOURCE_CHECKPOINT_OVERLAP_MINUTES` | comms-adapter | 5 | Minutes of overlap when resuming Discord sync checkpoints. |
+| `VOICE_TRANSCRIPTION_RESPONSE_FORMAT` | comms-adapter | json | Response format sent to the transcription endpoint. |
+| `CODEX_RUNTIME_REQUEST_TIMEOUT_SECONDS` | comms-adapter | 660 | Timeout for adapter calls to Codex Runtime. |
 | `PORT` | codex-runtime | 3030 | Port the Codex Runtime service listens on. |
 | `NODE_ENV` | codex-runtime | production | Runtime environment for Codex Runtime. |
 | `CODEX_HOME` | codex-runtime | /data/codex | Mounted Codex home directory for auth and thread state. |
@@ -111,7 +111,6 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 | `PRISM_API_KEY` | site | (secret) | Full Prism Memory key used |
 | `ADMIN_PASSWORD` | site | (secret) | Temporary admin password; change after deploy |
 | `SESSION_SECRET` | site | (secret) | Session signing secret for admin auth |
-| `COMMUNITY_PROVIDER` | site | discord | Community identity provider used by the app |
 | `TASK_RUNNER_BASE_URL` | site | - | Private task-runner URL for admin Tasks tab and manual runs |
 | `PRISM_AGENT_DATA_ROOT` | site | /data | App SQLite/data root mounted on site |
 | `PRISM_MEMORY_BASE_URL` | site | - | Prism Memory base URL |
