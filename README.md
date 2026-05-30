@@ -211,6 +211,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [axonhub](./ai-ml/axonhub---axonhub.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/axonhub) |
 | [Axum](./starters/Axum---j-hp3L.md) | Starters |  | Rust | [Deploy](https://railway.com/deploy/j-hp3L) |
 | [b1-template](./other/b1-template---b1-template.md) | Other |  | TypeScript, HTML, JavaScript, CSS, Shell | [Deploy](https://railway.com/deploy/b1-template) |
+| [BabyChain](./other/BabyChain---babychain.md) | Other |  | TypeScript, PLpgSQL, JavaScript, CSS | [Deploy](https://railway.com/deploy/babychain) |
 | [Background Agent](./ai-ml/Background-Agent---background-agent.md) | AI/ML |  | TypeScript, CSS, Dockerfile, Shell, JavaScript, HTML | [Deploy](https://railway.com/deploy/background-agent) |
 | [Background Remover API](./other/Background-Remover-API---background-remover-api.md) | Other |  | Python, Dockerfile | [Deploy](https://railway.com/deploy/background-remover-api) |
 | [Backstage](./starters/Backstage---backstage.md) | Starters |  | - | [Deploy](https://railway.com/deploy/backstage) |
@@ -952,6 +953,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Geminabox](./storage/Geminabox---geminabox.md) | Storage |  | - | [Deploy](https://railway.com/deploy/geminabox) |
 | [Gemini voice PCM to OGG](./other/Gemini-voice-PCM-to-OGG---gemini-voice-pcm-to-ogg.md) | Other |  | JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/gemini-voice-pcm-to-ogg) |
 | [gemini-telegram-bot](./other/gemini-telegram-bot---HIsbMv.md) | Other |  | Python, Dockerfile | [Deploy](https://railway.com/deploy/HIsbMv) |
+| [Generative Media Starter](./ai-ml/Generative-Media-Starter---generative-media-starter.md) | AI/ML |  | TypeScript, JavaScript, PLpgSQL, CSS | [Deploy](https://railway.com/deploy/generative-media-starter) |
 | [genius-invokation](./other/genius-invokation---genius-invokation.md) | Other |  | TypeScript, C++, Python, CSS, C#, C, JavaScript, HTML, Rust, CMake, Dockerfile | [Deploy](https://railway.com/deploy/genius-invokation) |
 | [GenratrAPI](./other/GenratrAPI---s_q0r3.md) | Other |  | JavaScript, HTML | [Deploy](https://railway.com/deploy/s_q0r3) |
 | [genuine-love](./other/genuine-love---MjUXiK.md) | Other |  | JavaScript | [Deploy](https://railway.com/deploy/MjUXiK) |
@@ -1576,6 +1578,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Mercurjs](./other/Mercurjs---mercurjs.md) | Other |  | TypeScript, JavaScript, CSS, HTML, Dockerfile | [Deploy](https://railway.com/deploy/mercurjs) |
 | [Mercury Agent Railway - 1 Click deploy](./ai-ml/Mercury-Agent-Railway---1-Click-deploy---mercury-agent-railway.md) | AI/ML |  | Shell, JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/mercury-agent-railway) |
 | [mermaid-live-editor](./other/mermaid-live-editor---mermaid-live-editor.md) | Other |  | - | [Deploy](https://railway.com/deploy/mermaid-live-editor) |
+| [Metabase](./analytics/Metabase---metabase-2.md) | Analytics |  | Dockerfile | [Deploy](https://railway.com/deploy/metabase-2) |
 | [Metabase](./analytics/Metabase---metabase.md) | Analytics |  | - | [Deploy](https://railway.com/deploy/metabase) |
 | [Metabase - Complete Setup - Zero Config](./analytics/Metabase---Complete-Setup-Zero-Config---metabase-bi-dashboard.md) | Analytics |  | - | [Deploy](https://railway.com/deploy/metabase-bi-dashboard) |
 | [Metabase - Open source AI Analytics](./other/Metabase---Open-source-AI-Analytics---metabase-open-source-ai-analytics.md) | Other |  | - | [Deploy](https://railway.com/deploy/metabase-open-source-ai-analytics) |
@@ -2301,6 +2304,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Postiz [Updated Jun ’26] (Open-Source Social Media Scheduling & Automation Platform)](./cms/Postiz-Updated-Jun-26-Open-Source-Social-Media-Scheduling-Automation-Platform---postiz.md) | CMS |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/postiz) |
 | [Postiz - Open-Source Social Media Scheduler for 30+ Platforms](./automation/Postiz-Open-Source-Social-Media-Scheduler-for-30-Platforms---deploy-postiz.md) | Automation |  | - | [Deploy](https://railway.com/deploy/deploy-postiz) |
 | [Postiz App](./other/Postiz-App---postiz-app.md) | Other |  | - | [Deploy](https://railway.com/deploy/postiz-app) |
+| [Postiz App - Minimal Instance](./automation/Postiz-App---Minimal-Instance---postiz-app-minimal-instance.md) | Automation |  | - | [Deploy](https://railway.com/deploy/postiz-app-minimal-instance) |
 | [postiz-app:v2.11.3](./automation/postiz-appv2113---Rd76MM.md) | Automation |  | - | [Deploy](https://railway.com/deploy/Rd76MM) |
 | [PowerSync Starter (Postgres)](./other/PowerSync-Starter-Postgres---powersync-starter-postgres.md) | Other | Yes | JavaScript, Dockerfile, Shell | [Deploy](https://railway.com/deploy/powersync-starter-postgres) |
 | [pp-bot](./bots/pp-bot---pp-bot.md) | Bots |  | - | [Deploy](https://railway.com/deploy/pp-bot) |
@@ -2621,6 +2625,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [SFTPGo](./storage/SFTPGo---sftpgo.md) | Storage |  | Dockerfile | [Deploy](https://railway.com/deploy/sftpgo) |
 | [shadowbroker](./observability/shadowbroker---shadowbroker.md) | Observability |  | - | [Deploy](https://railway.com/deploy/shadowbroker) |
 | [Shelf](./other/Shelf---iSO3Cc.md) | Other |  | - | [Deploy](https://railway.com/deploy/iSO3Cc) |
+| [Sherin](./ai-ml/Sherin---sherin.md) | AI/ML |  | TypeScript, JavaScript, PLpgSQL, CSS | [Deploy](https://railway.com/deploy/sherin) |
 | [Shields.io](./other/Shieldsio---ghZo4m.md) | Other |  | - | [Deploy](https://railway.com/deploy/ghZo4m) |
 | [Shiny](./starters/Shiny---KgW-n8.md) | Starters |  | - | [Deploy](https://railway.com/deploy/KgW-n8) |
 | [Shiori](./other/Shiori---NJ4mpN.md) | Other |  | - | [Deploy](https://railway.com/deploy/NJ4mpN) |
