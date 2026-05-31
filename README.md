@@ -526,6 +526,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Cron Webhook Trigger](./automation/Cron-Webhook-Trigger---cron-webhook-trigger.md) | Automation |  | - | [Deploy](https://railway.com/deploy/cron-webhook-trigger) |
 | [CronCoco Scheduled Webhook Starter](./automation/CronCoco-Scheduled-Webhook-Starter---croncoco-scheduled-webhook-starter.md) | Automation |  | JavaScript | [Deploy](https://railway.com/deploy/croncoco-scheduled-webhook-starter) |
 | [crucix](./observability/crucix---crucix.md) | Observability |  | - | [Deploy](https://railway.com/deploy/crucix) |
+| [CRUD API Builder](./starters/CRUD-API-Builder---content-playfulness.md) | Starters |  | Python, Procfile | [Deploy](https://railway.com/deploy/content-playfulness) |
 | [crypt.fyi](./other/cryptfyi---Pmkrsc.md) | Other |  | TypeScript, JavaScript, HTML, CSS, Dockerfile | [Deploy](https://railway.com/deploy/Pmkrsc) |
 | [Cryptgeon](./other/Cryptgeon---cryptgeon.md) | Other |  | - | [Deploy](https://railway.com/deploy/cryptgeon) |
 | [crypto exchange](./other/crypto-exchange---exchange.md) | Other |  | Rust, TypeScript, Python, CSS, Dockerfile, Shell, Just, JavaScript | [Deploy](https://railway.com/deploy/exchange) |
@@ -708,6 +709,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [DVWA (Damn Vulnerable Web App)](./other/DVWA-Damn-Vulnerable-Web-App---GFqNIL.md) | Other |  | - | [Deploy](https://railway.com/deploy/GFqNIL) |
 | [dyan-up](./blogs/dyan-up---FpQ2va.md) | Blogs |  | Java | [Deploy](https://railway.com/deploy/FpQ2va) |
 | [dynamic-job-runner](./queues/dynamic-job-runner---dynamic-job-runner.md) | Queues |  | C#, HTML, Dockerfile, CSS | [Deploy](https://railway.com/deploy/dynamic-job-runner) |
+| [Eary Form](./other/Eary-Form---eary-form.md) | Other |  | TypeScript, Python, HTML, CSS, JavaScript | [Deploy](https://railway.com/deploy/eary-form) |
 | [easy-cron](./queues/easy-cron---easy-cron.md) | Queues |  | Go, Dockerfile | [Deploy](https://railway.com/deploy/easy-cron) |
 | [Easy!Appointments](./other/EasyAppointments---easyappointments.md) | Other |  | - | [Deploy](https://railway.com/deploy/easyappointments) |
 | [Easy!Appointments - Open Source Appointment Scheduler on Railway](./other/EasyAppointments-Open-Source-Appointment-Scheduler-on-Railway---easy-appointments.md) | Other |  | - | [Deploy](https://railway.com/deploy/easy-appointments) |
@@ -763,10 +765,13 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Evo AI](./ai-ml/Evo-AI---mpbtSK.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/mpbtSK) |
 | [Evolution API](./automation/Evolution-API---evolution-api-minimal.md) | Automation |  | - | [Deploy](https://railway.com/deploy/evolution-api-minimal) |
 | [Evolution API](./bots/Evolution-API---evolution-api-4.md) | Bots |  | - | [Deploy](https://railway.com/deploy/evolution-api-4) |
+| [Evolution API — Lite Version](./automation/Evolution-API-Lite-Version---evolution-api-lite-version.md) | Automation |  | - | [Deploy](https://railway.com/deploy/evolution-api-lite-version) |
 | [Evolution API — WhatsApp REST API](./bots/Evolution-API-WhatsApp-REST-API---evolution-api-whatsapp.md) | Bots |  | - | [Deploy](https://railway.com/deploy/evolution-api-whatsapp) |
 | [Evolution API - Open Source Messaging Automation Platform](./automation/Evolution-API-Open-Source-Messaging-Automation-Platform---self-host-evolution-api.md) | Automation |  | - | [Deploy](https://railway.com/deploy/self-host-evolution-api) |
 | [Evolution API Lite](./bots/Evolution-API-Lite---evolution-api-lite.md) | Bots |  | - | [Deploy](https://railway.com/deploy/evolution-api-lite) |
 | [Evolution APi Whatsapp using n8n](./other/Evolution-APi-Whatsapp-using-n8n---natural-passion-1.md) | Other |  | - | [Deploy](https://railway.com/deploy/natural-passion-1) |
+| [Evolution API with n8n](./automation/Evolution-API-with-n8n---evolution-api-with-n8n.md) | Automation |  | - | [Deploy](https://railway.com/deploy/evolution-api-with-n8n) |
+| [Evolution API with postgres](./automation/Evolution-API-with-postgres---evolution-api-with-postgres.md) | Automation |  | - | [Deploy](https://railway.com/deploy/evolution-api-with-postgres) |
 | [evolution-api](./other/evolution-api---evolution-api-5.md) | Other |  | TypeScript, Shell, JavaScript, Dockerfile, PLpgSQL | [Deploy](https://railway.com/deploy/evolution-api-5) |
 | [evolution-go](./automation/evolution-go---evolution-go.md) | Automation |  | Go, Makefile, Dockerfile | [Deploy](https://railway.com/deploy/evolution-go) |
 | [eweser-db](./storage/eweser-db---eweser-db.md) | Storage |  | TypeScript, JavaScript, Astro, CSS, Dockerfile, Shell, HTML | [Deploy](https://railway.com/deploy/eweser-db) |
@@ -1140,6 +1145,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Hono + DuckDB API](./starters/Hono-DuckDB-API---i3i9G7.md) | Starters |  | TypeScript, Dockerfile | [Deploy](https://railway.com/deploy/i3i9G7) |
 | [Hono Drizzle Postgres Starter](./starters/Hono-Drizzle-Postgres-Starter---hIiRi5.md) | Starters |  | TypeScript, Dockerfile | [Deploy](https://railway.com/deploy/hIiRi5) |
 | [hono starter template](./starters/hono-starter-template---JK5kJM.md) | Starters |  | TypeScript, Dockerfile | [Deploy](https://railway.com/deploy/JK5kJM) |
+| [hono-openapi-rpc](./starters/hono-openapi-rpc---hono-openapi-rpc.md) | Starters |  | TypeScript, CSS, HTML | [Deploy](https://railway.com/deploy/hono-openapi-rpc) |
 | [HookHQ Relay](./other/HookHQ-Relay---hookhq-relay.md) | Other |  | - | [Deploy](https://railway.com/deploy/hookhq-relay) |
 | [Hoppscotch](./other/Hoppscotch---2RQWQj.md) | Other |  | - | [Deploy](https://railway.com/deploy/2RQWQj) |
 | [Horilla](./cms/Horilla---horilla.md) | CMS |  | Dockerfile | [Deploy](https://railway.com/deploy/horilla) |
@@ -1441,6 +1447,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Livebook](./analytics/Livebook---4uLt1s.md) | Analytics |  | - | [Deploy](https://railway.com/deploy/4uLt1s) |
 | [LiveKit - Voice Agent](./ai-ml/LiveKit---Voice-Agent---livekit.md) | AI/ML |  | TypeScript, Python, Shell, Dockerfile, CSS, JavaScript, HTML | [Deploy](https://railway.com/deploy/livekit) |
 | [LiveKit Voice Agent — Self-Hosted WebRTC AI on Railway](./ai-ml/LiveKit-Voice-Agent-Self-Hosted-WebRTC-AI-on-Railway---livekit-voice-agent.md) | AI/ML |  | TypeScript, Python, Shell, Dockerfile, CSS, JavaScript, HTML | [Deploy](https://railway.com/deploy/livekit-voice-agent) |
+| [lively-spontaneity](./blogs/lively-spontaneity---lively-spontaneity.md) | Blogs |  | Dockerfile | [Deploy](https://railway.com/deploy/lively-spontaneity) |
 | [Liwan](./analytics/Liwan---liwan.md) | Analytics |  | - | [Deploy](https://railway.com/deploy/liwan) |
 | [Llama in Cloud](./ai-ml/Llama-in-Cloud---llama-in-cloud.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/llama-in-cloud) |
 | [Llama Index](./ai-ml/Llama-Index---llama-index.md) | AI/ML |  | Python, Dockerfile, Shell | [Deploy](https://railway.com/deploy/llama-index) |
@@ -1840,6 +1847,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [nextjs-saas-starter](./starters/nextjs-saas-starter---BAwWpG.md) | Starters |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/BAwWpG) |
 | [nextjs-supabase-saas-starter-lite](./starters/nextjs-supabase-saas-starter-lite---nextjs-supabase-saas-starter-lite.md) | Starters |  | TypeScript, HTML, JavaScript, CSS, PLpgSQL, Handlebars | [Deploy](https://railway.com/deploy/nextjs-supabase-saas-starter-lite) |
 | [NextJS16 with MongoDB and better-auth](./other/NextJS16-with-MongoDB-and-better-auth---nextjs16-with-mongodb-and-better-auth.md) | Other |  | TypeScript, CSS, Dockerfile, JavaScript | [Deploy](https://railway.com/deploy/nextjs16-with-mongodb-and-better-auth) |
+| [Nginx Proxy Manager](./other/Nginx-Proxy-Manager---nginx-proxy-manager.md) | Other |  | - | [Deploy](https://railway.com/deploy/nginx-proxy-manager) |
 | [Nginx Proxy Manager](./other/Nginx-Proxy-Manager---vXq1Wp.md) | Other |  | - | [Deploy](https://railway.com/deploy/vXq1Wp) |
 | [NGINX Static Site](./starters/NGINX-Static-Site---o3MbZe.md) | Starters |  | HTML, CSS, Dockerfile, JavaScript | [Deploy](https://railway.com/deploy/o3MbZe) |
 | [Nginx UI](./starters/Nginx-UI---p78-uU.md) | Starters |  | - | [Deploy](https://railway.com/deploy/p78-uU) |
@@ -2277,6 +2285,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [PostgreSQL 18](./other/PostgreSQL-18---postgresql-18-2.md) | Other |  | - | [Deploy](https://railway.com/deploy/postgresql-18-2) |
 | [PostgreSQL 18](./storage/PostgreSQL-18---postgresql-18-1.md) | Storage |  | Shell | [Deploy](https://railway.com/deploy/postgresql-18-1) |
 | [PostgreSQL 18](./storage/PostgreSQL-18---postgresql-18.md) | Storage |  | Shell | [Deploy](https://railway.com/deploy/postgresql-18) |
+| [PostgreSQL 18 + TimescaleDB + PostGIS](./storage/PostgreSQL-18-TimescaleDB-PostGIS---postgresql-18-time-1.md) | Storage |  | - | [Deploy](https://railway.com/deploy/postgresql-18-time-1) |
 | [PostgreSQL 18 with TimescaleDB, PostGIS, and SSL](./storage/PostgreSQL-18-with-TimescaleDB-PostGIS-and-SSL---postgresql-18-with-timescaledb-postgis-a.md) | Storage |  | - | [Deploy](https://railway.com/deploy/postgresql-18-with-timescaledb-postgis-a) |
 | [PostgreSQL DuckDB](./storage/PostgreSQL-DuckDB---7MJ9UM.md) | Storage |  | - | [Deploy](https://railway.com/deploy/7MJ9UM) |
 | [PostgreSQL Extensions](./storage/PostgreSQL-Extensions---postgresql-extensions.md) | Storage |  | - | [Deploy](https://railway.com/deploy/postgresql-extensions) |

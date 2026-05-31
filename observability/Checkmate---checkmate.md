@@ -1,6 +1,6 @@
 # Deploy Checkmate on Railway
 
-An open-source uptime & infrastructure monitoring tool. Alternative to Kuma
+Opensource uptime & infrastructure monitoring tool. Uptime Kuma Alternative
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/checkmate)
 
