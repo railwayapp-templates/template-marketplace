@@ -33,7 +33,7 @@ Hosting n8n – Minimal Instance involves deploying a single container that runs
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/data`
+- **Volume:** `/home/node/.n8n`
 
 **Category:** Automation
 

@@ -38,6 +38,7 @@ Hosting n8n on Railway is simple. You can quickly set up and deploy an instance 
 - **Volume:** `/var/lib/postgresql/data`
 - **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/home/node/.n8n`
 
 **Category:** Automation
 

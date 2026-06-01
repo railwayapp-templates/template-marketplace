@@ -1,4 +1,4 @@
-# Deploy Metabase (w/ postgres) on Railway
+# Deploy Metabase with postgres on Railway
 
 Quick analytics and insights to help anyone explore and understand data ✅
 

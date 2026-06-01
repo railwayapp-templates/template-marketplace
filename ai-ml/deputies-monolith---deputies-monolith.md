@@ -21,8 +21,8 @@ To run real agent jobs, configure model credentials, set RUNNER=flue, and choose
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| web | `ghcr.io/sidpalas/deputies-web:0.2.0` | Web service |
-| control-plane | `ghcr.io/sidpalas/deputies-control-plane:0.2.0` | Worker |
+| web | `ghcr.io/sidpalas/deputies-web:0.5.0` | Web service |
+| control-plane | `ghcr.io/sidpalas/deputies-control-plane:0.5.0` | Worker |
 
 ## Environment variables
 
@@ -38,9 +38,9 @@ To run real agent jobs, configure model credentials, set RUNNER=flue, and choose
 | `APP_DATA_STORE` | control-plane | postgres |
 | `DAYTONA_API_KEY` | control-plane | (secret) |
 | `HIDE_SETUP_PAGE` | control-plane | false |
-| `FLUE_STATE_STORE` | control-plane | postgres |
 | `SANDBOX_PROVIDER` | control-plane | fake |
 | `AUTH_COOKIE_SECURE` | control-plane | true |
+| `RUNNER_STATE_STORE` | control-plane | postgres |
 | `AUTH_SESSION_SECRET` | control-plane | (secret) |
 | `AUTH_STATIC_PASSWORD` | control-plane | (secret) |
 | `AUTH_STATIC_USERNAME` | control-plane | (secret) |
@@ -48,10 +48,10 @@ To run real agent jobs, configure model credentials, set RUNNER=flue, and choose
 | `GITHUB_WEBHOOK_SECRET` | control-plane | (secret) |
 | `ARTIFACT_STORAGE_PROVIDER` | control-plane | s3 |
 | `GITHUB_OAUTH_CLIENT_SECRET` | control-plane | (secret) |
+| `UNSAFE_AUTH_GITHUB_ALLOW_ALL` | control-plane | false |
 | `PREVIEW_TRUST_FORWARDED_HOSTS` | control-plane | false |
 | `SERVICE_TRUST_FORWARDED_HOSTS` | control-plane | false |
 | `ARTIFACT_STORAGE_S3_FORCE_PATH_STYLE` | control-plane | true |
-| `UNSAFE_AUTH_GITHUB_ALLOW_ALL_VIEWERS` | control-plane | false |
 | `ARTIFACT_STORAGE_S3_SECRET_ACCESS_KEY` | control-plane | (secret) |
 | `UNSAFE_GITHUB_WEBHOOK_ALLOW_ALL_USERS_AND_ORGS` | control-plane | false |
 

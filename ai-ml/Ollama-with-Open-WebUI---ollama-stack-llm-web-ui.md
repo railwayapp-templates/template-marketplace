@@ -1,4 +1,4 @@
-# Deploy Ollama Stack (LLM + Web UI) on Railway
+# Deploy Ollama with Open WebUI on Railway
 
 1-click deploy Ollama LLM with Web UI, fast setup, ready to use 🤖
 

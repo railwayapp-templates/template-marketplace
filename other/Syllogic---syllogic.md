@@ -15,12 +15,12 @@ Hosting syllogic on Railway provisions multiple services: `app` (frontend), `bac
 | Service | Source | Type |
 |---------|--------|------|
 | redis | `redis:7-alpine` | Database |
-| postgres | `postgres:16-alpine` | Database |
-| backend | `ghcr.io/syllogic-ai/personal-finance-backend:sha-495e6e2` | Worker |
-| worker | `ghcr.io/syllogic-ai/personal-finance-backend:sha-495e6e2` | Worker |
-| mcp | `ghcr.io/syllogic-ai/personal-finance-backend:sha-495e6e2` | Worker |
-| beat | `ghcr.io/syllogic-ai/personal-finance-backend:sha-495e6e2` | Worker |
-| app | `ghcr.io/syllogic-ai/personal-finance-frontend:sha-495e6e2` | Web service |
+| postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
+| backend | `ghcr.io/syllogic-ai/syllogic-backend:v1.0.1` | Worker |
+| worker | `ghcr.io/syllogic-ai/syllogic-backend:v1.0.1` | Worker |
+| mcp | `ghcr.io/syllogic-ai/syllogic-backend:v1.0.1` | Worker |
+| beat | `ghcr.io/syllogic-ai/syllogic-backend:v1.0.1` | Worker |
+| app | `ghcr.io/syllogic-ai/syllogic-frontend:v1.0.1` | Web service |
 
 ## Environment variables
 
@@ -68,7 +68,7 @@ Hosting syllogic on Railway provisions multiple services: `app` (frontend), `bac
 | `MCP_UPSTREAM_URL` | app | - | MCP Server upstream URL |
 | `STORAGE_PROVIDER` | app | local | storage provider |
 | `BETTER_AUTH_SECRET` | app | (secret) | auth secret |
-| `LOCAL_STORAGE_PATH` | app | uploads | local storage path |
+| `LOCAL_STORAGE_PATH` | app | /data/uploads | local storage path |
 | `INTERNAL_AUTH_SECRET` | app | (secret) | Internal auth secret |
 | `NEXT_PUBLIC_BETTER_AUTH_URL` | app | - | next public ur; |
 | `MCP_PROXY_RATE_LIMIT_WINDOW_MS` | app | 60000 | Rate limit window for MCP requests |
@@ -83,9 +83,9 @@ Hosting syllogic on Railway provisions multiple services: `app` (frontend), `bac
 - **Start command:** `celery -A celery_app worker --loglevel=info --concurrency=4`
 - **Start command:** `uvicorn mcp_server:app --host 0.0.0.0 --port 8001`
 - **Start command:** `celery -A celery_app beat --loglevel=info`
-- **Start command:** `/bin/sh -lc "mkdir -p /app/public/uploads && node scripts/migrate.js && exec node_modules/.bin/next start -p 3000 -H 0.0.0.0"`
-- **Volume:** `/app/public/uploads`
+- **Start command:** `/bin/sh -lc "mkdir -p /data/uploads/profile /data/uploads/logos /data/uploads/imports /data/uploads/people && chmod -R u+rwX,g+rwX /data/uploads && node scripts/migrate.js && exec node_modules/.bin/next start -p ${PORT:-3000} -H 0.0.0.0"`
+- **Volume:** `/data/uploads`
 
-**Category:** AI/ML
+**Category:** Other
 
 [View on Railway →](https://railway.com/deploy/syllogic)

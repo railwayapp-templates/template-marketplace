@@ -6,9 +6,9 @@ Deploy a fully managed Neo4j instance on Railway with ease.
 
 ## About
 
-Neo4j GraphDB is a native graph database that stores data in nodes and relationships, making it perfect for complex queries and relationship-heavy data. It's widely used for social networks, recommendation systems, fraud detection, and knowledge graphs.
+Neo4j GraphDB is a native graph database that stores data as nodes and relationships rather than tables. It excels at traversing deeply connected data, making it ideal for recommendation engines, fraud detection, knowledge graphs, and any use case where relationships between entities matter as much as the data itself.
 
-Hosting Neo4j GraphDB involves setting up a graph database server with proper memory configuration, authentication, and network access. This template provides a pre-configured Neo4j instance with bulk data import capabilities, configurable memory settings, and automatic TCP address generation for easy connection from your applications.
+Hosting Neo4j GraphDB involves running a persistent graph database server with proper authentication, memory tuning, and network access. This template ships a pre-configured Neo4j 2026.04 (Community Edition) instance with bulk CSV data import at build time, adjustable heap and page cache memory, and automatic data seeding on first boot — so a Railway volume won't wipe your imported dataset on redeploy.
 
 ## What gets deployed
 

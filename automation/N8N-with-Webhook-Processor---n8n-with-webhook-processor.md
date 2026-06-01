@@ -105,6 +105,7 @@ Railway simplifies all of this by providing managed networking, environment conf
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/home/node/.n8n`
 
 **Category:** Automation
 

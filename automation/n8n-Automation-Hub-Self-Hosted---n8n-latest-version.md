@@ -1,6 +1,6 @@
 # Deploy n8n Automation Hub – Self-Hosted on Railway
 
-[May'26]  Self-hosted n8n: 400+ integrations, Postgres DB & AI workflows
+[Jun'26]  Self-hosted n8n: 400+ integrations, Postgres DB & AI workflows
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-latest-version)
 
