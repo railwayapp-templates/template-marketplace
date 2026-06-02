@@ -42,7 +42,7 @@ This template also includes persistent storage through a mounted volume at `/dat
 - **Volume:** `/var/lib/postgresql/data`
 - **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/home/node/.n8n`
+- **Volume:** `/data`
 
 **Category:** Automation
 

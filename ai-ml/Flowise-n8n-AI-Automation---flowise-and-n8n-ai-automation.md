@@ -61,7 +61,7 @@ automations instead of maintaining servers.
 - **Volume:** `/var/lib/postgresql/data`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/opt/flowise/.flowise`
-- **Volume:** `/home/node/.n8n`
+- **Volume:** `/data`
 
 **Category:** AI/ML
 

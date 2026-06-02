@@ -65,7 +65,7 @@ Hosting the **n8n Pro Stack** involves deploying and linking four core services:
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `n8n start`
 - **Healthcheck:** `/healthz`
-- **Volume:** `/home/node/.n8n`
+- **Volume:** `/data`
 - **Start command:** `n8n worker`
 - **Volume:** `/bitnami`
 

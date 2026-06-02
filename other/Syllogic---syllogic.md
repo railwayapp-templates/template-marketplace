@@ -70,20 +70,20 @@ Hosting syllogic on Railway provisions multiple services: `app` (frontend), `bac
 | `BETTER_AUTH_SECRET` | app | (secret) | auth secret |
 | `LOCAL_STORAGE_PATH` | app | /data/uploads | local storage path |
 | `INTERNAL_AUTH_SECRET` | app | (secret) | Internal auth secret |
-| `NEXT_PUBLIC_BETTER_AUTH_URL` | app | - | next public ur; |
+| `NEXT_PUBLIC_BETTER_AUTH_URL` | app | - | next public url |
 | `MCP_PROXY_RATE_LIMIT_WINDOW_MS` | app | 60000 | Rate limit window for MCP requests |
 | `MCP_PROXY_RATE_LIMIT_MAX_REQUESTS` | app | 240 | Rate limit for MCP requests |
 
 ## Configuration
 
 - **Volume:** `/data`
-- **Healthcheck:** `/health`
-- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `celery -A celery_app worker --loglevel=info --concurrency=4`
 - **Start command:** `uvicorn mcp_server:app --host 0.0.0.0 --port 8001`
 - **Start command:** `celery -A celery_app beat --loglevel=info`
 - **Start command:** `/bin/sh -lc "mkdir -p /data/uploads/profile /data/uploads/logos /data/uploads/imports /data/uploads/people && chmod -R u+rwX,g+rwX /data/uploads && node scripts/migrate.js && exec node_modules/.bin/next start -p ${PORT:-3000} -H 0.0.0.0"`
+- **Healthcheck:** `/api/health`
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data/uploads`
 
 **Category:** Other

@@ -14,9 +14,9 @@ Hosting Karakeep involves setting up the application’s backend, frontend, and 
 
 | Service | Source | Type |
 |---------|--------|------|
-| meilisearch | `getmeili/meilisearch:v1.13.3` | Database |
+| meilisearch | `getmeili/meilisearch:latest` | Database |
 | browserless | [railwayapp-templates/browserless-v2](https://github.com/railwayapp-templates/browserless-v2) | Worker |
-| karakeep | `ghcr.io/karakeep-app/karakeep:release` | Web service |
+| karakeep | `ghcr.io/karakeep-app/karakeep:latest` | Web service |
 
 ## Environment variables
 

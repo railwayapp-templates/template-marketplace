@@ -14,7 +14,7 @@ Hosting PostgreSQL gives you access to a powerful database server capable of han
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `ghcr.io/ncontiero/postgres-ssl:18.3` | Database |
+| Postgres | `ghcr.io/ncontiero/postgres-ssl:18.4` | Database |
 
 ## Environment variables
 

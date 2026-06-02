@@ -72,7 +72,7 @@ This setup is designed for users who want scalable workflow automation with buil
 - **Start command:** `n8n start`
 - **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/home/node/.n8n`
+- **Volume:** `/data`
 - **Start command:** `/bin/sh -c "unset PGPORT; docker-entrypoint.sh postgres --port=5432"`
 - **Volume:** `/var/lib/postgresql/data`
 

@@ -69,7 +69,7 @@ Hosting n8n with workers on Railway involves deploying multiple connected servic
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `n8n start`
 - **Healthcheck:** `/healthz`
-- **Volume:** `/home/node/.n8n`
+- **Volume:** `/data`
 - **Start command:** `n8n worker`
 - **Volume:** `/bitnami`
 

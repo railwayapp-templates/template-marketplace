@@ -48,6 +48,7 @@ compute pricing with zero external API calls.
 | `PORT` | 1349 | - |
 | `DB_PATH` | /data/snapotter.db | - |
 | `DEFAULT_PASSWORD` | (secret) | User set the password |
+| `DEFAULT_USERNAME` | (secret) | Add the username for login |
 | `FILES_STORAGE_PATH` | data/files | - |
 
 **Category:** AI/ML
