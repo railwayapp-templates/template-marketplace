@@ -1,6 +1,6 @@
-# Deploy MinIO Latest on Railway
+# Deploy MinIO | S3 File Storage on Railway
 
-S3 compatible File Storage
+S3 compatible object storage on railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minio-latest)
 

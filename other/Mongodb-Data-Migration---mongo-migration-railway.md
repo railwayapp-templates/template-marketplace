@@ -1,6 +1,6 @@
-# Deploy mongo-migration-railway on Railway
+# Deploy Mongodb Data Migration on Railway
 
-Deploy and Host mongo-migration-railway with Railway
+Migrate data of mongodb between services on railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mongo-migration-railway)
 

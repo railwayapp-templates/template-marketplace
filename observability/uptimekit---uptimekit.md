@@ -19,6 +19,7 @@ Hosting uptimekit involves running multiple services that work together: the Das
 | Redis | `redis:8.2.1` | Database |
 | Scheduler | `uptimekit/scheduler:latest` | Worker |
 | ClickHouse | `clickhouse/clickhouse-server:25.8` | Database |
+| Timescale | `timescale/timescaledb:latest-pg17` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 | Status Page | `uptimekit/status-page:latest` | Web service |
 | Dashboard | `uptimekit/dash:latest` | Web service |
@@ -42,6 +43,11 @@ Hosting uptimekit involves running multiple services that work together: the Das
 | `CLICKHOUSE_USER` | ClickHouse | (secret) | - |
 | `CLICKHOUSE_PASSWORD` | ClickHouse | (secret) | - |
 | `CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT` | ClickHouse | 1 | - |
+| `POSTGRES_DB` | Timescale | railway | Name of the default database |
+| `DATABASE_URL` | Timescale | - | The DB url of the database over the private network |
+| `POSTGRES_USER` | Timescale | (secret) | Username of the default account |
+| `POSTGRES_PASSWORD` | Timescale | (secret) | The database password |
+| `DATABASE_PUBLIC_URL` | Timescale | - | The full public URL of the database |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
@@ -63,6 +69,7 @@ Hosting uptimekit involves running multiple services that work together: the Das
 - **Healthcheck:** `/ping`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/clickhouse`
+- **Start command:** `/bin/sh -c "unset PGPORT; unset PGHOST; docker-entrypoint.sh postgres -p 5432"`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 

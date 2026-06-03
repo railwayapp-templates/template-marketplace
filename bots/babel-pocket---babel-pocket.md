@@ -6,11 +6,11 @@ Self-hosted user-install Discord translator for you and friends
 
 ## About
 
-babel-discord-translator, also known as Babel, is a self-hosted Discord translation bot with one-click message translations, slash commands, a web dashboard, usage budgets, server glossaries, and bring-your-own AI provider support. It helps multilingual Discord communities translate messages without relying on a paid shared translation bot subscription.
+Babel Pocket is a self-hosted, user-install Discord translator designed for you and your friends. It provides private, right-click message translations, a web dashboard, per-user budgets, user whitelisting, and bring-your-own AI provider support. It allows a small set of trusted users to translate messages privately across Discord without relying on a public bot or paid subscription.
 
-Hosting babel-discord-translator on Railway gives you your own private Discord translation bot instance. You provide the Discord bot token, dashboard password, Railway hosting, and AI provider credentials. 
+Hosting Babel Pocket on Railway gives you your own private Discord user-install translation instance. You provide the Discord bot token, dashboard password, Railway hosting, and AI provider credentials. 
 
-Babel stores configuration, usage, server budgets, language preferences, sessions, and glossaries in SQLite, so a persistent Railway volume should be mounted at `/app/data`. After deployment, open the dashboard, complete the setup wizard, configure Vertex AI or an OpenAI-compatible provider, then register the Discord commands. Babel does not require privileged Discord intents and keeps translation control in your own deployment.
+Babel Pocket stores configuration, usage, user access whitelists, custom user budgets, language preferences, and sessions in SQLite, so a persistent Railway volume should be mounted at `/app/data`. After deployment, open the dashboard, complete the setup wizard, configure Vertex AI or an OpenAI-compatible provider, whitelist your users, and then register the Discord commands. Babel Pocket does not require privileged Discord intents and keeps all translation workflows entirely private to authorized users.
 
 ## What gets deployed
 

@@ -1,6 +1,6 @@
 # Deploy babel-discord-translator on Railway
 
-Self-hosted Discord translation bot with one-click private translations
+Self-hosted user-install Discord translator for your servers
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/babel-discord-tran-1)
 

@@ -33,7 +33,6 @@ After every step reaches a terminal state, the run presenter returns a single ca
 | `BFL_API_KEY` | (secret) |
 | `BABYSEA_REGION` | us |
 | `BABYSEA_API_KEY` | (secret) |
-| `BYTEPLUS_REGION` | ap-southeast |
 | `BFL_API_BASE_URL` | https://api.bfl.ai/v1 |
 | `BABYCHAIN_API_KEY` | (secret) |
 | `SENTRY_AUTH_TOKEN` | (secret) |
@@ -44,6 +43,6 @@ After every step reaches a terminal state, the run presenter returns a single ca
 | `UPSTASH_REDIS_REST_TOKEN` | (secret) |
 | `BABYCHAIN_CALLBACK_SECRET` | (secret) |
 
-**Category:** Other · **Languages:** TypeScript, PLpgSQL, JavaScript, CSS
+**Category:** Other · **Languages:** TypeScript, JavaScript, PLpgSQL, CSS
 
 [View on Railway →](https://railway.com/deploy/babychain)

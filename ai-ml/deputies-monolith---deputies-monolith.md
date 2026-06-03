@@ -50,6 +50,7 @@ To run real agent jobs, configure model credentials, set RUNNER=flue, and choose
 | `GITHUB_OAUTH_CLIENT_SECRET` | control-plane | (secret) |
 | `UNSAFE_AUTH_GITHUB_ALLOW_ALL` | control-plane | false |
 | `PREVIEW_TRUST_FORWARDED_HOSTS` | control-plane | false |
+| `SANDBOX_SECRET_ENCRYPTION_KEY` | control-plane | (secret) |
 | `SERVICE_TRUST_FORWARDED_HOSTS` | control-plane | false |
 | `ARTIFACT_STORAGE_S3_FORCE_PATH_STYLE` | control-plane | true |
 | `ARTIFACT_STORAGE_S3_SECRET_ACCESS_KEY` | control-plane | (secret) |
