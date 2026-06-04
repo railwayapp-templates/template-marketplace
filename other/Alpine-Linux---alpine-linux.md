@@ -1,6 +1,6 @@
 # Deploy Alpine Linux on Railway
 
-Lightweight Alpine Linux workspace with SSH access and persistent storage.
+[Jun'26] Hosted Alpine Linux workspace with SSH & persistent storage
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/alpine-linux)
 

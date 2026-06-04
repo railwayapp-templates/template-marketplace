@@ -1,6 +1,6 @@
 # Deploy MinIO - Isolated Services on Railway
 
-S3-compatible object storage with isolated bucket and console services
+[Jun'26] S3 object storage with isolated bucket & console services.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minio-isolated-services)
 

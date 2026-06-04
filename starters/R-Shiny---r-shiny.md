@@ -1,6 +1,6 @@
 # Deploy R Shiny on Railway
 
-Minimalist R Shiny Web App 📊
+[Jun'26] Minimalist R Shiny Web App 📊
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/r-shiny)
 

@@ -1,6 +1,6 @@
 # Deploy django on Railway
 
-Django starter with PostgreSQL for simple and efficient setup
+[Jun'26] Django boilerplate with PostgreSQL for simple & efficient setup
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/django-w-postgres)
 

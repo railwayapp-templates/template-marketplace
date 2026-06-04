@@ -1,6 +1,6 @@
 # Deploy OpenClaw with Ollama on Railway
 
-Launch OpenClaw in minutes with open models powered by Ollama.
+[Jun'26] Launch OpenClaw in minutes with open models powered by Ollama
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-ollama)
 

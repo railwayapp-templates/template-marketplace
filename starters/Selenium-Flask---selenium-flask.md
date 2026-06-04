@@ -1,6 +1,6 @@
 # Deploy Selenium + Flask on Railway
 
-Lightweight Selenium and Flask template for quick scraping on Railway.
+[Jun'26] Lightweight Selenium and Flask template for quick scraping
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/selenium-flask)
 

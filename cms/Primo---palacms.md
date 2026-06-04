@@ -1,16 +1,16 @@
-# Deploy Pala on Railway
+# Deploy Primo on Railway
 
-Component-based CMS with a code editor, visual editing, and static sites.
+Agent-native visual CMS. Build site with AI, manage them visually.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/palacms)
 
 ## About
 
-[Pala](https://palacms.com) is a modern monolithic CMS that gives developers control and content editors simplicity. Built with Svelte and PocketBase, it features visual on-page editing, custom page types, dynamic fields, and self-hosted freedom with your data staying under your control.
+[Primo](https://primo.build) is a modern monolithic CMS that gives developers control and content editors simplicity. Built with Svelte and PocketBase, it features visual on-page editing, custom page types, dynamic fields, and self-hosted freedom with your data staying under your control.
 
 ![screenshot](https://pala-pullzone.b-cdn.net/pala-screenshot.jpg)
 
-Pala is self-contained Svelte application with a Pocketbase backend. There's no need for external database. Pala uses SQLite handled by Pocketbase.
+Primo is self-contained Svelte application with a Pocketbase backend. There's no need for external database. Primo uses SQLite handled by Pocketbase.
 
 ## What gets deployed
 

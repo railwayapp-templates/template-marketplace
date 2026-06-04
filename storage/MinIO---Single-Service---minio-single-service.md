@@ -1,6 +1,6 @@
 # Deploy MinIO - Single Service on Railway
 
-Lightweight MinIO with console and S3 API in one service
+[Jun'26] Lightweight MinIO with console & S3 API in one service.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minio-single-service)
 

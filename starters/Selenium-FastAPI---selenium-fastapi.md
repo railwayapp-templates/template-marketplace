@@ -1,6 +1,6 @@
 # Deploy Selenium + FastAPI on Railway
 
-Lightweight Selenium and FastAPI template for fast scraping on Railway.
+[Jun'26] Fast Selenium & FastAPI web scraping boilerplate template.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/selenium-fastapi)
 

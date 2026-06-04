@@ -1,6 +1,6 @@
 # Deploy Evolution API on Railway
 
-Low-cost WhatsApp HTTP REST API with PostgreSQL and Redis. It works.
+[Jun'26] Low-cost WhatsApp HTTP REST API with PostgreSQL and Redis
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evolution-api-minimal)
 

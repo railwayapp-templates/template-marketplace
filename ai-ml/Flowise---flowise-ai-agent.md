@@ -1,6 +1,6 @@
 # Deploy Flowise on Railway
 
-Lightweight Flowise with web UI, auth, and persistent storage.
+[Jun'26] Lightweight Flowise with web UI, auth, and persistent storage 🤖
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowise-ai-agent)
 

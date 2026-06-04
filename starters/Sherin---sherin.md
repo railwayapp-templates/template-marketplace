@@ -42,6 +42,6 @@ When the generation reaches a terminal state, Gallery displays the latest output
 | `CUSTOM_USER_STORAGE_QUOTA_GB` | 10 |
 | `CLOUDFLARE_R2_SECRET_ACCESS_KEY` | (secret) |
 
-**Category:** AI/ML · **Languages:** TypeScript, JavaScript, PLpgSQL, CSS
+**Category:** Starters · **Languages:** TypeScript, JavaScript, PLpgSQL, CSS
 
 [View on Railway →](https://railway.com/deploy/sherin)

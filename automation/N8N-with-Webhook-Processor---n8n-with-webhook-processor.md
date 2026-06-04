@@ -1,6 +1,6 @@
 # Deploy N8N with Webhook Processor on Railway
 
-Self-hosted scalable n8n workers with webhook processor, Redis & PostgreSQL
+[Jun'26] Scalable n8n workers with webhook processor, Redis & Postgres
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-with-webhook-processor)
 
@@ -105,7 +105,7 @@ Railway simplifies all of this by providing managed networking, environment conf
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/home/node/.n8n`
+- **Volume:** `/data`
 
 **Category:** Automation
 

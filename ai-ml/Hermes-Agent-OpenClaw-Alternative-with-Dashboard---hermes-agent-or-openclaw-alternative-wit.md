@@ -1,6 +1,6 @@
 # Deploy Hermes Agent | OpenClaw Alternative with Dashboard on Railway
 
-Self-improving AI agent with memory, skills, and web dashboard 🤖
+[Jun'26] Self-improving AI agent with memory, skills, and web dashboard 🤖
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-or-openclaw-alternative-wit)
 

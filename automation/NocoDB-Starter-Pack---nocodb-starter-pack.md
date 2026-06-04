@@ -1,6 +1,6 @@
 # Deploy NocoDB Starter Pack on Railway
 
-Self-hosted NocoDB, a no-code database interface on PostgreSQL and Redis.
+[Jun'26] Self-hosted, a no-code database interface on PostgreSQL and Redis.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nocodb-starter-pack)
 

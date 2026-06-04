@@ -1,6 +1,6 @@
 # Deploy Rhino Linux 2026.1 on Railway
 
-Hosted Rhino Linux workspace with SSH access and persistent storage. 🚀
+[Jun'26] Hosted Rhino Linux workspace with SSH access & persistent storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rhino-linux-latest)
 

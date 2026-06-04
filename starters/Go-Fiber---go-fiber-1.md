@@ -1,6 +1,6 @@
 # Deploy Go Fiber on Railway
 
-A minimal Go Fiber RESTful API.
+[Jun'26] A minimal Go Fiber RESTful API.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/go-fiber-1)
 

@@ -1,6 +1,6 @@
 # Deploy Debian Bookworm Slim on Railway
 
-Debian Bookworm Slim workspace with SSH and persistent storage. 🚀
+[Jun'26] Debian Bookworm Slim with SSH & persistent storage
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/debian-bookworm-slim)
 

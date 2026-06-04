@@ -33,7 +33,7 @@ PM2 also supports [Bun](https://bun.sh/). If desired, you can replace the projec
 | Service | Source | Type |
 |---------|--------|------|
 | bull-board | [ncontiero/fastify-bullmq](https://github.com/ncontiero/fastify-bullmq) | Web service |
-| Redis | `redis:8.2.2` | Database |
+| Redis | `redis:8.8.0` | Database |
 | bullmq-worker | [ncontiero/fastify-bullmq](https://github.com/ncontiero/fastify-bullmq) | Worker |
 
 ## Environment variables

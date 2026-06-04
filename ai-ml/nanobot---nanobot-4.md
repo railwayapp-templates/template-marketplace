@@ -1,6 +1,6 @@
 # Deploy nanobot on Railway
 
-Minimal OpenClaw lightweight AI agent. It works, 1-click deploy.
+[Jun'26] Minimal OpenClaw lightweight AI agent. It works, 1-click deploy🚀
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nanobot-4)
 

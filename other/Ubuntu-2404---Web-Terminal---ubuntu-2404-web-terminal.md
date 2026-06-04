@@ -1,6 +1,6 @@
 # Deploy Ubuntu 24.04 - Web Terminal on Railway
 
-Ubuntu 24.04 LTS terminal accessible via your web browser! 🌐✨
+[Jun'26] Ubuntu 24.04 LTS terminal accessible via the web browser! 🌐
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ubuntu-2404-web-terminal)
 

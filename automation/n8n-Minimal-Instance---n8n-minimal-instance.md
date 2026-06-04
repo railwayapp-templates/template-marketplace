@@ -1,6 +1,6 @@
 # Deploy n8n – Minimal Instance on Railway
 
-Self-hosted, lightweight and cost-efficient workflow automation 🚀
+[Jun'26] Lightweight and cost-efficient workflow automation setup.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-minimal-instance)
 

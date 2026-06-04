@@ -17,13 +17,10 @@ Hosting uptimekit involves running multiple services that work together: the Das
 | Service | Source | Type |
 |---------|--------|------|
 | Redis | `redis:8.2.1` | Database |
-| Scheduler | `uptimekit/scheduler:latest` | Worker |
-| ClickHouse | `clickhouse/clickhouse-server:25.8` | Database |
-| Timescale | `timescale/timescaledb:latest-pg17` | Database |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Status Page | `uptimekit/status-page:latest` | Web service |
-| Dashboard | `uptimekit/dash:latest` | Web service |
-| Worker | `uptimekit/worker:latest` | Worker |
+| Timescale | `timescale/timescaledb:2.27.1-pg18` | Database |
+| Status Page | `ghcr.io/uptimekit/status-page:latest` | Web service |
+| Dashboard | `ghcr.io/uptimekit/dash:latest` | Web service |
+| Worker | `ghcr.io/uptimekit/worker:latest` | Worker |
 
 ## Environment variables
 
@@ -35,30 +32,17 @@ Hosting uptimekit involves running multiple services that work together: the Das
 | `REDISPASSWORD` | Redis | (secret) | - |
 | `REDIS_PASSWORD` | Redis | (secret) | - |
 | `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
-| `CLICKHOUSE_USER` | Scheduler | (secret) | - |
-| `CLICKHOUSE_PASSWORD` | Scheduler | (secret) | - |
-| `PORT` | ClickHouse | 8123 | - |
-| `PUBLIC_PORT` | ClickHouse | 443 | - |
-| `CLICKHOUSE_DB` | ClickHouse | uptimekit | - |
-| `CLICKHOUSE_USER` | ClickHouse | (secret) | - |
-| `CLICKHOUSE_PASSWORD` | ClickHouse | (secret) | - |
-| `CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT` | ClickHouse | 1 | - |
 | `POSTGRES_DB` | Timescale | railway | Name of the default database |
 | `DATABASE_URL` | Timescale | - | The DB url of the database over the private network |
 | `POSTGRES_USER` | Timescale | (secret) | Username of the default account |
 | `POSTGRES_PASSWORD` | Timescale | (secret) | The database password |
 | `DATABASE_PUBLIC_URL` | Timescale | - | The full public URL of the database |
-| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
-| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
-| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
-| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
-| `CLICKHOUSE_USER` | Status Page | (secret) | - |
-| `CLICKHOUSE_PASSWORD` | Status Page | (secret) | - |
+| `TIMESERIES_BACKEND` | Status Page | timescale | - |
+| `STATUS_PAGE_PUBLIC_DOMAIN` | Status Page | - | The public service or customer domain, of the form `example.up.railway.app` |
 | `PORT` | Dashboard | 3000 | - |
-| `CLICKHOUSE_USER` | Dashboard | (secret) | - |
 | `BETTER_AUTH_SECRET` | Dashboard | (secret) | - |
-| `CLICKHOUSE_PASSWORD` | Dashboard | (secret) | - |
+| `TIMESERIES_BACKEND` | Dashboard | timescale | - |
+| `NEXT_PUBLIC_SELFHOSTED` | Dashboard | true | - |
 | `WORKER_API_KEY` | Worker | (secret) | Create a Worker API Key through the Dashboard Admin Panel! |
 
 ## Configuration
@@ -66,12 +50,10 @@ Hosting uptimekit involves running multiple services that work together: the Das
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
-- **Healthcheck:** `/ping`
-- **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/var/lib/clickhouse`
 - **Start command:** `/bin/sh -c "unset PGPORT; unset PGHOST; docker-entrypoint.sh postgres -p 5432"`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** Observability
 

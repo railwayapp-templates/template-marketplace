@@ -1,6 +1,6 @@
 # Deploy AlmaLinux 9 on Railway
 
-Hosted AlmaLinux 9 workspace with SSH and persistent storage. 🚀
+[Jun'26] Hosted AlmaLinux 9 workspace with SSH & persistent storage. 🚀
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/alma-linux)
 

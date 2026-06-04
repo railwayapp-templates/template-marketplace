@@ -1,6 +1,6 @@
 # Deploy Astro on Railway
 
-A simple Astro starter for fast, lightweight, and easy web builds.
+[Jun'26] A simple Astro starter for fast, lightweight & easy web builds
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/astro)
 

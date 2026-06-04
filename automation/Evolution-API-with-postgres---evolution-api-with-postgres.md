@@ -1,6 +1,6 @@
 # Deploy Evolution API with postgres on Railway
 
-WhatsApp HTTP REST API with PostgreSQL and persistent storage.
+[Jun'26] Secure WhatsApp HTTP REST API with PostgreSQL & storage. 🚀
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evolution-api-with-postgres)
 

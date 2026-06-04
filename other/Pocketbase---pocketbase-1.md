@@ -1,6 +1,6 @@
 # Deploy Pocketbase on Railway
 
-Secure scalable self-hosted backend: persistence, easy deploy, healthcheck.
+[Jun'26] Secure scalable backend with persistence, easy deploy & check.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-1)
 

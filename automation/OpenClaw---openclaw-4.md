@@ -1,6 +1,6 @@
 # Deploy OpenClaw on Railway
 
-Just one click to run your powerful 24/7 Personal AI Assistant. 🦞🚀
+[Jun'26] 1-click to run your powerful 24/7 Personal AI Assistant 🦞
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-4)
 

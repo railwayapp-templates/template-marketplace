@@ -36,6 +36,6 @@ When BabySea returns an output, the server copies the asset into private Supabas
 | `STRIPE_WEBHOOK_SECRET` | (secret) |
 | `UPSTASH_REDIS_REST_TOKEN` | (secret) |
 
-**Category:** AI/ML · **Languages:** TypeScript, JavaScript, PLpgSQL, CSS
+**Category:** Starters · **Languages:** TypeScript, JavaScript, PLpgSQL, CSS
 
 [View on Railway →](https://railway.com/deploy/generative-media-starter)

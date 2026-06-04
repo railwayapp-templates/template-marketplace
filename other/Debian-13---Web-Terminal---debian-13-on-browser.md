@@ -1,6 +1,6 @@
 # Deploy Debian 13 - Web Terminal on Railway
 
-Deploy Debian 13 and access it through your browser! 🚀🌐✨
+[Jun'26] Deploy Debian 13 and access it through the browser! 🚀🌐✨
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/debian-13-on-browser)
 

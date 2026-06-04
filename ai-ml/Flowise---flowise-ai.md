@@ -1,6 +1,6 @@
 # Deploy Flowise on Railway
 
-Flowise with persistent storage for visual AI agents and LLM workflows.
+[Jun'26] Flowise + persistent storage for visual AI agents & LLM workflows.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowise-ai)
 

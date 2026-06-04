@@ -1,6 +1,6 @@
 # Deploy Hermes Agent Complete Setup 🤖 on Railway
 
-OpenClaw alternative by Nous Research with dashboard and persistent memory.
+[Jun'26] OpenClaw alternative by Nous Research with dashboard
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-nousresearch)
 

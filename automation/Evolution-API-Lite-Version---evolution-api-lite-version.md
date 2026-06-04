@@ -1,6 +1,6 @@
 # Deploy Evolution API — Lite Version on Railway
 
-Lightweight WhatsApp HTTP REST API with PostgreSQL storage.
+[Jun'26] Lightweight WhatsApp HTTP REST API with PostgreSQL storage 🐘
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evolution-api-lite-version)
 

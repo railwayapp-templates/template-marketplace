@@ -1,6 +1,6 @@
 # Deploy Laravel on Railway
 
-It works! Laravel boilerplate pre-configured with PostgreSQL 🐘✨
+[Jun'26] It works! Laravel boilerplate with PostgreSQL 🐘✨
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/laravel)
 

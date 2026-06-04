@@ -1,6 +1,6 @@
 # Deploy Bun Hono RESTful API 🔥 on Railway
 
-A minimal & blazing fast Bun Hono API.
+[Jun'26] A minimal & blazing fast Bun Hono API 🔥
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bun-hono-restful-api)
 
