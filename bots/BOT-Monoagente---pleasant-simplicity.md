@@ -14,12 +14,12 @@ Hosting WhatsApp AI Assistant Bot on Railway allows you to deploy a production-r
 
 | Service | Source | Type |
 |---------|--------|------|
-| Bot-RialWay-MonoAgente | [pereyrahugor/Bot-RialWay](https://github.com/pereyrahugor/Bot-RialWay) | Web service |
+| BOT/CRM - Neurolinks | [pereyrahugor/Bot-RialWay](https://github.com/pereyrahugor/Bot-RialWay) | Web service |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Bots · **Languages:** TypeScript, JavaScript, HTML, CSS, PLpgSQL, Dockerfile
+**Category:** Bots · **Languages:** TypeScript, JavaScript, CSS, HTML, PLpgSQL, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/pleasant-simplicity)

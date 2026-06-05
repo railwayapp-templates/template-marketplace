@@ -20,7 +20,7 @@ Hosting pgbr on Railway involves deploying its lightweight Docker container. Onc
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `PORT` | 8080 | Application port |
+| `PORT` | 3000 | Application port |
 | `BASE_URL` | - | The base URL of your pgbr service. |
 | `PGBR_DATA` | /var/lib/pgbr/data | PGBR data path |
 | `AUTH_SECRET` | (secret) | Used to sign user sessions |

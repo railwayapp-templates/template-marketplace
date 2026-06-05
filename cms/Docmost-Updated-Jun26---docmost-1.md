@@ -1,4 +1,4 @@
-# Deploy Docmost on Railway
+# Deploy Docmost [Updated Jun'26] on Railway
 
 Self-hosted Confluence alternative with real-time collaborative editing.
 

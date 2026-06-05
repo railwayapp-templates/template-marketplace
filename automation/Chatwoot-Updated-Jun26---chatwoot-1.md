@@ -1,4 +1,4 @@
-# Deploy Chatwoot on Railway
+# Deploy Chatwoot [Updated Jun'26] on Railway
 
 Self-hosted Intercom alternative — live chat, email, Whatsapp & team inbox.
 

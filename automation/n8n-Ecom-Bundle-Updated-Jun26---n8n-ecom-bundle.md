@@ -1,4 +1,4 @@
-# Deploy n8n Ecom Bundle on Railway
+# Deploy n8n Ecom Bundle [Updated Jun'26] on Railway
 
 Self-hosted n8n with 7 pre-built Shopify automations
 

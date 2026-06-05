@@ -1,4 +1,4 @@
-# Deploy OpenProject on Railway
+# Deploy OpenProject [Updated Jun'26] on Railway
 
 Self-hosted Jira alternative — tasks, Gantt charts, time tracking & wikis.
 

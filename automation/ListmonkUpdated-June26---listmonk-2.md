@@ -1,4 +1,4 @@
-# Deploy Listmonk on Railway
+# Deploy Listmonk[Updated June'26] on Railway
 
 Self-hosted newsletter & mailing list manager — own your data.
 

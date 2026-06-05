@@ -69,6 +69,7 @@ The AIO architecture bundles all Plane services (web frontend, API, worker, beat
 | `RABBITMQ_DEFAULT_VHOST` | RabbitMQ | plane | Default virtual host namespace |
 | `MINIO_ROOT_USER` | MinIO | (secret) | Root username for MinIO access |
 | `MINIO_ROOT_PASSWORD` | MinIO | (secret) | Root password for MinIO access |
+| `MINIO_API_CORS_ALLOW_ORIGIN` | MinIO | - | Allowed origins |
 | `REDISHOST` | Redis | - | Internal Redis service hostname |
 | `REDISPORT` | Redis | 6379 | Redis server listening port |
 | `REDISUSER` | Redis | default | Redis default authentication user |

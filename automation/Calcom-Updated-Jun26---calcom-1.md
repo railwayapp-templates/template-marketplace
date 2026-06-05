@@ -1,4 +1,4 @@
-# Deploy Calcom on Railway
+# Deploy Calcom [Updated Jun'26] on Railway
 
 Deploy and Host Calcom with Railway
 
