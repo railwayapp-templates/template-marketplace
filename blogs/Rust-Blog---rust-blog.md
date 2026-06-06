@@ -27,6 +27,7 @@ This template deploys Rust Blog as a coordinated stack of three services: the `b
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
 | `PORT` | images-processor-service | 8080 | - |
+| `IMAGES_HMAC_SECRET` | images-processor-service | (secret) | - |
 | `PORT` | blog-server | 8080 | - |
 | `TITLE` | blog-server | TIKITKO blog | - |
 | `FEATURES` | blog-server | telegram,chatgpt,lang_ru | - |
@@ -36,6 +37,7 @@ This template deploys Rust Blog as a coordinated stack of three services: the `b
 | `DESCRIPTION` | blog-server | Блог от «гиков» для «гиков», говорим на темы, начиная с программирования и компьютерной графики, заканчивая играми и алкогольными посиделками в одиночестве. | - |
 | `ACCORDION_JSON` | blog-server | [{"title":"О блоге","body":"<strong>TIKITKO blog</strong> - блог от «гиков» для «гиков», говорим на темы, начиная с программирования и компьютерной графики, заканчивая играми и алкогольными посиделками в одиночестве. 🤫"},{"title":"Об авторах","body":"Главным автором являюсь я - <a href=\"https://about.tikitko.dev\">Никита</a>, но иногда тут будут появляться и умные люди, которых я смог уломать что-то написать! 🤑"},{"title":"Исходный код","body":"<a href=\"https://github.com/tikitko/blog-ui\">Исходный код</a> блога полностью открыт и может быть использован с учетом лицензии MIT. Будем рады вашему вкладу! ⛵"}] | - |
 | `OPENAI_API_KEY` | blog-server | (secret) | - |
+| `IMAGES_HMAC_SECRET` | blog-server | (secret) | - |
 | `TELEGRAM_BOT_LOGIN` | blog-server | (secret) | - |
 | `TELEGRAM_BOT_TOKEN` | blog-server | (secret) | - |
 | `POSTGRES_DB` | blog-db | railway | Default database created when image is started. |
@@ -51,6 +53,6 @@ This template deploys Rust Blog as a coordinated stack of three services: the `b
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Blogs · **Languages:** Rust, Dockerfile
+**Category:** Blogs · **Languages:** Rust, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/rust-blog)

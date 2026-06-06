@@ -1,4 +1,4 @@
-# Deploy Nginx proxy on Railway
+# Deploy Nginx proxy auth on Railway
 
 Deploy and Host bearer-proxy with Railway
 

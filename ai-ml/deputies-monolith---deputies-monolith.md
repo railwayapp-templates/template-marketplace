@@ -21,8 +21,8 @@ To run real agent jobs, configure model credentials, set RUNNER=flue, and choose
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| web | `ghcr.io/sidpalas/deputies-web:0.5.0` | Web service |
-| control-plane | `ghcr.io/sidpalas/deputies-control-plane:0.5.0` | Worker |
+| web | `ghcr.io/sidpalas/deputies-web:0.6.4` | Web service |
+| control-plane | `ghcr.io/sidpalas/deputies-control-plane:0.6.4` | Worker |
 
 ## Environment variables
 
@@ -35,6 +35,7 @@ To run real agent jobs, configure model credentials, set RUNNER=flue, and choose
 | `RUN_MODE` | control-plane | all |
 | `API_AUTH_MODE` | control-plane | session |
 | `AUTH_PROVIDER` | control-plane | static |
+| `DAYTONA_IMAGE` | control-plane | ghcr.io/sidpalas/deputies-daytona-sandbox:latest |
 | `APP_DATA_STORE` | control-plane | postgres |
 | `DAYTONA_API_KEY` | control-plane | (secret) |
 | `HIDE_SETUP_PAGE` | control-plane | false |

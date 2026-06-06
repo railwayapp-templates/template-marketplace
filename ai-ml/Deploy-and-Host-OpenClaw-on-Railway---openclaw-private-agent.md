@@ -40,7 +40,7 @@ gives you an autonomous AI agent at a fraction of the cost with full data owners
 
 | Service | Source | Type |
 |---------|--------|------|
-| Openclaw Main | [sahilrupani/openclaw-railway-template](https://github.com/sahilrupani/openclaw-railway-template) | Web service |
+| Openclaw | [sahilrupani/openclaw-railway-template](https://github.com/sahilrupani/openclaw-railway-template) | Web service |
 
 ## Environment variables
 
