@@ -32,14 +32,18 @@ This template deploys Rust Blog as a coordinated stack of three services: the `b
 | `TITLE` | blog-server | TIKITKO blog | - |
 | `FEATURES` | blog-server | telegram,chatgpt,lang_ru | - |
 | `KEYWORDS` | blog-server | tikitko, блог, программирование, ПО, код, Swift, Rust, компьютерная графика, верстка, алкоголь, игры | - |
+| `LOGO_URL` | blog-server | https://storage.tikitko.dev/logo.svg | - |
 | `JWT_SECRET` | blog-server | (secret) | - |
 | `RABBIT_URL` | blog-server | placeholder | - |
 | `DESCRIPTION` | blog-server | Блог от «гиков» для «гиков», говорим на темы, начиная с программирования и компьютерной графики, заканчивая играми и алкогольными посиделками в одиночестве. | - |
-| `ACCORDION_JSON` | blog-server | [{"title":"О блоге","body":"<strong>TIKITKO blog</strong> - блог от «гиков» для «гиков», говорим на темы, начиная с программирования и компьютерной графики, заканчивая играми и алкогольными посиделками в одиночестве. 🤫"},{"title":"Об авторах","body":"Главным автором являюсь я - <a href=\"https://about.tikitko.dev\">Никита</a>, но иногда тут будут появляться и умные люди, которых я смог уломать что-то написать! 🤑"},{"title":"Исходный код","body":"<a href=\"https://github.com/tikitko/blog-ui\">Исходный код</a> блога полностью открыт и может быть использован с учетом лицензии MIT. Будем рады вашему вкладу! ⛵"}] | - |
+| `FAVICON_URL` | blog-server | https://storage.tikitko.dev/favicon.ico | - |
+| `ACCORDION_JSON` | blog-server | [{"title":"О блоге","body":"<strong>TIKITKO blog</strong> - блог от «гиков» для «гиков», говорим на темы, начиная с программирования и компьютерной графики, заканчивая играми и алкогольными посиделками в одиночестве. 🤫"},{"title":"Об авторах","body":"Главным автором являюсь я - <a href=\"https://about.tikitko.dev\">Никита</a>, но иногда тут будут появляться и умные люди, которых я смог уломать что-то написать! 🤑"},{"title":"Исходный код","body":"<a href=\"https://github.com/brewpipeline/blog-ui\">Исходный код</a> блога полностью открыт и может быть использован с учетом лицензии MIT. Будем рады вашему вкладу! ⛵"}] | - |
 | `OPENAI_API_KEY` | blog-server | (secret) | - |
 | `IMAGES_HMAC_SECRET` | blog-server | (secret) | - |
 | `TELEGRAM_BOT_LOGIN` | blog-server | (secret) | - |
 | `TELEGRAM_BOT_TOKEN` | blog-server | (secret) | - |
+| `ICON512_ROUNDED_URL` | blog-server | https://storage.tikitko.dev/icon512_rounded.png | - |
+| `ICON512_MASKABLE_URL` | blog-server | https://storage.tikitko.dev/icon512_maskable.png | - |
 | `POSTGRES_DB` | blog-db | railway | Default database created when image is started. |
 | `DATABASE_URL` | blog-db | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | blog-db | (secret) | User to connect to Postgres DB |

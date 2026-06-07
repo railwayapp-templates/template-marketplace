@@ -1,6 +1,6 @@
 # Deploy OpenClaw on Railway
 
-[Homebrew & TUI support] The AI that actually does things
+[Homebrew support] The AI that actually does things
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw)
 

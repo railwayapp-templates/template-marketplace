@@ -1,4 +1,4 @@
-# Deploy blue-dark on Railway
+# Deploy Bifrost + PostgreSQL on Railway
 
 Deploy Bifrost AI Gateway with PostgreSQL — production-ready in one click.
 

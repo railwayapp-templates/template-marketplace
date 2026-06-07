@@ -14,28 +14,28 @@ Hosting Odoo requires a robust Python environment paired with a PostgreSQL datab
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | odoo | `odoo` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `ODOO_SMTP_USER` | odoo | (secret) | - |
+| `ODOO_DATABASE_USER` | odoo | (secret) | - |
+| `ODOO_SMTP_PASSWORD` | odoo | (secret) | - |
+| `ODOO_DATABASE_PASSWORD` | odoo | (secret) | - |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
-| `ODOO_SMTP_USER` | odoo | (secret) | - |
-| `ODOO_DATABASE_USER` | odoo | (secret) | - |
-| `ODOO_SMTP_PASSWORD` | odoo | (secret) | - |
-| `ODOO_DATABASE_PASSWORD` | odoo | (secret) | - |
 
 ## Configuration
 
+- **Volume:** `/var/lib/odoo`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
-- **Volume:** `/var/lib/odoo`
 
 **Category:** Other
 

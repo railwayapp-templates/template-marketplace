@@ -38,6 +38,6 @@ This template provides a complete authentication and database solution for moder
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Other · **Languages:** TypeScript, CSS, JavaScript
+**Category:** Starters · **Languages:** TypeScript, CSS, JavaScript
 
 [View on Railway →](https://railway.com/deploy/nextjs-better-auth-prisma-template)
