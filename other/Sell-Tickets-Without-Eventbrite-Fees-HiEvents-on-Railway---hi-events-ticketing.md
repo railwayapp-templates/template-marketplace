@@ -1,4 +1,4 @@
-# Deploy Deploy and Host Hi.Events — Event Ticketing on Railway on Railway
+# Deploy Sell Tickets Without Eventbrite Fees — Hi.Events on Railway on Railway
 
 Self-host event ticketing with Stripe. No per-ticket fees. Own your data.
 

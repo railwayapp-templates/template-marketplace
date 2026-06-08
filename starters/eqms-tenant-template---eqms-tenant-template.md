@@ -1,6 +1,6 @@
 # Deploy eqms-tenant-template on Railway
 
-EQMS Template for on-demand launches
+PostgreSQL + eqms for isolated per-customer Railway projects.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/eqms-tenant-template)
 
@@ -19,17 +19,17 @@ This template creates an isolated Railway project with two services: a PostgreSQ
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `POSTGRES_DB` | railway |
-| `POSTGRES_USER` | (secret) |
-| `POSTGRES_PASSWORD` | (secret) |
+| Variable | Service | Default |
+| --------- | ------- | ------- |
+| `AUTH_SECRET` | eqms | (secret) |
+| `POSTGRES_USER` | Postgres | (secret) |
+| `POSTGRES_PASSWORD` | Postgres | (secret) |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Other · **Languages:** TypeScript, JavaScript, Shell, CSS, PLpgSQL
+**Category:** Starters · **Languages:** TypeScript, JavaScript, Shell, CSS, PLpgSQL
 
 [View on Railway →](https://railway.com/deploy/eqms-tenant-template)

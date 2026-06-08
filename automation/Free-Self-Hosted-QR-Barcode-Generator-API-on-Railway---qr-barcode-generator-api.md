@@ -1,4 +1,4 @@
-# Deploy QR & Barcode Generator API on Railway on Railway
+# Deploy Free Self-Hosted QR & Barcode Generator API on Railway on Railway
 
 Self-host a QR & barcode REST API. Unlimited requests. No per-call fees.
 

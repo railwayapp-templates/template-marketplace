@@ -1,4 +1,4 @@
-# Deploy Deploy and Host Plandex AI Coding Agent on Railway on Railway
+# Deploy Self-Host Plandex — AI Coding Agent for Large Codebases on Railway on Railway
 
 Self-host Plandex: 2M token context, plan version control, BYO API keys.
 

@@ -22,12 +22,18 @@ Hosting Open WebUI with Ollama gives you an all-in-one AI workspace where the ch
 
 | Variable | Default |
 | --------- | ------- |
+| `PORT` | 8080 |
+| `WEBUI_AUTH` | true |
+| `DO_NOT_TRACK` | true |
 | `WEBUI_SECRET_KEY` | (secret) |
+| `SCARF_NO_ANALYTICS` | true |
+| `OPENAI_API_BASE_URL` | https://api.openai.com/v1 |
+| `ANONYMIZED_TELEMETRY` | false |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/app/backend/data`
+- **Volume:** `/data`
 
 **Category:** AI/ML
 

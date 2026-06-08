@@ -209,6 +209,7 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 | `API_JWT_SECRET` | Supabase Realtime | (secret) | Project JWT secret. |
 | `SEED_SELF_HOST` | Supabase Realtime | true | Create a tenant for self-hosting on startup. |
 | `SECRET_KEY_BASE` | Supabase Realtime | (secret) | Secret used by the server to sign cookies. |
+| `METRICS_JWT_SECRET` | Supabase Realtime | (secret) | JWT secret used to authenticate requests to the metrics endpoint. |
 | `SELF_HOST_TENANT_NAME` | Supabase Realtime | supabase-realtime | Realtime tenant name for self-hosting. MUST MATCH THE SUBDOMAIN OF THIS SERVICE AS IT APPEARS IN THE RAILWAY PRIVATE NETWORK. This service was named "Supabase Realtime" in the project so that it will automatically deploy with the url of "supabase-realtime.railway.internal" in the private network. |
 | `DB_AFTER_CONNECT_QUERY` | Supabase Realtime | SET search_path TO _realtime | DB query to run on connect. |
 | `PORT` | Postgres Meta | 8080 | All PG On Rails services declare PORT to standardize building urls within the Railway private network. |
@@ -284,6 +285,7 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 | `DEFAULT_PROJECT_NAME` | Supabase Studio | PG On Rails | Project name which appears in the browser tab for Supabase Studio. |
 | `SUPABASE_SERVICE_KEY` | Supabase Studio | - | Project service role key. |
 | `DEFAULT_ORGANIZATION_NAME` | Supabase Studio | My Org | Organization name which appears in the browser tab for Supabase Studio |
+| `ENABLED_FEATURES_LOGS_ALL` | Supabase Studio | false | Not using Logflare analytics on Railway |
 | `SNIPPETS_MANAGEMENT_FOLDER` | Supabase Studio | /app/snippets | Local filepath in the container for SQL snippets |
 | `EDGE_FUNCTIONS_MANAGEMENT_FOLDER` | Supabase Studio | /app/edge-functions | Local filepath in the container for edge functions |
 

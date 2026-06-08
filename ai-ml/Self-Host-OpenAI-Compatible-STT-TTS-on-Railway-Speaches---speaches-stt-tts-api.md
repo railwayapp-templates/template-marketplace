@@ -1,4 +1,4 @@
-# Deploy Deploy and Host Speaches — Self-Hosted STT/TTS API on Railway on Railway
+# Deploy Self-Host OpenAI-Compatible STT & TTS on Railway — Speaches on Railway
 
 Self-host OpenAI-compatible STT & TTS. No per-minute fee. Audio stays local
 

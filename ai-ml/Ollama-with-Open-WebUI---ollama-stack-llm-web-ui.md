@@ -19,14 +19,21 @@ Hosting Ollama Stack involves running the Ollama service alongside a Web UI in a
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `OLLAMA_HOST` | :: |
+| Variable | Service | Default |
+| --------- | ------- | ------- |
+| `PORT` | Open Web UI | 8080 |
+| `WEBUI_AUTH` | Open Web UI | true |
+| `DO_NOT_TRACK` | Open Web UI | true |
+| `WEBUI_SECRET_KEY` | Open Web UI | (secret) |
+| `SCARF_NO_ANALYTICS` | Open Web UI | true |
+| `OPENAI_API_BASE_URL` | Open Web UI | https://api.openai.com/v1 |
+| `ANONYMIZED_TELEMETRY` | Open Web UI | false |
+| `OLLAMA_HOST` | Ollama | :: |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/app/backend/data`
+- **Volume:** `/data`
 - **Volume:** `/root/.ollama`
 
 **Category:** AI/ML

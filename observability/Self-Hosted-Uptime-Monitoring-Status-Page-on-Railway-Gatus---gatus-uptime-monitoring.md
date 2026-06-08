@@ -1,4 +1,4 @@
-# Deploy Deploy and Host Gatus on Railway on Railway
+# Deploy Self-Hosted Uptime Monitoring & Status Page on Railway — Gatus on Railway
 
 Self-host Gatus: uptime monitoring & status page. No per-endpoint fees.
 
