@@ -21,8 +21,8 @@ To run real agent jobs, configure model credentials, set RUNNER=flue, and choose
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| web | `ghcr.io/sidpalas/deputies-web:0.6.4` | Web service |
-| control-plane | `ghcr.io/sidpalas/deputies-control-plane:0.6.4` | Worker |
+| web | `ghcr.io/sidpalas/deputies-web:0.7.0` | Web service |
+| control-plane | `ghcr.io/sidpalas/deputies-control-plane:0.7.0` | Worker |
 
 ## Environment variables
 

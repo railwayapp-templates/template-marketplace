@@ -28,6 +28,7 @@ Railway allows you to spin up Rocket Chat instantly, without worrying about serv
 | `MONGOUSER` | MongoDB | - | Mongodb user. |
 | `MONGO_URL` | MongoDB | - | Private URL to connect to MongoDB. |
 | `MONGOPASSWORD` | MongoDB | (secret) | Root password. |
+| `GLIBC_TUNABLES` | MongoDB | glibc.pthread.rseq=1 | - |
 | `MONGO_PUBLIC_URL` | MongoDB | - | Public URL to connect to MongoDB, used for Data panel. |
 | `MONGO_INITDB_ROOT_PASSWORD` | MongoDB | (secret) | Root user password, set during initialization. |
 | `MONGO_INITDB_ROOT_USERNAME` | MongoDB | (secret) | User created during initialization, given the root role. |

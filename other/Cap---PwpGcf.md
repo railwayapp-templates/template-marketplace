@@ -16,7 +16,7 @@ When logging in, a magic link will be printed to the server container's Deploy L
 
 | Service | Source | Type |
 |---------|--------|------|
-| MySQL | `mysql:9` | Database |
+| MySQL | `mysql:8.0` | Database |
 | MinIO | `minio/minio` | Database |
 | Cap Web | `ghcr.io/capsoftware/cap-web:latest` | Web service |
 | capsoftware/cap-media-server:latest | `ghcr.io/capsoftware/cap-media-server:latest` | Worker |

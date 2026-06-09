@@ -35,28 +35,26 @@ Documenso aims to be the world's most trusted document-signing tool.  You can th
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PRIVATE_URL` | Postgres | - | URL to connect to Postgres database |
-| `MAIL_FROM` | documenso-web | - | The email address for sending emails |
-| `NEXTAUTH_URL` | documenso-web | - | The URL of the deployed web app for use with Next-Auth |
-| `SMTP_MAIL_HOST` | documenso-web | - | The SMTP mail host |
-| `SMTP_MAIL_PORT` | documenso-web | - | The SMTP mail port |
-| `SMTP_MAIL_USER` | documenso-web | (secret) | The SMTP mail user |
-| `STRIPE_API_KEY` | documenso-web | (secret) | The API key for Stripe |
-| `NEXTAUTH_SECRET` | documenso-web | (secret) | Used to encrypt the NextAuth.js JWT |
-| `SENDGRID_API_KEY` | documenso-web | (secret) | The API key for SendGrid to send emails |
-| `SMTP_MAIL_PASSWORD` | documenso-web | (secret) | The SMTP mail password |
-| `STRIPE_WEBHOOK_SECRET` | documenso-web | (secret) | The webhook secret for Stripe |
-| `NEXT_PUBLIC_WEBAPP_URL` | documenso-web | - | The URL of the deployed web app |
-| `NEXT_PUBLIC_ALLOW_SIGNUP` | documenso-web | true | Allow user signup |
-| `NEXT_PUBLIC_ALLOW_SUBSCRIPTIONS` | documenso-web | false | Allow user subscriptions with Stripe |
-| `NEXT_PUBLIC_STRIPE_COMMUNITY_PLAN_YEARLY_PRICE_ID` | documenso-web | - | The Stripe Community Plan yearly price ID |
-| `NEXT_PUBLIC_STRIPE_COMMUNITY_PLAN_MONTHLY_PRICE_ID` | documenso-web | - | The Stripe Community Plan monthly price ID |
+| `NEXTAUTH_SECRET` | documenso-web | (secret) | Encrypts the session JWT (auto-generated) |
+| `NEXT_PRIVATE_SMTP_HOST` | documenso-web | - | SMTP host |
+| `NEXT_PRIVATE_SMTP_PORT` | documenso-web | - | SMTP port (587 or 465) |
+| `NEXT_PUBLIC_WEBAPP_URL` | documenso-web | - | Public URL |
+| `NEXT_PRIVATE_DATABASE_URL` | documenso-web | - | Database URL |
+| `NEXT_PRIVATE_SMTP_PASSWORD` | documenso-web | (secret) | SMTP password |
+| `NEXT_PRIVATE_SMTP_USERNAME` | documenso-web | (secret) | SMTP username |
+| `NEXT_PRIVATE_ENCRYPTION_KEY` | documenso-web | - | Auto-generated 32-char secret |
+| `NEXT_PRIVATE_SMTP_FROM_NAME` | documenso-web | Documenso | Sender display name |
+| `NEXT_PRIVATE_SMTP_FROM_ADDRESS` | documenso-web | - | Sender email address |
+| `NEXT_PRIVATE_DIRECT_DATABASE_URL` | documenso-web | - | Direct Database URL |
+| `NEXT_PRIVATE_ENCRYPTION_SECONDARY_KEY` | documenso-web | - | Auto-generated 32-char secret |
 
 ## Configuration
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other · **Languages:** TypeScript, MDX, JavaScript, Shell, Dockerfile, CSS
+**Category:** Other · **Languages:** TypeScript, MDX, JavaScript, Shell, CSS, PLpgSQL, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/DjrRRX)

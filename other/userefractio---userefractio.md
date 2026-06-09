@@ -19,8 +19,8 @@ Refract is designed for Zero-Lock-in. The architecture is entirely self-containe
 | Service | Source | Type |
 |---------|--------|------|
 | Redis | `redis:8.2.1` | Database |
-| Backend | [palm-software/bp-template](https://github.com/palm-software/bp-template) | Web service |
-| Consumers | [palm-software/bp-template](https://github.com/palm-software/bp-template) | Worker |
+| Webapp | [arc-lab-hq/refract-dev](https://github.com/arc-lab-hq/refract-dev) | Worker |
+| Async | [arc-lab-hq/refract-dev](https://github.com/arc-lab-hq/refract-dev) | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
@@ -31,36 +31,40 @@ Refract is designed for Zero-Lock-in. The architecture is entirely self-containe
 | `REDIS_URL` | Redis | - | Configuration URL |
 | `REDIS_PASSWORD` | Redis | (secret) | Password |
 | `REDIS_PUBLIC_URL` | Redis | - | Public URL |
-| `APP_URL` | Backend | - | Public URL to access the backend |
-| `SERVICE` | Backend | webapp | Service running the backend container |
-| `NODE_ENV` | Backend | production | Environment running the backend |
-| `REDIS_URL` | Backend | - | URL of the Redis instance |
-| `POSTGRES_DB` | Backend | - | Database of the Postgres instance |
-| `SALT_ROUNDS` | Backend | 10 | Numbers of time a password should be hashed |
-| `POSTGRES_HOST` | Backend | - | Host of the Postgres instance |
-| `POSTGRES_PORT` | Backend | - | Port of the Postgres instance |
-| `POSTGRES_USER` | Backend | (secret) | Username of the Postgres instance |
-| `SESSION_SECRET` | Backend | (secret) | Session hashing secret |
-| `POSTGRES_PASSWORD` | Backend | (secret) | Password of the Postrgres instance |
-| `STRIPE_SECRET_KEY` | Backend | (secret) | Stripe production secret key |
-| `STRIPE_API_VERSION` | Backend | - | Stripe production API version |
-| `STRIPE_WEBHOOK_SECRET` | Backend | (secret) | Stripe production webhook secret |
-| `STRIPE_PUBLISHABLE_KEY` | Backend | - | Stripe production publishable key |
-| `APP_URL` | Consumers | - | Accessible URL for the Frontend (Same as backend in production) |
-| `SERVICE` | Consumers | consumer | Service running the backend container |
-| `NODE_ENV` | Consumers | - | Environment running the backend |
-| `REDIS_URL` | Consumers | - | URL of the Redis instance |
-| `POSTGRES_DB` | Consumers | - | Database of the Postgres instance |
-| `SALT_ROUNDS` | Consumers | - | Numbers of time a password should be hashed |
-| `POSTGRES_HOST` | Consumers | - | Host of the Postgres instance |
-| `POSTGRES_PORT` | Consumers | - | Port of the Postgres instance |
-| `POSTGRES_USER` | Consumers | (secret) | Username of the Postgres instance |
-| `SESSION_SECRET` | Consumers | (secret) | Session hashing secret |
-| `POSTGRES_PASSWORD` | Consumers | (secret) | Password of the Postrgres instance |
-| `STRIPE_SECRET_KEY` | Consumers | (secret) | Stripe production secret key |
-| `STRIPE_API_VERSION` | Consumers | - | Stripe production API version |
-| `STRIPE_WEBHOOK_SECRET` | Consumers | (secret) | Stripe production webhook secret |
-| `STRIPE_PUBLISHABLE_KEY` | Consumers | - | Stripe production publishable key |
+| `APP_URL` | Webapp | - | Public URL to access the backend |
+| `SERVICE` | Webapp | webapp | Service running the backend container |
+| `NODE_ENV` | Webapp | production | Environment running the backend |
+| `REDIS_URL` | Webapp | - | URL of the Redis instance |
+| `POSTGRES_DB` | Webapp | - | Database of the Postgres instance |
+| `SALT_ROUNDS` | Webapp | 10 | Numbers of time a password should be hashed |
+| `ANALYTICS_APP` | Webapp | - | Analytics App Tracked |
+| `POSTGRES_HOST` | Webapp | - | Host of the Postgres instance |
+| `POSTGRES_PORT` | Webapp | - | Port of the Postgres instance |
+| `POSTGRES_USER` | Webapp | (secret) | Username of the Postgres instance |
+| `SESSION_SECRET` | Webapp | (secret) | Session hashing secret |
+| `POSTGRES_PASSWORD` | Webapp | (secret) | Password of the Postrgres instance |
+| `STRIPE_SECRET_KEY` | Webapp | (secret) | Stripe production secret key |
+| `STRIPE_API_VERSION` | Webapp | - | Stripe production API version |
+| `STRIPE_WEBHOOK_SECRET` | Webapp | (secret) | Stripe production webhook secret |
+| `STRIPE_PUBLISHABLE_KEY` | Webapp | - | Stripe production publishable key |
+| `STRIPE_DEFAULT_CURRENCY` | Webapp | - | Stripe production default currency |
+| `APP_URL` | Async | - | Accessible URL for the Frontend (Same as backend in production) |
+| `SERVICE` | Async | consumer | Service running the backend container |
+| `NODE_ENV` | Async | - | Environment running the backend |
+| `REDIS_URL` | Async | - | URL of the Redis instance |
+| `POSTGRES_DB` | Async | - | Database of the Postgres instance |
+| `SALT_ROUNDS` | Async | - | Numbers of time a password should be hashed |
+| `ANALYTICS_APP` | Async | - | Analytics App Tracked |
+| `POSTGRES_HOST` | Async | - | Host of the Postgres instance |
+| `POSTGRES_PORT` | Async | - | Port of the Postgres instance |
+| `POSTGRES_USER` | Async | (secret) | Username of the Postgres instance |
+| `SESSION_SECRET` | Async | (secret) | Session hashing secret |
+| `POSTGRES_PASSWORD` | Async | (secret) | Password of the Postrgres instance |
+| `STRIPE_SECRET_KEY` | Async | (secret) | Stripe production secret key |
+| `STRIPE_API_VERSION` | Async | - | Stripe production API version |
+| `STRIPE_WEBHOOK_SECRET` | Async | (secret) | Stripe production webhook secret |
+| `STRIPE_PUBLISHABLE_KEY` | Async | - | Stripe production publishable key |
+| `STRIPE_DEFAULT_CURRENCY` | Async | - | Stripe production default currency |
 | `POSTGRES_DB` | Postgres | database | Database |
 | `POSTGRES_HOST` | Postgres | - | Host |
 | `POSTGRES_PORT` | Postgres | 5432 | Port |
@@ -72,12 +76,10 @@ Refract is designed for Zero-Lock-in. The architecture is entirely self-containe
 
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **Volume:** `/data`
-- **Start command:** `node apps/backend/dist/index.js`
 - **Healthcheck:** `/health`
-- **Networking:** Public domain with automatic HTTPS
 - **Start command:** `node apps/backend/dist/consumer.js`
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Other · **Languages:** TypeScript, HTML, Shell, Makefile, JavaScript, Dockerfile, CSS
+**Category:** Other · **Languages:** TypeScript, HTML, Shell, JavaScript, Makefile, Astro, Dockerfile, CSS
 
 [View on Railway →](https://railway.com/deploy/userefractio)
