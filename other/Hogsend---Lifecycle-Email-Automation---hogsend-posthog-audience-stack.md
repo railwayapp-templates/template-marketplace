@@ -23,44 +23,45 @@ The template provisions six pre-wired services: an HTTP api (ingestion, auth, th
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `PORT` | hogsend-api | 3002 |
-| `NODE_ENV` | hogsend-api | production |
-| `LOG_LEVEL` | hogsend-api | info |
-| `RESEND_API_KEY` | hogsend-api | (secret) |
-| `RESEND_FROM_EMAIL` | hogsend-api | noreply@hogsend.com |
-| `BETTER_AUTH_SECRET` | hogsend-api | (secret) |
-| `HATCHET_CLIENT_TOKEN` | hogsend-api | (secret) |
-| `HATCHET_CLIENT_HOST_PORT` | hogsend-api | hatchet-lite.railway.internal:7077 |
-| `HATCHET_CLIENT_TLS_STRATEGY` | hogsend-api | none |
-| `PORT` | hatchet-lite | 8888 |
-| `POSTGRES_USER` | hatchet-lite | (secret) |
-| `SERVER_GRPC_PORT` | hatchet-lite | 7077 |
-| `POSTGRES_PASSWORD` | hatchet-lite | (secret) |
-| `SERVER_GRPC_INSECURE` | hatchet-lite | true |
-| `SERVER_MSGQUEUE_KIND` | hatchet-lite | postgres |
-| `SERVER_GRPC_BIND_ADDRESS` | hatchet-lite | 0.0.0.0 |
-| `SERVER_AUTH_COOKIE_INSECURE` | hatchet-lite | true |
-| `SERVER_DEFAULT_ENGINE_VERSION` | hatchet-lite | V1 |
-| `SERVER_AUTH_SET_EMAIL_VERIFIED` | hatchet-lite | true |
-| `REDISPORT` | Redis | 6379 |
-| `REDISUSER` | Redis | default |
-| `REDISPASSWORD` | Redis | (secret) |
-| `REDIS_PASSWORD` | Redis | (secret) |
-| `POSTGRES_DB` | Postgres | railway |
-| `POSTGRES_USER` | Postgres | (secret) |
-| `POSTGRES_PASSWORD` | Postgres | (secret) |
-| `NODE_ENV` | hogsend-worker | production |
-| `RESEND_API_KEY` | hogsend-worker | (secret) |
-| `RESEND_FROM_EMAIL` | hogsend-worker | noreply@hogsend.com |
-| `BETTER_AUTH_SECRET` | hogsend-worker | (secret) |
-| `HATCHET_CLIENT_TOKEN` | hogsend-worker | (secret) |
-| `HATCHET_CLIENT_HOST_PORT` | hogsend-worker | hatchet-lite.railway.internal:7077 |
-| `HATCHET_CLIENT_TLS_STRATEGY` | hogsend-worker | none |
-| `POSTGRES_DB` | Postgres-J_tJ | railway |
-| `POSTGRES_USER` | Postgres-J_tJ | (secret) |
-| `POSTGRES_PASSWORD` | Postgres-J_tJ | (secret) |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `PORT` | hogsend-api | 3002 | - |
+| `NODE_ENV` | hogsend-api | production | - |
+| `LOG_LEVEL` | hogsend-api | info | - |
+| `RESEND_API_KEY` | hogsend-api | (secret) | - |
+| `RESEND_FROM_EMAIL` | hogsend-api | noreply@hogsend.com | - |
+| `BETTER_AUTH_SECRET` | hogsend-api | (secret) | - |
+| `STUDIO_ADMIN_EMAIL` | hogsend-api | - | Email for the first Studio admin — created automatically on first boot. Public sign-up is disabled; this is how you get in. Grab the one-time password from the deploy logs and rotate it via the Studio's forgot-password flow. |
+| `HATCHET_CLIENT_TOKEN` | hogsend-api | (secret) | - |
+| `HATCHET_CLIENT_HOST_PORT` | hogsend-api | hatchet-lite.railway.internal:7077 | - |
+| `HATCHET_CLIENT_TLS_STRATEGY` | hogsend-api | none | - |
+| `PORT` | hatchet-lite | 8888 | - |
+| `POSTGRES_USER` | hatchet-lite | (secret) | - |
+| `SERVER_GRPC_PORT` | hatchet-lite | 7077 | - |
+| `POSTGRES_PASSWORD` | hatchet-lite | (secret) | - |
+| `SERVER_GRPC_INSECURE` | hatchet-lite | true | - |
+| `SERVER_MSGQUEUE_KIND` | hatchet-lite | postgres | - |
+| `SERVER_GRPC_BIND_ADDRESS` | hatchet-lite | 0.0.0.0 | - |
+| `SERVER_AUTH_COOKIE_INSECURE` | hatchet-lite | true | - |
+| `SERVER_DEFAULT_ENGINE_VERSION` | hatchet-lite | V1 | - |
+| `SERVER_AUTH_SET_EMAIL_VERIFIED` | hatchet-lite | true | - |
+| `REDISPORT` | Redis | 6379 | - |
+| `REDISUSER` | Redis | default | - |
+| `REDISPASSWORD` | Redis | (secret) | - |
+| `REDIS_PASSWORD` | Redis | (secret) | - |
+| `POSTGRES_DB` | Postgres | railway | - |
+| `POSTGRES_USER` | Postgres | (secret) | - |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | - |
+| `NODE_ENV` | hogsend-worker | production | - |
+| `RESEND_API_KEY` | hogsend-worker | (secret) | - |
+| `RESEND_FROM_EMAIL` | hogsend-worker | noreply@hogsend.com | - |
+| `BETTER_AUTH_SECRET` | hogsend-worker | (secret) | - |
+| `HATCHET_CLIENT_TOKEN` | hogsend-worker | (secret) | - |
+| `HATCHET_CLIENT_HOST_PORT` | hogsend-worker | hatchet-lite.railway.internal:7077 | - |
+| `HATCHET_CLIENT_TLS_STRATEGY` | hogsend-worker | none | - |
+| `POSTGRES_DB` | Postgres-J_tJ | railway | - |
+| `POSTGRES_USER` | Postgres-J_tJ | (secret) | - |
+| `POSTGRES_PASSWORD` | Postgres-J_tJ | (secret) | - |
 
 ## Configuration
 

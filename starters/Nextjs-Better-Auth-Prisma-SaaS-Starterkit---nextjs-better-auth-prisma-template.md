@@ -14,21 +14,21 @@ This template provides a complete authentication and database solution for moder
 
 | Service | Source | Type |
 |---------|--------|------|
-| Frontend | [laguillo/nextjs-better-auth-prisma-template](https://github.com/laguillo/nextjs-better-auth-prisma-template) | Web service |
+| Next.js | [laguillo/nextjs-better-auth-prisma-template](https://github.com/laguillo/nextjs-better-auth-prisma-template) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `NODE_ENV` | Frontend | production | Application environment (development, production, etc.) |
-| `DATABASE_URL` | Frontend | - | PostgreSQL database connection string |
-| `RESEND_API_KEY` | Frontend | (secret) | Resend API key for sending emails |
-| `GOOGLE_CLIENT_ID` | Frontend | your-client-id | Google OAuth client credentials |
-| `EMAIL_SENDER_NAME` | Frontend | SaaS Template | Email sender information for transactional emails |
-| `BETTER_AUTH_SECRET` | Frontend | (secret) | Resend API key for sending emails |
-| `EMAIL_SENDER_ADDRESS` | Frontend | no-reply@yourdomain.com | Email sender information for transactional emails |
-| `GOOGLE_CLIENT_SECRET` | Frontend | (secret) | Google OAuth client credentials |
+| `NODE_ENV` | Next.js | production | Application environment (development, production, etc.) |
+| `DATABASE_URL` | Next.js | - | PostgreSQL database connection string |
+| `RESEND_API_KEY` | Next.js | (secret) | Resend API key for sending emails |
+| `GOOGLE_CLIENT_ID` | Next.js | your-client-id | Google OAuth client credentials |
+| `EMAIL_SENDER_NAME` | Next.js | SaaS Template | Email sender information for transactional emails |
+| `BETTER_AUTH_SECRET` | Next.js | (secret) | Resend API key for sending emails |
+| `EMAIL_SENDER_ADDRESS` | Next.js | no-reply@yourdomain.com | Email sender information for transactional emails |
+| `GOOGLE_CLIENT_SECRET` | Next.js | (secret) | Google OAuth client credentials |
 | `POSTGRES_DB` | Postgres | railway | - |
 | `POSTGRES_USER` | Postgres | (secret) | - |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | - |

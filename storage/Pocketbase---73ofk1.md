@@ -109,7 +109,7 @@ const posts = await pb.collection('posts').getList(1, 20, {
 
 | Service | Source | Type |
 |---------|--------|------|
-| pocketbase | [laguillo/pocketbase](https://github.com/laguillo/pocketbase) | Web service |
+| Pocketbase | [laguillo/pocketbase](https://github.com/laguillo/pocketbase) | Web service |
 
 ## Environment variables
 

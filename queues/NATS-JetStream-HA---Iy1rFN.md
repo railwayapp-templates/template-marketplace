@@ -24,13 +24,15 @@ For more information, check out https://nats.io.
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `SERVER_NAME` | server-1 | - | The service name. |
-| `CLUSTER_ROUTES_SEED` | server-1 | nats://localhost:6222 | - |
-| `JETSTREAM_STORE_DIR` | server-1 | - | The mount path of the attached volume. |
-| `SERVER_NAME` | server-2 | - | The service name. |
-| `JETSTREAM_STORE_DIR` | server-2 | - | The mount path of the attached volume. |
-| `SERVER_NAME` | server-3 | - | The service name. |
-| `JETSTREAM_STORE_DIR` | server-3 | - | The mount path of the attached volume. |
+| `SERVER_NAME` | server-1 | - | Unique name of the server in the cluster. |
+| `CLUSTER_ROUTES_SEED` | server-1 | nats://localhost:6222 | Routes for bootstrapping the cluster. |
+| `JETSTREAM_STORE_DIR` | server-1 | - | Directory for the JetStream store. |
+| `SERVER_NAME` | server-2 | - | Unique name of the server in the cluster. |
+| `CLUSTER_ROUTES_SEED` | server-2 | - | Routes for bootstrapping the cluster. |
+| `JETSTREAM_STORE_DIR` | server-2 | - | Directory for the JetStream store. |
+| `SERVER_NAME` | server-3 | - | Unique name of the server in the cluster. |
+| `CLUSTER_ROUTES_SEED` | server-3 | - | Routes for bootstrapping the cluster. |
+| `JETSTREAM_STORE_DIR` | server-3 | - | Directory for the JetStream store. |
 
 ## Configuration
 
