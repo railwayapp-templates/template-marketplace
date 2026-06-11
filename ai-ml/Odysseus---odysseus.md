@@ -73,6 +73,6 @@ This template deploys a multi-service Odysseus stack on Railway: the main Odysse
 - **Volume:** `/etc/searxng`
 - **Volume:** `/app/data`
 
-**Category:** AI/ML · **Languages:** JavaScript, Python, CSS, HTML, Shell, PowerShell, TypeScript, Dockerfile, Batchfile
+**Category:** AI/ML · **Languages:** Python, JavaScript, CSS, HTML, Shell, PowerShell, TypeScript, Dockerfile, Batchfile
 
 [View on Railway →](https://railway.com/deploy/odysseus)

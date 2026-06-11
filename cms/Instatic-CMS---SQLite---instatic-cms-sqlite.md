@@ -1,6 +1,6 @@
 # Deploy Instatic CMS - SQLite on Railway
 
-Deploy and Host Instatic CMS with SQLite
+Design, build and manage powerful static sites from state-of-the-art CMS
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/instatic-cms-sqlite)
 
@@ -25,7 +25,6 @@ This template runs Instatic from the official Docker image and mounts a Railway 
 | `UPLOADS_DIR` | /app/storage/uploads |
 | `DATABASE_URL` | sqlite:/app/storage/data/cms.db |
 | `INSTATIC_SECRET_KEY` | (secret) |
-| `TRUSTED_PROXY_CIDRS` | 0.0.0.0/0,::/0 |
 
 ## Configuration
 

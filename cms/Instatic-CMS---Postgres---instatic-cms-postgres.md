@@ -1,6 +1,6 @@
 # Deploy Instatic CMS - Postgres on Railway
 
-Deploy and host Instatic CMS with Postgres
+Design, build and manage powerful static sites from state-of-the-art CMS
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/instatic-cms-postgres)
 
@@ -25,7 +25,6 @@ This template provisions an Instatic web service, a Railway Postgres database, a
 | `STATIC_DIR` | corebunch/instatic:latest | /app/dist | - |
 | `UPLOADS_DIR` | corebunch/instatic:latest | /app/storage/uploads | - |
 | `INSTATIC_SECRET_KEY` | corebunch/instatic:latest | (secret) | - |
-| `TRUSTED_PROXY_CIDRS` | corebunch/instatic:latest | 0.0.0.0/0,::/0 | - |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |

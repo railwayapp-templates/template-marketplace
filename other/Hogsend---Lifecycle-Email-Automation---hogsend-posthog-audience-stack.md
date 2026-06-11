@@ -31,14 +31,17 @@ The template provisions six pre-wired services: an HTTP api (ingestion, auth, th
 | `RESEND_API_KEY` | hogsend-api | (secret) | - |
 | `RESEND_FROM_EMAIL` | hogsend-api | noreply@hogsend.com | - |
 | `BETTER_AUTH_SECRET` | hogsend-api | (secret) | - |
-| `STUDIO_ADMIN_EMAIL` | hogsend-api | - | Email for the first Studio admin — created automatically on first boot. Public sign-up is disabled; this is how you get in. Grab the one-time password from the deploy logs and rotate it via the Studio's forgot-password flow. |
+| `STUDIO_ADMIN_EMAIL` | hogsend-api | - | Email for the first Studio admin - created automatically on first boot. Public sign-up is disabled; this is how you get in. The password is STUDIO_ADMIN_PASSWORD, auto-generated and visible in this service's Variables tab. |
 | `HATCHET_CLIENT_TOKEN` | hogsend-api | (secret) | - |
+| `STUDIO_ADMIN_PASSWORD` | hogsend-api | (secret) | Password for the first Studio admin - auto-generated at deploy. Read it here in the Variables tab, then change it from inside Studio once you're in. |
 | `HATCHET_CLIENT_HOST_PORT` | hogsend-api | hatchet-lite.railway.internal:7077 | - |
 | `HATCHET_CLIENT_TLS_STRATEGY` | hogsend-api | none | - |
 | `PORT` | hatchet-lite | 8888 | - |
 | `POSTGRES_USER` | hatchet-lite | (secret) | - |
+| `ADMIN_PASSWORD` | hatchet-lite | (secret) | - |
 | `SERVER_GRPC_PORT` | hatchet-lite | 7077 | - |
 | `POSTGRES_PASSWORD` | hatchet-lite | (secret) | - |
+| `SERVER_ALLOW_SIGNUP` | hatchet-lite | false | Disable open registration — the dashboard is public; admins are seeded via ADMIN_EMAIL/ADMIN_PASSWORD. |
 | `SERVER_GRPC_INSECURE` | hatchet-lite | true | - |
 | `SERVER_MSGQUEUE_KIND` | hatchet-lite | postgres | - |
 | `SERVER_GRPC_BIND_ADDRESS` | hatchet-lite | 0.0.0.0 | - |
@@ -72,6 +75,6 @@ The template provisions six pre-wired services: an HTTP api (ingestion, auth, th
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `pnpm --filter @hogsend/api worker`
 
-**Category:** Other · **Languages:** TypeScript, MDX, Go, Shell, JavaScript, Dockerfile, CSS, HTML, Makefile
+**Category:** Other · **Languages:** TypeScript, MDX, Go, Shell, JavaScript, CSS, Dockerfile, HTML, Makefile
 
 [View on Railway →](https://railway.com/deploy/hogsend-posthog-audience-stack)

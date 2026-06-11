@@ -1,4 +1,4 @@
-# Deploy LobeChat | Multi-Provider AI Chat with a Built-In Gateway on Railway
+# Deploy LobeChat + Bifrost | Multi-Provider AI Chat with Gateway on Railway
 
 Deploy and Host LobeChat | Multi-Provider AI Chat with a Built-In Gateway
 
