@@ -57,6 +57,7 @@ footnote: This deployment is a simplifed version
 | `DISCORD_TOKEN` | (secret) | This is your bot token for the application. It is not the Client Secret found on the General Information page. Ensure that this token remains confidential and never share it publicly. |
 | `DISCORD_PREFIX` | - | This is your bot's command prefix. Use this prefix in front of any command in Discord. It is commonly represented as [p] (for example, [p]help). |
 | `ADDITIONAL_LAUNCH_ARGS` | - | Any addtional launch arguments needed for launching & running the bot. |
+| `RAILPACK_DEPLOY_APT_PACKAGES` | git openjdk-17-jdk-headless build-essential nano | required APT packages for Audio and cog loading features to work |
 
 ## Configuration
 

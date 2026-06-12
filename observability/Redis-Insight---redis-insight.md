@@ -25,6 +25,10 @@ With an intuitive UI and built-in analytics tools, Redis Insight helps you inspe
 | `PORT` | 5540 |
 | `REDIS_PASSWORD` | (secret) |
 
+## Configuration
+
+- **Networking:** Public domain with automatic HTTPS
+
 **Category:** Observability
 
 [View on Railway →](https://railway.com/deploy/redis-insight)

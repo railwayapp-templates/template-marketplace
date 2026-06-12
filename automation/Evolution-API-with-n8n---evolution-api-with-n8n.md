@@ -1,18 +1,16 @@
 # Deploy Evolution API with n8n on Railway
 
-[Jun'26] WhatsApp HTTP REST API with n8n automation, PostgreSQL and Redis.
+[Jun'26] WhatsApp automation platform using Evolution API, n8n & PostgreSQL
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evolution-api-with-n8n)
 
 ## About
 
-Evolution API With n8n is a ready-to-use Railway template for running a WhatsApp HTTP REST API backend with n8n automation. It combines Evolution API, n8n, PostgreSQL, Redis, and persistent volume storage so you can deploy a simple WhatsApp automation stack without manually wiring each service from scratch.
-
-![Imgur](https://imgur.com/5eERErN.png)
+Evolution API With n8n is a ready-to-use Railway template for running a WhatsApp HTTP REST API backend with n8n automation. It combines Evolution API, n8n, PostgreSQL, and persistent volume storage so you can deploy a simple WhatsApp automation stack without manually wiring each service from scratch.
 
 Hosting Evolution API With n8n on Railway gives you a fast way to run Evolution API together with n8n. Evolution API provides the WhatsApp HTTP REST API layer, while n8n gives you a visual workflow automation builder for connecting webhooks, APIs, apps, and custom automation logic.
 
-PostgreSQL stores application data such as Evolution API instances, messages, contacts, sessions, and n8n workflow data. Redis provides caching for Evolution API. Railway handles the infrastructure layer, including service deployment, private networking, public domains, environment variables, and persistent storage.
+PostgreSQL stores application data such as Evolution API instances, messages, contacts, sessions, and n8n workflow data. Railway handles the infrastructure layer, including service deployment, private networking, public domains, environment variables, and persistent storage.
 
 This template is designed for users who want a simple WhatsApp automation stack that is easy to deploy, test, and extend. Once deployed, you can open the Evolution API Manager, connect a WhatsApp instance using the Baileys channel, open n8n, import the starter workflow, and send a WhatsApp message through Evolution API.
 
@@ -23,7 +21,6 @@ This template is designed for users who want a simple WhatsApp automation stack 
 | evolution-api | `evoapicloud/evolution-api:latest` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | n8n | `n8nio/n8n:latest` | Web service |
-| Redis | `redis:8.2.1` | Database |
 
 ## Environment variables
 
@@ -32,7 +29,7 @@ This template is designed for users who want a simple WhatsApp automation stack 
 | `PORT` | evolution-api | 8080 | - |
 | `N8N_ENABLED` | evolution-api | true | - |
 | `DATABASE_PROVIDER` | evolution-api | postgresql | - |
-| `CACHE_REDIS_ENABLED` | evolution-api | true | - |
+| `CACHE_REDIS_ENABLED` | evolution-api | false | - |
 | `AUTHENTICATION_API_KEY` | evolution-api | (secret) | - |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
@@ -69,12 +66,6 @@ This template is designed for users who want a simple WhatsApp automation stack 
 | `N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS` | n8n | true | - |
 | `EXECUTIONS_DATA_SAVE_MANUAL_EXECUTIONS` | n8n | true | - |
 | `N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE` | n8n | true | - |
-| `REDISPORT` | Redis | 6379 | - |
-| `REDISUSER` | Redis | default | - |
-| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis | (secret) | - |
-| `REDIS_PASSWORD` | Redis | (secret) | - |
-| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 
 ## Configuration
 
@@ -83,8 +74,6 @@ This template is designed for users who want a simple WhatsApp automation stack 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 - **Volume:** `/data`
-- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
-- **TCP Proxies:** 6379
 
 **Category:** Automation
 
