@@ -2,7 +2,7 @@
 
 Self-hosted Tableau alternative — dashboards, charts, SQL & team analytics.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/metabase-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/metabase-updated-jun26)
 
 ## About
 
@@ -40,4 +40,4 @@ Metabase is a JVM-based web application distributed as a Docker image. Hosting i
 
 **Category:** Analytics · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/deploy/metabase-1)
+[View on Railway →](https://railway.com/deploy/metabase-updated-jun26)

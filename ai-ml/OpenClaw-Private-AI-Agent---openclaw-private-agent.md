@@ -1,4 +1,4 @@
-# Deploy Deploy and Host OpenClaw on Railway on Railway
+# Deploy OpenClaw — Private AI Agent on Railway
 
 Self-host OpenClaw: private AI agent for ~$1/month. No ChatGPT subscription
 

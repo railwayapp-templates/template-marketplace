@@ -20,9 +20,9 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 | runtime-postgres | `postgres:latest` | Database |
 | kafka | `redpandadata/redpanda:latest` | Worker |
 | vault | `alquimiaai/vault-railway:20260529` | Worker |
-| studio | `alquimiaai/studio:latest-20260609-1613` | Web service |
-| runtime | `alquimiaai/runtime:latest` | Web service |
-| runtime-worker | `alquimiaai/runtime:latest` | Database |
+| studio | `alquimiaai/studio:latest-20260611-1741` | Web service |
+| runtime | `alquimiaai/runtime:0.3.1` | Web service |
+| runtime-worker | `alquimiaai/runtime:0.3.1` | Database |
 | qdrant | `qdrant/qdrant:latest` | Database |
 | minio | `quay.io/minio/minio:latest` | Database |
 

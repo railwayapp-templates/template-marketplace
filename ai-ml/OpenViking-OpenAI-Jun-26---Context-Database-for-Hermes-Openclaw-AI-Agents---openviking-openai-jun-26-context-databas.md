@@ -1,6 +1,6 @@
-# Deploy OpenViking [OpenAI Jun 26'] - Context Database for Hermes, Openclaw, AI Agents on Railway
+# Deploy OpenViking : OpenAI [Jun 26'] - Context Database for Hermes, Openclaw, AI Agents on Railway
 
-Self-Hosted Context Database for Hermes, Openclaw, AI Agents
+Self-Hosted Context Database for Hermes, Openclaw, AI Agents. OpenAI Embeds
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openviking-openai-jun-26-context-databas)
 
