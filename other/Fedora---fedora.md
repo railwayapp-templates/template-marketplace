@@ -35,7 +35,28 @@ After deployment, you can connect to the running Fedora container using Railway 
 * Railway SSH access
 * Railway Volume for persistent storage
 
-## How to Use This Template (After Successful Deployment)
+## How to Use This Template via Railway Console
+
+After deploying this template, you can use the Railway Console to run commands directly inside the deployed service environment.
+
+This is useful for setup commands, authentication commands, maintenance tasks, debugging, or running CLI tools provided by the application.
+
+### Steps
+
+1. Open your Railway project.
+2. Select the service created from this template.
+3. Open the **Console** tab.
+4. Wait until the console session is ready.
+5. Type or paste the command you want to run.
+6. Press **Enter** to execute the command.
+
+Example:
+
+```bash
+cat /etc/os-release
+```
+
+## How to Use This Template via Railway CLI
 
 ### 1. Install Railway CLI
 

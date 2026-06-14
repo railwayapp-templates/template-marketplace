@@ -1,4 +1,4 @@
-# Deploy Alpine Terminal on Railway
+# Deploy Alpine Terminal [Jun'26] on Railway
 
 Alpine Linux browser terminal — password-protected, persistent /root.
 

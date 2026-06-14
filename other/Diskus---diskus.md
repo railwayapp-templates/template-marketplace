@@ -23,7 +23,13 @@ Unlike traditional commenting services that rely on heavy client-side scripts an
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `SMTP_FROM` | backend | - | The default sender address that will appear on outgoing emails. Must be a verified domain in your SMTP provider. Example: "Diskus" <noreply@yourdomain.com> |
+| `SMTP_HOST` | backend | - | The hostname of your SMTP server for sending out email notifications. Example: smtp.resend.com or smtp.gmail.com |
+| `SMTP_PASS` | backend | - | The password or API Key used to authenticate with your SMTP provider. Ensure this is kept secure. |
+| `SMTP_PORT` | backend | - | The port used by your SMTP server. |
+| `SMTP_USER` | backend | (secret) | The username or email address used to authenticate with your SMTP provider. |
 | `JWT_SECRET` | backend | (secret) | A long, random secret string used to securely sign authentication tokens. |
+| `API_BASE_URL` | backend | - | The public base URL of this backend API service, ending with /api/v1. Used internally to construct absolute callback links (e.g., email verification and password resets). |
 | `DATABASE_PATH` | backend | /app/data/sqlite.db | The file path to the database file |
 | `DASHBOARD_ORIGIN` | backend | - | (Optional) The allowed origin for the dashboard CORS policy. Leave empty to allow all origins, or set to your frontend URL (e.g., https://diskus.up.railway.app) |
 | `PORT` | frontend | - | The port on which the Nginx server listens. Railway requires this to be set to 80 for Dockerfile deployments. |

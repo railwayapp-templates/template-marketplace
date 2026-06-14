@@ -21,6 +21,7 @@ This template runs the all-in-one Flow CMS image (admin studio, headless API, an
 
 | Variable | Service | Default |
 | --------- | ------- | ------- |
+| `POSTGRES_DB` | flowcms-db | railway |
 | `POSTGRES_USER` | flowcms-db | (secret) |
 | `POSTGRES_PASSWORD` | flowcms-db | (secret) |
 | `PORT` | flowcms | 8080 |

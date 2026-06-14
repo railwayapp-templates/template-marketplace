@@ -1,4 +1,4 @@
-# Deploy classroomio on Railway
+# Deploy classroomio v1 on Railway
 
 Simple & Beautiful Alternative to Moodle LMS, EdX, Thinkific and Teachable
 

@@ -1,4 +1,4 @@
-# Deploy classroomio selfhost on Railway
+# Deploy classroomio on Railway
 
 Deploy and Host classroomio selfhost with Railway
 
@@ -14,16 +14,19 @@ Hosting ClassroomIO means running three application services together: the **API
 
 | Service | Source | Type |
 |---------|--------|------|
+| db-studio | `ghcr.io/drizzle-team/gateway:1.3.0` | Worker |
 | cio-dashboard | [classroomio/classroomio](https://github.com/classroomio/classroomio) | Worker |
 | cio-jobs | [classroomio/classroomio](https://github.com/classroomio/classroomio) | Worker |
 | Redis | `redis:8.2.1` | Database |
 | cio-api | [classroomio/classroomio](https://github.com/classroomio/classroomio) | Worker |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| db | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `PORT` | db-studio | 4983 | - |
+| `STORE_PATH` | db-studio | /app | - |
 | `PORT` | cio-dashboard | 3082 | - |
 | `PUBLIC_IS_SELFHOSTED` | cio-dashboard | true | - |
 | `ALLOWED_EXTERNAL_DOMAINS` | cio-dashboard | https://<your-r2-public-domain> | - |
@@ -62,11 +65,11 @@ Hosting ClassroomIO means running three application services together: the **API
 | `OBJECT_STORAGE_FORCE_PATH_STYLE` | cio-api | true | - |
 | `OBJECT_STORAGE_SECRET_ACCESS_KEY` | cio-api | (secret) | - |
 | `OBJECT_STORAGE_MEDIA_PUBLIC_BASE_URL` | cio-api | https://<your-r2-public-domain>/media | Email (see section 4) |
-| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
-| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
-| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
-| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `POSTGRES_DB` | db | railway | Default database created when image is started. |
+| `DATABASE_URL` | db | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | db | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | db | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | db | - | Public URL to connect to Postgres database, used by the Data panel. |
 
 ## Configuration
 
