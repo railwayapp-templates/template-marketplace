@@ -33,6 +33,7 @@ PostgreSQL S3 Backups runs as a Bun application that executes `pg_dump` operatio
 | `BACKUP_FILE_PREFIX` | backup | The prefix for the backup file name. |
 | `BACKUP_CRON_SCHEDULE` | 0 0 * * * | The cron schedule for backups. |
 | `AWS_SECRET_ACCESS_KEY` | (secret) | Your S3 secret access key. |
+| `BACKUP_RETENTION_DAYS` | - | Number of days to keep backups before automatically deleting them. |
 
 **Category:** Automation · **Languages:** TypeScript, Dockerfile
 

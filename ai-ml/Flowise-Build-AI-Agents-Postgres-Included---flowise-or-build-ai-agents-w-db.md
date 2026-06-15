@@ -1,6 +1,6 @@
 # Deploy Flowise | Build AI Agents [Postgres Included] on Railway
 
-[May '26] Low-code developer tool for building LLM Applications
+[Jun '26] Low-code developer tool for building LLM Applications
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowise-or-build-ai-agents-w-db)
 

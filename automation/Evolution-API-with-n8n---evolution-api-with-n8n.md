@@ -6,11 +6,13 @@
 
 ## About
 
-Evolution API With n8n is a ready-to-use Railway template for running a WhatsApp HTTP REST API backend with n8n automation. It combines Evolution API, n8n, PostgreSQL, and persistent volume storage so you can deploy a simple WhatsApp automation stack without manually wiring each service from scratch.
+Evolution API With n8n is a ready-to-use Railway template for running a WhatsApp HTTP REST API backend with n8n automation. It combines Evolution API, n8n, PostgreSQL for Evolution API, and persistent volume storage so you can deploy a simple WhatsApp automation stack without manually wiring each service from scratch.
 
 Hosting Evolution API With n8n on Railway gives you a fast way to run Evolution API together with n8n. Evolution API provides the WhatsApp HTTP REST API layer, while n8n gives you a visual workflow automation builder for connecting webhooks, APIs, apps, and custom automation logic.
 
-PostgreSQL stores application data such as Evolution API instances, messages, contacts, sessions, and n8n workflow data. Railway handles the infrastructure layer, including service deployment, private networking, public domains, environment variables, and persistent storage.
+PostgreSQL is used by Evolution API to store application data such as instances, messages, contacts, and session-related records. n8n uses its default SQLite storage with a persistent volume, keeping the stack lighter while still preserving workflows, credentials, and local n8n data across redeployments.
+
+Railway handles the infrastructure layer, including service deployment, private networking, public domains, environment variables, PostgreSQL, and persistent storage.
 
 This template is designed for users who want a simple WhatsApp automation stack that is easy to deploy, test, and extend. Once deployed, you can open the Evolution API Manager, connect a WhatsApp instance using the Baileys channel, open n8n, import the starter workflow, and send a WhatsApp message through Evolution API.
 
@@ -38,7 +40,6 @@ This template is designed for users who want a simple WhatsApp automation stack 
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `TZ` | n8n | Asia/Jakarta | - |
 | `PORT` | n8n | 5678 | - |
-| `DB_TYPE` | n8n | postgresdb | - |
 | `N8N_PORT` | n8n | 5678 | - |
 | `N8N_PROTOCOL` | n8n | https | - |
 | `N8N_LOG_LEVEL` | n8n | info | - |
@@ -49,13 +50,8 @@ This template is designed for users who want a simple WhatsApp automation stack 
 | `N8N_RUNNERS_MODE` | n8n | internal | - |
 | `EVOLUTION_API_KEY` | n8n | (secret) | - |
 | `N8N_SECURE_COOKIE` | n8n | true | - |
-| `DB_POSTGRESDB_PORT` | n8n | 5432 | - |
-| `DB_POSTGRESDB_USER` | n8n | (secret) | - |
 | `N8N_RUNNERS_ENABLED` | n8n | true | - |
 | `EXECUTIONS_DATA_PRUNE` | n8n | true | - |
-| `DB_POSTGRESDB_DATABASE` | n8n | railway | - |
-| `DB_POSTGRESDB_PASSWORD` | n8n | (secret) | - |
-| `DB_POSTGRESDB_POOL_SIZE` | n8n | 5 | - |
 | `EXECUTIONS_DATA_MAX_AGE` | n8n | 336 | - |
 | `N8N_DIAGNOSTICS_ENABLED` | n8n | false | - |
 | `N8N_HIRING_BANNER_ENABLED` | n8n | false | - |

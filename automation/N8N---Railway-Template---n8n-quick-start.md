@@ -1,4 +1,4 @@
-# Deploy N8N Quick Start on Railway
+# Deploy N8N - Railway Template on Railway
 
 Self-hosted workflow automation tool, free and open-source.
 

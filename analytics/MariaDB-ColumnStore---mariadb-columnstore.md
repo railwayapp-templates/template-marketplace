@@ -22,6 +22,7 @@ MariaDB ColumnStore is best suited for read-heavy analytical workloads such as `
 
 | Variable | Default |
 | --------- | ------- |
+| `PM1` | mcs1 |
 | `CGROUP` | ./ |
 | `CEJ_USER` | (secret) |
 | `CMAPI_KEY` | (secret) |

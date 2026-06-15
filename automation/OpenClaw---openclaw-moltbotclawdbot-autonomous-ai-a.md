@@ -1,6 +1,6 @@
 # Deploy OpenClaw on Railway
 
-[May '26] Self Host OpenClaw on Railway. All in one Bundle.
+[Jun '26] Self Host OpenClaw on Railway. All in one Bundle.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-moltbotclawdbot-autonomous-ai-a)
 

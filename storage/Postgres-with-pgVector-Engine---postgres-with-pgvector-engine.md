@@ -1,6 +1,6 @@
 # Deploy Postgres with pgVector Engine on Railway
 
-[May '26] Host a PostgreSQL database with vector support in under 1 minute
+[Jun '26] Host a PostgreSQL database with vector support in under 1 minute
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-with-pgvector-engine)
 

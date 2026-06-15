@@ -6,7 +6,7 @@ Open source self-hostable customer portal built on Linear
 
 ## About
 
-Open source self-hostable customer portal built on Linear
+Open source self-hostable customer portal built on Linear.
 
 ### 1. Create Linear app 
 a. Choose your name, enter other fields
@@ -37,6 +37,7 @@ b. For JWT encryption you can run
 
 | Variable | Default |
 | --------- | ------- |
+| `LABEL_NAME` | "needline" |
 | `CLIENT_TOKEN` | (secret) |
 
 ## Configuration

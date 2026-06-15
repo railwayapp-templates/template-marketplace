@@ -18,13 +18,15 @@ This is using the most basic code for deploy TAC with openai agent.
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `OPENAI_API_KEY` | (secret) |
-| `TWILIO_API_KEY` | (secret) |
-| `TWILIO_LOG_LEVEL` | DEBUG |
-| `TWILIO_API_SECRET` | (secret) |
-| `TWILIO_AUTH_TOKEN` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `OPENAI_API_KEY` | (secret) | openai api key to use ai agent |
+| `TWILIO_API_KEY` | (secret) | - |
+| `TWILIO_LOG_LEVEL` | DEBUG | - |
+| `TWILIO_API_SECRET` | (secret) | - |
+| `TWILIO_AUTH_TOKEN` | (secret) | - |
+| `TWILIO_PHONE_NUMBER` | - | twilio phone number |
+| `TWILIO_VOICE_PUBLIC_DOMAIN` | - | Update it after having public domain |
 
 **Category:** Other · **Languages:** Python, HTML, Procfile
 
