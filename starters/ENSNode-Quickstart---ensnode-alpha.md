@@ -1,4 +1,4 @@
-# Deploy ENSNode Alpha on Railway
+# Deploy ENSNode Quickstart on Railway
 
 The full-stack development platform for ENSv2
 
@@ -43,9 +43,9 @@ ENSNode is a development platform built from multiple services.
 | `ENSINDEXER_SCHEMA_NAME` | ENSApi | ensdb_writer_0 | The name of ENSDb Writer Schema in ENSDb.  _MUST_ be same as the one configured in the _ENSIndexer instance_. |
 | `REFERRAL_PROGRAM_EDITIONS` | ENSApi | - | Referral Program Edition Config Set Definition. For example, `https://ensawards.org/production-editions.json`. |
 | `LOG_LEVEL` | ENSRainbow | info | - |
-| `LABEL_SET_ID` | ENSRainbow | searchlight | - |
+| `LABEL_SET_ID` | ENSRainbow | subgraph | - |
 | `DB_SCHEMA_VERSION` | ENSRainbow | 3 | - |
-| `LABEL_SET_VERSION` | ENSRainbow | 1 | - |
+| `LABEL_SET_VERSION` | ENSRainbow | 0 | - |
 
 ## Configuration
 

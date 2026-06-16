@@ -14,25 +14,27 @@ Hosting Ghostlight AI Companion on Railway gives you a full private deployment f
 
 | Service | Source | Type |
 |---------|--------|------|
-| Ghostlight AI Companions | [jcsnowfox/ghostlight-personalized-AI-companion](https://github.com/jcsnowfox/ghostlight-personalized-AI-companion) | Web service |
+| Ghostlight Companions | `ghcr.io/jcsnowfox/ghostlight-personalized-ai-companion:latest` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `GIPHY_API_KEY` | Ghostlight AI Companions | (secret) | - |
-| `ADMIN_PASSWORD` | Ghostlight AI Companions | (secret) | - |
-| `ADMIN_USERNAME` | Ghostlight AI Companions | (secret) | - |
-| `GETIMG_API_KEY` | Ghostlight AI Companions | (secret) | - |
-| `SUPPORT_EMAIL_TO` | Ghostlight AI Companions | jcsnowfox@gmail.com | - |
-| `DISCORD_BOT_TOKEN` | Ghostlight AI Companions | (secret) | - |
-| `ELEVENLABS_API_KEY` | Ghostlight AI Companions | (secret) | - |
-| `FISH_AUDIO_API_KEY` | Ghostlight AI Companions | (secret) | - |
-| `OPENROUTER_API_KEY` | Ghostlight AI Companions | (secret) | - |
-| `SUPPORT_EMAIL_FROM` | Ghostlight AI Companions | noreply | - |
-| `SUPPORT_DISCORD_CHANNEL_ID` | Ghostlight AI Companions | 1515620388728733806 | - |
-| `SUPPORT_DISCORD_WEBHOOK_URL` | Ghostlight AI Companions | https://discord.com/api/webhooks/1515640097649856564/MhDhEdQ1YQOVQh_QK6cIwhY2btAQ4QmPFBY9zpNZT3CVK-biGBZf8UnAUhK7_zL7Ptdd | - |
+| `SITE_URL` | Ghostlight Companions | https://your-service-url.up.railway.app | - |
+| `GIPHY_API_KEY` | Ghostlight Companions | (secret) | - |
+| `GETIMG_API_KEY` | Ghostlight Companions | (secret) | - |
+| `SESSION_SECRET` | Ghostlight Companions | (secret) | - |
+| `GHOSTLIGHT_MODE` | Ghostlight Companions | factory | - |
+| `SUPPORT_EMAIL_TO` | Ghostlight Companions | jcsnowfox@gmail.com | - |
+| `DISCORD_BOT_TOKEN` | Ghostlight Companions | (secret) | - |
+| `ELEVENLABS_API_KEY` | Ghostlight Companions | (secret) | - |
+| `OPENROUTER_API_KEY` | Ghostlight Companions | (secret) | - |
+| `TELEGRAM_BOT_TOKEN` | Ghostlight Companions | (secret) | - |
+| `GHOSTLIGHT_LICENSE_KEY` | Ghostlight Companions | test-or-customer-license-key | - |
+| `SUPPORT_DISCORD_CHANNEL_ID` | Ghostlight Companions | 1515620388728733806 | - |
+| `SUPPORT_DISCORD_WEBHOOK_URL` | Ghostlight Companions | https://discord.com/api/webhooks/1515640097649856564/MhDhEdQ1YQOVQh_QK6cIwhY2btAQ4QmPFBY9zpNZT3CVK-biGBZf8UnAUhK7_zL7Ptdd | - |
+| `GHOSTLIGHT_LICENSE_PUBLIC_KEY` | Ghostlight Companions | your-public-license-key | - |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
@@ -41,11 +43,10 @@ Hosting Ghostlight AI Companion on Railway gives you a full private deployment f
 
 ## Configuration
 
-- **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Other · **Languages:** TypeScript, CSS, HTML, JavaScript, Shell
+**Category:** Other
 
 [View on Railway →](https://railway.com/deploy/ghostlight-ai-app)

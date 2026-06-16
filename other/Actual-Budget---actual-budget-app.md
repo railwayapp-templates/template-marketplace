@@ -2,7 +2,7 @@
 
 A super fast and privacy-focused app for managing your finances.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/actual-budget-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/actual-budget-app)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting Actual Budget gives you your own private budgeting server that can be ac
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/deploy/actual-budget-1)
+[View on Railway →](https://railway.com/deploy/actual-budget-app)
