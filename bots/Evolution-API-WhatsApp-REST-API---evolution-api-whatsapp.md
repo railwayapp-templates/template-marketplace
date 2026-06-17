@@ -6,7 +6,7 @@ WhatsApp REST API — no Meta approval, no per-message fees.
 
 ## About
 
-Evolution API is an open-source WhatsApp REST API with **8.3k+ GitHub stars** — built on Baileys and Whatsmeow, it gives developers programmatic control of WhatsApp accounts through a RESTful interface without requiring Meta's Business API approval. Send messages, manage groups, receive webhooks, and connect AI agents — all through a self-hosted backend you fully control.
+Evolution API is an open-source WhatsApp REST API with **8.7k+ GitHub stars** — built on Baileys and Whatsmeow, it gives developers programmatic control of WhatsApp accounts through a RESTful interface without requiring Meta's Business API approval. Send messages, manage groups, receive webhooks, and connect AI agents — all through a self-hosted backend you fully control.
 
 ---
 

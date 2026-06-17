@@ -39,9 +39,7 @@ ENSNode is a development platform built from multiple services.
 | `ENSINDEXER_SCHEMA_NAME` | ENSIndexer | ensdb_writer_0 | The name of ENSDb Writer Schema in ENSDb where ENSIndexer will store indexed data. |
 | `ENSDB_URL` | ENSApi | - | URL for the co-located server hosting ENSDb instance. |
 | `ALCHEMY_API_KEY` | ENSApi | (secret) | Your API key for the Alchemy RPC. |
-| `THEGRAPH_API_KEY` | ENSApi | (secret) | The Graph Subgraph API Fallback. |
 | `ENSINDEXER_SCHEMA_NAME` | ENSApi | ensdb_writer_0 | The name of ENSDb Writer Schema in ENSDb.  _MUST_ be same as the one configured in the _ENSIndexer instance_. |
-| `REFERRAL_PROGRAM_EDITIONS` | ENSApi | - | Referral Program Edition Config Set Definition. For example, `https://ensawards.org/production-editions.json`. |
 | `LOG_LEVEL` | ENSRainbow | info | - |
 | `LABEL_SET_ID` | ENSRainbow | subgraph | - |
 | `DB_SCHEMA_VERSION` | ENSRainbow | 3 | - |

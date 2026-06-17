@@ -1,6 +1,6 @@
 # Deploy Garage S3 Storage on Railway
 
-Ultra-light S3 server: fast, open-source, plug-and-play 🚀
+Ultra-light S3 server: fast, open-source, plug-and-play.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/garage-s3-storage)
 

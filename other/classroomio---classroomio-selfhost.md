@@ -14,57 +14,57 @@ Hosting ClassroomIO means running three application services together: the **API
 
 | Service | Source | Type |
 |---------|--------|------|
+| cio-minio | `minio/minio` | Database |
 | db-studio | `ghcr.io/drizzle-team/gateway:1.3.0` | Worker |
 | cio-dashboard | [classroomio/classroomio](https://github.com/classroomio/classroomio) | Worker |
-| cio-jobs | [classroomio/classroomio](https://github.com/classroomio/classroomio) | Worker |
+| cio-jobs | [classroomio/classroomio](https://github.com/classroomio/classroomio) (root: /apps/jobs) | Worker |
 | Redis | `redis:8.2.1` | Database |
-| cio-api | [classroomio/classroomio](https://github.com/classroomio/classroomio) | Worker |
+| cio-api | [classroomio/classroomio](https://github.com/classroomio/classroomio) (root: /apps/api) | Worker |
 | db | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `MINIO_ROOT_USER` | cio-minio | (secret) | - |
+| `MINIO_ROOT_PASSWORD` | cio-minio | (secret) | Optional, silences console redirect warnings behind the proxy: |
 | `PORT` | db-studio | 4983 | - |
 | `STORE_PATH` | db-studio | /app | - |
-| `PORT` | cio-dashboard | 3082 | - |
+| `AUTH_BEARER_TOKEN` | cio-dashboard | (secret) | - |
+| `PRIVATE_SERVER_KEY` | cio-dashboard | - | same value as cio-api |
 | `PUBLIC_IS_SELFHOSTED` | cio-dashboard | true | - |
-| `ALLOWED_EXTERNAL_DOMAINS` | cio-dashboard | https://<your-r2-public-domain> | - |
-| `SMTP_HOST` | cio-jobs | <smtp host> | - |
-| `SMTP_PORT` | cio-jobs | 587 | - |
+| `PRIVATE_APP_SUBDOMAINS` | cio-dashboard | app | Optional |
+| `ALLOWED_EXTERNAL_DOMAINS` | cio-dashboard | https://*.yourdomain.com,https://fonts.googleapis.com | or per-directive: CSP_SCRIPT_SRC_DOMAINS, CSP_MEDIA_SRC_DOMAINS, … |
+| `REDIS_URL` | cio-jobs | - | Object storage → cio-minio (same as cio-api) |
 | `SMTP_USER` | cio-jobs | (secret) | - |
-| `SMTP_SENDER` | cio-jobs | no-reply@yourdomain.com | - |
 | `SMTP_PASSWORD` | cio-jobs | (secret) | - |
-| `OPENAI_API_KEY` | cio-jobs | (secret) | - |
-| `OBJECT_STORAGE_ENDPOINT` | cio-jobs | https://<R2_ACCOUNT_ID>.r2.cloudflarestorage.com | - |
-| `OBJECT_STORAGE_BUCKET_MEDIA` | cio-jobs | media | - |
-| `OBJECT_STORAGE_ACCESS_KEY_ID` | cio-jobs | <R2 access key id> | - |
-| `OBJECT_STORAGE_BUCKET_VIDEOS` | cio-jobs | videos | - |
-| `OBJECT_STORAGE_BUCKET_DOCUMENTS` | cio-jobs | documents | - |
+| `OPENAI_API_KEY` | cio-jobs | (secret) | transcription + AI course generation |
+| `OBJECT_STORAGE_PUBLIC_ENDPOINT` | cio-jobs | https://storage.yourdomain.com | - |
 | `OBJECT_STORAGE_FORCE_PATH_STYLE` | cio-jobs | true | - |
 | `OBJECT_STORAGE_SECRET_ACCESS_KEY` | cio-jobs | (secret) | - |
-| `OBJECT_STORAGE_MEDIA_PUBLIC_BASE_URL` | cio-jobs | https://<your-r2-public-domain>/media | - |
+| `OBJECT_STORAGE_MEDIA_PUBLIC_BASE_URL` | cio-jobs | https://storage.yourdomain.com/media | Optional bucket overrides (defaults videos/documents/media): |
 | `REDISPORT` | Redis | 6379 | - |
 | `REDISUSER` | Redis | default | - |
 | `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
 | `REDISPASSWORD` | Redis | (secret) | - |
 | `REDIS_PASSWORD` | Redis | (secret) | - |
 | `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
-| `PORT` | cio-api | 3081 | - |
-| `SMTP_HOST` | cio-api | <smtp host> | - |
-| `SMTP_PORT` | cio-api | 587 | - |
 | `SMTP_USER` | cio-api | (secret) | - |
-| `SMTP_SENDER` | cio-api | no-reply@yourdomain.com | - |
+| `SMTP_SENDER` | cio-api | - | Object storage → cio-minio |
 | `SMTP_PASSWORD` | cio-api | (secret) | - |
-| `DASHBOARD_ORIGIN` | cio-api | - | Object storage (Cloudflare R2 via S3 API — see section 4) |
+| `OPENAI_API_KEY` | cio-api | (secret) | - |
+| `DASHBOARD_ORIGIN` | cio-api | - | Auth secrets (from Step 2) |
+| `UNSPLASH_API_KEY` | cio-api | (secret) | - |
 | `AUTH_BEARER_TOKEN` | cio-api | (secret) | - |
+| `PUBLIC_SERVER_URL` | cio-api | https://api.yourdomain.com | only if api is public |
 | `BETTER_AUTH_SECRET` | cio-api | (secret) | - |
-| `PUBLIC_IS_SELFHOSTED` | cio-api | true | - |
-| `OBJECT_STORAGE_ENDPOINT` | cio-api | https://<R2_ACCOUNT_ID>.r2.cloudflarestorage.com | - |
-| `OBJECT_STORAGE_ACCESS_KEY_ID` | cio-api | <R2 access key id> | - |
+| `PRIVATE_SERVER_KEY` | cio-api | <openssl rand -hex 32> | identical in cio-dashboard |
+| `GOOGLE_CLIENT_SECRET` | cio-api | (secret) | - |
+| `PUBLIC_IS_SELFHOSTED` | cio-api | true | Reference the dashboard service's Railway domain (custom domain? hardcode https://app.yourdomain.com) |
+| `OBJECT_STORAGE_PUBLIC_ENDPOINT` | cio-api | https://storage.yourdomain.com | - |
 | `OBJECT_STORAGE_FORCE_PATH_STYLE` | cio-api | true | - |
 | `OBJECT_STORAGE_SECRET_ACCESS_KEY` | cio-api | (secret) | - |
-| `OBJECT_STORAGE_MEDIA_PUBLIC_BASE_URL` | cio-api | https://<your-r2-public-domain>/media | Email (see section 4) |
+| `OBJECT_STORAGE_MEDIA_PUBLIC_BASE_URL` | cio-api | https://storage.yourdomain.com/media | Optional |
 | `POSTGRES_DB` | db | railway | Default database created when image is started. |
 | `DATABASE_URL` | db | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | db | (secret) | User to connect to Postgres DB |

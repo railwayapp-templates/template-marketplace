@@ -2,7 +2,7 @@
 
 Run your AI agents on a machine in the cloud
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/agentsforus-hermes-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/agentsforus-hermes-1)
 
 ## About
 
@@ -17,7 +17,7 @@ itself. You just keep chatting.
 
 | Service | Source | Type |
 |---------|--------|------|
-| hermes-agent-template | [pgill/hermes-agent-template](https://github.com/pgill/hermes-agent-template) | Worker |
+| hermes-agent-template | [pgill/hermes-agent-template](https://github.com/pgill/hermes-agent-template) | Web service |
 
 ## Environment variables
 
@@ -26,6 +26,11 @@ itself. You just keep chatting.
 | `ADMIN_PASSWORD` | (secret) |
 | `BACKUP_GITHUB_TOKEN` | (secret) |
 
-**Category:** Starters · **Languages:** Python, HTML, Dockerfile, Shell
+## Configuration
 
-[View on Railway →](https://railway.com/deploy/agentsforus-hermes-template)
+- **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/data`
+
+**Category:** Starters · **Languages:** Python, HTML, Shell, Dockerfile
+
+[View on Railway →](https://railway.com/deploy/agentsforus-hermes-1)
