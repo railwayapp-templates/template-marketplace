@@ -25,7 +25,7 @@ Hosting OpenClaw involves running it as a long-lived service with access to envi
 | `PORT` | 8080 | Port for wrapper server. |
 | `ENABLE_WEB_TUI` | true | Gives an option Terminal UI |
 | `SETUP_PASSWORD` | (secret) | Password to access /setup wizard |
-| `OPENCLAW_VERSION` | 2026.5.20 | Pin openclaw version. Use 'latest' to always take the most recent version. |
+| `OPENCLAW_VERSION` | 2026.6.8 | Pin openclaw version. Use 'latest' to always take the most recent version. |
 | `OPENCLAW_STATE_DIR` | /data/.openclaw | Where config and credentials are stored. |
 | `INTERNAL_GATEWAY_HOST` | 127.0.0.1 | Internal host for gateway |
 | `INTERNAL_GATEWAY_PORT` | 18789 | Internal port for OpenClaw gateway. |
@@ -37,6 +37,6 @@ Hosting OpenClaw involves running it as a long-lived service with access to envi
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** AI/ML · **Languages:** HTML, JavaScript, Dockerfile, Shell
+**Category:** AI/ML · **Languages:** HTML, JavaScript, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/openclaw-railway-t-1)

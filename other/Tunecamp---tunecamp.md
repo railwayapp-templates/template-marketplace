@@ -14,7 +14,7 @@ Deploying Tunecamp on Railway is fast and secure. The template sets up a Node.js
 
 | Service | Source | Type |
 |---------|--------|------|
-| scobru/tunecamp | `scobru/tunecamp` | Web service |
+| scobru/tunecamp | `scobru/tunecamp` | TCP service |
 
 ## Environment variables
 
@@ -34,6 +34,7 @@ Deploying Tunecamp on Railway is fast and secure. The template sets up a Node.js
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **TCP Proxies:** 8080
 - **Volume:** `/data`
 
 **Category:** Other

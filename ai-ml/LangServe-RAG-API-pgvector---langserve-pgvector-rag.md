@@ -1,6 +1,6 @@
 # Deploy LangServe RAG API + pgvector on Railway
 
-Deploy this application on Railway.
+LangServe RAG API with FastAPI, Postgres, pgvector, and auth.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/langserve-pgvector-rag)
 

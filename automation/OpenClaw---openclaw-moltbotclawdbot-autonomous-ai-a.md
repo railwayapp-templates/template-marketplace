@@ -25,7 +25,7 @@ Deploying OpenClaw on Railway traditionally requires interactive terminal access
 | `PORT` | 8080 | Port for wrapper server. |
 | `ENABLE_WEB_TUI` | true | Gives an option Terminal UI |
 | `SETUP_PASSWORD` | (secret) | Password to access /setup wizard |
-| `OPENCLAW_VERSION` | 2026.5.20 | Pin openclaw version. Use 'latest' to always take the most recent version. |
+| `OPENCLAW_VERSION` | 2026.6.8 | Pin openclaw version. Use 'latest' to always take the most recent version. |
 | `OPENCLAW_STATE_DIR` | /data/.openclaw | Where config and credentials are stored. |
 | `INTERNAL_GATEWAY_HOST` | 127.0.0.1 | Internal host for gateway |
 | `INTERNAL_GATEWAY_PORT` | 18789 | Internal port for OpenClaw gateway. |
@@ -37,6 +37,6 @@ Deploying OpenClaw on Railway traditionally requires interactive terminal access
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** Automation · **Languages:** HTML, JavaScript, Dockerfile, Shell
+**Category:** Automation · **Languages:** HTML, JavaScript, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/openclaw-moltbotclawdbot-autonomous-ai-a)

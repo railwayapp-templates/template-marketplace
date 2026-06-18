@@ -1,6 +1,6 @@
 # Deploy Mautic + MySQL - Open-Source HubSpot Alternative on Railway
 
-Deploy this application on Railway.
+Mautic marketing automation with MySQL plus worker and cron services.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mautic-mysql-worker-cron)
 

@@ -30,7 +30,6 @@ Hosting ClassroomIO means running three application services together: the **API
 | `MINIO_ROOT_PASSWORD` | cio-minio | (secret) | Optional, silences console redirect warnings behind the proxy: |
 | `PORT` | db-studio | 4983 | - |
 | `STORE_PATH` | db-studio | /app | - |
-| `AUTH_BEARER_TOKEN` | cio-dashboard | (secret) | - |
 | `PRIVATE_SERVER_KEY` | cio-dashboard | - | same value as cio-api |
 | `PUBLIC_IS_SELFHOSTED` | cio-dashboard | true | - |
 | `PRIVATE_APP_SUBDOMAINS` | cio-dashboard | app | Optional |
@@ -49,6 +48,7 @@ Hosting ClassroomIO means running three application services together: the **API
 | `REDISPASSWORD` | Redis | (secret) | - |
 | `REDIS_PASSWORD` | Redis | (secret) | - |
 | `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
+| `PORT` | cio-api | 3081 | - |
 | `SMTP_USER` | cio-api | (secret) | - |
 | `SMTP_SENDER` | cio-api | - | Object storage → cio-minio |
 | `SMTP_PASSWORD` | cio-api | (secret) | - |

@@ -1,6 +1,6 @@
 # Deploy Rustpad Persistent - Collaborative Editor with SQLite on Railway
 
-Deploy this application on Railway.
+Rustpad collaborative editor with SQLite persistence on a volume.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rustpad-persistent)
 

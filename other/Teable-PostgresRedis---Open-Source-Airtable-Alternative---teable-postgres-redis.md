@@ -1,6 +1,6 @@
 # Deploy Teable + Postgres/Redis - Open-Source Airtable Alternative on Railway
 
-Deploy this application on Railway.
+Teable Airtable alternative with Postgres, Redis, assets, and secrets.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/teable-postgres-redis)
 

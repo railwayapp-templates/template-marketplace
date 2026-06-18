@@ -25,9 +25,9 @@ This is an installation of the Envio indexer, Hasura, PostgreSQL and a public-fa
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| hasura | [0xJem/railway-envio-template](https://github.com/0xJem/railway-envio-template) | Worker |
-| indexer | [0xJem/railway-envio-template](https://github.com/0xJem/railway-envio-template) | Worker |
-| gateway | [0xJem/railway-envio-template](https://github.com/0xJem/railway-envio-template) | Web service |
+| hasura | [0xJem/railway-envio-template](https://github.com/0xJem/railway-envio-template) (root: /apps/hasura/) | Worker |
+| indexer | [0xJem/railway-envio-template](https://github.com/0xJem/railway-envio-template) (root: /apps/indexer/) | Worker |
+| gateway | [0xJem/railway-envio-template](https://github.com/0xJem/railway-envio-template) (root: /apps/graphql-gateway/) | Web service |
 
 ## Environment variables
 
@@ -62,10 +62,8 @@ This is an installation of the Envio indexer, Hasura, PostgreSQL and a public-fa
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
-- **Start command:** `pnpm --filter hasura build`
+- **Start command:** `pnpm start`
 - **Healthcheck:** `/healthz`
-- **Start command:** `pnpm --filter indexer start`
-- **Start command:** `pnpm --filter graphql-gateway build`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Other · **Languages:** JavaScript, Dockerfile, Shell, TypeScript

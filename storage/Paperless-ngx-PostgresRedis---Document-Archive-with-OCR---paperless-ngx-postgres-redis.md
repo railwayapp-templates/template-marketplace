@@ -1,6 +1,6 @@
 # Deploy Paperless-ngx + Postgres/Redis - Document Archive with OCR on Railway
 
-Deploy this application on Railway.
+Paperless-ngx document archive with Postgres, Redis, Tika, and OCR.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/paperless-ngx-postgres-redis)
 

@@ -49,15 +49,15 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 | `TWYD_API_KEY` | studio | (secret) | Twyd API token reference used by InsightHub. |
 | `TWYD_BASEURL` | studio | - | Private Railway URL for Twyd API. |
 | `AUTH_STRATEGY` | studio | lite | Enables Lite authentication for Railway deployments. |
-| `KAPSO_API_KEY` | studio | (secret) | WA Integration |
+| `KAPSO_API_KEY` | studio | (secret) | - |
 | `NEDB_DATA_DIR` | studio | /app/.data | Mounted persistence directory for InsightHub Lite data. |
 | `AUTH_LITE_USERS` | studio | [{"email":"admin@alquimia.ai","name":"Alquimia Admin","password_hash":"JDJiJDEwJDFzZ2tVMDQwV0VsUHR3dFlhalMvWWVUeWJnRUg3c2NQZ2RaSmZaODFXLlVHaWt3RWF6dE9h"}] | Lite auth users JSON provided by the deployer. |
 | `NEXTAUTH_SECRET` | studio | (secret) | Generated NextAuth secret. |
 | `NEXT_PUBLIC_ENV` | studio | staging | Environment label shown by InsightHub. |
 | `ASSISTANT_BASEURL` | studio | - | Private Railway URL for Runtime. |
-| `KAPSO_API_BASE_URL` | studio | https://api.kapso.ai | WA Integration |
+| `WHATSAPP_PROVIDER` | studio | kapso | - |
+| `KAPSO_API_BASE_URL` | studio | https://kapso-proxy-production.up.railway.app | - |
 | `NEXT_PUBLIC_APP_URL` | studio | - | Public Railway URL exposed to InsightHub frontend. |
-| `KAPSO_WEBHOOK_SECRET` | studio | (secret) | WA Integration |
 | `NEXT_PUBLIC_AUTH_STRATEGY` | studio | lite | Exposes Lite auth strategy to the InsightHub frontend. |
 | `ALQUIMIA_ASSISTANT_API_KEY` | studio | (secret) | Runtime API token reference used by InsightHub. |
 | `NEXT_PUBLIC_DEFAULT_TENANT` | studio | alquimia | Default tenant used by InsightHub. |
@@ -70,7 +70,7 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 | `POSTGRES_DB` | runtime | alquimia_runtime | Runtime database name. |
 | `VAULT_TOKEN` | runtime | (secret) | Vault token reference used by Runtime. |
 | `AUTH_PROVIDER` | runtime | api_token | Authentication provider used by Runtime. |
-| `KAPSO_API_KEY` | runtime | (secret) | WA Integration |
+| `KAPSO_API_KEY` | runtime | (secret) | - |
 | `ORAS_INSECURE` | runtime | true | Allows insecure ORAS registry access on private networking. |
 | `POSTGRES_HOST` | runtime | - | Private Railway hostname for Runtime Postgres. |
 | `POSTGRES_PORT` | runtime | 5432 | Runtime Postgres port. |
@@ -84,14 +84,13 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 | `VAULT_MOUNT_POINT` | runtime | secret | Vault KV mount point. |
 | `BLOB_S3_ACCESS_KEY` | runtime | - | MinIO root user reference. |
 | `BLOB_S3_SECRET_KEY` | runtime | (secret) | MinIO root password reference. |
-| `KAPSO_API_BASE_URL` | runtime | https://api.kapso.ai | WA Integration |
+| `KAPSO_API_BASE_URL` | runtime | https://kapso-proxy-production.up.railway.app | - |
 | `BACKEND_SERVER_HOST` | runtime | 0.0.0.0 | Host address Runtime binds to inside Railway. |
 | `BACKEND_SERVER_PORT` | runtime | 8080 | Runtime backend port. |
 | `BLOB_S3_BUCKET_NAME` | runtime | alquimia | MinIO bucket used by Alquimia. |
 | `BLOB_S3_ENDPOINT_URL` | runtime | - | Private Railway URL for MinIO S3-compatible storage. |
 | `DB_CREATE_ON_STARTUP` | runtime | True | Allows Runtime to create database schema on startup. |
 | `KAFKA_CONSUMER_GROUP` | runtime | alquimia-workers | Kafka consumer group used by Runtime workers. |
-| `KAPSO_WEBHOOK_SECRET` | runtime | (secret) | WA Integration |
 | `ALQUIMIA_REGISTRY_DIR` | runtime | /data | Local registry artifact path mounted as a Railway volume. |
 | `ALQUIMIA_RUNTIME_MODE` | runtime | all | - |
 | `BACKEND_SERVER_WORKERS` | runtime | 1 | Number of Runtime backend workers. |
