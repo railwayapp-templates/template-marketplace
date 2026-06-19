@@ -39,7 +39,6 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Activepieces](./automation/Activepieces---53ig3a.md) | Automation |  | - | [Deploy](https://railway.com/deploy/53ig3a) |
 | [Activepieces](./automation/Activepieces---activepieces.md) | Automation | Yes | - | [Deploy](https://railway.com/deploy/activepieces) |
 | [Activepieces - Open-Source Alterative of n8n, Zapier, Make.com](./other/Activepieces-Open-Source-Alterative-of-n8n-Zapier-Makecom---activepieces-automation.md) | Other |  | - | [Deploy](https://railway.com/deploy/activepieces-automation) |
-| [Activepieces v0.72.4](./ai-ml/Activepieces-v0724---activepieces-v0724.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/activepieces-v0724) |
 | [Activepieces w/ Zero Configuration](./automation/Activepieces-w-Zero-Configuration---activepieces-w-zero-configuration.md) | Automation |  | - | [Deploy](https://railway.com/deploy/activepieces-w-zero-configuration) |
 | [Actix](./starters/Actix---yOpd5I.md) | Starters |  | Rust | [Deploy](https://railway.com/deploy/yOpd5I) |
 | [Actix Sqlx](./starters/Actix-Sqlx---4lz789.md) | Starters |  | Rust | [Deploy](https://railway.com/deploy/4lz789) |
@@ -449,6 +448,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [CIAO - check in and out](./observability/CIAO---check-in-and-out---Y_0mDB.md) | Observability |  | - | [Deploy](https://railway.com/deploy/Y_0mDB) |
 | [Citus Postgres 17 Cluster](./storage/Citus-Postgres-17-Cluster---citus-postgres-17-cluster.md) | Storage |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/citus-postgres-17-cluster) |
 | [clamav](./other/clamav---MAnG6f.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/MAnG6f) |
+| [classroom_io](./other/classroomio---classroomio-1.md) | Other |  | - | [Deploy](https://railway.com/deploy/classroomio-1) |
 | [classroomio](./other/classroomio---classroomio-selfhost.md) | Other |  | TypeScript, Svelte, HTML, MDX, CSS, JavaScript, Shell, Dockerfile | [Deploy](https://railway.com/deploy/classroomio-selfhost) |
 | [classroomio v1](./starters/classroomio-v1---classroomio.md) | Starters |  | Svelte, TypeScript, JavaScript, PLpgSQL, MDX, HTML, CSS, Dockerfile, Shell | [Deploy](https://railway.com/deploy/classroomio) |
 | [Claude Code on mobile](./other/Claude-Code-on-mobile---claude-code-on-mobile.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/claude-code-on-mobile) |
@@ -1116,6 +1116,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [grateful-tranquility](./other/grateful-tranquility---grateful-tranquility.md) | Other |  | - | [Deploy](https://railway.com/deploy/grateful-tranquility) |
 | [Graylog](./observability/Graylog---_GawOC.md) | Observability |  | - | [Deploy](https://railway.com/deploy/_GawOC) |
 | [green-calm](./other/green-calm---green-calm.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/green-calm) |
+| [green-keen](./other/green-keen---green-keen.md) | Other |  | HTML | [Deploy](https://railway.com/deploy/green-keen) |
 | [grimmory](./other/grimmory---grimmory.md) | Other |  | - | [Deploy](https://railway.com/deploy/grimmory) |
 | [Grimmory](./other/Grimmory---grimmory-1.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/grimmory-1) |
 | [Grimmory — Self-Hosted Digital Library on Railway](./other/Grimmory-Self-Hosted-Digital-Library-on-Railway---grimmory-digital-library.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/grimmory-digital-library) |
@@ -1454,7 +1455,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Langfuse v2](./ai-ml/Langfuse-v2---gmbqa_.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/gmbqa_) |
 | [Langfuse v3](./other/Langfuse-v3---exma_H.md) | Other |  | - | [Deploy](https://railway.com/deploy/exma_H) |
 | [Langfuse v3 — LLM Observability (Production-Ready Bundle)](./ai-ml/Langfuse-v3-LLM-Observability-Production-Ready-Bundle---YJ_Ivb.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/YJ_Ivb) |
-| [langfuse v3.188.0 (AI Observability)](./ai-ml/langfuse-v31880-AI-Observability---kUsf_w.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/kUsf_w) |
+| [langfuse v3.192.2 (AI Observability)](./ai-ml/langfuse-v31922-AI-Observability---kUsf_w.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/kUsf_w) |
 | [langfuse-source-20260617d](./observability/langfuse-source-20260617d---langfuse-source-20260617d.md) | Observability |  | - | [Deploy](https://railway.com/deploy/langfuse-source-20260617d) |
 | [LangServe - Pirate Speak Template](./ai-ml/LangServe---Pirate-Speak-Template---pW9tXP.md) | AI/ML |  | Python | [Deploy](https://railway.com/deploy/pW9tXP) |
 | [LangServe Neo4j Symantec Layer ](./ai-ml/LangServe-Neo4j-Symantec-Layer---langserve-neo4j-symantec-layer.md) | AI/ML |  | Python, Dockerfile, Shell | [Deploy](https://railway.com/deploy/langserve-neo4j-symantec-layer) |
@@ -1954,6 +1955,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [nginx-modsecurity-waf](./other/nginx-modsecurity-waf---nginx-modsecurity-waf.md) | Other |  | - | [Deploy](https://railway.com/deploy/nginx-modsecurity-waf) |
 | [nginx-password-auth](./authentication/nginx-password-auth---nginx-password-auth.md) | Authentication |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/nginx-password-auth) |
 | [NGO Starter](./cms/NGO-Starter---ngo-starter.md) | CMS |  | TypeScript, JavaScript, Dockerfile, CSS, SCSS, Shell | [Deploy](https://railway.com/deploy/ngo-starter) |
+| [niouzou](./other/niouzou---niouzou.md) | Other |  | Python, TypeScript, CSS, Dockerfile, HTML, Mako, JavaScript, Shell | [Deploy](https://railway.com/deploy/niouzou) |
 | [Nitropage](./cms/Nitropage---G_8roH.md) | CMS |  | - | [Deploy](https://railway.com/deploy/G_8roH) |
 | [Nitropage with Postgres](./cms/Nitropage-with-Postgres---gWj8Bm.md) | CMS |  | - | [Deploy](https://railway.com/deploy/gWj8Bm) |
 | [No-as-a-Service](./other/No-as-a-Service---no-as-a-service.md) | Other |  | JavaScript | [Deploy](https://railway.com/deploy/no-as-a-service) |
@@ -2291,6 +2293,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Phoenix](./starters/Phoenix---0LSBzw.md) | Starters |  | Elixir, HTML, JavaScript, CSS | [Deploy](https://railway.com/deploy/0LSBzw) |
 | [Phoenix - Open Source LLM Observability on Railway](./observability/Phoenix-Open-Source-LLM-Observability-on-Railway---phoenix.md) | Observability |  | - | [Deploy](https://railway.com/deploy/phoenix) |
 | [Phoenix Distillery](./starters/Phoenix-Distillery---_qWFnI.md) | Starters |  | Elixir, HTML, JavaScript, CSS | [Deploy](https://railway.com/deploy/_qWFnI) |
+| [Photoflow](./other/Photoflow---photoflow.md) | Other |  | TypeScript, JavaScript, CSS, Dockerfile, Shell, HTML | [Deploy](https://railway.com/deploy/photoflow) |
 | [Photon OS Terminal](./starters/Photon-OS-Terminal---photon-os-terminal.md) | Starters |  | Dockerfile | [Deploy](https://railway.com/deploy/photon-os-terminal) |
 | [Photoprism](./other/Photoprism---4FjVW0.md) | Other |  | - | [Deploy](https://railway.com/deploy/4FjVW0) |
 | [PhotoPrism [Updated Jun ’26]](./cms/PhotoPrism-Updated-Jun-26---photoprism.md) | CMS |  | - | [Deploy](https://railway.com/deploy/photoprism) |
@@ -3349,6 +3352,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [withoutBG](./ai-ml/withoutBG---withoutbg.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/withoutbg) |
 | [WooCommerce](./cms/WooCommerce---woocommerce.md) | CMS |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/woocommerce) |
 | [WooCommerce ChatGPT App](./other/WooCommerce-ChatGPT-App---woocommerce-chatgpt-app.md) | Other |  | TypeScript, Shell, HTML | [Deploy](https://railway.com/deploy/woocommerce-chatgpt-app) |
+| [wordpress](./other/wordpress---wordpress.md) | Other |  | - | [Deploy](https://railway.com/deploy/wordpress) |
 | [Wordpress](./cms/Wordpress---wordpress-2.md) | CMS |  | - | [Deploy](https://railway.com/deploy/wordpress-2) |
 | [Wordpress](./cms/Wordpress---wordpress-1.md) | CMS |  | - | [Deploy](https://railway.com/deploy/wordpress-1) |
 | [WordPress](./cms/WordPress---EP4wIt.md) | CMS |  | - | [Deploy](https://railway.com/deploy/EP4wIt) |

@@ -14,7 +14,7 @@ Deploying strava-mcp-server requires a server that handles OAuth 2.0 token manag
 
 | Service | Source | Type |
 |---------|--------|------|
-| strava-mcp-server | [meimakes/strava-mcp-server](https://github.com/meimakes/strava-mcp-server) | Worker |
+| strava-mcp-server | [madebydia/strava-mcp-server](https://github.com/madebydia/strava-mcp-server) | Worker |
 
 **Category:** Other · **Languages:** TypeScript, JavaScript
 

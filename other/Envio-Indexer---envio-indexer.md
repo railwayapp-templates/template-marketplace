@@ -25,9 +25,9 @@ This is an installation of the Envio indexer, Hasura, PostgreSQL and a public-fa
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| hasura | [0xJem/railway-envio-template](https://github.com/0xJem/railway-envio-template) (root: /apps/hasura/) | Worker |
-| indexer | [0xJem/railway-envio-template](https://github.com/0xJem/railway-envio-template) (root: /apps/indexer/) | Worker |
-| gateway | [0xJem/railway-envio-template](https://github.com/0xJem/railway-envio-template) (root: /apps/graphql-gateway/) | Web service |
+| hasura | [0xJem/railway-envio-template](https://github.com/0xJem/railway-envio-template) (root: /apps/hasura) | Worker |
+| indexer | [0xJem/railway-envio-template](https://github.com/0xJem/railway-envio-template) (root: /apps/indexer) | Worker |
+| gateway | [0xJem/railway-envio-template](https://github.com/0xJem/railway-envio-template) (root: /apps/graphql-gateway) | Web service |
 
 ## Environment variables
 
@@ -39,7 +39,7 @@ This is an installation of the Envio indexer, Hasura, PostgreSQL and a public-fa
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `PORT` | hasura | 8080 | Hasura port |
-| `HASURA_GRAPHQL_ADMIN_SECRET` | hasura | (secret) | Hasura admin secret |
+| `HASURA_GRAPHQL_ADMIN_SECRET` | hasura | (secret) | Auto-generated Hasura admin secret |
 | `HASURA_GRAPHQL_DATABASE_URL` | hasura | - | Postgres database URL |
 | `HASURA_GRAPHQL_ENABLE_CONSOLE` | hasura | false | Whether to enable the console |
 | `HASURA_GRAPHQL_UNAUTHORIZED_ROLE` | hasura | public | Hasura role used for unauthenticated access |
@@ -62,8 +62,8 @@ This is an installation of the Envio indexer, Hasura, PostgreSQL and a public-fa
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
-- **Start command:** `pnpm start`
 - **Healthcheck:** `/healthz`
+- **Start command:** `pnpm start`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Other · **Languages:** JavaScript, Dockerfile, Shell, TypeScript

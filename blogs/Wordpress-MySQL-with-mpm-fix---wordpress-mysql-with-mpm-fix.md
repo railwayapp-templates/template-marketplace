@@ -15,7 +15,7 @@ This is a pure Wordpress deployment. No additional plugins, no themes. After dep
 | Service | Source | Type |
 |---------|--------|------|
 | wordpress | `wordpress` | Web service |
-| MySQL | `mysql:9.4` | Database |
+| MySQL | `mysql:9.7` | Database |
 
 ## Environment variables
 
@@ -31,10 +31,10 @@ This is a pure Wordpress deployment. No additional plugins, no themes. After dep
 | `WORDPRESS_LOGGED_IN_SALT` | wordpress | - | Change these to different unique phrases! You can generate these using the WordPress.org secret-key service: https://api.wordpress.org/secret-key/1.1/salt/ |
 | `WORDPRESS_SECURE_AUTH_KEY` | wordpress | (secret) | Change these to different unique phrases! You can generate these using the WordPress.org secret-key service: https://api.wordpress.org/secret-key/1.1/salt/ |
 | `WORDPRESS_SECURE_AUTH_SALT` | wordpress | - | Change these to different unique phrases! You can generate these using the WordPress.org secret-key service: https://api.wordpress.org/secret-key/1.1/salt/ |
-| `MYSQLPORT` | MySQL | 3306 | - |
-| `MYSQLUSER` | MySQL | wordpress | - |
-| `MYSQLPASSWORD` | MySQL | (secret) | - |
+| `MYSQL_PORT` | MySQL | 3306 | - |
+| `MYSQL_USER` | MySQL | (secret) | - |
 | `MYSQL_DATABASE` | MySQL | wordpress | - |
+| `MYSQL_PASSWORD` | MySQL | (secret) | - |
 | `MYSQL_ROOT_PASSWORD` | MySQL | (secret) | - |
 
 ## Configuration

@@ -14,7 +14,7 @@ Deploying oura-mcp-server requires a server that handles OAuth 2.0 authenticatio
 
 | Service | Source | Type |
 |---------|--------|------|
-| oura-mcp-server | [meimakes/oura-mcp-server](https://github.com/meimakes/oura-mcp-server) | Worker |
+| oura-mcp-server | [madebydia/oura-mcp-server](https://github.com/madebydia/oura-mcp-server) | Worker |
 
 **Category:** Other · **Languages:** TypeScript, Procfile
 

@@ -14,7 +14,7 @@ Deploying hevy-mcp-server requires a running server that can handle SSE (Server-
 
 | Service | Source | Type |
 |---------|--------|------|
-| hevy-mcp-server | [meimakes/hevy-mcp-server](https://github.com/meimakes/hevy-mcp-server) | Worker |
+| hevy-mcp-server | [madebydia/hevy-mcp-server](https://github.com/madebydia/hevy-mcp-server) | Worker |
 
 **Category:** Other · **Languages:** TypeScript, JavaScript
 
