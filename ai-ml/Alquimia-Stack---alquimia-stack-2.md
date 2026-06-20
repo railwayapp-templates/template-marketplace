@@ -58,6 +58,7 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 | `WHATSAPP_PROVIDER` | studio | kapso | - |
 | `KAPSO_API_BASE_URL` | studio | https://kapso-proxy-production.up.railway.app | - |
 | `NEXT_PUBLIC_APP_URL` | studio | - | Public Railway URL exposed to InsightHub frontend. |
+| `EXTERNAL_REGISTRY_URL` | studio | http://harbor.apps.rosa.alquimia.zvb4.p3.openshiftapps.com | - |
 | `NEXT_PUBLIC_AUTH_STRATEGY` | studio | lite | Exposes Lite auth strategy to the InsightHub frontend. |
 | `ALQUIMIA_ASSISTANT_API_KEY` | studio | (secret) | Runtime API token reference used by InsightHub. |
 | `NEXT_PUBLIC_DEFAULT_TENANT` | studio | alquimia | Default tenant used by InsightHub. |
