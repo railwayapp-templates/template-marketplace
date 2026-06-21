@@ -129,6 +129,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Answer](./cms/Answer---w3tCgf.md) | CMS |  | - | [Deploy](https://railway.com/deploy/w3tCgf) |
 | [Anthropic x FastAPI](./ai-ml/Anthropic-x-FastAPI---5o0WPC.md) | AI/ML |  | Python, Dockerfile, Shell | [Deploy](https://railway.com/deploy/5o0WPC) |
 | [Anubis](./other/Anubis---anubis.md) | Other |  | - | [Deploy](https://railway.com/deploy/anubis) |
+| [Anyray](./ai-ml/Anyray---anyray.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/anyray) |
 | [AnythingLLM](./ai-ml/AnythingLLM---anythingllm-on-railway-or-1-click-llm-ap.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/anythingllm-on-railway-or-1-click-llm-ap) |
 | [AnythingLLM](./ai-ml/AnythingLLM---HNSCS1.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/HNSCS1) |
 | [AnythingLLM (latest)](./ai-ml/AnythingLLM-latest---anythingllm-latest.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/anythingllm-latest) |
@@ -251,6 +252,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [beevibe](./ai-ml/beevibe---beevibe.md) | AI/ML |  | TypeScript, HTML, JavaScript, Shell, PLpgSQL, CSS | [Deploy](https://railway.com/deploy/beevibe) |
 | [Behemoth FastAPI](./starters/Behemoth-FastAPI---CtmI_O.md) | Starters |  | Python, Mako, Dockerfile, Shell | [Deploy](https://railway.com/deploy/CtmI_O) |
 | [believable-sparkle](./bots/believable-sparkle---believable-sparkle.md) | Bots |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/believable-sparkle) |
+| [Bemby](./other/Bemby---bemby.md) | Other |  | - | [Deploy](https://railway.com/deploy/bemby) |
 | [bento](./blogs/bento---6fVSiZ.md) | Blogs |  | TypeScript, Dockerfile, Procfile | [Deploy](https://railway.com/deploy/6fVSiZ) |
 | [BentoPDF](./other/BentoPDF---bentopdf-1.md) | Other |  | - | [Deploy](https://railway.com/deploy/bentopdf-1) |
 | [BentoPDF](./other/BentoPDF---bentopdf.md) | Other |  | - | [Deploy](https://railway.com/deploy/bentopdf) |
@@ -524,6 +526,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Convex S3 Backups](./automation/Convex-S3-Backups---convex-backups.md) | Automation |  | TypeScript, Dockerfile | [Deploy](https://railway.com/deploy/convex-backups) |
 | [Convoy](./automation/Convoy---convoy.md) | Automation |  | Dockerfile | [Deploy](https://railway.com/deploy/convoy) |
 | [cool-vast](./other/cool-vast---cool-vast.md) | Other |  | Python, Procfile | [Deploy](https://railway.com/deploy/cool-vast) |
+| [cool-wide](./other/cool-wide---cool-wide.md) | Other |  | TypeScript, CSS, Shell, JavaScript, HTML | [Deploy](https://railway.com/deploy/cool-wide) |
 | [coolLabs MinIO](./storage/coolLabs-MinIO---coollabs-minio.md) | Storage |  | Dockerfile | [Deploy](https://railway.com/deploy/coollabs-minio) |
 | [copaw](./ai-ml/copaw---copaw.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/copaw) |
 | [Copyparty](./storage/Copyparty---copyparty.md) | Storage |  | - | [Deploy](https://railway.com/deploy/copyparty) |
