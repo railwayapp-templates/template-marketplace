@@ -25,7 +25,7 @@ Hosting pocketbase is simple: run the single binary in a container, expose the H
 | `PORT` | 8080 | - |
 | `DATA_DIR` | /data | - |
 | `PB_SHA256` | - | This field is optional; you may leave it empty. |
-| `PB_VERSION` | 0.29.3 | - |
+| `PB_VERSION` | 0.39.4 | - |
 
 ## Configuration
 

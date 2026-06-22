@@ -27,7 +27,7 @@ One-click deploy on Railway with PostgreSQL and object storage. Auto-migrations 
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `PORT` | eguchi-portfolio-app | 8080 | - |
-| `ADMIN_PASSWORD` | eguchi-portfolio-app | (secret) | - |
+| `ADMIN_PASSWORD` | eguchi-portfolio-app | (secret) | 管理画面のログインパスワード（あなたが決めて入力） |
 | `DATABASE_PROVIDER` | eguchi-portfolio-app | postgres | - |
 | `S3_FORCE_PATH_STYLE` | eguchi-portfolio-app | true | - |
 | `S3_SECRET_ACCESS_KEY` | eguchi-portfolio-app | (secret) | - |

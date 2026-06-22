@@ -24,7 +24,7 @@ database together and applies database migrations automatically on first boot.
 
 | Service | Source | Type |
 |---------|--------|------|
-| photo-flow | [sterno/photo-flow](https://github.com/sterno/photo-flow) | Web service |
+| photo-flow | [sterno/photoflow](https://github.com/sterno/photoflow) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
@@ -59,6 +59,6 @@ database together and applies database migrations automatically on first boot.
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Other · **Languages:** TypeScript, JavaScript, CSS, Dockerfile, Shell, HTML
+**Category:** Other · **Languages:** TypeScript, CSS, JavaScript, Dockerfile, Shell, HTML
 
 [View on Railway →](https://railway.com/deploy/photoflow)

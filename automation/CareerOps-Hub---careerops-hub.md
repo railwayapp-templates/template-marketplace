@@ -1,6 +1,6 @@
 # Deploy CareerOps Hub on Railway
 
-[Jun'26] Automate your job hunt with Claude Code in one click! 🌐🤖
+[Jul'26] Automate your job hunt with Claude Code in one click! 🌐🤖
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/careerops-hub)
 
