@@ -77,7 +77,7 @@ Enjoy
 | PostgresGBackup | [omryatia/postgres-gdrive-backup](https://github.com/omryatia/postgres-gdrive-backup) | Worker |
 | Worker | `n8nio/n8n` | Worker |
 | Webhook | `n8nio/n8n` | Web service |
-| Redis | `bitnami/redis` | Database |
+| Redis | `redis:8.2.1` | Database |
 
 ## Environment variables
 

@@ -20,7 +20,7 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 | runtime-postgres | `postgres:latest` | Database |
 | kafka | `redpandadata/redpanda:latest` | Worker |
 | vault | `alquimiaai/vault-railway:20260529` | Worker |
-| studio | `alquimiaai/studio:railway-wa-kapso` | Web service |
+| studio | `alquimiaai/studio:feat-kapso` | Web service |
 | runtime | `alquimiaai/runtime:railway-wa-kapso` | Web service |
 | qdrant | `qdrant/qdrant:latest` | Database |
 | minio | `quay.io/minio/minio:latest` | Database |
@@ -58,7 +58,7 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 | `WHATSAPP_PROVIDER` | studio | kapso | - |
 | `KAPSO_API_BASE_URL` | studio | https://kapso-proxy-production.up.railway.app | - |
 | `NEXT_PUBLIC_APP_URL` | studio | - | Public Railway URL exposed to InsightHub frontend. |
-| `EXTERNAL_REGISTRY_URL` | studio | http://harbor.apps.rosa.alquimia.zvb4.p3.openshiftapps.com | - |
+| `EXTERNAL_REGISTRY_URL` | studio | registry-proxy-production.up.railway.app/alquimia-hub | - |
 | `NEXT_PUBLIC_AUTH_STRATEGY` | studio | lite | Exposes Lite auth strategy to the InsightHub frontend. |
 | `ALQUIMIA_ASSISTANT_API_KEY` | studio | (secret) | Runtime API token reference used by InsightHub. |
 | `NEXT_PUBLIC_DEFAULT_TENANT` | studio | alquimia | Default tenant used by InsightHub. |
@@ -71,14 +71,15 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 | `POSTGRES_DB` | runtime | alquimia_runtime | Runtime database name. |
 | `VAULT_TOKEN` | runtime | (secret) | Vault token reference used by Runtime. |
 | `AUTH_PROVIDER` | runtime | api_token | Authentication provider used by Runtime. |
+| `DOCKER_CONFIG` | runtime | /root/.docker | - |
 | `KAPSO_API_KEY` | runtime | (secret) | - |
-| `ORAS_INSECURE` | runtime | true | Allows insecure ORAS registry access on private networking. |
+| `ORAS_INSECURE` | runtime | false | - |
 | `POSTGRES_HOST` | runtime | - | Private Railway hostname for Runtime Postgres. |
 | `POSTGRES_PORT` | runtime | 5432 | Runtime Postgres port. |
 | `BLOB_S3_SECURE` | runtime | False | Disables HTTPS for private MinIO traffic. |
 | `QDRANT_API_KEY` | runtime | (secret) | Optional Qdrant API key placeholder. |
 | `ALLOWED_ORIGINS` | runtime | ["*"] | CORS allowed origins for Runtime. |
-| `ORAS_PLAIN_HTTP` | runtime | true | Enables plain HTTP for private ORAS registry traffic. |
+| `ORAS_PLAIN_HTTP` | runtime | false | - |
 | `KAFKA_SIGNING_KEY` | runtime | - | 32-byte hex signing key for Kafka events. |
 | `POSTGRES_PASSWORD` | runtime | (secret) | Runtime Postgres password reference. |
 | `POSTGRES_USERNAME` | runtime | (secret) | Runtime database username. |
@@ -89,6 +90,7 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 | `BACKEND_SERVER_HOST` | runtime | 0.0.0.0 | Host address Runtime binds to inside Railway. |
 | `BACKEND_SERVER_PORT` | runtime | 8080 | Runtime backend port. |
 | `BLOB_S3_BUCKET_NAME` | runtime | alquimia | MinIO bucket used by Alquimia. |
+| `REGISTRY_PROXY_HOST` | runtime | registry-proxy-production.up.railway.app | - |
 | `BLOB_S3_ENDPOINT_URL` | runtime | - | Private Railway URL for MinIO S3-compatible storage. |
 | `DB_CREATE_ON_STARTUP` | runtime | True | Allows Runtime to create database schema on startup. |
 | `KAFKA_CONSUMER_GROUP` | runtime | alquimia-workers | Kafka consumer group used by Runtime workers. |
@@ -98,8 +100,10 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 | `IS_ALLOWED_CREDENTIALS` | runtime | (secret) | Disables credentialed CORS for wildcard origins. |
 | `KAFKA_BOOTSTRAP_SERVERS` | runtime | - | Kafka broker used by Runtime event publishing. |
 | `KAFKA_SECURITY_PROTOCOL` | runtime | PLAINTEXT | Private Railway Kafka protocol. |
+| `REGISTRY_PROXY_PASSWORD` | runtime | (secret) | - |
+| `REGISTRY_PROXY_USERNAME` | runtime | (secret) | - |
 | `ALQUIMIA_LOCAL_SESSIONS_DIR` | runtime | /tmp/alquimia-sessions | Local Runtime session directory. |
-| `ALQUIMIA_OCI_REGISTRY_DEFAULT` | runtime | - | Private ORAS registry endpoint. |
+| `ALQUIMIA_OCI_REGISTRY_DEFAULT` | runtime | registry-proxy-production.up.railway.app | - |
 | `ALQUIMIA_REGISTRY_SECRET_RESOLVER` | runtime | (secret) | Secret resolver used by Runtime. |
 | `PORT` | qdrant | 6333 | Internal Qdrant HTTP API port. |
 | `PORT` | minio | 9000 | Internal MinIO S3 API port. |
@@ -108,7 +112,7 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 
 ## Configuration
 
-- **Start command:** `sh -lc 'until mc alias set minio http://${{minio.RAILWAY_PRIVATE_DOMAIN}}:9000 "$MINIO_ROOT_USER" "$MINIO_ROOT_PASSWORD"; do sleep 2; done; mc mb --ignore-existing minio/alquimia'`
+- **Start command:** `sh -lc 'until mc alias set minio http://minio.railway.internal:9000 "$MINIO_ROOT_USER" "$MINIO_ROOT_PASSWORD"; do sleep 2; done; mc mb --ignore-existing minio/alquimia'`
 - **Volume:** `/var/lib/registry`
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `/usr/bin/rpk redpanda start --mode dev-container --smp 1 --memory 512M --overprovisioned --node-id 0 --check=false --kafka-addr 0.0.0.0:9092 --advertise-kafka-addr kafka.railway.internal:9092`
@@ -117,7 +121,7 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 - **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/.data`
-- **Start command:** `sh -lc 'printf "%s\n" "provider_id: inmemory" > /data/embeddings.yaml && exec uv run --no-sync python src/main.py'`
+- **Start command:** `sh -lc 'mkdir -p /data "$DOCKER_CONFIG" && printf "%s\n" "provider_id: inmemory" "params: {}" > /data/embeddings.yaml && AUTH="$(printf "%s:%s" "$REGISTRY_PROXY_USERNAME" "$REGISTRY_PROXY_PASSWORD" | base64 | tr -d "\n")" && printf "{\"auths\":{\"%s\":{\"username\":\"%s\",\"password\":\"%s\",\"auth\":\"%s\"}}}\n" "$REGISTRY_PROXY_HOST" "$REGISTRY_PROXY_USERNAME" "$REGISTRY_PROXY_PASSWORD" "$AUTH" > "$DOCKER_CONFIG/config.json" && chmod 600 "$DOCKER_CONFIG/config.json" && exec uv run --no-sync python src/main.py'`
 - **Healthcheck:** `/health/liveness`
 - **Volume:** `/data`
 - **Volume:** `/qdrant/storage`

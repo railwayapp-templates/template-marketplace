@@ -1,8 +1,8 @@
-# Deploy ENSNode Quickstart on Railway
+# Deploy ENSNode Alpha Quickstart on Railway
 
-The full-stack development platform for ENSv2
+The full-stack development platform for ENSv2.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ensnode-alpha)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ensnode-alpha-quickstart)
 
 ## About
 
@@ -14,21 +14,28 @@ ENSNode is a development platform built from multiple services.
 
 | Service | Source | Type |
 |---------|--------|------|
-| ENSDb Server | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| ENSIndexer | `ghcr.io/namehash/ensnode/ensindexer:latest` | Worker |
-| ENSApi | `ghcr.io/namehash/ensnode/ensapi:latest` | Web service |
 | ENSRainbow | `ghcr.io/namehash/ensnode/ensrainbow:latest` | Database |
+| ENSDb Server | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| ENSApi | `ghcr.io/namehash/ensnode/ensapi:latest` | Web service |
+| ENSIndexer | `ghcr.io/namehash/ensnode/ensindexer:latest` | Worker |
 | ENSAdmin | `ghcr.io/namehash/ensnode/ensadmin:latest` | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `LOG_LEVEL` | ENSRainbow | info | - |
+| `LABEL_SET_ID` | ENSRainbow | searchlight | - |
+| `DB_SCHEMA_VERSION` | ENSRainbow | 3 | - |
+| `LABEL_SET_VERSION` | ENSRainbow | 1 | - |
 | `POSTGRES_DB` | ENSDb Server | railway | Default database created when image is started. |
 | `DATABASE_URL` | ENSDb Server | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | ENSDb Server | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | ENSDb Server | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | ENSDb Server | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `ENSDB_URL` | ENSApi | - | URL for the co-located server hosting ENSDb instance. |
+| `ALCHEMY_API_KEY` | ENSApi | (secret) | Your API key for the Alchemy RPC. |
+| `ENSINDEXER_SCHEMA_NAME` | ENSApi | ensdb_writer_0 | The name of ENSDb Writer Schema in ENSDb.  _MUST_ be same as the one configured in the _ENSIndexer instance_. |
 | `PLUGINS` | ENSIndexer | unigraph,subgraph,protocol-acceleration,basenames,lineanames,threedns,registrars,tokenscope | ENSNode Plugins to be activated. |
 | `ENSDB_URL` | ENSIndexer | - | URL for the co-located server hosting ENSDb instance. |
 | `NAMESPACE` | ENSIndexer | mainnet | The ENS namespace, identifies which ENS protocol deployment ENSNode will provide data for (ex: mainnet or sepolia). |
@@ -37,22 +44,15 @@ ENSNode is a development platform built from multiple services.
 | `ALCHEMY_API_KEY` | ENSIndexer | (secret) | Your API key for the Alchemy RPC. |
 | `LABEL_SET_VERSION` | ENSIndexer | 1 | The label set verion to be applied for ENSRainbow requests. |
 | `ENSINDEXER_SCHEMA_NAME` | ENSIndexer | ensdb_writer_0 | The name of ENSDb Writer Schema in ENSDb where ENSIndexer will store indexed data. |
-| `ENSDB_URL` | ENSApi | - | URL for the co-located server hosting ENSDb instance. |
-| `ALCHEMY_API_KEY` | ENSApi | (secret) | Your API key for the Alchemy RPC. |
-| `ENSINDEXER_SCHEMA_NAME` | ENSApi | ensdb_writer_0 | The name of ENSDb Writer Schema in ENSDb.  _MUST_ be same as the one configured in the _ENSIndexer instance_. |
-| `LOG_LEVEL` | ENSRainbow | info | - |
-| `LABEL_SET_ID` | ENSRainbow | subgraph | - |
-| `DB_SCHEMA_VERSION` | ENSRainbow | 3 | - |
-| `LABEL_SET_VERSION` | ENSRainbow | 0 | - |
 
 ## Configuration
 
+- **Healthcheck:** `/health`
+- **Volume:** `/app/apps/ensrainbow/data`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
-- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/app/apps/ensrainbow/data`
 
 **Category:** Starters
 
-[View on Railway →](https://railway.com/deploy/ensnode-alpha)
+[View on Railway →](https://railway.com/deploy/ensnode-alpha-quickstart)
