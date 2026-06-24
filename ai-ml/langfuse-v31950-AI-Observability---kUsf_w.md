@@ -1,4 +1,4 @@
-# Deploy langfuse v3.194.1 (AI Observability) on Railway
+# Deploy langfuse v3.195.0 (AI Observability) on Railway
 
 Open-source LLM platform for prompt management, tracing, evals & metrics
 
@@ -27,9 +27,9 @@ Comprehensive API: Langfuse is frequently used to power bespoke LLMOps workflows
 | clickhouse | `clickhouse/clickhouse-server:25.11` | Database |
 | postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16.11` | Database |
 | redis | `bitnami/redis:latest` | Database |
-| langfuse-web | `langfuse/langfuse:3.194.1` | Web service |
+| langfuse-web | `langfuse/langfuse:3.195.0` | Web service |
 | minio | `minio/minio` | Database |
-| langfuse-worker | `langfuse/langfuse-worker:3.194.1` | Worker |
+| langfuse-worker | `langfuse/langfuse-worker:3.195.0` | Worker |
 
 ## Environment variables
 

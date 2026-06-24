@@ -2,11 +2,11 @@
 
 Deploy and Host Valkey Bundle with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/valkey-bundle)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/valkey-bundle-1)
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yqG3n6?referralCode=SNAECA&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/EEyYqE?referralCode=2VI7d_&amp;utm_medium=integration&amp;utm_source=template&amp;utm_campaign=generic)
 
 One-click deploy of [Valkey Bundle](https://hub.docker.com/r/valkey/valkey-bundle) on Railway with all modules pre-loaded.
 
@@ -18,7 +18,7 @@ Hosting Valkey Bundle involves deploying a high-performance in-memory data struc
 
 | Service | Source | Type |
 |---------|--------|------|
-| Valkey Bundle | `valkey/valkey-bundle:latest` | Database |
+| Valkey Bundle | `valkey/bundle` | Database |
 
 ## Environment variables
 
@@ -27,15 +27,13 @@ Hosting Valkey Bundle involves deploying a high-performance in-memory data struc
 | `VALKEY_URL` | - | Full connection string (uses reference variables) |
 | `VALKEY_HOST` | - | Private network hostname |
 | `VALKEY_PORT` | 6379 | Valkey server port |
-| `VALKEY_USER	` | default | Valkey username |
+| `VALKEY_USER` | (secret) | Valkey username |
 | `VALKEY_PASSWORD` | (secret) | Auto-generated secure password |
 
 ## Configuration
 
 - **Start command:** `/bin/sh -c "exec docker-entrypoint.sh valkey-server --port ${VALKEY_PORT} --requirepass ${VALKEY_PASSWORD} --save 60 1 --loglevel warning --loadmodule /usr/lib/valkey/libjson.so --loadmodule /usr/lib/valkey/libvalkey_bloom.so --loadmodule /usr/lib/valkey/libsearch.so --loadmodule /usr/lib/valkey/libvalkey_ldap.so"`
-- **TCP Proxies:** 6379
-- **Volume:** `/data`
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/deploy/valkey-bundle)
+[View on Railway →](https://railway.com/deploy/valkey-bundle-1)

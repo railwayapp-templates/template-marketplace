@@ -25,7 +25,7 @@ On its first boot, a custom shell script automatically initializes the cluster t
 | `PORT` | 3900 | Inject the number 3900 into the script and perform the Healthcheck on 3900. |
 | `GARAGE_BUCKET` | my-bucket | Name of the S3 bucket that will be automatically created on the first server startup. You can create others later, but this will be your primary bucket. (Ex: storage-app, images-site). |
 | `GARAGE_KEY_NAME` | my-admin-key | A user-friendly name for the access key that will be automatically generated. The system will create the credentials by linking this key to the primary bucket with read and write permissions. |
-| `GARAGE_ACCESS_KEY` | - | (Recommended) Create your S3 Access Key ID. It MUST start with 'GK' (Ex: GKmyproject123). If left blank, a secure key will be generated in the logs of the first deployment. |
+| `GARAGE_ACCESS_KEY` | - | Must start with GK followed by exactly 24 hexadecimal characters (0-9, a-f), for a total length of 26 characters. |
 | `GARAGE_SECRET_KEY` | (secret) | (Recommended) Create your S3 Secret Key. It must be EXACTLY 64 hexadecimal characters (letters a-f, numbers 0-9). If left blank, one will be automatically generated in the logs. |
 
 ## Configuration

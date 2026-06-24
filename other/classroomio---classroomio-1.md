@@ -17,10 +17,10 @@ Hosting ClassroomIO means running three application services together: the **API
 | Redis | `redis:8.2.1` | Database |
 | cio-dashboard | `classroomio/dashboard:latest` | Worker |
 | db | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| cio-jobs | `canhamzacode/jobs:selfhost` | Worker |
+| cio-jobs | `classroomio/jobs:edge` | Worker |
 | cio-minio | `minio/minio` | Database |
 | db-studio | `ghcr.io/drizzle-team/gateway:1.3.0` | Worker |
-| cio-api | `canhamzacode/api:selfhost` | Worker |
+| cio-api | `classroomio/api:edge` | Worker |
 
 ## Environment variables
 
@@ -53,6 +53,7 @@ Hosting ClassroomIO means running three application services together: the **API
 | `MINIO_ROOT_PASSWORD` | cio-minio | (secret) | Optional, silences console redirect warnings behind the proxy: |
 | `PORT` | db-studio | 4983 | - |
 | `STORE_PATH` | db-studio | /app | - |
+| `PORT` | cio-api | 3081 | - |
 | `SMTP_USER` | cio-api | (secret) | - |
 | `SMTP_SENDER` | cio-api | - | Object storage → cio-minio |
 | `SMTP_PASSWORD` | cio-api | (secret) | - |

@@ -46,7 +46,7 @@ If the gateway status appears **off** when you first open the dashboard, click *
 
 ## Configuration
 
-- **Start command:** `/opt/hermes/bin/hermes dashboard --host 0.0.0.0 --port 9119 --no-open`
+- **Start command:** `sh -lc '/opt/hermes/bin/hermes dashboard --host 0.0.0.0 --port ${PORT:-9119} --no-open & exec /opt/hermes/bin/hermes gateway'`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 

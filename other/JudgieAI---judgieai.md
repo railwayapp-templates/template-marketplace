@@ -16,7 +16,7 @@ Deploying Judgie‑AI on Railway provisions a Streamlit container and a PostgreS
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Judgie-AI | [yosuke1024/Judgie-AI](https://github.com/yosuke1024/Judgie-AI) | Worker |
+| Judgie-AI | [yosuke1024/Judgie-AI](https://github.com/yosuke1024/Judgie-AI) | Web service |
 
 ## Environment variables
 
@@ -33,7 +33,8 @@ Deploying Judgie‑AI on Railway provisions a Streamlit container and a PostgreS
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other · **Languages:** Python, Dockerfile
+**Category:** Other · **Languages:** Python, TypeScript, CSS, Shell, Dockerfile, JavaScript, HTML
 
 [View on Railway →](https://railway.com/deploy/judgieai)

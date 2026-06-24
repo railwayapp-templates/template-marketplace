@@ -1,6 +1,6 @@
 # Deploy niouzou on Railway
 
-Self-hostable swipe news reader that learns your taste as you swipe
+Self-hostable news reader with recommendation.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/niouzou)
 
@@ -56,7 +56,6 @@ services together so the stack comes up ready to swipe — no manual key step.
 
 ## Configuration
 
-- **Healthcheck:** `/healthcheck`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 - **Healthcheck:** `/health`

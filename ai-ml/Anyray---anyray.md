@@ -28,39 +28,29 @@ Hosting Anyray on Railway stands up four services as one project. The gateway ex
 | `POSTGRES_DB` | Postgres | postgres |
 | `POSTGRES_USER` | Postgres | (secret) |
 | `POSTGRES_PASSWORD` | Postgres | (secret) |
+| `ANYRAY_UPDATER_TOKEN` | proxy | (secret) |
+| `ANYRAY_UPDATER_ENABLED` | proxy | false |
+| `ANYRAY_UPDATER_POLL_INTERVAL` | proxy | 86400 |
+| `ANYRAY_UPDATER_PERIODIC_POLLS` | proxy | false |
 | `PORT` | gateway | 8787 |
 | `ANYRAY_HSTS` | gateway | true |
-| `ANYRAY_AUDIT_FILE` | gateway | /data/anyray-settings-audit.log |
-| `ANYRAY_SPEND_FILE` | gateway | /data/spend.jsonl |
+| `ANYRAY_DATA_DIR` | gateway | /data |
 | `ANYRAY_ADMIN_TOKEN` | gateway | (secret) |
 | `ANYRAY_TRUST_PROXY` | gateway | true |
 | `ANYRAY_CONTENT_MODE` | gateway | encrypted |
-| `ANYRAY_SETTINGS_FILE` | gateway | /data/anyray-settings.json |
-| `ANYRAY_PRICING_CONFIG` | gateway | /data/pricing.config.json |
-| `ANYRAY_USER_CAPS_FILE` | gateway | /data/user-caps.config.json |
+| `ANYRAY_DEFAULT_MODEL` | gateway | anthropic/claude-sonnet-4-5 |
 | `ANYRAY_ALLOW_PLAINTEXT` | gateway | false |
 | `ANYRAY_OPTIMIZER_TOKEN` | gateway | (secret) |
-| `ANYRAY_CLIENT_KEYS_FILE` | gateway | /data/client-keys.config.json |
-| `ANYRAY_ENTITLEMENT_FILE` | gateway | /data/entitlement.lease.json |
-| `ANYRAY_PRICING_AUDIT_FILE` | gateway | /data/pricing-settings-audit.log |
-| `ANYRAY_PROVIDER_KEYS_FILE` | gateway | /data/provider-keys.config.json |
-| `ANYRAY_ROUTING_CONFIG_FILE` | gateway | /data/routing.config.json |
 | `ANYRAY_OPTIMIZER_TIMEOUT_MS` | gateway | 800 |
-| `ANYRAY_USER_CAPS_AUDIT_FILE` | gateway | /data/user-caps-audit.log |
-| `ANYRAY_CLIENT_KEYS_AUDIT_FILE` | gateway | /data/client-keys-audit.log |
-| `ANYRAY_PROVIDER_KEYS_AUDIT_FILE` | gateway | /data/provider-keys-audit.log |
-| `ANYRAY_ROUTING_CONFIG_AUDIT_FILE` | gateway | /data/routing-config-audit.log |
 | `ANYRAY_OPTIMIZER_VISION_TIMEOUT_MS` | gateway | 10000 |
 | `PORT` | optimizer | 8088 |
+| `ANYRAY_DATA_DIR` | optimizer | /data |
 | `ANYRAY_ADMIN_TOKEN` | optimizer | (secret) |
 | `ANYRAY_OPTIMIZER_TOKEN` | optimizer | (secret) |
-| `ANYRAY_OPTIMIZER_CONFIG` | optimizer | /data/optimizer.config.json |
-| `ANYRAY_OPTIMIZER_AUDIT_FILE` | optimizer | /data/optimizer-settings-audit.log |
 
 ## Configuration
 
 - **Volume:** `/var/lib/postgresql/data`
-- **Start command:** `sh -c "sed -e 's/gateway:8787/gateway.railway.internal:8787/g' -e 's/optimizer:8088/optimizer.railway.internal:8088/g' -e 's/${ANYRAY_UPDATER_ENABLED}/false/g' -e 's/${ANYRAY_UPDATER_PERIODIC_POLLS}/false/g' -e 's/${ANYRAY_UPDATER_POLL_INTERVAL}/86400/g' -e 's/${ANYRAY_UPDATER_TOKEN}//g' /etc/nginx/templates/default.conf.template > /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'"`
 - **Healthcheck:** `/`
 - **Volume:** `/data`
 - **Healthcheck:** `/health`
