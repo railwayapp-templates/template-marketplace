@@ -1,6 +1,6 @@
 # Deploy Judgie‑AI on Railway
 
-A multi‑tenant AI hackathon platform built with Streamlit and PostgreSQL.
+AI evaluation and feedback platform built with FastAPI and React.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/judgieai)
 
@@ -28,6 +28,9 @@ Deploying Judgie‑AI on Railway provisions a Streamlit container and a PostgreS
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `APP_ENV` | Judgie-AI | production | - |
+| `ALLOWED_IPS` | Judgie-AI | - | Optional) Comma-separated list of allowed IP addresses or subnets (e.g., 203.0.113.195). Leave empty to allow all IP addresses. |
+| `DEFAULT_ADMIN_ID` | Judgie-AI | admin	 | The login username or email for your Admin dashboard. Defaults to 'admin' if left blank. |
+| `DEFAULT_ADMIN_PASSCODE` | Judgie-AI | admin123 | The login password for your Admin account. Defaults to 'admin123' if left blank. (Highly recommended to change this). |
 
 ## Configuration
 
