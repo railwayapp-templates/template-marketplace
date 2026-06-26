@@ -1,4 +1,4 @@
-# Deploy classroom_io on Railway
+# Deploy ClassroomIO LMS on Railway
 
 Deploy and Host classroomio selfhost with Railway
 

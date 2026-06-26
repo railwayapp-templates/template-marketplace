@@ -1,6 +1,6 @@
-# Deploy Streamlit on Railway
+# Deploy Streamlit Hello World on Railway
 
-A minimal Streamlit application
+Streamlit Hello World demo
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/SyDUOJ)
 
@@ -39,6 +39,6 @@ This example is set up to use Nixpacks to build and run the app on [Railway Plat
 - **Start command:** `streamlit run main.py --server.address 0.0.0.0 --server.port 8080 --client.showErrorDetails false --server.fileWatcherType none --browser.gatherUsageStats false --client.toolbarMode minimal`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** AI/ML · **Languages:** Python
+**Category:** Starters · **Languages:** Python
 
 [View on Railway →](https://railway.com/deploy/SyDUOJ)

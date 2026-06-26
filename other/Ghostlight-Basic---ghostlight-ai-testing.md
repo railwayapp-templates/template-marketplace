@@ -1,4 +1,4 @@
-# Deploy Ghostlight AI testing on Railway
+# Deploy Ghostlight Basic on Railway
 
 Deploy and Host Ghostlight AI testing with Railway
 
@@ -57,6 +57,6 @@ Hosting Ghostlight AI testing on Railway gives you a ready-to-run environment fo
 - **Volume:** `/var/lib/postgresql/data`
 - **Volume:** `/qdrant/storage`
 
-**Category:** Other
+**Category:** Other · **Languages:** JavaScript, TypeScript, CSS, HTML, Shell
 
 [View on Railway →](https://railway.com/deploy/ghostlight-ai-testing)

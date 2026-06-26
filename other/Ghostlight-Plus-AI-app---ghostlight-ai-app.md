@@ -1,4 +1,4 @@
-# Deploy Ghostlight AI app on Railway
+# Deploy Ghostlight Plus AI app on Railway
 
 The railway template to run Ghostlight AI companions
 
@@ -25,16 +25,13 @@ Hosting Ghostlight AI Companion on Railway gives you a full private deployment f
 | `GIPHY_API_KEY` | Ghostlight Companions | (secret) | - |
 | `GETIMG_API_KEY` | Ghostlight Companions | (secret) | - |
 | `SESSION_SECRET` | Ghostlight Companions | (secret) | - |
-| `GHOSTLIGHT_MODE` | Ghostlight Companions | factory | - |
 | `SUPPORT_EMAIL_TO` | Ghostlight Companions | jcsnowfox@gmail.com | - |
 | `DISCORD_BOT_TOKEN` | Ghostlight Companions | (secret) | - |
 | `ELEVENLABS_API_KEY` | Ghostlight Companions | (secret) | - |
 | `OPENROUTER_API_KEY` | Ghostlight Companions | (secret) | - |
 | `TELEGRAM_BOT_TOKEN` | Ghostlight Companions | (secret) | - |
-| `GHOSTLIGHT_LICENSE_KEY` | Ghostlight Companions | test-or-customer-license-key | - |
 | `SUPPORT_DISCORD_CHANNEL_ID` | Ghostlight Companions | 1515620388728733806 | - |
 | `SUPPORT_DISCORD_WEBHOOK_URL` | Ghostlight Companions | https://discord.com/api/webhooks/1515640097649856564/MhDhEdQ1YQOVQh_QK6cIwhY2btAQ4QmPFBY9zpNZT3CVK-biGBZf8UnAUhK7_zL7Ptdd | - |
-| `GHOSTLIGHT_LICENSE_PUBLIC_KEY` | Ghostlight Companions | your-public-license-key | - |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
