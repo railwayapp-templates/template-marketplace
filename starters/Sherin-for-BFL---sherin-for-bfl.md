@@ -1,8 +1,8 @@
-# Deploy Sherin on Railway
+# Deploy Sherin for BFL on Railway
 
 Own key. Own domain. Own storage.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sherin)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sherin-for-bfl)
 
 ## About
 
@@ -22,7 +22,7 @@ When the generation reaches a terminal state, Gallery displays the latest output
 
 | Service | Source | Type |
 |---------|--------|------|
-| sherin | [babysea-community/sherin](https://github.com/babysea-community/sherin) | Worker |
+| sherin-for-bfl | [babysea-community/sherin-for-bfl](https://github.com/babysea-community/sherin-for-bfl) | Worker |
 
 ## Environment variables
 
@@ -44,4 +44,4 @@ When the generation reaches a terminal state, Gallery displays the latest output
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, PLpgSQL, CSS
 
-[View on Railway →](https://railway.com/deploy/sherin)
+[View on Railway →](https://railway.com/deploy/sherin-for-bfl)

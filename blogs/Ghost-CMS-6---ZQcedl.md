@@ -6,19 +6,15 @@ Ready to use right after launch! No setup required.
 
 ## About
 
-## Ready to use
-This template doesn't require any customization. You can launch it and start publishing articles right away. Add MailGun credetials to enable automated email sending. This is useful if you want to allow members to signup, and send news letters.
+Ghost CMS 6 is a modern open source publishing platform for blogs, newsletters, memberships, and paid subscriptions. It gives you a clean writing experience, full content ownership, built-in SEO foundations, and tools to grow an audience without relying on a closed publishing platform.
 
-### Customization friendly
-This template is launched from a git repository, making it easy to customize should you want to. Simple eject, and clone your local version to make customizations - the source code is unpacked unlike all the docker versions of ghost.
+[Full setup guide and walkthrough](https://funkyton.com/ghost-on-railway-deploy-your-blog-with-1-click/)
 
-**Instructions:** [https://funkyton.com/ghost-on-railway-deploy-your-blog-with-1-click/](https://funkyton.com/ghost-on-railway-deploy-your-blog-with-1-click/)
+This template lets you deploy the full open source version of Ghost CMS 6 on Railway in just a few minutes. It includes Ghost, MySQL, and a Railway-ready setup so you can launch a working blog without manually setting up servers, databases, Docker, or Linux hosting.
 
-**Optional config**
-- Cloudinary URL to sotre youre media in cloudinary
-- MailGun credentials for email sending.
+The template is designed to be ready to use after deployment. Open your Railway URL, add `/ghost`, create the first admin user, and start publishing.
 
-**About ghost:** Ghost is a powerful app for professional publishers to create, share, and grow a business around their content. It comes with modern tools to build a website, publish content, send newsletters & offer paid subscriptions to members.
+It also uses unpacked source code from GitHub instead of a sealed Docker image, making it easier to inspect, fork, customize, and extend if you ever need to.
 
 ## What gets deployed
 

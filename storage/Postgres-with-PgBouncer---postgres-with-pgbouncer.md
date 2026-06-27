@@ -48,7 +48,7 @@ For operations transaction pooling can't serve (migrations, LISTEN/NOTIFY, sessi
 | `DEFAULT_POOL_SIZE` | PgBouncer | 20 | - |
 | `POSTGRES_PASSWORD` | PgBouncer | (secret) | - |
 | `SERVER_RESET_QUERY` | PgBouncer | DISCARD ALL | - |
-| `MAX_PREPARED_STATEMENTS` | PgBouncer | 100 | - |
+| `MAX_PREPARED_STATEMENTS` | PgBouncer | 300 | - |
 
 ## Configuration
 
