@@ -1,4 +1,4 @@
-# Deploy FastAPI Postgres Redis on Railway
+# Deploy FastAPI with postgres on Railway
 
 [Jun'26] Deploy a FastAPI starter backend with PostgreSQL and Redis.
 

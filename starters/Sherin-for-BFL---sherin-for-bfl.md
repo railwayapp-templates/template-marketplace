@@ -8,7 +8,7 @@ Own key. Own domain. Own storage.
 
 Sherin is a self-hosted private creative workspace for one owner who wants their own key, domain, and storage for generative media. It ships with a dashboard for Studio, Gallery, References, Usage, and Profile, all gated by Supabase Google OAuth and a configured owner email.
 
-Use it when you want a deployable workspace rather than a managed SaaS product. Sherin can run direct Black Forest Labs or BabySea execution, stores generation records in Supabase Postgres, and lets you choose Supabase Storage, Vercel Blob, Cloudflare R2, or AWS S3 for generated media and references.
+Use it when you want a deployable workspace rather than a managed SaaS product. Sherin can run direct Black Forest Labs or BabySea execution, stores generation records in Supabase Postgres, and lets you choose Supabase Storage, AWS S3, Cloudflare R2, or Vercel Blob for generated media and references.
 
 The owner signs in through Supabase Google OAuth, and Sherin compares the account email with `OWNER_EMAIL` before allowing access to the dashboard. Once inside, the navigation exposes Studio, Gallery, References, Usage, and Profile as a private workspace tied to that deployment.
 
