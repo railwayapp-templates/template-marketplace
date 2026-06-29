@@ -1,6 +1,6 @@
 # Deploy 9Router on Railway
 
-Self-hosted AI router for Claude, Codex, Cursor & OpenAI tools.
+Self-hosted AI router for Claude, Gemini, Cursor & OpenAI tools.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9router)
 

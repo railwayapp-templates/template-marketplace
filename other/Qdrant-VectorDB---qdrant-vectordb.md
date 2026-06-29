@@ -1,8 +1,8 @@
-# Deploy Qdrant (Vector DB) on Railway
+# Deploy Qdrant (VectorDB) on Railway
 
 Qdrant vector database with persistent storage for AI/RAG
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qdrant-vector-db)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/qdrant-vectordb)
 
 ## About
 
@@ -20,6 +20,8 @@ Hosting Qdrant means running a stateful database that keeps your vector collecti
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
+| `PORT` | 6333 | Port Railway's healthcheck and edge proxy probe. Must equal QDRANT__SERVICE__HTTP_PORT, or the healthcheck fails with 'service unavailable'. |
+| `QDRANT__SERVICE__HOST` | :: | Bind address. '::' binds IPv6 (dual-stack) so Railway's healthcheck and private networking can reach Qdrant; the default 0.0.0.0 is IPv4-only and fails the healthcheck. |
 | `QDRANT__SERVICE__API_KEY` | (secret) | API key for authenticated access; leave blank to disable auth |
 | `QDRANT__SERVICE__HTTP_PORT` | 6333 | HTTP REST + dashboard port; must match the public domain target port |
 | `QDRANT__STORAGE__STORAGE_PATH` | /qdrant/storage | Persistent storage directory for collections and indexes |
@@ -32,4 +34,4 @@ Hosting Qdrant means running a stateful database that keeps your vector collecti
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/deploy/qdrant-vector-db)
+[View on Railway →](https://railway.com/deploy/qdrant-vectordb)

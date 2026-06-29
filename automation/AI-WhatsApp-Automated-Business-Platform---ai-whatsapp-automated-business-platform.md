@@ -1,6 +1,6 @@
 # Deploy AI WhatsApp Automated Business Platform on Railway
 
-Now Save hours of work through AI powered WhatsApp tool
+AI WhatsApp CRM + cab quote bot. Bookings & follow-ups for cab rental.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ai-whatsapp-automated-business-platform)
 

@@ -1,6 +1,6 @@
 # Deploy Generative Media Starter on Railway
 
-Ship with auth, credits, storage, and generation.
+Ship with auth, credits, storage, and AI generation.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/generative-media-starter)
 

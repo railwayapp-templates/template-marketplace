@@ -12,7 +12,7 @@ Use it when you want a deployable workspace rather than a managed SaaS product. 
 
 The owner signs in through Supabase Google OAuth, and Sherin compares the account email with `OWNER_EMAIL` before allowing access to the dashboard. Once inside, the navigation exposes Studio, Gallery, References, Usage, and Profile as a private workspace tied to that deployment.
 
-In Studio, the owner selects a model, writes a prompt, adjusts schema-aware fields, and attaches optional input images. Sherin validates the active provider configuration, stores the generation record and request metadata, uploads input assets when needed, then dispatches the job through Runway or BabySea provider path.
+In Studio, the owner selects a model, writes a prompt, adjusts schema-aware fields, and attaches optional input files. Sherin validates the active provider configuration, stores the generation record and request metadata, uploads input assets when needed, then dispatches the job through Runway or BabySea provider path.
 
 While a job is queued or running, the dashboard can kick the processing route so stale work continues without leaving the UI. References collects uploaded and URL-based input files from generation metadata, resolves their storage URLs, and keeps copyable reference links close to the creative workflow.
 
