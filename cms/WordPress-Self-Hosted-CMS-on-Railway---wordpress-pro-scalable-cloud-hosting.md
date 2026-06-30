@@ -38,7 +38,7 @@ Typical cost: **~$5–10/month** on Railway's Hobby plan for the full stack.
 | Service | Source | Type |
 |---------|--------|------|
 | mariadb | `mariadb` | Database |
-| Primary | `wordpress` | Database |
+| Wordpress | `wordpress` | Database |
 
 ## Environment variables
 
@@ -49,11 +49,12 @@ Typical cost: **~$5–10/month** on Railway's Hobby plan for the full stack.
 | `MARIADB_PASSWORD` | mariadb | (secret) |
 | `MARIADB_PRIVATE_PORT` | mariadb | 3306 |
 | `MARIADB_ROOT_PASSWORD` | mariadb | (secret) |
-| `PORT` | Primary | 80 |
-| `WORDPRESS_DB_USER` | Primary | (secret) |
-| `WORDPRESS_AUTH_KEY` | Primary | (secret) |
-| `WORDPRESS_DB_PASSWORD` | Primary | (secret) |
-| `WORDPRESS_SECURE_AUTH_KEY` | Primary | (secret) |
+| `PORT` | Wordpress | 80 |
+| `WORDPRESS_DB_NAME` | Wordpress | railway |
+| `WORDPRESS_DB_USER` | Wordpress | (secret) |
+| `WORDPRESS_AUTH_KEY` | Wordpress | (secret) |
+| `WORDPRESS_DB_PASSWORD` | Wordpress | (secret) |
+| `WORDPRESS_SECURE_AUTH_KEY` | Wordpress | (secret) |
 
 ## Configuration
 

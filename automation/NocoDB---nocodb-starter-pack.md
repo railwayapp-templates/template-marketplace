@@ -1,6 +1,6 @@
 # Deploy NocoDB on Railway
 
-[Jun'26] Open Source Airtable Alternative on PostgreSQL
+Self-host an open-source Airtable alternative with NocoDB.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nocodb-starter-pack)
 

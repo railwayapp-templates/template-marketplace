@@ -40,6 +40,6 @@ and opens pull requests — all inside a sandboxed environment — using whateve
 
 - **Volume:** `/.openhands`
 
-**Category:** Other · **Languages:** Python, TypeScript, Go Template, Jinja, Makefile, CSS, JavaScript, Shell, Dockerfile, Mako
+**Category:** AI/ML · **Languages:** Python, TypeScript, Go Template, Jinja, Makefile, CSS, JavaScript, Dockerfile, Shell, Mako
 
 [View on Railway →](https://railway.com/deploy/openhands-coding-agent)

@@ -14,7 +14,7 @@ Adds [PgBouncer](https://www.pgbouncer.org/) as a connection pooler in front of 
 
 Use `DATABASE_URL` from the **PgBouncer** service instead of connecting directly to Postgres.
 
-For operations transaction pooling can't serve (migrations, LISTEN/NOTIFY, session-level `SET`), use `DATABASE_UNPOOLED_URL` (or `DATABASE_PUBLIC_UNPOOLED_URL` over the public network) — they point straight at the database.
+For operations transaction pooling can not serve (migrations, LISTEN/NOTIFY, session-level `SET`), use `DATABASE_UNPOOLED_URL` (or `DATABASE_PUBLIC_UNPOOLED_URL` over the public network) — they point straight at the database.
 
 ## Configuration
 

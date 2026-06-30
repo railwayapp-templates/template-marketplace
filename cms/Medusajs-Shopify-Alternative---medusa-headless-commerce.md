@@ -1,4 +1,4 @@
-# Deploy Deploy and Host Medusa.js v2 on Railway on Railway
+# Deploy Medusa.js | Shopify Alternative on Railway
 
 Self-host Medusa.js v2. Zero transaction fees. Own your store data.
 
