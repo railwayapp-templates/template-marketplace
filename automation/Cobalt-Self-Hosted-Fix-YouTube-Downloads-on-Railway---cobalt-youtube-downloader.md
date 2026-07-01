@@ -13,8 +13,7 @@ from YouTube, TikTok, Instagram, Twitter/X, Reddit, SoundCloud, Vimeo, or 20+ ot
 platforms and receive a direct download link with no ads, no tracking, no paywalls, and no
 files ever cached on the server.
 
-The public cobalt.tools instance **no longer works for YouTube** as of mid-2025 — blocked
-by YouTube's anti-downloader measures. A self-hosted Railway instance bypasses this entirely.
+The public cobalt.tools instance **stopped working for YouTube** after YouTube's anti-downloader push — and as of 2026 it's still blocked. A self-hosted Railway instance bypasses this entirely.
 If you need YouTube downloads in 2026, self-hosting is the solution.
 
 ---

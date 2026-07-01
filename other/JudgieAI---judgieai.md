@@ -29,8 +29,8 @@ Deploying Judgie‑AI on Railway provisions a Streamlit container and a PostgreS
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `APP_ENV` | Judgie-AI | production | - |
 | `ALLOWED_IPS` | Judgie-AI | - | Optional) Comma-separated list of allowed IP addresses or subnets (e.g., 203.0.113.195). Leave empty to allow all IP addresses. |
-| `DEFAULT_ADMIN_ID` | Judgie-AI | admin	 | The login username or email for your Admin dashboard. Defaults to 'admin' if left blank. |
-| `DEFAULT_ADMIN_PASSCODE` | Judgie-AI | admin123 | The login password for your Admin account. Defaults to 'admin123' if left blank. (Highly recommended to change this). |
+| `DEFAULT_ADMIN_ID` | Judgie-AI | - | The login username or email for your Admin dashboard. Defaults to 'admin' if left blank. |
+| `DEFAULT_ADMIN_PASSCODE` | Judgie-AI | - | The login password for your Admin account. Defaults to 'admin123' if left blank. (Highly recommended to change this). |
 
 ## Configuration
 

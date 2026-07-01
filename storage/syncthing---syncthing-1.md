@@ -1,6 +1,6 @@
 # Deploy syncthing on Railway
 
-Decentralized file sync — private, continuous, cross-platform, 85K★.
+Continuous file synchronization — private, secure, decentralized.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/syncthing-1)
 

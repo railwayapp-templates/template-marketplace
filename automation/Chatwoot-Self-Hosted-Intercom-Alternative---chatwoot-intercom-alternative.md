@@ -1,4 +1,4 @@
-# Deploy Self-Host Chatwoot — Intercom Alternative for $10/Month, Not $39/Seat on Railway
+# Deploy Chatwoot — Self-Hosted Intercom Alternative on Railway
 
 Self-host Chatwoot: omnichannel support inbox. No $39/seat Intercom fees.
 

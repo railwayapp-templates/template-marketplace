@@ -1,20 +1,14 @@
 # Deploy memos on Railway
 
-Self-hosted note-taking. Markdown-native, lightweight (20MB), 61k+ stars.
+Open-source note-taking for quick capture. Markdown-native, lightweigh
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/memos-3)
 
 ## About
 
-Deploy [Memos](https://usememos.com), the open-source, Markdown-native note-taking app, on Railway with one click. Single container, PostgreSQL-ready, persistent storage, and zero configuration.
+Deploy this template on Railway with one click. Railway provides compute, TLS at the edge, and a public URL. The service restarts automatically on failures.
 
-Memos is an open-source, self-hosted note-taking tool inspired by Obsidian and Flomo. It features:
-- Timeline-first UI for quick capture
-- Markdown-native editing with live preview
-- Tag-based organization with full-text search
-- Mobile-responsive web UI (works as PWA)
-- REST and gRPC APIs for integration
-- MIT licensed — completely free
+This template runs as a single container with no external database dependencies. All data is stored using built-in storage — no PostgreSQL, Redis, or additional services required.
 
 ## What gets deployed
 

@@ -1,6 +1,6 @@
 # Deploy plausible on Railway
 
-Deploy Plausible Analytics (CE) with a single click
+Privacy-friendly open-source web analytics — GDPR compliant, no cookie
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/plausible-2)
 
@@ -45,6 +45,6 @@ This Railway template deploys three components:
 - **Volume:** `/var/lib/postgresql/data`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other · **Languages:** Dockerfile
+**Category:** Analytics · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/plausible-2)

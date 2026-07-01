@@ -1,6 +1,6 @@
 # Deploy filebrowser on Railway
 
-Web-based file manager with authentication, sharing, and web UI.
+Web-based file manager. Upload, preview, edit files through a clean UI
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/filebrowser)
 

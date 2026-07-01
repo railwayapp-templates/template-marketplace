@@ -1,6 +1,6 @@
 # Deploy railway-hoppscotch on Railway
 
-Self-hosted API dev platform — REST, GraphQL, WebSocket, SSE
+Self-hosted API development platform. Open-source Postman alternative.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-hoppscotch)
 

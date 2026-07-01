@@ -1,14 +1,14 @@
 # Deploy changedetection.io on Railway
 
-Self-hosted website change monitoring with 60+ notification channels.
+Self-hosted web page change monitoring — get alerts when sites change.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/changedetectionio-1)
 
 ## About
 
-changedetection.io is a self-hosted, open-source web page change detection, monitoring, and notification service. Deploy it on Railway in minutes to start tracking changes on any website — no external database required.
+One-click deploy on Railway. Single container, built-in SQLite. TLS at edge, auto-restart.
 
-changedetection.io runs as a single container using SQLite for storage. Railway provides the compute, TLS at the edge, and a public URL. The service scales down to zero when idle and automatically restarts on failures via Railway's built-in health check.
+Single container with SQLite. No external DB needed.
 
 ## What gets deployed
 

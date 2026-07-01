@@ -1,6 +1,6 @@
 # Deploy netdata on Railway
 
-Real-time infrastructure monitoring, 300+ integrations, 2s startup.
+Real-time infrastructure monitoring with ML anomaly detection.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/netdata-1)
 
@@ -8,13 +8,13 @@ Real-time infrastructure monitoring, 300+ integrations, 2s startup.
 
 # Netdata — Real-Time Infrastructure Monitoring
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/railway-netdata)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/netdata-1)
 [![Netdata](https://img.shields.io/badge/Netdata-v2.10.3-00AB44?logo=netdata)](https://github.com/netdata/netdata)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![GitHub Stars](https://img.shields.io/github/stars/netdata/netdata?style=social)](https://github.com/netdata/netdata)
 
 <p align="center">
-  <img width="600" alt="Netdata on Railway" src="./og-image.svg">
+  <img width="600" alt="Netdata on Railway" src="https://raw.githubusercontent.com/INAPP-Mobile/railway-netdata/main/og-image.svg">
 </p>
 
 Deploy **Netdata** on Railway with one click — the most energy-efficient, real-time infrastructure monitoring platform. Monitor every metric from every second across your entire infrastructure with zero configuration.
@@ -140,7 +140,7 @@ With Railway, you get automatic HTTPS, global CDN, health monitoring, and scalab
 
 <p>
   <img width="200" alt="Netdata Dashboard" src="./template-icon.svg">
-  <img width="400" alt="Netdata Preview" src="./og-image.svg">
+  <img width="400" alt="Netdata Preview" src="https://raw.githubusercontent.com/INAPP-Mobile/railway-netdata/main/og-image.svg">
 </p>
 
 ---

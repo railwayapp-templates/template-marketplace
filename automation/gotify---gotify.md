@@ -1,14 +1,14 @@
 # Deploy gotify on Railway
 
-Self-hosted push notification server. Send messages from any app or script.
+Self-hosted push notification server for sending and receiving message
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gotify)
 
 ## About
 
-Deploy Gotify, a self-hosted push notification server, on Railway in minutes. Send messages to your devices from any application, script, or service using a simple REST API.
+Deploy this template on Railway with one click. Railway provides compute, TLS at the edge, and a public URL. The service restarts automatically on failures.
 
-Gotify runs as a single Docker container on Railway. The template uses the official gotify/server:2.9.1 image, configured with sensible defaults. Health checks monitor the `/health` endpoint automatically. Data is stored via SQLite in an ephemeral volume — for production workloads, connect a Railway Postgres plugin for durable storage. Railway handles SSL/TLS certificates, domain management, and automatic restarts.
+This template runs as a single container with no external database dependencies. All data is stored using built-in storage — no PostgreSQL, Redis, or additional services required.
 
 ## What gets deployed
 

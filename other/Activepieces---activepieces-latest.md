@@ -1,4 +1,4 @@
-# Deploy Activepieces (latest) on Railway
+# Deploy Activepieces on Railway
 
 [Jun'26] Open-source alternative to n8n, Zapier, Make, and Tray
 

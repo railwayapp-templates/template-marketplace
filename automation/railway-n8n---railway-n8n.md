@@ -1,6 +1,6 @@
 # Deploy railway-n8n on Railway
 
-Deploy n8n workflow automation on Railway
+Fair-code workflow automation platform with 400+ native integrations.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-n8n)
 

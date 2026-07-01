@@ -14,21 +14,19 @@ works autonomously on your behalf, accessible from WhatsApp, Telegram, Discord, 
 and 20+ other messaging platforms.
 
 **Self-host a personal AI agent for ~$1–3/month** — compared to $20/month for ChatGPT Plus,
-$20/month for Claude Pro, or Manus AI which remains cloud-only and waitlisted. Full data
+$20/month for Claude Pro, or Manus AI which is cloud-only with no self-host option. Full data
 ownership. No usage caps. No subscription.
 
 ---
 
 Running OpenClaw in production means keeping a persistent Node.js gateway alive 24/7, managing
-secure credentials for your LLM provider and messaging platforms, handling HTTPS termination, and
-ensuring config and memory survive redeploys. Without a managed host, you're looking at VPS
-setup, Nginx config, SSL certificates, process managers, and manual Docker maintenance.
+secure credentials, handling HTTPS, and ensuring config and memory survive redeploys. Without a
+managed host, that's VPS setup, Nginx, SSL, process managers, and manual Docker maintenance.
 
 Railway handles all of it. This template mounts a **5 GB persistent volume** at `/data`,
 provisions the gateway with automatic HTTPS, and injects secrets as environment variables.
-OpenClaw's memory, channel auth, and workspace survive every redeploy without manual
-intervention. The browser-based `/setup` wizard configures everything after deploy — no SSH,
-no terminal, no config files.
+OpenClaw's memory, channel auth, and workspace survive every redeploy. The browser-based `/setup`
+wizard configures everything after deploy — no SSH, no terminal, no config files.
 
 Typical cost: **~$1–3/month** on Railway's Hobby plan. ChatGPT Plus costs $20/month. Claude
 Pro costs $20/month. Manus AI is cloud-only with no self-host option. OpenClaw on Railway gives
@@ -40,7 +38,7 @@ you an autonomous AI agent at a fraction of the cost with full data ownership.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Openclaw Main | [sahilrupani/openclaw-railway-template](https://github.com/sahilrupani/openclaw-railway-template) | Web service |
+| Openclaw | [sahilrupani/openclaw-railway-template](https://github.com/sahilrupani/openclaw-railway-template) | Web service |
 
 ## Environment variables
 

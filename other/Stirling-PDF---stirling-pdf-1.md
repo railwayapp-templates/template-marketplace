@@ -1,6 +1,6 @@
 # Deploy Stirling PDF on Railway
 
-Self-hosted PDF tool with 50+ tools, zero dependencies, 84K★.
+#1 open-source PDF platform — edit, sign, convert, OCR, merge, and mor
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/stirling-pdf-1)
 
@@ -8,7 +8,7 @@ Self-hosted PDF tool with 50+ tools, zero dependencies, 84K★.
 
 # Stirling PDF — Railway Deployment Template
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/stirling-pdf)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/stirling-pdf-1)
 
 <p align="center">
   <img width="100%" alt="Stirling PDF on Railway" src="https://raw.githubusercontent.com/INAPP-Mobile/railway-stirling-pdf/main/og-image.svg">
@@ -58,7 +58,7 @@ Self-hosted PDF tool with 50+ tools, zero dependencies, 84K★.
 
 ## One-Click Deploy
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/stirling-pdf)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/stirling-pdf-1)
 
 Click the button above and Railway will:
 
