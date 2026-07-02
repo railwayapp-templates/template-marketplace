@@ -1,6 +1,6 @@
 # Deploy Inngest Production Template on Railway
 
-[Updated Jun 2026] Preconfigured production inngest with postgres and redis
+[Updated Jul 2026] Preconfigured production inngest with postgres and redis
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/inngest-production-template)
 
@@ -16,7 +16,7 @@ Deploying Inngest in production involves running a self-hosted server with exter
 |---------|--------|------|
 | InngestPostgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 | InngestRedis | `redis:8.2.1` | Database |
-| InngestApp | `inngest/inngest:v1.31.0` | Web service |
+| InngestApp | `inngest/inngest:v1.34.0` | Web service |
 
 ## Environment variables
 

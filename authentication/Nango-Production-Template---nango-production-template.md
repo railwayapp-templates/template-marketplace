@@ -1,6 +1,6 @@
 # Deploy Nango Production Template on Railway
 
-[Updated Jun 2026] Connect your product & AI agents with 800+ APIs.
+[Updated Jul 2026] Connect your product & AI agents with 800+ APIs.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nango-production-template)
 
@@ -14,8 +14,8 @@ Self-hosting Nango means running three coordinated services: the Nango server (A
 
 | Service | Source | Type |
 |---------|--------|------|
-| nango-connect-ui | `nangohq/nango-server:hosted-0.70.8` | Web service |
-| nango-server | `nangohq/nango-server:hosted-0.70.8` | Web service |
+| nango-connect-ui | `nangohq/nango-server:hosted-0.70.9` | Web service |
+| nango-server | `nangohq/nango-server:hosted-0.70.9` | Web service |
 | Redis | `redis:8.2.1` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 

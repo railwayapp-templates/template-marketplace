@@ -6,7 +6,7 @@ Self-hosted visual CMS and website builder for static sites.
 
 ## About
 
-Instatic is a modern self-hosted visual website builder for creating, editing, and publishing static websites from a simple web interface. This template uses the `corebunch/instatic:latest` Docker image and is designed for a lightweight Railway deployment with persistent storage support.
+Instatic is a modern self-hosted visual website builder for creating, editing, and publishing static websites from a simple web interface. This template uses the `corebunch/instatic` image and is designed for a lightweight Railway deployment with persistent storage support.
 
 Hosting Instatic gives you a self-hosted website editing and publishing tool that runs as a containerized service. It provides a visual workflow for managing pages, assets, and static site content without requiring a complex multi-service setup.
 
@@ -16,7 +16,7 @@ This template is suitable for users who want a simple website builder that can b
 
 | Service | Source | Type |
 |---------|--------|------|
-| instatic | `corebunch/instatic:latest` | Web service |
+| instatic | `ghcr.io/corebunch/instatic` | Web service |
 
 ## Environment variables
 

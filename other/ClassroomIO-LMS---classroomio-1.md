@@ -1,12 +1,10 @@
 # Deploy ClassroomIO LMS on Railway
 
-Deploy and Host classroomio selfhost with Railway
+Deploy and Selfhost ClassroomIO.com on Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/classroomio-1)
 
 ## About
-
-ClassroomIO is an open-source learning management system (LMS) for building and teaching courses — lessons, quizzes, certificates, student management, and an AI tutor. The self-hosted edition runs the entire platform on your own infrastructure, so your data and branding stay fully under your control, with no per-seat pricing.
 
 Hosting ClassroomIO means running three application services together: the **API** (backend, auth, business logic), the **Dashboard** (the web UI teachers and students use), and a **Jobs worker** that processes video, transcription, AI course generation, and email in the background. They depend on a **PostgreSQL** database and a **Redis** queue, plus S3-compatible object storage for media uploads and an SMTP provider for email. On Railway, Postgres and Redis are one-click plugins, and the three services build straight from the repository's Dockerfiles. Database schema setup runs automatically on the API's first boot — there's no manual migration step. Only the dashboard is exposed publicly; the API and worker stay on the private network.
 

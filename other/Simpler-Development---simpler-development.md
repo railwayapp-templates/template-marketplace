@@ -63,7 +63,7 @@ GitHub repository: https://github.com/SimplerDevelopment/SimplerDevelopment
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `POSTGRES_DB` | Postgres | - | Bootstrap database name used when the Postgres container starts. |
+| `POSTGRES_DB` | Postgres | railway | Bootstrap database name used when the Postgres container starts. |
 | `DATABASE_URL` | Postgres | - | Internal Postgres connection string used by application services. |
 | `POSTGRES_USER` | Postgres | (secret) | Bootstrap username used when the Postgres container starts. |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Bootstrap password used when the Postgres container starts. |

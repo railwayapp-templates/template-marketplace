@@ -16,7 +16,7 @@ Primo is self-contained Svelte application with a Pocketbase backend. There's no
 
 | Service | Source | Type |
 |---------|--------|------|
-| palacms/palacms | `ghcr.io/primocms/primo:main` | Web service |
+| palacms/palacms | `ghcr.io/primocms/primo:latest` | Web service |
 
 ## Environment variables
 

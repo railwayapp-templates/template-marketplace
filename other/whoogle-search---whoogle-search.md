@@ -24,6 +24,14 @@ Whoogle Search runs as a single container on Railway with:
 |---------|--------|------|
 | whoogle-search | `benbusby/whoogle-search:1.2.3` | Web service |
 
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `WHOOGLE_CONFIG_ALTS` | 1 | 	Enable site alternatives |
+| `WHOOGLE_CONFIG_SAFE` | 1 | 	Enable safe search |
+| `WHOOGLE_CONFIG_THEME` | system | 	UI theme (light/dark/system) |
+
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
