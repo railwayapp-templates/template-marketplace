@@ -68,7 +68,7 @@ GitHub repository: https://github.com/SimplerDevelopment/SimplerDevelopment
 | `POSTGRES_USER` | Postgres | (secret) | Bootstrap username used when the Postgres container starts. |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Bootstrap password used when the Postgres container starts. |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public TCP connection string for external clients. |
-| `PORT` | agents | - | Railway-injected listen port for the Mastra agents service. |
+| `PORT` | agents | 4111 | Railway-injected listen port for the Mastra agents service. |
 | `SD_MCP_URL` | agents | - | Public portal MCP endpoint used by the agents service. |
 | `SD_AGENTS_INTERNAL_SECRET` | agents | (secret) |  Shared secret for internal app-to-agents requests. |
 | `PORT` | realtime | 3030 | Railway-injected listen port for the realtime server. |
@@ -83,7 +83,7 @@ GitHub repository: https://github.com/SimplerDevelopment/SimplerDevelopment
 | `SD_AGENTS_URL` | app | - | Public app URL used by agents for MCP access. |
 | `PORTAL_KMS_KEY` | app | - | Base64-encoded KMS key used to encrypt portal secrets. |
 | `S3_BUCKET_NAME` | app | - | Object storage bucket name used for uploaded media. |
-| `AUTH_TRUST_HOST` | app | - | Tells Auth.js to trust Railway proxy headers. |
+| `AUTH_TRUST_HOST` | app | true | Tells Auth.js to trust Railway proxy headers. |
 | `NEXTAUTH_SECRET` | app | (secret) | NextAuth secret used to sign sessions. |
 | `S3_ACCESS_KEY_ID` | app | - | Access key used for S3-compatible object storage. |
 | `OAUTH_STATE_SECRET` | app | (secret) | Secret used to protect OAuth state values. |
@@ -100,7 +100,7 @@ GitHub repository: https://github.com/SimplerDevelopment/SimplerDevelopment
 ## Configuration
 
 - **Volume:** `/var/lib/postgresql/data`
-- **Healthcheck:** ` /health`
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Healthcheck:** `/api/health`
 

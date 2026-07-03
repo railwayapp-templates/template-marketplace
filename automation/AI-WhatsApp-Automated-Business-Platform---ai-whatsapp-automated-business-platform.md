@@ -1,6 +1,6 @@
 # Deploy AI WhatsApp Automated Business Platform on Railway
 
-AI WhatsApp CRM + cab quote bot. Bookings & follow-ups for cab rental.
+AI WhatsApp CRM , Grok or OpenAI Based Templates , Faster approval 
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ai-whatsapp-automated-business-platform)
 

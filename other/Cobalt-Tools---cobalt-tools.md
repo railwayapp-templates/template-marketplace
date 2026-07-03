@@ -10,6 +10,8 @@ Self-host Cobalt: YouTube, TikTok, Instagram, Twitter/X, Reddit, SoundCloud, Vim
 
 Cobalt is an open-source media downloader focused on a clean, privacy-first download experience. Paste a supported public media URL, send it to your own Cobalt API instance, and receive a direct response for downloading or streaming the resolved media.
 
+![](https://opengraph.githubassets.com/027231e34679f13d043884e2d69bd69e052e500e3bf7b5b03c72101eda21b724/imputnet/cobalt)
+
 This Railway template deploys the official Cobalt container image as a lightweight, stateless service. No database, Redis, or persistent volume is required for the default setup.
 
 Hosting Cobalt Tools gives you your own media downloader API instead of relying only on shared public instances. Your deployment runs under your own Railway public domain and processes requests through your own container.

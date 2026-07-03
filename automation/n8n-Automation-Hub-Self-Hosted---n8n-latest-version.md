@@ -22,24 +22,25 @@ vendor lock-in.
 
 | Service | Source | Type |
 |---------|--------|------|
-| n8n-railway | [sahilrupani/n8n-railway](https://github.com/sahilrupani/n8n-railway) | Worker |
+| N8n Self Deploy | [sahilrupani/n8n-railway](https://github.com/sahilrupani/n8n-railway) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `PORT` | n8n-railway | 5678 | n8n runs internally on port 5678 |
-| `DB_TYPE` | n8n-railway | postgresdb | - |
-| `WEBHOOK_URL` | n8n-railway | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
-| `N8N_PROXY_HOPS` | n8n-railway | 1 | n8n runs internally on port 5678 but the reverse proxy exposes it to the web on port 443 |
-| `DB_POSTGRESDB_USER` | n8n-railway | (secret) | - |
-| `EXECUTIONS_DATA_PRUNE` | n8n-railway | true | EXECUTIONS_DATA_PRUNE in n8n is an environment variable that enables automatic deletion of old workflow execution logs |
-| `DB_POSTGRESDB_PASSWORD` | n8n-railway | (secret) | - |
-| `N8N_EXPRESS_TRUST_PROXY` | n8n-railway | true | - |
-| `N8N_DEFAULT_BINARY_DATA_MODE` | n8n-railway | filesystem | - |
-| `EXECUTIONS_DATA_PRUNE_MAX_COUNT` | n8n-railway | 200 | - |
-| `N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS` | n8n-railway | true | - |
+| `PORT` | N8n Self Deploy | 5678 | n8n runs internally on port 5678 |
+| `DB_TYPE` | N8n Self Deploy | postgresdb | - |
+| `WEBHOOK_URL` | N8n Self Deploy | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
+| `N8N_PROXY_HOPS` | N8n Self Deploy | 1 | n8n runs internally on port 5678 but the reverse proxy exposes it to the web on port 443 |
+| `DB_POSTGRESDB_PORT` | N8n Self Deploy | 5432 | - |
+| `DB_POSTGRESDB_USER` | N8n Self Deploy | (secret) | - |
+| `EXECUTIONS_DATA_PRUNE` | N8n Self Deploy | true | EXECUTIONS_DATA_PRUNE in n8n is an environment variable that enables automatic deletion of old workflow execution logs |
+| `DB_POSTGRESDB_PASSWORD` | N8n Self Deploy | (secret) | - |
+| `N8N_EXPRESS_TRUST_PROXY` | N8n Self Deploy | true | - |
+| `N8N_DEFAULT_BINARY_DATA_MODE` | N8n Self Deploy | filesystem | - |
+| `EXECUTIONS_DATA_PRUNE_MAX_COUNT` | N8n Self Deploy | 200 | - |
+| `N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS` | N8n Self Deploy | true | - |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
@@ -48,6 +49,7 @@ vendor lock-in.
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
