@@ -22,16 +22,15 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres Meta | `supabase/postgres-meta:v0.91.6` | Database |
-| Postgrest | `postgrest/postgrest:v13.0.7` | Database |
-| Supabase Realtime | `supabase/realtime:v2.51.11` | Database |
-| S3 | `minio/minio:latest` | Database |
-| Supabase Storage | `supabase/storage-api:v1.28.0` | Database |
+| Postgres Meta | `supabase/postgres-meta:v0.96.6` | Database |
+| Postgrest | `postgrest/postgrest:v14.12` | Database |
+| Supabase Realtime | `supabase/realtime:v2.102.3` | Database |
+| Supabase Storage | `supabase/storage-api:v1.60.4` | Database |
 | Imgproxy | `darthsim/imgproxy:v3.8.0` | Worker |
 | Kong | [6ixfalls/supabase](https://github.com/6ixfalls/supabase) (root: /kong) | Web service |
 | Gotrue Auth | `supabase/gotrue:v2.180.0` | Database |
-| Supabase Studio | `supabase/studio:2025.10.09-sha-433e578` | Database |
-| Postgres | `ghcr.io/6ixfalls/supabase-postgres:15.8.1.085` | Database |
+| Supabase Studio | `supabase/studio:2026.06.03-sha-0bca601` | Database |
+| Postgres | `ghcr.io/6ixfalls/supabase-postgres:17.6.1.136` | Database |
 
 ## Environment variables
 
@@ -54,39 +53,43 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 | `DNS_NODES` | Supabase Realtime | '' | - |
 | `ERL_AFLAGS` | Supabase Realtime | -proto_dist inet6_tcp | - |
 | `DB_PASSWORD` | Supabase Realtime | (secret) | - |
+| `RUN_JANITOR` | Supabase Realtime | true | - |
 | `RLIMIT_NOFILE` | Supabase Realtime | 10000 | - |
 | `API_JWT_SECRET` | Supabase Realtime | (secret) | - |
 | `SEED_SELF_HOST` | Supabase Realtime | true | - |
 | `SECRET_KEY_BASE` | Supabase Realtime | (secret) | - |
+| `METRICS_JWT_SECRET` | Supabase Realtime | (secret) | - |
 | `SELF_HOST_TENANT_NAME` | Supabase Realtime | supabase-realtime | - |
 | `DB_AFTER_CONNECT_QUERY` | Supabase Realtime | SET search_path TO _realtime | - |
-| `MINIO_ROOT_USER` | S3 | (secret) | - |
-| `MINIO_PRIVATE_PORT` | S3 | 9000 | - |
-| `MINIO_ROOT_PASSWORD` | S3 | (secret) | - |
+| `DISABLE_HEALTHCHECK_LOGGING` | Supabase Realtime | true | - |
 | `PORT` | Supabase Storage | 5000 | - |
 | `TENANT_ID` | Supabase Storage | railway | - |
 | `SERVER_HOST` | Supabase Storage | :: | - |
 | `AUTH_JWT_SECRET` | Supabase Storage | (secret) | - |
 | `STORAGE_BACKEND` | Supabase Storage | s3 | - |
-| `STORAGE_S3_BUCKET` | Supabase Storage | stub | - |
-| `STORAGE_S3_REGION` | Supabase Storage | us-west-1 | - |
 | `AWS_SECRET_ACCESS_KEY` | Supabase Storage | (secret) | - |
 | `UPLOAD_FILE_SIZE_LIMIT` | Supabase Storage | 524288000 | - |
 | `STORAGE_S3_FORCE_PATH_STYLE` | Supabase Storage | true | - |
 | `IMAGE_TRANSFORMATION_ENABLED` | Supabase Storage | true | - |
+| `S3_PROTOCOL_ACCESS_KEY_SECRET` | Supabase Storage | (secret) | - |
+| `REQUEST_ALLOW_X_FORWARDED_PATH` | Supabase Storage | true | - |
 | `UPLOAD_FILE_SIZE_LIMIT_STANDARD` | Supabase Storage | 52428800 | - |
 | `PORT` | Imgproxy | 5001 | - |
 | `IMGPROXY_USE_ETAG` | Imgproxy | true | - |
 | `IMGPROXY_ENABLE_WEBP_DETECTION` | Imgproxy | true | - |
 | `PORT` | Kong | 8000 | - |
-| `KONG_PLUGINS` | Kong | request-transformer,cors,key-auth,acl,basic-auth | - |
+| `KONG_PLUGINS` | Kong | request-transformer,cors,key-auth,acl,basic-auth,request-termination,ip-restriction,post-function | - |
 | `KONG_DATABASE` | Kong | off | - |
 | `ANALYTICS_HOST` | Kong | not_present | - |
-| `KONG_DNS_ORDER` | Kong | AAAA,LAST,A,CNAME | - |
+| `FUNCTIONS_HOST` | Kong | not_present | - |
+| `KONG_DNS_ORDER` | Kong | LAST,A,CNAME | - |
 | `KONG_PROXY_LISTEN` | Kong | [::]:8000 reuseport backlog=16384, 0.0.0.0:8000 reuseport backlog=16384 | - |
 | `DASHBOARD_PASSWORD` | Kong | (secret) | - |
 | `DASHBOARD_USERNAME` | Kong | (secret) | - |
-| `KONG_DECLARATIVE_CONFIG` | Kong | /home/kong/kong.yml | - |
+| `SUPABASE_SECRET_KEY` | Kong | (secret) | - |
+| `KONG_PROXY_ACCESS_LOG` | Kong | /dev/stdout combined | - |
+| `KONG_DNS_NOT_FOUND_TTL` | Kong | 1 | - |
+| `KONG_DECLARATIVE_CONFIG` | Kong | /usr/local/kong/kong.yml | - |
 | `KONG_NGINX_WORKER_PROCESSES` | Kong | 2 | - |
 | `KONG_NGINX_PROXY_PROXY_BUFFERS` | Kong | 64 160k | - |
 | `KONG_NGINX_PROXY_PROXY_BUFFER_SIZE` | Kong | 160k | - |
@@ -99,10 +102,13 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 | `GOTRUE_JWT_ADMIN_ROLES` | Gotrue Auth | service_role | - |
 | `GOTRUE_JWT_DEFAULT_GROUP_NAME` | Gotrue Auth | authenticated | - |
 | `PORT` | Supabase Studio | 3000 | - |
+| `HOSTNAME` | Supabase Studio | :: | - |
+| `JWT_SECRET` | Supabase Studio | (secret) | - |
 | `AUTH_JWT_SECRET` | Supabase Studio | (secret) | - |
-| `IMPORTANT_READ_ME` | Supabase Studio | - | READ THIS! To setup Supabase, you need to generate a JWT Secret, Service and Anon Key. Use the JWT Generator, copy the JWT secret, generate an anon and service JWT, and paste their values into the respective environment variable. You can set this value to anything. https://supabase.com/docs/guides/self-hosting/docker#generate-api-keys |
 | `POSTGRES_PASSWORD` | Supabase Studio | (secret) | - |
+| `SUPABASE_SECRET_KEY` | Supabase Studio | (secret) | - |
 | `DEFAULT_PROJECT_NAME` | Supabase Studio | Default Project | - |
+| `AAAA_IMPORTANT_READ_ME` | Supabase Studio | - | READ THIS! To setup Supabase, you need to generate a JWT Secret and the respective secrets. Either copy the secrets one by one, or deploy the template and paste the entire ENV block into the bottom of Supabase Studio > Environment > Raw Editor (don't touch the existing variables!) This value can be set to anything to proceed. http://6ixfalls.github.io/supabase |
 | `NEXT_PUBLIC_ENABLE_LOGS` | Supabase Studio | true | - |
 | `DEFAULT_ORGANIZATION_NAME` | Supabase Studio | Default Organization | - |
 | `NEXT_ANALYTICS_BACKEND_PROVIDER` | Supabase Studio | postgres | - |
@@ -114,14 +120,11 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 ## Configuration
 
 - **Start command:** `postgrest`
-- **Start command:** `/bin/sh -c "mkdir -p $RAILWAY_VOLUME_MOUNT_PATH/stub && exec minio server --address [::]:$MINIO_PRIVATE_PORT $RAILWAY_VOLUME_MOUNT_PATH"`
-- **Healthcheck:** `/minio/health/ready`
-- **Volume:** `/data`
 - **Healthcheck:** `/status`
 - **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Storage · **Languages:** PLpgSQL, Shell, Dockerfile, Elixir
+**Category:** Storage · **Languages:** HTML, PLpgSQL, Shell, Elixir, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/supabase)

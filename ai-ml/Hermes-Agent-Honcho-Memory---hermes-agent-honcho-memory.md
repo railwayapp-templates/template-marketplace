@@ -15,8 +15,8 @@ Hosting a self-hosted cognitive agent involves orchestrating multiple interconne
 | Service | Source | Type |
 |---------|--------|------|
 | Redis | `redis:8.2.1` | Database |
-| hermes-agent | [kalix-vn/hermes-agent-with-honcho](https://github.com/kalix-vn/hermes-agent-with-honcho) | Worker |
-| honcho-deriver | [kalix-vn/hermes-agent-with-honcho](https://github.com/kalix-vn/hermes-agent-with-honcho) | Worker |
+| hermes-agent | [kalix-vn/hermes-agent-with-honcho](https://github.com/kalix-vn/hermes-agent-with-honcho) (root: hermes) | Worker |
+| honcho-deriver | [kalix-vn/hermes-agent-with-honcho](https://github.com/kalix-vn/hermes-agent-with-honcho) (root: honcho) | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | honcho-api | [kalix-vn/hermes-agent-with-honcho](https://github.com/kalix-vn/hermes-agent-with-honcho) (root: honcho) | Worker |
 
@@ -32,6 +32,8 @@ Hosting a self-hosted cognitive agent involves orchestrating multiple interconne
 | `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 | `OPENAI_API_KEY` | hermes-agent | (secret) | - |
 | `OPENAI_BASE_URL` | hermes-agent | https://api.openai.com/v1 | - |
+| `HERMES_DASHBOARD_BASIC_AUTH_PASSWORD` | hermes-agent | (secret) | - |
+| `HERMES_DASHBOARD_BASIC_AUTH_USERNAME` | hermes-agent | (secret) | - |
 | `HONCHO_MODE` | honcho-deriver | deriver | - |
 | `AUTH_USE_AUTH` | honcho-deriver | false | - |
 | `CACHE_ENABLED` | honcho-deriver | true | - |
@@ -60,6 +62,6 @@ Hosting a self-hosted cognitive agent involves orchestrating multiple interconne
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** AI/ML · **Languages:** Dockerfile, Shell
+**Category:** AI/ML · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/hermes-agent-honcho-memory)
