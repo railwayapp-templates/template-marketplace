@@ -1,4 +1,4 @@
-# Deploy Meilisearch - Latest on Railway
+# Deploy Meilisearch - Latest | Algolia Alternative | Search Engine on Railway
 
 Meilisearch is a flexible and powerful user-focused search engine.
 

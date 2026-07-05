@@ -62,6 +62,6 @@ Hosting a self-hosted cognitive agent involves orchestrating multiple interconne
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** AI/ML · **Languages:** Shell, Dockerfile
+**Category:** AI/ML · **Languages:** Shell, Dockerfile, Python
 
 [View on Railway →](https://railway.com/deploy/hermes-agent-honcho-memory)

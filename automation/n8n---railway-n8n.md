@@ -1,4 +1,4 @@
-# Deploy railway-n8n on Railway
+# Deploy n8n on Railway
 
 Fair-code workflow automation platform with 400+ native integrations.
 

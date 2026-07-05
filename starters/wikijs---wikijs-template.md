@@ -1,4 +1,4 @@
-# Deploy wikijs-template on Railway
+# Deploy wikijs on Railway
 
 Deploy Wiki.js knowledge base on Railway with PostgreSQL support
 

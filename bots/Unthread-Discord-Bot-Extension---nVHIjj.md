@@ -1,4 +1,4 @@
-# Deploy Unthread Discord Bot Extension on Railway
+# Deploy Unthread — Discord Bot Extension on Railway
 
 Deploy the official Unthread extension for Discord. 🎫🤖
 

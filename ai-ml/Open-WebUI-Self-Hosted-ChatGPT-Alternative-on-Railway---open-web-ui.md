@@ -38,7 +38,7 @@ the LLM API tokens you actually use.
 
 | Service | Source | Type |
 |---------|--------|------|
-| open-webui | `ghcr.io/open-webui/open-webui:main` | Database |
+| open-webui | `ghcr.io/open-webui/open-webui:main` | Web service |
 
 ## Environment variables
 
@@ -48,6 +48,7 @@ the LLM API tokens you actually use.
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/backend/data`
 
 **Category:** AI/ML

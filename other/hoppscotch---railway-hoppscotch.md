@@ -1,4 +1,4 @@
-# Deploy railway-hoppscotch on Railway
+# Deploy hoppscotch on Railway
 
 Self-hosted API development platform. Open-source Postman alternative.
 

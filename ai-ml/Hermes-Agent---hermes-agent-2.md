@@ -16,7 +16,7 @@ Hosting Hermes Agent on Railway involves deploying a containerized environment t
 
 | Service | Source | Type |
 |---------|--------|------|
-| hermes-agent | [codestorm-official/hermes-agent](https://github.com/codestorm-official/hermes-agent) | Database |
+| hermes-agent | [codestorm-official/hermes-agent](https://github.com/codestorm-official/hermes-agent) | Web service |
 
 ## Environment variables
 
@@ -28,6 +28,7 @@ Hosting Hermes Agent on Railway involves deploying a containerized environment t
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
 **Category:** AI/ML · **Languages:** HTML, Python, Dockerfile, Shell

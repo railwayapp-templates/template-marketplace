@@ -1,4 +1,4 @@
-# Deploy Devin AI Discord Bot on Railway
+# Deploy Devin AI — Discord Bot on Railway
 
 Deploy Devin, your friendly AI software engineer, directly into Discord.
 

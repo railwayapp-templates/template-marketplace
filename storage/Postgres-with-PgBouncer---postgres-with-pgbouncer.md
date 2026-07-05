@@ -45,7 +45,7 @@ For operations transaction pooling can not serve (migrations, LISTEN/NOTIFY, ses
 | `AUTH_QUERY` | PgBouncer | SELECT usename, passwd FROM pg_shadow WHERE usename=$1 | - |
 | `POSTGRES_USER` | PgBouncer | (secret) | - |
 | `MAX_CLIENT_CONN` | PgBouncer | 1000 | - |
-| `DEFAULT_POOL_SIZE` | PgBouncer | 20 | - |
+| `DEFAULT_POOL_SIZE` | PgBouncer | 70 | - |
 | `POSTGRES_PASSWORD` | PgBouncer | (secret) | - |
 | `SERVER_RESET_QUERY` | PgBouncer | DISCARD ALL | - |
 | `MAX_PREPARED_STATEMENTS` | PgBouncer | 300 | - |

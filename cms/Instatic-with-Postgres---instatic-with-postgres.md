@@ -18,7 +18,7 @@ PostgreSQL is used to keep application data persistent and separate from the con
 
 | Service | Source | Type |
 |---------|--------|------|
-| instatic | `corebunch/instatic:latest` | Web service |
+| instatic | `ghcr.io/corebunch/instatic` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables

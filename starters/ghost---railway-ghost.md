@@ -1,4 +1,4 @@
-# Deploy railway-ghost on Railway
+# Deploy ghost on Railway
 
 Self-hosted Ghost CMS blog — powerful open-source publishing platform.
 

@@ -1,4 +1,4 @@
-# Deploy Railway Telegram Gateway on Railway
+# Deploy Telegram Gateway on Railway
 
 Multi-bot Telegram webhook gateway with real-time WebSocket event streaming
 

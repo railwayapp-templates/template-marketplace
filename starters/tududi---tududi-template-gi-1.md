@@ -1,4 +1,4 @@
-# Deploy tududi-template-github on Railway
+# Deploy tududi on Railway
 
 Calm task management system
 

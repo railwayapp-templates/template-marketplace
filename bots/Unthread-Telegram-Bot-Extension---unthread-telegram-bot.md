@@ -1,4 +1,4 @@
-# Deploy Unthread Telegram Bot Extension on Railway
+# Deploy Unthread — Telegram Bot Extension on Railway
 
 Deploy the official Unthread extension for Telegram. 🎫🤖
 
