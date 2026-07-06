@@ -1,6 +1,6 @@
 # Deploy Flask on Railway
 
-[Jun'26] Flask Starter – Lightweight Python boilerplate for web apps
+[Jul'26] Flask Starter – Lightweight Python boilerplate for web apps
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flask-1)
 

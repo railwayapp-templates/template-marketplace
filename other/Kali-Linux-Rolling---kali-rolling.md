@@ -1,6 +1,6 @@
 # Deploy Kali Linux Rolling on Railway
 
-[Jun'26] Hosted Kali Linux workspace with SSH & persistent storage
+[Jul'26] Hosted Kali Linux workspace with SSH & persistent storage
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kali-rolling)
 

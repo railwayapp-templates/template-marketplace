@@ -1,6 +1,6 @@
 # Deploy FastAPI with postgres on Railway
 
-[Jun'26] Deploy a FastAPI starter backend with PostgreSQL and Redis.
+[Jul'26] Deploy a FastAPI starter backend with PostgreSQL and Redis.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fastapi-postgres-redis)
 

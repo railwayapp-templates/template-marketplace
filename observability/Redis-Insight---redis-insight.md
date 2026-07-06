@@ -1,6 +1,6 @@
 # Deploy Redis Insight on Railway
 
-[Jun'26] Redis UI for real-time monitoring, debugging, and data analysis.
+[Jul'26] Redis UI for real-time monitoring, debugging, and data analysis.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redis-insight)
 

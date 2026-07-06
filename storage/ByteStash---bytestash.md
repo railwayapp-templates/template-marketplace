@@ -1,6 +1,6 @@
 # Deploy ByteStash on Railway
 
-[Jun'26] Self-hosted snippet manager to store and organize reusable code.
+[Jul'26] Self-hosted snippet manager to store and organize reusable code.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bytestash)
 

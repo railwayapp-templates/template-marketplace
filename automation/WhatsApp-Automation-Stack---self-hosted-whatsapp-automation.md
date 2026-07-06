@@ -1,6 +1,6 @@
 # Deploy WhatsApp Automation Stack on Railway
 
-[Jun'26] Minimal WhatsApp automation with Evolution API and n8n
+[Jul'26] Minimal WhatsApp automation with Evolution API and n8n
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/self-hosted-whatsapp-automation)
 

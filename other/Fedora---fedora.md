@@ -1,6 +1,6 @@
 # Deploy Fedora on Railway
 
-[Jun'26] Fedora Linux with SSH & storage for dev, testing & diagnostics
+[Jul'26] Fedora Linux with SSH & storage for dev, testing & diagnostics
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fedora)
 

@@ -1,6 +1,6 @@
 # Deploy Ackee - Complete Setup on Railway
 
-[Jun'26] Self-hosted analytics tool with MongoDB and Mongo Express.
+[Jul'26] Self-hosted analytics tool with MongoDB and Mongo Express.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ackee-complete-setup)
 

@@ -1,6 +1,6 @@
 # Deploy Inventree - Complete Setup on Railway
 
-[Jun'26] Deploy InvenTree with worker, Redis, Postgres & Railway Bucket 📦
+[Jul'26] Deploy InvenTree with worker, Redis, Postgres & Railway Bucket 📦
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/inventree-complete-setup)
 

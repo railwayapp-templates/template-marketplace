@@ -1,6 +1,6 @@
 # Deploy Arch Linux SSH on Railway
 
-[Jun'26] Hosted Arch Linux latest workspace with SSH & persistent storage
+[Jul'26] Hosted Arch Linux latest workspace with SSH & persistent storage
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/arch-linux-ssh)
 

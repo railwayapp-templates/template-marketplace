@@ -1,6 +1,6 @@
 # Deploy SvelteKit on Railway
 
-[Jun'26] Deploy SvelteKit in 1-click. It just works. 🚀
+[Jul'26] Deploy SvelteKit in 1-click. It just works. 🚀
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sveltekit-starter)
 

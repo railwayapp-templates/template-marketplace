@@ -1,6 +1,6 @@
 # Deploy Ubuntu 22.04 LTS on Railway
 
-[Jun'26] Hosted Ubuntu 22.04 workspace with SSH access & persistent storage
+[Jul'26] Hosted Ubuntu 22.04 workspace with SSH access & persistent storage
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ubuntu-2204-lts)
 

@@ -1,6 +1,6 @@
 # Deploy Ubuntu 24.04 LTS on Railway
 
-[Jun'26] Hosted Ubuntu workspace with SSH access and persistent storage.
+[Jul'26] Hosted Ubuntu workspace with SSH access and persistent storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ubuntu-2404-lts)
 

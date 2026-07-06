@@ -1,6 +1,6 @@
 # Deploy Postiz App - Complete Setup on Railway
 
-[Jun'26] All-in-One agentic social media scheduling tool. 1-Click Deploy🚀
+[Jul'26] All-in-One agentic social media scheduling tool. 1-Click Deploy🚀
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postiz-app-minimal-instance)
 

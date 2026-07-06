@@ -1,6 +1,6 @@
 # Deploy PocketBase MinIO Backups on Railway
 
-[Jun'26] PocketBase with Litestream backups to self-hosted MinIO.
+[Jul'26] PocketBase with Litestream backups to self-hosted MinIO.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-minio-backups)
 

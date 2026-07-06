@@ -1,6 +1,6 @@
 # Deploy Pocketbase on Railway
 
-[Jun'26] Secure scalable backend with persistence, easy deploy & check.
+[Jul'26] Secure scalable backend with persistence, easy deploy & check.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-1)
 

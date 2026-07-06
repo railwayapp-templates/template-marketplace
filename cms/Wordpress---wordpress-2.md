@@ -1,6 +1,6 @@
 # Deploy Wordpress on Railway
 
-[Jun'26] Just one click to deploy and run your own website.
+[Jul'26] Just one click to deploy and run your own website.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wordpress-2)
 

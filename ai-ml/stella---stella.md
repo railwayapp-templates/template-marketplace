@@ -26,62 +26,41 @@ because it is an internal document conversion dependency.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `redis:8.2.1` | Database |
-| web | [stella/stella](https://github.com/stella/stella) | Web service |
-| api | [stella/stella](https://github.com/stella/stella) | Web service |
-| gotenberg | `gotenberg/gotenberg:8` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| api | [stella/stella](https://github.com/stella/stella) | Web service |
+| Redis | `redis:8.2.1` | Database |
+| gotenberg | `gotenberg/gotenberg:8` | Worker |
+| web | [stella/stella](https://github.com/stella/stella) | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `REDISHOST` | Redis | - | Configured by the Stella Railway template. |
-| `REDISPORT` | Redis | 6379 | Configured by the Stella Railway template. |
-| `REDISUSER` | Redis | default | Configured by the Stella Railway template. |
-| `REDIS_URL` | Redis | - | Configured by the Stella Railway template. |
-| `REDISPASSWORD` | Redis | (secret) | Configured by the Stella Railway template. |
-| `REDIS_PASSWORD` | Redis | (secret) | Configured by the Stella Railway template. |
-| `REDIS_PUBLIC_URL` | Redis | - | Configured by the Stella Railway template. |
-| `PUBLIC_API_URL` | web | - | Configured by the Stella Railway template. |
-| `PUBLIC_APP_URL` | web | - | Configured by the Stella Railway template. |
-| `REDIS_URL` | api | - | Configured by the Stella Railway template. |
-| `S3_BUCKET` | api | - | Configured by the Stella Railway template. |
-| `S3_REGION` | api | - | Configured by the Stella Railway template. |
-| `SMTP_HOST` | api | smtp.resend.com | Configured by the Stella Railway template. |
-| `SMTP_PORT` | api | 587 | Configured by the Stella Railway template. |
-| `PUBLIC_URL` | api | - | Configured by the Stella Railway template. |
-| `S3_ENDPOINT` | api | - | Configured by the Stella Railway template. |
-| `DATABASE_URL` | api | - | Configured by the Stella Railway template. |
-| `FRONTEND_URL` | api | - | Configured by the Stella Railway template. |
-| `GOTENBERG_URL` | api | - | Configured by the Stella Railway template. |
-| `SMTP_PASSWORD` | api | (secret) | SMTP password or API key for sign-in and invitation emails. |
-| `SMTP_USERNAME` | api | (secret) | Configured by the Stella Railway template. |
-| `BETTER_AUTH_URL` | api | - | Configured by the Stella Railway template. |
-| `S3_ACCESS_KEY_ID` | api | - | Configured by the Stella Railway template. |
-| `BETTER_AUTH_SECRET` | api | (secret) | Configured by the Stella Railway template. |
-| `GOTENBERG_PASSWORD` | api | (secret) | Configured by the Stella Railway template. |
-| `GOTENBERG_USERNAME` | api | (secret) | Configured by the Stella Railway template. |
-| `S3_SECRET_ACCESS_KEY` | api | (secret) | Configured by the Stella Railway template. |
-| `CONTENT_ENCRYPTION_KEY` | api | - | Configured by the Stella Railway template. |
-| `TRANSACTIONAL_EMAIL_FROM` | api | - | From address for transactional emails. |
-| `API_ENABLE_BASIC_AUTH` | gotenberg | true | Configured by the Stella Railway template. |
-| `GOTENBERG_API_BASIC_AUTH_PASSWORD` | gotenberg | (secret) | Configured by the Stella Railway template. |
-| `GOTENBERG_API_BASIC_AUTH_USERNAME` | gotenberg | (secret) | Configured by the Stella Railway template. |
-| `POSTGRES_DB` | Postgres | railway | Configured by the Stella Railway template. |
-| `DATABASE_URL` | Postgres | - | Configured by the Stella Railway template. |
-| `POSTGRES_USER` | Postgres | (secret) | Configured by the Stella Railway template. |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | Configured by the Stella Railway template. |
-| `DATABASE_PUBLIC_URL` | Postgres | - | Configured by the Stella Railway template. |
+| `POSTGRES_DB` | Postgres | railway | - |
+| `POSTGRES_USER` | Postgres | (secret) | - |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | - |
+| `BETTER_AUTH_SECRET` | api | (secret) | - |
+| `GOTENBERG_PASSWORD` | api | (secret) | - |
+| `GOTENBERG_USERNAME` | api | (secret) | - |
+| `S3_SECRET_ACCESS_KEY` | api | (secret) | - |
+| `SELFHOST_BOOTSTRAP_TOKEN` | api | (secret) | - |
+| `SELFHOST_LOCAL_PASSWORD_AUTH` | api | (secret) | - |
+| `REDISPORT` | Redis | 6379 | - |
+| `REDISUSER` | Redis | default | - |
+| `REDISPASSWORD` | Redis | (secret) | - |
+| `REDIS_PASSWORD` | Redis | (secret) | - |
+| `API_ENABLE_BASIC_AUTH` | gotenberg | true | Require basic auth on the internal Gotenberg API. |
+| `GOTENBERG_API_BASIC_AUTH_PASSWORD` | gotenberg | (secret) | - |
+| `GOTENBERG_API_BASIC_AUTH_USERNAME` | gotenberg | (secret) | Generated basic auth user for the internal Gotenberg API. |
 
 ## Configuration
 
-- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
-- **Volume:** `/data`
+- **Volume:** `/var/lib/postgresql/data`
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/var/lib/postgresql/data`
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
+- **Volume:** `/data`
 
-**Category:** AI/ML · **Languages:** TypeScript, HTML, Rust, CSS, Astro, Shell, Dockerfile, Python, PLpgSQL, YARA, JavaScript
+**Category:** AI/ML · **Languages:** TypeScript, HTML, Rust, Astro, Shell, CSS, Dockerfile, PLpgSQL, YARA, JavaScript
 
 [View on Railway →](https://railway.com/deploy/stella)

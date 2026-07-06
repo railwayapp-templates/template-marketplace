@@ -1,6 +1,6 @@
 # Deploy Rocky Linux on Railway
 
-[Jun'26] Hosted Rocky Linux 9 workspace with SSH and persistent storage. 🚀
+[Jul'26] Hosted Rocky Linux 9 workspace with SSH and persistent storage. 🚀
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rocky-linux)
 

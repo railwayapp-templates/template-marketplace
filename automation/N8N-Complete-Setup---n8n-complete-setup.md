@@ -1,6 +1,6 @@
 # Deploy N8N Complete Setup on Railway
 
-[Jun'26] n8n with workers, Redis, Postgres, and Ollama for AI automation
+[Jul'26] n8n with workers, Redis, Postgres, and Ollama for AI automation
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-complete-setup)
 

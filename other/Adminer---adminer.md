@@ -1,6 +1,6 @@
 # Deploy Adminer on Railway
 
-[Jun'26] Lightweight database management UI for SQL databases
+[Jul'26] Lightweight database management UI for SQL databases
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/adminer)
 

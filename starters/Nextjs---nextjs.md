@@ -1,6 +1,6 @@
 # Deploy Next.js on Railway
 
-[Jun'26] A minimal NextJS application with Prisma ORM and PostgreSQL ▲🐘
+[Jul'26] A minimal NextJS application with Prisma ORM and PostgreSQL ▲🐘
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs)
 

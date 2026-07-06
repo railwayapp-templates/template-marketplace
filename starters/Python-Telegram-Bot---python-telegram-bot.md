@@ -1,6 +1,6 @@
 # Deploy Python Telegram Bot on Railway
 
-[Jun'26] 1-Click Telegram bot setup with commands, echo & menu buttons
+[Jul'26] 1-Click Telegram bot setup with commands, echo & menu buttons
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/python-telegram-bot)
 

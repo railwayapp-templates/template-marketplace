@@ -1,6 +1,6 @@
 # Deploy Jaeger All In One on Railway
 
-[Jun'26] One-click to trace and monitor your app lifecycle 🚀
+[Jul'26] One-click to trace and monitor your app lifecycle 🚀
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jaeger-all-in-one)
 

@@ -1,6 +1,6 @@
 # Deploy Evolution API on Railway
 
-[Jun'26] WhatsApp REST API powered by Evolution API.
+[Jul'26] WhatsApp REST API powered by Evolution API.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evolution-api-minimal)
 

@@ -1,6 +1,6 @@
 # Deploy n8n with workers on Railway
 
-[Jun'26] Run n8n with queue workers, Redis, Postgres & persistent 🤖
+[Jul'26] Run n8n with queue workers, Redis, Postgres & persistent 🤖
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-workers)
 

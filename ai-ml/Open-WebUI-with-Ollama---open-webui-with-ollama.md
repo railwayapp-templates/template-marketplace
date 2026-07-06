@@ -1,6 +1,6 @@
 # Deploy Open WebUI with Ollama on Railway
 
-[Jun'26] Open WebUI with Ollama bundled. Download models, chat privately.
+[Jul'26] Open WebUI with Ollama bundled. Download models, chat privately.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-webui-with-ollama)
 

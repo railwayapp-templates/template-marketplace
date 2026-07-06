@@ -1,6 +1,6 @@
 # Deploy Flowise with Workers on Railway
 
-[Jun'26] Flowise with workers, Redis, Postgres & persistent storage. 🚀
+[Jul'26] Flowise with workers, Redis, Postgres & persistent storage. 🚀
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowise-with-workers)
 

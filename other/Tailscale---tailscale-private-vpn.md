@@ -1,6 +1,6 @@
 # Deploy Tailscale on Railway
 
-[Jun’26] Self-hosted VPN for private apps, servers, and internal tools.
+[Jul'26] Self-hosted VPN for private apps, servers, and internal tools.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tailscale-private-vpn)
 

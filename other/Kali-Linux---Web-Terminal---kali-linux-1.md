@@ -1,6 +1,6 @@
 # Deploy Kali Linux - Web Terminal on Railway
 
-[Jun'26] Deploy Kali Linux Rolling via high-perf web terminal 🐉🌐
+[Jul'26] Deploy Kali Linux Rolling via high-perf web terminal 🐉🌐
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kali-linux-1)
 

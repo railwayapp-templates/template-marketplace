@@ -1,6 +1,6 @@
 # Deploy OpenClaw - Complete Setup 🦞 on Railway
 
-[Jun'26] 24/7 AI Agent — Complete Graphical Setup, TUI & Pairing Setup
+[Jul'26] 24/7 AI Agent — Complete Graphical Setup, TUI & Pairing Setup
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-complete-setup)
 

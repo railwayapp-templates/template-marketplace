@@ -1,6 +1,6 @@
 # Deploy Evolution API on Railway
 
-[Jun'26] The cheapest self-hosted WhatsApp REST API
+[Jul'26] The cheapest self-hosted WhatsApp REST API
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/self-hosted-evolution-api)
 

@@ -1,6 +1,6 @@
 # Deploy Evolution API — Lite Version on Railway
 
-[Jun'26] Low-cost WhatsApp REST API powered by Evolution API
+[Jul'26] Low-cost WhatsApp REST API powered by Evolution API
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evolution-api-lite-version)
 

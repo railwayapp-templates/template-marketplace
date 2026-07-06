@@ -1,6 +1,6 @@
 # Deploy Selenium with flask on Railway
 
-[Jun'26] Deploy Flask API with remote Selenium for web scraping
+[Jul'26] Deploy Flask API with remote Selenium for web scraping
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/selenium-flask)
 

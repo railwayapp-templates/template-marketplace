@@ -14,7 +14,7 @@ Hosting LibreDB Studio means running a single stateless Next.js container that s
 
 | Service | Source | Type |
 |---------|--------|------|
-| libredb-studio | `ghcr.io/libredb/libredb-studio:0.9.23` | Web service |
+| libredb-studio | `ghcr.io/libredb/libredb-studio:0.9.44` | Web service |
 
 ## Environment variables
 

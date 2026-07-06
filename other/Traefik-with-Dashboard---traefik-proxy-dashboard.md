@@ -1,6 +1,6 @@
 # Deploy Traefik with Dashboard on Railway
 
-[Jun'26] Self-hosted Traefik with dashboard and editable Railway config
+[Jul'26] Self-hosted Traefik with dashboard and editable Railway config
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/traefik-proxy-dashboard)
 

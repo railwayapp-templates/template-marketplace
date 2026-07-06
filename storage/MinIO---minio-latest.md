@@ -1,6 +1,6 @@
-# Deploy MinIO | S3 File Storage on Railway
+# Deploy MinIO on Railway
 
-S3 compatible object storage on railway
+Production-ready MinIO with built-in Web UI and S3-compatible API.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minio-latest)
 

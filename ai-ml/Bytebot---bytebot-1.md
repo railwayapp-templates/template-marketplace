@@ -1,6 +1,6 @@
 # Deploy Bytebot on Railway
 
-Deploy and Host Bytebot(AI desktop agent) with Railway
+Deploy and Host Bytebot [AI desktop agent] with Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bytebot-1)
 

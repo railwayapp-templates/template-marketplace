@@ -1,6 +1,6 @@
 # Deploy Hermes Agent - Railway Template on Railway
 
-[Jun'26] Self-hosted Hermes Agent using the official Nous Research image
+[Jul'26] Self-hosted Hermes Agent using the official Nous Research image
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-official)
 

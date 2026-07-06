@@ -1,6 +1,6 @@
 # Deploy Carbone on Railway
 
-[Jun'26] Generate reports, invoices, and documents anywhere
+[Jul'26] Generate reports, invoices, and documents anywhere
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/carbone)
 

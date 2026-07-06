@@ -1,6 +1,6 @@
 # Deploy Ubuntu 22.04 - Web Terminal on Railway
 
-[Jun'26] Ubuntu 22.04 LTS terminal accessible via the web browser! 🌐
+[Jul'26] Ubuntu 22.04 LTS terminal accessible via the web browser! 🌐
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ubuntu-2204)
 

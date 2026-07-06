@@ -1,6 +1,6 @@
 # Deploy Paperclip - Complete Setup on Railway
 
-[Jun'26] Hire AI employees, automate jobs & run the business on autopilot
+[Jul'26] Hire AI employees, automate jobs & run the business on autopilot
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/paperclip-complete-setup)
 

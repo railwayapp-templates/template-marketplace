@@ -1,6 +1,6 @@
 # Deploy AlmaLinux 10 on Railway
 
-[Jun'26] Hosted AlmaLinux 10 workspace with SSH & persistent storage.
+[Jul'26] Hosted AlmaLinux 10 workspace with SSH & persistent storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/almalinux-10)
 

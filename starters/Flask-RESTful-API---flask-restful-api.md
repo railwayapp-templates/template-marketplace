@@ -1,6 +1,6 @@
 # Deploy Flask RESTful API on Railway
 
-[Jun'26] A minimal Flask RESTful API 🐍
+[Jul'26] A minimal Flask RESTful API 🐍
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flask-restful-api)
 

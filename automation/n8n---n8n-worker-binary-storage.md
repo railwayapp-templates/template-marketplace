@@ -1,6 +1,6 @@
-# Deploy N8N (Worker, Binary Storage) on Railway
+# Deploy n8n on Railway
 
-n8n v2 - Redis/Worker crash fix
+n8n [July '5] (Workflows/Integrations/API Automation/AI Coding) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-worker-binary-storage)
 

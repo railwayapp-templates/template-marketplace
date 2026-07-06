@@ -1,6 +1,6 @@
 # Deploy Playwright Node.js Browser Automation on Railway
 
-[Jun'26] Playwright with TypeScript, Express, OpenAPI & validation stack
+[Jul'26] Playwright with TypeScript, Express, OpenAPI & validation stack
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/playwright-with-nodejs)
 

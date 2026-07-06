@@ -1,6 +1,6 @@
 # Deploy Strapi on Railway
 
-[Jun'26] Headless CMS for modern apps, deployed instantly on Railway.
+[Jul'26] Headless CMS for modern apps, deployed instantly on Railway.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/strapi-1)
 

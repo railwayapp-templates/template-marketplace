@@ -1,6 +1,6 @@
 # Deploy PocketBase S3 Backups on Railway
 
-[Jun'26] PocketBase with Litestream backups to your own S3 bucket.
+[Jul'26] PocketBase with Litestream backups to your own S3 bucket.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-custom-s3-backups)
 

@@ -1,6 +1,6 @@
 # Deploy RustFS - MinIO Alternative on Railway
 
-[Jun'26] Self-hosted S3-compatible MinIO alternative powered by Rust.
+[Jul'26] Self-hosted S3-compatible MinIO alternative powered by Rust.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rustfs-on-railway)
 

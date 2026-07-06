@@ -1,6 +1,6 @@
-# Deploy Metube | Youtube Video Downloader on Railway
+# Deploy YouTube Video & Playlist Downloader | MeTube on Railway
 
-Video & Playlist downloader for YouTube and other sites.
+Easily download high-quality videos from Youtube and other sites.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/metube-1)
 

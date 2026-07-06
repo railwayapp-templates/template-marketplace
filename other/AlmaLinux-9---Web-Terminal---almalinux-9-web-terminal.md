@@ -1,6 +1,6 @@
 # Deploy AlmaLinux 9 - Web Terminal on Railway
 
-[Jun'26] Deploy AlmaLinux 9 and access it through your browser! 🚀🌐
+[Jul'26] Deploy AlmaLinux 9 and access it through your browser! 🚀🌐
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/almalinux-9-web-terminal)
 

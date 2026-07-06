@@ -1,6 +1,6 @@
 # Deploy Node.js on Railway
 
-[Jun'26] A minimal Node.js web app starter built with Express.js 🚀
+[Jul'26] A minimal Node.js web app starter built with Express.js 🚀
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nodejs-starter)
 

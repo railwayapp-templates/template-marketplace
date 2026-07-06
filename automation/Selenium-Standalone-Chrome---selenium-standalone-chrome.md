@@ -1,6 +1,6 @@
 # Deploy Selenium Standalone Chrome on Railway
 
-[Jun'26] High-performance Selenium Chrome node for scalable automation
+[Jul'26] High-performance Selenium Chrome node for scalable automation
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/selenium-standalone-chrome)
 

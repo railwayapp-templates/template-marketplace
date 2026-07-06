@@ -1,6 +1,6 @@
 # Deploy Telegram MTProto Proxy on Railway
 
-[Jun'26] Run your own private Telegram MTProto proxy in minutes.
+[Jul'26] Run your own private Telegram MTProto proxy in minutes.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/telegram-mtproto-proxy)
 
