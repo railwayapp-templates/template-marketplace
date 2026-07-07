@@ -1,6 +1,6 @@
 # Deploy pocketbase on Railway
 
-Open-source BaaS — SQLite DB, auth, file storage, admin UI, REST API.
+PocketBase — open-source backend with real-time DB, auth, and storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-5)
 
@@ -163,9 +163,18 @@ This template is provided under the MIT License. PocketBase itself is MIT licens
 |---------|--------|------|
 | pocketbase | [INAPP-Mobile/railway-pocketbase](https://github.com/INAPP-Mobile/railway-pocketbase) | Web service |
 
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 8080 | Port PocketBase listens on (default: 8080). Railway injects PORT for routing. |
+| `ORIGINS` | - | CORS allowed origins (comma-separated). Set to your custom domain if using one. |
+| `ENCRYPTION_KEY` | - | Encryption key for encrypting app settings (32 hex chars). Auto-generated on first deploy. |
+
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/pb_data`
 
 **Category:** Starters · **Languages:** Dockerfile
 

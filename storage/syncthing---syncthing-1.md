@@ -1,6 +1,6 @@
 # Deploy syncthing on Railway
 
-Continuous file synchronization — private, secure, decentralized.
+Syncthing — decentralized file synchronization between devices.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/syncthing-1)
 
@@ -14,9 +14,18 @@ This template deploys **Syncthing 2.1.1** on Railway using the official Docker i
 |---------|--------|------|
 | syncthing | [INAPP-Mobile/railway-syncthing](https://github.com/INAPP-Mobile/railway-syncthing) | Web service |
 
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PGID` | 1000 | Group ID for file ownership (default: 1000). Ignored on Railway (non-root container). |
+| `PUID` | 1000 | User ID for file ownership (default: 1000). Ignored on Railway (non-root container). |
+| `STHOMEDIR` | - | Syncthing home directory for config, keys, and database (default: /var/syncthing). |
+
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/var/syncthing`
 
 **Category:** Storage · **Languages:** Dockerfile, Shell
 

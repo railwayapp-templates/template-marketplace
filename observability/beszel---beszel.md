@@ -1,6 +1,6 @@
 # Deploy beszel on Railway
 
-Lightweight server monitoring with Docker stats, alerts, and GPU track
+Beszel — lightweight server monitoring with historical data and alerts.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/beszel)
 
@@ -20,9 +20,19 @@ Beszel runs as a single Docker container (hub) on port 8090. Railway provides co
 |---------|--------|------|
 | beszel | `henrygd/beszel:0.18.7` | Web service |
 
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 8090 | Port Beszel listens on (default: 8090, hardcoded upstream). Must match Railway's PORT. |
+| `APP_URL` | - | Public URL of your Beszel hub (e.g., https://your-app.up.railway.app). Used for links in emails and notifications. |
+| `AUTO_LOGIN` | (secret) | Email of a user to auto-authenticate (skip login page). Leave empty to require login. |
+| `DISABLE_PASSWORD_AUTH` | (secret) | Set to true to disable password auth and use OAuth/OIDC only. |
+
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/beszel_data`
 
 **Category:** Observability
 

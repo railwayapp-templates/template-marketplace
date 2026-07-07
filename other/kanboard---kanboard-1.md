@@ -1,6 +1,6 @@
 # Deploy kanboard on Railway
 
-Deploy and Host kanboard with Railway
+Kanboard — open-source project management with Kanban boards.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kanboard-1)
 
@@ -18,16 +18,21 @@ Kanboard runs as a single container with SQLite for persistence. Railway provide
 
 | Service | Source | Type |
 |---------|--------|------|
-| kanboard | [INAPP-Mobile/railway-kanboard](https://github.com/INAPP-Mobile/railway-kanboard) | Worker |
+| kanboard | [INAPP-Mobile/railway-kanboard](https://github.com/INAPP-Mobile/railway-kanboard) | Database |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `DB_NAME` | kanboard | Database name (required for MySQL/Postgres) |
-| `DB_HOSTNAME` | - | Database name (required for MySQL/Postgres) |
-| `DB_PASSWORD` | (secret) | Database password (required for MySQL/Postgres) |
-| `DB_USERNAME` | (secret) | Database username (required for MySQL/Postgres) |
+| `PORT` | 80 | Port Kanboard listens on (default: 80). Railway injects PORT for routing. |
+| `DEBUG` | false | Set to true to enable debug mode for troubleshooting. |
+| `DB_DRIVER` | sqlite | Database driver: sqlite, mysql, or postgres. SQLite is built-in with a persistent volume. |
+| `MAIL_FROM` | notifications@localhost | From address for email notifications (task assignments, reminders). Change if you configure SMTP. |
+| `PLUGIN_INSTALLER` | false | Set to true to enable the plugin installer from Administration > Plugins. |
+
+## Configuration
+
+- **Volume:** `/var/www/app/data`
 
 **Category:** Other · **Languages:** Dockerfile
 

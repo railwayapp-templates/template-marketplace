@@ -30,11 +30,12 @@ Very simple, all you need to do is add the bot token in `DISCORD_TOKEN` and then
 | --------- | ------- | ----------- |
 | `DATABASE_URL` | sqlite:///data/honeypot.sqlite | Database connection for the Bot |
 | `DISCORD_TOKEN` | (secret) | The Discord API token for the bot |
+| `HAS_MESSAGE_INTENT` | false | Enable more options if you have the privileged intent |
 
 ## Configuration
 
 - **Volume:** `/data`
 
-**Category:** Bots · **Languages:** TypeScript, Dockerfile, Witcher Script
+**Category:** Bots · **Languages:** TypeScript, Witcher Script, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/honeypot)

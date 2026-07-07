@@ -22,24 +22,31 @@ For detailed information and to explore the core functionalities of expo-open-ot
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `PORT` | 3000 | - |
+| `PORT` | 3000 | Port used by the API |
+| `BASE_URL` | - | https://axelmarciano.github.io/expo-open-ota/docs/getting-started/prerequisites#base-url |
+| `AWS_REGION` | - | https://axelmarciano.github.io/expo-open-ota/docs/reference/environment |
 | `JWT_SECRET` | (secret) | Expo settings |
-| `STORAGE_MODE` | local | - |
+| `EXPO_APP_ID` | - | https://axelmarciano.github.io/expo-open-ota/docs/getting-started/prerequisites#expo-token--project-id |
+| `STORAGE_MODE` | s3 | https://axelmarciano.github.io/expo-open-ota/docs/server-configuration/storage |
 | `S3_BUCKET_NAME` | - | AWS configuration |
-| `EXPO_ACCESS_TOKEN` | (secret) | Storage configuration |
-| `KEYS_STORAGE_TYPE` | environment | - |
+| `AWS_ACCESS_KEY_ID` | - | https://axelmarciano.github.io/expo-open-ota/docs/server-configuration/storage |
+| `AWS_BASE_ENDPOINT` | - | https://axelmarciano.github.io/expo-open-ota/docs/server-configuration/storage |
+| `CLOUDFRONT_DOMAIN` | - | https://axelmarciano.github.io/expo-open-ota/docs/server-configuration/cdn/cloudfront |
+| `EXPO_ACCESS_TOKEN` | (secret) | https://axelmarciano.github.io/expo-open-ota/docs/getting-started/prerequisites#expo-token--project-id |
+| `KEYS_STORAGE_TYPE` | environment | https://axelmarciano.github.io/expo-open-ota/docs/server-configuration/key-store |
+| `PUBLIC_EXPO_KEY_B64` | - | https://axelmarciano.github.io/expo-open-ota/docs/server-configuration/key-store/?keyStore=environment#expo-signing-certificate |
+| `PRIVATE_EXPO_KEY_B64` | - | https://axelmarciano.github.io/expo-open-ota/docs/server-configuration/key-store/?keyStore=environment#expo-signing-certificate |
 | `AWS_SECRET_ACCESS_KEY` | (secret) | CloudFront settings |
 | `CLOUDFRONT_KEY_PAIR_ID` | - | Key storage settings |
-| `LOCAL_BUCKET_BASE_PATH` | ./updates | - |
 | `PRIVATE_CLOUDFRONT_KEY_B64` | - | AWS Secrets Manager keys (if using aws-secrets-manager) |
-| `AWSSM_EXPO_PUBLIC_KEY_SECRET_ID` | (secret) | - |
-| `AWSSM_EXPO_PRIVATE_KEY_SECRET_ID` | (secret) | - |
-| `AWSSM_CLOUDFRONT_PRIVATE_KEY_SECRET_ID` | (secret) | - |
+| `AWSSM_EXPO_PUBLIC_KEY_SECRET_ID` | (secret) | https://axelmarciano.github.io/expo-open-ota/docs/server-configuration/key-store?keyStore=aws-secrets-manager |
+| `AWSSM_EXPO_PRIVATE_KEY_SECRET_ID` | (secret) | https://axelmarciano.github.io/expo-open-ota/docs/server-configuration/key-store?keyStore=aws-secrets-manager |
+| `AWSSM_CLOUDFRONT_PRIVATE_KEY_SECRET_ID` | (secret) | https://axelmarciano.github.io/expo-open-ota/docs/server-configuration/key-store?keyStore=aws-secrets-manager |
 
 ## Configuration
 
+- **Healthcheck:** `/hc`
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/updates`
 
 **Category:** Other
 

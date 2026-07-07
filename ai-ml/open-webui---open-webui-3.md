@@ -1,6 +1,6 @@
 # Deploy open-webui on Railway
 
-Self-hosted Open WebUI - beautiful LLM interface on Railway.
+Self-hosted Open WebUI, beautiful LLM interface on Railway.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-webui-3)
 
@@ -167,15 +167,30 @@ If you're running Open WebUI alongside a separate Ollama service on Railway:
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `DEFAULT_MODELS` | - | Comma-separated model IDs shown in the chat picker (e.g.  llama3.1:latest,gpt-4o ). Leave empty and add models once a provider is connected. |
-| `OPENAI_API_KEY` | (secret) |  API key for OpenAI, OpenRouter, Groq, Together AI, or any OpenAI-compatible provider. Leave empty if only using a local Ollama server. |
-| `WEBSITE_HOSTNAME` | - |  Public URL of this deployment. Leave empty on first deploy, then set to your Railway app URL (e.g.  https://webui-production.up.railway.app ) from the Variables tab. Needed for OAuth callbacks and CORS. |
-| `WEBUI_SECRET_KEY` | (secret) |  Signs session cookies and JWTs. Auto-generated at deploy time. Do not edit unless you want to invalidate every active session. |
-| `OPENAI_API_BASE_URL` | - | Base URL for the OpenAI-compatible provider above. Leave empty for  https://api.openai.com/v1 . Examples:  https://openrouter.ai/api/v1 ,  http://ollama.railway.internal:11434/v1 . |
+| `PORT` | 8080 | Port Open WebUI service listens inside container |
+| `RAG_TOP_K` | 5 | Number of top documents retrieved per RAG query |
+| `WEBUI_AUTH` | true | Set false to disable auth entirely (not recommended for public apps) |
+| `WEBUI_NAME` | Open WebUI | Name displayed in page title and email notifications |
+| `ENABLE_SIGNUP` | true | Allow new users to register on the signup page |
+| `DEFAULT_MODELS` | - | Comma-separated model IDs shown in chat selector (e.g. llama3.1:latest,gpt-4o). Leave empty to show all available models. |
+| `JWT_EXPIRES_IN` | - | JWT session expiry in minutes. Leave empty for default value. |
+| `OPENAI_API_KEY` | (secret) | API key for OpenAI, OpenRouter, Groq or any OpenAI-compatible provider |
+| `ENABLE_CHANNELS` | false | Enable Channels feature (public chat rooms) |
+| `USE_CUDA_DOCKER` | false | Enable NVIDIA CUDA support for local embeddings (requires GPU node) |
+| `GLOBAL_LOG_LEVEL` | INFO | Application log level (DEBUG/INFO/WARNING/ERROR/CRITICAL) |
+| `WEBSITE_HOSTNAME` | - | Public URL for the deployment. Leave empty to use Railway auto-generated URL. |
+| `WEBUI_SECRET_KEY` | (secret) | Signs session cookies and JWTs. Auto-generated on deploy. |
+| `CORS_ALLOW_ORIGIN` | - | Additional CORS origin to allow (comma-separated). Leave empty for auto-detect. |
+| `ENABLE_LOGIN_FORM` | (secret) | Show email/password login form alongside OAuth |
+| `SCARF_NO_ANALYTICS` | true | Opt out of Scarf analytics page views (privacy) |
+| `ENABLE_ADMIN_EXPORT` | true | Allow admins to export all chats data via admin settings |
+| `OPENAI_API_BASE_URL` | - | Base URL for OpenAI-compatible API (default: https://api.openai.com/v1) |
+| `ANONYMIZED_TELEMETRY` | false | Enable anonymized feature usage telemetry |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/data`
 
 **Category:** AI/ML · **Languages:** Python, Dockerfile, Shell
 

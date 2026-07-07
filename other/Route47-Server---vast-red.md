@@ -1,4 +1,4 @@
-# Deploy vast-red on Railway
+# Deploy Route47 Server on Railway
 
 Route47 Admin Company Server
 
@@ -29,6 +29,6 @@ Hosting Route47 Company Server means running one lightweight Docker service with
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** Other · **Languages:** TypeScript, Dockerfile
+**Category:** Other · **Languages:** TypeScript, Dockerfile, Batchfile
 
 [View on Railway →](https://railway.com/deploy/vast-red)

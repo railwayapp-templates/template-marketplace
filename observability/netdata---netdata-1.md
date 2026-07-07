@@ -212,9 +212,20 @@ This Railway template is provided by [INAPP-Mobile](https://github.com/INAPP-Mob
 |---------|--------|------|
 | netdata | [INAPP-Mobile/railway-netdata](https://github.com/INAPP-Mobile/railway-netdata) | Web service |
 
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PGID` | 1000 | Process group ID for the Netdata process. |
+| `NETDATA_PORT` | 19999 | Port Netdata listens on for the web dashboard and API. |
+| `DOCKER_GROUP_ID` | 1000 | Docker group ID for container monitoring. Must match the host's docker group ID to access the Docker socket. |
+| `NETDATA_CLAIM_URL` | https://app.netdata.cloud | Netdata Cloud claim URL. |
+| `NETDATA_CLAIM_TOKEN` | (secret) | Claim token to connect this node to Netdata Cloud for multi-node observability. |
+
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/var/lib/netdata`
 
 **Category:** Observability · **Languages:** Dockerfile
 

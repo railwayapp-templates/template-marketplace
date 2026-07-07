@@ -22,9 +22,20 @@ Node-RED runs as a single container with a persistent Railway volume at `/data` 
 |---------|--------|------|
 | node-red | `nodered/node-red:5.0.0` | Web service |
 
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 1880 | Port Node-RED listens on for the flow editor and HTTP API endpoints. |
+| `FLOWS` | flows.json | Flow file to load from the /data volume. Defaults to flows.json. |
+| `CREDENTIAL_SECRET` | (secret) | Encryption key for stored credentials. Auto-generated — keep this value stable to avoid re-entering credentials on redeploy. |
+| `NODE_RED_ENABLE_PROJECTS` | false | Set to true to enable Git-backed projects for version-controlled flows. |
+| `NODE_RED_ENABLE_SAFE_MODE` | false | Set to true to start Node-RED without running any flows (safe mode for troubleshooting). |
+
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/data`
 
 **Category:** Automation
 

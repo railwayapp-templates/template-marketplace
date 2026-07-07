@@ -1,6 +1,6 @@
-# Deploy impacte-hermes-agent on Railway
+# Deploy Hermes Agent | Curated Setup | Self-improving option for OpenClaw, Claude Code, Codex and more on Railway
 
-The simplest curated setup for an Hermes Agent.
+The simplest curated setup for an Hermes Agent. Curated by impacte.tech
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/impacte-hermes-agent)
 

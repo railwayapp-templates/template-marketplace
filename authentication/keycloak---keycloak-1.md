@@ -1,6 +1,6 @@
 # Deploy keycloak on Railway
 
-Railway template for keycloak
+Keycloak — open-source identity and access management with PostgreSQL.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/keycloak-1)
 
@@ -25,15 +25,31 @@ Deploying on Railway means automatic HTTPS, zero-config storage via volume mount
 
 | Service | Source | Type |
 |---------|--------|------|
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | keycloak | [INAPP-Mobile/keycloak](https://github.com/INAPP-Mobile/keycloak) | Worker |
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `PG_USERNAME` | (secret) |
-| `KEYCLOAK_ADMIN_USERNAME` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 8080 | Port the service listens on inside the container |
+| `DB_TYPE` | postgres | Database engine: postgres for production, sqlite for local dev |
+| `PG_PORT` | 5432 | Port number for PostgreSQL server. Default: 5432 |
+| `KC_PROXY` | edge | Proxy mode: edge (Railway), passthrough, or reencrypt |
+| `PG_DATABASE` | railway | Name of PostgreSQL database for Keycloak data storage. |
+| `PG_HOSTNAME` | localhost | Hostname or IP address of the PostgreSQL server to connect to. |
+| `PG_PASSWORD` | (secret) | Password for PostgreSQL user authentication (required). |
+| `PG_USERNAME` | (secret) | Pg Username |
+| `KC_HTTP_ENABLED` | false | Enable/Disable plaintext HTTP listener (typically false for Railway) |
+| `KEYCLOAK_HOSTNAME` | localhost | Public hostname/URL users access Keycloak at (must match Railway domain) |
+| `KEYCLOAK_ADMIN_PASSWORD` | (secret) | Initial password for admin user on first Keycloak startup only. |
+| `KEYCLOAK_ADMIN_USERNAME` | (secret) | Initial admin username for master realm. Default: admin |
 
-**Category:** Other · **Languages:** Python, Dockerfile
+## Configuration
+
+- **TCP Proxies:** 5432
+- **Volume:** `/var/lib/postgresql/data`
+
+**Category:** Authentication · **Languages:** HTML, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/keycloak-1)

@@ -1,6 +1,6 @@
 # Deploy filebrowser on Railway
 
-Web-based file manager. Upload, preview, edit files through a clean UI
+FileBrowser — web-based file manager for managing files and folders.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/filebrowser)
 
@@ -29,14 +29,17 @@ The service is self-contained — no external database, cache, or dependencies a
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `FB_PASSWORD` | (secret) |
-| `FB_USERNAME` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 8080 | Port File Browser listens on (default: 8080). Railway injects PORT for routing. |
+| `ROOT` | /srv | Root directory to serve via the file browser (default: /srv). Mount a volume here for persistence. |
+| `FB_PASSWORD` | (secret) | Default admin password. Auto-generated on first deploy. |
+| `FB_USERNAME` | (secret) | Default admin username for the web UI. |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/srv`
 
 **Category:** Storage · **Languages:** Dockerfile
 

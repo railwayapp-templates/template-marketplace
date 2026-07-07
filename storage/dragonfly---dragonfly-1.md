@@ -1,6 +1,6 @@
 # Deploy dragonfly on Railway
 
-Redis-compatible in-memory database with 25x better performance
+Dragonfly — Redis-compatible in-memory cache with advanced features.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dragonfly-1)
 
@@ -22,6 +22,16 @@ Dragonfly runs as a single container on Railway with:
 | Service | Source | Type |
 |---------|--------|------|
 | dragonfly | `dragonflydb/dragonfly:v1.27.1` | Database |
+
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `DRAGONFLY_PORT` | 6379 | Port Dragonfly listens on (default: 6379). Railway injects PORT for routing. |
+| `DRAGONFLY_LOG_LEVEL` | warning | Log level: debug, info, warning, error, fatal. |
+| `DRAGONFLY_MAXMEMORY` | - | Maximum memory limit (e.g., 1gb, 500mb). Leave empty for unlimited. |
+| `DRAGONFLY_REQUIREPASS` | - | Require authentication on connection. Auto-generated — set to secure your cache. |
+| `DRAGONFLY_MAXMEMORY_POLICY` | - | Eviction policy when maxmemory reached (e.g., allkeys-lfu, volatile-lru). |
 
 ## Configuration
 

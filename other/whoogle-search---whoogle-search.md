@@ -1,6 +1,6 @@
 # Deploy whoogle-search on Railway
 
-Self-hosted ad-free privacy-respecting metasearch engine.
+Whoogle Search — privacy-respecting metasearch engine without tracking.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/whoogle-search)
 
@@ -28,9 +28,14 @@ Whoogle Search runs as a single container on Railway with:
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `WHOOGLE_CONFIG_ALTS` | 1 | 	Enable site alternatives |
-| `WHOOGLE_CONFIG_SAFE` | 1 | 	Enable safe search |
-| `WHOOGLE_CONFIG_THEME` | system | 	UI theme (light/dark/system) |
+| `WHOOGLE_PASS` | - | Basic auth password. Auto-generated. Set alongside WHOOGLE_USER to enable authentication. |
+| `WHOOGLE_USER` | (secret) | Basic auth username. Leave blank to disable authentication. |
+| `WHOOGLE_PROXY_LOC` | - | Proxy location in host:port format. |
+| `WHOOGLE_CONFIG_TOR` | 0 | Route searches through Tor: 1 for enabled, 0 for disabled. |
+| `WHOOGLE_PROXY_TYPE` | - | Proxy type: socks5, socks4, or http. |
+| `WHOOGLE_CONFIG_SAFE` | 1 | Enable safe search: 1 for enabled, 0 for disabled. |
+| `WHOOGLE_CONFIG_THEME` | system | UI theme: light, dark, or system. |
+| `WHOOGLE_CONFIG_LANGUAGE` | - | Interface language (e.g., en, ja, es). Leave empty for default. |
 
 ## Configuration
 

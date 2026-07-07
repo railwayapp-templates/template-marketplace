@@ -1,6 +1,6 @@
 # Deploy gotify on Railway
 
-Self-hosted push notification server for sending and receiving message
+Gotify — self-hosted push notification server with web UI and API.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gotify)
 
@@ -16,9 +16,21 @@ This template runs as a single container with no external database dependencies.
 |---------|--------|------|
 | gotify | [INAPP-Mobile/railway-gotify](https://github.com/INAPP-Mobile/railway-gotify) | Web service |
 
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `GOTIFY_SERVER_PORT` | 8080 | Port Gotify listens on (default: 8080). Railway injects PORT for routing. |
+| `GOTIFY_REGISTRATION` | false | Allow public user registration (true/false). Default is false — disable to prevent open signups. |
+| `GOTIFY_DATABASE_DIALECT` | sqlite3 | Database engine: sqlite3, mysql, or postgres. SQLite is built-in and automatic. |
+| `GOTIFY_DEFAULTUSER_NAME` | admin | Default admin username for the Gotify web UI. |
+| `GOTIFY_DEFAULTUSER_PASS` | - | Default admin password. Auto-generated on first deploy — change after setup. |
+| `GOTIFY_DATABASE_CONNECTION` | data/gotify.db | Database connection string. For SQLite: data/gotify.db. For Postgres: ${{Postgres.DATABASE_URL}} |
+
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/app/data`
 
 **Category:** Automation · **Languages:** Dockerfile
 

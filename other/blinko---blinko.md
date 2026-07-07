@@ -1,6 +1,6 @@
 # Deploy blinko on Railway
 
-AI-powered card-based note-taking with RAG. Chat with your notes.
+Blinko — AI-powered note-taking app with local-first architecture.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/blinko)
 
@@ -25,16 +25,17 @@ Blinko runs as a single container with a Railway-managed PostgreSQL database. Ra
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `POSTGRES_USER` | (secret) |
-| `POSTGRES_PASSWORD` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `DATABASE_URL` | - | PostgreSQL connection string. Add a Railway Postgres service to auto-inject. |
+| `NEXTAUTH_URL` | - | Public URL of your Blinko instance (e.g., https://your-app.up.railway.app). Required for auth callbacks. |
+| `NEXTAUTH_SECRET` | (secret) | Random secret for authentication encryption. Auto-generated on first deploy. |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Starters
+**Category:** Other
 
 [View on Railway →](https://railway.com/deploy/blinko)

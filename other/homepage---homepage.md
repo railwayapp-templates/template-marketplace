@@ -1,6 +1,6 @@
 # Deploy homepage on Railway
 
-Self-hosted app dashboard with 100+ service integrations. Single-conta
+Homepage — modern, self-hosted dashboard for your services and bookmarks.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/homepage)
 
@@ -22,9 +22,20 @@ Homepage runs as a single container with a persistent Railway volume for config 
 |---------|--------|------|
 | homepage | `ghcr.io/gethomepage/homepage:v1.13.2` | Web service |
 
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `LOG_LEVEL` | info | Server log verbosity: info, debug, warn, or error. |
+| `HOMEPAGE_PORT` | 3000 | Port Homepage listens on (default: 3000). Railway injects PORT for routing. |
+| `HOMEPAGE_VAR_TITLE` | - | Custom dashboard title (e.g., My Dashboard). Leave empty for default. |
+| `HOMEPAGE_VAR_LANGUAGE` | - | Dashboard language code (e.g., en, fr, de). Leave empty for browser default. |
+| `HOMEPAGE_VAR_DEFAULT_THEME` | dark | Default theme: dark, light, neon, or glassmorphism. |
+
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/app/config`
 
 **Category:** Other
 

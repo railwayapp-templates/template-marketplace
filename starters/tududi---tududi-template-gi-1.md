@@ -22,14 +22,17 @@ Tududi runs as a single Docker container on port 9292. Railway provides compute,
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `TUDUDI_USER_PASSWORD` | (secret) |
-| `TUDUDI_SESSION_SECRET` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `TUDUDI_USER_EMAIL` | admin@yourdomain.com | Email for the default user account. |
+| `TUDUDI_USER_PASSWORD` | (secret) | Password for the default user account. Auto-generated. |
+| `TUDUDI_SESSION_SECRET` | (secret) | Secret key for encrypting session data. Required for session security. |
+| `TUDUDI_INTERNAL_SSL_ENABLED` | false | Enable internal SSL (Railway handles HTTPS, set to false). |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/usr/src/app/tududi_db`
 
 **Category:** Starters · **Languages:** Dockerfile
 

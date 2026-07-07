@@ -1,31 +1,38 @@
 # Deploy n8n on Railway
 
-Fair-code workflow automation platform with 400+ native integrations.
+n8n — Workflow Automation Platform. 400+ integrations, visual editor.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-n8n)
 
 ## About
 
-The n8n Docker image runs a Node.js application that listens on port `5678`. The persistent storage path is `/home/node/.local/share/n8n`, which stores workflows, credentials, and the SQLite database. On Railway, volumes persist across deployments unless explicitly removed — your data stays safe through redeployments and environment changes.
+The n8n Docker image runs on port 5678. The volume at `/home/node/.n8n` persists workflows, credentials, and the SQLite database across deployments.
 
 Key considerations:
-- **Encryption key**: `N8N_ENCRYPTION_KEY` encrypts all stored credentials in your workflows. Set this once on first deploy and never change it — losing it means every encrypted credential becomes unreadable.
-- **Port configuration**: Railway may inject a different `PORT` variable; always explicitly configure n8n to listen on port `5678` via the `N8N_PORT` environment variable or Docker build config.
-- **Scaling**: For production workloads beyond single-instance capacity, connect a PostgreSQL database via `DB_TYPE=postgresdb` and use service bindings for secure database access.
+- **Encryption key**: `N8N_ENCRYPTION_KEY` encrypts stored credentials. Set once and never change it.
+- **Port**: Use `N8N_PORT` to configure the listen port.
+- **Scaling**: For production workloads, add a PostgreSQL database via service bindings.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| railway-n8n | [INAPP-Mobile/railway-n8n](https://github.com/INAPP-Mobile/railway-n8n) | Worker |
+| railway-n8n | [INAPP-Mobile/railway-n8n](https://github.com/INAPP-Mobile/railway-n8n) | Database |
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `N8N_BASIC_AUTH_USER` | (secret) |
-| `N8N_BASIC_AUTH_PASSWORD` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `N8N_PORT` | 5678 | Port n8n listens on (default: 5678, Railway auto-assigns) |
+| `NODE_ENV` | production | Node.js environment (production for deploy) |
+| `GENERIC_TIMEZONE` | UTC | Timezone for schedule-triggered nodes, e.g. America/New_York |
+| `N8N_ENCRYPTION_KEY` | - | Encrypts credentials stored in workflows. Set once and never change. |
+| `N8N_BASIC_AUTH_ACTIVE` | false | Enable HTTP basic auth on the n8n UI |
 
-**Category:** Automation · **Languages:** Dockerfile
+## Configuration
+
+- **Volume:** `/home/node/.n8n`
+
+**Category:** Automation · **Languages:** Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/railway-n8n)
