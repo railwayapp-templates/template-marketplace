@@ -1,4 +1,4 @@
-# Deploy Eary Form on Railway
+# Deploy Easy Form on Railway
 
 Self-hosted, privacy contact form with CAPTCHA anti-spam, admin dashboard
 

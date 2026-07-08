@@ -1,6 +1,6 @@
-# Deploy New API – Universal AI API Gateway on Railway
+# Deploy Universal API Gateway - New API on Railway
 
-Unified AI Gateway for OpenAI, Gemini & Claude APIs
+Deploy this new API gateway for OpenAI, Gemini, and Claude.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/new-api-or-universal-ai-gateway)
 

@@ -1,6 +1,6 @@
-# Deploy Gemini API Gateway – OpenAI-Compatible REST API for Gemini & Claude on Railway
+# Deploy OpenAI, Gemini & Claude REST API Gateway on Railway
 
-Turn Gemini CLI into OpenAI, Gemini & Claude compatible REST APIs.
+Unified REST API Gateway for OpenAI, Gemini, Antigravity and Claude models.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gemini-api-gateway-one-api-for-gemini-cl)
 

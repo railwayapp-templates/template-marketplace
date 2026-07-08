@@ -17,7 +17,7 @@ For a shared or self-hosted deployment, the backend stores model metadata in Pos
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Bucket | [railwayapp-templates/minio](https://github.com/railwayapp-templates/minio) | Worker |
+| Bucket | [railwayapp-templates/minio](https://github.com/railwayapp-templates/minio) | Database |
 | COREY | [JHJHJHJH/COREY](https://github.com/JHJHJHJH/COREY) | Web service |
 | Console | [railwayapp-templates/minio-console](https://github.com/railwayapp-templates/minio-console) | Web service |
 
@@ -58,7 +58,12 @@ For a shared or self-hosted deployment, the backend stores model metadata in Pos
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Start command:** `/bin/sh -c "exec minio server --address [::]:$MINIO_PRIVATE_PORT $RAILWAY_VOLUME_MOUNT_PATH"`
+- **Healthcheck:** `/minio/health/ready`
+- **Volume:** `/data`
 - **Networking:** Public domain with automatic HTTPS
+- **Start command:** `/bin/sh -c "exec console server --host 0.0.0.0 --port $PORT"`
+- **Healthcheck:** `/login`
 
 **Category:** Other · **Languages:** Dockerfile, JavaScript, TypeScript, MDX, CSS
 

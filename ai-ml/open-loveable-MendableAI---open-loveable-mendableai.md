@@ -30,6 +30,7 @@ Chat with AI to build React apps instantly. An example app made by the Firecrawl
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/data`
 
 **Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript
 

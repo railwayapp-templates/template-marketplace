@@ -1,4 +1,4 @@
-# Deploy Nextjs with Background Jobs on Railway
+# Deploy NextJS + Background Jobs on Railway
 
 Nextjs with vercel workflows for Cron Jobs, Webhooks & Durable Functions.
 

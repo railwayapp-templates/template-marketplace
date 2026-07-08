@@ -1,6 +1,6 @@
-# Deploy ELK Stack on Railway
+# Deploy ELK Stack (Elasticsearch, Kibana, Logstash) on Railway
 
-Deploy and Host ELK Stack with Railway
+Deploy a complete ELK stack: Elasticsearch, Kibana, Logstash, & Filebeat.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/elk-stack-1)
 

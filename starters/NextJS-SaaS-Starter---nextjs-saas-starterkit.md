@@ -1,8 +1,8 @@
-# Deploy Next.js Postgres SaaS on Railway
+# Deploy NextJS SaaS Starter on Railway
 
-Deploy and Host Next.js Postgres SaaS with Railway
+Deploy and Host Next.js SaaS Starterkit with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-postgres-saas)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-saas-starterkit)
 
 ## About
 
@@ -14,15 +14,26 @@ Deploying this kit as a Railway template simplifies the infrastructure orchestra
 
 | Service | Source | Type |
 |---------|--------|------|
-| nextjs-saas-starterkit | [iqbalexperience/nextjs-postgres-starter](https://github.com/iqbalexperience/nextjs-postgres-starter) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
+| MinIO-Console | [iqbalexperience/MinIO](https://github.com/iqbalexperience/MinIO) (root: /Console) | Web service |
+| nextjs-saas-starterkit | [iqbalexperience/nextjs-saas-starterkit](https://github.com/iqbalexperience/nextjs-saas-starterkit) | Web service |
+| MinIO-Bucket | [iqbalexperience/MinIO](https://github.com/iqbalexperience/MinIO) (root: /Bucket) | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `POSTGRES_DB` | Postgres | railway | - |
+| `POSTGRES_USER` | Postgres | (secret) | - |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | - |
+| `PORT` | MinIO-Console | 9090 | - |
+| `PASSWORD` | MinIO-Console | (secret) | - |
+| `USERNAME` | MinIO-Console | (secret) | - |
+| `MINIO_PORT` | nextjs-saas-starterkit | 9000 | - |
 | `GOOGLE_CLIENT_ID` | nextjs-saas-starterkit | your-google-client-id | https://better-auth.com/docs/authentication/google |
+| `MINIO_SECRET_KEY` | nextjs-saas-starterkit | (secret) | - |
 | `SENDGRID_API_KEY` | nextjs-saas-starterkit | (secret) | - |
+| `MINIO_BUCKET_NAME` | nextjs-saas-starterkit | bucket | - |
 | `STRIPE_SECRET_KEY` | nextjs-saas-starterkit | (secret) | - |
 | `BETTER_AUTH_SECRET` | nextjs-saas-starterkit | (secret) | - |
 | `SENDGRID_FROM_EMAIL` | nextjs-saas-starterkit | Your App <noreply@example.com> | - |
@@ -33,15 +44,21 @@ Deploying this kit as a Railway template simplifies the infrastructure orchestra
 | `EMAIL_VERIFICATION_CALLBACK_URL` | nextjs-saas-starterkit | / | - |
 | `STRIPE_ENTERPRISE_PRICE_ID_YEARLY` | nextjs-saas-starterkit | price_... | - |
 | `STRIPE_ENTERPRISE_PRICE_ID_MONTHLY` | nextjs-saas-starterkit | price_... | - |
-| `POSTGRES_DB` | Postgres | railway | - |
-| `POSTGRES_USER` | Postgres | (secret) | - |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | - |
+| `MINIO_ROOT_USER` | MinIO-Bucket | (secret) | - |
+| `MINIO_PUBLIC_PORT` | MinIO-Bucket | 443 | - |
+| `MINIO_PRIVATE_PORT` | MinIO-Bucket | 9000 | - |
+| `MINIO_ROOT_PASSWORD` | MinIO-Bucket | (secret) | - |
 
 ## Configuration
 
-- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
+- **Start command:** `/bin/sh -c "exec console server --host 0.0.0.0 --port $PORT"`
+- **Healthcheck:** `/login`
+- **Networking:** Public domain with automatic HTTPS
+- **Start command:** `/bin/sh -c "exec minio server --address [::]:$MINIO_PRIVATE_PORT $RAILWAY_VOLUME_MOUNT_PATH"`
+- **Healthcheck:** `/minio/health/ready`
+- **Volume:** `/data`
 
-**Category:** Starters · **Languages:** TypeScript, CSS, JavaScript
+**Category:** Starters · **Languages:** Dockerfile, TypeScript, CSS, JavaScript
 
-[View on Railway →](https://railway.com/deploy/nextjs-postgres-saas)
+[View on Railway →](https://railway.com/deploy/nextjs-saas-starterkit)
