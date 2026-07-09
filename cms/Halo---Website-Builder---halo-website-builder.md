@@ -46,6 +46,6 @@ You can explore Halo before deploying your own instance using the official demo 
 - **Volume:** `/var/lib/postgresql/data`
 - **Volume:** `/root/.halo2`
 
-**Category:** Other
+**Category:** CMS
 
 [View on Railway →](https://railway.com/deploy/halo-website-builder)

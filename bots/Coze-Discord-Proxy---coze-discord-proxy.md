@@ -30,6 +30,6 @@ Hosting Coze Discord Proxy on Railway provides a fast and reliable way to expose
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other
+**Category:** Bots
 
 [View on Railway →](https://railway.com/deploy/coze-discord-proxy)

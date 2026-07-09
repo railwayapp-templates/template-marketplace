@@ -49,6 +49,6 @@ Once deployed, you'll have a fully functional AI gateway with a web-based admini
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
 
-**Category:** Other · **Languages:** Go, Makefile, Dockerfile, Shell, Lua
+**Category:** AI/ML · **Languages:** Go, Makefile, Dockerfile, Shell, Lua
 
 [View on Railway →](https://railway.com/deploy/new-api-or-universal-ai-gateway)

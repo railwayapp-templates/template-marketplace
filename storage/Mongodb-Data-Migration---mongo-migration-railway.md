@@ -29,6 +29,6 @@ Hosting this utility on Railway involves deploying a container that executes a m
 
 - **Volume:** `/data`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Storage · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/mongo-migration-railway)

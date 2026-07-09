@@ -38,6 +38,6 @@ Deploying CLIProxyAPI on Railway provides a simple, production-ready environment
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Other
+**Category:** AI/ML
 
 [View on Railway →](https://railway.com/deploy/cliproxyapi-no-api-key-needed)

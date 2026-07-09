@@ -42,7 +42,7 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 | `PG_META_DB_PASSWORD` | Postgres Meta | (secret) | - |
 | `PGRST_DB_SCHEMAS` | Postgrest | public,storage,graphql_public | - |
 | `PGRST_JWT_SECRET` | Postgrest | (secret) | - |
-| `PGRST_SERVER_HOST` | Postgrest | !6 | - |
+| `PGRST_SERVER_HOST` | Postgrest | * | - |
 | `PGRST_DB_ANON_ROLE` | Postgrest | anon | - |
 | `PGRST_DB_USE_LEGACY_GUCS` | Postgrest | false | - |
 | `PGRST_APP_SETTINGS_JWT_EXP` | Postgrest | 3600 | - |
@@ -111,6 +111,7 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 | `AAAA_IMPORTANT_READ_ME` | Supabase Studio | - | READ THIS! To setup Supabase, you need to generate a JWT Secret and the respective secrets. Either copy the secrets one by one, or deploy the template and paste the entire ENV block into the bottom of Supabase Studio > Environment > Raw Editor (don't touch the existing variables!) This value can be set to anything to proceed. http://6ixfalls.github.io/supabase |
 | `NEXT_PUBLIC_ENABLE_LOGS` | Supabase Studio | true | - |
 | `DEFAULT_ORGANIZATION_NAME` | Supabase Studio | Default Organization | - |
+| `SNIPPETS_MANAGEMENT_FOLDER` | Supabase Studio | /mnt/data/snippets | - |
 | `NEXT_ANALYTICS_BACKEND_PROVIDER` | Supabase Studio | postgres | - |
 | `JWT_SECRET` | Postgres | (secret) | - |
 | `POSTGRES_DB` | Postgres | postgres | - |
@@ -122,6 +123,7 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 - **Start command:** `postgrest`
 - **Healthcheck:** `/status`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/mnt/data`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 

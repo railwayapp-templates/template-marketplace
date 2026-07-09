@@ -25,6 +25,6 @@ Hosting this utility on Railway involves deploying the Dockerfile as a standalon
 | `SOURCE_DATABASE_URL` | ${{Postgres.DATABASE_URL}}  Add reference variable of source postgres |
 | `TARGET_DATABASE_URL` | ${{Postgres2.DATABASE_URL}}  Add reference variable of destination postgres |
 
-**Category:** Other · **Languages:** Dockerfile
+**Category:** Storage · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/railway-postgres-migration)

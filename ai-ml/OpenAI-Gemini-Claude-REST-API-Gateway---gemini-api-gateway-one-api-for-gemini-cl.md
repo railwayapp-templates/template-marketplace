@@ -42,6 +42,6 @@ Deploy Gemini API Gateway on Railway in minutes with a production-ready Docker s
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
 
-**Category:** Other · **Languages:** Python, HTML, JavaScript, Shell, PowerShell, Dockerfile, Batchfile
+**Category:** AI/ML · **Languages:** Python, HTML, JavaScript, Shell, PowerShell, Dockerfile, Batchfile
 
 [View on Railway →](https://railway.com/deploy/gemini-api-gateway-one-api-for-gemini-cl)

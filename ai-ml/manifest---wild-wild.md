@@ -1,4 +1,4 @@
-# Deploy wild-wild on Railway
+# Deploy manifest on Railway
 
 Plug your AI agents into any provider.
 

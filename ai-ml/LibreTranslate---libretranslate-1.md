@@ -26,6 +26,6 @@ Hosting LibreTranslate involves deploying a Docker container that serves the API
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other · **Languages:** Dockerfile
+**Category:** AI/ML · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/libretranslate-1)

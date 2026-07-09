@@ -1,6 +1,6 @@
 # Deploy OpenClaw - Railway Template on Railway
 
-Graphical Setup + TUI Support + Pairing support (May 2026)
+Graphical Setup + TUI Support + Pairing support (Jul 2026)
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-railway-template)
 
