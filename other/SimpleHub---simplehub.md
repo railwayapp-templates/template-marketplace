@@ -6,9 +6,13 @@ API monitor & proxy manager for OpenAI, NewAPI & multi-model LLMs.
 
 ## About
 
-SimpleHub is an open-source AI API management and monitoring platform that helps you manage multiple AI providers from a single dashboard. It supports balance monitoring, automatic check-ins, model synchronization, notifications, and centralized management for providers like NewAPI, Velora, VOAPI, DoneHub, and many others.
+SimpleHub is an API aggregation monitoring and management platform designed to centrally manage multiple AI API gateways and OpenAI-compatible platforms. It provides automated health checks, balance monitoring, model change detection, daily check-ins, notifications, and scheduling features through a modern web interface.
 
-Deploying SimpleHub on Railway provides a fast and reliable way to manage your AI API providers without maintaining servers or infrastructure. Railway automatically provisions networking, HTTPS, and persistent storage while SimpleHub offers a modern web interface for monitoring API balances, tracking model availability, performing automatic check-ins, and receiving notifications. The Railway template is production-ready and uses SQLite with persistent storage by default, so no external database is required. After deployment, simply open the dashboard, configure your API providers, and begin monitoring all of your AI services from one centralized location.
+Hosting SimpleHub requires running a persistent web application together with durable storage for its internal database and application configuration. The application uses SQLite by default and stores all site configurations, monitoring history, authentication data, notification settings, and scheduling information locally.
+
+Railway simplifies deployment by allowing SimpleHub to run as a single Docker service with an attached persistent volume. Railway manages networking, deployments, HTTPS, domains, monitoring, and automatic restarts, while the attached volume ensures that application data survives redeployments and upgrades.
+
+This makes Railway an ideal hosting platform for both personal monitoring dashboards and production monitoring environments managing dozens or hundreds of API providers.
 
 ## What gets deployed
 
@@ -18,11 +22,12 @@ Deploying SimpleHub on Railway provides a fast and reliable way to manage your A
 
 ## Environment variables
 
-| Variable | Default | Description |
-| --------- | ------- | ----------- |
-| `SMTP_USER` | (secret) | - |
-| `ADMIN_EMAIL` | "admin@example.com" | Add any sample email |
-| `ADMIN_PASSWORD` | (secret) | Passward can be changed |
+| Variable | Default |
+| --------- | ------- |
+| `JWT_SECRET` | (secret) |
+| `ADMIN_EMAIL` | admin@example.com |
+| `ADMIN_PASSWORD` | (secret) |
+| `ENCRYPTION_KEY` | 86d7286ccfc43a5e3af08eb9b34c6118d84c8dceef0b0e6efad3cc72bdfb6f94 |
 
 ## Configuration
 

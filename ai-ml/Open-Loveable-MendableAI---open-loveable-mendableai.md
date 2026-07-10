@@ -1,4 +1,4 @@
-# Deploy 🔥 open-loveable (MendableAI) on Railway
+# Deploy Open Loveable (MendableAI) on Railway
 
 Deploy and Host open-loveable (MendableAI) with Railway
 
@@ -14,7 +14,7 @@ Chat with AI to build React apps instantly. An example app made by the Firecrawl
 
 | Service | Source | Type |
 |---------|--------|------|
-| open-lovable | [iqbalexperience/open-lovable](https://github.com/iqbalexperience/open-lovable) | Web service |
+| open-lovable | [bilalnawaz072/open-lovable](https://github.com/bilalnawaz072/open-lovable) | Web service |
 
 ## Environment variables
 
@@ -24,6 +24,7 @@ Chat with AI to build React apps instantly. An example app made by the Firecrawl
 | `GROQ_API_KEY` | (secret) | Get yours at https://console.groq.com |
 | `GEMINI_API_KEY` | (secret) | Get yours at https://aistudio.google.com/app/apikey |
 | `OPENAI_API_KEY` | (secret) | Get yours at https://platform.openai.com |
+| `SANDBOX_PROVIDER` | e2b | - |
 | `ANTHROPIC_API_KEY` | (secret) | Get yours at https://console.anthropic.com |
 | `FIRECRAWL_API_KEY` | (secret) | REQUIRED - Web scraping for cloning websites. Get yours at https://firecrawl.dev |
 

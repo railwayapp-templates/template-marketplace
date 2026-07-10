@@ -15,7 +15,7 @@ Craftplan is built with Elixir, the Ash Framework, and Phoenix LiveView, and is 
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Craftplan | `ghcr.io/puemos/craftplan:0.4.1` | Web service |
+| Craftplan | `ghcr.io/puemos/craftplan:0.5.0` | Web service |
 
 ## Environment variables
 

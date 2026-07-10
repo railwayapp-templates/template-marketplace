@@ -14,18 +14,18 @@ Hosting LibreTranslate involves deploying a Docker container that serves the API
 
 | Service | Source | Type |
 |---------|--------|------|
-| libretranslate | [iqbalexperience/libretranslate](https://github.com/iqbalexperience/libretranslate) | Web service |
+| libretranslate/libretranslate:latest | `libretranslate/libretranslate:latest` | Web service |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `LT_LOAD_ONLY` | sv,de,es,fr,pt,da,en | Load only selected model in RAM. https://docs.libretranslate.com/guides/supported_languages/ |
+| `LT_LOAD_ONLY` | sv,de,es,fr,pt,da,en |  Load only selected model in RAM. https://docs.libretranslate.com/guides/supported_languages/ |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** AI/ML · **Languages:** Dockerfile
+**Category:** AI/ML
 
 [View on Railway →](https://railway.com/deploy/libretranslate-1)

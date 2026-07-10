@@ -17,9 +17,9 @@ Hosting Anyray on Railway stands up four services as one project. The gateway ex
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| proxy | `ghcr.io/anyrayhq/proxy:stable` | Worker |
-| gateway | `ghcr.io/anyrayhq/gateway:stable` | Database |
-| optimizer | `ghcr.io/anyrayhq/optimizer:stable` | Database |
+| proxy | `public.ecr.aws/anyray/proxy:v1.10.89` | Worker |
+| gateway | `public.ecr.aws/anyray/gateway:v1.10.89` | Database |
+| optimizer | `public.ecr.aws/anyray/optimizer:v1.10.89` | Database |
 
 ## Environment variables
 
@@ -30,7 +30,7 @@ Hosting Anyray on Railway stands up four services as one project. The gateway ex
 | `POSTGRES_PASSWORD` | Postgres | (secret) |
 | `ANYRAY_UPDATER_TOKEN` | proxy | (secret) |
 | `ANYRAY_UPDATER_ENABLED` | proxy | false |
-| `ANYRAY_UPDATER_POLL_INTERVAL` | proxy | 86400 |
+| `ANYRAY_UPDATER_POLL_INTERVAL` | proxy | 0 |
 | `ANYRAY_UPDATER_PERIODIC_POLLS` | proxy | false |
 | `PORT` | gateway | 8787 |
 | `ANYRAY_HSTS` | gateway | true |
@@ -41,6 +41,8 @@ Hosting Anyray on Railway stands up four services as one project. The gateway ex
 | `ANYRAY_DEFAULT_MODEL` | gateway | anthropic/claude-sonnet-4-5 |
 | `ANYRAY_ALLOW_PLAINTEXT` | gateway | false |
 | `ANYRAY_OPTIMIZER_TOKEN` | gateway | (secret) |
+| `ANYRAY_DEPLOYMENT_TOKEN` | gateway | (secret) |
+| `ANYRAY_METERING_ENABLED` | gateway | true |
 | `ANYRAY_OPTIMIZER_TIMEOUT_MS` | gateway | 800 |
 | `ANYRAY_OPTIMIZER_VISION_TIMEOUT_MS` | gateway | 10000 |
 | `PORT` | optimizer | 8088 |

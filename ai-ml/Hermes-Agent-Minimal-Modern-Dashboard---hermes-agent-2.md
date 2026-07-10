@@ -1,6 +1,6 @@
-# Deploy Hermes Agent — Fresh Dashboard on Railway
+# Deploy Hermes Agent | Minimal & Modern Dashboard on Railway
 
-[Jul'26] 1-click deploy AI agent that works — Telegram, Discord & Slack 🤖
+Self-Hosted Hermes AI Agent with Telegram, Discord & Slack
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-2)
 

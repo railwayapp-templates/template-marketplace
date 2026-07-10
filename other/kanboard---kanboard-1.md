@@ -18,7 +18,7 @@ Kanboard runs as a single container with SQLite for persistence. Railway provide
 
 | Service | Source | Type |
 |---------|--------|------|
-| kanboard | [INAPP-Mobile/railway-kanboard](https://github.com/INAPP-Mobile/railway-kanboard) | Database |
+| kanboard | [INAPP-Mobile/railway-kanboard](https://github.com/INAPP-Mobile/railway-kanboard) | Web service |
 
 ## Environment variables
 
@@ -28,10 +28,13 @@ Kanboard runs as a single container with SQLite for persistence. Railway provide
 | `DEBUG` | false | Set to true to enable debug mode for troubleshooting. |
 | `DB_DRIVER` | sqlite | Database driver: sqlite, mysql, or postgres. SQLite is built-in with a persistent volume. |
 | `MAIL_FROM` | notifications@localhost | From address for email notifications (task assignments, reminders). Change if you configure SMTP. |
+| `INITIAL_LOGIN_ID` | (secret) | Informational purpose variable |
 | `PLUGIN_INSTALLER` | false | Set to true to enable the plugin installer from Administration > Plugins. |
+| `INITIAL_LOGIN_PASSWORD` | (secret) | Informational purpose variable |
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/www/app/data`
 
 **Category:** Other · **Languages:** Dockerfile

@@ -1,6 +1,6 @@
-# Deploy Grok Mirror on Railway
+# Deploy Grok API Wrapper on Railway
 
-Deploy your personal Grok mirror site with one click
+Deploy your personal Grok Reverse Proxy site with one click
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/grok-mirror)
 

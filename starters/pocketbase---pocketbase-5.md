@@ -169,6 +169,8 @@ This template is provided under the MIT License. PocketBase itself is MIT licens
 | --------- | ------- | ----------- |
 | `PORT` | 8080 | Port PocketBase listens on (default: 8080). Railway injects PORT for routing. |
 | `ORIGINS` | - | CORS allowed origins (comma-separated). Set to your custom domain if using one. |
+| `ADMIN_USER` | (secret) | Email of the first PocketBase superuser. PocketBase CLI requires email format. Used only on first boot against an empty /pb_data volume to auto-seed the admin account. |
+| `ADMIN_PASSWORD` | (secret) | Initial password for the auto-seeded first superuser (>=5 chars). The shipped default is a GENERIC PLACEHOLDER — every marketplace deploy of this template starts with the same password because template serializedConfig is publicly readable. **ROTATE THIS FROM THE ADMIN UI IMMEDIATELY AFTER FIRST LOGIN.** Set to a real value, or override with the placeholder + the rotate workflow below. |
 | `ENCRYPTION_KEY` | - | Encryption key for encrypting app settings (32 hex chars). Auto-generated on first deploy. |
 
 ## Configuration

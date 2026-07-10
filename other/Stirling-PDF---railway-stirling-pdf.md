@@ -200,7 +200,7 @@ Stirling PDF is open-core. The core PDF tools are MIT-licensed, with paid enterp
 
 | Service | Source | Type |
 |---------|--------|------|
-| railway-stirling-pdf | [INAPP-Mobile/railway-stirling-pdf](https://github.com/INAPP-Mobile/railway-stirling-pdf) | Database |
+| railway-stirling-pdf | [INAPP-Mobile/railway-stirling-pdf](https://github.com/INAPP-Mobile/railway-stirling-pdf) | Web service |
 
 ## Environment variables
 
@@ -221,6 +221,7 @@ Stirling PDF is open-core. The core PDF tools are MIT-licensed, with paid enterp
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/configs`
 
 **Category:** Other · **Languages:** Dockerfile
