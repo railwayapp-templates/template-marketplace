@@ -6,9 +6,7 @@ Self-hosted Intercom alternative — live chat, email, Whatsapp & team inbox.
 
 ## About
 
-Chatwoot is an open-source customer support platform and self-hosted alternative to Intercom and Zendesk. Manage live chat, email, WhatsApp, Twitter, and Facebook conversations from a single dashboard. Free to self-host, with full control over your data and no per-agent pricing.
-
-Hosting Chatwoot requires three components: the Rails web application, a Sidekiq background worker for processing jobs, and supporting services — PostgreSQL for data storage and Redis for queues and real-time features. This Railway template bundles the web app and Sidekiq into a single container for simplicity. On first boot, database migrations run automatically. You set one variables - `SECRET_KEY_BASE` - and Chatwoot is ready to use. For production teams, adding SMTP credentials enables email notifications, invites, and password resets.
+Self-hosting Chatwoot requires three components: the **Rails web application**, a **Sidekiq background worker** for processing jobs, and supporting services — **PostgreSQL** for data storage and **Redis** for queues and real-time features. This Railway template bundles the web app and Sidekiq into a single container for simplicity. On first boot, database migrations run automatically. You set one variable — `SECRET_KEY_BASE` — and Chatwoot is ready to use. For production teams, adding SMTP credentials enables email notifications, invites, and password resets.
 
 ## What gets deployed
 

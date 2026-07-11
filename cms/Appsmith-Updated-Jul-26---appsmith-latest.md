@@ -1,6 +1,6 @@
-# Deploy Appsmith [Updated Jun '26] on Railway
+# Deploy Appsmith [Updated Jul '26] on Railway
 
-Appsmith [Jun '26] (Low-Code App Builder w/ DB/API Integrations) Self Host
+Appsmith [Jul '26] (Low-Code App Builder w/ DB/API Integrations) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/appsmith-latest)
 

@@ -1,6 +1,6 @@
-# Deploy Mattermost [Updated Jun '26] on Railway
+# Deploy Mattermost [Updated Jul '26] on Railway
 
-Mattermost [Jun '26] (Slack Alternative & Secure Messaging) Self Host
+Mattermost [Jul '26] (Slack Alternative & Secure Messaging) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mattermost)
 

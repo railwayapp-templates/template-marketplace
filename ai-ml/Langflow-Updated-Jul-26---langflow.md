@@ -1,6 +1,6 @@
-# Deploy Langflow [Updated Jun '26] on Railway
+# Deploy Langflow [Updated Jul '26] on Railway
 
-Langflow [Jun '26] (LLM Workflow Builder, Flowise alternative) Self Host
+Langflow [Jul '26] (LLM Workflow Builder, Flowise alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/langflow)
 

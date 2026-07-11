@@ -1,6 +1,6 @@
-# Deploy TurboVec [Updated June '26] on Railway
+# Deploy TurboVec [Updated Jul '26] on Railway
 
-TurboVec [June '26] (Compressed Vector Search & Embedding API) Self Host
+TurboVec [Jul '26] (Compressed Vector Search & Embedding API) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/turbovec)
 

@@ -1,6 +1,6 @@
-# Deploy Invoice Ninja [Updated Jun '26] on Railway
+# Deploy Invoice Ninja [Updated Jul '26] on Railway
 
-Invoice Ninja [Jun '26] (Create, Send & Track Invoices Easily) Self Host
+Invoice Ninja [Jul '26] (Create, Send & Track Invoices Easily) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/invoiceninja)
 

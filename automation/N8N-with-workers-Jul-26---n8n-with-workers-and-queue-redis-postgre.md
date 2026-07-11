@@ -1,6 +1,6 @@
-# Deploy N8N with workers [Jun ’26] on Railway
+# Deploy N8N with workers [Jul ’26] on Railway
 
-[Updated Jun '26] Deploy and Host N8N with Workers with one click.
+[Updated Jul '26] Deploy and Host N8N with Workers with one click.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-with-workers-and-queue-redis-postgre)
 

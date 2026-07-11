@@ -1,6 +1,6 @@
-# Deploy Rocket.Chat [Updated Jun '26] on Railway
+# Deploy Rocket.Chat [Updated Jul '26] on Railway
 
-Rocket Chat [Jun '26] (Chat Platform, Slack & Teams alternative) Self Host
+Rocket Chat [Jul '26] (Chat Platform, Slack & Teams alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rocketchat)
 

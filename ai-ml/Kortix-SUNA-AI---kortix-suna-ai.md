@@ -25,7 +25,7 @@ Suna is an open-source AI assistant designed to simplify real-world tasks throug
 
 | Service | Source | Type |
 |---------|--------|------|
-| suna-frontend | [iqbalexperience/suna-frontend](https://github.com/iqbalexperience/suna-frontend) | Web service |
+| suna-frontend | [kaviarahul123/suna-frontend](https://github.com/kaviarahul123/suna-frontend) | Web service |
 | suna-backend | [iqbalexperience/suna-backend](https://github.com/iqbalexperience/suna-backend) | Web service |
 
 ## Environment variables

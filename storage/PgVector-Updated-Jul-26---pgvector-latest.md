@@ -1,6 +1,6 @@
-# Deploy PgVector [Updated Jun ’26] on Railway
+# Deploy PgVector [Updated Jul ’26] on Railway
 
-PgVector [Jun ’26] (Embeddings & Vector Search for Postgres DBs) Self Host
+PgVector [Jul ’26] (Embeddings & Vector Search for Postgres DBs) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pgvector-latest)
 

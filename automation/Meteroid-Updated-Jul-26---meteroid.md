@@ -1,6 +1,6 @@
-# Deploy Meteroid [Updated Jun '26] on Railway
+# Deploy Meteroid [Updated Jul '26] on Railway
 
-Meteroid [Jun '26] (Billing, Subscriptions & Usage-Based Pricing) Self Host
+Meteroid [Jul '26] (Billing, Subscriptions & Usage-Based Pricing) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/meteroid)
 

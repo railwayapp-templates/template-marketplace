@@ -1,6 +1,6 @@
-# Deploy PhotoPrism [Updated Jun ’26] on Railway
+# Deploy PhotoPrism [Updated Jul ’26] on Railway
 
-PhotoPrism [Jun ’26] (Google Photos alternative & RAW support) Self Host
+PhotoPrism [Jul ’26] (Google Photos alternative & RAW support) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/photoprism)
 

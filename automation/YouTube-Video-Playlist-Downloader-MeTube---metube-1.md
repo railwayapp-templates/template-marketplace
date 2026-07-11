@@ -14,7 +14,7 @@ Hosting MeTube involves deploying a containerized application (Docker) that mana
 
 | Service | Source | Type |
 |---------|--------|------|
-| alexta69/metube:latest | `ghcr.io/alexta69/metube:latest` | Web service |
+| alexta69/metube:latest | `ghcr.io/alexta69/metube:2026.07.10` | Web service |
 
 ## Environment variables
 

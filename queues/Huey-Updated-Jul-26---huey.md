@@ -1,6 +1,6 @@
-# Deploy Huey [Updated Jun '26] on Railway
+# Deploy Huey [Updated Jul '26] on Railway
 
-Huey [Jun '26] (Run Background Tasks & Schedule Jobs) Self Host
+Huey [Jul '26] (Run Background Tasks & Schedule Jobs) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/huey)
 

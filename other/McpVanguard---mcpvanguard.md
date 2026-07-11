@@ -1,14 +1,20 @@
 # Deploy McpVanguard on Railway
 
-MCP security proxy — blocks prompt injection & attacks instantly.
+Open-source MCP security gateway for routed tool calls.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mcpvanguard)
 
 ## About
 
-McpVanguard is a security gateway for the Model Context Protocol (MCP). It sits between AI agents and MCP tools, enforcing layered protection with static threat detection, optional semantic intent scoring, behavioral session controls, metadata inspection, and upstream trust checks such as capability and integrity verification.
+McpVanguard is an open-source security gateway for the Model Context Protocol (MCP). It sits between AI agents and MCP tool servers, inspects routed tool calls before execution, and applies configurable policy before requests reach the upstream server.
 
-Hosting McpVanguard on Railway lets you expose MCP tools over a secure network endpoint while keeping policy enforcement in front of your upstream server. In a typical deployment, Railway runs the McpVanguard SSE gateway as the public entrypoint and McpVanguard launches or connects to an MCP-compatible upstream server behind it. Railway handles public networking and TLS, while McpVanguard adds request inspection, auth enforcement, filesystem and tool restrictions, metadata poisoning defenses, and structured security decisions. Redis can be attached for behavioral state, rate limiting, and session-aware enforcement across multiple requests.
+Hosting McpVanguard on Railway lets you expose an MCP gateway over a public HTTPS endpoint while keeping policy enforcement in front of your upstream MCP server.
+
+In a typical deployment, Railway runs the McpVanguard SSE gateway as the public entrypoint. McpVanguard then launches or connects to the MCP-compatible upstream server configured by `MCP_SERVER_COMMAND`.
+
+Railway handles public networking and TLS. McpVanguard adds MCP tool-call inspection, API-key authentication, configurable profiles, deterministic rules, safe-zone checks, metadata inspection, behavioral signals, and structured audit logs for routed MCP traffic.
+
+McpVanguard is not an OS sandbox and does not secure traffic that bypasses the gateway. For production use, route the relevant MCP workflow through McpVanguard, configure a long random API key, restrict the upstream server command, and tune safe zones for the tools being protected.
 
 ## What gets deployed
 

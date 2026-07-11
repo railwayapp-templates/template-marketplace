@@ -1,6 +1,6 @@
-# Deploy Typesense [Updated Jun ’26] (Lightning-Fast Open Source Search Engine and Indexing) on Railway
+# Deploy Typesense [Updated Jul ’26] (Lightning-Fast Open Source Search Engine and Indexing) on Railway
 
-Typesense [Jun ’26] (Algolia/Elasticsearch Alternative), Self Host
+Typesense [Jul ’26] (Algolia/Elasticsearch Alternative), Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/typesense-latest)
 

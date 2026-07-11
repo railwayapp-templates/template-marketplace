@@ -1,6 +1,6 @@
-# Deploy Zabbix [Updated Jun '26] on Railway
+# Deploy Zabbix [Updated Jul '26] on Railway
 
-Zabbix [Jun '26] (Monitor Servers, Apps & Networks) Self Host
+Zabbix [Jul '26] (Monitor Servers, Apps & Networks) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zabbix)
 

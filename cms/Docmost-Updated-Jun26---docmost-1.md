@@ -6,9 +6,7 @@ Self-hosted Confluence alternative with real-time collaborative editing.
 
 ## About
 
-Docmost is an open-source collaborative wiki and documentation platform - a self-hosted alternative to Notion and Confluence. With real-time editing, nested pages, multiple workspaces, and granular permissions, Docmost gives teams full control over their knowledge base without vendor lock-in.
-
-The core platform is free and open-source under AGPL-3.0, giving you complete flexibility without per-seat pricing. Hosting Docmost on Railway provisions all three required services automatically - the Docmost app, PostgreSQL for data storage, and Redis for real-time collaboration so you get a fully working instance in minutes. Railway gives every new user a $5 free trial when signing up with GitHub, enough to run Docmost free for about a month before committing.
+Docmost is free and open-source under AGPL-3.0, giving you complete flexibility with zero per-seat pricing. This Railway template provisions all three required services automatically — the Docmost app, PostgreSQL for data storage, and Redis for real-time collaboration — so you get a fully working self-hosted wiki in minutes. Railway gives every new user a $5 free trial when signing up with GitHub, enough to run Docmost free for about a month before committing to a paid plan.
 
 ## What gets deployed
 

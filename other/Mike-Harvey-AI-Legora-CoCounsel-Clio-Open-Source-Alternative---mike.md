@@ -1,6 +1,6 @@
 # Deploy Mike | Harvey AI, Legora, CoCounsel, Clio Open Source Alternative on Railway
 
-Mike [Jun '26] (AI Legal Document Analysis & Contract Review) Self Host
+Mike [Jul '26] (AI Legal Document Analysis & Contract Review) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mike)
 

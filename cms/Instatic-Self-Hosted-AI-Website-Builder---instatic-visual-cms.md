@@ -37,7 +37,7 @@ visual editor, forms, media, and an AI page builder at flat compute cost with fu
 
 | Service | Source | Type |
 |---------|--------|------|
-| Instatic | `corebunch/instatic:latest` | Database |
+| Instatic | `corebunch/instatic:latest` | Web service |
 
 ## Environment variables
 
@@ -51,6 +51,7 @@ visual editor, forms, media, and an AI page builder at flat compute cost with fu
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/storage`
 
 **Category:** CMS
