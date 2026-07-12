@@ -6,9 +6,9 @@ Self-hosted drag-and-drop builder for LLM agents and RAG pipelines.
 
 ## About
 
-Flowise is an open-source drag-and-drop UI for building LLM-powered agents, RAG pipelines, and AI workflows — no coding required. Connect OpenAI, Anthropic, Ollama, and 100+ integrations visually. A self-hosted alternative to Zapier AI and Stack AI, saving teams $50–200/month.
+**Flowise** is an open-source **drag-and-drop UI for building LLM-powered agents, RAG pipelines, and AI workflows** — no coding required. Connect **OpenAI**, **Anthropic**, **Ollama**, and 100+ integrations visually. A self-hosted alternative to **Zapier AI** and **Stack AI**, saving teams $50–200/month.
 
-Flowise runs as a single container with embedded SQLite — no external database required. This Railway template provisions everything automatically with a persistent volume at `/root/.flowise` that stores all flows, credentials, API keys, and uploads across restarts and redeployments. For larger teams, PostgreSQL and Redis can be added. Railway charges ~$5–10/month flat based on compute — no per-run fees, no operation limits, no per-seat pricing.
+Flowise runs as a single container with embedded SQLite — no external database required. This Railway template provisions everything automatically with a **persistent volume** at `/root/.flowise` that stores all flows, credentials, API keys, and uploads across restarts and redeployments. For larger teams, PostgreSQL and Redis can be added. Railway charges ~$5–10/month flat based on compute — no per-run fees, no operation limits, no per-seat pricing.
 
 | Platform | Flowise on Railway | Competitor |
 |----------|-------------------|------------|

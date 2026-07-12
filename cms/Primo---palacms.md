@@ -1,6 +1,6 @@
 # Deploy Primo on Railway
 
-Agent-native visual CMS. Build site with AI, manage them visually.
+Agent-native visual CMS. Build sites with AI, manage them visually.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/palacms)
 
@@ -16,17 +16,17 @@ Primo is self-contained Svelte application with a Pocketbase backend. There's no
 
 | Service | Source | Type |
 |---------|--------|------|
-| palacms/palacms | `ghcr.io/primocms/primo:latest` | Web service |
+| primocms/primo | `ghcr.io/primocms/primo:latest` | Web service |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `PALA_APP_URL` | - | The public-facing URL for your PalaCMS instance. |
-| `PALA_USER_EMAIL` | - | Email address for initial PalaCMS user account. |
-| `PALA_USER_PASSWORD` | (secret) | Password for initial PalaCMS user account. |
-| `PALA_SUPERUSER_EMAIL` | - | Email address for initial superuser account. |
-| `PALA_SUPERUSER_PASSWORD` | (secret) | Password for initial superuser account. |
+| `PRIMO_APP_URL` | - | The public-facing URL for your PalaCMS instance. |
+| `PRIMO_USER_EMAIL` | - | Email address for initial PalaCMS user account. |
+| `PRIMO_USER_PASSWORD` | (secret) | Password for initial PalaCMS user account. |
+| `PRIMO_SUPERUSER_EMAIL` | - | Email address for initial superuser account. |
+| `PRIMO_SUPERUSER_PASSWORD` | (secret) | Password for initial superuser account. |
 
 ## Configuration
 

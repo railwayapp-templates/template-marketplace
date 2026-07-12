@@ -14,7 +14,6 @@ This template runs as a single container with no external database dependencies.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | memos | [INAPP-Mobile/railway-memos](https://github.com/INAPP-Mobile/railway-memos) | Web service |
 
 ## Environment variables
@@ -30,7 +29,6 @@ This template runs as a single container with no external database dependencies.
 
 ## Configuration
 
-- **Volume:** `/var/lib/postgresql/data`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/opt/memos`
 

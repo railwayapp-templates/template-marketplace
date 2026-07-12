@@ -22,12 +22,14 @@ Hosting Openinary involves running a Dockerized service that processes and serve
 | --------- | ------- | ----------- |
 | `PORT` | 3000 | API PORT - Mandatory for healthchecks |
 | `IMAGE_TAG` | latest | Openinary Version |
+| `API_SECRET` | (secret) | Used for authenticated upload requests |
 | `STORAGE_REGION` | - | S3-compatible Storage Region |
-| `BETTER_AUTH_URL` | https://example.up.railway.app/ | Paste your base URL after deploying |
+| `BETTER_AUTH_URL` | - | Base domain for authentification |
 | `STORAGE_ENDPOINT` | - | S3-compatible Storage Endpoint |
-| `BETTER_AUTH_SECRET` | (secret) | 32 characters long secret |
+| `BETTER_AUTH_SECRET` | (secret) | 32 bytes secret |
 | `STORAGE_BUCKET_NAME` | - | S3-compatible Storage Name |
 | `STORAGE_ACCESS_KEY_ID` | - | S3-compatible Storage Key Identifier |
+| `NEXT_PUBLIC_API_BASE_URL` | - | Base URL for api calls |
 | `STORAGE_SECRET_ACCESS_KEY` | (secret) | S3-compatible Storage Access Key |
 
 ## Configuration

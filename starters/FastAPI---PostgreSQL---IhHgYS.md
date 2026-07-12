@@ -20,7 +20,9 @@ Whether you're prototyping a side project or scaffolding a production service, t
 
 * **Authenticated API docs**: `/docs` and `/redoc` are protected behind session-based login using a pure ASGI middleware (no `BaseHTTPMiddleware` overhead). Your API documentation stays private until you're ready to share.
 
-* **Production-grade performance**: ORJSONResponse for fast serialization, `uvloop` + `httptools` for maximum throughput, GZIP compression, and a tuned thread pool (100 threads) for mixed workloads.
+* **Production-grade performance**: FastAPI 0.139 with Rust-powered JSON serialization (pydantic-core), `uvloop` + `httptools` for maximum throughput, and GZIP compression.
+
+* **Tuned for your Railway bill**: ~62MB idle memory (not the typical 150MB Python footprint) — multi-stage image, glibc arena capping, precompiled bytecode, no wrapper processes. Railway bills by memory per minute; this template respects that.
 
 * **Modern Python tooling**: Managed with `uv` and `pyproject.toml` — fast, reproducible installs with no dependency conflicts. Python 3.12, Pydantic v2, and clean `src/` project layout.
 
@@ -30,8 +32,11 @@ Whether you're prototyping a side project or scaffolding a production service, t
 
 * FastAPI with async CRUD endpoints (Create, Read, Update, Delete)
 * PostgreSQL with SQLAlchemy 2.0 async engine
+* Time-ordered UUIDv7 primary keys (PostgreSQL 18-ready)
+* Alembic async migrations
 * Pydantic v2 request/response validation
 * Session-based authentication for API docs
+* `/health` endpoint wired for Railway healthchecks
 * Environment-driven configuration (`.env.example` provided)
 * Docker multi-stage build
 * Async test suite with pytest
@@ -39,8 +44,8 @@ Whether you're prototyping a side project or scaffolding a production service, t
 
 ## Quick Start
 
-1. Click **Deploy** to provision your FastAPI app + PostgreSQL database
-2. Set `USER_NAME` and `PASSWORD` environment variables for API doc access
+1. Click **Deploy** — you'll be prompted for `USER_NAME` and `PASSWORD` (your API docs login) before the FastAPI app + PostgreSQL database provision
+2. Left them empty? No problem — credentials are auto-generated and printed once in the deploy logs
 3. Visit your deployment URL — your API is live
 
 ## Learn More
@@ -68,6 +73,7 @@ Whether you're prototyping a side project or scaffolding a production service, t
 | `HOST_URL` | Fullstack-FastAPI | - | Host URL for App |
 | `PASSWORD` | Fullstack-FastAPI | (secret) | Password for accessing OpenAPI document. |
 | `USER_NAME` | Fullstack-FastAPI | - | User name for accessing OpenAPI document. |
+| `SECRET_KEY` | Fullstack-FastAPI | (secret) | - |
 
 ## Configuration
 
