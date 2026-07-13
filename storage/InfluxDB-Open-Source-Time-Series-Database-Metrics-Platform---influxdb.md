@@ -1,6 +1,6 @@
 # Deploy InfluxDB (Open-Source Time Series Database & Metrics Platform) on Railway
 
-InfluxDB [Jun ’26] (Store & Query Time Series Data Easily) Self Host
+InfluxDB [Jul ’26] (Store & Query Time Series Data Easily) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/influxdb)
 

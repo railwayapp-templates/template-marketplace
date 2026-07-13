@@ -1,6 +1,6 @@
 # Deploy Llana (Open-Source LLM Management & AI Workflow Platform) on Railway
 
-Llana [Jun ’26] (Run, Chain & Manage AI Models Easily) Self Host
+Llana [Jul ’26] (Run, Chain & Manage AI Models Easily) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/llana)
 

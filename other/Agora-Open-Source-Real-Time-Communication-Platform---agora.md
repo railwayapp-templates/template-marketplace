@@ -1,6 +1,6 @@
 # Deploy Agora (Open-Source Real-Time Communication Platform) on Railway
 
-Agora [Jun ’26] (Enable Voice, Video & Chat in Apps) Self Host
+Agora [Jul ’26] (Enable Voice, Video & Chat in Apps) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/agora)
 

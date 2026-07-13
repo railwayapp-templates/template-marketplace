@@ -1,6 +1,6 @@
 # Deploy Memos (Open-Source Knowledge Base & Memo Notes Tool) on Railway
 
-Memos [Jun ’26] (Open-Source Knowledge Base & Memo Notes Tool), Self Host
+Memos [Jul ’26] (Open-Source Knowledge Base & Memo Notes Tool), Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/memo)
 

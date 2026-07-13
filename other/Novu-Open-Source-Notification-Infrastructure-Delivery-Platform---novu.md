@@ -1,6 +1,6 @@
 # Deploy Novu (Open-Source Notification Infrastructure & Delivery Platform) on Railway
 
-Novu [Jun ’26] (Multi Notification System for Email, SMS, Push) Self Host
+Novu [Jul ’26] (Multi Notification System for Email, SMS, Push) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/novu)
 

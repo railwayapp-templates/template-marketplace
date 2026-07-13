@@ -61,11 +61,14 @@ Configuration variables can be filled in after deployment, more details are avai
 | `paypal` | - | Enable or Disable paypal |
 | `razorpay` | - | Enable or Disable Razorpay |
 | `meta_desc` | Sell Subscriptions, Newsletters, Digital Files without paying commissions. | - |
+| `s3_region` | - | s3 region for R2 |
 | `db_adapter` | sqlite3 | - |
 | `meta_image` | /assets/images/app/oph_featured_image.png | - |
 | `meta_title` | Sell what you want without paying commissions | - |
 | `secret_key` | (secret) | - |
+| `s3_endpoint` | - | S3 endpoint for R2 |
 | `autocert_ssl` | no | - |
+| `listmonk_URL` | - | Base URL of the Listmonk instance used to add purchasers to product-specific lists |
 | `session_name` | open_payment_host_session | - |
 | `meta_keywords` | payments,subscription,projects,products | - |
 | `paypal_domain` | - | Sandbox or Production domain of paypal |
@@ -77,6 +80,7 @@ Configuration variables can be filled in after deployment, more details are avai
 | `paypal_client_id` | - | Client ID of paypal |
 | `paypal_api_domain` | - | API domain of paypal |
 | `paypal_webhook_id` | - | Webhook ID of paypal |
+| `listmonk_API_token` | (secret) | Listmonk API credentials in `api_key:token` format |
 | `turnstile_site_key` | 1x00000000000000000000AA | - |
 | `razorpay_key_secret` | (secret) | Key secret of Razorpay |
 | `square_access_token` | (secret) | - |
@@ -85,6 +89,7 @@ Configuration variables can be filled in after deployment, more details are avai
 | `stripe_webhook_secret` | (secret) | - |
 | `admin_default_password` | (secret) | - |
 | `razorpay_webhook_secret` | (secret) | Razorpay webhook secret |
+| `listmonk_preconfirm_subscriptions` | - | Preconfirm Listmonk subscriptions. Set to `no` or `false` to use double opt-in lists |
 
 ## Configuration
 

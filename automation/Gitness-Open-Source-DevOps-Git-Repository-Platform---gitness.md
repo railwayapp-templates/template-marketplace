@@ -1,6 +1,6 @@
 # Deploy Gitness (Open-Source DevOps & Git Repository Platform) on Railway
 
-Gitness [Jun ’26] (Code Hosting, CI/CD & Collaboration) Self Host
+Gitness [Jul ’26] (Code Hosting, CI/CD & Collaboration) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gitness)
 

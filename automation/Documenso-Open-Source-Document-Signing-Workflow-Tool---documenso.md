@@ -1,6 +1,6 @@
 # Deploy Documenso (Open-Source Document Signing & Workflow Tool) on Railway
 
-Documenso [Jun ’26] (E-Sign & Manage Documents Securely) Self Host
+Documenso [Jul ’26] (E-Sign & Manage Documents Securely) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/documenso)
 

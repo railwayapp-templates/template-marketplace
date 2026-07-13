@@ -1,6 +1,6 @@
 # Deploy Stirling (Open-Source File Manager & Data Transfer Tool) on Railway
 
-Stirling PDF [Jun ’26] (Manage, Transfer & Organise Files) Self Host
+Stirling PDF [Jul ’26] (Manage, Transfer & Organise Files) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/stirlingpdf)
 

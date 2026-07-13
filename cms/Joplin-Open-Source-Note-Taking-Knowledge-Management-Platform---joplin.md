@@ -1,6 +1,6 @@
 # Deploy Joplin (Open-Source Note-Taking & Knowledge Management Platform) on Railway
 
-Joplin [Jun ’26] (Markdown Notes, Task List & E2E Encrypted Sync) Self Host
+Joplin [Jul ’26] (Markdown Notes, Task List & E2E Encrypted Sync) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/joplin)
 

@@ -1,6 +1,6 @@
 # Deploy JupyterLab Latest (Open-Source Interactive Notebook Platform) on Railway
 
-JupyterLab [Jun ’26] (Code, Analyze & Visualize Data Easily) Self Host
+JupyterLab [Jul ’26] (Code, Analyze & Visualize Data Easily) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/latest-jupyterlab)
 
