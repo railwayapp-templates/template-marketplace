@@ -1,6 +1,6 @@
-# Deploy green-dark on Railway
+# Deploy Boardpost on Railway
 
-Self-hosted feedback and testimonial wall
+Organise work across four columns (Backlog → To do → In progress → Done)
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/green-dark)
 

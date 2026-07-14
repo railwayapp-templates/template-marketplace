@@ -1,4 +1,4 @@
-# Deploy wild-green on Railway
+# Deploy Vouch on Railway
 
 Self-hosted feedback and testimonial wall
 

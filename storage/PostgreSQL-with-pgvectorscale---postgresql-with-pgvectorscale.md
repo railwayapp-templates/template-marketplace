@@ -1,18 +1,18 @@
 # Deploy PostgreSQL with pgvectorscale on Railway
 
-PostgreSQL 16 with pgvector and pgvectorscale extensions.
+PostgreSQL 18 with pgvector and pgvectorscale extensions.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresql-with-pgvectorscale)
 
 ## About
 
-PostgreSQL 16 with pgvector and pgvectorscale extensions for high-performance vector similarity search. Built from source with StreamingDiskANN indexing, providing superior performance for AI/ML applications requiring embeddings storage and semantic
+PostgreSQL 18 with pgvector and pgvectorscale extensions for high-performance vector similarity search with StreamingDiskANN indexing, providing superior performance for AI/ML applications requiring embeddings storage and semantic
   search capabilities.
 
   ## About Hosting PostgreSQL with pgvectorscale
 
-  pgvectorscale extends pgvector with advanced indexing algorithms like StreamingDiskANN, offering better performance and scalability for vector similarity search. This template provides a production-ready PostgreSQL 16 database with both extensions
-  pre-installed and configured. The container is built from source using multi-stage builds for optimal size, includes automatic extension initialization, and persistent volume storage. Perfect for RAG applications, semantic search, recommendation systems,
+  pgvectorscale extends pgvector with advanced indexing algorithms like StreamingDiskANN, offering better performance and scalability for vector similarity search. This template provides a production-ready PostgreSQL 18 database with both extensions
+  pre-installed and configured. Built on Railway's official postgres-ssl image, it ships SSL out of the box with auto-generated certificates, pgBackRest WAL archiving with point-in-time recovery support, automatic extension initialization and updates, and persistent volume storage. Images are published under immutable version tags and smoke-tested in CI before release. Perfect for RAG applications, semantic search, recommendation systems,
    and any AI application requiring efficient vector operations at scale.
 
   ## Common Use Cases
@@ -31,7 +31,7 @@ PostgreSQL 16 with pgvector and pgvectorscale extensions for high-performance ve
 
   - [pgvector Documentation](https://github.com/pgvector/pgvector) - Core vector extension
   - [pgvectorscale Documentation](https://github.com/timescale/pgvectorscale) - Performance enhancements and StreamingDiskANN
-  - [PostgreSQL Documentation](https://www.postgresql.org/docs/16/) - Database reference
+  - [PostgreSQL Documentation](https://www.postgresql.org/docs/18/) - Database reference
 
   ### Implementation Details
 
@@ -63,8 +63,8 @@ PostgreSQL 16 with pgvector and pgvectorscale extensions for high-performance ve
   ## Environment Variables:
   - POSTGRES_PASSWORD: Database password (required)
   - POSTGRES_USER: Database username (default: postgres)
-  - POSTGRES_DB: Database name (default: postgres)
-  - PGDATA: Data directory (default: /var/lib/postgresql/data)
+  - POSTGRES_DB: Database name (default: railway)
+  - PGDATA: Data directory (default: /var/lib/postgresql/data/pgdata)
 
   Volume Configuration:
   Mount a volume at /var/lib/postgresql/data for persistent storage.
@@ -73,7 +73,7 @@ PostgreSQL 16 with pgvector and pgvectorscale extensions for high-performance ve
 
 | Service | Source | Type |
 |---------|--------|------|
-| joeychilson/railway-pgvectorscale:sha-252c4c3 | `ghcr.io/joeychilson/railway-pgvectorscale:sha-252c4c3` | Database |
+| Postgres | `ghcr.io/joeychilson/railway-pgvectorscale:1.0.0` | Database |
 
 ## Environment variables
 

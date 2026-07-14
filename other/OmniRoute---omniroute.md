@@ -8,6 +8,8 @@
 
 OmniRoute AI Gateway is a unified AI proxy that lets you route multiple LLM providers through one OpenAI-compatible endpoint. Instead of managing many different provider URLs, API formats, and client configurations, OmniRoute gives you one central gateway for connecting models from different AI providers.
 
+![OmniRoute](https://github.com/diegosouzapw/OmniRoute/raw/main/docs/screenshots/MainOmniRoute.png)
+
 Hosting OmniRoute AI Gateway gives you a self-hosted control layer for your AI traffic. You can connect multiple LLM providers, configure endpoints, generate API keys, and route requests through a single `/v1` compatible endpoint.
 
 This template runs OmniRoute as a single container using the official Docker image. It includes persistent storage so your dashboard settings, providers, endpoints, and routing configuration are retained across redeployments.

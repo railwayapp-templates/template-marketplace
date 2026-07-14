@@ -1,4 +1,4 @@
-# Deploy MongoDB (Latest) on Railway
+# Deploy MongoDB on Railway
 
 [Jul'26] Self-host MongoDB Latest Version with persistent storage
 

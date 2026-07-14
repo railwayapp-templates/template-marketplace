@@ -1,4 +1,4 @@
-# Deploy wild-red on Railway
+# Deploy Launchlist on Railway
 
 Self-hosted waitlist with referral leaderboard
 

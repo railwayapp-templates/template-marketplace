@@ -1,4 +1,4 @@
-# Deploy pure-high on Railway
+# Deploy Onelink on Railway
 
 Onelink is a self-hosted link-in-bio page
 

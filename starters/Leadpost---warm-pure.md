@@ -1,4 +1,4 @@
-# Deploy warm-pure on Railway
+# Deploy Leadpost on Railway
 
 Leadpost is a self-hosted lead capture form and mini CRM
 
