@@ -17,7 +17,7 @@ Key considerations:
 
 | Service | Source | Type |
 |---------|--------|------|
-| railway-n8n | [INAPP-Mobile/railway-n8n](https://github.com/INAPP-Mobile/railway-n8n) | Database |
+| railway-n8n | [INAPP-Mobile/railway-n8n](https://github.com/INAPP-Mobile/railway-n8n) | Web service |
 
 ## Environment variables
 
@@ -31,6 +31,7 @@ Key considerations:
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/home/node/.n8n`
 
 **Category:** Automation · **Languages:** Dockerfile, Shell

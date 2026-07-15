@@ -1,8 +1,8 @@
-# Deploy EtherCalc – Spreadsheet Alternative on Railway
+# Deploy EtherCalc - Collaborative Spreadsheet on Railway on Railway
 
 Self-hosted collaborative spreadsheet application with persistent storage
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ethercalc-spreadsheet-alternative)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ethercalc)
 
 ## About
 
@@ -29,4 +29,4 @@ Hosting EtherCalc on Railway provides a simple way to run your own collaborative
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS, Shell, MDX, HTML, Cap'n Proto, Dockerfile, Sass, Go Template, Dafny, Lean, Makefile
 
-[View on Railway →](https://railway.com/deploy/ethercalc-spreadsheet-alternative)
+[View on Railway →](https://railway.com/deploy/ethercalc)

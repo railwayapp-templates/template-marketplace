@@ -2,7 +2,7 @@
 
 Stream responses, upload files & rotate multiple accounts.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/turn-chatgpt-into-openai-api-chat2api)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chat2api)
 
 ## About
 
@@ -28,4 +28,4 @@ Deploying Chat2API on Railway provides a highly available, self-healing gateway 
 
 **Category:** AI/ML · **Languages:** Python, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/deploy/turn-chatgpt-into-openai-api-chat2api)
+[View on Railway →](https://railway.com/deploy/chat2api)

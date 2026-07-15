@@ -8,34 +8,31 @@ The faster, smaller, safer, and more accessible game server panel
 
 Pyrodactyl is a modernized, open-source fork of the Pterodactyl game server management panel, with numerous performance and user interface enhancements. Pyrodactyl is designed to be user-friendly, making it easier for administrators and users to deploy and manage game servers efficiently.
 
-Hosting Pyrodactyl requires you to deploy the panel itself, alongside a databsae and another cache database such as MariaDB/MySQL and Redis. Pyrodactyl also requires a web server such as Nginx or Apache to serve the panel to users, as it utilizes PHP. For a full deployment, you also need to deploy Pterodactyl Wings, which is the daemon that runs on the game server nodes to manage the game servers.
+Hosting Pyrodactyl requires you to deploy the panel itself, alongside a database and another cache database such as MariaDB/MySQL and Redis. Pyrodactyl also requires a web server such as Nginx or Apache to serve the panel to users, as it utilizes PHP. For a full deployment, you also need to deploy Pterodactyl Wings, which is the daemon that runs on the game server nodes to manage the game servers.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `railwayapp/redis:8.2` | Database |
 | MariaDB | `mariadb:12` | Database |
+| Redis | `redis:8.2.1` | Database |
 | Pyrodactyl | `ghcr.io/pyrohost/pyrodactyl:latest` | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `REDISHOST` | Redis | - | Railway Private Domain Name. |
-| `REDISPORT` | Redis | 6379 | Port to connect to Redis. |
-| `REDISUSER` | Redis | default | Default user to connect to Redis. |
-| `REDIS_URL` | Redis | - | URL to connect to Redis over the private network. |
-| `REDISPASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PUBLIC_URL` | Redis | - | Public URL to connect to Redis, needed for the Data panel. |
-| `REDIS_RDB_POLICY` | Redis | 3600#1 300#100 60#10000 | Set a RDB snapshot policy. |
-| `REDIS_AOF_ENABLED` | Redis | no | Disable writing to AOF file. |
 | `MARIADB_PORT` | MariaDB | 3306 | - |
 | `MARIADB_USER` | MariaDB | (secret) | - |
 | `MARIADB_DATABASE` | MariaDB | railway | - |
 | `MARIADB_PASSWORD` | MariaDB | (secret) | - |
 | `MARIADB_ROOT_PASSWORD` | MariaDB | (secret) | - |
+| `REDISPORT` | Redis | 6379 | - |
+| `REDISUSER` | Redis | default | - |
+| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
+| `REDISPASSWORD` | Redis | (secret) | - |
+| `REDIS_PASSWORD` | Redis | (secret) | - |
+| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 | `PORT` | Pyrodactyl | 80 | - |
 | `APP_ENV` | Pyrodactyl | production | - |
 | `MAIL_FROM` | Pyrodactyl | noreply@example.com | - |
@@ -68,9 +65,10 @@ Hosting Pyrodactyl requires you to deploy the panel itself, alongside a databsae
 
 ## Configuration
 
-- **TCP Proxies:** 6379
-- **Volume:** `/bitnami`
 - **Volume:** `/var/lib/mysql`
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
+- **TCP Proxies:** 6379
+- **Volume:** `/data`
 - **Start command:** `/bin/ash -c "mkdir -p /app/var/ && sed -i -e 's|^logfile=.*$|logfile=/dev/stdout|' -e 's|^logfile_maxbytes=.*$|logfile_maxbytes=0|' /etc/supervisord.conf && /bin/ash .github/docker/entrypoint.sh /bin/ash -c \"php artisan p:user:make --email=$ADMIN_EMAIL --username=$ADMIN_USER --name-first=$ADMIN_FIRST --name-last=$ADMIN_LAST --password=$ADMIN_PASSWORD --admin=1; supervisord -n -c /etc/supervisord.conf\""`
 - **Networking:** Public domain with automatic HTTPS
 

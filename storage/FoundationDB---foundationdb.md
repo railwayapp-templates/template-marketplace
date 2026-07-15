@@ -1,6 +1,6 @@
 # Deploy FoundationDB on Railway
 
-[Updated May 2026] Apple's distributed ordered key-value store
+[Updated Jul 2026] Apple's distributed ordered key-value store
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/foundationdb)
 

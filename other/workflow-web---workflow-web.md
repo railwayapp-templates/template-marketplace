@@ -1,0 +1,33 @@
+# Deploy workflow-web on Railway
+
+Vercel's Postgres World with UI dashboard
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/workflow-web)
+
+## About
+
+workflow-web is the observability dashboard of the [Vercel Workflow DevKit](https://useworkflow.dev) (`@workflow/web`), packaged for self-hosting. It reads workflow runs from a Postgres World (`@workflow/world-postgres`) and lets you browse runs, steps, events, and errors of your durable workflows — without deploying your app on Vercel.
+
+The npm package ships a prebuilt Next.js standalone server, so hosting is a thin Dockerfile around `node node_modules/@workflow/web/server.js` (Node 24 — the dashboard uses `node:sqlite`). This template deploys the dashboard together with a Postgres database, pre-linked via `WORKFLOW_POSTGRES_URL=${{Postgres.DATABASE_URL}}`; if your workflow app already has a World database, repoint that one variable at it after deploying. The dashboard is a pure reader — it never starts a workflow worker, so it won't drain your queue. It listens on port `3456` and has **no built-in authentication**: keep it on Railway's private network (or behind a VPN/auth proxy) rather than adding a public domain.
+
+## What gets deployed
+
+| Service | Source | Type |
+|---------|--------|------|
+| pg-world | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| workflow-web-ui | [dotlouis/workflow-web](https://github.com/dotlouis/workflow-web) | Worker |
+
+## Environment variables
+
+| Variable | Default |
+| --------- | ------- |
+| `POSTGRES_PASSWORD` | (secret) |
+
+## Configuration
+
+- **Volume:** `/var/lib/postgresql/data`
+- **Start command:** `sh -c "PORT=3456 node node_modules/@workflow/web/server.js"`
+
+**Category:** Other · **Languages:** Dockerfile
+
+[View on Railway →](https://railway.com/deploy/workflow-web)

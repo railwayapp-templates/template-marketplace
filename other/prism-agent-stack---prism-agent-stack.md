@@ -34,6 +34,7 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 |---------|--------|------|
 | comms-adapter | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/source-adapter) | Web service |
 | codex-runtime | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/codex-runtime) | Database |
+| prism-gateway | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/prism-gateway) | Database |
 | task-runner | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/task-runner) | Worker |
 | prism-memory | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/prism-memory) | Web service |
 | site | [superprismio/prism-railway-template](https://github.com/superprismio/prism-railway-template) (root: /services/site) | Web service |
@@ -85,21 +86,35 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 | `GIT_AUTHOR_NAME` | codex-runtime | Prism Codex | Git author name used for Codex-created commits. |
 | `APP_API_BASE_URL` | codex-runtime | - | Private URL for the API service using |
 | `GIT_AUTHOR_EMAIL` | codex-runtime | prism-codex@users.noreply.github.com | Git author email used for Codex-created commits. |
+| `PRISM_RUNTIME_KEY` | codex-runtime | codex-default | Stable runtime identity used for assignments and audit |
+| `PRISM_GATEWAY_TOKEN` | codex-runtime | (secret) | Runtime- |
 | `CODEX_WORKSPACE_ROOT` | codex-runtime | /app | Default workspace root for Codex execution. |
 | `APP_API_SERVICE_TOKEN` | codex-runtime | (secret) | Internal API service token reference. |
+| `PRISM_GATEWAY_ENABLED` | codex-runtime | true | Enables connected services for agent runs |
 | `CODEX_RUNTIME_TIMEOUT_MS` | codex-runtime | 600000 | Maximum Codex execution timeout in milliseconds. |
 | `TARGET_REPO_GITHUB_TOKEN` | codex-runtime | (secret) | Optional GitHub token for cloning or pushing private target repositories. |
 | `CODEX_TARGET_WORKSPACE_ROOT` | codex-runtime | /data/workspaces | Mounted directory for cloned target repositories. |
 | `COMMUNICATION_ADAPTER_TOKEN` | codex-runtime | (secret) | direct source adapter token |
 | `COMMUNICATION_ADAPTER_BASE_URL` | codex-runtime | - | direct source adapter |
+| `PORT` | prism-gateway | 8794 | Gateway HTTP port |
+| `NODE_ENV` | prism-gateway | production | Production runtime mode |
+| `GATEWAY_SITE_TOKEN` | prism-gateway | (secret) | Authenticates Site administration calls |
+| `GATEWAY_TASK_RUNNER_TOKEN` | prism-gateway | (secret) | Authenticates Task Runner |
+| `GATEWAY_MASTER_KEY_VERSION` | prism-gateway | v1 | Encryption-key version recorded with encrypted |
+| `GATEWAY_CODEX_RUNTIME_TOKEN` | prism-gateway | (secret) | Authenticates runtime |
+| `GATEWAY_MASTER_ENCRYPTION_KEY` | prism-gateway | - | Encrypts credentials stored |
 | `PORT` | task-runner | 8790 | Task runner HTTP port |
 | `PRISM_API_KEY` | task-runner | (secret) | Auth token for Prism Memory |
 | `TASK_RUNNER_TOKEN` | task-runner | (secret) | Auth token for manual |
+| `PRISM_GATEWAY_TOKEN` | task-runner | (secret) | Task Runner-specific Gateway caller token |
 | `TASK_RUNNER_DISABLED` | task-runner | false | Keep scheduler enabled |
 | `APP_API_SERVICE_TOKEN` | task-runner | (secret) | Auth token for site |
+| `PRISM_GATEWAY_ENABLED` | task-runner | true | Enables Gateway credentials for scheduled jobs |
 | `CODEX_RUNTIME_BASE_URL` | task-runner | - | codex runtime for codex-prompt tasks |
+| `PRISM_GATEWAY_BASE_URL` | task-runner | - | Private Gateway endpoint |
 | `TASK_RUNNER_POLL_SECONDS` | task-runner | 60 | Poll DB schedules once per minute |
 | `COMMUNICATION_ADAPTER_TOKEN` | task-runner | (secret) | Auth token |
+| `COMMUNICATION_ADAPTER_BASE_URL` | task-runner | - | comms adapter |
 | `PORT` | prism-memory | 8788 | Port the Prism Memory service listens on. |
 | `PRISM_API_KEY` | prism-memory | (secret) | API key used to authorize Prism Memory API calls. |
 | `PRISM_API_SPACE` | prism-memory | community | Runtime Prism Memory space slug. |
@@ -111,8 +126,10 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 | `PRISM_API_KEY` | site | (secret) | Full Prism Memory key used |
 | `ADMIN_PASSWORD` | site | (secret) | Temporary admin password; change after deploy |
 | `SESSION_SECRET` | site | (secret) | Session signing secret for admin auth |
+| `PRISM_GATEWAY_TOKEN` | site | (secret) | Site-specific |
 | `TASK_RUNNER_BASE_URL` | site | - | Private task-runner URL for admin Tasks tab and manual runs |
 | `PRISM_AGENT_DATA_ROOT` | site | /data | App SQLite/data root mounted on site |
+| `PRISM_GATEWAY_ENABLED` | site | true | Enables Gateway administration in Settings |
 | `PRISM_MEMORY_BASE_URL` | site | - | Prism Memory base URL |
 | `CODEX_RUNTIME_BASE_URL` | site | - | Internal Codex runtime base URL |
 | `INTERNAL_SERVICE_TOKEN` | site | (secret) | Shared internal service token for |
@@ -126,6 +143,6 @@ Prism Agent Stack is a deployable multi-service workspace for running Codex with
 - **Volume:** `/data`
 - **Healthcheck:** `/api/health`
 
-**Category:** Other · **Languages:** TypeScript, Python, Shell, JavaScript, CSS, Dockerfile
+**Category:** Other · **Languages:** TypeScript, Python, JavaScript, Shell, CSS, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/prism-agent-stack)
