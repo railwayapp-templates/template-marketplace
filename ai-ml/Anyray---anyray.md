@@ -17,38 +17,39 @@ Hosting Anyray on Railway stands up four services as one project. The gateway ex
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| proxy | `public.ecr.aws/anyray/proxy:v1.10.89` | Worker |
-| gateway | `public.ecr.aws/anyray/gateway:v1.10.89` | Database |
-| optimizer | `public.ecr.aws/anyray/optimizer:v1.10.89` | Database |
+| proxy | `public.ecr.aws/anyray/proxy:v1.10.120` | Worker |
+| gateway | `public.ecr.aws/anyray/gateway:v1.10.120` | Database |
+| optimizer | `public.ecr.aws/anyray/optimizer:v1.10.120` | Database |
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `POSTGRES_DB` | Postgres | postgres |
-| `POSTGRES_USER` | Postgres | (secret) |
-| `POSTGRES_PASSWORD` | Postgres | (secret) |
-| `ANYRAY_UPDATER_TOKEN` | proxy | (secret) |
-| `ANYRAY_UPDATER_ENABLED` | proxy | false |
-| `ANYRAY_UPDATER_POLL_INTERVAL` | proxy | 0 |
-| `ANYRAY_UPDATER_PERIODIC_POLLS` | proxy | false |
-| `PORT` | gateway | 8787 |
-| `ANYRAY_HSTS` | gateway | true |
-| `ANYRAY_DATA_DIR` | gateway | /data |
-| `ANYRAY_ADMIN_TOKEN` | gateway | (secret) |
-| `ANYRAY_TRUST_PROXY` | gateway | true |
-| `ANYRAY_CONTENT_MODE` | gateway | encrypted |
-| `ANYRAY_DEFAULT_MODEL` | gateway | anthropic/claude-sonnet-4-5 |
-| `ANYRAY_ALLOW_PLAINTEXT` | gateway | false |
-| `ANYRAY_OPTIMIZER_TOKEN` | gateway | (secret) |
-| `ANYRAY_DEPLOYMENT_TOKEN` | gateway | (secret) |
-| `ANYRAY_METERING_ENABLED` | gateway | true |
-| `ANYRAY_OPTIMIZER_TIMEOUT_MS` | gateway | 800 |
-| `ANYRAY_OPTIMIZER_VISION_TIMEOUT_MS` | gateway | 10000 |
-| `PORT` | optimizer | 8088 |
-| `ANYRAY_DATA_DIR` | optimizer | /data |
-| `ANYRAY_ADMIN_TOKEN` | optimizer | (secret) |
-| `ANYRAY_OPTIMIZER_TOKEN` | optimizer | (secret) |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `POSTGRES_DB` | Postgres | postgres | - |
+| `POSTGRES_USER` | Postgres | (secret) | - |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | - |
+| `ANYRAY_UPDATER_TOKEN` | proxy | (secret) | - |
+| `ANYRAY_UPDATER_ENABLED` | proxy | false | - |
+| `ANYRAY_UPDATER_POLL_INTERVAL` | proxy | 0 | - |
+| `ANYRAY_UPDATER_PERIODIC_POLLS` | proxy | false | - |
+| `PORT` | gateway | 8787 | - |
+| `ANYRAY_HSTS` | gateway | true | - |
+| `ANYRAY_DATA_DIR` | gateway | /data | - |
+| `ANYRAY_ADMIN_TOKEN` | gateway | (secret) | - |
+| `ANYRAY_TRUST_PROXY` | gateway | true | - |
+| `ANYRAY_CONTENT_MODE` | gateway | encrypted | - |
+| `ANYRAY_DEFAULT_MODEL` | gateway | anthropic/claude-sonnet-4-5 | - |
+| `ANYRAY_ALLOW_PLAINTEXT` | gateway | false | - |
+| `ANYRAY_OPTIMIZER_TOKEN` | gateway | (secret) | - |
+| `ANYRAY_DEPLOYMENT_TOKEN` | gateway | (secret) | - |
+| `ANYRAY_METERING_ENABLED` | gateway | true | - |
+| `ANYRAY_OPTIMIZER_TIMEOUT_MS` | gateway | 800 | - |
+| `ANYRAY_OPTIMIZER_VISION_TIMEOUT_MS` | gateway | 10000 | - |
+| `ANYRAY_PERSISTENT_TRANSCRIPT_POLICY_ACTIVATE_AT` | gateway | - | Coordinated persistent-transcript policy activation instant. Leave blank on install; set post-deploy. |
+| `PORT` | optimizer | 8088 | - |
+| `ANYRAY_DATA_DIR` | optimizer | /data | - |
+| `ANYRAY_ADMIN_TOKEN` | optimizer | (secret) | - |
+| `ANYRAY_OPTIMIZER_TOKEN` | optimizer | (secret) | - |
 
 ## Configuration
 

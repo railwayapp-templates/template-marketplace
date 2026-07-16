@@ -1,18 +1,34 @@
 # Deploy Chirp Forum on Railway
 
-Deploy Chirp Forum with PostgreSQL on Railway.
+Deploy a secure Chirp forum with PostgreSQL, passwords, and passkeys.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chirp-forum)
 
 ## About
 
-Launch a lightweight community forum with passwords, passkeys, recovery codes,
-search, unread state, moderation, and durable sessions.
+Launch a lightweight, production-shaped community forum powered by Chirp and
+PostgreSQL. Chirp Forum includes password and passkey sign-in, durable sessions,
+invitations, recovery codes, search, unread state, notifications, and practical
+moderation without requiring Redis, email delivery, object storage, or a
+frontend build system.
 
-This template launches one Chirp web service and one managed PostgreSQL service.
-Railway supplies private database networking, unique application credentials,
-public HTTPS access, readiness checks, and persistent storage. After deployment,
-visit the setup page to claim the first owner account.
+The template provisions one Chirp web service and one Railway-managed
+PostgreSQL service. Railway supplies the private database URL, generates a
+unique application signing key and first-owner bootstrap token for every
+deployment, runs the application migrations, exposes public HTTP networking,
+and checks `/ready` before routing traffic.
+
+The application is server-rendered and progressively enhanced with HTMX. Its
+durable state, login sessions, recovery codes, passkey credentials, invitations,
+forum content, and moderation history all live in PostgreSQL. The single-site
+starter does not need Redis because it does not depend on a shared cache, job
+queue, or cross-worker realtime fan-out.
+
+After deployment, open `/setup` and copy `FORUM_BOOTSTRAP_TOKEN` from the web
+service variables to claim the first owner account. The token becomes inert as
+soon as setup succeeds. Railway's generated domain works with passkeys; when
+moving to a permanent custom domain, configure `FORUM_PUBLIC_ORIGIN` and
+`FORUM_PASSKEY_RP_ID` before enrolling credentials there.
 
 ## What gets deployed
 
