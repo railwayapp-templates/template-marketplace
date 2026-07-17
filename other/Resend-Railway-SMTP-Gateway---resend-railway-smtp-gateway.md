@@ -20,9 +20,12 @@ Hosting this gateway on Railway involves building and deploying the Go service a
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
+| `SMTP_PASS` | - | SMTP user password |
+| `SMTP_USER` | (secret) | SMTP user name |
 | `RESEND_API_KEY` | (secret) | An API key to get access to resend.com. Get a key from https://resend.com/api-keys |
 | `SMTP_LISTEN_ADDR` | 2525 | The SMTP port the server will use |
+| `SMTP_REQUIRE_AUTH` | false | Does SMTP require auth? |
 
-**Category:** Other · **Languages:** Go, Makefile, Dockerfile
+**Category:** Other · **Languages:** Go, Dockerfile, Makefile
 
 [View on Railway →](https://railway.com/deploy/resend-railway-smtp-gateway)

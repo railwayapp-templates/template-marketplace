@@ -1,6 +1,6 @@
 # Deploy n8n Production Setup with Workers on Railway
 
-Production-ready latest n8n with workers, Redis & Postgres - Apr 2026
+Production-ready latest n8n with workers, Redis & Postgres - Jul 2026
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-production-starter-with-workers)
 
@@ -22,8 +22,8 @@ This separation improves reliability and makes it easy to scale horizontally by 
 
 | Service | Source | Type |
 |---------|--------|------|
-| n8n worker | `n8nio/n8n:2.17.7` | Worker |
-| n8n admin | `n8nio/n8n:2.17.7` | Database |
+| n8n worker | `n8nio/n8n:2.30.6` | Worker |
+| n8n admin | `n8nio/n8n:2.30.6` | Database |
 | redis for n8n | `redis:8.2.1` | Database |
 | postgres for n8n | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 

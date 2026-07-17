@@ -38,6 +38,7 @@ Hosting is ephemeral by design (Docker), not a traditional VPS. Use Railway Volu
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `APP_LANG` | en | Runtime message language: en or fa. / زبان پیام‌ها: en یا fa. |
+| `GITHUB_TOKEN` | (secret) | GitHub token (repo scope). When set, /root/src is auto-backed up to a private repo ara-tm-src-<id> and restored on every redeploy — your files survive container rebuilds. / توکن GitHub (scope: repo). وقتی ست شود، پوشه src به صورت خودکار در مخزنی خصوصی پشتیبان‌گیری و روی هر بازسازی بازیابی می‌شود. |
 | `SSH_PASSWORD` | (secret) | Password for the optional user. / رمز کاربر اختیاری. |
 | `SSH_USERNAME` | (secret) | Optional secondary sudo user. Must be set together with SSH_PASSWORD. / کاربر sudo ثانویه اختیاری. باید با SSH_PASSWORD ست شود. |
 | `ROOT_PASSWORD` | (secret) | Password for the root user. Mandatory — the container will not start without it. / رمز کاربر root. الزامی — بدون آن کانتینر اجرا نمی‌شود. |
