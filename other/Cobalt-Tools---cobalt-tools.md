@@ -6,11 +6,14 @@ Download from YouTube, TikTok & 20+ platforms. No tracking.
 
 ## About
 
-Self-host Cobalt: YouTube, TikTok, Instagram, Twitter/X, Reddit, SoundCloud, Vimeo, and 20+ supported platforms. No ads. No tracking.
-
 Cobalt is an open-source media downloader focused on a clean, privacy-first experience. This Railway template deploys the official Cobalt API as a lightweight, stateless service.
 
+![Cobalt Tools](https://opengraph.githubassets.com/027231e34679f13d043884e2d69bd69e052e500e3bf7b5b03c72101eda21b724/imputnet/cobalt)
+
 > **Important**: This template deploys the **Cobalt API only**. It does not include a web interface. You interact with it via API requests (or connect it to your own frontend / automation tools).
+
+> Looking for a ready-to-use Web UI? Deploy the official companion template here:  
+> **[Cobalt Web UI →](https://railway.com/deploy/cobalt-web-ui)**
 
 Hosting your own Cobalt instance gives you a private, ad-free, and tracking-free media downloader API under your control.
 

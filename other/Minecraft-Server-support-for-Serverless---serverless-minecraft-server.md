@@ -12,14 +12,6 @@ Minecraft Server using [itzg/minecraft-server](https://github.com/itzg/docker-mi
 
 See https://docker-minecraft-server.readthedocs.io/en/latest/variables/ for configuration
 
-**Supports Forge, Fabric, Vanilla, Paper, Bukkit, Spigot, Quilt and more!**
-
-By hosting a Minecraft server on Railway and enabling the Serverless option, your service costs nothing while idle by sleeping.
-
-Maintaining a Minecraft has never been easier. The proxy holds TCP request when your server is waking up from sleep and connects players to the server once ready.
-
-You can customize nearly anything you normally could on a Minecraft server. See https://docker-minecraft-server.readthedocs.io/en/latest/variables/ for more info
-
 ## What gets deployed
 
 | Service | Source | Type |

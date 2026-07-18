@@ -24,7 +24,7 @@ You can explore Halo before deploying your own instance using the official demo 
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| halohub/halo:2.25 | `halohub/halo:2.25` | Database |
+| halohub/halo:2.25 | `halohub/halo:2.25` | Web service |
 
 ## Environment variables
 
@@ -44,6 +44,7 @@ You can explore Halo before deploying your own instance using the official demo 
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/root/.halo2`
 
 **Category:** CMS

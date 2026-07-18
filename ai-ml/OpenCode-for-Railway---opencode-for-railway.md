@@ -61,6 +61,7 @@ opencode attach https://your-app.railway.app -p your-password
 
 | Variable | Default |
 | --------- | ------- |
+| `PORT` | 4096 |
 | `GITHUB_TOKEN` | (secret) |
 | `OPENCODE_SERVER_PASSWORD` | (secret) |
 

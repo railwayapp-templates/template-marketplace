@@ -14,7 +14,7 @@ Hosting LibreTranslate involves deploying a Docker container that serves the API
 
 | Service | Source | Type |
 |---------|--------|------|
-| libretranslate/libretranslate:latest | `libretranslate/libretranslate:latest` | Web service |
+| libretranslate/libretranslate:latest | `libretranslate/libretranslate:latest-cuda` | Web service |
 
 ## Environment variables
 

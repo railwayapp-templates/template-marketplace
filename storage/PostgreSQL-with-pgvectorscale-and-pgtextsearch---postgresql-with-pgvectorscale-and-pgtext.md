@@ -14,7 +14,7 @@ This template deploys a PostgreSQL 18 database with three extensions pre-install
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `ghcr.io/joeychilson/railway-pg-vectorscale-textsearch:1.0.0` | Database |
+| Postgres | `ghcr.io/joeychilson/railway-pgvectorscale-textsearch:1.0.1` | Database |
 
 ## Environment variables
 
