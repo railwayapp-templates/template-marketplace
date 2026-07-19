@@ -1,4 +1,4 @@
-# Deploy Langflow AI on Railway
+# Deploy Langflow on Railway
 
 Low-code app builder for RAG and multi-agent AI applications.
 

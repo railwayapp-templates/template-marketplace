@@ -40,11 +40,12 @@ This example starts up a [FastAPI](https://fastapi.tiangolo.com/) server.
 
 | Service | Source | Type |
 |---------|--------|------|
-| fastapi-mini-starter | [lNamelessl/fastapi-starter](https://github.com/lNamelessl/fastapi-starter) | Worker |
+| fastapi-mini-starter | [lNamelessl/fastapi-starter](https://github.com/lNamelessl/fastapi-starter) | Web service |
 
 ## Configuration
 
 - **Healthcheck:** `/health`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** Starters · **Languages:** Python
 

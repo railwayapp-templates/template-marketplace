@@ -1,8 +1,8 @@
 # Deploy MongoDB on Railway
 
-[Jul'26] Self-host MongoDB Latest Version with persistent storage
+MongoDB Latest Version with persistent storage
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mongodb-latest-version)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mongo-1)
 
 ## About
 
@@ -32,4 +32,4 @@ Hosting MongoDB on Railway allows you to run a self-hosted MongoDB instance with
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/deploy/mongodb-latest-version)
+[View on Railway →](https://railway.com/deploy/mongo-1)
