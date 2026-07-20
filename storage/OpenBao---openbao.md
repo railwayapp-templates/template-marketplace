@@ -14,24 +14,29 @@ Hosting OpenBao involves setting up the necessary infrastructure to support its 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Openbao | `ghcr.io/openbao/openbao:2.2.0` | Web service |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| Openbao | `ghcr.io/openbao/openbao:2.6.0` | Web service |
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `VAULT_UI` | Openbao | true |
-| `BAO_LOCAL_CONFIG` | Openbao | {"listener":{"tcp":{"address":"0.0.0.0:8200","tls_disable":true}},"storage":{"postgresql":{}}} |
-| `POSTGRES_DB` | Postgres | railway |
-| `POSTGRES_USER` | Postgres | (secret) |
-| `POSTGRES_PASSWORD` | Postgres | (secret) |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `PORT` | Openbao | 8200 | Port for Railway healthchecks |
+| `VAULT_UI` | Openbao | true | - |
+| `BAO_LOCAL_CONFIG` | Openbao | {"listener":{"tcp":{"address":"0.0.0.0:8200","tls_disable":true}},"storage":{"postgresql":{}}} | Local config |
 
 ## Configuration
 
-- **Start command:** `docker-entrypoint.sh server`
-- **Networking:** Public domain with automatic HTTPS
+- **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Start command:** `docker-entrypoint.sh server`
+- **Healthcheck:** `/v1/sys/health?standbycode=200&sealedcode=200&uninitcode=200&drsecondarycode=200&performancestandbycode=200`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** Storage
 

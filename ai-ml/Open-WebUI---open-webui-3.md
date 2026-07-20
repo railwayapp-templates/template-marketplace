@@ -1,4 +1,4 @@
-# Deploy open-webui on Railway
+# Deploy Open WebUI on Railway
 
 Self-hosted Open WebUI, beautiful LLM interface on Railway.
 

@@ -6,15 +6,15 @@ WhatsApp REST API — no Meta approval, no per-message fees.
 
 ## About
 
-Evolution API is an open-source WhatsApp REST API with **8.7k+ GitHub stars** — built on Baileys and Whatsmeow, it gives developers programmatic control of WhatsApp accounts through a RESTful interface without requiring Meta's Business API approval. Send messages, manage groups, receive webhooks, and connect AI agents — all through a self-hosted backend you fully control.
+Evolution API is an open-source WhatsApp REST API built on Baileys and Whatsmeow. It gives developers programmatic control of WhatsApp accounts through a RESTful interface without requiring Meta's Business API approval. Send messages, manage groups, stream events to your queue, and connect AI agents — all through a self-hosted backend you fully control.
 
 ---
 
-Running Evolution API in production requires PostgreSQL for session state, Redis for caching, and a persistent volume at `/evolution/instances` for WhatsApp authentication data. Without a managed host, you're configuring Docker Compose, inter-service networking, SSL, volume mounts, and database backups manually.
+Running Evolution API in production requires PostgreSQL for session state, Redis for caching, and a persistent volume at `/evolution/instances` for WhatsApp authentication data. Without a managed host, you are configuring Docker Compose, inter-service networking, SSL, volume mounts, and database backups by hand.
 
-Railway handles all of it. Sessions persist in PostgreSQL — instances reconnect after restarts without re-scanning the QR code.
+Railway handles all of it. Session metadata persists in PostgreSQL, so instances reconnect after restarts without re-scanning the QR code.
 
-Typical cost: **~$5–10/month** on Railway's Hobby plan for all three services. No per-message fees. Twilio WhatsApp charges $0.005–$0.085 per message — at 10,000 messages/month that's $50–$850 in API costs alone.
+Typical cost: **~$5–10/month** on Railway's Hobby plan for all three services, with no per-message billing. Twilio's WhatsApp API charges $0.005–$0.085 per message — at 10,000 messages/month that is $50–$850 in messaging fees alone. Meta's own Cloud API bills per 24-hour conversation window, which stacks up fast on marketing and utility templates. A self-hosted deployment has a flat infrastructure cost regardless of volume.
 
 ---
 
