@@ -23,20 +23,38 @@ Hosting Twenty requires a robust architecture capable of simultaneously managing
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `NODE_PORT` | Twenty Server | 3000 | - |
-| `APP_SECRET` | Twenty Server | (secret) | - |
-| `STORAGE_TYPE` | Twenty Server | s3 | - |
-| `STORAGE_S3_SECRET_ACCESS_KEY` | Twenty Server | (secret) | - |
-| `ENABLE_ALPINE_PRIVATE_NETWORKING` | Twenty Server | true | - |
-| `APP_SECRET` | Twenty Worker | (secret) | - |
-| `DISABLE_DB_MIGRATIONS` | Twenty Worker | true | - |
-| `STORAGE_S3_SECRET_ACCESS_KEY` | Twenty Worker | (secret) | - |
-| `DISABLE_CRON_JOBS_REGISTRATION` | Twenty Worker | true | - |
-| `REDISPORT` | Redis | 6379 | - |
-| `REDISUSER` | Redis | default | - |
+| `PORT` | Twenty Server | - | Alias for NODE_PORT |
+| `NODE_PORT` | Twenty Server | 3000 | The port Node is listening to |
+| `REDIS_URL` | Twenty Server | - | Redis URL |
+| `APP_SECRET` | Twenty Server | (secret) | Random encryption secret. Save it somewhere safe ! |
+| `SERVER_URL` | Twenty Server | - | The URL used to access your app |
+| `STORAGE_TYPE` | Twenty Server | s3 | The type of storage where data will be stored |
+| `PG_DATABASE_URL` | Twenty Server | - | PostgreSQL URL |
+| `STORAGE_S3_NAME` | Twenty Server | - | The S3 Bucket name |
+| `STORAGE_S3_REGION` | Twenty Server | - | The S3 Region |
+| `STORAGE_S3_ENDPOINT` | Twenty Server | - | The S3 Endpoint |
+| `STORAGE_S3_ACCESS_KEY_ID` | Twenty Server | - | The S3 Access Key |
+| `STORAGE_S3_SECRET_ACCESS_KEY` | Twenty Server | (secret) | The S3 Secret Key |
+| `ENABLE_ALPINE_PRIVATE_NETWORKING` | Twenty Server | true | Set to true to allow communication between containers |
+| `REDIS_URL` | Twenty Worker | - | Check Twenty Server for description |
+| `APP_SECRET` | Twenty Worker | (secret) | Check Twenty Server for description |
+| `SERVER_URL` | Twenty Worker | - | Check Twenty Server for description |
+| `STORAGE_TYPE` | Twenty Worker | - | Check Twenty Server for description |
+| `PG_DATABASE_URL` | Twenty Worker | - | Check Twenty Server for description |
+| `STORAGE_S3_NAME` | Twenty Worker | - | Check Twenty Server for description |
+| `STORAGE_S3_REGION` | Twenty Worker | - | Check Twenty Server for description |
+| `STORAGE_S3_ENDPOINT` | Twenty Worker | - | Check Twenty Server for description |
+| `DISABLE_DB_MIGRATIONS` | Twenty Worker | true | Check Twenty Server for description |
+| `STORAGE_S3_ACCESS_KEY_ID` | Twenty Worker | - | Check Twenty Server for description |
+| `STORAGE_S3_SECRET_ACCESS_KEY` | Twenty Worker | (secret) | Check Twenty Server for description |
+| `DISABLE_CRON_JOBS_REGISTRATION` | Twenty Worker | true | Check Twenty Server for description |
+| `ENABLE_ALPINE_PRIVATE_NETWORKING` | Twenty Worker | - | Check Twenty Server for description |
+| `REDISHOST` | Redis | - | Private domain for intercontainers networking |
+| `REDISPORT` | Redis | 6379 | The port Redis will be listening to |
+| `REDISUSER` | Redis | default | The Redis username |
 | `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis | (secret) | - |
-| `REDIS_PASSWORD` | Redis | (secret) | - |
+| `REDISPASSWORD` | Redis | (secret) | Alias for REDIS_PASSWORD |
+| `REDIS_PASSWORD` | Redis | (secret) | The main Redis user's password |
 | `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
@@ -46,6 +64,7 @@ Hosting Twenty requires a robust architecture capable of simultaneously managing
 
 ## Configuration
 
+- **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/packages/twenty-server/.local-storage`
 - **Start command:** `yarn worker:prod`

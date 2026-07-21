@@ -17,8 +17,8 @@ For a shared or self-hosted deployment, the backend stores model metadata in Pos
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| COREY | `ghcr.io/jhjhjhjh/corey:release` | Web service |
 | Bucket | [railwayapp-templates/minio](https://github.com/railwayapp-templates/minio) | Database |
-| COREY | [JHJHJHJH/COREY](https://github.com/JHJHJHJH/COREY) | Web service |
 | Console | [railwayapp-templates/minio-console](https://github.com/railwayapp-templates/minio-console) | Web service |
 
 ## Environment variables
@@ -30,6 +30,14 @@ For a shared or self-hosted deployment, the backend stores model metadata in Pos
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `S3_BUCKET` | COREY | corey-models | S3/MinIO bucket used to store IFC model files |
+| `S3_REGION` | COREY | ap-southeast-1 | S3 region used by the storage client |
+| `S3_ENDPOINT` | COREY | - | Private internal MinIO/S3 endpoint |
+| `DATABASE_URL` | COREY | - | PostgreSQL database connection URL |
+| `S3_ACCESS_KEY` | COREY | - | S3/MinIO access key |
+| `S3_SECRET_KEY` | COREY | (secret) | S3/MinIO secret key |
+| `DOCS_EXTERNAL_URL` | COREY | https://coreyifc.com/docs | Public documentation URL |
+| `COREY_MAX_MODEL_BYTES` | COREY | 262144000 | Maximum IFC model upload size in bytes |
 | `PORT` | Bucket | - | Application internal port |
 | `MINIO_ROOT_USER` | Bucket | (secret) | MinIO root/admin username |
 | `MINIO_PUBLIC_HOST` | Bucket | - | Public Railway domain for MinIO access |
@@ -40,15 +48,6 @@ For a shared or self-hosted deployment, the backend stores model metadata in Pos
 | `MINIO_PUBLIC_ENDPOINT` | Bucket | - | Public MinIO API endpoint |
 | `MINIO_PRIVATE_ENDPOINT` | Bucket | - | Private internal MinIO API endpoint |
 | `MINIO_BROWSER_REDIRECT_URL` | Bucket | - | MinIO console/browser redirect URL |
-| `PORT` | COREY | 4000 | Application server port |
-| `S3_BUCKET` | COREY | corey-models | S3/MinIO bucket used to store IFC model files |
-| `S3_REGION` | COREY | ap-southeast-1 | S3 region used by the storage client |
-| `S3_ENDPOINT` | COREY | - | Private internal MinIO/S3 endpoint |
-| `DATABASE_URL` | COREY | - | PostgreSQL database connection URL |
-| `S3_ACCESS_KEY` | COREY | - | S3/MinIO access key |
-| `S3_SECRET_KEY` | COREY | (secret) | S3/MinIO secret key |
-| `DOCS_EXTERNAL_URL` | COREY | https://coreyifc.com/docs | Public documentation URL |
-| `COREY_MAX_MODEL_BYTES` | COREY | 262144000 | Maximum IFC model upload size in bytes |
 | `PORT` | Console | 9090 | Port |
 | `PASSWORD` | Console | (secret) | Password |
 | `USERNAME` | Console | (secret) | Username |
@@ -58,13 +57,13 @@ For a shared or self-hosted deployment, the backend stores model metadata in Pos
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Networking:** Public domain with automatic HTTPS
 - **Start command:** `/bin/sh -c "exec minio server --address [::]:$MINIO_PRIVATE_PORT $RAILWAY_VOLUME_MOUNT_PATH"`
 - **Healthcheck:** `/minio/health/ready`
 - **Volume:** `/data`
-- **Networking:** Public domain with automatic HTTPS
 - **Start command:** `/bin/sh -c "exec console server --host 0.0.0.0 --port $PORT"`
 - **Healthcheck:** `/login`
 
-**Category:** Other · **Languages:** Dockerfile, JavaScript, TypeScript, MDX, CSS
+**Category:** Other · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/corey)

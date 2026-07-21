@@ -14,26 +14,16 @@ Running SearXNG typically requires configuring YAML settings, managing search en
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `redis:8.2.1` | Database |
-| SearXNG | `ghcr.io/joeychilson/railway-searxng:1.0.0` | Worker |
+| searxng | `ghcr.io/joeychilson/railway-searxng:1.1` | Worker |
 
 ## Environment variables
 
-| Variable | Service | Default | Description |
-| --------- | ------- | ------- | ----------- |
-| `REDISPORT` | Redis | 6379 | - |
-| `REDISUSER` | Redis | default | - |
-| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis | (secret) | - |
-| `REDIS_PASSWORD` | Redis | (secret) | - |
-| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
-| `SEARXNG_SECRET` | SearXNG | (secret) | - |
+| Variable | Default |
+| --------- | ------- |
+| `SEARXNG_SECRET` | (secret) |
 
 ## Configuration
 
-- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
-- **TCP Proxies:** 6379
-- **Volume:** `/data`
 - **Healthcheck:** `/healthz`
 
 **Category:** AI/ML

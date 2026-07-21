@@ -20,7 +20,7 @@ This build includes persistent disk storage and full user control. Your ntfy ins
 
 | Service | Source | Type |
 |---------|--------|------|
-| nfty w/ storage | `binwiederhier/ntfy` | Web service |
+| nfty w/ storage | `binwiederhier/ntfy:v2.26.0` | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,7 @@ This build includes persistent disk storage and full user control. Your ntfy ins
 | `NTFY_CACHE_FILE` | /var/lib/ntfy/cache.db | - |
 | `NTFY_BEHIND_PROXY` | true | - |
 | `NTFY_ENABLE_LOGIN` | (secret) | - |
+| `NTFY_CACHE_DURATION` | 720h | - |
 | `NTFY_AUTH_DEFAULT_ACCESS` | deny-all | - |
 | `NTFY_ATTACHMENT_CACHE_DIR` | /var/lib/ntfy/attachments | - |
 

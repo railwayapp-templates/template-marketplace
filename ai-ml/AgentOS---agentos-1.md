@@ -1,6 +1,6 @@
 # Deploy AgentOS on Railway
 
-Secure AI workforce control plane powered by OpenClaw.
+Deploy and run your AI workforce with AgentOS, powered by OpenClaw.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/agentos-1)
 
