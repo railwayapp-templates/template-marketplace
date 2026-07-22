@@ -14,10 +14,11 @@ Uptime Kuma runs as a Node.js application that continuously monitors your servic
 
 | Service | Source | Type |
 |---------|--------|------|
-| louislam/uptime-kuma | `louislam/uptime-kuma` | Database |
+| louislam/uptime-kuma | `louislam/uptime-kuma` | Web service |
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/data`
 
 **Category:** Observability

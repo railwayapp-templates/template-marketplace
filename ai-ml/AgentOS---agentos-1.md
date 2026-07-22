@@ -116,12 +116,13 @@ The result is a persistent home for your digital workforce: always available, se
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `AGENTOS_API_TOKEN` | (secret) |
-| `OPENCLAW_GATEWAY_TOKEN` | (secret) |
-| `AGENTOS_INITIAL_ADMIN_PASSWORD` | (secret) |
-| `AGENTOS_INITIAL_ADMIN_USERNAME` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 3000 | Keeps Railway public networking and deployment healthchecks on the AgentOS listener port. |
+| `AGENTOS_API_TOKEN` | (secret) | - |
+| `OPENCLAW_GATEWAY_TOKEN` | (secret) | - |
+| `AGENTOS_INITIAL_ADMIN_PASSWORD` | (secret) | - |
+| `AGENTOS_INITIAL_ADMIN_USERNAME` | (secret) | - |
 
 ## Configuration
 

@@ -59,9 +59,10 @@ If you are looking for a broader all-in-one experience that includes photos, pas
 | `ONLYOFFICE_JWT_SECRET` | Seafile | (secret) | - |
 | `SEAFILE_MYSQL_DB_USER` | Seafile | (secret) | - |
 | `SEAFILE_SERVER_PROTOCOL` | Seafile | https | - |
+| `INIT_SEAFILE_ADMIN_EMAIL` | Seafile | - | Email for the admin user |
 | `SEAFILE_MYSQL_DB_PASSWORD` | Seafile | (secret) | - |
 | `SEAFILE_SERVER_LETSENCRYPT` | Seafile | false | required for adding custom domain, SSL will be handled by Railway |
-| `INIT_SEAFILE_ADMIN_PASSWORD` | Seafile | (secret) | - |
+| `INIT_SEAFILE_ADMIN_PASSWORD` | Seafile | (secret) | Password for the admin user |
 | `VERIFY_ONLYOFFICE_CERTIFICATE` | Seafile | true | - |
 | `SEAFILE_MYSQL_DB_CCNET_DB_NAME` | Seafile | ccnet_db | - |
 | `SEAFILE_MYSQL_DB_SEAHUB_DB_NAME` | Seafile | seahub_db | - |
@@ -78,6 +79,6 @@ If you are looking for a broader all-in-one experience that includes photos, pas
 - **Volume:** `/var/lib/mysql`
 - **Volume:** `/shared`
 
-**Category:** Storage · **Languages:** TypeScript, JavaScript, CSS, MDX, Astro, Shell, Dockerfile, PowerShell, HTML
+**Category:** Storage · **Languages:** JavaScript, TypeScript, CSS, Astro, MDX, Shell, PowerShell, Dockerfile, HTML, Standard ML
 
 [View on Railway →](https://railway.com/deploy/seafile-onlyoffice)

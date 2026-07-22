@@ -6,9 +6,9 @@ Self-hosted newsletter & mailing list manager — own your data.
 
 ## About
 
-listmonk is a high-performance, self-hosted newsletter and mailing list manager. It ships with a modern web UI, subscriber management, templated campaigns, analytics, and a REST API — giving you full ownership of your audience data without relying on third-party email platforms.
+**listmonk** is a high-performance, **self-hosted newsletter and mailing list manager**. It ships with a modern web UI, subscriber management, templated campaigns, analytics, and a REST API — giving you full ownership of your audience data without relying on third-party email platforms.
 
-Hosting listmonk requires running its Go-based application server alongside a PostgreSQL database. listmonk stores all subscriber data, campaign content, and analytics in Postgres, so a reliable, persistent database is essential. On Railway, both services are provisioned and networked automatically. The app reads its database connection and SMTP credentials from environment variables at startup. You'll also need to configure an external SMTP provider (such as Amazon SES, Postmark, or SendGrid) for actual email delivery — listmonk handles the scheduling and templating, but delegates sending to your chosen provider.
+Hosting listmonk requires running its **Go-based application server** alongside a **PostgreSQL database**. listmonk stores all subscriber data, campaign content, and analytics in Postgres, so a reliable, persistent database is essential. On Railway, both services are provisioned and networked automatically. The app reads its database connection and SMTP credentials from environment variables at startup. You'll also need to configure an external **SMTP provider** (such as Amazon SES, Postmark, or SendGrid) for actual email delivery — listmonk handles the scheduling and templating, but delegates sending to your chosen provider.
 
 ## What gets deployed
 

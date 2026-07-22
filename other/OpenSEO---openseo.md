@@ -25,7 +25,7 @@ Runs `ghcr.io/every-app/open-seo` with a volume at `/app/.wrangler` (D1/KV/R2 st
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `AUTH_MODE` | local_noauth | Keep local_noauth for Docker self-host. WARNING: the public URL has no app login — gate it yourself. |
-| `DATAFORSEO_API_KEY` | (secret) | Base64 of your DataForSEO email:password. See https://github.com/every-app/open-seo/blob/main/docs/DATAFORSEO_API_KEY.md |
+| `DATAFORSEO_API_KEY` | (secret) | Base64 of your DataForSEO email:password. See https://app.dataforseo.com/?aff=310140 and https://github.com/every-app/open-seo/blob/main/docs/DATAFORSEO_API_KEY.md |
 | `OPENROUTER_API_KEY` | (secret) | OpenSEO's in-app AI agent, needs an OpenRouter API key. https://openrouter.ai/settings/keys |
 | `VITE_SHOW_DEVTOOLS` | false | Keep false in production. |
 | `CLOUDFLARE_INCLUDE_PROCESS_ENV` | true | Leave true so process env is exposed as Worker bindings in Docker/Miniflare mode. |

@@ -35,7 +35,7 @@ conversations at a flat infrastructure cost.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Hermes Agent | [Shinyduo/hermes-agent](https://github.com/Shinyduo/hermes-agent) | Database |
+| Hermes Agent | [Shinyduo/hermes-agent](https://github.com/Shinyduo/hermes-agent) | Web service |
 
 ## Environment variables
 
@@ -47,6 +47,7 @@ conversations at a flat infrastructure cost.
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/opt/data`
 
 **Category:** AI/ML · **Languages:** Dockerfile, Shell

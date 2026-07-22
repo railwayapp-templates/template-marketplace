@@ -14,7 +14,7 @@ Hosting Directus on Railway provides a complete infrastructure stack with minima
 
 | Service | Source | Type |
 |---------|--------|------|
-| Directus | `directus/directus:11.17.4` | Web service |
+| Directus | `directus/directus:12.1.1` | Web service |
 | Redis | `redis:8.2.1` | Database |
 | PostGIS | `postgis/postgis:17-3.5` | Database |
 
@@ -30,6 +30,7 @@ Hosting Directus on Railway provides a complete infrastructure stack with minima
 | `PUBLIC_URL` | Directus | - | Your public Directus URL. This is where you'll access the admin panel. Automatically set when HTTP proxy is enabled on the service. |
 | `CACHE_STORE` | Directus | redis | Cache storage type. Pre-configured for Redis. |
 | `CACHE_ENABLED` | Directus | true | Enable caching to speed up your Directus instance. |
+| `IP_TRUST_PROXY` | Directus | true | - |
 | `STORAGE_S3_KEY` | Directus | - | Storage access key. Automatically provided by Railway. |
 | `CACHE_AUTO_PURGE` | Directus | true | Automatically clear cache when content changes. |
 | `STORAGE_LOCATIONS` | Directus | s3 | Use cloud storage for files. Set to 's3' for Railway's storage service. |
@@ -59,7 +60,7 @@ Hosting Directus on Railway provides a complete infrastructure stack with minima
 
 ## Configuration
 
-- **Healthcheck:** `/server/health`
+- **Healthcheck:** `/server/ping`
 - **Networking:** Public domain with automatic HTTPS
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379

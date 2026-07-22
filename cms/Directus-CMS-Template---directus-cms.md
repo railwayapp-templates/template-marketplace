@@ -38,6 +38,7 @@ Hosting Directus CMS on Railway provides a complete content management infrastru
 | `PORT` | Directus CMS | 8055 | Port that Directus runs on. Default is 8055. |
 | `REDIS` | Directus CMS | - | Redis connection for caching. Automatically configured when you add Redis service. |
 | `SECRET` | Directus CMS | (secret) | Encryption key for securing your data. Railway automatically generates this for you. |
+| `NODE_ENV` | Directus CMS | production | - |
 | `DB_CLIENT` | Directus CMS | pg | Database type (PostgreSQL). This is pre-configured. |
 | `LOG_STYLE` | Directus CMS | raw | Format logs for easy reading in Railway's dashboard. |
 | `PUBLIC_URL` | Directus CMS | - | Your public Directus URL. This is where you'll access the admin panel. Automatically set when HTTP proxy is enabled on the service. |
@@ -45,6 +46,7 @@ Hosting Directus CMS on Railway provides a complete content management infrastru
 | `CACHE_STORE` | Directus CMS | redis | Cache storage type. Pre-configured for Redis. |
 | `CACHE_ENABLED` | Directus CMS | true | Enable caching to speed up your Directus instance. |
 | `ADMIN_PASSWORD` | Directus CMS | (secret) | # Your admin account password. Change this in the Directus Admin panel after deployment |
+| `IP_TRUST_PROXY` | Directus CMS | true | - |
 | `STORAGE_S3_KEY` | Directus CMS | - | Storage access key. Automatically provided by Railway. |
 | `CACHE_AUTO_PURGE` | Directus CMS | true | Automatically clear cache when content changes. |
 | `DIRECTUS_TEMPLATE` | Directus CMS | cms | # Automatically load pre-configured content collections (pages, articles, categories) on first deployment. Set to "blank" to not apply template |

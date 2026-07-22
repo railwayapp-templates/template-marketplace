@@ -6,9 +6,9 @@ Self-hosted Tableau alternative — dashboards, charts, SQL & team analytics.
 
 ## About
 
-Metabase is an open-source business intelligence and data analytics platform that lets teams explore, visualize, and share insights from their databases without writing code. It provides an intuitive UI for building dashboards, charts, and reports with both no-code and SQL interfaces.
+**Metabase** is an open-source **business intelligence and data analytics platform** that lets teams explore, visualize, and share insights from their databases without writing code. It provides an intuitive UI for building **dashboards, charts, and reports** with both no-code and SQL interfaces.
 
-Metabase is a JVM-based web application distributed as a Docker image. Hosting it requires a backing database — PostgreSQL is strongly recommended for production to store Metabase's own application metadata (users, dashboards, questions, etc.). The default embedded H2 database is unsuitable for multi-user or persistent deployments. You'll also need to configure environment variables for the application database connection, set the correct PORT, and optionally connect Metabase to your own data sources (Postgres, MySQL, BigQuery, etc.) post-deploy.
+Metabase is a **JVM-based web application** distributed as a Docker image. Hosting it requires a backing database — **PostgreSQL** is strongly recommended for production to store Metabase's own application metadata (users, dashboards, questions, etc.). The default embedded H2 database is unsuitable for multi-user or persistent deployments. You'll also need to configure environment variables for the application database connection, set the correct `PORT`, and optionally connect Metabase to your own data sources (Postgres, MySQL, BigQuery, etc.) post-deploy.
 
 ## What gets deployed
 

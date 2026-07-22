@@ -6,9 +6,9 @@ Self-hosted Jira alternative — tasks, Gantt charts, time tracking & wikis.
 
 ## About
 
-OpenProject is an open-source project management platform built for teams that need full control over their data. It provides Gantt charts, agile scrum/kanban boards, time tracking, wikis, budgeting, and team collaboration — a self-hosted alternative to Jira, Asana, or MS Project.
+**OpenProject** is an open-source **project management platform** built for teams that need full control over their data. It provides **Gantt charts**, **agile scrum/kanban boards**, **time tracking**, wikis, budgeting, and team collaboration — a self-hosted alternative to **Jira**, **Asana**, or **MS Project**.
 
-Hosting OpenProject requires a PostgreSQL database for all project data, tasks, and user records. The official Docker image bundles Apache (web server), Puma (Rails app server), background job workers, and cron jobs into a single container managed by supervisord. On first boot, the container automatically runs database migrations and seeds initial data — expect 3–5 minutes before the UI is accessible. Railway handles SSL termination and public DNS at the edge; the container serves HTTP internally through Apache on port 80. A generated secret key secures session tokens, and the public hostname must be set so OpenProject generates correct URLs.
+Hosting OpenProject requires a **PostgreSQL database** for all project data, tasks, and user records. The official Docker image bundles Apache (web server), Puma (Rails app server), background job workers, and cron jobs into a single container managed by supervisord. On first boot, the container automatically runs database migrations and seeds initial data — expect 3–5 minutes before the UI is accessible. Railway handles SSL termination and public DNS at the edge; the container serves HTTP internally through Apache on port 80. A generated secret key secures session tokens, and the public hostname must be set so OpenProject generates correct URLs.
 
 ## What gets deployed
 

@@ -6,9 +6,9 @@ Self-hosted AI assistant. Runs on Telegram, WhatsApp, Slack, Discord
 
 ## About
 
-OpenClaw is an open-source, self-hosted personal AI assistant that connects to the chat apps you already use — Telegram, WhatsApp, Slack, Discord, and more. It runs your own AI agent on your own infrastructure, keeping your data private and under your control.
+**OpenClaw** is an open-source, **self-hosted personal AI assistant** that connects to the chat apps you already use — **Telegram, WhatsApp, Slack, Discord**, and more. It runs your own AI agent on your own infrastructure, keeping your data private and under your control.
 
-Hosting OpenClaw on Railway involves running the OpenClaw gateway inside a Docker container alongside a lightweight setup wizard for configuration. The gateway acts as a bridge between your chosen AI provider (Anthropic, OpenAI, or Gemini) and your connected chat channels. Railway handles SSL, networking, and uptime automatically. All configuration, credentials, and workspace files are persisted to a Railway Volume mounted at `/data`, so nothing is lost between redeploys. After deployment, you configure your AI provider and onboard channels through a password-protected web UI — no command line required.
+Hosting OpenClaw on Railway involves running the **OpenClaw gateway** inside a Docker container alongside a lightweight setup wizard for configuration. The gateway acts as a bridge between your chosen AI provider (**Anthropic, OpenAI, or Gemini**) and your connected chat channels. Railway handles SSL, networking, and uptime automatically. All configuration, credentials, and workspace files are persisted to a **Railway Volume** mounted at `/data`, so nothing is lost between redeploys. After deployment, you configure your AI provider and onboard channels through a password-protected web UI — no command line required.
 
 ## What gets deployed
 

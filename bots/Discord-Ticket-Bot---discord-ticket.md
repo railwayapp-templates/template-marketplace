@@ -28,13 +28,8 @@ Hosting Pro Ticket on Railway provides a complete infrastructure with MongoDB, a
 | `BOT_TOKEN` | Discord Pro Ticket | (secret) | Token do bot |
 | `MONGO_URI` | Discord Pro Ticket | - | Conexão do banco de dados |
 | `STEAM_API_KEY` | Discord Pro Ticket | (secret) | Chave API Steam para visualizar imagens do perfil, opcional |
-| `MONGO_DB_TICKET` | Discord Pro Ticket | pro_ticket | Banco de dados do bot |
 | `SERVER_HOSTNAME` | Discord Pro Ticket | - | URL API |
-| `COLLECTION_TICKETS` | Discord Pro Ticket | tickets | Coleção de tickets do banco |
 | `DISCORD_CLIENT_SECRET` | Discord Pro Ticket | (secret) | Client Secret do bot |
-| `COLLECTION_TICKET_USERS` | Discord Pro Ticket | ticket_users | Coleção de usuários do ticket do banco |
-| `COLLECTION_VERIFIED_USERS` | Discord Pro Ticket | verified_users | Coleção de usuários verificados do banco |
-| `COLLECTION_SYSTEM_SETTINGS` | Discord Pro Ticket | system_settings | Coleção de ajustes do ticket do banco |
 | `MONGOHOST` | MongoDB | - | Railway Private Domain Name. |
 | `MONGOPORT` | MongoDB | 27017 | MongoDB Port. |
 | `MONGOUSER` | MongoDB | - | Mongodb user. |
