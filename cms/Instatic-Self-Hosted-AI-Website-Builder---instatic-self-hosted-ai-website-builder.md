@@ -2,7 +2,7 @@
 
 Self-host a visual CMS with AI page builder & built-in forms. Clean HTML.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/instatic-visual-cms)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/instatic-self-hosted-ai-website-builder)
 
 ## About
 
@@ -37,7 +37,7 @@ visual editor, forms, media, and an AI page builder at flat compute cost with fu
 
 | Service | Source | Type |
 |---------|--------|------|
-| Instatic | `corebunch/instatic:latest` | Web service |
+| Instatic | `corebunch/instatic` | Web service |
 
 ## Environment variables
 
@@ -56,4 +56,4 @@ visual editor, forms, media, and an AI page builder at flat compute cost with fu
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/deploy/instatic-visual-cms)
+[View on Railway →](https://railway.com/deploy/instatic-self-hosted-ai-website-builder)

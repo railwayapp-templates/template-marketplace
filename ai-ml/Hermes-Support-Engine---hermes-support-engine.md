@@ -35,21 +35,20 @@ conversations at a flat infrastructure cost.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Hermes Agent | [Shinyduo/hermes-agent](https://github.com/Shinyduo/hermes-agent) | Web service |
+| Hermes Agent | [praveen-ks-2001/hermes-agent-template](https://github.com/praveen-ks-2001/hermes-agent-template) | Database |
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `PORT` | 9119 |
-| `HERMES_HOME` | /opt/data |
-| `GATEWAY_ALLOW_ALL_USERS` | true |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 8642 | - |
+| `ADMIN_PASSWORD` | (secret) | Create admin login password credential |
+| `ADMIN_USERNAME` | (secret) | Create admin login username credential |
 
 ## Configuration
 
-- **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/opt/data`
+- **Volume:** `/data`
 
-**Category:** AI/ML · **Languages:** Dockerfile, Shell
+**Category:** AI/ML · **Languages:** Python, HTML, Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/hermes-support-engine)

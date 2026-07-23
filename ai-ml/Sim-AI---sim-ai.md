@@ -23,8 +23,11 @@ Hosting Sim AI involves deploying its full-stack application, which includes a N
 
 | Variable | Service | Default |
 | --------- | ------- | ------- |
+| `NODE_ENV` | realtime | production |
 | `BETTER_AUTH_SECRET` | realtime | (secret) |
+| `INTERNAL_API_SECRET` | realtime | (secret) |
 | `BETTER_AUTH_SECRET` | simstudio | (secret) |
+| `INTERNAL_API_SECRET` | simstudio | (secret) |
 | `DISABLE_REGISTRATION` | simstudio | false |
 | `POSTGRES_DB` | pgvector | railway |
 | `POSTGRES_USER` | pgvector | (secret) |
@@ -33,6 +36,7 @@ Hosting Sim AI involves deploying its full-stack application, which includes a N
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Healthcheck:** `/`
 - **Start command:** `/bin/sh -c "unset PGPORT; docker-entrypoint.sh postgres --port=5432"`

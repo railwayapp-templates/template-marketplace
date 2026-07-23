@@ -26,7 +26,6 @@ GitHub: [https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate](https://
 
 | Service | Source | Type |
 |---------|--------|------|
-| Bucket | `minio/minio:latest` | Database |
 | Backend | [rpuls/medusajs-2.0-for-railway-boilerplate](https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate) (root: /backend) | Web service |
 | Redis | `redis:8.2.1` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:latest` | Database |
@@ -36,18 +35,12 @@ GitHub: [https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate](https://
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `MINIO_BROWSER` | Bucket | off | - |
-| `MINIO_ROOT_USER` | Bucket | (secret) | - |
-| `MINIO_PUBLIC_PORT` | Bucket | 443 | - |
-| `MINIO_PRIVATE_PORT` | Bucket | 9000 | - |
-| `MINIO_ROOT_PASSWORD` | Bucket | (secret) | - |
 | `NODE_ENV` | Backend | production | - |
 | `JWT_SECRET` | Backend | (secret) | - |
 | `RESEND_FROM` | Backend | - | Add to enable automated emails with Resend (info@yourdomain.com) |
 | `COOKIE_SECRET` | Backend | (secret) | - |
 | `RESEND_API_KEY` | Backend | (secret) | Used to enable automated emailing with Resend |
 | `STRIPE_API_KEY` | Backend | (secret) | Used to enable credit card payment with Stripe |
-| `MINIO_SECRET_KEY` | Backend | (secret) | - |
 | `MEDUSA_ADMIN_EMAIL` | Backend | admin@yourmail.com | chage to your own email |
 | `MEDUSA_ADMIN_PASSWORD` | Backend | (secret) | automatic strong password |
 | `STRIPE_WEBHOOK_SECRET` | Backend | (secret) | Add to enable credit card payment with Stripe |
@@ -69,11 +62,9 @@ GitHub: [https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate](https://
 
 ## Configuration
 
-- **Start command:** `/bin/sh -c "exec minio server --address [::]:$MINIO_PRIVATE_PORT $RAILWAY_VOLUME_MOUNT_PATH"`
-- **Healthcheck:** `/minio/health/ready`
-- **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/data`
 - **Healthcheck:** `/health`
+- **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/app/.medusa/server/static`
 - **TCP Proxies:** 6379
 - **Volume:** `/bitnami`
 - **TCP Proxies:** 5432

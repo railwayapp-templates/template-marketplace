@@ -21,25 +21,33 @@ and opens pull requests — all inside a sandboxed environment — using whateve
 
 | Service | Source | Type |
 |---------|--------|------|
-| OpenHands | [sahilrupani/OpenHands](https://github.com/sahilrupani/OpenHands) | Database |
+| OpenHands | [praveen-ks-2001/openhands-railway](https://github.com/praveen-ks-2001/openhands-railway) | Database |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
+| `PORT` | 3000 | - |
 | `RUNTIME` | local | Runtime mode |
-| `WEB_HOST` | - | Public host URL |
-| `OH_WEB_URL` | - | Public web URL |
-| `OH_SECRET_KEY` | (secret) | App secret key |
-| `OH_ENABLE_BROWSER` | false | Disable browser |
-| `OH_PERSISTENCE_DIR` | /.openhands | Persistent data dir |
-| `OPENHANDS_BASIC_AUTH_USER` | (secret) | auth admin |
-| `OPENHANDS_BASIC_AUTH_PASSWORD` | (secret) | auth password |
+| `LLM_MODEL` | - | Optional: pre-fill default model name (e.g. claude-sonnet-4-6) |
+| `FILE_STORE` | local | - |
+| `LLM_API_KEY` | (secret) | Optional: pre-fill LLM provider API key |
+| `LLM_BASE_URL` | - | Optional: pre-fill custom LLM endpoint URL |
+| `INTERNAL_PORT` | 3001 | - |
+| `ENABLE_BROWSER` | false | - |
+| `SERVE_FRONTEND` | true | - |
+| `BASIC_AUTH_USER` | (secret) | - |
+| `FILE_STORE_PATH` | /.openhands | - |
+| `SANDBOX_USER_ID` | 0 | - |
+| `PYTHONUNBUFFERED` | 1 | - |
+| `RUN_AS_OPENHANDS` | false | - |
+| `BASIC_AUTH_PASSWORD` | (secret) | - |
+| `SKIP_DEPENDENCY_CHECK` | 1 | - |
 
 ## Configuration
 
 - **Volume:** `/.openhands`
 
-**Category:** AI/ML · **Languages:** Python, TypeScript, Go Template, Jinja, Makefile, CSS, JavaScript, Dockerfile, Shell, Mako
+**Category:** AI/ML · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/openhands-coding-agent)

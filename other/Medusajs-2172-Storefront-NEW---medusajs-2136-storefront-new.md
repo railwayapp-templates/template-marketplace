@@ -1,4 +1,4 @@
-# Deploy Medusajs 2.13.6 + Storefront (NEW!) on Railway
+# Deploy Medusajs 2.17.2 + Storefront (NEW!) on Railway
 
 Full ecommerce solution, manage products, inventory, orders, etc.
 

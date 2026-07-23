@@ -1,4 +1,4 @@
-# Deploy MongoDB Latest on Railway
+# Deploy MongoDB on Railway
 
 Latest Self Hosted Database Service
 
