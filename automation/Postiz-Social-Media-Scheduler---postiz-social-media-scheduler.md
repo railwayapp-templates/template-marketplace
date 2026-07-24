@@ -17,6 +17,7 @@ This template runs the official `ghcr.io/gitroomhq/postiz-app` image (pinned to 
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 | Postiz | `ghcr.io/gitroomhq/postiz-app:v2.21.10` | Web service |
 | Redis | `redis:7.4-alpine` | Database |
+| temporal | `temporalio/auto-setup:1.28.1` | Worker |
 
 ## Environment variables
 
@@ -26,6 +27,7 @@ This template runs the official `ghcr.io/gitroomhq/postiz-app` image (pinned to 
 | `DATABASE_URL` | Postgres | - | Full connection string consumed by the Postiz service over private networking. |
 | `POSTGRES_USER` | Postgres | (secret) | Postgres username for the Postiz database. |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Auto-generated Postgres password. |
+| `PORT` | Postiz | 3000 | Pins the internal backend to port 3000 (must match BACKEND_INTERNAL_URL). Railway injects PORT=8080 otherwise, which breaks boot. Do not change. |
 | `MAIN_URL` | Postiz | - | Public URL of the Postiz app (auto-set from the generated Railway domain). |
 | `RUN_CRON` | Postiz | true | Run the scheduler worker in this container (required for scheduled posts). |
 | `API_LIMIT` | Postiz | 30 | Public API rate limit (requests/hour). |
@@ -44,11 +46,18 @@ This template runs the official `ghcr.io/gitroomhq/postiz-app` image (pinned to 
 | `NEXT_PUBLIC_UPLOAD_STATIC_DIRECTORY` | Postiz | /uploads | Public path for serving uploaded media. |
 | `REDIS_URL` | Redis | - | Connection URL used by Postiz over private networking. |
 | `REDIS_PASSWORD` | Redis | (secret) | Auto-generated Redis password (required by the custom start command). |
+| `DB` | temporal | postgres12 | Temporal persistence driver. Do not change. |
+| `DB_PORT` | temporal | 5432 | Postgres port. |
+| `ENABLE_ES` | temporal | false | Elasticsearch visibility off - keeps the stack small. |
+| `BIND_ON_IP` | temporal | 0.0.0.0 | Required for Railway private networking. Do not change. |
+| `POSTGRES_PWD` | temporal | - | Postgres password, wired automatically. Do not change. |
+| `POSTGRES_USER` | temporal | (secret) | Reuses the bundled Postgres superuser. Do not change. |
+| `POSTGRES_SEEDS` | temporal | - | Postgres host over private networking. Do not change. |
+| `TEMPORAL_BROADCAST_ADDRESS` | temporal | 127.0.0.1 | Required with BIND_ON_IP=0.0.0.0. Do not change. |
 
 ## Configuration
 
 - **Volume:** `/var/lib/postgresql/data`
-- **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/uploads`
 - **Start command:** `sh -c 'exec redis-server --requirepass "$REDIS_PASSWORD" --appendonly yes --dir /data --bind 0.0.0.0 ::'`

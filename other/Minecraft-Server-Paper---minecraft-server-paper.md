@@ -8,13 +8,13 @@ Paper Minecraft server: persistent world, private RCON, pause-on-empty.
 
 Minecraft Server (Paper) is a high-performance fork of the Minecraft Java server. This template deploys the battle-tested itzg/minecraft-server image running Paper with a persistent world volume, a TCP proxy for the game port, private RCON admin, whitelist/ops support, and pause-when-empty to cut idle costs.
 
-Hosting Minecraft yourself normally means renting a VPS, installing Java, managing server JARs, and keeping the process alive. This template does it all on Railway: the Paper server runs from a pinned image (2026.7.0-java21), your world lives on a Railway volume mounted at /data, and players connect through a Railway TCP proxy on port 25565. RCON stays on the private network only. You must type TRUE in the EULA variable at deploy time to accept Mojang's EULA — the server will not start until you do. With PAUSE_WHEN_EMPTY_SECONDS set, the server pauses when nobody is online, so an empty server costs almost nothing.
+Hosting Minecraft yourself normally means renting a VPS, installing Java, managing server JARs, and keeping the process alive. This template does it all on Railway: the Paper server runs from a pinned image (2026.7.0-java25), your world lives on a Railway volume mounted at /data, and players connect through a Railway TCP proxy on port 25565. RCON stays on the private network only. You must type TRUE in the EULA variable at deploy time to accept Mojang's EULA — the server will not start until you do. With PAUSE_WHEN_EMPTY_SECONDS set, the server pauses when nobody is online, so an empty server costs almost nothing.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| minecraft | `itzg/minecraft-server:2026.7.0-java21` | Database |
+| minecraft | `itzg/minecraft-server:2026.7.0-java25` | Database |
 
 ## Environment variables
 

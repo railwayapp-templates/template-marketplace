@@ -56,6 +56,7 @@ Hosting Chatwoot - Prod. CitDev - Last Version involves deploying a full-stack R
 | `FRONTEND_URL` | Chatwoot | - | URL externa  |
 | `POSTGRES_HOST` | Chatwoot | - | Endereço do host do banco de dados |
 | `POSTGRES_PORT` | Chatwoot | - | Porta postgres |
+| `DEFAULT_LOCALE` | Chatwoot | pt_BR | Linguagem padrão pt_br |
 | `SECRET_KEY_BASE` | Chatwoot | (secret) | Gera chave automatica |
 | `INSTALLATION_ENV` | Chatwoot | docker | tipo de ambiente da instalação |
 | `POSTGRES_SSLMODE` | Chatwoot | require | Modo de conexão SSL com o banco |

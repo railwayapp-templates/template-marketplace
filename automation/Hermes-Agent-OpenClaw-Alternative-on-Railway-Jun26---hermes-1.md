@@ -35,20 +35,21 @@ within the first month.
 
 | Service | Source | Type |
 |---------|--------|------|
-| hermes-agent | [Shinyduo/hermes-agent](https://github.com/Shinyduo/hermes-agent) | Database |
+| Hermes Agent | [praveen-ks-2001/hermes-agent-template](https://github.com/praveen-ks-2001/hermes-agent-template) | Web service |
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `PORT` | 9119 |
-| `HERMES_HOME` | /opt/data |
-| `GATEWAY_ALLOW_ALL_USERS` | true |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 8642 | - |
+| `ADMIN_PASSWORD` | (secret) | Create admin login password credential |
+| `ADMIN_USERNAME` | (secret) | Create admin login username credential |
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/opt/data`
 
-**Category:** Automation · **Languages:** Dockerfile, Shell
+**Category:** Automation · **Languages:** Python, HTML, Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/hermes-1)

@@ -1,6 +1,6 @@
 # Deploy Cooee on Railway
 
-Privacy-first GitHub changelogs with AI drafting, React embed, and MCP.
+Changelogs on autopilot. Powered by AI.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cooee)
 

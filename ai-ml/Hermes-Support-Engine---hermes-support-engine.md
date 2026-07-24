@@ -35,7 +35,7 @@ conversations at a flat infrastructure cost.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Hermes Agent | [praveen-ks-2001/hermes-agent-template](https://github.com/praveen-ks-2001/hermes-agent-template) | Database |
+| Hermes Agent | [praveen-ks-2001/hermes-agent-template](https://github.com/praveen-ks-2001/hermes-agent-template) | Web service |
 
 ## Environment variables
 
@@ -47,6 +47,7 @@ conversations at a flat infrastructure cost.
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
 **Category:** AI/ML · **Languages:** Python, HTML, Dockerfile, Shell

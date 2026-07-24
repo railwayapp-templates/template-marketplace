@@ -20,7 +20,7 @@ Hosting Open WebUI means running the official `ghcr.io/open-webui/open-webui` co
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `HOST` | :: | Bind dual-stack so Railway networking works. |
+| `HOST` | 0.0.0.0 | Bind address. Keep 0.0.0.0 so the Railway edge can reach the app. |
 | `DO_NOT_TRACK` | true | Disable tracking. |
 | `ENABLE_SIGNUP` | true | Allow signups; new users require admin approval (see DEFAULT_USER_ROLE). |
 | `JWT_EXPIRES_IN` | 1w | Session token lifetime. |
@@ -35,7 +35,6 @@ Hosting Open WebUI means running the official `ghcr.io/open-webui/open-webui` co
 
 ## Configuration
 
-- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/backend/data`
 

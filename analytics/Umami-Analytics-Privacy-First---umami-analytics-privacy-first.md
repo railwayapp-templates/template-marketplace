@@ -19,12 +19,17 @@ Umami is a lightweight web analytics platform: add one small script tag to your 
 
 ## Environment variables
 
-| Variable | Default | Description |
-| --------- | ------- | ----------- |
-| `POSTGRES_DB` | umami | Database name created on first boot. |
-| `DATABASE_URL` | - | Connection string used by Umami over private networking. |
-| `POSTGRES_USER` | (secret) | Database user for Umami. |
-| `POSTGRES_PASSWORD` | (secret) | Auto-generated database password. |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `PORT` | umami | 3000 | Port Umami listens on. Must match the public domain target port (3000). Do not change. |
+| `APP_SECRET` | umami | (secret) | Auto-generated secret used to hash session data. Do not change after first deploy. |
+| `DATABASE_URL` | umami | - | Postgres connection string, wired to the bundled Postgres service. Do not change. |
+| `DISABLE_UPDATES` | umami | 1 | Disables update checks from the Umami dashboard. |
+| `DISABLE_TELEMETRY` | umami | 1 | Disables Umami anonymous telemetry. |
+| `POSTGRES_DB` | Postgres | umami | Database name created on first boot. |
+| `DATABASE_URL` | Postgres | - | Connection string used by Umami over private networking. |
+| `POSTGRES_USER` | Postgres | (secret) | Database user for Umami. |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Auto-generated database password. |
 
 ## Configuration
 
