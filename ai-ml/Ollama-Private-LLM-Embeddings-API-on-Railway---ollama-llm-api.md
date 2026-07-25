@@ -41,7 +41,7 @@ fast on high-volume embedding and classification workloads.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Open WebUI | `open-webui/open-webui` | Database |
+| Open WebUI | `ghcr.io/open-webui/open-webui:main` | Web service |
 | Ollama | `ollama/ollama` | Database |
 
 ## Environment variables
@@ -52,6 +52,7 @@ fast on high-volume embedding and classification workloads.
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/backend/data`
 - **Volume:** `/root/.ollama`
 

@@ -66,6 +66,6 @@ is free and open-source — you pay only for Railway compute and your LLM provid
 - **Volume:** `/var/lib/postgresql/data`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Automation · **Languages:** JavaScript, Dockerfile, Shell
+**Category:** AI/ML · **Languages:** JavaScript, Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/paperclip-ai-agent)

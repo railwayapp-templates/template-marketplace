@@ -21,7 +21,7 @@ and opens pull requests — all inside a sandboxed environment — using whateve
 
 | Service | Source | Type |
 |---------|--------|------|
-| OpenHands | [praveen-ks-2001/openhands-railway](https://github.com/praveen-ks-2001/openhands-railway) | Database |
+| OpenHands | [praveen-ks-2001/openhands-railway](https://github.com/praveen-ks-2001/openhands-railway) | Web service |
 
 ## Environment variables
 
@@ -46,6 +46,7 @@ and opens pull requests — all inside a sandboxed environment — using whateve
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/.openhands`
 
 **Category:** AI/ML · **Languages:** Shell, Dockerfile

@@ -1,18 +1,14 @@
 # Deploy n8n Automation Hub – Self-Hosted on Railway
 
-[Jun'26]  Self-hosted n8n: 400+ integrations, Postgres DB & AI workflows
+[July'26]  Self-hosted n8n: 400+ integrations, Postgres DB & AI workflows
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-latest-version)
 
 ## About
 
-**Self-host the open-source alternative to Zapier — unlimited executions, no per-task billing,
-full data ownership.**
+**Self-host the open-source alternative to Zapier — unlimited executions, no per-task billing, full data ownership.**
 
-n8n is the world's most popular open-source workflow automation platform with **188k+ GitHub
-stars**, 100M+ Docker pulls, and 500+ integrations. Build powerful automations visually, write
-code when you need it, and connect AI agents, APIs, and databases — all without execution caps or
-vendor lock-in.
+n8n is the world's most popular open-source workflow automation platform with **195k+ GitHub stars**, 228M+ Docker pulls, and 500+ integrations. Build powerful automations visually, write code when you need it, and connect AI agents, APIs, and databases — all without execution caps or vendor lock-in.
 
 ![n8n workflow builder](https://user-images.githubusercontent.com/65276001/173571060-9f2f6d7b-bac0-43b6-bdb2-001da9694058.png)
 

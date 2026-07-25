@@ -17,7 +17,8 @@ Hosting NocoDB means running a no-code database platform that transforms relatio
 | Service | Source | Type |
 |---------|--------|------|
 | Redis | `redis:8.2.1` | Database |
-| NocoDB | `nocodb/nocodb` | Web service |
+| NocoDB | `nocodb/nocodb:2026.07.0` | Web service |
+| NocoDB Worker | `nocodb/nocodb:2026.07.0` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
@@ -31,13 +32,21 @@ Hosting NocoDB means running a no-code database platform that transforms relatio
 | `REDIS_PASSWORD` | Redis | (secret) | - |
 | `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 | `NC_DB` | NocoDB | - | Postgres Database URL - You likely don't need to change this! |
+| `NC_SITE_URL` | NocoDB | - | Public NocoDB URL |
 | `NC_REDIS_URL` | NocoDB | - | Redis URL - You likely don't need to change this! |
-| `NC_PUBLIC_URL` | NocoDB | - | Public NocoDB URL |
+| `NC_DISABLE_MUX` | NocoDB | true | Disable mux (Appears unused). |
 | `NC_AUTH_JWT_SECRET` | NocoDB | (secret) | JWT secret used for auth and storing other secrets |
-| `ENABLE_ALPINE_PRIVATE_NETWORKING` | NocoDB | true | Proper private networking for Alpine based images |
-| `POSTGRES_DB` | Postgres | railway | - |
-| `POSTGRES_USER` | Postgres | (secret) | - |
+| `NC_DB` | NocoDB Worker | - | Postgres Database URL - You likely don't need to change this! |
+| `NC_SITE_URL` | NocoDB Worker | - | Public NocoDB URL |
+| `NC_REDIS_URL` | NocoDB Worker | - | Redis URL - You likely don't need to change this! |
+| `NC_DISABLE_MUX` | NocoDB Worker | - | Disable mux (Appears unused). |
+| `NC_AUTH_JWT_SECRET` | NocoDB Worker | (secret) | JWT secret used for auth and storing other secrets |
+| `NC_WORKER_CONTAINER` | NocoDB Worker | true | This container is a worker. |
+| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 
 ## Configuration
 

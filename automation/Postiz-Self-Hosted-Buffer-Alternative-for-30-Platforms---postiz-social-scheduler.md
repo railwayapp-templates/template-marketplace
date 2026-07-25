@@ -41,7 +41,7 @@ Postiz self-hosted is free across all 30+ platforms; you pay only Railway comput
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Postiz | `gitroomhq/postiz-app:v2.11.3` | Database |
+| Postiz | `ghcr.io/gitroomhq/postiz-app:v2.11.3` | Web service |
 | Redis | `redis:8.2.1` | Database |
 
 ## Environment variables
@@ -74,6 +74,7 @@ Postiz self-hosted is free across all 30+ platforms; you pay only Railway comput
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/uploads`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379

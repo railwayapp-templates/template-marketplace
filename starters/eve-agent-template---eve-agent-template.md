@@ -6,126 +6,121 @@ Eve agent template based on the Vercel framework
 
 ## About
 
-Deploy a published EveAgents (https://www.eveagents.dev) agent as a long-running Eve service on Railway. Choose a standalone
-  agent or an integration variant, connect your model and service credentials, and launch it using the maintained EveAgents Railway template.
+[EveAgents](https://www.eveagents.dev) is an open-source directory of agents built for the [Eve framework](https://eve.dev). Each agent includes its instructions, source files, configuration, requirements, and optional integration-specific files.
 
-  ## About Hosting EveAgents
+ The Railway template downloads the selected agent during deployment, validates every file, applies Railway-compatible runtime adapters, and starts the agent on Railway’s assigned port.
 
-  EveAgents (https://www.eveagents.dev) is an open-source directory of agents built for the Eve framework. Each agent includes
-  its instructions, source files, configuration, requirements, and optional integration-specific files.
+ To get started:
 
-  The Railway template downloads the selected agent during deployment, validates every file, applies the Railway-compatible
-  runtime adapters, and starts the agent on Railway's assigned port.
+ 1. Choose an agent from [EveAgents](https://www.eveagents.dev).
+ 2. Create a key from the [EveAgents API Keys page](https://www.eveagents.dev/dashboard/api-keys).
+ 3. Paste it into `EVEAGENTS_API_KEY` when Railway asks.
+ 4. Choose OpenAI, Claude, or Gemini and add the corresponding provider API key.
+ 5. Add any credentials required by the selected integration.
+ 6. Deploy the service.
 
-  To get started:
+ `EVEAGENTS_API_KEY` is the only EveAgents-issued credential required by the template.
 
-  1. Choose an agent from EveAgents (https://www.eveagents.dev).
-  2. Create a key from the EveAgents API Keys page (https://www.eveagents.dev/dashboard/api-keys).
-  3. Paste it into EVEAGENTS_API_KEY when Railway asks.
-  4. Add your OpenAI key and any credentials required by the selected integration.
-  5. Deploy the service.
+ ## Why Deploy EveAgents on Railway?
 
-  EVEAGENTS_API_KEY is the only EveAgents-issued credential required by the template.
+ Railway provides a convenient environment for running persistent Eve agents without manually configuring a server.
 
-  ## Why Deploy EveAgents on Railway?
+ The template includes:
 
-  Railway provides a convenient environment for running persistent Eve agents without manually configuring a server.
+ - Automated agent download and file-integrity validation
+ - Direct OpenAI, Claude, and Gemini model support
+ - Railway-compatible Eve runtime configuration
+ - Public HTTP networking
+ - Health monitoring through `/eve/v1/health`
+ - Persistent workflow storage
+ - Automatically generated route authentication
+ - Support for standalone agents and compatible integration variants
+ - Rebuilds and redeployments from one maintained template
 
-  The template includes:
+ ## Common Use Cases
 
-  - Automated agent download and file integrity validation
-  - Railway-compatible Eve runtime configuration
-  - Public HTTP networking
-  - Health monitoring through /eve/v1/health
-  - Persistent workflow storage
-  - Automatically generated route authentication
-  - Support for standalone agents and compatible integration variants
-  - Rebuilds and redeployments from one maintained template
+ - Deploy productivity agents for meetings, planning, and task management
+ - Run engineering agents for incident response, bug triage, and releases
+ - Connect agents to Discord, Telegram, Microsoft Teams, and other channels
+ - Build research, knowledge-management, support, and analytics workflows
+ - Combine a reusable base agent with integration-specific functionality
+ - Run internal agents behind password-protected Eve routes
 
-  ## Common Use Cases
+ ## Dependencies for EveAgents Hosting
 
-  - Deploy productivity agents for meetings, planning, and task management
-  - Run engineering agents for incident response, bug triage, and releases
-  - Connect agents to Discord, Telegram, Microsoft Teams, and other channels
-  - Build research, knowledge-management, support, and analytics workflows
-  - Combine a reusable base agent with integration-specific functionality
-  - Run internal agents behind password-protected Eve routes
+ The following accounts and credentials may be required:
 
-  ## Dependencies for EveAgents Hosting
+ - A [Railway](https://railway.com?referralCode=lAH3cp) account
+ - An [EveAgents](https://www.eveagents.dev) account
+ - An [EveAgents API key](https://www.eveagents.dev/dashboard/api-keys)
+ - An API key from one supported AI provider:
+ - [OpenAI](https://platform.openai.com/api-keys)
+ - [Claude](https://platform.claude.com/settings/keys)
+ - [Gemini](https://aistudio.google.com/apikey)
+ - Any credentials required by the selected integration
 
-  The following accounts and credentials may be required:
+ Integration-specific requirements are listed on the corresponding agent integration page in the [Eve integrations directory](https://www.eveagents.dev/integrations).
 
-  - A Railway (https://railway.com) account
-  - An EveAgents (https://www.eveagents.dev) account
-  - An EveAgents API key (https://www.eveagents.dev/dashboard/api-keys)
-  - An OpenAI API key (https://platform.openai.com/api-keys)
-  - Any credentials required by the selected integration
+ ### Deployment Dependencies
 
-  Integration-specific requirements are listed on the corresponding agent integration page in the Eve integrations directory
-  (https://www.eveagents.dev/integrations).
+ - [Browse Eve agents](https://www.eveagents.dev)
+ - [Create an EveAgents API key](https://www.eveagents.dev/dashboard/api-keys)
+ - [Explore Eve integrations](https://www.eveagents.dev/integrations)
+ - [Read the Railway deployment guide](https://www.eveagents.dev/deploy/railway)
+ - [View the Railway template source](https://github.com/bergside/eve-railway-template)
+ - [View the Eve framework](https://eve.dev)
 
-  ### Deployment Dependencies
+ ## How Distribution Works
 
-  - Browse Eve agents (https://www.eveagents.dev)
-  - Create an EveAgents API key (https://www.eveagents.dev/dashboard/api-keys)
-  - Explore Eve integrations (https://www.eveagents.dev/integrations)
-  - Read the Railway deployment guide (https://www.eveagents.dev/deploy/railway)
-  - View the Railway template source (https://github.com/bergside/eve-railway-template)
-  - View the Eve framework (https://eve.dev)
+ 1. `EVE_AGENT_SLUG` selects a published base agent.
+ 2. `EVE_INTEGRATION_SLUG` optionally selects an assigned integration variant.
+ 3. The build uses `EVEAGENTS_API_KEY` to download the selected agent.
+ 4. Integration-specific files are applied over the reusable base files.
+ 5. Every file path, size, and SHA-256 digest is validated.
+ 6. Required environment variables are checked before the agent is built.
+ 7. The template selects the direct model adapter identified by `EVE_MODEL`.
+ 8. The template adds the Railway-compatible Eve web channel and sandbox adapters.
+ 9. Eve builds and starts the selected agent on Railway’s assigned `PORT`.
 
-  ## How Distribution Works
+ Each EveAgents API key allows up to 20 agent downloads per hour. Keys can be revoked from the [API Keys page](https://www.eveagents.dev/dashboard/api-keys).
 
-  1. EVE_AGENT_SLUG selects a published base agent.
-  2. Optional EVE_INTEGRATION_SLUG selects an assigned integration variant.
-  3. The build uses EVEAGENTS_API_KEY to download the selected agent.
-  4. Integration-specific files are applied over the reusable base files.
-  5. Every file path, size, and SHA-256 digest is validated.
-  6. Required environment variables are checked before the agent is built.
-  7. The template adds the Railway-compatible model, Eve web channel, and sandbox adapters.
-  8. Eve builds and starts the selected agent on Railway's assigned PORT.
+ ## Railway Variables
 
-  Each EveAgents API key allows up to 20 agent downloads per hour. Keys can be revoked from the API Keys page
-  (https://www.eveagents.dev/dashboard/api-keys).
+ - **`EVE_AGENT_SLUG`** — Required. Selects the published agent to deploy (i.e. `incident-response-commander`). [Browse Eve agents](https://www.eveagents.dev).
 
-  ## Railway Variables
+ - **`EVE_INTEGRATION_SLUG`** — Selects an optional integration variant; leave it empty for the standalone agent (i.e. `slack` or `discord`). [Browse integrations](https://www.eveagents.dev/integrations).
 
-- **`EVE_AGENT_SLUG`** — Required. The agent to deploy, such as `meeting-action-planner`. [Browse Eve agents](https://www.eveagents.dev).
+ - **`EVEAGENTS_REGISTRY_URL`** — Defines the registry endpoint used to download the selected agent (i.e. `https://www.eveagents.dev/api/registry/v1`). This value is preconfigured and should not be changed.
 
-- **`EVE_INTEGRATION_SLUG`** — Optional. The integration to include, such as `slack` or `discord`. Leave empty for the
-  standalone agent. [Browse integrations](https://www.eveagents.dev/integrations).
+ - **`EVEAGENTS_API_KEY`** — Required. Authorizes the template to download an agent from EveAgents (i.e. `eva_live_...`). Create one on the [EveAgents API Keys page](https://www.eveagents.dev/dashboard/api-keys).
 
-- **`EVEAGENTS_REGISTRY_URL`** — Fixed to `https://www.eveagents.dev/api/registry/v1`. Do not change this value.
+ - **`EVE_MODEL`** — Required. Selects the AI provider and model used by the agent (i.e. `openai/gpt-5.4-mini`, `anthropic/claude-sonnet-4-6`, or `google/gemini-3.6-flash`).
 
-- **`EVEAGENTS_API_KEY`** — Required. Create and copy your key from the [EveAgents API Keys page](https://www.eveagents.dev/dashboard/api-keys).
+ - **`EVE_PROVIDER_API_KEY`** — Required. The direct API key for the provider selected in `EVE_MODEL` (i.e. use an OpenAI key when `EVE_MODEL` starts with `openai/`).
 
-- **`OPENAI_API_KEY`** — Required. The OpenAI credential used by the agent.
+ - **`ROUTE_AUTH_BASIC_USER`** — Defines the username protecting the deployed agent’s public Eve routes (i.e. `eve`). This value is preconfigured.
 
-- **`EVE_MODEL`** — The OpenAI model used by the agent. Defaults to `gpt-5.4-mini`.
+ - **`ROUTE_AUTH_BASIC_PASSWORD`** — Defines the password protecting the deployed agent’s public Eve routes (i.e. a Railway-generated 32-character secret). It is preconfigured using `${{ secret(32) }}`.
 
-- **`ROUTE_AUTH_BASIC_USER`** — Username protecting the deployed Eve routes. Defaults to `eve`.
+ ## Railway Service Settings
 
-- **`ROUTE_AUTH_BASIC_PASSWORD`** — Automatically generated password protecting the deployed Eve routes. Uses `${{ secret(32) }}`.
+ - Source: `https://github.com/bergside/eve-railway-template`
+ - Config file: `/railway.json`
+ - Public networking: HTTP enabled
+ - Healthcheck: `/eve/v1/health`
+ - Persistent volume: `/app/.eve/.workflow-data`
 
-  ## Railway Service Settings
+ ## Current Integration Compatibility
 
-  - Source: https://github.com/bergside/eve-railway-template
-  - Config file: /railway.json
-  - Public networking: HTTP enabled
-  - Healthcheck: /eve/v1/health
-  - Persistent volume: /app/.eve/.workflow-data
+ Standalone agents and direct-credential channels can run entirely on Railway.
 
-  ## Current Integration Compatibility
+ Some Slack and MCP/OpenAPI connection variants currently rely on Vercel Connect. These variants require a separately configured Connect authorization flow because Railway does not provide Vercel deployment identity.
 
-  Standalone agents and direct-credential channels can run entirely on Railway.
+ Review the requirements on the selected integration page before deploying.
 
-  Some Slack and MCP/OpenAPI connection variants currently rely on Vercel Connect. These variants require a separately
-  configured Connect authorization flow because Railway does not provide Vercel deployment identity.
+ ## License
 
-  Review the requirements on the selected integration page before deploying.
-
-  ## License
-
-  MIT
+ MIT
 
 ## What gets deployed
 
@@ -137,12 +132,14 @@ Deploy a published EveAgents (https://www.eveagents.dev) agent as a long-running
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `EVE_MODEL` | - | OpenAI model used by the agent. Guide: https://www.eveagents.dev/deploy/railway |
-| `EVE_AGENT_SLUG` | - | Agent slug from its EveAgents URL, for example meeting-action-planner: https://www.eveagents.dev/                        productivity/meeting-action-planner |
-| `OPENAI_API_KEY` | (secret) | OpenAI credential required by the agent. Guide: https://www.eveagents.dev/deploy/railway |
-| `EVEAGENTS_API_KEY` | (secret) | Create your EveAgents API key at: https://www.eveagents.dev/dashboard/api-keys |
-| `EVE_INTEGRATION_SLUG` | - | Optional integration slug found at: https://www.eveagents.dev/integrations |
-| `EVEAGENTS_REGISTRY_URL` | https://www.eveagents.dev/api/registry/v1 | Fixed agent download API: https://www.eveagents.dev/api/registry/v1 |
+| `EVE_MODEL` | - | Provider-qualified model used by the agent (i.e. openai/gpt-5.4-mini). |
+| `EVE_AGENT_SLUG` | - | Agent slug from its EveAgents URL (i.e. incident-response-commander). |
+| `EVEAGENTS_API_KEY` | (secret) | API key created in your EveAgents account (i.e. eva_live_...). |
+| `EVE_INTEGRATION_SLUG` | - | Integration variant to deploy; leave empty for the standalone agent (i.e. slack). |
+| `EVE_PROVIDER_API_KEY` | (secret) | API key matching the provider selected in EVE_MODEL (i.e. an OpenAI key when using openai/gpt-5.4-mini). |
+| `ROUTE_AUTH_BASIC_USER` | (secret) | Username protecting the deployed agent’s public HTTP routes. Use eve as the default. |
+| `EVEAGENTS_REGISTRY_URL` | https://www.eveagents.dev/api/registry/v1 | EveAgents registry endpoint used to download agents (i.e. https://www.eveagents.dev/api/registry/v1). |
+| `ROUTE_AUTH_BASIC_PASSWORD` | (secret) | Required and secret. Password protecting the deployed agent’s public HTTP routes. Railway should generate it automatically with ${{ secret(32) }}. |
 
 **Category:** Starters · **Languages:** JavaScript
 

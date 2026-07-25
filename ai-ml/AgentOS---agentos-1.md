@@ -10,119 +10,112 @@ Deploy and run your AI workforce with AgentOS, powered by OpenClaw.
 
 ## Build Your AI Workforce. Run It Like a Company.
 
-AgentOS is an operating system for creating, organizing, and running digital workers.
+AgentOS is an operating system for creating, organizing, and running digital workers. Create dedicated workspaces, give agents roles and context, connect models and tools, assign real work, monitor operations, and control how autonomously your AI workforce can act from one secure interface.
 
-Create dedicated workspaces, give agents roles and context, connect models and tools, assign real work, monitor operations, and control how autonomously your AI workforce can act—all from one secure interface.
-
-Under the hood, AgentOS uses OpenClaw as its agent runtime. OpenClaw handles execution, sessions, browser automation, and runtime state, while AgentOS provides the higher-level company structure, operational visibility, and human control needed to manage multiple agents effectively.
+Under the hood, AgentOS uses OpenClaw as its runtime. OpenClaw handles execution, sessions, browser automation, and runtime state, while AgentOS provides the workspace structure, operator visibility, and human control needed to manage multiple agents safely.
 
 ## What This Railway Template Deploys
 
-This template deploys a complete, persistent AgentOS environment as a single Railway service.
+This template deploys a complete two-service AgentOS environment:
 
-It includes:
+- One public AgentOS application service built from the AgentOS repository
+- One private browser-worker service for interactive Chromium sessions
+- One persistent /data volume for AgentOS and OpenClaw state
+- One separate persistent /data volume for Chromium profiles
+- Managed HTTPS for AgentOS
+- Generated internal secrets for AgentOS, OpenClaw Gateway, and the browser worker
+- Instance Protection bootstrap using your initial administrator credentials
 
-* AgentOS web application
-* A pinned OpenClaw Gateway runtime
-* Persistent agent workspaces and runtime state
-* Secure administrator access
-* Chromium for browser-capable agents
-* Managed HTTPS and health monitoring
-* Automatically generated internal secrets
-
-AgentOS is exposed through Railway HTTPS, while the OpenClaw Gateway remains private inside the container and is accessible only through the AgentOS service.
-
-A persistent volume mounted at `/data` stores:
-
-* AgentOS workspaces
-* OpenClaw configuration
-* Agent sessions and runtime state
-* Credentials and connected accounts
-* Instance protection settings
-* Logs and operational data
-
-During deployment, you only need to choose an initial administrator password. Internal AgentOS and OpenClaw tokens are generated automatically.
-
-After signing in for the first time, open the AgentOS Setup Center to connect your preferred AI model provider and begin creating digital workers.
+Only AgentOS is exposed through the public Railway domain. OpenClaw stays on container loopback inside the public app service, and interactive Chromium runs inside the private browser-worker over Railway private networking.
 
 ## What You Can Build
 
 Use AgentOS to:
 
-* Create specialized digital workers with different roles and responsibilities
-* Organize agents into persistent workspaces
-* Assign tasks and monitor ongoing operations
-* Run long-lived and recurring AI workflows
-* Manage models, tools, accounts, context, memory, and policies
-* Review agent activity, sessions, outputs, and runtime status
-* Run browser automation through the included Chromium installation
-* Access your AI workforce securely from desktop, tablet, or mobile
-* Operate one protected AgentOS instance across multiple trusted devices
-
-AgentOS is designed for people who want to move beyond isolated prompts and individual agents—and start building coordinated AI teams that can perform real work continuously.
+- Create specialized digital workers with different roles and responsibilities
+- Organize agents into persistent workspaces
+- Assign tasks and monitor ongoing operations
+- Run long-lived and recurring AI workflows
+- Manage models, tools, accounts, context, memory, and policies
+- Review agent activity, sessions, outputs, and runtime status
+- Connect secure browser accounts with persisted Chromium profiles
+- Operate one protected AgentOS instance across desktop and mobile
 
 ## Hosting Requirements
 
 You need:
 
-* A Railway account with persistent volume support
-* Credentials for at least one supported AI model provider
+- A Railway account with support for persistent volumes and private networking
+- Credentials for at least one supported AI model provider
 
 Model providers are connected after deployment through the AgentOS Setup Center.
 
-## Deployment Resources
+## Deployment Notes
 
-* [AgentOS source code and documentation](https://github.com/SapienXai/AgentOS)
-* [Railway volume documentation](https://docs.railway.com/volumes)
+During template deployment, the only operator-provided secret should be the initial administrator password. The template generates the internal AgentOS API token, OpenClaw Gateway token, and browser-worker token automatically.
+
+The deployment should run with one replica per service. Both the OpenClaw runtime and Chromium profile storage are writable and should not be shared across horizontal replicas.
 
 ## Technical Implementation
 
-The Railway service:
+The public AgentOS service:
 
-* Builds using `Dockerfile.railway`
-* Exposes AgentOS on port `3000`
-* Uses `/api/health` for health checks
-* Mounts a persistent volume at `/data`
-* Includes Chromium for browser automation
-* Runs OpenClaw Gateway on `127.0.0.1:18789`
-* Starts OpenClaw before launching AgentOS
-* Pins OpenClaw to version `2026.6.11`
+- Builds with Dockerfile.railway
+- Serves AgentOS on port 3000
+- Uses /api/health for Railway health checks
+- Runs the pinned OpenClaw Gateway on 127.0.0.1:18789
+- Persists AgentOS, OpenClaw, and workspace state on /data
 
-The OpenClaw Gateway is never exposed publicly. AgentOS communicates with it over the container loopback interface.
+The private browser-worker service:
 
-This deployment should run with **one replica** because the OpenClaw runtime and persistent volume contain writable state. Multiple replicas could create conflicting sessions or state changes.
+- Builds with Dockerfile.browser-worker
+- Listens on port 18794 over Railway private networking
+- Uses /healthz for Railway health checks
+- Runs interactive Chromium with a dedicated persisted profile volume
+- Keeps raw browser control surfaces private to the project network
+
+## Resources
+
+- [AgentOS source code and documentation](https://github.com/SapienXai/AgentOS)
+- [Railway private networking](https://docs.railway.com/private-networking)
+- [Railway volumes](https://docs.railway.com/volumes)
 
 ## Why Deploy AgentOS on Railway?
 
-Railway provides a simple way to launch a complete AgentOS environment without manually configuring servers, reverse proxies, certificates, runtime processes, or persistent storage.
+Railway provides a practical way to launch a complete AgentOS environment without manually configuring HTTPS, process supervision, persistent storage, secret wiring, or browser-worker networking.
 
 You get:
 
-* One-click deployment
-* Managed HTTPS
-* Persistent storage
-* Automatic health checks
-* Generated internal secrets
-* A private OpenClaw runtime
-* A secure, mobile-friendly AgentOS interface
+- One-click deployment from the published template
+- Managed HTTPS for the AgentOS control plane
+- Persistent storage for AgentOS, OpenClaw, and browser profiles
+- Private networking between AgentOS and the browser worker
+- Automatic health checks and restart policies
+- A secure, operator-friendly interface for running AI workers continuously
 
-The result is a persistent home for your digital workforce: always available, securely hosted, and ready to run AI agents like a company.
+The result is a persistent, production-oriented home for your digital workforce: always available, observable, and ready to run real agent operations.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
 | AgentOS | [SapienXai/AgentOS](https://github.com/SapienXai/AgentOS) | Web service |
+| AgentOS-7mrk | [SapienXai/AgentOS](https://github.com/SapienXai/AgentOS) | Database |
 
 ## Environment variables
 
-| Variable | Default | Description |
-| --------- | ------- | ----------- |
-| `PORT` | 3000 | Keeps Railway public networking and deployment healthchecks on the AgentOS listener port. |
-| `AGENTOS_API_TOKEN` | (secret) | - |
-| `OPENCLAW_GATEWAY_TOKEN` | (secret) | - |
-| `AGENTOS_INITIAL_ADMIN_PASSWORD` | (secret) | - |
-| `AGENTOS_INITIAL_ADMIN_USERNAME` | (secret) | - |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `PORT` | AgentOS | 3000 | Keeps Railway public networking and deployment healthchecks on the AgentOS listener port. |
+| `AGENTOS_API_TOKEN` | AgentOS | (secret) | - |
+| `OPENCLAW_GATEWAY_TOKEN` | AgentOS | (secret) | - |
+| `AGENTOS_BROWSER_WORKER_TOKEN` | AgentOS | (secret) | - |
+| `AGENTOS_INITIAL_ADMIN_PASSWORD` | AgentOS | (secret) | - |
+| `AGENTOS_INITIAL_ADMIN_USERNAME` | AgentOS | (secret) | - |
+| `PORT` | AgentOS-7mrk | 18794 | - |
+| `AGENTOS_SERVICE_ROLE` | AgentOS-7mrk | browser-worker | - |
+| `AGENTOS_BROWSER_WORKER_TOKEN` | AgentOS-7mrk | (secret) | - |
+| `AGENTOS_BROWSER_DISABLE_CHROMIUM_SANDBOX` | AgentOS-7mrk | 1 | - |
 
 ## Configuration
 
@@ -130,6 +123,6 @@ The result is a persistent home for your digital workforce: always available, se
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** AI/ML · **Languages:** TypeScript, JavaScript, CSS, PowerShell, Shell
+**Category:** AI/ML · **Languages:** TypeScript, JavaScript, CSS, Shell, PowerShell, HTML
 
 [View on Railway →](https://railway.com/deploy/agentos-1)

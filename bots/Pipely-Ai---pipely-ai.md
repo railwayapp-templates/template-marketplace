@@ -45,13 +45,20 @@ By deploying Pipely Ai on Railway, you are one step closer to supporting a compl
 
 | Service | Source | Type |
 |---------|--------|------|
+| evolution-db | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | pipely-ai | [Pedro-Furtado/pipely-ai](https://github.com/Pedro-Furtado/pipely-ai) | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| evoapicloud/evolution-go:latest | `evoapicloud/evolution-go:latest` | Worker |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `POSTGRES_DB` | evolution-db | railway | Default database created when image is started. |
+| `DATABASE_URL` | evolution-db | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | evolution-db | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | evolution-db | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | evolution-db | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `NODE_ENV` | pipely-ai | production | - |
 | `JWT_SECRET` | pipely-ai | (secret) | - |
 | `BACKEND_URL` | pipely-ai | http://127.0.0.1:3333 | - |
@@ -61,6 +68,13 @@ By deploying Pipely Ai on Railway, you are one step closer to supporting a compl
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `PORT` | evoapicloud/evolution-go:latest | 8080 | - |
+| `LOGTYPE` | evoapicloud/evolution-go:latest | console | - |
+| `WA_DEBUG` | evoapicloud/evolution-go:latest | INFO | - |
+| `CLIENT_NAME` | evoapicloud/evolution-go:latest | pipely | - |
+| `SERVER_PORT` | evoapicloud/evolution-go:latest | 8080 | - |
+| `GLOBAL_API_KEY` | evoapicloud/evolution-go:latest | (secret) | - |
+| `DATABASE_SAVE_MESSAGES` | evoapicloud/evolution-go:latest | true | - |
 
 ## Configuration
 

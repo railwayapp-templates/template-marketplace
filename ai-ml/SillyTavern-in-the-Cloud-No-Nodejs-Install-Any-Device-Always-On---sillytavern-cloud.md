@@ -38,7 +38,7 @@ zero platform restrictions and full ownership of your character cards and chat h
 
 | Service | Source | Type |
 |---------|--------|------|
-| SillyTavern | `null2264/st-railway:latest` | Database |
+| SillyTavern | `ghcr.io/null2264/st-railway:latest` | Web service |
 
 ## Environment variables
 
@@ -51,6 +51,7 @@ zero platform restrictions and full ownership of your character cards and chat h
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/home/node/app/persist/`
 
 **Category:** AI/ML

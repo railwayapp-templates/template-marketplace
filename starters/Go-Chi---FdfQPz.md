@@ -23,13 +23,13 @@ A minimal production-ready golang HTTP server with [`go-chi/chi`](https://github
 
 | Service | Source | Type |
 |---------|--------|------|
-| go-chi | [dillonstreator/template-go-chi](https://github.com/dillonstreator/template-go-chi) | Web service |
+| go-chi | [osbytes/template-go-chi](https://github.com/osbytes/template-go-chi) | Web service |
 
 ## Configuration
 
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Languages:** Go
+**Category:** Starters · **Languages:** Go, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/FdfQPz)

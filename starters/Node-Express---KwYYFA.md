@@ -28,10 +28,11 @@ A minimal production-ready node HTTP server with [`express`](https://expressjs.c
 
 | Service | Source | Type |
 |---------|--------|------|
-| node-express | [dillonstreator/template-node-express](https://github.com/dillonstreator/template-node-express) | Web service |
+| node-express | [osbytes/template-node-express](https://github.com/osbytes/template-node-express) | Web service |
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Starters · **Languages:** TypeScript, Dockerfile, JavaScript

@@ -1,40 +1,38 @@
 # Deploy NOMAD on Railway
 
-A self-hosted travel/trip planner with real-time collaboration.
+Self-hosted collaborative travel planning with durable SQLite storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nomad)
 
 ## About
 
-<p align="center">
-  <picture>
-    <source srcset="https://raw.githubusercontent.com/mauriceboe/NOMAD/main/client/public/logo-light.svg" media="(prefers-color-scheme: dark)">
-    <source srcset="https://raw.githubusercontent.com/mauriceboe/NOMAD/main/client/public/logo-dark.svg" media="(prefers-color-scheme: light)">
-    <img height="60" alt="NOMAD" src="https://raw.githubusercontent.com/mauriceboe/NOMAD/main/client/public/logo-light.svg">
-  </picture>
-  <br>
-  <em>Navigation Organizer for Maps, Activities &amp; Destinations</em>
-</p>
+TREK is a self-hosted collaborative travel planner with interactive maps, itineraries, budgets, packing lists, reservations, documents, journals, offline PWA support, OIDC, passkeys, plugins, and optional AI-assisted booking import. This Railway template runs TREK as a single service with durable SQLite and upload storage.
 
-**NOMAD** (Navigation Organizer for Maps, Activities &amp; Destinations) is a self-hosted, real-time collaborative travel planner featuring interactive maps, drag-and-drop itinerary planning, budget tracking, packing lists, and document management. Built as a Progressive Web App with offline support, it enables groups to plan trips together with live WebSocket synchronization and optional OIDC authentication.
+TREK serves its web client, API, and WebSocket endpoint from port `3000`. Its SQLite database, encryption state, logs, plugins, backups, and uploaded files must survive redeployments. Railway supports one volume per service, so this template's container links `/app/uploads` into `/app/data/uploads` and mounts one persistent volume at `/app/data`.
 
-NOMAD deploys as a containerized Node.js 22 application with an integrated SQLite database (better-sqlite3). Hosting requires persistent volume storage for the database (`./data/travel.db`) and user uploads (`./uploads/`). The application exposes port 3000 and utilizes WebSocket connections (`/ws` path) for real-time collaboration features. Configuration is environment-driven, with optional Google Places API integration for enhanced location search with photos and ratings. The first user to register automatically becomes the administrator, controlling global settings, API keys, backup schedules, and user access management. Being self-hosted, NOMAD ensures complete data privacy while supporting enterprise SSO via OIDC providers (Google, Apple, Keycloak, Authentik).
+The template generates an encryption key and initial administrator password, configures Railway's HTTPS origin, trusts one proxy hop, and checks `/api/health` before accepting a deployment.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| NOMAD | `ghcr.io/monotykamary/nomad` | Web service |
+| TREK | `ghcr.io/monotykamary/nomad:3.4.1` | Web service |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `PORT` | 3000 | Application port. |
-| `NODE_ENV` | production | Node server environment. |
-| `JWT_SECRET` | (secret) | JWT secret for token generation. |
-| `UPLOADS_DIR` | /app/data/uploads | Custom uploads directory for images and documents. |
-| `ALLOWED_ORIGINS` | - | Restrict CORS to specific origins. |
+| `TZ` | UTC | Timezone for logs, reminders, and scheduled tasks. |
+| `PORT` | 3000 | TREK HTTP and WebSocket port. |
+| `APP_URL` | - | Canonical public TREK URL. |
+| `NODE_ENV` | production | Node.js runtime environment. |
+| `LOG_LEVEL` | info | Application log verbosity. |
+| `ADMIN_EMAIL` | admin@example.com | Initial administrator email; used only on an empty installation. |
+| `FORCE_HTTPS` | true | Enable HTTPS redirects and secure browser policy. |
+| `TRUST_PROXY` | 1 | Trust Railway as one reverse-proxy hop. |
+| `ADMIN_PASSWORD` | (secret) | Generated initial administrator password; used only on an empty installation. |
+| `ENCRYPTION_KEY` | - | Generated 256-bit key for encrypting sensitive settings. |
+| `ALLOWED_ORIGINS` | - | Allowed browser origin for CORS. |
 
 ## Configuration
 

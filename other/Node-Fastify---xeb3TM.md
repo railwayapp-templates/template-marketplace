@@ -24,7 +24,7 @@ A minimal production-ready node HTTP server with [`Fastify`](https://fastify.dev
 
 | Service | Source | Type |
 |---------|--------|------|
-| node-fastify | [dillonstreator/template-node-fastify](https://github.com/dillonstreator/template-node-fastify) | Web service |
+| node-fastify | [osbytes/template-node-fastify](https://github.com/osbytes/template-node-fastify) | Web service |
 
 ## Environment variables
 

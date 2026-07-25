@@ -22,7 +22,7 @@ Check if coordinate is on water (seas, lakes, and rivers) with 1m precision
 
 | Service | Source | Type |
 |---------|--------|------|
-| backend | [dillonstreator/is-on-water](https://github.com/dillonstreator/is-on-water) | Web service |
+| backend | [osbytes/is-on-water](https://github.com/osbytes/is-on-water) | Web service |
 | Redis | `bitnami/redis` | Database |
 
 ## Environment variables
@@ -39,10 +39,11 @@ Check if coordinate is on water (seas, lakes, and rivers) with 1m precision
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 6379
 - **Volume:** `/bitnami`
 
-**Category:** Other · **Languages:** TypeScript, HTML, Dockerfile, JavaScript
+**Category:** Other · **Languages:** TypeScript, HTML, JavaScript, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/MfUYQX)
