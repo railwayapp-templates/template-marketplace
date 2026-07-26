@@ -19,10 +19,11 @@ Run your own private Telegram MTProto proxy in minutes using Railway. This templ
 | Variable | Default |
 | --------- | ------- |
 | `SECRET` | (secret) |
-| `WORKERS` | 4 |
+| `WORKERS` | 8 |
 
 ## Configuration
 
+- **Start command:** `bash -lc 'while true; do echo "$(date) - Server is active"; sleep 30; done & exec /run.sh'`
 - **TCP Proxies:** 443
 - **Volume:** `/data`
 

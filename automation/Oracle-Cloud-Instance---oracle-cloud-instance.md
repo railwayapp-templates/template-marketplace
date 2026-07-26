@@ -16,6 +16,6 @@ Hosting an Oracle Cloud Instance management interface on Railway lets you centra
 |---------|--------|------|
 | Oracle Cloud Instances | [sarakmacbook/Oracle_Cloud_Instances](https://github.com/sarakmacbook/Oracle_Cloud_Instances) | Worker |
 
-**Category:** Other · **Languages:** HTML, Python, Procfile
+**Category:** Automation · **Languages:** HTML, Python, Procfile
 
 [View on Railway →](https://railway.com/deploy/oracle-cloud-instance)
