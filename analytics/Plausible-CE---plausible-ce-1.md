@@ -1,6 +1,6 @@
 # Deploy Plausible CE on Railway
 
-Deploy and Host Plausible CE with Railway
+A lightweight, cookie-free alternative to Google Analytics
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/plausible-ce-1)
 
@@ -41,6 +41,6 @@ This template deploys Plausible CE on Railway as a 3-sibling-service architectur
 - **Volume:** `/var/lib/postgresql`
 - **Volume:** `/var/lib/clickhouse`
 
-**Category:** Other · **Languages:** Python, Dockerfile, TypeScript, Shell
+**Category:** Analytics · **Languages:** Python, Dockerfile, TypeScript, Shell
 
 [View on Railway →](https://railway.com/deploy/plausible-ce-1)

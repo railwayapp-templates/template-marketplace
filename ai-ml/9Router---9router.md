@@ -36,6 +36,7 @@ Once deployed, 9Router can be used as a centralized AI gateway for developer too
 
 ## Configuration
 
+- **Start command:** `sh -c 'while true; do echo "$(date) - Server is active"; sleep 30; done & exec node server.js'`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/data`
 

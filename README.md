@@ -20,12 +20,14 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [🚀 TimescaleDB HA (Primary + Replica)](./storage/TimescaleDB-HA-Primary-Replica---timescaledb-replica-postgresql.md) | Storage |  | Shell, Go, Dockerfile | [Deploy](https://railway.com/deploy/timescaledb-replica-postgresql) |
 | [0colors](./other/0colors---0colors.md) | Other |  | TypeScript, CSS, JavaScript, HTML, Dockerfile | [Deploy](https://railway.com/deploy/0colors) |
 | [0docs](./other/0docs---0docs.md) | Other |  | TypeScript, CSS, JavaScript, HTML, Shell, Dockerfile | [Deploy](https://railway.com/deploy/0docs) |
+| [0dtetrader-template](./other/0dtetrader-template---0dtetrader-template.md) | Other |  | TypeScript, Swift, CSS, JavaScript, Dockerfile, Shell, HTML | [Deploy](https://railway.com/deploy/0dtetrader-template) |
 | [1.20.1 Pumpkin Minecraft Server](./other/1201-Pumpkin-Minecraft-Server---1201-pumpkin-minec-1.md) | Other |  | - | [Deploy](https://railway.com/deploy/1201-pumpkin-minec-1) |
 | [1Password Connect API and Server](./other/1Password-Connect-API-and-Server---1password-connect-api-and-server.md) | Other |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/1password-connect-api-and-server) |
 | [2Fauth](./other/2Fauth---2fauth.md) | Other |  | - | [Deploy](https://railway.com/deploy/2fauth) |
 | [86d](./other/86d---86d.md) | Other |  | TypeScript, MDX, Python, Shell, Dockerfile, CSS, PLpgSQL, JavaScript | [Deploy](https://railway.com/deploy/86d) |
 | [9Router](./ai-ml/9Router---9router.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/9router) |
 | [9Router — Self-Hosted AI Gateway for 60+ Providers](./ai-ml/9Router-Self-Hosted-AI-Gateway-for-60-Providers---9router-ai-gateway.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/9router-ai-gateway) |
+| [9Router — Self-Hosted OpenRouter Alternative](./ai-ml/9Router-Self-Hosted-OpenRouter-Alternative---9router-openrouter-alternative.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/9router-openrouter-alternative) |
 | [9Router V3](./other/9Router-V3---9router-v3.md) | Other |  | JavaScript, TypeScript, HTML, Python, CSS, Dockerfile, Procfile | [Deploy](https://railway.com/deploy/9router-v3) |
 | [AAA MCP](./other/AAA-MCP---aaa-mcp.md) | Other |  | Python, TypeScript, PowerShell, HTML, Shell, Batchfile, CSS, JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/aaa-mcp) |
 | [Aain X Messenger](./other/Aain-X-Messenger---robust-wholeness.md) | Other |  | TypeScript, Edge, CSS, JavaScript | [Deploy](https://railway.com/deploy/robust-wholeness) |
@@ -241,6 +243,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Authentik - Open Source Okta, Auth0 Alternative on Railway](./authentication/Authentik-Open-Source-Okta-Auth0-Alternative-on-Railway---authentik.md) | Authentication |  | - | [Deploy](https://railway.com/deploy/authentik) |
 | [Authorizer](./other/Authorizer---authorizer-1.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/authorizer-1) |
 | [Authorizer](./authentication/Authorizer---authorizer.md) | Authentication |  | Dockerfile | [Deploy](https://railway.com/deploy/authorizer) |
+| [Authorizer - Self-Hosted Auth with Postgres, Zero Setup Questions](./authentication/Authorizer-Self-Hosted-Auth-with-Postgres-Zero-Setup-Questions---authorizer-or-self-hosted-auth-with-post.md) | Authentication |  | - | [Deploy](https://railway.com/deploy/authorizer-or-self-hosted-auth-with-post) |
 | [Auto-Reaction-Bot](./bots/Auto-Reaction-Bot---xAf8hY.md) | Bots |  | JavaScript, Dockerfile, Procfile | [Deploy](https://railway.com/deploy/xAf8hY) |
 | [AutoDetailing SaaS Starter (AI + Cloudinary + MongoDB)](./ai-ml/AutoDetailing-SaaS-Starter-AI-Cloudinary-MongoDB---autodetailing-saas-starter-ai-cloudinary.md) | AI/ML |  | JavaScript, Python, HTML, CSS, Shell, Procfile | [Deploy](https://railway.com/deploy/autodetailing-saas-starter-ai-cloudinary) |
 | [autofigure-edit](./ai-ml/autofigure-edit---autofigure-edit.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/autofigure-edit) |
@@ -331,6 +334,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [bolt.diy](./ai-ml/boltdiy---C--NRV.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/C--NRV) |
 | [Bolt.DIY](./ai-ml/BoltDIY---YaqTB9.md) | AI/ML |  | TypeScript, SCSS, JavaScript, Shell, Dockerfile, CSS | [Deploy](https://railway.com/deploy/YaqTB9) |
 | [Bolt.diy — Self-Hosted AI App Builder, No Credits](./other/Boltdiy-Self-Hosted-AI-App-Builder-No-Credits---boltdiy-ai-app-builder.md) | Other |  | - | [Deploy](https://railway.com/deploy/boltdiy-ai-app-builder) |
+| [bolt.diy - Browser AI App Builder, Pinned and in Production Mode](./ai-ml/boltdiy-Browser-AI-App-Builder-Pinned-and-in-Production-Mode---boltdiy-or-browser-ai-app-builder-pinned.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/boltdiy-or-browser-ai-app-builder-pinned) |
 | [Bolt.diy NEW](./ai-ml/Boltdiy-NEW---abVHie.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/abVHie) |
 | [booa-hermes-template](./ai-ml/booa-hermes-template---booa-hermes-template.md) | AI/ML |  | Python, HTML, CSS, Dockerfile, JavaScript | [Deploy](https://railway.com/deploy/booa-hermes-template) |
 | [booklore](./other/booklore---booklore-1.md) | Other |  | - | [Deploy](https://railway.com/deploy/booklore-1) |
@@ -361,6 +365,8 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [brightbean-studio](./other/brightbean-studio---brightbean-studio.md) | Other |  | HTML, Python, CSS, JavaScript, Makefile, Dockerfile, Procfile | [Deploy](https://railway.com/deploy/brightbean-studio) |
 | [browser-gateway](./other/browser-gateway---browser-gateway.md) | Other |  | - | [Deploy](https://railway.com/deploy/browser-gateway) |
 | [BrowserBird](./ai-ml/BrowserBird---browserbird-1.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/browserbird-1) |
+| [Browserless - Headless Chrome v2, Pinned and Token-Protected](./other/Browserless-Headless-Chrome-v2-Pinned-and-Token-Protected---browserless-or-headless-chrome-v2-pinned.md) | Other |  | - | [Deploy](https://railway.com/deploy/browserless-or-headless-chrome-v2-pinned) |
+| [Browserless Headless Chrome](./automation/Browserless-Headless-Chrome---browserless-headless-chrome.md) | Automation |  | - | [Deploy](https://railway.com/deploy/browserless-headless-chrome) |
 | [Browserless v1](./automation/Browserless-v1---browserless.md) | Automation |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/browserless) |
 | [Browserless v2](./automation/Browserless-v2---0jqemX.md) | Automation |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/0jqemX) |
 | [browserless-with-chrome](./other/browserless-with-chrome---kXn4KF.md) | Other |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/kXn4KF) |
@@ -396,6 +402,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [BunkerWeb AIO with CrowdSec](./other/BunkerWeb-AIO-with-CrowdSec---bunkerweb-aio-with-crowdsec.md) | Other |  | - | [Deploy](https://railway.com/deploy/bunkerweb-aio-with-crowdsec) |
 | [busybox](./other/busybox---busybox.md) | Other |  | - | [Deploy](https://railway.com/deploy/busybox) |
 | [buzz](./ai-ml/buzz---buzz.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/buzz) |
+| [Buzz](./ai-ml/Buzz---buzz-inloop-studio.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/buzz-inloop-studio) |
 | [Buzz by Block](./ai-ml/Buzz-by-Block---buzz-by-block.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/buzz-by-block) |
 | [Buzz Relay](./ai-ml/Buzz-Relay---buzz-relay.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/buzz-relay) |
 | [Buzz Relay — Self-Hosted AI Agent Workspace](./ai-ml/Buzz-Relay-Self-Hosted-AI-Agent-Workspace---buzz-relay-agent-workspace.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/buzz-relay-agent-workspace) |
@@ -497,7 +504,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Checkly Agent](./observability/Checkly-Agent---checkly.md) | Observability |  | - | [Deploy](https://railway.com/deploy/checkly) |
 | [Checkmate](./observability/Checkmate---checkmate.md) | Observability |  | - | [Deploy](https://railway.com/deploy/checkmate) |
 | [Checkmate Production](./observability/Checkmate-Production---checkmate-production.md) | Observability |  | - | [Deploy](https://railway.com/deploy/checkmate-production) |
-| [Chevereto](./other/Chevereto---chevereto.md) | Other |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/chevereto) |
+| [Chevereto](./storage/Chevereto---chevereto.md) | Storage |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/chevereto) |
 | [Chhoto URL template](./other/Chhoto-URL-template---chhoto-url-template.md) | Other |  | - | [Deploy](https://railway.com/deploy/chhoto-url-template) |
 | [Chirp Changelog](./blogs/Chirp-Changelog---chirp-changelog.md) | Blogs |  | Python, CSS, HTML | [Deploy](https://railway.com/deploy/chirp-changelog) |
 | [Chirp Feedback Board](./starters/Chirp-Feedback-Board---chirp-feedback-board.md) | Starters |  | Python, CSS, HTML | [Deploy](https://railway.com/deploy/chirp-feedback-board) |
@@ -596,7 +603,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Companion Games MCP](./bots/Companion-Games-MCP---companion-games-mcp.md) | Bots |  | TypeScript, JavaScript | [Deploy](https://railway.com/deploy/companion-games-mcp) |
 | [Companion memory and storage template-connect your own repo](./bots/Companion-memory-and-storage-template-connect-your-own-repo---companion-memory-and-storage-template-co.md) | Bots |  | - | [Deploy](https://railway.com/deploy/companion-memory-and-storage-template-co) |
 | [CompilePDF](./other/CompilePDF---compilepdf.md) | Other |  | Python, Dockerfile | [Deploy](https://railway.com/deploy/compilepdf) |
-| [Complete Supabase + NextJS](./starters/Complete-Supabase-NextJS---complete-supabase-nextjs-frontend.md) | Starters |  | TypeScript, Shell, PLpgSQL, JavaScript, Dockerfile, CSS, HTML | [Deploy](https://railway.com/deploy/complete-supabase-nextjs-frontend) |
+| [Complete Supabase + NextJS](./starters/Complete-Supabase-NextJS---complete-supabase-nextjs-frontend.md) | Starters |  | Shell, TypeScript, JavaScript, PLpgSQL, CSS, Dockerfile, HTML | [Deploy](https://railway.com/deploy/complete-supabase-nextjs-frontend) |
 | [conduit-1-click](./other/conduit-1-click---conduit-1-click.md) | Other |  | - | [Deploy](https://railway.com/deploy/conduit-1-click) |
 | [Consul](./other/Consul---consul.md) | Other |  | - | [Deploy](https://railway.com/deploy/consul) |
 | [consultralph](./ai-ml/consultralph---passionate-abundance.md) | AI/ML |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/passionate-abundance) |
@@ -758,6 +765,8 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Direito & Provento](./other/Direito-Provento---direito-and-provento.md) | Other |  | TypeScript, Dockerfile, JavaScript, CSS, HTML | [Deploy](https://railway.com/deploy/direito-and-provento) |
 | [DISBot](./bots/DISBot---disbot.md) | Bots |  | TypeScript, JavaScript, Shell, Dockerfile, PLpgSQL, Procfile | [Deploy](https://railway.com/deploy/disbot) |
 | [Discord Bot - No code / Low code](./bots/Discord-Bot---No-code-Low-code---xyquaG.md) | Bots |  | JavaScript | [Deploy](https://railway.com/deploy/xyquaG) |
+| [Discord Bot - discord.js v14 Starter with a Lockfile That Installs](./bots/Discord-Bot-discordjs-v14-Starter-with-a-Lockfile-That-Installs---discord-bot-or-discordjs-v14-starter-wit.md) | Bots |  | JavaScript | [Deploy](https://railway.com/deploy/discord-bot-or-discordjs-v14-starter-wit) |
+| [Discord Bot - Python Starter That Builds, discord.py 2.7](./bots/Discord-Bot-Python-Starter-That-Builds-discordpy-27---discord-bot-or-python-starter-that-build.md) | Bots |  | Python | [Deploy](https://railway.com/deploy/discord-bot-or-python-starter-that-build) |
 | [Discord Eris](./bots/Discord-Eris---ioRn64.md) | Bots |  | - | [Deploy](https://railway.com/deploy/ioRn64) |
 | [Discord Honeypot](./bots/Discord-Honeypot---discord-honeypot.md) | Bots |  | TypeScript, Dockerfile | [Deploy](https://railway.com/deploy/discord-honeypot) |
 | [Discord LLM Bot](./bots/Discord-LLM-Bot---PVL8qm.md) | Bots |  | - | [Deploy](https://railway.com/deploy/PVL8qm) |
@@ -787,6 +796,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [diskus](./other/diskus---diskus.md) | Other |  | TypeScript, CSS, Shell, Dockerfile, JavaScript, HTML | [Deploy](https://railway.com/deploy/diskus) |
 | [Dispatcher](./analytics/Dispatcher---dispatcher.md) | Analytics |  | TypeScript, Go, CSS, Dockerfile, Makefile | [Deploy](https://railway.com/deploy/dispatcher) |
 | [Disposable Email Checker](./other/Disposable-Email-Checker---tHOg9a.md) | Other |  | - | [Deploy](https://railway.com/deploy/tHOg9a) |
+| [Dittofeed](./automation/Dittofeed---dittofeed-2.md) | Automation |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/dittofeed-2) |
 | [Dittofeed](./automation/Dittofeed---dittofeed.md) | Automation |  | - | [Deploy](https://railway.com/deploy/dittofeed) |
 | [Dittofeed with workers and blob storage](./automation/Dittofeed-with-workers-and-blob-storage---dittofeed-1.md) | Automation |  | - | [Deploy](https://railway.com/deploy/dittofeed-1) |
 | [divine-prosperity](./other/divine-prosperity---divine-prosperity-1.md) | Other |  | - | [Deploy](https://railway.com/deploy/divine-prosperity-1) |
@@ -796,6 +806,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Django Container - Starter Boilerplate](./starters/Django-Container---Starter-Boilerplate---0kppYG.md) | Starters |  | Python, Dockerfile | [Deploy](https://railway.com/deploy/0kppYG) |
 | [Django Monolith](./starters/Django-Monolith---yZDfUu.md) | Starters |  | Python | [Deploy](https://railway.com/deploy/yZDfUu) |
 | [Django Postgres + allauth + landing page](./other/Django-Postgres-allauth-landing-page----VPzAd.md) | Other |  | HTML, Python, CSS, Procfile | [Deploy](https://railway.com/deploy/-VPzAd) |
+| [Django REST - API with Postgres and a Generated Secret Key](./starters/Django-REST-API-with-Postgres-and-a-Generated-Secret-Key---django-rest-or-api-with-postgres-and-a-g.md) | Starters |  | Python | [Deploy](https://railway.com/deploy/django-rest-or-api-with-postgres-and-a-g) |
 | [Django REST Framework](./starters/Django-REST-Framework----gX--G.md) | Starters |  | Python | [Deploy](https://railway.com/deploy/-gX--G) |
 | [Django REST Template](./starters/Django-REST-Template---Rj_70k.md) | Starters |  | Python | [Deploy](https://railway.com/deploy/Rj_70k) |
 | [Django Starter Template](./other/Django-Starter-Template---django-starter-template.md) | Other |  | Python, HTML, CSS | [Deploy](https://railway.com/deploy/django-starter-template) |
@@ -938,6 +949,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Evolution API [Updated Jul '26]](./bots/Evolution-API-Updated-Jul-26---evolution-api-updated-jul-26.md) | Bots |  | Dockerfile | [Deploy](https://railway.com/deploy/evolution-api-updated-jul-26) |
 | [Evolution API - Open Source Messaging Automation Platform](./automation/Evolution-API-Open-Source-Messaging-Automation-Platform---self-host-evolution-api.md) | Automation |  | - | [Deploy](https://railway.com/deploy/self-host-evolution-api) |
 | [Evolution API Lite](./bots/Evolution-API-Lite---evolution-api-lite.md) | Bots |  | - | [Deploy](https://railway.com/deploy/evolution-api-lite) |
+| [Evolution API WhatsApp](./bots/Evolution-API-WhatsApp---evolution-api-what-1.md) | Bots |  | - | [Deploy](https://railway.com/deploy/evolution-api-what-1) |
 | [Evolution APi Whatsapp using n8n](./other/Evolution-APi-Whatsapp-using-n8n---natural-passion-1.md) | Other |  | - | [Deploy](https://railway.com/deploy/natural-passion-1) |
 | [Evolution API with n8n](./automation/Evolution-API-with-n8n---evolution-api-with-n8n.md) | Automation |  | - | [Deploy](https://railway.com/deploy/evolution-api-with-n8n) |
 | [Evolution API with postgres](./automation/Evolution-API-with-postgres---evolution-api-with-postgres.md) | Automation |  | - | [Deploy](https://railway.com/deploy/evolution-api-with-postgres) |
@@ -957,6 +969,9 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Executor MCP Gateway](./ai-ml/Executor-MCP-Gateway---executor-mcp-gateway.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/executor-mcp-gateway) |
 | [exif-photo-blog](./blogs/exif-photo-blog---exif-photo-blog.md) | Blogs |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/exif-photo-blog) |
 | [Expo-Open-OTA](./other/Expo-Open-OTA---expo-open-ota.md) | Other |  | - | [Deploy](https://railway.com/deploy/expo-open-ota) |
+| [Express + Mongoose - API with MongoDB on Supported Versions](./starters/Express-Mongoose-API-with-MongoDB-on-Supported-Versions---express-mongoose-or-api-with-mongodb-on-.md) | Starters |  | TypeScript | [Deploy](https://railway.com/deploy/express-mongoose-or-api-with-mongodb-on-) |
+| [Express + Prisma - API with Postgres and Migrations That Run](./starters/Express-Prisma-API-with-Postgres-and-Migrations-That-Run---express-prisma-or-api-with-postgres-and-.md) | Starters |  | TypeScript | [Deploy](https://railway.com/deploy/express-prisma-or-api-with-postgres-and-) |
+| [Express API - TypeScript, Rate Limiting and Security Headers](./starters/Express-API-TypeScript-Rate-Limiting-and-Security-Headers---express-api-or-typescript-rate-limiting-.md) | Starters |  | TypeScript | [Deploy](https://railway.com/deploy/express-api-or-typescript-rate-limiting-) |
 | [express-ts-starter](./starters/express-ts-starter---express-ts-starter.md) | Starters |  | TypeScript | [Deploy](https://railway.com/deploy/express-ts-starter) |
 | [Express.js + Passport.js starter](./starters/Expressjs-Passportjs-starter---7VIvXX.md) | Starters |  | JavaScript | [Deploy](https://railway.com/deploy/7VIvXX) |
 | [Express+GraphQL+Prisma](./starters/ExpressGraphQLPrisma---vCAGzF.md) | Starters |  | TypeScript, JavaScript, CSS | [Deploy](https://railway.com/deploy/vCAGzF) |
@@ -969,6 +984,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [ExpressJS PostgreSQL](./starters/ExpressJS-PostgreSQL---VUVlu3.md) | Starters |  | TypeScript, Procfile | [Deploy](https://railway.com/deploy/VUVlu3) |
 | [ExpressJS Prisma](./starters/ExpressJS-Prisma---LqCw_O.md) | Starters |  | TypeScript, Procfile | [Deploy](https://railway.com/deploy/LqCw_O) |
 | [Extract Chat - chat with firecrawl](./ai-ml/Extract-Chat---chat-with-firecrawl---UzxNSc.md) | AI/ML |  | TypeScript, JavaScript, CSS | [Deploy](https://railway.com/deploy/UzxNSc) |
+| [F1ReplayTiming](./other/F1ReplayTiming---f1replaytiming.md) | Other |  | - | [Deploy](https://railway.com/deploy/f1replaytiming) |
 | [fabio](./other/fabio---fabio.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/fabio) |
 | [Fable](./other/Fable---fable.md) | Other |  | TypeScript, CSS, Dockerfile, JavaScript | [Deploy](https://railway.com/deploy/fable) |
 | [Fabric](./ai-ml/Fabric---fabric.md) | AI/ML |  | Go, Svelte, Python, TypeScript, Shell, PowerShell, JavaScript, Nix, CSS, Batchfile, Dockerfile, HTML | [Deploy](https://railway.com/deploy/fabric) |
@@ -1016,6 +1032,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [FerretDB](./storage/FerretDB---cMeXM0.md) | Storage |  | - | [Deploy](https://railway.com/deploy/cMeXM0) |
 | [FerretDB (MongoDB Alternative)](./storage/FerretDB-MongoDB-Alternative---ferretdb-mongodb-alternative.md) | Storage |  | - | [Deploy](https://railway.com/deploy/ferretdb-mongodb-alternative) |
 | [FerretDB (Open-Source MongoDB-Compatible Database)](./storage/FerretDB-Open-Source-MongoDB-Compatible-Database---ferretdb.md) | Storage |  | - | [Deploy](https://railway.com/deploy/ferretdb) |
+| [FerretDB 2 — Open Source MongoDB Alternative](./storage/FerretDB-2-Open-Source-MongoDB-Alternative---ferretdb-2-mongodb-alternative.md) | Storage |  | - | [Deploy](https://railway.com/deploy/ferretdb-2-mongodb-alternative) |
 | [Ferro Labs AI - PostgreSQL storage](./ai-ml/Ferro-Labs-AI---PostgreSQL-storage---ferro-labs-ai-postgresql-storage.md) | AI/ML |  | Go, JavaScript, HTML, CSS, Shell, Makefile, Dockerfile | [Deploy](https://railway.com/deploy/ferro-labs-ai-postgresql-storage) |
 | [Ferro Labs AI - SQLite storage](./ai-ml/Ferro-Labs-AI---SQLite-storage---ferro-labs-ai-sqlite-storage.md) | AI/ML |  | Go, JavaScript, HTML, CSS, Shell, Makefile, Dockerfile | [Deploy](https://railway.com/deploy/ferro-labs-ai-sqlite-storage) |
 | [FFmpeg REST API](./other/FFmpeg-REST-API---ffmpeg-rest-api.md) | Other |  | - | [Deploy](https://railway.com/deploy/ffmpeg-rest-api) |
@@ -1025,6 +1042,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [File Convert](./other/File-Convert---file-convert.md) | Other |  | - | [Deploy](https://railway.com/deploy/file-convert) |
 | [File Server](./storage/File-Server---rZ3A8i.md) | Storage |  | - | [Deploy](https://railway.com/deploy/rZ3A8i) |
 | [Filebrowser](./storage/Filebrowser---Nan7Bs.md) | Storage |  | - | [Deploy](https://railway.com/deploy/Nan7Bs) |
+| [Filebrowser - Official Image, Pinned, No Stock Password](./storage/Filebrowser-Official-Image-Pinned-No-Stock-Password---filebrowser-or-official-image-pinned-no-.md) | Storage |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/filebrowser-or-official-image-pinned-no-) |
 | [FileBrowser Quantum — Self-Hosted Web File Manager](./storage/FileBrowser-Quantum-Self-Hosted-Web-File-Manager---filebrowser-quantum-file-manager.md) | Storage |  | Go, Vue, JavaScript, TypeScript, CSS, Makefile, HTML, Dockerfile, Slim, Shell | [Deploy](https://railway.com/deploy/filebrowser-quantum-file-manager) |
 | [Filebrowser-Quantum](./other/Filebrowser-Quantum---filebrowser-quantum.md) | Other |  | Go, Vue, JavaScript, TypeScript, CSS, Makefile, HTML, Dockerfile, Slim, Shell | [Deploy](https://railway.com/deploy/filebrowser-quantum) |
 | [filestash](./storage/filestash---uIibtY.md) | Storage |  | - | [Deploy](https://railway.com/deploy/uIibtY) |
@@ -1083,13 +1101,14 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Flowise](./other/Flowise---flowise-3.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/flowise-3) |
 | [Flowise](./other/Flowise---flowise-1.md) | Other |  | - | [Deploy](https://railway.com/deploy/flowise-1) |
 | [Flowise -  LLM Agent & RAG Builder [Updated Jun'26]](./ai-ml/Flowise---LLM-Agent-RAG-Builder-Updated-Jun26---flowise-llm-agent-and-rag-builder.md) | AI/ML |  | Dockerfile | [Deploy](https://railway.com/deploy/flowise-llm-agent-and-rag-builder) |
-| [Flowise - Low code LLM Builder with Postgres](./ai-ml/Flowise---Low-code-LLM-Builder-with-Postgres---9IHr5z.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/9IHr5z) |
 | [Flowise – Self-Hosted AI Agent Builder](./ai-ml/Flowise-Self-Hosted-AI-Agent-Builder---flowise-self-hosted-ai-agent-builder.md) | AI/ML |  | TypeScript, JavaScript, HTML, Handlebars, CSS, SCSS, Shell, Dockerfile, Batchfile | [Deploy](https://railway.com/deploy/flowise-self-hosted-ai-agent-builder) |
 | [Flowise & n8n AI Automation](./ai-ml/Flowise-n8n-AI-Automation---flowise-and-n8n-ai-automation.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/flowise-and-n8n-ai-automation) |
 | [Flowise + Bifrost - Visual AI Agent Builder with a Built In Gateway](./ai-ml/Flowise-Bifrost-Visual-AI-Agent-Builder-with-a-Built-In-Gateway---flowise-bifrost-or-visual-ai-agent-build.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/flowise-bifrost-or-visual-ai-agent-build) |
 | [Flowise + Postgres](./ai-ml/Flowise-Postgres---flowise-postgres.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/flowise-postgres) |
 | [Flowise - Build AI Agents](./ai-ml/Flowise-Build-AI-Agents---flowise-or-build-a-2.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/flowise-or-build-a-2) |
 | [Flowise - Build AI Agents [Postgres Included]](./ai-ml/Flowise-Build-AI-Agents-Postgres-Included---flowise-or-build-ai-agents-w-db.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/flowise-or-build-ai-agents-w-db) |
+| [Flowise - Visual AI Agent Builder with Postgres and a Real Volume](./ai-ml/Flowise-Visual-AI-Agent-Builder-with-Postgres-and-a-Real-Volume---flowise-or-visual-ai-agent-builder-with-.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/flowise-or-visual-ai-agent-builder-with-) |
+| [Flowise AI Agent Builder](./ai-ml/Flowise-AI-Agent-Builder---flowise-ai-agent-builder.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/flowise-ai-agent-builder) |
 | [Flowise with postgres](./ai-ml/Flowise-with-postgres---flowise-with-postgres.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/flowise-with-postgres) |
 | [Flowise with Workers](./ai-ml/Flowise-with-Workers---flowise-with-workers.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/flowise-with-workers) |
 | [flowise-nomocodes](./ai-ml/flowise-nomocodes---fUNRIK.md) | AI/ML |  | Dockerfile | [Deploy](https://railway.com/deploy/fUNRIK) |
@@ -1147,7 +1166,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Function Database Migrator - Postgres ](./storage/Function-Database-Migrator---Postgres---function-database-mi.md) | Storage |  | - | [Deploy](https://railway.com/deploy/function-database-mi) |
 | [Function Gemma](./ai-ml/Function-Gemma---function-gemma.md) | AI/ML |  | Dockerfile | [Deploy](https://railway.com/deploy/function-gemma) |
 | [Functions GraphQL Blog](./starters/Functions-GraphQL-Blog---railway-functions-graphql-blog.md) | Starters |  | - | [Deploy](https://railway.com/deploy/railway-functions-graphql-blog) |
-| [Funkwhale](./other/Funkwhale---funkwhale.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/funkwhale) |
+| [Funkwhale](./storage/Funkwhale---funkwhale.md) | Storage |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/funkwhale) |
 | [furvoley](./other/furvoley---furvoley.md) | Other |  | TypeScript, JavaScript, CSS | [Deploy](https://railway.com/deploy/furvoley) |
 | [Fusio - API Management Platform](./authentication/Fusio---API-Management-Platform---fusio-api-management-platform.md) | Authentication |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/fusio-api-management-platform) |
 | [Fusion](./blogs/Fusion---XSPFK0.md) | Blogs |  | - | [Deploy](https://railway.com/deploy/XSPFK0) |
@@ -1180,6 +1199,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Ghost — Self-Hosted Substack Alternative, 0% Fees](./cms/Ghost-Self-Hosted-Substack-Alternative-0-Fees---ghost-substack-alternative.md) | CMS |  | - | [Deploy](https://railway.com/deploy/ghost-substack-alternative) |
 | [Ghost + MySQL](./blogs/Ghost-MySQL---tcsVLc.md) | Blogs |  | - | [Deploy](https://railway.com/deploy/tcsVLc) |
 | [Ghost + SQLite](./blogs/Ghost-SQLite---9VGb60.md) | Blogs |  | - | [Deploy](https://railway.com/deploy/9VGb60) |
+| [Ghost - Publishing Platform with MySQL and a Real Volume](./cms/Ghost-Publishing-Platform-with-MySQL-and-a-Real-Volume---ghost-or-publishing-platform-with-mysql-.md) | CMS |  | - | [Deploy](https://railway.com/deploy/ghost-or-publishing-platform-with-mysql-) |
 | [Ghost 6.8.0 and n8n 1.119.2 (latest) for Programmatic SEO](./cms/Ghost-680-and-n8n-11192-latest-for-Programmatic-SEO---ghost-680-and-n8n-11192-latest-for-progr.md) | CMS |  | Shell, Dockerfile, jq | [Deploy](https://railway.com/deploy/ghost-680-and-n8n-11192-latest-for-progr) |
 | [Ghost CMS + MySQL](./blogs/Ghost-CMS-MySQL---ghost-cms-mysql.md) | Blogs |  | - | [Deploy](https://railway.com/deploy/ghost-cms-mysql) |
 | [Ghost CMS 6](./blogs/Ghost-CMS-6---ZQcedl.md) | Blogs |  | JavaScript, Handlebars, CSS, HTML, TypeScript, Shell, XSLT | [Deploy](https://railway.com/deploy/ZQcedl) |
@@ -1239,6 +1259,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Go Interview Practice](./other/Go-Interview-Practice---go-interview-practice.md) | Other |  | Go, HTML, Shell, Python, JavaScript, CSS, Dockerfile | [Deploy](https://railway.com/deploy/go-interview-practice) |
 | [Go worker](./starters/Go-worker---go.md) | Starters |  | Go | [Deploy](https://railway.com/deploy/go) |
 | [go-hauk](./other/go-hauk---go-hauk.md) | Other |  | Go, JavaScript, CSS, HTML, Dockerfile | [Deploy](https://railway.com/deploy/go-hauk) |
+| [GoAlert](./observability/GoAlert---goalert.md) | Observability |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/goalert) |
 | [GoatCounter](./analytics/GoatCounter---goatcounter.md) | Analytics |  | - | [Deploy](https://railway.com/deploy/goatcounter) |
 | [GoatCounter](./analytics/GoatCounter---39H_-2.md) | Analytics |  | Go, JavaScript, CSS, HTML, Shell, PLpgSQL | [Deploy](https://railway.com/deploy/39H_-2) |
 | [GoatCounter + Postgres](./analytics/GoatCounter-Postgres---goatcounter-postgres.md) | Analytics |  | - | [Deploy](https://railway.com/deploy/goatcounter-postgres) |
@@ -1342,6 +1363,8 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Hemmelig.app](./authentication/Hemmeligapp---hemmeligapp.md) | Authentication |  | - | [Deploy](https://railway.com/deploy/hemmeligapp) |
 | [Hermes](./ai-ml/Hermes---hermes-agent-nous-research.md) | AI/ML |  | HTML, Python, Dockerfile, Shell | [Deploy](https://railway.com/deploy/hermes-agent-nous-research) |
 | [Hermes — Self-Hosted AI Agent with Persistent Memory](./automation/Hermes-Self-Hosted-AI-Agent-with-Persistent-Memory---ai-agent-persistent-memory.md) | Automation |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/ai-agent-persistent-memory) |
+| [Hermes Agent](./ai-ml/Hermes-Agent---hermes-agent-7.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/hermes-agent-7) |
+| [Hermes Agent](./ai-ml/Hermes-Agent---hermes-agent-6.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/hermes-agent-6) |
 | [Hermes Agent](./ai-ml/Hermes-Agent---hermes-agent-4.md) | AI/ML |  | Python, HTML, Dockerfile, Shell | [Deploy](https://railway.com/deploy/hermes-agent-4) |
 | [Hermes Agent](./ai-ml/Hermes-Agent---hermes-agent-railway.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/hermes-agent-railway) |
 | [Hermes Agent](./ai-ml/Hermes-Agent---hermes-agent-1.md) | AI/ML |  | JavaScript, Dockerfile, Shell | [Deploy](https://railway.com/deploy/hermes-agent-1) |
@@ -1411,6 +1434,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [hoppscotch](./other/hoppscotch---hoppscotch.md) | Other |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/hoppscotch) |
 | [Hoppscotch](./other/Hoppscotch---2RQWQj.md) | Other |  | - | [Deploy](https://railway.com/deploy/2RQWQj) |
 | [Horilla](./cms/Horilla---horilla.md) | CMS |  | Dockerfile | [Deploy](https://railway.com/deploy/horilla) |
+| [Hot Updater](./other/Hot-Updater---hot-updater.md) | Other |  | TypeScript, Dockerfile | [Deploy](https://railway.com/deploy/hot-updater) |
 | [HTML to markdown converter](./other/HTML-to-markdown-converter---html-to-markdown-converter.md) | Other |  | TypeScript, Dockerfile | [Deploy](https://railway.com/deploy/html-to-markdown-converter) |
 | [html-hoster](./other/html-hoster---html-hoster.md) | Other |  | TypeScript, HTML, Rust, CSS | [Deploy](https://railway.com/deploy/html-hoster) |
 | [HTMX + Echo + Go + PostgreSQL - Starter Kit](./starters/HTMX-Echo-Go-PostgreSQL---Starter-Kit---htmx-go-postgresql-starter-kit.md) | Starters |  | Go, templ, Dockerfile | [Deploy](https://railway.com/deploy/htmx-go-postgresql-starter-kit) |
@@ -1435,6 +1459,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Hugo](./other/Hugo---hugo.md) | Other |  | HTML | [Deploy](https://railway.com/deploy/hugo) |
 | [Hugo (Blog)](./blogs/Hugo-Blog---hugo-blog.md) | Blogs |  | HTML, JavaScript | [Deploy](https://railway.com/deploy/hugo-blog) |
 | [Hugo (Docs)](./starters/Hugo-Docs---hugo-docs.md) | Starters |  | - | [Deploy](https://railway.com/deploy/hugo-docs) |
+| [Hugo - Static Site Starter Built by a Dockerfile](./blogs/Hugo-Static-Site-Starter-Built-by-a-Dockerfile---hugo-or-static-site-starter-built-by-a-d.md) | Blogs |  | HTML, Dockerfile | [Deploy](https://railway.com/deploy/hugo-or-static-site-starter-built-by-a-d) |
 | [Huly](./other/Huly---huly-1.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/huly-1) |
 | [Huly](./other/Huly---huly.md) | Other |  | - | [Deploy](https://railway.com/deploy/huly) |
 | [Hummingbird](./starters/Hummingbird---hummingbird.md) | Starters |  | Swift, Dockerfile | [Deploy](https://railway.com/deploy/hummingbird) |
@@ -1486,6 +1511,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [InfluxDB](./other/InfluxDB---9qgsKj.md) | Other |  | - | [Deploy](https://railway.com/deploy/9qgsKj) |
 | [InfluxDB](./analytics/InfluxDB---influxdb-1.md) | Analytics |  | Dockerfile | [Deploy](https://railway.com/deploy/influxdb-1) |
 | [InfluxDB (Open-Source Time Series Database & Metrics Platform)](./storage/InfluxDB-Open-Source-Time-Series-Database-Metrics-Platform---influxdb.md) | Storage |  | - | [Deploy](https://railway.com/deploy/influxdb) |
+| [InfluxDB Time Series Database](./storage/InfluxDB-Time-Series-Database---influxdb-time-series-database.md) | Storage |  | - | [Deploy](https://railway.com/deploy/influxdb-time-series-database) |
 | [InnerLink: nextjs better-auth postgres](./ai-ml/InnerLink-nextjs-better-auth-postgres---innerlink-nextjs-better-auth-postgres.md) | AI/ML |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/innerlink-nextjs-better-auth-postgres) |
 | [inngest](./starters/inngest---TCH1Tp.md) | Starters |  | - | [Deploy](https://railway.com/deploy/TCH1Tp) |
 | [Inngest (with protected dashboard)](./starters/Inngest-with-protected-dashboard---inngest-with-protected-dashboard.md) | Starters |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/inngest-with-protected-dashboard) |
@@ -1514,6 +1540,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Invoice Ninja - Open Source FreshBooks Alternative](./other/Invoice-Ninja-Open-Source-FreshBooks-Alternative---invoice-ninja.md) | Other |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/invoice-ninja) |
 | [InvokeAI](./ai-ml/InvokeAI---invokeai.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/invokeai) |
 | [Inworld Token Generator](./other/Inworld-Token-Generator---FIgbO1.md) | Other |  | TypeScript | [Deploy](https://railway.com/deploy/FIgbO1) |
+| [ion-agent](./ai-ml/ion-agent---ion-agent.md) | AI/ML |  | Go, TypeScript, PureBasic, TeX, Python, CSS, BibTeX Style, HTML, Shell, Rust, JavaScript, Makefile, Dockerfile, Go Template | [Deploy](https://railway.com/deploy/ion-agent) |
 | [Ionic Angular with NgModules](./starters/Ionic-Angular-with-NgModules---ZogcrR.md) | Starters |  | TypeScript, SCSS, JavaScript, HTML | [Deploy](https://railway.com/deploy/ZogcrR) |
 | [Ionic Angular with Standalone](./starters/Ionic-Angular-with-Standalone---V7xS0V.md) | Starters |  | TypeScript, SCSS, JavaScript, HTML | [Deploy](https://railway.com/deploy/V7xS0V) |
 | [Ionic React Typescript](./starters/Ionic-React-Typescript---Bh2W7c.md) | Starters |  | TypeScript, HTML, CSS, JavaScript | [Deploy](https://railway.com/deploy/Bh2W7c) |
@@ -1661,6 +1688,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Langflow — Visual AI Workflow Builder (Production-Ready)](./ai-ml/Langflow-Visual-AI-Workflow-Builder-Production-Ready----spvZa.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/-spvZa) |
 | [Langflow [Updated Jul '26]](./ai-ml/Langflow-Updated-Jul-26---langflow.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/langflow) |
 | [Langflow - Production Ready Visual AI Workflow Builder](./automation/Langflow-Production-Ready-Visual-AI-Workflow-Builder---langflow-or-production-ready-visual-ai-w.md) | Automation |  | - | [Deploy](https://railway.com/deploy/langflow-or-production-ready-visual-ai-w) |
+| [Langflow - Visual AI Workflow Builder with Postgres and a Real Volume](./ai-ml/Langflow-Visual-AI-Workflow-Builder-with-Postgres-and-a-Real-Volume---langflow-or-visual-ai-workflow-builder-w.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/langflow-or-visual-ai-workflow-builder-w) |
 | [langflow 1.0-alpha w/ user auth](./ai-ml/langflow-10-alpha-w-user-auth---Z1CH2j.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/Z1CH2j) |
 | [Langflow on Bifrost: Visual AI Agent Builder, Any Model](./ai-ml/Langflow-on-Bifrost-Visual-AI-Agent-Builder-Any-Model---langflow-on-bifrost-visual-ai-agent-buil.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/langflow-on-bifrost-visual-ai-agent-buil) |
 | [Langflow Pre-releases](./ai-ml/Langflow-Pre-releases---UsJ1uB.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/UsJ1uB) |
@@ -1679,6 +1707,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [lanyard](./other/lanyard---fqla1q.md) | Other |  | Elixir, Dockerfile | [Deploy](https://railway.com/deploy/fqla1q) |
 | [Laravel](./starters/Laravel---laravel.md) | Starters |  | PHP, Blade, JavaScript | [Deploy](https://railway.com/deploy/laravel) |
 | [Laravel](./starters/Laravel---fWEWWf.md) | Starters |  | PHP, Blade, JavaScript | [Deploy](https://railway.com/deploy/fWEWWf) |
+| [Laravel - PHP 8.4 on FrankenPHP with Postgres](./starters/Laravel-PHP-84-on-FrankenPHP-with-Postgres---laravel-or-php-84-on-frankenphp-with-pos.md) | Starters |  | Blade, PHP, Dockerfile, Shell, JavaScript, CSS | [Deploy](https://railway.com/deploy/laravel-or-php-84-on-frankenphp-with-pos) |
 | [Laravel 12, PHP 8.4, MySQL 8.4](./other/Laravel-12-PHP-84-MySQL-84---laravel-12-php-84-mysql-84.md) | Other |  | Blade, PHP, Dockerfile, Shell, CSS, JavaScript | [Deploy](https://railway.com/deploy/laravel-12-php-84-mysql-84) |
 | [Laravel Blade MySQL](./starters/Laravel-Blade-MySQL---JL9ADu.md) | Starters |  | PHP, Blade, JavaScript | [Deploy](https://railway.com/deploy/JL9ADu) |
 | [Laravel Breeze Blade MySQL](./starters/Laravel-Breeze-Blade-MySQL---baR0T4.md) | Starters |  | PHP, Blade, JavaScript, CSS | [Deploy](https://railway.com/deploy/baR0T4) |
@@ -1714,6 +1743,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [LibreChat - Lite](./ai-ml/LibreChat---Lite---_fTxzh.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/_fTxzh) |
 | [LibreChat — Multi-Provider AI Chat with RAG](./ai-ml/LibreChat-Multi-Provider-AI-Chat-with-RAG---librechat-multi-provider-rag.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/librechat-multi-provider-rag) |
 | [LibreChat - Self-Hosted AI Chat with Multi-Provider Support](./ai-ml/LibreChat-Self-Hosted-AI-Chat-with-Multi-Provider-Support---librechat.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/librechat) |
+| [LibreChat Multi Model AI](./ai-ml/LibreChat-Multi-Model-AI---librechat-multi-model-ai.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/librechat-multi-model-ai) |
 | [LibreChat on Bifrost: Self Hosted Multi Model AI Chat](./other/LibreChat-on-Bifrost-Self-Hosted-Multi-Model-AI-Chat---librechat-on-bifrost-self-hosted-multi-m.md) | Other |  | - | [Deploy](https://railway.com/deploy/librechat-on-bifrost-self-hosted-multi-m) |
 | [Librechat with RAG](./ai-ml/Librechat-with-RAG---cnhjS_.md) | AI/ML |  | Python, Shell, Dockerfile | [Deploy](https://railway.com/deploy/cnhjS_) |
 | [libredb-studio](./analytics/libredb-studio---libredb-studio.md) | Analytics |  | - | [Deploy](https://railway.com/deploy/libredb-studio) |
@@ -1768,11 +1798,13 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [llama-3.2-1b](./ai-ml/llama-32-1b---llama-32-1b.md) | AI/ML |  | Python, Dockerfile | [Deploy](https://railway.com/deploy/llama-32-1b) |
 | [LLaMA.cpp](./ai-ml/LLaMAcpp---llamacpp-1.md) | AI/ML |  | Python, Dockerfile, Shell | [Deploy](https://railway.com/deploy/llamacpp-1) |
 | [LlamaIndex Apps](./ai-ml/LlamaIndex-Apps---GpZ0J4.md) | AI/ML |  | Python | [Deploy](https://railway.com/deploy/GpZ0J4) |
+| [LlamaIndex Apps - Streamlit on the Port the Platform Assigns](./ai-ml/LlamaIndex-Apps-Streamlit-on-the-Port-the-Platform-Assigns---llamaindex-apps-or-streamlit-on-the-port.md) | AI/ML |  | Python | [Deploy](https://railway.com/deploy/llamaindex-apps-or-streamlit-on-the-port) |
 | [Llana (Open-Source LLM Management & AI Workflow Platform)](./ai-ml/Llana-Open-Source-LLM-Management-AI-Workflow-Platform---llana.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/llana) |
 | [LLM Council](./ai-ml/LLM-Council---llm-council.md) | AI/ML |  | Python, Makefile, Dockerfile | [Deploy](https://railway.com/deploy/llm-council) |
 | [LLM Stack](./ai-ml/LLM-Stack---llm-stack.md) | AI/ML |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/llm-stack) |
 | [LLMOps](./ai-ml/LLMOps---llmops.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/llmops) |
 | [Lobe Chat](./ai-ml/Lobe-Chat---FB6HrV.md) | AI/ML |  | TypeScript, HTML, Shell, JavaScript, MDX, PLpgSQL, Dockerfile, CSS, TeX | [Deploy](https://railway.com/deploy/FB6HrV) |
+| [Lobe Chat - Multi-Provider AI Chat, Pinned and Access-Protected](./ai-ml/Lobe-Chat-Multi-Provider-AI-Chat-Pinned-and-Access-Protected---lobe-chat-or-multi-provider-ai-chat-pinn.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/lobe-chat-or-multi-provider-ai-chat-pinn) |
 | [LobeChat](./ai-ml/LobeChat---XJrbIL.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/XJrbIL) |
 | [LobeChat — Multi-Model AI Chat with RAG [Postgres]](./ai-ml/LobeChat-Multi-Model-AI-Chat-with-RAG-Postgres---lobechat-server-database-rag.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/lobechat-server-database-rag) |
 | [LobeChat + Bifrost - Multi-Provider AI Chat with Gateway](./ai-ml/LobeChat-Bifrost-Multi-Provider-AI-Chat-with-Gateway---lobechat-or-multi-provider-ai-chat-with-.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/lobechat-or-multi-provider-ai-chat-with-) |
@@ -1828,6 +1860,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [manifest](./ai-ml/manifest---wild-wild.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/wild-wild) |
 | [Mantecato Analytics](./analytics/Mantecato-Analytics---mantecato-analytics.md) | Analytics |  | Python, HTML, TypeScript, PLpgSQL, JavaScript, CSS | [Deploy](https://railway.com/deploy/mantecato-analytics) |
 | [manticore](./other/manticore---I3K2X0.md) | Other |  | - | [Deploy](https://railway.com/deploy/I3K2X0) |
+| [manyfold](./other/manyfold---manyfold.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/manyfold) |
 | [MariaDB](./other/MariaDB---ZJZedY.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/ZJZedY) |
 | [MariaDB](./storage/MariaDB---Onvy0F.md) | Storage |  | - | [Deploy](https://railway.com/deploy/Onvy0F) |
 | [MariaDB - the Open-Source MySQL Alternative](./storage/MariaDB---the-Open-Source-MySQL-Alternative---mariadb-opensql-alternative.md) | Storage |  | - | [Deploy](https://railway.com/deploy/mariadb-opensql-alternative) |
@@ -1857,8 +1890,10 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [matrix-conduit](./other/matrix-conduit---matrix-conduit.md) | Other |  | - | [Deploy](https://railway.com/deploy/matrix-conduit) |
 | [matrix-synapse](./other/matrix-synapse---matrix-synapse.md) | Other |  | - | [Deploy](https://railway.com/deploy/matrix-synapse) |
 | [Mattermost](./other/Mattermost---arWblT.md) | Other |  | - | [Deploy](https://railway.com/deploy/arWblT) |
+| [Mattermost — Self-Hosted Slack Alternative [S3]](./bots/Mattermost-Self-Hosted-Slack-Alternative-S3---mattermost-slack-alternative-s3.md) | Bots |  | - | [Deploy](https://railway.com/deploy/mattermost-slack-alternative-s3) |
 | [Mattermost [Updated Jul '26]](./other/Mattermost-Updated-Jul-26---mattermost.md) | Other |  | - | [Deploy](https://railway.com/deploy/mattermost) |
 | [Mattermost - Secure Self-Hosted Slack Alternative for Teams](./bots/Mattermost-Secure-Self-Hosted-Slack-Alternative-for-Teams---mattermost-team-edition.md) | Bots |  | - | [Deploy](https://railway.com/deploy/mattermost-team-edition) |
+| [Mattermost - Self-Hosted Team Chat with Persistent File Storage](./bots/Mattermost-Self-Hosted-Team-Chat-with-Persistent-File-Storage---mattermost-or-self-hosted-team-chat-with.md) | Bots |  | - | [Deploy](https://railway.com/deploy/mattermost-or-self-hosted-team-chat-with) |
 | [MatureStack](./other/MatureStack---kv-8cr.md) | Other |  | - | [Deploy](https://railway.com/deploy/kv-8cr) |
 | [Mautic](./automation/Mautic---9yIPIs.md) | Automation |  | Dockerfile | [Deploy](https://railway.com/deploy/9yIPIs) |
 | [Mautic (Open-Source Marketing Automation Platform)](./automation/Mautic-Open-Source-Marketing-Automation-Platform---mautic.md) | Automation |  | Dockerfile | [Deploy](https://railway.com/deploy/mautic) |
@@ -1932,6 +1967,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Metabase [updated Jun'26]](./analytics/Metabase-updated-Jun26---metabase-updated-jun26.md) | Analytics |  | Dockerfile | [Deploy](https://railway.com/deploy/metabase-updated-jun26) |
 | [Metabase [Updated Jun'26]](./analytics/Metabase-Updated-Jun26---metabase-2.md) | Analytics |  | Dockerfile | [Deploy](https://railway.com/deploy/metabase-2) |
 | [Metabase - Open-Source BI & Dashboard Tool](./other/Metabase-Open-Source-BI-Dashboard-Tool---self-host-metabase.md) | Other |  | - | [Deploy](https://railway.com/deploy/self-host-metabase) |
+| [Metabase BI](./analytics/Metabase-BI---metabase-bi.md) | Analytics |  | - | [Deploy](https://railway.com/deploy/metabase-bi) |
 | [Metabase with postgres](./analytics/Metabase-with-postgres---metabase-w-postgres.md) | Analytics |  | - | [Deploy](https://railway.com/deploy/metabase-w-postgres) |
 | [metabase-source-20260617](./analytics/metabase-source-20260617---metabase-source-20260617.md) | Analytics |  | - | [Deploy](https://railway.com/deploy/metabase-source-20260617) |
 | [MetaMCP](./ai-ml/MetaMCP---metamcp.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/metamcp) |
@@ -1952,6 +1988,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [MindsDB](./other/MindsDB---mindsdb.md) | Other |  | - | [Deploy](https://railway.com/deploy/mindsdb) |
 | [MindsDB](./ai-ml/MindsDB---otiqwz.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/otiqwz) |
 | [MineChamp Minecraft Server 1.21.11](./other/MineChamp-Minecraft-Server-12111---minechamp-minecraft-server-12111.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/minechamp-minecraft-server-12111) |
+| [Minecraft - Paper Server on Java 25 with a Real Volume](./other/Minecraft-Paper-Server-on-Java-25-with-a-Real-Volume---minecraft-or-paper-server-on-java-25-wit.md) | Other |  | - | [Deploy](https://railway.com/deploy/minecraft-or-paper-server-on-java-25-wit) |
 | [Minecraft 1.21.11](./other/Minecraft-12111---minecraft-12111.md) | Other |  | JavaScript, Shell, Dockerfile | [Deploy](https://railway.com/deploy/minecraft-12111) |
 | [Minecraft Bedrock Server](./other/Minecraft-Bedrock-Server---minecraft-bedrock-server.md) | Other |  | - | [Deploy](https://railway.com/deploy/minecraft-bedrock-server) |
 | [Minecraft Forge Server on Railway](./other/Minecraft-Forge-Server-on-Railway---minecraft-forge.md) | Other |  | - | [Deploy](https://railway.com/deploy/minecraft-forge) |
@@ -2081,6 +2118,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [N8N + Worker + Webhook + External DB](./ai-ml/N8N-Worker-Webhook-External-DB---Gos_2q.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/Gos_2q) |
 | [N8N - AI Worklow Automation - Zapier Alternative](./automation/N8N-AI-Worklow-Automation-Zapier-Alternative---n8n-workflow-automation.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-workflow-automation) |
 | [n8n - Open-Source Workflow Automation](./other/n8n-Open-Source-Workflow-Automation---n8n-self-hosted.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/n8n-self-hosted) |
+| [n8n - Self-Hosted Automation with Postgres and Real Persistence](./automation/n8n-Self-Hosted-Automation-with-Postgres-and-Real-Persistence---n8n-or-self-hosted-automation-with-postg.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-or-self-hosted-automation-with-postg) |
 | [N8N 2.0 Pro (Queue Mode with Webhooks, Workers, Code Runners, MCP & Auto-Updates)](./automation/N8N-20-Pro-Queue-Mode-with-Webhooks-Workers-Code-Runners-MCP-Auto-Updates---n8n-20-pro-queue-mode-workers-webhooks-m.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-20-pro-queue-mode-workers-webhooks-m) |
 | [N8N AI Automation](./automation/N8N-AI-Automation---n8n-ai-automation.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-ai-automation) |
 | [n8n Automation Hub – Self-Hosted](./automation/n8n-Automation-Hub-Self-Hosted---n8n-latest-version.md) | Automation |  | Dockerfile | [Deploy](https://railway.com/deploy/n8n-latest-version) |
@@ -2098,6 +2136,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [n8n Pro Stack](./automation/n8n-Pro-Stack---n8n-pro-stack.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-pro-stack) |
 | [n8n Production Setup with Workers](./automation/n8n-Production-Setup-with-Workers---n8n-production-starter-with-workers.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-production-starter-with-workers) |
 | [n8n Queue Mode + Postgres/Redis + Backups](./automation/n8n-Queue-Mode-PostgresRedis-Backups---n8n-queue-mode-postgresredis-backups.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-queue-mode-postgresredis-backups) |
+| [n8n Queue Mode - Worker, Redis and Postgres, All Pinned](./automation/n8n-Queue-Mode-Worker-Redis-and-Postgres-All-Pinned---n8n-queue-mode-or-worker-redis-and-postg.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-queue-mode-or-worker-redis-and-postg) |
 | [n8n Queue Mode with Workers — Scalable Automation](./automation/n8n-Queue-Mode-with-Workers-Scalable-Automation---n8n-queue-mode-workers.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-queue-mode-workers) |
 | [n8n ready production](./automation/n8n-ready-production---n8n-ready-production.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-ready-production) |
 | [n8n Single Node](./automation/n8n-Single-Node---n8n-single-node.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-single-node) |
@@ -2112,6 +2151,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [n8n v2.7.1 (cheapest to run, regular update)](./automation/n8n-v271-cheapest-to-run-regular-update---n8n-v200-still-cheapest-regular-update.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-v200-still-cheapest-regular-update) |
 | [n8n w/ worker, external pgsql](./other/n8n-w-worker-external-pgsql---n8n-w-worker-externa.md) | Other |  | - | [Deploy](https://railway.com/deploy/n8n-w-worker-externa) |
 | [n8n with postgres](./automation/n8n-with-postgres---n8n-with-postgres.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-with-postgres) |
+| [n8n with Postgres](./automation/n8n-with-Postgres---n8n-with-postgres-1.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-with-postgres-1) |
 | [N8N with Postgres](./automation/N8N-with-Postgres---n8n-or-self-host-or-workflow-automation.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-or-self-host-or-workflow-automation) |
 | [N8N with Webhook Processor](./automation/N8N-with-Webhook-Processor---n8n-with-webhook-processor.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-with-webhook-processor) |
 | [n8n with workers](./automation/n8n-with-workers---n8n-workers.md) | Automation |  | - | [Deploy](https://railway.com/deploy/n8n-workers) |
@@ -2155,6 +2195,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Neo4j - Open Source Graph Database](./storage/Neo4j-Open-Source-Graph-Database---neo4j-graph-database.md) | Storage |  | - | [Deploy](https://railway.com/deploy/neo4j-graph-database) |
 | [Neo4j GraphDB](./storage/Neo4j-GraphDB---asEF1B.md) | Storage |  | Dockerfile | [Deploy](https://railway.com/deploy/asEF1B) |
 | [Neo4j GraphDB + Browser Bulk Insert](./storage/Neo4j-GraphDB-Browser-Bulk-Insert---neo4j-graphdb-browser-bulk-insert.md) | Storage |  | TypeScript, JavaScript, CSS | [Deploy](https://railway.com/deploy/neo4j-graphdb-browser-bulk-insert) |
+| [NestJS - API with Postgres and No Required Secrets](./starters/NestJS-API-with-Postgres-and-No-Required-Secrets---nestjs-or-api-with-postgres-and-no-requi.md) | Starters |  | TypeScript | [Deploy](https://railway.com/deploy/nestjs-or-api-with-postgres-and-no-requi) |
 | [NestJs Generic Template](./starters/NestJs-Generic-Template---5eHaqw.md) | Starters |  | TypeScript, Dockerfile, JavaScript | [Deploy](https://railway.com/deploy/5eHaqw) |
 | [NestJS Starter](./other/NestJS-Starter---nestjs-starter.md) | Other |  | TypeScript, JavaScript | [Deploy](https://railway.com/deploy/nestjs-starter) |
 | [NestJS Starter](./starters/NestJS-Starter---BOGqHd.md) | Starters |  | TypeScript, Dockerfile, JavaScript | [Deploy](https://railway.com/deploy/BOGqHd) |
@@ -2171,6 +2212,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [newsnow](./other/newsnow---newsnow.md) | Other |  | - | [Deploy](https://railway.com/deploy/newsnow) |
 | [nexgent-trading-engine](./other/nexgent-trading-engine---nexgent-trading-engine.md) | Other |  | TypeScript, JavaScript, CSS | [Deploy](https://railway.com/deploy/nexgent-trading-engine) |
 | [Nexo Chatwoot Pipelines](./automation/Nexo-Chatwoot-Pipelines---nexo-chatwoot-pipelines.md) | Automation |  | - | [Deploy](https://railway.com/deploy/nexo-chatwoot-pipelines) |
+| [Next + Prisma + tRPC - Typed Full-Stack on Current Versions](./starters/Next-Prisma-tRPC-Typed-Full-Stack-on-Current-Versions---next-prisma-trpc-or-typed-full-stack-on-.md) | Starters |  | TypeScript, CSS | [Deploy](https://railway.com/deploy/next-prisma-trpc-or-typed-full-stack-on-) |
 | [Next 15 App Router](./starters/Next-15-App-Router---U-HNN5.md) | Starters |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/U-HNN5) |
 | [Next Prisma tRPC](./starters/Next-Prisma-tRPC---CgBw9O.md) | Starters |  | TypeScript, JavaScript | [Deploy](https://railway.com/deploy/CgBw9O) |
 | [next-ai-draw-io](./observability/next-ai-draw-io---next-ai-draw-io.md) | Observability |  | - | [Deploy](https://railway.com/deploy/next-ai-draw-io) |
@@ -2184,6 +2226,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Next.js + AI SDK](./ai-ml/Nextjs-AI-SDK---nextjs-ai-sdk.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/nextjs-ai-sdk) |
 | [Next.js + FastAPI Full-Stack Starter](./starters/Nextjs-FastAPI-Full-Stack-Starter---nextjs-fastapi-full-stack-starter.md) | Starters |  | TypeScript, Python, Shell, CSS, Dockerfile, Mako, JavaScript | [Deploy](https://railway.com/deploy/nextjs-fastapi-full-stack-starter) |
 | [Next.js + Supabase (Prisma + tRPC)](./starters/Nextjs-Supabase-Prisma-tRPC---wj1mcU.md) | Starters |  | TypeScript, JavaScript, CSS, Shell | [Deploy](https://railway.com/deploy/wj1mcU) |
+| [Next.js - Starter Whose Lockfile Passes the CVE Gate](./starters/Nextjs-Starter-Whose-Lockfile-Passes-the-CVE-Gate---nextjs-or-starter-whose-lockfile-passes-.md) | Starters |  | TypeScript, CSS | [Deploy](https://railway.com/deploy/nextjs-or-starter-whose-lockfile-passes-) |
 | [Next.js 16.1](./starters/Nextjs-161---nextjs-16.md) | Starters |  | CSS, TypeScript, JavaScript | [Deploy](https://railway.com/deploy/nextjs-16) |
 | [Next.js Better Auth Prisma SaaS Starter Kit](./starters/Nextjs-Better-Auth-Prisma-SaaS-Starter-Kit---nextjs-better-auth-prisma-template.md) | Starters |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/nextjs-better-auth-prisma-template) |
 | [Next.js Boilerplate](./starters/Nextjs-Boilerplate---nextjs-boilerplate.md) | Starters |  | TypeScript, JavaScript, CSS | [Deploy](https://railway.com/deploy/nextjs-boilerplate) |
@@ -2197,6 +2240,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Next.js with Neon Postgres](./storage/Nextjs-with-Neon-Postgres---nextjs-with-neon-postgres.md) | Storage | Yes | TypeScript, JavaScript, CSS | [Deploy](https://railway.com/deploy/nextjs-with-neon-postgres) |
 | [nextchat](./ai-ml/nextchat---nextchat.md) | AI/ML |  | TypeScript, SCSS, JavaScript, Rust, Shell, Dockerfile | [Deploy](https://railway.com/deploy/nextchat) |
 | [NextChat](./ai-ml/NextChat---Mvjjpn.md) | AI/ML |  | TypeScript, SCSS, JavaScript, Rust, Shell, Dockerfile | [Deploy](https://railway.com/deploy/Mvjjpn) |
+| [NextChat - Pinned Release with an Access Code, No Key Required](./ai-ml/NextChat-Pinned-Release-with-an-Access-Code-No-Key-Required---nextchat-or-pinned-release-with-an-acces.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/nextchat-or-pinned-release-with-an-acces) |
 | [NextChat on Bifrost: Self Hosted ChatGPT UI for Any Model](./ai-ml/NextChat-on-Bifrost-Self-Hosted-ChatGPT-UI-for-Any-Model---nextchat-on-bifrost-self-hosted-chatgpt-.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/nextchat-on-bifrost-self-hosted-chatgpt-) |
 | [Nextcloud](./storage/Nextcloud---nextcloud-complete-setup.md) | Storage |  | - | [Deploy](https://railway.com/deploy/nextcloud-complete-setup) |
 | [Nextcloud](./storage/Nextcloud---nextcloud.md) | Storage |  | - | [Deploy](https://railway.com/deploy/nextcloud) |
@@ -2247,6 +2291,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [NocoDB + MinIO (Console & Storage)](./cms/NocoDB-MinIO-Console-Storage---nocodb-minio-console-and-storage.md) | CMS |  | Dockerfile, Python, Shell | [Deploy](https://railway.com/deploy/nocodb-minio-console-and-storage) |
 | [NocoDB + SQLite](./storage/NocoDB-SQLite---nocodb-sqlite.md) | Storage |  | - | [Deploy](https://railway.com/deploy/nocodb-sqlite) |
 | [NocoDB - Open Source Airtable Alternative on Railway](./other/NocoDB-Open-Source-Airtable-Alternative-on-Railway---nocodb-airtable-alternative.md) | Other |  | - | [Deploy](https://railway.com/deploy/nocodb-airtable-alternative) |
+| [NocoDB Airtable Alternative](./storage/NocoDB-Airtable-Alternative---nocodb-airtable-al-1.md) | Storage |  | - | [Deploy](https://railway.com/deploy/nocodb-airtable-al-1) |
 | [Node Cron](./starters/Node-Cron---KViDnA.md) | Starters |  | - | [Deploy](https://railway.com/deploy/KViDnA) |
 | [Node Express](./starters/Node-Express---KwYYFA.md) | Starters |  | TypeScript, Dockerfile, JavaScript | [Deploy](https://railway.com/deploy/KwYYFA) |
 | [Node Fastify](./other/Node-Fastify---xeb3TM.md) | Other |  | TypeScript, Dockerfile, JavaScript | [Deploy](https://railway.com/deploy/xeb3TM) |
@@ -2262,6 +2307,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Node.js](./starters/Nodejs---Abo1zu.md) | Starters |  | JavaScript | [Deploy](https://railway.com/deploy/Abo1zu) |
 | [Node.js HTTP Server — Zero Dependencies](./starters/Nodejs-HTTP-Server-Zero-Dependencies---node-http-zero-deps.md) | Starters |  | JavaScript | [Deploy](https://railway.com/deploy/node-http-zero-deps) |
 | [Node.js Starter with Advanced Auth, Prisma, Postgres (pgvector), background jobs and Multimodal RAG + more](./starters/Nodejs-Starter-with-Advanced-Auth-Prisma-Postgres-pgvector-background-jobs-and-Multimodal-RAG-more---nodejs-multimodal-rag-starter.md) | Starters |  | JavaScript, HTML, TypeScript, Dockerfile, Shell | [Deploy](https://railway.com/deploy/nodejs-multimodal-rag-starter) |
+| [Node.js TypeScript - HTTP Service That Stays Running](./starters/Nodejs-TypeScript-HTTP-Service-That-Stays-Running---nodejs-typescript-or-http-service-that-s.md) | Starters |  | TypeScript | [Deploy](https://railway.com/deploy/nodejs-typescript-or-http-service-that-s) |
 | [Node.js TypeScript starter](./starters/Nodejs-TypeScript-starter---8AWlL5.md) | Starters |  | TypeScript | [Deploy](https://railway.com/deploy/8AWlL5) |
 | [Node.js TypeScript WebSockets](./starters/Nodejs-TypeScript-WebSockets---DZV--w.md) | Starters |  | TypeScript | [Deploy](https://railway.com/deploy/DZV--w) |
 | [NodeBB](./blogs/NodeBB---nodebb.md) | Blogs |  | - | [Deploy](https://railway.com/deploy/nodebb) |
@@ -2296,7 +2342,6 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [ntfy with storage](./observability/ntfy-with-storage---ntfy-with-storage.md) | Observability |  | - | [Deploy](https://railway.com/deploy/ntfy-with-storage) |
 | [ntfy-latest](./observability/ntfy-latest---ntfy-latest.md) | Observability |  | - | [Deploy](https://railway.com/deploy/ntfy-latest) |
 | [nullclaw (OpenClaw compatible)](./automation/nullclaw-OpenClaw-compatible---nullclaw.md) | Automation |  | Zig, Shell, Dockerfile | [Deploy](https://railway.com/deploy/nullclaw) |
-| [nullclaw-railway-template](./other/nullclaw-railway-template---nullclaw-railway-template.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/nullclaw-railway-template) |
 | [NuxtJS](./other/NuxtJS---lQQgLR.md) | Other |  | - | [Deploy](https://railway.com/deploy/lQQgLR) |
 | [nuz-dash](./other/nuz-dash---cool-keen.md) | Other |  | JavaScript, CSS, HTML, Shell, Dockerfile | [Deploy](https://railway.com/deploy/cool-keen) |
 | [Nx Custom Cache](./other/Nx-Custom-Cache----bmO7p.md) | Other |  | - | [Deploy](https://railway.com/deploy/-bmO7p) |
@@ -2322,6 +2367,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Ollama [Updated Jun '26]](./ai-ml/Ollama-Updated-Jun-26---ollama-or-self-host-open-source-llms.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/ollama-or-self-host-open-source-llms) |
 | [Ollama + OpenWebUI](./ai-ml/Ollama-OpenWebUI---ollama-openwebui-or-self-host-your-own-c.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/ollama-openwebui-or-self-host-your-own-c) |
 | [Ollama API](./ai-ml/Ollama-API---ollama-api.md) | AI/ML |  | Dockerfile | [Deploy](https://railway.com/deploy/ollama-api) |
+| [Ollama with Open WebUI](./ai-ml/Ollama-with-Open-WebUI---ollama-with-open-webui.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/ollama-with-open-webui) |
 | [Ollama with Open WebUI](./ai-ml/Ollama-with-Open-WebUI---ollama-stack-llm-web-ui.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/ollama-stack-llm-web-ui) |
 | [ollama-webui](./ai-ml/ollama-webui---k4_cpH.md) | AI/ML |  | Svelte, Python, TypeScript, JavaScript, CSS, HTML, Dockerfile, Shell | [Deploy](https://railway.com/deploy/k4_cpH) |
 | [Omni tools](./other/Omni-tools---omni-tools.md) | Other |  | TypeScript, JavaScript, CSS, HTML, Dockerfile | [Deploy](https://railway.com/deploy/omni-tools) |
@@ -2358,7 +2404,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Open Source Intelligence Command Center](./ai-ml/Open-Source-Intelligence-Command-Center---open-source-intelligence-command-center.md) | AI/ML |  | TypeScript, CSS, JavaScript | [Deploy](https://railway.com/deploy/open-source-intelligence-command-center) |
 | [Open Source LLM Models](./ai-ml/Open-Source-LLM-Models---open-source-llm-models.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/open-source-llm-models) |
 | [Open Wearables](./ai-ml/Open-Wearables---open-wearables-1.md) | AI/ML |  | Python, TypeScript, MDX, CSS, Dockerfile, Makefile, Shell, Mako, JavaScript | [Deploy](https://railway.com/deploy/open-wearables-1) |
-| [Open WebUI](./ai-ml/Open-WebUI---open-webui-3.md) | AI/ML |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/open-webui-3) |
+| [Open WebUI](./other/Open-WebUI---open-webui-4.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/open-webui-4) |
 | [Open WebUI](./ai-ml/Open-WebUI---webui.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/webui) |
 | [Open WebUI](./ai-ml/Open-WebUI---2yb5lj.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/2yb5lj) |
 | [Open WebUI — Self-Hosted ChatGPT Alternative on Railway](./ai-ml/Open-WebUI-Self-Hosted-ChatGPT-Alternative-on-Railway---open-web-ui.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/open-web-ui) |
@@ -2366,6 +2412,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Open WebUI (Private AI Chat + RAG)](./ai-ml/Open-WebUI-Private-AI-Chat-RAG---open-webui-private-ai-chat-rag.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/open-webui-private-ai-chat-rag) |
 | [Open WebUI [with Postgres & Redis]](./ai-ml/Open-WebUI-with-Postgres-Redis---openwebui.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/openwebui) |
 | [Open WebUI + Bifrost - Self-Hosted ChatGPT for Every LLM](./ai-ml/Open-WebUI-Bifrost-Self-Hosted-ChatGPT-for-Every-LLM---open-webui-bifrost-or-self-hosted-chatgp.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/open-webui-bifrost-or-self-hosted-chatgp) |
+| [Open WebUI - Self-Hosted LLM Chat with a Real Volume](./ai-ml/Open-WebUI-Self-Hosted-LLM-Chat-with-a-Real-Volume---open-webui-or-self-hosted-llm-chat-with-.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/open-webui-or-self-hosted-llm-chat-with-) |
 | [Open WebUI on Railway](./ai-ml/Open-WebUI-on-Railway---open-webui-2.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/open-webui-2) |
 | [Open WebUI Pro Stack One-click Deploy](./ai-ml/Open-WebUI-Pro-Stack-One-click-Deploy---open-webui-pro-stack.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/open-webui-pro-stack) |
 | [Open WebUI Standard](./ai-ml/Open-WebUI-Standard---open-webui-standard.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/open-webui-standard) |
@@ -2438,6 +2485,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [OpenCode WebUI Workspace](./automation/OpenCode-WebUI-Workspace---opencode-webui-workspace.md) | Automation |  | - | [Deploy](https://railway.com/deploy/opencode-webui-workspace) |
 | [OpenCode Wizard](./starters/OpenCode-Wizard---opencode-wizard.md) | Starters |  | Python, Shell, Dockerfile | [Deploy](https://railway.com/deploy/opencode-wizard) |
 | [OpenCut](./other/OpenCut---opencut.md) | Other |  | - | [Deploy](https://railway.com/deploy/opencut) |
+| [OpenEMR](./other/OpenEMR---openemr.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/openemr) |
 | [OpenFang](./ai-ml/OpenFang---openfang.md) | AI/ML |  | JavaScript, HTML, Shell, Dockerfile | [Deploy](https://railway.com/deploy/openfang) |
 | [OpenFGA](./authentication/OpenFGA---openfga.md) | Authentication |  | - | [Deploy](https://railway.com/deploy/openfga) |
 | [openfoodfacts-mcp-server](./other/openfoodfacts-mcp-server---openfoodfacts-mcp-server.md) | Other |  | Go, Shell, Dockerfile | [Deploy](https://railway.com/deploy/openfoodfacts-mcp-server) |
@@ -2571,7 +2619,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [peek](./automation/peek---peek.md) | Automation |  | - | [Deploy](https://railway.com/deploy/peek) |
 | [Peekaping + Postgres](./automation/Peekaping-Postgres---peekaping-postgres.md) | Automation |  | - | [Deploy](https://railway.com/deploy/peekaping-postgres) |
 | [Peekaping + SQlite](./automation/Peekaping-SQlite---peekaping.md) | Automation |  | - | [Deploy](https://railway.com/deploy/peekaping) |
-| [PeerTube](./other/PeerTube---peertube.md) | Other |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/peertube) |
+| [PeerTube](./storage/PeerTube---peertube.md) | Storage |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/peertube) |
 | [Pelican Panel](./other/Pelican-Panel---pelican-panel.md) | Other |  | - | [Deploy](https://railway.com/deploy/pelican-panel) |
 | [PenguinMod storage API](./storage/PenguinMod-storage-API---seDKg9.md) | Storage |  | Go, Shell | [Deploy](https://railway.com/deploy/seDKg9) |
 | [Penpot](./other/Penpot---penpot.md) | Other |  | - | [Deploy](https://railway.com/deploy/penpot) |
@@ -2660,7 +2708,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Plausible Analytics](./analytics/Plausible-Analytics---mzYEXO.md) | Analytics |  | - | [Deploy](https://railway.com/deploy/mzYEXO) |
 | [Plausible Analytics - Open Source Google Analytics Alternative](./analytics/Plausible-Analytics-Open-Source-Google-Analytics-Alternative---plausible.md) | Analytics |  | - | [Deploy](https://railway.com/deploy/plausible) |
 | [Plausible Analytics CE](./analytics/Plausible-Analytics-CE---plausible-analytics-ce.md) | Analytics |  | Dockerfile | [Deploy](https://railway.com/deploy/plausible-analytics-ce) |
-| [Plausible CE](./other/Plausible-CE---plausible-ce-1.md) | Other |  | Python, Dockerfile, TypeScript, Shell | [Deploy](https://railway.com/deploy/plausible-ce-1) |
+| [Plausible CE](./analytics/Plausible-CE---plausible-ce-1.md) | Analytics |  | Python, Dockerfile, TypeScript, Shell | [Deploy](https://railway.com/deploy/plausible-ce-1) |
 | [PlayNex](./other/PlayNex---zYfM2t.md) | Other |  | JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/zYfM2t) |
 | [Playwright + Ts (puppeteer-stealth)](./starters/Playwright-Ts-puppeteer-stealth---playwright-ts-puppet.md) | Starters |  | TypeScript, Dockerfile | [Deploy](https://railway.com/deploy/playwright-ts-puppet) |
 | [Playwright Node.js Browser Automation](./starters/Playwright-Nodejs-Browser-Automation---playwright-with-nodejs.md) | Starters |  | TypeScript, Dockerfile, JavaScript, Shell | [Deploy](https://railway.com/deploy/playwright-with-nodejs) |
@@ -2788,6 +2836,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Postiz — Self-Hosted Buffer Alternative for 30+ Platforms](./automation/Postiz-Self-Hosted-Buffer-Alternative-for-30-Platforms---postiz-social-scheduler.md) | Automation |  | - | [Deploy](https://railway.com/deploy/postiz-social-scheduler) |
 | [Postiz (Social Media Scheduler)](./automation/Postiz-Social-Media-Scheduler---postiz-social-media-scheduler.md) | Automation |  | - | [Deploy](https://railway.com/deploy/postiz-social-media-scheduler) |
 | [Postiz (Temporal)](./other/Postiz-Temporal---postiz-temporal.md) | Other |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/postiz-temporal) |
+| [Postiz [Updated Jul '26]](./cms/Postiz-Updated-Jul-26---postiz-updated-jul-26.md) | CMS |  | Dockerfile, JavaScript | [Deploy](https://railway.com/deploy/postiz-updated-jul-26) |
 | [Postiz [Updated Jul ’26] (Open-Source Social Media Scheduling & Automation Platform)](./cms/Postiz-Updated-Jul-26-Open-Source-Social-Media-Scheduling-Automation-Platform---postiz.md) | CMS |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/postiz) |
 | [Postiz - Open-Source Social Media Scheduler for 30+ Platforms](./automation/Postiz-Open-Source-Social-Media-Scheduler-for-30-Platforms---deploy-postiz.md) | Automation |  | - | [Deploy](https://railway.com/deploy/deploy-postiz) |
 | [Postiz App](./other/Postiz-App---postiz-app.md) | Other |  | - | [Deploy](https://railway.com/deploy/postiz-app) |
@@ -2855,6 +2904,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Qdrant (VectorDB)](./other/Qdrant-VectorDB---qdrant-vectordb.md) | Other |  | - | [Deploy](https://railway.com/deploy/qdrant-vectordb) |
 | [Qdrant - High-Performance Vector Databse](./storage/Qdrant-High-Performance-Vector-Databse---qdrant-vector-database.md) | Storage |  | - | [Deploy](https://railway.com/deploy/qdrant-vector-database) |
 | [Qdrant Cluster](./ai-ml/Qdrant-Cluster---dbhF-C.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/dbhF-C) |
+| [Qdrant Vector Database](./storage/Qdrant-Vector-Database---qdrant-vector-data-1.md) | Storage |  | - | [Deploy](https://railway.com/deploy/qdrant-vector-data-1) |
 | [Qinglong - Azure Dragon](./other/Qinglong---Azure-Dragon---qinglong-azure-dragon.md) | Other |  | - | [Deploy](https://railway.com/deploy/qinglong-azure-dragon) |
 | [Qlarr Surveys](./other/Qlarr-Surveys---qlarr-surveys.md) | Other |  | Kotlin, PLpgSQL, Dockerfile, JavaScript, CSS, HTML, SCSS | [Deploy](https://railway.com/deploy/qlarr-surveys) |
 | [QR & Barcode Generator](./other/QR-Barcode-Generator---humble-illumination.md) | Other |  | Python, Procfile | [Deploy](https://railway.com/deploy/humble-illumination) |
@@ -2904,6 +2954,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [RailClaw](./ai-ml/RailClaw---railclaw-1.md) | AI/ML |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/railclaw-1) |
 | [railq](./queues/railq---railq.md) | Queues |  | Go, Dockerfile | [Deploy](https://railway.com/deploy/railq) |
 | [Rails](./starters/Rails---sibk1f.md) | Starters |  | Ruby, HTML, CSS, JavaScript, Procfile | [Deploy](https://railway.com/deploy/sibk1f) |
+| [Rails - Rails 8.1 on Ruby 3.4 with Postgres](./starters/Rails-Rails-81-on-Ruby-34-with-Postgres---rails-or-rails-81-on-ruby-34-with-postgr.md) | Starters |  | HTML, Ruby, Dockerfile, JavaScript, CSS, Shell | [Deploy](https://railway.com/deploy/rails-or-rails-81-on-ruby-34-with-postgr) |
 | [Rails 8 + Hotwire](./starters/Rails-8-Hotwire---rails-8-hotwire.md) | Starters |  | HTML, Ruby, Dockerfile, Shell, JavaScript, CSS, Procfile | [Deploy](https://railway.com/deploy/rails-8-hotwire) |
 | [Rails 8 + Solid Stack + Docker](./starters/Rails-8-Solid-Stack-Docker---railwayrails8starter.md) | Starters |  | Ruby, HTML, Shell, Dockerfile, JavaScript, CSS | [Deploy](https://railway.com/deploy/railwayrails8starter) |
 | [railtail](./other/railtail---railtail.md) | Other |  | Go | [Deploy](https://railway.com/deploy/railtail) |
@@ -2946,6 +2997,8 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Raytha CMS](./cms/Raytha-CMS---raytha-cms.md) | CMS |  | - | [Deploy](https://railway.com/deploy/raytha-cms) |
 | [rclone with GUI](./storage/rclone-with-GUI---gcJnPi.md) | Storage |  | - | [Deploy](https://railway.com/deploy/gcJnPi) |
 | [Reacher](./other/Reacher---reacher.md) | Other |  | - | [Deploy](https://railway.com/deploy/reacher) |
+| [React - Vite SPA Starter That Actually Has a Start Command](./starters/React-Vite-SPA-Starter-That-Actually-Has-a-Start-Command---react-or-vite-spa-starter-that-actually-.md) | Starters |  | JavaScript, TypeScript, CSS, HTML | [Deploy](https://railway.com/deploy/react-or-vite-spa-starter-that-actually-) |
+| [React Router - Accounts and Per-User Data on Postgres](./starters/React-Router-Accounts-and-Per-User-Data-on-Postgres---react-router-or-accounts-and-per-user-da.md) | Starters |  | TypeScript, CSS | [Deploy](https://railway.com/deploy/react-router-or-accounts-and-per-user-da) |
 | [React router v7](./starters/React-router-v7---react-router-v7.md) | Starters |  | TypeScript, Dockerfile, CSS | [Deploy](https://railway.com/deploy/react-router-v7) |
 | [React Typescript  Video Player](./starters/React-Typescript-Video-Player---Sqs3VO.md) | Starters |  | TypeScript, CSS, HTML | [Deploy](https://railway.com/deploy/Sqs3VO) |
 | [Reactive Resume](./other/Reactive-Resume---Op_-gE.md) | Other |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/Op_-gE) |
@@ -3032,6 +3085,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [robinwiki](./ai-ml/robinwiki---robinwiki.md) | AI/ML |  | TypeScript, HTML, CSS, Nix, PLpgSQL, Shell, JavaScript | [Deploy](https://railway.com/deploy/robinwiki) |
 | [robust-youthfulness](./other/robust-youthfulness---robust-youthfulness.md) | Other |  | - | [Deploy](https://railway.com/deploy/robust-youthfulness) |
 | [Rocket](./starters/Rocket---FkW8oU.md) | Starters |  | - | [Deploy](https://railway.com/deploy/FkW8oU) |
+| [Rocket - Rust JSON API in an 18 MB Container](./starters/Rocket-Rust-JSON-API-in-an-18-MB-Container---rocket-or-rust-json-api-in-an-18-mb-cont.md) | Starters |  | Rust, Dockerfile | [Deploy](https://railway.com/deploy/rocket-or-rust-json-api-in-an-18-mb-cont) |
 | [Rocket Chat](./other/Rocket-Chat---d9aKGD.md) | Other |  | - | [Deploy](https://railway.com/deploy/d9aKGD) |
 | [Rocket Chat - Open Source Slack, Teams Alternative](./cms/Rocket-Chat-Open-Source-Slack-Teams-Alternative---rocket-chat.md) | CMS |  | - | [Deploy](https://railway.com/deploy/rocket-chat) |
 | [Rocket Chromadb](./other/Rocket-Chromadb---chromadb-template.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/chromadb-template) |
@@ -3041,7 +3095,6 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [roko](./other/roko---roko.md) | Other |  | - | [Deploy](https://railway.com/deploy/roko) |
 | [roko-worker](./other/roko-worker---roko-worker.md) | Other |  | - | [Deploy](https://railway.com/deploy/roko-worker) |
 | [rotki](./other/rotki---rotki.md) | Other |  | - | [Deploy](https://railway.com/deploy/rotki) |
-| [Roundcube E-Mail Client with MySQL DB](./other/Roundcube-E-Mail-Client-with-MySQL-DB---VgpEjU.md) | Other |  | - | [Deploy](https://railway.com/deploy/VgpEjU) |
 | [Route47 Server](./other/Route47-Server---vast-red.md) | Other |  | TypeScript, Dockerfile, Batchfile | [Deploy](https://railway.com/deploy/vast-red) |
 | [rowt](./analytics/rowt---rowt.md) | Analytics |  | TypeScript, HTML, JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/rowt) |
 | [RPILocator](./bots/RPILocator---VrxHKp.md) | Bots |  | JavaScript | [Deploy](https://railway.com/deploy/VrxHKp) |
@@ -3116,6 +3169,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [SearXNG (w/ Official Image)](./ai-ml/SearXNG-w-Official-Image---searxng-w-official-i.md) | AI/ML |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/searxng-w-official-i) |
 | [SearXNG - Open Source Search API for AI Agents](./analytics/SearXNG-Open-Source-Search-API-for-AI-Agents---searxng-search-api.md) | Analytics |  | Dockerfile | [Deploy](https://railway.com/deploy/searxng-search-api) |
 | [SearXNG API](./ai-ml/SearXNG-API---searxng-api.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/searxng-api) |
+| [SearXNG Metasearch Engine](./other/SearXNG-Metasearch-Engine---searxng-metasearch-engine.md) | Other |  | - | [Deploy](https://railway.com/deploy/searxng-metasearch-engine) |
 | [SearXNG Search API — Private Metasearch for AI](./ai-ml/SearXNG-Search-API-Private-Metasearch-for-AI---searxng-valkey-ai-search.md) | AI/ML |  | Dockerfile | [Deploy](https://railway.com/deploy/searxng-valkey-ai-search) |
 | [Seatsurfing](./other/Seatsurfing---seatsurfing.md) | Other |  | - | [Deploy](https://railway.com/deploy/seatsurfing) |
 | [SeaweedFS](./storage/SeaweedFS---PbH9L1.md) | Storage |  | - | [Deploy](https://railway.com/deploy/PbH9L1) |
@@ -3273,6 +3327,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Spree eCommerce](./other/Spree-eCommerce---06UrFL.md) | Other |  | Ruby, HTML, SCSS, Dockerfile, JavaScript, CSS, Shell, Procfile | [Deploy](https://railway.com/deploy/06UrFL) |
 | [Spring Boot (Java 20)](./starters/Spring-Boot-Java-20---Lhg09r.md) | Starters |  | Java, CSS, HTML, Dockerfile | [Deploy](https://railway.com/deploy/Lhg09r) |
 | [Spring Boot (Java)](./starters/Spring-Boot-Java----NFGrr.md) | Starters |  | Java, Dockerfile | [Deploy](https://railway.com/deploy/-NFGrr) |
+| [Spring Boot - Java 25 API in a Two-Stage Container](./starters/Spring-Boot-Java-25-API-in-a-Two-Stage-Container---spring-boot-or-java-25-api-in-a-two-stag.md) | Starters |  | Java, Dockerfile | [Deploy](https://railway.com/deploy/spring-boot-or-java-25-api-in-a-two-stag) |
 | [Spring Boot Microservice with Java](./starters/Spring-Boot-Microservice-with-Java---JvYvDw.md) | Starters |  | Java, Dockerfile | [Deploy](https://railway.com/deploy/JvYvDw) |
 | [Spring Cloud Gateway - ACL](./starters/Spring-Cloud-Gateway---ACL---CWxqH0.md) | Starters |  | Java, Dockerfile | [Deploy](https://railway.com/deploy/CWxqH0) |
 | [Spring Cloud Gateway - Straightforward](./starters/Spring-Cloud-Gateway---Straightforward---OI2sbM.md) | Starters |  | Dockerfile, Java | [Deploy](https://railway.com/deploy/OI2sbM) |
@@ -3281,6 +3336,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [spring-data-solr](./starters/spring-data-solr---spring-data-solr.md) | Starters |  | - | [Deploy](https://railway.com/deploy/spring-data-solr) |
 | [SQL Server 2022 en Railway (Optimizado)](./storage/SQL-Server-2022-en-Railway-Optimizado---sql-server-2022-en-railway-optimizado.md) | Storage |  | Shell, Dockerfile, TSQL | [Deploy](https://railway.com/deploy/sql-server-2022-en-railway-optimizado) |
 | [sqlchat](./ai-ml/sqlchat---KsHjEY.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/KsHjEY) |
+| [SQLite - Database on a Volume with a Web UI](./storage/SQLite-Database-on-a-Volume-with-a-Web-UI---sqlite-or-database-on-a-volume-with-a-we.md) | Storage |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/sqlite-or-database-on-a-volume-with-a-we) |
 | [SQLite Hub](./storage/SQLite-Hub---sqlite-hub.md) | Storage |  | - | [Deploy](https://railway.com/deploy/sqlite-hub) |
 | [SQLite3](./storage/SQLite3---jOiNFt.md) | Storage |  | Shell, Python, Dockerfile | [Deploy](https://railway.com/deploy/jOiNFt) |
 | [Squidex HeadlessCMS](./cms/Squidex-HeadlessCMS---squidex-headlesscms.md) | CMS |  | - | [Deploy](https://railway.com/deploy/squidex-headlesscms) |
@@ -3311,6 +3367,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Stirling PDF](./other/Stirling-PDF---stirling-pdf-2.md) | Other |  | JavaScript, TypeScript, CSS, Astro, MDX, Shell, PowerShell, Dockerfile, HTML, Standard ML | [Deploy](https://railway.com/deploy/stirling-pdf-2) |
 | [Stirling PDF](./other/Stirling-PDF---stirling-pdf-1.md) | Other |  | Dockerfile | [Deploy](https://railway.com/deploy/stirling-pdf-1) |
 | [Stirling PDF](./other/Stirling-PDF---Rn4VSj.md) | Other |  | - | [Deploy](https://railway.com/deploy/Rn4VSj) |
+| [Stirling PDF — 50+ Self-Hosted PDF Tools + OCR](./other/Stirling-PDF-50-Self-Hosted-PDF-Tools-OCR---stirling-pdf-ocr-toolkit.md) | Other |  | - | [Deploy](https://railway.com/deploy/stirling-pdf-ocr-toolkit) |
 | [Stirling PDF (All-in-One PDF Tools)](./other/Stirling-PDF-All-in-One-PDF-Tools---stirling-pdf-all-in-one-pdf-tools.md) | Other |  | - | [Deploy](https://railway.com/deploy/stirling-pdf-all-in-one-pdf-tools) |
 | [stirling_pdf_improved](./other/stirlingpdfimproved---EZDbH1.md) | Other |  | - | [Deploy](https://railway.com/deploy/EZDbH1) |
 | [stirling-image](./automation/stirling-image---stirling-image.md) | Automation |  | - | [Deploy](https://railway.com/deploy/stirling-image) |
@@ -3370,6 +3427,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [SurrealDB 3.x](./other/SurrealDB-3x---surrealdb-3x.md) | Other |  | - | [Deploy](https://railway.com/deploy/surrealdb-3x) |
 | [SvelteKit](./starters/SvelteKit---sveltekit-starter.md) | Starters |  | Svelte, TypeScript, CSS, JavaScript, HTML, Dockerfile | [Deploy](https://railway.com/deploy/sveltekit-starter) |
 | [SvelteKit](./starters/SvelteKit---svelte-kit.md) | Starters |  | TypeScript, Svelte, CSS, JavaScript, HTML | [Deploy](https://railway.com/deploy/svelte-kit) |
+| [SvelteKit - Svelte 5 App on Current Versions](./starters/SvelteKit-Svelte-5-App-on-Current-Versions---sveltekit-or-svelte-5-app-on-current-ver.md) | Starters |  | Svelte, JavaScript, TypeScript, HTML | [Deploy](https://railway.com/deploy/sveltekit-or-svelte-5-app-on-current-ver) |
 | [Sveltekit NestJS](./starters/Sveltekit-NestJS---oovLiW.md) | Starters |  | JavaScript, TypeScript, HTML, Svelte, CSS, Dockerfile | [Deploy](https://railway.com/deploy/oovLiW) |
 | [Sveltekit Pocketbase Starter](./other/Sveltekit-Pocketbase-Starter---dyM12l.md) | Other |  | JavaScript, Dockerfile, TypeScript, HTML, Svelte, CSS | [Deploy](https://railway.com/deploy/dyM12l) |
 | [Sveltekit Prisma](./starters/Sveltekit-Prisma---sRATcT.md) | Starters |  | JavaScript, TypeScript, HTML, Svelte | [Deploy](https://railway.com/deploy/sRATcT) |
@@ -3428,6 +3486,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Teable](./cms/Teable---wada5e.md) | CMS |  | - | [Deploy](https://railway.com/deploy/wada5e) |
 | [Teable (Open-Source Airtable Alternative)](./storage/Teable-Open-Source-Airtable-Alternative---teable.md) | Storage |  | - | [Deploy](https://railway.com/deploy/teable) |
 | [Teable + Postgres/Redis - Open-Source Airtable Alternative](./other/Teable-PostgresRedis---Open-Source-Airtable-Alternative---teable-postgres-redis.md) | Other |  | - | [Deploy](https://railway.com/deploy/teable-postgres-redis) |
+| [Teable - No-Code Database with Postgres, Redis and a Real Volume](./other/Teable-No-Code-Database-with-Postgres-Redis-and-a-Real-Volume---teable-or-no-code-database-with-postgres.md) | Other |  | - | [Deploy](https://railway.com/deploy/teable-or-no-code-database-with-postgres) |
 | [Teable EE](./cms/Teable-EE---NtH5uD.md) | CMS |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/NtH5uD) |
 | [Teable on Railway - Open-Source Airtable Alternative](./other/Teable-on-Railway-Open-Source-Airtable-Alternative---teable-no-code-database.md) | Other |  | - | [Deploy](https://railway.com/deploy/teable-no-code-database) |
 | [TeamMapper](./other/TeamMapper---SXkslC.md) | Other |  | - | [Deploy](https://railway.com/deploy/SXkslC) |
@@ -3459,7 +3518,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Tempo](./observability/Tempo---qtu0ha.md) | Observability |  | Dockerfile | [Deploy](https://railway.com/deploy/qtu0ha) |
 | [Temporal](./queues/Temporal---temporal.md) | Queues |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/temporal) |
 | [Temporal - Open Source AWS Step Functions Alternative](./automation/Temporal-Open-Source-AWS-Step-Functions-Alternative---temporal-workflow-engine.md) | Automation |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/temporal-workflow-engine) |
-| [Temporal Light](./queues/Temporal-Light---temporal-light.md) | Queues |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/temporal-light) |
+| [Temporal Light](./queues/Temporal-Light---temporal-light.md) | Queues |  | Shell, Dockerfile | [Deploy](https://railway.com/deploy/temporal-light) |
 | [Temporal Starter Package](./queues/Temporal-Starter-Package---temporal-starter.md) | Queues |  | TypeScript, JavaScript, Dockerfile | [Deploy](https://railway.com/deploy/temporal-starter) |
 | [Temporal with S3 Archive](./other/Temporal-with-S3-Archive---aWCIba.md) | Other |  | TypeScript, JavaScript, Dockerfile, Shell | [Deploy](https://railway.com/deploy/aWCIba) |
 | [Temporal.io](./queues/Temporalio---temporalio.md) | Queues |  | Dockerfile, Shell | [Deploy](https://railway.com/deploy/temporalio) |
@@ -3779,6 +3838,7 @@ One-click deploy templates for Railway. [Browse all templates](https://railway.c
 | [Webhooks](./starters/Webhooks---WJuLbj.md) | Starters |  | JavaScript, Python | [Deploy](https://railway.com/deploy/WJuLbj) |
 | [Weblate](./other/Weblate---weblate.md) | Other |  | - | [Deploy](https://railway.com/deploy/weblate) |
 | [website recon tool](./other/website-recon-tool---oLZ6QO.md) | Other |  | Go | [Deploy](https://railway.com/deploy/oLZ6QO) |
+| [WebSocket - Node Server Sharing One Port with HTTP](./starters/WebSocket-Node-Server-Sharing-One-Port-with-HTTP---websocket-or-node-server-sharing-one-por.md) | Starters |  | HTML, TypeScript | [Deploy](https://railway.com/deploy/websocket-or-node-server-sharing-one-por) |
 | [WebSurfer [Updated Jul '26]](./other/WebSurfer-Updated-Jul-26---websurfer.md) | Other |  | - | [Deploy](https://railway.com/deploy/websurfer) |
 | [WebUI](./ai-ml/WebUI---webui-1.md) | AI/ML |  | - | [Deploy](https://railway.com/deploy/webui-1) |
 | [Wechat2RSS](./other/Wechat2RSS---KIQWgJ.md) | Other |  | JavaScript, TypeScript, Shell | [Deploy](https://railway.com/deploy/KIQWgJ) |

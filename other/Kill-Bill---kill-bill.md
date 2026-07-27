@@ -14,7 +14,7 @@ KillBill is a Java based billing platform that requires three moving parts: a Ma
 
 | Service | Source | Type |
 |---------|--------|------|
-| KillBill | `killbill/killbill:0.24.19` | Worker |
+| KillBill | `killbill/killbill:0.24.19` | Database |
 | KillBillAdmin | `killbill/kaui:4.0.23` | Web service |
 | KillBillDB | `killbill/mariadb:0.24` | Database |
 
@@ -25,7 +25,6 @@ KillBill is a Java based billing platform that requires three moving parts: a Ma
 | `KILLBILL_DAO_URL` | KillBill | jdbc:mysql://KillBillDB:3306/killbill?useUnicode=true&serverTimezone=UTC |
 | `KILLBILL_DAO_USER` | KillBill | (secret) |
 | `KILLBILL_DAO_PASSWORD` | KillBill | (secret) |
-| `KB_org_killbill_billing_osgi_dao_url` | KillBill | jdbc:mysql://KillBillDB:3306/killbill?useUnicode=true&serverTimezone=UTC |
 | `KB_org_killbill_billing_osgi_dao_user` | KillBill | (secret) |
 | `KB_org_killbill_billing_osgi_dao_password` | KillBill | (secret) |
 | `KAUI_KILLBILL_URL` | KillBillAdmin | http://KillBill:8080 |
@@ -37,6 +36,7 @@ KillBill is a Java based billing platform that requires three moving parts: a Ma
 ## Configuration
 
 - **Healthcheck:** `/1.0/healthcheck`
+- **Volume:** `/var/tmp`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/mysql`
 

@@ -50,6 +50,6 @@ This template runs PeerTube as three Railway services: the PeerTube server (Node
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `docker-entrypoint.sh redis-server --save '' --appendonly no`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Storage · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/peertube)

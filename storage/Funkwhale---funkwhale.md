@@ -45,6 +45,6 @@ This template runs Funkwhale as three Railway services. The main service is a co
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/srv/funkwhale/data`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Storage · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/funkwhale)

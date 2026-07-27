@@ -32,31 +32,26 @@ Typical cost: **~$5/month** on Railway's Hobby plan for the single service. 9Rou
 
 | Service | Source | Type |
 |---------|--------|------|
-| 9Router | `codestorm-official/9router-v3` | Web service |
+| 9Router | `decolua/9router:latest` | Web service |
 
 ## Environment variables
 
 | Variable | Default |
 | --------- | ------- |
 | `PORT` | 20128 |
-| `DATA_DIR` | /data |
+| `DATA_DIR` | /app/data |
 | `NODE_ENV` | production |
 | `CLOUD_URL` | https://9router.com |
 | `JWT_SECRET` | (secret) |
-| `INSTANCE_NAME` | 9router V3 |
 | `API_KEY_SECRET` | (secret) |
-| `MACHINE_ID_SALT` | endpoint-proxy-salt |
-| `REQUIRE_API_KEY` | (secret) |
 | `INITIAL_PASSWORD` | (secret) |
-| `AUTH_COOKIE_SECURE` | false |
-| `ENABLE_REQUEST_LOGS` | false |
 | `NEXT_PUBLIC_CLOUD_URL` | https://9router.com |
 | `OBSERVABILITY_ENABLED` | true |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/data`
+- **Volume:** `/app/data`
 
 **Category:** AI/ML
 

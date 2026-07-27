@@ -186,6 +186,7 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 | `IMGPROXY_IGNORE_SSL_VERIFICATION` | imgproxy | true | Disable SSL verification, so imgproxy can be used in an environment with self-signed SSL certificates. |
 | `PORT` | Site | 5173 | All PG On Rails services declare PORT to standardize building urls within the Railway private network. |
 | `HOSTNAME` | Site | :: | Defines the network interface that the server binds to when it starts. |
+| `SITE_URL` | Site | - | Public url for the site, usable server-side only for some AI skills that use this in development. |
 | `SUPABASE_URL` | Site | - | Private url for Kong. |
 | `DEPENDS_ON_STORAGE` | Site | - | Ensure that Storage has started and run its DB migrations before Site does. |
 | `NEXT_PUBLIC_SITE_URL` | Site | - | Public url for the site. |
@@ -193,6 +194,7 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 | `SUPABASE_SERVICE_ROLE_KEY` | Site | - | Project service role key FOR USE ON THE SERVER ONLY. |
 | `DB_PRIVATE_CONNECTION_STRING` | Site | - | Private network connection string to run DB migrations on startup. |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Site | - | Project anon key which can safely be in a user's browser. |
+| `VITE_UPDATE_PASSWORD_REQUIRE_REAUTHENTICATION` | Site | (secret) | - |
 | `NEXT_PUBLIC_UPDATE_PASSWORD_REQUIRE_REAUTHENTICATION` | Site | (secret) | Whether to require a one-time passcode during password change. Read from the Auth service ENV config. |
 | `PORT` | Supabase Realtime | 4000 | All PG On Rails services declare PORT to standardize building urls within the Railway private network. |
 | `DB_HOST` | Supabase Realtime | - | Private network host for Postgres. |
@@ -297,6 +299,6 @@ Whether remote or local, you'll be able to use the Supabase Studio dashboard rig
 - **TCP Proxies:** 9000
 - **Volume:** `/data`
 
-**Category:** Starters · **Languages:** TypeScript, Shell, PLpgSQL, JavaScript, Dockerfile, CSS, HTML
+**Category:** Starters · **Languages:** Shell, TypeScript, JavaScript, PLpgSQL, CSS, Dockerfile, HTML
 
 [View on Railway →](https://railway.com/deploy/complete-supabase-nextjs-frontend)

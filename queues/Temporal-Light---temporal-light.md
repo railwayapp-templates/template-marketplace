@@ -14,28 +14,37 @@ Hosting Temporal involves setting up the necessary infrastructure to support its
 
 | Service | Source | Type |
 |---------|--------|------|
-| Temporal | `temporalio/auto-setup:1.28.0` | TCP service |
+| Temporal | [6ixfalls/railway-temporal](https://github.com/6ixfalls/railway-temporal) | Worker |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | Elasticsearch | [railwayapp-templates/elasticsearch](https://github.com/railwayapp-templates/elasticsearch) | Database |
 | Temporal Basic Auth | `ghcr.io/brody192/railway-caddy-basic-auth:main` | Web service |
-| Temporal UI | `temporalio/ui:2.39.0` | Worker |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:latest` | Database |
+| Temporal UI | `temporalio/ui:2.49.1` | Worker |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `DB` | Temporal | postgres12 | Database Type - You likely don't need to change this! |
+| `DB` | Temporal | postgres12_pgx | Database Type - You likely don't need to change this! |
 | `PORT` | Temporal | 7233 | Post temporal is listening on - You likely don't need to change this! |
 | `DBNAME` | Temporal | - | Database Name - You likely don't need to change this! |
 | `ES_PWD` | Temporal | - | Elasticsearch Password - You likely don't need to change this! |
 | `DB_PORT` | Temporal | - | Database Port - You likely don't need to change this! |
+| `ES_PORT` | Temporal | - | Elasticsearch Port |
 | `ES_USER` | Temporal | (secret) | Elasticsearch User - You likely don't need to change this! |
 | `ES_SEEDS` | Temporal | - | Database Host - You likely don't need to change this! |
 | `ENABLE_ES` | Temporal | true | Enable Elasticsearch - You likely don't need to change this! |
+| `ES_SCHEME` | Temporal | http | Elasticsearch Scheme |
 | `ES_VERSION` | Temporal | v7 | Elasticsearch Major Version - You likely don't need to change this! |
 | `POSTGRES_PWD` | Temporal | - | Database Password - You likely don't need to change this! |
 | `POSTGRES_USER` | Temporal | (secret) | Database User - You likely don't need to change this! |
 | `POSTGRES_SEEDS` | Temporal | - | Database Host - You likely don't need to change this! |
+| `TEMPORAL_ADDRESS` | Temporal | - | Private Temporal Address. - You likely don't need to change this! |
+| `ES_VISIBILITY_INDEX` | Temporal | temporal_visibility_v1_dev | Elasticsearch Visibility Index - You likely don't need to change this! |
+| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `PORT` | Elasticsearch | 9200 | Port that Elasticsearch will run on |
 | `ES_JAVA_OPTS` | Elasticsearch | -Xms500m -Xmx4g | The minimum and max heap size that Elasticsearch can use |
 | `ELASTIC_PASSWORD` | Elasticsearch | (secret) | Password for Elasticsearch |
@@ -50,22 +59,15 @@ Hosting Temporal involves setting up the necessary infrastructure to support its
 | `TEMPORAL_AUTH_CALLBACK_URL` | Temporal UI | - | Callback URL for OIDC |
 | `TEMPORAL_AUTH_PROVIDER_URL` | Temporal UI | - | Provider URL for OIDC |
 | `TEMPORAL_AUTH_CLIENT_SECRET` | Temporal UI | (secret) | Client secret for OIDC |
-| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
-| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database |
-| `PGPRIVATEHOST` | Postgres | - | Railway Private Domain |
-| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
-| `DATABASE_PRIVATE_URL` | Postgres | - | URL to connect to Postgres database |
 
 ## Configuration
 
-- **TCP Proxies:** 7233
+- **TCP Proxies:** 5432
+- **Volume:** `/var/lib/postgresql/data`
 - **Healthcheck:** `/_cluster/health`
 - **Volume:** `/esdata`
 - **Networking:** Public domain with automatic HTTPS
-- **TCP Proxies:** 5432
-- **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Queues · **Languages:** Dockerfile, Shell
+**Category:** Queues · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/temporal-light)

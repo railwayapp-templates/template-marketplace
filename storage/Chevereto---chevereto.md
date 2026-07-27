@@ -40,11 +40,12 @@ This template runs Chevereto as two Railway services: the Chevereto app (PHP, li
 
 ## Configuration
 
+- **Healthcheck:** `/chevere.svg`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/www/html/images`
 - **Start command:** `docker-entrypoint.sh mysqld --datadir=/var/lib/mysql/data`
 - **Volume:** `/var/lib/mysql`
 
-**Category:** Other · **Languages:** Dockerfile, Shell
+**Category:** Storage · **Languages:** Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/chevereto)
