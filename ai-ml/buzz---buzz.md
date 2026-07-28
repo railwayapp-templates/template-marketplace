@@ -44,7 +44,7 @@ second bill.
 | `REDIS_PASSWORD` | Redis | (secret) | - |
 | `PORT` | buzz | 3000 | - |
 | `BUZZ_S3_SECRET_KEY` | buzz | (secret) | - |
-| `RELAY_OWNER_PUBKEY` | buzz | - | Your Buzz public key goes here. New to Buzz? (1) Download the app from github.com/block/buzz/releases/latest and open it. (2) Choose 'Create a new identity key'. (3) On the next screen ('Join a community'), click the 'Copy your public ID' button. (4) Paste it here. It starts with 'npub' and is safe to share, like an email address. Full walkthrough with pictures: hmseeb.github.io/buzz-railway . Don't want to install the app first? Type the word generate and a key is made for you. |
+| `RELAY_OWNER_PUBKEY` | buzz | - | Your Buzz public key goes here. New to Buzz? (1) Download the app from github.com/block/buzz/releases/latest and open it. (2) Choose 'Create a new identity key'. (3) On the next screen ('Join a community'), click the 'Copy your public ID' button. (4) Paste it here. It starts with 'npub' and is safe to share, like an email address. Full walkthrough with pictures: hmseeb.github.io/buzz-railway#setup . When the deploy finishes, open this service's URL in a browser and click 'Open in Buzz' to connect the app. Don't want to install the app first? Type the word generate and a key is made for you. |
 | `BUZZ_GIT_HOOK_HMAC_SECRET` | buzz | (secret) | - |
 | `POSTGRES_DB` | Postgres | railway | - |
 | `POSTGRES_USER` | Postgres | (secret) | - |

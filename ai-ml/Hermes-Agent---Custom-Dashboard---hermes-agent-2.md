@@ -1,4 +1,4 @@
-# Deploy Hermes Agent | Minimal & Modern Dashboard on Railway
+# Deploy Hermes Agent - Custom Dashboard on Railway
 
 Self-Hosted Hermes AI Agent with Telegram, Discord & Slack
 

@@ -14,19 +14,13 @@ Hosting MeTube involves deploying a containerized application (Docker) that mana
 
 | Service | Source | Type |
 |---------|--------|------|
-| alexta69/metube:latest | `ghcr.io/alexta69/metube:2026.07.24` | Web service |
-
-## Environment variables
-
-| Variable | Default |
-| --------- | ------- |
-| `PORT` | 8081 |
+| metube | [bilalnawaz072/metube](https://github.com/bilalnawaz072/metube) (root: /metube-railway) | Web service |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/downloads`
 
-**Category:** Automation
+**Category:** Automation · **Languages:** Python, TypeScript, HTML, Shell, Sass, Dockerfile, JavaScript
 
 [View on Railway →](https://railway.com/deploy/metube-1)

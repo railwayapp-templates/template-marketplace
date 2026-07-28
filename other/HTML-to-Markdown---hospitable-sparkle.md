@@ -1,18 +1,40 @@
-# Deploy HTML to markdown converter on Railway
+# Deploy HTML to Markdown on Railway
 
 Converts HTML to Markdown via REST API. Deploy on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/html-to-markdown-converter)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hospitable-sparkle)
 
 ## About
 
 # HTML and Markdown Converter
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/html-to-markdown-converter)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/hospitable-sparkle)
 
 A lightweight, bidirectional REST API for converting HTML to Markdown using [Turndown](https://github.com/mixmark-io/turndown) and Markdown to HTML using [marked](https://github.com/markedjs/marked). Deploy on Railway with zero configuration.
 
-## Features
+## Deploy and Host
+
+### About Hosting
+
+With Railway, you get automatic HTTPS, global CDN, health monitoring, and scalable infrastructure. This service deploys as a single container with zero configuration.
+
+## Why Deploy
+
+- **Zero-config Docker** — Multi-stage Node 22 build, non-root user, small image
+- **REST API** — Bidirectional HTML↔Markdown conversion with CORS support
+- **Instant HTTPS** — Railway provisions a TLS cert and public domain automatically
+- **Health monitoring** — Built-in `/health` endpoint
+
+## Common Use Cases
+
+- Convert HTML emails to Markdown for storage
+- Render Markdown documentation to HTML for web display
+- API integration for content management pipelines
+- Batch conversion via script or automation
+
+## Dependencies for HTML to Markdown Converter
+
+### Deployment Dependencies
 
 - Fast HTML to Markdown conversion
 - Fast Markdown to HTML conversion
@@ -28,7 +50,7 @@ A lightweight, bidirectional REST API for converting HTML to Markdown using [Tur
 
 ### One-Click Deploy
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/html-to-markdown-converter)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/hospitable-sparkle)
 
 ### Manual Deploy
 
@@ -230,7 +252,7 @@ MIT
 
 | Service | Source | Type |
 |---------|--------|------|
-| html-markdown-converter | [INAPP-Mobile/html-markdown-converter](https://github.com/INAPP-Mobile/html-markdown-converter) | Web service |
+| HTML to Markdown | [INAPP-Mobile/html-markdown-converter](https://github.com/INAPP-Mobile/html-markdown-converter) | Web service |
 
 ## Configuration
 
@@ -238,4 +260,4 @@ MIT
 
 **Category:** Other · **Languages:** TypeScript, Dockerfile
 
-[View on Railway →](https://railway.com/deploy/html-to-markdown-converter)
+[View on Railway →](https://railway.com/deploy/hospitable-sparkle)

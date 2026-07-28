@@ -44,7 +44,11 @@ Invidious is a privacy-respecting, open-source front-end for YouTube. It lets yo
   If watch pages return *"Companion is starting. Please wait until a valid potoken is found"*, YouTube has rate-limited Railway's egress IP. Set `YOUTUBE_SESSION_COOKIES` on the Companion service using a cookie string from a logged-in burner Google account (see the yt-dlp guide linked above).
   Alternatively, set `PROXY=http://user:pass@host:port` if you have a residential proxy.
 
-  ## Why Deploy Invidious on Railway?
+  ## Troubleshooting
+
+  **API and watch pages return 500 with "Youtube API returned status code 400"** — YouTube changed its API and your deployed image is stale. Redeploy both the Invidious and Companion services so Railway pulls the latest `:latest` images; the upstream projects track YouTube changes and a fresh image is usually the whole fix. (Video *playback* often keeps working while metadata breaks — that's the tell.)
+
+    ## Why Deploy Invidious on Railway?
 
   Railway is a singular platform to deploy your infrastructure stack. Railway will host your infrastructure so you don't have to deal with configuration, while allowing you to vertically and horizontally scale it.
 
