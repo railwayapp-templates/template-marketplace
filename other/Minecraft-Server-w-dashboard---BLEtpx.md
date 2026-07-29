@@ -37,6 +37,7 @@ Hosting a Minecraft server means running a Java application that manages player 
 
 - **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 25565
+- **Volume:** `/data`
 
 **Category:** Other · **Languages:** TypeScript, CSS, HTML, Dockerfile, Shell, JavaScript
 

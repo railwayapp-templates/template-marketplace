@@ -17,7 +17,7 @@ Hosting OpenPanel involves setting up the necessary infrastructure to support it
 | OpenPanel Dashboard | `lindesvard/openpanel-dashboard:2` | Web service |
 | GeoIP API | `observabilitystack/geoip-api` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Clickhouse Server | `clickhouse/clickhouse-server:24.12.2.29-alpine` | Database |
+| Clickhouse Server | `clickhouse/clickhouse-server:25.10.2.65` | Database |
 | OpenPanel API | `lindesvard/openpanel-api:2` | Web service |
 | OpenPanel Worker | `lindesvard/openpanel-worker:2` | Worker |
 | Redis | `redis:8.2.1` | Database |

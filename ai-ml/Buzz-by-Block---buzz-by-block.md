@@ -16,7 +16,7 @@ The relay is a Rust server with four dependencies: Postgres for events and membe
 |---------|--------|------|
 | Redis | `redis:8.2.1` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Buzz Relay | `ghcr.io/block/buzz@sha256:fed1c36bd76a6a9df7604c8a36b94cbfa143829a776f0a5689664704416fd18a` | Web service |
+| Buzz Relay | `ghcr.io/block/buzz:sha256-aef6dc53ddb2145dfc779e3c43393af02ea0d926e8514a79fa3c24490643b3cb` | Web service |
 
 ## Environment variables
 
