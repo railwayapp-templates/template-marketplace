@@ -1,8 +1,8 @@
-# Deploy Uptime Kuma [Updated Jul '26] on Railway
+# Deploy Uptime Kuma on Railway
 
 Uptime Kuma [July '26] (Open-Source Monitoring & Status Page) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/umami-updated-jul-26)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uptime-kuma-6)
 
 ## About
 
@@ -28,4 +28,4 @@ Teams use Uptime Kuma for three overlapping things: SLA compliance tracking (you
 
 **Category:** Observability · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/deploy/umami-updated-jul-26)
+[View on Railway →](https://railway.com/deploy/uptime-kuma-6)

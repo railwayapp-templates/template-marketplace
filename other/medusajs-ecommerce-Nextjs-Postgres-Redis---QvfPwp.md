@@ -23,8 +23,8 @@ Instructions: [https://funkyton.com/medusajs-free-fully-open-source-ecommerce-so
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `bitnami/redis` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:latest` | Database |
+| Redis | `redis:8.2.1` | Database |
 | medusajs-frontend | [rpuls/medusajs-for-railway-boilerplate.git](https://github.com/rpuls/medusajs-for-railway-boilerplate.git) (root: /medusajs-storefront) | Web service |
 | medusajs-backend | [rpuls/medusajs-for-railway-boilerplate.git](https://github.com/rpuls/medusajs-for-railway-boilerplate.git) (root: /medusajs-backend) | Web service |
 
@@ -32,19 +32,18 @@ Instructions: [https://funkyton.com/medusajs-free-fully-open-source-ecommerce-so
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `REDISHOST` | Redis | - | Railway Private Domain Name. |
-| `REDISPORT` | Redis | - | Port to connect to Redis, used by the Data panel. |
-| `REDISUSER` | Redis | default | Default user to connect to Redis, needed for the Data panel. |
-| `REDIS_URL` | Redis | - | URL to connect to Redis, used for Data panel. |
-| `REDISPASSWORD` | Redis | (secret) | Password to connect to Redis, needed for the Data panel. |
-| `REDIS_PASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PRIVATE_URL` | Redis | - | URL to connect to Redis over private network. |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database |
 | `PGPRIVATEHOST` | Postgres | - | Railway Private Domain |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PRIVATE_URL` | Postgres | - | URL to connect to Postgres database |
+| `REDISPORT` | Redis | 6379 | - |
+| `REDISUSER` | Redis | default | - |
+| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
+| `REDISPASSWORD` | Redis | (secret) | - |
+| `REDIS_PASSWORD` | Redis | (secret) | - |
+| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 | `JWT_SECRET` | medusajs-backend | (secret) | Please change this value! |
 | `COOKIE_SECRET` | medusajs-backend | (secret) | Please change this value! |
 | `TEMPLATE_REPORTER_URL` | medusajs-backend | https://railway-template-reporter-production.up.railway.app | # Used for analytics - delete if you want to opt out |
@@ -52,10 +51,11 @@ Instructions: [https://funkyton.com/medusajs-free-fully-open-source-ecommerce-so
 
 ## Configuration
 
-- **TCP Proxies:** 6379
-- **Volume:** `/bitnami`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
+- **TCP Proxies:** 6379
+- **Volume:** `/data`
 - **Start command:** `npm run start`
 - **Healthcheck:** `/api/healthcheck`
 - **Networking:** Public domain with automatic HTTPS

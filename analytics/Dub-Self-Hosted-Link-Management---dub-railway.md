@@ -1,14 +1,16 @@
-# Deploy dub-railway on Railway
+# Deploy Dub: Self-Hosted Link Management on Railway
 
-Deploy Dub, the open-source link management platform
+Self-host Dub link management, analytics, and QR codes
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dub-railway)
 
 ## About
 
-Dub is the open-source link management platform for modern marketing teams to create, share, and track short links. It offers branded custom domains, real-time click and conversion analytics, QR codes, and affiliate/partner program tracking. It is a self-hostable, developer-friendly alternative to Bitly, built on Next.js.
+Dub is an open-source link management and attribution platform for creating branded short links, managing custom domains, generating QR codes, tracking clicks and conversions, and running partner programs.
 
-Dub is a Next.js monorepo (pnpm/Turborepo) that reads and writes through both Prisma (MySQL wire protocol) and the PlanetScale serverless HTTP driver, so it needs a MySQL database plus a small PlanetScale-compatible HTTP proxy in front of it. It also relies on Upstash Redis and QStash for caching and background jobs, Tinybird for click analytics, and S3-compatible object storage for image assets. This template provisions three Railway services (the Dub web app, MySQL, and the ps-http-sim proxy) already wired together, and generates the app secrets for you. You supply credentials for a few external services as environment variables, and the build compiles the monorepo, syncs the database schema, and starts the app.
+This community template adapts Dub for Railway by deploying the application with Railway MySQL and a PlanetScale-compatible HTTP proxy. The database services, internal networking, application domain, and core secrets are wired automatically.
+
+> Community-maintained template. Not affiliated with or endorsed by Dub. Dub is licensed under AGPL-3.0.
 
 ## What gets deployed
 

@@ -15,8 +15,9 @@ The relay is a Rust server with four dependencies: Postgres for events and membe
 | Service | Source | Type |
 |---------|--------|------|
 | Redis | `redis:8.2.1` | Database |
+| Buzz Pair Relay | `ghcr.io/block/buzz:main` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Buzz Relay | `ghcr.io/block/buzz:sha256-aef6dc53ddb2145dfc779e3c43393af02ea0d926e8514a79fa3c24490643b3cb` | Web service |
+| Buzz Relay | `ghcr.io/block/buzz:main` | Web service |
 
 ## Environment variables
 
@@ -29,6 +30,7 @@ The relay is a Rust server with four dependencies: Postgres for events and membe
 | `REDISPASSWORD` | Redis | (secret) | Password to connect to Redis. |
 | `REDIS_PASSWORD` | Redis | (secret) | Password generated for this deployment. |
 | `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
+| `BUZZ_PAIR_RELAY_BIND_ADDR` | Buzz Pair Relay | 0.0.0.0:5000 | Address the pairing sidecar binds. Ephemeral in-memory relay for NIP-AB device pairing; stores nothing. |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
@@ -59,6 +61,7 @@ The relay is a Rust server with four dependencies: Postgres for events and membe
 | `RELAY_OWNER_PUBKEY` | Buzz Relay | - | Your Nostr PUBLIC key as 64-character hex. Becomes this relay's owner and only initial member. Never paste a secret key here. |
 | `BUZZ_MEDIA_BASE_URL` | Buzz Relay | - | Public base URL media is served from. The relay streams blobs itself; clients never reach S3 directly. |
 | `BUZZ_ALLOW_NIP_OA_AUTH` | Buzz Relay | true | Permit NIP-OA owner-attested authentication. |
+| `BUZZ_PAIRING_RELAY_URL` | Buzz Relay | - | Dedicated pairing relay advertised via NIP-11. Desktop and mobile meet here for QR pairing; required because membership enforcement blocks unpaired devices from the main relay. |
 | `BUZZ_RELAY_PRIVATE_KEY` | Buzz Relay | - | The relay's own Nostr signing key. Signs channel metadata, membership rosters, and git manifests. |
 | `BUZZ_SERVE_GIT_WEB_GUI` | Buzz Relay | false | Optional. Set true to serve the browser-based git repository browser. |
 | `BUZZ_REQUIRE_AUTH_TOKEN` | Buzz Relay | (secret) | Require NIP-42 authentication. Disable only for a public, unauthenticated relay. |
@@ -70,9 +73,10 @@ The relay is a Rust server with four dependencies: Postgres for events and membe
 
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **Volume:** `/data`
+- **Start command:** `/usr/local/bin/buzz-pair-relay`
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 - **Healthcheck:** `/_readiness`
-- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data/git`
 
 **Category:** AI/ML

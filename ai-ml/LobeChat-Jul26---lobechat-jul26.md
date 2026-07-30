@@ -1,8 +1,8 @@
-# Deploy LobeChat on Railway
+# Deploy LobeChat [Jul'26] on Railway
 
 Self-hosted AI chat with memory and plugins
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lobe-chat)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lobechat-jul26)
 
 ## About
 
@@ -16,18 +16,13 @@ The app reads its database connection string, auth secrets, and AI provider API 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | lobe-chat-railway-template | [Amritasha/lobe-chat-railway-template](https://github.com/Amritasha/lobe-chat-railway-template) | Web service |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
-| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
-| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
-| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `PORT` | lobe-chat-railway-template | 3210 | - |
 | `NODE_ENV` | lobe-chat-railway-template | production | - |
 | `AUTH_SECRET` | lobe-chat-railway-template | (secret) | - |
@@ -35,13 +30,18 @@ The app reads its database connection string, auth secrets, and AI provider API 
 | `DATABASE_DRIVER` | lobe-chat-railway-template | node | - |
 | `ANTHROPIC_API_KEY` | lobe-chat-railway-template | (secret) | - |
 | `KEY_VAULTS_SECRET` | lobe-chat-railway-template | (secret) | - |
+| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
-- **Networking:** Public domain with automatic HTTPS
 
 **Category:** AI/ML · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/deploy/lobe-chat)
+[View on Railway →](https://railway.com/deploy/lobechat-jul26)

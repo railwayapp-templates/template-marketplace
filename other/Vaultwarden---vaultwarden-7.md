@@ -1,8 +1,8 @@
-# Deploy Vaultwarden [Updated Jul '26] on Railway
+# Deploy Vaultwarden on Railway
 
 Vaultwarden [Jul '26] (Self-Hosted Bitwarden-Compatible Vault) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vaultwarden-updated-jul-26)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vaultwarden-7)
 
 ## About
 
@@ -50,4 +50,4 @@ This also isn't a fringe project. Vaultwarden has more GitHub stars than most se
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/deploy/vaultwarden-updated-jul-26)
+[View on Railway →](https://railway.com/deploy/vaultwarden-7)

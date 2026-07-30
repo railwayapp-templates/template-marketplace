@@ -17,9 +17,9 @@ Hosting Anyray on Railway stands up four services as one project. The gateway ex
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| proxy | `public.ecr.aws/anyray/proxy:v1.10.120` | Worker |
-| gateway | `public.ecr.aws/anyray/gateway:v1.10.120` | Database |
-| optimizer | `public.ecr.aws/anyray/optimizer:v1.10.120` | Database |
+| proxy | `public.ecr.aws/anyray/proxy:v1.10.168` | Worker |
+| gateway | `public.ecr.aws/anyray/gateway:v1.10.168` | Database |
+| optimizer | `public.ecr.aws/anyray/optimizer:v1.10.168` | Database |
 
 ## Environment variables
 

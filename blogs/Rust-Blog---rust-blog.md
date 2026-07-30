@@ -18,8 +18,8 @@ This template deploys Rust Blog as a coordinated stack of three services: the `b
 
 | Service | Source | Type |
 |---------|--------|------|
-| images-processor-service | [brewpipeline/images-processor-service](https://github.com/brewpipeline/images-processor-service) | Web service |
-| blog-server | [brewpipeline/blog-server](https://github.com/brewpipeline/blog-server) | Web service |
+| images-processor-service | [BrewPipeline/images-processor-service](https://github.com/BrewPipeline/images-processor-service) | Web service |
+| blog-server | [BrewPipeline/blog-server](https://github.com/BrewPipeline/blog-server) | Web service |
 | blog-db | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
@@ -57,6 +57,6 @@ This template deploys Rust Blog as a coordinated stack of three services: the `b
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Blogs · **Languages:** Rust, Shell, Dockerfile
+**Category:** Blogs · **Languages:** Rust, Shell, Dockerfile, Makefile
 
 [View on Railway →](https://railway.com/deploy/rust-blog)

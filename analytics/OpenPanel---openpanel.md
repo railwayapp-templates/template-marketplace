@@ -14,11 +14,12 @@ Hosting OpenPanel involves setting up the necessary infrastructure to support it
 
 | Service | Source | Type |
 |---------|--------|------|
-| OpenPanel Dashboard | `lindesvard/openpanel-dashboard:2` | Web service |
+| OpenPanel Dashboard | `lindesvard/openpanel-dashboard:2` | Worker |
+| OpenPanel Proxy | `caddy:2-alpine` | Web service |
 | GeoIP API | `observabilitystack/geoip-api` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | Clickhouse Server | `clickhouse/clickhouse-server:25.10.2.65` | Database |
-| OpenPanel API | `lindesvard/openpanel-api:2` | Web service |
+| OpenPanel API | `lindesvard/openpanel-api:2` | Worker |
 | OpenPanel Worker | `lindesvard/openpanel-worker:2` | Worker |
 | Redis | `redis:8.2.1` | Database |
 
@@ -29,6 +30,7 @@ Hosting OpenPanel involves setting up the necessary infrastructure to support it
 | `PORT` | OpenPanel Dashboard | 3000 | - |
 | `COOKIE_SECRET` | OpenPanel Dashboard | (secret) | - |
 | `RESEND_API_KEY` | OpenPanel Dashboard | (secret) | - |
+| `PORT` | OpenPanel Proxy | 80 | - |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
@@ -59,6 +61,7 @@ Hosting OpenPanel involves setting up the necessary infrastructure to support it
 ## Configuration
 
 - **Healthcheck:** `/`
+- **Start command:** `sh -c "echo \"$CADDYFILE\" > /etc/caddy/Caddyfile && caddy run --config /etc/caddy/Caddyfile --adapter caddyfile"`
 - **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`

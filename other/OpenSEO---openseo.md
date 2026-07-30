@@ -18,23 +18,29 @@ Runs `ghcr.io/every-app/open-seo` with a volume at `/app/.wrangler` (D1/KV/R2 st
 
 | Service | Source | Type |
 |---------|--------|------|
-| OpenSEO | `ghcr.io/every-app/open-seo:v0.1.1` | Web service |
+| Gate | [Lukem121/openseo](https://github.com/Lukem121/openseo) (root: auth-gateway) | Web service |
+| OpenSEO | `ghcr.io/every-app/open-seo:v0.1.1` | Database |
 
 ## Environment variables
 
-| Variable | Default | Description |
-| --------- | ------- | ----------- |
-| `AUTH_MODE` | local_noauth | Keep local_noauth for Docker self-host. WARNING: the public URL has no app login — gate it yourself. |
-| `DATAFORSEO_API_KEY` | (secret) | Base64 of your DataForSEO email:password. See https://app.dataforseo.com/?aff=310140 and https://github.com/every-app/open-seo/blob/main/docs/DATAFORSEO_API_KEY.md |
-| `OPENROUTER_API_KEY` | (secret) | OpenSEO's in-app AI agent, needs an OpenRouter API key. https://openrouter.ai/settings/keys |
-| `VITE_SHOW_DEVTOOLS` | false | Keep false in production. |
-| `CLOUDFLARE_INCLUDE_PROCESS_ENV` | true | Leave true so process env is exposed as Worker bindings in Docker/Miniflare mode. |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `UPSTREAM_URL` | Gate | - | The OpenSEO upstream URL. |
+| `SITE_PASSWORD` | Gate | (secret) | Your unlock password |
+| `PORT` | OpenSEO | 8080 | The OpenSEO port number |
+| `AUTH_MODE` | OpenSEO | local_noauth | Keep local_noauth for Docker self-host. WARNING: the public URL has no app login — gate it yourself. |
+| `ALLOWED_HOST` | OpenSEO | - | The auth gateway host URL |
+| `DATAFORSEO_API_KEY` | OpenSEO | (secret) | Base64 of your DataForSEO email:password. See https://app.dataforseo.com/?aff=310140 and https://github.com/every-app/open-seo/blob/main/docs/DATAFORSEO_API_KEY.md |
+| `OPENROUTER_API_KEY` | OpenSEO | (secret) | OpenSEO's in-app AI agent, needs an OpenRouter API key. https://openrouter.ai/settings/keys |
+| `VITE_SHOW_DEVTOOLS` | OpenSEO | false | Keep false in production. |
+| `CLOUDFLARE_INCLUDE_PROCESS_ENV` | OpenSEO | true | Leave true so process env is exposed as Worker bindings in Docker/Miniflare mode. |
 
 ## Configuration
 
+- **Healthcheck:** `/__gate/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/.wrangler`
 
-**Category:** Other
+**Category:** Other · **Languages:** JavaScript, TypeScript, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/openseo)

@@ -1,4 +1,4 @@
-# Deploy Buzz Relay — Self-Hosted AI Agent Workspace on Railway
+# Deploy Buzz Relay Pro — Postgres, Redis & S3 on Railway
 
 Own your Buzz relay — chat, Git & AI agents on Nostr
 

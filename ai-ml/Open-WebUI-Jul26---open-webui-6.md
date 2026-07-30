@@ -1,4 +1,4 @@
-# Deploy Open WebUI on Railway
+# Deploy Open WebUI [Jul'26] on Railway
 
 Self-hosted AI chat UI for Ollama and OpenAI
 
@@ -31,6 +31,7 @@ The app reads its configuration from environment variables at startup: your Open
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/app/backend/data`
 
 **Category:** AI/ML · **Languages:** Dockerfile
 

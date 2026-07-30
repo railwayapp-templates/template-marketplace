@@ -1,8 +1,8 @@
-# Deploy NocoDB [Updated Jul '26] on Railway
+# Deploy NocoDB on Railway
 
 NocoDB [Jul '26] (Open-Source Database UI & No-Code Automation) Self Host
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nocodb-updated-jul-26)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nocodb-2)
 
 ## About
 
@@ -43,4 +43,4 @@ NocoDB's real differentiator versus most "spreadsheet UI over a database" tools 
 
 **Category:** Automation · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/deploy/nocodb-updated-jul-26)
+[View on Railway →](https://railway.com/deploy/nocodb-2)

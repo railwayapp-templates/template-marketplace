@@ -63,6 +63,7 @@ Hosting Hydrodactyl requires you to deploy the panel itself, alongside a databas
 - **Start command:** `/bin/ash -c "sed -i -e 's|^logfile=.*$|logfile=/dev/stdout|' -e 's|^logfile_maxbytes=.*$|logfile_maxbytes=0|' /etc/supervisord.conf && /bin/ash .github/docker/entrypoint.sh supervisord -n -c /etc/supervisord.conf"`
 - **Healthcheck:** `/up`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/app/storage/app/public`
 - **Volume:** `/var/lib/mysql`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
