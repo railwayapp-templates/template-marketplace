@@ -1,8 +1,8 @@
-# Deploy Buzz Relay on Railway
+# Deploy Buzz Relay - Block on Railway
 
 Deploy and Host Buzz Relay on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/buzz-relay-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/buzz-relay-block)
 
 ## About
 
@@ -68,6 +68,6 @@ Hosting Buzz Relay gives you control over your community's identity, membership,
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Other
+**Category:** AI/ML
 
-[View on Railway →](https://railway.com/deploy/buzz-relay-1)
+[View on Railway →](https://railway.com/deploy/buzz-relay-block)

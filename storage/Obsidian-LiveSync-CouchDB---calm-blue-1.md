@@ -20,6 +20,7 @@ This template deploys Apache CouchDB with the exact configuration required by vr
 
 | Variable | Default |
 | --------- | ------- |
+| `PORT` | 5984 |
 | `COUCHDB_USER ` |  admin |
 | `COUCHDB_PASSWORD ` | (secret) |
 
@@ -29,6 +30,6 @@ This template deploys Apache CouchDB with the exact configuration required by vr
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/opt/couchdb/data`
 
-**Category:** Storage · **Languages:** Dockerfile
+**Category:** Storage · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/calm-blue-1)

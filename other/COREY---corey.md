@@ -23,8 +23,8 @@ Railway generates the MCP bridge secret during deployment and wires it between C
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| COREY | `ghcr.io/jhjhjhjh/corey:0.1.0` | Web service |
-| MCP | `ghcr.io/jhjhjhjh/corey-mcp:0.1.0` | Web service |
+| COREY | `ghcr.io/jhjhjhjh/corey:0.1.1` | Web service |
+| MCP | `ghcr.io/jhjhjhjh/corey-mcp:0.1.1` | Web service |
 | Bucket | [railwayapp-templates/minio](https://github.com/railwayapp-templates/minio) | Database |
 | Console | [railwayapp-templates/minio-console](https://github.com/railwayapp-templates/minio-console) | Web service |
 
@@ -60,6 +60,7 @@ Railway generates the MCP bridge secret during deployment and wires it between C
 | `COREY_USER_HEADER` | MCP | x-forwarded-user | Trusted user identity header sent to COREY |
 | `COREY_APP_PUBLIC_URL` | MCP | - | Public COREY application URL used by MCP OAuth |
 | `COREY_MCP_PUBLIC_URL` | MCP | - | Public MCP Streamable HTTP endpoint |
+| `COREY_MCP_TRUST_PROXY` | MCP | 1 | Number of trusted Railway ingress proxy hops |
 | `COREY_MCP_BRIDGE_SECRET` | MCP | (secret) | Generated secret shared with the COREY application bridge |
 | `COREY_MCP_ALLOWED_ORIGINS` | MCP | - | Allowed browser origin for the COREY bridge |
 | `COREY_MCP_INDEX_CACHE_ENTRIES` | MCP | 3 | Maximum number of cached IFC indexes |
