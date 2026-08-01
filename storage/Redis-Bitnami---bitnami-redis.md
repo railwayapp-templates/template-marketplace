@@ -32,7 +32,6 @@ Hosting Redis gives you access to a high-performance in-memory database capable 
 
 ## Configuration
 
-- **TCP Proxies:** 6379
 - **Volume:** `/bitnami`
 
 **Category:** Storage

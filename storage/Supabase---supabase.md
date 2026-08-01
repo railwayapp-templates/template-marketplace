@@ -26,10 +26,10 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 | Postgrest | `postgrest/postgrest:v14.12` | Database |
 | Supabase Realtime | `supabase/realtime:v2.102.3` | Database |
 | Supabase Storage | `supabase/storage-api:v1.60.4` | Database |
-| Imgproxy | `darthsim/imgproxy:v3.8.0` | Worker |
+| Imgproxy | `darthsim/imgproxy:v3.30.1` | Worker |
 | Kong | [6ixfalls/supabase](https://github.com/6ixfalls/supabase) (root: /kong) | Web service |
-| Gotrue Auth | `supabase/gotrue:v2.180.0` | Database |
-| Supabase Studio | `supabase/studio:2026.06.03-sha-0bca601` | Database |
+| Gotrue Auth | `supabase/gotrue:v2.189.0` | Database |
+| Supabase Studio | `supabase/studio:2026.07.07-sha-a6a04f2` | Database |
 | Postgres | `ghcr.io/6ixfalls/supabase-postgres:17.6.1.136` | Database |
 
 ## Environment variables
@@ -40,7 +40,6 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 | `PG_META_PORT` | Postgres Meta | 8080 | - |
 | `PG_META_DB_USER` | Postgres Meta | (secret) | - |
 | `PG_META_DB_PASSWORD` | Postgres Meta | (secret) | - |
-| `PGRST_DB_SCHEMAS` | Postgrest | public,storage,graphql_public | - |
 | `PGRST_JWT_SECRET` | Postgrest | (secret) | - |
 | `PGRST_SERVER_HOST` | Postgrest | * | - |
 | `PGRST_DB_ANON_ROLE` | Postgrest | anon | - |
@@ -76,7 +75,8 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 | `UPLOAD_FILE_SIZE_LIMIT_STANDARD` | Supabase Storage | 52428800 | - |
 | `PORT` | Imgproxy | 5001 | - |
 | `IMGPROXY_USE_ETAG` | Imgproxy | true | - |
-| `IMGPROXY_ENABLE_WEBP_DETECTION` | Imgproxy | true | - |
+| `IMGPROXY_AUTO_WEBP` | Imgproxy | true | - |
+| `IMGPROXY_MAX_SRC_RESOLUTION` | Imgproxy | 16.8 | - |
 | `PORT` | Kong | 8000 | - |
 | `KONG_PLUGINS` | Kong | request-transformer,cors,key-auth,acl,basic-auth,request-termination,ip-restriction,post-function | - |
 | `KONG_DATABASE` | Kong | off | - |
@@ -86,6 +86,8 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 | `KONG_PROXY_LISTEN` | Kong | [::]:8000 reuseport backlog=16384, 0.0.0.0:8000 reuseport backlog=16384 | - |
 | `DASHBOARD_PASSWORD` | Kong | (secret) | - |
 | `DASHBOARD_USERNAME` | Kong | (secret) | - |
+| `KONG_DNS_VALID_TTL` | Kong | 5 | - |
+| `KONG_ROUTER_FLAVOR` | Kong | expressions | - |
 | `SUPABASE_SECRET_KEY` | Kong | (secret) | - |
 | `KONG_PROXY_ACCESS_LOG` | Kong | /dev/stdout combined | - |
 | `KONG_DNS_NOT_FOUND_TTL` | Kong | 1 | - |
@@ -104,13 +106,19 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 | `PORT` | Supabase Studio | 3000 | - |
 | `HOSTNAME` | Supabase Studio | :: | - |
 | `JWT_SECRET` | Supabase Studio | (secret) | - |
+| `OPENAI_API_KEY` | Supabase Studio | (secret) | Add your OpenAI API key to enable AI Assistant |
 | `AUTH_JWT_SECRET` | Supabase Studio | (secret) | - |
+| `PGRST_DB_SCHEMAS` | Supabase Studio | public,graphql_public | Postgres schemas exposed via the REST API |
+| `PGRST_DB_MAX_ROWS` | Supabase Studio | 1000 | Max number of rows returned by a request |
 | `POSTGRES_PASSWORD` | Supabase Studio | (secret) | - |
 | `SUPABASE_SECRET_KEY` | Supabase Studio | (secret) | - |
 | `DEFAULT_PROJECT_NAME` | Supabase Studio | Default Project | - |
 | `AAAA_IMPORTANT_READ_ME` | Supabase Studio | - | READ THIS! To setup Supabase, you need to generate a JWT Secret and the respective secrets. Either copy the secrets one by one, or deploy the template and paste the entire ENV block into the bottom of Supabase Studio > Environment > Raw Editor (don't touch the existing variables!) This value can be set to anything to proceed. http://6ixfalls.github.io/supabase |
 | `NEXT_PUBLIC_ENABLE_LOGS` | Supabase Studio | true | - |
+| `POSTGRES_USER_READ_WRITE` | Supabase Studio | postgres | - |
 | `DEFAULT_ORGANIZATION_NAME` | Supabase Studio | Default Organization | - |
+| `ENABLED_FEATURES_LOGS_ALL` | Supabase Studio | false | - |
+| `PGRST_DB_EXTRA_SEARCH_PATH` | Supabase Studio | public | Extra schemas added to the search_path of every request |
 | `SNIPPETS_MANAGEMENT_FOLDER` | Supabase Studio | /mnt/data/snippets | - |
 | `NEXT_ANALYTICS_BACKEND_PROVIDER` | Supabase Studio | postgres | - |
 | `JWT_SECRET` | Postgres | (secret) | - |
@@ -127,6 +135,6 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Storage · **Languages:** HTML, PLpgSQL, Shell, Elixir, Dockerfile
+**Category:** Storage · **Languages:** HTML, PLpgSQL, Shell, JavaScript, Elixir, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/supabase)

@@ -18,15 +18,15 @@ Runs `ghcr.io/every-app/open-seo` with a volume at `/app/.wrangler` (D1/KV/R2 st
 
 | Service | Source | Type |
 |---------|--------|------|
-| Gate | [Lukem121/openseo](https://github.com/Lukem121/openseo) (root: auth-gateway) | Web service |
+| Auth Gate | [Lukem121/openseo](https://github.com/Lukem121/openseo) (root: auth-gateway) | Web service |
 | OpenSEO | `ghcr.io/every-app/open-seo:v0.1.1` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `UPSTREAM_URL` | Gate | - | The OpenSEO upstream URL. |
-| `SITE_PASSWORD` | Gate | (secret) | Your unlock password |
+| `UPSTREAM_URL` | Auth Gate | - | The OpenSEO upstream URL. |
+| `SITE_PASSWORD` | Auth Gate | (secret) | Your unlock password |
 | `PORT` | OpenSEO | 8080 | The OpenSEO port number |
 | `AUTH_MODE` | OpenSEO | local_noauth | Keep local_noauth for Docker self-host. WARNING: the public URL has no app login — gate it yourself. |
 | `ALLOWED_HOST` | OpenSEO | - | The auth gateway host URL |

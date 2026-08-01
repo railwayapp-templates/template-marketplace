@@ -32,7 +32,6 @@ Hosting MongoDB gives you access to a flexible document database capable of hand
 ## Configuration
 
 - **Start command:** `docker-entrypoint.sh mongod --ipv6 --bind_ip ::,0.0.0.0 --setParameter diagnosticDataCollectionEnabled=false`
-- **TCP Proxies:** 27017
 - **Volume:** `/data/db`
 
 **Category:** Storage

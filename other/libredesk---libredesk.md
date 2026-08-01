@@ -6,7 +6,7 @@ Modern, open source, self-hosted omnichannel customer support desk.
 
 ## About
 
-Libredesk is a modern, open source, self-hosted omnichannel customer support desk. Live chat, email, automation, SLA management, CSAT surveys, and AI-assisted responses - all packed into a single binary.
+Libredesk is a modern, open source, self-hosted omnichannel customer support desk. Live chat, email, automation, SLA management, CSAT surveys, and AI-agents - all packed into a single binary.
 
 Deploying libredesk on railway is very easy and just needs one variable to be set for deploying.
 

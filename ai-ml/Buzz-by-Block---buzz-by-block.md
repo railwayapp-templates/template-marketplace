@@ -53,7 +53,7 @@ The relay is a Rust server with four dependencies: Postgres for events and membe
 | `BUZZ_HEALTH_PORT` | Buzz Relay | 8080 | Port serving /_liveness and /_readiness, separate from the app port. |
 | `BUZZ_S3_ENDPOINT` | Buzz Relay | - | S3-compatible API endpoint for the media bucket. |
 | `BUZZ_AUTO_MIGRATE` | Buzz Relay | true | Apply database migrations on startup. Required for a fresh database. |
-| `BUZZ_CORS_ORIGINS` | Buzz Relay | - | Comma-separated origins allowed to call the HTTP surface. |
+| `BUZZ_CORS_ORIGINS` | Buzz Relay | - | Comma-separated origins allowed to call the HTTP surface. The two tauri:// entries are the desktop app's webview origin (macOS/iOS and Windows/Linux) — without them the desktop app can't mint invites or load moderation data. |
 | `BUZZ_METRICS_PORT` | Buzz Relay | 9102 | Port serving Prometheus /metrics. |
 | `BUZZ_GIT_REPO_PATH` | Buzz Relay | /data/git | Volume path for hosted git repositories. Must match the mounted volume. |
 | `BUZZ_S3_ACCESS_KEY` | Buzz Relay | - | S3 access key ID for the media bucket. |

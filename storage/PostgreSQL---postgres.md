@@ -28,7 +28,6 @@ Hosting PostgreSQL gives you access to a powerful database server capable of han
 
 ## Configuration
 
-- **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Storage

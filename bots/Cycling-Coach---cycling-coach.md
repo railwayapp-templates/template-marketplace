@@ -16,7 +16,7 @@ Railway hosts the container and volume in your Railway account. The bot reads yo
 
 | Service | Source | Type |
 |---------|--------|------|
-| cycling-coach | `ghcr.io/yerzhansa/cycling-coach:stable` | Database |
+| cycling-coach | `ghcr.io/yerzhansa/enduragent:stable` | Database |
 
 ## Environment variables
 

@@ -14,9 +14,9 @@ Hosting BookStack v25 with MariaDB v12 on Railway involves deploying three inter
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `redis:8.6.1` | Database |
-| Bookstack | `andreidrang/bookstack-railway:26.05.1` | Web service |
-| MariaDB | `mariadb:12.1.2` | Database |
+| Redis | `redis:8.10.0` | Database |
+| Bookstack | `andreidrang/bookstack-railway:26.05.3` | Web service |
+| MariaDB | `mariadb:12.3.2` | Database |
 
 ## Environment variables
 

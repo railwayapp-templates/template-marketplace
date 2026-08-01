@@ -33,7 +33,6 @@ Hosting MySQL gives you access to a reliable database server capable of handling
 ## Configuration
 
 - **Start command:** `docker-entrypoint.sh mysqld --innodb-use-native-aio=0 --disable-log-bin --performance_schema=0 --innodb-buffer-pool-size=1G`
-- **TCP Proxies:** 3306
 - **Volume:** `/var/lib/mysql`
 
 **Category:** Storage

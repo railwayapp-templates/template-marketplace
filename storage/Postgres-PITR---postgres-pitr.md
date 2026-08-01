@@ -30,7 +30,6 @@ Hosting Postgres PITR on Railway provisions a Railway Bucket alongside your exis
 
 ## Configuration
 
-- **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Storage

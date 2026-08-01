@@ -34,6 +34,7 @@ This template deploys the update server in control plane mode together with a Po
 | `AWS_ACCESS_KEY_ID` | Expo-Open-OTA | - | https://mercure-technologies.gitbook.io/expo-open-ota/references/environment-variables#storage |
 | `AWS_BASE_ENDPOINT` | Expo-Open-OTA | - | https://mercure-technologies.gitbook.io/expo-open-ota/references/environment-variables#storage |
 | `KEYS_STORAGE_TYPE` | Expo-Open-OTA | environment | https://mercure-technologies.gitbook.io/expo-open-ota/references/environment-variables#app-configuration |
+| `TRUST_PROXY_HEADERS` | Expo-Open-OTA | true | - |
 | `AWS_SECRET_ACCESS_KEY` | Expo-Open-OTA | (secret) | https://mercure-technologies.gitbook.io/expo-open-ota/references/environment-variables#storage |
 | `DB_KEYS_MASTER_KEY_B64` | Expo-Open-OTA | - | https://mercure-technologies.gitbook.io/expo-open-ota/references/environment-variables#storage |
 | `POSTGRES_DB` | Postgres | expo-open-ota | Default database created when image is started. |

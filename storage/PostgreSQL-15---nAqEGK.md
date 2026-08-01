@@ -46,7 +46,6 @@ psql "postgres://railway:PASSWORD@PROXY_DOMAIN:PROXY_PORT/railway"
 
 ## Configuration
 
-- **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Storage

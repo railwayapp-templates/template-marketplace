@@ -24,7 +24,7 @@ Kubo runs as a single service that exposes IPFS HTTP APIs and gateway endpoints 
 | --------- | ------- | ----------- |
 | `IPFS_PATH` | /data/ipfs | Path to the IPFS repo/data directory inside the container |
 | `KUBO_ANNOUNCE` | - | Multiaddr announced to peers (public reachability) |
-| `KUBO_API_ADDRESS` | /ip6/::/tcp/5001 | Kubo API listen address |
+| `KUBO_API_ADDRESSES` | ["/ip4/0.0.0.0/tcp/5001", "/ip6/::/tcp/5001"] | Kubo API listen address |
 | `KUBO_SWARM_TCP_ADDRESS_IPV4` | /ip4/0.0.0.0/tcp/4001 | IPv4 TCP swarm listen address (libp2p connections) |
 | `KUBO_SWARM_TCP_ADDRESS_IPV6` | /ip6/::/tcp/4001 | IPv6 TCP swarm listen address (libp2p connections) |
 | `KUBO_SWARM_UDP_ADDRESS_IPV4` | /ip4/0.0.0.0/udp/4001/quic | IPv4 UDP/QUIC swarm listen address |
