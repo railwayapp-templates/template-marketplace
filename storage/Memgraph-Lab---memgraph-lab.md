@@ -1,6 +1,6 @@
 # Deploy Memgraph Lab on Railway
 
-[Updated Jul 2026] Production Ready Memgraph Lab Instance
+[Updated Aug 2026] Production Ready Memgraph Lab Instance
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/memgraph-lab)
 
@@ -24,7 +24,7 @@ stores no data, so it needs no volume and very little memory.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Memgraph Lab | `memgraph/lab:3.11.0` | Web service |
+| Memgraph Lab | `memgraph/lab:3.12.0` | Web service |
 
 ## Environment variables
 

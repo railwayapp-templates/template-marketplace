@@ -10,17 +10,17 @@ Deploy a production-ready **Lemmy** instance on Railway. Lemmy is an open-source
 
 A Lemmy deployment needs an API and federation server, server-rendered web UI, PostgreSQL database, persistent image service, and a shared public origin. This template provisions those components as five Railway services connected through private networking. Only the Proxy service is publicly exposed.
 
-The template pins matching Lemmy and Lemmy UI releases, generates independent administrator, media, and database secrets, and persists both application data and uploaded media across redeployments.
+The template pins Lemmy and Lemmy UI 0.19.20, Pict-rs 0.5.24, and Caddy 2.11.4. It generates independent administrator, media, and database secrets and persists both application data and uploaded media across redeployments.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
 | Lemmy UI | `dessalines/lemmy-ui:0.19.20` | Worker |
-| Lemmy | `ghcr.io/monotykamary/railway-template-lemmy-lemmy:0.19.20` | Worker |
+| Lemmy | `ghcr.io/monotykamary/railway-template-lemmy-lemmy:0.19.20-r2` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Pict-rs | `asonix/pictrs:0.5.19` | Database |
-| Proxy | `ghcr.io/monotykamary/railway-template-lemmy-proxy:0.19.20` | Web service |
+| Pict-rs | `asonix/pictrs:0.5.24` | Database |
+| Proxy | `ghcr.io/monotykamary/railway-template-lemmy-proxy:0.19.20-r2` | Web service |
 
 ## Environment variables
 

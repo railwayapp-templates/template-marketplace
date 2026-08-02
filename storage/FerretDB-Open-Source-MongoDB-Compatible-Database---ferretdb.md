@@ -1,6 +1,6 @@
 # Deploy FerretDB (Open-Source MongoDB-Compatible Database) on Railway
 
-FerretDB [Jul ’26] (Run MongoDB Apps on PostgreSQL Backend) Self Host
+FerretDB [Aug ’26] (Run MongoDB Apps on PostgreSQL Backend) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ferretdb)
 

@@ -30,9 +30,12 @@ Runs `ghcr.io/every-app/open-seo` with a volume at `/app/.wrangler` (D1/KV/R2 st
 | `PORT` | OpenSEO | 8080 | The OpenSEO port number |
 | `AUTH_MODE` | OpenSEO | local_noauth | Keep local_noauth for Docker self-host. WARNING: the public URL has no app login — gate it yourself. |
 | `ALLOWED_HOST` | OpenSEO | - | The auth gateway host URL |
+| `GOOGLE_CLIENT_ID` | OpenSEO | - | Your Google client ID. Read: https://github.com/every-app/open-seo/blob/main/docs/SELF_HOSTING_GOOGLE_SEARCH_CONSOLE.md |
+| `BETTER_AUTH_SECRET` | OpenSEO | (secret) | Random string to encrypt stored tokens |
 | `DATAFORSEO_API_KEY` | OpenSEO | (secret) | Base64 of your DataForSEO email:password. See https://app.dataforseo.com/?aff=310140 and https://github.com/every-app/open-seo/blob/main/docs/DATAFORSEO_API_KEY.md |
 | `OPENROUTER_API_KEY` | OpenSEO | (secret) | OpenSEO's in-app AI agent, needs an OpenRouter API key. https://openrouter.ai/settings/keys |
 | `VITE_SHOW_DEVTOOLS` | OpenSEO | false | Keep false in production. |
+| `GOOGLE_CLIENT_SECRET` | OpenSEO | (secret) | Your Google client secret. Read: https://github.com/every-app/open-seo/blob/main/docs/SELF_HOSTING_GOOGLE_SEARCH_CONSOLE.md |
 | `CLOUDFLARE_INCLUDE_PROCESS_ENV` | OpenSEO | true | Leave true so process env is exposed as Worker bindings in Docker/Miniflare mode. |
 
 ## Configuration

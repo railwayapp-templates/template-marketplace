@@ -8,7 +8,7 @@ Twenty v2 CRM with worker, PostgreSQL, Redis, and object storage.
 
 Twenty is a modern open-source CRM for managing companies, contacts, opportunities, tasks, notes, workflows, dashboards, email, and calendars. It provides a fast configurable alternative to conventional per-seat CRM platforms.
 
-This template runs Twenty `v2.24.0` as a production-style stack: a public server, a dedicated background worker, PostgreSQL 16, authenticated Redis with `noeviction`, and a Railway object-storage bucket. The server performs database migrations and cron registration. The worker handles asynchronous imports, email synchronization, and workflow execution.
+This template runs Twenty `v2.26.0` as a production-style stack: a public server, a dedicated background worker, PostgreSQL 16, authenticated Redis with `noeviction`, and a Railway object-storage bucket. The server performs database migrations and cron registration. The worker waits for server readiness before handling asynchronous imports, email synchronization, and workflow execution.
 
 Attachments use Twenty's S3 driver because Railway services cannot share one filesystem volume. PostgreSQL and Redis each retain their own data on persistent volumes. Encryption and legacy application secrets are generated once and shared automatically between the server and worker.
 

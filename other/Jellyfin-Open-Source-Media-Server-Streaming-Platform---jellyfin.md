@@ -1,6 +1,6 @@
 # Deploy Jellyfin (Open-Source Media Server & Streaming Platform) on Railway
 
-Jellyfin [Jul ’26] (Media Server | Kodi, Plex & Emby Alternative) Self Host
+Jellyfin [Aug ’26] (Media Server | Kodi, Plex & Emby Alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jellyfin)
 

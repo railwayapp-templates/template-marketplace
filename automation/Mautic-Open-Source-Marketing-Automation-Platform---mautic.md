@@ -1,6 +1,6 @@
 # Deploy Mautic (Open-Source Marketing Automation Platform) on Railway
 
-Mautic [Jul ’26] (HubSpot & Mailchimp alternative) Self Host
+Mautic [Aug ’26] (HubSpot & Mailchimp alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mautic)
 

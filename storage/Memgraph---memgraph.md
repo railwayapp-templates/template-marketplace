@@ -1,6 +1,6 @@
 # Deploy Memgraph on Railway
 
-[Updated Jul 2026] Production Ready Memgraph Instance
+[Updated Aug 2026] Production Ready Memgraph Instance
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/memgraph)
 
@@ -25,7 +25,7 @@ since Memgraph keeps its working set in memory.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Memgraph | `memgraph/memgraph-mage:3.11.0` | Database |
+| Memgraph | `memgraph/memgraph-mage:3.12.0` | Database |
 
 ## Environment variables
 

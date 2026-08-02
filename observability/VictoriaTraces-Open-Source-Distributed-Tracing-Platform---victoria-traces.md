@@ -1,6 +1,6 @@
 # Deploy VictoriaTraces (Open-Source Distributed Tracing Platform) on Railway
 
-VictoriaTraces [Jul ’26] (Jaeger & Zipkin Alternative), Self Host
+VictoriaTraces [Aug ’26] (Jaeger & Zipkin Alternative), Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/victoria-traces)
 

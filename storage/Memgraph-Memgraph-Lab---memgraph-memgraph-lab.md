@@ -1,6 +1,6 @@
 # Deploy Memgraph + Memgraph Lab on Railway
 
-[Updated Jul 2026] Production Ready Memgraph Instance with Memgraph Lab
+[Updated Aug 2026] Production Ready Memgraph Instance with Memgraph Lab
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/memgraph-memgraph-lab)
 
@@ -25,8 +25,8 @@ memory. Lab itself is lightweight.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Memgraph Lab | `memgraph/lab:3.11.0` | Web service |
-| Memgraph | `memgraph/memgraph-mage:3.11.0` | Database |
+| Memgraph Lab | `memgraph/lab:3.12.0` | Web service |
+| Memgraph | `memgraph/memgraph-mage:3.12.0` | Database |
 
 ## Environment variables
 

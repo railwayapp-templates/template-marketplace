@@ -1,6 +1,6 @@
 # Deploy AirTrail (Open-Source Audit Log & Tracking Platform) on Railway
 
-AirTrail (Track App Events & Audit Changes) Self Host [Jul ’26]
+AirTrail (Track App Events & Audit Changes) Self Host [Aug ’26]
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/airtrail)
 
