@@ -14,15 +14,18 @@ This Railway template deploys TailStatic as a Docker-based web service with pers
 
 | Service | Source | Type |
 |---------|--------|------|
-| tailstatic/tailstatic:railway | `tailstatic/tailstatic:railway` | Worker |
+| tailstatic/tailstatic:railway | `tailstatic/tailstatic:railway` | Database |
 
 ## Environment variables
 
 | Variable | Default |
 | --------- | ------- |
 | `TOOLS_APP_URL` | http://127.0.0.1:3000 |
-| `TAILSTATICPARENT` | /var/tailstatic |
 | `ASPNETCORE_ENVIRONMENT` | Production |
+
+## Configuration
+
+- **Volume:** `/app`
 
 **Category:** CMS
 

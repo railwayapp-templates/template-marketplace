@@ -12,7 +12,7 @@ Bifrost deploys as a containerized gateway that proxies requests to multiple AI 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Bifrost | `maximhq/bifrost` | Web service |
+| Bifrost | `maximhq/bifrost@sha256:bf2208978308477a9f667dfc04cef3153197aeaca8618befefbecde3ed3378b7` | Web service |
 
 ## Environment variables
 

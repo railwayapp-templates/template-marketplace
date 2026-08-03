@@ -19,7 +19,7 @@ Run only one active Codex Auto Reset deployment per OpenAI account to avoid comp
 
 | Service | Source | Type |
 |---------|--------|------|
-| codex-auto-reset | `ghcr.io/marckrenn/codex-auto-reset-docker:0.2.1` | Web service |
+| codex-auto-reset | `ghcr.io/marckrenn/codex-auto-reset-docker:0.2.2` | Web service |
 
 ## Environment variables
 

@@ -1,41 +1,34 @@
 # Deploy Plane with RabbitMQ on Railway
 
-Deploy and Host Plane with RabbitMQ with Railway
+Plane v1.4 with PostgreSQL, Redis, RabbitMQ, and MinIO.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/plane-with-rabbitmq)
 
 ## About
 
-<p align="center">
-  <img width="420" src="https://media.docs.plane.so/logo/plane_github_readme.png">
-</p>
+Plane is an open-source project-management platform for issues, cycles, modules, pages, analytics, and real-time team collaboration.
 
-Plane is an open-source project-management system that unifies issue tracking, cycles, roadmaps, analytics, and documentation into a coherent, highly interactive interface. It aims to replace fragmented workflows by providing a single, extensible platform that remains operationally lightweight while still supporting complex product and engineering practices.
+This template deploys the Plane Community Edition `v1.4.0` application services behind one Caddy `2.11.4` HTTPS origin. PostgreSQL stores application records, Redis supports cache and transient state, RabbitMQ carries background jobs, and MinIO persists uploads and attachments.
 
-Self-hosting Plane entails deploying a multi-service stack consisting of its Next.js frontend, Django backend, worker processes, and a backing PostgreSQL database. The system also requires persistent storage for user-generated content and compatibility with background task execution. Railway’s managed runtime simplifies this otherwise brittle setup: services deploy from source or containers, environment variables propagate cleanly, and scaling is automatic. The result is a maintainable deployment with minimal operational surface area, suitable for production use without maintaining a bespoke infrastructure footprint. 
-
-<p>
-  <img src="https://media.docs.plane.so/GitHub-readme/github-top.webp">
-</p>
+Only the `Plane` proxy receives a public HTTP domain. Web, API, admin, spaces, live collaboration, PostgreSQL, Redis, RabbitMQ, and object-storage traffic use Railway private networking.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| Space | `makeplane/plane-space` | Web service |
-| API | `makeplane/plane-backend` | Web service |
-| Migrator | `makeplane/plane-backend` | Worker |
-| Admin | `makeplane/plane-admin` | Web service |
-| Live | `makeplane/plane-live` | Worker |
+| Space | `makeplane/plane-space:v1.4.0` | Worker |
+| API | `makeplane/plane-backend:v1.4.0` | Worker |
+| Migrator | `makeplane/plane-backend:v1.4.0` | Worker |
+| Admin | `makeplane/plane-admin:v1.4.0` | Worker |
+| Live | `makeplane/plane-live:v1.4.0` | Worker |
 | RabbitMQ | `rabbitmq:3.13.6-management-alpine` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Web | `makeplane/plane-frontend` | Web service |
+| Web | `makeplane/plane-frontend:v1.4.0` | Worker |
 | Plane | [monotykamary/plane-caddy-proxy](https://github.com/monotykamary/plane-caddy-proxy) | Web service |
-| Console | [railwayapp-templates/minio-console](https://github.com/railwayapp-templates/minio-console) | Web service |
-| Bucket | `ghcr.io/coollabsio/minio` | Database |
-| Redis | `redis:8.2.1` | Database |
-| Worker | `makeplane/plane-backend` | Worker |
-| Beat Worker | `makeplane/plane-backend` | Worker |
+| Bucket | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
+| Redis | `redis:8.2.8` | Database |
+| Worker | `makeplane/plane-backend:v1.4.0` | Worker |
+| Beat Worker | `makeplane/plane-backend:v1.4.0` | Worker |
 
 ## Environment variables
 
@@ -46,43 +39,85 @@ Self-hosting Plane entails deploying a multi-service stack consisting of its Nex
 | `HOSTNAME` | Space | :: | IPv6 bind address; allows listening on all interfaces. |
 | `SECRET_KEY` | Space | (secret) | Shared secret for cryptographic signing across services. |
 | `PORT` | API | 8000 | Port to listen and export to. |
-| `WEB_URL` | API | - | Public Plane domain. |
-| `REDIS_URL` | API | - | Private Redis URL. |
-| `USE_MINIO` | API | 1 | 1 |
+| `DEBUG` | API | 0 | Disable Django debug mode. |
+| `WEB_URL` | API | - | Public Plane origin. |
+| `AMQP_URL` | API | - | Private RabbitMQ connection. |
+| `REDIS_URL` | API | - | Private Redis connection. |
+| `USE_MINIO` | API | 1 | Use the bundled private MinIO service. |
+| `APP_DOMAIN` | API | - | Public Plane hostname. |
+| `AWS_REGION` | API | - | Optional S3 signing region. |
 | `MACHINE_ID` | API | - | Unique machine ID. |
-| `SECRET_KEY` | API | (secret) | Unique secret key. |
-| `DATABASE_URL` | API | - | Private Postgres URL. |
-| `GUNICORN_WORKERS` | API | 4 | Number of gunicorn workers to run at once. |
-| `AWS_S3_BUCKET_NAME` | API | uploads | S3 bucket name. |
-| `CORS_ALLOWED_ORIGINS` | API | - | Whitelist CORS origins to allow cross upload. |
-| `LIVE_SERVER_SECRET_KEY` | API | (secret) | ecret used for authenticating live events. |
-| `ENABLE_ALPINE_PRIVATE_NETWORKING` | API | true | Workaround for Alpine-based images. |
-| `DEBUG` | Migrator | 0 | Django debug mode. |
-| `WEB_URL` | Migrator | - | Needed because the migrator boots the Django context. |
-| `AMQP_URL` | Migrator | - | URL to connect to RabbitMQ for live events. |
-| `REDIS_URL` | Migrator | - | Redis connection string for presence events and transient state. |
-| `USE_MINIO` | Migrator | 1 | Use Railway Minio bucket. |
-| `APP_DOMAIN` | Migrator | ${Plane.RAILWAY_PUBLIC_DOMAIN} | Domain used for migrations involving absolute URLs. |
-| `REDIS_HOST` | Migrator | - | Redis hostname for pub/sub fanout. |
-| `REDIS_PORT` | Migrator | - | Redis port. |
-| `SECRET_KEY` | Migrator | (secret) | Same shared signing key. |
-| `BUCKET_NAME` | Migrator | uploads | - |
-| `DATABASE_URL` | Migrator | - | Private Postgres URL for migrations. |
-| `SITE_ADDRESS` | Migrator | :80 | - |
-| `FILE_SIZE_LIMIT` | Migrator | 5242880 | Max file upload size (5 MB). |
-| `MINIO_ROOT_USER` | Migrator | (secret) | Minio access key. |
-| `GUNICORN_WORKERS` | Migrator | 1 | Irrelevant for migrator but required in env template. |
-| `LISTEN_HTTP_PORT` | Migrator | 80 | Required env var but unused in migrator. |
-| `AWS_ACCESS_KEY_ID` | Migrator | - | S3-compatible access key. |
-| `LISTEN_HTTPS_PORT` | Migrator | 443 | - |
-| `API_KEY_RATE_LIMIT` | Migrator | (secret) | Default rate limit, used by API config loading. |
-| `AWS_S3_BUCKET_NAME` | Migrator | uploads | Bucket name for attachments. |
-| `MINIO_ENDPOINT_SSL` | Migrator | 0 | Railway Minio is HTTP inside private network. |
-| `AWS_S3_ENDPOINT_URL` | Migrator | - | Private Minio endpoint. |
-| `MINIO_ROOT_PASSWORD` | Migrator | (secret) | Minio secret key. |
-| `CORS_ALLOWED_ORIGINS` | Migrator | - | Required for Django settings bootstrap. |
-| `AWS_SECRET_ACCESS_KEY` | Migrator | (secret) | S3-compatible secret key. |
-| `LIVE_SERVER_SECRET_KEY` | Migrator | (secret) | Loaded in Django settings. |
+| `REDIS_HOST` | API | - | Private Redis host. |
+| `REDIS_PORT` | API | 6379 | Private Redis port. |
+| `SECRET_KEY` | API | (secret) | Generated Django signing key. |
+| `BUCKET_NAME` | API | uploads | Attachment bucket name used by the proxy. |
+| `APP_BASE_URL` | API | - | Public Plane application origin. |
+| `DATABASE_URL` | API | - | Private PostgreSQL connection. |
+| `SITE_ADDRESS` | API | :80 | Proxy site address metadata. |
+| `LIVE_BASE_URL` | API | - | Public Plane origin for Live. |
+| `ADMIN_BASE_URL` | API | - | Public Plane origin for God Mode. |
+| `LIVE_BASE_PATH` | API | /live | Live collaboration path. |
+| `SPACE_BASE_URL` | API | - | Public Plane origin for Spaces. |
+| `ADMIN_BASE_PATH` | API | /god-mode | God Mode path. |
+| `FILE_SIZE_LIMIT` | API | 5242880 | Maximum upload size in bytes. |
+| `MINIO_ROOT_USER` | API | (secret) | MinIO access key reference. |
+| `SPACE_BASE_PATH` | API | /spaces | Spaces path. |
+| `GUNICORN_WORKERS` | API | 1 | API worker count suitable for the initial Railway allocation. |
+| `LISTEN_HTTP_PORT` | API | 80 | Proxy HTTP port metadata. |
+| `AWS_ACCESS_KEY_ID` | API | - | Private MinIO access key. |
+| `LISTEN_HTTPS_PORT` | API | 443 | Proxy HTTPS port metadata. |
+| `API_KEY_RATE_LIMIT` | API | (secret) | Default API key rate limit. |
+| `AWS_S3_BUCKET_NAME` | API | uploads | Attachment bucket name. |
+| `MINIO_ENDPOINT_SSL` | API | 0 | Use HTTP on Railway private networking. |
+| `AWS_S3_ENDPOINT_URL` | API | - | Private MinIO S3 endpoint. |
+| `MINIO_ROOT_PASSWORD` | API | (secret) | MinIO secret key reference. |
+| `WEBHOOK_ALLOWED_IPS` | API | - | Optional webhook IP allowlist. |
+| `CORS_ALLOWED_ORIGINS` | API | - | Allow browser requests from the public proxy origin. |
+| `AWS_SECRET_ACCESS_KEY` | API | (secret) | Private MinIO secret key. |
+| `SIGNED_URL_EXPIRATION` | API | 3600 | Signed attachment URL lifetime in seconds. |
+| `WEBHOOK_ALLOWED_HOSTS` | API | - | Optional webhook host allowlist. |
+| `HARD_DELETE_AFTER_DAYS` | API | 60 | Retention before hard deletion. |
+| `LIVE_SERVER_SECRET_KEY` | API | (secret) | Shared Live authentication key. |
+| `ENABLE_ALPINE_PRIVATE_NETWORKING` | API | true | Enable Railway private IPv6 networking. |
+| `DEBUG` | Migrator | 0 | Disable Django debug mode. |
+| `WEB_URL` | Migrator | - | Public Plane origin. |
+| `AMQP_URL` | Migrator | - | Private RabbitMQ connection. |
+| `REDIS_URL` | Migrator | - | Private Redis connection. |
+| `USE_MINIO` | Migrator | 1 | Use the bundled private MinIO service. |
+| `APP_DOMAIN` | Migrator | - | Public Plane hostname. |
+| `AWS_REGION` | Migrator | - | Optional S3 signing region. |
+| `REDIS_HOST` | Migrator | - | Private Redis host. |
+| `REDIS_PORT` | Migrator | 6379 | Private Redis port. |
+| `SECRET_KEY` | Migrator | (secret) | Shared generated Django signing key. |
+| `BUCKET_NAME` | Migrator | uploads | Attachment bucket name used by the proxy. |
+| `APP_BASE_URL` | Migrator | - | Public Plane application origin. |
+| `DATABASE_URL` | Migrator | - | Private PostgreSQL connection. |
+| `SITE_ADDRESS` | Migrator | :80 | Proxy site address metadata. |
+| `LIVE_BASE_URL` | Migrator | - | Public Plane origin for Live. |
+| `ADMIN_BASE_URL` | Migrator | - | Public Plane origin for God Mode. |
+| `LIVE_BASE_PATH` | Migrator | /live | Live collaboration path. |
+| `SPACE_BASE_URL` | Migrator | - | Public Plane origin for Spaces. |
+| `ADMIN_BASE_PATH` | Migrator | /god-mode | God Mode path. |
+| `FILE_SIZE_LIMIT` | Migrator | 5242880 | Maximum upload size in bytes. |
+| `MINIO_ROOT_USER` | Migrator | (secret) | MinIO access key reference. |
+| `SPACE_BASE_PATH` | Migrator | /spaces | Spaces path. |
+| `GUNICORN_WORKERS` | Migrator | 1 | API worker count suitable for the initial Railway allocation. |
+| `LISTEN_HTTP_PORT` | Migrator | 80 | Proxy HTTP port metadata. |
+| `AWS_ACCESS_KEY_ID` | Migrator | - | Private MinIO access key. |
+| `LISTEN_HTTPS_PORT` | Migrator | 443 | Proxy HTTPS port metadata. |
+| `API_KEY_RATE_LIMIT` | Migrator | (secret) | Default API key rate limit. |
+| `AWS_S3_BUCKET_NAME` | Migrator | uploads | Attachment bucket name. |
+| `MINIO_ENDPOINT_SSL` | Migrator | 0 | Use HTTP on Railway private networking. |
+| `AWS_S3_ENDPOINT_URL` | Migrator | - | Private MinIO S3 endpoint. |
+| `MINIO_ROOT_PASSWORD` | Migrator | (secret) | MinIO secret key reference. |
+| `WEBHOOK_ALLOWED_IPS` | Migrator | - | Optional webhook IP allowlist. |
+| `CORS_ALLOWED_ORIGINS` | Migrator | - | Allow browser requests from the public proxy origin. |
+| `AWS_SECRET_ACCESS_KEY` | Migrator | (secret) | Private MinIO secret key. |
+| `SIGNED_URL_EXPIRATION` | Migrator | 3600 | Signed attachment URL lifetime in seconds. |
+| `WEBHOOK_ALLOWED_HOSTS` | Migrator | - | Optional webhook host allowlist. |
+| `HARD_DELETE_AFTER_DAYS` | Migrator | 60 | Retention before hard deletion. |
+| `LIVE_SERVER_SECRET_KEY` | Migrator | (secret) | Shared Live authentication key. |
+| `ENABLE_ALPINE_PRIVATE_NETWORKING` | Migrator | true | Enable Railway private IPv6 networking. |
 | `PORT` | Admin | 3000 | Port the admin panel listens on. |
 | `WEB_URL` | Admin | - | Public Plane URL for constructing absolute admin links. |
 | `HOSTNAME` | Admin | :: | IPv6 bind-all address. |
@@ -93,11 +128,12 @@ Self-hosting Plane entails deploying a multi-service stack consisting of its Nex
 | `AWS_S3_BUCKET_NAME` | Admin | uploads | Bucket where Plane stores files and attachments. |
 | `CORS_ALLOWED_ORIGINS` | Admin | - | Allowed origins for admin-initiated API calls. |
 | `ENABLE_ALPINE_PRIVATE_NETWORKING` | Admin | true | Alpine networking fix. |
-| `AMQP_URL` | Live | - | URL to connect to RabbitMQ for live events. |
+| `PORT` | Live | 3000 | Internal Live collaboration port. |
+| `AMQP_URL` | Live | - | Private RabbitMQ connection. |
 | `REDIS_URL` | Live | - | Redis connection string for presence events and transient state. |
 | `REDIS_HOST` | Live | - | Redis hostname for pub/sub fanout. |
 | `REDIS_PORT` | Live | - | Redis port. |
-| `API_BASE_URL` | Live | - | Internal API endpoint used by the Live server for real-time sync. |
+| `API_BASE_URL` | Live | - | Private Plane API endpoint. |
 | `LIVE_SERVER_SECRET_KEY` | Live | (secret) | Secret used for authenticating live events. |
 | `USER` | RabbitMQ | - | Service username. |
 | `VHOST` | RabbitMQ | - | Same vhost as above. |
@@ -112,7 +148,6 @@ Self-hosting Plane entails deploying a multi-service stack consisting of its Nex
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
-| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `DATABASE_PRIVATE_URL` | Postgres | - | Private URL for Postgres. |
 | `PORT` | Web | 3000 | Port the Plane frontend listens on internally. |
 | `WEB_URL` | Web | - | Public domain for the frontend. |
@@ -128,54 +163,111 @@ Self-hosting Plane entails deploying a multi-service stack consisting of its Nex
 | `BUCKET_ENDPOINT` | Plane | - | Private endpoint to S3 bucket. |
 | `SPACES_ENDPOINT` | Plane | - | Internal Spaces service endpoint used for workspace storage. |
 | `ENABLE_ALPINE_PRIVATE_NETWORKING` | Plane | true | Enables Alpine networking workaround for faster private network provisioning. |
-| `PORT` | Console | 9090 | Port for the Minio Console (management UI). |
 | `PORT` | Bucket | - | Internal Minio port for S3-compatible API. |
 | `MINIO_ROOT_USER` | Bucket | (secret) | Generated Minio root user. |
-| `MINIO_PUBLIC_HOST` | Bucket | - | Public domain used to expose Minio (if enabled). |
-| `MINIO_PUBLIC_PORT` | Bucket | 443 | Public Minio port. |
 | `MINIO_PRIVATE_HOST` | Bucket | - | Internal private domain for Minio service. |
 | `MINIO_PRIVATE_PORT` | Bucket | 9000 | Private port for Minio API. |
 | `MINIO_ROOT_PASSWORD` | Bucket | (secret) | Generated Minio root password. |
-| `MINIO_PUBLIC_ENDPOINT` | Bucket | - | Public Minio S3 endpoint. |
 | `MINIO_PRIVATE_ENDPOINT` | Bucket | - | Private Minio S3 endpoint used by Plane. |
 | `REDISPORT` | Redis | 6379 | - |
 | `REDISUSER` | Redis | default | - |
 | `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
 | `REDISPASSWORD` | Redis | (secret) | - |
 | `REDIS_PASSWORD` | Redis | (secret) | - |
-| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 | `REDIS_PRIVATE_URL` | Redis | - | Private Redis URL. |
-| `AMQP_URL` | Worker | - | URL to connect to RabbitMQ for live events. |
-| `REDIS_URL` | Worker | - | Private Redis URL. |
-| `SECRET_KEY` | Worker | (secret) | Secret key generated from API. |
-| `DATABASE_URL` | Worker | - | Private Postgres URL. |
-| `LIVE_SERVER_SECRET_KEY` | Worker | (secret) | ecret used for authenticating live events. |
-| `ENABLE_ALPINE_PRIVATE_NETWORKING` | Worker | true | Workaround for Alpine-based images. |
-| `AMQP_URL` | Beat Worker | - | URL to connect to RabbitMQ for live events. |
-| `REDIS_URL` | Beat Worker | - | Redis instance used for background jobs and task queue. |
-| `SECRET_KEY` | Beat Worker | (secret) | Shared secret key for cryptographic signing. |
-| `DATABASE_URL` | Beat Worker | - | Internal Postgres connection string. |
-| `LIVE_SERVER_SECRET_KEY` | Beat Worker | (secret) | ecret used for authenticating live events. |
-| `ENABLE_ALPINE_PRIVATE_NETWORKING` | Beat Worker | true | Alpine networking fix. |
+| `DEBUG` | Worker | 0 | Disable Django debug mode. |
+| `WEB_URL` | Worker | - | Public Plane origin. |
+| `AMQP_URL` | Worker | - | Private RabbitMQ connection. |
+| `REDIS_URL` | Worker | - | Private Redis connection. |
+| `USE_MINIO` | Worker | 1 | Use the bundled private MinIO service. |
+| `APP_DOMAIN` | Worker | - | Public Plane hostname. |
+| `AWS_REGION` | Worker | - | Optional S3 signing region. |
+| `REDIS_HOST` | Worker | - | Private Redis host. |
+| `REDIS_PORT` | Worker | 6379 | Private Redis port. |
+| `SECRET_KEY` | Worker | (secret) | Shared generated Django signing key. |
+| `BUCKET_NAME` | Worker | uploads | Attachment bucket name used by the proxy. |
+| `APP_BASE_URL` | Worker | - | Public Plane application origin. |
+| `DATABASE_URL` | Worker | - | Private PostgreSQL connection. |
+| `SITE_ADDRESS` | Worker | :80 | Proxy site address metadata. |
+| `LIVE_BASE_URL` | Worker | - | Public Plane origin for Live. |
+| `ADMIN_BASE_URL` | Worker | - | Public Plane origin for God Mode. |
+| `LIVE_BASE_PATH` | Worker | /live | Live collaboration path. |
+| `SPACE_BASE_URL` | Worker | - | Public Plane origin for Spaces. |
+| `ADMIN_BASE_PATH` | Worker | /god-mode | God Mode path. |
+| `FILE_SIZE_LIMIT` | Worker | 5242880 | Maximum upload size in bytes. |
+| `MINIO_ROOT_USER` | Worker | (secret) | MinIO access key reference. |
+| `SPACE_BASE_PATH` | Worker | /spaces | Spaces path. |
+| `GUNICORN_WORKERS` | Worker | 1 | API worker count suitable for the initial Railway allocation. |
+| `LISTEN_HTTP_PORT` | Worker | 80 | Proxy HTTP port metadata. |
+| `AWS_ACCESS_KEY_ID` | Worker | - | Private MinIO access key. |
+| `LISTEN_HTTPS_PORT` | Worker | 443 | Proxy HTTPS port metadata. |
+| `API_KEY_RATE_LIMIT` | Worker | (secret) | Default API key rate limit. |
+| `AWS_S3_BUCKET_NAME` | Worker | uploads | Attachment bucket name. |
+| `MINIO_ENDPOINT_SSL` | Worker | 0 | Use HTTP on Railway private networking. |
+| `AWS_S3_ENDPOINT_URL` | Worker | - | Private MinIO S3 endpoint. |
+| `MINIO_ROOT_PASSWORD` | Worker | (secret) | MinIO secret key reference. |
+| `WEBHOOK_ALLOWED_IPS` | Worker | - | Optional webhook IP allowlist. |
+| `CORS_ALLOWED_ORIGINS` | Worker | - | Allow browser requests from the public proxy origin. |
+| `AWS_SECRET_ACCESS_KEY` | Worker | (secret) | Private MinIO secret key. |
+| `SIGNED_URL_EXPIRATION` | Worker | 3600 | Signed attachment URL lifetime in seconds. |
+| `WEBHOOK_ALLOWED_HOSTS` | Worker | - | Optional webhook host allowlist. |
+| `HARD_DELETE_AFTER_DAYS` | Worker | 60 | Retention before hard deletion. |
+| `LIVE_SERVER_SECRET_KEY` | Worker | (secret) | Shared Live authentication key. |
+| `ENABLE_ALPINE_PRIVATE_NETWORKING` | Worker | true | Enable Railway private IPv6 networking. |
+| `DEBUG` | Beat Worker | 0 | Disable Django debug mode. |
+| `WEB_URL` | Beat Worker | - | Public Plane origin. |
+| `AMQP_URL` | Beat Worker | - | Private RabbitMQ connection. |
+| `REDIS_URL` | Beat Worker | - | Private Redis connection. |
+| `USE_MINIO` | Beat Worker | 1 | Use the bundled private MinIO service. |
+| `APP_DOMAIN` | Beat Worker | - | Public Plane hostname. |
+| `AWS_REGION` | Beat Worker | - | Optional S3 signing region. |
+| `REDIS_HOST` | Beat Worker | - | Private Redis host. |
+| `REDIS_PORT` | Beat Worker | 6379 | Private Redis port. |
+| `SECRET_KEY` | Beat Worker | (secret) | Shared generated Django signing key. |
+| `BUCKET_NAME` | Beat Worker | uploads | Attachment bucket name used by the proxy. |
+| `APP_BASE_URL` | Beat Worker | - | Public Plane application origin. |
+| `DATABASE_URL` | Beat Worker | - | Private PostgreSQL connection. |
+| `SITE_ADDRESS` | Beat Worker | :80 | Proxy site address metadata. |
+| `LIVE_BASE_URL` | Beat Worker | - | Public Plane origin for Live. |
+| `ADMIN_BASE_URL` | Beat Worker | - | Public Plane origin for God Mode. |
+| `LIVE_BASE_PATH` | Beat Worker | /live | Live collaboration path. |
+| `SPACE_BASE_URL` | Beat Worker | - | Public Plane origin for Spaces. |
+| `ADMIN_BASE_PATH` | Beat Worker | /god-mode | God Mode path. |
+| `FILE_SIZE_LIMIT` | Beat Worker | 5242880 | Maximum upload size in bytes. |
+| `MINIO_ROOT_USER` | Beat Worker | (secret) | MinIO access key reference. |
+| `SPACE_BASE_PATH` | Beat Worker | /spaces | Spaces path. |
+| `GUNICORN_WORKERS` | Beat Worker | 1 | API worker count suitable for the initial Railway allocation. |
+| `LISTEN_HTTP_PORT` | Beat Worker | 80 | Proxy HTTP port metadata. |
+| `AWS_ACCESS_KEY_ID` | Beat Worker | - | Private MinIO access key. |
+| `LISTEN_HTTPS_PORT` | Beat Worker | 443 | Proxy HTTPS port metadata. |
+| `API_KEY_RATE_LIMIT` | Beat Worker | (secret) | Default API key rate limit. |
+| `AWS_S3_BUCKET_NAME` | Beat Worker | uploads | Attachment bucket name. |
+| `MINIO_ENDPOINT_SSL` | Beat Worker | 0 | Use HTTP on Railway private networking. |
+| `AWS_S3_ENDPOINT_URL` | Beat Worker | - | Private MinIO S3 endpoint. |
+| `MINIO_ROOT_PASSWORD` | Beat Worker | (secret) | MinIO secret key reference. |
+| `WEBHOOK_ALLOWED_IPS` | Beat Worker | - | Optional webhook IP allowlist. |
+| `CORS_ALLOWED_ORIGINS` | Beat Worker | - | Allow browser requests from the public proxy origin. |
+| `AWS_SECRET_ACCESS_KEY` | Beat Worker | (secret) | Private MinIO secret key. |
+| `SIGNED_URL_EXPIRATION` | Beat Worker | 3600 | Signed attachment URL lifetime in seconds. |
+| `WEBHOOK_ALLOWED_HOSTS` | Beat Worker | - | Optional webhook host allowlist. |
+| `HARD_DELETE_AFTER_DAYS` | Beat Worker | 60 | Retention before hard deletion. |
+| `LIVE_SERVER_SECRET_KEY` | Beat Worker | (secret) | Shared Live authentication key. |
+| `ENABLE_ALPINE_PRIVATE_NETWORKING` | Beat Worker | true | Enable Railway private IPv6 networking. |
 
 ## Configuration
 
-- **Start command:** `node space/server.js space`
-- **Networking:** Public domain with automatic HTTPS
-- **Start command:** `/bin/sh -c "python manage.py wait_for_db && python manage.py migrate && python manage.py register_instance ${MACHINE_ID} && python manage.py configure_instance && python manage.py create_bucket && python manage.py clear_cache; gunicorn -w ${GUNICORN_WORKERS} -k uvicorn.workers.UvicornWorker plane.asgi:application --bind [::]:${PORT} --max-requests 1200 --max-requests-jitter 1000 --access-logfile -"`
+- **Start command:** `npx react-router-serve ./build/server/index.js`
+- **Start command:** `./bin/docker-entrypoint-api.sh`
 - **Start command:** `./bin/docker-entrypoint-migrator.sh`
-- **Start command:** `node admin/server.js admin`
-- **TCP Proxies:** 5672
+- **Start command:** `nginx -g 'daemon off;'`
 - **Volume:** `/var/lib/rabbitmq`
-- **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
-- **Start command:** `node web/server.js web`
-- **Start command:** `/bin/sh -c "exec console server --host 0.0.0.0 --port $PORT"`
+- **Healthcheck:** `/health`
+- **Networking:** Public domain with automatic HTTPS
 - **Start command:** `/bin/sh -c "minio server --address [::]:$MINIO_PRIVATE_PORT $RAILWAY_VOLUME_MOUNT_PATH"`
 - **Volume:** `/data`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
-- **TCP Proxies:** 6379
-- **Start command:** `/bin/sh -c "python manage.py wait_for_db && python manage.py wait_for_migrations && celery -A plane worker -l info --concurrency 4"`
+- **Start command:** `./bin/docker-entrypoint-worker.sh`
 - **Start command:** `./bin/docker-entrypoint-beat.sh`
 
 **Category:** Other · **Languages:** Dockerfile

@@ -1,0 +1,42 @@
+# Deploy Node-Red on Railway
+
+Low-code flow programming for hardware, APIs, and services.
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/node-red-2)
+
+## About
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/spyQkl)
+
+> **Canonical code:** `spyQkl` — deploy URL: https://railway.com/new/template/spyQkl
+
+![OG Image](https://raw.githubusercontent.com/INAPP-Mobile/railway-node-red/main/og-image.svg)
+
+Node-RED is a low-code, flow-based programming tool for wiring together hardware devices, APIs, and online services. Deploy it on Railway in minutes to start building automations visually.
+
+Node-RED runs as a single container with a persistent Railway volume mounted at `/data` for flows, settings, and credentials. Railway provides the compute, TLS at the edge, and a public URL. The service restarts automatically on failures. No external database is required for basic usage — everything runs in one container. The base image's settings.js honors `PORT` (Railway injects this), so the flow editor is reachable on Railway's standard edge port without further configuration.
+
+## What gets deployed
+
+| Service | Source | Type |
+|---------|--------|------|
+| node-red | [INAPP-Mobile/railway-node-red](https://github.com/INAPP-Mobile/railway-node-red) | Web service |
+
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 1880 | Port Node-RED listens on for the flow editor and HTTP API endpoints. |
+| `FLOWS` | flows.json | Flow file to load from the /data volume. Defaults to flows.json. |
+| `CREDENTIAL_SECRET` | (secret) | Encryption key for stored credentials. Auto-generated — keep this value stable to avoid re-entering credentials on redeploy. |
+| `NODE_RED_ENABLE_PROJECTS` | false | Set to true to enable Git-backed projects for version-controlled flows. |
+| `NODE_RED_ENABLE_SAFE_MODE` | false | Set to true to start Node-RED without running any flows (safe mode for troubleshooting). |
+
+## Configuration
+
+- **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/data`
+
+**Category:** Automation · **Languages:** Dockerfile
+
+[View on Railway →](https://railway.com/deploy/node-red-2)

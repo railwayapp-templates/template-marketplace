@@ -14,10 +14,10 @@ Hosting LibreChat provides a comprehensive AI chat platform that combines the fa
 
 | Service | Source | Type |
 |---------|--------|------|
-| MongoDB | `mongo` | Database |
-| LibreChat | `ghcr.io/danny-avila/librechat-dev:latest` | Web service |
+| MongoDB | `mongo@sha256:e0ce8c35124d4a9f9785532d1f268f39e9728ffa1cb38f46fa482436424c4bd3` | Database |
+| LibreChat | `ghcr.io/danny-avila/librechat-dev@sha256:3144a862c5947599f5eeab3f9dfde33a690fa98d01065b9d66576da43a692561` | Web service |
 | Meilisearch | `getmeili/meilisearch:v1.9` | Database |
-| RAG-API | `ghcr.io/danny-avila/librechat-rag-api-dev-lite:latest` | Web service |
+| RAG-API | `ghcr.io/danny-avila/librechat-rag-api-dev-lite@sha256:d6db3e38fb1afabcad6972d23d2cdc093e8a5b74797881e29e7599df93704985` | Web service |
 | pgvector | `pgvector/pgvector:pg16` | Database |
 
 ## Environment variables

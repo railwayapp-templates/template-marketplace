@@ -14,7 +14,7 @@ Deploying FossFLOW involves hosting a static frontend plus an optional server-si
 
 | Service | Source | Type |
 |---------|--------|------|
-| FossFLOW | `stnsmith/fossflow:latest` | Web service |
+| FossFLOW | `stnsmith/fossflow@sha256:a35375ed305947675fe3506eace79d51ac20e056031fe85a64cac84e3e813106` | Web service |
 
 ## Environment variables
 

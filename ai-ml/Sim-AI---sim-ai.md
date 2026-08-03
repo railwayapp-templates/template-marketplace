@@ -14,10 +14,10 @@ Hosting Sim AI involves deploying its full-stack application, which includes a N
 
 | Service | Source | Type |
 |---------|--------|------|
-| realtime | `ghcr.io/simstudioai/realtime:latest` | Web service |
-| simstudio | `ghcr.io/simstudioai/simstudio:latest` | Web service |
+| realtime | `ghcr.io/simstudioai/realtime@sha256:6cd54f2c29b77df70d8e5ba67de317c8592270d7678705cc6cc7f2c14a4c69bd` | Web service |
+| simstudio | `ghcr.io/simstudioai/simstudio@sha256:56867a2c88c375aac6b19be28c95db851ed84eb6c2e21d086014e460b6411446` | Web service |
 | pgvector | `pgvector/pgvector:pg17` | Database |
-| migrations | `ghcr.io/simstudioai/migrations:latest` | Worker |
+| migrations | `ghcr.io/simstudioai/migrations@sha256:45ffb12619544ee2df2166a79b6bea09279ecc5ac1c8000ef6a0f7d5e7361585` | Worker |
 
 ## Environment variables
 

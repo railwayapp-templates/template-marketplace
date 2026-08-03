@@ -14,7 +14,7 @@ Hosting MinIO provides a self-contained, high-performance storage server capable
 
 | Service | Source | Type |
 |---------|--------|------|
-| Bucket | `ghcr.io/coollabsio/minio:latest` | Database |
+| Bucket | `ghcr.io/coollabsio/minio@sha256:69b55a1c1c5dc285ce04db96689f5b2102317fc77a50680a1874ca6efd1c87f9` | Database |
 | Console | [railwayapp-templates/minio-console](https://github.com/railwayapp-templates/minio-console) | Web service |
 
 ## Environment variables

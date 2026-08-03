@@ -27,6 +27,7 @@ The RSS feed is checked once per minute
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `TOKEN` | (secret) | Your Discord Bot Token |
+| `PROJECT_KEY` | - | Deta Project API Key |
 | `APPLICATION_ID` | - | The Application ID of your bot |
 
 **Category:** Bots · **Languages:** JavaScript

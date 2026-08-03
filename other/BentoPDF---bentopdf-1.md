@@ -14,7 +14,7 @@ Hosting BentoPDF involves deploying a static, client-side web application backed
 
 | Service | Source | Type |
 |---------|--------|------|
-| BentoPDF | `ghcr.io/alam00000/bentopdf:latest` | Web service |
+| BentoPDF | `ghcr.io/alam00000/bentopdf@sha256:165113f4579cc61ea353ad0597ed510cc2101ef879ec5e91875a3df0c0b219a0` | Web service |
 
 ## Environment variables
 

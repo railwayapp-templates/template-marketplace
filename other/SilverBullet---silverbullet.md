@@ -14,7 +14,7 @@ Hosting SilverBullet involves running its Go-based backend alongside a compiled 
 
 | Service | Source | Type |
 |---------|--------|------|
-| SilverBullet | `ghcr.io/silverbulletmd/silverbullet:latest` | Web service |
+| SilverBullet | `ghcr.io/silverbulletmd/silverbullet@sha256:94f3d19cc1526d548e8573768d2659e51fa7062da0f10c68f9cee563b3c5d661` | Web service |
 
 ## Environment variables
 

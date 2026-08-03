@@ -14,8 +14,8 @@ Hosting Open WebUI with Pipelines gives you a centralized platform to manage dif
 
 | Service | Source | Type |
 |---------|--------|------|
-| pipelines | `ghcr.io/open-webui/pipelines:main` | Web service |
-| open-webui | `ghcr.io/open-webui/open-webui:main` | Web service |
+| pipelines | `ghcr.io/open-webui/pipelines@sha256:b48e9bc338ce2be0acfbeff01810db72408a12f07739f9e3879c1f2b00952d6e` | Web service |
+| open-webui | `ghcr.io/open-webui/open-webui@sha256:6a773e5c3a246b65cbe74ce942b294292c0e5f81c138f703d111bc162f7d7c3d` | Web service |
 
 ## Environment variables
 

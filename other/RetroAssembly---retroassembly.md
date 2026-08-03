@@ -16,7 +16,7 @@ Hosting RetroAssembly involves deploying a TypeScript-based web application that
 
 | Service | Source | Type |
 |---------|--------|------|
-| RetroAssembly | `arianrhodsandlot/retroassembly:latest` | Web service |
+| RetroAssembly | `arianrhodsandlot/retroassembly@sha256:3587b2c425021ca9f745177ac7d68762eeda85069b9f44f933544a0826247c10` | Web service |
 
 ## Environment variables
 

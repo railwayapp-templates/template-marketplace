@@ -1,6 +1,6 @@
 # Deploy Evolution API — WhatsApp REST API on Railway
 
-WhatsApp REST API — no Meta approval, no per-message fees.
+[Aug'26] WhatsApp REST API — no Meta approval, no per-message fees.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evolution-api-whatsapp)
 

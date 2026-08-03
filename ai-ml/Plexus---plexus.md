@@ -14,7 +14,7 @@ Hosting Plexus requires running a containerized service alongside a persistent d
 
 | Service | Source | Type |
 |---------|--------|------|
-| Plexus | `ghcr.io/mcowger/plexus:latest` | Web service |
+| Plexus | `ghcr.io/mcowger/plexus@sha256:619c122ea788c1727e5299d7de84e00d0ce1315db0169d9da6c06fed220cd1a5` | Web service |
 
 ## Environment variables
 

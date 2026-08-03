@@ -41,7 +41,7 @@ Spacebot deploys as a single Rust binary with zero external dependencies. It use
 
 | Service | Source | Type |
 |---------|--------|------|
-| Spacebot | `ghcr.io/spacedriveapp/spacebot:latest` | Web service |
+| Spacebot | `ghcr.io/spacedriveapp/spacebot@sha256:ccd9411f72def62b192e44aed23446b94e6e4774d55d7100a94de1531029f6ed` | Web service |
 
 ## Environment variables
 

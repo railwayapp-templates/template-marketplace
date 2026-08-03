@@ -22,6 +22,7 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 
 | Service | Source | Type |
 |---------|--------|------|
+| Supavisor | [6ixfalls/supabase](https://github.com/6ixfalls/supabase) (root: /pooler) | TCP service |
 | Postgres Meta | `supabase/postgres-meta:v0.96.6` | Database |
 | Postgrest | `postgrest/postgrest:v14.12` | Database |
 | Supabase Realtime | `supabase/realtime:v2.102.3` | Database |
@@ -36,6 +37,21 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `PORT` | Supavisor | 4000 | - |
+| `REGION` | Supavisor | local | - |
+| `ERL_AFLAGS` | Supavisor | -proto_dist inet_tcp | - |
+| `DB_POOL_SIZE` | Supavisor | 5 | Pool size for internal metadata storage used by Supavisor; This is separate from client connections and used only by Supavisor itself |
+| `API_JWT_SECRET` | Supavisor | (secret) | - |
+| `SECRET_KEY_BASE` | Supavisor | (secret) | - |
+| `CLUSTER_POSTGRES` | Supavisor | true | - |
+| `POOLER_POOL_MODE` | Supavisor | transaction | - |
+| `POOLER_TENANT_ID` | Supavisor | railway | Unique Supavisor tenant identifier: https://supabase.com/docs/guides/self-hosting/docker#accessing-postgres |
+| `POSTGRES_PASSWORD` | Supavisor | (secret) | - |
+| `METRICS_JWT_SECRET` | Supavisor | (secret) | - |
+| `POOLER_MAX_CLIENT_CONN` | Supavisor | 100 | Maximum number of client connections Supavisor accepts per pool |
+| `POOLER_DEFAULT_POOL_SIZE` | Supavisor | 20 | Maximum number of PostgreSQL connections Supavisor opens per pool |
+| `USE_THIS_POOLER_POSTGRES_URL` | Supavisor | - | Internal Pooler Postgres URL for you to use. |
+| `USE_THIS_POOLER_EXTERNAL_POSTGRES_URL` | Supavisor | - | External Pooler Postgres URL for you to use. |
 | `PG_META_HOST` | Postgres Meta | :: | - |
 | `PG_META_PORT` | Postgres Meta | 8080 | - |
 | `PG_META_DB_USER` | Postgres Meta | (secret) | - |
@@ -128,6 +144,8 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 
 ## Configuration
 
+- **Healthcheck:** `/api/health`
+- **TCP Proxies:** 6543
 - **Start command:** `postgrest`
 - **Healthcheck:** `/status`
 - **Networking:** Public domain with automatic HTTPS
@@ -135,6 +153,6 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Storage · **Languages:** HTML, PLpgSQL, Shell, JavaScript, Elixir, Dockerfile
+**Category:** Storage · **Languages:** HTML, PLpgSQL, Shell, JavaScript, Dockerfile, Elixir
 
 [View on Railway →](https://railway.com/deploy/supabase)

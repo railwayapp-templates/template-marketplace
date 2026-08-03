@@ -14,54 +14,58 @@ Hosting Discourse involves setting up a server environment utilizing a bash scri
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `railwayapp/redis:8.2` | Database |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
-| Discourse | `bitnamilegacy/discourse:3.5.0-debian-12-r0` | Web service |
-| Sidekiq | `bitnamilegacy/discourse:3.5.0-debian-12-r0` | Worker |
+| Discourse | `discourse/discourse:2026.7.1` | Web service |
+| Mock Email | `maildev/maildev:3.0.0-rc.1` | Web service |
+| Redis | `redis:8.2.1` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `REDISHOST` | Redis | - | Railway Private Domain Name. |
-| `REDISPORT` | Redis | 6379 | Port to connect to Redis. |
-| `REDISUSER` | Redis | default | Default user to connect to Redis. |
-| `REDIS_URL` | Redis | - | URL to connect to Redis over the private network. |
-| `REDISPASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PUBLIC_URL` | Redis | - | Public URL to connect to Redis, needed for the Data panel. |
-| `REDIS_RDB_POLICY` | Redis | 3600#1 300#100 60#10000 | Set a RDB snapshot policy. |
-| `REDIS_AOF_ENABLED` | Redis | no | Disable writing to AOF file. |
+| `PORT` | Discourse | 80 | - |
+| `DISCOURSE_SMTP_PORT` | Discourse | - | SMTP is required for a proper setup (Mock server is provided for testing). |
+| `DISCOURSE_DB_PASSWORD` | Discourse | (secret) | - |
+| `DISCOURSE_DB_USERNAME` | Discourse | (secret) | - |
+| `DISCOURSE_SMTP_ADDRESS` | Discourse | - | SMTP is required for a proper setup (Mock server is provided for testing). |
+| `DISCOURSE_SMTP_PASSWORD` | Discourse | (secret) | SMTP is required for a proper setup (Mock server is provided for testing). |
+| `DISCOURSE_REDIS_PASSWORD` | Discourse | (secret) | - |
+| `DISCOURSE_REDIS_USERNAME` | Discourse | (secret) | - |
+| `DISCOURSE_SMTP_USER_NAME` | Discourse | - | SMTP is required for a proper setup (Mock server is provided for testing). |
+| `DISCOURSE_DEVELOPER_EMAILS` | Discourse | - | The email(s), comma separated, that will be made admin and developer on initial signup. e.g. admin@example.com |
+| `DISCOURSE_NOTIFICATION_EMAIL` | Discourse | noreply@discourse.example.com | SMTP is required for a proper setup (Mock server is provided for testing). |
+| `PORT` | Mock Email | 1234 | The Web UI access port. |
+| `SMTP_HOST` | Mock Email | - | The host to send mail to. |
+| `SMTP_PORT` | Mock Email | - | The port to send mail to. |
+| `MAILDEV_WEB_IP` | Mock Email | :: | IP to listen on. |
+| `MAILDEV_WEB_PASS` | Mock Email | - | The password to login to the Web UI with. |
+| `MAILDEV_WEB_PORT` | Mock Email | - | The Web UI access port. |
+| `MAILDEV_WEB_USER` | Mock Email | (secret) | The user to login to the Web UI with. |
+| `MAILDEV_SMTP_PORT` | Mock Email | 25 | The port to receive mail on. |
+| `MAILDEV_INCOMING_PASS` | Mock Email | - | Incoming SMTP credentials. |
+| `MAILDEV_INCOMING_USER` | Mock Email | (secret) | Incoming SMTP credentials. |
+| `REDISPORT` | Redis | 6379 | - |
+| `REDISUSER` | Redis | default | - |
+| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
+| `REDISPASSWORD` | Redis | (secret) | - |
+| `REDIS_PASSWORD` | Redis | (secret) | - |
+| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
-| `PORT` | Discourse | 3000 | - |
-| `DISCOURSE_PASSWORD` | Discourse | (secret) | The password of the superuser. |
-| `DISCOURSE_USERNAME` | Discourse | (secret) | The username of the superuser. |
-| `DISCOURSE_SITE_NAME` | Discourse | Railway Forums | The name of your forum. |
-| `DISCOURSE_DATABASE_USER` | Discourse | (secret) | - |
-| `DISCOURSE_REDIS_PASSWORD` | Discourse | (secret) | - |
-| `DISCOURSE_REDIS_USERNAME` | Discourse | (secret) | - |
-| `DISCOURSE_DATABASE_PASSWORD` | Discourse | (secret) | - |
-| `DISCOURSE_PASSWORD` | Sidekiq | (secret) | - |
-| `DISCOURSE_USERNAME` | Sidekiq | (secret) | - |
-| `DISCOURSE_DATABASE_USER` | Sidekiq | (secret) | - |
-| `DISCOURSE_REDIS_PASSWORD` | Sidekiq | (secret) | - |
-| `DISCOURSE_REDIS_USERNAME` | Sidekiq | (secret) | - |
-| `DISCOURSE_DATABASE_PASSWORD` | Sidekiq | (secret) | - |
 
 ## Configuration
 
-- **TCP Proxies:** 6379
-- **Volume:** `/bitnami`
-- **TCP Proxies:** 5432
-- **Volume:** `/var/lib/postgresql/data`
+- **Start command:** `/bin/sh -c "rm /etc/nginx/sites-enabled/default && /sbin/boot"`
 - **Healthcheck:** `/srv/status`
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/bitnami/discourse`
-- **Start command:** `/opt/bitnami/scripts/discourse/entrypoint.sh /opt/bitnami/scripts/discourse-sidekiq/run.sh`
+- **Volume:** `/shared`
+- **Healthcheck:** `/api/healthz`
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
+- **Volume:** `/data`
+- **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Other
 

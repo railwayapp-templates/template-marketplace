@@ -14,7 +14,7 @@ Hosting Maildev involves deploying the application on a server, configuring the 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Maildev | `maildev/maildev` | Web service |
+| Maildev | `maildev/maildev:3.0.0-rc.1` | Web service |
 
 ## Environment variables
 
@@ -23,14 +23,17 @@ Hosting Maildev involves deploying the application on a server, configuring the 
 | `PORT` | 1234 | The Web UI access port. |
 | `SMTP_HOST` | - | The host to send mail to. |
 | `SMTP_PORT` | - | The port to send mail to. |
+| `MAILDEV_WEB_IP` | :: | IP to listen on. |
 | `MAILDEV_WEB_PASS` | - | The password to login to the Web UI with. |
 | `MAILDEV_WEB_PORT` | - | The Web UI access port. |
 | `MAILDEV_WEB_USER` | (secret) | The user to login to the Web UI with. |
-| `MAILDEV_SMTP_PORT` | 25 | The port to receive mail on. |
+| `MAILDEV_SMTP_PORT` | 1025 | The port to receive mail on. |
+| `MAILDEV_INCOMING_PASS` | - | Incoming SMTP credentials. |
+| `MAILDEV_INCOMING_USER` | (secret) | Incoming SMTP credentials. |
 
 ## Configuration
 
-- **Healthcheck:** `/healthz`
+- **Healthcheck:** `/api/healthz`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Queues
