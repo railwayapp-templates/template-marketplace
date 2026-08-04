@@ -49,7 +49,7 @@ Evolution Go is a high-performance WhatsApp API built in Go. It provides a compl
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
+| `POSTGRES_DB` | Postgres | evolution | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
@@ -57,7 +57,6 @@ Evolution Go is a high-performance WhatsApp API built in Go. It provides a compl
 | `PORT` | evoapicloud/evolution-go | 8080 | - |
 | `LOGTYPE` | evoapicloud/evolution-go | console | - |
 | `WA_DEBUG` | evoapicloud/evolution-go | INFO | - |
-| `CLIENT_NAME` | evoapicloud/evolution-go | pipely | - |
 | `SERVER_PORT` | evoapicloud/evolution-go | 8080 | - |
 | `GLOBAL_API_KEY` | evoapicloud/evolution-go | (secret) | - |
 | `DATABASE_SAVE_MESSAGES` | evoapicloud/evolution-go | true | - |

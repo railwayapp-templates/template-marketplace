@@ -1,6 +1,6 @@
 # Deploy Zulip team chat on Railway
 
-Deploy this application on Railway.
+Complete Zulip team chat with durable messaging, search, and uploads.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zulip-team-chat)
 

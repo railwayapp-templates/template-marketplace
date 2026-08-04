@@ -1,6 +1,6 @@
 # Deploy open-gateway on Railway
 
-OpenGateway multi-agent hub: Orchestrate your agents
+OpenGateway multi-agent hub: login, Postgres, Redis, agent tokens
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-gateway)
 
@@ -24,8 +24,11 @@ OpenGateway is a multi-agent room server (ACP + MCP) with a web console. This te
 - **Login page** — first user creates the org and becomes **admin**  
 - **Invite-only** multi-user by default (open registration optional)  
 - **Agent tokens** UI for Grok / Claude / Cursor MCP  
+- **Fork branch rooms**, room archive/rename, chat file attachments  
+- Phone pair mints a **scoped device key** (never exposes the master token in the QR)  
 - Health: `GET /ping` · UI: `/ui/` · API: `/v1/*`  
-- `OPENGATEWAY_PUBLIC_URL` auto-filled from Railway domain when unset
+- `OPENGATEWAY_PUBLIC_URL` auto-filled from Railway domain when unset  
+- `OPENGATEWAY_TRUST_PROXY=true` auto on Railway (correct rate limits behind the edge)
 
 ## What gets deployed
 

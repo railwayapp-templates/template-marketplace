@@ -26,7 +26,6 @@ Hosting Redis gives you access to a high-performance in-memory database capable 
 | `REDIS_URL` | - | URL to connect to Redis over the private network. |
 | `REDISPASSWORD` | (secret) | Password to connect to Redis. |
 | `REDIS_PASSWORD` | (secret) | Password to connect to Redis. |
-| `REDIS_PUBLIC_URL` | - | Public URL to connect to Redis, needed for the Data panel. |
 | `REDIS_RDB_POLICY` | 3600#1 300#100 60#10000 | Set a RDB snapshot policy. |
 | `REDIS_AOF_ENABLED` | no | Disable writing to AOF file. |
 

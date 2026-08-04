@@ -23,7 +23,7 @@ This template solves all these challenges, and is updated and tested regularly. 
 in the Rails start command and the other roles restart until the DB responds, so the stack runs
 in the right order. Attachments and settings live in PostgreSQL, which makes everything work without
 a shared file volume. nginx's custom start command works with the IPv6 resolver address correctly.
-PostgreSQL and Redis get a persistent volume. The DB password is generated fresh on every deployment.
+PostgreSQL gets a persistent volume. The DB password is generated fresh on every deployment.
 The public URL is on the nginx service - the rest stay on the private network.
 
 Additionally, Health Checks are set up on the ngninx service, and Docker images are pinned to versions
@@ -87,7 +87,6 @@ something else as you redeploy to a new environment, causing unexpected failures
 - **Networking:** Public domain with automatic HTTPS
 - **Start command:** `memcached -m 256M`
 - **Start command:** `bash -c "cd /opt/zammad && exec /opt/zammad/bin/docker-entrypoint zammad-scheduler"`
-- **Volume:** `/data`
 - **Start command:** `bash -c "cd /opt/zammad && /opt/zammad/bin/docker-entrypoint zammad-init && exec /opt/zammad/bin/docker-entrypoint zammad-railsserver"`
 - **Start command:** `bash -c "cd /opt/zammad && exec /opt/zammad/bin/docker-entrypoint zammad-websocket"`
 

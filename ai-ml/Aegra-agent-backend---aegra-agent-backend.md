@@ -1,6 +1,6 @@
 # Deploy Aegra agent backend on Railway
 
-Deploy this application on Railway.
+Durable agent backend with LangGraph APIs, pgvector, and Redis workers.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/aegra-agent-backend)
 

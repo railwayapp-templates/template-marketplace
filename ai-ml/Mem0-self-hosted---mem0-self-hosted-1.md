@@ -1,6 +1,6 @@
 # Deploy Mem0 self-hosted on Railway
 
-Authenticated Mem0 API and dashboard with persistent pgvector memory.
+Private AI memory platform with dashboard and persistent pgvector storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mem0-self-hosted-1)
 

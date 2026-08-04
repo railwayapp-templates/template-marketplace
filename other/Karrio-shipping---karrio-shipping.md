@@ -1,6 +1,6 @@
 # Deploy Karrio shipping on Railway
 
-Karrio shipping API and dashboard with durable PostgreSQL and Redis.
+Open-source shipping operations with API, dashboard, worker, and Redis.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/karrio-shipping)
 

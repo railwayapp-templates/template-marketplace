@@ -1,6 +1,6 @@
 # Deploy Dagster on Railway
 
-Deploy Dagster with a webserver, daemon, example asset job, and PostgreSQL.
+Production-ready Dagster orchestration with daemon and durable PostgreSQL.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dagster)
 

@@ -25,7 +25,6 @@ Hosting MongoDB gives you access to a flexible document database capable of hand
 | `MONGOUSER` | - | Mongodb user. |
 | `MONGO_URL` | - | Private URL to connect to MongoDB. |
 | `MONGOPASSWORD` | (secret) | Root password. |
-| `MONGO_PUBLIC_URL` | - | Public URL to connect to MongoDB, used for Data panel. |
 | `MONGO_INITDB_ROOT_PASSWORD` | (secret) | Root user password, set during initialization. |
 | `MONGO_INITDB_ROOT_USERNAME` | (secret) | User created during initialization, given the root role. |
 

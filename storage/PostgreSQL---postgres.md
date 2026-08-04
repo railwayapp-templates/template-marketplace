@@ -24,7 +24,6 @@ Hosting PostgreSQL gives you access to a powerful database server capable of han
 | `DATABASE_URL` | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | (secret) | Password to connect to DB |
-| `DATABASE_PUBLIC_URL` | - | Public URL to connect to Postgres database, used by the Data panel. |
 
 ## Configuration
 

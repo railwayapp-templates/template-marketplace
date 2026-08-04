@@ -29,7 +29,6 @@ Redis is a popular choice for developers worldwide due to its combination of spe
 | `REDIS_URL` | - | Connection string for connecting to redis using the private network |
 | `REDISPASSWORD` | (secret) | - |
 | `REDIS_PASSWORD` | (secret) | - |
-| `REDIS_PUBLIC_URL` | - | Connection string for connecting to redis externally |
 
 ## Configuration
 

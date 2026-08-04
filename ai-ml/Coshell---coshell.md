@@ -16,7 +16,7 @@ You bring one enrollment token from your Coshell dashboard. The container exchan
 
 | Service | Source | Type |
 |---------|--------|------|
-| coshell-deploy | [shelltabhq/coshell-deploy](https://github.com/shelltabhq/coshell-deploy) | Worker |
+| coshell-deploy | [shelltabhq/coshell-deploy](https://github.com/shelltabhq/coshell-deploy) | Database |
 
 ## Environment variables
 
@@ -24,6 +24,10 @@ You bring one enrollment token from your Coshell dashboard. The container exchan
 | --------- | ------- | ----------- |
 | `COSHELL_DRIVE_NAME` | - | optional, display name only |
 | `COSHELL_ENROLL_TOKEN` | (secret) | Paste the enrollment token from your Coshell dashboard |
+
+## Configuration
+
+- **Volume:** `/data`
 
 **Category:** AI/ML · **Languages:** Shell, Dockerfile
 

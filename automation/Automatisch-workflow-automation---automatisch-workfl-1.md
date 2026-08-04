@@ -1,6 +1,6 @@
 # Deploy Automatisch workflow automation on Railway
 
-Secure Automatisch workflows with a dedicated worker and durable data.
+Private workflow automation with a dedicated worker and durable data.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/automatisch-workfl-1)
 

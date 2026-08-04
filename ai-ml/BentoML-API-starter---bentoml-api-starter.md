@@ -1,6 +1,6 @@
 # Deploy BentoML API starter on Railway
 
-CPU-safe BentoML starter with typed inference and batch APIs.
+Production-minded BentoML API starter with typed batch inference.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bentoml-api-starter)
 

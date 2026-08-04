@@ -1,6 +1,6 @@
 # Deploy OpenLIT observability on Railway
 
-Protected OpenLIT AI observability with persistent ClickHouse.
+Protected AI observability with OpenLIT and persistent ClickHouse traces.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openlit-observability)
 

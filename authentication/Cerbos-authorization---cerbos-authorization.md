@@ -1,6 +1,6 @@
 # Deploy Cerbos authorization on Railway
 
-Cerbos authorization decisions with Git-synced policies.
+Policy-based authorization with Git-synced policies and secure decisions.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cerbos-authorization)
 

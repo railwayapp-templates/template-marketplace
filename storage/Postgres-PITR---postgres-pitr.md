@@ -26,7 +26,6 @@ Hosting Postgres PITR on Railway provisions a Railway Bucket alongside your exis
 | `WAL_ARCHIVE_PATH` | /pgbackrest | - |
 | `POSTGRES_PASSWORD` | (secret) | Password to connect to DB |
 | `WAL_ARCHIVE_SECRET` | (secret) | - |
-| `DATABASE_PUBLIC_URL` | - | Public URL to connect to Postgres database, used by the Data panel. |
 
 ## Configuration
 

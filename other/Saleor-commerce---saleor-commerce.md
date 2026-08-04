@@ -1,6 +1,6 @@
 # Deploy Saleor commerce on Railway
 
-Saleor commerce with Dashboard, worker, PostgreSQL, Valkey, and media.
+Complete Saleor commerce stack with Dashboard, workers, and durable media.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/saleor-commerce)
 

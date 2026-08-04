@@ -1,6 +1,6 @@
 # Deploy dbt + Metabase analytics on Railway
 
-Scheduled dbt models with a ready-to-use Metabase dashboard.
+Scheduled dbt transformations with a ready-to-use Metabase analytics layer.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dbt-metabase-analytics)
 

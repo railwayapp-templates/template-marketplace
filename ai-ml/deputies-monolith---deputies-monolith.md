@@ -21,8 +21,8 @@ To run real agent jobs, configure model credentials, set RUNNER=flue, and choose
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| web | `ghcr.io/sidpalas/deputies-web:0.26.0` | Web service |
-| control-plane | `ghcr.io/sidpalas/deputies-control-plane:0.26.0` | Worker |
+| web | `ghcr.io/sidpalas/deputies-web:0.27.1` | Web service |
+| control-plane | `ghcr.io/sidpalas/deputies-control-plane:0.27.1` | Worker |
 
 ## Environment variables
 
@@ -48,13 +48,16 @@ To run real agent jobs, configure model credentials, set RUNNER=flue, and choose
 | `AUTH_COOKIE_SAME_SITE` | control-plane | lax |
 | `GITHUB_WEBHOOK_SECRET` | control-plane | (secret) |
 | `ARTIFACT_STORAGE_PROVIDER` | control-plane | s3 |
+| `OPENAI_CODEX_AUTH_STORAGE` | control-plane | postgres |
 | `GITHUB_OAUTH_CLIENT_SECRET` | control-plane | (secret) |
 | `UNSAFE_AUTH_GITHUB_ALLOW_ALL` | control-plane | false |
 | `PREVIEW_TRUST_FORWARDED_HOSTS` | control-plane | false |
 | `SANDBOX_SECRET_ENCRYPTION_KEY` | control-plane | (secret) |
 | `SERVICE_TRUST_FORWARDED_HOSTS` | control-plane | false |
 | `ARTIFACT_STORAGE_S3_FORCE_PATH_STYLE` | control-plane | true |
+| `INTEGRATION_CREDENTIAL_ACTIVE_KEY_ID` | control-plane | (secret) |
 | `ARTIFACT_STORAGE_S3_SECRET_ACCESS_KEY` | control-plane | (secret) |
+| `INTEGRATION_CREDENTIAL_ENCRYPTION_KEYS` | control-plane | (secret) |
 | `UNSAFE_GITHUB_WEBHOOK_ALLOW_ALL_USERS_AND_ORGS` | control-plane | false |
 
 ## Configuration

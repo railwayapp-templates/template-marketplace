@@ -27,7 +27,6 @@ Hosting MySQL gives you access to a reliable database server capable of handling
 | `MYSQLDATABASE` | - | Default database, used for Data panel. |
 | `MYSQLPASSWORD` | (secret) | Root password, used for Data panel. |
 | `MYSQL_DATABASE` | railway | Database to be created on image startup. |
-| `MYSQL_PUBLIC_URL` | - | URL to connect to MySQL DB, used for Data panel. |
 | `MYSQL_ROOT_PASSWORD` | (secret) | Root password for MySQL DB. |
 
 ## Configuration

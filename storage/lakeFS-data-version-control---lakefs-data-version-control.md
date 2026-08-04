@@ -1,6 +1,6 @@
 # Deploy lakeFS data version control on Railway
 
-lakeFS data version control with PostgreSQL and a Railway Bucket.
+Git-like data version control with PostgreSQL and Railway object storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lakefs-data-version-control)
 

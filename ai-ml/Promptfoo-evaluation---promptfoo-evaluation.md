@@ -1,6 +1,6 @@
 # Deploy Promptfoo evaluation on Railway
 
-Deploy this application on Railway.
+Private Promptfoo evaluation and red teaming with persistent project data.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/promptfoo-evaluation)
 

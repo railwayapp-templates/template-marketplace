@@ -1,6 +1,6 @@
 # Deploy Quickwit search on Railway
 
-Quickwit search with authenticated access and durable Railway storage.
+Fast log and trace search with authenticated access and durable storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/quickwit-search)
 

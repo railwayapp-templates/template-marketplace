@@ -1,6 +1,6 @@
 # Deploy Lakekeeper Iceberg catalog on Railway
 
-Apache Iceberg REST catalog with PostgreSQL and Railway Bucket.
+Secure Apache Iceberg catalog with PostgreSQL and Railway object storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lakekeeper-iceberg-catalog)
 

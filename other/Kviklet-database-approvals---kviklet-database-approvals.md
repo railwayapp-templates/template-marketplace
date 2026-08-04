@@ -1,6 +1,6 @@
 # Deploy Kviklet database approvals on Railway
 
-Kviklet database approvals with encrypted credentials and PostgreSQL.
+Audited database approvals with encrypted credentials and PostgreSQL.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kviklet-database-approvals)
 

@@ -1,6 +1,6 @@
 # Deploy R2R RAG backend on Railway
 
-Authenticated R2R retrieval with pgvector and cited RAG.
+Authenticated R2R retrieval with pgvector ingestion and cited RAG.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/r2r-rag-backend)
 

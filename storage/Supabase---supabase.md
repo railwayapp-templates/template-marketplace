@@ -28,9 +28,9 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 | Supabase Realtime | `supabase/realtime:v2.102.3` | Database |
 | Supabase Storage | `supabase/storage-api:v1.60.4` | Database |
 | Imgproxy | `darthsim/imgproxy:v3.30.1` | Worker |
-| Kong | [6ixfalls/supabase](https://github.com/6ixfalls/supabase) (root: /kong) | Web service |
+| Envoy | [6ixfalls/supabase](https://github.com/6ixfalls/supabase) (root: /envoy) | Web service |
 | Gotrue Auth | `supabase/gotrue:v2.189.0` | Database |
-| Supabase Studio | `supabase/studio:2026.07.07-sha-a6a04f2` | Database |
+| Supabase Studio | `supabase/studio:2026.08.03-sha-022b374` | Database |
 | Postgres | `ghcr.io/6ixfalls/supabase-postgres:17.6.1.136` | Database |
 
 ## Environment variables
@@ -74,7 +74,7 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 | `SEED_SELF_HOST` | Supabase Realtime | true | - |
 | `SECRET_KEY_BASE` | Supabase Realtime | (secret) | - |
 | `METRICS_JWT_SECRET` | Supabase Realtime | (secret) | - |
-| `SELF_HOST_TENANT_NAME` | Supabase Realtime | supabase-realtime | - |
+| `SELF_HOST_TENANT_NAME` | Supabase Realtime | realtime-dev | - |
 | `DB_AFTER_CONNECT_QUERY` | Supabase Realtime | SET search_path TO _realtime | - |
 | `DISABLE_HEALTHCHECK_LOGGING` | Supabase Realtime | true | - |
 | `PORT` | Supabase Storage | 5000 | - |
@@ -93,24 +93,12 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 | `IMGPROXY_USE_ETAG` | Imgproxy | true | - |
 | `IMGPROXY_AUTO_WEBP` | Imgproxy | true | - |
 | `IMGPROXY_MAX_SRC_RESOLUTION` | Imgproxy | 16.8 | - |
-| `PORT` | Kong | 8000 | - |
-| `KONG_PLUGINS` | Kong | request-transformer,cors,key-auth,acl,basic-auth,request-termination,ip-restriction,post-function | - |
-| `KONG_DATABASE` | Kong | off | - |
-| `ANALYTICS_HOST` | Kong | not_present | - |
-| `FUNCTIONS_HOST` | Kong | not_present | - |
-| `KONG_DNS_ORDER` | Kong | LAST,A,CNAME | - |
-| `KONG_PROXY_LISTEN` | Kong | [::]:8000 reuseport backlog=16384, 0.0.0.0:8000 reuseport backlog=16384 | - |
-| `DASHBOARD_PASSWORD` | Kong | (secret) | - |
-| `DASHBOARD_USERNAME` | Kong | (secret) | - |
-| `KONG_DNS_VALID_TTL` | Kong | 5 | - |
-| `KONG_ROUTER_FLAVOR` | Kong | expressions | - |
-| `SUPABASE_SECRET_KEY` | Kong | (secret) | - |
-| `KONG_PROXY_ACCESS_LOG` | Kong | /dev/stdout combined | - |
-| `KONG_DNS_NOT_FOUND_TTL` | Kong | 1 | - |
-| `KONG_DECLARATIVE_CONFIG` | Kong | /usr/local/kong/kong.yml | - |
-| `KONG_NGINX_WORKER_PROCESSES` | Kong | 2 | - |
-| `KONG_NGINX_PROXY_PROXY_BUFFERS` | Kong | 64 160k | - |
-| `KONG_NGINX_PROXY_PROXY_BUFFER_SIZE` | Kong | 160k | - |
+| `PORT` | Envoy | 8000 | - |
+| `ANALYTICS_HOST` | Envoy | not_present | - |
+| `FUNCTIONS_HOST` | Envoy | not_present | - |
+| `DASHBOARD_PASSWORD` | Envoy | (secret) | - |
+| `DASHBOARD_USERNAME` | Envoy | (secret) | - |
+| `SUPABASE_SECRET_KEY` | Envoy | (secret) | - |
 | `GOTRUE_JWT_AUD` | Gotrue Auth | authenticated | - |
 | `GOTRUE_API_HOST` | Gotrue Auth | :: | - |
 | `GOTRUE_API_PORT` | Gotrue Auth | 9999 | - |
@@ -149,6 +137,7 @@ This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realt
 - **Start command:** `postgrest`
 - **Healthcheck:** `/status`
 - **Networking:** Public domain with automatic HTTPS
+- **Healthcheck:** `/api/platform/profile`
 - **Volume:** `/mnt/data`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`

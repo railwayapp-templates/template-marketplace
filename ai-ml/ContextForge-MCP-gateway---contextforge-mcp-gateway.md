@@ -1,6 +1,6 @@
 # Deploy ContextForge MCP gateway on Railway
 
-Authenticated ContextForge MCP gateway with PostgreSQL and Redis.
+Secure MCP gateway and registry with PostgreSQL, Redis, and admin UI.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/contextforge-mcp-gateway)
 

@@ -23,8 +23,8 @@ Railway generates the MCP bridge secret during deployment and wires it between C
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| COREY | `ghcr.io/jhjhjhjh/corey:0.1.1` | Web service |
-| MCP | `ghcr.io/jhjhjhjh/corey-mcp:0.1.1` | Web service |
+| COREY | `ghcr.io/jhjhjhjh/corey:latest` | Web service |
+| MCP | `ghcr.io/jhjhjhjh/corey-mcp:latest` | Web service |
 | Bucket | [railwayapp-templates/minio](https://github.com/railwayapp-templates/minio) | Database |
 | Console | [railwayapp-templates/minio-console](https://github.com/railwayapp-templates/minio-console) | Web service |
 

@@ -1,6 +1,6 @@
 # Deploy Opik observability on Railway
 
-Evaluation Opik observability with protected access and durable storage.
+Protected Opik with durable traces, feedback, and evaluation workflows.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opik-observability)
 

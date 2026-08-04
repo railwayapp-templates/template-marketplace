@@ -1,6 +1,6 @@
 # Deploy OpenMetadata on Railway
 
-Deploy OpenMetadata with PostgreSQL, Elasticsearch, and Airflow ingestion.
+OpenMetadata with search, PostgreSQL, and managed ingestion workflows.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openmetadata)
 

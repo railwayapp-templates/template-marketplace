@@ -1,6 +1,6 @@
 # Deploy Relaticle agent-native CRM on Railway
 
-Relaticle agent-native CRM with PostgreSQL, Redis, and durable storage.
+Agent-native CRM with durable records, uploads, PostgreSQL, and Redis.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/relaticle-agent-native-crm)
 

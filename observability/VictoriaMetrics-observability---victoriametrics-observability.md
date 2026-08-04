@@ -1,6 +1,6 @@
 # Deploy VictoriaMetrics observability on Railway
 
-Persistent VictoriaMetrics and Grafana with protected metric APIs.
+Private VictoriaMetrics and Grafana with protected metrics ingestion.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/victoriametrics-observability)
 

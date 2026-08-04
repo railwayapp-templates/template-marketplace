@@ -41,7 +41,7 @@ Postiz self-hosted is free across all 30+ platforms; you pay only Railway comput
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Postiz | `ghcr.io/gitroomhq/postiz-app:v2.11.3` | Web service |
+| Postiz | `ghcr.io/gitroomhq/postiz-app` | Web service |
 | Redis | `redis:8.2.1` | Database |
 
 ## Environment variables
