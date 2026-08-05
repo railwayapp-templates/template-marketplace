@@ -78,7 +78,6 @@ Do not connect directly to individual Redis nodes.
 
 ## Configuration
 
-- **TCP Proxies:** 6379
 - **Volume:** `/data`
 
 **Category:** Storage

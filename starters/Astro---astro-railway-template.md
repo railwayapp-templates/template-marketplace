@@ -1,8 +1,8 @@
-# Deploy Astro Starter Template on Railway
+# Deploy Astro on Railway
 
 Simple Astro starter for blogs, portfolios, and landing pages.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/astro-starter-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/astro-railway-template)
 
 ## About
 
@@ -37,4 +37,4 @@ Astro is especially useful for content-focused websites because it ships less Ja
 
 **Category:** Starters · **Languages:** TypeScript, Astro, JavaScript, Dockerfile
 
-[View on Railway →](https://railway.com/deploy/astro-starter-template)
+[View on Railway →](https://railway.com/deploy/astro-railway-template)

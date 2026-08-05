@@ -1,4 +1,4 @@
-# Deploy Code Server by linuxserver.io on Railway
+# Deploy Code Server on Railway
 
 Run full VS Code in the browser anytime, anywhere
 

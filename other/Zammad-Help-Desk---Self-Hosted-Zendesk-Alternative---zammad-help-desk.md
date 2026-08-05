@@ -35,12 +35,12 @@ something else as you redeploy to a new environment, causing unexpected failures
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `postgres:17.10-alpine` | Database |
-| Zammad Nginx | `ghcr.io/zammad/zammad:7.1.1-0044` | Web service |
+| Zammad Nginx | `ghcr.io/zammad/zammad:7.1.2` | Web service |
 | Memcached | `memcached:1.6.45-alpine` | Database |
-| Zammad Scheduler | `ghcr.io/zammad/zammad:7.1.1-0044` | Worker |
+| Zammad Scheduler | `ghcr.io/zammad/zammad:7.1.2` | Worker |
 | Redis | `redis:8.8-alpine` | Database |
-| Zammad Rails | `ghcr.io/zammad/zammad:7.1.1-0044` | Worker |
-| Zammad Websocket | `ghcr.io/zammad/zammad:7.1.1-0044` | Worker |
+| Zammad Rails | `ghcr.io/zammad/zammad:7.1.2` | Worker |
+| Zammad Websocket | `ghcr.io/zammad/zammad:7.1.2` | Worker |
 
 ## Environment variables
 

@@ -1,4 +1,4 @@
-# Deploy Bifrost LLM Gateway on Railway
+# Deploy Bifrost on Railway
 
 High-performance AI gateway for 12+ LLM providers via one OpenAI API
 

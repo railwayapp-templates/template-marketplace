@@ -49,7 +49,10 @@ A Caddy reverse proxy is included so the dashboard and API are served from a sin
 | `PORT` | op-proxy | 8080 | - |
 | `CADDYFILE` | op-proxy | :{$PORT} {
 	handle_path /api/* {
-		reverse_proxy {$API_URL}
+		reverse_proxy {$API_URL} {
+			header_up openpanel-client-ip {http.request.header.X-Real-Ip}
+			header_up x-client-ip {http.request.header.X-Real-Ip}
+		}
 	}
 	reverse_proxy /* {$DASHBOARD_URL}
 } | - |

@@ -10,9 +10,9 @@ Deploy Drupal, an open source content management platform
 This template uses the Drupal [https://github.com/docker-library/drupal](docker image) mantained by the docker community, not the Drupal team itself.
 
 ## Configuration
-By default, the version of Drupal deployed is Drupal 10, served through PHP version 8.2. This can be overriden by updating the `Root Directory` in the service's `General` settings.
+By default, the version of Drupal deployed is Drupal 11, served through PHP version 8.2. This can be overriden by updating the `Root Directory` in the service's `General` settings.
 
-It is currently set to the path to the `Dockerfile` satisfying the above versions of Drupal and PHP `/10.0/php8.2/apache-bookworm`, though this can be updated to point to any other `Dockerfile` in the repository that contains the you require.
+It is currently set to the path to the `Dockerfile` satisfying the above versions of Drupal and PHP `/11.4/php8.5/apache-bookworm`, though this can be updated to point to any other `Dockerfile` in the repository that contains the version you require.
 
 ## Database
 Drupal supports multiple database services, namely MySQL, MariaDB, Percona Server, PostgreSQL and SQLite (see the [docs](https://www.drupal.org/docs/getting-started/system-requirements/database-server-requirements) for more information). This template is set up to deploy a PostgreSQL database for ease of deployment, but this can be replaced with whichever is needed.
@@ -30,7 +30,7 @@ No further configuration is required, after starting the service, and installing
 
 | Service | Source | Type |
 |---------|--------|------|
-| drupal | [docker-library/drupal](https://github.com/docker-library/drupal) (root: /10.0/php8.2/apache-bookworm) | Web service |
+| drupal | [docker-library/drupal](https://github.com/docker-library/drupal) (root: /11.4/php8.5/apache-bookworm) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:latest` | Database |
 
 ## Environment variables

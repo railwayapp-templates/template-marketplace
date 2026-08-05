@@ -20,32 +20,33 @@ Hosting Outline on Railway provisions the full stack with minimal configuration.
 
 ## Environment variables
 
-| Variable | Service | Default | Description |
-| --------- | ------- | ------- | ----------- |
-| `REDISHOST` | redis | - | Redis server hostname on the private network. |
-| `REDISPORT` | redis | - | Redis server hostname on the private network. |
-| `REDISUSER` | redis | - | Redis username for authentication. |
-| `REDIS_URL` | redis | - | Internal Redis connection URL for service-to-service communication. |
-| `REDISPASSWORD` | redis | (secret) | Redis password (alias of REDIS_PASSWORD). |
-| `REDIS_PASSWORD` | redis | (secret) | Auto-generated Redis password. |
-| `REDIS_PUBLIC_URL` | redis | - | Public Redis connection URL via TCP proxy for external access. |
-| `URL` | outline | - | Public URL of your Outline instance. Uses the Railway-generated domain. |
-| `PORT` | outline | - | HTTP port for the Outline web server. Set automatically by Railway. |
-| `NODE_ENV` | outline | - | Node.js runtime environment. Use production for deployed instances. |
-| `REDIS_URL` | outline | - | Redis connection URL. References the managed redis service. |
-| `SECRET_KEY` | outline | (secret) | Secret key for encrypting sessions and cookies. Auto-generated; do not change after first deploy. |
-| `FORCE_HTTPS` | outline | - | Redirect HTTP requests to HTTPS. Should remain enabled in production. |
-| `DATABASE_URL` | outline | - | PostgreSQL connection URL. References the managed postgres service. |
-| `FILE_STORAGE` | outline | - | File storage backend. Use local storage with the attached volume. |
-| `NODE_OPTIONS` | outline | - | Node.js runtime flags. Suppresses localStorage warnings on newer Node versions. |
-| `UTILS_SECRET` | outline | (secret) | Secret used for utility operations and background tasks. Auto-generated; do not change after first deploy. |
-| `DEFAULT_LANGUAGE` | outline | - | Default language for the Outline user interface. |
-| `FILE_STORAGE_LOCAL_ROOT_DIR` | outline | - | Directory path for locally stored uploads and attachments. |
-| `POSTGRES_DB` | postgres | - | Default database name created on initialization. |
-| `DATABASE_URL` | postgres | - | Internal PostgreSQL connection URL for service-to-service communication. |
-| `POSTGRES_USER` | postgres | (secret) | PostgreSQL superuser username. |
-| `POSTGRES_PASSWORD` | postgres | (secret) | Auto-generated PostgreSQL password. |
-| `DATABASE_PUBLIC_URL` | postgres | - | Public PostgreSQL connection URL via TCP proxy for external access. |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `URL` | - | Public URL of your Outline instance. Uses the Railway-generated domain. |
+| `PORT` | - | HTTP port for the Outline web server. Set automatically by Railway. |
+| `NODE_ENV` | production | Node.js runtime environment. Use production for deployed instances. |
+| `REDIS_URL` | - | Redis connection URL. References the managed redis service. |
+| `SECRET_KEY` | (secret) | Secret key for encrypting sessions and cookies. Auto-generated; do not change after first deploy. |
+| `FORCE_HTTPS` | true | Redirect HTTP requests to HTTPS. Should remain enabled in production. |
+| `DATABASE_URL` | - | PostgreSQL connection URL. References the managed postgres service. |
+| `FILE_STORAGE` | local | File storage backend. Use local storage with the attached volume. |
+| `NODE_OPTIONS` | --no-experimental-webstorage | Node.js runtime flags. Suppresses localStorage warnings on newer Node versions. |
+| `SMTP_SERVICE` | - | SMTP service for transactional emails (optional). See https://docs.getoutline.com/s/hosting/doc/smtp-cqCJyZGMIB |
+| `UTILS_SECRET` | (secret) | Secret used for utility operations and background tasks. Auto-generated; do not change after first deploy. |
+| `OIDC_AUTH_URI` | - | OpenID Connect authorization endpoint (optional). |
+| `SMTP_PASSWORD` | (secret) | SMTP password (optional). |
+| `SMTP_USERNAME` | (secret) | SMTP username (optional). |
+| `OIDC_CLIENT_ID` | - | OpenID Connect client ID (optional alternative auth). See https://docs.getoutline.com/s/hosting/doc/oidc-8CPBm6uC0I |
+| `OIDC_TOKEN_URI` | (secret) | OpenID Connect token endpoint (optional). |
+| `SLACK_CLIENT_ID` | - | Slack OAuth client ID (optional alternative auth). See https://docs.getoutline.com/s/hosting/doc/slack-sgMujR8J9J |
+| `SMTP_FROM_EMAIL` | - | From address for outgoing emails (optional). |
+| `DEFAULT_LANGUAGE` | en_US | Default language for the Outline user interface. |
+| `GOOGLE_CLIENT_ID` | - | Google OAuth client ID. Required for sign-in. See https://docs.getoutline.com/s/hosting/doc/google-hOuvtCmTqQ |
+| `OIDC_USERINFO_URI` | - | OpenID Connect userinfo endpoint (optional). |
+| `OIDC_CLIENT_SECRET` | (secret) | OpenID Connect client secret (optional). |
+| `SLACK_CLIENT_SECRET` | (secret) | Slack OAuth client secret (optional). |
+| `GOOGLE_CLIENT_SECRET` | (secret) | Google OAuth client secret. Required for sign-in. |
+| `FILE_STORAGE_LOCAL_ROOT_DIR` | /var/lib/outline/data | Directory path for locally stored uploads and attachments. |
 
 ## Configuration
 

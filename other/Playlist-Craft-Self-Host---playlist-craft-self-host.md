@@ -17,50 +17,52 @@ One-click deploy creates a Railway project with the web dashboard, main/s3/rende
 | render-server | [juppfy/playlistcraft-self-host](https://github.com/juppfy/playlistcraft-self-host) (root: /render-api) | Web service |
 | main-server | [juppfy/playlistcraft-self-host](https://github.com/juppfy/playlistcraft-self-host) (root: /server) | Web service |
 | s3-server | [juppfy/playlistcraft-self-host](https://github.com/juppfy/playlistcraft-self-host) (root: /s3-server) | Web service |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | Frontend | [juppfy/playlistcraft-self-host](https://github.com/juppfy/playlistcraft-self-host) (root: /) | Web service |
 | youtube-server | [juppfy/playlistcraft-self-host](https://github.com/juppfy/playlistcraft-self-host) (root: /youtube-upload-api) | Web service |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `PORT` | render-server | 8000 |
-| `API_KEY` | render-server | (secret) |
-| `SECRET_ACCESS_KEY` | render-server | (secret) |
-| `OPENROUTER_API_KEY` | render-server | (secret) |
-| `FAL_SCRIBE_MODEL_ID` | render-server | fal-ai/elevenlabs/speech-to-text/scribe-v2 |
-| `OPENROUTER_SITE_URL` | render-server | https://playlistcraft.com |
-| `OPENROUTER_SITE_NAME` | render-server | playlistcraft |
-| `CAPTION_CHUNK_TARGET_MB` | render-server | 20 |
-| `CAPTION_CHUNK_INITIAL_SECONDS` | render-server | 300 |
-| `OPENROUTER_TRANSCRIPTION_MODEL` | render-server | openai/whisper-1 |
-| `OPENROUTER_TRANSCRIPTION_TIMEOUT` | render-server | 600 |
-| `PORT` | main-server | 4000 |
-| `API_KEY` | main-server | (secret) |
-| `SUNO_API_KEY` | main-server | (secret) |
-| `RENDER_API_KEY` | main-server | (secret) |
-| `RESEND_API_KEY` | main-server | (secret) |
-| `ZEPTOMAIL_TOKEN` | main-server | (secret) |
-| `S3_SERVER_API_KEY` | main-server | (secret) |
-| `OPENROUTER_API_KEY` | main-server | (secret) |
-| `YOUTUBE_UPLOAD_API_KEY` | main-server | (secret) |
-| `PORT` | s3-server | 8080 |
-| `PRESIGN_API_KEY` | s3-server | (secret) |
-| `S3_SECRET_ACCESS_KEY` | s3-server | (secret) |
-| `PRESIGN_EXPIRY_SECONDS` | s3-server | 604800 |
-| `SUNO_API_KEY` | Frontend | (secret) |
-| `AUTH_PROVIDER` | Frontend | better-auth |
-| `BETTER_AUTH_SECRET` | Frontend | (secret) |
-| `OPENROUTER_API_KEY` | Frontend | (secret) |
-| `PLAYLIST_BACKEND_API_KEY` | Frontend | (secret) |
-| `NEXT_PUBLIC_AUTH_PROVIDER` | Frontend | better-auth |
-| `API_KEY` | youtube-server | (secret) |
-| `YOUTUBE_STATE_SECRET` | youtube-server | (secret) |
-| `YOUTUBE_CLIENT_SECRET` | youtube-server | (secret) |
-| `YOUTUBE_TOKEN_ENC_KEY` | youtube-server | (secret) |
-| `POSTGRES_USER` | Postgres | (secret) |
-| `POSTGRES_PASSWORD` | Postgres | (secret) |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `PORT` | render-server | 8000 | - |
+| `API_KEY` | render-server | (secret) | - |
+| `SECRET_ACCESS_KEY` | render-server | (secret) | - |
+| `OPENROUTER_API_KEY` | render-server | (secret) | - |
+| `FAL_SCRIBE_MODEL_ID` | render-server | fal-ai/elevenlabs/speech-to-text/scribe-v2 | - |
+| `OPENROUTER_SITE_URL` | render-server | https://playlistcraft.com | - |
+| `OPENROUTER_SITE_NAME` | render-server | playlistcraft | - |
+| `CAPTION_CHUNK_TARGET_MB` | render-server | 20 | - |
+| `CAPTION_CHUNK_INITIAL_SECONDS` | render-server | 300 | - |
+| `OPENROUTER_TRANSCRIPTION_MODEL` | render-server | openai/whisper-1 | - |
+| `OPENROUTER_TRANSCRIPTION_TIMEOUT` | render-server | 600 | - |
+| `PORT` | main-server | 4000 | - |
+| `API_KEY` | main-server | (secret) | - |
+| `SUNO_API_KEY` | main-server | (secret) | - |
+| `RENDER_API_KEY` | main-server | (secret) | - |
+| `RESEND_API_KEY` | main-server | (secret) | - |
+| `ZEPTOMAIL_TOKEN` | main-server | (secret) | - |
+| `S3_SERVER_API_KEY` | main-server | (secret) | - |
+| `OPENROUTER_API_KEY` | main-server | (secret) | - |
+| `YOUTUBE_UPLOAD_API_KEY` | main-server | (secret) | - |
+| `PORT` | s3-server | 8080 | - |
+| `PRESIGN_API_KEY` | s3-server | (secret) | - |
+| `S3_SECRET_ACCESS_KEY` | s3-server | (secret) | - |
+| `PRESIGN_EXPIRY_SECONDS` | s3-server | 604800 | - |
+| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
+| `SUNO_API_KEY` | Frontend | (secret) | - |
+| `AUTH_PROVIDER` | Frontend | better-auth | - |
+| `BETTER_AUTH_SECRET` | Frontend | (secret) | - |
+| `OPENROUTER_API_KEY` | Frontend | (secret) | - |
+| `PLAYLIST_BACKEND_API_KEY` | Frontend | (secret) | - |
+| `NEXT_PUBLIC_AUTH_PROVIDER` | Frontend | better-auth | - |
+| `API_KEY` | youtube-server | (secret) | - |
+| `YOUTUBE_STATE_SECRET` | youtube-server | (secret) | - |
+| `YOUTUBE_CLIENT_SECRET` | youtube-server | (secret) | - |
+| `YOUTUBE_TOKEN_ENC_KEY` | youtube-server | (secret) | - |
 
 ## Configuration
 

@@ -29,7 +29,7 @@ For operations transaction pooling can not serve (migrations, LISTEN/NOTIFY, ses
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| PgBouncer | `ghcr.io/railwayapp-templates/pgbouncer:1` | TCP service |
+| PgBouncer | `ghcr.io/railwayapp-templates/pgbouncer:1` | Worker |
 
 ## Environment variables
 
@@ -39,7 +39,6 @@ For operations transaction pooling can not serve (migrations, LISTEN/NOTIFY, ses
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
-| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `AUTH_USER` | PgBouncer | (secret) | - |
 | `POOL_MODE` | PgBouncer | transaction | - |
 | `AUTH_QUERY` | PgBouncer | SELECT usename, passwd FROM pg_shadow WHERE usename=$1 | - |
@@ -52,7 +51,6 @@ For operations transaction pooling can not serve (migrations, LISTEN/NOTIFY, ses
 
 ## Configuration
 
-- **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Storage

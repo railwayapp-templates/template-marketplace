@@ -84,7 +84,6 @@ Automatically fails over to a secondary if primary is unavailable (while invalid
 
 - **Volume:** `/var/lib/etcd`
 - **Volume:** `/var/lib/postgresql/data`
-- **TCP Proxies:** 5432
 
 **Category:** Other
 

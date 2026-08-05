@@ -42,7 +42,7 @@ the cap entirely.
 | Service | Source | Type |
 |---------|--------|------|
 | Redis | `redis:8.2.1` | Database |
-| main | `n8nio/n8n:2.20.9` | Database |
+| main | `n8nio/n8n:2.20.9` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | worker | `n8nio/n8n:2.20.9` | Worker |
 
@@ -107,6 +107,7 @@ the cap entirely.
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
+- **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 

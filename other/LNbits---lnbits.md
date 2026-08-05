@@ -1,4 +1,4 @@
-# Deploy lnbits on Railway
+# Deploy LNbits on Railway
 
 Bitcoin Lightning wallet & payments API powered by an ACINQ phoenixd node.
 

@@ -1,4 +1,4 @@
-# Deploy buzz on Railway
+# Deploy Buzz - Block on Railway
 
 Self-host Buzz: chat, code review and git for humans and AI agents
 
@@ -32,6 +32,7 @@ second bill.
 | Redis | `redis:8.2.1` | Database |
 | buzz | `ghcr.io/hmseeb/buzz-railway:latest` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| hmseeb/buzz-railway:latest | `ghcr.io/hmseeb/buzz-railway:latest` | Worker |
 | MinIO | `ghcr.io/hmseeb/buzz-railway-minio:latest` | Database |
 
 ## Environment variables
@@ -49,6 +50,7 @@ second bill.
 | `POSTGRES_DB` | Postgres | railway | - |
 | `POSTGRES_USER` | Postgres | (secret) | - |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | - |
+| `PORT` | hmseeb/buzz-railway:latest | 5000 | - |
 | `PORT` | MinIO | 9000 | - |
 | `MINIO_ROOT_PASSWORD` | MinIO | (secret) | - |
 
@@ -58,6 +60,7 @@ second bill.
 - **Volume:** `/data`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
+- **Start command:** `buzz-pair-relay`
 
 **Category:** AI/ML
 

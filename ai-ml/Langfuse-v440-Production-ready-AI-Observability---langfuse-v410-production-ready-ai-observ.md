@@ -1,4 +1,4 @@
-# Deploy Langfuse v4.1.0 (Production ready AI Observability) on Railway
+# Deploy Langfuse v4.4.0 (Production ready AI Observability) on Railway
 
 Open-source LLM platform for prompt management, tracing, evals & metrics
 
@@ -15,11 +15,11 @@ Hosting Langfuse v4 means running two application containers—`langfuse-web` an
 | Service | Source | Type |
 |---------|--------|------|
 | redis | `redis:8.2.1` | Database |
-| langfuse-worker | `langfuse/langfuse-worker:4.3.0` | Worker |
+| langfuse-worker | `langfuse/langfuse-worker:4.4.0` | Worker |
 | postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16.11` | Database |
 | clickhouse | `clickhouse/clickhouse-server:26.4` | Database |
 | minio | `minio/minio` | Database |
-| langfuse-web | `langfuse/langfuse:4.1.0` | Web service |
+| langfuse-web | `langfuse/langfuse:4.4.0` | Web service |
 
 ## Environment variables
 
