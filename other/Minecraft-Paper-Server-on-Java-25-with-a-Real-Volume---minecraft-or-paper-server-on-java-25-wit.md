@@ -20,17 +20,18 @@ The image is pinned, and pinned to a Java 25 build on purpose. Paper 26.1 and ne
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `MOTD` | A Minecraft server on Railway |
-| `TYPE` | PAPER |
-| `MEMORY` | 2G |
-| `VERSION` | LATEST |
-| `DIFFICULTY` | normal |
-| `MAX_PLAYERS` | 20 |
-| `RCON_PASSWORD` | (secret) |
-| `USE_AIKAR_FLAGS` | true |
-| `ENABLE_ROLLING_LOGS` | true |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `EULA` | TRUE | Accepts the Mojang EULA (https://aka.ms/MinecraftEULA) on your behalf. The server only starts on TRUE - any other value leaves a green deploy with a stopped server. |
+| `MOTD` | A Minecraft server on Railway | - |
+| `TYPE` | PAPER | - |
+| `MEMORY` | 512M | Java heap size. 512M fits the Trial plan's 1 GB per service; raise it to 2G or more on Hobby for a bigger world or more players. |
+| `VERSION` | LATEST | - |
+| `DIFFICULTY` | normal | - |
+| `MAX_PLAYERS` | 20 | - |
+| `RCON_PASSWORD` | (secret) | - |
+| `USE_AIKAR_FLAGS` | false | Aikar's JVM flags. Tuned for heaps of 4G and up - leave off at 512M. Turn on together with a larger MEMORY. |
+| `ENABLE_ROLLING_LOGS` | true | - |
 
 ## Configuration
 

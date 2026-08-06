@@ -1,22 +1,16 @@
 # Deploy Supabase on Railway
 
-Supabase without Functions and Logflare
+The ultimate Postgres development platform
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/supabase)
 
 ## About
 
-Supabase is the open source Firebase alternative. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
+Supabase is the open-source Firebase alternative. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications. Deploy a fully customizable Supabase deployment in just a few clicks - modify, remove unused services, and customize to fit your exact project's needs.
 
 Hosting Supabase means running multiple interconnected services including the Studio interface, PostgreSQL database, authentication layer, and real-time subscriptions. The platform requires coordinating database connections, managing JWT token configurations, setting up authentication services, and handling real-time WebSocket connections. Production deployment involves configuring service discovery, managing secrets across multiple containers, and ensuring proper networking between components. 
 
 Railway simplifies the multi-service deployment by handling container orchestration, managing environment variable sharing between services, and providing integrated PostgreSQL hosting with the Supabase stack.
-
-![Supabase Logo](https://github.com/supabase.png)
-
-**Not a complete Supabase deployment!**
-
-This template contains Supabase Studio, Postgrest, Supabase Auth, Supabase Realtime, PostgreSQL, and Storage features. Features that require logs or edge functions will not work with this deployment. These features are not compatible with Railway yet and will be added in a future release. Some core Supabase functions may require these features, and errors may appear in Supabase Studio when trying to access these. Use in production at your own risk - this deployment is based on the examples in the Supabase GitHub repository.
 
 ## What gets deployed
 

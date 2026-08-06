@@ -20,15 +20,18 @@ Self hosting Hermes Agent means your conversations, memories, skills, and API ke
 
 | Variable | Default |
 | --------- | ------- |
-| `PORT` | 9119 |
-| `HERMES_HOME` | /opt/data |
-| `GATEWAY_ALLOW_ALL_USERS` | true |
+| `HERMES_DASHBOARD` | 1 |
+| `HERMES_DASHBOARD_HOST` | 0.0.0.0 |
+| `HERMES_DASHBOARD_PORT` | 9119 |
+| `HERMES_DASHBOARD_BASIC_AUTH_SECRET` | (secret) |
+| `HERMES_DASHBOARD_BASIC_AUTH_PASSWORD` | (secret) |
+| `HERMES_DASHBOARD_BASIC_AUTH_USERNAME` | (secret) |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/opt/data`
 
-**Category:** Other · **Languages:** Dockerfile, Shell
+**Category:** Other · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/hermes)

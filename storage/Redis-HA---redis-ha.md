@@ -45,6 +45,7 @@ Do not connect directly to individual Redis nodes.
 | Variable | Service | Default |
 | --------- | ------- | ------- |
 | `REDIS_PORT` | Redis HA | 6379 |
+| `REDISPASSWORD` | Redis HA | (secret) |
 | `REDIS_PASSWORD` | Redis HA | (secret) |
 | `HAPROXY_MAX_CONN` | Redis HA | 10000 |
 | `HAPROXY_TIMEOUT_CHECK` | Redis HA | 3s |
@@ -54,8 +55,10 @@ Do not connect directly to individual Redis nodes.
 | `HAPROXY_CHECK_DOWNINTER` | Redis HA | 500ms |
 | `HAPROXY_CHECK_FASTINTER` | Redis HA | 500ms |
 | `HAPROXY_TIMEOUT_CONNECT` | Redis HA | 10s |
+| `REDISUSER` | Redis-1 | default |
 | `REDIS_PORT` | Redis-1 | 6379 |
 | `HEALTH_PORT` | Redis-1 | 8080 |
+| `REDISPASSWORD` | Redis-1 | (secret) |
 | `SENTINEL_PORT` | Redis-1 | 26379 |
 | `REDIS_PASSWORD` | Redis-1 | (secret) |
 | `SENTINEL_QUORUM` | Redis-1 | 2 |
@@ -69,9 +72,11 @@ Do not connect directly to individual Redis nodes.
 | `REDIS_MIN_REPLICAS_TO_WRITE` | Redis-1 | 1 |
 | `SENTINEL_ANNOUNCE_HOSTNAMES` | Redis-1 | yes |
 | `SENTINEL_FAILOVER_TIMEOUT_MS` | Redis-1 | 30000 |
+| `REDISPASSWORD` | Redis-2 | (secret) |
 | `SENTINEL_PORT` | Redis-2 | 26379 |
 | `REDIS_PASSWORD` | Redis-2 | (secret) |
 | `SENTINEL_ENABLED` | Redis-2 | true |
+| `REDISPASSWORD` | Redis-3 | (secret) |
 | `SENTINEL_PORT` | Redis-3 | 26379 |
 | `REDIS_PASSWORD` | Redis-3 | (secret) |
 | `SENTINEL_ENABLED` | Redis-3 | true |

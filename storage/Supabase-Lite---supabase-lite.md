@@ -110,6 +110,6 @@ Supabase Lite runs 7 Docker-based services on Railway's managed infrastructure. 
 - **Healthcheck:** `/minio/health/live`
 - **Volume:** `/data`
 
-**Category:** Starters · **Languages:** Shell, Dockerfile
+**Category:** Storage · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/supabase-lite)

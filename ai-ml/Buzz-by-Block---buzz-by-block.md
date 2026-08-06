@@ -1,6 +1,6 @@
 # Deploy Buzz by Block on Railway
 
-A hive mind communication platform
+Deploy and Host Buzz Relay on Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/buzz-by-block)
 

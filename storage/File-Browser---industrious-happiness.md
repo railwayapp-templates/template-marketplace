@@ -25,7 +25,7 @@ The service is self-contained — no external database, cache, or dependencies a
 
 | Service | Source | Type |
 |---------|--------|------|
-| File Browser | [INAPP-Mobile/railway-filebrowser](https://github.com/INAPP-Mobile/railway-filebrowser) | Database |
+| File Browser | [INAPP-Mobile/railway-filebrowser](https://github.com/INAPP-Mobile/railway-filebrowser) | Web service |
 
 ## Environment variables
 
@@ -38,6 +38,7 @@ The service is self-contained — no external database, cache, or dependencies a
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/srv`
 
 **Category:** Storage · **Languages:** Dockerfile, Shell

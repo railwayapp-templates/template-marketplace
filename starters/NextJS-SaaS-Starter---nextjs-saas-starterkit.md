@@ -32,7 +32,7 @@ Deploying this kit as a Railway template simplifies the infrastructure orchestra
 | `MINIO_PORT` | nextjs-saas-starterkit | 9000 | - |
 | `GOOGLE_CLIENT_ID` | nextjs-saas-starterkit | your-google-client-id | https://better-auth.com/docs/authentication/google |
 | `MINIO_SECRET_KEY` | nextjs-saas-starterkit | (secret) | - |
-| `SENDGRID_API_KEY` | nextjs-saas-starterkit | (secret) | - |
+| `SENDGRID_API_KEY` | nextjs-saas-starterkit | (secret) | your-sendgrid-api-key |
 | `MINIO_BUCKET_NAME` | nextjs-saas-starterkit | bucket | - |
 | `STRIPE_SECRET_KEY` | nextjs-saas-starterkit | (secret) | - |
 | `BETTER_AUTH_SECRET` | nextjs-saas-starterkit | (secret) | - |

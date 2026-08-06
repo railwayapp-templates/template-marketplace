@@ -12,38 +12,23 @@ Check if coordinate is on water (seas, lakes, and rivers) with 1m precision
 
 - Single coordinate
 
-`GET /api/is-on-water?lat=${lat}&lon=${lon}`
+`GET /api/water?lat=${lat}&lon=${lon}`
 
 - Batch coordinates
 
-`POST /api/is-on-water` with body containing array of coordinate objects `[{ lat, lon }, { lat, lon }, ...]`
+`POST /api/water` with body containing array of coordinate objects `[{ lat, lon }, { lat, lon }, ...]`
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
 | backend | [osbytes/is-on-water](https://github.com/osbytes/is-on-water) | Web service |
-| Redis | `bitnami/redis` | Database |
-
-## Environment variables
-
-| Variable | Default | Description |
-| --------- | ------- | ----------- |
-| `REDISHOST` | - | Railway Private Domain Name. |
-| `REDISPORT` | 6379 | Port to connect to Redis. |
-| `REDISUSER` | default | Default user to connect to Redis. |
-| `REDIS_URL` | - | URL to connect to Redis over the private network. |
-| `REDISPASSWORD` | (secret) | Password to connect to Redis. |
-| `REDIS_PASSWORD` | (secret) | Password to connect to Redis. |
-| `REDIS_PUBLIC_URL` | - | Public URL to connect to Redis, needed for the Data panel. |
 
 ## Configuration
 
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
-- **TCP Proxies:** 6379
-- **Volume:** `/bitnami`
 
-**Category:** Other · **Languages:** TypeScript, HTML, JavaScript, Dockerfile
+**Category:** Other · **Languages:** TypeScript, JavaScript, HTML, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/MfUYQX)

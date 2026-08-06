@@ -30,7 +30,7 @@ No further configuration is required, after starting the service, and installing
 
 | Service | Source | Type |
 |---------|--------|------|
-| drupal | [docker-library/drupal](https://github.com/docker-library/drupal) (root: /11.4/php8.5/apache-bookworm) | Web service |
+| drupal | [docker-library/drupal](https://github.com/docker-library/drupal) (root: /11.4/php8.5/fpm-bookworm) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:latest` | Database |
 
 ## Environment variables

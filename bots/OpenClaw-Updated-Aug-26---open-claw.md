@@ -20,9 +20,10 @@ Self hosting OpenClaw means your conversations, API keys, and configuration stay
 
 | Variable | Default |
 | --------- | ------- |
-| `PORT` | 8080 |
-| `SETUP_PASSWORD` | (secret) |
 | `OPENCLAW_STATE_DIR` | /data/.openclaw |
+| `OPENCLAW_GATEWAY_BIND` | lan |
+| `OPENCLAW_GATEWAY_PORT` | 8080 |
+| `OPENCLAW_GATEWAY_TOKEN` | (secret) |
 | `OPENCLAW_WORKSPACE_DIR` | /data/workspace |
 
 ## Configuration
@@ -30,6 +31,6 @@ Self hosting OpenClaw means your conversations, API keys, and configuration stay
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** Bots · **Languages:** JavaScript, Dockerfile
+**Category:** Bots · **Languages:** Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/open-claw)

@@ -2,7 +2,7 @@
 
 HTTP request & response testing with go-httpbin. Zero config, no vars.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/httpbin)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/httpbin-1)
 
 ## About
 
@@ -58,4 +58,4 @@ Runs on port 8080 (go-httpbin's default). No environment variables required.
 
 **Category:** Other
 
-[View on Railway →](https://railway.com/deploy/httpbin)
+[View on Railway →](https://railway.com/deploy/httpbin-1)

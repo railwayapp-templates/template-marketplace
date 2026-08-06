@@ -16,8 +16,8 @@ FerretDB enables you to use your existing MongoDB tools and drivers seamlessly w
 
 | Service | Source | Type |
 |---------|--------|------|
-| ferretdb | `ghcr.io/ferretdb/ferretdb:latest` | Worker |
-| Postgres | `ghcr.io/ferretdb/postgres-documentdb:latest` | Database |
+| ferretdb | `ghcr.io/ferretdb/ferretdb:2.7.0` | TCP service |
+| Postgres | `ghcr.io/ferretdb/postgres-documentdb:17-0.107.0-ferretdb-2.7.0` | Database |
 
 ## Environment variables
 
@@ -29,6 +29,7 @@ FerretDB enables you to use your existing MongoDB tools and drivers seamlessly w
 
 ## Configuration
 
+- **TCP Proxies:** 27017
 - **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Storage

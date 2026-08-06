@@ -23,6 +23,8 @@ You can self-host Pocketbase to keep all your app data, user authentication, and
 | Variable | Default |
 | --------- | ------- |
 | `PORT` | 8080 |
+| `PB_ADMIN_PASS` | L6inoglSiyY2YR3xRbtRziF1 |
+| `PB_ADMIN_EMAIL` | admin@example.com |
 
 ## Configuration
 
