@@ -1,6 +1,6 @@
 # Deploy MinIO (without Console) on Railway
 
-Deploy this application on Railway.
+Deploy and Host MinIO (without Console) with Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minio)
 

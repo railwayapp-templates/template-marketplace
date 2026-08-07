@@ -43,7 +43,15 @@ Grafana Tempo is a high-performance, scalable, and easy-to-operate distributed t
 
 ## 🪲 Bug Reporting
 
-If you find a bug in the template for railway, you can [submit an issue](https://github.com/douglasrubims/railway-tempo/issues/new) to the GitHub Repository. Even better you can submit a Pull Request with a fix.
+If you find a bug in the template for railway, you can [submit an issue](https://github.com/douglasrubims/railway-tempo/issues/new) to the GitHub Repository. Even better you can submit a Pull Request with a fix. 
+
+---
+
+## Template Author
+
+Created and maintained by **Douglas Rubim**.
+
+GitHub: https://github.com/douglasrubims
 
 ## What gets deployed
 

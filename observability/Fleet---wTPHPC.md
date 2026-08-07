@@ -26,7 +26,7 @@ Documentation: [fleetdm.com/docs](https://fleetdm.com/docs/get-started/why-fleet
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `bitnami/redis:7.2.5` | Database |
+| Redis | `redis:8.2.1` | Database |
 | MySQL | `mysql:9` | Database |
 | Fleet | `fleetdm/fleet:latest` | Web service |
 

@@ -2,7 +2,7 @@
 
 Self-host ChromaDB on Railway with persistent storage and an HTTP API.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chromadb-template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rocket-chromadb)
 
 ## About
 
@@ -24,4 +24,4 @@ The template is ideal for AI applications that need a self-hosted vector databas
 
 **Category:** Other · **Languages:** Dockerfile
 
-[View on Railway →](https://railway.com/deploy/chromadb-template)
+[View on Railway →](https://railway.com/deploy/rocket-chromadb)

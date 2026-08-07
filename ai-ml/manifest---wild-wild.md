@@ -29,6 +29,9 @@ Hosting Manifest on Railway runs the Manifest web app/API alongside a managed Po
 | `PORT` | manifestdotbuild/manifest | 2099 | - |
 | `MANIFEST_MODE` | manifestdotbuild/manifest | selfhosted | - |
 | `BETTER_AUTH_SECRET` | manifestdotbuild/manifest | (secret) | - |
+| `REQUEST_RECORDING_STORAGE` | manifestdotbuild/manifest | auto | - |
+| `REQUEST_RECORDING_S3_FORCE_PATH_STYLE` | manifestdotbuild/manifest | false | - |
+| `REQUEST_RECORDING_S3_SECRET_ACCESS_KEY` | manifestdotbuild/manifest | (secret) | - |
 
 ## Configuration
 

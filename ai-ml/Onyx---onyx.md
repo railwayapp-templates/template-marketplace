@@ -1,4 +1,4 @@
-# Deploy onyx on Railway
+# Deploy Onyx on Railway
 
 Open Source AI Platform - AI Chat with advanced features
 

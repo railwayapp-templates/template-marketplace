@@ -16,7 +16,7 @@ Setup is one volume mounted at `/data` and five environment variables that boots
 
 | Service | Source | Type |
 |---------|--------|------|
-| rwnalds/engram:latest | `ghcr.io/rwnalds/engram:latest` | Database |
+| rwnalds/engram:latest | `ghcr.io/rwnalds/engram-app:latest` | Database |
 
 ## Environment variables
 

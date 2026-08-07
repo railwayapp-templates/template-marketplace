@@ -28,7 +28,8 @@ Do not connect directly to individual Redis nodes.
 
 ## Scaling
 
-- **Replicas**: scale from 2-5 using the cluster overview
+- **Replicas**: even counts (2/4/6/8) via the cluster overview — the cluster
+  totals 3, 5, 7 or 9 Redis nodes, keeping the colocated-Sentinel voter count odd
 - Sentinel quorum is `ceil(nodes/2)` - defaults are sized for 3 total nodes
 
 ## What gets deployed

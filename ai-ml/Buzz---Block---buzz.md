@@ -1,6 +1,6 @@
 # Deploy Buzz - Block on Railway
 
-Self-host Buzz: chat, code review and git for humans and AI agents
+Code review, chat and git for humans and AI coding agents. By Block.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/buzz)
 
