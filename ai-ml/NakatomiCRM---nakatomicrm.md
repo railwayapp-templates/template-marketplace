@@ -1,14 +1,21 @@
 # Deploy NakatomiCRM on Railway
 
-Headless Agentic first CRM.
+Headless agent-native CRM — REST, MCP, A2A, ACP.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nakatomicrm)
 
 ## About
 
-Nakatomi is a headless, agent-native CRM. No human UI to click through — every primitive (contacts, companies, deals, pipelines, activities, notes, tasks, files, relationships, timeline, webhooks) is a REST endpoint and also an MCP tool. Built for Claude, ChatGPT, Cursor, and Perplexity.
+Nakatomi is a **headless, agent-native CRM** (v1.0). REST + MCP + A2A + ACP on Postgres — built for Claude, ChatGPT, Cursor, and custom agent swarms.
 
-Hosting Nakatomi means running a single FastAPI + Postgres service behind Railway's TLS edge. The Dockerfile runs Alembic migrations, boots uvicorn with proxy-header awareness, starts a durable webhook worker, and mounts an MCP server at `/mcp`. OAuth 2.1 + dynamic client registration is baked in so Claude Desktop's GUI connector works out of the box; bearer API keys handle Claude Code, Cursor, and raw HTTP clients. A single 512 MB instance paired with Postgres handles thousands of contacts easily. Files go to a mounted volume by default, or plug in S3/R2 via env vars.
+This template provisions:
+
+- **nakatomi** — FastAPI app (Dockerfile), Alembic migrations on boot, healthcheck at `/health`
+- **Postgres** — managed database with `DATABASE_URL` linked automatically
+- **Volume** at `/app/data` for local file storage
+- Auto-generated `SECRET_KEY` and production defaults
+
+Public URL: `https://railway.com/deploy/nakatomicrm`
 
 ## What gets deployed
 

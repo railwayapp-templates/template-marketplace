@@ -1,4 +1,4 @@
-# Deploy Hermes Agent | Curated Setup | Self-improving option for OpenClaw, Claude Code, Codex and more on Railway
+# Deploy hermes agent: easy self-improving option for open claw, claude code, codex and more on Railway
 
 The simplest curated setup for an Hermes Agent. Curated by impacte.tech
 

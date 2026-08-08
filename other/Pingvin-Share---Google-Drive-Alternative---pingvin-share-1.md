@@ -2,7 +2,7 @@
 
 Self-hosted file-sharing platform
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pingvinshare)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pingvin-share-1)
 
 ## About
 
@@ -18,7 +18,7 @@ Railway simplifies network routing by routing incoming HTTPS traffic directly to
 
 | Service | Source | Type |
 |---------|--------|------|
-| pingvin-share | `stonith404/pingvin-share:latest` | Database |
+| pingvin-share | `stonith404/pingvin-share` | Web service |
 
 ## Environment variables
 
@@ -29,8 +29,9 @@ Railway simplifies network routing by routing incoming HTTPS traffic directly to
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/opt/app/backend/data`
 
-**Category:** Storage
+**Category:** Other
 
-[View on Railway →](https://railway.com/deploy/pingvinshare)
+[View on Railway →](https://railway.com/deploy/pingvin-share-1)

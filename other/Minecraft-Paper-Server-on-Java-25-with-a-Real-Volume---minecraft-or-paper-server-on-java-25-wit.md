@@ -1,6 +1,6 @@
 # Deploy Minecraft | Paper Server on Java 25 with a Real Volume on Railway
 
-Minecraft on Railway: current Java, a volume, and a world that survives
+Minecraft on Railway: a real volume, current Java, Trial plan or above
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minecraft-or-paper-server-on-java-25-wit)
 

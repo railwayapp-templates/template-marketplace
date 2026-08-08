@@ -1,6 +1,6 @@
-# Deploy n8n Queue Mode with Workers — Scalable Automation on Railway
+# Deploy n8n Queue Mode with Workers — Self-Hosted Scaling on Railway
 
-Production n8n with workers, webhooks & Redis queue. Scales horizontally.
+Self-hosted n8n in queue mode — workers, webhooks & Redis. Scales fast.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-queue-mode-workers)
 
