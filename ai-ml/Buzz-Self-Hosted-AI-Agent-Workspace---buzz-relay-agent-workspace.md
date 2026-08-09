@@ -1,6 +1,6 @@
-# Deploy Buzz Relay Pro — Postgres, Redis & S3 on Railway
+# Deploy Buzz — Self-Hosted AI Agent Workspace on Railway
 
-Own your Buzz relay — chat, Git & AI agents on Nostr
+Self-hosted Slack + GitHub alternative for humans & AI agents
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/buzz-relay-agent-workspace)
 

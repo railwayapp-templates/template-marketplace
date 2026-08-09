@@ -2,7 +2,7 @@
 
 The all-in-one, open-source backend platform for agentic coding.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/insforge-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/insforge)
 
 ## About
 
@@ -90,4 +90,4 @@ services, and every credential generated at deploy.
 
 **Category:** Other · **Languages:** TypeScript, Shell, PLpgSQL, JavaScript, CSS, Dockerfile, HTML, Python
 
-[View on Railway →](https://railway.com/deploy/insforge-1)
+[View on Railway →](https://railway.com/deploy/insforge)

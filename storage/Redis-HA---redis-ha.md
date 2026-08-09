@@ -37,9 +37,9 @@ Do not connect directly to individual Redis nodes.
 | Service | Source | Type |
 |---------|--------|------|
 | Redis HA | `ghcr.io/railwayapp-templates/redis-ha/haproxy:3.2-alpine` | Database |
-| Redis-1 | `ghcr.io/railwayapp-templates/redis-ha/redis-sentinel:7-bookworm` | Database |
-| Redis-2 | `ghcr.io/railwayapp-templates/redis-ha/redis-sentinel:7-bookworm` | Database |
-| Redis-3 | `ghcr.io/railwayapp-templates/redis-ha/redis-sentinel:7-bookworm` | Database |
+| Redis-1 | `ghcr.io/railwayapp-templates/redis-ha/redis-sentinel:7` | Database |
+| Redis-2 | `ghcr.io/railwayapp-templates/redis-ha/redis-sentinel:7` | Database |
+| Redis-3 | `ghcr.io/railwayapp-templates/redis-ha/redis-sentinel:7` | Database |
 
 ## Environment variables
 
@@ -63,15 +63,9 @@ Do not connect directly to individual Redis nodes.
 | `SENTINEL_PORT` | Redis-1 | 26379 |
 | `REDIS_PASSWORD` | Redis-1 | (secret) |
 | `SENTINEL_QUORUM` | Redis-1 | 2 |
-| `REDIS_APPENDONLY` | Redis-1 | yes |
 | `SENTINEL_ENABLED` | Redis-1 | true |
 | `REDIS_MASTER_NAME` | Redis-1 | mymaster |
-| `REDIS_PARALLEL_SYNCS` | Redis-1 | 1 |
 | `SENTINEL_DOWN_AFTER_MS` | Redis-1 | 5000 |
-| `REDIS_MIN_REPLICAS_MAX_LAG` | Redis-1 | 10 |
-| `SENTINEL_RESOLVE_HOSTNAMES` | Redis-1 | yes |
-| `REDIS_MIN_REPLICAS_TO_WRITE` | Redis-1 | 1 |
-| `SENTINEL_ANNOUNCE_HOSTNAMES` | Redis-1 | yes |
 | `SENTINEL_FAILOVER_TIMEOUT_MS` | Redis-1 | 30000 |
 | `REDISPASSWORD` | Redis-2 | (secret) |
 | `SENTINEL_PORT` | Redis-2 | 26379 |
