@@ -17,11 +17,11 @@ Before serving users, configure `EMAIL_FROM` and `RESEND_API_KEY`, connect a SER
 | Service | Source | Type |
 |---------|--------|------|
 | temporal | `temporalio/server:1.31.2` | Worker |
-| worker | `corgicorner/bisibility-worker:0.5.1` | Worker |
+| worker | `corgicorner/bisibility-worker:0.6.1` | Worker |
 | redis | `redis:8.2.1` | Database |
 | temporal-postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | temporal-schema | `temporalio/admin-tools:1.31.2` | Worker |
-| web | `corgicorner/bisibility:0.5.1` | Web service |
+| web | `corgicorner/bisibility:0.6.1` | Web service |
 | app-postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | temporal-namespace | `temporalio/admin-tools:1.31.2` | Worker |
 

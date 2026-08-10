@@ -17,9 +17,9 @@ Hosting and deploying TwentyCRM involves setting up the TwentyCRM application on
 
 | Service | Source | Type |
 |---------|--------|------|
-| Twenty | `twentycrm/twenty:v2.24.1` | Web service |
+| Twenty | `twentycrm/twenty:v2.29.0` | Web service |
+| Twenty Worker | `twentycrm/twenty:v2.29.0` | Worker |
 | Redis | `redis:8.2.1` | Database |
-| Twenty Worker | `twentycrm/twenty:v2.24.1` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16.14` | Database |
 
 ## Environment variables
@@ -44,12 +44,6 @@ Hosting and deploying TwentyCRM involves setting up the TwentyCRM application on
 | `STORAGE_S3_ENDPOINT` | Twenty | - | S3 Endpoint |
 | `STORAGE_S3_ACCESS_KEY_ID` | Twenty | - | S3 Key |
 | `STORAGE_S3_SECRET_ACCESS_KEY` | Twenty | (secret) | S3 Secret Key |
-| `REDISPORT` | Redis | 6379 | - |
-| `REDISUSER` | Redis | default | - |
-| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis | (secret) | - |
-| `REDIS_PASSWORD` | Redis | (secret) | - |
-| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 | `REDIS_URL` | Twenty Worker | - | Redis connection URL |
 | `SERVER_URL` | Twenty Worker | - | Server URL |
 | `EMAIL_DRIVER` | Twenty Worker | - | Email Driver |
@@ -69,6 +63,12 @@ Hosting and deploying TwentyCRM involves setting up the TwentyCRM application on
 | `STORAGE_S3_ACCESS_KEY_ID` | Twenty Worker | - | S3 Key |
 | `STORAGE_S3_SECRET_ACCESS_KEY` | Twenty Worker | (secret) | S3 Secret Key |
 | `DISABLE_CRON_JOBS_REGISTRATION` | Twenty Worker | true | It already runs on the server |
+| `REDISHOST` | Redis | - | Redis Domain |
+| `REDISPORT` | Redis | 6379 | Redis Port |
+| `REDISUSER` | Redis | default | Redis User |
+| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
+| `REDISPASSWORD` | Redis | (secret) | Redis Password |
+| `REDIS_PASSWORD` | Redis | (secret) | Redis Password |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
@@ -78,10 +78,9 @@ Hosting and deploying TwentyCRM involves setting up the TwentyCRM application on
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
-- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
-- **TCP Proxies:** 6379
-- **Volume:** `/data`
 - **Start command:** `yarn worker:prod`
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
+- **Volume:** `/data`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 

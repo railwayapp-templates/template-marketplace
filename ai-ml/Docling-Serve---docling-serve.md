@@ -6,7 +6,7 @@ API-key-protected CPU document conversion
 
 ## About
 
-Docling Serve exposes Docling's document understanding and conversion pipelines through synchronous and asynchronous REST APIs and an optional web UI. This template deploys stable CPU-only version 1.29.0 with generated API-key protection and bounded production defaults.
+Docling Serve exposes Docling's document understanding and conversion pipelines through synchronous and asynchronous REST APIs and an optional web UI. This template deploys stable CPU-only version 1.30.0 with generated API-key protection and bounded production defaults.
 
 Authenticate conversion requests with the `X-Api-Key` header set to the generated `DOCLING_SERVE_API_KEY` value.
 

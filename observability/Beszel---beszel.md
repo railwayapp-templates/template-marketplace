@@ -6,7 +6,7 @@ Beszel — lightweight server monitoring with historical data and alerts.
 
 ## About
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/beszel)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/beszel)
 
 ![Beszel OG Image](https://raw.githubusercontent.com/INAPP-Mobile/railway-beszel/main/og-image.svg)
 

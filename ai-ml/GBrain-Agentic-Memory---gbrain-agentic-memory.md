@@ -6,13 +6,11 @@ Get your own self hosted gbrain agentic memory in 2 simple steps
 
 ## About
 
-Your AI agent forgets everything the moment the conversation ends. GBrain is the memory it has been missing — a knowledge base your agent can search, write to, and reason over, living at a URL any MCP client can reach.
+Your AI agent forgets everything the moment the conversation ends. GBrain is the memory it has been missing: a knowledge base your agent can search, write to and reason over, at a URL any MCP client can reach.
 
-Most search tools hand back a list of pages and leave the reading to you. GBrain reads them and writes the answer, with citations — and with an honest note about what it doesn't know yet. Every page it stores is wired into a knowledge graph as you go, so questions like "what did we decide about pricing, and who was in the room?" have somewhere to land.
+Most search tools hand back a list of pages and leave the reading to you. GBrain reads them and writes the answer, with citations, and tells you what it doesn't know yet. Every page it stores is wired into a knowledge graph as you go.
 
-[GBrain](https://github.com/garrytan/gbrain) was built by Garry Tan to run his own agents, and it is designed to run on your infrastructure: your database, your keys, your notes. This template is the shortest path to that. One Railway service with the database built in — no second service to deploy, no connection string to wire up, and nothing that phones home.
-
-Pick an embedding model, add your key for it, and your deploy logs print the exact command to connect your agent. One copy-paste, and it remembers.
+[GBrain](https://github.com/garrytan/gbrain) was built by Garry Tan to run his own agents, on his own infrastructure. This template is the shortest path to that. One Railway service with the database built in. No second service, no connection string, nothing that phones home.
 
 ## What gets deployed
 
@@ -34,6 +32,7 @@ Pick an embedding model, add your key for it, and your deploy logs print the exa
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 

@@ -68,7 +68,7 @@ Happy coding! 🚀
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:latest` | Database |
-| django-rest-starter | [Grey-A/django-rest-starter](https://github.com/Grey-A/django-rest-starter) | Web service |
+| django-rest-starter | [GrandGaleTechnologies/django-rest-starter](https://github.com/GrandGaleTechnologies/django-rest-starter) | Web service |
 
 ## Environment variables
 
@@ -86,6 +86,7 @@ Happy coding! 🚀
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Starters · **Languages:** Python

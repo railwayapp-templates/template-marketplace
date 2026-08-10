@@ -14,7 +14,7 @@ The app runs **inside the `nousresearch/hermes-agent` Docker image**, so the `he
 
 | Service | Source | Type |
 |---------|--------|------|
-| ollama/ollama:latest | `ollama/ollama:latest` | Worker |
+| ollama/ollama:latest | `ollama/ollama:latest` | Database |
 | hermes-kanban-web | [INAPP-Mobile/hermes-kanban-web](https://github.com/INAPP-Mobile/hermes-kanban-web) | Web service |
 
 ## Environment variables
@@ -30,6 +30,7 @@ The app runs **inside the `nousresearch/hermes-agent` Docker image**, so the `he
 ## Configuration
 
 - **Start command:** `ollama serve`
+- **Volume:** `/root/.ollama`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/opt/data`
 

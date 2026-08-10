@@ -6,9 +6,9 @@ Self-hosted AI agent observability with OTLP, evals, and MCP
 
 ## About
 
-Deploy Latitude `v0.3.72`, an open-source observability platform for AI agents and LLM applications. Capture OpenTelemetry traces, inspect sessions and tool calls, evaluate output quality, and use the API or MCP server from a complete Railway-hosted stack.
+Deploy Latitude `v0.3.78`, an open-source observability platform for AI agents and LLM applications. Capture OpenTelemetry traces, inspect sessions and tool calls, evaluate output quality, and use the API or MCP server from a complete Railway-hosted stack.
 
-This template deploys the six matching Latitude `0.3.72` application images: the web UI, public API and MCP server, OTLP ingest, BullMQ workers, Temporal workflow workers, and a one-shot migrations job. PostgreSQL with pgvector, ClickHouse, Redis, Temporal, and a Railway object-storage bucket provide the backing infrastructure.
+This template deploys the six matching Latitude `0.3.78` application images: the web UI, public API and MCP server, OTLP ingest, BullMQ workers, Temporal workflow workers, and a one-shot migrations job. PostgreSQL with pgvector, ClickHouse, Redis, Temporal, and a Railway object-storage bucket provide the backing infrastructure.
 
 The `web`, `api`, and `ingest` services each own a Railway HTTPS domain. PostgreSQL, ClickHouse, Redis, and Temporal remain private. Secrets and infrastructure passwords are generated per deployment and wired through service references.
 
@@ -18,15 +18,15 @@ A working email transport is required for magic-link sign-in. Configure authenti
 
 | Service | Source | Type |
 |---------|--------|------|
-| migrations | `latitudedata/migrations:0.3.72@sha256:6dba5d3a3f5f838e953149324a6bb2c1b1ba733ca5d1ef8185e783df2b0461a1` | Worker |
-| api | `latitudedata/api:0.3.72@sha256:e3c5c9eb9c1c009d659bf72f7b8ad7a7002edcc5a6e4c7799df62f459f939fcf` | Web service |
-| clickhouse | [monotykamary/railway-template-latitude](https://github.com/monotykamary/railway-template-latitude) (root: /clickhouse) | Database |
-| web | `latitudedata/web:0.3.72@sha256:36dadbc6a4350c353affee72f483bc752d973dfb0fb3b5effd257ac9961a24fc` | Web service |
-| ingest | `latitudedata/ingest:0.3.72@sha256:769a32165e82da9e91dff4af59e48df908c4bcf0e0a7df70c99d10488fa8f19c` | Web service |
-| workflows | `latitudedata/workflows:0.3.72@sha256:bcce1f3ec3b340cc1e05590682e03de284baac8d28d7ab7f5e7711bd8a9f08d4` | Worker |
+| migrations | `latitudedata/migrations:0.3.78@sha256:2a42a021fd388a953029c249df3d3258f18e143cd61c3083cda5d64d4ed9369e` | Worker |
+| api | `latitudedata/api:0.3.78@sha256:30da1ac37cf71e242b40b26bcb32763c3166e1caca6eacb9838cb3c213862c8f` | Web service |
+| clickhouse | [monotykamary/railway-template-latitude](https://github.com/monotykamary/railway-template-latitude) (branch: main) (root: /clickhouse) | Database |
+| web | `latitudedata/web:0.3.78@sha256:6e2abf5c1517707ed6ae66bda159a74f49d03b256d861daaca02a3e9bbc3cf4d` | Web service |
+| ingest | `latitudedata/ingest:0.3.78@sha256:c1d8f579993fe8548b3705d56e8b3b01e63463279cb1d7069fd80a8e1b5d794b` | Web service |
+| workflows | `latitudedata/workflows:0.3.78@sha256:8652486edcf293091f09e5d172f5c18249e4d2fb89ff0cca75c9cf0697d23e73` | Worker |
 | redis | `redis:7.4.7-alpine@sha256:02f2cc4882f8bf87c79a220ac958f58c700bdec0dfb9b9ea61b62fb0e8f1bfcf` | Database |
-| postgres | [monotykamary/railway-template-latitude](https://github.com/monotykamary/railway-template-latitude) (root: /postgres) | Database |
-| workers | `latitudedata/workers:0.3.72@sha256:30453602dd4526989a21b4eb5f7b3ee46d2872a03a21f62cd710bb7623f7f591` | Worker |
+| postgres | [monotykamary/railway-template-latitude](https://github.com/monotykamary/railway-template-latitude) (branch: main) (root: /postgres) | Database |
+| workers | `latitudedata/workers:0.3.78@sha256:d307736c3db7e8e16a89f407406a3c0846dbedabe2099eeaae62b47e2e575628` | Worker |
 | temporal | `temporalio/auto-setup:1.27.2@sha256:b44cbfeb43dbeae42db113b44fb8414c3452f05643b3d6b1592f955277d73526` | Worker |
 
 ## Environment variables

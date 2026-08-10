@@ -84,7 +84,7 @@ control the workspace, the license, and the AI provider keys.
 - **Healthcheck:** `/swirl/health/celery/`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
-- **Start command:** `weed server -dir=/data -s3 -volume.max=0 -ip.bind=::`
+- **Start command:** `weed server -dir=/data -s3 -volume.max=0 -master.volumeSizeLimitMB=1024 -ip.bind=::`
 - **Volume:** `/data`
 - **Volume:** `/qdrant/storage`
 - **Start command:** `sh -c 'exec java -cp "/tika-server-standard-${TIKA_VERSION}.jar:/tika-extras/*" org.apache.tika.server.core.TikaServerCli -h "[::]"'`

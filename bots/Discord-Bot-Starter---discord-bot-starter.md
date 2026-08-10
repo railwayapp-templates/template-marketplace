@@ -14,17 +14,29 @@ Railway provides an easy way to deploy your Discord bot without managing servers
 
 | Service | Source | Type |
 |---------|--------|------|
+| MongoDB | `mongo:8.0` | Database |
 | discord-bot-starter | [arloodots/discord-bot-starter](https://github.com/arloodots/discord-bot-starter) | Web service |
 
 ## Environment variables
 
-| Variable | Default | Description |
-| --------- | ------- | ----------- |
-| `NODE_ENV` | production | - |
-| `DISCORD_BOT_TOKEN` | (secret) | Your Discord bot token from the Developer Portal. |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `MONGOHOST` | MongoDB | - | Railway Private Domain Name. |
+| `MONGOPORT` | MongoDB | 27017 | MongoDB Port. |
+| `MONGOUSER` | MongoDB | - | Mongodb user. |
+| `MONGO_URL` | MongoDB | - | Private URL to connect to MongoDB. |
+| `MONGOPASSWORD` | MongoDB | (secret) | Root password. |
+| `MONGO_INITDB_ROOT_PASSWORD` | MongoDB | (secret) | Root user password, set during initialization. |
+| `MONGO_INITDB_ROOT_USERNAME` | MongoDB | (secret) | User created during initialization, given the root role. |
+| `BOT_TOKEN` | discord-bot-starter | (secret) | "your_discord_bot_token" |
+| `CLIENT_ID` | discord-bot-starter | - | "your_discord_application_client_id" |
+| `OPEN_AI_KEY` | discord-bot-starter | - | "your_openai_api_key" |
+| `ADMIN_USER_ID` | discord-bot-starter | - | "your_discord_user_id" |
 
 ## Configuration
 
+- **Start command:** `docker-entrypoint.sh mongod --ipv6 --bind_ip ::,0.0.0.0 --setParameter diagnosticDataCollectionEnabled=false`
+- **Volume:** `/data/db`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Bots · **Languages:** TypeScript, Dockerfile
