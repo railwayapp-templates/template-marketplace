@@ -46,9 +46,9 @@ By deploying Pipely Ai on Railway, you are one step closer to supporting a compl
 | Service | Source | Type |
 |---------|--------|------|
 | evolution-db | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| pipely-ai | [Pedro-Furtado/pipely-ai](https://github.com/Pedro-Furtado/pipely-ai) | Worker |
+| pipely-ai | [Pedro-Furtado/pipely-ai](https://github.com/Pedro-Furtado/pipely-ai) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| evoapicloud/evolution-go:latest | `evoapicloud/evolution-go:latest` | Worker |
+| evoapicloud/evolution-go:latest | `evoapicloud/evolution-go:latest` | Web service |
 
 ## Environment variables
 
@@ -80,6 +80,7 @@ By deploying Pipely Ai on Railway, you are one step closer to supporting a compl
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** Bots · **Languages:** TypeScript, JavaScript, Shell, PowerShell, Dockerfile, CSS, HTML
 

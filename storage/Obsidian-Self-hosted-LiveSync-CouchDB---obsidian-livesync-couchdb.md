@@ -14,7 +14,7 @@ This template deploys CouchDB 3.4.3 pre-configured for Obsidian sync. A random a
 
 | Service | Source | Type |
 |---------|--------|------|
-| obsidian-livesync-couchdb | [BURNI80/obsidian-livesync-railway](https://github.com/BURNI80/obsidian-livesync-railway) | Web service |
+| Obsidian Livesync | [BURNI80/obsidian-livesync-railway](https://github.com/BURNI80/obsidian-livesync-railway) | Web service |
 
 ## Environment variables
 

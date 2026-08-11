@@ -37,9 +37,9 @@ Do not connect directly to individual Redis nodes.
 | Service | Source | Type |
 |---------|--------|------|
 | Redis HA | `ghcr.io/railwayapp-templates/redis-ha/haproxy:3.2` | Database |
-| Redis-1 | `ghcr.io/railwayapp-templates/redis-ha/redis-sentinel:8` | Database |
-| Redis-2 | `ghcr.io/railwayapp-templates/redis-ha/redis-sentinel:8` | Database |
-| Redis-3 | `ghcr.io/railwayapp-templates/redis-ha/redis-sentinel:8` | Database |
+| Redis-1 | `ghcr.io/railwayapp-templates/redis-ha/redis-sentinel:8.4` | Database |
+| Redis-2 | `ghcr.io/railwayapp-templates/redis-ha/redis-sentinel:8.4` | Database |
+| Redis-3 | `ghcr.io/railwayapp-templates/redis-ha/redis-sentinel:8.4` | Database |
 
 ## Environment variables
 

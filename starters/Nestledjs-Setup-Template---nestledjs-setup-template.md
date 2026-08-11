@@ -48,7 +48,6 @@ Nestled.js is a production-ready NestJS + React starter template with authentica
 
 | Service | Source | Type |
 |---------|--------|------|
-| PgBouncer | `railwayapp/pgbouncer:latest` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
 | api | [nestledjs/nestled-template](https://github.com/nestledjs/nestled-template) | Web service |
 | web | [nestledjs/nestled-template](https://github.com/nestledjs/nestled-template) | Web service |
@@ -58,13 +57,6 @@ Nestled.js is a production-ready NestJS + React starter template with authentica
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `POSTGRESQL_PORT` | PgBouncer | 5432 | - |
-| `PGBOUNCER_POOL_MODE` | PgBouncer | session | - |
-| `POSTGRESQL_PASSWORD` | PgBouncer | (secret) | - |
-| `POSTGRESQL_USERNAME` | PgBouncer | (secret) | - |
-| `PGBOUNCER_LISTEN_ADDRESS` | PgBouncer | * | - |
-| `PGBOUNCER_MAX_CLIENT_CONN` | PgBouncer | 120 | - |
-| `PGBOUNCER_DEFAULT_POOL_SIZE` | PgBouncer | 20 | - |
 | `POSTGRES_DB` | Postgres | railway | - |
 | `POSTGRES_USER` | Postgres | (secret) | - |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | - |
@@ -84,7 +76,6 @@ Nestled.js is a production-ready NestJS + React starter template with authentica
 | `SENDGRID_API_KEY` | api | (secret) | SG.xxx... | Your SendGrid API key. Get this from SendGrid Dashboard → Settings → API Keys. Only if you chose 'sendgrid' as your mailer. |
 | `API_COOKIE_DOMAIN` | api | - | .myapp.com | Auto-detected | Cookie domain for authentication. Set this if your API and frontend are on different subdomains (e.g., api.myapp.com and app.myapp.com). The leading dot allows sharing across subdomains. |
 | `APP_SUPPORT_EMAIL` | api | - | support@myapp.com | The "Reply-To" address for emails. Also used in some default 'Need Help?' links. |
-| `PGBOUNCER_ENABLED` | api | true | - |
 | `LOG_PRISMA_QUERIES` | api | false | - |
 | `COUNT_PRISMA_QUERIES` | api | false | - |
 | `LOG_QUERY_COMPLEXITY` | api | false | - |
@@ -109,6 +100,6 @@ Nestled.js is a production-ready NestJS + React starter template with authentica
 - **Start command:** `npm run start:web`
 - **Volume:** `/bitnami`
 
-**Category:** Starters · **Languages:** TypeScript, Shell, JavaScript, Dockerfile, CSS
+**Category:** Starters · **Languages:** TypeScript, JavaScript, Shell, Python, Dockerfile, CSS
 
 [View on Railway →](https://railway.com/deploy/nestledjs-setup-template)

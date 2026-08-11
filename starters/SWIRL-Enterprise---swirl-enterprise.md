@@ -26,7 +26,7 @@ control the workspace, the license, and the AI provider keys.
 
 | Service | Source | Type |
 |---------|--------|------|
-| swirl | `swirlai/swirl-search-internal:v5_0_0_0` | Web service |
+| swirl | `swirlai/swirl-search-internal:v5_0_0_1` | Web service |
 | postgres | `postgres:16-alpine` | Database |
 | seaweedfs | `chrislusf/seaweedfs:4.36` | Database |
 | qdrant | `qdrant/qdrant:v1.18.2` | Database |
