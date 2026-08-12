@@ -28,6 +28,6 @@ This is a Vite-based React/TypeScript frontend that compiles into a static `dist
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript, HTML
+**Category:** AI/ML · **Languages:** TypeScript, CSS, JavaScript, HTML, Shell
 
 [View on Railway →](https://railway.com/deploy/pi-tps-web)

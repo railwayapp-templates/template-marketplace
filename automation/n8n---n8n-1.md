@@ -1,6 +1,6 @@
 # Deploy n8n on Railway
 
-[Jul'26] Simple n8n 1-click deploy with Postgres database, it just works 🚀
+Simple n8n one-click deploy with Postgres. Zero config, just works 🚀
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-1)
 

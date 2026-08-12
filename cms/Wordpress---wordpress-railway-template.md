@@ -17,7 +17,7 @@ Hosting WordPress on Railway removes the usual pain of manual server setup and L
 | Service | Source | Type |
 |---------|--------|------|
 | mariadb | `mariadb` | Database |
-| wordpress | `wordpress` | Database |
+| wordpress | `wordpress` | Web service |
 
 ## Environment variables
 
@@ -37,6 +37,10 @@ Hosting WordPress on Railway removes the usual pain of manual server setup and L
 
 ## Configuration
 
+- **TCP Proxies:** 3306
+- **Volume:** `/var/lib/mysql`
+- **Start command:** `/bin/sh -c 'set -eu; a2dismod mpm_event mpm_worker || true; a2enmod mpm_prefork || true; if [ ! -f /var/www/html/wp-admin/install.php ]; then echo "WordPress core incomplete - repairing..."; rm -f /var/www/html/index.php /var/www/html/wp-includes/version.php; fi; cd /var/www/html; exec docker-entrypoint.sh "$@"' -- apache2-foreground`
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/www/html`
 
 **Category:** CMS

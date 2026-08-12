@@ -16,7 +16,7 @@ Because Vaze uses SQLite for its internal database, there is no need to provisio
 
 | Service | Source | Type |
 |---------|--------|------|
-| Vaze | `darseen/vaze:latest` | TCP service |
+| Vaze | `ghcr.io/darseen/vaze:latest` | TCP service |
 
 ## Environment variables
 

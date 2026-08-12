@@ -14,9 +14,9 @@ template deploys the complete supported Railway topology as one unit.
 
 | Service | Source | Type |
 |---------|--------|------|
-| rustyauth-dashboard | `ghcr.io/rusty-auth/dashboard@sha256:0409dccea72e6c7731c08a6324cabe393a785f81e28606cebcb7404832bf8962` | Web service |
-| RustyAuth | `ghcr.io/rusty-auth/rustyauth@sha256:cb154b787f07fa9d6c690d6437eafaf795d795de639d673279b44f4245da8309` | Worker |
-| SableDB | `ghcr.io/rusty-auth/sabledb@sha256:87478c0ec529b38aeca49c3725231703e31ee3e5d5823c28a2960e8b857a39fd` | Database |
+| rustyauth-dashboard | `ghcr.io/rusty-auth/dashboard@sha256:d7a7f538e57606a4cc9bd344fe394e68e0f68ba26ec5f01d193170149e260c08` | Web service |
+| RustyAuth | `ghcr.io/rusty-auth/rustyauth@sha256:e0cf594e289b4f5af904e903a741970aef8975588e156f41fa5fe8cfaf65c86d` | Worker |
+| SableDB | `ghcr.io/rusty-auth/sabledb@sha256:bbccbe52b7915a2d73b8cb0f9e12c706a5c733fd492432d341f66ef8d0b79051` | Database |
 
 ## Environment variables
 

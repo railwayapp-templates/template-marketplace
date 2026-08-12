@@ -60,6 +60,6 @@ It should be pretty straight forward to run, just set up an admin login and pass
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Authentication · **Languages:** FreeMarker, Dockerfile
+**Category:** Authentication · **Languages:** FreeMarker, Dockerfile, Shell, Java
 
 [View on Railway →](https://railway.com/deploy/mSwigX)

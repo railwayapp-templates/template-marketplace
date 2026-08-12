@@ -17,7 +17,7 @@ The core gets a public domain so a backend deployed elsewhere can reach it; Post
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
-| supertokens-core | `supertokens/supertokens-postgresql` | Database |
+| supertokens-core | `supertokens/supertokens-postgresql:12.0.10` | Database |
 
 ## Environment variables
 
@@ -28,11 +28,13 @@ The core gets a public domain so a backend deployed elsewhere can reach it; Post
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `PORT` | supertokens-core | 3567 | Port the SuperTokens core listens on. It always binds 3567 and ignores $PORT, so Railway routes traffic and healthchecks here. |
 | `POSTGRESQL_CONNECTION_URI` | supertokens-core | - | DB connection URL |
 
 ## Configuration
 
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/hello`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Authentication

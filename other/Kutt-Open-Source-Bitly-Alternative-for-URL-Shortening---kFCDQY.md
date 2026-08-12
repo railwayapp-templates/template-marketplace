@@ -16,7 +16,7 @@ The public domain is set as the default link domain automatically, so the links 
 
 | Service | Source | Type |
 |---------|--------|------|
-| kutt | `kutt/kutt` | Web service |
+| kutt | `kutt/kutt:v3.2.6` | Web service |
 
 ## Environment variables
 

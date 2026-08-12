@@ -16,10 +16,10 @@ Because it is the database edition, it requires authentication — the template 
 
 | Service | Source | Type |
 |---------|--------|------|
-| lobe | `lobehub/lobe-chat-database` | Web service |
-| minio/mc:latest | `minio/mc:latest` | Database |
-| pgvector | `pgvector/pgvector:pg16` | Database |
-| MinIO | `minio/minio:latest` | Database |
+| lobe | `lobehub/lobe-chat-database:1.143.3` | Web service |
+| minio/mc:latest | `minio/mc:RELEASE.2025-08-13T08-35-41Z` | Database |
+| pgvector | `pgvector/pgvector:0.8.6-pg16` | Database |
+| MinIO | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
 
 ## Environment variables
 
@@ -65,7 +65,7 @@ Because it is the database edition, it requires authentication — the template 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
-- **Start command:** `/bin/sh -c "sleep 10 && /usr/bin/mc config host add minio ${MINIO_ENDPOINT} ${MINIO_ROOT_USER} ${MINIO_ROOT_PASSWORD} && /usr/bin/mc mb minio/${MINIO_BUCKET} && /usr/bin/mc anonymous set public minio/${MINIO_BUCKET}/public && exit 0"`
+- **Start command:** `/bin/sh -c "for i in $(seq 1 30); do /usr/bin/mc alias set minio ${MINIO_ENDPOINT} ${MINIO_ROOT_USER} ${MINIO_ROOT_PASSWORD} && break; echo waiting-for-minio $i; sleep 3; done; /usr/bin/mc mb --ignore-existing minio/${MINIO_BUCKET} && /usr/bin/mc anonymous set public minio/${MINIO_BUCKET}/public && echo BUCKET_INIT_OK && exit 0"`
 - **Start command:** `/bin/sh -c "unset PGPORT; docker-entrypoint.sh postgres --port=5432"`
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `/bin/sh -c "exec minio server --address [::]:$MINIO_PRIVATE_PORT $RAILWAY_VOLUME_MOUNT_PATH"`

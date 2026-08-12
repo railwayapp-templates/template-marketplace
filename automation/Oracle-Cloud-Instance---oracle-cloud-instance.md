@@ -1,6 +1,6 @@
 # Deploy Oracle Cloud Instance on Railway
 
-Deploy and Host Oracle Cloud automate creating Instance with Railway.
+Oracle Cloud Automate Creating Instance with Railway.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oracle-cloud-instance)
 
@@ -16,6 +16,6 @@ Hosting an Oracle Cloud Instance management interface on Railway lets you centra
 |---------|--------|------|
 | Oracle Cloud Instances | [sarakmacbook/Oracle_Cloud_Instances](https://github.com/sarakmacbook/Oracle_Cloud_Instances) | Worker |
 
-**Category:** Automation · **Languages:** HTML, Python, Procfile
+**Category:** Automation · **Languages:** HTML, Python, Dockerfile, Procfile
 
 [View on Railway →](https://railway.com/deploy/oracle-cloud-instance)

@@ -14,7 +14,7 @@ A single service with a persistent volume for package storage and the user datab
 
 | Service | Source | Type |
 |---------|--------|------|
-| registry | `verdaccio/verdaccio` | Web service |
+| registry | `verdaccio/verdaccio:6.9.2` | Web service |
 
 ## Environment variables
 

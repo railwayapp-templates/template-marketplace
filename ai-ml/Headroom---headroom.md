@@ -34,13 +34,13 @@ few minutes — the healthcheck window is set to 600 s to allow for this.
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `HOME` | /home/nonroot | Home directory of the non-root container user; base path of the writable Headroom workspace. |
-| `PORT` | 8787 | Railway's canonical port variable. Must equal HEADROOM_PORT (8787) — Railway's deploy healthcheck probes this port, so a mismatch leaves the deploy stuck in DEPLOYING. |
-| `HEADROOM_HOST` | 0.0.0.0 | Interface the proxy binds to. Keep 0.0.0.0 so Railway's public edge and its healthcheck probe can reach the container. |
-| `HEADROOM_PORT` | 8787 | Port the Headroom proxy process listens on. Must match PORT and the public domain's target port. |
-| `HEADROOM_CONFIG_DIR` | /home/nonroot/.headroom/config | Directory Headroom reads and writes its configuration from. Lives inside the persisted workspace. |
-| `HEADROOM_PROXY_TOKEN` | (secret) | Bearer token required from NON-loopback callers on the /v1/* data plane (e.g. other services reaching the proxy over Railway's private network at proxy.railway.internal). NOTE: Railway's public HTTP edge is treated as a loopback caller, so this token does NOT gate public-URL traffic — public callers must instead supply their own upstream provider credentials, which the proxy forwards (it stores none). Auto-generated. |
+| `PORT` | 8787 | Port |
+| `HEADROOM_HOST` | 0.0.0.0 | Headroom host |
+| `HEADROOM_PORT` | 8787 | Headroom port |
+| `HEADROOM_CONFIG_DIR` | /home/nonroot/.headroom/config | Headroom reads and writes its configuration from this directory. |
+| `HEADROOM_PROXY_TOKEN` | (secret) | Bearer token required from NON-loopback callers on the /v1/* data plane |
 | `HEADROOM_UPDATE_CHECK` | off | Set to 'off' to disable the CLI update check in a long-lived server deployment. |
-| `HEADROOM_WORKSPACE_DIR` | /home/nonroot/.headroom | Writable workspace directory (config, model/HTTP cache, savings history, and the local memory DB if enabled). Backed by the attached volume so it persists across deploys. |
+| `HEADROOM_WORKSPACE_DIR` | /home/nonroot/.headroom | Writable workspace directory |
 | `HEADROOM_SKIP_UPSTREAM_CHECK` | 1 | When 1, /readyz does not gate readiness on reaching an upstream LLM API, so the deploy is healthy regardless of which provider you target. Set to 0 to have readiness verify the default upstream (api.anthropic.com). |
 
 ## Configuration

@@ -1,6 +1,6 @@
 # Deploy Onyx on Railway
 
-Open Source AI Platform - AI Chat with advanced features
+Onyx [Aug '26] - Open Source AI Platform - AI Chat with advanced features
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/onyx)
 
@@ -14,13 +14,13 @@ Onyx is a multi-service application: a FastAPI backend, a Next.js frontend, a Ce
 
 | Service | Source | Type |
 |---------|--------|------|
-| api-server | `onyxdotapp/onyx-backend:v4.3.4` | Worker |
-| inference-model-server | `onyxdotapp/onyx-model-server:v4.3.4` | Database |
-| web-server | `onyxdotapp/onyx-web-server:v4.3.4` | Worker |
-| background | `onyxdotapp/onyx-backend:v4.3.4` | Worker |
+| api-server | `onyxdotapp/onyx-backend:v4.5.4` | Worker |
+| inference-model-server | `onyxdotapp/onyx-model-server:v4.5.4` | Database |
+| web-server | `onyxdotapp/onyx-web-server:v4.5.4` | Worker |
+| background | `onyxdotapp/onyx-backend:v4.5.4` | Worker |
 | postgres | `pgvector/pgvector:pg15` | Database |
 | nginx | `nginx:1.25.5-alpine` | Web service |
-| indexing-model-server | `onyxdotapp/onyx-model-server:v4.3.4` | Database |
+| indexing-model-server | `onyxdotapp/onyx-model-server:v4.5.4` | Database |
 | opensearch | `opensearchproject/opensearch:3.6.0` | Database |
 | redis | `valkey/valkey:8-alpine` | Database |
 | minio | `minio/minio:RELEASE.2025-07-23T15-54-02Z-cpuv1` | Database |

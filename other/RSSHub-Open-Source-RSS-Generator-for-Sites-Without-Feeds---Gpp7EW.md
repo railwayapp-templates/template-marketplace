@@ -16,8 +16,8 @@ Redis is what keeps the deployment polite. Without a shared cache every reader p
 
 | Service | Source | Type |
 |---------|--------|------|
-| RSSHub | `ghcr.io/diygod/rsshub:chromium-bundled` | Web service |
-| Redis | `bitnami/redis:7.2.5` | Database |
+| RSSHub | `ghcr.io/diygod/rsshub:chromium-bundled-2026-08-10` | Web service |
+| Redis | `redis:8.10.0-alpine` | Database |
 
 ## Environment variables
 
@@ -26,21 +26,15 @@ Redis is what keeps the deployment polite. Without a shared cache every reader p
 | `NODE_ENV` | RSSHub | production | Node environment |
 | `REDIS_URL` | RSSHub | - | Redis URL |
 | `CACHE_TYPE` | RSSHub | redis | Cache Type |
-| `REDISHOST` | Redis | - | Railway Private Domain Name. |
-| `REDISPORT` | Redis | 6379 | Port to connect to Redis. |
-| `REDISUSER` | Redis | default | Default user to connect to Redis. |
 | `REDIS_URL` | Redis | - | URL to connect to Redis over the private network. |
-| `REDISPASSWORD` | Redis | (secret) | Password to connect to Redis. |
 | `REDIS_PASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PUBLIC_URL` | Redis | - | Public URL to connect to Redis, needed for the Data panel. |
-| `REDIS_RDB_POLICY` | Redis | 3600#1 300#100 60#10000 | Set a RDB snapshot policy. |
-| `REDIS_AOF_ENABLED` | Redis | no | Disable writing to AOF file. |
 
 ## Configuration
 
 - **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/bitnami`
+- **Start command:** `sh -c 'exec redis-server --requirepass "$REDIS_PASSWORD" --appendonly yes --dir /data --bind 0.0.0.0 ::'`
+- **Volume:** `/data`
 
 **Category:** Other
 

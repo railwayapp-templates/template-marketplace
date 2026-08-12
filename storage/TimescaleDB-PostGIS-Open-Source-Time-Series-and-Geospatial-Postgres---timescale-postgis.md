@@ -1,6 +1,6 @@
-# Deploy TimescaleDB + PostGIS | Time-Series and Geospatial Postgres on Railway
+# Deploy TimescaleDB + PostGIS | Open Source Time-Series and Geospatial Postgres on Railway
 
-TimescaleDB with PostGIS on Postgres 18 — time-series and geospatial in one
+Postgres 18 with TimescaleDB and PostGIS — time-series and geospatial in one DB
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/timescale-postgis)
 

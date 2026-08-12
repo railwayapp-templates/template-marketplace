@@ -14,23 +14,16 @@ Three services — HeyForm itself, MongoDB for forms and submissions, and Redis 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `bitnami/redis:7.2.5` | Database |
-| HeyForm | `heyform/community-edition` | Web service |
+| Redis | `redis:8.10.0-alpine` | Database |
+| HeyForm | `heyform/community-edition:v3.0.0` | Web service |
 | MongoDB | `mongo:7` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `REDISHOST` | Redis | - | Railway Private Domain Name. |
-| `REDISPORT` | Redis | 6379 | Port to connect to Redis. |
-| `REDISUSER` | Redis | default | Default user to connect to Redis. |
-| `REDIS_URL` | Redis | - | URL to connect to Redis over the private network. |
 | `REDISPASSWORD` | Redis | (secret) | Password to connect to Redis. |
 | `REDIS_PASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PUBLIC_URL` | Redis | - | Public URL to connect to Redis, needed for the Data panel. |
-| `REDIS_RDB_POLICY` | Redis | 3600#1 300#100 60#10000 | Set a RDB snapshot policy. |
-| `REDIS_AOF_ENABLED` | Redis | no | Disable writing to AOF file. |
 | `PORT` | HeyForm | 8000 | Just exists |
 | `MONGO_URI` | HeyForm | - | Mongo URI |
 | `REDIS_HOST` | HeyForm | - | Redis host |
@@ -50,9 +43,10 @@ Three services — HeyForm itself, MongoDB for forms and submissions, and Redis 
 
 ## Configuration
 
+- **Start command:** `sh -c 'exec redis-server --requirepass "$REDIS_PASSWORD" --appendonly yes --dir /data --bind 0.0.0.0 ::'`
 - **TCP Proxies:** 6379
-- **Volume:** `/bitnami`
-- **Start command:** `npm run start`
+- **Volume:** `/data`
+- **Start command:** `sh -c "if [ -f ./dist/main.js ]; then node --enable-source-maps ./dist/main.js; elif [ -f ./dist/src/main.js ]; then node --enable-source-maps ./dist/src/main.js; else node --enable-source-maps ./dist/packages/server/main.js; fi"`
 - **Networking:** Public domain with automatic HTTPS
 - **Start command:** `docker-entrypoint.sh mongod --ipv6 --bind_ip ::,0.0.0.0`
 - **TCP Proxies:** 27017

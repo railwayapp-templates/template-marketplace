@@ -16,7 +16,7 @@ Authentication is on. Langflow ships with an auto-login mode that hands every vi
 
 | Service | Source | Type |
 |---------|--------|------|
-| langflow | `langflowai/langflow:latest` | Web service |
+| langflow | `langflowai/langflow:1.11.2` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
 
 ## Environment variables
@@ -24,6 +24,8 @@ Authentication is on. Langflow ships with an auto-login mode that hands every vi
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
 | `PORT` | langflow | 7860 | Port |
+| `DB_WAIT_HOST` | langflow | - | Postgres private host; the start command waits for it before running Langflow's migrations. |
+| `DB_WAIT_PORT` | langflow | 5432 | Postgres port waited on before Langflow starts. |
 | `DO_NOT_TRACK` | langflow | true | Do not track |
 | `LANGFLOW_PORT` | langflow | - | Port |
 | `LANGFLOW_SUPERUSER` | langflow | admin | Superuser |
@@ -41,7 +43,7 @@ Authentication is on. Langflow ships with an auto-login mode that hands every vi
 
 ## Configuration
 
-- **Start command:** `python -m langflow run --host 0.0.0.0`
+- **Start command:** `bash -c 'for i in $(seq 1 90); do (echo > /dev/tcp/$DB_WAIT_HOST/$DB_WAIT_PORT) 2>/dev/null && break; echo "waiting for postgres ($i/90)"; sleep 2; done; exec python -m langflow run --host 0.0.0.0'`
 - **Healthcheck:** `/health_check`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/langflow`

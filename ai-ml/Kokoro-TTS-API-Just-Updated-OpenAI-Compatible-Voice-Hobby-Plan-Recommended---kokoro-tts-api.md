@@ -1,6 +1,6 @@
-# Deploy Kokoro TTS API on Railway
+# Deploy Kokoro TTS API | (Just Updated) OpenAI-Compatible Voice, Hobby Plan Recommended on Railway
 
-FastAPI Wrapper for Kokoro Text to Speech
+OpenAI-compatible TTS API. Needs 1.5GB RAM, Hobby plan or above.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kokoro-tts-api)
 
@@ -24,6 +24,7 @@ Deploying Kokoro-FastAPI on Railway gives you an OpenAI-compatible text-to-speec
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** AI/ML
