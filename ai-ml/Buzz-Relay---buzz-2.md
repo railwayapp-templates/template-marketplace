@@ -1,4 +1,4 @@
-# Deploy Buzz on Railway
+# Deploy Buzz Relay on Railway
 
 Your own Buzz Relay for humans and agents. Zero config. Just works.
 

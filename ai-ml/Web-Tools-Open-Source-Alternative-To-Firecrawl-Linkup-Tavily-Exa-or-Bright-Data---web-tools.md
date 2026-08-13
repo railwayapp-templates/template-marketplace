@@ -14,15 +14,20 @@ This template deploys a complete self-hosted web toolkit as four services on Rai
 
 | Service | Source | Type |
 |---------|--------|------|
+| Camoufox | [arnaudjnn/web-tools](https://github.com/arnaudjnn/web-tools) (root: /services/camoufox) | Worker |
 | SearXNG | [arnaudjnn/web-tools](https://github.com/arnaudjnn/web-tools) (root: /services/searxng) | Worker |
 | Crawl4AI | `unclecode/crawl4ai:latest` | Web service |
 | Redis | `redis:8.2.1` | Database |
 | Tools | [arnaudjnn/web-tools](https://github.com/arnaudjnn/web-tools) | Web service |
+| Scrapling | [arnaudjnn/web-tools](https://github.com/arnaudjnn/web-tools) (root: /services/scrapling) | Worker |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `PORT` | Camoufox | 8000 | Port number the Camoufox service listens on (default: 8000) |
+| `WORKERS` | Camoufox | 1 | Number of browser sessions per container (default: 1) |
+| `PROXY_URL` | Camoufox | - | Optional proxy for outgoing requests |
 | `PROXY_URL` | SearXNG | - | Optional proxy for outgoing requests |
 | `SEARXNG_REDIS_URL` | SearXNG | - | Redis connection URI used by SearXNG for caching/rate limiting |
 | `SEARXNG_SECRET_KEY` | SearXNG | (secret) | Secret key used by SearXNG for cryptographic signing and session security |
@@ -37,8 +42,12 @@ This template deploys a complete self-hosted web toolkit as four services on Rai
 | `REDIS_PUBLIC_URL` | Redis | - | Publicly accessible Redis connection URI, used for external access |
 | `API_KEY` | Tools | (secret) | Auto-generated secret used to secure the MCP server URL endpoint via Bearer token authentication |
 | `SEARXNG_URL` | Tools | - | Base URL of the SearXNG instance used for web searches |
+| `CAMOUFOX_URL` | Tools | - | Base URL of the Camoufox service used for web browser |
 | ` CRAWL4AI_URL` | Tools | - | Base URL of the Crawl4AI service used for web crawling and content extraction |
+| `SCRAPLING_URL` | Tools | - | Base URL of the Scrapling service used for web crawling and content extraction |
 | ` CRAWL4AI_API_TOKEN` | Tools | (secret) | API token for authenticating requests to the Crawl4AI service |
+| `PORT` | Scrapling | 8000 | Port number the Scrapling service listens on (default: 8000) |
+| `PROXY_URL` | Scrapling | - | Optional proxy for outgoing requests |
 
 ## Configuration
 

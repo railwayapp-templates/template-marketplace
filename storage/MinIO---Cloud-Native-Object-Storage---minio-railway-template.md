@@ -1,4 +1,4 @@
-# Deploy MinIO - Railway Template on Railway
+# Deploy MinIO - Cloud Native Object Storage on Railway
 
 S3-compatible object storage with Console, isolated services and auto-init
 

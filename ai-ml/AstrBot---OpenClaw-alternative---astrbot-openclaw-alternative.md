@@ -18,13 +18,14 @@ Railway also provides automatic deployments from GitHub, centralized logs, monit
 
 | Service | Source | Type |
 |---------|--------|------|
-| soulter/astrbot:latest | `soulter/astrbot:latest` | Web service |
+| Astrbot | `soulter/astrbot:latest` | Web service |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `TZ` | Asia/Karachi | - |
+| `PORT` | 6185 | - |
 | `OPENAI_API_KEY` | (secret) | Configure here or later in UI |
 | `OPENAI_BASE_URL` | https://api.openai.com/v1 | Configure here or later in UI |
 

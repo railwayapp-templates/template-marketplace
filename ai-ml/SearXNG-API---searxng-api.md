@@ -6,9 +6,15 @@ A pre-configured SearXNG optimized for private and LLM tool use.
 
 ## About
 
-SearXNG is a privacy-respecting metasearch engine that aggregates results from multiple sources. This template configures SearXNG as a JSON API with GET requests enabled, making it easy to integrate with backends, scripts, and LLM agents that need web search capabilities.
+A private SearXNG instance configured for backends, scripts, and LLM agents that need a plain GET JSON search API.
 
-Running SearXNG typically requires configuring YAML settings, managing search engine lists, and tuning timeouts. This template handles all of that. It ships with a curated engine list (DuckDuckGo, Brave, GitHub, arXiv, StackOverflow, and more), extended timeouts for reliability, and settings tuned for API access rather than browser use. Rate limiting is disabled since you control who has access. Add Redis for caching and you're done.
+This template intentionally creates **no public domain**. SearXNG has no authentication and this configuration disables its rate limiter, so other services in the same Railway project should call it over Railway's private network:
+
+```text
+http://searxng.railway.internal:8080
+```
+
+Traffic stays inside the project and does not require public networking. The image provides an exact curated engine set, bounded upstream request timeouts, and a `/healthz` deployment check.
 
 ## What gets deployed
 

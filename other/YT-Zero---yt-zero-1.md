@@ -18,22 +18,24 @@ Hosting YT Zero on Railway gives you a private, always-available instance access
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `TZ` | Europe/Warsaw |
-| `DB_PATH` | /data/db/ytzero.db |
-| `LOG_PATH` | /data/logs/ytzero.log |
-| `AVATAR_DIR` | /data/avatars |
-| `DOWNLOADS_DIR` | /data/downloads |
-| `IMG_CACHE_DIR` | /data/imgcache |
-| `YTDLP_AUTO_UPDATE` | 1 |
-| `IMG_CACHE_TTL_DAYS` | 7 |
-| `DATABASE_STATE_PATH` | /data/database-state.json |
-| `RESTORE_SESSION_DIR` | /data/restore-sessions |
-| `IDLE_TIMEOUT_SECONDS` | 120 |
-| `REFRESH_INTERVAL_MINUTES` | 5 |
-| `FULL_SYNC_INTERVAL_MINUTES` | 15 |
-| `VIDEO_MAINTENANCE_MAX_AGE_DAYS` | 90 |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `TZ` | Europe/Warsaw | - |
+| `DB_PATH` | /data/db/ytzero.db | - |
+| `LOG_PATH` | /data/logs/ytzero.log | - |
+| `AVATAR_DIR` | /data/avatars | - |
+| `DOWNLOADS_DIR` | /data/downloads | - |
+| `IMG_CACHE_DIR` | /data/imgcache | - |
+| `YTDLP_AUTO_UPDATE` | 1 | - |
+| `IMG_CACHE_TTL_DAYS` | 7 | - |
+| `YTZERO_AUTH_METHOD` | shared | - |
+| `DATABASE_STATE_PATH` | /data/database-state.json | - |
+| `RESTORE_SESSION_DIR` | /data/restore-sessions | - |
+| `IDLE_TIMEOUT_SECONDS` | 120 | - |
+| `YTZERO_AUTH_PASSWORD` | (secret) | Super secret initial password - change in setting of app. |
+| `REFRESH_INTERVAL_MINUTES` | 5 | - |
+| `FULL_SYNC_INTERVAL_MINUTES` | 15 | - |
+| `VIDEO_MAINTENANCE_MAX_AGE_DAYS` | 90 | - |
 
 ## Configuration
 
