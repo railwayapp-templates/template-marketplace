@@ -15,7 +15,7 @@ Hosting Pyrodactyl requires you to deploy the panel itself, alongside a database
 | Service | Source | Type |
 |---------|--------|------|
 | MariaDB | `mariadb:12` | Database |
-| Redis | `redis:8.2.1` | Database |
+| Redis | `redis:8.2` | Database |
 | Pyrodactyl | `ghcr.io/pyrohost/pyrodactyl:latest` | Web service |
 
 ## Environment variables
@@ -32,7 +32,6 @@ Hosting Pyrodactyl requires you to deploy the panel itself, alongside a database
 | `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
 | `REDISPASSWORD` | Redis | (secret) | - |
 | `REDIS_PASSWORD` | Redis | (secret) | - |
-| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 | `PORT` | Pyrodactyl | 80 | - |
 | `APP_ENV` | Pyrodactyl | production | - |
 | `MAIL_FROM` | Pyrodactyl | noreply@example.com | - |
@@ -67,7 +66,6 @@ Hosting Pyrodactyl requires you to deploy the panel itself, alongside a database
 
 - **Volume:** `/var/lib/mysql`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
-- **TCP Proxies:** 6379
 - **Volume:** `/data`
 - **Start command:** `/bin/ash -c "mkdir -p /app/var/ && sed -i -e 's|^logfile=.*$|logfile=/dev/stdout|' -e 's|^logfile_maxbytes=.*$|logfile_maxbytes=0|' /etc/supervisord.conf && /bin/ash .github/docker/entrypoint.sh /bin/ash -c \"php artisan p:user:make --email=$ADMIN_EMAIL --username=$ADMIN_USER --name-first=$ADMIN_FIRST --name-last=$ADMIN_LAST --password=$ADMIN_PASSWORD --admin=1; supervisord -n -c /etc/supervisord.conf\""`
 - **Networking:** Public domain with automatic HTTPS

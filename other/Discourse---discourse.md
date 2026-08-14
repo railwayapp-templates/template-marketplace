@@ -16,8 +16,8 @@ Hosting Discourse involves setting up a server environment utilizing a bash scri
 |---------|--------|------|
 | Discourse | `discourse/discourse:2026.7.1` | Web service |
 | Mock Email | `maildev/maildev:3.0.0-rc.1` | Web service |
-| Redis | `redis:8.2.1` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| Redis | `redis:8.2` | Database |
 
 ## Environment variables
 
@@ -44,17 +44,16 @@ Hosting Discourse involves setting up a server environment utilizing a bash scri
 | `MAILDEV_SMTP_PORT` | Mock Email | 25 | The port to receive mail on. |
 | `MAILDEV_INCOMING_PASS` | Mock Email | - | Incoming SMTP credentials. |
 | `MAILDEV_INCOMING_USER` | Mock Email | (secret) | Incoming SMTP credentials. |
-| `REDISPORT` | Redis | 6379 | - |
-| `REDISUSER` | Redis | default | - |
-| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis | (secret) | - |
-| `REDIS_PASSWORD` | Redis | (secret) | - |
-| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `REDISPORT` | Redis | 6379 | - |
+| `REDISUSER` | Redis | default | - |
+| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
+| `REDISPASSWORD` | Redis | (secret) | - |
+| `REDIS_PASSWORD` | Redis | (secret) | - |
 
 ## Configuration
 
@@ -63,9 +62,9 @@ Hosting Discourse involves setting up a server environment utilizing a bash scri
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/shared`
 - **Healthcheck:** `/api/healthz`
+- **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **Volume:** `/data`
-- **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Other
 

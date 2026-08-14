@@ -19,7 +19,7 @@ n8n (w/ workers) runs as a multi-service architecture where the main instance ha
 | Primary | `n8nio/n8n` | Web service |
 | Worker | `n8nio/n8n` | Worker |
 | Redis | `railwayapp/redis` | Database |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 
 ## Environment variables
 
@@ -27,10 +27,10 @@ n8n (w/ workers) runs as a multi-service architecture where the main instance ha
 | --------- | ------- | ------- | ----------- |
 | `PORT` | Primary | 5678 | The HTTP port the application responds to |
 | `DB_TYPE` | Primary | postgresdb | Database type |
-| `WEBHOOK_URL` | Primary | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `NODE_OPTIONS` | Primary | --max_old_space_size=8192 | The memory limit for the task runner Node.js process |
 | `EXECUTIONS_MODE` | Primary | queue | Whether executions should run directly or using queue |
-| ` N8N_TRUST_PROXY` | Primary | true | - |
+| `N8N_TRUST_PROXY` | Primary | true | - |
+| `N8N_WEBHOOK_URL` | Primary | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `DB_POSTGRESDB_HOST` | Primary | - | Database host |
 | `DB_POSTGRESDB_PORT` | Primary | - | Database port |
 | `DB_POSTGRESDB_USER` | Primary | (secret) | Database user |
@@ -49,9 +49,9 @@ n8n (w/ workers) runs as a multi-service architecture where the main instance ha
 | `N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS` | Primary | true | - |
 | `PORT` | Worker | 5678 | The HTTP port the application responds to |
 | `DB_TYPE` | Worker | postgresdb | Database type |
-| `WEBHOOK_URL` | Worker | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `NODE_OPTIONS` | Worker | --max_old_space_size=8192 | The memory limit for the task runner Node.js process |
 | `EXECUTIONS_MODE` | Worker | queue | Whether executions should run directly or using queue |
+| `N8N_WEBHOOK_URL` | Worker | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `DB_POSTGRESDB_HOST` | Worker | - | Database host |
 | `DB_POSTGRESDB_PORT` | Worker | - | Database port |
 | `DB_POSTGRESDB_USER` | Worker | (secret) | Database user |

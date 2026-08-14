@@ -1,4 +1,4 @@
-# Deploy 9Router - AI Gateway on Railway
+# Deploy 9Router — AI Gateway on Railway
 
 Self-hosted AI router for Claude Code, Cursor, Copilot & 60+ AI providers
 

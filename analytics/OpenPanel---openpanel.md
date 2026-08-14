@@ -21,7 +21,7 @@ Hosting OpenPanel involves setting up the necessary infrastructure to support it
 | Clickhouse Server | `clickhouse/clickhouse-server:25.10.2.65` | Database |
 | OpenPanel API | `lindesvard/openpanel-api:2` | Worker |
 | OpenPanel Worker | `lindesvard/openpanel-worker:2` | Worker |
-| Redis | `redis:8.2.1` | Database |
+| Redis | `redis:8.2` | Database |
 
 ## Environment variables
 
@@ -56,7 +56,6 @@ Hosting OpenPanel involves setting up the necessary infrastructure to support it
 | `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
 | `REDISPASSWORD` | Redis | (secret) | - |
 | `REDIS_PASSWORD` | Redis | (secret) | - |
-| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 
 ## Configuration
 
@@ -67,7 +66,6 @@ Hosting OpenPanel involves setting up the necessary infrastructure to support it
 - **Volume:** `/var/lib/postgresql/data`
 - **Volume:** `/var/lib/clickhouse`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
-- **TCP Proxies:** 6379
 - **Volume:** `/data`
 
 **Category:** Analytics

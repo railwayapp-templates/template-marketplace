@@ -18,7 +18,7 @@ Redis is a popular choice for developers worldwide due to its combination of spe
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `redis:8.2.1` | Database |
+| Redis | `redis:8.2` | Database |
 
 ## Environment variables
 

@@ -1,4 +1,4 @@
-# Deploy N8N - Workflow Automation Platform on Railway
+# Deploy N8N — Workflow Automation Platform on Railway
 
 Deploy and automate workflows in 1-click. Zero-config n8n, it just works 🚀
 

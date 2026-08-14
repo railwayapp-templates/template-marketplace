@@ -14,7 +14,7 @@ Hosting NodeBB involves deploying the application on a server, configuring the d
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | NodeBB | `ghcr.io/nodebb/nodebb:latest` | Web service |
 
 ## Environment variables
@@ -25,7 +25,6 @@ Hosting NodeBB involves deploying the application on a server, configuring the d
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
-| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `PORT` | NodeBB | 4567 | - |
 | `NODEBB_DB` | NodeBB | postgres | - |
 | `CONFIG_JSON` | NodeBB | - | Template configuration file (this should not be modified). |
@@ -35,7 +34,6 @@ Hosting NodeBB involves deploying the application on a server, configuring the d
 
 ## Configuration
 
-- **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `tini -- sh -c "mkdir -p /mnt/volume/build /mnt/volume/uploads /mnt/volume/config && ln -sfn /mnt/volume/build /usr/src/app/build && ln -sfn /mnt/volume/uploads /usr/src/app/public/uploads && ln -sfn /mnt/volume/config /opt/config && echo $CONFIG_JSON > /usr/src/app/setup.json && /usr/local/bin/entrypoint.sh"`
 - **Healthcheck:** `/sping`

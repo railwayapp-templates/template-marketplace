@@ -16,8 +16,8 @@ Hosting Tooljet involves deploying the application on a server, configuring the 
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
 | Tooljet | `tooljet/tooljet-ce:ce-lts-latest` | Web service |
+| Redis | `redis:8.2` | Database |
 | PostgREST | `postgrest/postgrest:v13.0.0` | Database |
-| Redis | `railwayapp/redis:8.2` | Database |
 
 ## Environment variables
 
@@ -44,17 +44,13 @@ Hosting Tooljet involves deploying the application on a server, configuring the 
 | `ENABLE_MARKETPLACE_FEATURE` | Tooljet | true | - |
 | `ENABLE_MULTIPLAYER_EDITING` | Tooljet | true | - |
 | `ENABLE_ONBOARDING_QUESTIONS_FOR_ALL_SIGN_UPS` | Tooljet | true | If onboarding should be enabled. |
+| `REDISPORT` | Redis | 6379 | - |
+| `REDISUSER` | Redis | default | - |
+| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
+| `REDISPASSWORD` | Redis | (secret) | - |
+| `REDIS_PASSWORD` | Redis | (secret) | - |
 | `PGRST_JWT_SECRET` | PostgREST | (secret) | - |
 | `PGRST_SERVER_PORT` | PostgREST | 3000 | - |
-| `REDISHOST` | Redis | - | Railway Private Domain Name. |
-| `REDISPORT` | Redis | 6379 | Port to connect to Redis. |
-| `REDISUSER` | Redis | default | Default user to connect to Redis. |
-| `REDIS_URL` | Redis | - | URL to connect to Redis over the private network. |
-| `REDISPASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PUBLIC_URL` | Redis | - | Public URL to connect to Redis, needed for the Data panel. |
-| `REDIS_RDB_POLICY` | Redis | 3600#1 300#100 60#10000 | Set a RDB snapshot policy. |
-| `REDIS_AOF_ENABLED` | Redis | no | Disable writing to AOF file. |
 
 ## Configuration
 
@@ -63,8 +59,8 @@ Hosting Tooljet involves deploying the application on a server, configuring the 
 - **Start command:** `./server/entrypoint.sh npm run start:prod`
 - **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
-- **TCP Proxies:** 6379
-- **Volume:** `/bitnami`
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
+- **Volume:** `/data`
 
 **Category:** Other
 

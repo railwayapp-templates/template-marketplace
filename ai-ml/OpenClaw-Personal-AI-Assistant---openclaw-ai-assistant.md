@@ -1,4 +1,4 @@
-# Deploy OpenClaw - Personal AI Assistant on Railway
+# Deploy OpenClaw — Personal AI Assistant on Railway
 
 Let your AI assistant handle the work, ready in just 1 click.
 

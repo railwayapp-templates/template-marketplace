@@ -15,8 +15,8 @@ Hosting Hydrodactyl requires you to deploy the panel itself, alongside a databas
 | Service | Source | Type |
 |---------|--------|------|
 | Hydrodactyl | `ghcr.io/blueprintframework/hydrodactyl:v6.2.0` | Web service |
+| Redis | `redis:8.2` | Database |
 | MariaDB | `mariadb:12` | Database |
-| Redis | `redis:8.2.1` | Database |
 
 ## Environment variables
 
@@ -46,17 +46,16 @@ Hosting Hydrodactyl requires you to deploy the panel itself, alongside a databas
 | `APP_SERVICE_AUTHOR` | Hydrodactyl | railway@example.com | Service author email. |
 | `APP_ENVIRONMENT_ONLY` | Hydrodactyl | false | - |
 | `MYSQL_ATTR_SSL_VERIFY_SERVER_CERT` | Hydrodactyl | false | - |
-| `MARIADB_PORT` | MariaDB | 3306 | - |
-| `MARIADB_USER` | MariaDB | (secret) | - |
-| `MARIADB_DATABASE` | MariaDB | railway | - |
-| `MARIADB_PASSWORD` | MariaDB | (secret) | - |
-| `MARIADB_ROOT_PASSWORD` | MariaDB | (secret) | - |
 | `REDISPORT` | Redis | 6379 | - |
 | `REDISUSER` | Redis | default | - |
 | `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
 | `REDISPASSWORD` | Redis | (secret) | - |
 | `REDIS_PASSWORD` | Redis | (secret) | - |
-| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
+| `MARIADB_PORT` | MariaDB | 3306 | - |
+| `MARIADB_USER` | MariaDB | (secret) | - |
+| `MARIADB_DATABASE` | MariaDB | railway | - |
+| `MARIADB_PASSWORD` | MariaDB | (secret) | - |
+| `MARIADB_ROOT_PASSWORD` | MariaDB | (secret) | - |
 
 ## Configuration
 
@@ -64,10 +63,9 @@ Hosting Hydrodactyl requires you to deploy the panel itself, alongside a databas
 - **Healthcheck:** `/up`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/storage/app/public`
-- **Volume:** `/var/lib/mysql`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
-- **TCP Proxies:** 6379
 - **Volume:** `/data`
+- **Volume:** `/var/lib/mysql`
 
 **Category:** Other
 

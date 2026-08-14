@@ -1,6 +1,6 @@
 # Deploy Evolution API on Railway
 
-[Jul'26] WhatsApp REST API powered by Evolution API.
+Your own WhatsApp REST API, ready to deploy in just 1 click.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evolution-api-minimal)
 
@@ -8,7 +8,7 @@
 
 Evolution API — Minimal Instance is a simple, low-cost Evolution API deployment template for Railway. It includes the core services needed to run Evolution API with PostgreSQL, Redis, and persistent volume storage, giving you a lightweight WhatsApp automation backend that is easy to deploy, manage, and scale without complex server configuration.
 
-![Imgur](https://imgur.com/CnEqhtC.png)
+![Evolution API](https://imgur.com/CnEqhtC.png)
 
 Hosting Evolution API — Minimal Instance on Railway gives you a fast way to run Evolution API with the required supporting services already connected. PostgreSQL stores application data such as instances, messages, contacts, and session-related information, while Redis provides caching for better performance and reliability. Railway handles the infrastructure layer, including service deployment, networking, environment variables, public domain setup, and persistent storage.
 

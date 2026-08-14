@@ -14,7 +14,7 @@ Deploy a private server to talk to your Obsidian Vault (via Obsidian Sync or git
 
 | Service | Source | Type |
 |---------|--------|------|
-| notemesh | [changenode/notemesh](https://github.com/changenode/notemesh) | Web service |
+| NoteMesh | [changenode/notemesh](https://github.com/changenode/notemesh) | Web service |
 
 ## Environment variables
 

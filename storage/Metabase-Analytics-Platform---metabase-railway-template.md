@@ -1,4 +1,4 @@
-# Deploy Metabase - Analytics Platform on Railway
+# Deploy Metabase — Analytics Platform on Railway
 
 Deploy your own analytics platform in 1 click. Simple, fast, ready to use.
 
