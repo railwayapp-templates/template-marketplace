@@ -6,11 +6,17 @@ Modern, open source, self-hosted omnichannel customer support desk.
 
 ## About
 
-Libredesk is a modern, open source, self-hosted omnichannel customer support desk. Live chat, email, automation, SLA management, CSAT surveys, and AI-agents - all packed into a single binary.
+Libredesk is a modern, open source, self-hosted omnichannel customer support desk.
+It has live chat, email, automations, SLA, CSAT surveys, and AI-agents - all packed into a single binary.
 
-Deploying libredesk on railway is very easy and just needs one variable to be set for deploying.
+Deploying libredesk on railway is very easy and needs one variable to be set for deploying.
 
-This template deploys Libredesk with PostgreSQL and Redis pre-configured. On first deploy, the database schema is installed and an admin user is created with the password you provide. Upgrades are automatic - just redeploy with the latest image and migrations run on startup.
+Live demo: https://demo.libredesk.io
+
+Website: https://libredesk.io
+
+This template deploys Libredesk with PostgreSQL and Redis pre-configured.
+On first deploy, the database schema is installed and an admin user is created with the password you provide. Upgrades are automatic - just redeploy with the latest image and migrations run on startup.
 
 ## What gets deployed
 
@@ -84,6 +90,6 @@ This template deploys Libredesk with PostgreSQL and Redis pre-configured. On fir
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
 
-**Category:** Other
+**Category:** CMS
 
 [View on Railway →](https://railway.com/deploy/libredesk)

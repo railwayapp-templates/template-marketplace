@@ -21,7 +21,7 @@ Hosting the n8n (AI Starter Kit) means running multiple AI-focused services incl
 | Primary | `n8nio/n8n` | Web service |
 | Ollama | `ollama/ollama` | Database |
 | Qdrant | `qdrant/qdrant` | Database |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 | Open WebUI | `ghcr.io/open-webui/open-webui` | Web service |
 
 ## Environment variables
@@ -30,9 +30,9 @@ Hosting the n8n (AI Starter Kit) means running multiple AI-focused services incl
 | --------- | ------- | ------- | ----------- |
 | `PORT` | Worker | 5678 | The HTTP port the application responds to |
 | `DB_TYPE` | Worker | postgresdb | Database type |
-| `WEBHOOK_URL` | Worker | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `NODE_OPTIONS` | Worker | --max_old_space_size=8192 | The memory limit for the task runner Node.js process |
 | `EXECUTIONS_MODE` | Worker | queue | Whether executions should run directly or using queue |
+| `N8N_WEBHOOK_URL` | Worker | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `DB_POSTGRESDB_HOST` | Worker | - | Database host |
 | `DB_POSTGRESDB_PORT` | Worker | - | Database port |
 | `DB_POSTGRESDB_USER` | Worker | (secret) | Database user |
@@ -54,10 +54,10 @@ Hosting the n8n (AI Starter Kit) means running multiple AI-focused services incl
 | `REDIS_PASSWORD` | Redis | (secret) | - |
 | `PORT` | Primary | 5678 | The HTTP port the application responds to |
 | `DB_TYPE` | Primary | postgresdb | Database type |
-| `WEBHOOK_URL` | Primary | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `NODE_OPTIONS` | Primary | --max_old_space_size=8192 | The memory limit for the task runner Node.js process |
 | `EXECUTIONS_MODE` | Primary | queue | Whether executions should run directly or using queue |
-| ` N8N_TRUST_PROXY` | Primary | true | - |
+| `N8N_TRUST_PROXY` | Primary | true | - |
+| `N8N_WEBHOOK_URL` | Primary | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `DB_POSTGRESDB_HOST` | Primary | - | Database host |
 | `DB_POSTGRESDB_PORT` | Primary | - | Database port |
 | `DB_POSTGRESDB_USER` | Primary | (secret) | Database user |

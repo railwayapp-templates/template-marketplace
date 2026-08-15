@@ -26,7 +26,7 @@ Hosting Dify means running a comprehensive LLM application platform that orchest
 | Plugin Daemon | `langgenius/dify-plugin-daemon:latest-local` | Worker |
 | Database Provision | `postgres:15-alpine` | Database |
 | Worker | `langgenius/dify-api` | Worker |
-| Postgres | `postgres:15-alpine` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 | Storage Provision | `minio/mc` | Database |
 | Storage | `minio/minio` | Database |
 

@@ -1,6 +1,6 @@
 # Deploy ThingsBoard IoT Platform on Railway
 
-Production-grade stack: ThingsBoard + Kafka + PostgreSQL. HTTP & MQTT.
+Self-host IoT platform: device telemetry, MQTT, HTTP, dashboards, alerts.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/thingsboard-iot-platform)
 
@@ -8,7 +8,7 @@ Production-grade stack: ThingsBoard + Kafka + PostgreSQL. HTTP & MQTT.
 
 ThingsBoard is an open-source IoT platform for device connectivity, data collection, processing, visualization, and device management. This template deploys a production-ready stack of ThingsBoard, PostgreSQL, and Apache Kafka, wired over private networking, so you get a restart-safe IoT backend in one click.
 
-&gt; **Important:** ThingsBoard deploys with default admin passwords. Change them right after your first login. See **First-run setup** under Implementation Details below.
+**Important:** ThingsBoard deploys with default admin passwords. Change them right after your first login. See **First-run setup** under Implementation Details below.
 
 ThingsBoard connects devices over MQTT and HTTP, routes their telemetry through a rule engine, stores it in PostgreSQL, and renders it on customizable dashboards. A production deployment runs three coordinated services: the ThingsBoard node, a PostgreSQL database for entities and time-series data, and a Kafka broker for a durable message queue (the default in-memory queue loses in-flight data on restart). These services need private networking, persistent volumes, and the correct startup order. This template handles all of it: a single-broker Kafka in KRaft mode (no ZooKeeper), automatic schema installation on first boot, a healthcheck, and connection strings wired with reference variables, so you skip the assembly and debugging.
 

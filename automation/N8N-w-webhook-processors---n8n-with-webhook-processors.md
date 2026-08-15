@@ -19,7 +19,7 @@ Hosting n8n (w/ webhook processors) means running a workflow automation platform
 | Service | Source | Type |
 |---------|--------|------|
 | Worker | `n8nio/n8n` | Worker |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 | Webhook processor | `n8nio/n8n` | Web service |
 | Primary | `n8nio/n8n` | Web service |
 | Redis | `railwayapp/redis` | Database |
@@ -30,9 +30,9 @@ Hosting n8n (w/ webhook processors) means running a workflow automation platform
 | --------- | ------- | ------- | ----------- |
 | `PORT` | Worker | 5678 | The HTTP port the application responds to |
 | `DB_TYPE` | Worker | postgresdb | Database type |
-| `WEBHOOK_URL` | Worker | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `NODE_OPTIONS` | Worker | --max_old_space_size=8192 | The memory limit for the task runner Node.js process |
 | `EXECUTIONS_MODE` | Worker | queue | Whether executions should run directly or using queue |
+| `N8N_WEBHOOK_URL` | Worker | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `DB_POSTGRESDB_HOST` | Worker | - | Database host |
 | `DB_POSTGRESDB_PORT` | Worker | - | Database port |
 | `DB_POSTGRESDB_USER` | Worker | (secret) | Database user |
@@ -53,9 +53,9 @@ Hosting n8n (w/ webhook processors) means running a workflow automation platform
 | `POSTGRES_PASSWORD` | Postgres | (secret) | - |
 | `PORT` | Webhook processor | 5678 | The HTTP port the application responds to |
 | `DB_TYPE` | Webhook processor | postgresdb | Database type |
-| `WEBHOOK_URL` | Webhook processor | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `NODE_OPTIONS` | Webhook processor | --max_old_space_size=8192 | The memory limit for the task runner Node.js process |
 | `EXECUTIONS_MODE` | Webhook processor | queue | Whether executions should run directly or using queue |
+| `N8N_WEBHOOK_URL` | Webhook processor | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `DB_POSTGRESDB_HOST` | Webhook processor | - | Database host |
 | `DB_POSTGRESDB_PORT` | Webhook processor | - | Database port |
 | `DB_POSTGRESDB_USER` | Webhook processor | (secret) | Database user |
@@ -73,10 +73,10 @@ Hosting n8n (w/ webhook processors) means running a workflow automation platform
 | `N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS` | Webhook processor | true | - |
 | `PORT` | Primary | 5678 | The HTTP port the application responds to |
 | `DB_TYPE` | Primary | postgresdb | Database type |
-| `WEBHOOK_URL` | Primary | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `NODE_OPTIONS` | Primary | --max_old_space_size=8192 | The memory limit for the task runner Node.js process |
 | `EXECUTIONS_MODE` | Primary | queue | Whether executions should run directly or using queue |
-| ` N8N_TRUST_PROXY` | Primary | true | - |
+| `N8N_TRUST_PROXY` | Primary | true | - |
+| `N8N_WEBHOOK_URL` | Primary | - | Used to manually provide the Webhook URL when running n8n behind a reverse proxy |
 | `DB_POSTGRESDB_HOST` | Primary | - | Database host |
 | `DB_POSTGRESDB_PORT` | Primary | - | Database port |
 | `DB_POSTGRESDB_USER` | Primary | (secret) | Database user |

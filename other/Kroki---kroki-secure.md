@@ -6,9 +6,9 @@ Authenticated text-to-diagram rendering API
 
 ## About
 
-Kroki provides a unified HTTP API that turns text descriptions into SVG, PNG, PDF, and other diagram formats. This template deploys stable Kroki 0.32.0 privately behind an authenticated Caddy proxy.
+Kroki provides a unified HTTP API that turns text descriptions into SVG, PNG, PDF, and other diagram formats. This template deploys stable Kroki 0.32.1 privately behind an authenticated Caddy proxy.
 
-Retrieve `BASIC_AUTH_USER` and the generated `BASIC_AUTH_PASSWORD` from the proxy service before calling rendering endpoints.
+Retrieve `BASIC_AUTH_USER` and the generated `BASIC_AUTH_PASSWORD` from the proxy service before calling rendering endpoints. Kroki 0.32.1 includes the secure-mode fix for nested Vega URL SSRF and local-file reads.
 
 ## What gets deployed
 

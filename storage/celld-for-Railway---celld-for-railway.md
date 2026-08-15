@@ -26,6 +26,7 @@ Hosting celld requires an S3-compatible bucket for deployments and Durable Objec
 | `AWS_SECRET_ACCESS_KEY` | (secret) |
 | `CELLD_ASSET_CACHE_BYTES` | 134217728 |
 | `CELLD_LOCAL_CACHE_MAX_BYTES` | 134217728 |
+| `CELLD_TRUST_FORWARDED_HEADERS` | 1 |
 
 ## Configuration
 

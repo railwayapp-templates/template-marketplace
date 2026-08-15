@@ -34,6 +34,7 @@ Hosting Temporal involves setting up the necessary infrastructure to support its
 | `ES_SEEDS` | Temporal | - | Database Host - You likely don't need to change this! |
 | `ENABLE_ES` | Temporal | true | Enable Elasticsearch - You likely don't need to change this! |
 | `ES_SCHEME` | Temporal | http | Elasticsearch Scheme |
+| `BIND_ON_IP` | Temporal | ::0 | Bind on address - Don't change. |
 | `ES_VERSION` | Temporal | v7 | Elasticsearch Major Version - You likely don't need to change this! |
 | `POSTGRES_PWD` | Temporal | - | Database Password - You likely don't need to change this! |
 | `POSTGRES_USER` | Temporal | (secret) | Database User - You likely don't need to change this! |

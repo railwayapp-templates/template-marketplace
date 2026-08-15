@@ -34,7 +34,7 @@ something else as you redeploy to a new environment, causing unexpected failures
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `postgres:17.10-alpine` | Database |
+| Postgres | `postgres:17.11-alpine` | Database |
 | Zammad Nginx | `ghcr.io/zammad/zammad:7.1.2` | Web service |
 | Memcached | `memcached:1.6.45-alpine` | Database |
 | Zammad Scheduler | `ghcr.io/zammad/zammad:7.1.2` | Worker |
