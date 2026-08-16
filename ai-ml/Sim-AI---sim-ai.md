@@ -6,33 +6,40 @@ Deploy and Host Sim AI with Railway
 
 ## About
 
-Sim AI is an open-source platform for building and deploying AI agent workflows. It provides a visual, low-code interface powered by Next.js and Bun, enabling users to create complex LLM-based automations with drag-and-drop nodes for agents, functions, knowledge bases, and integrations like Slack, Gmail, and Pinecone. Self-hostable via Docker or NPM, it supports PostgreSQL with pgvector for embeddings and tools like Socket.io for realtime features. (48 words)
+Deploy Sim AI `v0.8.2`, an open-source visual platform for building, running, and scheduling AI-agent workflows.
 
-Hosting Sim AI involves deploying its full-stack application, which includes a Next.js frontend, Bun runtime backend, and PostgreSQL database with pgvector extension for AI embeddings. Start by cloning the GitHub repository (https://github.com/simstudioai/sim) and setting up environment variables for database connections, API keys (e.g., OpenAI, Copilot), and ports. Use Docker Compose for quick setup, pulling necessary images and running migrations via Drizzle ORM. Configure authentication with Better Auth and enable realtime features with Socket.io. On Railway, link your repo, provision a PostgreSQL database, and deploy—Railway handles scaling, builds with Nixpacks or Dockerfiles, and manages environment vars automatically. Monitor via Railway's dashboard for logs and metrics. This self-hosted setup allows customization for production use cases like agentic workflows, ensuring data privacy and integration with external LLMs. (128 words)
+This template deploys five coordinated services: the Sim web application and API, its realtime Socket.IO service, PostgreSQL 17 with pgvector, a one-shot database migration job, and the Sim cron scheduler. The application and realtime service each receive a Railway HTTPS domain; PostgreSQL, migrations, and cron remain private.
+
+Open the `simstudio` domain to register the first account. Configure model-provider and integration credentials in Sim as needed. Database, authentication, encryption, internal API, and cron secrets are generated per deployment and wired through Railway references.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| realtime | `ghcr.io/simstudioai/realtime@sha256:6cd54f2c29b77df70d8e5ba67de317c8592270d7678705cc6cc7f2c14a4c69bd` | Web service |
-| simstudio | `ghcr.io/simstudioai/simstudio@sha256:56867a2c88c375aac6b19be28c95db851ed84eb6c2e21d086014e460b6411446` | Web service |
+| realtime | `ghcr.io/simstudioai/realtime:v0.8.2@sha256:dd72bef164e69fed345f52feca98663dcdba0409bbb6da439e623992d0b30f67` | Web service |
+| simstudio | `ghcr.io/simstudioai/simstudio:v0.8.2@sha256:08212f69ee05fd80bafd236b9932974d6704035ba7f50c2b897515b041805fec` | Web service |
 | pgvector | `pgvector/pgvector:pg17` | Database |
-| migrations | `ghcr.io/simstudioai/migrations@sha256:45ffb12619544ee2df2166a79b6bea09279ecc5ac1c8000ef6a0f7d5e7361585` | Worker |
+| migrations | `ghcr.io/simstudioai/migrations:v0.8.2@sha256:bd08017162914796c787a5bd7804a5e3c56802511d928b984cecc312c1570cf5` | Worker |
+| cron | `ghcr.io/simstudioai/cron:v0.8.2@sha256:e8a00f3d7292fdd1357e2cb7e09380cc336cdaf15e94d0b0059204a9e719e145` | Worker |
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `NODE_ENV` | realtime | production |
-| `BETTER_AUTH_SECRET` | realtime | (secret) |
-| `INTERNAL_API_SECRET` | realtime | (secret) |
-| `BETTER_AUTH_SECRET` | simstudio | (secret) |
-| `INTERNAL_API_SECRET` | simstudio | (secret) |
-| `DISABLE_REGISTRATION` | simstudio | false |
-| `POSTGRES_DB` | pgvector | railway |
-| `POSTGRES_USER` | pgvector | (secret) |
-| `PGPORT_PRIVATE` | pgvector | 5432 |
-| `POSTGRES_PASSWORD` | pgvector | (secret) |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `NODE_ENV` | realtime | production | - |
+| `BETTER_AUTH_SECRET` | realtime | (secret) | - |
+| `INTERNAL_API_SECRET` | realtime | (secret) | - |
+| `CRON_SECRET` | simstudio | (secret) | Shared secret authenticating private cron requests. |
+| `BETTER_AUTH_SECRET` | simstudio | (secret) | - |
+| `INTERNAL_API_SECRET` | simstudio | (secret) | - |
+| `DISABLE_REGISTRATION` | simstudio | false | - |
+| `POSTGRES_DB` | pgvector | railway | - |
+| `POSTGRES_USER` | pgvector | (secret) | - |
+| `PGPORT_PRIVATE` | pgvector | 5432 | - |
+| `POSTGRES_PASSWORD` | pgvector | (secret) | - |
+| `TZ` | cron | UTC | Timezone used by the cron schedule. |
+| `SIM_URL` | cron | - | Private Sim application origin used by scheduled jobs. |
+| `CRON_SECRET` | cron | (secret) | Shared scheduler authentication secret. |
 
 ## Configuration
 

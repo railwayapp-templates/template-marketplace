@@ -6,7 +6,7 @@ Encrypted expiring secret sharing with persistent storage
 
 ## About
 
-Password Pusher is an encrypted secret-sharing application. This template deploys upstream version 2.9.7 with its web process, expiration worker, and persistent local storage.
+Password Pusher is an encrypted secret-sharing application. This template deploys upstream version 2.11.0 with its web process, expiration worker, and persistent local storage.
 
 After deployment, open the application and read its deployment logs for the one-time boot code required by `/first_run`. The boot code creates the first administrator and is then removed.
 

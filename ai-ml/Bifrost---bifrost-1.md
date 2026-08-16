@@ -6,13 +6,17 @@ Fastest enterprise AI gateway (50x faster than LiteLLM).
 
 ## About
 
-Bifrost deploys as a containerized gateway that proxies requests to multiple AI providers while adding enterprise features like budget management and SSO. Deployment requires configuring provider API keys through the web UI or environment variables, setting up persistent storage for caching and logs, and optionally enabling clustering for high availability. The gateway supports 1000+ models with zero-configuration startup, offers built-in observability with Prometheus metrics, and includes guardrails for governance. Enterprise deployments can leverage HashiCorp Vault for secure key management and custom plugins for extensibility.
+Deploy Bifrost HTTP `v1.6.11`, an open-source, high-performance AI gateway for routing requests across OpenAI, Anthropic, AWS Bedrock, Google, Azure, and other model providers.
+
+This template runs the official Bifrost container as one public service on port 8080. Its configuration database, gateway settings, logs, budgets, virtual keys, routing rules, and plugin state persist on a Railway volume mounted at `/app/data`.
+
+Open the generated domain to configure providers and routing in the Bifrost dashboard. The gateway starts without provider credentials, but model requests require at least one configured provider. Configure Bifrost authentication, virtual keys, and governance controls before exposing production provider access.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| Bifrost | `maximhq/bifrost@sha256:bf2208978308477a9f667dfc04cef3153197aeaca8618befefbecde3ed3378b7` | Web service |
+| Bifrost | `maximhq/bifrost:v1.6.11@sha256:ef8e686b3588884066ec3d0e57f3fc15136b11047ad94678adefe5a9573539af` | Web service |
 
 ## Environment variables
 

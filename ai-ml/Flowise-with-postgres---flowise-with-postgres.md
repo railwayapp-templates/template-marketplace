@@ -1,6 +1,6 @@
 # Deploy Flowise with postgres on Railway
 
-[Jul'26] Flowise with Postgres, web UI, auth & persistent file storage. 🚀
+Flowise with Postgres, web UI, auth & persistent file storage. 🚀
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowise-with-postgres)
 

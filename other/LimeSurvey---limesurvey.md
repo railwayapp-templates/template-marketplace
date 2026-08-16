@@ -6,7 +6,7 @@ Surveys with generated admin, encryption keys, and MariaDB
 
 ## About
 
-LimeSurvey is an open-source platform for surveys, questionnaires, branching logic, invitations, and response analysis. This template deploys stable 7.0.7+260729 with generated credentials and MariaDB.
+LimeSurvey is an open-source platform for surveys, questionnaires, branching logic, invitations, and response analysis. This template deploys stable 7.0.9+260812 with generated credentials and MariaDB.
 
 Sign in with `ADMIN_USER` and `ADMIN_PASSWORD`.
 

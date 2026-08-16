@@ -21,8 +21,10 @@ This template deploys two pre-configured services: Prometheus for scraping and s
 
 | Variable | Service | Default |
 | --------- | ------- | ------- |
+| `PORT` | grafana-railway | 3000 |
 | `GF_SECURITY_ADMIN_USER` | grafana-railway | (secret) |
 | `GF_SECURITY_ADMIN_PASSWORD` | grafana-railway | (secret) |
+| `PORT` | prometheus-railway | 9090 |
 | `RETENTION_TIME` | prometheus-railway | 15d |
 
 **Category:** Other · **Languages:** Shell, Dockerfile

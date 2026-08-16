@@ -8,7 +8,7 @@ Plane v1.4 with PostgreSQL, Redis, RabbitMQ, and MinIO.
 
 Plane is an open-source project-management platform for issues, cycles, modules, pages, analytics, and real-time team collaboration.
 
-This template deploys the Plane Community Edition `v1.4.0` application services behind one Caddy `2.11.4` HTTPS origin. PostgreSQL stores application records, Redis supports cache and transient state, RabbitMQ carries background jobs, and MinIO persists uploads and attachments.
+This template deploys the Plane Community Edition `v1.4.1` application services behind one Caddy `2.11.4` HTTPS origin. PostgreSQL stores application records, Redis supports cache and transient state, RabbitMQ carries background jobs, and MinIO persists uploads and attachments.
 
 Only the `Plane` proxy receives a public HTTP domain. Web, API, admin, spaces, live collaboration, PostgreSQL, Redis, RabbitMQ, and object-storage traffic use Railway private networking.
 
@@ -16,19 +16,19 @@ Only the `Plane` proxy receives a public HTTP domain. Web, API, admin, spaces, l
 
 | Service | Source | Type |
 |---------|--------|------|
-| Space | `makeplane/plane-space:v1.4.0` | Worker |
-| API | `makeplane/plane-backend:v1.4.0` | Worker |
-| Migrator | `makeplane/plane-backend:v1.4.0` | Worker |
-| Admin | `makeplane/plane-admin:v1.4.0` | Worker |
-| Live | `makeplane/plane-live:v1.4.0` | Worker |
-| RabbitMQ | `rabbitmq:3.13.6-management-alpine` | Database |
+| Space | `makeplane/plane-space:v1.4.1@sha256:741cd5d6bbfaa94bac4a28837d5fab3f7459b014a6c9066728a3b3cfe76fc6c8` | Worker |
+| API | `makeplane/plane-backend:v1.4.1@sha256:631f42fc01c1db5e7759c2e5ceffffa5fa2afd4b0ee7c8bc92cde9f1a6a0ec8f` | Worker |
+| Migrator | `makeplane/plane-backend:v1.4.1@sha256:631f42fc01c1db5e7759c2e5ceffffa5fa2afd4b0ee7c8bc92cde9f1a6a0ec8f` | Worker |
+| Admin | `makeplane/plane-admin:v1.4.1@sha256:db215110ef79ab4048334086c891e1499f4c0d30724030a884f6fb61df162d8d` | Worker |
+| Live | `makeplane/plane-live:v1.4.1@sha256:02fd23645fa0f84a68ccfdbab8ba6ceaac5deca6c482bff041880b02295ae76c` | Worker |
+| RabbitMQ | `rabbitmq:3.13.7-management-alpine@sha256:606d8c0d6b3c18d1da9afc53bc7cdb2a8d5486df91b5a9830e9e07626c9ae281` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Web | `makeplane/plane-frontend:v1.4.0` | Worker |
+| Web | `makeplane/plane-frontend:v1.4.1@sha256:577604d9d2d2cf7b055e5d5ecca84b26c70d70b6b6d87803488c412b9725907b` | Worker |
 | Plane | [monotykamary/plane-caddy-proxy](https://github.com/monotykamary/plane-caddy-proxy) | Web service |
 | Bucket | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
 | Redis | `redis:8.2.8` | Database |
-| Worker | `makeplane/plane-backend:v1.4.0` | Worker |
-| Beat Worker | `makeplane/plane-backend:v1.4.0` | Worker |
+| Worker | `makeplane/plane-backend:v1.4.1@sha256:631f42fc01c1db5e7759c2e5ceffffa5fa2afd4b0ee7c8bc92cde9f1a6a0ec8f` | Worker |
+| Beat Worker | `makeplane/plane-backend:v1.4.1@sha256:631f42fc01c1db5e7759c2e5ceffffa5fa2afd4b0ee7c8bc92cde9f1a6a0ec8f` | Worker |
 
 ## Environment variables
 

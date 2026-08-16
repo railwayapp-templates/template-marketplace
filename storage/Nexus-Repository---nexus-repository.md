@@ -6,7 +6,7 @@ Private artifact repository with generated admin and backups
 
 ## About
 
-Nexus Repository is a universal artifact manager for Maven, npm, NuGet, PyPI, Docker, raw files, and other package formats. This template deploys stable 3.94.1 with generated admin credentials and anonymous access disabled.
+Nexus Repository is a universal artifact manager for Maven, npm, NuGet, PyPI, Docker, raw files, and other package formats. This template deploys stable 3.95.1 with generated admin credentials and anonymous access disabled.
 
 Sign in as `admin` with `NEXUS_ADMIN_PASSWORD`, then read and explicitly accept the Community Edition EULA in the onboarding wizard. This template does not accept legal terms for you.
 

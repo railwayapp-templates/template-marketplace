@@ -14,7 +14,7 @@ Hosting MySQL PITR on Railway provisions a Railway Bucket alongside your existin
 
 | Service | Source | Type |
 |---------|--------|------|
-| MySQL | `mysql:9.4` | Database |
+| MySQL | `ghcr.io/railwayapp-templates/mysql-ha/mysql-wrapper:8.4` | Database |
 
 ## Environment variables
 
@@ -33,7 +33,6 @@ Hosting MySQL PITR on Railway provisions a Railway Bucket alongside your existin
 
 ## Configuration
 
-- **Start command:** `docker-entrypoint.sh mysqld --innodb-use-native-aio=0 --disable-log-bin --performance_schema=0 --innodb-buffer-pool-size=1G`
 - **Volume:** `/var/lib/mysql`
 
 **Category:** Storage

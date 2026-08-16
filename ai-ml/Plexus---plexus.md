@@ -6,15 +6,17 @@ Unified API gateway for multiple AI providers.
 
 ## About
 
-Plexus is a high-performance API gateway that unifies multiple AI providers—OpenAI, Anthropic, Google Gemini, DeepSeek, Groq, and any OpenAI-compatible endpoint—behind a single API surface. Switch models and providers without rewriting client code, while gaining built-in protocol translation, load balancing, usage tracking, and per-key quota enforcement.
+Deploy Plexus `2026.08.12.1`, a unified gateway for OpenAI, Anthropic, Google Gemini, DeepSeek, Groq, and OpenAI-compatible AI providers.
 
-Hosting Plexus requires running a containerized service alongside a persistent database. On Railway, you can deploy the official `ghcr.io/mcowger/plexus` image alongside a PostgreSQL database service. You must set a `DATABASE_URL` pointing to your Postgres instance and an `ADMIN_KEY` for the built-in management dashboard. Once running, Plexus exposes port 4000 for API requests (chat completions, embeddings, transcriptions, and more) and a web UI for configuring providers, model aliases, and API keys. For production workloads, set an `ENCRYPTION_KEY` to enable AES-256-GCM encryption for secrets and tokens at rest.
+This template runs the official Plexus container as one public service on port 4000. It stores configuration, API keys, usage data, and encrypted provider credentials in SQLite on a persistent Railway volume. `ADMIN_KEY` and `ENCRYPTION_KEY` are generated independently for every deployment.
+
+Open the service domain, enter the generated `ADMIN_KEY`, then configure providers, model aliases, routing, quotas, and scoped API keys in the management dashboard. Keep both generated secrets private and preserve them across redeployments.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| Plexus | `ghcr.io/mcowger/plexus@sha256:619c122ea788c1727e5299d7de84e00d0ce1315db0169d9da6c06fed220cd1a5` | Web service |
+| Plexus | `ghcr.io/mcowger/plexus:2026.08.12.1@sha256:91c02e0fe04886216fe0ddc132a6664a49bd269fe73d428b162381ec6dfe1dd3` | Web service |
 
 ## Environment variables
 

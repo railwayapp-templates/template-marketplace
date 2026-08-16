@@ -1,6 +1,6 @@
-# Deploy Oracle Cloud Instance on Railway
+# Deploy Oracle Cloud Instances : Automation on Railway
 
-Oracle Cloud Automate Creating Instance with Railway.
+Oracle Cloud Automate Always free tier automation v2
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oracle-cloud-instance)
 
