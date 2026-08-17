@@ -23,6 +23,7 @@ AzuraCast normally expects a full Docker Compose stack with ~10 named volumes. T
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `PORT` | 80 | Port AzuraCast listens on. |
+| `MYSQL_HOST` | localhost | Keeps the embedded MariaDB enabled. Don't change. |
 | `MYSQL_ROOT_PASSWORD` | (secret) | Root password for the embedded MariaDB. Auto-generated — no need to change it. |
 
 ## Configuration

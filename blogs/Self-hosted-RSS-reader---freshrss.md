@@ -1,6 +1,6 @@
-# Deploy FreshRSS on Railway
+# Deploy Self-hosted RSS reader on Railway
 
-Deploy and Host FreshRSS with Railway
+FreshRSS — one-click self-hosted feed reader
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/freshrss)
 

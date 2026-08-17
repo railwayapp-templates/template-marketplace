@@ -44,7 +44,7 @@ Only **bookstack** has a public domain. **MySQL** is the system of record and po
 | `DB_PORT` | bookstack | - | MySQL port |
 | `APP_DEBUG` | bookstack | false | Never enable in production |
 | `APP_PROXIES` | bookstack | 0.0.0.0/0,::/0 | Trust Railway proxy headers |
-| `DB_DATABASE` | bookstack | bookstack | Database name |
+| `DB_DATABASE` | bookstack | - | Database name |
 | `DB_PASSWORD` | bookstack | (secret) | Database password reference |
 | `DB_USERNAME` | bookstack | (secret) | Scoped database user |
 | `CACHE_DRIVER` | bookstack | redis | Cache store backend |
