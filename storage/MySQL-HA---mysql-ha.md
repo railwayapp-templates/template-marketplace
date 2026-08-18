@@ -37,9 +37,9 @@ Do not connect directly to individual MySQL nodes.
 | Service | Source | Type |
 |---------|--------|------|
 | MySQL HA | `ghcr.io/railwayapp-templates/mysql-ha/haproxy:3.2` | Database |
-| MySQL-1 | `ghcr.io/railwayapp-templates/mysql-ha/mysql-wrapper:8.4` | Database |
-| MySQL-2 | `ghcr.io/railwayapp-templates/mysql-ha/mysql-wrapper:8.4` | Database |
-| MySQL-3 | `ghcr.io/railwayapp-templates/mysql-ha/mysql-wrapper:8.4` | Database |
+| MySQL-1 | `ghcr.io/railwayapp-templates/mysql-ha/mysql:8.4` | Database |
+| MySQL-2 | `ghcr.io/railwayapp-templates/mysql-ha/mysql:8.4` | Database |
+| MySQL-3 | `ghcr.io/railwayapp-templates/mysql-ha/mysql:8.4` | Database |
 
 ## Environment variables
 

@@ -1,4 +1,4 @@
-# Deploy Self-hosted Overleaf on Railway
+# Deploy Overleaf on Railway
 
 Collaborative LaTeX in the cloud — one-click
 

@@ -1,4 +1,4 @@
-# Deploy Self-hosted RSS reader on Railway
+# Deploy FreshRSS on Railway
 
 FreshRSS — one-click self-hosted feed reader
 
@@ -21,6 +21,7 @@ Hosting FreshRSS usually involves running the application in a container, attach
 | Variable | Default |
 | --------- | ------- |
 | `TZ` | Asia/Shanghai |
+| `LISTEN` | 0.0.0.0:8080 |
 | `CRON_MIN` | 1,31 |
 
 ## Configuration

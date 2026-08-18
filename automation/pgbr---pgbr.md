@@ -15,7 +15,6 @@ Hosting pgbr on Railway involves deploying its lightweight Docker container. Onc
 | Service | Source | Type |
 |---------|--------|------|
 | worker | `ghcr.io/darseen/pgbr-worker:latest` | Worker |
-| Redis | `redis:8.2.1` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | dashboard | `ghcr.io/darseen/pgbr-dashboard:latest` | Web service |
 
@@ -23,7 +22,6 @@ Hosting pgbr on Railway involves deploying its lightweight Docker container. Onc
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `REDIS_URL` | worker | - | Redis URL |
 | `DATABASE_URL` | worker | - | Database URL |
 | `ENCRYPTION_KEY` | worker | - | Encrytion key |
 | `STORAGE_BUCKET` | worker | - | Storage bucket |
@@ -32,13 +30,6 @@ Hosting pgbr on Railway involves deploying its lightweight Docker container. Onc
 | `STORAGE_ACCESS_KEY_ID` | worker | - | Storage access key |
 | `STORAGE_FORCE_PATH_STYLE` | worker | true | Storage force path style |
 | `STORAGE_SECRET_ACCESS_KEY` | worker | (secret) | Storage secret access key |
-| `REDISHOST` | Redis | - | Redis host |
-| `REDISPORT` | Redis | 6379 | Redis port |
-| `REDISUSER` | Redis | default | Redis user |
-| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis | (secret) | Redis password |
-| `REDIS_PASSWORD` | Redis | (secret) | Redis password |
-| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
@@ -46,7 +37,6 @@ Hosting pgbr on Railway involves deploying its lightweight Docker container. Onc
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `PORT` | dashboard | 3000 | Application port |
 | `BASE_URL` | dashboard | - | The base URL of your pgbr service. |
-| `REDIS_URL` | dashboard | - | Redis URL |
 | `AUTH_SECRET` | dashboard | (secret) | Used to sign user sessions |
 | `DATABASE_URL` | dashboard | - | Database URL |
 | `ENCRYPTION_KEY` | dashboard | - | Encrytion key |
@@ -59,9 +49,6 @@ Hosting pgbr on Railway involves deploying its lightweight Docker container. Onc
 
 ## Configuration
 
-- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
-- **TCP Proxies:** 6379
-- **Volume:** `/data`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 - **Healthcheck:** `/api/health`

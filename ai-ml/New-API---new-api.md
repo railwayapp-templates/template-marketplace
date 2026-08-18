@@ -1,4 +1,4 @@
-# Deploy Self-hosted AI Gateway on Railway
+# Deploy New API on Railway
 
 New API — OpenAI-compatible API gateway, LLM API proxy
 

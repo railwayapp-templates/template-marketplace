@@ -27,7 +27,7 @@ The app runs **inside the official prebuilt `awwaawwa/pdfmathtranslate-next:v2.9
 | --------- | ------- | ------- | ----------- |
 | `OLLAMA_BASE_URL` | ollama/ollama:latest | - | Ollama API base URL. Auto-configured to the internal Railway private domain over HTTPS. Exposed to the app as PDF2ZH_OLLAMA_HOST. |
 | `PORT` | pdfmathtranslate | 8080 | Public HTTP port. Railway routes the public domain to this port. Keep it equal to PDF2ZH_SERVER_PORT. |
-| `PDF2ZH_OLLAMA` | pdfmathtranslate | true | Use the bundled Ollama sibling service as the translation engine. Set to false to pick another provider in the Web UI. |
+| `PDF2ZH_OLLAMA` | pdfmathtranslate | false | Use the bundled Ollama sibling service as the translation engine. Set to false to pick another provider in the Web UI. |
 | `PDF2ZH_OLLAMA_HOST` | pdfmathtranslate | - | Ollama API base URL. Auto-linked to the sibling Ollama service's private domain over :11434. |
 | `PDF2ZH_SERVER_PORT` | pdfmathtranslate | 8080 | Port the Web UI binds inside the container. Must match PORT (the public domain target). Defaults to 8080. |
 | `PDF2ZH_OLLAMA_MODEL` | pdfmathtranslate | - | Ollama model to translate with (e.g. qwen3:8b, gemma2, llama3.2). No model is pre-pulled — pull one first (ollama pull <model>), then set it here or in the Web UI Settings. |

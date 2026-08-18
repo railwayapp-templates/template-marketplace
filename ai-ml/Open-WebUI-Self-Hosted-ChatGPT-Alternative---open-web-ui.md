@@ -1,6 +1,6 @@
-# Deploy Open WebUI — Self-Hosted ChatGPT Alternative on Railway on Railway
+# Deploy Open WebUI — Self-Hosted ChatGPT Alternative on Railway
 
-Self-host Open WebUI: 136k stars, multi-model AI chat. No per-user fees.
+Private multi-model AI chat — OpenAI, Claude, Ollama, built-in RAG
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-web-ui)
 

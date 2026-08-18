@@ -14,7 +14,7 @@ Hosting MySQL PITR on Railway provisions a Railway Bucket alongside your existin
 
 | Service | Source | Type |
 |---------|--------|------|
-| MySQL | `ghcr.io/railwayapp-templates/mysql-ha/mysql-wrapper:8.4` | Database |
+| MySQL | `ghcr.io/railwayapp-templates/mysql-ha/mysql:8.4` | Database |
 
 ## Environment variables
 

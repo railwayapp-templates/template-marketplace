@@ -48,7 +48,7 @@ By deploying Pipely Ai on Railway, you are one step closer to supporting a compl
 | evolution-db | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | pipely-ai | [Pedro-Furtado/pipely-ai](https://github.com/Pedro-Furtado/pipely-ai) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| evoapicloud/evolution-go:latest | `evoapicloud/evolution-go:latest` | Web service |
+| evolution | `evoapicloud/evolution-go:latest` | Web service |
 
 ## Environment variables
 
@@ -63,18 +63,19 @@ By deploying Pipely Ai on Railway, you are one step closer to supporting a compl
 | `JWT_SECRET` | pipely-ai | (secret) | - |
 | `BACKEND_URL` | pipely-ai | http://127.0.0.1:3333 | - |
 | `POLL_INTERVAL_MS` | pipely-ai | 60000 | - |
+| `EVOLUTION_API_KEY` | pipely-ai | (secret) | - |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
-| `PORT` | evoapicloud/evolution-go:latest | 8080 | - |
-| `LOGTYPE` | evoapicloud/evolution-go:latest | console | - |
-| `WA_DEBUG` | evoapicloud/evolution-go:latest | INFO | - |
-| `CLIENT_NAME` | evoapicloud/evolution-go:latest | pipely | - |
-| `SERVER_PORT` | evoapicloud/evolution-go:latest | 8080 | - |
-| `GLOBAL_API_KEY` | evoapicloud/evolution-go:latest | (secret) | - |
-| `DATABASE_SAVE_MESSAGES` | evoapicloud/evolution-go:latest | true | - |
+| `PORT` | evolution | 8080 | - |
+| `LOGTYPE` | evolution | console | - |
+| `WA_DEBUG` | evolution | INFO | - |
+| `CLIENT_NAME` | evolution | pipely | - |
+| `SERVER_PORT` | evolution | 8080 | - |
+| `GLOBAL_API_KEY` | evolution | (secret) | - |
+| `DATABASE_SAVE_MESSAGES` | evolution | true | - |
 
 ## Configuration
 

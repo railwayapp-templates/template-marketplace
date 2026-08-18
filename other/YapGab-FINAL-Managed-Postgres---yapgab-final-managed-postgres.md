@@ -15,7 +15,7 @@ This template creates two services: the YapGab application and a Railway-managed
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| nicknicknicknicko/yapgab:latest | `nicknicknicknicko/yapgab:latest` | Worker |
+| YapGab | `yapgab/yapgab:latest` | Worker |
 
 ## Environment variables
 
@@ -25,9 +25,9 @@ This template creates two services: the YapGab application and a Railway-managed
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
-| `PORT` | nicknicknicknicko/yapgab:latest | 5000 | - |
-| `NODE_ENV` | nicknicknicknicko/yapgab:latest | production | - |
-| `SESSION_SECRET` | nicknicknicknicko/yapgab:latest | (secret) | - |
+| `PORT` | YapGab | 5000 | - |
+| `NODE_ENV` | YapGab | production | - |
+| `SESSION_SECRET` | YapGab | (secret) | - |
 
 ## Configuration
 
