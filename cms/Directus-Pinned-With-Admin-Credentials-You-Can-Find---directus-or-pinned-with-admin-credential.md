@@ -61,7 +61,7 @@ is by Monospace Inc, under the Directus BSL.
 |---------|--------|------|
 | PostGIS | `postgis/postgis:17-3.5` | Database |
 | Redis | `redis:8.6.5-alpine` | Database |
-| Directus | `directus/directus:12.1.1` | Web service |
+| Directus | `directus/directus:12.2.0` | Web service |
 
 ## Environment variables
 

@@ -63,9 +63,9 @@ between main and worker. For large files, point n8n at S3 instead.
 
 | Service | Source | Type |
 |---------|--------|------|
-| n8n worker | `n8nio/n8n:2.32.5` | Worker |
+| n8n worker | `n8nio/n8n:2.36.0` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| n8n | `n8nio/n8n:2.32.5` | Web service |
+| n8n | `n8nio/n8n:2.36.0` | Web service |
 | Redis | `redis:8.6.5-alpine` | Database |
 
 ## Environment variables

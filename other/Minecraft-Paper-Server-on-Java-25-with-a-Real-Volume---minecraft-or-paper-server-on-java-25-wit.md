@@ -16,7 +16,7 @@ The image is pinned, and pinned to a Java 25 build on purpose. Paper 26.1 and ne
 
 | Service | Source | Type |
 |---------|--------|------|
-| Minecraft | `itzg/minecraft-server:2026.7.2-java25` | Database |
+| Minecraft | `itzg/minecraft-server:2026.8.0-java25` | Database |
 
 ## Environment variables
 

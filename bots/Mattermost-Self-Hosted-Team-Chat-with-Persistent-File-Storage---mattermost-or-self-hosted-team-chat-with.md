@@ -15,7 +15,7 @@ Mattermost keeps two kinds of state, and both need somewhere durable to live. Me
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| mattermost/mattermost-team-edition:release-11.8 | `mattermost/mattermost-team-edition:release-11.8` | Web service |
+| Mattermost | `mattermost/mattermost-team-edition:release-11.8` | Web service |
 
 ## Environment variables
 
@@ -26,11 +26,11 @@ Mattermost keeps two kinds of state, and both need somewhere durable to live. Me
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
-| `MM_FILESETTINGS_DIRECTORY` | mattermost/mattermost-team-edition:release-11.8 | /mattermost/data/ | - |
-| `MM_SQLSETTINGS_DRIVERNAME` | mattermost/mattermost-team-edition:release-11.8 | postgres | - |
-| `MM_LOGSETTINGS_CONSOLELEVEL` | mattermost/mattermost-team-edition:release-11.8 | INFO | - |
-| `MM_LOGSETTINGS_ENABLECONSOLE` | mattermost/mattermost-team-edition:release-11.8 | true | - |
-| `MM_SERVICESETTINGS_LISTENADDRESS` | mattermost/mattermost-team-edition:release-11.8 | :8065 | - |
+| `MM_FILESETTINGS_DIRECTORY` | Mattermost | /mattermost/data/ | - |
+| `MM_SQLSETTINGS_DRIVERNAME` | Mattermost | postgres | - |
+| `MM_LOGSETTINGS_CONSOLELEVEL` | Mattermost | INFO | - |
+| `MM_LOGSETTINGS_ENABLECONSOLE` | Mattermost | true | - |
+| `MM_SERVICESETTINGS_LISTENADDRESS` | Mattermost | :8065 | - |
 
 ## Configuration
 

@@ -19,7 +19,7 @@ Here the data lives in Postgres, uploads and API keys live on a volume at /root/
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Flowise | `flowiseai/flowise:3.1.3` | Web service |
+| Flowise | `flowiseai/flowise:3.1.4` | Web service |
 
 ## Environment variables
 

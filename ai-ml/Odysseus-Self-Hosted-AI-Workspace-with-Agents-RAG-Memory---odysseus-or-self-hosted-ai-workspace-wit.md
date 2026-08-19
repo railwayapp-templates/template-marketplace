@@ -15,7 +15,7 @@ This template deploys Odysseus together with a ChromaDB vector store, wired over
 | Service | Source | Type |
 |---------|--------|------|
 | odysseus | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | Database |
-| chromadb | `chromadb/chroma:latest` | Database |
+| chromadb | `chromadb/chroma:1.5.9` | Database |
 
 ## Environment variables
 

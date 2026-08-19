@@ -14,7 +14,7 @@ Hosting PrivateBin yourself means the things your team pastes — a credential h
 
 | Service | Source | Type |
 |---------|--------|------|
-| privatebin/nginx-fpm-alpine:2.0.5 | `privatebin/nginx-fpm-alpine:2.0.5` | Web service |
+| PrivateBin | `privatebin/nginx-fpm-alpine:2.0.6` | Web service |
 
 ## Configuration
 

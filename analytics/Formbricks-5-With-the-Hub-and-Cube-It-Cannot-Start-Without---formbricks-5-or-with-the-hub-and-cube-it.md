@@ -68,7 +68,7 @@ Formbricks is by Formbricks GmbH; the parts used here are AGPL-3.0.
 | HubPostgres | `pgvector/pgvector:pg18` | Database |
 | Postgres | `pgvector/pgvector:pg18` | Database |
 | Valkey | `valkey/valkey:8.1.4-alpine` | Database |
-| Hub | `ghcr.io/formbricks/hub:latest` | Worker |
+| Hub | `ghcr.io/formbricks/hub:0.8.4` | Worker |
 | Formbricks | `ghcr.io/formbricks/formbricks:5.2.1` | Web service |
 
 ## Environment variables

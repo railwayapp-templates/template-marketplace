@@ -19,7 +19,7 @@ The image is pinned to a specific Ghost release instead of a moving tag, so a re
 | Service | Source | Type |
 |---------|--------|------|
 | MySQL | `mysql:8.4` | Database |
-| Ghost | `ghost:6.54.0-alpine` | Web service |
+| Ghost | `ghost:6.57.1-alpine` | Web service |
 
 ## Environment variables
 

@@ -12,7 +12,7 @@ The app uses Python + python-barcode library to generate barcodes and the qrcode
 
 | Service | Source | Type |
 |---------|--------|------|
-| web | [INAPP-Mobile/railway-barcode-api](https://github.com/INAPP-Mobile/railway-barcode-api) | Web service |
+| QR & Barcode Generator | [INAPP-Mobile/railway-barcode-api](https://github.com/INAPP-Mobile/railway-barcode-api) | Web service |
 
 ## Configuration
 

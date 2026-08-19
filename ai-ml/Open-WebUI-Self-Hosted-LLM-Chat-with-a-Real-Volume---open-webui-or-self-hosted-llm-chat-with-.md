@@ -16,7 +16,7 @@ State lives on a persistent volume mounted at /app/backend/data: the database, u
 
 | Service | Source | Type |
 |---------|--------|------|
-| open-webui/open-webui:0.10.2 | `ghcr.io/open-webui/open-webui:0.10.2` | Web service |
+| Open WebUI | `ghcr.io/open-webui/open-webui:0.10.2` | Web service |
 
 ## Environment variables
 

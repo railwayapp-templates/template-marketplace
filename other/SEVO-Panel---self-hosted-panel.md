@@ -1,6 +1,6 @@
 # Deploy SEVO Panel on Railway
 
-self-hosted panel for VLESS over WebSocket + telegram mtproxy.
+VLESS panel over WebSocket + telegram mtproxy.(self-hosted)
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/self-hosted-panel)
 

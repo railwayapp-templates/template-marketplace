@@ -15,7 +15,7 @@ n8n keeps state in two places, and this is where self-hosted deployments quietly
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| n8nio/n8n:2.32.5 | `n8nio/n8n:2.32.5` | Web service |
+| n8n | `n8nio/n8n:2.36.0` | Web service |
 
 ## Environment variables
 
@@ -26,18 +26,20 @@ n8n keeps state in two places, and this is where self-hosted deployments quietly
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
-| `DB_TYPE` | n8nio/n8n:2.32.5 | postgresdb | - |
-| `N8N_PORT` | n8nio/n8n:2.32.5 | 5678 | - |
-| `N8N_USER_FOLDER` | n8nio/n8n:2.32.5 | /home/node/.n8n | - |
-| `GENERIC_TIMEZONE` | n8nio/n8n:2.32.5 | UTC | - |
-| `DB_POSTGRESDB_USER` | n8nio/n8n:2.32.5 | (secret) | - |
-| `N8N_LISTEN_ADDRESS` | n8nio/n8n:2.32.5 | :: | - |
-| `DB_POSTGRESDB_PASSWORD` | n8nio/n8n:2.32.5 | (secret) | - |
+| `PORT` | n8n | 5678 | - |
+| `DB_TYPE` | n8n | postgresdb | - |
+| `N8N_PORT` | n8n | 5678 | - |
+| `N8N_USER_FOLDER` | n8n | /home/node | - |
+| `GENERIC_TIMEZONE` | n8n | UTC | - |
+| `DB_POSTGRESDB_USER` | n8n | (secret) | - |
+| `N8N_LISTEN_ADDRESS` | n8n | :: | - |
+| `DB_POSTGRESDB_PASSWORD` | n8n | (secret) | - |
 
 ## Configuration
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/home/node/.n8n`
 

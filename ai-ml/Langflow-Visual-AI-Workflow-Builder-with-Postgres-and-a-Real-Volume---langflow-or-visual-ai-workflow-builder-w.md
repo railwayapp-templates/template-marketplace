@@ -15,7 +15,7 @@ Langflow splits its state across two places. Flows, users and API keys go into P
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| langflowai/langflow:1.11.0 | `langflowai/langflow:1.11.0` | Web service |
+| Langflow | `langflowai/langflow:1.11.3` | Web service |
 
 ## Environment variables
 
@@ -26,14 +26,14 @@ Langflow splits its state across two places. Flows, users and API keys go into P
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
-| `LANGFLOW_HOST` | langflowai/langflow:1.11.0 | 0.0.0.0 | - |
-| `LANGFLOW_PORT` | langflowai/langflow:1.11.0 | 7860 | - |
-| `LANGFLOW_LOG_LEVEL` | langflowai/langflow:1.11.0 | INFO | - |
-| `LANGFLOW_SUPERUSER` | langflowai/langflow:1.11.0 | admin | - |
-| `LANGFLOW_AUTO_LOGIN` | langflowai/langflow:1.11.0 | (secret) | - |
-| `LANGFLOW_CONFIG_DIR` | langflowai/langflow:1.11.0 | /app/langflow | - |
-| `LANGFLOW_SECRET_KEY` | langflowai/langflow:1.11.0 | (secret) | - |
-| `LANGFLOW_SUPERUSER_PASSWORD` | langflowai/langflow:1.11.0 | (secret) | - |
+| `LANGFLOW_HOST` | Langflow | 0.0.0.0 | - |
+| `LANGFLOW_PORT` | Langflow | 7860 | - |
+| `LANGFLOW_LOG_LEVEL` | Langflow | INFO | - |
+| `LANGFLOW_SUPERUSER` | Langflow | admin | - |
+| `LANGFLOW_AUTO_LOGIN` | Langflow | (secret) | - |
+| `LANGFLOW_CONFIG_DIR` | Langflow | /app/langflow | - |
+| `LANGFLOW_SECRET_KEY` | Langflow | (secret) | - |
+| `LANGFLOW_SUPERUSER_PASSWORD` | Langflow | (secret) | - |
 
 ## Configuration
 

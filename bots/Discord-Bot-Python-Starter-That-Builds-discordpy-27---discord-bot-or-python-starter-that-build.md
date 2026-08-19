@@ -18,9 +18,9 @@ A Discord bot is a long-running process that holds a websocket to Discord's gate
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `DISCORD_TOKEN` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `DISCORD_TOKEN` | (secret) | Bot token from the Discord Developer Portal: Applications, your app, Bot, Reset Token. Enable the Message Content intent on the same page, or the bot starts and then fails. |
 
 **Category:** Bots · **Languages:** Python
 

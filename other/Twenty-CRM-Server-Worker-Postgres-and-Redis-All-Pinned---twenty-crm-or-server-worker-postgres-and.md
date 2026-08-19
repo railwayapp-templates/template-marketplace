@@ -64,9 +64,9 @@ images: https://twenty.com
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `postgres:16.11-alpine` | Database |
-| Twenty worker | `twentycrm/twenty:v2.24.1` | Worker |
+| Twenty worker | `twentycrm/twenty:v2.31.1` | Worker |
 | Redis | `redis:8.6.5-alpine` | Database |
-| Twenty | `twentycrm/twenty:v2.24.1` | Web service |
+| Twenty | `twentycrm/twenty:v2.31.1` | Web service |
 
 ## Environment variables
 
