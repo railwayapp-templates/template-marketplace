@@ -14,7 +14,7 @@ A single service storing its data in SQLite on a persistent volume, protected by
 
 | Service | Source | Type |
 |---------|--------|------|
-| denokv | `ghcr.io/denoland/denokv:latest` | Database |
+| denokv | `ghcr.io/denoland/denokv:0.14.0` | Database |
 
 ## Environment variables
 

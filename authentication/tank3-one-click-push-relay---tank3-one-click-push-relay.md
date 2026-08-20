@@ -14,13 +14,13 @@ Tank3 is the pocket control room for agents running on your own machines, but if
 
 | Service | Source | Type |
 |---------|--------|------|
-| tankernauts/tank-relay:v0.1.0 | `ghcr.io/tankernauts/tank-relay:v0.1.0@sha256:f0269c9143537a4fa171185f90e8d1f567935a20c9a625e7798acda657ead1a8` | Web service |
+| tankernauts/tank-relay:v0.1.0 | `ghcr.io/tankernauts/tank-relay:v0.2.0@sha256:6ed333ee0603a7b4bf0bd0692c86495f117c2a4e2302711154613a852c740f1d` | Web service |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `TANK_RELAY_IMAGE_REF` | ghcr.io/tankernauts/tank-relay:v0.1.0@sha256:f0269c9143537a4fa171185f90e8d1f567935a20c9a625e7798acda657ead1a8 | verify the deployed image matches this ref |
+| `TANK_RELAY_IMAGE_REF` | ghcr.io/tankernauts/tank-relay:v0.2.0@sha256:6ed333ee0603a7b4bf0bd0692c86495f117c2a4e2302711154613a852c740f1d | verify the deployed image matches this ref |
 | `TANK_RELAY_BOOTSTRAP_SECRET` | (secret) | Paste the value from Tank's relay setup screen. |
 
 ## Configuration

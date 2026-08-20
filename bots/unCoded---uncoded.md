@@ -10,7 +10,6 @@ Start unCoded TradingBot on railway
 
 unCoded Website 
 official website: https://unCoded.ch
-technical website: https://unCoded.vip
 
 Step 1:
 

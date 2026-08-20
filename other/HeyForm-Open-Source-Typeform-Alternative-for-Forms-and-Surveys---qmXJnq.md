@@ -16,7 +16,7 @@ Three services — HeyForm itself, MongoDB for forms and submissions, and Redis 
 |---------|--------|------|
 | Redis | `redis:8.10.0-alpine` | Database |
 | HeyForm | `heyform/community-edition:v3.0.0` | Web service |
-| MongoDB | `mongo:7` | Database |
+| MongoDB | `mongo:7.0.40` | Database |
 
 ## Environment variables
 

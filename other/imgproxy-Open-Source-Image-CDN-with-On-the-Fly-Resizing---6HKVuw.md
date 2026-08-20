@@ -17,8 +17,8 @@ URL signing is on, with a generated key and salt.
 | Service | Source | Type |
 |---------|--------|------|
 | Console | [railwayapp-templates/minio-console](https://github.com/railwayapp-templates/minio-console) | Web service |
-| Bucket | `minio/minio:latest` | Database |
-| Bucket Creator | `minio/mc` | Database |
+| Bucket | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
+| Bucket Creator | `minio/mc:RELEASE.2025-08-13T08-35-41Z` | Database |
 | imgproxy | `darthsim/imgproxy:v3.18.2` | Web service |
 
 ## Environment variables

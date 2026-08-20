@@ -35,6 +35,7 @@ Authorizer– Open-source auth server supporting 13+ databases, $0/user
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `JWT_TYPE` | authorizer | HS256 | - |
 | `JWT_SECRET` | authorizer | (secret) | - |
 | `ADMIN_SECRET` | authorizer | (secret) | - |
 | `CLIENT_SECRET` | authorizer | (secret) | - |

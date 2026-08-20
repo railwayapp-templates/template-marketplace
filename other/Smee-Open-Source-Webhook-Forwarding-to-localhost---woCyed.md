@@ -16,7 +16,7 @@ Running your own is not about scale. It is that webhook payloads carry signing s
 
 | Service | Source | Type |
 |---------|--------|------|
-| smee | `ghcr.io/probot/smee.io` | Web service |
+| smee | `ghcr.io/probot/smee.io:v2.0.1` | Web service |
 
 ## Configuration
 

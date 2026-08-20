@@ -16,7 +16,7 @@ Since Nx 21 the remote cache is an official plugin interface, so this needs no p
 
 | Service | Source | Type |
 |---------|--------|------|
-| nx-cache-server | `ghcr.io/ikatsuba/nx-cache-server:1.1` | Web service |
+| nx-cache-server | `ghcr.io/ikatsuba/nx-cache-server:1.1.1` | Web service |
 
 ## Environment variables
 

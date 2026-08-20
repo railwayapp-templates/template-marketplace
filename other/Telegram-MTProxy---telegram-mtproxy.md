@@ -14,7 +14,7 @@ Hosting Telegram MTProxy involves running a Docker container that automatically 
 
 | Service | Source | Type |
 |---------|--------|------|
-| MTProxy | `telegrammessenger/proxy` | Database |
+| MTProxy | `telegrammessenger/proxy:1.4` | Database |
 
 ## Configuration
 

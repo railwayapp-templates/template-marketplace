@@ -32,9 +32,9 @@ This is a work in progress, we'll improve it over time. Including this documenta
 | `POSTGRES_USER` | auth-db | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | auth-db | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | auth-db | - | Public URL to connect to Postgres database, used by the Data panel. |
-| `BOS_ACCOUNT` | app | - | The core tenant account, i.e. myapp.near |
-| `BOS_GATEWAY` | app | - | The core tenant domain, i.e. myapp.com |
-| `API_DATABASE_URL` | app | - | Hooked up with api |
+| `BOS_ACCOUNT` | app | - | The app owner, i.e. myapp.near, signs `bos publish` transactions |
+| `BOS_GATEWAY` | app | - | The core domain, i.e. myapp.com, forms the registry lookup path `bos://<account>/<gateway>` |
+| `API_DATABASE_URL` | app | - | Hooked up with api, with name-spaced plugin db tables |
 | `AUTH_DATABASE_URL` | app | - | Hooked up with auth plugin, handles accounts and sessions |
 | `BETTER_AUTH_SECRET` | app | (secret) | Generate locally with `openssl rand -base64 32` |
 

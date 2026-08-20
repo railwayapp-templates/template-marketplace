@@ -48,11 +48,9 @@ Extends PostgreSQL by adding support for storing, indexing, and querying geograp
 | `DATABASE_URL` | - | URL to connect to Postgres database over private networking |
 | `POSTGRES_USER` | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | (secret) | Password to connect to DB |
-| `DATABASE_PUBLIC_URL` | - | URL to connect to Postgres database over public networking |
 
 ## Configuration
 
-- **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Storage

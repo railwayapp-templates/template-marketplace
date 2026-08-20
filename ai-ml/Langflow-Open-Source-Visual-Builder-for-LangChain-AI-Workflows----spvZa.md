@@ -17,7 +17,7 @@ Authentication is on. Langflow ships with an auto-login mode that hands every vi
 | Service | Source | Type |
 |---------|--------|------|
 | langflow | `langflowai/langflow:1.11.2` | Web service |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16.15` | Database |
 
 ## Environment variables
 

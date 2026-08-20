@@ -6,7 +6,7 @@ An open-source Go implementation of the Expo Updates protocol
 
 ## About
 
-Expo Open OTA is an open-source, self-hosted server for over-the-air updates in Expo apps, implementing the official Expo Updates protocol. It brings a web dashboard, multi-app support, progressive rollouts, instant rollbacks and one-command publishing, and serves update files from your own storage bucket, optionally behind your own CDN.
+xprem is an open-source, self-hosted server for over-the-air updates in Expo apps, implementing the official Expo Updates protocol. It brings a web dashboard, multi-app support, progressive rollouts, instant rollbacks and one-command publishing, and serves update files from your own storage bucket, optionally behind your own CDN.
 
 This template deploys the update server in control plane mode together with a PostgreSQL database. On first boot the server runs its migrations, seeds your admin account from the `ADMIN_EMAIL` and `ADMIN_PASSWORD` variables, and the dashboard becomes available on your Railway domain. Secrets like the JWT secret and the database master key are generated automatically at deploy time. You connect a storage bucket (S3, Google Cloud Storage, Cloudflare R2, MinIO or DigitalOcean Spaces) for the update artifacts, then publish from your terminal or CI with the eoas CLI. The server is stateless, so it scales horizontally on Railway without extra configuration.
 

@@ -16,7 +16,7 @@ Because Vaze uses SQLite for its internal database, there is no need to provisio
 
 | Service | Source | Type |
 |---------|--------|------|
-| Vaze | `ghcr.io/darseen/vaze:latest` | TCP service |
+| Vaze | `ghcr.io/darseen/vaze:latest` | Web service |
 
 ## Environment variables
 
@@ -29,7 +29,6 @@ Because Vaze uses SQLite for its internal database, there is no need to provisio
 
 - **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
-- **TCP Proxies:** 3000
 - **Volume:** `/app/apps/service/data`
 
 **Category:** Storage

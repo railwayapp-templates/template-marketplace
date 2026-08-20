@@ -17,7 +17,7 @@ The HTTP service holds the public domain and is protected by a generated bearer 
 | Service | Source | Type |
 |---------|--------|------|
 | http | `ghcr.io/ikatsuba/serverless-redis:2.2.1` | Database |
-| Redis | `redis/redis-stack` | Database |
+| Redis | `redis/redis-stack:7.4.0-v8` | Database |
 
 ## Environment variables
 
@@ -31,9 +31,13 @@ The HTTP service holds the public domain and is protected by a generated bearer 
 | `PRIVATE_URL` | http | - | Private URL |
 | `SR_IDLE_TIMEOUT_MS` | http | 300000 | - |
 | `ENABLE_ALPINE_PRIVATE_NETWORKING` | http | true | - |
+| `REDISHOST` | Redis | - | Private host of Redis, reachable from other services in this project. |
+| `REDISPORT` | Redis | 6379 | Redis port. |
 | `REDISUSER` | Redis | default | - |
+| `REDIS_URL` | Redis | - | Redis connection string over the private network. |
+| `REDIS_ARGS` | Redis | - | Arguments passed to the Redis server. Sets the password and enables the append-only file, so writes survive a redeploy. |
 | `REDISPASSWORD` | Redis | (secret) | - |
-| `REDIS_PASSWORD` | Redis | (secret) | - |
+| `REDIS_PASSWORD` | Redis | (secret) | Redis password. Generated per deployment and applied through REDIS_ARGS. |
 
 ## Configuration
 
