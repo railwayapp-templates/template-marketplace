@@ -1,4 +1,4 @@
-# Deploy Foldergram [Aug '26] (Photo Gallery) on Railway
+# Deploy Foldergram on Railway
 
 Folder-based photo and video gallery. Upload, browse.
 

@@ -1,6 +1,6 @@
-# Deploy Hermes Agent | Open Source, OpenClaw Alternative on Railway on Railway
+# Deploy Hermes Agent on Railway
 
-Self Host Hermes Agent: Autonomous AI agent w/ self-improving, tools & more
+Self Host Hermes Agent. Autonomous AI agent w/ self-improving, tools & more
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-ai)
 
@@ -42,6 +42,6 @@ Hermes Agent is a fully autonomous AI agent by Nous Research that lives on your 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** AI/ML · **Languages:** HTML, Python, Dockerfile, Shell
+**Category:** AI/ML · **Languages:** Python, HTML, Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/hermes-agent-ai)

@@ -1,12 +1,12 @@
 # Deploy Redis Insight on Railway
 
-[Jul'26] Redis UI for real-time monitoring, debugging, and data analysis.
+Redis UI for real-time monitoring, debugging, and data analysis.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redis-insight)
 
 ## About
 
-![](https://cdn.sanity.io/images/sy1jschh/production/8f55bd3acc15dcbe6547e331e5b0ef8dd011ef16-646x400.svg)
+![Redis UI](https://cdn.sanity.io/images/sy1jschh/production/8f55bd3acc15dcbe6547e331e5b0ef8dd011ef16-646x400.svg)
 
 This template deploys Redis Insight as a standalone service, allowing you to connect to any Redis instance, whether hosted on Railway or externally. It is designed for developers who need better visibility into their Redis data without additional setup.
 

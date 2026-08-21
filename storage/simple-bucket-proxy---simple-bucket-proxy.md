@@ -20,7 +20,7 @@ The default cache-control TTL is **1 hour**.
 
 This project is a lightweight Bun function that streams the contents of a connected Railway bucket.
 
-It serves the use case described in Railway docs here: https://docs.railway.com/guides/storage-buckets#serve-files-with-a-backend-proxy
+It serves the use case described in Railway docs here: https://docs.railway.com/storage-buckets/uploading-serving#serve-files-with-a-backend-proxy
 
 ---
 

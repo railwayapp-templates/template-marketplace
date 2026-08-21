@@ -17,8 +17,8 @@ Hosting and deploying TwentyCRM involves setting up the TwentyCRM application on
 
 | Service | Source | Type |
 |---------|--------|------|
-| Twenty | `twentycrm/twenty:v2.29.0` | Web service |
-| Twenty Worker | `twentycrm/twenty:v2.29.0` | Worker |
+| Twenty | `twentycrm/twenty:v2.32.0` | Web service |
+| Twenty Worker | `twentycrm/twenty:v2.32.0` | Worker |
 | Redis | `redis:8.2.1` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16.14` | Database |
 
@@ -84,6 +84,6 @@ Hosting and deploying TwentyCRM involves setting up the TwentyCRM application on
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Automation
+**Category:** Other
 
 [View on Railway →](https://railway.com/deploy/twentycrm)

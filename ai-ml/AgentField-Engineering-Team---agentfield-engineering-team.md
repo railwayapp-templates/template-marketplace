@@ -2,7 +2,7 @@
 
 AI Powered Engineering Team
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/swe-af)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/agentfield-engineering-team)
 
 ## About
 
@@ -20,19 +20,25 @@ SWE-AF runs as two Docker services: an AgentField control plane for orchestratio
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `PORT` | SWE-AF | 8003 |
-| `NODE_ID` | SWE-AF | swe-planner |
-| `GH_TOKEN` | SWE-AF | (secret) |
-| `AGENTFIELD_API_KEY` | SWE-AF | (secret) |
-| `CLAUDE_CODE_OAUTH_TOKEN` | SWE-AF | (secret) |
-| `POSTGRES_DB` | Postgres | railway |
-| `POSTGRES_USER` | Postgres | (secret) |
-| `POSTGRES_PASSWORD` | Postgres | (secret) |
-| `AGENTFIELD_PORT` | control-plane | 8080 |
-| `AGENTFIELD_API_KEY` | control-plane | (secret) |
-| `AGENTFIELD_STORAGE_MODE` | control-plane | postgres |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `PORT` | SWE-AF | 8003 | - |
+| `NODE_ID` | SWE-AF | swe-planner | - |
+| `GH_TOKEN` | SWE-AF | (secret) | - |
+| `AGENTFIELD_URL` | SWE-AF | - | - |
+| `AGENTFIELD_SERVER` | SWE-AF | - | - |
+| `AGENTFIELD_API_KEY` | SWE-AF | (secret) | - |
+| `AGENT_CALLBACK_URL` | SWE-AF | - | - |
+| `CLAUDE_CODE_OAUTH_TOKEN` | SWE-AF | (secret) | - |
+| `POSTGRES_DB` | Postgres | railway | - |
+| `DATABASE_URL` | Postgres | - | - |
+| `POSTGRES_USER` | Postgres | (secret) | - |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | - |
+| `DATABASE_PUBLIC_URL` | Postgres | - | - |
+| `AGENTFIELD_PORT` | control-plane | 8080 | - |
+| `AGENTFIELD_API_KEY` | control-plane | (secret) | - |
+| `AGENTFIELD_STORAGE_MODE` | control-plane | postgres | - |
+| `AGENTFIELD_STORAGE_POSTGRES_URL` | control-plane | - | - |
 
 ## Configuration
 
@@ -40,6 +46,6 @@ SWE-AF runs as two Docker services: an AgentField control plane for orchestratio
 - **Volume:** `/var/lib/postgresql/data`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** AI/ML · **Languages:** Python, Dockerfile, Makefile
+**Category:** AI/ML · **Languages:** Go, Python, Shell, Dockerfile, Makefile
 
-[View on Railway →](https://railway.com/deploy/swe-af)
+[View on Railway →](https://railway.com/deploy/agentfield-engineering-team)

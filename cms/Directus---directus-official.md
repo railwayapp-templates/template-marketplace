@@ -14,7 +14,7 @@ Hosting Directus on Railway provides a complete infrastructure stack with minima
 
 | Service | Source | Type |
 |---------|--------|------|
-| Directus | `directus/directus:12.2.0` | Web service |
+| Directus | `directus/directus:12.3.0` | Web service |
 | Redis | `redis:8.2.1` | Database |
 | PostGIS | `postgis/postgis:17-3.5` | Database |
 

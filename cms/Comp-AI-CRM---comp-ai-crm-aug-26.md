@@ -1,4 +1,4 @@
-# Deploy Comp AI CRM [Aug '26] on Railway
+# Deploy Comp AI CRM on Railway
 
 Open-source CRM for AI agents. Contacts, deals, email.
 
