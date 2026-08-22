@@ -1,6 +1,6 @@
 # Deploy SparkyFitness | (Just Updated) MyFitnessPal Alternative, Not Claimable by Strangers on Railway
 
-Deploy this application on Railway.
+MyFitnessPal alternative with Postgres; the admin cannot be claimed
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sparkyfitness-v161-or-myfitnesspal-alter)
 

@@ -1,6 +1,6 @@
 # Deploy Agentmemory | (Just Updated) Agent Memory Whose Recall Stays Scoped on Railway
 
-Deploy this application on Railway.
+Agent memory service whose recall stays scoped to the agent that wrote it
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/agentmemory-v0928-or-agent-memory-whose-)
 

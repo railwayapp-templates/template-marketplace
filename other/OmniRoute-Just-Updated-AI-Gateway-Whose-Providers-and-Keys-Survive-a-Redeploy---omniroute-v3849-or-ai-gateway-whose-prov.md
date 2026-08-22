@@ -1,6 +1,6 @@
 # Deploy OmniRoute | (Just Updated) AI Gateway Whose Providers and Keys Survive a Redeploy on Railway
 
-Deploy this application on Railway.
+AI gateway whose providers and API keys persist across redeploys
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/omniroute-v3849-or-ai-gateway-whose-prov)
 

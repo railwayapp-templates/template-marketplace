@@ -1,25 +1,24 @@
 # Deploy Möbius on Railway
 
-An AI agent that builds the app it lives in.
+Your portal to the world of AI agents.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mobius)
 
 ## About
 
-Möbius is a self-hosted AI agent platform where you chat with Claude to build mini-apps, modify the interface, and automate tasks — all from your phone or browser. The agent edits its own source code and rebuilds live.
-
-Möbius runs as a single Docker container: FastAPI serves the API and frontend, the Claude Code CLI runs as a subprocess for each chat message, and esbuild compiles mini-apps on the fly. All data — chats, apps, credentials, and theme — lives on a persistent volume at `/data`. Railway handles HTTPS automatically. After deploying, a setup wizard walks you through account creation and signing in with your Claude subscription. No additional configuration needed.
+Möbius runs as one service backed by a persistent volume, so your chats, apps, memory, and files stay with you across restarts and updates. It serves a progressive web app you can install on your phone or desktop and reaches you over a single HTTPS endpoint, with no separate database or extra services to wire up. The agent runs inside the container with write access to its own apps, skills, and memory, and Railway keeps it online and the image current.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| mobius | [hamzamerzic/mobius](https://github.com/hamzamerzic/mobius) | Database |
+| mobius | `ghcr.io/mobius-os/mobius:main` | Database |
 
 ## Configuration
 
+- **Healthcheck:** `/recover/health`
 - **Volume:** `/data`
 
-**Category:** AI/ML · **Languages:** Python, JavaScript, CSS, HTML, Shell, Dockerfile
+**Category:** AI/ML
 
 [View on Railway →](https://railway.com/deploy/mobius)

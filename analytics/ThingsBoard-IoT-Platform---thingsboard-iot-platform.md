@@ -17,7 +17,7 @@ ThingsBoard connects devices over MQTT and HTTP, routes their telemetry through 
 | Service | Source | Type |
 |---------|--------|------|
 | kafka | `apache/kafka:4.3.1` | Database |
-| thingsboard | `thingsboard/tb-node:4.3.1.3` | TCP service |
+| thingsboard | `thingsboard/tb-node:4.3.1.4` | TCP service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables

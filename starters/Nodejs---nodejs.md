@@ -1,6 +1,6 @@
 # Deploy Node.js on Railway
 
-[Jul'26] Node.js Starter – Lightweight Express.js Boilerplate for Web Apps
+Deploy Node.js and Express starter for modern web apps. Deploy in 1-click
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nodejs)
 

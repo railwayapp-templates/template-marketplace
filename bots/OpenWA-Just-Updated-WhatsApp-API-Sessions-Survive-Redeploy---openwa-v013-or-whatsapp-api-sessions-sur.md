@@ -1,6 +1,6 @@
 # Deploy OpenWA | (Just Updated) WhatsApp API, Sessions Survive Redeploy on Railway
 
-Deploy this application on Railway.
+WhatsApp API whose paired sessions survive a redeploy, on a volume
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openwa-v013-or-whatsapp-api-sessions-sur)
 

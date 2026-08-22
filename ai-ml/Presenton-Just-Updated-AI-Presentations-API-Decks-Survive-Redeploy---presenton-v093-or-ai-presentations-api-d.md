@@ -1,6 +1,6 @@
 # Deploy Presenton | (Just Updated) AI Presentations + API, Decks Survive Redeploy on Railway
 
-Deploy this application on Railway.
+AI slide decks plus an API; presentations survive every redeploy
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/presenton-v093-or-ai-presentations-api-d)
 

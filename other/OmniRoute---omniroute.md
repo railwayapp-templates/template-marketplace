@@ -1,6 +1,6 @@
 # Deploy OmniRoute on Railway
 
-[Jul'26] Route OpenAI, Claude, Gemini, and more through one endpoint.
+Route OpenAI, Claude, Gemini, and more through one endpoint.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/omniroute)
 

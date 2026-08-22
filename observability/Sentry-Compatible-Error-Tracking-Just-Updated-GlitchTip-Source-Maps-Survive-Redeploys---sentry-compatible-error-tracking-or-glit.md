@@ -1,6 +1,6 @@
 # Deploy Sentry-Compatible Error Tracking | (Just Updated) GlitchTip, Source Maps Survive Redeploys on Railway
 
-Deploy this application on Railway.
+Sentry-SDK error tracking in 3 services, not 12. Source maps on a volume.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sentry-compatible-error-tracking-or-glit)
 

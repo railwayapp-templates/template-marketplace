@@ -1,6 +1,6 @@
 # Deploy Nginx Proxy Manager on Railway
 
-[Jul'26] Easy NGINX reverse proxy and SSL manager with persistent storage.
+Easy NGINX reverse proxy and SSL manager with persistent storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nginx-proxy-manager)
 

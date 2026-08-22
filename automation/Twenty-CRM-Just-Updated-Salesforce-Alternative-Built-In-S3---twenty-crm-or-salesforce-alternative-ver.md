@@ -1,6 +1,6 @@
 # Deploy Twenty CRM | (Just Updated) Salesforce Alternative, Built-In S3 on Railway
 
-Deploy this application on Railway.
+Salesforce alternative wired up whole: server, worker, Postgres, S3
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/twenty-crm-or-salesforce-alternative-ver)
 

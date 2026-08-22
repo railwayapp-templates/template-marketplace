@@ -1,6 +1,6 @@
 # Deploy ChromaDB (Just Updated) on Railway
 
-Deploy this application on Railway.
+Vector database for embeddings, pinned image, data kept on a volume
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chromadb-latest)
 

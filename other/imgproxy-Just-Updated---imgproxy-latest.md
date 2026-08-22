@@ -1,6 +1,6 @@
 # Deploy imgproxy (Just Updated) on Railway
 
-Deploy this application on Railway.
+On-the-fly image resizing and format conversion proxy for your app
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/imgproxy-latest)
 

@@ -1,6 +1,6 @@
 # Deploy Debian SSH on Railway
 
-[Jul'26] Hosted Secure Debian stable version with SSH & storage. 🚀
+Hosted Secure Debian stable version with SSH & storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/debian-ssh)
 

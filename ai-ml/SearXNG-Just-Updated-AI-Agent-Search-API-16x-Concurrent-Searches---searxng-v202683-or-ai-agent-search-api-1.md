@@ -1,6 +1,6 @@
 # Deploy SearXNG | (Just Updated) AI Agent Search API, 16x Concurrent Searches on Railway
 
-Deploy this application on Railway.
+Search API for agents: JSON results answer on the first deploy, not 403
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/searxng-v202683-or-ai-agent-search-api-1)
 

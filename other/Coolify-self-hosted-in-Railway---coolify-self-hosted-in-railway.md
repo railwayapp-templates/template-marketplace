@@ -15,20 +15,33 @@ Hosting means running the entire Coolify control plane on Railway's infrastructu
 
 | Service | Source | Type |
 |---------|--------|------|
-| coolify | [BURNI80/coolify-railway-template](https://github.com/BURNI80/coolify-railway-template) | Web service |
-| postgres | `postgres:15-alpine` | Database |
-| redis | `redis:7-alpine` | Database |
+| Coolify | [BURNI80/coolify-railway-template](https://github.com/BURNI80/coolify-railway-template) | Web service |
+| Postgres | `postgres:15-alpine` | Database |
+| Redis | `redis:7-alpine` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default |
 | --------- | ------- | ------- |
-| `DB_PASSWORD` | coolify | (secret) |
-| `DB_USERNAME` | coolify | (secret) |
-| `REDIS_PASSWORD` | coolify | (secret) |
-| `POSTGRES_USER` | postgres | (secret) |
-| `POSTGRES_PASSWORD` | postgres | (secret) |
-| `REDIS_PASSWORD` | redis | (secret) |
+| `APP_ENV` | Coolify | production |
+| `DB_PORT` | Coolify | 5432 |
+| `APP_NAME` | Coolify | Coolify |
+| `APP_PORT` | Coolify | 8080 |
+| `AUTOUPDATE` | Coolify | false |
+| `REDIS_PORT` | Coolify | 6379 |
+| `DB_PASSWORD` | Coolify | (secret) |
+| `DB_USERNAME` | Coolify | (secret) |
+| `DB_CONNECTION` | Coolify | pgsql |
+| `REDIS_PASSWORD` | Coolify | (secret) |
+| `PHP_MEMORY_LIMIT` | Coolify | 512M |
+| `PHP_FPM_PM_CONTROL` | Coolify | dynamic |
+| `PHP_FPM_PM_START_SERVERS` | Coolify | 2 |
+| `PHP_FPM_PM_MAX_SPARE_SERVERS` | Coolify | 10 |
+| `PHP_FPM_PM_MIN_SPARE_SERVERS` | Coolify | 2 |
+| `POSTGRES_DB` | Postgres | coolify |
+| `POSTGRES_USER` | Postgres | (secret) |
+| `POSTGRES_PASSWORD` | Postgres | (secret) |
+| `REDIS_PASSWORD` | Redis | (secret) |
 
 ## Configuration
 

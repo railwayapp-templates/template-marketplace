@@ -1,6 +1,6 @@
 # Deploy CISO Assistant | (Just Updated) GRC You Can Actually Log Into on Railway
 
-Deploy this application on Railway.
+GRC platform you can actually log into: two services, admin seeded
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ciso-assistant-v3210-or-grc-you-can-actu)
 

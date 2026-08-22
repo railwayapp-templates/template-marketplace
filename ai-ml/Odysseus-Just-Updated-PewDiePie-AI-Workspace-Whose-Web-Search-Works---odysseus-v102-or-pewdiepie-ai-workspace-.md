@@ -1,6 +1,6 @@
 # Deploy Odysseus | (Just Updated) PewDiePie AI Workspace Whose Web Search Works on Railway
 
-Deploy this application on Railway.
+AI workspace whose web search returns results instead of 403
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/odysseus-v102-or-pewdiepie-ai-workspace-)
 

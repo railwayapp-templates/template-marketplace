@@ -1,6 +1,6 @@
 # Deploy NocoDB | (Just Updated) Airtable Alternative No Stranger Can Claim on Railway
 
-Deploy this application on Railway.
+Airtable alternative with signup closed, so no stranger can claim it
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nocodb-202608-or-airtable-alternative-no)
 

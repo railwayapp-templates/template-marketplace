@@ -1,6 +1,6 @@
 # Deploy Pingvin Share X | (Just Updated) WeTransfer Alternative, Not Claimable on Railway
 
-Deploy this application on Railway.
+WeTransfer alternative with admin seeded; no stranger can claim it
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pingvin-share-x-v122-or-wetransfer-alter)
 

@@ -1,6 +1,6 @@
 # Deploy RomM | (Just Updated) ROM Manager No Stranger Can Claim, Saves Survive on Railway
 
-Deploy this application on Railway.
+ROM manager with the admin seeded and saves on a volume that survives
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/romm-v510-or-rom-manager-no-stranger-can)
 

@@ -1,6 +1,6 @@
 # Deploy Instatic CMS | (Just Updated) AI Website Builder No Stranger Can Claim on Railway
 
-Deploy this application on Railway.
+AI website builder with the setup wizard closed before the first request
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/instatic-cms-v0014-or-ai-website-builder)
 

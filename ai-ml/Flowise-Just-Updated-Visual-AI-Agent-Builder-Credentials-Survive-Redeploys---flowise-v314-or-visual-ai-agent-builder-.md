@@ -1,6 +1,6 @@
 # Deploy Flowise | (Just Updated) Visual AI Agent Builder, Credentials Survive Redeploys on Railway
 
-Deploy this application on Railway.
+Visual AI agent builder whose provider credentials survive a redeploy
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowise-v314-or-visual-ai-agent-builder-)
 

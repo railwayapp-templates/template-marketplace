@@ -1,6 +1,6 @@
 # Deploy Metabase | (Just Updated) Open Source BI, Encrypted Credentials + Tuned JVM on Railway
 
-Deploy this application on Railway.
+Open source BI with data-source credentials encrypted and a tuned JVM
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/metabase-v063-or-open-source-bi-encrypte)
 

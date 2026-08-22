@@ -1,6 +1,6 @@
 # Deploy Swetrix CE | (Just Updated) Google Analytics Alternative, Data Survives Redeploys on Railway
 
-Deploy this application on Railway.
+Google Analytics alternative whose accounts and stats survive redeploys
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/swetrix-ce-v531-or-google-analytics-alte)
 

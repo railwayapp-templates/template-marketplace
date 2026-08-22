@@ -1,6 +1,6 @@
 # Deploy Umami | (Just Updated) Google Analytics Alternative, Admin Not admin/umami on Railway
 
-Deploy this application on Railway.
+Google Analytics alternative whose admin is not the default admin/umami
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/umami-v320-or-google-analytics-alternati)
 

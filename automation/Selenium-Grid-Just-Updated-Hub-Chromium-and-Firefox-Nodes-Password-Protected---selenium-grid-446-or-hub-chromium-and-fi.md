@@ -1,6 +1,6 @@
 # Deploy Selenium Grid | (Just Updated) Hub + Chromium and Firefox Nodes, Password-Protected on Railway
 
-Deploy this application on Railway.
+Hub with Chromium and Firefox nodes behind basic auth, one endpoint
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/selenium-grid-446-or-hub-chromium-and-fi)
 

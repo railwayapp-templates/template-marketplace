@@ -1,6 +1,6 @@
 # Deploy Libredesk - Complete Setup on Railway
 
-[Jul'26] Complete self-hosted omnichannel customer support desk.
+Complete self-hosted omnichannel customer support desk.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/libredesk-complete-setup)
 

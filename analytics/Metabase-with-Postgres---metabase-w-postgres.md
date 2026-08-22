@@ -1,6 +1,6 @@
-# Deploy Metabase with postgres on Railway
+# Deploy Metabase with Postgres on Railway
 
-[Jul'26] Quick analytics and insights for easy data exploration ✅
+Explore your data and build powerful dashboards. Deploy in 1-click 🚀
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/metabase-w-postgres)
 

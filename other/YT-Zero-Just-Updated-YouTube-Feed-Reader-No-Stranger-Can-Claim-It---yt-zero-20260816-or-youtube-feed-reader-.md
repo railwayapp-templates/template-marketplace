@@ -1,6 +1,6 @@
 # Deploy YT Zero | (Just Updated) YouTube Feed Reader, No Stranger Can Claim It on Railway
 
-Deploy this application on Railway.
+YouTube feed reader with the admin seeded; no stranger can claim it
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/yt-zero-20260816-or-youtube-feed-reader-)
 

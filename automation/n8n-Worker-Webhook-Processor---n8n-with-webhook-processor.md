@@ -1,6 +1,6 @@
-# Deploy N8N with Webhook Processor on Railway
+# Deploy n8n — Worker & Webhook Processor on Railway
 
-[Jul'26] Scalable n8n workers with webhook processor, Redis & Postgres
+Run scalable n8n with workers, webhook processor, Redis & Postgres.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-with-webhook-processor)
 
@@ -32,8 +32,8 @@ Railway simplifies all of this by providing managed networking, environment conf
 | Service | Source | Type |
 |---------|--------|------|
 | Worker | `n8nio/n8n` | Worker |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Redis | `railwayapp/redis` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| Redis | `redis:8.2` | Database |
 | Webhook Processor | `n8nio/n8n` | Worker |
 | Primary | `n8nio/n8n` | Web service |
 
@@ -61,9 +61,9 @@ Railway simplifies all of this by providing managed networking, environment conf
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
-| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `REDISPORT` | Redis | 6379 | - |
 | `REDISUSER` | Redis | default | - |
+| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
 | `REDISPASSWORD` | Redis | (secret) | - |
 | `REDIS_PASSWORD` | Redis | (secret) | - |
 | `PORT` | Webhook Processor | 5678 | - |
@@ -102,10 +102,10 @@ Railway simplifies all of this by providing managed networking, environment conf
 
 ## Configuration
 
-- **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
-- **Networking:** Public domain with automatic HTTPS
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **Volume:** `/data`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** Automation
 

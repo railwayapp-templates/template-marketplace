@@ -1,6 +1,6 @@
 # Deploy n8n (cheapest to run, latest) on Railway
 
-Deploy this application on Railway.
+Lowest-cost n8n deploy here, with workflows and credentials persisted
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-v200-still-cheapest-regular-update)
 

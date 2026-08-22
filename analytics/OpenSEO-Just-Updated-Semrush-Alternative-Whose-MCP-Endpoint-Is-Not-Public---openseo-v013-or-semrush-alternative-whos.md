@@ -1,6 +1,6 @@
 # Deploy OpenSEO | (Just Updated) Semrush Alternative Whose MCP Endpoint Is Not Public on Railway
 
-Deploy this application on Railway.
+Semrush alternative whose MCP endpoint is not exposed to the public
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openseo-v013-or-semrush-alternative-whos)
 

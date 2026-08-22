@@ -1,6 +1,6 @@
 # Deploy Velix API | (Just Updated) Self-Hosted WhatsApp REST API, Numbers Actually Connect on Railway
 
-Deploy this application on Railway.
+Self-hosted WhatsApp REST API; numbers pair and sessions persist
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/velix-api-v100-or-self-hosted-whatsapp-r)
 

@@ -1,6 +1,6 @@
 # Deploy Obsidian LiveSync CouchDB | (Just Updated) Admin Password Survives Every Redeploy on Railway
 
-Deploy this application on Railway.
+CouchDB for Obsidian sync; admin password survives every redeploy
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/obsidian-livesync-couchdb-v3521-or-admin)
 

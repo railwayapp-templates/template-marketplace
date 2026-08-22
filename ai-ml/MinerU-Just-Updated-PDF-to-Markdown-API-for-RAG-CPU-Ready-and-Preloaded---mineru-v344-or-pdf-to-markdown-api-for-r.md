@@ -1,6 +1,6 @@
 # Deploy MinerU | (Just Updated) PDF-to-Markdown API for RAG, CPU-Ready and Preloaded on Railway
 
-Deploy this application on Railway.
+PDF-to-Markdown API for RAG, CPU-ready with models already preloaded
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mineru-v344-or-pdf-to-markdown-api-for-r)
 

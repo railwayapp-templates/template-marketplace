@@ -1,6 +1,6 @@
 # Deploy AnythingLLM (Just Updated) on Railway
 
-Deploy this application on Railway.
+Private document chat and RAG workspace, data kept on a volume
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/anythingllm-latest)
 

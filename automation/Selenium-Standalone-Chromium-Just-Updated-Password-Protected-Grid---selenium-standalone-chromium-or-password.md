@@ -1,6 +1,6 @@
 # Deploy Selenium Standalone Chromium | (Just Updated) Password-Protected Grid on Railway
 
-Deploy this application on Railway.
+Chromium WebDriver endpoint with basic auth on; not an open grid
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/selenium-standalone-chromium-or-password)
 

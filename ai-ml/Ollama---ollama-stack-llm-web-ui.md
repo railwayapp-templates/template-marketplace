@@ -1,6 +1,6 @@
-# Deploy Ollama with Open WebUI on Railway
+# Deploy Ollama on Railway
 
-[Jul'26] 1-click deploy Ollama LLM with Web UI. Ready to use 🤖
+1-click deploy Ollama LLM with Open WebUI. Ready to use 🤖
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ollama-stack-llm-web-ui)
 

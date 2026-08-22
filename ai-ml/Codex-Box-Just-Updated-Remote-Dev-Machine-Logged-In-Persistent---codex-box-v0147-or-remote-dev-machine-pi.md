@@ -1,6 +1,6 @@
 # Deploy Codex Box | (Just Updated) Remote Dev Machine Logged In, Persistent on Railway
 
-Deploy this application on Railway.
+Remote dev machine that stays logged in, with the workspace persisted
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/codex-box-v0147-or-remote-dev-machine-pi)
 

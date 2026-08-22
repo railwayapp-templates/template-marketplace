@@ -1,6 +1,6 @@
 # Deploy Selenium Standalone Firefox | (Just Updated) Password-Protected Grid on Railway
 
-Deploy this application on Railway.
+Firefox WebDriver endpoint with basic auth on; not an open public grid
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/selenium-standalone-firefox-or-password-)
 

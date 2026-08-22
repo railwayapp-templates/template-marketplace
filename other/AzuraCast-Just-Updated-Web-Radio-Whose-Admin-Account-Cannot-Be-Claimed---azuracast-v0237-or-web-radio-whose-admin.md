@@ -1,6 +1,6 @@
 # Deploy AzuraCast | (Just Updated) Web Radio Whose Admin Account Cannot Be Claimed on Railway
 
-Deploy this application on Railway.
+Web radio station whose admin account is seeded and cannot be claimed
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/azuracast-v0237-or-web-radio-whose-admin)
 

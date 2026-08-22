@@ -1,6 +1,6 @@
 # Deploy ERPNext | (Just Updated) Odoo Alternative, 2 Services Not 4, No Build Step on Railway
 
-Deploy this application on Railway.
+Odoo alternative in 2 services, prebuilt images, no build minutes
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/erpnext-v16-or-odoo-alternative-2-servic)
 

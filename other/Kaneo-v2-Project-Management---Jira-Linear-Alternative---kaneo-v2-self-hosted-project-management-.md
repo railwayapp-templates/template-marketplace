@@ -27,7 +27,7 @@ so you get a fully working Kaneo deployment without additional work. (Note: Swit
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| SeaweedFS | `chrislusf/seaweedfs:4.41` | Web service |
+| SeaweedFS | `chrislusf/seaweedfs:4.43` | Web service |
 | Kaneo | `ghcr.io/usekaneo/kaneo:latest` | Web service |
 
 ## Environment variables

@@ -1,6 +1,6 @@
 # Deploy OpenHuman Core | (Just Updated) Remote AI Core, Healthchecked on Railway
 
-Deploy this application on Railway.
+Remote AI core with a working healthcheck and the Node runtime prebaked
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openhuman-core-v06-1)
 
