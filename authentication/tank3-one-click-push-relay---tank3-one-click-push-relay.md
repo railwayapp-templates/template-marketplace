@@ -14,7 +14,7 @@ Tank3 is the pocket control room for agents running on your own machines, but if
 
 | Service | Source | Type |
 |---------|--------|------|
-| tankernauts/tank-relay:v0.1.0 | `ghcr.io/tankernauts/tank-relay:v0.2.0@sha256:6ed333ee0603a7b4bf0bd0692c86495f117c2a4e2302711154613a852c740f1d` | Web service |
+| tank relay | `ghcr.io/tankernauts/tank-relay:v0.2.0@sha256:6ed333ee0603a7b4bf0bd0692c86495f117c2a4e2302711154613a852c740f1d` | Web service |
 
 ## Environment variables
 

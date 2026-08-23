@@ -1,18 +1,20 @@
 # Deploy Adminer on Railway
 
-[Jul'26] Lightweight database management UI for SQL databases
+Manage your databases from a lightweight web UI, ready in just 1 click.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/adminer)
 
 ## About
 
-Adminer is a lightweight web-based database management tool. It provides a simple interface to connect, browse, query, and manage databases from your browser. Unlike heavier database administration tools, Adminer runs as a small standalone application and supports multiple database systems through a clean web UI.
+Adminer is a lightweight web-based database management tool for connecting to, browsing, querying, and managing databases directly from your browser. It provides a simple alternative to heavier database administration platforms and runs as a compact standalone application with a clean web interface.
 
-Hosting Adminer gives you a simple database administration dashboard that can be accessed from a browser. This template deploys Adminer only and does not include any database service by default.
+This template deploys **Adminer as a standalone database management interface**.
 
-After deployment, you can open the Adminer web interface and manually connect to your existing database using your own database host, username, password, and database name. This makes the template flexible for users who already have databases running on Railway, another cloud provider, a VPS, or an internal server.
+No database server is bundled with the template. After deployment, you can connect Adminer to an existing database running on Railway, another cloud platform, a VPS, or another reachable server using your own database credentials.
 
-Adminer is useful when you need a quick database UI without installing desktop tools or setting up a heavier admin panel.
+Adminer is particularly useful when you need quick access to database tables, records, indexes, schemas, and SQL queries without installing a desktop client.
+
+The template uses the built-in **Nette** interface design for a cleaner visual experience.
 
 ## What gets deployed
 
@@ -22,10 +24,10 @@ Adminer is useful when you need a quick database UI without installing desktop t
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `PORT` | 8080 |
-| `ADMINER_DESIGN` | nette |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 8080 | Railway public service port for Adminer |
+| `ADMINER_DESIGN` | nette | Optional built-in Adminer interface design |
 
 ## Configuration
 

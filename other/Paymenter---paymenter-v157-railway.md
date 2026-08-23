@@ -6,7 +6,7 @@ Billing and hosting automation with generated admin, MariaDB, and Redis
 
 ## About
 
-Paymenter is open-source billing, invoicing, client-management, and service-automation software built for hosting providers. This template deploys stable release `v1.5.7` with private MariaDB and Redis services and durable application storage.
+Paymenter is open-source billing, invoicing, client-management, and service-automation software built for hosting providers. This template deploys stable release `v1.5.8` with private MariaDB and Redis services and durable application storage.
 
 ## What gets deployed
 

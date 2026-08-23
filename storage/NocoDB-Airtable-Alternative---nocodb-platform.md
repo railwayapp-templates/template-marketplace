@@ -1,4 +1,4 @@
-# Deploy NocoDB - Airtable Alternative on Railway
+# Deploy NocoDB — Airtable Alternative on Railway
 
 No-code database platform with collaborative views and instant APIs.
 

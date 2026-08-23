@@ -14,7 +14,11 @@ Scrumboy runs as a single Go binary with SQLite storage. No external database ne
 
 | Service | Source | Type |
 |---------|--------|------|
-| scrumboy | [markrai/scrumboy](https://github.com/markrai/scrumboy) | Worker |
+| scrumboy | [markrai/scrumboy](https://github.com/markrai/scrumboy) | Database |
+
+## Configuration
+
+- **Volume:** `/data`
 
 **Category:** Other · **Languages:** Go, TypeScript, HTML, CSS, JavaScript, PowerShell, Batchfile, Dockerfile
 

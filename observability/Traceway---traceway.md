@@ -6,7 +6,7 @@ OpenTelemetry observability with persistent single-node storage
 
 ## About
 
-Traceway is an OpenTelemetry-native observability platform for logs, traces, metrics, session replay, exceptions, AI tracing, and on-call alerting. This template deploys the first-party `v1.9.11-sqlite` image as a durable, single-node Railway service.
+Traceway is an OpenTelemetry-native observability platform for logs, traces, metrics, session replay, exceptions, AI tracing, and on-call alerting. This template deploys the first-party `v1.9.19-sqlite` image as a durable, single-node Railway service.
 
 Open the generated public domain and register the first account. That account becomes the owner of the self-hosted organization; later users should be invited from inside Traceway.
 
@@ -14,7 +14,7 @@ Open the generated public domain and register the first account. That account be
 
 | Service | Source | Type |
 |---------|--------|------|
-| traceway | `ghcr.io/tracewayapp/traceway:v1.9.11-sqlite` | Web service |
+| traceway | `ghcr.io/tracewayapp/traceway:v1.9.19-sqlite@sha256:b5a3f587803e58deab447cd6637c22f8e5f493a329d9aaebf9adf0a6d916d54d` | Web service |
 
 ## Environment variables
 

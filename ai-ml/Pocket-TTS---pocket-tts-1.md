@@ -2,7 +2,7 @@
 
 CPU-only text-to-speech API. Send text, get audio back.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocket-tts)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocket-tts-1)
 
 ## About
 
@@ -14,8 +14,13 @@ Pocket TTS runs as a Python service that loads a lightweight speech model into m
 
 | Service | Source | Type |
 |---------|--------|------|
-| pocket-tts | [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts) | Worker |
+| pocket-tts | [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts) | Web service |
+
+## Configuration
+
+- **Start command:** `uv run pocket-tts serve --host 0.0.0.0`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** AI/ML · **Languages:** Python, HTML, HCL, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/deploy/pocket-tts)
+[View on Railway →](https://railway.com/deploy/pocket-tts-1)

@@ -6,7 +6,7 @@ Joomla CMS with generated admin and private MariaDB
 
 ## About
 
-Joomla is an open-source content management system for websites, portals, and applications. This template deploys stable 6.1.2 with unattended setup, generated credentials, and MariaDB.
+Joomla is an open-source content management system for websites, portals, and applications. This template deploys stable 6.1.3 with unattended setup, generated credentials, and MariaDB.
 
 Sign in at `/administrator/` using `JOOMLA_ADMIN_USERNAME` and `JOOMLA_ADMIN_PASSWORD`.
 

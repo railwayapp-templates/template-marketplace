@@ -1,6 +1,6 @@
-# Deploy Redis Stack on Railway
+# Deploy Redis with UI on Railway
 
-[Jul'26] All in one Redis setup with Insight UI and persistent storage
+Run Redis with a powerful visual management UI, ready in just 1 click.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redis-stack)
 

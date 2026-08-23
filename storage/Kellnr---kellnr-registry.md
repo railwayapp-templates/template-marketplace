@@ -6,7 +6,7 @@ Private Rust crate registry with access control and backups
 
 ## About
 
-Kellnr is a private Rust crate registry with a web interface, Cargo-compatible indexes, access control, crates.io proxying, and documentation generation. This template deploys version 6.5.3 with generated administrator credentials and durable local storage.
+Kellnr is a private Rust crate registry with a web interface, Cargo-compatible indexes, access control, crates.io proxying, and documentation generation. This template deploys version 6.6.0 with generated administrator credentials and durable local storage.
 
 Sign in as `admin` using `KELLNR_SETUP__ADMIN_PWD`. Cargo clients can use `KELLNR_SETUP__ADMIN_TOKEN` from the service variables.
 
