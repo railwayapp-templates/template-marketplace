@@ -1,16 +1,34 @@
 # Deploy Selenium Standalone Chrome on Railway
 
-[Jul'26] High-performance Selenium Chrome node for scalable automation
+Run Chrome browser automation with Selenium WebDriver in just 1 click.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/selenium-standalone-chrome)
 
 ## About
 
-Selenium Standalone Chrome is a ready-to-use browser automation service that runs Chrome in a containerized environment. It exposes a WebDriver endpoint, enabling remote control of headless or full browser sessions for testing, scraping, and automation workflows at scale.
+Selenium Standalone Chrome is a ready-to-use remote browser automation service powered by Selenium WebDriver and Google Chrome. It exposes a WebDriver-compatible endpoint so applications can control browser sessions remotely for testing, scraping, QA, screenshot generation, and other browser automation workflows.
 
-Hosting Selenium Standalone Chrome involves running a containerized browser node that exposes a WebDriver-compatible API (typically on port 4444). This allows external clients (e.g., Python, Node.js) to execute browser automation tasks remotely. When deployed on Railway, the service becomes publicly accessible and scalable, enabling distributed automation workloads without managing infrastructure manually.
+This template is optimized for Railway with headless Chrome, shared-memory tuning, configurable concurrency, and Selenium Grid monitoring. It provides a practical remote browser environment without requiring you to maintain a dedicated browser virtual machine or manually configure a Selenium server.
 
-With proper configuration (such as concurrent sessions, memory tuning, and Chrome arguments), this setup can handle multiple parallel browser sessions efficiently, making it suitable for high-throughput automation workloads.
+Hosting Selenium Standalone Chrome on Railway gives you a remotely accessible Chrome automation environment that can be used by backend services, test runners, scheduled jobs, and local development tools.
+
+Applications written in Java, C#, and other WebDriver-compatible languages can connect to the Selenium endpoint and create browser sessions on demand. Your application sends commands through the WebDriver protocol, while Chrome runs inside the deployed Selenium container.
+
+Typical workloads include:
+
+* Web scraping and structured data extraction
+* End-to-end testing
+* Automated form submission
+* Login and navigation workflows
+* Screenshot and PDF generation
+* Browser-based integration testing
+* Dynamic website data extraction
+* Automated QA pipelines
+* Website monitoring
+* CI/CD browser testing
+* Rendering JavaScript-heavy pages
+
+The browser environment is ephemeral by design. Each session can start with a clean profile, which helps prevent cookies, cache, and temporary files from one job affecting another.
 
 ## What gets deployed
 
@@ -20,17 +38,21 @@ With proper configuration (such as concurrent sessions, memory tuning, and Chrom
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `PORT` | 4444 |
-| `START_XVFB` | true |
-| `SE_SCREEN_WIDTH` | 1920 |
-| `SE_SCREEN_HEIGHT` | 1080 |
-| `SE_SESSION_TIMEOUT` | 300 |
-| `SE_NODE_CHROME_ARGS` | --disable-dev-shm-usage --no-sandbox --disable-gpu --disable-extensions --disable-infobars --window-size=1920,1080 --headless=new --remote-allow-origins=* |
-| `SE_NODE_MAX_SESSIONS` | 4 |
-| `SE_NODE_SESSION_TIMEOUT` | 300 |
-| `SE_NODE_OVERRIDE_MAX_SESSIONS` | true |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 4444 | Railway public service port for Selenium Grid |
+| `SE_START_VNC` | false | Disable VNC to reduce resource usage |
+| `SE_START_XVFB` | true | Start Xvfb for modern Chrome headless mode |
+| `SE_SCREEN_DEPTH` | 24 | Virtual display color depth |
+| `SE_SCREEN_WIDTH` | 1920 | Virtual screen width |
+| `SE_START_NO_VNC` | false | Disable noVNC to reduce resource usage |
+| `SE_SCREEN_HEIGHT` | 1080 | Virtual screen height |
+| `SE_ENABLE_TRACING` | false | Reduce unnecessary tracing overhead |
+| `SE_NODE_CHROME_ARGS` | --no-sandbox --disable-gpu --disable-extensions --window-size=1920,1080 --headless=new --remote-allow-origins=* | - |
+| `SE_NODE_MAX_SESSIONS` | 2 | Maximum concurrent Chrome sessions |
+| `SE_NODE_SESSION_TIMEOUT` | 300 | Close inactive browser sessions after five minutes |
+| `SE_SESSION_REQUEST_TIMEOUT` | 300 | Maximum time session requests can remain queued |
+| `SE_NODE_OVERRIDE_MAX_SESSIONS` | true | Allow configured concurrency regardless of detected CPU count |
 
 ## Configuration
 

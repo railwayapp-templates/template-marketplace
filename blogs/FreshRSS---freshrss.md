@@ -6,9 +6,9 @@ FreshRSS — one-click self-hosted feed reader
 
 ## About
 
-FreshRSS is a free, self-hosted RSS and Atom feed aggregator for people who want a fast, private way to follow blogs, news sites, podcasts, newsletters, and other feed-based content. It is lightweight, customizable, and ideal for users who want full control over their reading experience.
+FreshRSS is a free, self-hosted RSS and Atom aggregator for following blogs, news, podcasts, and other feed-based content without a third-party reader.
 
-Hosting FreshRSS usually involves running the application in a container, attaching persistent storage for configuration and feed data, and choosing a supported database backend such as SQLite or PostgreSQL. Because FreshRSS is lightweight and easy to operate, it is a strong fit for self-hosted deployments on modern infrastructure platforms. With Railway, you can package FreshRSS into a reusable deployment template that makes spinning up a personal or shared feed reader much simpler. This gives users an easy way to deploy, manage, and scale their FreshRSS instance without spending much time on infrastructure setup.
+This template runs `freshrss/freshrss:latest` on port 8080 and stores application data in a Railway volume at `/var/www/FreshRSS/data`. Timezone defaults to `Asia/Shanghai`. Feed polling runs at minutes 1 and 31 (`CRON_MIN`). After deploy, open the public URL and complete FreshRSS's built-in installer.
 
 ## What gets deployed
 

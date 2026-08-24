@@ -15,7 +15,7 @@ Hosting OpenBao involves setting up the necessary infrastructure to support its 
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Openbao | `ghcr.io/openbao/openbao:2.6.0` | Web service |
+| Openbao | `ghcr.io/openbao/openbao:2.6.2` | Web service |
 
 ## Environment variables
 

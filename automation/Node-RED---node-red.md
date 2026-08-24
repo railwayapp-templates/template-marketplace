@@ -12,7 +12,7 @@ Node-RED is a flow-based development tool for visual programming, originally dev
 
 | Service | Source | Type |
 |---------|--------|------|
-| Node-RED | [AnarchistManifesto/Node-RED](https://github.com/AnarchistManifesto/Node-RED) | Database |
+| Node-RED | [AnarchistManifesto/Node-RED](https://github.com/AnarchistManifesto/Node-RED) | Web service |
 
 ## Environment variables
 
@@ -25,6 +25,7 @@ Node-RED is a flow-based development tool for visual programming, originally dev
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
 **Category:** Automation · **Languages:** Dockerfile

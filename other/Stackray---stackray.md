@@ -31,10 +31,12 @@ This Railway template provisions the full Stackray stack in one flow: the Next.j
 | `STACKRAY_WORKER_ROLE` | worker-intel | intel | - |
 | `AWS_SECRET_ACCESS_KEY` | worker-intel | (secret) | - |
 | `STACKRAY_SCHEMA_OWNER` | worker-intel | - | For the worker to wait for Stackray-website deployment, because Stackray-website predeploy command is what runs db migration script |
+| `STACKRAY_ENCRYPTION_KEY` | worker-intel | - | Encryption key for alert webhooks |
 | `STACKRAY_WORKER_CONCURRENCY` | worker-intel | 8 | - |
 | `BETTER_AUTH_SECRET` | Stackray-website | (secret) | - |
 | `AWS_SECRET_ACCESS_KEY` | Stackray-website | (secret) | - |
 | `STACKRAY_SCHEMA_OWNER` | Stackray-website | ready | For workers to wait for website readiness, since website predeploy script runs the db migration script |
+| `STACKRAY_ENCRYPTION_KEY` | Stackray-website | - | Encryption key for alert webhooks |
 | `STACKRAY_WORKER_ROLE` | worker-browser | browser | - |
 | `AWS_SECRET_ACCESS_KEY` | worker-browser | (secret) | - |
 | `STACKRAY_SCHEMA_OWNER` | worker-browser | - | For the worker to wait for Stackray-website deployment, because Stackray-website predeploy command is what runs db migration script |

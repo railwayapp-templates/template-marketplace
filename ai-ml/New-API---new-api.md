@@ -1,14 +1,14 @@
 # Deploy New API on Railway
 
-New API — OpenAI-compatible API gateway, LLM API proxy
+OpenAI-compatible API gateway for multiple LLM providers
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/new-api)
 
 ## About
 
-New API is an open-source AI gateway that lets you manage multiple model providers through one unified API. It supports model routing, token management, quota control, and provider aggregation, making it useful for both personal and team AI platforms.
+New API is an open-source AI gateway that fronts multiple model providers with one OpenAI-compatible API. It handles routing, tokens, quotas, and provider aggregation.
 
-Hosting New API on Railway gives you a simple way to run your own AI gateway with a public endpoint, persistent data, and optional external services like PostgreSQL/MySQL or Redis. It works well for building internal AI tools, shared team gateways, or commercial AI access layers.
+This template runs `calciumion/new-api:latest` on port 8080, plus Postgres 18 and Redis 8.2.1 on Railway's private network. The app takes `SQL_DSN` from Postgres and `REDIS_CONN_STRING` from Redis. Postgres and Redis keep data on volumes. Timezone defaults to `Asia/Shanghai`.
 
 ## What gets deployed
 

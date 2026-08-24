@@ -29,7 +29,7 @@ SWE-AF runs as two Docker services: an AgentField control plane for orchestratio
 | `AGENTFIELD_SERVER` | SWE-AF | - | - |
 | `AGENTFIELD_API_KEY` | SWE-AF | (secret) | - |
 | `AGENT_CALLBACK_URL` | SWE-AF | - | - |
-| `CLAUDE_CODE_OAUTH_TOKEN` | SWE-AF | (secret) | - |
+| `OPENROUTER_API_KEY` | SWE-AF | (secret) | - |
 | `POSTGRES_DB` | Postgres | railway | - |
 | `DATABASE_URL` | Postgres | - | - |
 | `POSTGRES_USER` | Postgres | (secret) | - |

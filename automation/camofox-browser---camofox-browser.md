@@ -6,7 +6,7 @@ Anti-detection browser automation powered by Camoufox
 
 ## About
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/IrXpSx)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/camofox-browser)
 
 ![Camofox Browser](https://raw.githubusercontent.com/INAPP-Mobile/camofox-browser/main/template-icon.svg)
 
@@ -25,7 +25,7 @@ This template deploys on Railway with a single service running Camoufox (a patch
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `PORT` | 9377 | Port the Camofox Browser server listens on. Railway injects this automatically. |
-| `MAX_SESSIONS` | 10 | Maximum number of concurrent browser sessions. Each session uses significant memory (500MB+). Reduce if memory-constrained. |
+| `MAX_SESSIONS` | 50 | Maximum number of concurrent browser sessions. Each session uses significant memory (500MB+). Reduce if memory-constrained. |
 | `CAMOFOX_API_KEY` | (secret) | API key for authentication. Auto-generated on deploy. Set to empty string to disable auth (anyone with the URL can use the service). |
 | `CAMOFOX_ADMIN_KEY` | - | Admin key for privileged operations (stats, management). Auto-generated on deploy. Set to empty string to disable admin endpoints. |
 | `CAMOFOX_INTERACTIVE` | off | Interactive mode: 'off' (headless only), 'desktop' (always interactive), 'novnc' (VNC via browser), 'auto' (detect based on capabilities). |

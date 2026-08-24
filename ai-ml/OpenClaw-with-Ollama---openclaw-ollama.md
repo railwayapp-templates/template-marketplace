@@ -1,6 +1,6 @@
 # Deploy OpenClaw with Ollama on Railway
 
-[Jul'26] Launch OpenClaw in minutes with open models powered by Ollama
+Launch OpenClaw in minutes with open models powered by Ollama
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-ollama)
 
@@ -38,6 +38,6 @@ This two-service setup keeps OpenClaw and Ollama separated, easier to manage, an
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** Other · **Languages:** HTML, JavaScript, Dockerfile
+**Category:** AI/ML · **Languages:** HTML, JavaScript, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/openclaw-ollama)
