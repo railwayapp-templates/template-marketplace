@@ -1,4 +1,4 @@
-# Deploy Bytebase on Railway on Railway
+# Deploy Bytebase on Railway
 
 Deploy Bytebase with Railway-native Postgres metadata storage.
 

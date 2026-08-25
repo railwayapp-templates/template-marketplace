@@ -1,4 +1,4 @@
-# Deploy Centrifugo on Railway on Railway
+# Deploy Centrifugo on Railway
 
 Single-node Centrifugo with private API access and generated secrets.
 

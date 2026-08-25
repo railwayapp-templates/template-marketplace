@@ -1,4 +1,4 @@
-# Deploy WhoDB on Railway on Railway
+# Deploy WhoDB on Railway
 
 Secure WhoDB with persistent sessions, Basic Auth, and generated secrets.
 

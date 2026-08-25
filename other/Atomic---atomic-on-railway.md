@@ -1,4 +1,4 @@
-# Deploy Atomic on Railway on Railway
+# Deploy Atomic on Railway
 
 Self-host Atomic knowledge, APIs, WebSockets, and MCP with persistent data.
 

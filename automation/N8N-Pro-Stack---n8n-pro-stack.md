@@ -1,4 +1,4 @@
-# Deploy n8n — Scalable Workflow Automation on Railway
+# Deploy N8N Pro Stack on Railway
 
 Scalable n8n with workers, Redis & Postgres for powerful automation.
 

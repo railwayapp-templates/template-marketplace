@@ -16,18 +16,19 @@ Redis is what keeps the deployment polite. Without a shared cache every reader p
 
 | Service | Source | Type |
 |---------|--------|------|
-| RSSHub | `ghcr.io/diygod/rsshub:chromium-bundled-2026-08-10` | Web service |
+| RSSHub | `ghcr.io/diygod/rsshub:chromium-bundled-2026-08-24` | Web service |
 | Redis | `redis:8.10.0-alpine` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `NODE_ENV` | RSSHub | production | Node environment |
-| `REDIS_URL` | RSSHub | - | Redis URL |
-| `CACHE_TYPE` | RSSHub | redis | Cache Type |
-| `REDIS_URL` | Redis | - | URL to connect to Redis over the private network. |
-| `REDIS_PASSWORD` | Redis | (secret) | Password to connect to Redis. |
+| `PORT` | RSSHub | 1200 | Port RSSHub listens on. Set explicitly rather than relying on port autodetection. |
+| `NODE_ENV` | RSSHub | production | Node environment. |
+| `REDIS_URL` | RSSHub | - | Cache connection string. `?family=0` lets ioredis accept the AAAA record of Railway's IPv6-only private network. |
+| `CACHE_TYPE` | RSSHub | redis | Cache backend. Redis keeps feeds warm across restarts. |
+| `REDIS_URL` | Redis | - | Private connection string RSSHub uses for its cache. |
+| `REDIS_PASSWORD` | Redis | (secret) | Generated Redis password. Alphabet is letters-only on purpose: a `/` would corrupt the redis:// URL below. |
 
 ## Configuration
 

@@ -1,4 +1,4 @@
-# Deploy Form.io CE on Railway on Railway
+# Deploy Form.io CE on Railway
 
 Deploy Form.io CE with native MongoDB and generated secrets.
 

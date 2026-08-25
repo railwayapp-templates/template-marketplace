@@ -1,4 +1,4 @@
-# Deploy FileRise on Railway on Railway
+# Deploy FileRise on Railway
 
 Secure FileRise with persistent storage, closed setup, and generated keys.
 

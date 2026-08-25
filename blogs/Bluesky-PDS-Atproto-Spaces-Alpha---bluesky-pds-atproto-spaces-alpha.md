@@ -1,8 +1,8 @@
-# Deploy Bluesky PDS on Railway
+# Deploy Bluesky PDS (Atproto Spaces Alpha) on Railway
 
-Bluesky PDS (Personal Data Server)
+"The Atproto Spaces Alpha" version of Bluesky PDS.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xBNJ1u)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bluesky-pds-atproto-spaces-alpha)
 
 ## About
 
@@ -16,7 +16,7 @@ PDS hosting previously required running installation scripts on VPS, but with Pa
 
 | Service | Source | Type |
 |---------|--------|------|
-| PDS | `ghcr.io/bluesky-social/pds:0.4` | Web service |
+| PDS | `ghcr.io/bluesky-social/atproto:pds-spaces-alpha` | Web service |
 
 ## Environment variables
 
@@ -48,4 +48,4 @@ PDS hosting previously required running installation scripts on VPS, but with Pa
 
 **Category:** Blogs
 
-[View on Railway →](https://railway.com/deploy/xBNJ1u)
+[View on Railway →](https://railway.com/deploy/bluesky-pds-atproto-spaces-alpha)

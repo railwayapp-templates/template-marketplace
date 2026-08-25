@@ -10,7 +10,7 @@ PostgreSQL 18 is the latest major release of the world's most advanced open-sour
 
 This version introduces performance improvements, enhanced security features, and a new data directory structure for better version management.
 
-This template includes pre-configured SSL/TLS support for secure connections out of the box, and defaults to a security-patched Postgres 18.6 build — no configuration required to deploy.
+This template includes pre-configured SSL/TLS support for secure connections out of the box, and defaults to a security-patched PostgreSQL 18.6 build — no configuration required to deploy.
 
 Hosting PostgreSQL 18 on Railway provides a production-ready database with automatic SSL certificate management and secure connections.
 
@@ -18,7 +18,7 @@ This template uses the official PostgreSQL 18 Docker image with custom wrapper s
 
 The database is configured with the new version-specific data directory structure (`/var/lib/postgresql/18/docker`), making future upgrades more seamless.
 
-Railway's volume system ensures your data persists across deployments, while the platform handles networking, environment variables, and resource scaling automatically. Every variable ships with a secure, working default (auto-generated password, private networking, SSL enabled) — deploy the template and it works as-is, with no setup steps required.
+Railway's volume system ensures your data persists across deployments, while the platform handles networking, environment variables, and resource scaling automatically. Every variable ships with a secure, working default — including an auto-generated password, private networking, and SSL enabled — so you can deploy the template and use it as-is with no setup steps required.
 
 ## What gets deployed
 
