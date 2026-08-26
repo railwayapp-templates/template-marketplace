@@ -14,7 +14,7 @@ Hosting refers to running your Caddy proxy instance on a cloud platform like Rai
 
 | Service | Source | Type |
 |---------|--------|------|
-| Caddy-Proxy | [AnarchistManifesto/Caddy-Proxy](https://github.com/AnarchistManifesto/Caddy-Proxy) | Worker |
+| Caddy-Proxy | [OpenSource-Templates/Caddy-Proxy](https://github.com/OpenSource-Templates/Caddy-Proxy) | Worker |
 
 ## Environment variables
 

@@ -1,4 +1,4 @@
-# Deploy N8N Basic on Railway
+# Deploy n8n on Railway
 
 A minimal n8n setup to save on costs, build workflows, and automate tasks.
 

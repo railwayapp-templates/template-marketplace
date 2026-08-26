@@ -22,7 +22,7 @@ Railway handles all server management, SSL certificates, and infrastructure scal
 
 | Service | Source | Type |
 |---------|--------|------|
-| IsoCity | [AnarchistManifesto/isometric-city](https://github.com/AnarchistManifesto/isometric-city) | Worker |
+| IsoCity | [OpenSource-Templates/isometric-city](https://github.com/OpenSource-Templates/isometric-city) | Worker |
 
 ## Environment variables
 

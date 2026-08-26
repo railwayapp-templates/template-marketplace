@@ -14,7 +14,7 @@ Hosting PumpkinMC means running a single Rust binary in a Docker container, with
 
 | Service | Source | Type |
 |---------|--------|------|
-| pumpkinmc | `ghcr.io/pumpkin-mc/pumpkin:sha-80e6fce` | Database |
+| pumpkinmc | `ghcr.io/pumpkin-mc/pumpkin:sha-a2881a9` | Database |
 
 ## Configuration
 

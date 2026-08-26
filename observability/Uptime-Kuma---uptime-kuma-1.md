@@ -1,6 +1,6 @@
 # Deploy Uptime Kuma on Railway
 
-[Jul'26] A powerful, free, and self-hosted tool for monitoring uptimes
+A powerful, free, and self-hosted tool for monitoring uptimes
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uptime-kuma-1)
 

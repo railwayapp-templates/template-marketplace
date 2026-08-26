@@ -1,6 +1,6 @@
-# Deploy CLIProxyAPI — Secure Release-Tracked on Railway
+# Deploy CLIProxyAPI — Daily Auto-Update on Railway
 
-Secure CLIProxyAPI gateway with tested release tracking and rollback.
+CLIProxyAPI gateway with verified daily updates and automatic rollback.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cliproxyapi-secure-release-tracked)
 

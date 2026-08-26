@@ -12,7 +12,7 @@ Hosting PocketBase on Railway provides a cloud-based solution for running your b
 
 | Service | Source | Type |
 |---------|--------|------|
-| PocketBase | [AnarchistManifesto/PocketBase](https://github.com/AnarchistManifesto/PocketBase) | Database |
+| PocketBase | [OpenSource-Templates/PocketBase](https://github.com/OpenSource-Templates/PocketBase) | Database |
 
 ## Environment variables
 

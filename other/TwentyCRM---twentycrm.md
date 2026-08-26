@@ -1,12 +1,10 @@
 # Deploy TwentyCRM on Railway
 
-The #1 Open-Source CRM Modern, powerful, affordable.
+The #1 Open-Source CRM. Modern, powerful, affordable.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/twentycrm)
 
 ## About
-
-> ⚠️ This template moved from MinIO to Railway Buckets
 
 TwentyCRM is the #1 Open-Source CRM
 A modern, powerful, and affordable platform to manage your customer relationships.
@@ -17,8 +15,8 @@ Hosting and deploying TwentyCRM involves setting up the TwentyCRM application on
 
 | Service | Source | Type |
 |---------|--------|------|
-| Twenty | `twentycrm/twenty:v2.32.0` | Web service |
-| Twenty Worker | `twentycrm/twenty:v2.32.0` | Worker |
+| Twenty | `twentycrm/twenty:v2.34.0` | Web service |
+| Twenty Worker | `twentycrm/twenty:v2.34.0` | Worker |
 | Redis | `redis:8.2.1` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16.14` | Database |
 

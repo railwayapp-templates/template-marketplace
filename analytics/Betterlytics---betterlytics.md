@@ -10,15 +10,15 @@ Betterlytics is a privacy-first, cookieless Google Analytics alternative. A trac
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/betterlytics)
 
-Hosting Betterlytics means running three containers on Railway’s private network: a public app (nginx + Next.js dashboard + ingestion backend), Postgres for accounts and site config, and ClickHouse for high-volume events. Railway terminates TLS, so the app speaks HTTP internally (`HTTP_SCHEME=http`, `FORCE_HTTP_SCHEME=https`). You attach two volumes — Postgres at `/var/lib/postgresql/data` and ClickHouse at `/var/lib/clickhouse` — set one shared `SECRET_BASE` on all three services plus `DOMAIN` on the app, and let the entrypoint wait for both databases, run migrations, then start supervisord. First boot can take a few minutes. After that, add a site in the UI and drop `/analytics.js` on your pages.
+Hosting Betterlytics means running three containers on Railway’s private network: a public app (nginx + Next.js dashboard + ingestion backend), Postgres for accounts and site config, and ClickHouse for high-volume events. Railway terminates TLS, so the app speaks HTTP internally (`HTTP_SCHEME=http`, `FORCE_HTTP_SCHEME=https`). You attach two volumes — Postgres at `/var/lib/postgresql` and ClickHouse at `/var/lib/clickhouse` — set one shared `SECRET_BASE` on all three services plus `DOMAIN` on the app, and let the entrypoint wait for both databases, run migrations, then start supervisord. First boot can take a few minutes. After that, add a site in the UI and drop `/analytics.js` on your pages.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| clickhouse | [AnarchistManifesto/Betterlytics](https://github.com/AnarchistManifesto/Betterlytics) (root: /clickhouse) | Database |
-| betterlytics | [AnarchistManifesto/Betterlytics](https://github.com/AnarchistManifesto/Betterlytics) (root: /betterlytics) | Web service |
-| postgres | [AnarchistManifesto/Betterlytics](https://github.com/AnarchistManifesto/Betterlytics) (root: /postgres) | Database |
+| clickhouse | [OpenSource-Templates/Betterlytics](https://github.com/OpenSource-Templates/Betterlytics) (root: /clickhouse) | Database |
+| betterlytics | [OpenSource-Templates/Betterlytics](https://github.com/OpenSource-Templates/Betterlytics) (root: /betterlytics) | Web service |
+| postgres | [OpenSource-Templates/Betterlytics](https://github.com/OpenSource-Templates/Betterlytics) (root: /postgres) | Database |
 
 ## Environment variables
 
@@ -60,7 +60,7 @@ Hosting Betterlytics means running three containers on Railway’s private netwo
 
 - **Volume:** `/var/lib/clickhouse`
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/var/lib/postgresql/data`
+- **Volume:** `/var/lib/postgresql`
 
 **Category:** Analytics · **Languages:** Shell, Dockerfile
 

@@ -55,7 +55,7 @@ opencode attach https://your-app.railway.app -p your-password
 
 | Service | Source | Type |
 |---------|--------|------|
-| railway-opencode:latest | `ghcr.io/joeychilson/railway-opencode:latest` | Web service |
+| railway-opencode:latest | `ghcr.io/joeychilson/railway-opencode:2.0` | Web service |
 
 ## Environment variables
 

@@ -14,7 +14,7 @@ Hosting the PGlite HTTP Server means running a Node.js-based application that em
 
 | Service | Source | Type |
 |---------|--------|------|
-| PGlite | [AnarchistManifesto/PGlite](https://github.com/AnarchistManifesto/PGlite) | Database |
+| PGlite | [OpenSource-Templates/PGlite](https://github.com/OpenSource-Templates/PGlite) | Database |
 
 ## Environment variables
 

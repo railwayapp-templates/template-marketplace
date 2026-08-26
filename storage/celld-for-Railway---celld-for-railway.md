@@ -14,7 +14,7 @@ Hosting celld requires an S3-compatible bucket for deployments and Durable Objec
 
 | Service | Source | Type |
 |---------|--------|------|
-| celld | `ghcr.io/joeychilson/railway-celld:latest` | Web service |
+| celld | `ghcr.io/joeychilson/railway-celld:1.0` | Web service |
 
 ## Environment variables
 

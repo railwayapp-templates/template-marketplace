@@ -6,7 +6,7 @@
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ai-gateway-observability-litellm-langfus)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ai-gateway-observability-litellm-langfus?referralCode=qxxcuG)
 
 **One deploy = model gateway + spend tracking + tracing.** Route every LLM call in your company through one OpenAI-compatible endpoint — [LiteLLM](https://github.com/BerriAI/litellm) (30k★) proxies 100+ providers (Anthropic, OpenAI, Gemini, Mistral, Bedrock, …) with virtual keys, budgets, and rate limits — and see every request, latency, cost, and full prompt/response in [Langfuse](https://github.com/langfuse/langfuse) (18k★), the leading open-source LLM observability platform. The two are **pre-wired**: LiteLLM's success and failure callbacks stream straight into your private Langfuse, from the first request.
 

@@ -12,7 +12,7 @@ Node-RED is a flow-based development tool for visual programming, originally dev
 
 | Service | Source | Type |
 |---------|--------|------|
-| Node-RED | [AnarchistManifesto/Node-RED](https://github.com/AnarchistManifesto/Node-RED) | Web service |
+| Node-RED | [OpenSource-Templates/Node-RED](https://github.com/OpenSource-Templates/Node-RED) | Web service |
 
 ## Environment variables
 

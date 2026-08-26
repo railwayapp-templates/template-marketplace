@@ -1,6 +1,6 @@
-# Deploy Oracle Cloud Instances : Automation on Railway
+# Deploy OCI Sniper : Automation on Railway
 
-Oracle Cloud Automate Always free tier automation v2
+Oracle Cloud Always free tier Out of capacity solution.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/oracle-cloud-instance)
 
@@ -14,7 +14,7 @@ Hosting an Oracle Cloud Instance management interface on Railway lets you centra
 
 | Service | Source | Type |
 |---------|--------|------|
-| Oracle Cloud Instances | [sarakmacbook/Oracle_Cloud_Instances](https://github.com/sarakmacbook/Oracle_Cloud_Instances) | Worker |
+| Oracle Cloud Instances | [sarakmacbook/OCI_Sniper](https://github.com/sarakmacbook/OCI_Sniper) | Worker |
 
 **Category:** Automation · **Languages:** HTML, Python, Dockerfile, Procfile
 

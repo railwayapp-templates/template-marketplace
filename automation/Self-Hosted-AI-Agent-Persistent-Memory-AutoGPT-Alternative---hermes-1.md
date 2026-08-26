@@ -1,6 +1,6 @@
-# Deploy Hermes Agent | OpenClaw Alternative on Railway [Aug'26] on Railway
+# Deploy Self-Hosted AI Agent — Persistent Memory, AutoGPT Alternative on Railway
 
-[Aug'26] Hermes AI agent – faster & smarter than OpenClaw & Claude agents.
+Self-host an LLM-agnostic AI agent — persistent memory, any provider
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-1)
 

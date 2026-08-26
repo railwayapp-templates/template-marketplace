@@ -73,7 +73,7 @@ PostgreSQL 18 with pgvector and pgvectorscale extensions for high-performance ve
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `ghcr.io/joeychilson/railway-pgvectorscale:1.0.0` | Database |
+| Postgres | `ghcr.io/joeychilson/railway-pgvectorscale:1.0` | Database |
 
 ## Environment variables
 
