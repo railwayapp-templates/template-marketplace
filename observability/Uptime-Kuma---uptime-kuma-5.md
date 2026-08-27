@@ -1,6 +1,6 @@
 # Deploy Uptime Kuma on Railway
 
-Open-source self-hosted uptime monitoring. Unlimited monitors, 90+ channels
+Uptime Kuma — self-hosted uptime monitoring with status pages and alerts
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/uptime-kuma-5)
 

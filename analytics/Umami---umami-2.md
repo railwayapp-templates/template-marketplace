@@ -1,6 +1,6 @@
 # Deploy Umami on Railway
 
-Simple, fast, privacy-focused alternative to Google Analytics
+Umami — privacy-focused web analytics, Google Analytics alternative
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/umami-2)
 

@@ -1,6 +1,6 @@
 # Deploy n8n on Railway
 
-n8n — Workflow Automation Platform. 400+ integrations, visual editor.
+n8n — workflow automation with 400+ integrations, Zapier alternative
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-n8n)
 

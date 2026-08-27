@@ -1,6 +1,6 @@
 # Deploy Blinko on Railway
 
-AI-powered notes with RAG chat and persistent Postgres
+Blinko — AI-powered note-taking with RAG chat over your notes
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/blinko)
 

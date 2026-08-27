@@ -1,6 +1,6 @@
 # Deploy QR & Barcode Generator on Railway
 
-Barcode and QR code generation API — one-click deploy on Railway
+QR code and barcode generation REST API with PNG/SVG output
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/humble-illumination)
 

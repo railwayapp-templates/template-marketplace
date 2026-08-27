@@ -1,6 +1,6 @@
 # Deploy wallet-auth on Railway
 
-Self-hosted wallet auth API: SIWE, Nostr, Solana verify + x402 paywall
+Wallet auth API: SIWE, Nostr NIP-98 and Solana signature verification
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wallet-auth)
 

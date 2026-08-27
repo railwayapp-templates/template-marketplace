@@ -1,6 +1,6 @@
 # Deploy muse on Railway
 
-Self-hosted Discord music bot with Spotify, YouTube and persistent cache
+Muse — self-hosted Discord music bot with Spotify support and caching
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/muse-1)
 

@@ -1,6 +1,6 @@
 # Deploy Tududi on Railway
 
-Calm task management system
+Tududi — self-hosted task management with projects, notes, and recurrence
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tududi-template-gi-1)
 

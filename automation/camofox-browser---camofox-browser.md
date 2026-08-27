@@ -1,6 +1,6 @@
 # Deploy camofox-browser on Railway
 
-Anti-detection browser automation powered by Camoufox
+Camoufox — anti-detection browser automation for stealth scraping
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/camofox-browser)
 

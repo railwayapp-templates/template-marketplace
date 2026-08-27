@@ -1,6 +1,6 @@
 # Deploy FileBrowser on Railway
 
-FileBrowser — web-based file manager for managing files and folders.
+FileBrowser — web-based file manager for uploading and sharing files
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/industrious-happiness)
 

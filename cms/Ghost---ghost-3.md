@@ -1,6 +1,6 @@
 # Deploy Ghost on Railway
 
-Self-hosted Ghost blogging platform with MariaDB on Railway
+Ghost — self-hosted publishing platform for blogs and newsletters
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ghost-3)
 

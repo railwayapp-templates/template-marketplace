@@ -1,6 +1,6 @@
 # Deploy Apify MCP Server on Railway
 
-Apify MCP Server — web scraping & data extraction via MCP on Railway
+Apify MCP Server — web scraping and data extraction tools for AI agents
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/apify-mcp-server-1)
 

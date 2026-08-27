@@ -1,6 +1,6 @@
 # Deploy Logto on Railway
 
-Logto — open-source auth for SaaS. OIDC, OAuth 2.1, SSO, RBAC.
+Logto — open-source auth provider: OIDC, OAuth 2.1, SSO, RBAC, MFA
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/logto-1)
 

@@ -1,6 +1,6 @@
 # Deploy Redpanda on Railway
 
-Redpanda Kafka-compatible streaming platform with web console
+Redpanda — Kafka-compatible streaming data platform with web console
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/redpanda)
 

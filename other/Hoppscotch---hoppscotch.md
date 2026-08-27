@@ -1,6 +1,6 @@
 # Deploy Hoppscotch on Railway
 
-Hoppscotch — self-hosted API development platform for testing APIs.
+Hoppscotch — open-source Postman alternative for testing REST and GraphQL
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hoppscotch)
 

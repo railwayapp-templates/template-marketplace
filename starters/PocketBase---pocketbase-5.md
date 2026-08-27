@@ -1,6 +1,6 @@
 # Deploy PocketBase on Railway
 
-PocketBase — open-source backend with real-time DB, auth, and storage.
+PocketBase — instant backend: embedded DB, auth, files, realtime API
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-5)
 

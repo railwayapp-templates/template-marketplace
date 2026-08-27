@@ -1,6 +1,6 @@
 # Deploy Caddy with file upload on Railway
 
-HTTP server with file upload support built with Caddy + caddyv2-upload
+Caddy-based HTTP file upload server with drag-and-drop web UI
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/caddy-with-file-upload)
 
@@ -22,6 +22,6 @@ Hosting Caddy with file upload on Railway provides an easy way to deploy a secur
 | --------- | ------- | ----------- |
 | `BASIC_AUTH_PASSWORD_HASH` | (secret) | bcrypt hash of your chosen password. |
 
-**Category:** Other
+**Category:** Storage
 
 [View on Railway →](https://railway.com/deploy/caddy-with-file-upload)

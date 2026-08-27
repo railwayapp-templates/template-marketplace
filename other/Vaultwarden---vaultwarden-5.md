@@ -1,6 +1,6 @@
 # Deploy Vaultwarden on Railway
 
-Vaultwarden — self-hosted password manager, Bitwarden-compatible.
+Vaultwarden — self-hosted Bitwarden-compatible password manager server
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vaultwarden-5)
 
@@ -47,6 +47,6 @@ Deploying on Railway means you get automatic HTTPS, zero-config SQLite storage i
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** Storage · **Languages:** Dockerfile
+**Category:** Other · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/vaultwarden-5)

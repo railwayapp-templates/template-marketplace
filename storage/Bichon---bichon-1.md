@@ -1,6 +1,6 @@
 # Deploy Bichon on Railway
 
-End-to-end encrypted email storage & management server with Web UI
+Bichon — end-to-end encrypted email storage server with web UI
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bichon-1)
 

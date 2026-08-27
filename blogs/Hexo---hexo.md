@@ -1,6 +1,6 @@
 # Deploy Hexo on Railway
 
-Self-hosted Hexo blog with editor, comments, and S3 storage
+Hexo — fast static blog framework with admin editor and S3 media storage
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hexo)
 

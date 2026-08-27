@@ -1,6 +1,6 @@
 # Deploy Wiki.js on Railway
 
-Wiki.js wiki & knowledge base
+Wiki.js — self-hosted wiki platform, Confluence alternative with Git sync
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wikijs-1)
 
@@ -53,6 +53,6 @@ Deploying on Railway means you get automatic HTTPS, zero-config storage, and con
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql`
 
-**Category:** Starters
+**Category:** CMS
 
 [View on Railway →](https://railway.com/deploy/wikijs-1)

@@ -1,6 +1,6 @@
 # Deploy Arcane on Railway
 
-Modern, web-based Docker management UI. SQLite, single container.
+Arcane — modern web-based Docker management UI, single SQLite container
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/arcane)
 

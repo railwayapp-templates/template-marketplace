@@ -1,6 +1,6 @@
 # Deploy CRUD API Builder on Railway
 
-FastAPI + SQLModel CRUD API with PostgreSQL — one-click deploy on Railway
+Instant FastAPI + SQLModel CRUD REST API scaffold backed by PostgreSQL
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/content-playfulness)
 

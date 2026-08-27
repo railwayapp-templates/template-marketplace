@@ -6,9 +6,9 @@ A simple utility to backup Postgres databases to S3 using Bun.
 
 ## About
 
-PostgreSQL S3 Backups is an automated backup service that uses [node-cron](https://github.com/kelektiv/node-cron) or [Railway cron](https://docs.railway.com/reference/cron-jobs) to dump PostgreSQL data and upload it to [S3-compatible storage](https://bun.sh/docs/api/s3#support-for-s3-compatible-services). The service is written in TypeScript and provides configurable scheduling and storage options.
+PostgreSQL S3 backups is a lightweight service that creates compressed PostgreSQL backups and uploads them to AWS S3, Cloudflare R2, MinIO, or another S3-compatible storage provider. Run it continuously with Bun's native scheduler or once per deployment with [Railway Cron](https://docs.railway.com/cron-jobs).
 
-PostgreSQL S3 Backups runs as a Bun application that executes `pg_dump` operations on a schedule and uploads compressed database dumps to S3 storage. You'll need to manage cron job reliability, monitor backup success/failure rates, and handle S3 storage costs as backup data accumulates. The service requires database connection management, S3 authentication, and error handling for network failures during uploads. Storage lifecycle policies become important for managing backup retention and costs over time.
+Hosting PostgreSQL S3 backups involves connecting the service to a PostgreSQL database and an S3-compatible bucket through Railway variables. For each execution, the service streams `pg_dump` into a Gzip-compressed tar archive, validates it, uploads it, and removes the temporary local file. It supports automatic multipart uploads, configurable retention, custom `pg_dump` options, and PostgreSQL client versions 14 through 18. You can use Railway Cron to start one single-shot deployment per schedule or keep the service running with Bun's native scheduler. No persistent volume or separate Bun runtime installation is required in the final Docker image.
 
 ## What gets deployed
 

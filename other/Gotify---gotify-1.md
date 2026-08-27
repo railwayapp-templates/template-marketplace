@@ -1,6 +1,6 @@
 # Deploy Gotify on Railway
 
-Gotify — self-hosted push notification server with web UI and API.
+Gotify — self-hosted push notification server with REST API and web UI
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gotify-1)
 

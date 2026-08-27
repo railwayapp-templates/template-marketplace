@@ -1,6 +1,6 @@
 # Deploy Flame on Railway
 
-Self-hosted startpage dashboard for bookmarks, apps, and widgets
+Flame — self-hosted startpage for bookmarks, apps, and homelab widgets
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flame-1)
 

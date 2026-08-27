@@ -1,6 +1,6 @@
 # Deploy Form Cap on Railway
 
-Self-hosted contact form with anti-spam (Cap CAPTCHA)
+Self-hosted contact form backend with CAPTCHA spam protection
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/form-cap)
 

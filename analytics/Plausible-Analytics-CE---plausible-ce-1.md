@@ -1,6 +1,6 @@
 # Deploy Plausible Analytics CE on Railway
 
-A lightweight, cookie-free alternative to Google Analytics
+Plausible — cookie-free web analytics, Google Analytics alternative
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/plausible-ce-1)
 

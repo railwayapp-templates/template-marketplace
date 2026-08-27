@@ -1,10 +1,12 @@
-# Deploy ByteChef [n8n alternative] on Railway
+# Deploy ByteChef - open-source n8n alternative on Railway
 
-Low-code, extendable API integration & automation platform. Just deploy it
+Deploy an open-source n8n alternative for workflows and AI agents.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bytechef)
 
 ## About
+
+ByteChef is an open-source n8n alternative for teams that want visual workflow automation, API integrations and AI agents without vendor lock-in. ByteChef's official comparison positions it as a strong n8n alternative for SMB teams.
 
 ![bytechef](https://github.com/bytechefhq/bytechef/raw/master/static/screenshot.png)
 

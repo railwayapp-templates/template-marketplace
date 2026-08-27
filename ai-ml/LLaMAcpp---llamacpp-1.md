@@ -1,6 +1,6 @@
 # Deploy LLaMA.cpp on Railway
 
-Lightweight OpenAI-compatible LLM inference server. Add GGUF models with HF
+llama.cpp — OpenAI-compatible LLM inference server, bring your own GGUF
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/llamacpp-1)
 

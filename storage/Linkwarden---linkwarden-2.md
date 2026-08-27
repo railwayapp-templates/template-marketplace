@@ -1,6 +1,6 @@
 # Deploy Linkwarden on Railway
 
-Linkwarden: self-hosted bookmark manager with web archiving.
+Linkwarden — collaborative bookmark manager with web page archiving
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/linkwarden-2)
 
@@ -33,6 +33,6 @@ Linkwarden runs as a Next.js application behind a Railway-generated domain with 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql`
 
-**Category:** Other
+**Category:** Storage
 
 [View on Railway →](https://railway.com/deploy/linkwarden-2)

@@ -1,6 +1,6 @@
 # Deploy Copyparty on Railway
 
-Self-hosted copyparty web file server & cloud drive in one container
+Copyparty — self-hosted file server and cloud drive in one container
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/copyparty-1)
 

@@ -1,25 +1,18 @@
 # Deploy Paperless-ngx on Railway
 
-Document management with OCR on Railway with PostgreSQL and Redis
+Paperless-ngx — document management with OCR and full-text search
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/paperless-ngx-3)
 
 ## About
 
-Paperless-ngx is the fork of the original Paperless application — a document management system that transforms your physical documents into a searchable digital archive. It features OCR, automatic tagging, document classification, and a modern web interface.
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/tududi)
 
-This template deploys Paperless-ngx with PostgreSQL (database), Valkey/Redis (task broker), and persistent storage volumes on Railway. The Paperless service runs the web server and background task consumer in a single process.
+![Tududi OG Image](https://raw.githubusercontent.com/INAPP-Mobile/railway-tududi/main/og-image.svg)
 
-### Features
+Tududi is a calm, open-source task management system for organizing life and work. Deploy it on Railway to capture, organize, and track your tasks with a clean, distraction-free interface.
 
-- **OCR & Text Extraction** — Automatic text recognition from scanned documents
-- **Document Tagging** — Automatic and manual tagging with AI-powered suggestions
-- **Search** — Full-text search across all documents
-- **Document Types** — Support for PDF, Office docs, images, emails, and more
-- **Consumption Directory** — Drop files to automatically ingest and process
-- **API** — RESTful API for programmatic access
-- **Multi-user** — Role-based access control with Django auth
-- **Dark Mode** — Built-in dark theme support
+Tududi runs as a single Docker container on port 9292. Railway provides compute, TLS at the edge, and a public URL. Data is stored in `/usr/src/app/tududi_db` — add a Railway Volume there for persistence.
 
 ## What gets deployed
 

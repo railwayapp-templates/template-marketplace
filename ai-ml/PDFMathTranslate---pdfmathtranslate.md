@@ -1,6 +1,6 @@
 # Deploy PDFMathTranslate on Railway
 
-Translate academic PDFs while preserving layout — bundled Ollama engine
+Translate academic PDFs keeping layout, formulas and charts intact
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pdfmathtranslate)
 

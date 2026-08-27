@@ -1,6 +1,6 @@
 # Deploy Open WebUI on Railway
 
-Self-hosted Open WebUI, beautiful LLM interface on Railway.
+Open WebUI — ChatGPT-style UI for Ollama and OpenAI-compatible models
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-webui-4)
 

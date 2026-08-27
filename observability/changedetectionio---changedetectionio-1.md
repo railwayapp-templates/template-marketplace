@@ -1,6 +1,6 @@
 # Deploy changedetection.io on Railway
 
-ChangeDetection.io — monitor website changes with alerts and history.
+Website change monitoring with visual diffs, alerts, and watch history
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/changedetectionio-1)
 

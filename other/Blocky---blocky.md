@@ -1,6 +1,6 @@
 # Deploy Blocky on Railway
 
-Fast and lightweight DNS proxy as ad-blocker for your local network.
+Blocky — lightweight DNS proxy for network-wide ad blocking
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/blocky)
 

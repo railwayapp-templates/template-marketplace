@@ -1,6 +1,6 @@
 # Deploy Kanboard on Railway
 
-Kanboard — open-source project management with Kanban boards.
+Kanboard — minimalist Kanban project management, Trello alternative
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kanboard-1)
 
@@ -37,6 +37,6 @@ Kanboard runs as a single container with SQLite for persistence. Railway provide
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/www/app/data`
 
-**Category:** Other · **Languages:** Dockerfile
+**Category:** Starters · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/kanboard-1)

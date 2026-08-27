@@ -1,6 +1,6 @@
 # Deploy Lemonade Server on Railway
 
-Self-host Lemonade — an OpenAI-compatible local AI server on Railway
+Lemonade — OpenAI-compatible local AI model inference server
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lemonade-server-1)
 

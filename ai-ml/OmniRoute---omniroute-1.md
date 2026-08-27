@@ -1,6 +1,6 @@
 # Deploy OmniRoute on Railway
 
-Route LLM with intelligent provider management and compression
+OmniRoute — LLM gateway with provider routing, fallbacks, compression
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/omniroute-1)
 

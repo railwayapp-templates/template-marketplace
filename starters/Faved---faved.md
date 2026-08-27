@@ -1,6 +1,6 @@
 # Deploy Faved on Railway
 
-Self-hosted bookmark manager with tags, full-text search, SQLite
+Faved — self-hosted bookmark manager with tags and full-text search
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/faved)
 

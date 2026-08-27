@@ -1,6 +1,6 @@
 # Deploy HTML to Markdown on Railway
 
-Converts HTML to Markdown via REST API. Deploy on Railway.
+HTML to Markdown conversion REST API for content pipelines
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hospitable-sparkle)
 

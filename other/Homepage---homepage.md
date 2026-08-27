@@ -1,6 +1,6 @@
 # Deploy Homepage on Railway
 
-Modern, highly-configurable app dashboard with 100+ service integrations.
+Homepage — modern self-hosted dashboard with 100+ service integrations
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/homepage)
 

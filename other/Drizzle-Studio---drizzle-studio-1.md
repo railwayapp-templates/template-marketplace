@@ -23,10 +23,11 @@ Railway’s hosting takes care of deployment, scaling, and uptime so you can foc
 
 ## Environment variables
 
-| Variable | Description |
-| --------- | ----------- |
-| `PASSCODE` | The password for secure access |
-| `DATABASE_URL` | Database connection string |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 4983 | Port Studio listens on. Railway assigns its own port when this is unset, and Studio binds that instead. |
+| `PASSCODE` | - | The password for secure access |
+| `DATABASE_URL` | - | Database connection string |
 
 ## Configuration
 

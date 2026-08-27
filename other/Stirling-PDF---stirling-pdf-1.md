@@ -1,6 +1,6 @@
 # Deploy Stirling PDF on Railway
 
-#1 open-source PDF platform — edit, sign, convert, OCR, merge, and mor
+Stirling PDF — self-hosted PDF toolbox: merge, split, OCR, convert, sign
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/stirling-pdf-1)
 
@@ -11,7 +11,7 @@
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/stirling-pdf-1)
 
 <p align="center">
-  <img width="100%" alt="Stirling PDF on Railway" src="https://raw.githubusercontent.com/INAPP-Mobile/railway-stirling-pdf/main/og-image.svg">
+  <img src="https://raw.githubusercontent.com/INAPP-Mobile/railway-stirling-pdf/main/og-image.svg" alt="Stirling PDF on Railway" width="100%">
 </p>
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub/Stirling--Tools/Stirling--PDF-181717?style=flat-square&amp;logo=github)](https://github.com/Stirling-Tools/Stirling-PDF)
@@ -43,7 +43,7 @@
 
 | Dashboard | PDF Editor | Pipeline Tools |
 |---|---|---|
-| <img width="300" alt="Dashboard" src="https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/images/home-light.png"> | &nbsp; | &nbsp; |
+| <img src="https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/images/home-light.png" alt="Dashboard" width="300"> | &nbsp; | &nbsp; |
 
 *Screenshots captured from a live deployment. Replace with your own after deploying.*
 

@@ -1,6 +1,6 @@
 # Deploy Syncthing on Railway
 
-Syncthing — decentralized file synchronization between devices.
+Syncthing — decentralized peer-to-peer file sync between your devices
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/syncthing-2)
 

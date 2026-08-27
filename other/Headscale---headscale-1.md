@@ -1,6 +1,6 @@
 # Deploy Headscale on Railway
 
-Self-hosted Tailscale control server with MagicDNS and DERP
+Headscale — self-hosted Tailscale control server with MagicDNS and DERP
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/headscale-1)
 

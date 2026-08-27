@@ -1,6 +1,6 @@
 # Deploy Beszel on Railway
 
-Beszel — lightweight server monitoring with historical data and alerts.
+Beszel — lightweight server monitoring with history and alerting
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/beszel)
 

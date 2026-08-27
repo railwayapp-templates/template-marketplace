@@ -1,6 +1,6 @@
 # Deploy OG Image Generator on Railway
 
-Self-hosted OG Image Generation API using Node.js + Satori
+Open Graph social preview image generator API built on Satori
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/og-image-template)
 
@@ -218,6 +218,6 @@ MIT
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Languages:** JavaScript
+**Category:** Other · **Languages:** JavaScript
 
 [View on Railway →](https://railway.com/deploy/og-image-template)

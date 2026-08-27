@@ -1,6 +1,6 @@
 # Deploy Hermes Kanban Web on Railway
 
-Self-hosted Kanban board backed by the Hermes Agent + web terminal
+Self-hosted Kanban board powered by the Hermes Agent with web terminal
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-kanban-web-1)
 

@@ -1,6 +1,6 @@
 # Deploy Keycloak on Railway
 
-Self-hosted Keycloak 26.x with PostgreSQL — deploy in minutes
+Keycloak — enterprise identity and access management with SSO and SAML
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/keycloak-1)
 

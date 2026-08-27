@@ -1,6 +1,6 @@
 # Deploy Grafana on Railway
 
-Self-hosted Grafana dashboards with persistent storage and healthchecks.
+Grafana — observability dashboards for metrics, logs, and alerts
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/grafana-3)
 

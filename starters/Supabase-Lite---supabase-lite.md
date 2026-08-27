@@ -1,6 +1,6 @@
 # Deploy Supabase Lite on Railway
 
-Minimal self-hosted Supabase: 7 core services, ~1.5 GB RAM, ~$10-15/mo.
+Minimal self-hosted Supabase stack: 7 services in ~1.5 GB of RAM
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/supabase-lite)
 
@@ -110,6 +110,6 @@ Supabase Lite runs 7 Docker-based services on Railway's managed infrastructure. 
 - **Healthcheck:** `/minio/health/live`
 - **Volume:** `/data`
 
-**Category:** Storage · **Languages:** Shell, Dockerfile
+**Category:** Starters · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/supabase-lite)

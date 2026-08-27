@@ -1,6 +1,6 @@
 # Deploy Dragonfly on Railway
 
-Dragonfly — Redis-compatible in-memory cache with advanced features.
+Dragonfly — Redis-compatible in-memory data store built for scale
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dragonfly-1)
 

@@ -30,9 +30,10 @@ Railway’s hosting takes care of deployment, scaling, and uptime so you can foc
 
 ## Environment variables
 
-| Variable | Description |
-| --------- | ----------- |
-| `MASTERPASS` | The admin password for secure access |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 4983 | Port the gateway listens on. Railway assigns its own port when this is unset, and the gateway binds that instead. |
+| `MASTERPASS` | - | The admin password for secure access |
 
 ## Configuration
 

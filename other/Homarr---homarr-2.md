@@ -1,6 +1,6 @@
 # Deploy Homarr on Railway
 
-Self-hosted dashboard for managing home server apps with 50+ integrations.
+Homarr — self-hosted dashboard for home server apps with 50+ integrations
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/homarr-2)
 

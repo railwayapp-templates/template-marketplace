@@ -1,6 +1,6 @@
 # Deploy Whoogle Search on Railway
 
-Whoogle Search — privacy-respecting metasearch engine without tracking.
+Whoogle — self-hosted private metasearch engine with no ads or tracking
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/whoogle-search-google-returns-403-projec)
 

@@ -1,6 +1,6 @@
 # Deploy Mermaid API on Railway
 
-Render Mermaid diagrams as PNG/SVG via HTTP API
+Render Mermaid diagrams-as-code to PNG and SVG over a simple HTTP API
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mermaid-api)
 
@@ -24,6 +24,6 @@ This template runs a Node.js Express server with Puppeteer for headless Chromium
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Automation · **Languages:** JavaScript, Dockerfile
+**Category:** Other · **Languages:** JavaScript, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/mermaid-api)
