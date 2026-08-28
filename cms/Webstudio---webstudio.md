@@ -17,10 +17,10 @@ The official `ghcr.io/webstudio-is/webstudio` registry only has two-year-old sha
 | Service | Source | Type |
 |---------|--------|------|
 | postgres | [OpenSource-Templates/Webstudio](https://github.com/OpenSource-Templates/Webstudio) (root: /postgres) | Worker |
-| publisher | [OpenSource-Templates/Webstudio](https://github.com/OpenSource-Templates/Webstudio) (root: /publisher) | Worker |
-| webstudio | [OpenSource-Templates/Webstudio](https://github.com/OpenSource-Templates/Webstudio) (root: /webstudio) | Worker |
+| publisher | [OpenSource-Templates/Webstudio](https://github.com/OpenSource-Templates/Webstudio) (root: /publisher) | Web service |
+| webstudio | [OpenSource-Templates/Webstudio](https://github.com/OpenSource-Templates/Webstudio) (root: /webstudio) | Web service |
 | postgrest | [OpenSource-Templates/Webstudio](https://github.com/OpenSource-Templates/Webstudio) (root: /postgrest) | Worker |
-| minio | [OpenSource-Templates/Webstudio](https://github.com/OpenSource-Templates/Webstudio) (root: /minio) | Worker |
+| minio | [OpenSource-Templates/Webstudio](https://github.com/OpenSource-Templates/Webstudio) (root: /minio) | Web service |
 
 ## Environment variables
 
@@ -29,11 +29,15 @@ The official `ghcr.io/webstudio-is/webstudio` registry only has two-year-old sha
 | `POSTGRES_DB` | postgres | webstudio | Database name. init.sql runs only on empty PGDATA. |
 | `POSTGRES_USER` | postgres | (secret) | Superuser. Matches DATABASE_URL. |
 | `POSTGRES_PASSWORD` | postgres | (secret) | Same secret as the builder. Do not generate a new one. |
+| `PORT` | publisher | 8080 | - |
+| `DOMAIN` | publisher | - | Public domain where Betterlytics is accessible. Railway automatically provides this domain. |
 | `BUILDER_HOST` | publisher | webstudio.railway.internal | Wait-for host. |
 | `BUILDER_PORT` | publisher | - | Wait-for port. Builder binds Railway PORT. |
 | `PUBLISHER_HOST` | publisher | - | Same suffix the builder uses. Point a wildcard custom domain here for project.yourdomain.com. |
 | `BUILDER_INTERNAL_URL` | publisher | - | HTTP to the builder over private DNS. Never https and never localhost. |
 | `TRPC_SERVER_API_TOKEN` | publisher | (secret) | Must match the builder. |
+| `PORT` | webstudio | 8080 | - |
+| `DOMAIN` | webstudio | - | Public domain where Betterlytics is accessible. Railway automatically provides this domain. |
 | `S3_ACL` | webstudio | public-read | Objects are anonymously downloadable. |
 | `FEATURES` | webstudio | * | Compose-compat alias used by some image builds. |
 | `NODE_ENV` | webstudio | production | Remix production mode. |
@@ -68,6 +72,7 @@ The official `ghcr.io/webstudio-is/webstudio` registry only has two-year-old sha
 | `DEPLOYMENT_ENVIRONMENT` | webstudio | production | Required. Never set development on Railway. |
 | `MAX_ASSETS_PER_PROJECT` | webstudio | 50 | Upload cap per project. |
 | `SELF_HOSTED_PUBLISHER_URL` | webstudio | - | Internal publish API. Port 4000, not the public site-proxy port. |
+| `PORT` | postgrest | 3000 | Railway often does not publish it on the private DNS mesh |
 | `PGRST_DB_URI` | postgrest | - | Direct Postgres URI over private DNS. |
 | `POSTGRES_HOST` | postgrest | postgres.railway.internal | Wait-for target. |
 | `POSTGRES_PORT` | postgrest | 5432 | Postgres port. |
@@ -76,11 +81,17 @@ The official `ghcr.io/webstudio-is/webstudio` registry only has two-year-old sha
 | `PGRST_SERVER_HOST` | postgrest | * | Listen on IPv4 and IPv6. Railway private DNS is IPv6. |
 | `PGRST_SERVER_PORT` | postgrest | 3000 | Private port. Do not give this service a public domain. |
 | `PGRST_DB_ANON_ROLE` | postgrest | anon | Role used for PostgREST requests. |
+| `PORT` | minio | 9900 | Service Port |
+| `DOMAIN` | minio | - | Public domain where Betterlytics is accessible. Railway automatically provides this domain. |
 | `S3_BUCKET` | minio | - | Created on first boot with anonymous download. |
 | `MINIO_UPDATE` | minio | off | Disable in-container update checks. |
 | `MINIO_BROWSER` | minio | off | Console is not exposed. API only. |
 | `MINIO_ROOT_USER` | minio | (secret) | Access key. Same as S3_ACCESS_KEY_ID. |
 | `MINIO_ROOT_PASSWORD` | minio | (secret) | Secret key. Same as S3_SECRET_ACCESS_KEY. |
+
+## Configuration
+
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** CMS · **Languages:** JavaScript, Shell, Python, Dockerfile, PLpgSQL
 

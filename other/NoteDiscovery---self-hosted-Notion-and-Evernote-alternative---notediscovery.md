@@ -1,12 +1,16 @@
 # Deploy NoteDiscovery - self-hosted Notion and Evernote alternative on Railway
 
-Deploy a self-hosted Notion and Evernote alternative for Markdown notes.
+Self-hosted Markdown notes with search, backlinks, graph view and auth.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/notediscovery)
 
 ## About
 
-Hosting NoteDiscovery involves running a simple Node.js-based web server connected to your local or cloud storage. You can deploy it on any platform that supports containerized environments or Node.js runtimes. Once deployed, your NoteDiscovery instance will serve your markdown notes through a clean web UI, accessible from anywhere. With Railway, setup is automated - no manual server setup, SSL, or port forwarding needed. Just deploy, configure your storage path, and start writing.
+This template runs the official `ghcr.io/gamosoft/notediscovery:latest` container as a single Python web service on port `8000`. Railway supplies the public HTTPS domain and manages the container lifecycle.
+
+Your notes are stored as plain Markdown and related files under `/app/data`. The template automatically mounts a Railway volume at that path so notes survive application redeploys and restarts. Keep an independent backup of important notes.
+
+NoteDiscovery's built-in authentication is optional and designed for a single user. If the service is publicly reachable, enable authentication and replace the upstream default password. It is not a multi-user identity system and does not provide roles or SSO.
 
 ## What gets deployed
 
@@ -14,9 +18,16 @@ Hosting NoteDiscovery involves running a simple Node.js-based web server connect
 |---------|--------|------|
 | gamosoft/notediscovery:latest | `ghcr.io/gamosoft/notediscovery:latest` | Web service |
 
+## Environment variables
+
+| Variable | Default |
+| --------- | ------- |
+| `PORT` | 8000 |
+
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/app/data`
 
 **Category:** Other
 

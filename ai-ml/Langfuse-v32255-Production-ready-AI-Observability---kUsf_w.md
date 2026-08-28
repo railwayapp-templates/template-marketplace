@@ -1,4 +1,4 @@
-# Deploy Langfuse v3.225.4 (Production ready AI Observability) on Railway
+# Deploy Langfuse v3.225.5 (Production ready AI Observability) on Railway
 
 Open-source LLM platform for prompt management, tracing, evals & metrics
 
@@ -29,7 +29,7 @@ Comprehensive API: Langfuse is frequently used to power bespoke LLMOps workflows
 | redis | `bitnami/redis:latest` | Database |
 | langfuse-web | `langfuse/langfuse:3.225.4` | Web service |
 | minio | `minio/minio` | Database |
-| langfuse-worker | `langfuse/langfuse-worker:3.225.4` | Worker |
+| langfuse-worker | `langfuse/langfuse-worker:3.225.5` | Worker |
 
 ## Environment variables
 

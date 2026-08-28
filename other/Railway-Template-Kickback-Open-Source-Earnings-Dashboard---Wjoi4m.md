@@ -16,6 +16,12 @@ A single service built from a Git repository, with no database — every figure 
 |---------|--------|------|
 | web | [IKatsuba/railway-template-kickback](https://github.com/IKatsuba/railway-template-kickback) | Web service |
 
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 3000 | Port the dashboard listens on. |
+
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS

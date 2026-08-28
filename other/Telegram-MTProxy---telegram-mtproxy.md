@@ -16,6 +16,12 @@ Hosting Telegram MTProxy involves running a Docker container that automatically 
 |---------|--------|------|
 | MTProxy | `telegrammessenger/proxy:1.4` | Database |
 
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `SECRET` | (secret) | Connection secret for your tg:// proxy link. Generated once and kept — without it the proxy mints a new secret on every restart and every link you have shared stops working. |
+
 ## Configuration
 
 - **TCP Proxies:** 443
