@@ -37,6 +37,7 @@ This template deploys the update server in control plane mode together with a Po
 | `TRUST_PROXY_HEADERS` | Expo-Open-OTA | true | - |
 | `AWS_SECRET_ACCESS_KEY` | Expo-Open-OTA | (secret) | https://mercure-technologies.gitbook.io/expo-open-ota/references/environment-variables#storage |
 | `DB_KEYS_MASTER_KEY_B64` | Expo-Open-OTA | - | https://mercure-technologies.gitbook.io/expo-open-ota/references/environment-variables#storage |
+| `DASHBOARD_ROOT_REDIRECT` | Expo-Open-OTA | true | Redirect "/" to "/dashboard" |
 | `POSTGRES_DB` | Postgres | expo-open-ota | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |

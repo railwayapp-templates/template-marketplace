@@ -6,7 +6,7 @@ Authenticated document text and metadata extraction API
 
 ## About
 
-Apache Tika extracts text and metadata from more than a thousand document formats. This template deploys the stable official `3.3.1.0-full` container behind an authenticated Caddy proxy.
+Apache Tika extracts text and metadata from more than a thousand document formats. This template deploys the stable official `4.0.0-1-full` container behind an authenticated Caddy proxy.
 
 Retrieve the generated `BASIC_AUTH_USER` and `BASIC_AUTH_PASSWORD` values from the proxy service before calling parsing endpoints.
 

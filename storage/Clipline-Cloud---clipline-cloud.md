@@ -14,7 +14,7 @@ Hosting Clipline Cloud on Railway runs the web server from the published Docker 
 
 | Service | Source | Type |
 |---------|--------|------|
-| dain98/clipline-cloud:latest | `ghcr.io/dain98/clipline-cloud:latest` | Web service |
+| dain98/clipline-cloud:latest | `ghcr.io/clipline-cc/clipline-cloud:latest` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables

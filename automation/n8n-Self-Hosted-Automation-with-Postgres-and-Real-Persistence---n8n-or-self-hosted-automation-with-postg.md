@@ -29,11 +29,16 @@ n8n keeps state in two places, and this is where self-hosted deployments quietly
 | `PORT` | n8n | 5678 | - |
 | `DB_TYPE` | n8n | postgresdb | - |
 | `N8N_PORT` | n8n | 5678 | - |
+| `NODE_OPTIONS` | n8n | --max-old-space-size=768 | Caps the V8 heap so the first boot, which runs every database migration at once, stays under the 1 GB per-service memory ceiling of the Railway Trial plan. |
 | `N8N_USER_FOLDER` | n8n | /home/node | - |
 | `GENERIC_TIMEZONE` | n8n | UTC | - |
 | `DB_POSTGRESDB_USER` | n8n | (secret) | - |
 | `N8N_LISTEN_ADDRESS` | n8n | :: | - |
+| `EXECUTIONS_DATA_PRUNE` | n8n | true | Deletes old execution records so Postgres does not grow without bound on a small plan. |
 | `DB_POSTGRESDB_PASSWORD` | n8n | (secret) | - |
+| `N8N_DEFAULT_BINARY_DATA_MODE` | n8n | filesystem | Keeps binary data from executions on the volume instead of in memory and Postgres, so large files do not blow up the container or the database. |
+| `EXECUTIONS_DATA_PRUNE_MAX_COUNT` | n8n | 200 | How many past executions to keep when pruning is on. Raise it if you need a longer history. |
+| `DB_POSTGRESDB_CONNECTION_TIMEOUT` | n8n | 60000 | Milliseconds to wait for Postgres on start, raised from the 20s default so a slow first boot of the database does not fail the deploy. |
 
 ## Configuration
 

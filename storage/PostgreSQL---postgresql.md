@@ -6,9 +6,11 @@ PostgreSQL database service
 
 ## About
 
-Postgres is a powerful open-source relational database management system that provides a robust and scalable way to store and manage data. It is a popular choice for web applications, data analysis, and various other use cases.
+Run PostgreSQL on Railway using a multi-platform image based on the official PostgreSQL image, with managed TLS certificates, safe persistent-volume handling, and automatic certificate renewal.
 
-Hosting PostgreSQL gives you access to a powerful database server capable of handling concurrent connections, managing data persistence, and supporting high availability configurations. PostgreSQL offers flexible database engine configuration, comprehensive user authentication and permission systems, and efficient storage and memory allocation. The database excels at query optimization and advanced indexing strategies. PostgreSQL deployments benefit from scalable CPU, RAM, and storage resources while supporting enterprise-grade network security through SSL encryption and Railway's private network capabilities. Railway provides automated backup systems and comprehensive logging to support your database operations.
+This template provides a persistent PostgreSQL database with TLS support for both Railway's private network and public TCP Proxy. On first startup, the image creates a private Certificate Authority (CA) and a CA-signed server certificate. The certificate includes Railway's private and public database hostnames, allowing clients to use strict hostname verification. On subsequent deployments, the image validates the certificate chain, keys, expiration, and required hostnames, renewing certificates safely while preserving the CA whenever possible.
+
+The image also validates the Railway volume location, prevents two PostgreSQL processes from using the same volume during overlapping deployments, and refuses to start when the volume contains data from a different PostgreSQL major version.
 
 ## What gets deployed
 
@@ -21,10 +23,13 @@ Hosting PostgreSQL gives you access to a powerful database server capable of han
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `POSTGRES_DB` | railway | Default database created when image is started. |
+| `SSL_REQUIRE` | false | Set to true to reject plaintext TCP database and replication connections. |
 | `DATABASE_URL` | - | URL to connect to Postgres database. |
-| `POSTGRES_USER` | (secret) | User to connect to Postgres DB |
-| `POSTGRES_PASSWORD` | (secret) | Password to connect to DB |
+| `POSTGRES_USER` | (secret) | User to connect to Postgres DB. |
+| `SSL_CA_CERT_DAYS` | 3650 | Private Certificate Authority validity in days. |
+| `POSTGRES_PASSWORD` | (secret) | Password to connect to DB. |
 | `DATABASE_PUBLIC_URL` | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `RUNTIME_LOCK_WAIT_SECONDS` | 300 | Maximum time to wait for a previous deployment to release the volume. |
 
 ## Configuration
 

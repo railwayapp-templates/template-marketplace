@@ -20,7 +20,8 @@ A Discord bot is a long-running process that holds a websocket to Discord's gate
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `DISCORD_TOKEN` | (secret) | Bot token from the Discord Developer Portal: Applications, your app, Bot, Reset Token. Enable the Message Content intent on the same page, or the bot starts and then fails. |
+| `DISCORD_TOKEN` | (secret) | Bot token from the Discord Developer Portal: Applications, your app, Bot, Reset Token. Nothing else has to be switched on - the sample commands are slash commands and need no privileged intent. |
+| `ENABLE_MESSAGE_CONTENT` | false | Set to true to turn on the !ping and !hello prefix commands. They read message text, so the Message Content intent has to be enabled in the Developer Portal as well. Slash commands work either way. |
 
 **Category:** Bots · **Languages:** Python
 

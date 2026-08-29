@@ -70,40 +70,46 @@ between main and worker. For large files, point n8n at S3 instead.
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `PORT` | n8n worker | 5680 |
-| `DB_TYPE` | n8n worker | postgresdb |
-| `N8N_LOG_LEVEL` | n8n worker | info |
-| `EXECUTIONS_MODE` | n8n worker | queue |
-| `GENERIC_TIMEZONE` | n8n worker | UTC |
-| `DB_POSTGRESDB_PORT` | n8n worker | 5432 |
-| `DB_POSTGRESDB_USER` | n8n worker | (secret) |
-| `N8N_RUNNERS_ENABLED` | n8n worker | true |
-| `QUEUE_BULL_REDIS_PORT` | n8n worker | 6379 |
-| `DB_POSTGRESDB_PASSWORD` | n8n worker | (secret) |
-| `QUEUE_HEALTH_CHECK_PORT` | n8n worker | 5680 |
-| `QUEUE_BULL_REDIS_PASSWORD` | n8n worker | (secret) |
-| `QUEUE_HEALTH_CHECK_ACTIVE` | n8n worker | true |
-| `ENABLE_ALPINE_PRIVATE_NETWORKING` | n8n worker | true |
-| `POSTGRES_DB` | Postgres | n8n |
-| `POSTGRES_USER` | Postgres | (secret) |
-| `POSTGRES_PASSWORD` | Postgres | (secret) |
-| `PORT` | n8n | 5678 |
-| `DB_TYPE` | n8n | postgresdb |
-| `N8N_PORT` | n8n | 5678 |
-| `N8N_PROTOCOL` | n8n | https |
-| `N8N_LOG_LEVEL` | n8n | info |
-| `EXECUTIONS_MODE` | n8n | queue |
-| `GENERIC_TIMEZONE` | n8n | UTC |
-| `DB_POSTGRESDB_PORT` | n8n | 5432 |
-| `DB_POSTGRESDB_USER` | n8n | (secret) |
-| `N8N_RUNNERS_ENABLED` | n8n | true |
-| `QUEUE_BULL_REDIS_PORT` | n8n | 6379 |
-| `DB_POSTGRESDB_PASSWORD` | n8n | (secret) |
-| `QUEUE_BULL_REDIS_PASSWORD` | n8n | (secret) |
-| `ENABLE_ALPINE_PRIVATE_NETWORKING` | n8n | true |
-| `REDIS_PASSWORD` | Redis | (secret) |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `PORT` | n8n worker | 5680 | - |
+| `DB_TYPE` | n8n worker | postgresdb | - |
+| `NODE_OPTIONS` | n8n worker | --max-old-space-size=768 | Caps the V8 heap so the worker stays under the 1 GB per-service memory ceiling of the Railway Trial plan. |
+| `N8N_LOG_LEVEL` | n8n worker | info | - |
+| `EXECUTIONS_MODE` | n8n worker | queue | - |
+| `GENERIC_TIMEZONE` | n8n worker | UTC | - |
+| `DB_POSTGRESDB_PORT` | n8n worker | 5432 | - |
+| `DB_POSTGRESDB_USER` | n8n worker | (secret) | - |
+| `QUEUE_BULL_REDIS_PORT` | n8n worker | 6379 | - |
+| `DB_POSTGRESDB_PASSWORD` | n8n worker | (secret) | - |
+| `QUEUE_HEALTH_CHECK_PORT` | n8n worker | 5680 | - |
+| `QUEUE_BULL_REDIS_PASSWORD` | n8n worker | (secret) | - |
+| `QUEUE_HEALTH_CHECK_ACTIVE` | n8n worker | true | - |
+| `DB_POSTGRESDB_CONNECTION_TIMEOUT` | n8n worker | 60000 | Milliseconds to wait for Postgres on start, raised from the 20s default so a slow first boot of the database does not fail the deploy. |
+| `ENABLE_ALPINE_PRIVATE_NETWORKING` | n8n worker | true | - |
+| `POSTGRES_DB` | Postgres | n8n | - |
+| `POSTGRES_USER` | Postgres | (secret) | - |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | - |
+| `PORT` | n8n | 5678 | - |
+| `DB_TYPE` | n8n | postgresdb | - |
+| `N8N_PORT` | n8n | 5678 | - |
+| `N8N_PROTOCOL` | n8n | https | - |
+| `NODE_OPTIONS` | n8n | --max-old-space-size=768 | Caps the V8 heap so the first boot, which runs every database migration at once, stays under the 1 GB per-service memory ceiling of the Railway Trial plan. |
+| `N8N_LOG_LEVEL` | n8n | info | - |
+| `EXECUTIONS_MODE` | n8n | queue | - |
+| `N8N_WEBHOOK_URL` | n8n | - | Base URL for test and production webhooks. Replaces WEBHOOK_URL, which n8n has deprecated. |
+| `GENERIC_TIMEZONE` | n8n | UTC | - |
+| `DB_POSTGRESDB_PORT` | n8n | 5432 | - |
+| `DB_POSTGRESDB_USER` | n8n | (secret) | - |
+| `EXECUTIONS_DATA_PRUNE` | n8n | true | Deletes old execution records so Postgres does not grow without bound. |
+| `QUEUE_BULL_REDIS_PORT` | n8n | 6379 | - |
+| `DB_POSTGRESDB_PASSWORD` | n8n | (secret) | - |
+| `QUEUE_BULL_REDIS_PASSWORD` | n8n | (secret) | - |
+| `EXECUTIONS_DATA_PRUNE_MAX_COUNT` | n8n | 200 | How many past executions to keep when pruning is on. Raise it if you need a longer history. |
+| `DB_POSTGRESDB_CONNECTION_TIMEOUT` | n8n | 60000 | Milliseconds to wait for Postgres on start, raised from the 20s default so a slow first boot of the database does not fail the deploy. |
+| `ENABLE_ALPINE_PRIVATE_NETWORKING` | n8n | true | - |
+| `OFFLOAD_MANUAL_EXECUTIONS_TO_WORKERS` | n8n | true | Runs executions started from the editor on the worker instead of the main instance. That is what scaling mode is for, and n8n is making it the default. |
+| `REDIS_PASSWORD` | Redis | (secret) | - |
 
 ## Configuration
 
