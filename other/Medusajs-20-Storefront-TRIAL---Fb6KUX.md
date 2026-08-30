@@ -6,21 +6,26 @@ Full ecommerce solution, manage products, inventory, orders, etc.
 
 ## About
 
-This boilerplate is a all in one medusajs 2.0 e-commerce webshop solution, it comes preconfigured with both backend + admin dashbord and connected to the "storefront" (webshop frontend). 
+Deploy a complete open-source e-commerce stack on Railway's free trial. This community-built template runs a MedusaJS 2.0 backend, admin dashboard and connected Next.js storefront on four services, so it fits inside the trial's five-service limit. Same code as the full template, trimmed to the essentials. Currently running Medusa **v2.17.2**.
 
-**Limited to 5 services, for free users!**
+*An independent community project by [FUNKYTON](https://funkyton.com/). Not affiliated with, endorsed by, or supported by MedusaJS, Inc. It uses the official open-source Medusa release as published, with no fork or patches to the core, and adds the Railway deployment setup plus preconfigured Stripe and Resend integrations on top. The [official Medusa documentation](https://docs.medusajs.com/) applies as normal.*
 
-For full version, checkout: https://railway.com/template/gkU-27
+**Want product search and S3-compatible file storage?** Deploy the [full version of this template](https://railway.com/deploy/medusajs-2-0-storefront?referralCode=-Yg50p), which adds MeiliSearch and object storage on top of everything here.
 
-**Updated to v2.10.2 🤩 17. September 2025**
+### Video Instructions
+[![Watch the video](https://img.youtube.com/vi/Gr5F2j5B-os/maxresdefault.jpg)](https://youtu.be/Gr5F2j5B-os)
+Click ☝️ to play on YouTube
 
-### Video instructions
-[![alt text](https://img.youtube.com/vi/Gr5F2j5B-os/maxresdefault.jpg)](https://youtu.be/Gr5F2j5B-os)
+### Additional Docs & Resources
+- Full guide: [https://funkyton.com/medusajs-2-0-is-finally-here/](https://funkyton.com/medusajs-2-0-is-finally-here/)
+- GitHub: [https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate](https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate)
+- Medusa's own documentation: [https://docs.medusajs.com/](https://docs.medusajs.com/)
 
-### Additional information and instructions
-Instructions: [https://funkyton.com/medusajs-2-0-is-finally-here/](https://funkyton.com/medusajs-2-0-is-finally-here/)
+Railway's free trial allows up to five services in a project, which is not quite enough for a full Medusa stack. This template fits the limit by running only what a working store actually requires: the Medusa backend with its admin dashboard, a Next.js storefront, Postgres and Redis.
 
-GitHub: [https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate](https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate)
+On deploy it provisions and connects all four, runs the database migrations, seeds the store, creates your admin user with a randomized strong password, and passes the publishable API key to the storefront automatically. When the health checks go green you can sign in and start adding products. Uploaded product images are written to a persistent volume on the backend rather than external object storage, so they survive redeploys.
+
+Two things are left out compared to the full template: MeiliSearch, so storefront product search is switched off, and S3-compatible object storage. Both can be added later without redeploying from scratch.
 
 ## What gets deployed
 

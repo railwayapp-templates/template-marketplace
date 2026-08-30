@@ -1,36 +1,39 @@
 # Deploy NoClick on Railway
 
-Open-source visual workflow automation and AI agents.
+Agents for any background task, on your ChatGPT or Claude subscription.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/noclick)
 
 ## About
 
-Deploy the NoClick community edition as one Railway service from the reviewed public release image.
+Build agents that automate any background task, on your own Railway project, with the ChatGPT or Claude subscription you already have. One click: a Postgres database and the reviewed public release image, and nothing to fill in.
 
-NoClick combines its backend, frontend, and HTTP gateway in one container. The template runs database bootstrap before release and keeps one replica for the in-process scheduler and realtime state.
+NoClick runs its backend, frontend, HTTP gateway and auth layer in one container. On first boot it prepares the database it was given, mints this instance's own secrets, and serves everything on the service's Railway domain. One replica is by design: the scheduler and realtime state are in-process.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| noclick | `ghcr.io/noclickapp/noclick:0.1.0` | Web service |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
+| noclick | `ghcr.io/noclickapp/noclick:0.2.2` | Web service |
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `SESSION_SECRET` | (secret) |
-| `SUPABASE_SECRET_KEY` | (secret) |
-| `WORKFLOW_JWT_SECRET` | (secret) |
-| `CRON_SCHEDULER_SECRET` | (secret) |
-| `CREDENTIALS_ENCRYPTION_KEY` | (secret) |
+| Variable | Service | Default |
+| --------- | ------- | ------- |
+| `POSTGRES_PASSWORD` | Postgres | (secret) |
+| `JWT_SECRET` | noclick | (secret) |
+| `SESSION_SECRET` | noclick | (secret) |
+| `WORKFLOW_JWT_SECRET` | noclick | (secret) |
+| `CRON_SCHEDULER_SECRET` | noclick | (secret) |
+| `CREDENTIALS_ENCRYPTION_KEY` | noclick | (secret) |
 
 ## Configuration
 
-- **Start command:** `/bin/bash -lc "export VITE_DISABLE_CAPTCHA=true; exec /usr/local/bin/noclick-entrypoint"`
+- **Volume:** `/var/lib/postgresql/data`
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/var/lib/noclick`
 
 **Category:** Automation
 

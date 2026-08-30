@@ -6,7 +6,9 @@ Full ecommerce solution, manage products, inventory, orders, etc.
 
 ## About
 
-Deploy a **best-in-class e-commerce stack** in minutes. This boilerplate brings you an all-in-one MedusaJS 2.0 webshop solution, preconfigured with backend, admin dashboard, and a connected storefront (webshop). Everything you need to get started with a modern, feature-rich shop, now updated to **v2.17.2 🤩 (18. July 2026)**.
+Deploy a complete open-source e-commerce stack in minutes. This community-built template provisions a MedusaJS 2.0 backend, admin dashboard and a connected Next.js storefront, with Postgres, Redis, MeiliSearch and S3-compatible file storage already wired together. Currently running Medusa **v2.17.2 (18. July 2026)**.
+
+*An independent community project by [FUNKYTON](https://funkyton.com/). Not affiliated with, endorsed by, or supported by MedusaJS, Inc. It deploys the unmodified official open-source Medusa release, so the [official Medusa documentation](https://docs.medusajs.com/) applies to your store as-is.*
 
 ### Video Instructions
 [![Watch the video](https://img.youtube.com/vi/Gr5F2j5B-os/maxresdefault.jpg)](https://youtu.be/Gr5F2j5B-os)
@@ -15,8 +17,11 @@ Click ☝️ to play on YouTube
 ### Additional Docs & Resources
 - Full guide: [https://funkyton.com/medusajs-2-0-is-finally-here/](https://funkyton.com/medusajs-2-0-is-finally-here/)
 - GitHub: [https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate](https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate)
+- Medusa's own documentation: [https://docs.medusajs.com/](https://docs.medusajs.com/)
 
-Host the next-gen MedusaJS 2.0 e-commerce stack—complete with storefront, admin dashboard, and all services—without tedious setup. This template configures backend, frontend, Redis, Postgres, Railway storage bucket, MeiliSearch, and more, so your shop is production-ready from the first deploy. Benefit from automated admin creation, strong secrets, API key sharing, health checks, and pre-bundled Stripe and email plugins. Railway handles the cloud infrastructure so you can focus on building your business or project. Ideal for fast prototyping, custom e-commerce, personal hobby webshop, and ambitious side-projects.
+Self-hosting a Medusa 2.0 store means running several services that all have to find each other: the backend API, the admin dashboard, a Next.js storefront, a Postgres database, Redis for events and workflows, MeiliSearch for product search, and object storage for product images. Wiring that by hand is most of a day's work.
+
+This template provisions and connects all of them in a single deploy, then runs the database migrations, seeds the store, creates your admin user with a randomized strong password, and shares the publishable API key with the storefront automatically. When the health checks go green, the store is live and you can sign in and add products. Stripe and transactional email are pre-installed and activate as soon as you add your keys. Railway handles the infrastructure, so what is left is your catalogue and your design.
 
 ## What gets deployed
 
