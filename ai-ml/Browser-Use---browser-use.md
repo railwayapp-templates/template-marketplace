@@ -19,7 +19,6 @@ This template deploys one Docker service that packages the official `browser-use
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/data`
 
 **Category:** AI/ML · **Languages:** HTML, Python, Dockerfile
 

@@ -30,7 +30,6 @@ Hosting Tooljet involves deploying the application on a server, configuring the 
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `PORT` | Tooljet | 8080 | - |
 | `PG_USER` | Tooljet | (secret) | - |
-| `ORM_LOGGING` | Tooljet | all | - |
 | `SERVE_CLIENT` | Tooljet | true | - |
 | `DISABLE_SIGNUPS` | Tooljet | false | If signups should be disabled. |
 | `SECRET_KEY_BASE` | Tooljet | (secret) | - |

@@ -66,7 +66,7 @@ Directus enables you to design and build a REST + GraphQL API in minutes and ena
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
-- **Healthcheck:** `/server/health`
+- **Healthcheck:** `/server/ping`
 - **Networking:** Public domain with automatic HTTPS
 - **Start command:** `/bin/sh -c "unset PGPORT; docker-entrypoint.sh postgres --port=5432"`
 - **Volume:** `/var/lib/postgresql/data`

@@ -136,6 +136,6 @@ Railway simplifies the multi-service deployment by handling container orchestrat
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Storage · **Languages:** HTML, PLpgSQL, Shell, JavaScript, Dockerfile, Elixir
+**Category:** Storage · **Languages:** HTML, Go, PLpgSQL, Shell, Dockerfile, JavaScript, Elixir
 
 [View on Railway →](https://railway.com/deploy/supabase)

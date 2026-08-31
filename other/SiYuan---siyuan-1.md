@@ -6,7 +6,7 @@ Self-host SiYuan with secure access, persistent notes, and tested recovery.
 
 ## About
 
-Run SiYuan `v3.8.1` as one authenticated Railway service with a persistent
+Run SiYuan `v3.8.2` as one authenticated Railway service with a persistent
 workspace, immutable image pins, non-root steady processes, and true
 boot-progress readiness.
 

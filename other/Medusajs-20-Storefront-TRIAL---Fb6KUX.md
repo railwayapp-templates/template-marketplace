@@ -32,7 +32,6 @@ Two things are left out compared to the full template: MeiliSearch, so storefron
 | Service | Source | Type |
 |---------|--------|------|
 | Backend | [rpuls/medusajs-2.0-for-railway-boilerplate](https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate) (root: /backend) | Web service |
-| Redis | `redis:8.2.1` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:latest` | Database |
 | Storefront | [rpuls/medusajs-2.0-for-railway-boilerplate](https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate) (root: /storefront) | Web service |
 
@@ -50,13 +49,6 @@ Two things are left out compared to the full template: MeiliSearch, so storefron
 | `MEDUSA_ADMIN_PASSWORD` | Backend | (secret) | automatic strong password |
 | `STRIPE_WEBHOOK_SECRET` | Backend | (secret) | Add to enable credit card payment with Stripe |
 | `TEMPLATE_REPORTER_URL` | Backend | https://railway-template-reporter-production.up.railway.app | - |
-| `REDISHOST` | Redis | - | Railway Private Domain Name. |
-| `REDISPORT` | Redis | - | Port to connect to Redis, used by the Data panel. |
-| `REDISUSER` | Redis | default | Default user to connect to Redis, needed for the Data panel. |
-| `REDIS_URL` | Redis | - | URL to connect to Redis, used for Data panel. |
-| `REDISPASSWORD` | Redis | (secret) | Password to connect to Redis, needed for the Data panel. |
-| `REDIS_PASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PRIVATE_URL` | Redis | - | URL to connect to Redis over private network. |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database |
 | `PGPRIVATEHOST` | Postgres | - | Railway Private Domain |
@@ -70,8 +62,6 @@ Two things are left out compared to the full template: MeiliSearch, so storefron
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/.medusa/server/static`
-- **TCP Proxies:** 6379
-- **Volume:** `/bitnami`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `npm run start`

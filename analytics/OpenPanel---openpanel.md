@@ -49,6 +49,7 @@ Hosting OpenPanel involves setting up the necessary infrastructure to support it
 | `RESEND_API_KEY` | OpenPanel API | (secret) | Set this to your Resend API key for features that require email. Don't forget to set `EMAIL_SENDER` as well! |
 | `ALLOW_INVITATION` | OpenPanel API | true | - |
 | `ALLOW_REGISTRATION` | OpenPanel API | true | Set this to `false` to bar registrations to your OpenPanel instance. |
+| `PORT` | OpenPanel Worker | 3000 | - |
 | `COOKIE_SECRET` | OpenPanel Worker | (secret) | - |
 | `RESEND_API_KEY` | OpenPanel Worker | (secret) | - |
 | `REDISPORT` | Redis | 6379 | - |
@@ -59,12 +60,13 @@ Hosting OpenPanel involves setting up the necessary infrastructure to support it
 
 ## Configuration
 
-- **Healthcheck:** `/`
+- **Healthcheck:** `/api/healthcheck`
 - **Start command:** `sh -c "echo \"$CADDYFILE\" > /etc/caddy/Caddyfile && caddy run --config /etc/caddy/Caddyfile --adapter caddyfile"`
 - **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 - **Volume:** `/var/lib/clickhouse`
+- **Healthcheck:** `/healthcheck`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **Volume:** `/data`
 

@@ -28,13 +28,13 @@ log in and change the default admin password.
 
 | Service | Source | Type |
 |---------|--------|------|
-| maintenance | `cericmathey/hll_rcon_tool:v12.2.1` | Worker |
-| frontend | [sledro/crcon.cloud](https://github.com/sledro/crcon.cloud) (root: template/frontend) | Web service |
+| maintenance | [sledro/crcon.cloud](https://github.com/sledro/crcon.cloud) (branch: release) (root: template/upstream) | Worker |
+| webhooks | [sledro/crcon.cloud](https://github.com/sledro/crcon.cloud) (branch: release) (root: template/upstream) | Worker |
+| frontend | [sledro/crcon.cloud](https://github.com/sledro/crcon.cloud) (branch: release) (root: template/frontend) | Web service |
 | redis | `redis:alpine` | Database |
 | postgres | `postgres:12-alpine` | Database |
-| backend | [sledro/crcon.cloud](https://github.com/sledro/crcon.cloud) (root: template/backend) | Worker |
-| supervisor | [sledro/crcon.cloud](https://github.com/sledro/crcon.cloud) (root: template/supervisor) | Database |
-| webhooks | `cericmathey/hll_rcon_tool:v12.2.1` | Worker |
+| backend | [sledro/crcon.cloud](https://github.com/sledro/crcon.cloud) (branch: release) (root: template/backend) | Worker |
+| supervisor | [sledro/crcon.cloud](https://github.com/sledro/crcon.cloud) (branch: release) (root: template/supervisor) | Database |
 
 ## Environment variables
 
@@ -53,6 +53,22 @@ log in and change the default admin password.
 | `HLL_DB_HOST_PORT` | maintenance | 5432 | Postgres port |
 | `HLL_REDIS_HOST_PORT` | maintenance | 6379 | Redis port |
 | `HLL_MAINTENANCE_CONTAINER` | maintenance | true | Marks this container as the migration runner |
+| `HLL_DB_URL` | webhooks | - | Full Postgres connection URL |
+| `HLL_DB_HOST` | webhooks | - | Postgres private hostname |
+| `HLL_DB_NAME` | webhooks | - | Postgres database name |
+| `HLL_DB_USER` | webhooks | (secret) | Postgres user, referenced from the postgres service |
+| `LOGGING_PATH` | webhooks | /logs/ | Directory CRCON writes log files to |
+| `LOGGING_LEVEL` | webhooks | INFO | Log verbosity |
+| `HLL_REDIS_HOST` | webhooks | - | Redis private hostname |
+| `HLL_REDIS_PORT` | webhooks | 6379 | Redis port |
+| `HLL_DB_PASSWORD` | webhooks | (secret) | Postgres password, referenced from the postgres service |
+| `HLL_DB_HOST_PORT` | webhooks | 5432 | Postgres port |
+| `HLL_WH_LOOP_SLEEP_TIME` | webhooks | 0.006 | Event loop sleep between webhook sends |
+| `HLL_WH_MAX_QUEUE_LENGTH` | webhooks | 150 | Maximum queued webhook messages |
+| `HLL_WH_SERVICE_CONTAINER` | webhooks | true | Marks this container as the webhook dispatcher |
+| `HLL_WH_SERVICE_RL_RESET_SECS` | webhooks | 3 | Webhook rate limit window in seconds |
+| `HLL_WH_SERVICE_RL_TIME_WINDOW` | webhooks | 600 | Seconds to track external rate limit hits |
+| `HLL_WH_SERVICE_RL_REQUESTS_PER` | webhooks | 5 | Requests allowed per rate limit window |
 | `PORT` | frontend | 80 | Tells Railway which port to healthcheck; nginx serves the admin UI on 80 |
 | `HLL_GAME` | frontend | - | Game type; selects which game assets nginx serves |
 | `CRCON_API_HOST` | frontend | - | Backend private hostname nginx proxies API and websocket traffic to |
@@ -108,26 +124,11 @@ log in and change the default admin password.
 | `HLL_DB_HOST_PORT` | supervisor | 5432 | Postgres port |
 | `RCONWEB_API_SECRET` | supervisor | (secret) | Shared Django secret, referenced from the backend service |
 | `RCONWEB_EXTERNAL_ADDRESS` | supervisor | - | Public address of the admin UI |
-| `HLL_DB_URL` | webhooks | - | Full Postgres connection URL |
-| `HLL_DB_HOST` | webhooks | - | Postgres private hostname |
-| `HLL_DB_NAME` | webhooks | - | Postgres database name |
-| `HLL_DB_USER` | webhooks | (secret) | Postgres user, referenced from the postgres service |
-| `LOGGING_PATH` | webhooks | /logs/ | Directory CRCON writes log files to |
-| `LOGGING_LEVEL` | webhooks | INFO | Log verbosity |
-| `HLL_REDIS_HOST` | webhooks | - | Redis private hostname |
-| `HLL_REDIS_PORT` | webhooks | 6379 | Redis port |
-| `HLL_DB_PASSWORD` | webhooks | (secret) | Postgres password, referenced from the postgres service |
-| `HLL_DB_HOST_PORT` | webhooks | 5432 | Postgres port |
-| `HLL_WH_LOOP_SLEEP_TIME` | webhooks | 0.006 | Event loop sleep between webhook sends |
-| `HLL_WH_MAX_QUEUE_LENGTH` | webhooks | 150 | Maximum queued webhook messages |
-| `HLL_WH_SERVICE_CONTAINER` | webhooks | true | Marks this container as the webhook dispatcher |
-| `HLL_WH_SERVICE_RL_RESET_SECS` | webhooks | 3 | Webhook rate limit window in seconds |
-| `HLL_WH_SERVICE_RL_TIME_WINDOW` | webhooks | 600 | Seconds to track external rate limit hits |
-| `HLL_WH_SERVICE_RL_REQUESTS_PER` | webhooks | 5 | Requests allowed per rate limit window |
 
 ## Configuration
 
 - **Start command:** `sh -c "mkdir -p /logs && exec /code/entrypoint.sh maintenance"`
+- **Start command:** `sh -c "mkdir -p /logs && exec /code/entrypoint.sh webhook_service"`
 - **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 - **Start command:** `redis-server --save 60 1 --maxclients 100000`
@@ -136,7 +137,6 @@ log in and change the default admin password.
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `sh -c "mkdir -p /logs && exec /code/entrypoint.sh supervisor"`
 - **Volume:** `/scoreboard_db`
-- **Start command:** `sh -c "mkdir -p /logs && exec /code/entrypoint.sh webhook_service"`
 
 **Category:** Other · **Languages:** Dockerfile, Shell
 
