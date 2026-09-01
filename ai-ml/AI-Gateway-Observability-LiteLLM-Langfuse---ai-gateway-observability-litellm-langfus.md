@@ -1,6 +1,6 @@
 # Deploy AI Gateway + Observability (LiteLLM × Langfuse) on Railway
 
-[Aug'26] LiteLLM gateway + Langfuse tracing, pre-wired. 100+ LLMs
+[Sep'26] LiteLLM gateway + Langfuse tracing, pre-wired. 100+ LLMs
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ai-gateway-observability-litellm-langfus)
 

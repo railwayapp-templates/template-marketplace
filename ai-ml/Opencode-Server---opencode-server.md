@@ -13,9 +13,11 @@ https://github.com/sprisa/opencode-server
 
 Fully featured image for running Opencode agent machines in a Docker or Kubernetes environment. The agent can install it's own tools on demand with `mise`.
 
-Recommended to create 1 machine / template per user.
-
-Recommended to enable CDN caching for faster load times.
+- Default user is `opencode` and default password is `changeme`. Be sure to change these values!
+- Recommended Options
+  - Create 1 machine / template per user.
+  - Enable CDN caching for faster load times.
+  - Enable serverless for sleeping when not in use (cost savings)
 
 ## What gets deployed
 

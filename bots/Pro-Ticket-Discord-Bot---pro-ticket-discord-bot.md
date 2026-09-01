@@ -27,6 +27,7 @@ Hosting Pro Ticket on Railway provides a complete infrastructure with MongoDB, a
 | `NODE_ENV` | Pro Ticket Bot | production | Produção para iniciar os recursos completos |
 | `BOT_TOKEN` | Pro Ticket Bot | (secret) | Token do bot |
 | `MONGO_URI` | Pro Ticket Bot | - | Conexão do banco de dados |
+| `AI_MASTER_KEY` | Pro Ticket Bot | - | Master key da criptografia das chaves de API da IA (auto geração) |
 | `STEAM_API_KEY` | Pro Ticket Bot | (secret) | Chave API Steam para visualizar imagens do perfil, opcional |
 | `SERVER_HOSTNAME` | Pro Ticket Bot | - | URL API |
 | `DISCORD_CLIENT_SECRET` | Pro Ticket Bot | (secret) | Client Secret do bot |

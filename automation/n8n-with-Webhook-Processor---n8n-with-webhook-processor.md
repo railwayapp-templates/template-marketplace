@@ -1,6 +1,6 @@
-# Deploy n8n — Worker & Webhook Processor on Railway
+# Deploy n8n with Webhook Processor on Railway
 
-Run scalable n8n with workers, webhook processor, Redis & Postgres.
+A scalable automation stack with workers, webhook processing, and queues.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-with-webhook-processor)
 

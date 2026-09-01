@@ -1,6 +1,6 @@
 # Deploy n8n on Railway
 
-Self-host n8n for workflows, integrations and AI. Deploy in 1-click 🚀
+A flexible automation platform for workflows, integrations, and AI.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-1)
 

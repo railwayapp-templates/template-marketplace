@@ -37,10 +37,10 @@ Self hosting agent memory normally means wiring three services together: a priva
 | `PORT` | memory-core | 8420 | - |
 | `ADMIN_USERNAME` | memory-core | (secret) | Panel admin username. |
 | `ADMIN_USER_KEY` | memory-core | - | Admin login key for the Panel. Created on first boot and persisted in the volume — changing this variable later does NOT rotate it. Create per-person keys in the Panel instead. |
-| `MEMORY_LLM_MODEL` | memory-core | - | Model used for memory work, e.g. deepseek-chat. Cheap and fast beats big and smart here. |
+| `MEMORY_LLM_MODEL` | memory-core | - | Model used for memory work. Get this from your API docs eg OpenRouter has it under title on their model pages. Cheap and fast beats big and smart here. |
 | `MEMORY_LLM_API_KEY` | memory-core | (secret) | API key for the memory LLM endpoint. A cheap model's key is fine here. OpenRouter gives you all model options. |
 | `MEMORY_PROMPT_MODE` | memory-core | chat | Memory extraction flavor: chat or code. |
-| `MEMORY_LLM_BASE_URL` | memory-core | - | OpenAI-compatible LLM endpoint used for memory work (extraction, summaries, wiki ingest). e.g. https://openrouter.ai/api/v1 or https://api.deepseek.com/v1 |
+| `MEMORY_LLM_BASE_URL` | memory-core | - | OpenAI-compatible LLM endpoint without functional extensions. Used for memory work (extraction, summaries, wiki ingest). e.g. https://openrouter.ai/api/v1 or https://api.deepseek.com/v1 |
 | `MEMORY_LLM_PROTOCOL` | memory-core | openai | Protocol the endpoint speaks: openai or anthropic. |
 | `PORT` | memory-proxy | 8096 | - |
 | `PROXY_UPSTREAM_URL` | memory-proxy | - | LLM endpoint your coding-agent chats are forwarded to. Defaults to the memory group; override to use a stronger model for coding. |

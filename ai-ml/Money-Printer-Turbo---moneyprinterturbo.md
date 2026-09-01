@@ -1,4 +1,4 @@
-# Deploy MoneyPrinterTurbo on Railway
+# Deploy Money Printer Turbo on Railway
 
 Generate short videos from a topic with AI
 

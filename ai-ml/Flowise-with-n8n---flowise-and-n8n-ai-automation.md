@@ -1,6 +1,6 @@
-# Deploy Flowise & n8n AI Automation on Railway
+# Deploy Flowise with n8n on Railway
 
-AI agent orchestrator via Flowise & workflow automation by n8n
+Automate AI agents, workflows, and integrations in one stack.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowise-and-n8n-ai-automation)
 

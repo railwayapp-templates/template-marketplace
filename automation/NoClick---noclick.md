@@ -14,26 +14,26 @@ NoClick runs its backend, frontend, HTTP gateway and auth layer in one container
 
 | Service | Source | Type |
 |---------|--------|------|
+| noclick | `ghcr.io/noclickapp/noclick:0.2.11` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
-| noclick | `ghcr.io/noclickapp/noclick:0.2.7` | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default |
 | --------- | ------- | ------- |
-| `POSTGRES_PASSWORD` | Postgres | (secret) |
 | `JWT_SECRET` | noclick | (secret) |
 | `SESSION_SECRET` | noclick | (secret) |
 | `WORKFLOW_JWT_SECRET` | noclick | (secret) |
 | `CRON_SCHEDULER_SECRET` | noclick | (secret) |
 | `CREDENTIALS_ENCRYPTION_KEY` | noclick | (secret) |
+| `POSTGRES_PASSWORD` | Postgres | (secret) |
 
 ## Configuration
 
-- **Volume:** `/var/lib/postgresql/data`
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/noclick`
+- **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Automation
 

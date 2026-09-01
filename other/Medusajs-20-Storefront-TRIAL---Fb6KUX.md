@@ -6,11 +6,13 @@ Full ecommerce solution, manage products, inventory, orders, etc.
 
 ## About
 
-Deploy a complete open-source e-commerce stack on Railway's free trial. This community-built template runs a MedusaJS 2.0 backend, admin dashboard and connected Next.js storefront on four services, so it fits inside the trial's five-service limit. Same code as the full template, trimmed to the essentials. Currently running Medusa **v2.17.2**.
+A reduced edition of the Medusa 2.0 template that fits inside **Railway's free plan**, which allows three services per project. Medusa itself is open source and free on any plan; what this template solves is the service limit. It runs the Medusa 2.0 backend with admin dashboard, a Next.js storefront and Postgres, deployed in one click, so you can run a real store on Railway without upgrading first.
 
-*An independent community project by [FUNKYTON](https://funkyton.com/). Not affiliated with, endorsed by, or supported by MedusaJS, Inc. It uses the official open-source Medusa release as published, with no fork or patches to the core, and adds the Railway deployment setup plus preconfigured Stripe and Resend integrations on top. The [official Medusa documentation](https://docs.medusajs.com/) applies as normal.*
+It is a starting point and a demo build, **not a production setup**. For a real store, deploy the [full version](https://railway.com/deploy/medusajs-2-0-storefront?referralCode=-Yg50p).
 
-**Want product search and S3-compatible file storage?** Deploy the [full version of this template](https://railway.com/deploy/medusajs-2-0-storefront?referralCode=-Yg50p), which adds MeiliSearch and object storage on top of everything here.
+Actively maintained: currently running Medusa **v2.19.0**, updated 31 August 2026.
+
+*An independent community project by [FUNKYTON](https://funkyton.com/). Not affiliated with, endorsed by, or supported by MedusaJS, Inc. It uses the open-source Medusa release as published, with no fork or patches to the core, and adds the Railway deployment setup on top. The [Medusa documentation](https://docs.medusajs.com/) applies as normal.*
 
 ### Video Instructions
 [![Watch the video](https://img.youtube.com/vi/Gr5F2j5B-os/maxresdefault.jpg)](https://youtu.be/Gr5F2j5B-os)
@@ -21,11 +23,21 @@ Click ☝️ to play on YouTube
 - GitHub: [https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate](https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate)
 - Medusa's own documentation: [https://docs.medusajs.com/](https://docs.medusajs.com/)
 
-Railway's free trial allows up to five services in a project, which is not quite enough for a full Medusa stack. This template fits the limit by running only what a working store actually requires: the Medusa backend with its admin dashboard, a Next.js storefront, Postgres and Redis.
+The full Medusa stack needs more services than Railway's free plan permits. This template is trimmed to three: the Medusa backend with its admin dashboard, a Next.js storefront, and Postgres. Everything that would normally live in a separate service is either dropped or runs in-process.
 
-On deploy it provisions and connects all four, runs the database migrations, seeds the store, creates your admin user with a randomized strong password, and passes the publishable API key to the storefront automatically. When the health checks go green you can sign in and start adding products. Uploaded product images are written to a persistent volume on the backend rather than external object storage, so they survive redeploys.
+On deploy it provisions and connects all three, runs the database migrations, seeds the store, creates your admin user with a randomized strong password, and passes the publishable API key to the storefront. When the health checks go green you can sign in, add products and place a test order. It is a genuinely working shop, not a mock-up.
 
-Two things are left out compared to the full template: MeiliSearch, so storefront product search is switched off, and S3-compatible object storage. Both can be added later without redeploying from scratch.
+### What has been cut to fit three services
+
+- **No Redis.** Medusa falls back to its in-memory event bus and workflow engine. Queued events and in-flight workflows do not survive a restart, and the backend cannot run more than one instance.
+- **No MeiliSearch.** Storefront product search is switched off.
+- **No object storage.** Product images are written to a volume on the backend rather than S3-compatible storage, so they are not served through a CDN.
+
+None of that matters for evaluating Medusa or showing a client a working store. All of it matters once you have real customers.
+
+### Moving to the full template
+
+The [full version](https://railway.com/deploy/medusajs-2-0-storefront?referralCode=-Yg50p) is the same codebase with Redis, MeiliSearch and S3-compatible object storage added back, and it is the one that is actively maintained and supported. It needs a paid Railway plan. Deploy it alongside this one and migrate your data when you are ready.
 
 ## What gets deployed
 
@@ -41,6 +53,7 @@ Two things are left out compared to the full template: MeiliSearch, so storefron
 | --------- | ------- | ------- | ----------- |
 | `NODE_ENV` | Backend | production | - |
 | `JWT_SECRET` | Backend | (secret) | - |
+| `STORE_NAME` | Backend | Demo Store | Change this value to your own stores name. This will be shown in the storefront, and on emails to customers. |
 | `RESEND_FROM` | Backend | - | Add to enable automated emails with Resend (info@yourdomain.com) |
 | `COOKIE_SECRET` | Backend | (secret) | - |
 | `RESEND_API_KEY` | Backend | (secret) | Used to enable automated emailing with Resend |

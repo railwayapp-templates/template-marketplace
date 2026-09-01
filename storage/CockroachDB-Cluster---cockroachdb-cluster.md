@@ -51,7 +51,7 @@ This architecture better represents CockroachDB's native distributed design than
 
 ## Configuration
 
-- **Start command:** `cockroach start --insecure --store=/cockroach/cockroach-data --listen-addr=0.0.0.0:26257 --advertise-addr=$COCKROACH_NODE:26257 --http-addr=0.0.0.0:8080 --join=$COCKROACH_JOIN`
+- **Start command:** `/bin/bash -c 'exec cockroach start --insecure --store="$COCKROACH_STORE" --listen-addr=0.0.0.0:"$SQL_PORT" --advertise-addr="$COCKROACH_NODE:$SQL_PORT" --http-addr=0.0.0.0:"$HTTP_PORT" --join="$COCKROACH_JOIN"'`
 - **Volume:** `/cockroach/cockroach-data`
 - **Start command:** `/bin/sh -c 'printf "%s\n" "global" "    log stdout format raw local0" "    maxconn 4096" "" "defaults" "    log global" "    mode tcp" "    option log-health-checks" "    timeout connect 5s" "    timeout client 1h" "    timeout server 1h" "" "listen cockroachdb" "    bind *:${PORT}" "    mode tcp" "    balance leastconn" "    option tcp-check" "    server cockroach1 ${COCKROACH_NODE_1}:${COCKROACH_SQL_PORT} check inter 5s fall 3 rise 2" "    server cockroach2 ${COCKROACH_NODE_2}:${COCKROACH_SQL_PORT} check inter 5s fall 3 rise 2" "    server cockroach3 ${COCKROACH_NODE_3}:${COCKROACH_SQL_PORT} check inter 5s fall 3 rise 2" > /tmp/haproxy.cfg; exec haproxy -W -db -f /tmp/haproxy.cfg'`
 - **TCP Proxies:** 26257

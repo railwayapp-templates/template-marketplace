@@ -1,6 +1,6 @@
-# Deploy n8n with workers on Railway
+# Deploy n8n with Workers on Railway
 
-Run n8n with queue workers, Redis, Postgres & persistent storage 🤖
+A scalable automation setup with queue workers, Redis, and Postgres.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-workers)
 

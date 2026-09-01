@@ -1,38 +1,35 @@
-# Deploy Medusajs 2.0 + Storefront on Railway
+# Deploy Medusajs 2.0 + Storefront (⚠️ DISCONTINUED) on Railway
 
-Full ecommerce solution, manage products, inventory, orders, etc.
+Use instead: https://railway.com/deploy/medusajs-2-0-storefront
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/gkU-27)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/medusajs-2136-storefront-new)
 
 ## About
 
-Deploy a complete open-source e-commerce stack in minutes. This community-built template provisions a MedusaJS 2.0 backend, admin dashboard and a connected Next.js storefront, with Postgres, Redis, MeiliSearch and S3-compatible file storage already wired together. Currently running Medusa **v2.17.2 (18. July 2026)**.
+**This template is discontinued and no longer maintained. Do not deploy it.**
 
-*An independent community project by [FUNKYTON](https://funkyton.com/). Not affiliated with, endorsed by, or supported by MedusaJS, Inc. It deploys the unmodified official open-source Medusa release, so the [official Medusa documentation](https://docs.medusajs.com/) applies to your store as-is.*
+👉 **Use the maintained template instead: [MedusaJS 2.0 + Storefront](https://railway.com/deploy/medusajs-2-0-storefront?referralCode=-Yg50p)**
 
-### Video Instructions
-[![Watch the video](https://img.youtube.com/vi/Gr5F2j5B-os/maxresdefault.jpg)](https://youtu.be/Gr5F2j5B-os)
-Click ☝️ to play on YouTube
+Same stack, actively maintained and kept up to date.
 
-### Additional Docs & Resources
-- Full guide: [https://funkyton.com/medusajs-2-0-is-finally-here/](https://funkyton.com/medusajs-2-0-is-finally-here/)
-- GitHub: [https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate](https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate)
-- Medusa's own documentation: [https://docs.medusajs.com/](https://docs.medusajs.com/)
+*An independent community project by [FUNKYTON](https://funkyton.com/). Not affiliated with, endorsed by, or supported by MedusaJS, Inc.*
 
-Self-hosting a Medusa 2.0 store means running several services that all have to find each other: the backend API, the admin dashboard, a Next.js storefront, a Postgres database, Redis for events and workflows, MeiliSearch for product search, and object storage for product images. Wiring that by hand is most of a day's work.
+This listing is retired. It provisioned a Medusa 2.0 backend, Next.js storefront, Postgres, Redis, MeiliSearch and object storage, but it is frozen on an old release and receives no fixes or updates.
 
-This template provisions and connects all of them in a single deploy, then runs the database migrations, seeds the store, creates your admin user with a randomized strong password, and shares the publishable API key with the storefront automatically. When the health checks go green, the store is live and you can sign in and add products. Stripe and transactional email are pre-installed and activate as soon as you add your keys. Railway handles the infrastructure, so what is left is your catalogue and your design.
+The [maintained template](https://railway.com/deploy/medusajs-2-0-storefront?referralCode=-Yg50p) does the same thing and is kept current.
+
+**Already deployed this one?** Your store keeps running, but it will not get fixes. Redeploy on the maintained template when you can.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| MeiliSearch | `getmeili/meilisearch:v1.11.3` | Web service |
+| MeiliSearch | `getmeili/meilisearch:v1.49.0` | Web service |
+| Bucket-proxy | `ghcr.io/railwayapp/function-bun:1.3.0` | Web service |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:latest` | Database |
+| Storefront | [rpuls/medusajs-2.0-for-railway-boilerplate](https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate) (root: /storefront) | Web service |
 | Backend | [rpuls/medusajs-2.0-for-railway-boilerplate](https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate) (root: /backend) | Web service |
 | Redis | `redis:8.2.1` | Database |
-| Bucket-proxy | `ghcr.io/railwayapp/function-bun:1.3.0` | Web service |
-| Storefront | [rpuls/medusajs-2.0-for-railway-boilerplate](https://github.com/rpuls/medusajs-2.0-for-railway-boilerplate) (root: /storefront) | Web service |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:latest` | Database |
 
 ## Environment variables
 
@@ -43,8 +40,19 @@ This template provisions and connects all of them in a single deploy, then runs 
 | `MEILI_DB_PATH` | MeiliSearch | /meili_data/data.ms | - |
 | `MEILI_HTTP_ADDR` | MeiliSearch | :::3331 | - |
 | `MEILI_MAX_INDEXING_MEMORY` | MeiliSearch | 2GiB | - |
+| `S3_SECRET_ACCESS_KEY` | Bucket-proxy | (secret) | - |
+| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database |
+| `PGPRIVATEHOST` | Postgres | - | Railway Private Domain |
+| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
+| `DATABASE_PRIVATE_URL` | Postgres | - | URL to connect to Postgres database |
+| `MEILISEARCH_API_KEY` | Storefront | (secret) | Only used to fetch search key. |
+| `NEXT_PUBLIC_INDEX_NAME` | Storefront | products | - |
+| `NEXT_PUBLIC_STRIPE_KEY` | Storefront | - | Add to enable credit card payment with Stripe |
 | `NODE_ENV` | Backend | production | - |
 | `JWT_SECRET` | Backend | (secret) | - |
+| `STORE_NAME` | Backend | Demo Store | Change this value to your own stores name. This will be shown in the storefront, and on emails to customers. |
 | `RESEND_FROM` | Backend | - | Required to enable automated emails with Resend (info@yourdomain.com) |
 | `COOKIE_SECRET` | Backend | (secret) | - |
 | `RESEND_API_KEY` | Backend | (secret) | Required to enable automated emailing with Resend |
@@ -62,30 +70,21 @@ This template provisions and connects all of them in a single deploy, then runs 
 | `REDISPASSWORD` | Redis | (secret) | Password to connect to Redis, needed for the Data panel. |
 | `REDIS_PASSWORD` | Redis | (secret) | Password to connect to Redis. |
 | `REDIS_PRIVATE_URL` | Redis | - | URL to connect to Redis over private network. |
-| `S3_SECRET_ACCESS_KEY` | Bucket-proxy | (secret) | - |
-| `MEILISEARCH_API_KEY` | Storefront | (secret) | Only used to fetch search key. |
-| `NEXT_PUBLIC_INDEX_NAME` | Storefront | products | - |
-| `NEXT_PUBLIC_STRIPE_KEY` | Storefront | - | Add to enable credit card payment with Stripe |
-| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
-| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database |
-| `PGPRIVATEHOST` | Postgres | - | Railway Private Domain |
-| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
-| `DATABASE_PRIVATE_URL` | Postgres | - | URL to connect to Postgres database |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/meili_data`
-- **Healthcheck:** `/health`
-- **TCP Proxies:** 6379
-- **Volume:** `/bitnami`
 - **Start command:** `./run.sh aW1wb3J0IHsgczMgfSBmcm9tICJidW4iOwoKY29uc3QgQ0FDSEVfQ09OVFJPTCA9CiAgQnVuLmVudi5DQUNIRV9DT05UUk9MIHx8ICJwdWJsaWMsIG1heC1hZ2U9MzE1MzYwMDAsIGltbXV0YWJsZSI7CgpleHBvcnQgZGVmYXVsdCB7CiAgYXN5bmMgZmV0Y2gocmVxOiBSZXF1ZXN0KTogUHJvbWlzZTxSZXNwb25zZT4gewogICAgY29uc3QgdXJsID0gbmV3IFVSTChyZXEudXJsKTsKCiAgICAvLyBQdWJsaWMgaGVhbHRoIGNoZWNrIGZvciBSYWlsd2F5LgogICAgaWYgKHVybC5wYXRobmFtZSA9PT0gIi9oZWFsdGgiKSB7CiAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoSlNPTi5zdHJpbmdpZnkoeyBzdGF0dXM6ICJvayIgfSksIHsKICAgICAgICBzdGF0dXM6IDIwMCwKICAgICAgICBoZWFkZXJzOiB7ICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIgfSwKICAgICAgfSk7CiAgICB9CgogICAgLy8gVGhpcyBwcm94eSBpcyBzdHJpY3RseSByZWFkLW9ubHkuCiAgICBpZiAocmVxLm1ldGhvZCAhPT0gIkdFVCIgJiYgcmVxLm1ldGhvZCAhPT0gIkhFQUQiKSB7CiAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoIk1ldGhvZCBOb3QgQWxsb3dlZCIsIHsKICAgICAgICBzdGF0dXM6IDQwNSwKICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICBBbGxvdzogIkdFVCwgSEVBRCIsCiAgICAgICAgfSwKICAgICAgfSk7CiAgICB9CgogICAgbGV0IGtleTogc3RyaW5nOwoKICAgIHRyeSB7CiAgICAgIGtleSA9IGRlY29kZVVSSUNvbXBvbmVudCh1cmwucGF0aG5hbWUuc2xpY2UoMSkpOwogICAgfSBjYXRjaCB7CiAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoIk5vdCBGb3VuZCIsIHsgc3RhdHVzOiA0MDQgfSk7CiAgICB9CgogICAgaWYgKCFrZXkgfHwga2V5LmluY2x1ZGVzKCJcMCIpKSB7CiAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoIk5vdCBGb3VuZCIsIHsgc3RhdHVzOiA0MDQgfSk7CiAgICB9CgogICAgY29uc3QgZmlsZSA9IHMzLmZpbGUoa2V5KTsKICAgIGNvbnN0IHN0YXQgPSBhd2FpdCBmaWxlLnN0YXQoKS5jYXRjaCgoKSA9PiBudWxsKTsKCiAgICBpZiAoIXN0YXQpIHsKICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZSgiTm90IEZvdW5kIiwgeyBzdGF0dXM6IDQwNCB9KTsKICAgIH0KCiAgICBjb25zdCBoZWFkZXJzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICAgICAiQ29udGVudC1UeXBlIjogc3RhdC50eXBlIHx8ICJhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0iLAogICAgICAiQ29udGVudC1MZW5ndGgiOiBTdHJpbmcoc3RhdC5zaXplKSwKICAgICAgIkNhY2hlLUNvbnRyb2wiOiBDQUNIRV9DT05UUk9MLAogICAgICAiWC1Db250ZW50LVR5cGUtT3B0aW9ucyI6ICJub3NuaWZmIiwKICAgIH07CgogICAgcmV0dXJuIHJlcS5tZXRob2QgPT09ICJIRUFEIgogICAgICA/IG5ldyBSZXNwb25zZShudWxsLCB7CiAgICAgICAgICBzdGF0dXM6IDIwMCwKICAgICAgICAgIGhlYWRlcnMsCiAgICAgICAgfSkKICAgICAgOiBuZXcgUmVzcG9uc2UoZmlsZS5zdHJlYW0oKSwgewogICAgICAgICAgc3RhdHVzOiAyMDAsCiAgICAgICAgICBoZWFkZXJzLAogICAgICAgIH0pOwogIH0sCn07`
-- **Start command:** `npm run start`
-- **Healthcheck:** `/api/healthcheck`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Start command:** `npm run start`
+- **Healthcheck:** `/api/healthcheck`
+- **Healthcheck:** `/health`
+- **Start command:** `sh -c 'exec redis-server --dir /data'`
+- **TCP Proxies:** 6379
+- **Volume:** `/data`
 
 **Category:** Other · **Languages:** TypeScript, JavaScript, CSS
 
-[View on Railway →](https://railway.com/deploy/gkU-27)
+[View on Railway →](https://railway.com/deploy/medusajs-2136-storefront-new)

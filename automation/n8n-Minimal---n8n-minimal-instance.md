@@ -1,6 +1,6 @@
-# Deploy n8n — Minimal Instance on Railway
+# Deploy n8n Minimal on Railway
 
-Self-host lightweight n8n for less. Simple, efficient. Deploy in 1-click 🚀
+Automate workflows with a lightweight, cost-efficient setup.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-minimal-instance)
 

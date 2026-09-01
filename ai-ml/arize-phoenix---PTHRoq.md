@@ -6,30 +6,9 @@ AI Observability & Evaluation
 
 ## About
 
-Phoenix is an open-source AI observability platform designed for experimentation, evaluation, and troubleshooting. It provides:
+Phoenix is an open-source AI observability platform designed for experimentation, evaluation, and troubleshooting. It ingests OpenTelemetry traces from your LLM and agent applications, then adds LLM-as-a-judge evaluations, versioned datasets, experiments, a prompt playground, and prompt management, all in one UI. Phoenix is vendor and language agnostic, with out-of-the-box support for popular frameworks and LLM providers.
 
-🔭 Tracing - Trace your LLM application's runtime using OpenTelemetry-based instrumentation.
-
-🧠 Evaluation - Leverage LLMs to benchmark your application's performance using response and retrieval evals.
-
-🗄️ Datasets - Create versioned datasets of examples for experimentation, evaluation, and fine-tuning.
-
-🧪 Experiments - Track and evaluate changes to prompts, LLMs, and retrieval.
-
-Phoenix is vendor and language agnostic with out-of-the-box support for popular frameworks (🦙LlamaIndex, 🦜⛓LangChain, Haystack, 🧩DSPy) and LLM providers (OpenAI, Bedrock, MistralAI, VertexAI, LiteLLM, and more). For details on auto-instrumentation, check out the OpenInference project.
-
-Phoenix is built by Arize AI, the company behind the the industry-leading AI observability platform, and a set of core contributors.
-
-Join our community to connect with thousands of AI builders.
-
-Find us at:
-
-https://github.com/Arize-ai/phoenix
-https://docs.arize.com/phoenix
-https://x.com/ArizePhoenix
-https://phoenix.arize.com
-
-Like what you see? Give us a ★ on GitHub!
+Phoenix ships as a prebuilt image on [Docker Hub](https://hub.docker.com/r/arizephoenix/phoenix), so Railway deploys it without a build step. The container serves the UI and REST API on port `6006` and accepts OTLP/gRPC spans on `4317`, binding to `0.0.0.0` by default. Railway's filesystem is ephemeral, so attach a Postgres service and point `PHOENIX_SQL_DATABASE_URL` at it — Phoenix runs its own migrations on startup. Enable authentication with `PHOENIX_ENABLE_AUTH` and a `PHOENIX_SECRET` of at least 32 characters containing a digit and a lowercase letter. Span-heavy queries want memory, so avoid the smallest instance sizes.
 
 ## What gets deployed
 

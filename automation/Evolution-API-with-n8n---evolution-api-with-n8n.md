@@ -1,6 +1,6 @@
 # Deploy Evolution API with n8n on Railway
 
-Build a WhatsApp automation platform with Evolution API, n8n & Postgres.
+Automate WhatsApp workflows with Evolution API, n8n, and Postgres.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evolution-api-with-n8n)
 

@@ -1,4 +1,4 @@
-# Deploy Discord Ticket Bot on Railway
+# Deploy Discord Ticket Bot (AI-powered self-service coming soon) on Railway
 
 Discord Ticket + Web Panel with reports & config+. 3 langs (PT, ES, EN).
 
@@ -27,6 +27,7 @@ Hosting Pro Ticket on Railway provides a complete infrastructure with MongoDB, a
 | `NODE_ENV` | Discord Pro Ticket | production | Produção para iniciar os recursos completos |
 | `BOT_TOKEN` | Discord Pro Ticket | (secret) | Token do bot |
 | `MONGO_URI` | Discord Pro Ticket | - | Conexão do banco de dados |
+| `AI_MASTER_KEY` | Discord Pro Ticket | - | Master key da criptografia das chaves de API da IA (auto geração) |
 | `STEAM_API_KEY` | Discord Pro Ticket | (secret) | Chave API Steam para visualizar imagens do perfil, opcional |
 | `SERVER_HOSTNAME` | Discord Pro Ticket | - | URL API |
 | `DISCORD_CLIENT_SECRET` | Discord Pro Ticket | (secret) | Client Secret do bot |

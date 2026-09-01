@@ -6,18 +6,21 @@ Full ecommerce solution, manage products, inventory, orders, etc.
 
 ## About
 
-[Meudsa version 2 template is out now!](https://railway.com/template/gkU-27?referralCode=-Yg50p)
+**This template is no longer maintained.** It deploys Medusa **1.x**, which has been replaced by Medusa 2.0. Dependencies were last updated 21 June 2024 and it receives no fixes or updates. It stays published so existing stores and inbound links keep working.
 
-But if you prefer the good old...:
+👉 **New project? Use the maintained Medusa 2.0 template instead: [Medusa 2.0 + Next.js Storefront](https://railway.com/deploy/medusajs-2-0-storefront?referralCode=-Yg50p)**
 
-This boilerplate is a all in one medusajs (version 1.X legacy) ecommerce webshop solution, it comes preconfigured with both backend + admin dashbord and connected to the "storefront" (webshop frontend).
+It deploys a Medusa 2.0 backend, Next.js storefront, Postgres, Redis, MeiliSearch and S3-compatible object storage in one click, and it is actively kept up to date. Step by step guide and video: [funkyton.com](https://funkyton.com/medusajs-2-0-is-finally-here/)
 
-**Dependencies updated: 21-06-2024**
+*An independent, community-maintained template by [FUNKYTON](https://funkyton.com/). Not affiliated with, endorsed by, or supported by MedusaJS, Inc. or Railway. "Medusa" is a trademark of MedusaJS, Inc., used here only to describe what this template deploys.*
 
-### Video demo and tutorial
-[![alt text](https://img.youtube.com/vi/pP84utXQgxg/maxresdefault.jpg)](https://youtu.be/pP84utXQgxg)
+This is the original Medusa 1.x boilerplate: an all-in-one e-commerce stack with backend, admin dashboard and a connected storefront, wired to Postgres and Redis. Railway hosts all of it in one project.
 
-Instructions: [https://funkyton.com/medusajs-free-fully-open-source-ecommerce-solution/](https://funkyton.com/medusajs-free-fully-open-source-ecommerce-solution/)
+Because Medusa 1.x is superseded, nothing here is being updated. Deploy it only if you specifically need version 1. For anything new, use the [Medusa 2.0 template](https://railway.com/deploy/medusajs-2-0-storefront?referralCode=-Yg50p).
+
+**Already running this one?** Your store keeps working. When you are ready to move, deploy the 2.0 template alongside it and migrate your data, rather than upgrading in place.
+
+Original v1 setup guide and video: [funkyton.com](https://funkyton.com/medusajs-free-fully-open-source-ecommerce-solution/)
 
 ## What gets deployed
 

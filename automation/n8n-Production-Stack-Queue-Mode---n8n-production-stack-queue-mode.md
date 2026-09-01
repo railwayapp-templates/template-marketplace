@@ -1,6 +1,6 @@
 # Deploy n8n Production Stack (Queue Mode) on Railway
 
-[Aug'26] Production n8n: queue mode, workers + verified S3 backups
+[Sep'26] Production n8n: queue mode, workers + verified S3 backups
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-production-stack-queue-mode)
 

@@ -1,6 +1,6 @@
 # Deploy Hermes Agent by Nous Research on Railway
 
-Self-hosted Hermes Agent built from the official Nous Research Docker image
+A self-hosted Hermes Agent using Nous Research's official Docker image
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-official-dashboard)
 

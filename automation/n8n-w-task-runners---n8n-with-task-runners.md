@@ -1,4 +1,4 @@
-# Deploy N8N (w/ task runners) on Railway
+# Deploy n8n (w/ task runners) on Railway
 
 n8n with external task runners for isolated and reliable code execution
 

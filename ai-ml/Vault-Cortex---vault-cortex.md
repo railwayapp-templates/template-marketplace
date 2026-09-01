@@ -37,40 +37,6 @@ Railway generates the MCP auth token and the public HTTPS domain; the template s
 
 **Built to protect your notes.** Vault Cortex writes to personal notes, so the file-safety layer is built to prevent corruption, not just errors: every write is atomic, concurrent edits are serialized per file, and Obsidian's **.obsidian/** folder is off-limits to every tool. Mechanism details: [README → Data Integrity](https://github.com/aliasunder/vault-cortex#data-integrity).
 
-## What gets deployed
-
-| Service | Source | Type |
-|---------|--------|------|
-| vault-cortex | `ghcr.io/aliasunder/vault-cortex:remote` | Web service |
-
-## Environment variables
-
-| Variable | Default | Description |
-| --------- | ------- | ----------- |
-| `TZ` | - | Your timezone as an IANA name, like America/Toronto (list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) — decides what "today" means for daily notes, task due dates, and memory timestamps. Leave empty for UTC |
-| `PORT` | 8000 | The port the image listens on. Leave as is. |
-| `SYNC_MODE` | bidirectional | Sync direction: bidirectional, pull-only (server edits are kept locally but never uploaded), or mirror-remote (server edits are undone; the server is an exact copy) |
-| `VAULT_NAME` | - | Your vault's name, exactly as it appears in Obsidian Sync |
-| `DEVICE_NAME` | vault-cortex | The device name Obsidian Sync shows for this container |
-| `STORAGE_ROOT` | /persist | Where the volume is mounted — vault, search index, Sync device state, and logs live under it. Leave as is. |
-| `READONLY_MODE` | false | Set true to hide every tool that changes the vault — clients can only read and search |
-| `MCP_AUTH_TOKEN` | (secret) | Generated for you — the token your MCP client enters on the consent page |
-| `MEMORY_ENABLED` | true | The About Me/ memory layer and its tools. Set false to hide them and skip creating the folder |
-| `VAULT_PASSWORD` | (secret) | Only if your vault uses end-to-end encryption; otherwise leave empty |
-| `SYNC_FILE_TYPES` | - | Attachment types to sync: image, audio, video, pdf, unsupported — the same toggles as Obsidian's Sync → Selective sync. Empty keeps the Sync client's default |
-| `TRUST_PROXY_HOPS` | 2 | Railway proxies between a visitor and the container, so the server sees the visitor's real address |
-| `CONFLICT_STRATEGY` | merge | Obsidian Sync conflict resolution: merge integrates changes automatically; conflict writes a separate conflict file |
-| `EMBEDDING_ENABLED` | true | Semantic search. Set false to skip the models and use keyword search only — fits in much less memory |
-| `FILE_TOOLS_ENABLED` | true | vault_read_file and vault_list_files. Set false when Obsidian Sync has attachment syncing off |
-| `OBSIDIAN_AUTH_TOKEN` | (secret) | Obsidian Sync login token. Getting it takes one command in a terminal on your computer — step by step: https://github.com/aliasunder/vault-cortex/blob/main/deploy/railway/README.md#getting-your-obsidian-sync-token |
-| `SYNC_EXCLUDED_FOLDERS` | - | Folders to leave out of sync, comma-separated — the same list as Obsidian's Sync → Excluded folders. Empty excludes nothing |
-
-## Configuration
-
-- **Healthcheck:** `/healthz`
-- **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/persist`
-
 **Category:** AI/ML
 
 [View on Railway →](https://railway.com/deploy/vault-cortex)

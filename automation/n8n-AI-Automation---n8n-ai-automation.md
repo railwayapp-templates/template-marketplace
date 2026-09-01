@@ -1,6 +1,6 @@
-# Deploy N8N AI Automation on Railway
+# Deploy n8n AI Automation on Railway
 
-Free and open fair-code licensed node based Workflow Automation Tool.
+Automate intelligent workflows with AI agents and app integrations.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-ai-automation)
 

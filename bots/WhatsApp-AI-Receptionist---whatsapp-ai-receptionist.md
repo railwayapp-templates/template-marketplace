@@ -1,6 +1,6 @@
 # Deploy WhatsApp AI Receptionist on Railway
 
-[Aug'26] AI receptionist for WhatsApp — Evolution API + n8n, BYO LLM key
+[Sep'26] AI receptionist for WhatsApp — Evolution API + n8n, BYO LLM key
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/whatsapp-ai-receptionist)
 

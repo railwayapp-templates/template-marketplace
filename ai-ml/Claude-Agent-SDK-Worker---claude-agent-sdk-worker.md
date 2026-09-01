@@ -1,6 +1,6 @@
 # Deploy Claude Agent SDK Worker on Railway
 
-[Aug'26] Scheduled autonomous Claude agents — official SDK + run history
+[Sep'26] Scheduled autonomous Claude agents — official SDK + run history
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/claude-agent-sdk-worker)
 
