@@ -6,9 +6,9 @@ Deploy Hermes Agent as a secure web dashboard with persistent storage.
 
 ## About
 
-Deploy [Hermes Agent](https://github.com/NousResearch/hermes-agent), the self-improving AI agent by Nous Research, as a secure web dashboard on Railway.
+Deploy [Hermes Agent](https://github.com/NousResearch/hermes-agent), the self-improving AI agent by Nous Research, as a secure web dashboard on Railway. The template can optionally add self-hosted Supermemory as Hermes's external long-term memory provider.
 
-This template uses the official `nousresearch/hermes-agent:v2026.7.20` image and a persistent volume so Hermes keeps its sessions, memory, skills, configuration, and workspace across deploys. It starts the equivalent of `hermes dashboard --host 0.0.0.0 --port $PORT --no-open`.
+This template derives from the official `nousresearch/hermes-agent:v2026.7.20` image and uses a persistent volume so Hermes keeps its sessions, memory, skills, configuration, and workspace across deploys. It runs `hermes gateway run` for messaging connectors and serves the dashboard through Hermes's supervised container service on Railway's injected port.
 
 Railway runs Hermes's browser-based management dashboard on a public HTTPS domain. Railway provides durable storage for agent state and a managed restart policy.
 
@@ -24,7 +24,6 @@ Railway runs Hermes's browser-based management dashboard on a public HTTPS domai
 | --------- | ------- |
 | `HERMES_DASHBOARD_USER` | (secret) |
 | `HERMES_DASHBOARD_PASSWORD` | (secret) |
-| `HERMES_DASHBOARD_BASIC_AUTH_SECRET` | (secret) |
 | `HERMES_DASHBOARD_BASIC_AUTH_PASSWORD` | (secret) |
 | `HERMES_DASHBOARD_BASIC_AUTH_USERNAME` | (secret) |
 

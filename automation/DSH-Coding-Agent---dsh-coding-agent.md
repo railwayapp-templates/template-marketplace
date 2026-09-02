@@ -18,7 +18,7 @@ The result is a single container with a volume, an agent that keeps its sessions
 
 | Service | Source | Type |
 |---------|--------|------|
-| dsh | `ghcr.io/hmseeb/deepseek-harness-railway:0.1.0-rc.7-r7` | Web service |
+| dsh | `ghcr.io/hmseeb/deepseek-harness-railway:0.1.0-rc.7-r8` | Web service |
 
 ## Environment variables
 
@@ -28,7 +28,7 @@ The result is a single container with a volume, an agent that keeps its sessions
 | `DSH_HOME` | /data/.dsh | Harness home: sessions, settings and the credential store. On the volume. |
 | `DSH_WORKSPACE` | /data/workspace | Directory the agent works in. On the volume, so it survives redeploys. |
 | `DSH_UI_USERNAME` | (secret) | Username you will log in with. |
-| `DSH_UI_USERPASS` | - | Password you will log in with, minimum 12 characters. This is the ONLY thing between the internet and an agent that can run shell commands on this container, so make it unguessable and do not reuse one. The container refuses to start if it is shorter than 12 characters. |
+| `DSH_UI_USERPASS` | - | Password you will log in with. This is the ONLY thing between the internet and an agent that can run shell commands on this container, so use a long, unique value. |
 | `DEEPSEEK_API_KEY` | (secret) | Optional. Your key from platform.deepseek.com. Paste it here to have the agent ready on first load, or leave it blank and add it under Settings > Models once the app is up. |
 
 ## Configuration

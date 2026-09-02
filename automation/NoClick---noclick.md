@@ -14,7 +14,7 @@ NoClick runs its backend, frontend, HTTP gateway and auth layer in one container
 
 | Service | Source | Type |
 |---------|--------|------|
-| noclick | `ghcr.io/noclickapp/noclick:0.2.11` | Web service |
+| noclick | `ghcr.io/noclickapp/noclick:0.2.12` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
 
 ## Environment variables

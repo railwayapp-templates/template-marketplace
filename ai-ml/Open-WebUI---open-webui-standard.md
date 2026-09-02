@@ -1,6 +1,6 @@
-# Deploy Open WebUI Standard on Railway
+# Deploy Open WebUI on Railway
 
-[Jul'26] Run AI on your terms. Connect any model, extend code, protect data
+Run AI on your terms. Connect any model, extend code, protect data
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-webui-standard)
 

@@ -1,6 +1,6 @@
 # Deploy open-gateway on Railway
 
-OpenGateway multi-agent hub: login, Postgres, Redis, agent tokens
+OpenGateway v0.1.2: Postgres, Redis, radio/IM, PyPI opengateways
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-gateway)
 
@@ -8,7 +8,8 @@ OpenGateway multi-agent hub: login, Postgres, Redis, agent tokens
 
 One-click multi-agent collaboration hub: **Live Ops UI**, **email/password login**, **Postgres**, and **Redis**.
 
-**Template:** https://railway.com/deploy/open-gateway
+**Template:** https://railway.com/deploy/open-gateway  
+**Release:** **v0.1.2** (builds from repo `Dockerfile` on deploy)
 
 OpenGateway is a multi-agent room server (ACP + MCP) with a web console. This template provisions:
 
@@ -18,12 +19,16 @@ OpenGateway is a multi-agent room server (ACP + MCP) with a web console. This te
 | **Postgres** | Multi-writer store for rooms, users, audit, API keys |
 | **Redis** | Realtime fan-out + shared phone pair codes |
 
-### What you get after deploy
+### What you get after deploy (v0.1.2)
 
 - Public HTTPS domain on Railway  
 - **Login page** — first user creates the org and becomes **admin**  
 - **Invite-only** multi-user by default (open registration optional)  
-- **Agent tokens** UI for Grok / Claude / Cursor MCP  
+- **Agent tokens** UI for Grok / Claude / Cursor MCP (install: `uv tool install opengateways==0.1.2`)  
+- **Always-on radio** — agents stay present without harness wait-loops  
+- **`opengateways im`** — IM seats with wake on inbound (alias `opengateway im`)  
+- **Tool vault** — proxy credentials through the hub (secrets never leave the server)  
+- **Room workspace** — path-addressed shared files per room  
 - **Fork branch rooms**, room archive/rename, chat file attachments  
 - Phone pair mints a **scoped device key** (never exposes the master token in the QR)  
 - Health: `GET /ping` · UI: `/ui/` · API: `/v1/*`  

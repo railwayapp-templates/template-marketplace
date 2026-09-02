@@ -22,17 +22,20 @@ Once deployed, 9Router can be used as a centralized AI gateway for developer too
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `PORT` | 20128 |
-| `DATA_DIR` | /app/data |
-| `HOSTNAME` | 0.0.0.0 |
-| `NODE_ENV` | production |
-| `CLOUD_URL` | https://9router.com |
-| `JWT_SECRET` | (secret) |
-| `API_KEY_SECRET` | (secret) |
-| `INITIAL_PASSWORD` | (secret) |
-| `NEXT_PUBLIC_CLOUD_URL` | https://9router.com |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 20128 | Port used by the 9Router web application |
+| `BASE_URL` | - | Public URL used by the server-side application |
+| `DATA_DIR` | /app/data | Directory used to store persistent application data |
+| `HOSTNAME` | 0.0.0.0 | Listen on all network interfaces inside the container |
+| `NODE_ENV` | production | Run 9Router in production mode |
+| `CLOUD_URL` | https://9router.com | Official 9Router cloud service URL |
+| `JWT_SECRET` | (secret) | Secret used to sign and verify JWT authentication tokens |
+| `API_KEY_SECRET` | (secret) | Secret used to secure and generate API credentials |
+| `MACHINE_ID_SALT` | - | Random salt used when generating machine-specific identifiers |
+| `INITIAL_PASSWORD` | (secret) | Optional initial password for the first application setup |
+| `NEXT_PUBLIC_BASE_URL` | - | Public application URL exposed to the browser |
+| `NEXT_PUBLIC_CLOUD_URL` | https://9router.com | Official 9Router cloud URL exposed to the frontend |
 
 ## Configuration
 

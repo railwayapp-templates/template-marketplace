@@ -1,4 +1,4 @@
-# Deploy N8N 2.0 Pro (Queue Mode with Webhooks, Workers, Code Runners, MCP & Auto-Updates) on Railway
+# Deploy N8N Pro (Queue Mode with Webhooks, Workers, Code Runners, MCP & Auto-Updates) on Railway
 
 🪄1-Click Deploy | High Performance N8N setup with Postgres17 + Redis + MCP
 

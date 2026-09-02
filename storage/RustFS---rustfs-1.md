@@ -18,13 +18,17 @@ RustFS provides an easy way to host an S3 compatible object storage with high ef
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `RUSTFS_SECRET_KEY` | (secret) |
-| `RUSTFS_CONSOLE_ENABLE` | true |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 9000 | Explicitly defined API port for Railway health-checks |
+| `RUSTFS_ADDRESS` | - | Port on which RustFS exposes the API |
+| `RUSTFS_ACCESS_KEY` | - | Console username and S3 Access Key ID |
+| `RUSTFS_SECRET_KEY` | (secret) | Console password and S3 Secret Access key |
+| `RUSTFS_CONSOLE_ENABLE` | true | Enable or disable console |
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
