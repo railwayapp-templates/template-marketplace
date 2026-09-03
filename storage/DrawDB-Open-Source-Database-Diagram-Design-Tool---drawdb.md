@@ -1,6 +1,6 @@
 # Deploy DrawDB (Open-Source Database Diagram & Design Tool) on Railway
 
-DrawDB [Aug ’26] (Visualize & Design Database Schemas Easily) Self Host
+DrawDB [Sep ’26] (Visualize & Design Database Schemas Easily) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/drawdb)
 

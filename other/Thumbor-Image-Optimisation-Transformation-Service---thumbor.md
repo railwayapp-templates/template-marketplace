@@ -1,6 +1,6 @@
 # Deploy Thumbor (Image Optimisation & Transformation Service) on Railway
 
-Thumbor [Aug ’26] (Cloudinary, Imgix & Imgproxy alternative) Self Host
+Thumbor [Sep ’26] (Cloudinary, Imgix & Imgproxy alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/thumbor)
 

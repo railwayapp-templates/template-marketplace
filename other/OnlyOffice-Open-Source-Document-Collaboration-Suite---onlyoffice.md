@@ -1,6 +1,6 @@
 # Deploy OnlyOffice (Open-Source Document Collaboration Suite) on Railway
 
-OnlyOffice [Aug ’26] (Edit & Collaborate on Docs Securely) Self Host
+OnlyOffice [Sep ’26] (Edit & Collaborate on Docs Securely) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/onlyoffice)
 

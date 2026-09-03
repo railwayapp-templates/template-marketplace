@@ -25,7 +25,7 @@ memory. Lab itself is lightweight.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Memgraph Lab | `memgraph/lab:3.12.0` | Web service |
+| Memgraph Lab | `memgraph/lab:3.12.1` | Web service |
 | Memgraph | `memgraph/memgraph-mage:3.12.0` | Database |
 
 ## Environment variables

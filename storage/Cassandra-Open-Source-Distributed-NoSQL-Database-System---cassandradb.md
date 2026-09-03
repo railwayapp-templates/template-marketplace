@@ -1,6 +1,6 @@
 # Deploy Cassandra (Open-Source Distributed NoSQL Database System) on Railway
 
-Cassandra [Aug ’26] (Manage Massive Data with High Availability) Self Host
+Cassandra [Sep ’26] (Manage Massive Data with High Availability) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cassandradb)
 

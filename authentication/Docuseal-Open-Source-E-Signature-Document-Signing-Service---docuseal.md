@@ -1,6 +1,6 @@
 # Deploy Docuseal (Open-Source E-Signature & Document Signing Service) on Railway
 
-Docuseal [Aug ’26] (DocuSign & HelloSign alternative) Self Host
+Docuseal [Sep ’26] (DocuSign & HelloSign alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/docuseal)
 

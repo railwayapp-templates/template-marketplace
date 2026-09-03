@@ -1,6 +1,6 @@
 # Deploy Onyx on Railway
 
-Onyx [Aug '26] - Open Source AI Platform - AI Chat with advanced features
+Onyx - Open Source AI Platform - AI Chat with advanced features
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/onyx)
 

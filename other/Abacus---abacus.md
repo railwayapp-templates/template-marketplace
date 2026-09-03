@@ -1,6 +1,6 @@
 # Deploy Abacus on Railway
 
-[Updated Aug '26] Host Latest Version of Abacus on Railway with one click.
+[Updated Sep '26] Host Latest Version of Abacus on Railway with one click.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/abacus)
 

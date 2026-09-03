@@ -6,34 +6,7 @@ Django 5.2 LTS starter with PostgreSQL and production-ready defaults
 
 ## About
 
-A production-ready Django 5.2 LTS starter template with PostgreSQL, WhiteNoise static files, and gunicorn. One-click deploy to Railway with automatic database provisioning, migrations, 
-  and a built-in deployment checklist.                                                                                                                                                     
-                                                                                                                                                                                           
-  ## About Hosting Django Starter Template                  
-
-  This template deploys a Django 5.2 LTS application with a PostgreSQL database on Railway. It includes production-ready settings out of the box: WhiteNoise for static file serving,
-  gunicorn as the WSGI server, Argon2 password hashing, and security headers. The app runs database migrations automatically on each deploy and includes a health check endpoint for
-  zero-downtime deployments. Environment variables like SECRET_KEY and DATABASE_URL are configured automatically by Railway.
-
-  ## Why Deploy Django Starter Template on Railway
-
-  Railway handles infrastructure so you can focus on building your Django app. It automatically provisions a PostgreSQL database, sets environment variables, runs migrations on each
-  deploy, and provides zero-downtime deployments with health checks. No Dockerfiles, no nginx config, no manual server setup required.
-
-  ## Dependencies for Django Starter Template
-
-  ### Deployment Dependencies
-
-  - **PostgreSQL** — Provisioned automatically by Railway as a linked database service
-  - **Python 3.12+** — Detected and installed automatically by Railway's builder
-  - **gunicorn** — WSGI server included in the template dependencies
-  - **WhiteNoise** — Serves static files directly from the application, no nginx or CDN needed
-
-  ## Common Use Cases
-
-  - Starting a new Django web application with a solid production foundation
-  - Building REST APIs or full-stack web apps with Django and PostgreSQL
-  - Prototyping and deploying Django projects quickly without manual server configuration
+Copied again. The clipboard now starts with the "Deploy and Host Django 5.2 LTS on Railway" heading and holds the full description.
 
 ## What gets deployed
 

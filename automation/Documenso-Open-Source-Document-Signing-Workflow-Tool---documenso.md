@@ -1,6 +1,6 @@
 # Deploy Documenso (Open-Source Document Signing & Workflow Tool) on Railway
 
-Documenso [Aug ’26] (E-Sign & Manage Documents Securely) Self Host
+Documenso [Sep ’26] (E-Sign & Manage Documents Securely) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/documenso)
 
@@ -51,6 +51,6 @@ Self-hosting Documenso on Railway gives you:
 - **Volume:** `/var/lib/postgresql/data`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Automation · **Languages:** TypeScript, JavaScript, Shell, CSS, PLpgSQL, Dockerfile
+**Category:** Automation · **Languages:** TypeScript, MDX, JavaScript, Shell, CSS, PLpgSQL, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/documenso)

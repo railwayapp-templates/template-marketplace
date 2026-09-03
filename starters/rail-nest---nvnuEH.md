@@ -14,7 +14,7 @@ The template features a Nestjs application at its core, coupled with Redis inste
 |---------|--------|------|
 | Main Application | [D-Lite/rail-nest](https://github.com/D-Lite/rail-nest) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
-| Redis | `bitnami/redis:7.2.5` | Database |
+| Redis | `redis` | Database |
 
 ## Environment variables
 
@@ -36,7 +36,7 @@ The template features a Nestjs application at its core, coupled with Redis inste
 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
-- **Volume:** `/bitnami`
+- **Volume:** `/data`
 
 **Category:** Starters · **Languages:** TypeScript, JavaScript, Dockerfile
 

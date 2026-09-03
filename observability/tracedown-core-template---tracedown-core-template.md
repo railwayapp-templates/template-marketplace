@@ -7,11 +7,11 @@ Deploy Tracedown platform on Railway
 ## About
 
 [Tracedown](https://tracedown.dev) is a self-hosted API monitoring platform: probes written in the Lace scripting language run against your endpoints on schedules, with assertions, multi-step journeys,
-notifications, and a full dashboard. This template deploys the complete Tracedown Core stack — eight JVM services, PostgreSQL (TimescaleDB), Redis, and an edge proxy serving the UI.
+notifications, and a full dashboard. This template deploys the complete Tracedown Core stack — eight JVM services, PostgreSQL, Redis, and an edge proxy serving the UI.
 
 The template deploys eleven services in one click: the API gateway (which runs schema migrations and internal-CA init on startup), probe scheduler, result ingestor, notification
 dispatcher, email service, metrics service, aggregate worker, realtime WebSocket service, a Caddy edge proxy that serves the dashboard and routes `/api`, `/ws`, and `/metrics`, plus
-TimescaleDB and Redis. Nothing builds from source — every service fetches versioned release artifacts from GitHub, so deploys are fast and upgrades are a one-line version bump.
+postgres and Redis. Nothing builds from source — every service fetches versioned release artifacts from GitHub, so deploys are fast and upgrades are a one-line version bump.
 Secrets are generated at deploy time and shared by reference; you enter only your admin email and password.
 
 ## What gets deployed
@@ -20,6 +20,7 @@ Secrets are generated at deploy time and shared by reference; you enter only you
 |---------|--------|------|
 | aggregate-worker | [tracedown/tracedown-railway-template](https://github.com/tracedown/tracedown-railway-template) | Worker |
 | email-service | [tracedown/tracedown-railway-template](https://github.com/tracedown/tracedown-railway-template) | Worker |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | notification-dispatcher | [tracedown/tracedown-railway-template](https://github.com/tracedown/tracedown-railway-template) | Worker |
 | proxy | [tracedown/tracedown-railway-template](https://github.com/tracedown/tracedown-railway-template) | Web service |
 | realtime-service | [tracedown/tracedown-railway-template](https://github.com/tracedown/tracedown-railway-template) | Worker |
@@ -28,7 +29,6 @@ Secrets are generated at deploy time and shared by reference; you enter only you
 | metrics-service | [tracedown/tracedown-railway-template](https://github.com/tracedown/tracedown-railway-template) | Worker |
 | probe-scheduler | [tracedown/tracedown-railway-template](https://github.com/tracedown/tracedown-railway-template) | Worker |
 | Redis | `redis:8.2` | Database |
-| Postgres | `timescale/timescaledb:latest-pg16` | Database |
 
 ## Environment variables
 
@@ -38,7 +38,7 @@ Secrets are generated at deploy time and shared by reference; you enter only you
 | `REDIS_A_URL` | aggregate-worker | - | Redis A URL |
 | `REDIS_B_URL` | aggregate-worker | - | Redis B URL |
 | `REDIS_C_URL` | aggregate-worker | - | Redis C URL |
-| `DATABASE_URL` | aggregate-worker | - | Database URL |
+| `DATABASE_URL` | aggregate-worker | - | Database URL# Database URL |
 | `DATABASE_USER` | aggregate-worker | (secret) | Database user |
 | `PLATFORM_AES_KEY` | aggregate-worker | - | Platform AES encryption key |
 | `DATABASE_PASSWORD` | aggregate-worker | (secret) | Database password |
@@ -67,6 +67,10 @@ Secrets are generated at deploy time and shared by reference; you enter only you
 | `EMAIL_MAILGUN_REGION` | email-service | us | Mailgun region; Mailgun-only |
 | `EMAIL_RESEND_API_KEY` | email-service | (secret) | Resend API key; Resend-only |
 | `EMAIL_MAILGUN_API_KEY` | email-service | (secret) | Mailgun API key; Mailgun-only |
+| `POSTGRES_DB` | Postgres | tracedown | Database name |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres | (secret) | Database user |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Database password |
 | `PORT` | notification-dispatcher | 20830 | Notifications Dispatcher port |
 | `REDIS_A_URL` | notification-dispatcher | - | Redis A URL |
 | `REDIS_B_URL` | notification-dispatcher | - | Redis B URL |
@@ -121,16 +125,16 @@ Secrets are generated at deploy time and shared by reference; you enter only you
 | `REDIS_A_URL` | metrics-service | - | Redis A URL |
 | `REDIS_B_URL` | metrics-service | - | Redis B URL |
 | `REDIS_C_URL` | metrics-service | - | Redis C URL |
-| `DATABASE_URL` | metrics-service | - | Database URL |
+| `DATABASE_URL` | metrics-service | - | Database URLDatabase URL |
 | `DATABASE_USER` | metrics-service | (secret) | Database user |
 | `PLATFORM_AES_KEY` | metrics-service | - | Platform AES encryption key |
 | `DATABASE_PASSWORD` | metrics-service | (secret) | Database password |
-| `PORT` | probe-scheduler | PORT="20810" | Probe Scheduler port |
+| `PORT` | probe-scheduler | 20810 | Probe Scheduler port |
 | `GATEWAY_URL` | probe-scheduler | - | Gateway internal URL |
 | `REDIS_A_URL` | probe-scheduler | - | Redis A URL |
 | `REDIS_B_URL` | probe-scheduler | - | Redis B URL |
 | `REDIS_C_URL` | probe-scheduler | - | Redis C URL |
-| `DATABASE_URL` | probe-scheduler | - | Database URL |
+| `DATABASE_URL` | probe-scheduler | - | Database URLDatabase URL |
 | `DATABASE_USER` | probe-scheduler | (secret) | Database user |
 | `PLATFORM_AES_KEY` | probe-scheduler | - | Platform AES encryption key |
 | `DATABASE_PASSWORD` | probe-scheduler | (secret) | Database password |
@@ -140,20 +144,17 @@ Secrets are generated at deploy time and shared by reference; you enter only you
 | `REDIS_URL` | Redis | - | Redis URL |
 | `REDISPASSWORD` | Redis | (secret) | Redis password |
 | `REDIS_PASSWORD` | Redis | (secret) | Redis password |
-| `POSTGRES_DB` | Postgres | tracedown | Database name |
-| `POSTGRES_USER` | Postgres | (secret) | Database user |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | Database password |
-| `TS_TUNE_MAX_CONNS` | Postgres | 100 | Database max connections |
 
 ## Configuration
 
+- **Start command:** `/usr/local/bin/wrapper.sh postgres -p 5432 -c listen_addresses=* -c max_connections=160`
+- **Volume:** `/var/lib/postgresql/data`
 - **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 - **Healthcheck:** `/ping`
 - **Volume:** `/data/bodies`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **Volume:** `/data`
-- **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Observability · **Languages:** Dockerfile, Shell
 

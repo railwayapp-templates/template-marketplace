@@ -18,20 +18,14 @@ MCP server for your Obsidian vault: search, memory, tasks, files, OAuth 2.1
 
 **One container, one volume.** The template runs the **vault-cortex:remote** image, which bundles [Obsidian Sync](https://obsidian.md/sync) and the MCP server. One persistent volume holds your vault, the search index, and Sync's device state.
 
-**You supply three values:**
-
-- Your Obsidian Sync token
-- Your vault name
-- Your timezone
-
-Railway generates the MCP auth token and the public HTTPS domain; the template sets everything else.
+**You supply one value:** your vault's name, the same as it is in Obsidian. Railway generates the MCP auth token and the public HTTPS domain; the template sets everything else.
 
 **First start, in order:**
 
-1. Logs in to Obsidian Sync and registers a device
-2. Downloads your vault
-3. Builds the search index
-4. Goes live
+1. Copy the **MCP_AUTH_TOKEN** Railway generated: on the service's **Variables** tab, hover over the value and click the eye or copy icon
+2. Open your service's domain (**Settings → Networking**) in a browser. It lands on the setup page: paste the token, then sign in with your Obsidian account email and password (and your two-factor code, if you use one)
+3. The container restarts, downloads your vault, and builds the search index. The page follows the progress
+4. The page shows your MCP URL. The server is live
 
 **Sync runs both ways.** Edits made in Obsidian reach the server within seconds; tool writes show up on every device you sync.
 
@@ -50,7 +44,7 @@ Railway generates the MCP auth token and the public HTTPS domain; the template s
 | `TZ` | - | Your timezone as an IANA name, like America/Toronto (list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) — decides what "today" means for daily notes, task due dates, and memory timestamps. Leave empty for UTC |
 | `PORT` | 8000 | The port the image listens on. Leave as is. |
 | `SYNC_MODE` | bidirectional | Sync direction: bidirectional, pull-only (server edits are kept locally but never uploaded), or mirror-remote (server edits are undone; the server is an exact copy) |
-| `VAULT_NAME` | - | Your vault's name, exactly as it appears in Obsidian Sync |
+| `VAULT_NAME` | - | Your vault's name, the same as it is in Obsidian |
 | `DEVICE_NAME` | vault-cortex | The device name Obsidian Sync shows for this container |
 | `STORAGE_ROOT` | /persist | Where the volume is mounted — vault, search index, Sync device state, and logs live under it. Leave as is. |
 | `READONLY_MODE` | false | Set true to hide every tool that changes the vault — clients can only read and search |

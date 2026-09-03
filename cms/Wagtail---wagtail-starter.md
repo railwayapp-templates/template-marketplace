@@ -6,41 +6,11 @@ A production-ready Wagtail CMS starter template
 
 ## About
 
-Wagtail Starter is a production-ready Wagtail CMS template pre-configured for Railway. It includes PostgreSQL, WhiteNoise for static files, split            
-  development/production settings, Argon2 password hashing, and a health check endpoint. Deploy a fully working Wagtail site in under a minute and start       
-  building your content-managed application.                                                                                                                   
-                                                                                                                                                               
-  ## About Hosting Wagtail Starter
+Wagtail Starter is a production-ready Wagtail CMS template pre-configured for Railway. It runs Wagtail 7.4 LTS on Django 5.2 LTS and Python 3.13, and includes PostgreSQL, WhiteNoise for static files, split development/production settings, Argon2 password hashing, persistent database connections, and a health check endpoint. Deploy a fully working Wagtail site in under a minute and start building your content-managed application.
 
-  Hosting Wagtail Starter on Railway requires a web service running Django with Gunicorn and a PostgreSQL database. Railway automatically provisions the
-  database, sets environment variables like `DATABASE_URL` and `SECRET_KEY`, and runs migrations on deploy. Static files are served via WhiteNoise with brotli
-  compression, so no separate web server is needed. For media uploads (images, documents managed through Wagtail), you'll need S3-compatible storage since
-  Railway doesn't provide persistent disk. The template includes commented-out S3 configuration ready to enable.
+Hosting Wagtail Starter on Railway requires a web service running Django with Gunicorn and a PostgreSQL database. Railway automatically provisions the database, sets environment variables like `DATABASE_URL` and `SECRET_KEY`, and runs migrations on deploy. Static files are served via WhiteNoise with brotli compression, so no separate web server is needed. For media uploads (images, documents managed through Wagtail), you'll need S3-compatible storage since Railway doesn't provide persistent disk. The template includes commented-out S3 configuration ready to enable.
 
-  ## Common Use Cases
-
-  - Content-managed websites with a powerful admin interface for non-technical editors
-  - Blogs, portfolios, and marketing sites with structured page types and rich text editing
-  - Headless CMS providing content via Wagtail's built-in API for frontend frameworks
-
-  ## Dependencies for Wagtail Starter Hosting
-
-  - PostgreSQL database
-  - Python 3.12+
-
-  ### Deployment Dependencies
-
-  - [Wagtail documentation](https://docs.wagtail.org/)
-  - [Django documentation](https://docs.djangoproject.com/en/5.2/)
-  - [S3-compatible storage for media files](https://docs.wagtail.org/en/stable/advanced_topics/deploying.html) (optional)
-
-  ## Why Deploy Wagtail Starter on Railway?
-
-  Railway is a singular platform to deploy your infrastructure stack. Railway will host your infrastructure so you don't have to deal with configuration, while
-   allowing you to vertically and horizontally scale it.
-
-  By deploying Wagtail Starter on Railway, you are one step closer to supporting a complete full-stack application with minimal burden. Host your servers,
-  databases, AI agents, and more on Railway.
+Both Wagtail and Django are pinned to their long-term support releases (Wagtail 7.4 LTS is supported until November 2027, Django 5.2 LTS until April 2028), so a site you deploy today keeps receiving security updates without forced upgrades. The repository ships with GitHub Actions CI (linting, Django checks, tests) and Dependabot, so dependency updates arrive as reviewed pull requests.
 
 ## What gets deployed
 

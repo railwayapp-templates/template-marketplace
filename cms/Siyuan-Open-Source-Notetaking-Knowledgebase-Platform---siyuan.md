@@ -1,6 +1,6 @@
 # Deploy Siyuan (Open-Source Notetaking & Knowledgebase Platform) on Railway
 
-Siyuan [Aug ’26] (Privacy-first Notetaker & Knowledge Management) Self Host
+Siyuan [Sep ’26] (Privacy-first Notetaker & Knowledge Management) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/siyuan)
 
