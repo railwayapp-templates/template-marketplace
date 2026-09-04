@@ -6,9 +6,9 @@ Self-hosted AI gateway for Claude Code, Cursor & 40+ LLM providers
 
 ## About
 
-9Router is an open-source, self-hosted AI gateway and LLM router. It puts a single OpenAI-compatible endpoint in front of 40+ AI providers and 100+ models, so Claude Code, Cursor, Cline, Codex, Copilot, and Gemini CLI all authenticate against your own gateway instead of scattering provider API keys across every tool you use.
+9Router is an open-source, self-hosted AI gateway and LLM router. It puts a single OpenAI-compatible endpoint in front of 40+ AI providers — including OpenAI, Anthropic, Google Gemini, Mistral, Groq, DeepSeek, and OpenRouter — and 100+ models, so Claude Code, Cursor, Cline, Codex, Copilot, Windsurf, and Gemini CLI all authenticate against your own gateway instead of scattering provider API keys across every tool you use.
 
-Hosting 9Router means running one Node.js service with a persistent disk. There is no PostgreSQL, Redis, or external database to operate: providers, issued API keys, fallback chains, usage history, and settings all live in an embedded SQLite database under /app/data, alongside automatic backups. This template deploys the official decolua/9router image pinned to a known-good version, attaches the volume, serves the dashboard and the /v1 API on an HTTPS domain, and generates the session and API-key signing secrets fresh for your deployment. You pick a dashboard password before deploying; everything else is pre-configured.
+Hosting 9Router means running one Node.js service with a persistent disk. There is no PostgreSQL, Redis, or external database to operate: providers, issued API keys, fallback chains, usage history, and settings all live in an embedded SQLite database under `/app/data`, alongside automatic backups. This template deploys the official `decolua/9router` image pinned to a known-good version, attaches the volume, serves the dashboard and the `/v1` API on an HTTPS domain, and generates the session and API-key signing secrets fresh for your deployment. You pick a dashboard password before deploying; everything else is pre-configured.
 
 ## What gets deployed
 

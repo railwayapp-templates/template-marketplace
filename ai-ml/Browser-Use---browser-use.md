@@ -1,6 +1,6 @@
 # Deploy Browser Use on Railway
 
-Self-hosted Browser Use: AI browser agent with REST API and web UI
+AI browser automation runtime with Chromium. Deploy in 1-click 🚀
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/browser-use)
 
