@@ -6,7 +6,7 @@ Node-RED — flow-based low-code programming for APIs, devices, and bots
 
 ## About
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/spyQkl)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/node-red-2)
 
 > **Canonical code:** `spyQkl` — deploy URL: https://railway.com/new/template/spyQkl
 

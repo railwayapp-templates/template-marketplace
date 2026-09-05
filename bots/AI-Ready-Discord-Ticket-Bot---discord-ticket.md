@@ -1,4 +1,4 @@
-# Deploy Discord Ticket Bot (AI-powered self-service coming soon) on Railway
+# Deploy AI-Ready Discord Ticket Bot on Railway
 
 Discord Ticket + Web Panel with reports & config+. 3 langs (PT, ES, EN).
 
@@ -6,9 +6,13 @@ Discord Ticket + Web Panel with reports & config+. 3 langs (PT, ES, EN).
 
 ## About
 
-Professional Discord bot for ticket management with 30+ slash commands, Steam OAuth verification, dynamic voice channels, welcome DMs, mutual rating system, smart tags, custom fields, HTML transcripts, and scheduled reports. Multi-language: PT-BR, EN-US, ES-ES. One-click deploy — just provide bot token and server ID.
+Professional Discord ticket bot with optional **AI auto-support**, web panel 2.0, 30+ slash commands, Steam OAuth, smart tags, transcripts, and reports. Languages: PT-BR, EN-US, ES-ES. One-click deploy — provide bot token, client secret, and server ID.
 
-Hosting Pro Ticket on Railway provides a complete infrastructure with MongoDB, automatic SSL, and on-demand scalability. This template includes pre-configured environment variables and automatic database connection. The deploy configures the bot with all dependencies, making it production-ready in minutes — just provide the Discord bot token and server ID. All other variables (database, collections, API URL) are auto-configured. Steam verification optionally requires Public Networking enabled on port 8080.
+Railway provides MongoDB, SSL, and scaling. This template pre-configures env vars and DB connection. You only set Discord credentials; the rest (including `AI_MASTER_KEY` for encrypting AI API keys) is auto-configured. Steam verification needs Public Networking on port **8080**.
+
+### Keep the Docker image updated
+
+The bot runs from `ghcr.io/jorgehenrrique/pro-ticket-bot:latest`. After deploy, open Railway → bot service → **Settings → Source** (Deploy from Image) and enable automatic checks / updates for the image (or periodically **Check for updates** + redeploy). Otherwise your project keeps an old build after we publish new `:latest` versions.
 
 ## What gets deployed
 

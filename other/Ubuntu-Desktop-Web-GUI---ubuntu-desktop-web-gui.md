@@ -17,10 +17,6 @@ One thing is worth knowing before your first deploy. **The desktop
 costs meaningfully more than a terminal template: it idles near 800 MB of RAM with
 a session attached, against roughly 64 MB for a ttyd shell. Enabling serverless is strongly recommended so it suspends when you close the tab**.
 
-The service intentionally has no healthcheck. HTTP basic auth covers every path
-including `/`, so Railway's unauthenticated probe is answered with 401 and the
-deploy would never go healthy; an always-on restart policy covers crashes instead.
-
 ## What gets deployed
 
 | Service | Source | Type |
@@ -41,7 +37,8 @@ deploy would never go healthy; an always-on restart policy covers crashes instea
 
 ## Configuration
 
-- **Start command:** `/bin/sh -c 'rm -f /etc/apt/apt.conf.d/20packagekit; exec /init'`
+- **Start command:** `/bin/sh -c 'rm -f /etc/apt/apt.conf.d/20packagekit; sed -i "s|listen \[::\]:3000 default_server;|listen [::]:3000 default_server;\n  location = /railway-healthz { auth_basic off; return 200; }|" /defaults/default.conf; grep -q railway-healthz /defaults/default.conf || { echo "FATAL: webtop nginx config changed upstream, healthcheck patch failed" >&2; exit 1; }; exec /init'`
+- **Healthcheck:** `/railway-healthz`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 

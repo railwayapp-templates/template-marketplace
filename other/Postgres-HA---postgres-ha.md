@@ -29,11 +29,13 @@ Automatically fails over to a secondary if primary is unavailable (while invalid
 | Variable | Service | Default |
 | --------- | ------- | ------- |
 | `ETCD_NAME` | etcd-2 | etcd-2 |
+| `ETCD_ROOT_PASSWORD` | etcd-2 | (secret) |
 | `ETCD_INITIAL_CLUSTER_TOKEN` | etcd-2 | (secret) |
 | `PATRONI_NAME` | Postgres-3 | postgres-3 |
 | `POSTGRES_USER` | Postgres-3 | (secret) |
 | `POSTGRES_PASSWORD` | Postgres-3 | (secret) |
 | `PATRONI_WAIT_FOR_LEADER` | Postgres-3 | true |
+| `PATRONI_RESTAPI_PASSWORD` | Postgres-3 | (secret) |
 | `PATRONI_SUPERUSER_PASSWORD` | Postgres-3 | (secret) |
 | `PATRONI_SUPERUSER_USERNAME` | Postgres-3 | (secret) |
 | `PATRONI_REPLICATION_PASSWORD` | Postgres-3 | (secret) |
@@ -47,6 +49,7 @@ Automatically fails over to a secondary if primary is unavailable (while invalid
 | `PATRONI_LOOP_WAIT` | Postgres-1 | 10 |
 | `POSTGRES_PASSWORD` | Postgres-1 | (secret) |
 | `WATCHDOG_CURL_TIMEOUT` | Postgres-1 | 5 |
+| `PATRONI_RESTAPI_PASSWORD` | Postgres-1 | (secret) |
 | `PATRONI_SUPERUSER_PASSWORD` | Postgres-1 | (secret) |
 | `PATRONI_SUPERUSER_USERNAME` | Postgres-1 | (secret) |
 | `PATRONI_ADOPT_EXISTING_DATA` | Postgres-1 | true |
@@ -65,9 +68,11 @@ Automatically fails over to a secondary if primary is unavailable (while invalid
 | `HAPROXY_CHECK_FASTINTER` | Postgres HA | 500ms |
 | `HAPROXY_TIMEOUT_CONNECT` | Postgres HA | 10s |
 | `ETCD_NAME` | etcd-3 | etcd-3 |
+| `ETCD_ROOT_PASSWORD` | etcd-3 | (secret) |
 | `ETCD_INITIAL_CLUSTER_TOKEN` | etcd-3 | (secret) |
 | `ETCD_NAME` | etcd-1 | etcd-1 |
 | `ETCD_DATA_DIR` | etcd-1 | /var/lib/etcd |
+| `ETCD_ROOT_PASSWORD` | etcd-1 | (secret) |
 | `ETCD_LISTEN_PEER_URLS` | etcd-1 | http://0.0.0.0:2380 |
 | `ETCD_LISTEN_CLIENT_URLS` | etcd-1 | http://0.0.0.0:2379 |
 | `ETCD_INITIAL_CLUSTER_TOKEN` | etcd-1 | (secret) |
@@ -75,6 +80,7 @@ Automatically fails over to a secondary if primary is unavailable (while invalid
 | `POSTGRES_USER` | Postgres-2 | (secret) |
 | `POSTGRES_PASSWORD` | Postgres-2 | (secret) |
 | `PATRONI_WAIT_FOR_LEADER` | Postgres-2 | true |
+| `PATRONI_RESTAPI_PASSWORD` | Postgres-2 | (secret) |
 | `PATRONI_SUPERUSER_PASSWORD` | Postgres-2 | (secret) |
 | `PATRONI_SUPERUSER_USERNAME` | Postgres-2 | (secret) |
 | `PATRONI_REPLICATION_PASSWORD` | Postgres-2 | (secret) |

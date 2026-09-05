@@ -39,20 +39,24 @@ LLM token usage.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Hermes Agent | [Shinyduo/hermes-agent](https://github.com/Shinyduo/hermes-agent) | Database |
+| Hermes Agent | [Shinyduo/hermes-agent](https://github.com/Shinyduo/hermes-agent) | Web service |
 
 ## Environment variables
 
 | Variable | Default |
 | --------- | ------- |
-| `PORT` | 9119 |
-| `HERMES_HOME` | /opt/data |
-| `GATEWAY_ALLOW_ALL_USERS` | true |
+| `HERMES_DASHBOARD` | 1 |
+| `HERMES_DASHBOARD_HOST` | 0.0.0.0 |
+| `HERMES_DASHBOARD_PORT` | 9119 |
+| `HERMES_DASHBOARD_BASIC_AUTH_SECRET` | (secret) |
+| `HERMES_DASHBOARD_BASIC_AUTH_PASSWORD` | (secret) |
+| `HERMES_DASHBOARD_BASIC_AUTH_USERNAME` | (secret) |
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/opt/data`
 
-**Category:** Automation · **Languages:** Dockerfile, Shell
+**Category:** Automation · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/ai-agent-persistent-memory)
