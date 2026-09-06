@@ -6,7 +6,7 @@ Immutable database with generated admin and backups
 
 ## About
 
-immudb is an append-only database with cryptographic verification, SQL, key-value, and document APIs. This template runs stable 1.11.1 with a generated administrator password and durable storage.
+immudb is an append-only database with cryptographic verification, SQL, key-value, and document APIs. This template runs stable 1.11.2 with a generated administrator password and durable storage.
 
 Authenticate as `immudb` with `IMMUDB_ADMIN_PASSWORD`.
 

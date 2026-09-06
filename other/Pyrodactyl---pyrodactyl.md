@@ -16,7 +16,7 @@ Hosting Pyrodactyl requires you to deploy the panel itself, alongside a database
 |---------|--------|------|
 | MariaDB | `mariadb:12` | Database |
 | Redis | `redis:8.2` | Database |
-| Pyrodactyl | `ghcr.io/pyrohost/pyrodactyl:latest` | Web service |
+| Pyrodactyl | `ghcr.io/pyrodactyl-oss/pyrodactyl:latest` | Web service |
 
 ## Environment variables
 

@@ -6,7 +6,7 @@ Encrypted expiring secret sharing with persistent storage
 
 ## About
 
-Password Pusher is an encrypted secret-sharing application. This template deploys upstream version 2.11.4 with its web process, expiration worker, and persistent local storage.
+Password Pusher is an encrypted secret-sharing application. This template deploys upstream version 2.11.6 with its web process, expiration worker, and persistent local storage.
 
 After deployment, open the application and read its deployment logs for the one-time boot code required by `/first_run`. The boot code creates the first administrator and is then removed.
 
@@ -36,6 +36,6 @@ After deployment, open the application and read its deployment logs for the one-
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/opt/PasswordPusher/storage`
 
-**Category:** Other · **Languages:** JavaScript, Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, JavaScript, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/password-pusher-secure)

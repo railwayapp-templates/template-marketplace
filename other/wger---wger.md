@@ -6,7 +6,7 @@ Workout and nutrition manager with generated admin and Postgres
 
 ## About
 
-wger is an open-source workout, exercise, nutrition, body-weight, and gym-management application. This template deploys stable 2.6.0 with generated credentials and private Postgres.
+wger is an open-source workout, exercise, nutrition, body-weight, and gym-management application. This template deploys stable 2.7.0 with generated credentials and private Postgres.
 
 Sign in as `admin` with `WGER_ADMIN_PASSWORD`.
 

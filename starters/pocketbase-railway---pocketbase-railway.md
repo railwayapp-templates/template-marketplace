@@ -1,19 +1,14 @@
 # Deploy pocketbase-railway on Railway
 
-Deploy a full backend in 60s🪄: PocketBase with auth, storage, admin UI
+🪄 Full-text search, soft delete, webhooks, anonymous auth, CSV/JSON import
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pocketbase-railway)
 
 ## About
 
-[![PocketBase](https://avatars.githubusercontent.com/u/101000011?v=4)](https://pocketbase.io)
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/pocketbase-railway?referralCode=qVHjLS)
+Railway builds a multi-arch Alpine image from the custom Go binary, then runs it with a persistent volume mounted at `/pb/pb_data`. Your database, uploads, and settings survive redeploys and restarts. An entrypoint script handles first-boot setup, creating the admin superuser from environment variables. A healthcheck on `/api/health` keeps the service honest.
 
-PocketBase is the open-source, single-binary alternative to Supabase and Firebase — one ~12MB Go executable that gives you a SQLite database, REST API, authentication, file storage, realtime subscriptions, and an admin dashboard. This template deploys it to Railway with a persistent volume, a pre-seeded sample collection, and auto-created admin access so it works the moment it's online.
-
-Hosting pocketbase-railway is a single-container deploy: Railway builds a multi-arch Alpine image pinned to a specific PocketBase release, then runs the binary with a persistent volume mounted at `/pb/pb_data` so your database, uploads, and settings survive redeploys and restarts.
-
-An entrypoint script handles first-boot setup — it creates the admin superuser from environment variables (`PB_ADMIN_EMAIL` / `PB_ADMIN_PASSWORD`) — and a healthcheck on `/api/health` keeps the service honest. Versioned JS migrations and hooks are copied into the image, so schema changes and custom logic deploy automatically with each push.
+Versioned JavaScript migrations and hooks are copied into the image, so schema changes and custom logic deploy automatically with each push. No manual migration steps, no SSH into containers to run scripts.
 
 ## What gets deployed
 
@@ -36,6 +31,6 @@ An entrypoint script handles first-boot setup — it creates the admin superuser
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/pb/pb_data`
 
-**Category:** Starters · **Languages:** JavaScript, Shell, TypeScript, Dockerfile
+**Category:** Starters · **Languages:** JavaScript, Go, Dockerfile, Shell, TypeScript
 
 [View on Railway →](https://railway.com/deploy/pocketbase-railway)

@@ -6,7 +6,7 @@ Password-protected persistent notification gateway
 
 ## About
 
-Apprise API wraps the Apprise notification library in a web UI and REST API supporting many chat, email, push, incident, and webhook services. This template deploys stable version 1.5.2 with generated Basic Auth and durable configuration storage.
+Apprise API wraps the Apprise notification library in a web UI and REST API supporting many chat, email, push, incident, and webhook services. This template deploys stable version 1.5.4 with generated Basic Auth and durable configuration storage.
 
 Authenticate with `APPRISE_AUTH_USER` and the generated `APPRISE_AUTH_PASSWORD` service variable.
 

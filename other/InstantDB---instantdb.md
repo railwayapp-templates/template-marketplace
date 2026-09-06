@@ -101,6 +101,7 @@ InstantDB is a modern realtime database for building collaborative and local-fir
 - **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/resources/config`
+- **Healthcheck:** `/dash`
 - **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Other

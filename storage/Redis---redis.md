@@ -24,11 +24,12 @@ Redis is a popular choice for developers worldwide due to its combination of spe
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `REDISPORT` | 6379 | - |
-| `REDISUSER` | default | - |
-| `REDIS_URL` | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | (secret) | - |
-| `REDIS_PASSWORD` | (secret) | - |
+| `REDISHOST` | - | Private network hostname of the Redis service, only resolvable from services in the same environment |
+| `REDISPORT` | 6379 | Port that Redis listens on |
+| `REDISUSER` | default | Username for authenticating with Redis |
+| `REDIS_URL` | - | Connection string for connecting to Redis using the private network |
+| `REDISPASSWORD` | (secret) | Alias of REDIS_PASSWORD for clients that expect the unseparated name |
+| `REDIS_PASSWORD` | (secret) | Randomly generated password for authenticating with Redis |
 
 ## Configuration
 

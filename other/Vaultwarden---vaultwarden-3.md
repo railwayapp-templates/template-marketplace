@@ -19,26 +19,21 @@ Vaultwarden is one piece of **[My Own Suite](https://myownsuite.org/)** — an a
 | Service | Source | Type |
 |---------|--------|------|
 | Vaultwarden | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/vaultwarden) | Web service |
-| Vaultwarden-Postgres | [rpuls/my-own-suite](https://github.com/rpuls/my-own-suite) (branch: main) (root: /apps/vaultwarden) | Database |
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `ADMIN_TOKEN` | Vaultwarden | (secret) |
-| `ROCKET_PORT` | Vaultwarden | 80 |
-| `SMTP_PASSWORD` | Vaultwarden | (secret) |
-| `SMTP_USERNAME` | Vaultwarden | (secret) |
-| `WEBSOCKET_ENABLED` | Vaultwarden | true |
-| `POSTGRES_DB` | Vaultwarden-Postgres | vaultwarden |
-| `POSTGRES_USER` | Vaultwarden-Postgres | (secret) |
-| `POSTGRES_PASSWORD` | Vaultwarden-Postgres | (secret) |
+| Variable | Default |
+| --------- | ------- |
+| `ADMIN_TOKEN` | (secret) |
+| `ROCKET_PORT` | 80 |
+| `SIGNUPS_ALLOWED` | true |
+| `WEBSOCKET_ENABLED` | true |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/var/lib/postgresql/data`
+- **Volume:** `/data`
 
-**Category:** Other · **Languages:** JavaScript, TypeScript, CSS, Astro, MDX, Shell, PowerShell, Dockerfile, HTML, Standard ML
+**Category:** Other · **Languages:** JavaScript, TypeScript, CSS, Astro, Shell, MDX, PowerShell, Dockerfile, HTML, Standard ML
 
 [View on Railway →](https://railway.com/deploy/vaultwarden-3)

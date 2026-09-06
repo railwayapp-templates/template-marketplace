@@ -6,13 +6,13 @@ Deploy LearnHouse with PostgreSQL, Redis, and durable S3 media storage.
 
 ## About
 
-LearnHouse is an open-source platform for creating courses and collaborative learning experiences. This template deploys the single-tenant Community edition at stable release `1.3.4`, with durable PostgreSQL, Redis, and S3-compatible media storage.
+LearnHouse is an open-source platform for creating courses and collaborative learning experiences. This template deploys the single-tenant Community edition at stable release `1.3.5`, with durable PostgreSQL, Redis, and S3-compatible media storage.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| learnhouse | `ghcr.io/learnhouse/app:1.3.4@sha256:fe40a44746a38721d7f6fb882510604ff0ae8c9a92c682981f129cc151b6db74` | Web service |
+| learnhouse | `ghcr.io/learnhouse/app:1.3.5@sha256:674fe2ca1f19861c39c5240d8ef4d4beabe98a8141759832d05ac7935a4ec5ba` | Web service |
 | postgres | `pgvector/pgvector:0.8.0-pg16@sha256:a132765ec351c65111b5b675928a3a0515a466a40f97277329db8b8209ad8bc9` | Database |
 | redis | [monotykamary/railway-template-learnhouse](https://github.com/monotykamary/railway-template-learnhouse) | Database |
 

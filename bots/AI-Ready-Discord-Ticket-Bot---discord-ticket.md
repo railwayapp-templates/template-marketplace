@@ -10,9 +10,9 @@ Professional Discord ticket bot with optional **AI auto-support**, web panel 2.0
 
 Railway provides MongoDB, SSL, and scaling. This template pre-configures env vars and DB connection. You only set Discord credentials; the rest (including `AI_MASTER_KEY` for encrypting AI API keys) is auto-configured. Steam verification needs Public Networking on port **8080**.
 
-### Keep the Docker image updated
+### Keep Auto Deploy enabled
 
-The bot runs from `ghcr.io/jorgehenrrique/pro-ticket-bot:latest`. After deploy, open Railway → bot service → **Settings → Source** (Deploy from Image) and enable automatic checks / updates for the image (or periodically **Check for updates** + redeploy). Otherwise your project keeps an old build after we publish new `:latest` versions.
+After deploy, open Railway → bot service → **Settings → Source**. Under **Branch connected to production**, click **Enable** next to **Auto deploy** (it may show as disabled after the template install). With Auto Deploy on, Railway pulls new commits from `main` when we publish updates. If you leave it disabled, your project stays on the build from the day you deployed.
 
 ## What gets deployed
 

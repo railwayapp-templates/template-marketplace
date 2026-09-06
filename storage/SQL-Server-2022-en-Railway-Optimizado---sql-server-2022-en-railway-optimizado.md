@@ -4,10 +4,6 @@ Configuración Docker lista para producción para desplegar SQL Server 2022
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sql-server-2022-en-railway-optimizado)
 
-## About
-
-Este proyecto está diseñado para ser alojado rápida y fácilmente en plataformas en la nube que soporten Docker, con un enfoque especial y optimizado para **Railway.app**. La configuración garantiza que el motor de base de datos se ejecute de forma estable, segura y con almacenamiento persistente.
-
 ## What gets deployed
 
 | Service | Source | Type |
@@ -22,25 +18,33 @@ Este proyecto está diseñado para ser alojado rápida y fácilmente en platafor
 | `MSSQL_PID` | Developer |
 | `MSSQL_LCID` | 3082 |
 | `ACCEPT_EULA` | Y |
+| `BACKUP_HOUR` | 23 |
+| `BACKUP_MINUTE` | 40 |
 | `MSSQL_LOG_DIR` | /var/opt/mssql/log |
 | `MSSQL_SUSPEND` | false |
 | `MSSQL_DATA_DIR` | /var/opt/mssql/data |
-| `MSSQL_COLLATION` | 82)mZWo#4hk.KWVDi(Yy |
+| `MSSQL_COLLATION` | Modern_Spanish_CI_AS |
 | `MSSQL_BACKUP_DIR` | /var/opt/mssql/backup |
 | `MSSQL_SA_PASSWORD` | (secret) |
 | `MSSQL_SECRETS_DIR` | (secret) |
 | `MSSQL_AGENT_ENABLED` | true |
 | `MSSQL_DUMP_ON_ERROR` | 0 |
 | `MSSQL_TCP_KEEPALIVE` | 30000 |
+| `BACKUP_RETENTION_DAYS` | 30 |
 | `MSSQL_ENABLE_COREDUMP` | 0 |
-| `MSSQL_MEMORY_LIMIT_MB` | 4000 |
+| `MSSQL_MEMORY_LIMIT_MB` | 3500 |
+| `RCLONE_CONFIG_R2_TYPE` | s3 |
+| `MSSQL_SHUTDOWN_TIMEOUT` | 20 |
+| `RCLONE_CONFIG_R2_REGION` | auto |
+| `RCLONE_CONFIG_R2_PROVIDER` | Cloudflare |
 | `MSSQL_TCP_KEEPALIVE_INTERVAL` | 1000 |
+| `RCLONE_CONFIG_R2_SECRET_ACCESS_KEY` | (secret) |
 
 ## Configuration
 
 - **TCP Proxies:** 1433
 - **Volume:** `/var/opt/mssql`
 
-**Category:** Storage · **Languages:** Shell, Dockerfile, TSQL
+**Category:** Storage · **Languages:** Shell, TSQL, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/sql-server-2022-en-railway-optimizado)
