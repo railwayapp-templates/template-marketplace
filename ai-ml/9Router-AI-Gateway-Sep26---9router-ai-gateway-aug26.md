@@ -1,4 +1,4 @@
-# Deploy 9Router AI Gateway [Aug'26] on Railway
+# Deploy 9Router AI Gateway [Sep'26] on Railway
 
 Self-hosted AI gateway for Claude Code, Cursor & 40+ LLM providers
 

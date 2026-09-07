@@ -1,4 +1,4 @@
-# Deploy fastapi-mysql-backend on Railway
+# Deploy FastAPI MySQL Backend on Railway
 
 FastAPI + MySQL backend API with JWT auth, migrations, and seeding.
 
@@ -14,24 +14,22 @@ Hosting this template gives you a self-contained JSON/REST API: JWT auth with Ar
 
 | Service | Source | Type |
 |---------|--------|------|
-| MySQL | `mysql:9.4` | Database |
 | backend | [lNamelessl/fastapi-mysql-backend](https://github.com/lNamelessl/fastapi-mysql-backend) | Web service |
+| MySQL | `mysql:9.4` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default |
 | --------- | ------- | ------- |
-| `MYSQLPASSWORD` | MySQL | (secret) |
-| `MYSQL_ROOT_PASSWORD` | MySQL | (secret) |
 | `SECRET_KEY` | backend | (secret) |
-| `FIRST_SUPERUSER_PASSWORD` | backend | (secret) |
+| `MYSQL_ROOT_PASSWORD` | MySQL | (secret) |
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Start command:** `docker-entrypoint.sh mysqld --innodb-use-native-aio=0 --disable-log-bin --performance_schema=0 --innodb-buffer-pool-size=1G`
 - **Volume:** `/var/lib/mysql`
-- **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Languages:** Python, HTML, Dockerfile, Mako, Shell
+**Category:** Starters · **Languages:** Python, HTML, Dockerfile, Shell, Mako
 
 [View on Railway →](https://railway.com/deploy/fastapi-mysql-backend)

@@ -14,7 +14,7 @@ Hosting Executor (Self-Hosted) on Railway gives you a straightforward way to run
 
 | Service | Source | Type |
 |---------|--------|------|
-| Executor | `ghcr.io/rhyssullivan/executor-selfhost:latest` | Web service |
+| Executor | `ghcr.io/usefulsoftwareco/executor-selfhost:latest` | Web service |
 
 ## Environment variables
 

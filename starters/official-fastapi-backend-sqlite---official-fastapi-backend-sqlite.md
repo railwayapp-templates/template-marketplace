@@ -1,42 +1,28 @@
 # Deploy official-fastapi-backend-sqlite on Railway
 
-Backend-only FastAPI template with SQLite, one-click on Railway
+Zero-config FastAPI + SQLite backend, one-click on Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/official-fastapi-backend-sqlite)
 
 ## About
 
-Deploy the FastAPI + SQLite backend template on Railway with the **Deploy on Railway** button above. One service is provisioned (the `backend` API container) together with a volume for the SQLite file, so the database survives redeploys. Migrations and superuser seeding run automatically at every container start — there is no separate migration step to babysit.
+Deploy the FastAPI + SQLite backend template on Railway with the **Deploy on Railway** button above. One service is provisioned (the `backend` API container) together with a volume for the SQLite file, and the deploy form prompts for **nothing** — hit deploy and the API comes up fully configured.
 
 Hosting this template means running a single stateless API container plus one persistent volume:
 
 - **Services provisioned:** one `backend` service (Dockerfile build) and one volume mounted at `/data` for the SQLite database file. No database server, cache, or reverse proxy services are needed.
-- **Deploy-form variables** (the deploy form prompts for these; no secrets are pre-filled):
-  - `PROJECT_NAME` — shown in the API docs and emails (any value).
-  - `SECRET_KEY` — signs JWTs; generate with `openssl rand -hex 32`.
-  - `FIRST_SUPERUSER` — email of the seeded admin (e.g. `admin@example.com`).
-  - `FIRST_SUPERUSER_PASSWORD` — password of the seeded admin; use a strong generated value.
-  - `DATABASE_URL` — enter `/data/app.db` to store the SQLite file on the attached volume; accepts `sqlite:///...` URLs or bare paths.
-- **Post-deploy variables (optional, set from the dashboard):**
-  - `FRONTEND_HOST` — CORS origin to allow, e.g. your generated Railway domain.
+- **Variables:** none required. On first boot the app generates a `SECRET_KEY` and an initial admin password, persists them in `.bootstrap_secrets.json` next to the database file on the volume, logs the generated admin password once in the deploy logs, and creates the superuser `admin@example.com`.
+- **After deploying:** open the deploy logs (or read `.bootstrap_secrets.json` from the volume) to retrieve the initial admin password, sign in at `/docs` via the `login/access-token` endpoint, and change the password through the API. Optional overrides you may set later: `PROJECT_NAME`, `FIRST_SUPERUSER`, `FIRST_SUPERUSER_PASSWORD`, `DATABASE_URL` (e.g. a different volume path), `FRONTEND_HOST` (CORS origin), and SMTP settings for emails.
 - Do **not** set `FASTAPI_ENV` in production — leaving it unset enables strict validation of default secrets at boot.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| backend | [lNamelessl/official_fastapi_backend_sqlite](https://github.com/lNamelessl/official_fastapi_backend_sqlite) | Web service |
-
-## Environment variables
-
-| Variable | Default |
-| --------- | ------- |
-| `SECRET_KEY` | (secret) |
-| `FIRST_SUPERUSER_PASSWORD` | (secret) |
+| backend | [lNamelessl/official_fastapi_backend_sqlite](https://github.com/lNamelessl/official_fastapi_backend_sqlite) | Database |
 
 ## Configuration
 
-- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
 **Category:** Starters · **Languages:** Python, HTML, Dockerfile, Mako, Shell

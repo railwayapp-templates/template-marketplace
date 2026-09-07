@@ -1,6 +1,6 @@
-# Deploy Self-Hosted AI Agent — Persistent Memory, AutoGPT Alternative on Railway
+# Deploy Hermes Agent — Self-Hosted AI Agent, Persistent Memory [Sep '26] on Railway
 
-Self-host an LLM-agnostic AI agent — persistent memory, any provider
+Hermes Agent by Nous Research — OpenClaw alternative, any LLM.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-1)
 

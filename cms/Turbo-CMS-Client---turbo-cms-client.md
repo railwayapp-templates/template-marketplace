@@ -26,7 +26,7 @@ Hosting Turbo CMS on Railway provides a fully managed, containerized multi-servi
 |---------|--------|------|
 | turbo-cms | `ghcr.io/diegaosx/turbo-cms:latest` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Redis | `redis:8.2` | Database |
+| Redis | `redis:latest` | Database |
 
 ## Environment variables
 

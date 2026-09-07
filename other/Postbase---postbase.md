@@ -6,7 +6,9 @@ The open-source alternative to Firebase and Supabase
 
 ## About
 
-Postbase is a self-hosted auth and database platform for Next.js. Drop it into your stack, configure 25+ auth providers from a dashboard, and connect your app with a single SDK call. Think self-hosted Supabase or Clerk — you own the data, you control the infra.
+Postbase is a self-hosted auth and database platform for Next.js. Drop it into your stack, configure 25+ auth providers from a dashboard, and connect your app with a single SDK call. Think self-hosted Supabase or Clerk, you own the data, you control the infra.
+
+Learn more here https://www.getpostbase.com/
 
 Postbase ships as a single Docker container bundling PostgreSQL 18 (with pg_cron and pgmq), MinIO object storage, and the Next.js dashboard — all managed by supervisord. Deploying on Railway means one service, one attached volume, and a handful of environment variables. Railway detects the root Dockerfile automatically. You attach a volume at `/data` to persist your database and object storage, set a few secrets, generate a public domain, and you're live. No separate database service or storage bucket required — everything runs together out of the box.
 
@@ -36,6 +38,6 @@ Postbase ships as a single Docker container bundling PostgreSQL 18 (with pg_cron
 - **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other · **Verified:** Yes · **Languages:** TypeScript, Shell, Dockerfile, CSS, JavaScript
+**Category:** Other · **Verified:** Yes · **Languages:** TypeScript, Shell, PLpgSQL, HCL, Bicep, Dockerfile, JavaScript, CSS
 
 [View on Railway →](https://railway.com/deploy/postbase)

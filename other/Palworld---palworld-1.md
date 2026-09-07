@@ -6,13 +6,13 @@ Palworld Dedicated Server — one-click deploy with 10GB+ volume, backups
 
 ## About
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/palworld)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/palworld-1)
 
-Palworld Dedicated Server — one-click deploy with persistent volume, REST API, automated backups, and zero-downtime updates. Powered by [thijsvanloef/palworld-server-docker](https://github.com/thijsvanloef/palworld-server-docker).
+Palworld Dedicated Server — one-click deploy with persistent volume, REST API, automated backups, and zero-downtime updates. Includes a bundled [playit.gg](https://playit.gg) tunnel agent so players can connect over UDP (Railway's public network is TCP/HTTP only). Powered by [thijsvanloef/palworld-server-docker](https://github.com/thijsvanloef/palworld-server-docker).
 
-After deploying, open Palworld → Multiplayer → Enter Server Address: `:8211`
+After deploying and completing the [playit.gg setup](#connecting-players-udp-via-playitgg), open Palworld → Multiplayer → enter the playit.gg allocation address as the server address.
 
-This template runs a single Palworld dedicated server wrapped around the upstream Docker image. Game data persists on a Railway volume mounted at `/palworld` — saves, configs, and backups survive deploys and restarts.
+This template runs the Palworld dedicated server wrapped around the upstream Docker image. Game data persists on a Railway volume mounted at `/palworld` — saves, configs, and backups survive deploys and restarts.
 
 The entrypoint runs as root on boot to chown the Railway volume (root-owned by default) to the `steam` user, then drops privileges before launching the server. Railway uses the REST API on port `8212` for healthchecks since the game port (`8211`) is UDP and Railway doesn't support UDP healthchecks.
 
@@ -34,23 +34,25 @@ Key environment variables:
 | Service | Source | Type |
 |---------|--------|------|
 | palworld | [INAPP-Mobile/palworld](https://github.com/INAPP-Mobile/palworld) | Database |
+| playit-cloud/playit-agent:1.0.8 | `ghcr.io/playit-cloud/playit-agent:1.0.8` | Worker |
 
 ## Environment variables
 
-| Variable | Default | Description |
-| --------- | ------- | ----------- |
-| `TZ` | UTC | Server timezone for backup schedules. |
-| `PLAYERS` | 16 | Maximum number of players allowed to connect simultaneously (1-32). Each player slot consumes additional memory. |
-| `COMMUNITY` | true | Show this server in the public server browser. |
-| `PUBLIC_IP` | - | Public IP address. Leave empty for auto-detection. |
-| `PUBLIC_PORT` | - | Public port. Leave empty to use the default game port. |
-| `SERVER_NAME` | My Palworld Server | Name shown in the Palworld server browser. |
-| `RCON_ENABLED` | false | Enable remote console (RCON) access. |
-| `ADMIN_PASSWORD` | (secret) | REQUIRED. Admin password for RCON and REST API access. Auto-generated per deployment. |
-| `BACKUP_ENABLED` | true | Enable automated world backups to the persistent volume. |
-| `OLD_BACKUP_DAYS` | 30 | Number of days to keep backups before deletion. |
-| `SERVER_PASSWORD` | (secret) | Optional password required to join the server. Leave empty for a public server. |
-| `DELETE_OLD_BACKUPS` | false | Automatically delete backups older than OLD_BACKUP_DAYS. |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `TZ` | palworld | UTC | Server timezone for backup schedules. |
+| `PLAYERS` | palworld | 16 | Maximum number of players allowed to connect simultaneously (1-32). Each player slot consumes additional memory. |
+| `COMMUNITY` | palworld | true | Show this server in the public server browser. |
+| `PUBLIC_IP` | palworld | - | Public IP address. Leave empty for auto-detection. |
+| `PUBLIC_PORT` | palworld | - | Public port. Leave empty to use the default game port. |
+| `SERVER_NAME` | palworld | My Palworld Server | Name shown in the Palworld server browser. |
+| `RCON_ENABLED` | palworld | false | Enable remote console (RCON) access. |
+| `ADMIN_PASSWORD` | palworld | (secret) | REQUIRED. Admin password for RCON and REST API access. Auto-generated per deployment. |
+| `BACKUP_ENABLED` | palworld | true | Enable automated world backups to the persistent volume. |
+| `OLD_BACKUP_DAYS` | palworld | 30 | Number of days to keep backups before deletion. |
+| `SERVER_PASSWORD` | palworld | (secret) | Optional password required to join the server. Leave empty for a public server. |
+| `DELETE_OLD_BACKUPS` | palworld | false | Automatically delete backups older than OLD_BACKUP_DAYS. |
+| `SECRET_KEY` | playit-cloud/playit-agent:1.0.8 | (secret) | REQUIRED. Playit.gg agent secret key. Create a free account at playit.gg, then Account → Agents → Add Agent → copy the secret key. After deploy, configure the tunnel in the playit.gg dashboard: type UDP, local address palworld.railway.internal, local port 8211. |
 
 ## Configuration
 

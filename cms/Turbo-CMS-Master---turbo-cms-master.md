@@ -15,7 +15,7 @@ Hosting Turbo CMS Master on Railway provides an instant, production-grade micros
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Redis | `redis:8.2` | Database |
+| Redis | `redis:latest` | Database |
 | turbo-cms-master | `ghcr.io/diegaosx/turbo-cms-master:latest` | Web service |
 
 ## Environment variables

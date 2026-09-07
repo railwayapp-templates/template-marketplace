@@ -1,6 +1,6 @@
-# Deploy DeerFlow on Railway
+# Deploy DeerFlow V2 on Railway
 
-AI powered Deep Research - Open Source
+AI powered Deep Research - Open Source, by ByteDance ai
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/deerflow)
 
@@ -22,15 +22,8 @@ Hosting DeerFlow on Railway provides a one-click way to set up and run the compl
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `PORT` | Python-backend | 8000 | - |
-| `SEARCH_API` | Python-backend | tavily | - |
-| `TAVILY_API_KEY` | Python-backend | (secret) | Tavily web search API key: https://app.tavily.com/home |
-| `RESEARCH_DB_USER` | Python-backend | (secret) | - |
-| `BASIC_MODEL__model` | Python-backend | gemini-1.5-pro | - |
-| `BASIC_MODEL__api_key` | Python-backend | (secret) | Google aistudio API key: https://aistudio.google.com/app/apikey |
-| `RESEARCH_DB_PASSWORD` | Python-backend | (secret) | - |
-| `BASIC_MODEL__platform` | Python-backend | google_aistudio | - |
-| `BASIC_MODEL__max_retries` | Python-backend | 3 | - |
+| `PORT` | Python-backend | 8001 | - |
+| `DEER_FLOW_QUICKSTART_SECRET` | Python-backend | (secret) | - |
 | `PORT` | Web Interface | 8080 | - |
 | `GITHUB_OAUTH_TOKEN` | Web Interface | (secret) | - |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
@@ -45,6 +38,6 @@ Hosting DeerFlow on Railway provides a one-click way to set up and run the compl
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** AI/ML · **Languages:** Python, TypeScript, CSS, JavaScript, Dockerfile, Makefile, Shell, Batchfile
+**Category:** AI/ML · **Languages:** Python, TypeScript, MDX, HTML, Shell, CSS, JavaScript, Dockerfile, Makefile, Go Template, Mako, Batchfile
 
 [View on Railway →](https://railway.com/deploy/deerflow)
