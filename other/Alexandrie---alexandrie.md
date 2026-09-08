@@ -1,16 +1,16 @@
 # Deploy Alexandrie on Railway
 
-Alexandrie notes with private MySQL, RustFS, and one HTTPS gateway.
+Self-hosted Markdown notes and knowledge base with persistent storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/alexandrie)
 
 ## About
 
-Alexandrie is a self-hostable Markdown note-taking and knowledge-base application. This community template deploys Alexandrie v8.14.0 with MySQL, RustFS object storage, and a Caddy gateway. Railway supplies the HTTPS domain automatically: no custom domain, DNS configuration, registry account, or manually generated infrastructure credentials are required.
+Alexandrie is a self-hosted Markdown note-taking and knowledge-base application for personal notes, research collections, and shared documentation. This community template deploys Alexandrie v8.14.0 with persistent database and file storage, automatically generated credentials, and a Railway-provided HTTPS domain. No custom domain, separate registry account, or manual secret generation is required.
 
-Five services run in one Railway environment. Only the Caddy gateway has a public domain. The frontend, backend, MySQL, and RustFS communicate over Railway private networking. MySQL data and uploaded files have separate persistent volumes. Passwords, S3 credentials, and the JWT signing secret are generated independently for every installation; dependent services use reference variables.
+Five services run in one Railway project: the frontend, backend, MySQL, RustFS, and a Caddy gateway. Only the gateway has a public domain; the other services use private networking.
 
-The first deployment may take a few minutes. Services start together; the backend's `ALWAYS` restart policy lets it retry initialization while the database and object storage become ready. The upstream backend image is distroless, so this template preserves its original entrypoint instead of assuming a shell exists. An initial dependency-connection error can be transient; continued errors after storage is ready need investigation.
+MySQL stores notes and account data, while RustFS stores uploaded files. Both have persistent volumes so their data survives service redeployments. Infrastructure passwords and signing secrets are generated separately for each installation. You create your own account after deployment, then configure administrator access or close registration if needed. Email delivery and single sign-on are optional; the default installation supports username-and-password login without them.
 
 ## What gets deployed
 

@@ -1,6 +1,6 @@
 # Deploy Pterodactyl Panel on Railway
 
-Game server management without compromise, ready to deploy in 1 click.
+A free control panel for managing game servers across users and networks.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/pterodactyl)
 

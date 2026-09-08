@@ -1,4 +1,4 @@
-# Deploy Open WebUI — Self-Hosted ChatGPT Alternative on Railway
+# Deploy Open WebUI — Self-Hosted ChatGPT Alternative [Sep '26] on Railway
 
 Private multi-model AI chat — OpenAI, Claude, Ollama, built-in RAG
 

@@ -1,0 +1,78 @@
+# Deploy Firecrawl on Railway
+
+Web scraping and crawling API with authentication and persistent queues.
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/firecrawl-1)
+
+## About
+
+Deploy a private Firecrawl API/worker harness behind an API-key gateway, with a browser renderer, PostgreSQL-backed NuQ queue, Redis, and RabbitMQ. Images are pinned by digest; the API image identifies source commit `2343d7b7b93cf4653b80e0c2b8cb681ba2661803`.
+
+This six-service deployment puts a small API-key gateway in front of Firecrawl, its browser renderer, and the queue infrastructure. Railway exposes only the gateway over HTTPS; the API harness, PostgreSQL, Redis, RabbitMQ, and renderer communicate privately. The API and browser images are pinned by digest, while the gateway is built from the included Dockerfile. Queue data is stored on persistent volumes. A generated operator key authenticates client requests without requiring a separate authentication database. Concurrency starts conservatively at two. After deployment, retrieve the key from the gateway variables and point your SDK or HTTP client at the gateway domain.
+
+## What gets deployed
+
+| Service | Source | Type |
+|---------|--------|------|
+| api | `ghcr.io/firecrawl/firecrawl@sha256:03c94c9f99e0e4fc4ab9c844d2f64abb649396503180b14aeaf0a1169da88bab` | Worker |
+| firecrawl | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/railway-template-release) | Web service |
+| redis | `redis:7.4@sha256:71da9275c5f3fcb97d0fa0c8c5b36cc995327265420f17a04bfd544f458059f7` | Database |
+| postgres | `ghcr.io/firecrawl/nuq-postgres@sha256:aed86f62858f29bd971abddcdeb301c12888098d2cf5d33c1ba42b053bc460f6` | Database |
+| browser | `ghcr.io/firecrawl/playwright-service@sha256:df1a393ce8bfc3801570a826a9b0dcc400ae48789adb4a0ad9d6cbf0229b059b` | Worker |
+| rabbitmq | `rabbitmq:3.13@sha256:87178a0ee3e2f52980ba356d38646ed1056705ff2d5ff281f8965456eaa0c1e3` | Database |
+
+## Environment variables
+
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `ENV` | api | local | Firecrawl runtime mode. Keep local for this self-hosted deployment. |
+| `HOST` | api | 0.0.0.0 | HTTP bind address. Keep 0.0.0.0 so Railway can reach the service. |
+| `PORT` | api | 3002 | HTTP port inside this service. Keep the default to match its Railway public port and health check. |
+| `REDIS_URL` | api | - | Private authenticated Redis/Valkey connection URL. Automatically assembled from service references. |
+| `POSTGRES_DB` | api | postgres | Initial PostgreSQL database name, or the matching database selected by the application. |
+| `WORKER_PORT` | api | 3005 | Internal Firecrawl worker HTTP port. Keep the supplied port and do not expose it publicly. |
+| `BULL_AUTH_KEY` | api | (secret) | Generated secret protecting Firecrawl queue administration. Keep private. |
+| `POSTGRES_HOST` | api | - | Private PostgreSQL hostname. Automatically resolved from the postgres service. |
+| `POSTGRES_PORT` | api | 5432 | Private PostgreSQL TCP port. Keep 5432. |
+| `POSTGRES_USER` | api | (secret) | PostgreSQL initialization user, or the matching connection user for the private database. |
+| `NUQ_RABBITMQ_URL` | api | - | Private RabbitMQ connection URL for the NuQ queue, using generated broker credentials. |
+| `BROWSER_POOL_SIZE` | api | 2 | Firecrawl browser pool size. Starts at 2; increase only after measuring memory use. |
+| `POSTGRES_PASSWORD` | api | (secret) | PostgreSQL password. Generated for the database and referenced by dependent services; keep private. |
+| `EXTRACT_WORKER_PORT` | api | 3004 | Internal extraction-worker port. Keep the supplied port and leave it private. |
+| `MAX_CONCURRENT_JOBS` | api | 2 | Maximum simultaneous Firecrawl jobs. Increase only when memory and queue latency permit. |
+| `ALLOW_LOCAL_WEBHOOKS` | api | false | Allow webhook requests to local/private targets. Keep false to restrict access to internal networks. |
+| `REDIS_RATE_LIMIT_URL` | api | - | Private Redis URL used for Firecrawl rate limiting. References the authenticated redis service. |
+| `NUM_WORKERS_PER_QUEUE` | api | 2 | Workers per Firecrawl queue. Increase after measuring CPU, memory, and queue latency. |
+| `USE_DB_AUTHENTICATION` | api | false | Internal Firecrawl database authentication toggle. Keep false with this private API and authenticated public gateway. |
+| `CRAWL_CONCURRENT_REQUESTS` | api | 2 | Concurrent requests per crawl. Starts at 2; respect target-site rate limits. |
+| `HARNESS_STARTUP_TIMEOUT_MS` | api | 180000 | Maximum Firecrawl harness startup wait in milliseconds. Increase if cold starts need more time. |
+| `PLAYWRIGHT_MICROSERVICE_URL` | api | - | Private browser renderer scrape endpoint. Automatically references the browser service. |
+| `PORT` | firecrawl | 8080 | HTTP port inside this service. Keep the default to match its Railway public port and health check. |
+| `API_KEY` | firecrawl | (secret) | Generated API authentication key, or a reference to the shared internal API key. Keep private and preserve matching references. |
+| `UPSTREAM_URL` | firecrawl | - | Private Firecrawl API URL used by the public gateway. Keep the api service reference. |
+| `REDIS_URL` | redis | - | Private authenticated Redis/Valkey connection URL. Automatically assembled from service references. |
+| `REDIS_PASSWORD` | redis | (secret) | Generated private Redis/Valkey password, or a reference to that password. Keep secret. |
+| `POSTGRES_DB` | postgres | postgres | Initial PostgreSQL database name, or the matching database selected by the application. |
+| `POSTGRES_USER` | postgres | (secret) | PostgreSQL initialization user, or the matching connection user for the private database. |
+| `POSTGRES_PASSWORD` | postgres | (secret) | PostgreSQL password. Generated for the database and referenced by dependent services; keep private. |
+| `PORT` | browser | 3000 | HTTP port inside this service. Keep the default to match its Railway public port and health check. |
+| `BLOCK_MEDIA` | browser | true | Block browser media downloads to reduce resource usage during scraping. |
+| `ALLOW_LOCAL_WEBHOOKS` | browser | false | Allow webhook requests to local/private targets. Keep false to restrict access to internal networks. |
+| `MAX_CONCURRENT_PAGES` | browser | 2 | Maximum concurrent renderer pages. Starts at 2 to limit browser memory usage. |
+| `RABBITMQ_NODENAME` | rabbitmq | rabbit@localhost | Stable RabbitMQ node identity for persisted queue data. Keep rabbit@localhost across redeployments. |
+| `RABBITMQ_DEFAULT_PASS` | rabbitmq | - | Generated RabbitMQ password. Preserve it with the persistent broker data. |
+| `RABBITMQ_DEFAULT_USER` | rabbitmq | (secret) | RabbitMQ user created on first initialization. Keep aligned with the NuQ connection URL. |
+
+## Configuration
+
+- **Start command:** `node dist/src/harness.js --start-docker`
+- **Healthcheck:** `/healthz`
+- **Networking:** Public domain with automatic HTTPS
+- **Start command:** `sh -c 'exec redis-server --bind 0.0.0.0 --appendonly yes --maxmemory-policy noeviction --requirepass "$REDIS_PASSWORD"'`
+- **Volume:** `/data`
+- **Volume:** `/var/lib/postgresql/data`
+- **Volume:** `/var/lib/rabbitmq`
+
+**Category:** AI/ML · **Languages:** JavaScript, Python, Shell, Dockerfile
+
+[View on Railway →](https://railway.com/deploy/firecrawl-1)

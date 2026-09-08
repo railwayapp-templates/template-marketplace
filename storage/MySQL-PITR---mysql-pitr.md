@@ -1,6 +1,6 @@
 # Deploy MySQL PITR on Railway
 
-Point-in-time recovery via continuous binlog archiving for standalone MySQL
+Point-in-time recovery via binlog archiving for MySQL, standalone or HA
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mysql-pitr)
 

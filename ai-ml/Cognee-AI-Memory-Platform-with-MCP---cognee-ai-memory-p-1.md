@@ -1,20 +1,20 @@
 # Deploy Cognee AI Memory Platform with MCP on Railway
 
-Cognee backend API, MCP in API/SSE mode, and managed Postgres + pgvector
+Cognee 1.5.4 API, MCP over Streamable HTTP, and Postgres + pgvector
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cognee-ai-memory-p-1)
 
 ## About
 
-Cognee AI Memory Platform with MCP combines a private Cognee backend, durable Postgres + pgvector storage, and a public MCP service so AI tools can store, structure, and retrieve memory across sessions. This template is set up for a production-style Railway deployment with OpenRouter-backed models and an MCP SSE endpoint for client integrations.
+Cognee AI Memory Platform with MCP combines a private Cognee backend, durable Postgres + pgvector storage, and a public MCP service so AI tools can store, structure, and retrieve memory across sessions. The template runs the upstream cognee 1.5.4 images with OpenRouter-backed models and exposes the MCP server over Streamable HTTP for client integrations. It is a single-user deployment: the MCP endpoint is public and unauthenticated by design, so treat its URL like a secret.
 
-Hosting this template deploys three connected services: `cognee-api` as the private backend, `cognee-mcp` as the public MCP layer, and PostgreSQL as the shared relational, graph, and vector store. Railway handles service provisioning, networking, and runtime configuration, while the template wires the backend and MCP service together over internal networking. The result is a single-user-ready memory stack that supports ingestion, Cognify processing, search, and MCP-based tool access from clients like OpenCode. You only need to provide your LLM credentials and optionally a separate embedding key.
+Hosting this template deploys three connected services: `cognee-api` as the private backend, `cognee-mcp` as the public MCP layer, and PostgreSQL as the shared relational, graph, and vector store. Railway handles provisioning, private networking, and runtime configuration, while the template wires the MCP service to the backend over the internal network. The result is a single-user memory stack that supports ingestion, Cognify processing, search, and MCP tool access from clients like OpenCode and Claude Code. You only need to provide an OpenRouter API key; embeddings reuse it unless you set a separate `EMBEDDING_API_KEY`.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| cognee-mcp | [RockinPaul/cognee_railway_template](https://github.com/RockinPaul/cognee_railway_template) (branch: main) | Worker |
+| cognee-mcp | [RockinPaul/cognee_railway_template](https://github.com/RockinPaul/cognee_railway_template) (branch: main) | Web service |
 | cognee-api | [RockinPaul/cognee_railway_template](https://github.com/RockinPaul/cognee_railway_template) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
@@ -22,10 +22,12 @@ Hosting this template deploys three connected services: `cognee-api` as the priv
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `PORT` | cognee-mcp | 8080 | Port the MCP server listens on. Must match the public networking target port (8080). |
 | `API_URL` | cognee-mcp | - | Internal Cognee backend URL used by the MCP service in API mode |
-| `TRANSPORT_MODE` | cognee-mcp | sse | Cognee MCP transport for remote clients. In production API mode, SSE exposes the server at /sse. |
-| `MCP_ALLOWED_HOSTS` | cognee-mcp | - | Comma-separated public hosts allowed by MCP transport security for SSE access |
-| `HOST` | cognee-api | 0.0.0.0 | Bind address for the backend API service |
+| `TRANSPORT_MODE` | cognee-mcp | http | Cognee MCP transport for remote clients. In production API mode, exposes the server at /mcp. |
+| `MCP_DISABLE_DNS_REBINDING_PROTECTION` | cognee-mcp | true | Required on Railway, whose healthcheck probes from an internal address. |
+| `ENV` | cognee-api | prod | Application environment label used by the backend service |
+| `PORT` | cognee-api | 8080 | Port for the backend API service |
 | `DB_HOST` | cognee-api | - | Private Railway hostname for the relational Postgres connection |
 | `DB_NAME` | cognee-api | - | Database name used by Cognee relational storage |
 | `DB_PORT` | cognee-api | - | Port for the relational Postgres connection |
@@ -33,15 +35,15 @@ Hosting this template deploys three connected services: `cognee-api` as the priv
 | `DB_PASSWORD` | cognee-api | (secret) | Password for the relational Postgres connection |
 | `DB_PROVIDER` | cognee-api | postgres | Database provider |
 | `DB_USERNAME` | cognee-api | (secret) | Username for the relational Postgres connection |
-| `ENVIRONMENT` | cognee-api | prod | Application environment label used by the backend service |
 | `LLM_API_KEY` | cognee-api | (secret) | Your OpenRouter API key. Cognee uses it for the OpenRouter LLM and, by default, for embeddings too. |
 | `LLM_ENDPOINT` | cognee-api | https://openrouter.ai/api/v1 | OpenRouter OpenAI-compatible API base URL for chat/completions |
 | `LLM_PROVIDER` | cognee-api | custom | Cognee LLM provider for OpenRouter's OpenAI-compatible API |
 | `VECTOR_DB_URL` | cognee-api | - | Connection URL for pgvector-backed vector storage |
 | `VECTOR_DB_HOST` | cognee-api | - | Private Railway hostname for the pgvector connection |
+| `VECTOR_DB_NAME` | cognee-api | - | Postgres database for pgvector storage. Same database as DB_NAME. |
 | `VECTOR_DB_PORT` | cognee-api | - | Port for the pgvector connection |
-| `EMBEDDING_MODEL` | cognee-api | openrouter/google/gemini-embedding-2-preview | OpenRouter embedding model for semantic indexing |
-| `EMBEDDING_API_KEY` | cognee-api | (secret) | Optional separate OpenRouter API key for embeddings. Leave empty to reuse LLM_API_KEY. |
+| `EMBEDDING_MODEL` | cognee-api | openrouter/openai/text-embedding-3-large | OpenRouter embedding model. 3072 dimensions. Changing it later invalidates stored vectors. |
+| `EMBEDDING_API_KEY` | cognee-api | (secret) | OpenRouter key for embeddings. Defaults to your LLM key; override only if you use a separate key. |
 | `EMBEDDING_ENDPOINT` | cognee-api | https://openrouter.ai/api/v1 | OpenRouter OpenAI-compatible API base URL for embeddings |
 | `EMBEDDING_PROVIDER` | cognee-api | litellm | Embedding provider for semantic indexing |
 | `GRAPH_DATABASE_URL` | cognee-api | - | Postgres connection string for graph persistence in single-user mode |
@@ -49,6 +51,7 @@ Hosting this template deploys three connected services: `cognee-api` as the priv
 | `VECTOR_DB_PROVIDER` | cognee-api | pgvector | Vector database provider |
 | `VECTOR_DB_USERNAME` | cognee-api | (secret) | Username for the pgvector connection |
 | `GRAPH_DATABASE_HOST` | cognee-api | - | Private Railway hostname for the graph Postgres connection |
+| `GRAPH_DATABASE_NAME` | cognee-api | - | Postgres database for graph storage. Same database as DB_NAME. |
 | `GRAPH_DATABASE_PORT` | cognee-api | - | Port for graph persistence in Postgres |
 | `LLM_INSTRUCTOR_MODE` | cognee-api | json_schema_mode | Structured-output mode for the OpenRouter-backed LLM adapter |
 | `CORS_ALLOWED_ORIGINS` | cognee-api | * | Comma-separated allowed CORS origins |
@@ -67,10 +70,10 @@ Hosting this template deploys three connected services: `cognee-api` as the priv
 
 ## Configuration
 
-- **Healthcheck:** ` /health`
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** AI/ML · **Languages:** Python, Shell, Dockerfile, Mako
+**Category:** AI/ML · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/cognee-ai-memory-p-1)

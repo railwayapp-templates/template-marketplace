@@ -14,7 +14,7 @@ This template deploys two services wired together: a Postgres database that Sier
 
 | Service | Source | Type |
 |---------|--------|------|
-| sierpe | `ghcr.io/zkcaleb-dev/sierpe:v1.5.2` | Web service |
+| sierpe | `ghcr.io/zkcaleb-dev/sierpe:v1.8.0` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables

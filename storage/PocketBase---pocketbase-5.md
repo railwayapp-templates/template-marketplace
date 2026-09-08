@@ -178,6 +178,6 @@ This template is provided under the MIT License. PocketBase itself is MIT licens
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/pb_data`
 
-**Category:** Starters · **Languages:** Dockerfile
+**Category:** Storage · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/pocketbase-5)

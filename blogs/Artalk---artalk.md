@@ -36,7 +36,7 @@ This template runs the official Artalk image on port 23366 and stores its SQLite
 ## Configuration
 
 - **Start command:** `/bin/bash -c '/entrypoint.sh admin --name "$ARTALK_ADMIN_NAME" --email "$ARTALK_ADMIN_EMAIL" --password "$ARTALK_ADMIN_PASSWORD" && exec /entrypoint.sh server --host 0.0.0.0 --port "$PORT"'`
-- **Healthcheck:** `/`
+- **Healthcheck:** `/api/v2/version`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 

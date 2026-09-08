@@ -12,6 +12,10 @@ and remembers how you reacted to each one, so Claude or ChatGPT can pick your
 home search back up in a new conversation instead of starting from zero. The
 server never calls a model itself; the LLM you connect does the judging.
 
+GitHub: https://github.com/davidteather/property-radar
+
+Setup Video: https://www.youtube.com/watch?v=kGgKUymeSzc
+
 Property Radar is five services that this template provisions together: `mcpd`
 (one URL serving MCP, a REST API, interactive docs, and a `/connect` setup
 page), an always-on `crawler` worker, a small web `console`, Postgres for

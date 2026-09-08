@@ -1,6 +1,6 @@
 # Deploy Palworld on Railway
 
-Palworld Dedicated Server — one-click deploy with 10GB+ volume, backups
+Palworld Dedicated Server — 50GB volume, backups, playit.gg UDP tunnel
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/palworld-1)
 
@@ -34,7 +34,7 @@ Key environment variables:
 | Service | Source | Type |
 |---------|--------|------|
 | palworld | [INAPP-Mobile/palworld](https://github.com/INAPP-Mobile/palworld) | Database |
-| playit-cloud/playit-agent:1.0.8 | `ghcr.io/playit-cloud/playit-agent:1.0.8` | Worker |
+| playit | `ghcr.io/playit-cloud/playit-agent:1.0.8` | Worker |
 
 ## Environment variables
 
@@ -52,7 +52,7 @@ Key environment variables:
 | `OLD_BACKUP_DAYS` | palworld | 30 | Number of days to keep backups before deletion. |
 | `SERVER_PASSWORD` | palworld | (secret) | Optional password required to join the server. Leave empty for a public server. |
 | `DELETE_OLD_BACKUPS` | palworld | false | Automatically delete backups older than OLD_BACKUP_DAYS. |
-| `SECRET_KEY` | playit-cloud/playit-agent:1.0.8 | (secret) | REQUIRED. Playit.gg agent secret key. Create a free account at playit.gg, then Account → Agents → Add Agent → copy the secret key. After deploy, configure the tunnel in the playit.gg dashboard: type UDP, local address palworld.railway.internal, local port 8211. |
+| `SECRET_KEY` | playit | (secret) | REQUIRED. Playit.gg agent secret key. Create a free account at playit.gg, then Account → Agents → Add Agent → copy the secret key. After deploy, configure the tunnel in the playit.gg dashboard: type UDP, local address palworld.railway.internal, local port 8211. |
 
 ## Configuration
 

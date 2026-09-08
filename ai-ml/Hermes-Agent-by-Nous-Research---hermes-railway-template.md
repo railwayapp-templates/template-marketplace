@@ -24,6 +24,7 @@ On startup, the entrypoint initializes Hermes under `/data/.hermes`, writes runt
 | --------- | ------- |
 | `OPENROUTER_API_KEY` | (secret) |
 | `TELEGRAM_BOT_TOKEN` | (secret) |
+| `AGENT_CACHE_MEMORY_HIGH_MB` | 750 |
 
 ## Configuration
 
