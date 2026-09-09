@@ -19,7 +19,7 @@ URL signing is on, with a generated key and salt.
 | Console | [railwayapp-templates/minio-console](https://github.com/railwayapp-templates/minio-console) | Web service |
 | Bucket | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
 | Bucket Creator | `minio/mc:RELEASE.2025-08-13T08-35-41Z` | Database |
-| imgproxy | `darthsim/imgproxy:v3.18.2` | Web service |
+| imgproxy | `darthsim/imgproxy:v4.0.14` | Web service |
 
 ## Environment variables
 
@@ -50,7 +50,7 @@ URL signing is on, with a generated key and salt.
 - **Start command:** `/bin/sh -c "exec minio server --address [::]:$MINIO_PRIVATE_PORT $RAILWAY_VOLUME_MOUNT_PATH"`
 - **Healthcheck:** `/minio/health/ready`
 - **Volume:** `/data`
-- **Start command:** `/bin/sh -c "sleep 10 && /usr/bin/mc config host add minio ${MINIO_ENDPOINT} ${MINIO_ROOT_USER} ${MINIO_ROOT_PASSWORD} && /usr/bin/mc mb minio/${MINIO_BUCKET} && /usr/bin/mc anonymous set public minio/${MINIO_BUCKET}/public && exit 0"`
+- **Start command:** `/bin/sh -c "for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20; do /usr/bin/mc alias set minio ${MINIO_ENDPOINT} ${MINIO_ROOT_USER} ${MINIO_ROOT_PASSWORD} && /usr/bin/mc mb --ignore-existing minio/${MINIO_BUCKET} && /usr/bin/mc anonymous set public minio/${MINIO_BUCKET}/public && exit 0; sleep 5; done; exit 1"`
 - **Healthcheck:** `/health`
 
 **Category:** Other · **Languages:** Dockerfile

@@ -10,7 +10,7 @@ Langfuse is open-source LLM engineering: tracing for every model call and agent 
 
 Langfuse v4 rebuilt the storage layer: traces and observations that used to live in two joined tables are now one denormalised, append-only observations table, so table views and dashboards resolve without a join at query time. Everything else about self-hosting it stays the same shape — and that shape is six containers, not one.
 
-This template wires them together: the web application, the background worker, PostgreSQL 17 for accounts, projects and prompts, ClickHouse 26.4 for the observation store, Valkey for the queue between web and worker, and S3-compatible object storage for event and media uploads. Credentials are generated per deployment, the services talk over the private network, and ClickHouse, Postgres, Valkey and the object store each get a volume.
+This template wires them together: the web application, the background worker, PostgreSQL 17 for accounts, projects and prompts, ClickHouse 26.8 for the observation store, Valkey for the queue between web and worker, and S3-compatible object storage for event and media uploads. Credentials are generated per deployment, the services talk over the private network, and ClickHouse, Postgres, Valkey and the object store each get a volume.
 
 Only the web service is published. Postgres, ClickHouse, Valkey and the object store stay private, reachable by the application and by nothing else.
 
@@ -20,12 +20,12 @@ Only the web service is published. Postgres, ClickHouse, Valkey and the object s
 
 | Service | Source | Type |
 |---------|--------|------|
-| clickhouse | `clickhouse/clickhouse-server:26.4.5.143` | Database |
+| clickhouse | `clickhouse/clickhouse-server:26.8.2.7` | Database |
 | postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17.11` | Database |
-| langfuse-web | `langfuse/langfuse:4.14.0` | Web service |
-| langfuse-worker | `langfuse/langfuse-worker:4.14.0` | Worker |
+| langfuse-web | `langfuse/langfuse:4.32.0` | Web service |
+| langfuse-worker | `langfuse/langfuse-worker:4.32.0` | Worker |
 | minio | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
-| valkey | `valkey/valkey:8.1.9-alpine` | Database |
+| valkey | `valkey/valkey:8.1.10-alpine` | Database |
 
 ## Environment variables
 

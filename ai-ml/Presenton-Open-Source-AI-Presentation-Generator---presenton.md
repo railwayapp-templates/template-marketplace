@@ -35,7 +35,7 @@ administrator account — **do this immediately after deploying**, before sharin
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `postgres:18.4-alpine` | Database |
+| Postgres | `postgres:18.6-alpine` | Database |
 | Presenton | `ghcr.io/presenton/presenton:v0.9.4-beta` | Web service |
 
 ## Environment variables

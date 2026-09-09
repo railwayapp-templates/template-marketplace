@@ -18,7 +18,7 @@ The proxy is reachable two ways at once. Your public Railway domain serves the O
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `postgres:18.4-alpine` | Database |
+| Postgres | `postgres:18.6-alpine` | Database |
 | LiteLLM | `ghcr.io/berriai/litellm:main-v1.83.14-stable` | Web service |
 
 ## Environment variables

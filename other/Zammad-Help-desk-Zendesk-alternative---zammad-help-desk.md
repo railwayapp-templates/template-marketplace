@@ -1,4 +1,4 @@
-# Deploy zammad : help desk, zendesk alternative on Railway
+# Deploy Zammad: Help desk, Zendesk alternative on Railway
 
 Helpdesk ticketing, shared inbox, SLAs. Zendesk/Freshdesk alternative.
 

@@ -16,7 +16,7 @@ Authentication is on. Langflow ships with an auto-login mode that hands every vi
 
 | Service | Source | Type |
 |---------|--------|------|
-| langflow | `langflowai/langflow:1.11.2` | Web service |
+| langflow | `langflowai/langflow:1.11.6` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16.15` | Database |
 
 ## Environment variables
@@ -31,7 +31,7 @@ Authentication is on. Langflow ships with an auto-login mode that hands every vi
 | `LANGFLOW_SUPERUSER` | langflow | admin | Superuser |
 | `LANGFLOW_AUTO_LOGIN` | langflow | (secret) | Auth login |
 | `LANGFLOW_CONFIG_DIR` | langflow | /app/langflow | Langflow Config Directory |
-| `LANGFLOW_SECRET_KEY` | langflow | (secret) | Secret Key |
+| `LANGFLOW_SECRET_KEY` | langflow | (secret) | Signs sessions and encrypts API keys and Credential global variables. Must be a valid Fernet key: 43 base64url characters, which pad to 32 bytes. Changing it logs everyone out and makes existing credentials unreadable. |
 | `LANGFLOW_DATABASE_URL` | langflow | - | DB URL |
 | `LANGFLOW_NEW_USER_IS_ACTIVE` | langflow | false | New user is active |
 | `LANGFLOW_SUPERUSER_PASSWORD` | langflow | (secret) | Superuser Password |

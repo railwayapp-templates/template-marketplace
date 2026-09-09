@@ -1,16 +1,18 @@
 # Deploy Baserow on Railway
 
-Open source no-code database and an Airtable alternative
+Open-source no-code database, app builder & Airtable alternative
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jbG8JG)
 
 ## About
 
-Baserow is an open-source, no-code database platform that enables users to create and manage databases without writing any code. It serves as a flexible and scalable alternative to traditional spreadsheets and proprietary platforms like Airtable.
+Baserow is an open-source, no-code database and application builder that enables users to create and manage databases, internal tools, forms, dashboards, and workflows without traditional coding. It serves as a flexible, self-hosted alternative to platforms like Airtable.
 
-Hosting Baserow provides a powerful database solution that combines the simplicity of a spreadsheet with the capabilities of a relational database. With Baserow, you can define custom data structures, establish relationships between tables, and collaborate with your team in real-time. The platform supports both cloud-based and self-hosted deployments, offering full control over your data and infrastructure.
+Hosting Baserow on Railway provides a powerful and flexible database platform that combines the simplicity of a spreadsheet with the capabilities of a relational database. With Baserow, you can define custom data structures, establish relationships between tables, create forms and views, build internal tools, and collaborate with your team.
 
-Railway simplifies the deployment process, allowing you to host Baserow effortlessly. By leveraging Railway's infrastructure, you ensure high availability, automated backups, and seamless scalability to meet your application's demands.
+This template uses the official `baserow/baserow` Docker image with PostgreSQL and Redis as separate services. A persistent volume is attached to Baserow at `/baserow/data` to preserve application data and uploaded files.
+
+Railway simplifies the deployment process by providing managed infrastructure, private networking, persistent volumes, HTTPS, environment variable management, and easy service configuration and scaling.
 
 ## What gets deployed
 
@@ -40,7 +42,7 @@ Railway simplifies the deployment process, allowing you to host Baserow effortle
 | `SECRET_KEY` | Baserow | (secret) | - |
 | `BASEROW_BACKEND_DEBUG` | Baserow | false | - |
 | `BASEROW_AMOUNT_OF_WORKERS` | Baserow | 1 | - |
-| `BASEROW_BACKEND_LOG_LEVEL` | Baserow | WARNING | - |
+| `BASEROW_BACKEND_LOG_LEVEL` | Baserow | INFO | - |
 | `BASEROW_AMOUNT_OF_GUNICORN_WORKERS` | Baserow | 2 | - |
 | `BASEROW_TRIGGER_SYNC_TEMPLATES_AFTER_MIGRATION` | Baserow | false | - |
 
@@ -54,6 +56,6 @@ Railway simplifies the deployment process, allowing you to host Baserow effortle
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/baserow/data`
 
-**Category:** CMS
+**Category:** Automation
 
 [View on Railway →](https://railway.com/deploy/jbG8JG)

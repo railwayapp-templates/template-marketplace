@@ -8,7 +8,7 @@ Self-hosted Cloudflare Durable Objects: two-node fleet on your bucket
 
 celld is Deno's open-source daemon for running Cloudflare Workers and Durable Objects on infrastructure you own. Every object is a cell: a named server with its own SQLite database, durable in object storage that belongs to you, with no control plane and no consensus service to operate.
 
-This template deploys a **two-node celld fleet** on the newest stable release, pinned to `ghcr.io/denoland/celld:v0.4.0` — the upstream image, not a fork.
+This template deploys a **two-node celld fleet** on the newest stable release, pinned to `ghcr.io/denoland/celld:v0.4.1` — the upstream image, not a fork.
 
 A Railway object storage bucket is provisioned as part of the deploy and holds the fleet's durable state: the deployments, the SQLite replicas, the ownership records and the peer secret. It is verified to satisfy celld's storage contract — `celld diagnose` reports `bucket conditional write: create, reject-create, update, reject-stale` against it — which is the requirement that rules out Backblaze B2, Hetzner and DigitalOcean Spaces.
 
@@ -22,9 +22,9 @@ A fleet with no application is not idle, it is down: each node exits with `read 
 
 | Service | Source | Type |
 |---------|--------|------|
-| celld-peer | `ghcr.io/denoland/celld:v0.4.0` | Database |
-| celld | `ghcr.io/denoland/celld:v0.4.0` | Web service |
-| welcome-seed | `ghcr.io/denoland/celld:v0.4.0` | Worker |
+| celld-peer | `ghcr.io/denoland/celld:v0.4.1` | Database |
+| celld | `ghcr.io/denoland/celld:v0.4.1` | Web service |
+| welcome-seed | `ghcr.io/denoland/celld:v0.4.1` | Worker |
 
 ## Environment variables
 

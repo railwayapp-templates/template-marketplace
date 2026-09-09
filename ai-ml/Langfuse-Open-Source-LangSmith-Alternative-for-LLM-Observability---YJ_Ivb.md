@@ -16,12 +16,12 @@ Only the web service gets a public domain. Postgres, ClickHouse, Valkey and the 
 
 | Service | Source | Type |
 |---------|--------|------|
-| valkey | `valkey/valkey:8.1.9-alpine` | Database |
+| valkey | `valkey/valkey:8.1.10-alpine` | Database |
 | postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16.15` | Database |
-| langfuse-web | `langfuse/langfuse:3.225.2` | Web service |
+| langfuse-web | `langfuse/langfuse:3.225.7` | Web service |
 | clickhouse | `clickhouse/clickhouse-server:24.12.6.70` | Database |
 | minio | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
-| langfuse-worker | `langfuse/langfuse-worker:3.225.2` | Worker |
+| langfuse-worker | `langfuse/langfuse-worker:3.225.7` | Worker |
 
 ## Environment variables
 

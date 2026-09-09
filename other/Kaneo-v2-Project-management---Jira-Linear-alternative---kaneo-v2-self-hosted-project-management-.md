@@ -1,4 +1,4 @@
-# Deploy kaneo-v2 : project management - jira, linear alternative on Railway
+# Deploy Kaneo-v2: Project management - Jira, Linear alternative on Railway
 
 Open source Kanban with time tracking. File uploads work out of the box.
 
@@ -27,7 +27,7 @@ so you get a fully working Kaneo deployment without additional work. (Note: Swit
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| SeaweedFS | `chrislusf/seaweedfs:4.44` | Web service |
+| SeaweedFS | `chrislusf/seaweedfs:4.46` | Web service |
 | Kaneo | `ghcr.io/usekaneo/kaneo:latest` | Web service |
 
 ## Environment variables

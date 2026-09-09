@@ -28,9 +28,9 @@ Three things this template does that are worth knowing about:
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `postgres:18.4-alpine` | Database |
+| Postgres | `postgres:18.6-alpine` | Database |
 | EvolutionAPI | `evoapicloud/evolution-api:v2.3.7` | Web service |
-| Redis | `redis:8.10.0-alpine` | Database |
+| Redis | `redis:8.10.1-alpine` | Database |
 
 ## Environment variables
 

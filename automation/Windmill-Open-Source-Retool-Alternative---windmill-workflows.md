@@ -36,8 +36,8 @@ tag means the version you deploy is the version you keep until you choose to mov
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `postgres:17.10-alpine` | Database |
-| Windmill Worker | `ghcr.io/windmill-labs/windmill:1.785.0` | Worker |
-| Windmill | `ghcr.io/windmill-labs/windmill:1.785.0` | Web service |
+| Windmill Worker | `ghcr.io/windmill-labs/windmill:1.805.0` | Worker |
+| Windmill | `ghcr.io/windmill-labs/windmill:1.805.0` | Web service |
 
 ## Environment variables
 

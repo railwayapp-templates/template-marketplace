@@ -1,4 +1,4 @@
-# Deploy Appwrite 2 Core on Railway
+# Deploy Appwrite 2 on Railway
 
 Appwrite 2 core backend with private databases and persistent storage.
 

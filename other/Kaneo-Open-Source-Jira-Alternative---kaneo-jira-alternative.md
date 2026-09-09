@@ -12,7 +12,7 @@ Kaneo v2 ships as a single container that runs its API and serves its web client
 
 Four decisions in here are worth knowing about, because they are the difference between this template and a plain `docker run`.
 
-**The version is pinned.** Kaneo publishes releases almost daily, and a template that deploys `latest` hands you a different application every time you redeploy — including schema migrations you did not ask for, at a moment you did not choose. This template pins `ghcr.io/usekaneo/kaneo:2.22.0`. Upgrading is deliberate: change the tag, redeploy, and the migrations run once on boot.
+**The version is pinned.** Kaneo publishes releases almost daily, and a template that deploys `latest` hands you a different application every time you redeploy — including schema migrations you did not ask for, at a moment you did not choose. This template pins `ghcr.io/usekaneo/kaneo:2.23.2`. Upgrading is deliberate: change the tag, redeploy, and the migrations run once on boot.
 
 **Sessions survive a redeploy.** Kaneo's entrypoint generates a throwaway signing secret when `AUTH_SECRET` is empty and warns that sessions will not outlive a restart. The template generates the secret once, at deploy time, and keeps it — so a redeploy does not log your whole team out.
 
@@ -25,7 +25,7 @@ Four decisions in here are worth knowing about, because they are the difference 
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `postgres:18.6-alpine` | Database |
-| Kaneo | `ghcr.io/usekaneo/kaneo:2.22.0` | Web service |
+| Kaneo | `ghcr.io/usekaneo/kaneo:2.23.2` | Web service |
 
 ## Environment variables
 

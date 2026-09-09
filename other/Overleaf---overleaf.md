@@ -23,11 +23,13 @@ Hosting Overleaf means running the web app alongside MongoDB and Redis. Project 
 
 | Variable | Service | Default |
 | --------- | ------- | ------- |
+| `PORT` | Overleaf | 80 |
 | `TEXMFVAR` | Overleaf | /var/lib/overleaf/tmp/texmf-var |
 | `REDIS_PASSWORD` | Overleaf | (secret) |
 | `OVERLEAF_APP_NAME` | Overleaf | Overleaf Community Edition |
 | `ENABLE_CONVERSIONS` | Overleaf | true |
 | `OVERLEAF_LISTEN_IP` | Overleaf | 0.0.0.0 |
+| `OVERLEAF_ADMIN_EMAIL` | Overleaf | admin@example.com |
 | `OVERLEAF_BEHIND_PROXY` | Overleaf | true |
 | `OVERLEAF_SITE_LANGUAGE` | Overleaf | en |
 | `ENABLED_LINKED_FILE_TYPES` | Overleaf | project_file,project_output_file |
@@ -45,7 +47,8 @@ Hosting Overleaf means running the web app alongside MongoDB and Redis. Project 
 
 ## Configuration
 
-- **Healthcheck:** `/`
+- **Start command:** `env -u PORT /sbin/my_init`
+- **Healthcheck:** `/status`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/overleaf`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`

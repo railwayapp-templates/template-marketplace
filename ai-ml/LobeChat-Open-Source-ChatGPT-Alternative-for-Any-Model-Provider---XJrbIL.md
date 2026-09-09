@@ -16,11 +16,11 @@ Sign-in is built in: v2 uses Better-Auth with email and password, so the first p
 
 | Service | Source | Type |
 |---------|--------|------|
-| lobe | `lobehub/lobehub:2.2.14` | Web service |
+| lobe | `lobehub/lobehub:2.2.16` | Web service |
 | Bucket Init | `minio/mc:RELEASE.2025-08-13T08-35-41Z` | Database |
-| Postgres | `paradedb/paradedb:0.25.3-pg17` | Database |
+| Postgres | `paradedb/paradedb:0.25.6-pg17` | Database |
 | MinIO | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
-| Redis | `redis:8.10.0-alpine` | Database |
+| Redis | `redis:8.10.1-alpine` | Database |
 
 ## Environment variables
 

@@ -33,9 +33,9 @@ Four things this template does that are worth knowing about:
 | Service | Source | Type |
 |---------|--------|------|
 | RAG | `ghcr.io/danny-avila/librechat-rag-api-dev-lite:v0.9.0` | Worker |
-| MongoDB | `mongo:8.0.28` | Database |
+| MongoDB | `mongo:8.0.29` | Database |
 | VectorDB | `pgvector/pgvector:0.8.6-pg17-trixie` | Database |
-| Meilisearch | `getmeili/meilisearch:v1.35.1` | Database |
+| Meilisearch | `getmeili/meilisearch:v1.53.2` | Database |
 | LibreChat | `ghcr.io/danny-avila/librechat:v0.8.7` | Web service |
 
 ## Environment variables

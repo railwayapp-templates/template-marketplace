@@ -8,7 +8,7 @@ Column-oriented OLAP database for fast analytics on large datasets
 
 ClickHouse is an open-source column-oriented database built for analytics: it scans billions of rows and returns aggregates in the time a row-store spends planning the query.
 
-This template runs the official `clickhouse/clickhouse-server:26.7.3.19-alpine` image with no custom build in between, so you get upstream ClickHouse and upstream security updates on a pinned, immutable tag. Data lives on a persistent Railway volume mounted at `/var/lib/clickhouse`, and a random password is generated at deploy time — nothing ships with a default credential.
+This template runs the official `clickhouse/clickhouse-server:26.8.2.7-alpine` image with no custom build in between, so you get upstream ClickHouse and upstream security updates on a pinned, immutable tag. Data lives on a persistent Railway volume mounted at `/var/lib/clickhouse`, and a random password is generated at deploy time — nothing ships with a default credential.
 
 Both interfaces are wired up. The HTTP interface is served over your public Railway domain on port 8123, which is what `curl`, the JDBC/ODBC drivers and the built-in `/play` query console speak. The native protocol is exposed through a Railway TCP proxy on port 9000, so `clickhouse-client` and the official Python, Go and Node drivers connect from outside the project without extra configuration. SQL-driven access management is enabled, so you can `CREATE USER`, `CREATE ROLE` and `GRANT` instead of editing XML files you cannot reach on a managed platform.
 
@@ -16,7 +16,7 @@ Both interfaces are wired up. The HTTP interface is served over your public Rail
 
 | Service | Source | Type |
 |---------|--------|------|
-| ClickHouse | `clickhouse/clickhouse-server:26.7.3.19-alpine` | Database |
+| ClickHouse | `clickhouse/clickhouse-server:26.8.2.7-alpine` | Database |
 
 ## Environment variables
 

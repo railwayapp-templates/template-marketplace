@@ -18,13 +18,13 @@ Hosting projectmem on Railway means one small service and one volume. The servic
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `PORT` | 8000 |
-| `MCP_TOKEN` | (secret) |
-| `PROJECTMEM_HOME` | /data/home |
-| `PROJECTMEM_PROJECTS` | default |
-| `PROJECTMEM_PROJECTS_DIR` | /data/projects |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 8000 | Port the MCP server liste public domain to it. |
+| `MCP_TOKEN` | (secret) | Bearer token every MCP request must send as "Authorization: Bearer <token>". Generated on deploy; keep to rotate. |
+| `PROJECTMEM_HOME` | /data/home | Registry and cross-projecon the /data volume. |
+| `PROJECTMEM_PROJECTS` | default | Comma-separated project ner on start (letters,digits, - and _). The first one is the active project for tool calls that name no project. |
+| `PROJECTMEM_PROJECTS_DIR` | /data/projects | Folder where project memofolder per project. Keep it on the /data volume. |
 
 ## Configuration
 

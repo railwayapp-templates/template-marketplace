@@ -8,7 +8,7 @@ Graph database with Cypher, APOC plugins and external Bolt access
 
 Neo4j is the world's most widely adopted graph database, storing data as nodes and relationships so connected queries stay fast no matter how deep they go.
 
-This template runs the official `neo4j:5.26.29-community` image — the current LTS release — with no custom build in between, so you get upstream Neo4j and upstream security updates. The APOC procedure library is installed on boot, the database lives on a persistent Railway volume mounted at `/data`, and the JVM heap and page cache are pinned so the container behaves predictably inside its memory limit instead of guessing from the cgroup.
+This template runs the official `neo4j:5.26.30-community` image — the current LTS release — with no custom build in between, so you get upstream Neo4j and upstream security updates. The APOC procedure library is installed on boot, the database lives on a persistent Railway volume mounted at `/data`, and the JVM heap and page cache are pinned so the container behaves predictably inside its memory limit instead of guessing from the cgroup.
 
 Both ways in are wired up: Neo4j Browser is served over your public Railway domain on port 7474, and the Bolt protocol is exposed through a Railway TCP proxy on 7687. The advertised addresses are set to those endpoints, so Browser connects to your actual database and any Bolt driver — Python, JavaScript, Go, Java — connects from outside the project without extra configuration. A random password is generated at deploy time; nothing ships with a default credential.
 
@@ -16,7 +16,7 @@ Both ways in are wired up: Neo4j Browser is served over your public Railway doma
 
 | Service | Source | Type |
 |---------|--------|------|
-| Neo4j | `neo4j:5.26.29-community` | Database |
+| Neo4j | `neo4j:5.26.30-community` | Database |
 
 ## Environment variables
 

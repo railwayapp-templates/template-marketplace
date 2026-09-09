@@ -8,7 +8,7 @@ Self-hosted Jira alternative: full production split, ~1.1 GB RAM
 
 Plane is an open-source project management tool — work items, cycles, modules, sub-projects and public roadmaps — and a self-hosted alternative to Jira and Linear. This template deploys the full production split that upstream recommends: eight application services, PostgreSQL, Valkey, RabbitMQ and managed object storage, wired to each other and reachable on one domain.
 
-Eleven services and a bucket, all from official upstream images, pinned to `v1.4.1`:
+Eleven services and a bucket, all from official upstream images, pinned to `v1.4.2`:
 
 - **Proxy** — Caddy, the only service with a domain. Plane is six HTTP apps sharing one origin by path, and Railway routes by service, so this is what puts them back together.
 - **Web** — the app itself. **Space** — public project boards. **Admin** — the instance console at `/god-mode`.
@@ -36,17 +36,17 @@ Four things this template does that are worth knowing about:
 
 | Service | Source | Type |
 |---------|--------|------|
-| Space | `makeplane/plane-space:v1.4.1` | Worker |
-| Worker | `makeplane/plane-backend:v1.4.1` | Worker |
-| Postgres | `postgres:18.4-alpine` | Database |
-| Web | `makeplane/plane-frontend:v1.4.1` | Worker |
-| RabbitMQ | `rabbitmq:4.3.4-alpine` | Database |
+| Space | `makeplane/plane-space:v1.4.2` | Worker |
+| Worker | `makeplane/plane-backend:v1.4.2` | Worker |
+| Postgres | `postgres:18.6-alpine` | Database |
+| Web | `makeplane/plane-frontend:v1.4.2` | Worker |
+| RabbitMQ | `rabbitmq:4.3.5-alpine` | Database |
 | Proxy | `caddy:2.11.4-alpine` | Web service |
-| Beat | `makeplane/plane-backend:v1.4.1` | Worker |
-| Live | `makeplane/plane-live:v1.4.1` | Worker |
-| Admin | `makeplane/plane-admin:v1.4.1` | Worker |
-| Api | `makeplane/plane-backend:v1.4.1` | Worker |
-| Valkey | `valkey/valkey:9.1.1-alpine` | Database |
+| Beat | `makeplane/plane-backend:v1.4.2` | Worker |
+| Live | `makeplane/plane-live:v1.4.2` | Worker |
+| Admin | `makeplane/plane-admin:v1.4.2` | Worker |
+| Api | `makeplane/plane-backend:v1.4.2` | Worker |
+| Valkey | `valkey/valkey:9.1.2-alpine` | Database |
 
 ## Environment variables
 

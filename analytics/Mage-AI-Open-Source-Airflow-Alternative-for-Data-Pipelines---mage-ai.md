@@ -23,7 +23,7 @@ Three things here differ from the other Mage templates on Railway, and all three
 | Service | Source | Type |
 |---------|--------|------|
 | Mage | `mageai/mageai:0.9.79` | Web service |
-| Postgres | `postgres:18.4-alpine` | Database |
+| Postgres | `postgres:18.6-alpine` | Database |
 
 ## Environment variables
 

@@ -31,8 +31,8 @@ Four things this template does that are worth knowing about:
 
 | Service | Source | Type |
 |---------|--------|------|
-| Web | `ghcr.io/capsoftware/cap-web@sha256:a15efd82c37442d01fa95c4d94954baa1a84b20b8289b758d293fc51b1eb5d54` | Web service |
-| MediaServer | `ghcr.io/capsoftware/cap-media-server@sha256:51fe32229aa016f5e333603d4901dc897eeb0038d2fbbc504369e3676863fc5a` | Worker |
+| Web | `ghcr.io/capsoftware/cap-web@sha256:8ee4cbd3fd87f88f538831aed06c954c525db9c2426a62abeaf0ca307c5e1ce9` | Web service |
+| MediaServer | `ghcr.io/capsoftware/cap-media-server@sha256:2fb5f991e55a88ed625404e5dc073f143442571b54caa563cbbaf89b832199a4` | Worker |
 | MySQL | `mysql:8.4.11` | Database |
 
 ## Environment variables

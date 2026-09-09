@@ -1,14 +1,14 @@
 # Deploy Easy!Appointments on Railway
 
-Web application for managing appointment scheduling
+Open-source online appointment scheduler for businesses and teams
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/easyappointments)
 
 ## About
 
-**Easy!Appointments** is an open-source web application for managing appointment scheduling through a customizable interface. It works well for individuals, businesses, and teams looking to streamline booking workflows.
+**Easy!Appointments** is an open-source, self-hosted appointment scheduling platform for managing online bookings, services, providers, customers, and availability.
 
-Hosting Easy!Appointments gives you full control over your scheduling platform. Whether self-hosted or deployed via Docker, you manage your data, customizations, and hosting environment. Deploying on Railway adds the benefits of managed infrastructure—ensuring reliability and scalability.
+Deploy it on Railway and get a ready-to-use scheduling system that can be customized for businesses, teams, and professional services.
 
 ## What gets deployed
 

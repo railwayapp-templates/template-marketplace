@@ -29,7 +29,7 @@ them from the Admin page.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Executor | `ghcr.io/usefulsoftwareco/executor-selfhost:1.5.40` | Web service |
+| Executor | `ghcr.io/usefulsoftwareco/executor-selfhost:1.5.42` | Web service |
 
 ## Environment variables
 

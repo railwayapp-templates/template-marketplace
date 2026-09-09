@@ -22,8 +22,8 @@ Three things here differ from the other GlitchTip deployments on Railway.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `redis:8.10.0-alpine` | Database |
-| Postgres | `postgres:18.4-alpine` | Database |
+| Redis | `redis:8.10.1-alpine` | Database |
+| Postgres | `postgres:18.6-alpine` | Database |
 | GlitchTip | `glitchtip/glitchtip:6.2.6` | Web service |
 
 ## Environment variables

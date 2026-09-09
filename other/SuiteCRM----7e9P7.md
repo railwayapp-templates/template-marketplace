@@ -1,21 +1,29 @@
 # Deploy SuiteCRM on Railway
 
-Open-source CRM with a 360° customer view, sales and marketing automation
+Open-source CRM for sales, marketing, service, and workflow automation
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-7e9P7)
 
 ## About
 
-**SuiteCRM** is an open-source Customer Relationship Management (CRM) software that provides a 360-degree view of your customers and business. It offers a comprehensive suite of features designed to enhance sales, marketing, and customer service processes.
+**SuiteCRM** is an open-source, enterprise-ready Customer Relationship Management (CRM) platform that brings sales, marketing, customer service, reporting, and workflow automation together in one place.
 
-Hosting SuiteCRM allows organizations to maintain full control over their CRM data and customization. Whether you choose to self-host or deploy in the cloud, SuiteCRM offers flexibility and scalability to meet your business needs. Deploying on Railway simplifies the process, providing managed infrastructure that ensures reliability and ease of maintenance.
+With SuiteCRM, teams can manage leads, contacts, accounts, opportunities, campaigns, customer cases, activities, quotes, contracts, and more while maintaining control over their CRM data and customization.
+
+Hosting SuiteCRM on Railway provides a simple way to run a self-hosted CRM without managing a traditional server environment.
+
+This template simplifies the deployment of SuiteCRM and provides the infrastructure required to run the application with persistent storage and a MySQL database.
+
+Railway makes it easy to deploy, manage, monitor, and maintain your SuiteCRM environment from a single platform.
+
+The application is designed to use a persistent Railway Volume so that SuiteCRM files and configuration survive container restarts and redeployments.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| MySQL | `mysql:9` | Database |
-| SuiteCRM | `bitnami/suitecrm:latest` | Web service |
+| MySQL | `mysql:8.4` | Database |
+| SuiteCRM | [vamos-automatizar/suitecrm-railway](https://github.com/vamos-automatizar/suitecrm-railway) (root: /) | Web service |
 
 ## Environment variables
 
@@ -44,8 +52,8 @@ Hosting SuiteCRM allows organizations to maintain full control over their CRM da
 - **TCP Proxies:** 3306
 - **Volume:** `/var/lib/mysql`
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/bitnami/suitecrm`
+- **Volume:** `/var/www/html`
 
-**Category:** Other
+**Category:** Other · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/-7e9P7)

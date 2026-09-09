@@ -14,8 +14,8 @@ Three services — HeyForm itself, MongoDB for forms and submissions, and Redis 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `redis:8.10.0-alpine` | Database |
-| HeyForm | `heyform/community-edition:v3.0.0` | Web service |
+| Redis | `redis:8.10.1-alpine` | Database |
+| HeyForm | `heyform/community-edition:v3.0.2` | Web service |
 | MongoDB | `mongo:7.0.40` | Database |
 
 ## Environment variables
@@ -29,6 +29,7 @@ Three services — HeyForm itself, MongoDB for forms and submissions, and Redis 
 | `REDIS_HOST` | HeyForm | - | Redis host |
 | `REDIS_PORT` | HeyForm | - | Redis port |
 | `SESSION_KEY` | HeyForm | - | Session encryption key |
+| `TRUST_PROXY` | HeyForm | 2 | Express trust-proxy hops. v3.0.2 stopped trusting proxies by default, which on Railway records every visitor as the edge address and collapses the per-IP submission limit and the login throttle into one global bucket. Two hops resolve to the real visitor; a forged X-Forwarded-For is ignored, because the edge rewrites it. |
 | `REDIS_PASSWORD` | HeyForm | (secret) | Redis password |
 | `APP_HOMEPAGE_URL` | HeyForm | - | Website homepage URL |
 | `FORM_ENCRYPTION_KEY` | HeyForm | - | Form encryption key |

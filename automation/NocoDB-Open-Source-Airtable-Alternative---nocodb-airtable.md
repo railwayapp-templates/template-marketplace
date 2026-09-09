@@ -20,7 +20,7 @@ All variables are filled in and described on the deploy screen. **There is nothi
 
 Four things this template does that are worth knowing about:
 
-**The image is pinned.** Both other NocoDB templates ship `nocodb/nocodb:latest`, so a redeploy months from now can pull a different NocoDB under your live bases. This template pins a version (`2026.08.0`): a redeploy gives you exactly what you already ran, and you move up deliberately — bump the tag, back up first — instead of by surprise.
+**The image is pinned.** Both other NocoDB templates ship `nocodb/nocodb:latest`, so a redeploy months from now can pull a different NocoDB under your live bases. This template pins a version (`2026.08.2`): a redeploy gives you exactly what you already ran, and you move up deliberately — bump the tag, back up first — instead of by surprise.
 
 **Attachments actually work, and the app tier is stateless.** NocoDB signs presigned URLs that your browser fetches straight from storage. That means the addressing style matters: Railway storage only sends CORS headers on the path-style (`host/bucket/key`) endpoint, so `NC_S3_FORCE_PATH_STYLE` is on — with virtual-hosted URLs every attachment fails in the browser while `curl` still reports 200. Because attachments live in the bucket and everything else lives in Postgres, the web and worker containers hold no state: they share one attachment store, and a redeploy loses nothing. The other approach — attachments on a local disk — puts them on one container that the worker cannot see.
 
@@ -32,10 +32,10 @@ Four things this template does that are worth knowing about:
 
 | Service | Source | Type |
 |---------|--------|------|
-| NocoDB Worker | `nocodb/nocodb:2026.08.0` | Worker |
-| NocoDB | `nocodb/nocodb:2026.08.0` | Web service |
-| Postgres | `postgres:18.4-alpine` | Database |
-| Valkey | `valkey/valkey:8.1.9-alpine` | Database |
+| NocoDB Worker | `nocodb/nocodb:2026.08.2` | Worker |
+| NocoDB | `nocodb/nocodb:2026.08.2` | Web service |
+| Postgres | `postgres:18.6-alpine` | Database |
+| Valkey | `valkey/valkey:8.1.10-alpine` | Database |
 
 ## Environment variables
 

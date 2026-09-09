@@ -12,7 +12,7 @@ Elasticsearch, claiming roughly 140x lower storage costs thanks to a columnar,
 object-storage-backed design. This template runs it the way it is meant to run in
 production: a single binary with its bulk data in a managed object-storage bucket.
 
-This deploys OpenObserve `v0.92.0` (pinned) as one service in single-node mode, and —
+This deploys OpenObserve `v0.92.2` (pinned) as one service in single-node mode, and —
 unlike the other OpenObserve templates in the marketplace — points its storage backend
 at a **Railway object-storage bucket** instead of a local disk. That is the whole point
 of OpenObserve: the ingested parquet data and its full-text index live in the bucket
@@ -29,7 +29,7 @@ special character), so there is nothing to fill in before deploying.
 
 | Service | Source | Type |
 |---------|--------|------|
-| OpenObserve | `openobserve/openobserve:v0.92.0` | Web service |
+| OpenObserve | `openobserve/openobserve:v0.92.2` | Web service |
 
 ## Environment variables
 

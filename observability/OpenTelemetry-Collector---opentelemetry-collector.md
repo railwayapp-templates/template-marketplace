@@ -18,18 +18,20 @@ Railway simplifies the deployment by managing service discovery and environment 
 
 | Service | Source | Type |
 |---------|--------|------|
-| OpenTelemetry Collector | [jratienza65/otel-lgtm-railway](https://github.com/jratienza65/otel-lgtm-railway) (root: /otelcol-with-http-exporter) | Web service |
+| OpenTelemetry Collector | [jratienza65/otel-lgtm-railway](https://github.com/jratienza65/otel-lgtm-railway) (root: /otelcol/agent) | Web service |
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `VERSION` | 0.139.0 |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `PORT` | 13133 | OpenTelemetry Collector's healthcheck port. |
+| `VERSION` | 0.139.0 | OpenTelemetry Collector image tag, passed as a build arg. |
 
 ## Configuration
 
+- **Healthcheck:** `/ready`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Observability · **Languages:** Dockerfile
+**Category:** Observability · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/opentelemetry-collector)

@@ -1,4 +1,4 @@
-# Deploy thingsboard : iot platform on Railway
+# Deploy ThingsBoard: IOT Platform on Railway
 
 Self-host IoT platform: device telemetry, MQTT, HTTP, dashboards, alerts.
 

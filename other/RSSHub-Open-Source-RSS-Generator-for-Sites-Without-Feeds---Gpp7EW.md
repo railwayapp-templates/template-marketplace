@@ -16,8 +16,8 @@ Redis is what keeps the deployment polite. Without a shared cache every reader p
 
 | Service | Source | Type |
 |---------|--------|------|
-| RSSHub | `ghcr.io/diygod/rsshub:chromium-bundled-2026-08-24` | Web service |
-| Redis | `redis:8.10.0-alpine` | Database |
+| RSSHub | `ghcr.io/diygod/rsshub:chromium-bundled-2026-09-09` | Web service |
+| Redis | `redis:8.10.1-alpine` | Database |
 
 ## Environment variables
 

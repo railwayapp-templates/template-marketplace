@@ -12,7 +12,7 @@ Three services, all from official upstream images:
 
 - **Panel** — the web interface and API, on a public domain with TLS. Runs nginx, PHP-FPM, the queue worker and the scheduler, exactly as upstream's image intends.
 - **MariaDB** — accounts, servers, nodes, schedules and the egg catalogue, on a volume.
-- **Redis** — sessions, cache and the job queue, on a volume.
+- **Redis** — sessions, cache and the job queue, deliberately without a volume.
 
 Everything is filled in on the deploy screen; there is nothing you have to type. When the deploy finishes, open the domain and sign in with the `ADMIN_USERNAME` and `ADMIN_PASSWORD` shown in the Panel service's variables.
 
@@ -22,19 +22,19 @@ Four things this template does that are worth knowing about:
 
 **Someone made you an account.** The official image migrates the database on boot and then hands over to supervisord; creating the first user is `php artisan p:user:make`, an interactive command that assumes you have a shell on the container. On Railway you do not. This template runs that command for you on first boot, as an administrator, with a generated password — and it checks first, so a redeploy never creates a second account and never overwrites a password you have since changed.
 
-**The panel's errors reach your logs.** As shipped, supervisord captures each child process's output into files inside the container, and PHP-FPM discards its workers' output outright. The result is a log that shows the migrations and then falls silent, no matter how many requests the panel serves or exceptions it throws — the first thing you need when something breaks is the one thing you cannot get. Two lines of configuration at boot put PHP-FPM, the queue worker and nginx back on the container's stdout.
+**The panel's errors reach your logs.** As shipped, supervisord captures each child process's output into files inside the container, and PHP-FPM discards its workers' output outright. The result is a log that shows the migrations and then falls silent, no matter how many requests the panel serves or exceptions it throws — the first thing you need when something breaks is the one thing you cannot get. Three lines of configuration at boot put PHP-FPM, the queue worker and nginx back on the container's stdout, so a Laravel exception arrives in Railway's log viewer with its stack trace.
 
-**Redis can actually write its snapshot.** A Redis container on a Railway volume cannot write to it unless it is told to start as root and fix the ownership itself. Left alone, the first background save fails, and Redis's own default then makes it refuse *every write* — which surfaces in the panel as a 500 on any page that touches a session, minutes after a deployment that looked perfectly healthy. It is a five-character fix and it is easy to not know about.
+**Redis has no volume, on purpose.** A Railway volume arrives with a `lost+found` in it, and the Redis image refuses to fix ownership when it finds a file it does not recognise in its data directory — so the first background save fails, and Redis's own default then makes it refuse *every write*. In the panel that surfaces as a 500 on any page touching a session, minutes after a deployment that looked perfectly healthy. Upstream's own compose file gives this service no volume either, and neither does this template. What that costs you is sessions, cache and any queued job on a redeploy: everyone is signed out once and signs back in. Everything that matters — accounts, servers, nodes, schedules — is in MariaDB, which does have a volume.
 
-**It pins released versions.** Panel `v1.15.0`, the current release, rather than the `latest` tag that moves under you; MariaDB `11.8.8`, the LTS branch that upstream's own compose file targets; Redis `8.10.0`. Nothing is built from a fork or a third-party starter repository, so what you deploy is what Pterodactyl published.
+**It pins released versions.** Panel `v1.15.1`, the current release, rather than the `latest` tag that moves under you; MariaDB `11.8.9`, the head of the 11.8 LTS branch that upstream's own compose file targets; Redis `8.10.1`. Nothing is built from a fork or a third-party starter repository, so what you deploy is what Pterodactyl published.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| Panel | `ghcr.io/pterodactyl/panel:v1.15.0` | Web service |
-| MariaDB | `mariadb:11.8.8` | Database |
-| Redis | `redis:8.10.0-alpine` | Database |
+| Panel | `ghcr.io/pterodactyl/panel:v1.15.1` | Web service |
+| MariaDB | `mariadb:11.8.9` | Database |
+| Redis | `redis:8.10.1-alpine` | Database |
 
 ## Environment variables
 
@@ -83,7 +83,7 @@ Four things this template does that are worth knowing about:
 
 ## Configuration
 
-- **Start command:** `sh -c 'sed -i "s|^autorestart=true$|autorestart=true\nstdout_logfile=/dev/stdout\nstdout_logfile_maxbytes=0\nstderr_logfile=/dev/stderr\nstderr_logfile_maxbytes=0|" /etc/supervisord.conf; printf "\ncatch_workers_output = yes\ndecorate_workers_output = no\n" >> /usr/local/etc/php-fpm.conf; ( for i in $(seq 1 60); do n=$(mysql -h "$DB_HOST" -P "$DB_PORT" -u "$DB_USERNAME" -p"$DB_PASSWORD" -N -B -e "select count(*) from users" "$DB_DATABASE" 2>/dev/null) || { sleep 5; continue; }; if [ "$n" != "0" ]; then echo "admin bootstrap: $n user(s) already exist, nothing to do"; break; fi; php /app/artisan p:user:make --admin=1 --email="$ADMIN_EMAIL" --username="$ADMIN_USERNAME" --name-first="$ADMIN_FIRST_NAME" --name-last="$ADMIN_LAST_NAME" --password="$ADMIN_PASSWORD" --no-interaction && break; sleep 5; done ) & exec /bin/ash .github/docker/entrypoint.sh supervisord -n -c /etc/supervisord.conf'`
+- **Start command:** `sh -c 'sed -i "s|^command=/usr/local/sbin/php-fpm -F$|command=/usr/local/sbin/php-fpm -F -O|" /etc/supervisord.conf; sed -i "s|^autorestart=true$|autorestart=true\nstdout_logfile=/dev/stdout\nstdout_logfile_maxbytes=0\nstderr_logfile=/dev/stderr\nstderr_logfile_maxbytes=0|" /etc/supervisord.conf; printf "\ncatch_workers_output = yes\ndecorate_workers_output = no\n" >> /usr/local/etc/php-fpm.conf; ( for i in $(seq 1 60); do n=$(mysql -h "$DB_HOST" -P "$DB_PORT" -u "$DB_USERNAME" -p"$DB_PASSWORD" -N -B -e "select count(*) from users" "$DB_DATABASE" 2>/dev/null) || { sleep 5; continue; }; if [ "$n" != "0" ]; then echo "admin bootstrap: $n user(s) already exist, nothing to do"; break; fi; php /app/artisan p:user:make --admin=1 --email="$ADMIN_EMAIL" --username="$ADMIN_USERNAME" --name-first="$ADMIN_FIRST_NAME" --name-last="$ADMIN_LAST_NAME" --password="$ADMIN_PASSWORD" --no-interaction && break; sleep 5; done ) & exec /bin/ash .github/docker/entrypoint.sh supervisord -n -c /etc/supervisord.conf'`
 - **Healthcheck:** `/auth/login`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/var`

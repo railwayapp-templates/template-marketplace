@@ -24,10 +24,10 @@ The agents themselves do **not** run on Railway. Each person who wants to run on
 
 | Service | Source | Type |
 |---------|--------|------|
-| Valkey | `valkey/valkey:8.1.9-alpine` | Database |
+| Valkey | `valkey/valkey:8.1.10-alpine` | Database |
 | Postgres | `pgvector/pgvector:0.8.6-pg17-trixie` | Database |
-| multica-api | `ghcr.io/multica-ai/multica-backend:v0.4.28` | Web service |
-| multica-web | `ghcr.io/multica-ai/multica-web:v0.4.28` | Web service |
+| multica-api | `ghcr.io/multica-ai/multica-backend:v0.4.41` | Web service |
+| multica-web | `ghcr.io/multica-ai/multica-web:v0.4.41` | Web service |
 
 ## Environment variables
 

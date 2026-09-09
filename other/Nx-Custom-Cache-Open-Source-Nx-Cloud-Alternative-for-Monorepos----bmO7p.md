@@ -16,14 +16,18 @@ Since Nx 21 the remote cache is an official plugin interface, so this needs no p
 
 | Service | Source | Type |
 |---------|--------|------|
-| nx-cache-server | `ghcr.io/ikatsuba/nx-cache-server:1.1.1` | Web service |
+| nx-cache-server | `ghcr.io/ikatsuba/nx-cache-server:1.2.0` | Web service |
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `AWS_SECRET_ACCESS_KEY` | (secret) |
-| `NX_CACHE_ACCESS_TOKEN` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `AWS_REGION` | - | Region of the Railway bucket that stores the cache artifacts. |
+| `S3_BUCKET_NAME` | - | Name of the S3 bucket the cache is written to. Filled from the Railway bucket in this project. |
+| `S3_ENDPOINT_URL` | - | S3 endpoint of the Railway bucket. Point it elsewhere to use your own S3-compatible storage. |
+| `AWS_ACCESS_KEY_ID` | - | Access key for the bucket, issued by Railway. |
+| `AWS_SECRET_ACCESS_KEY` | (secret) | Secret key for the bucket, issued by Railway. |
+| `NX_CACHE_ACCESS_TOKEN` | (secret) | Bearer token every Nx client must send. Put it in NX_SELF_HOSTED_REMOTE_CACHE_ACCESS_TOKEN on your machines and in CI. |
 
 ## Configuration
 

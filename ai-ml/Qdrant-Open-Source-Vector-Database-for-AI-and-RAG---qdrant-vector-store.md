@@ -18,7 +18,7 @@ An API key is generated at deploy time and required on every request, REST and g
 
 | Service | Source | Type |
 |---------|--------|------|
-| Qdrant | `qdrant/qdrant:v1.19.0` | TCP service |
+| Qdrant | `qdrant/qdrant:v1.19.1` | TCP service |
 
 ## Environment variables
 

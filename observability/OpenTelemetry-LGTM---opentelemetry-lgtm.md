@@ -16,7 +16,7 @@ On Railway, this template deploys all components with private service networking
 
 | Service | Source | Type |
 |---------|--------|------|
-| OpenTelemetry Collector | [jratienza65/otel-lgtm-railway](https://github.com/jratienza65/otel-lgtm-railway) (root: /otelcol) | Web service |
+| OpenTelemetry Collector | [jratienza65/otel-lgtm-railway](https://github.com/jratienza65/otel-lgtm-railway) (root: /otelcol/gateway) | Web service |
 | Tempo | [jratienza65/otel-lgtm-railway](https://github.com/jratienza65/otel-lgtm-railway) (root: /tempo) | Database |
 | Grafana | [jratienza65/otel-lgtm-railway](https://github.com/jratienza65/otel-lgtm-railway) (root: /grafana) | Web service |
 | Loki | [jratienza65/otel-lgtm-railway](https://github.com/jratienza65/otel-lgtm-railway) (root: /loki) | Database |
@@ -24,28 +24,32 @@ On Railway, this template deploys all components with private service networking
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `PORT` | Tempo | 3200 |
-| `VERSION` | Tempo | 2.9.0 |
-| `PORT` | Grafana | 3000 |
-| `VERSION` | Grafana | 12.3.1 |
-| `GF_PATHS_DATA` | Grafana | /data/grafana |
-| `GF_PLUGINS_PREINSTALL` | Grafana | grafana-simple-json-datasource,grafana-piechart-panel,grafana-geomap-panel,grafana-clock-panel |
-| `GF_SECURITY_ADMIN_USER` | Grafana | (secret) |
-| `GF_DEFAULT_INSTANCE_NAME` | Grafana | LGTM! |
-| `GF_SECURITY_ADMIN_PASSWORD` | Grafana | (secret) |
-| `PORT` | Loki | 3100 |
-| `VERSION` | Loki | 3.6.2 |
-| `PORT` | Prometheus | 9090 |
-| `VERSION` | Prometheus | v3.8.0 |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `PORT` | OpenTelemetry Collector | 13133 | OpenTelemetry Collector's healthcheck port. |
+| `VERSION` | OpenTelemetry Collector | 0.139.0 | OpenTelemetry Collector image tag, passed as a build arg. |
+| `PORT` | Tempo | 3200 | HTTP port Tempo listens on. |
+| `VERSION` | Tempo | 2.9.0 | Tempo image tag, passed as a build arg. |
+| `PORT` | Grafana | 3000 | HTTP port Grafana listens on. |
+| `VERSION` | Grafana | 12.3.1 | Grafana image tag, passed as a build arg. |
+| `GF_PATHS_DATA` | Grafana | /data/grafana | Grafana's data directory. Must match the volume mount path. |
+| `GF_PLUGINS_PREINSTALL` | Grafana | grafana-simple-json-datasource,grafana-piechart-panel,grafana-geomap-panel,grafana-clock-panel | Plugins installed at startup, comma-separated. |
+| `GF_SECURITY_ADMIN_USER` | Grafana | (secret) | Username for the initial admin login. |
+| `GF_DEFAULT_INSTANCE_NAME` | Grafana | LGTM! | Grafana's default instance name. |
+| `GF_SECURITY_ADMIN_PASSWORD` | Grafana | (secret) | Password for the initial admin login. **Mark as secret.** |
+| `PORT` | Loki | 3100 | HTTP port Loki listens on. |
+| `VERSION` | Loki | 3.6.2 | Loki image tag, passed as a build arg. |
+| `PORT` | Prometheus | 9090 | HTTP port Prometheus listens on. |
+| `VERSION` | Prometheus | v3.8.0 | Prometheus image tag, passed as a build arg. |
 
 ## Configuration
 
+- **Healthcheck:** `/ready`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
+- **Healthcheck:** `/api/health`
 - **Volume:** `/data/grafana`
 
-**Category:** Observability · **Languages:** Dockerfile
+**Category:** Observability · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/opentelemetry-lgtm)

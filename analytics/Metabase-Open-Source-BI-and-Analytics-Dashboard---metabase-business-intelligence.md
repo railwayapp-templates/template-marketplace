@@ -18,8 +18,8 @@ Credentials for the data sources you connect are encrypted at rest with a key ge
 
 | Service | Source | Type |
 |---------|--------|------|
-| Metabase | `metabase/metabase:v0.63.5.2` | Web service |
-| Postgres | `postgres:18.4-alpine` | Database |
+| Metabase | `metabase/metabase:v0.63.16.8` | Web service |
+| Postgres | `postgres:18.6-alpine` | Database |
 
 ## Environment variables
 

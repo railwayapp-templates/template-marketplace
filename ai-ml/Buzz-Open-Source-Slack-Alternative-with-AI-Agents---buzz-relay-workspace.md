@@ -34,8 +34,8 @@ Four things this template does that are worth knowing about:
 |---------|--------|------|
 | Pairing | `ghcr.io/block/buzz:0.2.1` | Web service |
 | Buzz | `ghcr.io/block/buzz:0.2.1` | Web service |
-| Redis | `redis:8.10.0-alpine` | Database |
-| Postgres | `postgres:18.4-alpine` | Database |
+| Redis | `redis:8.10.1-alpine` | Database |
+| Postgres | `postgres:18.6-alpine` | Database |
 
 ## Environment variables
 

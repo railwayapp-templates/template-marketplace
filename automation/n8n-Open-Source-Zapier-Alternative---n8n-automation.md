@@ -31,10 +31,10 @@ Details that are easy to get wrong on Railway and are already handled here:
 
 | Service | Source | Type |
 |---------|--------|------|
-| n8n | `n8nio/n8n:2.33.7` | Web service |
-| Postgres | `postgres:18.4-alpine` | Database |
-| Worker | `n8nio/n8n:2.33.7` | Worker |
-| Redis | `redis:8.10.0-alpine` | Database |
+| n8n | `n8nio/n8n:2.38.1` | Web service |
+| Postgres | `postgres:18.6-alpine` | Database |
+| Worker | `n8nio/n8n:2.38.1` | Worker |
+| Redis | `redis:8.10.1-alpine` | Database |
 
 ## Environment variables
 

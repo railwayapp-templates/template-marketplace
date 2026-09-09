@@ -1,6 +1,6 @@
 # Deploy Budibase on Railway
 
-Open source platform for building internal applications
+Open-source low-code platform for agents, apps, and automations
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/FNZJ8t)
 
@@ -22,7 +22,11 @@ Budibase offers flexible hosting options to suit different needs. You can self-h
 | --------- | ------- |
 | `PORT` | 80 |
 | `JWT_SECRET` | (secret) |
+| `COUCH_DB_USER` | (secret) |
+| `REDIS_PASSWORD` | (secret) |
 | `INTERNAL_API_KEY` | (secret) |
+| `MINIO_SECRET_KEY` | (secret) |
+| `COUCH_DB_PASSWORD` | (secret) |
 
 ## Configuration
 

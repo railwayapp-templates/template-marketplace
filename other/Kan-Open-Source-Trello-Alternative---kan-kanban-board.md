@@ -31,7 +31,7 @@ Four things this template does that are worth knowing about:
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `postgres:18.4-alpine` | Database |
+| Postgres | `postgres:18.6-alpine` | Database |
 | Web | `ghcr.io/kanbn/kan:0.6.0` | Web service |
 | Migrate | `ghcr.io/kanbn/kan-migrate:0.6.0` | Worker |
 
