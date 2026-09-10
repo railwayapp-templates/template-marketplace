@@ -1,4 +1,4 @@
-# Deploy croma.aurora33.live on Railway
+# Deploy Croma - Image optimizer on Railway
 
 Optimiza, convierte y reescala tus imágenes
 

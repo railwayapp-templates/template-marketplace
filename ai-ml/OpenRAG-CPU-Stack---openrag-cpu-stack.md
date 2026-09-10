@@ -16,10 +16,10 @@ This template provisions 6 services in one Railway project, with image digests o
 
 | Service | Source | Type |
 |---------|--------|------|
-| opensearch | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
-| backend | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
-| openrag | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Web service |
-| langflow | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Web service |
+| opensearch | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
+| backend | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
+| openrag | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
+| langflow | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
 | docling | `ghcr.io/docling-project/docling-serve-cpu:latest@sha256:576fc2074ac77bcfbf3fe27633aa0dd89b452a170b2cd31689c8751e94d60f7a` | Database |
 | frontend | `langflowai/openrag-frontend:0.7.1@sha256:b85c0f3b8c9c3cd4417ae422d36e61814c04e011942cf50596887844a220d740` | Worker |
 
@@ -101,6 +101,6 @@ This template provisions 6 services in one Railway project, with image digests o
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/langflow-data`
 
-**Category:** AI/ML · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** AI/ML · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/openrag-cpu-stack)

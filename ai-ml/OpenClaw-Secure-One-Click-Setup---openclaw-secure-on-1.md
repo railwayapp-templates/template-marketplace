@@ -1,4 +1,4 @@
-# Deploy OpenClaw 2 — Secure One-Click Setup on Railway
+# Deploy OpenClaw — Secure One-Click Setup on Railway
 
 Secure OpenClaw with browser setup, persistent data, and one-click deploy.
 

@@ -16,8 +16,8 @@ This template provisions 2 services in one Railway project, with image digests o
 
 | Service | Source | Type |
 |---------|--------|------|
-| marker | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
-| marker-api | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Web service |
+| marker | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
+| marker-api | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
 
 ## Environment variables
 
@@ -39,6 +39,6 @@ This template provisions 2 services in one Railway project, with image digests o
 - **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** AI/ML · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** AI/ML · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/marker-pdf-to-markdown-api)

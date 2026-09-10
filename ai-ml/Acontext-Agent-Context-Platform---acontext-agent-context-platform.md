@@ -17,13 +17,13 @@ This template provisions 9 services in one Railway project, with image digests o
 | Service | Source | Type |
 |---------|--------|------|
 | rabbitmq | `rabbitmq:4-management@sha256:ffd1b50c522ad20172ffd6716a2f41db375c7269560c8f3fb9a694e210ef0852` | Database |
-| acontext | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Web service |
+| acontext | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
 | postgres | `pgvector/pgvector:pg16@sha256:ccc6e83d6e35e931dc7c5def2022729d5a6c370318d099181995567ff1fb4d6b` | Database |
 | ui | `ghcr.io/memodb-io/acontext-ui:latest@sha256:b303d1f1894bbe356e4f70483c06a7bfe9c38bcf46a5fff5de2d8826e87ef436` | Worker |
 | api | `ghcr.io/memodb-io/acontext-api:latest@sha256:e6e6b4a15999db7447fc9e460b4e18400c742e1bf1989d9bc29abd030ccd9341` | Web service |
-| storage | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Web service |
+| storage | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
 | jaeger | `jaegertracing/all-in-one:1.75.0@sha256:e493bff54e457ba5827f82418d744a322165cd5d46146607fb76489bfb2a8885` | Worker |
-| core | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Worker |
+| core | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Worker |
 | redis | `redis:7.4@sha256:71da9275c5f3fcb97d0fa0c8c5b36cc995327265420f17a04bfd544f458059f7` | Database |
 
 ## Environment variables
@@ -114,6 +114,6 @@ This template provisions 9 services in one Railway project, with image digests o
 - **Volume:** `/data`
 - **Start command:** `sh -c 'exec redis-server --bind 0.0.0.0 :: --appendonly yes --maxmemory-policy noeviction --requirepass "$REDIS_PASSWORD"'`
 
-**Category:** AI/ML · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** AI/ML · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/acontext-agent-context-platform)

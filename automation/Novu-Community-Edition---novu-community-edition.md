@@ -10,13 +10,13 @@ Novu Community Edition 3.19.0 supplies an API, worker, WebSocket service, and da
 
 Release tested on Railway. See the validation scope below for verified workflows and remaining limitations.
 
-The template defines 7 services with pinned container digests, generated deployment secrets, explicit service references, and persistent volumes for stateful dependencies. Repository-backed adapters build from `codex/remaining-template-drafts`. Railway terminates HTTPS for the public endpoints; databases and internal workers have no public TCP proxies. Fresh initialization was tested in an isolated Railway project. Each deployment has its own database and storage resources. Backups are not scheduled by this template, and filesystem-backed services should remain single-replica.
+The template defines 7 services with pinned container digests, generated deployment secrets, explicit service references, and persistent volumes for stateful dependencies. Repository-backed adapters build from `main`. Railway terminates HTTPS for the public endpoints; databases and internal workers have no public TCP proxies. Fresh initialization was tested in an isolated Railway project. Each deployment has its own database and storage resources. Backups are not scheduled by this template, and filesystem-backed services should remain single-replica.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| storage | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
+| storage | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
 | ws | `ghcr.io/novuhq/novu/ws:3.19.0@sha256:00aa8b9f080da2af443269af672c00b7561556d7adb4b097b4e54c2127de61e5` | Web service |
 | mongodb | `mongo:8.0.17@sha256:9814652e33f0cf8b9fddea8b46dfc9d8e19b130dcfdd7b510ca58bb0d40c8b71` | Database |
 | redis | `redis:7.4@sha256:71da9275c5f3fcb97d0fa0c8c5b36cc995327265420f17a04bfd544f458059f7` | Database |
@@ -121,6 +121,6 @@ The template defines 7 services with pinned container digests, generated deploym
 - **Start command:** `sh -c 'exec redis-server --bind 0.0.0.0 :: --appendonly yes --maxmemory-policy noeviction --requirepass "$REDIS_PASSWORD"'`
 - **Healthcheck:** `/`
 
-**Category:** Automation · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** Automation · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/novu-community-edition)

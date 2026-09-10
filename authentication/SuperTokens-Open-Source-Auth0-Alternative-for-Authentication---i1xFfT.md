@@ -17,7 +17,7 @@ The core gets a public domain so a backend deployed elsewhere can reach it; Post
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16.15` | Database |
-| supertokens-core | `supertokens/supertokens-postgresql:12.0.10` | Database |
+| supertokens-core | `supertokens/supertokens-postgresql:12.2.0` | Database |
 
 ## Environment variables
 

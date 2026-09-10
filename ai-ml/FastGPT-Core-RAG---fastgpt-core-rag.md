@@ -18,11 +18,11 @@ This template provisions 9 services in one Railway project, with image digests o
 |---------|--------|------|
 | aiproxy | `ghcr.io/labring/aiproxy:v0.6.5@sha256:9b2d9148c8d8a09d2e70577b492b7b32aab5877fe48c2c78a6d300005f4d42bb` | Worker |
 | redis | `redis:7.4@sha256:71da9275c5f3fcb97d0fa0c8c5b36cc995327265420f17a04bfd544f458059f7` | Database |
-| storage | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
+| storage | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
 | plugin | `ghcr.io/labring/fastgpt-plugin:v1.1.2@sha256:80049419369c7c8ad207acc09d7df0a62fdeafcb489651d3b2bdad769f6dc6a2` | Worker |
 | vector | `pgvector/pgvector:0.8.0-pg15@sha256:1dec32aaba982ea73c51e93bee0319abf54150110321e24101c3d9de0b88db98` | Database |
 | fastgpt | `ghcr.io/labring/fastgpt:v4.16.2@sha256:23f0f23e69d8c22f547bc8887d7089a87bbef10e67fa239489bcc241cff6ee1e` | Web service |
-| mongo | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
+| mongo | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
 | code-sandbox | `ghcr.io/labring/fastgpt-code-sandbox:v4.16.0@sha256:4ba4613d7fa6534e72a3adbfe3cd26f6617ba55df99e21d71a8fe7c6ebff36ab` | Worker |
 | aiproxy-db | `postgres:15@sha256:9b1d34adbce1dd07ee6e94b4a2cf698884b89bd44a6c9c12f5da8f3acbfe4957` | Database |
 
@@ -118,6 +118,6 @@ This template provisions 9 services in one Railway project, with image digests o
 - **Volume:** `/var/lib/postgresql/data`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** AI/ML · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** AI/ML · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/fastgpt-core-rag)

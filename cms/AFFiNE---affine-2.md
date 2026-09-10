@@ -14,9 +14,9 @@ This three-service deployment hosts AFFiNE with PostgreSQL/pgvector and Valkey. 
 
 | Service | Source | Type |
 |---------|--------|------|
-| affine | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/railway-template-release) | Web service |
+| affine | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
 | redis | `valkey/valkey@sha256:e0eb7c480958d32bdc4357a74bdd70653ae15f2f9b4c93c4a5a9fad1dc471c84` | Database |
-| postgres | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/railway-template-release) | Database |
+| postgres | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
 
 ## Environment variables
 
@@ -52,6 +52,6 @@ This three-service deployment hosts AFFiNE with PostgreSQL/pgvector and Valkey. 
 - **Volume:** `/data`
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** CMS · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** CMS · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/affine-2)

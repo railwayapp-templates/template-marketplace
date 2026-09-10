@@ -24,12 +24,13 @@ On startup, the entrypoint initializes Hermes under `/data/.hermes`, writes runt
 | --------- | ------- |
 | `OPENROUTER_API_KEY` | (secret) |
 | `TELEGRAM_BOT_TOKEN` | (secret) |
+| `HERMES_IMAGE_VERSION` | latest |
 | `AGENT_CACHE_MEMORY_HIGH_MB` | 750 |
 
 ## Configuration
 
 - **Volume:** `/data`
 
-**Category:** AI/ML · **Languages:** Shell, Dockerfile
+**Category:** AI/ML · **Languages:** Shell, Dockerfile, TypeScript
 
 [View on Railway →](https://railway.com/deploy/hermes-railway-template)

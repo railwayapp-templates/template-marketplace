@@ -16,8 +16,8 @@ This template provisions 3 services in one Railway project, with image digests o
 
 | Service | Source | Type |
 |---------|--------|------|
-| bettafish | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Web service |
-| app | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
+| bettafish | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
+| app | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
 | postgres | `postgres:15@sha256:9b1d34adbce1dd07ee6e94b4a2cf698884b89bd44a6c9c12f5da8f3acbfe4957` | Database |
 
 ## Environment variables
@@ -79,6 +79,6 @@ This template provisions 3 services in one Railway project, with image digests o
 - **Volume:** `/data`
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** AI/ML · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** AI/ML · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/bettafish-research-reports)

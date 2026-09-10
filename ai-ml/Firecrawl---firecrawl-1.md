@@ -15,7 +15,7 @@ This six-service deployment puts a small API-key gateway in front of Firecrawl, 
 | Service | Source | Type |
 |---------|--------|------|
 | api | `ghcr.io/firecrawl/firecrawl@sha256:03c94c9f99e0e4fc4ab9c844d2f64abb649396503180b14aeaf0a1169da88bab` | Worker |
-| firecrawl | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/railway-template-release) | Web service |
+| firecrawl | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
 | redis | `redis:7.4@sha256:71da9275c5f3fcb97d0fa0c8c5b36cc995327265420f17a04bfd544f458059f7` | Database |
 | postgres | `ghcr.io/firecrawl/nuq-postgres@sha256:aed86f62858f29bd971abddcdeb301c12888098d2cf5d33c1ba42b053bc460f6` | Database |
 | browser | `ghcr.io/firecrawl/playwright-service@sha256:df1a393ce8bfc3801570a826a9b0dcc400ae48789adb4a0ad9d6cbf0229b059b` | Worker |
@@ -73,6 +73,6 @@ This six-service deployment puts a small API-key gateway in front of Firecrawl, 
 - **Volume:** `/var/lib/postgresql/data`
 - **Volume:** `/var/lib/rabbitmq`
 
-**Category:** AI/ML · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** AI/ML · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/firecrawl-1)

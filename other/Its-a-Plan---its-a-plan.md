@@ -63,6 +63,6 @@ The stack is four services, a database and a bucket. Each service runs a publish
 - **Networking:** Public domain with automatic HTTPS
 - **Healthcheck:** `/`
 
-**Category:** Other
+**Category:** Other · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/its-a-plan)

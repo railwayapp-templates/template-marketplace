@@ -10,14 +10,14 @@ A working Node.js service built with DBOS SDK 4.27.6 accepts authenticated JSON 
 
 Verified in an isolated Railway deployment. See the validation scope below for the checks performed and operational limits.
 
-The template defines 2 services with pinned container digests, generated deployment secrets, explicit service references, and persistent volumes for stateful dependencies. Repository-backed adapters build from `codex/remaining-template-drafts`. Railway terminates HTTPS for the public endpoints; databases and internal workers have no public TCP proxies. Cold-start initialization was verified in a fresh Railway project. Each deployment has its own database and storage resources. Backups are not scheduled by this template, and filesystem-backed services should remain single-replica.
+The template defines 2 services with pinned container digests, generated deployment secrets, explicit service references, and persistent volumes for stateful dependencies. Repository-backed adapters build from `main`. Railway terminates HTTPS for the public endpoints; databases and internal workers have no public TCP proxies. Cold-start initialization was verified in a fresh Railway project. Each deployment has its own database and storage resources. Backups are not scheduled by this template, and filesystem-backed services should remain single-replica.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
 | postgres | `postgres:17@sha256:67f41722b7a8cbdb868a44a4995c846eddfdc2973bccb291ce937dce88ad5675` | Database |
-| dbos | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Web service |
+| dbos | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
 
 ## Environment variables
 
@@ -37,6 +37,6 @@ The template defines 2 services with pinned container digests, generated deploym
 - **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Automation · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** Automation · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/dbos-durable-webhooks)

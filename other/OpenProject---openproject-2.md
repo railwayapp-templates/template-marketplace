@@ -14,8 +14,8 @@ This two-service deployment pairs the OpenProject all-in-one image with a dedica
 
 | Service | Source | Type |
 |---------|--------|------|
-| postgres | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/railway-template-release) | Database |
-| openproject | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/railway-template-release) | Web service |
+| postgres | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
+| openproject | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
 
 ## Environment variables
 
@@ -50,6 +50,6 @@ This two-service deployment pairs the OpenProject all-in-one image with a dedica
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/openproject/assets`
 
-**Category:** Other · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** Other · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/openproject-2)

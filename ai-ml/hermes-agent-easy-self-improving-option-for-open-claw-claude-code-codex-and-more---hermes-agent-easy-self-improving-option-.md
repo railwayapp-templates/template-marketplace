@@ -2,7 +2,7 @@
 
 The simplest curated setup for an Hermes Agent. Curated by impacte.tech
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/impacte-hermes-agent)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-easy-self-improving-option-)
 
 ## About
 
@@ -34,4 +34,4 @@ We recommend Railway as infrastructure provider
 
 **Category:** AI/ML · **Languages:** HTML, Python, Dockerfile, Shell
 
-[View on Railway →](https://railway.com/deploy/impacte-hermes-agent)
+[View on Railway →](https://railway.com/deploy/hermes-agent-easy-self-improving-option-)

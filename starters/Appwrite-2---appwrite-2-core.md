@@ -10,20 +10,20 @@ An Appwrite 2.0.0 core-services template with its console, PostgreSQL, a MongoDB
 
 Release tested on Railway for the core workflows below. Functions and Sites execution are excluded.
 
-The template defines 8 services with pinned container digests, generated deployment secrets, explicit service references, and persistent volumes for stateful dependencies. Repository-backed adapters build from `codex/remaining-template-drafts`. Railway terminates HTTPS for the public endpoints; databases and internal workers have no public TCP proxies. Services initialize independently. Let databases become ready before checking the API after a full-stack restart. Each deployment has its own database and storage resources. Backups are not scheduled by this template, and filesystem-backed services should remain single-replica.
+The template defines 8 services with pinned container digests, generated deployment secrets, explicit service references, and persistent volumes for stateful dependencies. Repository-backed adapters build from `main`. Railway terminates HTTPS for the public endpoints; databases and internal workers have no public TCP proxies. Services initialize independently. Let databases become ready before checking the API after a full-stack restart. Each deployment has its own database and storage resources. Backups are not scheduled by this template, and filesystem-backed services should remain single-replica.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
 | console | `appwrite/new:1.1.16@sha256:28d528e6f02c00d369baf44ee56dea153bd7cc6bf7bcb33961349eb7ad7a44d8` | Worker |
-| appwrite | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Web service |
-| realtime | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Worker |
+| appwrite | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
+| realtime | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Worker |
 | postgres | `appwrite/postgres:0.1.0@sha256:77156232a16d80f5830d914edb44f52a0853058939f2365cc3301d08db9d05e9` | Database |
 | geo | `appwrite/geo:0.3.1@sha256:df3751399945ec22661f23d745d66ed3b06a61f70ac4d77a1e9011ea17797653` | Worker |
 | redis | `redis:7.4@sha256:71da9275c5f3fcb97d0fa0c8c5b36cc995327265420f17a04bfd544f458059f7` | Database |
-| mongodb | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
-| core | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
+| mongodb | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
+| core | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
 
 ## Environment variables
 
@@ -135,6 +135,6 @@ The template defines 8 services with pinned container digests, generated deploym
 - **Volume:** `/data`
 - **Volume:** `/storage`
 
-**Category:** Starters · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** Starters · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/appwrite-2-core)

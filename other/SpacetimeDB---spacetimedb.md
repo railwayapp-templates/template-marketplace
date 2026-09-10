@@ -27,6 +27,6 @@ At this point SpacetimeDB is ready to run multiple databases that can be publish
 - **TCP Proxies:** 3000
 - **Volume:** `/stdb`
 
-**Category:** Other
+**Category:** Other · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/spacetimedb)

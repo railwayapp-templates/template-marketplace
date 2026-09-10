@@ -14,11 +14,11 @@ This five-service deployment combines the survey application, Hub, Cube analytic
 
 | Service | Source | Type |
 |---------|--------|------|
-| hub | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/railway-template-release) | Worker |
+| hub | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Worker |
 | redis | `valkey/valkey@sha256:e0eb7c480958d32bdc4357a74bdd70653ae15f2f9b4c93c4a5a9fad1dc471c84` | Database |
-| postgres | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/railway-template-release) | Database |
-| formbricks | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/railway-template-release) | Web service |
-| cube | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/railway-template-release) | Worker |
+| postgres | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
+| formbricks | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
+| cube | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Worker |
 
 ## Environment variables
 
@@ -78,6 +78,6 @@ This five-service deployment combines the survey application, Hub, Cube analytic
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/home/nextjs/apps/web/uploads`
 
-**Category:** Analytics · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** Analytics · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/formbricks)

@@ -10,21 +10,21 @@ AppFlowy Cloud 0.18.3 is paired with worker 0.18.3, the digest-pinned administra
 
 Release tested on Railway for the workflows below. The unlicensed server reports a one-user and three-guest limit; review upstream licensing before planning a team deployment.
 
-The template defines 9 services with pinned container digests, generated deployment secrets, explicit service references, and persistent volumes for stateful dependencies. Repository-backed adapters build from `codex/remaining-template-drafts`. Railway terminates HTTPS for the public endpoints; databases and internal workers have no public TCP proxies. Services initialize independently; wait for database migrations and the cloud API before opening the frontend. Each deployment has its own database and storage resources. Backups are not scheduled by this template, and filesystem-backed services should remain single-replica.
+The template defines 9 services with pinned container digests, generated deployment secrets, explicit service references, and persistent volumes for stateful dependencies. Repository-backed adapters build from `main`. Railway terminates HTTPS for the public endpoints; databases and internal workers have no public TCP proxies. Services initialize independently; wait for database migrations and the cloud API before opening the frontend. Each deployment has its own database and storage resources. Backups are not scheduled by this template, and filesystem-backed services should remain single-replica.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
 | web | `appflowyinc/appflowy_web:0.17.1@sha256:dedc8ded52c89500bbc7db48fa80e04687b97e1e2623d687ecaa47b3dae895b4` | Worker |
-| storage | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Web service |
+| storage | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
 | worker | `appflowyinc/appflowy_worker:0.18.3@sha256:68749ee2cac1e08173b1430376e09b99b30be74fb8dc5e7a576a90437702dc58` | Worker |
-| postgres | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
+| postgres | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
 | redis | `redis:7.4@sha256:71da9275c5f3fcb97d0fa0c8c5b36cc995327265420f17a04bfd544f458059f7` | Database |
 | admin | `appflowyinc/admin_frontend:latest@sha256:600f3b98197e41a34e504aaaa4db361cc864682f94b31090daeff5223e4c59e8` | Worker |
 | cloud | `appflowyinc/appflowy_cloud:0.18.3@sha256:de5e3e1eaaa7482c85cfce6adeb9e8e2a7f41b65c1e7301d5ce06d33b6c80b1e` | Worker |
 | gotrue | `appflowyinc/gotrue:latest@sha256:647abb4fc8925fc5fee8e2f4dc307559a55751a7b72f3257592959c93c952f5a` | Worker |
-| appflowy | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Web service |
+| appflowy | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
 
 ## Environment variables
 
@@ -117,6 +117,6 @@ The template defines 9 services with pinned container digests, generated deploym
 - **Start command:** `sh -c 'exec redis-server --bind 0.0.0.0 :: --appendonly yes --maxmemory-policy noeviction --requirepass "$REDIS_PASSWORD"'`
 - **Healthcheck:** `/healthz`
 
-**Category:** CMS · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** CMS · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/appflowy-cloud)

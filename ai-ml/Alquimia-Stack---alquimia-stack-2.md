@@ -23,7 +23,7 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 | vault | `alquimiaai/vault-railway:20260529` | Worker |
 | trustlens | `alquimiaai/trustlens:stable-20260714-1613` | Worker |
 | studio | `alquimiaai/studio:latest-20260907-1748` | Web service |
-| runtime | `alquimiaai/runtime:0.4.3` | Web service |
+| runtime | `alquimiaai/runtime:0.5.0` | Web service |
 | qdrant | `qdrant/qdrant:latest` | Database |
 | minio | `quay.io/minio/minio:latest` | Database |
 | trustlens-postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |

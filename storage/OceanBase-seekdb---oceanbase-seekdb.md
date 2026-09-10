@@ -16,7 +16,7 @@ This template provisions 1 services in one Railway project, with image digests o
 
 | Service | Source | Type |
 |---------|--------|------|
-| seekdb | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Web service |
+| seekdb | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
 
 ## Environment variables
 
@@ -37,6 +37,6 @@ This template provisions 1 services in one Railway project, with image digests o
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/seekdb`
 
-**Category:** Storage · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** Storage · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/oceanbase-seekdb)

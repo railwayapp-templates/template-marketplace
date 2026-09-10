@@ -17,16 +17,16 @@ This template provisions 11 services in one Railway project, with image digests 
 | Service | Source | Type |
 |---------|--------|------|
 | redis | `redis:7.4@sha256:71da9275c5f3fcb97d0fa0c8c5b36cc995327265420f17a04bfd544f458059f7` | Database |
-| web | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Worker |
-| elasticsearch | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
+| web | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Worker |
+| elasticsearch | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
 | nsqlookupd | `nsqio/nsq:v1.2.1@sha256:aa1ac075d45fc3dccaafbe180b8dea5421bfc17df7a9699693987ef35b5be4ad` | Worker |
 | milvus | `milvusdb/milvus:v2.5.10@sha256:02e1d60d71ab60f435c60076f4fed2abe59602ecd5e18dcfe229c8c558c4379d` | Database |
-| backend | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Worker |
-| etcd | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
+| backend | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Worker |
+| etcd | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
 | nsqd | `nsqio/nsq:v1.2.1@sha256:aa1ac075d45fc3dccaafbe180b8dea5421bfc17df7a9699693987ef35b5be4ad` | Database |
-| coze-studio | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Web service |
-| mysql | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
-| storage | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Database |
+| coze-studio | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
+| mysql | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
+| storage | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
 
 ## Environment variables
 
@@ -123,6 +123,6 @@ This template provisions 11 services in one Railway project, with image digests 
 - **Start command:** `docker-entrypoint.sh mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci`
 - **Volume:** `/var/lib/mysql`
 
-**Category:** AI/ML · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** AI/ML · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/coze-studio)

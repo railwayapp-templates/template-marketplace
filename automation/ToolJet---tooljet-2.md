@@ -15,8 +15,8 @@ This four-service deployment combines ToolJet Community Edition, PostgreSQL, Pos
 | Service | Source | Type |
 |---------|--------|------|
 | redis | `valkey/valkey@sha256:e0eb7c480958d32bdc4357a74bdd70653ae15f2f9b4c93c4a5a9fad1dc471c84` | Database |
-| postgres | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/railway-template-release) | Database |
-| tooljet | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/railway-template-release) | Web service |
+| postgres | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Database |
+| tooljet | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
 | postgrest | `postgrest/postgrest:v12.0.2@sha256:79369c0cdf9d7112ed4e327bc1b80156be11575dd66fbda245077a2d13b803bc` | Database |
 
 ## Environment variables
@@ -78,6 +78,6 @@ This four-service deployment combines ToolJet Community Edition, PostgreSQL, Pos
 - **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Automation · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** Automation · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/tooljet-2)

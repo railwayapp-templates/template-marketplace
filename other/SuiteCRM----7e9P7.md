@@ -6,17 +6,15 @@ Open-source CRM for sales, marketing, service, and workflow automation
 
 ## About
 
-**SuiteCRM** is an open-source, enterprise-ready Customer Relationship Management (CRM) platform that brings sales, marketing, customer service, reporting, and workflow automation together in one place.
+**SuiteCRM** is an open-source Customer Relationship Management (CRM) platform that brings sales, marketing, customer service, reporting, and workflow automation together in one place.
 
-With SuiteCRM, teams can manage leads, contacts, accounts, opportunities, campaigns, customer cases, activities, quotes, contracts, and more while maintaining control over their CRM data and customization.
+With SuiteCRM, teams can manage leads, contacts, accounts, opportunities, campaigns, customer cases, activities, quotes, contracts, and more.
 
-Hosting SuiteCRM on Railway provides a simple way to run a self-hosted CRM without managing a traditional server environment.
+This template provides a Railway-ready deployment of SuiteCRM using the official SuiteCRM source release.
 
-This template simplifies the deployment of SuiteCRM and provides the infrastructure required to run the application with persistent storage and a MySQL database.
+The application runs with PHP, Apache, MySQL, persistent storage, and an automated SuiteCRM scheduler.
 
-Railway makes it easy to deploy, manage, monitor, and maintain your SuiteCRM environment from a single platform.
-
-The application is designed to use a persistent Railway Volume so that SuiteCRM files and configuration survive container restarts and redeployments.
+A Railway Volume preserves the SuiteCRM application, configuration, uploads, customizations, cache, and other data across restarts and redeployments.
 
 ## What gets deployed
 
@@ -39,9 +37,6 @@ The application is designed to use a persistent Railway Volume so that SuiteCRM 
 | `MYSQL_PUBLIC_URL` | MySQL | - | URL to connect to MySQL DB, used for Data panel. |
 | `MYSQL_ROOT_PASSWORD` | MySQL | (secret) | Root password for MySQL DB. |
 | `PORT` | SuiteCRM | 8080 | - |
-| `SUITECRM_EMAIL` | SuiteCRM | - | Enter your system administrator email |
-| `SUITECRM_PASSWORD` | SuiteCRM | (secret) | Enter the system administrator password |
-| `SUITECRM_USERNAME` | SuiteCRM | (secret) | Enter the system administrator username |
 | `SUITECRM_ENABLE_HTTPS` | SuiteCRM | no | - |
 | `SUITECRM_DATABASE_USER` | SuiteCRM | (secret) | - |
 | `SUITECRM_DATABASE_PASSWORD` | SuiteCRM | (secret) | - |

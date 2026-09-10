@@ -1,6 +1,6 @@
 # Deploy Opencode Server on Railway
 
-Opencode fully featured server for AI Agents. Web desktop & server mode.
+Opencode fully featured server for AI Agents. Web, Server, and CLI mode.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opencode-server)
 

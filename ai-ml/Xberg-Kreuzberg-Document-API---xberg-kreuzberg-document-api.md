@@ -17,7 +17,7 @@ This template provisions 2 services in one Railway project, with image digests o
 | Service | Source | Type |
 |---------|--------|------|
 | extractor | `ghcr.io/xberg-io/xberg:1.1.2@sha256:33ce549f7730212336a60048335fc059be4a838bf415b96321906428c847ce60` | Worker |
-| xberg | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: codex/remaining-template-drafts) | Web service |
+| xberg | [orenaksakal/railway-templates](https://github.com/orenaksakal/railway-templates) (branch: main) | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,6 @@ This template provisions 2 services in one Railway project, with image digests o
 - **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** AI/ML · **Languages:** JavaScript, Python, Shell, Dockerfile
+**Category:** AI/ML · **Languages:** Python, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/xberg-kreuzberg-document-api)

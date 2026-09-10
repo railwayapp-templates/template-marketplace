@@ -35,13 +35,14 @@ This template deploys a lean, production-ready two-service stack:
 | `OPENAI_API_KEY` | open-webui | (secret) | open ai api key |
 | `ENABLE_OLLAMA_API` | open-webui | - | flag to enable open ai compatible endpoint |
 | `OPENAI_API_BASE_URL` | open-webui | - | openai compatible base url |
+| `MODEL_HF` | llama-server | ggml-org/Qwen3.5-0.8B-GGUF:Q4_0 | model to pull from hugging face |
 | `LLAMA_CACHE` | llama-server | /models | llama cache |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/backend/data`
-- **Start command:** `/app/llama-server -hf ggml-org/Qwen3.5-0.8B-GGUF:Q4_0 --host 0.0.0.0 --port 8080 --threads 4 --ctx-size 4096`
+- **Start command:** `/app/llama-server -hf ${MODEL_HF} --host 0.0.0.0 --port 8080 --threads 4 --ctx-size 4096`
 - **Volume:** `/models`
 
 **Category:** AI/ML
