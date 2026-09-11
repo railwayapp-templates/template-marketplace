@@ -1,6 +1,6 @@
 # Deploy TimescaleDB + PostGIS | Open Source Time-Series and Geospatial Postgres on Railway
 
-Postgres 18 with TimescaleDB and PostGIS — time-series and geospatial in one DB
+Postgres 18, TimescaleDB and PostGIS — time-series and geospatial in one DB
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/timescale-postgis)
 
@@ -8,7 +8,7 @@ Postgres 18 with TimescaleDB and PostGIS — time-series and geospatial in one D
 
 TimescaleDB turns PostgreSQL into a time-series database: hypertables partition by time automatically, `time_bucket` and continuous aggregates make rollups cheap, and compression cuts storage on old data. PostGIS adds geometry types and spatial indexes. This template ships both in one database, so a row can carry a timestamp and a location and you can query on either.
 
-This template runs the official `timescale/timescaledb-ha` image on a pinned stable tag — PostgreSQL 18.4 with TimescaleDB 2.29.1 — with the cluster on a persistent Railway volume. Nothing is rebuilt or forked, so upstream releases and upstream security fixes are what you get.
+This template runs the official `timescale/timescaledb-ha` image on a pinned stable tag — PostgreSQL 18.6 with TimescaleDB 2.30.0 — with the cluster on a persistent Railway volume. Nothing is rebuilt or forked, so upstream releases and upstream security fixes are what you get.
 
 The image tag matters more than it looks. Timescale publishes several builds of the same version, and only the `-all` one carries the full extension set including PostGIS; the plain tag would give you Timescale alone. On top of that, **the extensions are already created for you** — `timescaledb`, `timescaledb_toolkit` and `postgis` are all present in the database on first connect, so `create_hypertable` and `ST_MakePoint` work immediately rather than after two `CREATE EXTENSION` statements you had to know about.
 
@@ -18,7 +18,7 @@ There is no public HTTP endpoint, because nothing here speaks HTTP. The database
 
 | Service | Source | Type |
 |---------|--------|------|
-| TimescaleDB | `timescale/timescaledb-ha:pg18.4-ts2.29.1-all` | Database |
+| TimescaleDB | `timescale/timescaledb-ha:pg18.6-ts2.30.0-all` | Database |
 
 ## Environment variables
 

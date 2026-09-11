@@ -6,11 +6,9 @@ Template for Hermes Agent by Nous Research
 
 ## About
 
-hermes-railway-template is a Railway-ready deployment for [Hermes Agent](https://github.com/NousResearch/hermes-agent), configured as a worker service with persistent state. It builds Hermes from a pinned upstream tag or commit, bootstraps Hermes on first run using Railway Variables, then reuses saved configuration and state from a mounted volume. The template supports Telegram, Discord, or Slack and works with OpenRouter, OpenAI-compatible providers, or Anthropic.
+Hermes Agent is the open-source, self-improving AI agent built by Nous Research. This Railway template runs its official Docker image as an always-on worker, connects it to Telegram, Discord, or Slack, and preserves configuration, conversations, skills, schedules, and memory across redeployments on a persistent volume.
 
-Hosting hermes-railway-template on Railway centers on a worker-first runtime with persistent storage. During setup, you deploy the service as a worker, mount a volume at `/data`, set `HERMES_GIT_REF` to a pinned Hermes Agent tag or commit, and provide required environment variables for both an inference provider and at least one messaging platform.
-
-On startup, the entrypoint initializes Hermes under `/data/.hermes`, writes runtime environment values from Railway Variables into `${HERMES_HOME}/.env`, creates `${HERMES_HOME}/config.yaml` if missing, and records a first-run marker at `${HERMES_HOME}/.initialized`. On subsequent boots, the persisted Hermes home is reused while runtime variables are refreshed from Railway. The container then starts the Hermes messaging gateway as a Railway worker, giving you a stable bot deployment that can survive restarts and redeploys while keeping credentials and access controls managed through Railway Variables.
+Hosting Hermes Agent on Railway gives you a persistent messaging gateway without maintaining a VPS or Docker host. The template mounts a volume at `/data`, keeps Hermes state under `/data/.hermes`, and starts `hermes gateway` automatically. Configure one supported inference provider and at least one messaging platform through Railway Variables, then add your user ID to the platform allowlist. New deployments use the official `nousresearch/hermes-agent` image, with the version controlled by `HERMES_IMAGE_VERSION`. Railway handles deployment, restarts, logs, secrets, and SSH access while Hermes retains its configuration and learned state between container replacements.
 
 ## What gets deployed
 

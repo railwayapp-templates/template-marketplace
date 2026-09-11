@@ -22,10 +22,10 @@ Three decisions shape this deployment, and all three go the other way in most se
 
 | Service | Source | Type |
 |---------|--------|------|
-| Temporal UI | `temporalio/ui:2.53.1` | Worker |
+| Temporal UI | `temporalio/ui:2.54.0` | Worker |
 | Auth Gateway | `caddy:2.11.4-alpine` | Web service |
 | Temporal | `temporalio/auto-setup:1.29.7` | Worker |
-| Postgres | `postgres:18.4-alpine` | Database |
+| Postgres | `postgres:18.6-alpine` | Database |
 
 ## Environment variables
 

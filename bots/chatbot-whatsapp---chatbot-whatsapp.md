@@ -1,14 +1,14 @@
 # Deploy chatbot-whatsapp on Railway
 
-WhatsApp Gateway + Evolution API with multi-LLM bots
+Evolution API + WhatsApp Gateway con bots multi-LLM
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chatbot-whatsapp)
 
 ## About
 
-One-click production stack: Evolution API (WhatsApp), Postgres, Redis, MySQL, and a ProfesIA-branded gateway UI with multi-LLM bots (Gemini, OpenAI, Claude, Groq).
+Stack de producción de un clic: Evolution API (WhatsApp), Postgres, Redis, MySQL y una UI de gateway con marca ProfesIA y bots multi-LLM (Gemini, OpenAI, Claude, Groq).
 
-This template provisions a full WhatsApp operations stack on Railway: Evolution API for WhatsApp sessions, a gateway UI for QR linking / chats / bots, plus Postgres, Redis, MySQL, and a persistent volume for device sessions.
+Esta plantilla provisiona un stack completo de operaciones de WhatsApp en Railway: Evolution API para las sesiones de WhatsApp, una UI de gateway para vincular QR / chats / bots, más Postgres, Redis, MySQL y un volumen persistente para las sesiones del dispositivo.
 
 ## What gets deployed
 

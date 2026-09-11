@@ -1,4 +1,4 @@
-# Deploy appwrite on Railway
+# Deploy Appwrite on Railway
 
 Open-source Firebase alternative: auth, databases, storage, realtime.
 

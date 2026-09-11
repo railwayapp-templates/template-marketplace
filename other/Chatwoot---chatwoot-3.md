@@ -1,4 +1,4 @@
-# Deploy chatwoot on Railway
+# Deploy Chatwoot on Railway
 
 Open-source customer support platform: alternative to Intercom and Zendesk.
 

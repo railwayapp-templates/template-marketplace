@@ -1,6 +1,6 @@
 # Deploy Tallylamp on Railway
 
-Persistent Chrome for MCP agents. Watch live and take control when needed.
+Headed Chrome for MCP agents. Saved logins, live view, and human takeover.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tallylamp)
 
@@ -8,9 +8,14 @@ Persistent Chrome for MCP agents. Watch live and take control when needed.
 
 Give your AI agent a browser you can watch and take over.
 
-Tallylamp runs Chrome on your server and keeps its profile between sessions.
-Your agent drives the browser through MCP. You can watch it live, take control
-to sign in or finish a verification step, then return control to the agent.
+[Tallylamp](https://tallylamp.dev) gives your agent full, headed Chrome with a
+display and Chrome's normal user agent. Each browser saves its own profile by
+default, including cookies, logins, and local storage. Your agent can come back
+to that profile for its next task instead of starting with an empty browser.
+
+Your agent drives the browser through MCP. You can watch the same browser live,
+take control to sign in or finish a verification step, then return it to the agent.
+Websites can still expire logins or ask you to sign in again.
 
 Tallylamp is open source under the MIT license. You pay Railway for the
 infrastructure used by your deployment.
@@ -27,7 +32,7 @@ the public domain, and use it to sign into the dashboard.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:2326b4961e1c84228538a8b8b8b91fe3f1fb749115924f8f4152ebf8418ae268` | Web service |
+| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:00d81c7e569951d7ed81d4d9a09d4967efbd6961f27afcc8c69ba30ec2d27075` | Web service |
 
 ## Environment variables
 
