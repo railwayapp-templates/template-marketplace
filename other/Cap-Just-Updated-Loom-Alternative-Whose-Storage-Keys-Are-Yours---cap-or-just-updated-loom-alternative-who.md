@@ -16,7 +16,7 @@ The template deploys four services: `cap-web` (the Next.js app and API, the only
 |---------|--------|------|
 | mediaserver | `ghcr.io/capsoftware/cap-media-server@sha256:cb88092bd44e5276c5e82bca5261f169bbe01d8e30439c4ebb8db8f89eb599fa` | Worker |
 | cap-web | `ghcr.io/capsoftware/cap-web@sha256:a15efd82c37442d01fa95c4d94954baa1a84b20b8289b758d293fc51b1eb5d54` | Web service |
-| minio | `minio/minio@sha256:14cea493d9a34af32f524e538b8346cf79f3321eff8e708c1e2960462bd8936e` | Database |
+| minio | `quay.io/minio/minio@sha256:14cea493d9a34af32f524e538b8346cf79f3321eff8e708c1e2960462bd8936e` | Database |
 | mysql | `mysql@sha256:9c3380eac945af0736031b200027f581925927c81e010056214a4bd6b6693714` | Database |
 
 ## Environment variables

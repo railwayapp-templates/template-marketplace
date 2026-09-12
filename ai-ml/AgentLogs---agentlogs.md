@@ -14,7 +14,7 @@ Hosting AgentLogs involves deploying a web server that collects, analyzes, and s
 
 | Service | Source | Type |
 |---------|--------|------|
-| AgentLogs | `ghcr.io/agentlogs/agentlogs@sha256:5bb244f910cbbd78cde27558aed6df7071974d86d9cc0045b5905d4b3c028881` | Web service |
+| AgentLogs | `ghcr.io/agentlogs/agentlogs@sha256:932216e9150cb43e6ed6c347ba135fb82888665b6d0eaefbda146bc9e376dab1` | Web service |
 
 ## Environment variables
 

@@ -14,7 +14,7 @@ This template runs the official `minio/minio` image wired for Railway. MinIO ser
 
 | Service | Source | Type |
 |---------|--------|------|
-| minio | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
+| minio | `quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
 
 ## Environment variables
 

@@ -15,7 +15,7 @@ Sign in as `admin` with `WGER_ADMIN_PASSWORD`.
 | Service | Source | Type |
 |---------|--------|------|
 | wger | [monotykamary/railway-template-wger](https://github.com/monotykamary/railway-template-wger) | Web service |
-| postgres | `postgres:17.6-alpine` | Database |
+| postgres | `postgres:17.11-alpine@sha256:18cfe3ef5e6815560c98237d6216d1e5119702fb0f3894c8785dd58b8bbe5d73` | Database |
 
 ## Environment variables
 

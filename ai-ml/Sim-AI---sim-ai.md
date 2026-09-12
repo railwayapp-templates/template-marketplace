@@ -6,7 +6,7 @@ Deploy and Host Sim AI with Railway
 
 ## About
 
-Deploy Sim AI `v0.8.2`, an open-source visual platform for building, running, and scheduling AI-agent workflows.
+Deploy Sim AI `v0.8.33`, an open-source visual platform for building, running, and scheduling AI-agent workflows.
 
 This template deploys five coordinated services: the Sim web application and API, its realtime Socket.IO service, PostgreSQL 17 with pgvector, a one-shot database migration job, and the Sim cron scheduler. The application and realtime service each receive a Railway HTTPS domain; PostgreSQL, migrations, and cron remain private.
 
@@ -16,11 +16,11 @@ Open the `simstudio` domain to register the first account. Configure model-provi
 
 | Service | Source | Type |
 |---------|--------|------|
-| realtime | `ghcr.io/simstudioai/realtime:v0.8.2@sha256:dd72bef164e69fed345f52feca98663dcdba0409bbb6da439e623992d0b30f67` | Web service |
-| simstudio | `ghcr.io/simstudioai/simstudio:v0.8.2@sha256:08212f69ee05fd80bafd236b9932974d6704035ba7f50c2b897515b041805fec` | Web service |
+| realtime | `ghcr.io/simstudioai/realtime:v0.8.33@sha256:89a87e083ede6da494a19fa5292a3e37b1b877c5e65fde2d0bd099ff755bd489` | Web service |
+| simstudio | `ghcr.io/simstudioai/simstudio:v0.8.33@sha256:28daaa1390f8a9bcf429855071fc68c4e93aa329e93be010be89f12350d1d27e` | Web service |
 | pgvector | `pgvector/pgvector:pg17` | Database |
-| migrations | `ghcr.io/simstudioai/migrations:v0.8.2@sha256:bd08017162914796c787a5bd7804a5e3c56802511d928b984cecc312c1570cf5` | Worker |
-| cron | `ghcr.io/simstudioai/cron:v0.8.2@sha256:e8a00f3d7292fdd1357e2cb7e09380cc336cdaf15e94d0b0059204a9e719e145` | Worker |
+| migrations | `ghcr.io/simstudioai/migrations:v0.8.33@sha256:1abb5deb558ebef9cd051ee2547d96237a921a4fc7f54946ee629b8e5402e01f` | Worker |
+| cron | `ghcr.io/simstudioai/cron:v0.8.33@sha256:b5ce1038971225cd082dce7e701a81af5d24bd712a75b7adca9d7f6f04134b49` | Worker |
 
 ## Environment variables
 
@@ -45,7 +45,7 @@ Open the `simstudio` domain to register the first account. Configure model-provi
 
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
-- **Healthcheck:** `/`
+- **Healthcheck:** `/api/health`
 - **Start command:** `/bin/sh -c "unset PGPORT; docker-entrypoint.sh postgres --port=5432"`
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `bun run db:migrate`

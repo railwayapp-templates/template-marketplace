@@ -13,8 +13,8 @@ Paymenter is open-source billing, invoicing, client-management, and service-auto
 | Service | Source | Type |
 |---------|--------|------|
 | paymenter | [monotykamary/railway-template-paymenter](https://github.com/monotykamary/railway-template-paymenter) | Web service |
-| mariadb | `mariadb:11.8.3@sha256:ae6119716edac6998ae85508431b3d2e666530ddf4e94c61a10710caec9b0f71` | Database |
-| redis | `redis:7.4.5-alpine@sha256:bb186d083732f669da90be8b0f975a37812b15e913465bb14d845db72a4e3e08` | Database |
+| mariadb | `mariadb:11.8.9@sha256:2d2f4095530294735a857cfe22bb101e19b0849b416911c796ec4aa81b164a62` | Database |
+| redis | `redis:7.4.11-alpine@sha256:ff02b58f971e7d7d156a1267e283fcbbeee91773b6aa36c49dac28ecfe28eadf` | Database |
 
 ## Environment variables
 

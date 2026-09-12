@@ -15,7 +15,7 @@ Sign in as `admin` with `OJS_ADMIN_PASSWORD`.
 | Service | Source | Type |
 |---------|--------|------|
 | ojs | [monotykamary/railway-template-ojs](https://github.com/monotykamary/railway-template-ojs) | Web service |
-| mariadb | `mariadb:11.8.3` | Database |
+| mariadb | `mariadb:11.8.9@sha256:2d2f4095530294735a857cfe22bb101e19b0849b416911c796ec4aa81b164a62` | Database |
 
 ## Environment variables
 

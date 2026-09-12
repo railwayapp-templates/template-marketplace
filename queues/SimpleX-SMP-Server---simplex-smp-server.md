@@ -6,7 +6,7 @@ Private SimpleX SMP relay with persistent identity and public TCP ingress
 
 ## About
 
-A SimpleX SMP relay stores and forwards encrypted message queues without user identifiers. This template deploys the official SimpleXMQ SMP server `v6.5.0`, a Railway TCP-port adapter, and a secret-safe status page.
+A SimpleX SMP relay stores and forwards encrypted message queues without user identifiers. This template deploys the official SimpleXMQ SMP server `v6.5.2`, a Railway TCP-port adapter, and a secret-safe status page.
 
 ## What gets deployed
 

@@ -19,7 +19,7 @@ Milvus authentication is enabled with a generated root password. Milvus data, et
 | milvus-rest-proxy | `ghcr.io/monotykamary/grpc-reverse-proxy:v2.11.4-r3` | Web service |
 | minio | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
 | etcd | `quay.io/coreos/etcd:v3.6.14` | Database |
-| standalone | `milvusdb/milvus:v2.6.22@sha256:a8ac051e59eb084d41bd317ec51aac28553d664e91c43a806ccd6a1538abc1df` | Database |
+| standalone | `milvusdb/milvus:v2.6.23@sha256:60e96d5abe7ea9199dd8a4d0d0506f9b57a7056cf57683327b8c7ae7f489ed17` | Database |
 
 ## Environment variables
 

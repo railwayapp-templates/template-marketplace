@@ -27,6 +27,7 @@ Open-source sticky notes - read more at https://github.com/ericerkz/kept
 
 ## Configuration
 
+- **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 6767
 - **Volume:** `/app/data`

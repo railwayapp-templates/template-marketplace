@@ -34,6 +34,6 @@ The service streams a GPU-less XFCE desktop over WebSockets with the linuxserver
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/linux-desktop)

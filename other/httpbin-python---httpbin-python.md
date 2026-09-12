@@ -48,9 +48,16 @@ None. No variables, no volume. The service listens on port 80 (start command bin
 |---------|--------|------|
 | httpbin | `kennethreitz/httpbin:latest` | Web service |
 
+## Environment variables
+
+| Variable | Default |
+| --------- | ------- |
+| `PORT` | 80 |
+
 ## Configuration
 
 - **Start command:** `gunicorn -b [::]:80 httpbin:app -k gevent`
+- **Healthcheck:** `/status/200`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Other

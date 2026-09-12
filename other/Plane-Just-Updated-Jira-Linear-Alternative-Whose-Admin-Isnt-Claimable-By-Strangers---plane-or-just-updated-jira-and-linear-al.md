@@ -17,7 +17,7 @@ This template runs Plane's all-in-one community image (web, API, background work
 | redis | `redis:8.2.1-alpine` | Database |
 | postgres | `postgres:16.4-alpine` | Database |
 | plane | `ghcr.io/bon5co/plane-railway:1.4.1` | Web service |
-| minio | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
+| minio | `quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
 | rabbitmq | `rabbitmq:4.1-alpine` | Database |
 
 ## Environment variables

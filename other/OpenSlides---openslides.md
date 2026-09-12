@@ -6,7 +6,7 @@ Digital meeting, agenda, motion, election, and presentation platform
 
 ## About
 
-OpenSlides is a web platform for organizing meetings, agendas, motions, elections, participants, and projected content. This template deploys stable 4.3.1 using the complete official service architecture, a generated superadmin account, private PostgreSQL and Redis, and durable database storage.
+OpenSlides is a web platform for organizing meetings, agendas, motions, elections, participants, and projected content. This template deploys stable 4.3.2 using the complete official service architecture, a generated superadmin account, private PostgreSQL and Redis, and durable database storage.
 
 Sign in as `superadmin` with `SUPERADMIN_PASSWORD` from the `backend-manage` service.
 
@@ -17,17 +17,17 @@ Sign in as `superadmin` with `SUPERADMIN_PASSWORD` from the `backend-manage` ser
 | projector | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: projector) | Worker |
 | backendAction | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: backend) | Worker |
 | proxy | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) | Web service |
-| client | `ghcr.io/openslides/openslides/openslides-client:4.3.1@sha256:9f53e103c253c199cd9ba188f3cb4b432efcd57ce059adb0e8f2e5edbc567cc7` | Worker |
+| client | `ghcr.io/openslides/openslides/openslides-client:4.3.2@sha256:f82f6aa561effe171b738df6adaa45fcf9bc704960306ad51a934dbb39c7c388` | Worker |
 | icc | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: icc) | Worker |
 | auth | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: auth) | Worker |
 | vote | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: vote) | Worker |
-| redis | `redis:8.4.0-alpine` | Database |
+| redis | `redis:8.4.6-alpine@sha256:12da49daa000c2be4d55118574f889c8cc298140ecf343d04f345c818f227823` | Database |
 | backendPresenter | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: backend) | Worker |
 | autoupdate | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: autoupdate) | Worker |
 | search | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: search) | Worker |
 | media | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: media) | Worker |
 | backendManage | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: backend) | Worker |
-| postgres | `postgres:17.10-alpine` | Database |
+| postgres | `postgres:17.11-alpine@sha256:18cfe3ef5e6815560c98237d6216d1e5119702fb0f3894c8785dd58b8bbe5d73` | Database |
 
 ## Environment variables
 

@@ -35,8 +35,8 @@ Inference here is CPU-bound — Railway has no GPU. Models in the 1B–8B range 
 
 | Service | Source | Type |
 |---------|--------|------|
-| ollama | `ghcr.io/bon5co/ollama-railway:latest` | Database |
-| open-webui | `ghcr.io/bon5co/ollama-railway-webui:latest` | Web service |
+| ollama | `ghcr.io/bon5co/ollama-railway@sha256:d82eff12a44117dc9911d9d0a4365b0545c17eea8de965b91b77f89fd7c6d804` | Database |
+| open-webui | `ghcr.io/bon5co/ollama-railway-webui@sha256:c8cc079e407f1c228c04912c7438c9c9d891d8ae48f0dd90ca21ed37d50f27e6` | Web service |
 
 ## Environment variables
 

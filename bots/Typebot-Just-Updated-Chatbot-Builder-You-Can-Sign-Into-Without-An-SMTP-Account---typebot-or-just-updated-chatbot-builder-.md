@@ -40,7 +40,7 @@ remember to delete afterwards.
 | builder | `ghcr.io/bon5co/typebot-railway-builder:3.17.2` | Web service |
 | redis | `redis:8.2.1-alpine` | Database |
 | postgres | `postgres:17.6-alpine` | Database |
-| minio | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
+| minio | `quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
 
 ## Environment variables
 

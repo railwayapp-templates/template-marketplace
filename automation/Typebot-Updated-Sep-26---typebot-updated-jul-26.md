@@ -33,7 +33,9 @@ This template deploys six services automatically: the builder (where you design 
 | `MINIO_ROOT_USER` | minio | (secret) | MinIO admin username. |
 | `MINIO_ROOT_PASSWORD` | minio | (secret) | Password for the MinIO admin account. Auto-generated fresh for each deployment. |
 | `PORT` | typebot-railway | 3000 | Must be pinned explicitly — Railway's own auto-injected `PORT` (commonly 8080) silently overrides the Docker image's internal default, causing a port mismatch if not set here. |
+| `SCOPE` | typebot-railway | builder | Set the correct scope, used when deploying from the repository |
 | `S3_SSL` | typebot-railway | true | Railway domains are HTTPS-only. |
+| `S3_PORT` | typebot-railway | 443 | S3 Host port number |
 | `HOSTNAME` | typebot-railway | 0.0.0.0 | without this, the app binds to loopback only and Railway's healthcheck can never reach it, even though the app logs "Ready." Found the hard way this session. |
 | `S3_BUCKET` | typebot-railway | typebot | Bucket name created by `minio-bucket-creator` |
 | `S3_ENDPOINT` | typebot-railway | - | Public MinIO domain for serving uploaded media. Must be MinIO's public domain, not the private/internal one — bots need to send uploaded media back to users outside Railway's network, not just reach it internally. |
@@ -41,15 +43,20 @@ This template deploys six services automatically: the builder (where you design 
 | `NEXTAUTH_URL` | typebot-railway | - | Public URL of this service, used for auth callbacks. |
 | `S3_ACCESS_KEY` | typebot-railway | - | MinIO access key for media uploads. Live reference, not a copied value — MinIO's credentials can be regenerated independently. |
 | `S3_SECRET_KEY` | typebot-railway | (secret) | MinIO secret key. |
+| `DISABLE_SIGNUP` | typebot-railway | false | Disable new user sign ups. Invited users are still able to sign up |
 | `NEXTAUTH_SECRET` | typebot-railway | (secret) | Session encryption key for NextAuth |
 | `GITHUB_CLIENT_ID` | typebot-railway | - | Required to log in — Typebot has no default login method.  Step 1: Go to github.com/settings/developers → click "New OAuth App" Step 2: Application name — put anything, e.g. "My Typebot" Step 3: Homepage URL — you won't have your Railway domain yet, so put a placeholder like https://example.com Step 4: Authorization callback URL — same placeholder + path: https://example.com/api/auth/callback/github Step 5: Click "Register application" — GitHub shows you the Client ID immediately. Paste it here. Step 6: After this deploys, come back to this OAuth App's settings and update the Homepage URL and callback URL to your real Railway domain. |
 | `ENCRYPTION_SECRET` | typebot-railway | (secret) | Encrypts sensitive bot data. **Must be identical to the same variable on `fearless-balance`** — if they differ, bots and data become unreadable. |
 | `GITHUB_CLIENT_SECRET` | typebot-railway | (secret) | Pairs with GITHUB_CLIENT_ID from the same OAuth App.  Step 1: On the same OAuth App page (right after registering it in the steps above), find "Client secrets" Step 2: Click "Generate a new client secret" Step 3: Copy the value immediately — GitHub only shows it once, you can't view it again later Step 4: Paste it here |
+| `DEFAULT_WORKSPACE_PLAN` | typebot-railway | UNLIMITED | Default workspace plan on user creation or when a user creates a new workspace. Possible values are FREE, STARTER, PRO, LIFETIME, UNLIMITED |
 | `NEXT_PUBLIC_VIEWER_URL` | typebot-railway | - | Public URL of the Viewer service, where published bots are rendered. |
+| `NEXT_PUBLIC_BOT_FILE_UPLOAD_MAX_SIZE` | typebot-railway | 10 | Limits the size of each file in megabytes that can be uploaded in the bots |
 | `MINIO_ROOT_USER` | minio-bucket-creator | (secret) | Live reference to MinIO's credentials, not a copy. |
 | `MINIO_ROOT_PASSWORD` | minio-bucket-creator | (secret) | Live reference to MinIO's credentials, not a copy. |
 | `PORT` | fearless-balance | 3000 | The port the Typebot viewer listens on internally. |
+| `SCOPE` | fearless-balance | viewer | Set the correct scope, used when deploying from the repository |
 | `S3_SSL` | fearless-balance | true | Railway domains are HTTPS-only. |
+| `S3_PORT` | fearless-balance | 443 | S3 Host port number |
 | `HOSTNAME` | fearless-balance | 0.0.0.0 | without this, the app binds to loopback only and Railway's healthcheck can never reach it, even though the app logs "Ready." Found the hard way this session. |
 | `S3_BUCKET` | fearless-balance | typebot | Bucket name created by `minio-bucket-creator`. |
 | `S3_ENDPOINT` | fearless-balance | - | Must be MinIO's **public** domain, not the private one — uploaded media needs to be servable back to end users chatting with the bot, not just reachable internally. |
@@ -71,8 +78,9 @@ This template deploys six services automatically: the builder (where you design 
 - **Healthcheck:** `/minio/health/live`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
-- **Healthcheck:** `/`
+- **Healthcheck:** `/signin`
 - **Start command:** `sh -c 'mc alias set myminio http://minio.railway.internal:9000 "$MINIO_ROOT_USER" "$MINIO_ROOT_PASSWORD" && mc mb myminio/typebot --ignore-existing && mc anonymous set download myminio/typebot'`
+- **Healthcheck:** `/`
 - **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Automation · **Languages:** Ruby

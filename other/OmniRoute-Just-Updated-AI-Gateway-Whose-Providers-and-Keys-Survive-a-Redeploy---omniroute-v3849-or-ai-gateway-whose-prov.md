@@ -29,7 +29,7 @@ encrypted with. The upstream image is explicit about where that directory is:
 
 | Service | Source | Type |
 |---------|--------|------|
-| omniroute | `ghcr.io/bon5co/omniroute-railway:latest` | Web service |
+| omniroute | `ghcr.io/bon5co/omniroute-railway@sha256:a4e2b52ba127dc601b2312391103604f393da9f3372579c2b1f56b187f5ef0df` | Web service |
 
 ## Environment variables
 

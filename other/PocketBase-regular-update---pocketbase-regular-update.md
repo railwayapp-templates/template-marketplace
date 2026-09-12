@@ -14,7 +14,7 @@ Deploying PocketBase on Railway is straightforward since it's packaged as a sing
 
 | Service | Source | Type |
 |---------|--------|------|
-| PocketBase | `ghcr.io/muchobien/pocketbase:latest` | Web service |
+| PocketBase | `ghcr.io/muchobien/pocketbase@sha256:ab3f2357cce759aa8ccd4863ac49f07060ce4a12097d3cac52ac519d6ca68ecc` | Web service |
 
 ## Environment variables
 
@@ -27,6 +27,7 @@ Deploying PocketBase on Railway is straightforward since it's packaged as a sing
 
 ## Configuration
 
+- **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/pb_data`
 

@@ -12,7 +12,7 @@ Deploying OpenCode WebUI Workspace involves running a Docker container that bund
 
 | Service | Source | Type |
 |---------|--------|------|
-| opencode | `ghcr.io/bon5co/opencode-webui-workspace:latest` | Web service |
+| opencode | `ghcr.io/bon5co/opencode-webui-workspace@sha256:765ac3c4a90055cf1681baa57d97e47508eb5d104877ad3edd8f824ba14645eb` | Web service |
 
 ## Environment variables
 

@@ -16,19 +16,19 @@ Only the `Plane` proxy receives a public HTTP domain. Web, API, admin, spaces, l
 
 | Service | Source | Type |
 |---------|--------|------|
-| Space | `makeplane/plane-space:v1.4.1@sha256:741cd5d6bbfaa94bac4a28837d5fab3f7459b014a6c9066728a3b3cfe76fc6c8` | Worker |
-| API | `makeplane/plane-backend:v1.4.1@sha256:631f42fc01c1db5e7759c2e5ceffffa5fa2afd4b0ee7c8bc92cde9f1a6a0ec8f` | Worker |
-| Migrator | `makeplane/plane-backend:v1.4.1@sha256:631f42fc01c1db5e7759c2e5ceffffa5fa2afd4b0ee7c8bc92cde9f1a6a0ec8f` | Worker |
-| Admin | `makeplane/plane-admin:v1.4.1@sha256:db215110ef79ab4048334086c891e1499f4c0d30724030a884f6fb61df162d8d` | Worker |
-| Live | `makeplane/plane-live:v1.4.1@sha256:02fd23645fa0f84a68ccfdbab8ba6ceaac5deca6c482bff041880b02295ae76c` | Worker |
+| Space | `makeplane/plane-space:v1.4.2@sha256:f8f842f05f41a16e9fe8c4f5e17a3bb175338ccdc094620e58ae49764ffbd671` | Worker |
+| API | `makeplane/plane-backend:v1.4.2@sha256:90032ce088708889b60c00d491897916f4deb882facda27db59fd10fb68729ef` | Worker |
+| Migrator | `makeplane/plane-backend:v1.4.2@sha256:90032ce088708889b60c00d491897916f4deb882facda27db59fd10fb68729ef` | Worker |
+| Admin | `makeplane/plane-admin:v1.4.2@sha256:6e1bb1d800d3c7ce84a09f810d5588db8613b35d4464e722a1bec12556ca0ebb` | Worker |
+| Live | `makeplane/plane-live:v1.4.2@sha256:cbb630ccaea24bb9998040cb45c11619a7501e8b6c75d449df2f8fd9b9cddbd0` | Worker |
 | RabbitMQ | `rabbitmq:3.13.7-management-alpine@sha256:606d8c0d6b3c18d1da9afc53bc7cdb2a8d5486df91b5a9830e9e07626c9ae281` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Web | `makeplane/plane-frontend:v1.4.1@sha256:577604d9d2d2cf7b055e5d5ecca84b26c70d70b6b6d87803488c412b9725907b` | Worker |
+| Web | `makeplane/plane-frontend:v1.4.2@sha256:22fd2434fb8d6658439f669ab72f999ce0773abe587663da21a77d70bd63ff61` | Worker |
 | Plane | [monotykamary/plane-caddy-proxy](https://github.com/monotykamary/plane-caddy-proxy) | Web service |
 | Bucket | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
-| Redis | `redis:8.2.8` | Database |
-| Worker | `makeplane/plane-backend:v1.4.1@sha256:631f42fc01c1db5e7759c2e5ceffffa5fa2afd4b0ee7c8bc92cde9f1a6a0ec8f` | Worker |
-| Beat Worker | `makeplane/plane-backend:v1.4.1@sha256:631f42fc01c1db5e7759c2e5ceffffa5fa2afd4b0ee7c8bc92cde9f1a6a0ec8f` | Worker |
+| Redis | `redis:8.2.9` | Database |
+| Worker | `makeplane/plane-backend:v1.4.2@sha256:90032ce088708889b60c00d491897916f4deb882facda27db59fd10fb68729ef` | Worker |
+| Beat Worker | `makeplane/plane-backend:v1.4.2@sha256:90032ce088708889b60c00d491897916f4deb882facda27db59fd10fb68729ef` | Worker |
 
 ## Environment variables
 

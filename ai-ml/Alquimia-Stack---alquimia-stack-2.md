@@ -22,7 +22,7 @@ Hosting Alquimia Stack on Railway deploys the core services required to run the 
 | prometheus | `alquimiaai/prometheus:railway-v2` | Web service |
 | vault | `alquimiaai/vault-railway:20260529` | Worker |
 | trustlens | `alquimiaai/trustlens:stable-20260714-1613` | Worker |
-| studio | `alquimiaai/studio:latest-20260907-1748` | Web service |
+| studio | `alquimiaai/studio:latest-20260911-1337` | Web service |
 | runtime | `alquimiaai/runtime:0.5.0` | Web service |
 | qdrant | `qdrant/qdrant:latest` | Database |
 | minio | `quay.io/minio/minio:latest` | Database |

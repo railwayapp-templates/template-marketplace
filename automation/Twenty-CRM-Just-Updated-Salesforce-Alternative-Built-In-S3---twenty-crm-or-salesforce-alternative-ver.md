@@ -27,7 +27,7 @@ Sizing: the server is the memory-hungry service (roughly 1 GB), the worker a few
 | Service | Source | Type |
 |---------|--------|------|
 | twenty | `ghcr.io/bon5co/twenty-railway:latest` | Web service |
-| minio | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
+| minio | `quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
 | redis | `redis:8.2.1` | Database |
 | postgres | `postgres:16` | Database |
 | worker | `ghcr.io/bon5co/twenty-railway:latest` | Worker |

@@ -14,7 +14,7 @@ Hosting ntfy on Railway involves deploying a lightweight Go server that provides
 
 | Service | Source | Type |
 |---------|--------|------|
-| ntfy | `binwiederhier/ntfy` | Web service |
+| ntfy | `binwiederhier/ntfy@sha256:6ef4b819f722fccdc036af611c4774cfdc2de821ab74fdd48bbf4c9d6f8973da` | Web service |
 
 ## Environment variables
 

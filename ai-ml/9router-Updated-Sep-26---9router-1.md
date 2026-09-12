@@ -30,14 +30,19 @@ And it's not a small or unproven project. 9Router has crossed 23,000 GitHub star
 | `BASE_URL` | - | Public URL of the instance, used for internal callback/sync jobs. Optional per the app's own `.env.example`, but setting it avoids any sync-related edge cases. |
 | `DATA_DIR` | /app/data | Directory where the SQLite database and settings are stored. Must match the Railway volume mount path exactly. |
 | `HOSTNAME` | 0.0.0.0 | Binds the Next.js standalone server to all network interfaces. Already set as a Dockerfile default too, but set explicitly here for the same reason as `PORT`. |
+| `NODE_ENV` | production | Production Next.js runtime mode. The reference template sets this explicitly; ours doesn't, meaning the app could be running with dev-mode defaults (slower, heavier, different error handling) — a likely contributor to healthcheck timing issues. |
 | `JWT_SECRET` | (secret) | Signs dashboard session tokens. If unset, the app auto-generates one and writes it to a file in `DATA_DIR` — but setting it explicitly as a Railway variable avoids any risk of session invalidation if that file location ever changes across a redeploy. |
 | `API_KEY_SECRET` | (secret) | Secret used internally to derive and validate issued 9Router API keys. |
 | `MACHINE_ID_SALT` | - | Salt used for internal instance identification. |
+| `REQUIRE_API_KEY` | (secret) | Rejects unauthenticated /v1 calls — hardening default present on the reference. |
 | `INITIAL_PASSWORD` | (secret) | Bootstrap login password. **Critical: confirmed via source code that if this is ever unset, 9Router falls back to a hardcoded password (`123456`)** — never mark this optional or leave it blank. |
+| `AUTH_COOKIE_SECURE` | true | Secure cookie flag for the dashboard session, required behind HTTPS. |
+| `ENABLE_REQUEST_LOGS` | false | Keeps request bodies off disk — matches the reference's conservative default. |
+| `NEXT_PUBLIC_BASE_URL` | - | Same value as our existing BASE_URL. The reference's own description calls this "Legacy public base URL" — likely still read by some older code path, cheap to set for safety/parity. |
+| `OBSERVABILITY_ENABLED` | true | Enables usage and quota tracking. |
 
 ## Configuration
 
-- **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/data`
 
