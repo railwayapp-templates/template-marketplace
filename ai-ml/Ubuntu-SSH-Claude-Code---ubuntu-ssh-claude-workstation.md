@@ -12,7 +12,17 @@ Hosting this template runs one service: an Ubuntu 24.04 container with OpenSSH a
 
 | Service | Source | Type |
 |---------|--------|------|
-| workstation | [lNamelessl/ubuntu-ssh-claude-railway-template](https://github.com/lNamelessl/ubuntu-ssh-claude-railway-template) | Database |
+| ubuntu(ssh+claudecode) | [lNamelessl/ubuntu-ssh-claude-railway-template](https://github.com/lNamelessl/ubuntu-ssh-claude-railway-template) | Database |
+
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `SSH_PUBLIC_KEY` | - | Your public key; SSH stays off without it; run this command on the terminal to get your key generated and copied to clip board: ssh-keygen -t ed25519 then paste the public key here |
+| `ANTHROPIC_MODEL	` | - | fill this for other non-Anthropic providers: Which model answers; openrouter.ai/models → e.g. nvidia/nemotron-3.5-lightning:free |
+| `ANTHROPIC_API_KEY` | (secret) | Fill this if you are using Anthropic token; Anthropic's own key; model + billing  |
+| `ANTHROPIC_BASE_URL` | - | fill this for other non-Anthropic models: The gateway endpoint; it looks like: https://openrouter.ai/api (you can copy as-is) |
+| `ANTHROPIC_AUTH_TOKEN` | (secret) | fill this for other providers like OpenRouter; It looks like: → sk-or-v1...; and can be generated here: openrouter.ai/settings/keys  |
 
 ## Configuration
 

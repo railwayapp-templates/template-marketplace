@@ -32,7 +32,7 @@ the public domain, and use it to sign into the dashboard.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:00d81c7e569951d7ed81d4d9a09d4967efbd6961f27afcc8c69ba30ec2d27075` | Web service |
+| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:5c26ea041e9a84b71b166590fe2a7a8e6228b4949c0173b22ae3b2b1a567c005` | Web service |
 
 ## Environment variables
 

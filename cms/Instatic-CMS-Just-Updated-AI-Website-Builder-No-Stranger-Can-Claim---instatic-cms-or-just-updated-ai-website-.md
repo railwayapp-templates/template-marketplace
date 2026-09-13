@@ -2,7 +2,7 @@
 
 AI website builder with the setup wizard closed before the first request
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/instatic-cms-v0014-or-ai-website-builder)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/instatic-cms-or-just-updated-ai-website-)
 
 ## About
 
@@ -34,15 +34,16 @@ Four things this template fixes relative to a stock deploy:
 - **The runtime dependency cache lives on the volume.** It defaults to `/tmp`, so published
   pages that import an npm dependency lose their JavaScript on every redeploy until the site
   is republished.
-- **The image is pinned.** Instatic runs forward-only database migrations on boot and has
-  shipped fourteen releases in fifty-one days; an unpinned redeploy is an unrequested
+- **The image is pinned, and current.** This template runs Instatic `0.0.19`, upstream's
+  latest release. Instatic runs forward-only database migrations on boot and has
+  shipped nineteen releases in ninety-four days; an unpinned redeploy is an unrequested
   upgrade with no way back.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| instatic | `ghcr.io/bon5co/instatic-railway:latest` | Web service |
+| instatic | `ghcr.io/bon5co/instatic-railway:0.0.19` | Web service |
 
 ## Environment variables
 
@@ -59,4 +60,4 @@ Four things this template fixes relative to a stock deploy:
 
 **Category:** CMS
 
-[View on Railway →](https://railway.com/deploy/instatic-cms-v0014-or-ai-website-builder)
+[View on Railway →](https://railway.com/deploy/instatic-cms-or-just-updated-ai-website-)

@@ -30,9 +30,9 @@ On first deploy, the database schema is installed and an admin user is created w
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `POSTGRES_DB` | Postgres | libredesk | - |
-| `POSTGRES_USER` | Postgres | (secret) | - |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | - |
+| `POSTGRES_DB` | Postgres | libredesk | PostgreSQL database name |
+| `POSTGRES_USER` | Postgres | (secret) | PostgreSQL username |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | PostgreSQL password |
 | `PORT` | libredesk | 9000 | Libredesk http server port |
 | `LIBREDESK_APP__ENV` | libredesk | prod | Environment either prod / dev |
 | `LIBREDESK_DB__HOST` | libredesk | - | Hostname for database |
@@ -72,11 +72,12 @@ On first deploy, the database schema is installed and an admin user is created w
 | `LIBREDESK_CONVERSATION__CONTINUITY_SCAN_INTERVAL` | libredesk | 5m | How often to check for offline conversations in database to send continuity emails |
 | `LIBREDESK_CONVERSATION__DRAFT_RETENTION_DURATION` | libredesk | 360h | How long to keep drafts before deleting them from the database (e.g. "360h", "48h") |
 | `LIBREDESK_MESSAGE__MESSAGE_OUTGOING_SCAN_INTERVAL` | libredesk | 100ms | How often to scan for outgoing messages to process, keep it low to process messages quickly |
-| `REDISPORT` | Redis | 6379 | - |
-| `REDISUSER` | Redis | default | - |
+| `REDISHOST` | Redis | - | Redis server hostname |
+| `REDISPORT` | Redis | 6379 | Redis server port |
+| `REDISUSER` | Redis | default | Redis username |
 | `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis | (secret) | - |
-| `REDIS_PASSWORD` | Redis | (secret) | - |
+| `REDISPASSWORD` | Redis | (secret) | Redis password |
+| `REDIS_PASSWORD` | Redis | (secret) | Redis password |
 | `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 
 ## Configuration
