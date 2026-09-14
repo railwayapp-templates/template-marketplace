@@ -1,8 +1,8 @@
-# Deploy LiteLLM on Railway
+# Deploy LiteLLM Gateway + Postgres on Railway
 
 OpenAI-compatible LLM gateway with Postgres, virtual keys, spend tracking
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/litellm-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/litellm-gateway-postgres)
 
 ## About
 
@@ -14,13 +14,18 @@ Hosting LiteLLM means running the proxy next to PostgreSQL so virtual keys, mode
 
 | Service | Source | Type |
 |---------|--------|------|
-| LiteLLM | `ghcr.io/berriai/litellm:v1.100.0` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
+| LiteLLM | `ghcr.io/berriai/litellm:v1.100.0` | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `POSTGRES_DB` | Postgres | litellm | Database name. |
+| `DATABASE_URL` | Postgres | - | Private-network connection string (IPv6, includes port). |
+| `POSTGRES_USER` | Postgres | (secret) | Database superuser. |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Generated database password. |
+| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL via the TCP proxy (for psql / GUI clients). |
 | `PORT` | LiteLLM | 4000 | LiteLLM listen port. Railway's healthcheck and edge proxy probe $PORT, so keep it equal to the port the proxy binds (the proxy reads PORT). |
 | `UI_USERNAME` | LiteLLM | (secret) | Admin UI username (log in at /ui with LITELLM_MASTER_KEY as the password). |
 | `DATABASE_URL` | LiteLLM | - | Postgres connection string. Prisma migrations run automatically on boot. |
@@ -29,19 +34,14 @@ Hosting LiteLLM means running the proxy next to PostgreSQL so virtual keys, mode
 | `ANTHROPIC_API_KEY` | LiteLLM | (secret) | Optional. Provider keys can also be added later in the Admin UI. |
 | `STORE_MODEL_IN_DB` | LiteLLM | True | Lets you add models and provider keys from the Admin UI instead of a config.yaml. |
 | `LITELLM_MASTER_KEY` | LiteLLM | - | Admin key for the API and the /ui login (username: admin). Keep the sk- prefix. |
-| `POSTGRES_DB` | Postgres | litellm | Database name. |
-| `DATABASE_URL` | Postgres | - | Private-network connection string (IPv6, includes port). |
-| `POSTGRES_USER` | Postgres | (secret) | Database superuser. |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | Generated database password. |
-| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL via the TCP proxy (for psql / GUI clients). |
 
 ## Configuration
 
-- **Healthcheck:** `/health/liveliness`
-- **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/health/liveliness`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/deploy/litellm-1)
+[View on Railway →](https://railway.com/deploy/litellm-gateway-postgres)

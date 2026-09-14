@@ -1,8 +1,8 @@
-# Deploy Arize Phoenix on Railway
+# Deploy Phoenix LLM Tracing + Postgres on Railway
 
 Open-source LLM tracing, evals and observability, backed by Postgres
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/arize-phoenix-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/phoenix-llm-tracing-postgres)
 
 ## About
 
@@ -46,4 +46,4 @@ Hosting Phoenix means running the tracing UI next to PostgreSQL so traces surviv
 
 **Category:** Observability
 
-[View on Railway →](https://railway.com/deploy/arize-phoenix-1)
+[View on Railway →](https://railway.com/deploy/phoenix-llm-tracing-postgres)

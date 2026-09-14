@@ -1,8 +1,8 @@
-# Deploy Chroma on Railway
+# Deploy Chroma Vector DB (Private) on Railway
 
 Open-source vector database with persistent volume, private-only by default
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chroma-1)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chroma-vector-db-private)
 
 ## About
 
@@ -33,4 +33,4 @@ Hosting Chroma means running a stateful server that keeps its SQLite metadata da
 
 **Category:** Storage
 
-[View on Railway →](https://railway.com/deploy/chroma-1)
+[View on Railway →](https://railway.com/deploy/chroma-vector-db-private)

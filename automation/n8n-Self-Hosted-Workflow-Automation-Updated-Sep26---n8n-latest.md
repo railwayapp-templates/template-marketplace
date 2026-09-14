@@ -1,4 +1,4 @@
-# Deploy n8n — Self-Hosted Workflow Automation on Railway
+# Deploy n8n — Self-Hosted Workflow Automation [Updated Sep'26] on Railway
 
 Self-host n8n: unlimited executions, no Zapier fees. 188k+ GitHub stars.
 

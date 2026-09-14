@@ -6,9 +6,10 @@ WhatsApp Mission Control — threads, Atlas, digests, AI drafts
 
 ## About
 
-Click Deploy. Set `APP_EMAIL` + `APP_PASSWORD` when prompted (or create them
-on the sign-in page at first visit). Scan the QR shown on the loading screen
-with WhatsApp → Linked devices, then watch sync → analyze → ready.
+Click Deploy. Set your email + password and a Gemini key when prompted (or
+create credentials on the sign-in page, and paste the key on the loading
+screen — it is validated before anything continues). Scan the QR with
+WhatsApp → Linked devices, then watch sync → analyze → ready.
 
 One Railway service, one container: a Go WhatsApp bridge plus a Python API/UI.
 Chat history lives on the `/data` volume so restarts never lose the session.
@@ -24,6 +25,7 @@ Chat history lives on the `/data` volume so restarts never lose the session.
 | Variable | Default |
 | --------- | ------- |
 | `APP_PASSWORD` | (secret) |
+| `GEMINI_API_KEY` | (secret) |
 
 ## Configuration
 

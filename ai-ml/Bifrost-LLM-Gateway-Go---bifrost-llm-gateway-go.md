@@ -1,8 +1,8 @@
-# Deploy Bifrost on Railway
+# Deploy Bifrost LLM Gateway (Go) on Railway
 
 Fast Go LLM gateway with dashboard, virtual keys, budgets and fallbacks
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bifrost-2)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bifrost-llm-gateway-go)
 
 ## About
 
@@ -39,4 +39,4 @@ Hosting Bifrost is a single container. This template uses the official `maximhq/
 
 **Category:** AI/ML
 
-[View on Railway →](https://railway.com/deploy/bifrost-2)
+[View on Railway →](https://railway.com/deploy/bifrost-llm-gateway-go)
