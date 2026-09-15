@@ -32,6 +32,6 @@ Open-source sticky notes - read more at https://github.com/ericerkz/kept
 - **TCP Proxies:** 6767
 - **Volume:** `/app/data`
 
-**Category:** CMS
+**Category:** CMS · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/kept-notes)

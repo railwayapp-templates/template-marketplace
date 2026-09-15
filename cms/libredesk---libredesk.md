@@ -91,6 +91,6 @@ On first deploy, the database schema is installed and an admin user is created w
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
 
-**Category:** CMS
+**Category:** CMS · **Verified:** Yes
 
 [View on Railway →](https://railway.com/deploy/libredesk)

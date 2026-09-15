@@ -18,7 +18,6 @@ answer before sending traffic. To turn on push notifications, add a VAPID key pa
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Redis | `redis:8.2` | Database |
 | progresswatch/progresswatch:latest | `progresswatch/progresswatch:latest` | Worker |
 
 ## Environment variables
@@ -29,23 +28,14 @@ answer before sending traffic. To turn on push notifications, add a VAPID key pa
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
-| `REDISHOST` | Redis | - | Private network hostname of the Redis service, only resolvable from services in the same environment |
-| `REDISPORT` | Redis | 6379 | Port that Redis listens on |
-| `REDISUSER` | Redis | default | Username for authenticating with Redis |
-| `REDIS_URL` | Redis | - | Connection string for connecting to Redis using the private network |
-| `REDISPASSWORD` | Redis | (secret) | Alias of REDIS_PASSWORD for clients that expect the unseparated name |
-| `REDIS_PASSWORD` | Redis | (secret) | Randomly generated password for authenticating with Redis |
 | `FORCE_SSL` | progresswatch/progresswatch:latest | true |  Railway serves HTTPS |
-| `REDIS_URL` | progresswatch/progresswatch:latest | - | Live progress. |
 | `DATABASE_URL` | progresswatch/progresswatch:latest | - | Spaces and task structure. |
 | `SECRET_KEY_BASE` | progresswatch/progresswatch:latest | (secret) | Generated for every deploy. |
-| `SIDEKIQ_REDIS_URL` | progresswatch/progresswatch:latest | - |  The notification queue, on the same Redis. |
 
 ## Configuration
 
 - **Volume:** `/var/lib/postgresql/data`
-- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
-- **Volume:** `/data`
+- **Healthcheck:** `/up`
 
 **Category:** Automation
 

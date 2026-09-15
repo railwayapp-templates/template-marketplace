@@ -58,7 +58,7 @@ Read the [getting started with Outpost and Railway guide](https://outpost.hookde
 | `REDISPASSWORD` | Redis | (secret) | - |
 | `REDIS_PASSWORD` | Redis | (secret) | - |
 | `REDIS_RDB_POLICY` | Redis | 3600#1 300#100 60#10000 | - |
-| `REDIS_AOF_ENABLED` | Redis | no | - |
+| `REDIS_AOF_ENABLED` | Redis | yes | - |
 
 ## Configuration
 
@@ -67,6 +67,7 @@ Read the [getting started with Outpost and Railway guide](https://outpost.hookde
 - **Start command:** `/bin/sh -c "CONFIG_PATH=/etc; SYSTEM_FILE=hosts; \ echo 127.0.0.1 rabbitmq >> ${CONFIG_PATH}/${SYSTEM_FILE} && \ echo management.tcp.ip = :: >> /etc/rabbitmq/conf.d/10-defaults.conf && \ docker-entrypoint.sh rabbitmq-server"`
 - **Volume:** `/var/lib/rabbitmq`
 - **Volume:** `/var/lib/postgresql/data`
+- **Volume:** `/bitnami`
 
 **Category:** Other · **Verified:** Yes
 

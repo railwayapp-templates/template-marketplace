@@ -6,9 +6,17 @@ Deploy and host Workmates AI agents with desktop and mobile access.
 
 ## About
 
-[What is Workmates? Your description in roughly ~50 words.]
+Workmates gives you a persistent workspace where multiple AI agents can work independently or collaborate as a team. Agents can have their own roles, skills, tools, projects, and conversations while sharing rooms for coordinated work.
 
-[Roughly 100 word description what's involved in hosting/deploying Workmates]
+This Railway template runs the Workmates server and web application as a single cloud-hosted workspace that you can access from a browser, mobile device, or the Workmates desktop app.
+
+Running Workmates on Railway turns the normally local workspace into an always-available cloud environment.
+
+The deployment includes the Workmates API server and web/PWA interface, with persistent storage mounted at `/data`. Agents, conversations, installed skills, workflows, configuration, uploaded files, and activity records remain available across restarts and redeployments.
+
+Railway also provides the public HTTPS endpoint used by Workmates clients. Access to the workspace is protected by `WORKMATES_SERVER_TOKEN`.
+
+After deployment, open the generated Railway domain, authenticate with the server token, and connect an AI provider such as OpenRouter, Centra, or another supported Workmates engine.
 
 ## What gets deployed
 
@@ -20,6 +28,10 @@ Deploy and host Workmates AI agents with desktop and mobile access.
 
 | Variable | Default |
 | --------- | ------- |
+| `PORT` | 8080 |
+| `WORKMATES_HOSTED` | 1 |
+| `WORKMATES_DATA_DIR` | /data/workspace |
+| `WORKMATES_STATIC_DIR` | /app/dist |
 | `WORKMATES_SERVER_TOKEN` | (secret) |
 
 ## Configuration

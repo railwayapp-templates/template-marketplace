@@ -16,12 +16,13 @@ This provides a pre-configured setup for deploying your web application on Railw
 
 | Service | Source | Type |
 |---------|--------|------|
-| Sveltekit | [railwayapp-templates/svelte-kit](https://github.com/railwayapp-templates/svelte-kit) | Web service |
+| Sveltekit | [sveltejs/sv-addon-railway](https://github.com/sveltejs/sv-addon-railway) (root: /snapshot) | Web service |
 
 ## Configuration
 
+- **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Tags:** web, frontend, typescript · **Languages:** TypeScript, Svelte, CSS, JavaScript, HTML
+**Category:** Starters · **Tags:** web, frontend, typescript · **Languages:** TypeScript, Svelte, Shell, HTML
 
 [View on Railway →](https://railway.com/deploy/svelte-kit)

@@ -35,6 +35,6 @@ OmniRoute runs as a single Docker container on port 20128. Railway provides comp
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/data`
 
-**Category:** AI/ML · **Languages:** Dockerfile
+**Category:** AI/ML · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/omniroute-1)
