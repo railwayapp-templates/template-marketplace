@@ -6,6 +6,8 @@ A real Kali XFCE desktop in the browser, not just a web terminal.
 
 ## About
 
+![Kali Linux XFCE desktop in the browser, with Wireshark open and an nmap scan running in a terminal](https://vaze.up.railway.app/api/hosting/railway-templates/kali-linux-web-desktop/kali-desktop-wireshark-nmap.png)
+
 Kali Linux Desktop is a full Kali XFCE graphical desktop that runs in your
 browser, not a terminal. You get the GUI security tools that a web shell simply
 cannot run: Burp Suite, Wireshark, Ghidra, Zenmap and a real desktop browser,

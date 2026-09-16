@@ -54,6 +54,6 @@ Postgres uses the pgvector/pgvector:pg16 image (not vanilla Postgres). You must 
 - **Networking:** Public domain with automatic HTTPS
 - **Healthcheck:** `/health`
 
-**Category:** Starters · **Languages:** TypeScript, MDX, JavaScript, CSS, Shell, Nix, Dockerfile, PLpgSQL, HTML, PowerShell
+**Category:** Starters · **Languages:** TypeScript, MDX, JavaScript, CSS, Shell, PLpgSQL, Nix, Dockerfile, HTML, PowerShell
 
 [View on Railway →](https://railway.com/deploy/revealui)

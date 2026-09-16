@@ -15,7 +15,7 @@ Hosting DeerFlow on Railway provides a one-click way to set up and run the compl
 | Service | Source | Type |
 |---------|--------|------|
 | Python-backend | [rpuls/deer-flow-quickstart](https://github.com/rpuls/deer-flow-quickstart) | Web service |
-| Web Interface | [rpuls/deer-flow-quickstart](https://github.com/rpuls/deer-flow-quickstart) (root: /web) | Web service |
+| Web Interface | [rpuls/deer-flow-quickstart](https://github.com/rpuls/deer-flow-quickstart) (root: /) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 
 ## Environment variables

@@ -74,11 +74,11 @@ Key features:
 
 | Service | Source | Type |
 |---------|--------|------|
-| stalwartlabs/stalwart | `stalwartlabs/stalwart:v0.15.5` | Database |
+| stalwartlabs/stalwart | `stalwartlabs/stalwart:v0.16` | Database |
 
 ## Configuration
 
-- **Volume:** `/var/lib/stalwart-mail`
+- **Volume:** `/var/lib/stalwart`
 
 **Category:** Other
 

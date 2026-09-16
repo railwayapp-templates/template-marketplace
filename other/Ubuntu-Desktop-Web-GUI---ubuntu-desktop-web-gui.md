@@ -6,6 +6,10 @@ A real XFCE Ubuntu desktop in the browser, not just a web terminal.
 
 ## About
 
+![Ubuntu XFCE desktop in the browser](https://vaze.up.railway.app/api/hosting/railway-templates/ubuntu-desktop-web-gui/ubuntu-desktop.png)
+
+![Ubuntu desktop with a terminal and Chromium open](https://vaze.up.railway.app/api/hosting/railway-templates/ubuntu-desktop-web-gui/ubuntu-desktop-terminal-chromium.png)
+
 Ubuntu Desktop is a full XFCE graphical desktop that runs in your browser, not a
 terminal. It gives you a real Linux GUI with a file manager, a browser, audio and
 a shared clipboard, reachable from any device at a URL, with no VNC client, SSH
@@ -13,9 +17,15 @@ key or local VM.
 
 Deploying runs a single container built from `linuxserver/webtop:ubuntu-xfce`,
 which serves the entire desktop over one HTTP port through its bundled nginx.
-One thing is worth knowing before your first deploy. **The desktop
-costs meaningfully more than a terminal template: it idles near 800 MB of RAM with
-a session attached, against roughly 64 MB for a ttyd shell. Enabling serverless is strongly recommended so it suspends when you close the tab**.
+Deploys complete in under a minute. The one thing worth planning for is cost: a
+desktop is not a terminal, and it idles near 800 MB of RAM with a session
+attached, against roughly 64 MB for a ttyd shell. Enabling Railway's app sleep is
+strongly recommended so it suspends when you close the tab and you pay for the
+hours you actually use it.
+
+The service intentionally has no healthcheck. HTTP basic auth covers every path
+including `/`, so Railway's unauthenticated probe is answered with 401 and the
+deploy would never go healthy; an always-on restart policy covers crashes instead.
 
 ## What gets deployed
 

@@ -6,6 +6,10 @@ A real XFCE Debian desktop in the browser, not just a web terminal.
 
 ## About
 
+![Debian 13 XFCE desktop in the browser](https://vaze.up.railway.app/api/hosting/railway-templates/debian-desktop-web-gui/debian-desktop.png)
+
+![Debian desktop with a terminal and Chromium open](https://vaze.up.railway.app/api/hosting/railway-templates/debian-desktop-web-gui/debian-desktop-terminal-chromium.png)
+
 Debian Desktop is a full XFCE graphical desktop that runs in your browser, not a
 terminal. It gives you a real Debian 13 (trixie) GUI with a file manager, a
 browser, audio and a shared clipboard, reachable from any device at a URL, with
@@ -13,11 +17,17 @@ no VNC client, SSH key or local VM.
 
 Deploying runs a single container built from `linuxserver/webtop:debian-xfce`,
 which serves the entire desktop over one HTTP port through its bundled nginx.
-Deploys complete in under a minute. **The one thing worth planning for is cost: a
+Deploys complete in under a minute. The one thing worth planning for is cost: a
 desktop is not a terminal, and it idles near 800 MB of RAM with a session
-attached, against roughly 64 MB for a ttyd shell. Enabling serverless is
+attached, against roughly 64 MB for a ttyd shell. Enabling Railway's app sleep is
 strongly recommended so it suspends when you close the tab and you pay for the
-hours you actually use it**.
+hours you actually use it.
+
+The deploy is gated on a healthcheck at `/railway-healthz`. That path needs
+creating, because the image's nginx puts HTTP basic auth at the server level, so
+every path including `/` answers 401 and an unauthenticated Railway probe could
+never pass. The start command adds one exempt location; everything else stays
+behind auth.
 
 ## What gets deployed
 

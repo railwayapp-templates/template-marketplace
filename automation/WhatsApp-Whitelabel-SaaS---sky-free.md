@@ -1,4 +1,4 @@
-# Deploy Sky Free on Railway
+# Deploy WhatsApp Whitelabel SaaS on Railway
 
 Multi-channel messaging SaaS built on the WhatsApp Cloud API
 
@@ -45,6 +45,7 @@ Sky Free runs as a Node.js/Express + React application backed by PostgreSQL and 
 | `LICENSE_KEY` | Scheduler | - | Auto filled |
 | `WORKER_ROLE` | Scheduler | scheduler | Auto filled |
 | `DATABASE_URL` | Scheduler | - | Auto filled |
+| `SESSION_SECRET` | Scheduler | (secret) | Auto filled |
 | `PORT` | Application | 8080 | Auto filled |
 | `APP_URL` | Application | - | Auto filled |
 | `APP_MODE` | Application | web | Auto filled |
@@ -63,6 +64,13 @@ Sky Free runs as a Node.js/Express + React application backed by PostgreSQL and 
 | `LICENSE_KEY` | Autoscaler | - | Auto filled |
 | `WORKER_ROLE` | Autoscaler | autoscaler | Auto filled |
 | `DATABASE_URL` | Autoscaler | - | Auto filled |
+| `SESSION_SECRET` | Autoscaler | (secret) | Auto filled |
+| `CAMPAIGN_AUTOSCALE_QUEUE` | Autoscaler | campaign-messages | Auto filled |
+| `CAMPAIGN_AUTOSCALE_COMMAND` | Autoscaler | npx -y @railway/cli@latest scale --service production-sender --replicas {replicas} | Auto filled |
+| `CAMPAIGN_AUTOSCALE_MAX_REPLICAS` | Autoscaler | 8 | Auto filled |
+| `CAMPAIGN_AUTOSCALE_MIN_REPLICAS` | Autoscaler | 1 | Auto filled |
+| `CAMPAIGN_AUTOSCALE_TICK_SECONDS` | Autoscaler | 60 | Auto filled |
+| `CAMPAIGN_AUTOSCALE_DOWNSCALE_TICKS` | Autoscaler | 10 | Auto filled |
 | `PORT` | Sender | 8080 | Auto filled |
 | `APP_URL` | Sender | - | Auto filled |
 | `APP_MODE` | Sender | worker | Auto filled |
@@ -72,6 +80,7 @@ Sky Free runs as a Node.js/Express + React application backed by PostgreSQL and 
 | `LICENSE_KEY` | Sender | - | Auto filled |
 | `WORKER_ROLE` | Sender | sender | Auto filled |
 | `DATABASE_URL` | Sender | - | Auto filled |
+| `SESSION_SECRET` | Sender | (secret) | Auto filled |
 
 ## Configuration
 

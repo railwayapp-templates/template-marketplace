@@ -21,6 +21,12 @@ inspect, upgrade, interruption recovery, protected recovery points, and safe
 teardown. Model-provider keys are optional during deployment and can be added
 later from Nautilo's Server Guide.
 
+Adoption automatically selects the latest signed stable Nautilo release. The
+held setup service does not contain a Nautilo runtime version; the CLI attaches
+the verified runtime before starting it. You do not choose an image or version.
+Running instances use explicit CLI upgrades, and interrupted setup resumes the
+release already selected for that operation.
+
 ## What gets deployed
 
 | Service | Source | Type |
@@ -29,7 +35,7 @@ later from Nautilo's Server Guide.
 | app-postgres | `pgvector/pgvector@sha256:7ae6051efd0e60444282c27c7e141af07f322ce033300e727a49c3dd11075e38` | Database |
 | logto | `ghcr.io/logto-io/logto@sha256:aa4c428b70d9dd8eac23b6eeb3826a02d5fe0283b5dd774589b9b9760e0c6e9f` | Web service |
 | logto-postgres | `postgres@sha256:95206741a5b214807675e14165369d05b93a9cf692223b616d07cca227e74b0b` | Database |
-| nautilo-server | `ghcr.io/agentsea/nautilo-runtime@sha256:8b1b0c79b779da7dabe6ce8c508d2f97ca5a8e6bdbdfb66b4012db1a8029f461` | Web service |
+| nautilo-server | `ghcr.io/logto-io/logto@sha256:aa4c428b70d9dd8eac23b6eeb3826a02d5fe0283b5dd774589b9b9760e0c6e9f` | Web service |
 
 ## Environment variables
 
@@ -54,7 +60,7 @@ later from Nautilo's Server Guide.
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `node -e "const http=require('http');http.createServer((_q,r)=>{r.writeHead(503,{'content-type':'text/plain; charset=utf-8'});r.end('Nautilo setup is waiting for the administrator CLI.');}).listen(4301,'::');setInterval(()=>{},2147483647)"`
 - **Networking:** Public domain with automatic HTTPS
-- **Start command:** `bun -e "Bun.serve({hostname:'::',port:3001,fetch(){return new Response('Finish setting up Nautilo with the administrator CLI.',{status:200,headers:{'content-type':'text/plain; charset=utf-8'}})}});await new Promise(()=>{})"`
+- **Start command:** `node -e "require('http').createServer((_q,r)=>{r.writeHead(200,{'content-type':'text/plain; charset=utf-8'});r.end('Finish setting up Nautilo with the administrator CLI.');}).listen(3001,'::')"`
 - **Healthcheck:** `/health`
 - **Volume:** `/var/lib/nautilo`
 

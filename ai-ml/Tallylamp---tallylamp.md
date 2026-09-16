@@ -1,6 +1,6 @@
 # Deploy Tallylamp on Railway
 
-Headed Chrome for MCP agents. Saved logins, live view, and human takeover.
+MCP browsers with saved profiles, human takeover and per-browser proxies.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tallylamp)
 
@@ -32,7 +32,7 @@ the public domain, and use it to sign into the dashboard.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:5c26ea041e9a84b71b166590fe2a7a8e6228b4949c0173b22ae3b2b1a567c005` | Web service |
+| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:2708748f0c4db245b78a4ed586e72ebf5acd87dab09981c13eeb0030a0a98a35` | Web service |
 
 ## Environment variables
 
