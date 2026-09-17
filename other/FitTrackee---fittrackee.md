@@ -29,7 +29,7 @@ inviting other people later is not undone by the next deploy.
 | Service | Source | Type |
 |---------|--------|------|
 | db | `postgis/postgis:18-3.6-alpine` | Database |
-| app | `ghcr.io/youssefsiam38/fittrackee-railway:1.0.0` | Web service |
+| app | `ghcr.io/youssefsiam38/fittrackee-railway:1.0.1` | Web service |
 
 ## Environment variables
 

@@ -1,4 +1,4 @@
-# Deploy Mage AI — Self-Hosted Notebook-Style Data Pipelines on Railway
+# Deploy Mage AI [Updated Sep'26] on Railway
 
 Self-host Mage — notebook-style data pipelines, Airflow alternative
 

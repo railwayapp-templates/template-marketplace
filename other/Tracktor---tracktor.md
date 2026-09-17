@@ -28,7 +28,7 @@ yours from the first second it exists.
 
 | Service | Source | Type |
 |---------|--------|------|
-| tracktor | `ghcr.io/youssefsiam38/tracktor-railway:1.0.0` | Web service |
+| tracktor | `ghcr.io/youssefsiam38/tracktor-railway:1.0.1` | Web service |
 
 ## Environment variables
 

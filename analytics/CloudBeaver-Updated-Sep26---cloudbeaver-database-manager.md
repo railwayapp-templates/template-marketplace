@@ -1,4 +1,4 @@
-# Deploy CloudBeaver — Self-Hosted Web Database Manager [Updated Sep'26] on Railway
+# Deploy CloudBeaver [Updated Sep'26] on Railway
 
 Self-host CloudBeaver — browser SQL editor & database GUI
 

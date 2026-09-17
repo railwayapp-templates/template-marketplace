@@ -35,7 +35,7 @@ start, so deploys take minutes rather than seconds.
 | Service | Source | Type |
 |---------|--------|------|
 | cache | `valkey/valkey:8-alpine` | Database |
-| app | `ghcr.io/youssefsiam38/openarchiver-railway:1.0.0` | Web service |
+| app | `ghcr.io/youssefsiam38/openarchiver-railway:1.0.1` | Web service |
 | search | `getmeili/meilisearch:v1.38` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
@@ -69,7 +69,7 @@ start, so deploys take minutes rather than seconds.
 
 ## Configuration
 
-- **Start command:** `valkey-server --requirepass ${REDIS_PASSWORD} --bind :: 0.0.0.0`
+- **Start command:** `sh -c 'exec valkey-server --requirepass "$REDIS_PASSWORD" --bind :: 0.0.0.0'`
 - **Volume:** `/data`
 - **Healthcheck:** `/api/v1/auth/status`
 - **Networking:** Public domain with automatic HTTPS

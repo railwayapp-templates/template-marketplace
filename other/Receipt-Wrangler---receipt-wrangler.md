@@ -39,7 +39,7 @@ start. The service runs a single replica with a volume, so redeploys have a few 
 
 | Service | Source | Type |
 |---------|--------|------|
-| receipt-wrangler | `ghcr.io/youssefsiam38/receipt-wrangler-railway:1.0.5` | Web service |
+| receipt-wrangler | `ghcr.io/youssefsiam38/receipt-wrangler-railway:1.0.6` | Web service |
 | Redis | `redis:8.2` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 

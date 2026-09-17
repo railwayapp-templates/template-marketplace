@@ -31,7 +31,7 @@ propose an event without an account, and nothing is published until a moderator 
 
 | Service | Source | Type |
 |---------|--------|------|
-| gancio | `ghcr.io/youssefsiam38/gancio-railway:1.0.0` | Web service |
+| gancio | `ghcr.io/youssefsiam38/gancio-railway:1.0.1` | Web service |
 
 ## Environment variables
 

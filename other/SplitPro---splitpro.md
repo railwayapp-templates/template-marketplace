@@ -31,7 +31,7 @@ have a few seconds of downtime on redeploy.
 
 | Service | Source | Type |
 |---------|--------|------|
-| splitpro | `ghcr.io/youssefsiam38/splitpro-railway:1.0.1` | Web service |
+| splitpro | `ghcr.io/youssefsiam38/splitpro-railway:1.0.2` | Web service |
 | postgres | `ossapps/postgres:17.7-trixie` | Database |
 
 ## Environment variables

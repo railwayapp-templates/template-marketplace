@@ -28,7 +28,7 @@ generated for you, and printer integrations still work because they authenticate
 
 | Service | Source | Type |
 |---------|--------|------|
-| spoolman | `ghcr.io/youssefsiam38/spoolman-railway:1.0.0` | Web service |
+| spoolman | `ghcr.io/youssefsiam38/spoolman-railway:1.0.1` | Web service |
 
 ## Environment variables
 

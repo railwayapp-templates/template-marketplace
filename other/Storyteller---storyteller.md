@@ -27,7 +27,7 @@ start. Single replica; a few seconds of downtime on redeploy.
 
 | Service | Source | Type |
 |---------|--------|------|
-| storyteller | `ghcr.io/youssefsiam38/storyteller-railway:1.0.1` | Web service |
+| storyteller | `ghcr.io/youssefsiam38/storyteller-railway:1.0.2` | Web service |
 
 ## Environment variables
 

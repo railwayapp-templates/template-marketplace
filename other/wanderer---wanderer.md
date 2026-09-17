@@ -29,7 +29,7 @@ is a Railway variable you can read in the dashboard, and you change it in the ap
 
 | Service | Source | Type |
 |---------|--------|------|
-| wanderer | `ghcr.io/youssefsiam38/wanderer-railway:1.0.0` | Web service |
+| wanderer | `ghcr.io/youssefsiam38/wanderer-railway:1.0.1` | Web service |
 | search | `getmeili/meilisearch:v1.36.0` | Database |
 | db | `flomp/wanderer-db:v0.20.0` | Database |
 

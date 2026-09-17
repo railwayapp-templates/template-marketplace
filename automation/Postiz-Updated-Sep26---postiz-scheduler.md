@@ -1,4 +1,4 @@
-# Deploy Postiz — Self-Hosted Social Scheduler, 30+ Platforms on Railway
+# Deploy Postiz [Updated Sep'26] on Railway
 
 Self-host Postiz — schedule 30+ platforms, no per-channel fees
 

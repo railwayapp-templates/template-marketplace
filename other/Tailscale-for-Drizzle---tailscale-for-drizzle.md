@@ -24,9 +24,9 @@ On the deploy form, set `TS_FORWARD_BROWSER` for a browser: type `${{` and pick 
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `TS_HOSTNAME` | drizzle-gateway | The machine name this service takes on your tailnet |
-| `TS_FORWARD_BROWSER` | - | Optional. Forwards tailnet port 4983 to your browser service. Type ${{ and pick RAILWAY_PRIVATE_DOMAIN of your Drizzle Studio or Drizzle Gateway service. For other ports, write source port, host and target port as port:host:port. You can leave it empty. |
-| `TS_FORWARD_DATABASE` | - | Optional. Forwards tailnet port 5432 to your database. Type ${{ and pick RAILWAY_PRIVATE_DOMAIN of your database service. For other ports, write source port, host and target port as port:host:port. You can leave it empty. |
+| `TS_HOSTNAME` | railway-forwarder | The machine name this service takes on your tailnet |
+| `TS_FORWARD_BROWSER` | - | Optional. Forwards tailnet port 4983 to your database UI. Pick RAILWAY_PRIVATE_DOMAIN of your Drizzle Studio or Drizzle Gateway service. For other ports, write source port, host and target port as port:host:port. You can leave it empty. |
+| `TS_FORWARD_DATABASE` | - | Optional. Forwards tailnet port 5432 to your database. Pick RAILWAY_PRIVATE_DOMAIN of your database service. For other ports, write source port, host and target port as port:host:port. You can leave it empty. |
 
 ## Configuration
 

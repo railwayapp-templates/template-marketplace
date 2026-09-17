@@ -6,9 +6,9 @@ Multiplayer WebSocket relay server with rooms and msgpack. Bun-native.
 
 ## About
 
-Room-based multiplayer WebSocket relay server using msgpack binary protocol. 5-8x faster than Node.js ws — same protocol, same clients. Bun-native.
+Bun WebSocket Game Server is a room-based multiplayer WebSocket relay built on Bun's native WebSocket server. It forwards msgpack-encoded messages between peers in the same room without inspecting payloads, with per-client rate limiting, keepalive, an origin allowlist, and health monitoring. TypeScript, zero framework overhead.
 
-This template deploys a stateless WebSocket relay server built on Bun's native WebSocket API. Clients connect via ws:///ws/, get assigned a player ID, and all messages are relayed to peers in the same room using msgpack encoding. Uses Bun's built-in pub/sub for efficient room broadcasting, zero-allocation per-connection state via ws.data, and includes per-client rate limiting, keepalive, origin allowlist, and /health + /metrics endpoints.
+This template deploys a single stateless relay service. Clients connect to `wss://<your-domain>/ws/<roomId>`, receive a welcome message with their player ID and the current peer list, and every message they send is relayed unchanged to the rest of the room. Because Bun serves WebSockets natively, the server starts in milliseconds and handles thousands of concurrent connections on a small instance. There is no database and no volume to manage. Railway supplies the public domain, automatic SSL, and horizontal scaling. The `/health` endpoint drives Railway's readiness check and `/metrics` exposes connection and room counts for monitoring or autoscaling.
 
 ## What gets deployed
 

@@ -8,6 +8,8 @@ Self-hosted file sharing with ShareX, API, and MongoDB.
 
 A self-hosted file sharing platform with a clean web interface, ShareX integration, and API access. Upload screenshots, files, and media — then instantly share them via short links.
 
+[![Deploy to Railway](https://railway.app/button.svg)](https://railway.com/deploy/sharely-1)
+
 Sharely is a Node.js and MongoDB application that provides a modern web interface for file uploads, gallery viewing, and shareable links. It supports chunked uploads up to 2 GB, automatic thumbnail generation for video and PDF files, and social media embed optimization with Open Graph metadata.
 
 ## What gets deployed

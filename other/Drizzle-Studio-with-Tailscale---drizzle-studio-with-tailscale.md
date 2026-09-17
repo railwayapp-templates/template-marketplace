@@ -25,10 +25,10 @@ You do not generate or paste a key. The Tailscale service prints a sign-in link 
 | --------- | ------- | ------- | ----------- |
 | `TS_HOSTNAME` | Tailscale | drizzle-studio | The machine name this service takes on your tailnet |
 | `TS_FORWARD_BROWSER` | Tailscale | - | Optional. The host that tailnet port 4983 forwards to. Keep the default to reach Drizzle Studio. For other ports, write source port, host and target port as port:host:port. |
-| `TS_FORWARD_DATABASE` | Tailscale | - | Optional. Forwards tailnet port 5432 to your database. Type ${{ and pick RAILWAY_PRIVATE_DOMAIN of your database service. For other ports, write source port, host and target port as port:host:port. You can leave it empty. |
+| `TS_FORWARD_DATABASE` | Tailscale | - | Optional. Forwards tailnet port 5432 to your database. Pick RAILWAY_PRIVATE_DOMAIN of your database service. For other ports, write source port, host and target port as port:host:port. You can leave it empty. |
 | `PORT` | Drizzle Studio | 4983 | The port Studio listens on inside the project |
 | `PASSCODE` | Drizzle Studio | - | The password for secure access |
-| `DATABASE_URL` | Drizzle Studio | - | Required. The connection string of your database. On the deploy form, type ${{ and pick DATABASE_URL of your database service. |
+| `DATABASE_URL` | Drizzle Studio | - | Required. The connection string of your database. On the deploy form, pick DATABASE_URL of your database service. |
 
 ## Configuration
 

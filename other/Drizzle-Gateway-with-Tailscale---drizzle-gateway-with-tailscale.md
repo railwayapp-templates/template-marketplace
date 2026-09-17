@@ -27,10 +27,10 @@ On the deploy form, you can pick your database service's connection string for `
 | --------- | ------- | ------- | ----------- |
 | `TS_HOSTNAME` | Tailscale | drizzle-gateway | The machine name this service takes on your tailnet |
 | `TS_FORWARD_BROWSER` | Tailscale | - | Optional. The host that tailnet port 4983 forwards to. Keep the default to reach Drizzle Gateway. For other ports, write source port, host and target port as port:host:port. |
-| `TS_FORWARD_DATABASE` | Tailscale | - | Optional. Forwards tailnet port 5432 to your database. Type ${{ and pick RAILWAY_PRIVATE_DOMAIN of your database service. For other ports, write source port, host and target port as port:host:port. You can leave it empty. |
+| `TS_FORWARD_DATABASE` | Tailscale | - | Optional. Forwards tailnet port 5432 to your database. Pick RAILWAY_PRIVATE_DOMAIN of your database service. For other ports, write source port, host and target port as port:host:port. You can leave it empty. |
 | `PORT` | Drizzle Gateway | 4983 | The port the Gateway listens on inside the project |
 | `MASTERPASS` | Drizzle Gateway | - | The admin password for secure access |
-| `DATABASE_URL_Postgres` | Drizzle Gateway | - | Optional. On the deploy form, type ${{ and pick DATABASE_URL of your database service. Drizzle Gateway then opens with that connection saved. You can leave it empty. |
+| `DATABASE_URL_Postgres` | Drizzle Gateway | - | Optional. On the deploy form, pick DATABASE_URL of your database service. Drizzle Gateway then opens with that connection saved. You can leave it empty. |
 
 ## Configuration
 

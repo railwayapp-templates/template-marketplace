@@ -22,7 +22,7 @@ Teleproxy's fake-TLS camouflage means connections to your proxy look, at a glanc
 | --------- | ------- | ----------- |
 | `SECRET` | (secret) | Hex-encoded proxy secret clients use to connect. Auto-generated. |
 | `WORKERS` | 4 | Number of worker processes handling connections. |
-| `EE_DOMAIN` | www.microsoft.com | The domain your proxy's fake-TLS handshake camouflages as. Any real HTTPS domain works. |
+| `EE_DOMAIN` | www.cloudfare.com | The domain your proxy's fake-TLS handshake camouflages as. Any real HTTPS domain works. |
 | `PROXY_TAG` | - | Optional MTProto promotion tag (advertises a channel via the proxy link). Leave blank unless you have one. |
 | `DIRECT_MODE` | false | If true, connects directly to Telegram DCs without the ME relay. Incompatible with PROXY_TAG. |
 
