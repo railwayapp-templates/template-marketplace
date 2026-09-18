@@ -1,4 +1,4 @@
-# Deploy postiz-social-api on Railway
+# Deploy Postiz [Updated Sep'26] on Railway
 
 Self-host Postiz — schedule to 30+ platforms via your own REST API
 

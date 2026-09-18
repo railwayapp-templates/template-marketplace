@@ -18,8 +18,8 @@ On the deploy form, you can pick your database service's connection string for `
 
 | Service | Source | Type |
 |---------|--------|------|
-| Tailscale | `ghcr.io/drizzle-team/railway-tailnet:v0.1.4` | Database |
-| Drizzle Gateway | `ghcr.io/drizzle-team/gateway:1.6.2` | Database |
+| Tailscale | `ghcr.io/drizzle-team/railway-tailnet:latest` | Database |
+| Drizzle Gateway | `ghcr.io/drizzle-team/gateway:latest` | Database |
 
 ## Environment variables
 

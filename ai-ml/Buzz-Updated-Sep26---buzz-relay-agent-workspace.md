@@ -1,4 +1,4 @@
-# Deploy Buzz — Self-Hosted AI Agent Workspace on Railway
+# Deploy Buzz [Updated Sep'26] on Railway
 
 Self-hosted Slack + GitHub alternative for humans & AI agents
 

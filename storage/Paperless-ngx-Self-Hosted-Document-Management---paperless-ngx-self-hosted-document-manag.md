@@ -1,4 +1,4 @@
-# Deploy Paperless-ngx (Self-Hosted Document Management)bountiful-forgiveness on Railway
+# Deploy Paperless-ngx (Self-Hosted Document Management) on Railway
 
 Self-hosted document management with OCR — scan, index, archive.
 

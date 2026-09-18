@@ -1,4 +1,4 @@
-# Deploy Ghost (Substack / Medium Alternative)bold-blue on Railway
+# Deploy Ghost (Substack / Medium Alternative) on Railway
 
 Self-hosted publishing & newsletter platform. Own your audience.
 

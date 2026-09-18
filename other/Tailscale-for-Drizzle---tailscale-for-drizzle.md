@@ -18,7 +18,7 @@ On the deploy form, set `TS_FORWARD_BROWSER` for a browser: type `${{` and pick 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Tailscale | `ghcr.io/drizzle-team/railway-tailnet:v0.1.4` | Database |
+| Tailscale | `ghcr.io/drizzle-team/railway-tailnet:latest` | Database |
 
 ## Environment variables
 

@@ -16,8 +16,8 @@ You do not generate or paste a key. The Tailscale service prints a sign-in link 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Tailscale | `ghcr.io/drizzle-team/railway-tailnet:v0.1.4` | Database |
-| Drizzle Studio | `ghcr.io/drizzle-team/railway-studio:1.0.2` | Worker |
+| Tailscale | `ghcr.io/drizzle-team/railway-tailnet:latest` | Database |
+| Drizzle Studio | `ghcr.io/drizzle-team/railway-studio:latest` | Worker |
 
 ## Environment variables
 

@@ -1,4 +1,4 @@
-# Deploy OpenClaw Desktop (GUI) on Railway
+# Deploy Ubuntu OpenClaw Desktop (GUI) on Railway
 
 OpenClaw on an Ubuntu desktop: watch its Chrome, sign in to sites for it
 
