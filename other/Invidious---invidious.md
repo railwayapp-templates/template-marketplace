@@ -96,6 +96,7 @@ Template wiring in this repo: MIT. Invidious and invidious-companion have their 
 ## Configuration
 
 - **Volume:** `/var/lib/postgresql/data`
+- **Start command:** `/bin/sh -c "until nc -z $PGHOST 5432; do echo waiting for postgres; sleep 2; done; exec /invidious/invidious"`
 - **Healthcheck:** `/feed/popular`
 - **Networking:** Public domain with automatic HTTPS
 

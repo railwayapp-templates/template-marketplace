@@ -1,0 +1,64 @@
+# Deploy Whatsapp API on Railway
+
+WhatsApp REST API self-hosted with Evolution — QR login, webhooks [Sep'26]
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/whatsapp-api-evolution)
+
+## About
+
+Evolution API is an open-source WhatsApp REST API built on Baileys and Whatsmeow. It gives developers programmatic control of WhatsApp accounts through a RESTful interface without requiring Meta's Business API approval. Send messages, manage groups, stream events to your queue, and connect AI agents — all through a self-hosted backend you fully control.
+
+---
+
+Running Evolution API in production requires PostgreSQL for session state, Redis for caching, and a persistent volume at `/evolution/instances` for WhatsApp authentication data. Without a managed host, you are configuring Docker Compose, inter-service networking, SSL, volume mounts, and database backups by hand.
+
+Railway handles all of it. Session metadata persists in PostgreSQL, so instances reconnect after restarts without re-scanning the QR code.
+
+Typical cost: **~$5–10/month** on Railway's Hobby plan for all three services, with no per-message billing. Twilio's WhatsApp API charges $0.005–$0.085 per message — at 10,000 messages/month that is $50–$850 in messaging fees alone. Meta's own Cloud API bills per 24-hour conversation window, which stacks up fast on marketing and utility templates. A self-hosted deployment has a flat infrastructure cost regardless of volume.
+
+---
+
+## What gets deployed
+
+| Service | Source | Type |
+|---------|--------|------|
+| Whatsapp API | `evoapicloud/evolution-api:v2.3.7` | Web service |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| Redis | `redis:8.2.1` | Database |
+
+## Environment variables
+
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `PORT` | Whatsapp API | 8080 | Port |
+| `SERVER_URL` | Whatsapp API | - | Server URL |
+| `CACHE_REDIS_URI` | Whatsapp API | - | Redis connection URI |
+| `DATABASE_PROVIDER` | Whatsapp API | postgresql | Database provider |
+| `CACHE_REDIS_ENABLED` | Whatsapp API | true | Redis cache enabled |
+| `AUTHENTICATION_API_KEY` | Whatsapp API | (secret) | Required: API key for authentication (use in header: apikey) |
+| `DATABASE_CONNECTION_URI` | Whatsapp API | - | Database connection URI |
+| `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
+| `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `REDISHOST` | Redis | - | REDISHOST |
+| `REDISPORT` | Redis | 6379 | REDISPORT |
+| `REDISUSER` | Redis | default | REDISUSER |
+| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
+| `REDISPASSWORD` | Redis | (secret) | REDISPASSWORD |
+| `REDIS_PASSWORD` | Redis | (secret) | REDIS_PASSWORD |
+| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
+
+## Configuration
+
+- **Networking:** Public domain with automatic HTTPS
+- **TCP Proxies:** 5432
+- **Volume:** `/var/lib/postgresql/data`
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
+- **TCP Proxies:** 6379
+- **Volume:** `/data`
+
+**Category:** Bots
+
+[View on Railway →](https://railway.com/deploy/whatsapp-api-evolution)

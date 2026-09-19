@@ -73,6 +73,15 @@ After the first deploy:
 | `ENCRYPTION_KEY_SALT` | web | - | Generated for you. You need it to decrypt a database backup, so store it with SECRET_KEY. |
 | `S3_SECRET_ACCESS_KEY` | web | (secret) | Secret key for the bucket. |
 | `DJANGO_SETTINGS_MODULE` | web | config.settings.production | Django settings module. Leave as-is. Other values turn off the production security settings. |
+| `PLATFORM_WHATSAPP_CLIENT_ID` | web | - | WhatsApp Cloud API: the App ID of the Meta app with the WhatsApp product. |
+| `PLATFORM_INSTAGRAM_CLIENT_ID` | web | - | Instagram: the Instagram app ID, from the Meta app's Instagram product — not the outer app's ID. |
+| `PLATFORM_MESSENGER_CLIENT_ID` | web | - | Facebook Messenger: the Meta app's App ID. Leave blank if you are not connecting Facebook pages. |
+| `PLATFORM_WHATSAPP_VERIFY_TOKEN` | web | (secret) | Any long random string. Paste it into the WhatsApp webhook's Verify token field. |
+| `PLATFORM_INSTAGRAM_VERIFY_TOKEN` | web | (secret) | Any long random string. Paste it into Instagram → Webhooks → Verify token. |
+| `PLATFORM_MESSENGER_VERIFY_TOKEN` | web | (secret) | Any long random string. Paste the same value into Messenger → Settings → Webhooks → Verify token. |
+| `PLATFORM_WHATSAPP_CLIENT_SECRET` | web | (secret) | 	The same app's App Secret. Required alongside the App ID. |
+| `PLATFORM_INSTAGRAM_CLIENT_SECRET` | web | (secret) | The matching Instagram app secret. Required alongside the ID. |
+| `PLATFORM_MESSENGER_CLIENT_SECRET` | web | (secret) | The same app's App Secret. Required alongside the App ID — one without the other disables Messenger. |
 | `APP_URL` | worker | - | Referenced from web. The origin for links in queued messages and emails. |
 | `SECRET_KEY` | worker | (secret) | Referenced from web and must match it, or the worker cannot decrypt stored credentials. |
 | `DATABASE_URL` | worker | - | Same database as web, referenced from the template. Leave as-is. |
@@ -86,6 +95,12 @@ After the first deploy:
 | `ENCRYPTION_KEY_SALT` | worker | - | Referenced from web and must match it, or encrypted fields are unreadable here. |
 | `S3_SECRET_ACCESS_KEY` | worker | (secret) | Referenced from web. Leave as-is. |
 | `DJANGO_SETTINGS_MODULE` | worker | config.settings.production | Django settings module. Leave as-is. |
+| `PLATFORM_WHATSAPP_CLIENT_ID` | worker | - | WhatsApp Cloud API: the App ID of the Meta app with the WhatsApp product. |
+| `PLATFORM_INSTAGRAM_CLIENT_ID` | worker | - | Instagram: the Instagram app ID, from the Meta app's Instagram product — not the outer app's ID. |
+| `PLATFORM_MESSENGER_CLIENT_ID` | worker | - | Facebook Messenger: the Meta app's App ID. Leave blank if you are not connecting Facebook pages. |
+| `PLATFORM_WHATSAPP_CLIENT_SECRET` | worker | (secret) | The same app's App Secret. Required alongside the App ID. |
+| `PLATFORM_INSTAGRAM_CLIENT_SECRET` | worker | (secret) | The matching Instagram app secret. Required alongside the ID. |
+| `PLATFORM_MESSENGER_CLIENT_SECRET` | worker | (secret) | The same app's App Secret. Required alongside the App ID — one without the other disables Messenger. |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |

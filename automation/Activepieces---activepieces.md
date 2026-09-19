@@ -21,7 +21,7 @@ After deployment, open the generated Activepieces public URL to access the visua
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Activepieces | `activepieces/activepieces:0.90.4` | Web service |
+| Activepieces | `activepieces/activepieces:0.91.0` | Web service |
 | Redis | `redis:8.2.1` | Database |
 
 ## Environment variables

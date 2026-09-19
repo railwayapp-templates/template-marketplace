@@ -1,6 +1,6 @@
-# Deploy Hashicorp Vault on Railway
+# Deploy HashiCorp Vault on Railway
 
-Vault container in Railway
+Deploy and Host HashiCorp Vault with Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vOXRB-)
 
@@ -18,24 +18,24 @@ Vault runs as a single service that exposes an HTTP API and an optional web UI f
 
 | Service | Source | Type |
 |---------|--------|------|
-| vault-railway-template | [FournyP/vault-railway-template](https://github.com/FournyP/vault-railway-template) | Database |
+| HashiCorp Vault | [FournyP/vault-railway-template](https://github.com/FournyP/vault-railway-template) | Database |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `ENV` | prod | Use "dev" for a development server |
-| `PORT` | 8200 | Port of listener address |
-| `UI_ENABLED` | false | Enables the built-in web UI, which is available on all listeners (address + port) at the /ui path. |
-| `STORAGE_PATH` | /vault/file | Configures the storage backend where Vault data is stored. |
-| `MAX_LEASE_TTL` | 730h | Specifies the maximum possible lease duration for tokens and secrets. |
-| `DEFAULT_LEASE_TTL` | 168h | Specifies the default lease duration for tokens and secrets. |
-| `DEV_ROOT_TOKEN_ID` | (secret) | Setup in case of ENV = "dev" |
+| `ENV` | file | file keeps secrets on the volume. dev runs vault server -dev: in-memory, unsealed, every secret lost on redeploy. |
+| `PORT` | 8200 | Listener port. Baked into the config at build time. |
+| `UI_ENABLED` | true | true serves the web UI at /ui. Build-time. |
+| `STORAGE_PATH` | /vault/file | Directory of the file backend. Must be the volume's mount path. Build-time. |
+| `MAX_LEASE_TTL` | 720h | Maximum lease duration for tokens and secrets. Build-time. |
+| `DEFAULT_LEASE_TTL` | 168h | Default lease duration for tokens and secrets. Build-time. |
+| `DEV_ROOT_TOKEN_ID` | (secret) | Root token for ENV=dev only. Ignored otherwise. |
 
 ## Configuration
 
 - **Volume:** `/vault/file`
 
-**Category:** Storage · **Languages:** Dockerfile, Shell
+**Category:** Storage · **Languages:** Python, Shell, TypeScript, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/vOXRB-)

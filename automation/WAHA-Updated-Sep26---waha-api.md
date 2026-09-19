@@ -1,4 +1,4 @@
-# Deploy WAHA — Self-Hosted WhatsApp REST API on Railway
+# Deploy WAHA [Updated Sep'26] on Railway
 
 WhatsApp HTTP API. No per-message fees. Replaces Twilio.
 

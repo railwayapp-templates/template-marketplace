@@ -1,4 +1,4 @@
-# Deploy Kali Linux (Web GUI) on Railway
+# Deploy Kali Linux (Web Desktop) on Railway
 
 A real Kali XFCE desktop in the browser, not just a web terminal.
 

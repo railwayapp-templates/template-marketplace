@@ -21,17 +21,20 @@ The upstream project has no built-in client authentication, so this template pla
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `PORT` | Postgres MCP | 3000 | Port the MCP HTTP server binds to inside the container. Fixed at 3000 to match what the gateway proxies to. Shoul match 'MCP_PORT' on the gateway. |
-| `ACCESS_MODE` | Postgres MCP | restricted | SQL-level guardrails. restricted forces read-only transactions and rejects commit/rollback — safe default. Set to unrestricted only for dev/throwaway databases where writes are acceptable. |
-| `DATABASE_URI` | Postgres MCP | - | Postgres connection string the MCP will analyse. Wire this to the bundled Postgres plugin's private URL, or paste your own postgresql://user:pass@host:port/db for an external database. |
-| `API_KEYS` | Postgres MCP Gateway | (secret) | Comma-separated list of bearer tokens allowed to call the MCP. |
-| `MCP_HOST` | Postgres MCP Gateway | - | Hostname of the MCP service on Railway's private network. Defaults to mcp.railway.internal. Only override if you rename the MCP service — then set it to .railway.internal. |
-| `MCP_PORT` | Postgres MCP Gateway | - | Port the MCP service listens on. Defaults to 3000, which matches the MCP service's fixed PORT. Don't change unless you also change PORT on the MCP service. |
+| `PORT` | Postgres MCP | 8000 | Port the MCP server binds to. Fixed at 8000 to match MCP_PORT on the gateway. |
+| `ACCESS_MODE` | Postgres MCP | restricted | restricted (default) runs read-only transactions with execution-time limits and rejects commit/rollback. unrestricted allows full read/write; use only on dev or throwaway databases. |
+| `DATABASE_URI` | Postgres MCP | - | Postgres connection string the MCP will inspect, e.g. postgresql://user:pass@host:5432/dbname. Reference a Postgres service in the same project or paste an external one. |
+| `PORT` | Postgres MCP Gateway | 80 | Port nginx listens on. Must match the domain's target port. |
+| `API_KEYS` | Postgres MCP Gateway | (secret) | Comma-separated list of bearer tokens allowed to call the MCP. Allowed characters per key: A-Z a-z 0-9 . _ ~ + / = - |
+| `MCP_HOST` | Postgres MCP Gateway | - | Hostname of the MCP service on Railway's private network. Only override if you rename the MCP service. |
+| `MCP_PORT` | Postgres MCP Gateway | - | Port the MCP service listens on. Must match PORT on the MCP service. |
+| `PATH_KEY_AUTH` | Postgres MCP Gateway | false | true also accepts the key as a path segment (/k/<key>/mcp) for MCP clients that cannot send an Authorization header. |
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Automation · **Languages:** Shell, Dockerfile
+**Category:** Automation · **Languages:** Python, Shell, TypeScript, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/postgres-mcp)

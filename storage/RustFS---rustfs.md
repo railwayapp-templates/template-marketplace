@@ -21,6 +21,7 @@ RustFS is developed with the popular and secure Rust language, compatible with S
 | Variable | Default |
 | --------- | ------- |
 | `RUSTFS_SECRET_KEY` | (secret) |
+| `RUSTFS_OBS_LOG_DIRECTORY` | /var/log/rustfs/ |
 
 ## Configuration
 

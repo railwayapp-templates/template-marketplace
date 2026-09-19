@@ -1,6 +1,6 @@
 # Deploy Kubo on Railway
 
-Deploy a Kubo server in railway
+Deploy and Host IPFS Kubo with Railway
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kubo)
 
@@ -22,9 +22,12 @@ Kubo runs as a single service that exposes IPFS HTTP APIs and gateway endpoints 
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `IPFS_PATH` | /data/ipfs | Path to the IPFS repo/data directory inside the container |
-| `KUBO_ANNOUNCE` | - | Multiaddr announced to peers (public reachability) |
-| `KUBO_API_ADDRESSES` | ["/ip4/0.0.0.0/tcp/5001", "/ip6/::/tcp/5001"] | Kubo API listen address |
+| `IPFS_PATH` | /data/ipfs | Kubo's repo directory. Must be the volume's mount path. |
+| `KUBO_ANNOUNCE` | - | Multiaddr announced to peers. Set it from the TCP proxy on port 4001 so peers outside Railway can reach the node. |
+| `KUBO_API_ADDRESSES` | ["/ip4/0.0.0.0/tcp/5001", "/ip6/::/tcp/5001"] | JSON array of RPC API listen addresses. Keep both IPv4 and IPv6 on Railway. |
+| `KUBO_API_AUTH_SECRET` | (secret) | Bearer token for the RPC API (port 5001). Callers send Authorization: Bearer [secret]. Ignored when KUBO_API_AUTHORIZATIONS is set. |
+| `KUBO_API_ALLOWED_PATHS` | ["/api/v0"] | JSON array of API paths the bearer token may call. |
+| `KUBO_API_AUTHORIZATIONS` | - | Full API.Authorizations JSON object for multiple users and per-user paths. When set it replaces KUBO_API_AUTH_SECRET and KUBO_API_ALLOWED_PATHS. |
 | `KUBO_SWARM_TCP_ADDRESS_IPV4` | /ip4/0.0.0.0/tcp/4001 | IPv4 TCP swarm listen address (libp2p connections) |
 | `KUBO_SWARM_TCP_ADDRESS_IPV6` | /ip6/::/tcp/4001 | IPv6 TCP swarm listen address (libp2p connections) |
 | `KUBO_SWARM_UDP_ADDRESS_IPV4` | /ip4/0.0.0.0/udp/4001/quic | IPv4 UDP/QUIC swarm listen address |
@@ -35,6 +38,6 @@ Kubo runs as a single service that exposes IPFS HTTP APIs and gateway endpoints 
 - **TCP Proxies:** 4001
 - **Volume:** `/data/ipfs`
 
-**Category:** Storage · **Languages:** Shell, Dockerfile
+**Category:** Storage · **Languages:** Python, Shell, TypeScript, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/kubo)
