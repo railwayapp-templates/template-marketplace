@@ -14,7 +14,7 @@ this is nine_router for railway
 
 | Service | Source | Type |
 |---------|--------|------|
-| nine_router | [rapdrzky/nine_router_patch_oc](https://github.com/rapdrzky/nine_router_patch_oc) | Web service |
+| nine_router | [rapdrzky/nine_router](https://github.com/rapdrzky/nine_router) | Web service |
 
 ## Environment variables
 
@@ -27,6 +27,6 @@ this is nine_router for railway
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/data`
 
-**Category:** Other · **Languages:** JavaScript, Dockerfile, Shell
+**Category:** Other · **Languages:** JavaScript, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/ninerouter)

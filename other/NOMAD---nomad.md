@@ -16,7 +16,7 @@ The template generates an encryption key and initial administrator password, con
 
 | Service | Source | Type |
 |---------|--------|------|
-| TREK | `ghcr.io/monotykamary/nomad:3.4.1` | Web service |
+| TREK | `ghcr.io/monotykamary/nomad:4.2.1@sha256:25d6d332eab937d871cb1f196fdacc1d2f34a77ee98f3028092d24a47c81433c` | Web service |
 
 ## Environment variables
 

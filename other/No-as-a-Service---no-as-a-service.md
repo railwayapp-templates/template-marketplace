@@ -29,6 +29,6 @@ Hosting No-as-a-Service is intentionally minimal. The project is a small Express
 - **Healthcheck:** `/no`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other · **Languages:** JavaScript
+**Category:** Other · **Languages:** JavaScript, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/no-as-a-service)

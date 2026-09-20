@@ -16,9 +16,10 @@ supplies pull-request metadata, Cooee drafts and reviews customer-facing
 updates, and your public feed, React embed, and MCP clients read only entries
 you have published.
 
-The default deployment uses one public Cooee origin for the website, dashboard,
-public changelogs, docs, and API. A private worker handles scheduled jobs, while
-MCP runs as a separate read-only public service.
+The default deployment uses one public Cooee origin for the operator dashboard,
+public changelogs, and API. The managed marketing website and developer docs
+remain on `cooee.sh`. A private worker handles scheduled jobs, while MCP runs as
+a separate read-only public service.
 
 ## What gets deployed
 
@@ -35,7 +36,6 @@ MCP runs as a separate read-only public service.
 | --------- | ------- | ------- |
 | `NODE_ENV` | Cron | production |
 | `OPENAI_API_KEY` | Cron | (secret) |
-| `BILLING_ENABLED` | Cron | false |
 | `BETTER_AUTH_SECRET` | Cron | (secret) |
 | `GITHUB_CLIENT_SECRET` | Cron | (secret) |
 | `GITHUB_WEBHOOK_SECRET` | Cron | (secret) |
@@ -45,24 +45,22 @@ MCP runs as a separate read-only public service.
 | `HOST` | MCP | 0.0.0.0 |
 | `HOST` | Cooee | 0.0.0.0 |
 | `NODE_ENV` | Cooee | production |
-| `OPENAI_MODEL` | Cooee | gpt-5.4-mini |
+| `OPENAI_MODEL` | Cooee | gpt-5.6-luna |
 | `OPENAI_API_KEY` | Cooee | (secret) |
-| `BILLING_ENABLED` | Cooee | false |
 | `BETTER_AUTH_SECRET` | Cooee | (secret) |
 | `GITHUB_CLIENT_SECRET` | Cooee | (secret) |
-| `VITE_BILLING_ENABLED` | Cooee | false |
 | `GITHUB_WEBHOOK_SECRET` | Cooee | (secret) |
 
 ## Configuration
 
 - **Start command:** `bun run railway:cron`
 - **Volume:** `/var/lib/postgresql/data`
-- **Start command:** `bun run --cwd apps/mcp start`
+- **Start command:** `bun run --cwd apps/mcp build && bun run --cwd apps/mcp start`
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
-- **Start command:** `bun --filter @cooee/api start`
+- **Start command:** `bun run --filter @cooee/admin build && COOEE_STATIC_ROOT=apps/admin/dist bun --filter @cooee/api start`
 - **Healthcheck:** `/api/ready`
 
-**Category:** Automation · **Languages:** TypeScript, CSS, JavaScript, HTML
+**Category:** Automation · **Languages:** TypeScript, CSS, JavaScript, Shell, HTML
 
 [View on Railway →](https://railway.com/deploy/cooee)

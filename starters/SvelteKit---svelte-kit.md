@@ -15,7 +15,7 @@ This SvelteKit template runs on Node.js, demonstrating basic authentication and 
 - [Better Auth](https://better-auth.com/) to simplify the authentication setup. User registrations and sessions are stored in a Postgres database.
 - [Drizzle ORM](https://orm.drizzle.team/) to manage database connections, migrations, and queries.
 
-Additional integrations, such as Tailwind CSS, can be easily added by running the [official Svelte CLI](https://svelte.dev/docs/cli/sv-add).
+Additional integrations, such as Tailwind CSS, can be easily added by running the [Svelte CLI](https://svelte.dev/docs/cli/sv-add).
 
 ## What gets deployed
 

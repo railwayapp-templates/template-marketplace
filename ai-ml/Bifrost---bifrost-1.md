@@ -6,7 +6,7 @@ Fastest enterprise AI gateway (50x faster than LiteLLM).
 
 ## About
 
-Deploy Bifrost HTTP `v1.6.11`, an open-source, high-performance AI gateway for routing requests across OpenAI, Anthropic, AWS Bedrock, Google, Azure, and other model providers.
+Deploy Bifrost HTTP `v2.2.1`, an open-source, high-performance AI gateway for routing requests across OpenAI, Anthropic, AWS Bedrock, Google, Azure, and other model providers.
 
 This template runs the official Bifrost container as one public service on port 8080. Its configuration database, gateway settings, logs, budgets, virtual keys, routing rules, and plugin state persist on a Railway volume mounted at `/app/data`.
 
@@ -16,7 +16,7 @@ Open the generated domain to configure providers and routing in the Bifrost dash
 
 | Service | Source | Type |
 |---------|--------|------|
-| Bifrost | `maximhq/bifrost:v1.6.11@sha256:ef8e686b3588884066ec3d0e57f3fc15136b11047ad94678adefe5a9573539af` | Web service |
+| Bifrost | `maximhq/bifrost:v2.2.1@sha256:a8942692af7b4b89196cd8fc33653b7353488dfd58b24078fe793b8574a8084b` | Web service |
 
 ## Environment variables
 

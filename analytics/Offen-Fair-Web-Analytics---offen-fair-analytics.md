@@ -12,7 +12,7 @@ Offen is a fair and privacy-friendly web analytics platform. It provides consent
 
 | Service | Source | Type |
 |---------|--------|------|
-| postgres | `postgres:17.6-alpine` | Database |
+| postgres | `postgres:17.11-alpine@sha256:18cfe3ef5e6815560c98237d6216d1e5119702fb0f3894c8785dd58b8bbe5d73` | Database |
 | offen | [monotykamary/railway-template-offen](https://github.com/monotykamary/railway-template-offen) | Web service |
 
 ## Environment variables

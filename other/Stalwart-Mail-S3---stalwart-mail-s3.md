@@ -6,13 +6,13 @@ Stalwart mail with PostgreSQL and Railway object storage
 
 ## About
 
-Stalwart is an all-in-one mail and collaboration server supporting SMTP, JMAP, IMAP, POP3, CalDAV, CardDAV, and WebDAV. This template pins Stalwart Server v0.16.21 and configures its supported S3 blob backend to use a Railway Bucket. Raw messages, attachments, Sieve scripts, and files go to object storage; Railway PostgreSQL holds accounts, mailbox state, indexes, and server configuration.
+Stalwart is an all-in-one mail and collaboration server supporting SMTP, JMAP, IMAP, POP3, CalDAV, CardDAV, and WebDAV. This template pins Stalwart Server v0.16.22 and configures its supported S3 blob backend to use a Railway Bucket. Raw messages, attachments, Sieve scripts, and files go to object storage; Railway PostgreSQL holds accounts, mailbox state, indexes, and server configuration.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18@sha256:3b8bc16ccb823c9a293b09d20d4180049502ee2b243b5989d59e258450044e22` | Database |
 | stalwart | [monotykamary/railway-template-stalwart](https://github.com/monotykamary/railway-template-stalwart) | Web service |
 
 ## Environment variables

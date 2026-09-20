@@ -17,9 +17,9 @@ The Posta server service owns the public Railway HTTPS domain. The worker, Postg
 | Service | Source | Type |
 |---------|--------|------|
 | Posta | `jkaninda/posta:0.15.0@sha256:337152e07ddd8da52f26704e8bc2774c9b15a29df4c729008cece26423d7ce4e` | Web service |
-| Redis | `redis:8.2` | Database |
+| Redis | `redis:8.2.9@sha256:66b7f4c2f3c6ef1b298bbd7b13c806bc6f71e61f1136a4f58710daf2cb053b21` | Database |
 | Worker | `jkaninda/posta:0.15.0@sha256:337152e07ddd8da52f26704e8bc2774c9b15a29df4c729008cece26423d7ce4e` | Worker |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18@sha256:3b8bc16ccb823c9a293b09d20d4180049502ee2b243b5989d59e258450044e22` | Database |
 
 ## Environment variables
 

@@ -17,8 +17,8 @@ The application volume persists local Open Notebook data at `/app/data`, while S
 | Service | Source | Type |
 |---------|--------|------|
 | proxy | [monotykamary/railway-open-notebook-caddy-proxy](https://github.com/monotykamary/railway-open-notebook-caddy-proxy) | Web service |
-| open-notebook | `lfnovo/open_notebook:1.14.0` | Database |
-| surrealdb | `surrealdb/surrealdb:v2.6.5` | Database |
+| open-notebook | `lfnovo/open_notebook:1.14.0@sha256:6c5fb35b6c60549e4c2dc7617d1f07aaf0a67c4954564a73498d536b8186e879` | Database |
+| surrealdb | `surrealdb/surrealdb:v2.6.5@sha256:7db835aab6355b66e2b5779a3cddae811f201c417adadb4413310ae7f925110e` | Database |
 
 ## Environment variables
 

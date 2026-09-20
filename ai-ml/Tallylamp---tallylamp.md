@@ -1,6 +1,6 @@
 # Deploy Tallylamp on Railway
 
-MCP browsers with saved profiles, human takeover and per-browser proxies.
+MCP browsers with saved profiles, human takeover, guest links and proxies.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tallylamp)
 
@@ -32,7 +32,7 @@ the public domain, and use it to sign into the dashboard.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:56745b7c579633286816bbdaffbd6c0d0cfdf1cb94390ab08ae7c9dd04d31957` | Web service |
+| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:c16e2c3e6daaf37cd004b4cfb3e3c1bfcc5b021ec4618042e6b82c52571d5538` | Web service |
 
 ## Environment variables
 

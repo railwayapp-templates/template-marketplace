@@ -32,6 +32,6 @@ Hosting Koffan is intentionally simple. The application is a single Go binary ba
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** Other · **Languages:** Go, HTML, JavaScript, Dockerfile
+**Category:** Other · **Languages:** Go, JavaScript, HTML, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/koffan)

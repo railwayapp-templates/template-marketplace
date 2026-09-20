@@ -21,7 +21,7 @@ This template deploys four services:
   `GET /health`.
 - **worker** — the Graphile Worker process handling routines, wakeup jobs, and
   background work on top of Postgres (no Redis required).
-- **postgres** — PostgreSQL 16, the single durable datastore.
+- **postgres** — PostgreSQL 18 (`postgres-ssl:18`), the single durable datastore.
 
 Bot computers run on Rakazo's remote providers (E2B, Daytona, or Box) instead
 of local Docker containers, which matches upstream's own production
@@ -32,8 +32,8 @@ recommendation for hosts without a nested Docker daemon.
 | Service | Source | Type |
 |---------|--------|------|
 | api | [monotykamary/railway-template-rakazo](https://github.com/monotykamary/railway-template-rakazo) | Database |
-| web | `ghcr.io/elie222/rakazo/app@sha256:f3c31787c2a5be058aef9842e35840d4b84c356dff3b02b436bd0b0d9df65b3c` | Web service |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| web | `ghcr.io/elie222/rakazo/app@sha256:fb60c6eeed892395f586794928ac8625f1a9553768095f30116d3eb9bd2b5e9a` | Web service |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18@sha256:3b8bc16ccb823c9a293b09d20d4180049502ee2b243b5989d59e258450044e22` | Database |
 | worker | [monotykamary/railway-template-rakazo](https://github.com/monotykamary/railway-template-rakazo) | Database |
 
 ## Environment variables
@@ -65,7 +65,9 @@ recommendation for hosts without a nested Docker daemon.
 | `BETTER_AUTH_SECRET` | api | (secret) | Signing secret for authentication sessions. Generated for you. |
 | `OPENROUTER_API_KEY` | api | (secret) | Optional model key so bots work out of the box; users can also connect models per-user in the UI. |
 | `SCREEN_PROXY_SECRET` | api | (secret) | Signing secret for browser-screen capabilities, shared with the web service. Generated for you. |
+| `PORT` | web | 5173 | Port the web preview server listens on. Do not edit. |
 | `NODE_ENV` | web | production | Runtime mode for the web server. |
+| `LOG_LEVEL` | web | info | - |
 | `RAKAZO_HOST` | web | - | Public hostname the web allowlists. Wired to this service domain. Do not edit. |
 | `API_PROXY_TARGET` | web | - | Private API endpoint the web server proxies /api and /rpc to. Do not edit. |
 | `RAKAZO_IMAGE_TAG` | web | sha-01a210225ed1818c4f41c902c45d1b5143f8ee68 | Informational pinned upstream image tag. |
@@ -94,7 +96,6 @@ recommendation for hosts without a nested Docker daemon.
 - **Healthcheck:** `/health`
 - **Volume:** `/data`
 - **Start command:** `pnpm --filter @rakazo/web preview --host 0.0.0.0 --port 5173`
-- **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `pnpm --filter @rakazo/worker start`

@@ -16,11 +16,11 @@ The template pins Lemmy and Lemmy UI 0.19.20, Pict-rs 0.5.24, and Caddy 2.11.4. 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Lemmy UI | `dessalines/lemmy-ui:0.19.20` | Worker |
-| Lemmy | `ghcr.io/monotykamary/railway-template-lemmy-lemmy:0.19.20-r2` | Worker |
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Pict-rs | `asonix/pictrs:0.5.24` | Database |
-| Proxy | `ghcr.io/monotykamary/railway-template-lemmy-proxy:0.19.20-r2` | Web service |
+| Lemmy UI | `dessalines/lemmy-ui:0.19.20@sha256:e5e67f73ad589f24712a2eb56ef9ce2854cc7c770bd28af59804335283257592` | Worker |
+| Lemmy | `ghcr.io/monotykamary/railway-template-lemmy-lemmy:0.19.20-r2@sha256:abfa6db5b0aecdd326bf86a45455820f5998da850aa6f1a2e5f898d53c49178` | Worker |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18@sha256:3b8bc16ccb823c9a293b09d20d4180049502ee2b243b5989d59e258450044e22` | Database |
+| Pict-rs | `asonix/pictrs:0.5.24@sha256:ccaf207cb6bc859893db0b51738a17f955e14569de64b50c41d3cd66f171a90a` | Database |
+| Proxy | `ghcr.io/monotykamary/railway-template-lemmy-proxy:0.19.20-r2@sha256:b3e8d0fa00c0d0290db64d03e0aaee813423a147b02f068829cea236d0898f4` | Web service |
 
 ## Environment variables
 

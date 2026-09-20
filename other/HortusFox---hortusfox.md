@@ -6,7 +6,7 @@ Collaborative plant care, inventory, and task tracking
 
 ## About
 
-HortusFox is a collaborative plant-management application for locations, plants, photos, care tasks, inventory, calendar entries, chat, history, and API integrations. This template deploys stable version 5.9 with MariaDB and generated administrator credentials.
+HortusFox is a collaborative plant-management application for locations, plants, photos, care tasks, inventory, calendar entries, chat, history, and API integrations. This template deploys stable version 6.1 — which carries upstream's 6.0 XSS and 6.1 backup-import security fixes — with MariaDB and generated administrator credentials.
 
 Sign in using `APP_ADMIN_EMAIL` and the generated `APP_ADMIN_PASSWORD` service variable.
 

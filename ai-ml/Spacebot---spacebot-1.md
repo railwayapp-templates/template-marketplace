@@ -7,7 +7,7 @@ Openclaw alternative for teams, communities, and multi-user environments.
 ## About
 
 <p align="center">
-  <img height="120" width="120" alt="Spacebot" src="https://raw.githubusercontent.com/spacedriveapp/spacebot/main/.github/Ball.png">
+  <img src="https://raw.githubusercontent.com/spacedriveapp/spacebot/main/.github/Ball.png" alt="Spacebot" width="120" height="120">
 </p>
 
 <h1 align="center">Spacebot</h1>
@@ -30,7 +30,7 @@ Openclaw alternative for teams, communities, and multi-user environments.
 &gt; **One-click deploy with [spacebot.sh](https://spacebot.sh)** — connect your Discord, Slack, Telegram, or Twitch, configure your agent, and go. No self-hosting required.
 
 <p align="center">
-  <img alt="Spacebot UI" src="https://raw.githubusercontent.com/spacedriveapp/spacebot/refs/heads/main/.github/spacebot-ui.jpg">
+  <img src="https://raw.githubusercontent.com/spacedriveapp/spacebot/refs/heads/main/.github/spacebot-ui.jpg" alt="Spacebot UI">
 </p>
 
 Spacebot is an AI agent designed for teams and communities, built in Rust with a unique concurrent architecture. Unlike single-session agents, it uses specialized processes—Channels for conversation, Branches for thinking, and Workers for tasks—to handle multiple users simultaneously across Discord, Slack, Telegram, and Twitch without blocking.
@@ -41,7 +41,7 @@ Spacebot deploys as a single Rust binary with zero external dependencies. It use
 
 | Service | Source | Type |
 |---------|--------|------|
-| Spacebot | `ghcr.io/spacedriveapp/spacebot@sha256:ccd9411f72def62b192e44aed23446b94e6e4774d55d7100a94de1531029f6ed` | Web service |
+| Spacebot | `ghcr.io/spacedriveapp/spacebot:v0.5.0@sha256:ccd9411f72def62b192e44aed23446b94e6e4774d55d7100a94de1531029f6ed` | Web service |
 
 ## Environment variables
 

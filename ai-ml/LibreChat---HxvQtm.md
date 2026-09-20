@@ -18,7 +18,7 @@ Hosting LibreChat provides a comprehensive AI chat platform that combines the fa
 | LibreChat | `ghcr.io/danny-avila/librechat:v0.8.7@sha256:c5db3331b845e1f289f8d04c0c77936c4bbe372f76730a804abc1c37e44d23a9` | Web service |
 | Meilisearch | `getmeili/meilisearch:v1.53.2@sha256:c94e58ca09662dd6e65e8f1b0fd145767be3da7d5422a863a27b8d2b68e090c9` | Database |
 | RAG-API | `ghcr.io/danny-avila/librechat-rag-api-dev-lite:v0.9.0@sha256:18a8dffa9316276b924bf3fd23bfb4544b0f68f8f6b14c048affb35c01721a35` | Web service |
-| pgvector | `pgvector/pgvector:pg16` | Database |
+| pgvector | `pgvector/pgvector:pg16@sha256:ccc6e83d6e35e931dc7c5def2022729d5a6c370318d099181995567ff1fb4d6b` | Database |
 
 ## Environment variables
 

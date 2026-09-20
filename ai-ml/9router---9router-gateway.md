@@ -31,7 +31,7 @@ One Node.js service serves the dashboard and routing layer on port `20128`, and 
 
 | Service | Source | Type |
 |---------|--------|------|
-| 9router | `decolua/9router:0.5.40` | Web service |
+| 9router | `decolua/9router` | Web service |
 
 ## Environment variables
 

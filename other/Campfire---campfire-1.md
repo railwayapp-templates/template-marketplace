@@ -6,7 +6,9 @@ Super simple group chat, without a subscription.
 
 ## About
 
-&gt; **Note:** Campfire requires Web Push credentials for notifications. Before deployment, generate a `VAPID_PUBLIC_KEY` and `VAPID_PRIVATE_KEY`, and configure them as environment variables in Railway. These keys are used to authenticate push notifications to browsers and PWAs.
+&gt; **Note:** Campfire requires Web Push credentials for notifications. Before deployment, generate a `VAPID_PUBLIC_KEY` and `VAPID_PRIVATE_KEY`, and configure them as environment variables in Railway. These keys are used to authenticate push notifications to browsers and PWAs. Generate a pair with `docker run --rm ruby:3.3-slim bash -lc "gem install web-push -v 3.0.1 >/dev/null && web-push generate-vapid-keys --json"` and paste both values into the Railway variables.
+&gt;
+&gt; This template builds upstream `basecamp/once-campfire` at the pinned `v1.4.9` commit, so every deployment runs a fixed, reviewed release.
 
 ![campfire](https://once.com/assets/images/campfire-01.webp)
 

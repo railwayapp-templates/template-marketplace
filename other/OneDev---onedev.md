@@ -16,7 +16,7 @@ The template does not configure a local CI executor. Railway does not provide th
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18@sha256:3b8bc16ccb823c9a293b09d20d4180049502ee2b243b5989d59e258450044e22` | Database |
 | OneDev | [monotykamary/railway-template-onedev](https://github.com/monotykamary/railway-template-onedev) | Web service |
 
 ## Environment variables

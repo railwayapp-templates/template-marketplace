@@ -52,7 +52,7 @@ you intend to build anything substantial in it.
 
 | Service | Source | Type |
 |---------|--------|------|
-| pi-web | `ghcr.io/bon5co/pi-web-railway@sha256:3b7175e7f38150b6ba9b6e01ca8828c0c71961ee3710496550980ce5a8e95633` | Web service |
+| pi-web | `ghcr.io/bon5co/pi-web-railway:latest` | Web service |
 
 ## Environment variables
 

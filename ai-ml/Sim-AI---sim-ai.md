@@ -6,7 +6,7 @@ Deploy and Host Sim AI with Railway
 
 ## About
 
-Deploy Sim AI `v0.8.33`, an open-source visual platform for building, running, and scheduling AI-agent workflows.
+Deploy Sim AI `v0.8.47`, an open-source visual platform for building, running, and scheduling AI-agent workflows.
 
 This template deploys five coordinated services: the Sim web application and API, its realtime Socket.IO service, PostgreSQL 17 with pgvector, a one-shot database migration job, and the Sim cron scheduler. The application and realtime service each receive a Railway HTTPS domain; PostgreSQL, migrations, and cron remain private.
 
@@ -16,11 +16,11 @@ Open the `simstudio` domain to register the first account. Configure model-provi
 
 | Service | Source | Type |
 |---------|--------|------|
-| realtime | `ghcr.io/simstudioai/realtime:v0.8.33@sha256:89a87e083ede6da494a19fa5292a3e37b1b877c5e65fde2d0bd099ff755bd489` | Web service |
-| simstudio | `ghcr.io/simstudioai/simstudio:v0.8.33@sha256:28daaa1390f8a9bcf429855071fc68c4e93aa329e93be010be89f12350d1d27e` | Web service |
-| pgvector | `pgvector/pgvector:pg17` | Database |
-| migrations | `ghcr.io/simstudioai/migrations:v0.8.33@sha256:1abb5deb558ebef9cd051ee2547d96237a921a4fc7f54946ee629b8e5402e01f` | Worker |
-| cron | `ghcr.io/simstudioai/cron:v0.8.33@sha256:b5ce1038971225cd082dce7e701a81af5d24bd712a75b7adca9d7f6f04134b49` | Worker |
+| realtime | `ghcr.io/simstudioai/realtime:v0.8.47@sha256:4d3ac3c09e773245e38fe8594799c3f7ca5b53822710d1f189c4dbfbf6c3a98f` | Web service |
+| simstudio | `ghcr.io/simstudioai/simstudio:v0.8.47@sha256:bfe40f8af0491701eb5b0dc2e4fa03e2f250f2c30b5ecc29d1ce8a282ee167df` | Web service |
+| pgvector | `pgvector/pgvector:pg17@sha256:dca0d688bbb31d3f851502ffcb9c7791387b4fcc544ae434dab41761e5ece317` | Database |
+| migrations | `ghcr.io/simstudioai/migrations:v0.8.47@sha256:7e6e49ffa80d47fd8e1f934a6937ba65e2b8d4c8dc493aa0681980bf0c12dccb` | Worker |
+| cron | `ghcr.io/simstudioai/cron:v0.8.47@sha256:d1ba931b51c49b2d8fd0174dc45c0e48ceca94afa176dfd1261c9e851f7360f7` | Worker |
 
 ## Environment variables
 

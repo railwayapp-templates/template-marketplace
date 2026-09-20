@@ -16,7 +16,7 @@ The default deployment keeps one runner available without requiring Railway API 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18@sha256:3b8bc16ccb823c9a293b09d20d4180049502ee2b243b5989d59e258450044e22` | Database |
 | Shell Runner | [monotykamary/railway-template-onedev-shell-runners](https://github.com/monotykamary/railway-template-onedev-shell-runners) (root: /runner) | Worker |
 | Runner Autoscaler | [monotykamary/railway-template-onedev-shell-runners](https://github.com/monotykamary/railway-template-onedev-shell-runners) (root: /autoscaler) | Database |
 | OneDev | [monotykamary/railway-template-onedev-shell-runners](https://github.com/monotykamary/railway-template-onedev-shell-runners) | Web service |

@@ -6,7 +6,7 @@ Unified API gateway for multiple AI providers.
 
 ## About
 
-Deploy Plexus `2026.09.11.1`, a unified gateway for OpenAI, Anthropic, Google Gemini, DeepSeek, Groq, and OpenAI-compatible AI providers.
+Deploy Plexus `2026.09.17.1`, a unified gateway for OpenAI, Anthropic, Google Gemini, DeepSeek, Groq, and OpenAI-compatible AI providers.
 
 This template runs the official Plexus container as one public service on port 4000. It stores configuration, API keys, usage data, and encrypted provider credentials in SQLite on a persistent Railway volume. `ADMIN_KEY` and `ENCRYPTION_KEY` are generated independently for every deployment.
 
@@ -16,7 +16,7 @@ Open the service domain, enter the generated `ADMIN_KEY`, then configure provide
 
 | Service | Source | Type |
 |---------|--------|------|
-| Plexus | `ghcr.io/mcowger/plexus:2026.09.11.1@sha256:db5543e4d78e638f26dc68920863deaa92089d7e0a74e6ac8df71b7c48785ffa` | Web service |
+| Plexus | `ghcr.io/mcowger/plexus:2026.09.17.1@sha256:5ea46e2719a3adb1a93a25648878664d7dc24e0b47c9266e7c273f811c66657b` | Web service |
 
 ## Environment variables
 
