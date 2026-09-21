@@ -1,4 +1,4 @@
-# Deploy Evolution API with n8n — WhatsApp Automation on Railway
+# Deploy Evolution API with n8n [Updated Sep'26] on Railway
 
 Evolution API + n8n — WhatsApp automation stack, no per-message fees.
 

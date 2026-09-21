@@ -1,4 +1,4 @@
-# Deploy PewDiePie's Odysseus AI Workspace on Railway
+# Deploy Odysseus (PewDiePie) [Sep'26] on Railway
 
 Self-hosted AI workspace with memory, RAG & web search. No ChatGPT fees.
 
@@ -79,6 +79,6 @@ option. Odysseus gives your whole team all of that at flat compute cost.
 - **Volume:** `/etc/searxng`
 - **Volume:** `/data`
 
-**Category:** AI/ML · **Languages:** JavaScript, Python, CSS, HTML, Shell, PowerShell, TypeScript, Dockerfile, Batchfile
+**Category:** AI/ML · **Languages:** Python, JavaScript, CSS, HTML, Shell, PowerShell, Dockerfile, TypeScript, Batchfile
 
 [View on Railway →](https://railway.com/deploy/odysseus-ai-workspace)

@@ -45,6 +45,7 @@ Baalda is a local-first second brain: your notes are plain Markdown files on you
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
+| `PORT` | baalda | 8080 | HTTP listening port; must match the public domain target port (8080). |
 | `JWT_SECRET` | baalda | (secret) | - |
 
 ## Configuration
@@ -53,6 +54,6 @@ Baalda is a local-first second brain: your notes are plain Markdown files on you
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** AI/ML · **Languages:** TypeScript, Rust, CSS, Dockerfile, HTML, JavaScript
+**Category:** AI/ML · **Languages:** TypeScript, Rust, CSS, JavaScript, PLpgSQL, Dockerfile, HTML
 
 [View on Railway →](https://railway.com/deploy/baalda-server)

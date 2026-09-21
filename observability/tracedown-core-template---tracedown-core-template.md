@@ -9,6 +9,8 @@ Deploy Tracedown platform on Railway
 [Tracedown](https://tracedown.dev) is a self-hosted API monitoring platform: probes written in the Lace scripting language run against your endpoints on schedules, with assertions, multi-step journeys,
 notifications, and a full dashboard. This template deploys the complete Tracedown Core stack — eight JVM services, PostgreSQL, Redis, and an edge proxy serving the UI.
 
+Note: projects deployed from this template are automatically updated to latest versions when they are released. If you don't want auto-updates, please consider deplying the project manually.
+
 The template deploys eleven services in one click: the API gateway (which runs schema migrations and internal-CA init on startup), probe scheduler, result ingestor, notification
 dispatcher, email service, metrics service, aggregate worker, realtime WebSocket service, a Caddy edge proxy that serves the dashboard and routes `/api`, `/ws`, and `/metrics`, plus
 postgres and Redis. Nothing builds from source — every service fetches versioned release artifacts from GitHub, so deploys are fast and upgrades are a one-line version bump.

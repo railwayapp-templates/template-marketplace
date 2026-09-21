@@ -18,7 +18,7 @@ take control to sign in or finish a verification step, then return it to the age
 Websites can still expire logins or ask you to sign in again.
 
 Tallylamp is open source under the MIT license. You pay Railway for the
-infrastructure used by your deployment.
+infrastructure your deployment uses.
 
 One prebuilt container with Chrome, Xvfb, and Node.js, plus a persistent volume
 at `/data`. The volume holds browser profiles and the SQLite database.
@@ -32,7 +32,7 @@ the public domain, and use it to sign into the dashboard.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:c16e2c3e6daaf37cd004b4cfb3e3c1bfcc5b021ec4618042e6b82c52571d5538` | Web service |
+| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:27afb555cd44cdca4e6d4a0262f1a1dd9c6ddf01632503186f4bb26034c70d92` | Web service |
 
 ## Environment variables
 
