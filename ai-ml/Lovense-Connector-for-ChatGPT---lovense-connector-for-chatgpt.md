@@ -25,7 +25,7 @@ This template runs a personal Streamable HTTP MCP server, an OAuth 2.1 authoriza
 | `PORT` | 8080 | Puerto interno de Railway. No necesitas cambiarlo. |
 | `STATE_FILE` | /data/lovense-state.enc | Ruta interna donde se guarda cifrada la conexión. No necesitas cambiarla. |
 | `LOVENSE_UID` | - | Identificador privado generado automáticamente para esta instalación. |
-| `OWNER_SECRET` | (secret) | Elige una contraseña privada para abrir tu panel y autorizar ChatGPT. |
+| `OWNER_SECRET` | (secret) | Mínimo 24 caracteres / At least 24 characters. Elige una contraseña privada y guárdala: la necesitarás para abrir tu panel y autorizar ChatGPT. Choose and save a private password to open your panel and authorize ChatGPT. |
 | `MCP_PATH_SECRET` | (secret) | Clave automática para clientes MCP antiguos. No necesitas tocarla. |
 | `OAUTH_SIGNING_KEY` | - | Clave automática que protege el inicio de sesión con ChatGPT. |
 | `MAX_COMMAND_SECONDS` | 3600 | Límite técnico para evitar duraciones enormes escritas por error. |

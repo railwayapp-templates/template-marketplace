@@ -1,6 +1,6 @@
 # Deploy Node-Red on Railway
 
-Node-RED — flow-based low-code programming for APIs, devices, and bots
+NodeRED — flow-based low-code programming for APIs, devices, and bots
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/node-red-2)
 
