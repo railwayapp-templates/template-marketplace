@@ -1,4 +1,4 @@
-# Deploy Debian Desktop (Web GUI) on Railway
+# Deploy Debian Linux (Web Desktop) on Railway
 
 A real XFCE Debian desktop in the browser, not just a web terminal.
 

@@ -1,4 +1,4 @@
-# Deploy Self-Hosted Metabase — Business Intelligence Without the $85/Month Cloud Bill on Railway
+# Deploy Metabase [Updated Sep'26] on Railway
 
 Self-host Metabase BI — no $85/month cloud bill. Free for your whole team.
 

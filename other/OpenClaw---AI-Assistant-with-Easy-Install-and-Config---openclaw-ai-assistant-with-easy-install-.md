@@ -75,10 +75,10 @@ Deploy OpenClaw AI coding assistant with one click. Web-based setup, no cmd
 
 ## Configuration
 
-- **Healthcheck:** `/setup/healthz `
+- **Healthcheck:** `/setup/healthz`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** Other · **Languages:** JavaScript, HTML, CSS, Dockerfile
+**Category:** Other · **Languages:** JavaScript, HTML, CSS, Python, Shell
 
 [View on Railway →](https://railway.com/deploy/openclaw-ai-assistant-with-easy-install-)

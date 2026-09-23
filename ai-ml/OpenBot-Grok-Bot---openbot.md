@@ -8,7 +8,7 @@ Open-source AI grok bots with their own browser, files and tools
 
 OpenBot gives you AI coworkers with a computer: a browser, files and a shell, with every action recorded. This template runs the official `ghcr.io/copilotkit/openbot` image next to a Railway Postgres, adds the Bot process that lets you create your own coworkers and the scheduler that makes routines fire, puts a password in front of the URL, wires all of it together over the private network, generates every secret, and keeps the coworkers' browser logins and files on a volume so they survive redeploys.
 
-OpenBot is a Bun server that serves the web app and API on one port and drives a headless Chromium inside the same container for the coworkers' "computer". Users, work and the encrypted credential vault live in Postgres; conversation threads and memory live in CopilotKit Intelligence, a free hosted service that the app requires. Three things upstream's single image does not carry come as their own services here: **Agent** runs the coworkers you create (upstream's `agent-langgraph`, built from the same release), **Routines** is a five-minute cron that fires scheduled work, and **Gate** is a 30 MB Caddy that holds the public URL and asks for a username and password before anything reaches OpenBot. Migrations run automatically when the container starts. Three values are yours to paste at deploy time: an OpenAI key, and two CopilotKit credentials that a short CLI session prints for you.
+OpenBot is a Bun server that serves the web app and API on one port and drives a headless Chromium inside the same container for the coworkers' "computer". Users, work and the encrypted credential vault live in Postgres; conversation threads and memory live in CopilotKit Intelligence, a free hosted service that the app requires. Three things upstream's single image does not carry come as their own services here: **Agent** runs the coworkers you create (CopilotKit's official `agent-langgraph` v0.0.15 image, pinned by digest), **Routines** is a five-minute cron that fires scheduled work, and **Gate** is a 30 MB Caddy that holds the public URL and asks for a username and password before anything reaches OpenBot. Migrations run automatically when the container starts. Three values are yours to paste at deploy time: an OpenAI key, and two CopilotKit credentials that a short CLI session prints for you.
 
 ## What gets deployed
 
@@ -18,7 +18,7 @@ OpenBot is a Bun server that serves the web app and API on one port and drives a
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | OpenBot | `ghcr.io/copilotkit/openbot:v0.0.5` | Database |
 | Routines | `ghcr.io/copilotkit/openbot:v0.0.5` | Worker |
-| Agent | `ghcr.io/will-bogusz/openbot-agent-langgraph:v0.0.5` | Worker |
+| Agent | `ghcr.io/copilotkit/openbot-agent-langgraph@sha256:da9fdbee1c12e62f66e359ae2c9a083456c2d8f795d0db066b8b1e313542b477` | Worker |
 
 ## Environment variables
 

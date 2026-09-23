@@ -18,12 +18,13 @@ This template provisions three services on Railway: the **new-api** gateway (bui
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `REDIS_PASSWORD` | Redis | (secret) |
-| `MYSQL_ROOT_PASSWORD` | MySQL | (secret) |
-| `CRYPTO_SECRET` | new-api | (secret) |
-| `SESSION_SECRET` | new-api | (secret) |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `REDIS_PASSWORD` | Redis | (secret) | - |
+| `MYSQL_DATABASE` | MySQL | db | database name |
+| `MYSQL_ROOT_PASSWORD` | MySQL | (secret) | - |
+| `CRYPTO_SECRET` | new-api | (secret) | - |
+| `SESSION_SECRET` | new-api | (secret) | - |
 
 ## Configuration
 

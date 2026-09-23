@@ -2,7 +2,7 @@
 
 Self-host an AI agent with persistent memory. No per-call fees.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ai-agent-persistent-memory)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-self-hosted-ai-agent-with-persist)
 
 ## About
 
@@ -43,14 +43,14 @@ LLM token usage.
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `HERMES_DASHBOARD` | 1 |
-| `HERMES_DASHBOARD_HOST` | 0.0.0.0 |
-| `HERMES_DASHBOARD_PORT` | 9119 |
-| `HERMES_DASHBOARD_BASIC_AUTH_SECRET` | (secret) |
-| `HERMES_DASHBOARD_BASIC_AUTH_PASSWORD` | (secret) |
-| `HERMES_DASHBOARD_BASIC_AUTH_USERNAME` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `HERMES_DASHBOARD` | 1 | HERMES_DASHBOARD |
+| `HERMES_DASHBOARD_HOST` | 0.0.0.0 | HERMES_DASHBOARD_HOST |
+| `HERMES_DASHBOARD_PORT` | 9119 | HERMES_DASHBOARD_PORT |
+| `HERMES_DASHBOARD_BASIC_AUTH_SECRET` | (secret) | HERMES_DASHBOARD_BASIC_AUTH_SECRET |
+| `HERMES_DASHBOARD_BASIC_AUTH_PASSWORD` | (secret) | HERMES_DASHBOARD_BASIC_AUTH_PASSWORD |
+| `HERMES_DASHBOARD_BASIC_AUTH_USERNAME` | (secret) | HERMES_DASHBOARD_BASIC_AUTH_USERNAME |
 
 ## Configuration
 
@@ -59,4 +59,4 @@ LLM token usage.
 
 **Category:** Automation · **Languages:** Shell, Dockerfile
 
-[View on Railway →](https://railway.com/deploy/ai-agent-persistent-memory)
+[View on Railway →](https://railway.com/deploy/hermes-self-hosted-ai-agent-with-persist)

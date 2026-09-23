@@ -18,7 +18,7 @@ Hosting Databasus on Railway simplifies the deployment of a robust, self-hosted 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Databasus | `databasus/databasus:v3.58.0` | Web service |
+| Databasus | `databasus/databasus:v3.59.0` | Web service |
 
 ## Configuration
 
