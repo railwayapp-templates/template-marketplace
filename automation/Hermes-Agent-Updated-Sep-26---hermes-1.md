@@ -41,7 +41,6 @@ within the first month.
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `PORT` | 8642 | - |
 | `ADMIN_PASSWORD` | (secret) | Create admin login password credential |
 | `ADMIN_USERNAME` | (secret) | Create admin login username credential |
 

@@ -33,8 +33,8 @@ signing key are both random and unique to your instance.
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `pgvector/pgvector:pg17` | Database |
-| multica-web | `ghcr.io/multica-ai/multica-web:v0.4.20` | Web service |
-| multica-api | `ghcr.io/multica-ai/multica-backend:v0.4.20` | Web service |
+| multica-web | `ghcr.io/multica-ai/multica-web:v0.5.1` | Web service |
+| multica-api | `ghcr.io/multica-ai/multica-backend:v0.5.1` | Web service |
 
 ## Environment variables
 

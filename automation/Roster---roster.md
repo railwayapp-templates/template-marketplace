@@ -6,25 +6,33 @@ Team channels and threads, where the threads run agents on real repos.
 
 ## About
 
-Roster is Superset, multiplayer: channels and threads for a team, where the
-threads run agents on real repos. This template deploys the whole thing — the
-web app, its database, and the realtime transport — as three connected services.
+Roster is team chat whose threads run coding agents on real repositories. A
+channel is a repo; asking its agent something opens a thread and starts a real
+session on real code, reached through Superset on whichever machine holds the
+project. Progress, questions and output land in the thread, next to the
+conversation that started it.
 
-Roster is a Next.js application backed by Postgres, with Centrifugo carrying
-messages in realtime. The web service builds from the repository's Dockerfile
-and applies its own database migrations on boot, so a fresh Postgres volume
-becomes a working schema during the first deploy with nothing to run by hand.
-The services reach each other over Railway's private network; only the web app
-and Centrifugo take public domains. Sign-in is by magic link, which is why the
-only configuration this template asks for is how mail goes out.
+Roster runs as two tiers that ship in one image. The web service serves the
+app and applies database migrations on boot. The worker owns every agent
+session: it holds the connection to each machine, watches each running
+session, writes progress back into the thread, and delivers steers and
+cancellations. Setting `ROSTER_RUN_WORKER` to `1` runs both in the web
+container, which is the simplest working setup; the worker can later be split
+into its own service with the start command `node apps/worker/dist/worker.mjs`.
+
+This template provisions four services: the app, Postgres for messages and
+threads, Redis for the session work queue, and Centrifugo for realtime. The
+app needs a volume mounted at `/app/uploads` so message attachments survive a
+redeploy.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| web | [harshithmullapudi/roaster](https://github.com/harshithmullapudi/roaster) | Web service |
 | centrifugo | `centrifugo/centrifugo:v6.9.6` | Web service |
+| Redis | `redis:8.2` | Database |
+| web | [harshithmullapudi/roster](https://github.com/harshithmullapudi/roster) | Web service |
 
 ## Environment variables
 
@@ -32,19 +40,23 @@ only configuration this template asks for is how mail goes out.
 | --------- | ------- | ------- |
 | `POSTGRES_USER` | Postgres | (secret) |
 | `POSTGRES_PASSWORD` | Postgres | (secret) |
+| `CENTRIFUGO_HTTP_API_KEY` | centrifugo | (secret) |
+| `CENTRIFUGO_CLIENT_TOKEN_HMAC_SECRET_KEY` | centrifugo | (secret) |
+| `REDISPASSWORD` | Redis | (secret) |
+| `REDIS_PASSWORD` | Redis | (secret) |
 | `RESEND_API_KEY` | web | (secret) |
 | `BETTER_AUTH_SECRET` | web | (secret) |
 | `CENTRIFUGO_API_KEY` | web | (secret) |
 | `SUPERSET_KEY_SECRET` | web | (secret) |
 | `CENTRIFUGO_TOKEN_HMAC_SECRET` | web | (secret) |
-| `CENTRIFUGO_HTTP_API_KEY` | centrifugo | (secret) |
-| `CENTRIFUGO_CLIENT_TOKEN_HMAC_SECRET_KEY` | centrifugo | (secret) |
 
 ## Configuration
 
 - **Volume:** `/var/lib/postgresql/data`
 - **Networking:** Public domain with automatic HTTPS
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
+- **Volume:** `/data`
 
-**Category:** Automation · **Languages:** TypeScript, CSS, Rust, Python, Dockerfile, JavaScript
+**Category:** Automation · **Languages:** TypeScript, CSS, Python, Rust, Dockerfile, JavaScript, Shell
 
 [View on Railway →](https://railway.com/deploy/roster)

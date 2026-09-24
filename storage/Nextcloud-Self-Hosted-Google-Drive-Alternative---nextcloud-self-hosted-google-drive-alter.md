@@ -42,6 +42,7 @@ This template runs Nextcloud with the official apache image, a PostgreSQL databa
 - **Start command:** `bash -c "a2dismod mpm_event mpm_worker >/dev/null 2>&1; a2enmod mpm_prefork >/dev/null 2>&1; apache2-foreground"`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/www/html`
+- **Volume:** `/data`
 - **Volume:** `/var/lib/postgresql/data`
 
 **Category:** Storage

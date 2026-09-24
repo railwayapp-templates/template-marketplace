@@ -29,13 +29,19 @@ This template runs the full Chatwoot stack: a Rails web server, a Sidekiq worker
 | `REDIS_URL` | cozy-beauty | - | Redis connection string over the private network. Sidekiq pulls jobs from here. |
 | `FRONTEND_URL` | cozy-beauty | - | Public URL; references the web (chatwoot) service's domain. |
 | `POSTGRES_HOST` | cozy-beauty | - | Postgres host over the private network. References the pgvector service. |
+| `STORAGE_REGION` | cozy-beauty | - | Region reported by the Railway bucket. |
 | `SECRET_KEY_BASE` | cozy-beauty | (secret) | Must match the web service's secret so sessions validate. References the chatwoot service. |
 | `INSTALLATION_ENV` | cozy-beauty | docker | Tells Chatwoot it runs in Docker. Leave as docker. |
+| `STORAGE_ENDPOINT` | cozy-beauty | - | S3-compatible endpoint of the Railway bucket. |
 | `POSTGRES_DATABASE` | cozy-beauty | chatwoot | Database name, matching the pgvector service. |
 | `POSTGRES_PASSWORD` | cozy-beauty | (secret) | Postgres password. References the pgvector service. |
 | `POSTGRES_USERNAME` | cozy-beauty | (secret) | Postgres user, matching the pgvector service. |
 | `RAILS_LOG_TO_STDOUT` | cozy-beauty | true | Send logs to stdout so they show in Railway's log viewer. |
+| `STORAGE_BUCKET_NAME` | cozy-beauty | - | Railway bucket that holds conversation attachments. |
+| `STORAGE_ACCESS_KEY_ID` | cozy-beauty | - | Access key for the Railway bucket. |
+| `ACTIVE_STORAGE_SERVICE` | cozy-beauty | s3_compatible | Store uploaded files in the attached Railway bucket instead of the container filesystem. Must match the web service. |
 | `RAILS_SERVE_STATIC_FILES` | cozy-beauty | true | Kept in sync with the web service. Leave as true. |
+| `STORAGE_SECRET_ACCESS_KEY` | cozy-beauty | (secret) | Secret key for the Railway bucket. |
 | `POSTGRES_DB` | pgvector | chatwoot | Name of the database Chatwoot uses. Created and migrated automatically by the web service's pre-deploy step. |
 | `POSTGRES_USER` | pgvector | (secret) | Postgres superuser that Chatwoot connects as. |
 | `POSTGRES_PASSWORD` | pgvector | (secret) | Auto-generated database password. Alphanumeric to stay safe inside connection strings. |
@@ -46,13 +52,19 @@ This template runs the full Chatwoot stack: a Rails web server, a Sidekiq worker
 | `REDIS_URL` | chatwoot | - | Redis connection string over the private network. |
 | `FRONTEND_URL` | chatwoot | - | Public URL of your Chatwoot instance. Auto-filled from the generated domain. |
 | `POSTGRES_HOST` | chatwoot | - | Postgres host over Railway's private network. References the pgvector service. |
+| `STORAGE_REGION` | chatwoot | - | Region reported by the Railway bucket. |
 | `SECRET_KEY_BASE` | chatwoot | (secret) | Rails secret that encrypts sessions and cookies. Auto-generated; the worker references this same value so keep it stable. |
 | `INSTALLATION_ENV` | chatwoot | docker | Tells Chatwoot it runs in Docker. Leave as docker. |
+| `STORAGE_ENDPOINT` | chatwoot | - | S3-compatible endpoint of the Railway bucket. |
 | `POSTGRES_DATABASE` | chatwoot | chatwoot | Database name, matching the pgvector service. |
 | `POSTGRES_PASSWORD` | chatwoot | (secret) | Postgres password. References the pgvector service. |
 | `POSTGRES_USERNAME` | chatwoot | (secret) | Postgres user, matching the pgvector service. |
 | `RAILS_LOG_TO_STDOUT` | chatwoot | true | Send logs to stdout so they show in Railway's log viewer. |
+| `STORAGE_BUCKET_NAME` | chatwoot | - | Railway bucket that holds conversation attachments. |
+| `STORAGE_ACCESS_KEY_ID` | chatwoot | - | Access key for the Railway bucket. |
+| `ACTIVE_STORAGE_SERVICE` | chatwoot | s3_compatible | Store uploaded files in the attached Railway bucket instead of the container filesystem. |
 | `RAILS_SERVE_STATIC_FILES` | chatwoot | true | Let Rails serve compiled assets. Required on Railway. |
+| `STORAGE_SECRET_ACCESS_KEY` | chatwoot | (secret) | Secret key for the Railway bucket. |
 
 ## Configuration
 

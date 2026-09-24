@@ -75,6 +75,7 @@ Novu is a multi-service application: a NestJS API, a Bull/Redis-backed worker th
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/data`
 - **Volume:** `/data/db`
 
 **Category:** Other

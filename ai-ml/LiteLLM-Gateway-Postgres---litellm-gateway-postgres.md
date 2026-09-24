@@ -10,6 +10,8 @@ LiteLLM is an open-source, OpenAI-compatible LLM gateway. It unifies 100+ provid
 
 Hosting LiteLLM means running the proxy next to PostgreSQL so virtual keys, models, and spend live in the database. The official compose file also offers Prometheus; that sidecar is optional and not required to boot. This template uses the official `ghcr.io/berriai/litellm:v1.100.0` image (pinned, as upstream recommends), pins `PORT=4000` so Railway healthchecks hit `/health/liveliness`, and points `DATABASE_URL` at a private Postgres service over Railway's IPv6 private network. Set `STORE_MODEL_IN_DB=True` so you can add models from `/ui` without shipping a `config.yaml`.
 
+**Plan requirement:** LiteLLM uses about 0.9 GB of RAM while idle, so deploy on the Railway Hobby plan or higher. The Free plan caps each service at 0.5 GB, where the proxy runs out of memory and keeps crashing. The Trial caps it at 1 GB, which leaves almost no headroom.
+
 ## What gets deployed
 
 | Service | Source | Type |

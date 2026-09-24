@@ -39,24 +39,19 @@ LLM token usage.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Hermes Agent | [Shinyduo/hermes-agent](https://github.com/Shinyduo/hermes-agent) | Web service |
+| Hermes Agent | [praveen-ks-2001/hermes-agent-template](https://github.com/praveen-ks-2001/hermes-agent-template) | Database |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `HERMES_DASHBOARD` | 1 | HERMES_DASHBOARD |
-| `HERMES_DASHBOARD_HOST` | 0.0.0.0 | HERMES_DASHBOARD_HOST |
-| `HERMES_DASHBOARD_PORT` | 9119 | HERMES_DASHBOARD_PORT |
-| `HERMES_DASHBOARD_BASIC_AUTH_SECRET` | (secret) | HERMES_DASHBOARD_BASIC_AUTH_SECRET |
-| `HERMES_DASHBOARD_BASIC_AUTH_PASSWORD` | (secret) | HERMES_DASHBOARD_BASIC_AUTH_PASSWORD |
-| `HERMES_DASHBOARD_BASIC_AUTH_USERNAME` | (secret) | HERMES_DASHBOARD_BASIC_AUTH_USERNAME |
+| `ADMIN_PASSWORD` | (secret) | Create admin login password credential |
+| `ADMIN_USERNAME` | (secret) | Create admin login username credential |
 
 ## Configuration
 
-- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/opt/data`
 
-**Category:** Automation · **Languages:** Shell, Dockerfile
+**Category:** Automation · **Languages:** Python, HTML, Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/hermes-self-hosted-ai-agent-with-persist)

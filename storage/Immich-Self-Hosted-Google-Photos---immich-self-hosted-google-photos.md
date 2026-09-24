@@ -44,6 +44,7 @@ This template runs the complete Immich stack: the server (web UI, API, and backg
 ## Configuration
 
 - **Volume:** `/cache`
+- **Healthcheck:** `/api/server/ping`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 - **Volume:** `/var/lib/postgresql/data`

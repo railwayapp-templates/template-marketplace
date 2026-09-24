@@ -41,14 +41,13 @@ conversations at a flat infrastructure cost.
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `PORT` | 8642 | - |
 | `ADMIN_PASSWORD` | (secret) | Create admin login password credential |
 | `ADMIN_USERNAME` | (secret) | Create admin login username credential |
 
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/data`
+- **Volume:** `/opt/data`
 
 **Category:** AI/ML · **Languages:** Python, HTML, Dockerfile, Shell
 
