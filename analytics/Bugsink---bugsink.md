@@ -14,7 +14,7 @@ Railway simplifies deployment by handling infrastructure provisioning, networkin
 
 | Service | Source | Type |
 |---------|--------|------|
-| Bugsink | `bugsink/bugsink:2.5.0` | Web service |
+| Bugsink | `bugsink/bugsink:2.6.0` | Web service |
 | MySQL | `mysql:9` | Database |
 
 ## Environment variables

@@ -34,7 +34,7 @@ dashboard without compromising on safety.
 
 | Service | Source | Type |
 |---------|--------|------|
-| RisingWave | `risingwavelabs/risingwave:v3.0.3` | TCP service |
+| RisingWave | `risingwavelabs/risingwave:v3.0.4` | TCP service |
 
 ## Environment variables
 
