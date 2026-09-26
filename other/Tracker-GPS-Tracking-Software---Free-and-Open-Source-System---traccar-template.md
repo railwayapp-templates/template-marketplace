@@ -1,4 +1,4 @@
-# Deploy traccar-template on Railway
+# Deploy Tracker : GPS Tracking Software - Free and Open Source System on Railway
 
 Traccar GPS tracking: web UI, TCP device ingest, MySQL — one-click deploy.
 

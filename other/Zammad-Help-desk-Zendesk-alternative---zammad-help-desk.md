@@ -35,49 +35,66 @@ something else as you redeploy to a new environment, causing unexpected failures
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `postgres:17.11-alpine` | Database |
-| Zammad Nginx | `ghcr.io/zammad/zammad:7.1.3` | Web service |
+| Zammad Nginx | `ghcr.io/zammad/zammad:7.2.0` | Web service |
 | Memcached | `memcached:1.6.45-alpine` | Database |
-| Zammad Scheduler | `ghcr.io/zammad/zammad:7.1.3` | Worker |
+| Zammad Scheduler | `ghcr.io/zammad/zammad:7.2.0` | Worker |
 | Redis | `redis:8.8-alpine` | Database |
-| Zammad Rails | `ghcr.io/zammad/zammad:7.1.3` | Worker |
-| Zammad Websocket | `ghcr.io/zammad/zammad:7.1.3` | Worker |
+| Zammad Rails | `ghcr.io/zammad/zammad:7.2.0` | Worker |
+| Zammad Websocket | `ghcr.io/zammad/zammad:7.2.0` | Worker |
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `POSTGRES_DB` | Postgres | zammad_production |
-| `POSTGRES_USER` | Postgres | (secret) |
-| `POSTGRES_PASSWORD` | Postgres | (secret) |
-| `PORT` | Zammad Nginx | 8080 |
-| `POSTGRESQL_DB` | Zammad Nginx | zammad_production |
-| `POSTGRESQL_PORT` | Zammad Nginx | 5432 |
-| `POSTGRESQL_USER` | Zammad Nginx | (secret) |
-| `POSTGRESQL_OPTIONS` | Zammad Nginx | ?pool=50 |
-| `POSTGRESQL_DB_CREATE` | Zammad Nginx | false |
-| `ELASTICSEARCH_ENABLED` | Zammad Nginx | false |
-| `RAILS_TRUSTED_PROXIES` | Zammad Nginx | 127.0.0.1,::1,100.64.0.0/10 |
-| `POSTGRESQL_DB` | Zammad Scheduler | zammad_production |
-| `POSTGRESQL_PORT` | Zammad Scheduler | 5432 |
-| `POSTGRESQL_USER` | Zammad Scheduler | (secret) |
-| `POSTGRESQL_OPTIONS` | Zammad Scheduler | ?pool=50 |
-| `POSTGRESQL_DB_CREATE` | Zammad Scheduler | false |
-| `ELASTICSEARCH_ENABLED` | Zammad Scheduler | false |
-| `RAILS_TRUSTED_PROXIES` | Zammad Scheduler | 127.0.0.1,::1,100.64.0.0/10 |
-| `POSTGRESQL_DB` | Zammad Rails | zammad_production |
-| `POSTGRESQL_PORT` | Zammad Rails | 5432 |
-| `POSTGRESQL_USER` | Zammad Rails | (secret) |
-| `POSTGRESQL_OPTIONS` | Zammad Rails | ?pool=50 |
-| `POSTGRESQL_DB_CREATE` | Zammad Rails | false |
-| `ELASTICSEARCH_ENABLED` | Zammad Rails | false |
-| `RAILS_TRUSTED_PROXIES` | Zammad Rails | 127.0.0.1,::1,100.64.0.0/10 |
-| `POSTGRESQL_DB` | Zammad Websocket | zammad_production |
-| `POSTGRESQL_PORT` | Zammad Websocket | 5432 |
-| `POSTGRESQL_USER` | Zammad Websocket | (secret) |
-| `POSTGRESQL_OPTIONS` | Zammad Websocket | ?pool=50 |
-| `POSTGRESQL_DB_CREATE` | Zammad Websocket | false |
-| `ELASTICSEARCH_ENABLED` | Zammad Websocket | false |
-| `RAILS_TRUSTED_PROXIES` | Zammad Websocket | 127.0.0.1,::1,100.64.0.0/10 |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `POSTGRES_DB` | Postgres | zammad_production | [Do not change] Database Zammad uses. |
+| `POSTGRES_USER` | Postgres | (secret) | [Do not change] Database user Zammad connects as. |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | [Do not change] Database password. Zammad reads it by reference. |
+| `PORT` | Zammad Nginx | 8080 | [Do not change] Port nginx listens on; the public domain targets it. |
+| `REDIS_URL` | Zammad Nginx | - | [Do not change] Redis address for sessions and live updates. |
+| `POSTGRESQL_DB` | Zammad Nginx | zammad_production | [Do not change] Database name. |
+| `POSTGRESQL_HOST` | Zammad Nginx | - | [Do not change] Postgres private address. |
+| `POSTGRESQL_PASS` | Zammad Nginx | - | [Do not change] Database password, read from the Postgres service. |
+| `POSTGRESQL_PORT` | Zammad Nginx | 5432 | [Do not change] Postgres port. |
+| `POSTGRESQL_USER` | Zammad Nginx | (secret) | [Do not change] Database user, read from the Postgres service. |
+| `MEMCACHE_SERVERS` | Zammad Nginx | - | [Do not change] Memcached address for the Rails cache. |
+| `POSTGRESQL_OPTIONS` | Zammad Nginx | ?pool=50 | Database connection options (pool of 50 connections). |
+| `NGINX_SERVER_SCHEME` | Zammad Nginx | https | [Do not change] Scheme nginx reports to Zammad. Railway serves the app over HTTPS. |
+| `POSTGRESQL_DB_CREATE` | Zammad Nginx | false | [Do not change] The database already exists, so Zammad does not create it. |
+| `ELASTICSEARCH_ENABLED` | Zammad Nginx | false | [Do not change] Search runs in PostgreSQL; this template has no Elasticsearch. |
+| `RAILS_TRUSTED_PROXIES` | Zammad Nginx | 127.0.0.1,::1,100.64.0.0/10 | [Do not change] Proxy addresses Zammad trusts, including Railway's private network. |
+| `REDIS_URL` | Zammad Scheduler | - | [Do not change] Redis address for sessions and live updates. |
+| `POSTGRESQL_DB` | Zammad Scheduler | zammad_production | [Do not change] Database name. |
+| `POSTGRESQL_HOST` | Zammad Scheduler | - | [Do not change] Postgres private address. |
+| `POSTGRESQL_PASS` | Zammad Scheduler | - | [Do not change] Database password, read from the Postgres service. |
+| `POSTGRESQL_PORT` | Zammad Scheduler | 5432 | [Do not change] Postgres port. |
+| `POSTGRESQL_USER` | Zammad Scheduler | (secret) | [Do not change] Database user, read from the Postgres service. |
+| `MEMCACHE_SERVERS` | Zammad Scheduler | - | [Do not change] Memcached address for the Rails cache. |
+| `POSTGRESQL_OPTIONS` | Zammad Scheduler | ?pool=50 | Database connection options (pool of 50 connections). |
+| `POSTGRESQL_DB_CREATE` | Zammad Scheduler | false | [Do not change] The database already exists, so Zammad does not create it. |
+| `ELASTICSEARCH_ENABLED` | Zammad Scheduler | false | [Do not change] Search runs in PostgreSQL; this template has no Elasticsearch. |
+| `RAILS_TRUSTED_PROXIES` | Zammad Scheduler | 127.0.0.1,::1,100.64.0.0/10 | [Do not change] Proxy addresses Zammad trusts, including Railway's private network. |
+| `REDIS_URL` | Zammad Rails | - | [Do not change] Redis address for sessions and live updates. |
+| `POSTGRESQL_DB` | Zammad Rails | zammad_production | [Do not change] Database name. |
+| `POSTGRESQL_HOST` | Zammad Rails | - | [Do not change] Postgres private address. |
+| `POSTGRESQL_PASS` | Zammad Rails | - | [Do not change] Database password, read from the Postgres service. |
+| `POSTGRESQL_PORT` | Zammad Rails | 5432 | [Do not change] Postgres port. |
+| `POSTGRESQL_USER` | Zammad Rails | (secret) | [Do not change] Database user, read from the Postgres service. |
+| `MEMCACHE_SERVERS` | Zammad Rails | - | [Do not change] Memcached address for the Rails cache. |
+| `POSTGRESQL_OPTIONS` | Zammad Rails | ?pool=50 | Database connection options (pool of 50 connections). |
+| `POSTGRESQL_DB_CREATE` | Zammad Rails | false | [Do not change] The database already exists, so Zammad does not create it. |
+| `ELASTICSEARCH_ENABLED` | Zammad Rails | false | [Do not change] Search runs in PostgreSQL; this template has no Elasticsearch. |
+| `RAILS_TRUSTED_PROXIES` | Zammad Rails | 127.0.0.1,::1,100.64.0.0/10 | [Do not change] Proxy addresses Zammad trusts, including Railway's private network. |
+| `REDIS_URL` | Zammad Websocket | - | [Do not change] Redis address for sessions and live updates. |
+| `POSTGRESQL_DB` | Zammad Websocket | zammad_production | [Do not change] Database name. |
+| `POSTGRESQL_HOST` | Zammad Websocket | - | [Do not change] Postgres private address. |
+| `POSTGRESQL_PASS` | Zammad Websocket | - | [Do not change] Database password, read from the Postgres service. |
+| `POSTGRESQL_PORT` | Zammad Websocket | 5432 | [Do not change] Postgres port. |
+| `POSTGRESQL_USER` | Zammad Websocket | (secret) | [Do not change] Database user, read from the Postgres service. |
+| `MEMCACHE_SERVERS` | Zammad Websocket | - | [Do not change] Memcached address for the Rails cache. |
+| `POSTGRESQL_OPTIONS` | Zammad Websocket | ?pool=50 | Database connection options (pool of 50 connections). |
+| `POSTGRESQL_DB_CREATE` | Zammad Websocket | false | [Do not change] The database already exists, so Zammad does not create it. |
+| `ELASTICSEARCH_ENABLED` | Zammad Websocket | false | [Do not change] Search runs in PostgreSQL; this template has no Elasticsearch. |
+| `RAILS_TRUSTED_PROXIES` | Zammad Websocket | 127.0.0.1,::1,100.64.0.0/10 | [Do not change] Proxy addresses Zammad trusts, including Railway's private network. |
 
 ## Configuration
 

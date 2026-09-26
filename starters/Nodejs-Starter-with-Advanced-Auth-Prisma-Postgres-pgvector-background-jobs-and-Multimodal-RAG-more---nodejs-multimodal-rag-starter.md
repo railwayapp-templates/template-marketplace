@@ -10,9 +10,7 @@ The Node.js RAG & Secure Auth Starter is a production-grade boilerplate designed
 
 Hosting this template on Railway automatically provisions a complete infrastructure stack. It spins up a Node.js application container alongside managed PostgreSQL (pgvector) and Redis services within a private network.
 
-**Note:** This is the **Infrastructure Skeleton**. It provides the robust architecture (Docker, CI/CD, Jest, Database Models) and the security structure required for modern apps. It is the "clean slate" foundation you need to build secure auth flows and RAG pipelines efficiently, without the DevOps burden.
-
-Want to Upgrade to the Pro Template Version? check this [Tutorial](https://github.com/aymenkani/Node-enterprise-ai-template-light/blob/main/Upgrade_to_Pro.md)
+Want to Upgrade to the Pro Template Version? you can link the complete template by using this github repo: https://github.com/aymenkani/nodejs-starter-template-lv1
 
 ## What gets deployed
 

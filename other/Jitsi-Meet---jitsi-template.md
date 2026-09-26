@@ -1,12 +1,12 @@
-# Deploy jitsi-template on Railway
+# Deploy Jitsi-Meet on Railway
 
-Self-host Jitsi Meet on Railway - 5 services, 3+ person meetings via TURN
+Self-host Jitsi Meet on Railway - Free Video Conferencing Software for Web
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jitsi-template)
 
 ## About
 
-This template provisions five services (~3.8 GB RAM total): **web** (`ghcr.io/jitsi/web`, pinned `stable-11248`) serves the meeting UI on your Railway domain with TLS terminated at Railway's edge; **prosody** runs the XMPP signaling (private network only); **jicofo** manages conferences; **jvb** bridges media; **coturn** relays media over TCP/3478 through a Railway TCP proxy (Railway assigns the public port — the stack references it automatically via `${{coturn.RAILWAY_TCP_PROXY_DOMAIN}}`/`${{coturn.RAILWAY_TCP_PROXY_PORT}}`). Volumes persist prosody accounts and generated config. Railway does not expose UDP publicly, so all media (including 1:1) transits coturn — budget for relay bandwidth (~$10–25/mo for light use).
+This template provisions five services : **web**  serves the meeting UI on your Railway domain with TLS terminated at Railway's edge; **prosody** runs the XMPP signaling (private network only); **jicofo** manages conferences; **jvb** bridges media; **coturn** relays media over TCP/3478 through a Railway TCP proxy (Railway assigns the public port — the stack references it automatically via `${{coturn.RAILWAY_TCP_PROXY_DOMAIN}}`/`${{coturn.RAILWAY_TCP_PROXY_PORT}}`). Volumes persist prosody accounts and generated config. Railway does not expose UDP publicly, so all media (including 1:1) transits coturn — budget for relay bandwidth (~$10–25/mo for light use).
 
 ## What gets deployed
 

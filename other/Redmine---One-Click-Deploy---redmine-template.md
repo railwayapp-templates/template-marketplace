@@ -1,4 +1,4 @@
-# Deploy redmine-template on Railway
+# Deploy Redmine - One Click Deploy on Railway
 
 Redmine — the classic open-source project management, one click
 

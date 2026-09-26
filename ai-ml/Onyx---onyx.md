@@ -14,16 +14,16 @@ Onyx is a multi-service application: a FastAPI backend, a Next.js frontend, a Ce
 
 | Service | Source | Type |
 |---------|--------|------|
-| api-server | `onyxdotapp/onyx-backend:v4.5.4` | Worker |
-| inference-model-server | `onyxdotapp/onyx-model-server:v4.5.4` | Database |
-| web-server | `onyxdotapp/onyx-web-server:v4.5.4` | Worker |
-| background | `onyxdotapp/onyx-backend:v4.5.4` | Worker |
+| api-server | `onyxdotapp/onyx-backend:v4.8.1` | Worker |
+| inference-model-server | `onyxdotapp/onyx-model-server:v4.8.1` | Database |
+| web-server | `onyxdotapp/onyx-web-server:v4.8.1` | Worker |
+| background | `onyxdotapp/onyx-backend:v4.8.1` | Worker |
 | postgres | `pgvector/pgvector:pg15` | Database |
 | nginx | `nginx:1.25.5-alpine` | Web service |
-| indexing-model-server | `onyxdotapp/onyx-model-server:v4.5.4` | Database |
+| indexing-model-server | `onyxdotapp/onyx-model-server:v4.8.1` | Database |
 | opensearch | `opensearchproject/opensearch:3.6.0` | Database |
 | redis | `valkey/valkey:8-alpine` | Database |
-| minio | `minio/minio:RELEASE.2025-07-23T15-54-02Z-cpuv1` | Database |
+| minio | `onyxdotapp/minio:RELEASE.2025-07-23T15-54-02Z-cpuv1` | Database |
 
 ## Environment variables
 
@@ -52,6 +52,7 @@ Onyx is a multi-service application: a FastAPI backend, a Next.js frontend, a Ce
 | `PORT` | inference-model-server | 9000 | Port the model server listens on; used by the Railway healthcheck. |
 | `LOG_LEVEL` | inference-model-server | info | Log verbosity |
 | `PORT` | web-server | 3000 | Port the Next.js standalone server listens on |
+| `WEB_DOMAIN` | web-server | - | Public URL of the nginx service; SSO sign-in callbacks redirect here. |
 | `INTERNAL_URL` | web-server | - |  URL the Next.js server uses for server-side API calls over the private network |
 | `AUTH_TYPE` | background | basic | Must match api-server |
 | `LOG_LEVEL` | background | info | Log verbosity for all Celery workers and bots |

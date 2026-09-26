@@ -1,23 +1,16 @@
 # Deploy Orca ADE on Railway
 
-Orca ADE server: run Claude Code, Codex and more in parallel worktrees
+Orca ADE server: Claude Code, Codex, Pi in parallel worktrees, any device
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/orca-ade)
 
 ## About
 
-Orca is an open-source agent development environment (ADE) from Stably. It runs Claude Code, Codex, Gemini, OpenCode and other CLI coding agents in parallel, each in its own git worktree, with terminals, diff review and source control in one app. This template runs Orca's remote runtime (`orca serve`) on Railway, so your agents keep working when your laptop is closed and you can drive them from a browser, the Orca desktop app, or the Orca mobile app.
+Orca is an open-source agent development environment (ADE) from Stably. It runs Claude Code, Codex, Pi and other CLI coding agents in parallel, each in its own git worktree, with terminals, diff review and source control in one app. This template runs Orca on Railway, so your agents keep working while every device is off, and you use it from any browser or from the Orca desktop and mobile apps.
 
-Orca ships as a desktop app, and its headless mode needs Electron's system libraries, a virtual X display and a non-root user. This template packages all of that into a prebuilt image, so a deploy is a pull and a roughly 20 second boot, with no source build.
+Orca runs headless on Railway with your projects, worktrees and agent logins on a persistent volume. A password-protected control panel, which opens when you visit the service's URL, gives you the sign-in link, a QR code for the Orca apps, and the list of signed-in devices.
 
-The image includes:
-
-- Orca 1.4.210, extracted from the official Linux AppImage
-- Claude Code and OpenAI Codex CLIs, preinstalled
-- Node.js 22, git, the GitHub CLI (`gh`), build-essential, Python 3 and ripgrep
-- A persistent volume at `/data`: your projects, worktrees, agent logins and Orca settings survive redeploys
-
-Access is protected by Orca's own pairing: a client needs the server's pairing credential (a device token plus an end-to-end encryption key). Anyone else who opens your URL only sees a "Connect to Orca" screen.
+Need your phone to reach Orca on a computer you own as well? Use the sibling template, Orca ADE (w/ Relay), which adds your own Orca relay.
 
 ## What gets deployed
 
@@ -29,12 +22,16 @@ Access is protected by Orca's own pairing: a client needs the server's pairing c
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `PORT` | 6768 | Port orca serve listens on. Matches the public domain's target port. |
-| `ORCA_PAIRING_ADDRESS` | - | Optional. Address clients dial. Leave empty to use this service's Railway domain; set it only when you attach a custom domain, e.g. https://orca.example.com |
+| `PORT` | 8080 | Port the control panel and Orca listen on. Matches the domain's target port. |
+| `GH_TOKEN` | (secret) | Optional. GitHub token so gh and git push work right away. Leave empty to run gh auth login in an Orca terminal instead. |
+| `GIT_USER_NAME` | - | Optional. Name on commits made on this server, e.g. Ada Lovelace. |
+| `ORCA_PASSWORD` | (secret) | Choose a password. After deploying, open this service's URL: it takes you to your control panel (sign-in link, QR code, devices). Sign in there with this password. |
+| `GIT_USER_EMAIL` | - | Optional. Email on commits made on this server. |
+| `ORCA_PAIRING_ADDRESS` | - | Optional. Only for a custom domain: set it to https://your.domain so pairing links point there. |
 
 ## Configuration
 
-- **Healthcheck:** `/`
+- **Healthcheck:** `/control/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
