@@ -1,14 +1,18 @@
 # Deploy Probo on Railway
 
-Hands-off compliance: get SOC 2, ISO & HIPAA certified with ease.
+Open source GRC platform for SOC 2, ISO 27001, HIPAA and GDPR compliance
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/probo)
 
 ## About
 
-Probo is an open-source compliance automation platform for SOC 2, ISO 27001, HIPAA and GDPR. It centralizes policies, risks, evidence, and vendor reviews while keeping all compliance data fully self-hosted and under your control.
+Probo is an open source governance, risk and compliance platform for engineering and security teams: risk register, control library, policies with sign-off, vendor reviews, access reviews, audit programs and a public compliance page, covering SOC 2, ISO 27001, HIPAA and GDPR. It is MIT licensed and built to be self-hosted. This template deploys Probo with PostgreSQL, a storage bucket and the headless Chrome it uses to render PDFs and vendor assessments.
 
-Hosting Probo on Railway is as simple as clicking one button, no configuration needed. Railway automatically provisions infrastructure, networking, and environment setup. Behind the scenes, Probo uses PostgreSQL, Buckets, all of which Railway can provide or connect to with minimal setup. Once deployed, Probo immediately exposes a ready-to-use compliance workspace.
+![Probo console overview](https://raw.githubusercontent.com/getprobo/probo/main/.github/cover_v3.png)
+
+The **Probo** service runs the official `ghcr.io/getprobo/probo` image on a public domain with a volume at `/data`. **Postgres** is Railway's SSL-enabled PostgreSQL 17 on its own volume, reached over the private network. **Chrome** runs `chromedp/headless-shell`, which Probo drives for PDF export and website risk assessments. File storage (evidence, attachments, documents) goes to a Railway bucket, whose endpoint and credentials are referenced into the `AWS_*` variables. The cookie secret, password pepper, encryption key and trust-token secret are generated at deploy time.
+
+SMTP is optional. Without it Probo runs but does not send invitations or notifications; fill in `SMTP_ADDR`, `SMTP_USER`, `SMTP_PASSWORD` and `MAILER_SENDER_EMAIL` when you want email.
 
 ## What gets deployed
 

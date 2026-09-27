@@ -1,52 +1,18 @@
 # Deploy SQLite3 on Railway
 
-SQLite3 is a lightweight database
+SQLite (sqlite3) database on a persistent volume with the sqlite-web UI
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/jOiNFt)
 
 ## About
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/2560px-SQLite370.svg.png" style="max-width: 100%;">
+SQLite is a serverless database engine: the whole database is one file, and the application opens it directly. This template gives you that file on a persistent Railway volume, initializes it from an SQL script, and puts the `sqlite-web` browser interface in front of it, protected by a generated password, so you can inspect tables, run queries and import or export data from any browser.
 
-<h1 align="center">SQLite Template</h1>
+![sqlite-web showing the tables of a database with row counts](https://media.charlesleifer.com/blog/photos/sqlite-web-index.png)
 
-SQLite3 is a lightweight, serverless, open-source database engine used for local storage in applications. It requires no configuration and supports SQL for data manipulation.
+The service builds from a small repository: a Python image with `sqlite3` and `sqlite-web`, an `init_db.sql` that creates the schema and sample data on the first boot, and a `seed_db.sql` that runs once whenever its contents change. The database file lives at `/data/database.db`, where the Railway volume is mounted, so it survives redeploys.
 
-# ✨ Features
-
-- SQLite3 database
-- SQLite Web Interface
-- `trains` table with sample data about Thomas &amp; Friends (do you still need more features?)
-
-# 🤔 How to use
-
-## 🌎 WebUI Usage
-
-1. Open the project named "SQLite Template"
-
-2. Go to the "Variables" tab and view the `SQLITE_WEB_UI_PASSWORD` variable, this is the password you'll need to access the web interface
-
-3. Back to `Deployments`, in the top you'll see a URL which you can use to access the web interface
-
-4. Click on the URL and you'll be redirected to the web interface, type your password and you'll be able to manage your database
-
-That's it! You can now manage your SQLite3.
-
-## ⚙️ `seed_db.sql` Usage
-
-After you've deployed this template, you'll find a copy of this project in your Github.  
-From there you can populate `seed_db.sql` with your own SQL code.  
-The file will only be executed when you change anything in it and will run only once.
-
-## ⚙️ `init_db.sql` Usage
-
-This file is used to initialize the database.  
-It includes sample data for a `trains` table.
-
-# 📙 Learn more
-
-- [SQLite3](https://www.sqlite.org/index.html)
-- [SQLite Web](https://github.com/coleifer/sqlite-web)
+`SQLITE_WEB_UI_PASSWORD` is generated at deploy time; copy it from the service variables to log in to the web UI on the service's public domain. `RAILWAY_DEPLOYMENT_OVERLAP_SECONDS` is set to `0` so the old deploy is stopped before the new one starts, which matters here: two containers writing the same SQLite file at once would corrupt it.
 
 ## What gets deployed
 

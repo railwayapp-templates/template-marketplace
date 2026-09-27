@@ -1,25 +1,20 @@
 # Deploy n8n (w/ postgres) on Railway
 
-Simple n8n deploy. It just works.
+n8n workflow automation on PostgreSQL, webhooks and secrets preconfigured
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/MRazvG)
 
 ## About
 
-# n8n
+n8n is a fair-code workflow automation tool: you build automations in a visual, node-based editor, connect hundreds of apps and APIs, and drop into JavaScript or Python when a node is not enough. This template runs n8n on PostgreSQL, the database n8n itself recommends for team and production use, with the webhook URL, encryption key and database connection already wired.
 
-n8n is a flexible and powerful workflow automation tool that connects apps, services, and APIs. It allows you to:
+![n8n workflow editor with an automation open on the canvas](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png)
 
-- Build complex automated workflows with a visual, node-based editor
-- Integrate hundreds of services and tools without writing code
-- Customize your workflows with JavaScript when needed
-- Self-host for complete data control and privacy
+The template deploys two services. **n8n** runs the official `n8nio/n8n` image behind a public Railway domain with a `/healthz` health check, so a new deploy only receives traffic once it answers. **Postgres** runs Railway's SSL-enabled PostgreSQL image on a persistent volume. n8n reaches it over Railway's private network, so database traffic never leaves the project and is not billed as egress.
 
-Whether you're automating business processes, building internal tools, or connecting disparate systems, n8n provides the flexibility to tackle nearly any automation challenge. Its open-source nature and active community ensure continuous improvements and integrations.
+Everything n8n needs to come up is set for you: `DB_TYPE=postgresdb` with host, port, user, password and database name referenced from the Postgres service, `WEBHOOK_URL` pointing at the service's public domain so webhook and OAuth callbacks resolve to the right place, and `N8N_ENCRYPTION_KEY` generated at deploy time so stored credentials survive restarts and redeploys. On first visit n8n asks you to create the owner account. There is no password to look up.
 
-# Learn more
-
-- [n8n docs](https://docs.n8n.io/)
+By default n8n uses SQLite. Its own hosting docs say: "If you're setting n8n up for a team or a production environment, consider a more robust database like Postgres rather than the built-in default." That is what this template does.
 
 ## What gets deployed
 

@@ -1,4 +1,4 @@
-# Deploy Minecraft Server (Paper) on Railway
+# Deploy Minecraft on Railway
 
 Paper Minecraft server with the world on a volume and a ready address
 

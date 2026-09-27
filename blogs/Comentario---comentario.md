@@ -1,14 +1,16 @@
 # Deploy Comentario on Railway
 
-Fast, flexible, and powerful free comment server for web pages
+Privacy-first comments for blogs, a Disqus alternative, on PostgreSQL
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/comentario)
 
 ## About
 
-Comentario is a lightweight, privacy-focused commenting engine that can be self-hosted on your own infrastructure. It provides an alternative to third-party commenting services like Disqus, giving you full control over your users' data and commenting experience.
+Comentario is an open source comment engine you embed in any web page with one script tag: nested comments with Markdown, voting, moderation, live updates, and login with email, social providers, OpenID Connect or SSO. It adds no tracking scripts, pixels or ads, which is the point of running your own instead of Disqus. This template deploys Comentario with PostgreSQL, and Comentario's own README lists it as the way to run Comentario on Railway.
 
-Hosting Comentario on Railway involves containerizing the application using Docker and configuring it to connect to a PostgreSQL database. Railway handles the infrastructure management, automatically deploying your containerized application and providing a managed PostgreSQL database. The deployment process includes setting up environment variables for database connection, which are then substituted into the configuration file during the build process.
+Comentario is a single Go binary with a built-in frontend. The **Comentario** service builds from a small repository that wraps the official image and renders the database secrets file at build time from the PostgreSQL connection variables; it serves the admin UI and the embed script on a public domain with a health check on `/en/`. **Postgres** is Railway's SSL-enabled PostgreSQL 17 on a volume, reached over the private network. `BASE_URL` is set to the service's public domain so links in emails and the embed script resolve correctly.
+
+After deploying, open the domain, create the first user (the superuser), add your website as a domain in the admin UI, and paste the embed snippet into your pages.
 
 ## What gets deployed
 
@@ -41,6 +43,6 @@ Hosting Comentario on Railway involves containerizing the application using Dock
 - **Healthcheck:** `/en/`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other · **Languages:** Dockerfile
+**Category:** Blogs · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/comentario)

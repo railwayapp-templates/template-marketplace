@@ -1,4 +1,4 @@
-# Deploy glpi-template on Railway
+# Deploy GLPI - One Click on Railway
 
 GLPI — IT helpdesk + asset management, auto-installed in one click
 

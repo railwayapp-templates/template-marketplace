@@ -1,14 +1,18 @@
 # Deploy Minecraft Server (w/ dashboard) on Railway
 
-Deploy your Minecraft Server
+Java Minecraft server (Paper) with a web console, file browser and volume
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BLEtpx)
 
 ## About
 
-Minecraft Server for Java allows players to connect and play together in shared worlds with custom configurations and game modes.
+A Java Edition Minecraft server running Paper through the widely used `itzg/minecraft-server` image, plus a small web dashboard built for this template: a live console, a file browser for the world and plugins, and a server status view, all behind a Railway login. Players connect through a public TCP address; the world lives on a persistent volume.
 
-Hosting a Minecraft server means running a Java application that manages player connections, world data, and game state across multiple concurrent users. The server handles world generation, player authentication, resource management, and network synchronization while maintaining persistent world data. Traditional deployment requires managing server resources, handling traffic spikes during peak play times, and maintaining uptime for consistent player experience. Railway simplifies this by providing automatic resource scaling, handling network configuration for player connections, and managing the underlying infrastructure so you only pay for what you use without worrying about server upgrades or stability issues.
+The template is a single service. Its Dockerfile starts from `itzg/minecraft-server`, which downloads the requested server type and version on boot (Paper by default), runs it on Java 21 with Aikar's JVM flags, and keeps the world under `/data`, where the Railway volume is mounted. Alongside the game server the container runs the dashboard on a separate port, exposed on the service's public HTTPS domain. Players do not use that domain; they connect to the TCP proxy address Railway assigns to port 25565, which you will find as `RAILWAY_TCP_PROXY_DOMAIN` and `RAILWAY_TCP_PROXY_PORT` in the service variables.
+
+The dashboard signs you in with your Railway account and only admits people who can see this service in the Railway project, so there is no separate admin password to manage. From it you can run console commands, tail the log, upload plugins and edit configuration files.
+
+The one thing you must do at deploy time is set `EULA` to `TRUE`, which records your agreement to the [Minecraft End User License Agreement](https://aka.ms/MinecraftEULA). The server refuses to start with any other value.
 
 ## What gets deployed
 

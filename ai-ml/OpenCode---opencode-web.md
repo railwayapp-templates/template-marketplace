@@ -1,4 +1,4 @@
-# Deploy OpenCode Web on Railway
+# Deploy OpenCode on Railway
 
 OpenCode's web UI with a password, your projects and logins on a volume
 

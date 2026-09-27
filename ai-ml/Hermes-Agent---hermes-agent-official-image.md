@@ -1,4 +1,4 @@
-# Deploy Hermes Agent (Official Image) on Railway
+# Deploy Hermes Agent on Railway
 
 Nous Research's Hermes Agent: memory on a volume, API with a key, Telegram
 

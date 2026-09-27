@@ -14,7 +14,7 @@ Hosting FlowiseAI involves deploying a Node.js application that requires a persi
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgis | `postgis/postgis:latest` | Database |
+| Postgis | `postgis/postgis:17-3.5` | Database |
 | Flowise | [Somi-AI/flowiseai-railway](https://github.com/Somi-AI/flowiseai-railway) | Web service |
 
 ## Environment variables
@@ -48,9 +48,10 @@ Hosting FlowiseAI involves deploying a Node.js application that requires a persi
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/api/v1/ping`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/opt/flowise/.flowise`
 
-**Category:** AI/ML · **Languages:** Dockerfile
+**Category:** AI/ML · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/A7Dwg9)

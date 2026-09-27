@@ -1,4 +1,4 @@
-# Deploy WordPress (MariaDB, WP-CLI) on Railway
+# Deploy WordPress on Railway
 
 WordPress 7 on MariaDB: 128 MB uploads, HTTPS behind the proxy, WP-CLI
 
@@ -48,6 +48,6 @@ define('FS_METHOD', 'direct'); | Extra wp-config.php code: trust Railway's HTTPS
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/www/html`
 
-**Category:** CMS · **Tags:** wordpress, cms, blog, mariadb, php · **Languages:** Dockerfile, Shell
+**Category:** CMS · **Tags:** wordpress, cms, blog, mariadb, php · **Languages:** JavaScript, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/wordpress-mariadb-wp-cli)

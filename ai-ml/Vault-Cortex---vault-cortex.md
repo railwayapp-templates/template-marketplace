@@ -43,7 +43,7 @@ MCP server for your Obsidian vault: search, memory, tasks, files, OAuth 2.1
 | --------- | ------- | ----------- |
 | `TZ` | - | Your timezone as an IANA name, like America/Toronto (list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) — decides what "today" means for daily notes, task due dates, and memory timestamps. Leave empty for UTC |
 | `PORT` | 8000 | The port the image listens on. Leave as is. |
-| `SYNC_MODE` | bidirectional | Sync direction: bidirectional, pull-only (server edits are kept locally but never uploaded), or mirror-remote (server edits are undone; the server is an exact copy) |
+| `SYNC_MODE` | bidirectional | Sync direction: bidirectional, pull-only (edits made on the server stay on the server and are never uploaded), or mirror-remote (Obsidian Sync overwrites edits made on the server, so the server always matches your vault) |
 | `VAULT_NAME` | - | Your vault's name, the same as it is in Obsidian |
 | `DEVICE_NAME` | vault-cortex | The device name Obsidian Sync shows for this container |
 | `STORAGE_ROOT` | /persist | Where the volume is mounted — vault, search index, Sync device state, and logs live under it. Leave as is. |
@@ -51,7 +51,7 @@ MCP server for your Obsidian vault: search, memory, tasks, files, OAuth 2.1
 | `MCP_AUTH_TOKEN` | (secret) | Generated for you — the token your MCP client enters on the consent page |
 | `MEMORY_ENABLED` | true | The About Me/ memory layer and its tools. Set false to hide them and skip creating the folder |
 | `VAULT_PASSWORD` | (secret) | Only if your vault uses end-to-end encryption; otherwise leave empty |
-| `SYNC_FILE_TYPES` | - | Attachment types to sync: image, audio, video, pdf, unsupported — the same toggles as Obsidian's Sync → Selective sync. **Leave Empty** to keep the Sync client's default |
+| `SYNC_FILE_TYPES` | - | Attachment types to sync: image, audio, video, pdf, unsupported — the same toggles as Obsidian's Sync → Selective sync. Leave empty to sync image, audio, video, and pdf. CSV, JSON, TXT, XML, LOG, and YAML files need unsupported here and **Sync all other types** turned on in Obsidian's Sync settings on the device that has them |
 | `TRUST_PROXY_HOPS` | 2 | Railway proxies between a visitor and the container, so the server sees the visitor's real address |
 | `CONFLICT_STRATEGY` | merge | Obsidian Sync conflict resolution: merge integrates changes automatically; conflict writes a separate conflict file |
 | `EMBEDDING_ENABLED` | true | Semantic search. Set false to skip the models and use keyword search only — fits in much less memory |

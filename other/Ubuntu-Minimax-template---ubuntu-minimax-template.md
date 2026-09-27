@@ -1,4 +1,4 @@
-# Deploy ubuntu-minimax-template on Railway
+# Deploy Ubuntu-Minimax-template on Railway
 
 Ubuntu 24.04 SSH workstation with MiniMax mcode agent — BYOK, persistent
 

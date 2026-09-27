@@ -1,26 +1,16 @@
 # Deploy Interval on Railway
 
-The simplest way to build internal tools without building UIs
+Self-hosted Interval Server for internal tools, with PostgreSQL and MinIO
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tFqAVW)
 
 ## About
 
-# Build internal tools with just backend code
+Interval is a way to build internal tools from backend code alone: you write actions with the Node or Python SDK, and Interval Server renders the forms, tables and approval flows for your team, no frontend to build. Interval was acquired by Meter in 2023 and its server was released as open source under the MIT license. This template runs that server on Railway with PostgreSQL and a MinIO service for file uploads.
 
-Interval generates full web apps just from backend Node.js code. If you love writing code but hate building UIs, you'll love building with Interval.
+Interval Server is a Node.js application that needs a PostgreSQL database. The template builds it from a repository that adds a Dockerfile to the upstream server, serves it on a public domain with a health check on `/health-check/`, and generates the three secrets the server requires: `SECRET` for password encryption, `WSS_API_SECRET` for communication between Interval's own services, and `AUTH_COOKIE_SECRET` for session cookies. `APP_URL` is set to the public domain and `DATABASE_URL` references the **Interval Postgres** service over the private network.
 
-And all of your important data are keep secure in your own infrastructure.
-
-Best of all, Interval is fully [open-source](https://github.com/interval/server), giving you complete transparency through code auditing.
-
-# Getting started
-See [getting started guide](https://interval.com/docs/getting-started) from Interval's docs.
-
-# FAQ
-
-## How much does it cost to run a Interval instance?
-As Railway charges per usage it highly depends on your traffic, for me it costs about 5-7$ per month for about five users
+Email is optional and goes through Postmark: leave `POSTMARK_API_KEY` empty and Interval simply does not send invitations or notifications. The **Interval Uploads Storage** service is a MinIO instance on a volume; connect it to Interval by setting the `S3_*` variables described in the README when you start using file inputs.
 
 ## What gets deployed
 

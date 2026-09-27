@@ -1,16 +1,18 @@
 # Deploy ClickStack on Railway
 
-A High-Performance OSS Observability Stack on ClickHouse
+HyperDX observability on ClickHouse: OpenTelemetry logs, traces, metrics
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/clickstack)
 
 ## About
 
-![ClickStack main Dashboard with charts](https://clickhouse.com/uploads/hyperdx_landing_c7bdd6582c.png)
+ClickStack is ClickHouse's open source observability stack: ClickHouse stores the telemetry, an OpenTelemetry collector ingests it, and HyperDX is the interface for searching and charting logs, traces, metrics and session replays together. This template deploys all four services (ClickHouse, the collector, HyperDX and its MongoDB) with the connections, health checks and volumes already configured.
 
-ClickStack is a high-performance, open-source observability platform built on ClickHouse that unifies logs, metrics, traces, and session replays in a single, blazing-fast solution.
+![HyperDX search view over logs and traces with a histogram of events](https://raw.githubusercontent.com/hyperdxio/hyperdx/main/.github/images/search_splash.png)
 
-ClickStack combines ClickHouse's columnar database engine with HyperDX's purpose-built UI and OpenTelemetry's data collection standards to deliver sub-second queries on petabytes of high-cardinality observability data. The platform features intuitive search capabilities, real-time alerting, and comprehensive dashboards while maintaining exceptional cost efficiency with up to 10-100x cost savings compared to traditional observability solutions.
+**ClickHouse** (`clickhouse/clickhouse-server:24`) keeps the data on a volume at `/var/lib/clickhouse`, with a generated password, a `railway` database, and both private and public connection URLs exposed as variables. **HyperDX** (`hyperdx/hyperdx:2`) serves the UI on a public domain with a health check on `/api/health`; it is preconfigured with the ClickHouse connection and the default log, trace, metric and session sources, so the first screen after signup already knows where the data is. **OTEL Collector** (`hyperdx/hyperdx-otel-collector:2`) exposes OTLP over HTTP on its own public domain and pulls its pipeline configuration from HyperDX over OpAMP on the private network. **MongoDB** (`mongo:7`) stores HyperDX's dashboards, alerts and users on a second volume.
+
+On first visit, HyperDX asks you to create the first user, which becomes the team owner. The ingestion API key is in Team Settings; the collector only accepts data that carries it.
 
 ## What gets deployed
 

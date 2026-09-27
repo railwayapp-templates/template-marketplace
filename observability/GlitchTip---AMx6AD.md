@@ -1,35 +1,20 @@
 # Deploy GlitchTip on Railway
 
-Simple, open source error tracking with Sentry SDK
+Sentry-compatible open source error tracking with PostgreSQL and Redis
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/AMx6AD)
 
 ## About
 
-<h1>GlitchTip</h1>
+GlitchTip is open source error tracking that speaks the Sentry protocol: point any Sentry SDK at its DSN and you get grouped issues, stack traces, releases, performance data and uptime checks, without per-event pricing. This template deploys GlitchTip with PostgreSQL and Redis, generates the secret key, sets the domain, and closes public signup after the first account is created.
 
-Collect every error from your project in real time, organize them to make them useful, and receive alerts when and where you want...without breaking the budget.
+![GlitchTip issues page listing grouped errors with counts and last seen times](https://glitchtip.com/assets/home/issues-page@2x.webp)
 
+GlitchTip is a Django application. It needs PostgreSQL 14 or newer for issues, events and users, and it can use Redis (or Valkey) for caching and its task queue. The template provides both on Railway volumes and connects them over the private network.
 
-<h1>Have some bugs in your code?</h1>
+The **glitchtip-web** service runs the official `glitchtip/glitchtip` image, applies database migrations on start, serves the dashboard and the event ingestion endpoints on a public domain, and has a health check on `/login` so traffic only reaches a deploy that is up. `SECRET_KEY` is generated at deploy time, `GLITCHTIP_DOMAIN` is set to the service's public URL so DSNs and email links are correct, and `ENABLE_USER_REGISTRATION=false` means the first person to open the site registers and every later signup is refused. Email is optional: leave `EMAIL_URL` empty and GlitchTip skips email verification; fill it with an SMTP URL later to get alert emails.
 
-<div align="center">
-<img src="https://glitchtip.com/assets/home/issues-page@2x.webp" align="center">
-</div>
-
-<p>
-GlitchTip makes monitoring software easy. Track errors, monitor performance, and check site uptime all in one place. Compatible with Sentry client SDKs, but easier to run.
-
-It's also open source, so you can view, modify, and use the code as you see fit.
-
-GlitchTip is the right choice if you value simplicity, affordability, and the freedom provided by open source.
-</p>
-
-<h1>Resources</h1>
-
-- [Should I choose GlitchTip? (Reddit)](https://www.reddit.com/r/learnjavascript/comments/10u59gl/is_glitchtip_any_good/)
-- [GlitchTip Organization](https://gitlab.com/glitchtip)
-- [GlitchTip Website](https://glitchtip.com/)
+Recent GlitchTip releases run the task worker inside the web process. The template still lists a separate **glitchtip-worker** service from the days when a Celery worker was required; see the FAQ if it shows as crashed.
 
 ## What gets deployed
 

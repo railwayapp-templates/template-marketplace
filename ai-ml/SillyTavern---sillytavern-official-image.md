@@ -1,4 +1,4 @@
-# Deploy SillyTavern (Official Image) on Railway
+# Deploy SillyTavern on Railway
 
 SillyTavern on the official image, password-protected, chats on a volume
 

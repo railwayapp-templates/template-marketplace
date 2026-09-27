@@ -1,20 +1,16 @@
 # Deploy MicrosoftSQL Server (MSSQL) on Railway
 
-Deploy a MicrosoftSQL Server (MSSQL) on Railway!
+SQL Server 2025, 2022 or 2019 (MSSQL) on a volume, edition set at deploy
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/microsoftsql-server-mssql)
 
 ## About
 
-Microsoft SQL Server (MSSQL) is Microsoft's relational database for transactional workloads, internal tools, reporting, and enterprise applications. It supports T-SQL, backups, authentication, and multiple editions for development or production. This template runs SQL Server on Railway with configurable version and license settings.
+Microsoft SQL Server (MSSQL) is Microsoft's relational database, the one behind many .NET, ERP and reporting workloads, with T-SQL, SQL Server Management Studio and Azure Data Studio as its tooling. This template runs the official Linux container image on Railway with persistent storage, lets you choose the version and edition at deploy time, and generates a compliant `sa` password.
 
-Hosting Microsoft SQL Server on Railway gives you a simple way to run a full SQL Server instance without managing virtual machines or manual server setup. This template is built for teams that want SQL Server compatibility with a straightforward Railway deployment flow.
+Railway cannot pull directly from Microsoft's container registry, so the template builds a one-line Dockerfile that wraps `mcr.microsoft.com/mssql/server`. `MSSQL_VERSION` (`2025`, `2022` or `2019`) selects the image tag, `MSSQL_PID` selects the edition or license, and `ACCEPT_EULA` records your acceptance of Microsoft's [SQL Server license terms](https://go.microsoft.com/fwlink/?linkid=857698); the container will not start without it. Data lives on a Railway volume at `/var/opt/mssql`, and the service runs as root so SQL Server can write to the volume.
 
-Key features include:
-
-- Select the SQL Server license that fits your use case
-- Choose the SQL Server edition/version at deploy time
-- Connect with standard SQL Server drivers and tools like Azure Data Studio, `sqlcmd`, and SQL Server Management Studio
+`MSSQL_SA_PASSWORD` is generated with a mix of upper case, lower case, digits and a symbol to satisfy SQL Server's complexity rules; `SA_PASSWORD` mirrors it for tools that still read the old name.
 
 ## What gets deployed
 
