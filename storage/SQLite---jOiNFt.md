@@ -1,4 +1,4 @@
-# Deploy SQLite3 on Railway
+# Deploy SQLite on Railway
 
 SQLite (sqlite3) database on a persistent volume with the sqlite-web UI
 

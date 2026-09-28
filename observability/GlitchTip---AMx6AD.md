@@ -14,7 +14,7 @@ GlitchTip is a Django application. It needs PostgreSQL 14 or newer for issues, e
 
 The **glitchtip-web** service runs the official `glitchtip/glitchtip` image, applies database migrations on start, serves the dashboard and the event ingestion endpoints on a public domain, and has a health check on `/login` so traffic only reaches a deploy that is up. `SECRET_KEY` is generated at deploy time, `GLITCHTIP_DOMAIN` is set to the service's public URL so DSNs and email links are correct, and `ENABLE_USER_REGISTRATION=false` means the first person to open the site registers and every later signup is refused. Email is optional: leave `EMAIL_URL` empty and GlitchTip skips email verification; fill it with an SMTP URL later to get alert emails.
 
-Recent GlitchTip releases run the task worker inside the web process. The template still lists a separate **glitchtip-worker** service from the days when a Celery worker was required; see the FAQ if it shows as crashed.
+Recent GlitchTip releases run the task worker inside the web process, so the template is those three services and nothing else.
 
 ## What gets deployed
 
@@ -23,7 +23,6 @@ Recent GlitchTip releases run the task worker inside the web process. The templa
 | Postgres | `postgres:15` | Database |
 | glitchtip-web | `glitchtip/glitchtip:latest` | Web service |
 | Redis | `bitnami/redis` | Database |
-| glitchtip-worker | `glitchtip/glitchtip:latest` | Worker |
 
 ## Environment variables
 
@@ -49,7 +48,6 @@ Recent GlitchTip releases run the task worker inside the web process. The templa
 | `REDISHOST_PRIVATE` | Redis | - | Private domain |
 | `REDISPORT_PRIVATE` | Redis | 6379 | Private port |
 | `REDIS_PRIVATE_URL` | Redis | - | Private URL |
-| `CELERY_WORKER_CONCURRENCY` | glitchtip-worker | 2 | Choose 2 for recommended value or 1 for reduced memory usage. |
 
 ## Configuration
 
@@ -59,7 +57,6 @@ Recent GlitchTip releases run the task worker inside the web process. The templa
 - **Healthcheck:** `/login`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/bitnami`
-- **Start command:** `/bin/sh -c "sleep 10 && ./manage.py migrate && ./bin/run-celery-with-beat.sh"`
 
 **Category:** Observability
 

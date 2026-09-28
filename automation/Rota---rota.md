@@ -6,7 +6,7 @@ Deploy Rota, an authenticated proxy rotation platform with TimescaleDB.
 
 ## About
 
-Rota is an open-source proxy rotation platform with a high-performance Go proxy engine, a real-time Next.js dashboard, automatic upstream health checks, proxy sources and pools, per-user routing, and TimescaleDB-backed analytics. This template pins Rota `v2.2.1` and exposes the dashboard and API through one Railway HTTPS domain while exposing the proxy engine through a separate authenticated Railway TCP endpoint.
+Rota is an open-source proxy rotation platform with a high-performance Go proxy engine, a real-time Next.js dashboard, automatic upstream health checks, proxy sources and pools, per-user routing, and TimescaleDB-backed analytics. This template pins Rota `v2.3.0` and exposes the dashboard and API through one Railway HTTPS domain while exposing the proxy engine through a separate authenticated Railway TCP endpoint.
 
 The Gateway service owns the public web domain. On first deployment, the Core service seeds the administrator from `ROTA_ADMIN_USER` and the generated `ROTA_ADMIN_PASSWORD`. The Railway adapter also enables incoming proxy authentication from generated `ROTA_PROXY_USER` and `ROTA_PROXY_PASSWORD` variables.
 

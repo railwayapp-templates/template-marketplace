@@ -30,6 +30,6 @@ The health check on `/api/health` keeps traffic off a deploy until it is ready. 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** Analytics · **Languages:** TypeScript, Go, CSS, Dockerfile, Makefile
+**Category:** Analytics · **Languages:** Go, TypeScript, CSS, Shell, Dockerfile, Makefile
 
 [View on Railway →](https://railway.com/deploy/dispatcher)

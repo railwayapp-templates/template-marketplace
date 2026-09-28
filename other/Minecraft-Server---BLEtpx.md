@@ -1,4 +1,4 @@
-# Deploy Minecraft Server (w/ dashboard) on Railway
+# Deploy Minecraft Server on Railway
 
 Java Minecraft server (Paper) with a web console, file browser and volume
 

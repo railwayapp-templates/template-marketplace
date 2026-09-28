@@ -11,12 +11,13 @@ LobbyStack answers your business calls with an AI voice agent and books appointm
 The template deploys these services:
 
 - **admin**: dashboard and API, on a public domain
-- **voice-gateway**: connects Twilio calls to OpenAI Realtime, on a public domain
-- **worker**: follow-ups and scheduled jobs
+- **worker**: runs each call on OpenAI GPT-Live, plus follow-ups and scheduled jobs
 - **migrate**: updates the database on each deploy, then exits
 - **Postgres** with pgvector and **Redis**, each on a volume, plus a bucket for recordings
 
-Railway generates every password and secret at deploy. You enter an OpenAI API key and your Twilio credentials. Then open the admin domain, create your account and pick a phone number. LobbyStack buys the number on your Twilio account and points its webhooks at the voice gateway.
+Railway generates every password and secret at deploy. You enter an OpenAI API key and your Twilio credentials. Then open the admin domain, create your account and test your receptionist with a browser call.
+
+Phone calls reach GPT-Live through a Twilio Elastic SIP trunk. Create the trunk and an OpenAI webhook that points at `/api/webhooks/openai/live`, then fill in `TWILIO_SIP_TRUNK_SID` on worker and `OPENAI_WEBHOOK_SECRET` on admin. LobbyStack then buys numbers on your Twilio account and adds them to the trunk.
 
 ## What gets deployed
 
@@ -24,7 +25,6 @@ Railway generates every password and secret at deploy. You enter an OpenAI API k
 |---------|--------|------|
 | worker | [lobbystack/lobbystack](https://github.com/lobbystack/lobbystack) | Worker |
 | admin | [lobbystack/lobbystack](https://github.com/lobbystack/lobbystack) | Web service |
-| voice-gateway | [lobbystack/lobbystack](https://github.com/lobbystack/lobbystack) | Web service |
 | migrate | [lobbystack/lobbystack](https://github.com/lobbystack/lobbystack) | Worker |
 | Redis | `redis:7-alpine` | Database |
 | Postgres | `pgvector/pgvector:pg16` | Database |
@@ -52,7 +52,9 @@ Railway generates every password and secret at deploy. You enter an OpenAI API k
 | `TWILIO_ACCOUNT_SID` | worker | - | Your Twilio Account SID, from the Twilio Console home page. |
 | `S3_FORCE_PATH_STYLE` | worker | false | Use path-style bucket URLs. |
 | `S3_SECRET_ACCESS_KEY` | worker | (secret) | Bucket secret key. |
+| `TWILIO_SIP_TRUNK_SID` | worker | - | Optional, for phone calls. SID of the Twilio Elastic SIP trunk that sends calls to OpenAI. Needed to provision numbers. |
 | `INTERNAL_SERVICE_TOKEN` | worker | (secret) | Authenticates internal routes. Generated at deploy. |
+| `LIVE_PROTOTYPE_ENABLED` | worker | true | Turns on GPT-Live browser and phone calls. Keep as true. |
 | `INTERNAL_SERVICE_SECRET` | worker | (secret) | Signs requests between services. Generated at deploy. |
 | `TWILIO_STATUS_CALLBACK_URL` | worker | - | Twilio webhook for call and message status. |
 | `LOBBYSTACK_DISPATCHER_PASSWORD` | worker | (secret) | Password for the lobbystack_dispatcher database role. |
@@ -77,36 +79,24 @@ Railway generates every password and secret at deploy. You enter an OpenAI API k
 | `BETTER_AUTH_SECRET` | admin | (secret) | Signs sessions. Generated at deploy. |
 | `TWILIO_ACCOUNT_SID` | admin | - | Your Twilio Account SID, from the Twilio Console home page. |
 | `S3_FORCE_PATH_STYLE` | admin | false | Use path-style bucket URLs. |
+| `WORKER_INTERNAL_URL` | admin | - | Private URL admin uses to hand each call to the worker. |
 | `AUTH_TRUSTED_ORIGINS` | admin | - | Origins allowed to sign in. |
 | `S3_SECRET_ACCESS_KEY` | admin | (secret) | Bucket secret key. |
+| `OPENAI_WEBHOOK_SECRET` | admin | (secret) | Optional, for phone calls. Signing secret of the OpenAI webhook that points at /api/webhooks/openai/live. |
 | `WIDGET_SESSION_SECRET` | admin | (secret) | Signs website widget sessions. Generated at deploy. |
 | `INTERNAL_SERVICE_TOKEN` | admin | (secret) | Authenticates internal routes. Generated at deploy. |
+| `LIVE_PROTOTYPE_ENABLED` | admin | true | Turns on GPT-Live browser and phone calls. Keep as true. |
 | `TWILIO_SMS_WEBHOOK_URL` | admin | - | Twilio webhook for incoming texts. |
 | `INTERNAL_SERVICE_SECRET` | admin | (secret) | Signs requests between services. Generated at deploy. |
 | `LOBBYSTACK_AUTH_PASSWORD` | admin | (secret) | Password for the lobbystack_auth database role. |
+| `TRUSTED_CLIENT_IP_HEADER` | admin | x-real-ip | Header that carries the visitor's IP address. Railway sets x-real-ip. Keep as x-real-ip. |
 | `NUMBER_CLAIM_TOKEN_SECRET` | admin | (secret) | Signs phone number claim links. Generated at deploy. |
 | `LOBBYSTACK_WORKER_PASSWORD` | admin | (secret) | Password for the lobbystack_worker database role. |
 | `REQUIRE_EMAIL_VERIFICATION` | admin | false | Require email verification before sign-in. Needs SMTP. |
 | `TWILIO_STATUS_CALLBACK_URL` | admin | - | Twilio webhook for call and message status. |
-| `NEXT_PUBLIC_WEB_CALL_ENDPOINT` | admin | - | Browser endpoint for website voice calls. |
 | `BETTER_AUTH_USE_SECURE_COOKIES` | admin | true | Use secure cookies over HTTPS. |
 | `LOBBYSTACK_DISPATCHER_PASSWORD` | admin | (secret) | Password for the lobbystack_dispatcher database role. |
 | `SEND_VERIFICATION_EMAIL_ON_SIGNUP` | admin | false | Send a verification email at sign-up. Needs SMTP. |
-| `PORT` | voice-gateway | 3001 | Port the service listens on. |
-| `NODE_ENV` | voice-gateway | production | Node.js environment. Keep as production. |
-| `REDIS_URL` | voice-gateway | - | Redis connection for queues and realtime events. |
-| `APP_BASE_URL` | voice-gateway | - | Public URL of the dashboard. |
-| `REDIS_PREFIX` | voice-gateway | lobbystack | Prefix for Redis keys. |
-| `OPENAI_API_KEY` | voice-gateway | (secret) | OpenAI API key for voice calls and chat. Create one at platform.openai.com/api-keys. |
-| `DEPLOYMENT_MODE` | voice-gateway | self_hosted_standard | LobbyStack deployment mode. Keep as self_hosted_standard. |
-| `TWILIO_AUTH_TOKEN` | voice-gateway | (secret) | Your Twilio Auth Token, from the Twilio Console home page. |
-| `TWILIO_ACCOUNT_SID` | voice-gateway | - | Your Twilio Account SID, from the Twilio Console home page. |
-| `BACKEND_INTERNAL_URL` | voice-gateway | - | Private URL of the admin service. |
-| `INTERNAL_SERVICE_TOKEN` | voice-gateway | (secret) | Authenticates internal routes. Generated at deploy. |
-| `VOICE_GATEWAY_BASE_URL` | voice-gateway | - | Public URL of the voice gateway, used by Twilio. |
-| `INTERNAL_SERVICE_SECRET` | voice-gateway | (secret) | Signs requests between services. Generated at deploy. |
-| `WEB_CALL_ALLOWED_ORIGINS` | voice-gateway | - | Extra browser origins allowed to start web calls. |
-| `VOICE_GATEWAY_TRUST_PROXY` | voice-gateway | true | Trust Railway's proxy headers. |
 | `NODE_ENV` | migrate | production | Node.js environment. Keep as production. |
 | `DATABASE_URL` | migrate | - | Superuser connection that runs migrations. |
 | `LOBBYSTACK_APP_PASSWORD` | migrate | (secret) | Password for the lobbystack_app database role. |

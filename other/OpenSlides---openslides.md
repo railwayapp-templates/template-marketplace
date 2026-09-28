@@ -6,7 +6,7 @@ Digital meeting, agenda, motion, election, and presentation platform
 
 ## About
 
-OpenSlides is a web platform for organizing meetings, agendas, motions, elections, participants, and projected content. This template deploys stable 4.3.3 using the complete official service architecture, a generated superadmin account, private PostgreSQL and Redis, and durable database storage.
+OpenSlides is a web platform for organizing meetings, agendas, motions, elections, participants, and projected content. This template deploys stable 4.3.4 using the complete official service architecture, a generated superadmin account, private PostgreSQL and Redis, and durable database storage.
 
 Sign in as `superadmin` with `SUPERADMIN_PASSWORD` from the `backend-manage` service.
 

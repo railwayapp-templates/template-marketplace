@@ -14,7 +14,7 @@ Open the generated public domain and register the first account. That account be
 
 | Service | Source | Type |
 |---------|--------|------|
-| traceway | `ghcr.io/tracewayapp/traceway:v1.19.23-sqlite@sha256:30b6c20f6017bda1ff481cd28043487326ef988c227d80046123aa7c7a42f847` | Web service |
+| traceway | `ghcr.io/tracewayapp/traceway:v2.0.2-sqlite@sha256:9be10bc267bede44c9c42b012d0aeb28f1e24f2dd9b8f35920ea75fdbc66c625` | Web service |
 
 ## Environment variables
 

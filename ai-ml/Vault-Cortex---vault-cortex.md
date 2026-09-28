@@ -43,7 +43,7 @@ MCP server for your Obsidian vault: search, memory, tasks, files, OAuth 2.1
 | --------- | ------- | ----------- |
 | `TZ` | - | Your timezone as an IANA name, like America/Toronto (list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) — decides what "today" means for daily notes, task due dates, and memory timestamps. Leave empty for UTC |
 | `PORT` | 8000 | The port the image listens on. Leave as is. |
-| `SYNC_MODE` | bidirectional | Sync direction: bidirectional, pull-only (edits made on the server stay on the server and are never uploaded), or mirror-remote (Obsidian Sync overwrites edits made on the server, so the server always matches your vault) |
+| `SYNC_MODE` | bidirectional | Sync direction: bidirectional, pull-only (edits made on the server stay on the server and are never uploaded), or mirror-remote (Obsidian Sync overwrites edits made on the server, so the server always matches your vault). An invalid value stops the container at boot |
 | `VAULT_NAME` | - | Your vault's name, the same as it is in Obsidian |
 | `DEVICE_NAME` | vault-cortex | The device name Obsidian Sync shows for this container |
 | `STORAGE_ROOT` | /persist | Where the volume is mounted — vault, search index, Sync device state, and logs live under it. Leave as is. |

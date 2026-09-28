@@ -1,6 +1,6 @@
-# Deploy Claude Code Box on Railway
+# Deploy Ubuntu + Claude Code (Browser Terminal + SSH) on Railway
 
-Ubuntu with Claude Code, Codex and Gemini CLI. Browser terminal and SSH
+Claude Code, Codex and Gemini CLI on Ubuntu 24.04, home dir on a volume
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/claude-code-box)
 

@@ -1,4 +1,4 @@
-# Deploy MicrosoftSQL Server (MSSQL) on Railway
+# Deploy Microsoft SQL Server (MSSQL) on Railway
 
 SQL Server 2025, 2022 or 2019 (MSSQL) on a volume, edition set at deploy
 

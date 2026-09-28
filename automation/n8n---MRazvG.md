@@ -1,4 +1,4 @@
-# Deploy n8n (w/ postgres) on Railway
+# Deploy n8n on Railway
 
 n8n workflow automation on PostgreSQL, webhooks and secrets preconfigured
 

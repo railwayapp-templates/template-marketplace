@@ -21,7 +21,7 @@ Hosting Slink involves running a PHP/Symfony application alongside its frontend 
 
 | Service | Source | Type |
 |---------|--------|------|
-| slink | `anirdev/slink:v1.13.1@sha256:5b6c29592f63edccbef613fbbd3b106f322bf21290d0bb6451d105ca14802b90` | Web service |
+| slink | `anirdev/slink:v1.14.0@sha256:fff70ce3cee309377424466565810d500ae4df0d1b918ee47b5126807621841d` | Web service |
 
 ## Environment variables
 

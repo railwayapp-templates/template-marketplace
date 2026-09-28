@@ -1,4 +1,4 @@
-# Deploy Chatwoot (Sidekiq Worker) on Railway
+# Deploy Chatwoot on Railway
 
 Intercom alternative with a dedicated Sidekiq worker and shared storage
 

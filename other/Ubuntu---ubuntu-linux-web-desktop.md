@@ -1,4 +1,4 @@
-# Deploy Ubuntu Linux (Web Desktop) on Railway
+# Deploy Ubuntu on Railway
 
 A real XFCE Ubuntu desktop in the browser, not just a web terminal.
 
