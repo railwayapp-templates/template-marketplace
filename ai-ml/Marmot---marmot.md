@@ -21,9 +21,10 @@ own schema migrations at startup, so there is nothing to initialise by hand.
 The catalog lives entirely in Postgres — assets, lineage, glossary, teams, users, API keys. The
 volume attached to the service holds only Marmot's plugin cache, which is rebuildable.
 
-Two things are worth knowing before the first deploy. Marmot installs 31 connector plugins from a
-container registry when it starts, roughly 800 MB, and there is no setting to narrow that list — so
-the first boot takes several minutes and the volume exists to make sure you only pay for it once.
+Two things are worth knowing before the first deploy. Marmot installs its connector plugins from a
+container registry when it starts — 71 of them in 0.11.0, roughly 1.5 GB — and there is no setting to
+narrow that list, so the first boot takes a few minutes and the volume exists to make sure you only
+pay for it once.
 And Marmot's built-in account is `admin:admin` until it is changed, which this template does on your
 behalf before the public listener ever opens.
 

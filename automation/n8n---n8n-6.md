@@ -1,4 +1,4 @@
-# Deploy N8N on Railway
+# Deploy n8n on Railway
 
 n8n queue mode with workers and webhook processors behind one URL.
 

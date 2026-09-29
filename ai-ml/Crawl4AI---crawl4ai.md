@@ -10,11 +10,13 @@ Crawl4AI is an open-source, LLM-friendly web crawling and scraping framework. It
 
 Deploying Crawl4AI requires running a containerized service that bundles a FastAPI server, headless Chromium browser, and Redis — all managed by supervisord. The official Docker image handles this out of the box. The service exposes a REST API on port 11235 for crawling, markdown extraction, screenshots, PDFs, and LLM-powered content extraction. To use LLM extraction features, you'll need at least one LLM provider API key (OpenAI, Anthropic, Groq, etc.), though basic crawling and markdown extraction work without any API keys.
 
+Since Crawl4AI 0.9 the API requires a bearer token. This template generates one for you as `CRAWL4AI_API_TOKEN`; copy it from the service's Variables tab. Without a token the server only listens on localhost, so do not remove it.
+
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| Crawl4AI | `unclecode/crawl4ai:latest` | Web service |
+| Crawl4AI | `unclecode/crawl4ai:0.9.4` | Web service |
 
 ## Environment variables
 
@@ -28,6 +30,7 @@ Deploying Crawl4AI requires running a containerized service that bundles a FastA
 | `GEMINI_API_TOKEN` | (secret) | Google Gemini API token for LLM extraction |
 | `TOGETHER_API_KEY` | (secret) | Together AI API key for LLM extraction |
 | `ANTHROPIC_API_KEY` | (secret) | Anthropic API key for Claude-based extraction |
+| `CRAWL4AI_API_TOKEN` | (secret) | API bearer token, auto generated. Required since Crawl4AI 0.9: without it the server only listens on localhost and the deploy fails. |
 
 ## Configuration
 

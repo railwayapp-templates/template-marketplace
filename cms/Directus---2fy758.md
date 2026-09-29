@@ -1,14 +1,16 @@
 # Deploy Directus on Railway
 
-Turn any SQL database into an API. Optional S3 and WebSockets Included!
+Directus [Sep '26] (Headless CMS/Strapi & Supabase Alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/2fy758)
 
 ## About
 
-Directus is the world's first Open Data Platform for instantly turning any SQL database into an API with a beautiful CMS dashboard.
+Directus is an open source data platform that turns any SQL database into a REST and GraphQL API, with a full admin app (the Directus Data Studio) on top. Unlike most headless CMS tools, Directus does not own your data model: it introspects the tables you already have, keeps your schema clean and lets you walk away without a migration. This template deploys self hosted Directus on Railway with S3-compatible file storage and optional WebSockets (realtime) already wired.
 
-Directus enables you to design and build a REST + GraphQL API in minutes and enables anyone to author content, manage media, and visualize data. Communication to Postgres is done exclusively over the private network and the database is not exposed externally in any way by default. This is done so that there are no egress fees for the database. If you want to enable access from outside of the private network you can go to the databases settings page to enable TCP proxying and enter the internal port 5432. The TCP proxy can be again removed at any point to close off external access.
+Self hosting Directus means running the official `directus/directus` Docker image next to a SQL database, with persistent file storage, a public URL and the right environment variables. On a VPS you manage Docker, reverse proxy, TLS, backups and upgrades yourself. On Railway, this template provisions Directus and its database, connects them over the private network, generates secrets and exposes Directus on an HTTPS domain.
+
+This template includes Directus, PostgreSQL, Redis and an S3-compatible bucket for file storage, all connected at deploy time.
 
 ## What gets deployed
 

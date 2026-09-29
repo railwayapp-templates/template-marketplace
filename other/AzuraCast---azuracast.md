@@ -6,7 +6,7 @@ Self-hosted web radio: Icecast streams, playlists, live DJ, analytics.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/azuracast?utm_medium=integration&utm_source=button&utm_campaign=azuracast)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/azuracast?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=azuracast)
 
 [AzuraCast](https://www.azuracast.com/) is a self-hosted, all-in-one web radio management suite: stream with Icecast, automate playlists with Liquidsoap, broadcast live from your browser with WebDJ, and track listener analytics — all from one dashboard.
 

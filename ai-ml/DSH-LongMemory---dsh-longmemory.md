@@ -8,7 +8,7 @@ DSH, DeepSeek's coding agent, with LongMemory as its MCP memory server
 
 [DSH](https://github.com/deepseek-ai/deepseek-harness) is DeepSeek Harness, DeepSeek's open-source
 coding agent: a model that reads your files, runs shell commands and keeps working through a long
-task, with a browser UI. This template runs DSH 0.1.5-rc.1 on Railway and pairs it with a
+task, with a browser UI. This template runs DSH 0.1.7-rc.2 on Railway and pairs it with a
 [LongMemory](https://github.com/CaviraOSS/LongMemory) server as an MCP tool server, so the agent
 can recall, store decisions and track task state across sessions. Built on DeepSeek Harness; not
 affiliated with or endorsed by DeepSeek.

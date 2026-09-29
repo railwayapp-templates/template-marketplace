@@ -51,7 +51,7 @@ MCP server for your Obsidian vault: search, memory, tasks, files, OAuth 2.1
 | `MCP_AUTH_TOKEN` | (secret) | Generated for you — the token your MCP client enters on the consent page |
 | `MEMORY_ENABLED` | true | The About Me/ memory layer and its tools. Set false to hide them and skip creating the folder |
 | `VAULT_PASSWORD` | (secret) | Only if your vault uses end-to-end encryption; otherwise leave empty |
-| `SYNC_FILE_TYPES` | - | Attachment types to sync: image, audio, video, pdf, unsupported — the same toggles as Obsidian's Sync → Selective sync. Leave empty to sync image, audio, video, and pdf. CSV, JSON, TXT, XML, LOG, and YAML files need unsupported here and **Sync all other types** turned on in Obsidian's Sync settings on the device that has them |
+| `SYNC_FILE_TYPES` | - | Attachment types to sync, comma-separated — the same toggles as Obsidian's Sync → Selective sync. **Valid values:** image, audio, video, pdf, unsupported. **Leave empty for the default:** image,audio,video,pdf. To read CSV, JSON, TXT, XML, LOG, and YAML files, enter image,audio,video,pdf,unsupported and turn on **Sync all other types** in Obsidian's Sync settings on the device that has them |
 | `TRUST_PROXY_HOPS` | 2 | Railway proxies between a visitor and the container, so the server sees the visitor's real address |
 | `CONFLICT_STRATEGY` | merge | Obsidian Sync conflict resolution: merge integrates changes automatically; conflict writes a separate conflict file |
 | `EMBEDDING_ENABLED` | true | Semantic search. Set false to skip the models and use keyword search only — fits in much less memory |

@@ -6,59 +6,9 @@ Run Agents Anytime, Anywhere, on Any Cloud
 
 ## About
 
-GitTerm lets you run OpenCode in remote, persistent workspaces you can reopen from anywhere. It ships with a web app, API, proxy, worker, Postgres, and Redis, and works across multiple infrastructure backends with more provider support on the way. Deploy it on Railway, add your admin login, then configure workspace providers from the app. Use path routing for a standard single domain, or subdomain routing if you have wildcard domain support on the proxy.
+GitTerm runs your coding agents in remote workspaces you can reopen from anywhere. Pick your agent (OpenCode or T3Code), bring your own model keys, and run workspaces across Railway, AWS, E2B, Daytona, Cloudflare, Vercel, and more.
 
-## What You Need
-
-Required:
-
-- `ADMIN_EMAIL`
-- `ADMIN_PASSWORD`
-
-Optional later:
-
-- GitHub OAuth credentials for sign-in
-- GitHub App credentials for repository access
-- Provider credentials for Railway, AWS, E2B, Cloudflare, and future providers
-
-Provider configuration is done inside the GitTerm admin UI, not in the template form.
-
-## Routing
-
-### Path Routing
-
-Best when you only have a single normal domain on the proxy.
-
-- `https://your-domain.com/` -&gt; app
-- `https://your-domain.com/api/` -&gt; API
-- `https://your-domain.com/listener/` -&gt; listener
-- `https://your-domain.com/ws//` -&gt; workspaces
-
-### Subdomain Routing
-
-Use this only if your proxy domain has wildcard DNS and wildcard TLS support.
-
-- `https://-.your-domain.com`
-
-If you are unsure, use path routing.
-
-## Startup Behavior
-
-On startup, the server automatically:
-
-1. runs database migrations
-2. seeds built-in app data
-3. creates or upgrades the admin user when `ADMIN_EMAIL` and `ADMIN_PASSWORD` are set
-
-## Services Included
-
-- `web`
-- `server`
-- `listener`
-- `worker`
-- `proxy`
-- PostgreSQL
-- Redis
+This template deploys the full GitTerm stack: web app, API server, proxy, background worker, Postgres, and Redis. On first boot the server runs migrations, seeds built in catalog data, and creates your admin user from `ADMIN_EMAIL` and `ADMIN_PASSWORD`. After that you configure workspace providers in the admin UI and start creating workspaces. Path routing works on a single domain with no extra DNS work. Use subdomain routing only if your domain has wildcard DNS and a wildcard TLS cert.
 
 ## What gets deployed
 
@@ -122,7 +72,8 @@ On startup, the server automatically:
 | `SERVER_URL` | gitterm-idle-reaper-worker | - | Private address of the API server |
 | `DEPLOYMENT_MODE` | gitterm-idle-reaper-worker | self-hosted | Uses self-hosted lifecycle behavior without managed quotas |
 | `INTERNAL_API_KEY` | gitterm-idle-reaper-worker | (secret) | Shared key used for workspace lifecycle procedures |
-| `ENABLE_IDLE_REAPING` | gitterm-idle-reaper-worker | - | Controls automatic idle workspace cleanup |
+| `ENABLE_IDLE_REAPING` | gitterm-idle-reaper-worker | true | Controls automatic idle workspace cleanup |
+| `REAP_INTERVAL_MINUTES` | gitterm-idle-reaper-worker | 0 | Minutes between idle-reaper passes. |
 | `PORT` | gitterm-caddy-proxy | 80 | Default Port for healthchecks |
 | `WEB_URL` | gitterm-caddy-proxy | - | Private Railway address of the web service |
 | `SERVER_URL` | gitterm-caddy-proxy | - | Private Railway address of the API server |

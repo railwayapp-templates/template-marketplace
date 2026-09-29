@@ -1,4 +1,4 @@
-# Deploy N8N on Railway
+# Deploy n8n on Railway
 
 n8n on SQLite in a single service with a volume. Cheapest to run.
 

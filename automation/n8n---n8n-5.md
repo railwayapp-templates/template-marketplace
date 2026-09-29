@@ -1,4 +1,4 @@
-# Deploy N8N on Railway
+# Deploy n8n on Railway
 
 Deploy n8n with Postgres.
 

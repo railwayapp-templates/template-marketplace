@@ -1,6 +1,6 @@
-# Deploy Hermes Agent — Self-Improving AI Agent That Learns [Updated Sep'26] on Railway
+# Deploy Hermes Agent on Railway
 
-Self-host Hermes by Nous Research — an AI agent that learns & improves
+Hermes by Nous Research [Sep'26] — an AI agent that learns & improves
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-self-improving)
 

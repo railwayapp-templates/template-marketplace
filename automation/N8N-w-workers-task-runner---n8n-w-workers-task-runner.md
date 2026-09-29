@@ -1,14 +1,22 @@
 # Deploy N8N (w/ workers + task runner) on Railway
 
-n8n with workers and external task runners for secure scaling
+n8n Workers [Sep '26] (Queue Mode/Task Runners/Python/Queue Mode) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-w-workers-task-runner)
 
 ## About
 
-N8N (w/ workers + task runner) is a 1‑click Railway template that deploys n8n in queue mode with worker(s), Redis, Postgres, and external Task Runner(s) (n8nio/runners) for the Code node. It isolates JavaScript/Python execution for reliability, supports high‑throughput webhooks, and lets you scale workers independently for throughput.
+n8n is an open source workflow automation platform, and queue mode is how it runs in production. Instead of one container doing everything, the main instance handles the editor and webhooks while workers execute workflows from a Redis queue, and external task runners execute Code node JavaScript and Python in an isolated container. Since n8n 2.0, task runners are enabled by default and Python in the Code node requires task runners in external mode. This template deploys that entire production topology on Railway in one click.
 
-This template deploys n8n on Railway with a production-ready setup: a main service (editor/API), worker service(s) that execute workflows, Redis for job queuing, PostgreSQL for storage, and an external Task Runner service (n8nio/runners). The extra Task Runner service provides a separate, managed runtime for the Code node, improving isolation and reliability for custom code without impacting the main editor. Railway provisions and manages the services so you can deploy quickly without manual configuration. As your workload grows, you can scale worker services for throughput and keep the editor responsive.
+A single n8n container works for a handful of scheduled workflows. Under real load it becomes the bottleneck: long executions slow down the editor, webhooks time out during bursts, and one heavy Code node can take the whole instance down. Queue mode splits those responsibilities across services that scale independently.
+
+This template deploys these services, connected over Railway's private network at deploy time:
+
+- **Main**: n8n editor, REST API, webhooks and schedules, exposed on an HTTPS domain. In queue mode it enqueues executions instead of running them.
+- **Worker**: pulls executions from Redis and runs the workflows. This is the service you scale.
+- **Task runner** (`n8nio/runners`): executes Code node JavaScript and Python outside the worker process.
+- **Redis**: the job queue between main and workers.
+- **PostgreSQL**: workflows, credentials and execution history.
 
 ## What gets deployed
 

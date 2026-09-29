@@ -1,4 +1,4 @@
-# Deploy Ubuntu + Claude Code (Browser Terminal + SSH) on Railway
+# Deploy Ubuntu Linux + Claude Code (Browser Terminal + SSH) on Railway
 
 Claude Code, Codex and Gemini CLI on Ubuntu 24.04, home dir on a volume
 

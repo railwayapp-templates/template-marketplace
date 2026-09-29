@@ -1,14 +1,21 @@
 # Deploy N8N (w/ FFmpeg) on Railway
 
-n8n on Railway with FFmpeg preinstalled for video/audio automation
+n8n + FFmpeg [Sep '26] (Video Automation/Workers/Execute Command) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-w-ffmpeg)
 
 ## About
 
-N8N (w/ FFmpeg) is a 1‑click Railway template for media‑centric automations. It deploys n8n in queue mode with worker(s), Redis (BullMQ), and Postgres. FFmpeg and ffprobe are installed on worker startup, enabling video/audio transcoding, trimming, thumbnail generation, and metadata extraction directly inside n8n, no custom setup required.
+n8n is an open source workflow automation platform, and FFmpeg is the standard tool for processing video and audio. Together they let you cut clips, convert formats, generate thumbnails and normalize audio inside your workflows, without paying a rendering API per video. The problem: the official n8n Docker image does not ship FFmpeg, and n8n Cloud does not allow the Execute Command node at all. This template solves it by deploying self hosted n8n in queue mode with FFmpeg and ffprobe already installed on the workers.
 
-This template deploys n8n on Railway with a production-ready setup: a main service for the editor and API, worker service(s) that execute workflows, Redis for job queuing, and PostgreSQL for storage. Railway provisions and manages these services so you can deploy quickly without manual configuration. The only difference from the upstream template is the worker image, which includes FFmpeg, enabling media operations directly within your automations. As your workload grows, simply scale worker services to handle more concurrent executions while the main editor remains responsive.
+Running FFmpeg from n8n requires a self hosted instance where you control the container. On a production setup that means n8n in queue mode: a main instance for the editor and webhooks, workers that execute the workflows, Redis as the job queue and PostgreSQL for storage. FFmpeg must be installed where the workflows actually run, which in queue mode is the worker, not the main instance.
+
+This template deploys four services, connected over Railway's private network at deploy time:
+
+- **Primary**: n8n editor, REST API and webhooks, exposed on an HTTPS domain.
+- **Worker**: executes workflows, with FFmpeg and ffprobe installed.
+- **Redis**: job queue between Primary and Worker.
+- **PostgreSQL**: workflows, credentials and execution history.
 
 ## What gets deployed
 

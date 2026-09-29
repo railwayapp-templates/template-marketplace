@@ -1,4 +1,4 @@
-# Deploy WordPress — Self-Hosted CMS on Railway on Railway
+# Deploy WordPress on Railway
 
 Deploy WordPress with MariaDB. No traffic caps. No renewal price hikes.
 

@@ -1,4 +1,4 @@
-# Deploy N8N on Railway
+# Deploy n8n on Railway
 
 n8n in queue mode: main, workers, Redis and Postgres. Scale workers.
 

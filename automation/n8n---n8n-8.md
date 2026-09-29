@@ -1,4 +1,4 @@
-# Deploy N8N on Railway
+# Deploy n8n on Railway
 
 n8n + Postgres with external task runners.
 

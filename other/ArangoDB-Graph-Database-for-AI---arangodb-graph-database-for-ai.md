@@ -14,7 +14,7 @@ Hosting ArangoDB on Railway provides a scalable, multi-model database solution p
 
 | Service | Source | Type |
 |---------|--------|------|
-| arangodb | `arangodb@sha256:39bbca489179ea03f2b24b7ea4e4c4cb5258f6474f8c1c4d9bd65f7cd6d211a5` | Web service |
+| arangodb | `arangodb@sha256:4bc086d5050ca7ea11c6d00a36d8b910c838bb54ad553f8c1b715769d3499bcf` | Web service |
 
 ## Environment variables
 

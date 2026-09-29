@@ -8,19 +8,19 @@ Authenticated Milvus v2.6 REST API with etcd and MinIO.
 
 Milvus is an open-source vector database for similarity search, embeddings, retrieval-augmented generation, recommendation, and other high-dimensional workloads.
 
-This template deploys Milvus Standalone `v2.6.24` with persistent etcd `v3.6.14`, MinIO `RELEASE.2025-09-07T16-13-09Z`, and a Caddy `2.11.4` REST proxy. Only the REST proxy receives a public domain; Milvus, etcd, and MinIO communicate through Railway private networking.
+This template deploys Milvus Standalone `v2.6.24` with persistent etcd `v3.6.15`, MinIO `RELEASE.2025-10-15T17-29-55Z`, and a Caddy `2.11.4` REST proxy. Only the REST proxy receives a public domain; Milvus, etcd, and MinIO communicate through Railway private networking.
 
 Milvus authentication is enabled with a generated root password. Milvus data, etcd metadata, and MinIO objects each use a separate persistent volume, and generated MinIO credentials are passed through Railway references.
 
-The MinIO image is pulled from MinIO's official Quay registry and pinned by an immutable digest: MinIO removed the `minio/minio` Docker Hub repositories, which previously broke fresh deployments.
+The MinIO image is served from the `ghcr.io/coollabsio/minio` mirror of the official release and pinned by an immutable digest: `quay.io/minio/minio` no longer permits anonymous pulls, which broke fresh deployments.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
 | milvus-rest-proxy | `ghcr.io/monotykamary/grpc-reverse-proxy:v2.11.4-r3@sha256:9b2f53b986dbb773043ca1fef5de79ca8cb73925e31a5ee80848397d9ede7a4f` | Web service |
-| minio | `quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z@sha256:14cea493d9a34af32f524e538b8346cf79f3321eff8e708c1e2960462bd8936e` | Database |
-| etcd | `quay.io/coreos/etcd:v3.6.14@sha256:dfd3941bf6ced5fdb700f9b2d98b22b7bca7ceee13aec16224f93ff30d9a59c4` | Database |
+| minio | `ghcr.io/coollabsio/minio:RELEASE.2025-10-15T17-29-55Z@sha256:69b55a1c1c5dc285ce04db96689f5b2102317fc77a50680a1874ca6efd1c87f9` | Database |
+| etcd | `quay.io/coreos/etcd:v3.6.15@sha256:7cf6622cb09b111289eed8a0cce3478e4f01d5048b0e0a1ed208299f3419334d` | Database |
 | standalone | `milvusdb/milvus:v2.6.24@sha256:c55810ca95c97437cc003f913b835524600fb95a14ce04955a92517c3ccab73f` | Database |
 
 ## Environment variables
