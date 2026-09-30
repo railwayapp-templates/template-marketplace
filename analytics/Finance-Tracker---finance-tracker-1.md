@@ -15,7 +15,7 @@ Hosting Finance Tracker deploys the Node application and a managed PostgreSQL da
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| finance-tracker | `wotonews/finance-tracker:v0.1.0` | Worker |
+| finance-tracker | `wotonews/finance-tracker:v0.1.1` | Worker |
 
 ## Environment variables
 

@@ -28,6 +28,7 @@ The template runs one Python service (FastAPI, the Telegram bot webhook and a re
 | `DATABASE_URL` | finance_system_malaysia | - | Connection string of the Postgres service in this template. Leave as is. |
 | `MONTH_START_DAY` | finance_system_malaysia | 1 | First day of your financial month (1–28). 1 = calendar months; salary on the 25th → 26. |
 | `PUBLIC_BASE_URL` | finance_system_malaysia | - | Public URL of this service, taken from its Railway domain. Leave as is. |
+| `ANTHROPIC_API_KEY` | finance_system_malaysia | (secret) | Anthropic Api Key for using /ask functionality and analysing screenshots of receipts. |
 | `SCHEDULER_ENABLED` | finance_system_malaysia | true | true sends a weekly report every Monday and a monthly report on MONTH_START_DAY. |
 | `TELEGRAM_OWNER_ID` | finance_system_malaysia | - | Your numeric Telegram user id from @userinfobot (not @username). Only this user can use the bot. |
 | `TELEGRAM_BOT_TOKEN` | finance_system_malaysia | (secret) | Bot token from @BotFather: send /newbot and copy the token it gives you. |

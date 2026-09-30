@@ -14,7 +14,7 @@ Hosting MySQL gives you access to a reliable database server capable of handling
 
 | Service | Source | Type |
 |---------|--------|------|
-| MySQL | `mysql:9.4` | Database |
+| MySQL | `mysql:9` | Database |
 
 ## Environment variables
 

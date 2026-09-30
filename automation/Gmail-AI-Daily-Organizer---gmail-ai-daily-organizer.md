@@ -14,7 +14,7 @@ Railway builds the included Dockerfile and runs the service once per cron invoca
 
 | Service | Source | Type |
 |---------|--------|------|
-| gmail-railway-cron | [zoetw88/gmail-railway-cron](https://github.com/zoetw88/gmail-railway-cron) | Worker |
+| gmail-railway-cron | [quietbranch88/gmail-railway-cron](https://github.com/quietbranch88/gmail-railway-cron) | Worker |
 
 ## Environment variables
 
@@ -31,6 +31,6 @@ Railway builds the included Dockerfile and runs the service once per cron invoca
 | `AI_MAX_MESSAGES` | 20 |
 | `AI_CONFIDENCE_THRESHOLD` | 0.90 |
 
-**Category:** Automation · **Languages:** Python, Dockerfile
+**Category:** Automation · **Languages:** TypeScript, Python, CSS, JavaScript, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/gmail-ai-daily-organizer)

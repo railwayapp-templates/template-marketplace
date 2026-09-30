@@ -39,6 +39,6 @@ One service, one volume. The image ships `claude`, `git`, `gh`, Node 22, Python 
 - **TCP Proxies:** 22
 - **Volume:** `/root`
 
-**Category:** AI/ML · **Languages:** Shell, Dockerfile
+**Category:** AI/ML · **Languages:** Shell, Dockerfile, Python
 
 [View on Railway →](https://railway.com/deploy/claude-code)

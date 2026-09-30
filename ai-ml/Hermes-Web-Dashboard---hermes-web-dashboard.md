@@ -6,6 +6,8 @@ The Latest Hermes Web Dashboard Autonomous, Self-Improving, Tools & More
 
 ## About
 
+![Nous Research](https://raw.githubusercontent.com/OpenSource-Templates/Hermes-Web-Dashboard/refs/heads/main/Nous%20Research.png)
+
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/hermes-web-dashboard)
 
 ### Deploy and Host Hermes Agent on Railway (with Web Dashboard)
@@ -45,6 +47,8 @@ Hosting Hermes Agent on Railway deploys a unified container architecture designe
 
 **Upstream:** [Nous Research](https://nousresearch.com/) · [GitHub (NousResearch/hermes-agent)](https://github.com/NousResearch/hermes-agent)
 
+![Dashboard](https://raw.githubusercontent.com/OpenSource-Templates/Hermes-Web-Dashboard/refs/heads/main/Dashboard.PNG)
+
 ##### Implementation Details
 
 | Service | Source / Image | Role | Web Port | Volume Mount |
@@ -65,8 +69,6 @@ Hosting Hermes Agent on Railway deploys a unified container architecture designe
 | ------ | ------ | ------ |
 | **hermes-agent** | `/data` | Hermes home directory (`.hermes`), config files, active sessions, pairing records, memories, skills, and workspace state |
 
-> **Warning:** Do **not** remove or detach the `/data` volume — deleting this volume will permanently wipe your agent configurations, pairing approvals, custom skills, and conversation history during redeployments.
-
 ---
 
 #### Quick Start
@@ -86,6 +88,8 @@ Hosting Hermes Agent on Railway deploys a unified container architecture designe
    * **Telegram**: Talk to [@BotFather](https://t.me/BotFather), send `/newbot`, copy the HTTP API token, enable Telegram in `/setup`, and paste the token.
    * Send a message to your bot on Telegram, then navigate to the **Users** tab in the admin dashboard to approve the pending pairing request.
    * Additional channels (Discord, Slack, WhatsApp, ntfy) can be enabled similarly through the web UI.
+
+![Setup](https://raw.githubusercontent.com/OpenSource-Templates/Hermes-Web-Dashboard/refs/heads/main/Setup.png)
 
 ---
 
@@ -173,7 +177,6 @@ docker build --build-arg HERMES_REF=v2026.9.24 -t hermes-agent-dashboard .
 * **Auto-generated Password Retrieval** — If `ADMIN_PASSWORD` is omitted during deployment, inspect the deployment logs in Railway to retrieve the generated password string.
 * **Gateway Unstarted State** — If the gateway fails to start, log in to `/setup`, verify that an LLM API key and at least one channel are saved, and click **Start Gateway**.
 * **Broken Upstream Builds** — If deploying `HERMES_REF=main` fails due to an upstream commit error, temporarily set `HERMES_REF` to a known release tag.
-* **In-App Update Inefficacy** — Attempting to update Hermes via the native web interface will not alter container binaries. Use `HERMES_REF` and Railway redeploys instead.
 
 ---
 
