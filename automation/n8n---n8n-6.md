@@ -1,6 +1,6 @@
 # Deploy n8n on Railway
 
-n8n queue mode with workers and webhook processors behind one URL.
+n8n [Oct '26]: queue mode with workers and webhook processors.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-6)
 

@@ -29,6 +29,6 @@ This Railway template deploys two services: a Node.js/Express webhook server and
 - **Networking:** Public domain with automatic HTTPS
 - **Start command:** `streamlit run app.py`
 
-**Category:** Starters · **Languages:** JavaScript, Python
+**Category:** Starters · **Languages:** Python, JavaScript
 
 [View on Railway →](https://railway.com/deploy/WJuLbj)

@@ -14,7 +14,7 @@ One service, one volume at `/data`.
 
 The image runs the upstream AionUi web runtime and its Rust backend (AionCore), built from the upstream release tag. AionUi's own remote mode starts the backend with authentication switched off. This build turns authentication on and adds the CSRF handling the web client does not send yet. The changes are in `build/remote-auth.patch`. Every API call and WebSocket needs a login session, and requests from other sites are rejected.
 
-The admin password comes from a Railway variable and is applied on every boot. Conversations, settings, provider keys (encrypted at rest), skills and agent workspaces live on the volume.
+The admin password comes from a Railway variable and is applied on every boot. Claude Code, Codex, Gemini CLI and OpenCode are installed on the volume and updated to their latest versions on every boot, so AionUi can use them as agents. Conversations, settings, provider keys (encrypted at rest), skills and agent workspaces live on the volume.
 
 ## What gets deployed
 
@@ -27,7 +27,11 @@ The admin password comes from a Railway variable and is applied on every boot. C
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `PORT` | 25808 | Port of the AionUi web server. Do not change. |
+| `AIONUI_AGENTS` | claude,codex,gemini,opencode | Agent CLIs to install on the volume and update on every boot: any of claude, codex, gemini, opencode, qwen, or npm package names, comma-separated. Set to none for none. |
+| `GEMINI_API_KEY` | (secret) | Optional. Google AI Studio key for Gemini CLI (free tier available). |
+| `OPENAI_API_KEY` | (secret) | Optional. OpenAI API key for Codex CLI. |
 | `AIONUI_ADMIN_PASSWORD` | (secret) | Password for the `admin` login. Applied on every boot, so change it here and redeploy to rotate it. |
+| `CLAUDE_CODE_OAUTH_TOKEN` | (secret) | Optional. Use Claude Code with your Claude Pro/Max plan: run `claude setup-token` on your own computer and paste the token here. |
 
 ## Configuration
 

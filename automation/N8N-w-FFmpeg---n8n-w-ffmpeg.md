@@ -1,6 +1,6 @@
 # Deploy N8N (w/ FFmpeg) on Railway
 
-n8n + FFmpeg [Sep '26] (Video Automation/Workers/Execute Command) Self Host
+n8n + FFmpeg [Oct '26] (Video Automation/Workers/Execute Command) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-w-ffmpeg)
 

@@ -18,17 +18,16 @@ Your deployment runs on Railway's infrastructure with:
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| DevTrack | [2007abdullah/DevTrack](https://github.com/2007abdullah/DevTrack) (root: devtrack/backend) | Worker |
+| DevTrack | [2007abdullah/DevTrack](https://github.com/2007abdullah/DevTrack) (branch: devtrack) (root: devtrack/backend) | Worker |
 
 ## Environment variables
 
-| Variable | Service | Default | Description |
-| --------- | ------- | ------- | ----------- |
-| `POSTGRES_DB` | Postgres | - | Initial database to create |
-| `DATABASE_URL` | Postgres | - | Connection string for applications |
-| `POSTGRES_USER` | Postgres | (secret) | PostgreSQL superuser username |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | PostgreSQL superuser password |
-| `DATABASE_URL` | DevTrack | - | Full PostgreSQL connection string |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `POSTGRES_DB` | - | Initial database to create |
+| `DATABASE_URL` | - | Connection string for applications |
+| `POSTGRES_USER` | (secret) | PostgreSQL superuser username |
+| `POSTGRES_PASSWORD` | (secret) | PostgreSQL superuser password |
 
 ## Configuration
 

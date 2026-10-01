@@ -25,6 +25,7 @@ Hosting a NetBird Peer on Railway means running the `netbirdio/netbird` containe
 | `NB_SETUP_KEY` | - | NetBird setup key |
 | `NB_USE_NETSTACK_MODE` | true | Toggle for using netstack mode |
 | `NB_SOCKS5_LISTENER_PORT` | 1080 | SOCKS5 listening port |
+| `NB_SOCKS5_LISTENER_ADDRESS` | 0.0.0.0 | Proxy listener address |
 
 ## Configuration
 

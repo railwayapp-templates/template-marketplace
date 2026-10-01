@@ -1,6 +1,6 @@
 # Deploy NATS + JetStream on Railway
 
-An open source messaging system that promises at-most-once delivery.
+An open source messaging system that promises at-least-once delivery.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nats-jetstream)
 

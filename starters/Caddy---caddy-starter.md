@@ -6,9 +6,9 @@ A static website with automatic HTTPS using a Caddy web server.
 
 ## About
 
-Caddy is a lightweight, open-source web server written in Go that compiles to a single static binary. It serves static files, handles reverse proxying, and manages TLS certificates automatically — making it an efficient alternative to NGINX for simple web serving needs.
+Caddy is an open-source web server. It is written in Go and runs as one static binary. Caddy serves static files, operates as a reverse proxy, and can get TLS certificates automatically.
 
-This Railway template deploys a static website using Caddy from the [alphasecio/caddy-server](https://github.com/alphasecio/caddy-server) GitHub repository. The `site/` directory contains your static files (HTML, CSS, assets), and the `Caddyfile` configures the server. Railway handles TLS and HTTPS at the platform level, so Caddy's automatic HTTPS is intentionally disabled in the Caddyfile — no certificate configuration needed. Replace the default `index.html` and `styles.css` in `site/` with your own content and redeploy.
+This template deploys a static website with Caddy from the [alphasecio/caddy-server](https://github.com/alphasecio/caddy-server) GitHub repository. The `site/` directory contains the website files. The `Caddyfile` contains the server configuration. Railway supplies HTTPS for your Railway domain and your custom domains. Caddy receives plain HTTP from the Railway edge, so you do not need to configure TLS certificates. To change the website, replace the files in `site/` and push the changes to your repository.
 
 ## What gets deployed
 
@@ -16,16 +16,10 @@ This Railway template deploys a static website using Caddy from the [alphasecio/
 |---------|--------|------|
 | caddy | [alphasecio/caddy-server](https://github.com/alphasecio/caddy-server) | Web service |
 
-## Environment variables
-
-| Variable | Default |
-| --------- | ------- |
-| `PORT` | 80 |
-
 ## Configuration
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Tags:** static site, caddy · **Languages:** HTML, CSS, Dockerfile
+**Category:** Starters · **Tags:** static site, caddy · **Languages:** CSS, HTML, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/caddy-starter)

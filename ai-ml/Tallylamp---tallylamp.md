@@ -32,17 +32,18 @@ the public domain, and use it to sign into the dashboard.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:7c45912424388950b9f12783f0dc7b7f2b02b49f670f14e362a4488b4a504244` | Web service |
+| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:24cd3892c2217ace46d9fcc23be951dc12a19e4a6df16a17138c4ca14e340de1` | Web service |
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `ADMIN_SECRET` | (secret) |
-| `TALLYLAMP_OAUTH` | 1 |
-| `TALLYLAMP_SANDBOX` | auto |
-| `TALLYLAMP_ADMIN_BEARER` | 0 |
-| `TALLYLAMP_ALLOW_PRIVATE_NETWORK` | 0 |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `ADMIN_SECRET` | (secret) | - |
+| `TALLYLAMP_OAUTH` | 1 | - |
+| `TALLYLAMP_SANDBOX` | auto | - |
+| `TALLYLAMP_CHROME_CPUS` | 4 | Optional. Runs each Chrome on this many CPUs, which cuts its threads by about 40% against Railway's limit of 1,000. Remove it to let Chrome use every CPU. |
+| `TALLYLAMP_ADMIN_BEARER` | 0 | - |
+| `TALLYLAMP_ALLOW_PRIVATE_NETWORK` | 0 | - |
 
 ## Configuration
 

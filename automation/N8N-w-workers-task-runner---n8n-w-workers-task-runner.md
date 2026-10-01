@@ -1,6 +1,6 @@
 # Deploy N8N (w/ workers + task runner) on Railway
 
-n8n Workers [Sep '26] (Queue Mode/Task Runners/Python/Queue Mode) Self Host
+n8n Workers [Oct '26] (Queue Mode/Task Runners/Python/Queue Mode) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-w-workers-task-runner)
 

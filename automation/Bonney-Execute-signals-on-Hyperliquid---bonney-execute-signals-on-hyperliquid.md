@@ -18,7 +18,7 @@ Alternatively, deploy the template from here. There is nothing to fill in. Open 
 
 | Service | Source | Type |
 |---------|--------|------|
-| bonneydev/bonney | `ghcr.io/bonneydev/bonney-app:latest` | Web service |
+| Bonney | `ghcr.io/bonneyapp/bonney-app:latest` | Web service |
 
 ## Environment variables
 

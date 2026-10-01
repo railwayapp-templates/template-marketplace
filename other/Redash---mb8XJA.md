@@ -1,6 +1,6 @@
 # Deploy Redash on Railway
 
-Redash [Sep '26] (SQL Dashboards/Alerts/Metabase Alternative) Self Host
+Redash [Oct '26] (SQL Dashboards/Alerts/Metabase Alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mb8XJA)
 
