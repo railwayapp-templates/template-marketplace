@@ -14,8 +14,8 @@ Self-hosting Nango means running three coordinated services: the Nango server (A
 
 | Service | Source | Type |
 |---------|--------|------|
-| nango-connect-ui | `nangohq/nango-server:hosted-0.71.5` | Web service |
-| nango-server | `nangohq/nango-server:hosted-0.71.5` | Web service |
+| nango-connect-ui | `nangohq/nango-server:hosted-0.71.11` | Web service |
+| nango-server | `nangohq/nango-server:hosted-0.71.11` | Web service |
 | Redis | `redis:8.2.1` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 

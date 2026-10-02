@@ -1,6 +1,6 @@
 # Deploy Inngest Production Template on Railway
 
-[Updated Sep 2026] Preconfigured production inngest with postgres and redis
+[Updated Oct 2026] Preconfigured production inngest with postgres and redis
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/inngest-production-template)
 

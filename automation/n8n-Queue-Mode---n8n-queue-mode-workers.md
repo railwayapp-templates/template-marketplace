@@ -1,6 +1,6 @@
 # Deploy n8n Queue Mode on Railway
 
-N8n in queue mode [Sep'26] — workers, webhooks & Redis. Scales fast.
+N8n in queue mode [Oct'26] — workers, webhooks & Redis. Scales fast.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-queue-mode-workers)
 

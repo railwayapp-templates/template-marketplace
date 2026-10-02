@@ -6,9 +6,9 @@ The cheapest n8n with PostgreSQL database.
 
 ## About
 
-n8n is a workflow automation platform that gives technical teams the flexibility of code with the speed of no-code. With 400+ integrations, native AI capabilities, and a fair-code license, n8n lets you build powerful automations while maintaining full control over your data and deployments.
+n8n is a workflow automation platform that gives technical teams the flexibility of code with the speed of no-code. With 400+ integrations, native AI capabilities, and a fair-code license, n8n lets you build powerful automations while maintaining control over your data and deployments. This template uses the official n8n image with community nodes.
 
-NOTE: This is the official image + some community nodes!
+Hosting n8n on Railway provides a straightforward way to run your own n8n instance without managing servers or infrastructure manually. Railway handles the underlying deployment and networking, while n8n provides the interface for building and running automated workflows. For production deployments, n8n typically uses persistent storage so workflows, credentials, and configuration survive redeployments. You can connect n8n to external services through its integrations and community nodes, and scale the deployment as your automation workload grows. This setup is suitable for teams that want a self-hosted n8n environment with control over their data and deployment configuration.
 
 ## What gets deployed
 
@@ -21,7 +21,7 @@ NOTE: This is the official image + some community nodes!
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `PORT` | n8n | 5678 | - |
+| `PORT` | n8n | 5678 | n8n http port |
 | `DB_TYPE` | n8n | postgresdb | - |
 | `N8N_PROXY_HOPS` | n8n | 1 | - |
 | `GENERIC_TIMEZONE` | n8n | America/New_York | Timezone to use in N8N workflows |

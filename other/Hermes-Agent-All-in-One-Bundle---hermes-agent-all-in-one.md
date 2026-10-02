@@ -22,7 +22,7 @@ The template also includes a companion SearXNG service so Hermes has private, se
 
 Headless OAuth is a nightmare — no browser, no localhost callback, no easy way to paste a device code. Railway has `railway ssh` if you've installed the CLI and linked the project, but most people deploying from a template haven't, and a browser is always closer to hand than a terminal. This template ships with **`/tui`**, a web-based terminal embedded directly in the Hermes UI. Open it from any browser and you get the full Hermes CLI experience without installing anything locally.
 
-**One-Click OAuth.** `/tui` runs Hermes' device-code flow for you. Click "Login with ChatGPT (Codex)", scan the code on your phone, and you're chatting with GPT-5.5 through your existing **$20/mo ChatGPT subscription** — no API key, no per-token billing, no SSH tunnels, no `xdg-open` errors. Same flow works for **Nous Portal**, **Anthropic (Claude Max)**, and **GitHub Copilot**. For other providers (OpenRouter, DeepSeek, Gemini API, etc.), paste your API key into the WebUI Settings panel.
+**OAuth from the browser.** **`/tui` includes shortcut buttons only for ChatGPT (Codex) and Nous Portal** — one click runs Hermes’ device-code OAuth (`hermes auth add …`) in a dedicated pane. For Anthropic Claude Max, GitHub Copilot, and other OAuth-capable providers, use the **`/bin/bash` shell pane** and run **`hermes model`** or **`hermes auth add`** interactively — there isn’t an extra preset button for every provider path. Plain API-key providers (OpenRouter, DeepSeek, Gemini API, etc.) stay in the WebUI onboarding / Settings forms.
 
 <img src="https://somi-public-assets.s3.ap-southeast-1.amazonaws.com/railway/openai-codex-cli-oauth-1.jpg" alt="OpenAI Codex CLI OAuth">
 
@@ -51,11 +51,13 @@ Hosting Hermes Agent on Railway runs a containerized Hermes Agent installation w
 
 An optional `START_GATEWAY=true` environment variable enables the messaging gateway daemon (`hermes gateway run --replace`) so Telegram/Discord/Slack/email bridges run alongside the WebUI in the same container.
 
+Upstream Docker images run `tools/skills_sync.py` from the Hermes install directory at boot so stock skills mirror onto the persistence volume; **this template does not.** Only bundles under **`hermes-agent-railway/skills/`** are copied into **`/data/skills`** each container start — not the full upstream skills tree unless you sync it yourself.
+
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| hermes-agent | [protemplate/hermes-agent-railway](https://github.com/protemplate/hermes-agent-railway) | Web service |
+| hermes-agent | `ghcr.io/protemplate/hermes-agent-railway:sha-eff2be7` | Web service |
 | searxng-railway | [protemplate/searxng](https://github.com/protemplate/searxng) | Web service |
 
 ## Environment variables
@@ -80,6 +82,6 @@ An optional `START_GATEWAY=true` environment variable enables the messaging gate
 - **Volume:** `/data`
 - **Volume:** `/etc/searxng`
 
-**Category:** Other · **Languages:** Python, HTML, Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/hermes-agent-all-in-one)

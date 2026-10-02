@@ -1,6 +1,6 @@
 # Deploy Twenty CRM on Railway
 
-Self-host Twenty CRM [Sep'26]— Salesforce alternative, no per-seat fees
+Self-host Twenty CRM [Oct'26]— Salesforce alternative, no per-seat fees
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/twenty-crm-self-hosted)
 

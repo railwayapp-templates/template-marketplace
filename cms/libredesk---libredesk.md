@@ -78,17 +78,15 @@ On first deploy, the database schema is installed and an admin user is created w
 | `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
 | `REDISPASSWORD` | Redis | (secret) | Redis password |
 | `REDIS_PASSWORD` | Redis | (secret) | Redis password |
-| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
 
 ## Configuration
 
-- **Volume:** `/var/lib/postgresql/data/pgdata `
+- **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `/bin/sh -c "(./libredesk --install --idempotent-install --yes || true) && (./libredesk --upgrade --yes || true) && exec ./libredesk"`
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/libredesk/uploads`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
-- **TCP Proxies:** 6379
 - **Volume:** `/data`
 
 **Category:** CMS · **Verified:** Yes

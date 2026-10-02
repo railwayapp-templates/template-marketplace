@@ -50,11 +50,12 @@ This template provides a complete support and automation foundation. Chatwoot ha
 | `NODE_ENV` | Chatwoot | production | Configuração interna do Chatwoot, pré-definida pelo template DiwoOS. |
 | `RAILS_ENV` | Chatwoot | production | Configuração interna do Chatwoot, pré-definida pelo template DiwoOS. |
 | `REDIS_URL` | Chatwoot | - | Configuração interna do Chatwoot, pré-definida pelo template DiwoOS. |
-| `DATABASE_URL` | Chatwoot | - | Configuração interna do Chatwoot, pré-definida pelo template DiwoOS. |
+| `DATABASE_URL` | Chatwoot | - | Conexão do Chatwoot no mesmo Postgres, com tabelas e migrations no schema chatwoot; public permite acessar extensões compartilhadas. |
 | `FRONTEND_URL` | Chatwoot | - | Configuração interna do Chatwoot, pré-definida pelo template DiwoOS. |
 | `DEFAULT_LOCALE` | Chatwoot | en | Configuração interna do Chatwoot, pré-definida pelo template DiwoOS. |
 | `SECRET_KEY_BASE` | Chatwoot | (secret) | Configuração interna do Chatwoot, pré-definida pelo template DiwoOS. |
 | `INSTALLATION_ENV` | Chatwoot | docker | Configuração interna do Chatwoot, pré-definida pelo template DiwoOS. |
+| `CHATWOOT_DATABASE_URL` | Chatwoot | - | Conexão PostgreSQL sem opções Rails, usada somente para criar o schema chatwoot antes das migrations. |
 | `ACTIVE_STORAGE_SERVICE` | Chatwoot | local | Configuração interna do Chatwoot, pré-definida pelo template DiwoOS. |
 | `REDISHOST` | Redis | - | Configuração interna do Redis, pré-definida pelo template DiwoOS. |
 | `REDISPORT` | Redis | 6379 | Configuração interna do Redis, pré-definida pelo template DiwoOS. |
@@ -98,6 +99,7 @@ This template provides a complete support and automation foundation. Chatwoot ha
 - **Start command:** `n8n start`
 - **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
+- **Start command:** `/bin/sh -ec 'until pg_isready -h "$PGHOST" -p "$PGPORT"; do sleep 1; done; psql "$CHATWOOT_DATABASE_URL" -v ON_ERROR_STOP=1 -c "CREATE SCHEMA IF NOT EXISTS chatwoot"; exec /bin/sh /app/start.sh'`
 - **Healthcheck:** `/api`
 - **Volume:** `/app/storage`
 - **Start command:** `/bin/sh -c "redis-server --requirepass "$REDIS_PASSWORD" --save 60 1 --dir "$RAILWAY_VOLUME_MOUNT_PATH" --appendonly yes"`

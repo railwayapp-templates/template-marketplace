@@ -1,6 +1,6 @@
 # Deploy Open WebUI on Railway
 
-Private multi-model AI chat [Sep'26] — OpenAI, Claude, Ollama, built-in RAG
+Private multi-model AI chat [Oct'26] — OpenAI, Claude, Ollama, built-in RAG
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-web-ui)
 

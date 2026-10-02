@@ -1,6 +1,6 @@
 # Deploy n8n on Railway
 
-n8n + Postgres with external task runners.
+n8n [Oct '26]: (/w external task runners)
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-8)
 

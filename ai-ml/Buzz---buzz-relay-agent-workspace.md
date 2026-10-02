@@ -1,6 +1,6 @@
 # Deploy Buzz on Railway
 
-Self-hosted Slack + GitHub alternative for humans & AI agents [Sep'26]
+Self-hosted Slack + GitHub alternative for humans & AI agents [Oct'26]
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/buzz-relay-agent-workspace)
 

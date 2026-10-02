@@ -1,8 +1,8 @@
-# Deploy Whatsapp API on Railway
+# Deploy WhatsApp API — Self-Host Evolution, No Meta Approval [Updated Oct'26] on Railway
 
-WhatsApp REST API self-hosted with Evolution — QR login, webhooks [Oct'26]
+WhatsApp messaging, groups & webhooks via REST. No per-message fees.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/whatsapp-api-evolution)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/evolution-api-whatsapp)
 
 ## About
 
@@ -22,43 +22,42 @@ Typical cost: **~$5–10/month** on Railway's Hobby plan for all three services,
 
 | Service | Source | Type |
 |---------|--------|------|
-| Whatsapp API | `evoapicloud/evolution-api:v2.3.7` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | Redis | `redis:8.2.1` | Database |
+| Evolution API | `evoapicloud/evolution-api:v2.3.7` | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `PORT` | Whatsapp API | 8080 | Port |
-| `SERVER_URL` | Whatsapp API | - | Server URL |
-| `CACHE_REDIS_URI` | Whatsapp API | - | Redis connection URI |
-| `DATABASE_PROVIDER` | Whatsapp API | postgresql | Database provider |
-| `CACHE_REDIS_ENABLED` | Whatsapp API | true | Redis cache enabled |
-| `AUTHENTICATION_API_KEY` | Whatsapp API | (secret) | Required: API key for authentication (use in header: apikey) |
-| `DATABASE_CONNECTION_URI` | Whatsapp API | - | Database connection URI |
 | `POSTGRES_DB` | Postgres | railway | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
-| `REDISHOST` | Redis | - | REDISHOST |
-| `REDISPORT` | Redis | 6379 | REDISPORT |
-| `REDISUSER` | Redis | default | REDISUSER |
+| `REDISPORT` | Redis | 6379 | - |
+| `REDISUSER` | Redis | default | - |
 | `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis | (secret) | REDISPASSWORD |
-| `REDIS_PASSWORD` | Redis | (secret) | REDIS_PASSWORD |
+| `REDISPASSWORD` | Redis | (secret) | - |
+| `REDIS_PASSWORD` | Redis | (secret) | - |
 | `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
+| `PORT` | Evolution API | 8080 | Port |
+| `SERVER_URL` | Evolution API | - | Server URL |
+| `CACHE_REDIS_URI` | Evolution API | - | Redis connection URI |
+| `DATABASE_PROVIDER` | Evolution API | postgresql | Database provider |
+| `CACHE_REDIS_ENABLED` | Evolution API | true | Redis cache enabled |
+| `AUTHENTICATION_API_KEY` | Evolution API | (secret) | Required: API key for authentication (use in header: apikey) |
+| `DATABASE_CONNECTION_URI` | Evolution API | - | Database connection URI |
 
 ## Configuration
 
-- **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** Bots
 
-[View on Railway →](https://railway.com/deploy/whatsapp-api-evolution)
+[View on Railway →](https://railway.com/deploy/evolution-api-whatsapp)

@@ -38,19 +38,28 @@ Phone calls reach GPT-Live through a Twilio Elastic SIP trunk. Create the trunk 
 | `REDIS_URL` | worker | - | Redis connection for queues and realtime events. |
 | `S3_BUCKET` | worker | - | Bucket name for recordings and uploads. |
 | `S3_REGION` | worker | - | Bucket region. |
+| `SMTP_HOST` | worker | - | 	SMTP server for email. Without it, password resets, verification codes and invites can't be sent. |
+| `SMTP_PORT` | worker | 587 | SMTP port. 587 for most providers. |
+| `EMAIL_FROM` | worker | - | Sender for outgoing email, e.g. LobbyStack no-reply@yourdomain.com. Your SMTP provider must allow this address. |
 | `S3_ENDPOINT` | worker | - | Bucket S3 endpoint. |
+| `SMTP_SECURE` | worker | false | Set to true for port 465 (implicit TLS). Keep false for 587. |
 | `APP_BASE_URL` | worker | - | Public URL of the dashboard. |
 | `DATABASE_URL` | worker | - | PostgreSQL connection for this service's main role. |
 | `REDIS_PREFIX` | worker | lobbystack | Prefix for Redis keys. |
+| `SMTP_PASSWORD` | worker | (secret) | - |
+| `SMTP_USERNAME` | worker | (secret) | - |
+| `EMAIL_REPLY_TO` | worker | - | Optional reply-to address for outgoing email. |
 | `ENCRYPTION_KEY` | worker | - | Encrypts stored credentials. Generated at deploy. |
 | `OPENAI_API_KEY` | worker | (secret) | OpenAI API key for voice calls and chat. Create one at platform.openai.com/api-keys. |
 | `DEPLOYMENT_MODE` | worker | self_hosted_standard | LobbyStack deployment mode. Keep as self_hosted_standard. |
 | `OTP_HASH_SECRET` | worker | (secret) | Hashes one-time codes. Generated at deploy. |
 | `S3_ACCESS_KEY_ID` | worker | - | Bucket access key. |
 | `STORAGE_PROVIDER` | worker | s3 | File storage backend. Uses the Railway bucket. |
+| `FIRECRAWL_API_KEY` | worker | (secret) | Firecrawl API key for importing a website into the receptionist's knowledge. |
 | `TWILIO_AUTH_TOKEN` | worker | (secret) | Your Twilio Auth Token, from the Twilio Console home page. |
 | `TWILIO_ACCOUNT_SID` | worker | - | Your Twilio Account SID, from the Twilio Console home page. |
 | `S3_FORCE_PATH_STYLE` | worker | false | Use path-style bucket URLs. |
+| `GOOGLE_CLIENT_SECRET` | worker | (secret) | - |
 | `S3_SECRET_ACCESS_KEY` | worker | (secret) | Bucket secret key. |
 | `TWILIO_SIP_TRUNK_SID` | worker | - | Optional, for phone calls. SID of the Twilio Elastic SIP trunk that sends calls to OpenAI. Needed to provision numbers. |
 | `INTERNAL_SERVICE_TOKEN` | worker | (secret) | Authenticates internal routes. Generated at deploy. |
@@ -73,14 +82,17 @@ Phone calls reach GPT-Live through a Twilio Elastic SIP trunk. Create the trunk 
 | `OPENAI_API_KEY` | admin | (secret) | OpenAI API key for voice calls and chat. Create one at platform.openai.com/api-keys. |
 | `DEPLOYMENT_MODE` | admin | self_hosted_standard | LobbyStack deployment mode. Keep as self_hosted_standard. |
 | `OTP_HASH_SECRET` | admin | (secret) | Hashes one-time codes. Generated at deploy. |
+| `GOOGLE_CLIENT_ID` | admin | - | Google OAuth client ID for Google Calendar. Leave empty to skip calendar sync. |
 | `S3_ACCESS_KEY_ID` | admin | - | Bucket access key. |
 | `STORAGE_PROVIDER` | admin | s3 | File storage backend. Uses the Railway bucket. |
 | `TWILIO_AUTH_TOKEN` | admin | (secret) | Your Twilio Auth Token, from the Twilio Console home page. |
 | `BETTER_AUTH_SECRET` | admin | (secret) | Signs sessions. Generated at deploy. |
 | `TWILIO_ACCOUNT_SID` | admin | - | Your Twilio Account SID, from the Twilio Console home page. |
+| `GOOGLE_REDIRECT_URI` | admin | - | Google Calendar sign-in callback. Add this URL as an authorized redirect URI in Google Cloud. |
 | `S3_FORCE_PATH_STYLE` | admin | false | Use path-style bucket URLs. |
 | `WORKER_INTERNAL_URL` | admin | - | Private URL admin uses to hand each call to the worker. |
 | `AUTH_TRUSTED_ORIGINS` | admin | - | Origins allowed to sign in. |
+| `GOOGLE_CLIENT_SECRET` | admin | (secret) | Google OAuth client secret for Google Calendar. |
 | `S3_SECRET_ACCESS_KEY` | admin | (secret) | Bucket secret key. |
 | `OPENAI_WEBHOOK_SECRET` | admin | (secret) | Optional, for phone calls. Signing secret of the OpenAI webhook that points at /api/webhooks/openai/live. |
 | `WIDGET_SESSION_SECRET` | admin | (secret) | Signs website widget sessions. Generated at deploy. |
@@ -126,6 +138,6 @@ Phone calls reach GPT-Live through a Twilio Elastic SIP trunk. Create the trunk 
 - **Volume:** `/data`
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** AI/ML · **Languages:** TypeScript, Astro, MDX, JavaScript, PLpgSQL, CSS, Shell, Dockerfile
+**Category:** AI/ML · **Languages:** TypeScript, MDX, Astro, JavaScript, PLpgSQL, CSS, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/lobbystack)

@@ -1,6 +1,6 @@
 # Deploy Twenty on Railway
 
-Twenty CRM [Sep'26]: open-source Salesforce alternative. No per-seat fees.
+Twenty CRM [Oct'26]: open-source Salesforce alternative. No per-seat fees.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/twenty-salesforce-alternative)
 
