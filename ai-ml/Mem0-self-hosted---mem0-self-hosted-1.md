@@ -6,7 +6,7 @@ Private AI memory platform with dashboard and persistent pgvector storage.
 
 ## About
 
-Deploy Mem0 `2.0.3` as an authenticated memory API and team dashboard with private pgvector storage and persistent memory history. The template builds from a checksum-verified upstream commit, runs database migrations automatically, and generates the database, JWT, and administrator secrets.
+Deploy Mem0 `2.2.1` as an authenticated memory API and team dashboard with private pgvector storage and persistent memory history. The template builds from a checksum-verified upstream commit, runs database migrations automatically, and generates the database, JWT, and administrator secrets.
 
 Mem0 gives AI agents and applications persistent user, agent, and run memory through a REST API. This Railway topology runs the API, the browser dashboard, and PostgreSQL as separate services, so the database stays on Railway's private network while the two HTTP surfaces receive managed TLS domains.
 
@@ -15,7 +15,7 @@ Mem0 gives AI agents and applications persistent user, agent, and run memory thr
 | Service | Source | Type |
 |---------|--------|------|
 | Mem0 Dashboard | [tech-progress/railway-template-mem0](https://github.com/tech-progress/railway-template-mem0) (branch: release-v1) (root: /) | Web service |
-| Mem0 PostgreSQL | `pgvector/pgvector:pg17@sha256:7ae6051efd0e60444282c27c7e141af07f322ce033300e727a49c3dd11075e38` | Database |
+| Mem0 PostgreSQL | `pgvector/pgvector:pg17@sha256:ac08538c6f8b9904c33c8224c5e5706dbe760aca29db1d096972b4052c22a75d` | Database |
 | Mem0 API | [tech-progress/railway-template-mem0](https://github.com/tech-progress/railway-template-mem0) (branch: release-v1) (root: /) | Web service |
 
 ## Environment variables

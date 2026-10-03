@@ -22,8 +22,9 @@ Hosting is very simple. See the following instructions.
 
 ## Configuration
 
+- **TCP Proxies:** 2222
 - **Volume:** `/data`
 
-**Category:** Other · **Languages:** TypeScript, CSS, Shell, Dockerfile, HTML
+**Category:** Other · **Languages:** TypeScript, CSS, HTML, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/latexcoder)

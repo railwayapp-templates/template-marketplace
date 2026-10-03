@@ -1,6 +1,6 @@
-# Deploy WAHA [Updated Oct'26] on Railway
+# Deploy WAHA on Railway
 
-WhatsApp HTTP API. No per-message fees. Replaces Twilio.
+WhatsApp HTTP API. No per-message fees. Replaces Twilio. [Oct'26]
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/waha-api)
 

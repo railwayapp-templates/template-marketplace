@@ -1,6 +1,6 @@
-# Deploy WAHA + n8n — Self-Hosted WhatsApp Automation on Railway
+# Deploy WAHA + n8n on Railway
 
-Self-host WhatsApp automation — WAHA + n8n, nodes persist
+Self-host WhatsApp automation [Oct'26] — WAHA + n8n, nodes persist
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/waha-n8n-whatsapp)
 

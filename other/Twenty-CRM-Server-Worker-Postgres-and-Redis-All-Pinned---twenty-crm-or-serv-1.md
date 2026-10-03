@@ -24,10 +24,10 @@ The first sign-up happens in the browser, at the domain.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Postgres | `postgres:16.11-alpine` | Database |
-| Twenty worker | `twentycrm/twenty:v2.31.1` | Worker |
-| Redis | `redis:8.6.5-alpine` | Database |
-| Twenty | `twentycrm/twenty:v2.31.1` | Web service |
+| Postgres | `postgres:16.15-alpine` | Database |
+| Twenty worker | `twentycrm/twenty:v2.45.0` | Worker |
+| Redis | `redis:8.10.2-alpine` | Database |
+| Twenty | `twentycrm/twenty:v2.45.0` | Web service |
 
 ## Environment variables
 

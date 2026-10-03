@@ -14,7 +14,7 @@ Promptfoo is an MIT-licensed toolkit for testing prompts, models, agents, and se
 
 | Service | Source | Type |
 |---------|--------|------|
-| Promptfoo Gateway | `caddy:2.10-alpine@sha256:4c6e91c6ed0e2fa03efd5b44747b625fec79bc9cd06ac5235a779726618e530d` | Web service |
+| Promptfoo Gateway | `caddy:2.10.2-alpine@sha256:4c6e91c6ed0e2fa03efd5b44747b625fec79bc9cd06ac5235a779726618e530d` | Web service |
 | Promptfoo | [tech-progress/railway-template-promptfoo](https://github.com/tech-progress/railway-template-promptfoo) (branch: release-v1) (root: /) | Database |
 
 ## Environment variables

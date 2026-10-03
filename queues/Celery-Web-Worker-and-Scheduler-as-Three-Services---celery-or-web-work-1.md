@@ -20,7 +20,7 @@ This template is that shape, assembled and checked.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `redis:8.6.5-alpine` | Database |
+| Redis | `redis:8.10.2-alpine` | Database |
 | Scheduler | [ak40u/celery-railway-starter](https://github.com/ak40u/celery-railway-starter) | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
 | API | [ak40u/celery-railway-starter](https://github.com/ak40u/celery-railway-starter) | Web service |

@@ -17,7 +17,7 @@ Saleor is a headless commerce platform built around a GraphQL API. This topology
 | Saleor Valkey | `valkey/valkey:8.1-alpine@sha256:a038175878d66b9d274fbf8be73c0305e93798b83917647f167e18cef3c71eec` | Database |
 | Saleor PostgreSQL | `postgres:15-alpine@sha256:3d0f7584ed7d04e27fa050d6683a74746608faf21f202be78460d679cc56461f` | Database |
 | Saleor Worker | [tech-progress/railway-template-saleor](https://github.com/tech-progress/railway-template-saleor) (branch: release-v1) (root: /) | Worker |
-| Saleor Dashboard | `ghcr.io/saleor/saleor-dashboard:3.23.20@sha256:c1ce2f625316bf1e02dd8070335bf3bdbaeaa388e14b094d35dd5db2f9b60cf3` | Web service |
+| Saleor Dashboard | `ghcr.io/saleor/saleor-dashboard:3.23.38@sha256:4ad44cb07f403a44a09ff95d1e78af041f70b3c0ee452e34c187aede7ede146b` | Web service |
 | Saleor API | [tech-progress/railway-template-saleor](https://github.com/tech-progress/railway-template-saleor) (branch: release-v1) (root: /) | Web service |
 
 ## Environment variables

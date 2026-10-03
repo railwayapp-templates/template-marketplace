@@ -14,10 +14,10 @@ dbt turns warehouse SQL into tested, repeatable data models, while Metabase prov
 
 | Service | Source | Type |
 |---------|--------|------|
-| Metabase PostgreSQL | `postgres:17.6-alpine@sha256:ef257d85f76e48da1c64832459b59fcaba1a4dac97bf5d7450c77753542eee94` | Database |
-| Metabase | `metabase/metabase:v0.63.2@sha256:252f8c9bd56dd21158005675b55876cf9fb838e0a0e0541581af859eafe1f32e` | Web service |
+| Metabase PostgreSQL | `postgres:17.11-alpine@sha256:b0f9560a2de083e2cc7382e75f808c7381a32852a7ec49117deedb300e552b24` | Database |
+| Metabase | `metabase/metabase:v0.63.19@sha256:7324f83713df9851c6c7b6c8247098de14c0924fc3b868202f886df4877cd4ff` | Web service |
 | dbt | [tech-progress/railway-template-dbt-metabase](https://github.com/tech-progress/railway-template-dbt-metabase) (branch: release-v1) (root: /) | Worker |
-| Warehouse PostgreSQL | `postgres:17.6-alpine@sha256:ef257d85f76e48da1c64832459b59fcaba1a4dac97bf5d7450c77753542eee94` | Database |
+| Warehouse PostgreSQL | `postgres:17.11-alpine@sha256:b0f9560a2de083e2cc7382e75f808c7381a32852a7ec49117deedb300e552b24` | Database |
 
 ## Environment variables
 

@@ -1,6 +1,6 @@
 # Deploy ezBookkeeping finance on Railway
 
-Deploy this application on Railway.
+Private personal finance with protected signup and durable records.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ezbookkeeping-finance)
 

@@ -21,7 +21,7 @@ Every one of those is a decision someone has to make. This template makes them, 
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `pgvector/pgvector:pg17` | Database |
-| Docling | `ghcr.io/docling-project/docling-serve:v1.28.0` | Database |
+| Docling | `ghcr.io/docling-project/docling-serve:v1.36.0` | Database |
 | Indexer | [ak40u/document-search-railway-starter](https://github.com/ak40u/document-search-railway-starter) | Worker |
 | Search API | [ak40u/document-search-railway-starter](https://github.com/ak40u/document-search-railway-starter) | Web service |
 

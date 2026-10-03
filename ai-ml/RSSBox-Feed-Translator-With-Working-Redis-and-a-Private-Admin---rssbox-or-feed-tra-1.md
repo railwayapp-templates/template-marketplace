@@ -25,7 +25,7 @@ door unless the password is replaced.
 | Service | Source | Type |
 |---------|--------|------|
 | RSSBox | [ak40u/rssbox-railway-starter](https://github.com/ak40u/rssbox-railway-starter) | Web service |
-| Redis | `redis:8.6.5-alpine` | Database |
+| Redis | `redis:8.10.2-alpine` | Database |
 
 ## Environment variables
 

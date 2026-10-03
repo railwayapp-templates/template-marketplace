@@ -6,7 +6,7 @@ Durable agent backend with LangGraph APIs, pgvector, and Redis workers.
 
 ## About
 
-Deploy Aegra `0.9.24` as an authenticated, self-hosted Agent Protocol backend with durable PostgreSQL checkpoints and Redis-backed job execution. The template includes a working echo graph, generated bearer authentication, automatic database migrations, and crash recovery without requiring an LLM key.
+Deploy Aegra `0.10.8` as an authenticated, self-hosted Agent Protocol backend with durable PostgreSQL checkpoints and Redis-backed job execution. The template includes a working echo graph, generated bearer authentication, automatic database migrations, and crash recovery without requiring an LLM key.
 
 Aegra serves LangGraph applications through the Agent Protocol used by LangGraph clients. This Railway topology keeps PostgreSQL and Redis on the private network while exposing one managed-TLS API domain for threads, runs, streaming events, crons, and store operations.
 

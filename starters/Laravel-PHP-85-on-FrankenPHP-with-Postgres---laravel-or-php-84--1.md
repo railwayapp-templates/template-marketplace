@@ -1,4 +1,4 @@
-# Deploy Laravel | PHP 8.4 on FrankenPHP with Postgres on Railway
+# Deploy Laravel | PHP 8.5 on FrankenPHP with Postgres on Railway
 
 Laravel 13 on FrankenPHP with Postgres and runtime config caching
 

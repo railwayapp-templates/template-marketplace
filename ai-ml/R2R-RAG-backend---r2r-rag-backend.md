@@ -16,7 +16,7 @@ R2R is an MIT-licensed retrieval system for document ingestion, hybrid search, k
 |---------|--------|------|
 | R2R Dashboard | `sciphiai/r2r-dashboard:1.0.3@sha256:ba9bcb43c5e7d7d4eb9fe38970f976f6a0842297f3da078cb6223d1f078741d1` | Web service |
 | R2R API | [tech-progress/railway-template-r2r](https://github.com/tech-progress/railway-template-r2r) (branch: release-v1) (root: /) | Web service |
-| R2R PostgreSQL | `pgvector/pgvector:pg16@sha256:a36250871de0833b8757561c72f2477ef1ddd1101afa4e617fb552e0de514c6b` | Database |
+| R2R PostgreSQL | `pgvector/pgvector:pg16@sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a` | Database |
 | R2R Graph Clustering | `ragtoriches/cluster-prod@sha256:53bcbcc114fe08906b6df6b4d3863644145b1efa240fd6643ef65986593938b6` | Worker |
 
 ## Environment variables

@@ -1,6 +1,6 @@
-# Deploy NocoDB — Open Source Airtable Alternative on Railway
+# Deploy NocoDB on Railway
 
-Turn Postgres into a smart spreadsheet — grid, kanban, forms, API
+Turn Postgres into a smart spreadsheet — grid, kanban, forms, API [Oct'26]
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nocodb-airtable-alt-postgres)
 

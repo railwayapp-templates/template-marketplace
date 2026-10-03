@@ -26,10 +26,10 @@ Two more things took finding while building this one:
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `redis:8.6.5-alpine` | Database |
+| Redis | `redis:8.10.2-alpine` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| n8n | `n8nio/n8n:2.36.0` | Web service |
-| n8n worker | `n8nio/n8n:2.36.0` | Worker |
+| n8n | `n8nio/n8n:2.42.2` | Web service |
+| n8n worker | `n8nio/n8n:2.42.2` | Worker |
 
 ## Environment variables
 

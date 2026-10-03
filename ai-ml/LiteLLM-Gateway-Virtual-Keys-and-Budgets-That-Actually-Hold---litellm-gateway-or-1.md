@@ -20,7 +20,7 @@ Without Postgres there are no virtual keys, no budgets and no spend tracking —
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
 | LiteLLM | [ak40u/litellm-railway-starter](https://github.com/ak40u/litellm-railway-starter) | Web service |
-| Redis | `redis:8.6.5-alpine` | Database |
+| Redis | `redis:8.10.2-alpine` | Database |
 
 ## Environment variables
 

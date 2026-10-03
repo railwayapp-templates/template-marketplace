@@ -21,7 +21,7 @@ Postgres already writes every change to its write-ahead log. Debezium reads that
 | Service | Source | Type |
 |---------|--------|------|
 | Sink | [ak40u/postgres-cdc-railway](https://github.com/ak40u/postgres-cdc-railway) | Web service |
-| Debezium | `quay.io/debezium/server:3.6.0.Final` | Worker |
+| Debezium | `quay.io/debezium/server:3.7.0.Final` | Worker |
 | Postgres | `postgres:17-alpine` | Database |
 
 ## Environment variables

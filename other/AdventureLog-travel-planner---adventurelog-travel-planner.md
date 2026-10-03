@@ -1,6 +1,6 @@
 # Deploy AdventureLog travel planner on Railway
 
-Deploy this application on Railway.
+Private travel planning with PostGIS and durable media uploads.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/adventurelog-travel-planner)
 

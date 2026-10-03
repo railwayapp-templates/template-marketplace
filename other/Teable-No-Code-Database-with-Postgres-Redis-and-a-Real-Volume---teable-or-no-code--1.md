@@ -24,7 +24,7 @@ There is no Redis in that template. So it worked until the floating tag rolled f
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 | Redis | `redis:8-alpine` | Database |
-| Teable | `ghcr.io/teableio/teable:release.2026-07-26T01-04-56Z.2377` | Web service |
+| Teable | `ghcr.io/teableio/teable:release.2026-10-02T04-02-20Z.3278` | Web service |
 
 ## Environment variables
 

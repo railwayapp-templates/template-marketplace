@@ -8,7 +8,7 @@ Vendure commerce with Dashboard, Redis workers, and durable assets.
 
 Vendure is a headless commerce platform with Shop and Admin GraphQL APIs, a modern operator Dashboard, extensible catalog and order models, and asynchronous workers.
 
-This template runs Vendure 3.7.2 with a public API and compiled Dashboard, a private BullMQ worker, PostgreSQL, authenticated Redis, and a private Railway Bucket for original assets and previews.
+This template runs Vendure 3.7.3 with a public API and compiled Dashboard, a private BullMQ worker, PostgreSQL, authenticated Redis, and a private Railway Bucket for original assets and previews.
 
 ## What gets deployed
 
@@ -17,7 +17,7 @@ This template runs Vendure 3.7.2 with a public API and compiled Dashboard, a pri
 | Vendure Worker | [tech-progress/railway-template-vendure](https://github.com/tech-progress/railway-template-vendure) (branch: release-v1) (root: /) | Worker |
 | Vendure PostgreSQL | `postgres:17-alpine@sha256:742f40ea20b9ff2ff31db5458d127452988a2164df9e17441e191f3b72252193` | Database |
 | Vendure | [tech-progress/railway-template-vendure](https://github.com/tech-progress/railway-template-vendure) (branch: release-v1) (root: /) | Web service |
-| Vendure Redis | `redis:7.2.4-alpine@sha256:c8bb255c3559b3e458766db810aa7b3c7af1235b204cfdb304e79ff388fe1a5a` | Database |
+| Vendure Redis | `redis:7.2.16-alpine@sha256:29e8589c3f9ba699b5f7aa4b3c7733c58852a3626439e619aa0ee78de08c6ca0` | Database |
 
 ## Environment variables
 

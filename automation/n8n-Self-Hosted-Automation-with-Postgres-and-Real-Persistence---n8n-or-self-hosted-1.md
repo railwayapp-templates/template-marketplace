@@ -15,7 +15,7 @@ n8n keeps state in two places, and this is where self-hosted deployments quietly
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| n8n | `n8nio/n8n:2.36.0` | Web service |
+| n8n | `n8nio/n8n:2.42.2` | Web service |
 
 ## Environment variables
 

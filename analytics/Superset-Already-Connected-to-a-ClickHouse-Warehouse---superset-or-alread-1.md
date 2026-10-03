@@ -20,8 +20,8 @@ On top of that, Superset needs a metadata database, a secret key, an admin creat
 
 | Service | Source | Type |
 |---------|--------|------|
-| ClickHouse | `clickhouse/clickhouse-server:26.5.6` | Database |
-| Redis | `redis:8.6.5-alpine` | Database |
+| ClickHouse | `clickhouse/clickhouse-server:26.9.8` | Database |
+| Redis | `redis:8.10.2-alpine` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
 | Superset | [ak40u/superset-clickhouse-railway](https://github.com/ak40u/superset-clickhouse-railway) | Web service |
 

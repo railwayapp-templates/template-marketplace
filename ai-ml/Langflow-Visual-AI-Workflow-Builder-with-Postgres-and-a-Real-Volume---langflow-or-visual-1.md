@@ -14,7 +14,7 @@ Langflow splits its state across two places. Flows, users and API keys go into P
 
 | Service | Source | Type |
 |---------|--------|------|
-| Langflow | `langflowai/langflow:1.11.3` | Web service |
+| Langflow | `langflowai/langflow:1.12.4` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables

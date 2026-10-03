@@ -14,7 +14,7 @@ Mattermost keeps two kinds of state, and both need somewhere durable to live. Me
 
 | Service | Source | Type |
 |---------|--------|------|
-| Mattermost | `mattermost/mattermost-team-edition:release-11.8` | Web service |
+| Mattermost | `mattermost/mattermost-team-edition:release-12.0` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables

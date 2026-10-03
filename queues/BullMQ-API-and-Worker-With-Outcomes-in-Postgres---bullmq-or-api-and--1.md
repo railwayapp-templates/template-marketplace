@@ -23,7 +23,7 @@ Each of those is one line or one decision, and each of them fails quietly.
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
 | API | [ak40u/bullmq-railway-starter](https://github.com/ak40u/bullmq-railway-starter) | Web service |
 | Worker | [ak40u/bullmq-railway-starter](https://github.com/ak40u/bullmq-railway-starter) | Worker |
-| Redis | `redis:8.6.5-alpine` | Database |
+| Redis | `redis:8.10.2-alpine` | Database |
 
 ## Environment variables
 

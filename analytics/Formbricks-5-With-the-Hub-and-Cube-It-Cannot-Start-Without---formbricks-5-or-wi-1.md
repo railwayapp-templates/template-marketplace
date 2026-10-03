@@ -22,9 +22,9 @@ That makes six services: Formbricks, its Postgres, Valkey, the Hub, the Hub's Po
 |---------|--------|------|
 | Postgres | `pgvector/pgvector:pg18` | Database |
 | Cube | [ak40u/formbricks-cube-railway](https://github.com/ak40u/formbricks-cube-railway) | Worker |
-| Hub | `ghcr.io/formbricks/hub:0.8.4` | Worker |
-| Valkey | `valkey/valkey:8.1.4-alpine` | Database |
-| Formbricks | `ghcr.io/formbricks/formbricks:5.2.1` | Web service |
+| Hub | `ghcr.io/formbricks/hub:0.8.7` | Worker |
+| Valkey | `valkey/valkey:8.1.10-alpine` | Database |
+| Formbricks | `ghcr.io/formbricks/formbricks:5.4.5` | Web service |
 | HubPostgres | `pgvector/pgvector:pg18` | Database |
 
 ## Environment variables

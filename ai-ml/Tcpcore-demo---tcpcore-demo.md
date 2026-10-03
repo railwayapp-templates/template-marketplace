@@ -20,6 +20,6 @@ Runtime governance for every agent API call
 
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other · **Languages:** JavaScript, Shell, Dockerfile
+**Category:** AI/ML · **Languages:** JavaScript, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/tcpcore-demo)

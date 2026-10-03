@@ -20,8 +20,8 @@ The existing Directus template is well built: PostGIS and Redis are pinned, file
 
 | Service | Source | Type |
 |---------|--------|------|
-| Directus | `directus/directus:12.2.0` | Web service |
-| Redis | `redis:8.6.5-alpine` | Database |
+| Directus | `directus/directus:12.4.1` | Web service |
+| Redis | `redis:8.10.2-alpine` | Database |
 | PostGIS | `postgis/postgis:17-3.5` | Database |
 
 ## Environment variables

@@ -20,7 +20,7 @@ It is the backend and its admin. A storefront is a separate application talking 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `redis:8.6.5-alpine` | Database |
+| Redis | `redis:8.10.2-alpine` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | Medusa | [ak40u/medusa-railway-starter](https://github.com/ak40u/medusa-railway-starter) | Web service |
 
