@@ -1,14 +1,22 @@
 # Deploy Minecraft Server on Railway
 
-Paper Minecraft server with web console and plugins for friends
+Paper Minecraft server with web console and plugins; needs Hobby plan
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minecraft-server-1)
 
 ## About
 
-Run a private Paper Minecraft Java server for friends without managing a VPS. Crafty Controller gives you a browser console, file manager, players, schedules, backups, and server settings. Caddy publishes that panel safely through Railway, while Railway gives the game its own TCP address.
+![Crafty Controller in the browser: a Paper server online with two players, and the live console showing them join](https://bogusz.co/external/minecraft-banner-v1.png)
 
-This template deploys two pinned services: **Crafty Controller** runs the panel and your Paper server, and **Caddy** publishes the panel on a public web address. The Minecraft world, server files, Crafty settings, and backups are stored on the **Crafty Controller** service's persistent Railway volume.
+A private Paper server (Java Edition) for you and your friends, managed from a browser console with backups, plugins and player controls — no VPS to run.
+
+**Get started** — **requires the Hobby plan.** The console runs anywhere, but the game server needs about 4 GB of RAM while it runs. Java Edition only; phones and consoles (Bedrock) cannot join.
+
+1. **Deploy and sign in.** Open the **Caddy** service URL. Username `admin`; the password is `CRAFTY_ADMIN_PASSWORD` in the **Crafty Controller** service's **Variables** tab.
+2. **Create the server.** **Servers → Create New Server → Minecraft-Java**, choose `paper` and a version, set memory to 4 GB, **Build Server**, then **Start** and accept the EULA.
+3. **Invite friends.** Copy the **Crafty Controller** service's TCP proxy `host:port` (Settings → Networking) into **Multiplayer → Add Server**, and share it.
+
+Run a private Paper Minecraft Java server for friends without managing a VPS. Crafty Controller gives you a browser console, file manager, players, schedules, backups, and server settings. Caddy publishes that panel safely through Railway, while Railway gives the game its own TCP address. This template deploys two pinned services: **Crafty Controller** runs the panel and your Paper server, and **Caddy** publishes the panel on a public web address. The Minecraft world, server files, Crafty settings, and backups are stored on the **Crafty Controller** service's persistent Railway volume.
 
 The **Caddy** service's URL is the management console, not the address players enter in Minecraft. Players use the separate TCP Proxy address on the **Crafty Controller** service.
 

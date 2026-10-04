@@ -1,6 +1,6 @@
-# Deploy Rails | Rails 8.1 on Ruby 3.4 with Postgres on Railway
+# Deploy Rails | Rails 8.1 on Ruby 4.0 with Postgres on Railway
 
-Rails 8.1 on Ruby 3.4 with Postgres, in the container Rails generates
+Rails 8.1 on Ruby 4.0 with Postgres, in the container Rails generates
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rails-or-rails-81--1)
 
@@ -34,8 +34,9 @@ It also deploys Redis from `bitnami/redis` **with no tag**. Bitnami restricted i
 ## Configuration
 
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/up`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Languages:** HTML, Ruby, Dockerfile, JavaScript, CSS, Shell
+**Category:** Starters · **Languages:** HTML, Ruby, Dockerfile, Shell, JavaScript, CSS
 
 [View on Railway →](https://railway.com/deploy/rails-or-rails-81--1)

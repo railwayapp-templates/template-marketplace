@@ -1,16 +1,22 @@
 # Deploy Activepieces on Railway
 
-Activepieces: open-source Zapier alternative with 400+ automation pieces
+Activepieces: open-source Zapier alternative with 700+ automation pieces
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kit-activepieces-build-0919)
 
 ## About
 
-Activepieces is an open-source automation platform - a self-hosted alternative to Zapier and Make - with a visual flow builder, 400+ integration "pieces" (Slack, Gmail, Notion, OpenAI, Stripe, webhooks, HTTP, custom TypeScript code) and an MCP server so AI agents can use the same integrations. This template deploys the official Activepieces image pinned by digest with Postgres and Redis wired in over private networking, every secret generated for you, and a deployment healthcheck. **There is nothing to fill in.** After the deploy, open the public URL: the first sign-up becomes the platform admin.
+![Activepieces flow builder: a webhook trigger, a code step and a text step, each marked Succeeded on a real run](https://bogusz.co/external/activepieces-banner-v1.png)
 
-**Plan requirements.** Measured on this exact stack after the first flow ran: the Activepieces container idles around **750 MB** and peaked at **1.0 GB** during sign-up, migrations and a webhook run; Postgres about 60 MB and Redis about 10 MB. Budget **2 GB or more** for the app service (Hobby plan or higher). It will not fit the Free plan's 0.5 GB and is tight on Trial's 1 GB, where a flow run can push it over the limit.
+A self-hosted Zapier alternative: build automations visually from 700+ app integrations, run them on webhooks and schedules, and hand them to AI agents over MCP — without per-task fees.
 
-Activepieces runs as a single container that serves the web app, the API and the worker (`AP_CONTAINER_TYPE=WORKER_AND_APP`). It stores flows, runs, connections and users in Postgres and uses Redis for the job queue, so all three services must be up for flows to run. The application migrates its own database schema at startup. This template runs the worker in `UNSANDBOXED` mode, which is what upstream recommends for a single trusted team on a host without Docker-in-Docker; each code step still runs in its own process. Connections (API keys you add to pieces) are encrypted at rest with `AP_ENCRYPTION_KEY`; keep a copy of that variable - rotating it makes existing connections unreadable.
+**Get started** — Hobby recommended: the app idles at about 750 MB and peaks near 1 GB. Free (0.5 GB) cannot run it.
+
+1. **Deploy.** Nothing to fill in; Postgres, Redis and every secret are generated.
+2. **Create your account right away.** Open the Activepieces service URL and sign up — the first account becomes the platform admin; later sign-ups are invitation-only.
+3. **Build a flow.** Start from a **Catch Webhook** or **Schedule** trigger, add a step, publish, and it runs.
+
+Activepieces is an open-source automation platform - a self-hosted alternative to Zapier and Make - with a visual flow builder, 700+ integration "pieces" (Slack, Gmail, Notion, OpenAI, Stripe, webhooks, HTTP, custom TypeScript code) and an MCP server so AI agents can use the same integrations. This template deploys the official Activepieces image pinned by digest with Postgres and Redis wired in over private networking, every secret generated for you, and a deployment healthcheck. Activepieces runs as a single container that serves the web app, the API and the worker (`AP_CONTAINER_TYPE=WORKER_AND_APP`). It stores flows, runs, connections and users in Postgres and uses Redis for the job queue, so all three services must be up for flows to run. The application migrates its own database schema at startup. This template runs the worker in `UNSANDBOXED` mode, which is what upstream recommends for a single trusted team on a host without Docker-in-Docker; each code step still runs in its own process. Connections (API keys you add to pieces) are encrypted at rest with `AP_ENCRYPTION_KEY`; keep a copy of that variable - rotating it makes existing connections unreadable.
 
 ## What gets deployed
 

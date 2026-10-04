@@ -1,4 +1,4 @@
-# Deploy SillyTavern — Self-Hosted AI Character Chat Frontend on Railway
+# Deploy SillyTavern on Railway
 
 Power-user AI character chat — any LLM, uncensored, your server
 

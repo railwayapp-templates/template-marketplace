@@ -32,6 +32,7 @@ Hosting this stack on a platform has one well-known trap: running migrations at 
 
 ## Configuration
 
+- **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 

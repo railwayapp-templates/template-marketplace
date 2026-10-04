@@ -38,6 +38,7 @@ The tools are the easy part. What takes the time is everything around them:
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 

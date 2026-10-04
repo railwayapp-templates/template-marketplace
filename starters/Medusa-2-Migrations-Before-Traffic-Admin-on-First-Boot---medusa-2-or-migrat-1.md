@@ -47,6 +47,7 @@ It is the backend and its admin. A storefront is a separate application talking 
 - **Start command:** `/bin/sh -c 'redis-server --requirepass "$REDIS_PASSWORD" --appendonly yes --bind 0.0.0.0 :: --protected-mode no'`
 - **Volume:** `/data`
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Starters · **Languages:** Shell, TypeScript

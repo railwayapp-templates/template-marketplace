@@ -1,6 +1,6 @@
-# Deploy Hermes — Self-Hosted AI Agent with Persistent Memory [Oct'26] on Railway
+# Deploy Hermes on Railway
 
-Self-host an AI agent with persistent memory. No per-call fees.
+Self-host an AI agent with persistent memory. No per-call fees. [Oct'26]
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-self-hosted-ai-agent-with-persist)
 

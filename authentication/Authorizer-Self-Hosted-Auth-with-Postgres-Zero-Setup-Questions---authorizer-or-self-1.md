@@ -19,7 +19,7 @@ Here the token type is HS256, which needs a single symmetric secret rather than 
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Authorizer | `lakhansamani/authorizer:2.2.1` | Web service |
+| Authorizer | `lakhansamani/authorizer:2.4.1` | Web service |
 
 ## Environment variables
 
@@ -40,7 +40,7 @@ Here the token type is HS256, which needs a single symmetric secret rather than 
 ## Configuration
 
 - **Volume:** `/var/lib/postgresql/data`
-- **Start command:** `/bin/sh -c "exec ./authorizer --admin-secret \"$ADMIN_SECRET\" --database-type postgres --database-url \"$DATABASE_URL\" --env production --jwt-type HS256 --jwt-secret \"$JWT_SECRET\" --client-id \"$CLIENT_ID\" --client-secret \"$CLIENT_SECRET\" --allowed-origins \"$AUTHORIZER_URL\""`
+- **Start command:** `/bin/sh -c "exec ./authorizer --admin-secret \"$ADMIN_SECRET\" --database-type postgres --database-url \"$DATABASE_URL\" --env production --jwt-type HS256 --jwt-secret \"$JWT_SECRET\" --client-id \"$CLIENT_ID\" --client-secret \"$CLIENT_SECRET\" --url \"$AUTHORIZER_URL\" --allowed-origins \"$AUTHORIZER_URL\""`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Authentication

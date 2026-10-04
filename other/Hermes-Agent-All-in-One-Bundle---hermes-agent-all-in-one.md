@@ -57,7 +57,7 @@ Upstream Docker images run `tools/skills_sync.py` from the Hermes install direct
 
 | Service | Source | Type |
 |---------|--------|------|
-| hermes-agent | `ghcr.io/protemplate/hermes-agent-railway:sha-eff2be7` | Web service |
+| hermes-agent | `ghcr.io/protemplate/hermes-agent-railway:sha-27db29d` | Web service |
 | searxng-railway | [protemplate/searxng](https://github.com/protemplate/searxng) | Web service |
 
 ## Environment variables

@@ -1,14 +1,24 @@
-# Deploy OpenBot (Grok Bot) on Railway
+# Deploy OpenBot (Grok Bot Alternative) on Railway
 
-Open-source AI grok bots with their own browser, files and tools
+OpenBot: open-source AI coworkers with their own browser, files and tools
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openbot)
 
 ## About
 
+![OpenBot's General Assistant reading Hacker News in its own browser and reporting the top stories in chat](https://bogusz.co/external/openbot-banner-v1.png)
+
+Your own AI coworkers, each with a browser, files and tools, behind a password — an open-source alternative to xAI's Grok Bot that you host and audit.
+
+**Get started** — you need an OpenAI API key (or an OpenRouter key) and a free CopilotKit Intelligence project key, about two minutes with their CLI (Step 1 below). Hobby recommended: the OpenBot service peaks at about 620 MB with its browser working, above Free's 0.5 GB limit; the five services idle at about 0.45 GB.
+
+1. **Get your CopilotKit project key** (Step 1 below), then **deploy** and paste it and your model key into the form.
+2. **Sign in.** Open the **Gate** service URL. Username `admin`; the password is `GATE_PASSWORD` in the Gate's **Variables** tab. Click through the short welcome screen.
+3. **Give it a task.** Ask the General Assistant to look something up on the web and watch its browser work.
+
 OpenBot gives you AI coworkers with a computer: a browser, files and a shell, with every action recorded. This template runs the official `ghcr.io/copilotkit/openbot` image next to a Railway Postgres, adds the Bot process that lets you create your own coworkers and the scheduler that makes routines fire, puts a password in front of the URL, wires all of it together over the private network, generates every secret, and keeps the coworkers' browser logins and files on a volume so they survive redeploys.
 
-OpenBot is a Bun server that serves the web app and API on one port and drives a headless Chromium inside the same container for the coworkers' "computer". Users, work and the encrypted credential vault live in Postgres; conversation threads and memory live in CopilotKit Intelligence, a free hosted service that the app requires. Three things upstream's single image does not carry come as their own services here: **Agent** runs the coworkers you create (CopilotKit's official `agent-langgraph` v0.0.15 image, pinned by digest), **Routines** is a five-minute cron that fires scheduled work, and **Gate** is a 30 MB Caddy that holds the public URL and asks for a username and password before anything reaches OpenBot. Migrations run automatically when the container starts. Three values are yours to paste at deploy time: an OpenAI key, and two CopilotKit credentials that a short CLI session prints for you.
+OpenBot is a Bun server that serves the web app and API on one port and drives a headless Chromium inside the same container for the coworkers' "computer". Users, work and the encrypted credential vault live in Postgres; conversation threads and memory live in CopilotKit Intelligence, a free hosted service that the app requires. Three things upstream's single image does not carry come as their own services here: **Agent** runs the coworkers you create (CopilotKit's official `agent-langgraph` v0.0.15 image, pinned by digest), **Routines** is a five-minute cron that fires scheduled work, and **Gate** is a 30 MB Caddy that holds the public URL and asks for a username and password before anything reaches OpenBot. Migrations run automatically when the container starts. Two values are yours to paste at deploy time: an OpenAI key, and a CopilotKit Intelligence project key that a short CLI session writes for you.
 
 ## What gets deployed
 
@@ -16,8 +26,8 @@ OpenBot is a Bun server that serves the web app and API on one port and drives a
 |---------|--------|------|
 | Gate | `caddy:2-alpine` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| OpenBot | `ghcr.io/copilotkit/openbot:v0.0.5` | Database |
-| Routines | `ghcr.io/copilotkit/openbot:v0.0.5` | Worker |
+| OpenBot | `ghcr.io/copilotkit/openbot:v0.0.6` | Database |
+| Routines | `ghcr.io/copilotkit/openbot:v0.0.6` | Worker |
 | Agent | `ghcr.io/copilotkit/openbot-agent-langgraph@sha256:da9fdbee1c12e62f66e359ae2c9a083456c2d8f795d0db066b8b1e313542b477` | Worker |
 
 ## Environment variables
@@ -58,7 +68,6 @@ OpenBot is a Bun server that serves the web app and API on one port and drives a
 | `AGENT_COMPUTER_POLICY` | OpenBot | - | Optional - JSON action policy for what Bots may do in the browser; normally edited at /admin/boundaries instead. |
 | `GOOGLE_OAUTH_CLIENT_ID` | OpenBot | - | Optional - Google sign-in. Redirect URI: https://the Gate service's domain/api/auth/callback/google. Set together with GOOGLE_OAUTH_CLIENT_SECRET, BETTER_AUTH_SECRET, BETTER_AUTH_URL and INITIAL_ADMIN_EMAILS. |
 | `MANAGED_AGENT_AG_UI_URL` | OpenBot | - | Where coworkers you create run. Wired to the Agent service over the private network. |
-| `COPILOTKIT_LICENSE_TOKEN` | OpenBot | (secret) | From step 1 of the guide: the value of the COPILOTKIT_LICENSE_TOKEN line that `npx copilotkit@latest license --write` writes to .env (long, starts with eyJ). Free. |
 | `OKTA_OAUTH_CLIENT_SECRET` | OpenBot | (secret) | Optional - Okta sign-in client secret. |
 | `MICROSOFT_OAUTH_CLIENT_ID` | OpenBot | - | Optional - Microsoft (Entra ID) sign-in. Redirect URI: https://the Gate service's domain/api/auth/callback/microsoft. |
 | `MICROSOFT_OAUTH_TENANT_ID` | OpenBot | - | Optional - Your directory (tenant) GUID to admit only your company; blank means common. |
@@ -72,7 +81,6 @@ OpenBot is a Bun server that serves the web app and API on one port and drives a
 | `INTELLIGENCE_API_KEY` | Routines | (secret) | Same as OpenBot. Wired automatically. |
 | `INTELLIGENCE_API_URL` | Routines | - | Same as OpenBot. Wired automatically. |
 | `WORKER_SHARED_SECRET` | Routines | (secret) | Authenticates routine dispatches to OpenBot. Wired automatically. |
-| `COPILOTKIT_LICENSE_TOKEN` | Routines | (secret) | Same as OpenBot. Wired automatically. |
 | `INTELLIGENCE_GATEWAY_WS_URL` | Routines | - | Same as OpenBot. Wired automatically. |
 | `PORT` | Agent | 4201 | Port the Agent serves on and Railway's healthcheck probes. Do not change. |
 | `BOT_MODEL` | Agent | gpt-5.6-terra | Model the coworkers you create ask for, sent verbatim to the provider. |
@@ -89,7 +97,25 @@ OpenBot is a Bun server that serves the web app and API on one port and drives a
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
-- **Start command:** `sh -c "mkdir -p /data/workspace /data/profiles && chown pwuser:pwuser /data /data/workspace /data/profiles && cd /app/server && /command/s6-setuidgid pwuser /usr/local/bin/bun scripts/migrate.ts && { (cd /app/agent-computer && PORT=4100 exec /command/s6-setuidgid pwuser /usr/local/bin/bun src/index.ts) & cd /app/server && exec /command/s6-setuidgid pwuser /usr/local/bin/bun src/index.ts; }"`
+- **Start command:** `sh -c 'mkdir -p /data/workspace /data/profiles
+chown pwuser:pwuser /data /data/workspace /data/profiles
+cd /app/server
+/command/s6-setuidgid pwuser /usr/local/bin/bun scripts/migrate.ts || exit 1
+(
+  cd /app/agent-computer
+  delay=2
+  while :; do
+    started=$(date +%s)
+    PORT=4100 choom -n 1000 -- /command/s6-setuidgid pwuser /usr/local/bin/bun src/index.ts
+    code=$?
+    [ $(($(date +%s) - started)) -gt 300 ] && delay=2
+    echo [railway] agent-computer exited with code $code, the API stays up. Restarting it in ${delay}s >&2
+    sleep $delay
+    delay=$((delay * 2)); [ $delay -gt 60 ] && delay=60
+  done
+) &
+cd /app/server
+exec /command/s6-setuidgid pwuser /usr/local/bin/bun src/index.ts'`
 - **Volume:** `/data`
 - **Start command:** `sh -c "cd /app/server && exec timeout -s KILL 240 /usr/local/bin/bun scripts/fire-routines.ts"`
 

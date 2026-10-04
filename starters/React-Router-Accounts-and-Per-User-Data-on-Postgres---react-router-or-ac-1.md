@@ -35,6 +35,7 @@ Remix has since merged into React Router, now at 8. This template is the same id
 
 ## Configuration
 
+- **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 

@@ -1,4 +1,4 @@
-# Deploy TwentyCRM on Railway
+# Deploy Twenty CRM on Railway
 
 Deploy the latest version (v2) of open-source CRM Twenty,  with S3 Bucket
 

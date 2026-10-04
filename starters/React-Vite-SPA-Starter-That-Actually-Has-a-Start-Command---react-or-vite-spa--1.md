@@ -30,6 +30,7 @@ This template builds with Vite and ships a start command that serves the built o
 
 ## Configuration
 
+- **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Starters · **Languages:** JavaScript, TypeScript, CSS, HTML

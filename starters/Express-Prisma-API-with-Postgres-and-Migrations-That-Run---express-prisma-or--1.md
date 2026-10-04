@@ -32,6 +32,7 @@ Railway has a step meant for this. The repository ships a railway.json declaring
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 

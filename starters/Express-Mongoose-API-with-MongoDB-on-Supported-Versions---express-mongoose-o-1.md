@@ -35,6 +35,7 @@ This one tracks current releases and pins them, and fixes two things that make a
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Start command:** `docker-entrypoint.sh mongod --ipv6 --bind_ip ::,0.0.0.0`
 - **Volume:** `/data/db`

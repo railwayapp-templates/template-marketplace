@@ -6,11 +6,17 @@ OpenMuse personal AI assistant with browser, tasks, goals and Postgres
 
 ## About
 
-OpenMuse is CopilotKit's open-source personal assistant: chat, a persistent browser, delegated tasks, goals, ideas and document workflows in a mobile-friendly web app. This template deploys the web app and API, a private Chromium browser worker, and PostgreSQL. Workspace data, documents and browser profiles survive redeploys. **One input is required:** your CopilotKit Intelligence project key. The workspace login key, encryption key, browser token and database password are generated for you.
+![OpenMuse on desktop and phone: its browser reads the CopilotKit docs and answers in chat, next to a task it created](https://bogusz.co/external/openmuse-banner-v1.png)
 
-**This is an alpha for self-hosters and tinkerers, not a managed assistant.** Bring your own model provider, review agent actions, and expect upstream behavior to change. The optional Docker-based Linux desktop/terminal is not included; Railway cannot provide the Docker engine it needs. Browser automation works without it.
+CopilotKit's open-source personal agent, with its own browser, documents, tasks and goals, in a web app that works on your phone.
 
-Three services make up this deployment:
+**Get started** — you need a free CopilotKit Intelligence key and a model provider key. Hobby recommended: the three services idle at about 350 MB when fresh and about 700 MB once the browser has been used.
+
+1. **Get a CopilotKit key and deploy.** Sign up free at [CopilotKit Intelligence](https://dashboard.operations.copilotkit.ai); in an empty folder run `npx copilotkit@latest login`, then `npx copilotkit@latest project select --create openmuse`, and paste the `CPK_INTELLIGENCE_API_KEY` value from the `.env` it writes into the deploy form.
+2. **Choose a model.** In the OpenMuse service's **Variables** set `MODEL` and the matching key, then deploy the change. With OpenRouter: `MODEL=openai/openai/gpt-4o-mini`, `OPENAI_API_KEY` = your OpenRouter key, `OPENAI_BASE_URL=https://openrouter.ai/api/v1`.
+3. **Sign in and ask.** Open the OpenMuse service URL, paste `OPENMUSE_ACCESS_KEY` from its **Variables** tab, and ask it to summarize a web page.
+
+OpenMuse is CopilotKit's open-source personal assistant: chat, a persistent browser, delegated tasks, goals, ideas and document workflows in a mobile-friendly web app. This template deploys the web app and API, a private Chromium browser worker, and PostgreSQL. Workspace data, documents and browser profiles survive redeploys. **One input is required:** your CopilotKit Intelligence project key. The workspace login key, encryption key, browser token and database password are generated for you. Three services make up this deployment:
 
 | Service | Purpose | Persistent storage |
 |---|---|---|
@@ -18,7 +24,7 @@ Three services make up this deployment:
 | Browser | Private Playwright Chromium worker, authenticated with a generated token | `/data`: browser profiles |
 | Postgres | Workspace records, tasks, goals, approvals and encrypted connector credentials | `/var/lib/postgresql/data` |
 
-Conversations use **CopilotKit Intelligence**, a separate hosted dependency. This is not a completely offline or entirely self-contained deployment. Create a free Developer project at [CopilotKit Intelligence](https://platform.copilotkit.ai), or run `npx copilotkit@latest login` followed by `npx copilotkit@latest project select`. Put its server-only key in `CPK_INTELLIGENCE_API_KEY`. CopilotKit plan limits and retention apply; model-provider usage is separate.
+Conversations use **CopilotKit Intelligence**, a separate hosted dependency. This is not a completely offline or entirely self-contained deployment. Step 1 above creates a free Developer project with the CopilotKit CLI and writes its server-only key to `.env` as `CPK_INTELLIGENCE_API_KEY`; that value goes into the variable of the same name. CopilotKit plan limits and retention apply; model-provider usage is separate.
 
 The API and browser worker drop root privileges before running. Only OpenMuse has a public domain. PostgreSQL and the browser communicate over Railway's private network.
 
@@ -26,7 +32,7 @@ The API and browser worker drop root privileges before running. Only OpenMuse ha
 
 | Service | Source | Type |
 |---------|--------|------|
-| OpenMuse | `ghcr.io/will-bogusz/openmuse:fed01e9-20260922@sha256:67063ca1a871c563332525699e9da80618e7acbe00de35a0bf755bdd0d3a6a73` | Web service |
+| OpenMuse | `ghcr.io/will-bogusz/openmuse:fed01e9-20261003@sha256:46323e298ee48a3ad0e4d19fbd3df0e5aeee2c3d3f5b36737178f0da64ce586a` | Web service |
 | Browser | `ghcr.io/will-bogusz/openmuse-browser-worker:fed01e9-20260922@sha256:f6c625b5bffc5c65c912ed4b128a1e8ac2323107b8ab153d4cde05cad5549cf6` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
@@ -35,7 +41,7 @@ The API and browser worker drop root privileges before running. Only OpenMuse ha
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
 | `PORT` | OpenMuse | 8080 | Public web and API proxy port. |
-| `MODEL` | OpenMuse | - | Optional model, e.g. openai/gpt-5.6-terra, anthropic/claude-sonnet-4-6 or google/gemini-2.5-flash. Set the matching provider key. Blank starts the workspace without model chat. |
+| `MODEL` | OpenMuse | - | Model for chat, as provider/model-id, e.g. openai/gpt-5.6-terra, anthropic/claude-sonnet-4-6 or google/gemini-2.5-flash; set the matching provider key too. Blank boots the workspace, but chat shows "Runtime info request failed with status 503" until a model is set. |
 | `DATA_DIR` | OpenMuse | /data | Persistent documents and workspace signing key. Do not change without migrating the volume. |
 | `AGENT_URL` | OpenMuse | - | Optional remote AG-UI agent endpoint. Set AGENT_BACKEND=agui to use your own harness. |
 | `AGENT_TOKEN` | OpenMuse | (secret) | Optional bearer token for AGENT_URL. |
@@ -55,7 +61,7 @@ The API and browser worker drop root privileges before running. Only OpenMuse ha
 | `TASK_WORKER_ENABLED` | OpenMuse | true | Run durable background tasks in the API service. |
 | `GOOGLE_CLIENT_SECRET` | OpenMuse | (secret) | Optional Google OAuth client secret; configure with GOOGLE_CLIENT_ID. |
 | `TOKEN_ENCRYPTION_KEY` | OpenMuse | (secret) | Generated canonical base64 encryption key, exactly 32 bytes. Keep unchanged after connecting accounts. |
-| `CPK_INTELLIGENCE_API_KEY` | OpenMuse | (secret) | Required CopilotKit Intelligence project key for durable conversations. Create a free project at platform.copilotkit.ai or run npx copilotkit@latest login and project select. |
+| `CPK_INTELLIGENCE_API_KEY` | OpenMuse | (secret) | Required. CopilotKit Intelligence project key (starts with cpk-). Sign up free at dashboard.operations.copilotkit.ai, then in an empty folder run npx copilotkit@latest login and npx copilotkit@latest project select --create openmuse; the key is written to .env as CPK_INTELLIGENCE_API_KEY. |
 | `PORT` | Browser | 8790 | Browser worker port and Railway healthcheck port. |
 | `WORKER_HOST` | Browser | 0.0.0.0 | Listen on the private network. |
 | `WORKER_TOKEN` | Browser | (secret) | Generated private authentication token shared with OpenMuse. |

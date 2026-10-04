@@ -1,16 +1,22 @@
 # Deploy Langflow on Railway
 
-Langflow: visual builder for AI agents and RAG flows, with Postgres
+Langflow: visual builder for AI agents and RAG flows. Requires Hobby plan
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kit-langflow-build-0919)
 
 ## About
 
-Langflow is the open-source visual builder for AI agents and RAG pipelines: drag components onto a canvas, wire models, prompts, tools, vector stores and memory together, test in a built-in chat, then call the result as an API or MCP server. This template deploys the official Langflow image pinned by digest with a Postgres 17 database, a persistent volume for uploaded files and the encryption key, every secret generated for you, and a deployment healthcheck. **There is nothing to fill in.** After the deploy, open the public URL and log in as `admin` with the password in the `Langflow` service's Variables tab (`LANGFLOW_SUPERUSER_PASSWORD`).
+![Langflow canvas with the Simple Agent flow (URL and web-search tools feeding an agent) and the Playground showing its answer](https://bogusz.co/external/langflow-banner-v1.png)
 
-**Plan requirements.** Measured on this exact image: Langflow idles around **1.25 GB** (measured after five idle minutes on two fresh deploys) and needs about 1.6 GB peak while it loads its component catalogue; Postgres adds about 60 MB. It is killed on a 1 GB limit (verified) and runs comfortably at 2 GB. **Hobby plan or higher (8 GB limit) is required**; it will not start on Free or Trial. Upstream's own Railway guide states the same 2 GB minimum.
+Build AI agents and RAG pipelines on a visual canvas, test them in the built-in chat, and call them as an API or MCP server — with flows, users and keys stored in Postgres.
 
-Langflow runs as one Python service that serves the editor, the API and flow execution. Flows, users, API keys and global variables live in Postgres; the volume at `/app/langflow` holds the encryption key that protects stored credentials, uploaded files and profile pictures. Schema migrations run automatically on start, including on upgrades. Login is required (`LANGFLOW_AUTO_LOGIN=false`) because the service is reachable on a public domain; the first account is the generated superuser, and new sign-ups stay inactive until an admin activates them. The container runs as root on Railway so it can write to the root-owned volume mount - the same approach Railway's own database templates take.
+**Get started** — **requires the Hobby plan.** Langflow idles at about 1.25 GB, so on Free (0.5 GB) and Trial (1 GB) it stops at startup with a one-line plan message.
+
+1. **Deploy.** Nothing to fill in; Postgres and every secret are generated.
+2. **Sign in.** Open the Langflow service URL. Username `admin`; the password is `LANGFLOW_SUPERUSER_PASSWORD` in the service's **Variables** tab.
+3. **Build a flow.** Start from the **Simple Agent** template, add your OpenAI or Anthropic key as a global variable, and chat with it in the Playground.
+
+Langflow is the open-source visual builder for AI agents and RAG pipelines: drag components onto a canvas, wire models, prompts, tools, vector stores and memory together, test in a built-in chat, then call the result as an API or MCP server. This template deploys the official Langflow image pinned by digest with a Postgres 17 database, a persistent volume for uploaded files and the encryption key, every secret generated for you, and a deployment healthcheck. Langflow runs as one Python service that serves the editor, the API and flow execution. Flows, users, API keys and global variables live in Postgres; the volume at `/app/langflow` holds the encryption key that protects stored credentials, uploaded files and profile pictures. Schema migrations run automatically on start, including on upgrades. Login is required (`LANGFLOW_AUTO_LOGIN=false`) because the service is reachable on a public domain; the first account is the generated superuser, and new sign-ups stay inactive until an admin activates them. The container runs as root on Railway so it can write to the root-owned volume mount - the same approach Railway's own database templates take.
 
 ## What gets deployed
 
@@ -42,6 +48,7 @@ Langflow runs as one Python service that serves the editor, the API and flow exe
 
 ## Configuration
 
+- **Start command:** `/bin/sh -c 'm=$(cat /sys/fs/cgroup/memory.max 2>/dev/null || echo max); if [ "$m" != max ] && [ "$m" -lt 1500000000 ]; then echo "Langflow needs about 1.5 GB of RAM to start, but this service is limited to $((m/1048576)) MB. Railway Free (0.5 GB) and Trial (1 GB) plans cannot run it. Upgrade to Hobby, or raise the memory limit in the service Settings, then redeploy."; sleep 5; exit 1; fi; exec langflow run'`
 - **Healthcheck:** `/health_check`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/langflow`

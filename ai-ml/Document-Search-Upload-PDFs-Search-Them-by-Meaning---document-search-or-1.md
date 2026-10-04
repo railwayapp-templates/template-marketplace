@@ -44,6 +44,7 @@ Every one of those is a decision someone has to make. This template makes them, 
 - **Volume:** `/var/lib/postgresql/data`
 - **Volume:** `/opt/app-root/src/.cache`
 - **Start command:** `node dist/worker.js`
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** AI/ML · **Languages:** TypeScript, Shell, Dockerfile

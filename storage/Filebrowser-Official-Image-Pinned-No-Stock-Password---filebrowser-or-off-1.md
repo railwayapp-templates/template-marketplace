@@ -33,6 +33,7 @@ This template builds on `filebrowser/filebrowser:v2.63.21`, the official image a
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 

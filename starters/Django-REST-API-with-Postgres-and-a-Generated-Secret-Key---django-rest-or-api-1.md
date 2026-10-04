@@ -35,6 +35,7 @@ Here SECRET_KEY is generated per deployment. The settings module reads it with `
 
 ## Configuration
 
+- **Healthcheck:** `/api/health/`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 

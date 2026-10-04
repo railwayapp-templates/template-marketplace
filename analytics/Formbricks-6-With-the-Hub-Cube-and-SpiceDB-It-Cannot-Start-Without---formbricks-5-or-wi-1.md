@@ -1,6 +1,6 @@
-# Deploy Formbricks 5 | With the Hub and Cube It Cannot Start Without on Railway
+# Deploy Formbricks 6 | With the Hub, Cube and SpiceDB It Cannot Start Without on Railway
 
-Formbricks 5 with the Hub and Cube it refuses to start without.
+Formbricks 6 with the Hub, Cube and SpiceDB it refuses to start without.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/formbricks-5-or-wi-1)
 
@@ -21,10 +21,12 @@ That makes six services: Formbricks, its Postgres, Valkey, the Hub, the Hub's Po
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `pgvector/pgvector:pg18` | Database |
+| SpiceDB | `authzed/spicedb:v1.56.2-debug` | Worker |
 | Cube | [ak40u/formbricks-cube-railway](https://github.com/ak40u/formbricks-cube-railway) | Worker |
+| SpiceDBPostgres | `postgres:18-alpine` | Database |
 | Hub | `ghcr.io/formbricks/hub:0.8.7` | Worker |
 | Valkey | `valkey/valkey:8.1.10-alpine` | Database |
-| Formbricks | `ghcr.io/formbricks/formbricks:5.4.5` | Web service |
+| Formbricks | `ghcr.io/formbricks/formbricks:6.0.2` | Web service |
 | HubPostgres | `pgvector/pgvector:pg18` | Database |
 
 ## Environment variables
@@ -34,6 +36,10 @@ That makes six services: Formbricks, its Postgres, Valkey, the Hub, the Hub's Po
 | `POSTGRES_DB` | Postgres | formbricks |
 | `POSTGRES_USER` | Postgres | (secret) |
 | `POSTGRES_PASSWORD` | Postgres | (secret) |
+| `SPICEDB_GRPC_ADDR` | SpiceDB | [::]:50051 |
+| `SPICEDB_LOG_FORMAT` | SpiceDB | json |
+| `SPICEDB_HTTP_ENABLED` | SpiceDB | false |
+| `SPICEDB_DATASTORE_ENGINE` | SpiceDB | postgres |
 | `PORT` | Cube | 4000 |
 | `CUBEJS_DB_PORT` | Cube | 5432 |
 | `CUBEJS_DB_TYPE` | Cube | postgres |
@@ -43,16 +49,25 @@ That makes six services: Formbricks, its Postgres, Valkey, the Hub, the Hub's Po
 | `CUBEJS_JWT_AUDIENCE` | Cube | formbricks-cube |
 | `CUBEJS_DEFAULT_API_SCOPES` | Cube | meta,data |
 | `CUBEJS_CACHE_AND_QUEUE_DRIVER` | Cube | memory |
+| `POSTGRES_DB` | SpiceDBPostgres | spicedb |
+| `POSTGRES_USER` | SpiceDBPostgres | (secret) |
+| `POSTGRES_PASSWORD` | SpiceDBPostgres | (secret) |
 | `PORT` | Hub | 8080 |
 | `API_KEY` | Hub | (secret) |
 | `REDIS_PASSWORD` | Valkey | (secret) |
 | `PORT` | Formbricks | 3000 |
 | `CRON_SECRET` | Formbricks | (secret) |
 | `HUB_API_KEY` | Formbricks | (secret) |
+| `AUTHZED_TOKEN` | Formbricks | (secret) |
+| `AUTHZED_ENABLED` | Formbricks | true |
 | `NEXTAUTH_SECRET` | Formbricks | (secret) |
+| `AUTHZED_INSECURE` | Formbricks | true |
 | `CUBEJS_API_SECRET` | Formbricks | (secret) |
 | `CUBEJS_JWT_ISSUER` | Formbricks | formbricks-web |
+| `AUTHZED_SYSTEM_KEY` | Formbricks | formbricks |
+| `AUTHZED_CONSISTENCY` | Formbricks | fully_consistent |
 | `CUBEJS_JWT_AUDIENCE` | Formbricks | formbricks-cube |
+| `SKIP_STARTUP_MIGRATION` | Formbricks | true |
 | `PASSWORD_RESET_DISABLED` | Formbricks | (secret) |
 | `EMAIL_VERIFICATION_DISABLED` | Formbricks | 1 |
 | `POSTGRES_DB` | HubPostgres | hub |
@@ -62,9 +77,11 @@ That makes six services: Formbricks, its Postgres, Valkey, the Hub, the Hub's Po
 ## Configuration
 
 - **Volume:** `/var/lib/postgresql/data`
+- **Start command:** `/bin/sh -c 'spicedb datastore migrate head && exec spicedb serve'`
 - **Start command:** `/bin/sh -c '/usr/local/bin/goose -dir /app/migrations postgres "$DATABASE_URL" up && /usr/local/bin/river migrate-up --database-url "$DATABASE_URL" && exec /app/hub-api'`
 - **Start command:** `/bin/sh -c 'valkey-server --requirepass "$REDIS_PASSWORD" --appendonly yes --maxmemory-policy noeviction --bind 0.0.0.0 :: --protected-mode no'`
 - **Volume:** `/data`
+- **Start command:** `/bin/sh -c 'cd /home/nextjs && node packages/database/dist/scripts/apply-migrations.js && formbricks-authzed upgrade prepare && exec ./start.sh'`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/home/nextjs/apps/web/uploads`
 

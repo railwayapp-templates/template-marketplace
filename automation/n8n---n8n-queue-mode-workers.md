@@ -1,4 +1,4 @@
-# Deploy n8n Queue Mode on Railway
+# Deploy n8n on Railway
 
 N8n in queue mode [Oct'26] — workers, webhooks & Redis. Scales fast.
 

@@ -30,6 +30,7 @@ This one deploys without asking anything. It ships no auth and no email, on purp
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 

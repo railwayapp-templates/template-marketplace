@@ -29,6 +29,7 @@ The Spring Boot template on Railway builds from a repository last updated in Oct
 
 ## Configuration
 
+- **Healthcheck:** `/actuator/health`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Starters · **Languages:** Java, Dockerfile

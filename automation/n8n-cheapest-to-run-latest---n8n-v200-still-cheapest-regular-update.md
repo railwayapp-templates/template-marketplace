@@ -14,8 +14,8 @@ Hosting n8n with SQLite on Railway provides a budget-friendly solution for workf
 
 | Service | Source | Type |
 |---------|--------|------|
-| n8n | `n8nio/n8n:2.7.1` | Web service |
-| task-runners | `n8nio/runners:2.7.1` | Worker |
+| n8n | `n8nio/n8n:2.41.6` | Web service |
+| task-runners | `n8nio/runners:2.41.6` | Worker |
 
 ## Environment variables
 

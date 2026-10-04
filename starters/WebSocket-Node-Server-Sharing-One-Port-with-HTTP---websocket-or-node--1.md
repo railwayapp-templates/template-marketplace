@@ -29,6 +29,7 @@ Here the WebSocket server is attached to a Node HTTP server. The same port answe
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Starters · **Languages:** HTML, TypeScript

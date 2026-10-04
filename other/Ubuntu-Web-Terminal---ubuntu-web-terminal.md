@@ -1,14 +1,20 @@
 # Deploy Ubuntu Web Terminal on Railway
 
-Ubuntu 24.04 terminal in your browser: persistent home volume, no setup
+Ubuntu 24.04 Linux terminal in your browser: persistent home, no setup
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ubuntu-web-terminal)
 
 ## About
 
-A full Ubuntu 24.04 LTS shell in your browser: open the service's URL on a laptop, phone or locked-down machine, enter the generated password, and you are at a `bash` prompt inside `tmux` on an always-on Linux box. Your home directory lives on a **volume**, so files, dotfiles and installed tools survive every redeploy — unlike most terminal templates, which lose everything when the container restarts. One click, **no inputs**: the password is generated for you. Node.js 24 LTS, Python 3, git, the GitHub CLI, build-essential, tmux, Claude Code and the usual tools are preinstalled; user `dev` has passwordless `sudo`.
+![Ubuntu Web Terminal in a browser tab: tmux with Node 24, Python 3.12 and Claude Code, two cloned repos and a passing test run](https://bogusz.co/external/ubuntu-web-terminal-banner-v1.png)
 
-**Plan requirements.** Idle, the box uses about **20 MB** of RAM (measured on this image after five idle minutes; 28 MB peak at boot), well inside Railway's Free and Trial limits. What you run inside it is what costs: a Node build or a Claude Code session adds a few hundred MB while it runs. Hobby is the comfortable fit for daily use. The image is pinned by digest, so what you deploy today is what you get on every redeploy.
+A real Ubuntu 24.04 shell in any browser tab — laptop, phone or locked-down work machine — with your home directory on a volume, so files and installed tools survive every redeploy.
+
+**Get started**
+
+1. **Deploy.** Nothing to fill in. Idle, it uses about 20 MB of RAM and runs on every plan; Free and Trial volumes hold only 0.5 GB, so move to Hobby once you install toolchains or clone real projects.
+2. **Sign in.** Open the service URL. Username `dev`; the password is `PASSWORD` in the service's **Variables** tab.
+3. **Start working.** You land in `tmux` with Node.js 24, Python 3, git, `gh` and Claude Code installed. Run `claude`, clone a repo, or start a long job and close the tab — reopening the URL reattaches.
 
 The service runs two small processes: `ttyd` (a terminal over WebSocket) on loopback and `nginx` on the public HTTPS domain with basic auth in front of it. The healthcheck `/healthz` is open and only passes once the terminal actually answers, so Railway routes traffic to a new deployment only when it is ready. The shell attaches to a `tmux` session named `main`, so closing the tab does not kill what you were running — reopen the URL and you are back where you left off. `/home/dev` is a Railway volume: projects, dotfiles, `~/.local`, `~/.npm-global` and Claude Code's login all persist. The image is built from a public Dockerfile and pinned by digest.
 
@@ -16,7 +22,7 @@ The service runs two small processes: `ttyd` (a terminal over WebSocket) on loop
 
 | Service | Source | Type |
 |---------|--------|------|
-| ubuntu | `ghcr.io/will-bogusz/railway-ubuntu-ssh:24.04-20260920b@sha256:ebaafc81557b7294a2b13d08986173efacab19d3004c2ac40074753dbcf6136c` | Web service |
+| ubuntu | `ghcr.io/will-bogusz/railway-ubuntu-ssh:24.04-20261003@sha256:f7231f540d36c0148d154bb43a4c46e924eb4a49a01b97dbffb94cce81e69b7c` | Web service |
 
 ## Environment variables
 

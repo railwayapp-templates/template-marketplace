@@ -27,6 +27,7 @@ This starter is Express 5 on current Node, with a committed lockfile that passes
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Starters · **Languages:** TypeScript

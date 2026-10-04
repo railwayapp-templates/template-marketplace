@@ -38,13 +38,13 @@ from it.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Weaviate | `semitechnologies/weaviate:1.32.19` | Database |
+| Weaviate | `semitechnologies/weaviate:1.39.2` | Database |
 | Postgres | `postgres:15-alpine` | Database |
 | Storage | `pgsty/minio:RELEASE.2026-08-04T00-00-00Z` | Database |
-| Api | `langgenius/dify-api:1.16.1` | Web service |
-| Web | `langgenius/dify-web:1.16.1` | Web service |
-| plugin-daemon | `langgenius/dify-plugin-daemon:0.6.6-local` | TCP service |
-| Worker | `langgenius/dify-api:1.16.1` | Worker |
+| Api | `langgenius/dify-api:1.17.1` | Web service |
+| Web | `langgenius/dify-web:1.17.1` | Web service |
+| plugin-daemon | `langgenius/dify-plugin-daemon:0.6.10-local` | TCP service |
+| Worker | `langgenius/dify-api:1.17.1` | Worker |
 | Sandbox | `langgenius/dify-sandbox:0.2.15` | Database |
 | Redis | `redis:6-alpine` | Database |
 

@@ -6,22 +6,23 @@ LiteLLM: LLM router, virtual keys, budgets, cost tracking, guardrails
 
 ## About
 
-LiteLLM is an open-source AI gateway that puts one OpenAI-compatible endpoint in front of 100+ LLM providers. This template deploys the LiteLLM Proxy Server with Postgres and Redis, giving you virtual API keys, per-key budgets, spend tracking, rate limits, fallbacks and response caching — managed from a web dashboard.
+![LiteLLM Admin UI: virtual keys for Claude Code, Cursor and three apps, each with its own spend and monthly budget](https://bogusz.co/external/litellm-banner-v1.png)
 
-**Plan requirements.** LiteLLM needs about **0.9 GB to start** and **2 GB or more for
-real use** (measured on this image: 877 MiB at readiness, ~120 MiB for the pre-deploy
-migration). **Hobby or higher is recommended.** Trial (1 GB) starts and works for light
-use but has little headroom; Free (0.5 GB) cannot run it — the deploy stops immediately
-with a clear "upgrade the plan" message instead of crash-looping. Budget for the
-gateway, Postgres, Redis and provider usage; the $5 Hobby fee does not cover the stack.
+One OpenAI-compatible endpoint for 100+ LLM providers, with virtual keys, per-key budgets and spend tracking for every app and coding agent you run.
 
-LiteLLM Proxy runs as a Python service backed by Postgres for models, keys, budgets and spend history, plus Redis for response caching and cross-replica rate limiting. This template wires all three services together over private networking, generates secrets, uses official digest-pinned images, applies database migrations in a lightweight pre-deploy step, and gates deployment on readiness. No config file is required for a default deployment; add models and your provider credentials in the Admin UI afterwards.
+**Get started**
+
+1. **Deploy.** No inputs: LiteLLM, Postgres and Redis are wired together and every secret is generated. Use Hobby or higher — the stack idles at about 1 GB. Trial (1 GB) works for light use with little headroom; Free (0.5 GB) cannot run it.
+2. **Sign in.** Open the LiteLLM service URL at `/ui`. Username `admin`; the password is `LITELLM_MASTER_KEY` from the LiteLLM service's **Variables** tab.
+3. **Add a model and call it.** **Models → Add Model** and paste a provider key — one OpenRouter key added as `openrouter/*` makes all 400+ OpenRouter models available. Point Claude Code, Cursor or any OpenAI-compatible client at your URL with the master key, or a virtual key from **Keys**.
+
+LiteLLM is an open-source AI gateway that puts one OpenAI-compatible endpoint in front of 100+ LLM providers. This template deploys the LiteLLM Proxy Server with Postgres and Redis, giving you virtual API keys, per-key budgets, spend tracking, rate limits, fallbacks and response caching — managed from a web dashboard. The proxy runs as a Python service backed by Postgres for models, keys, budgets and spend history, plus Redis for response caching and cross-replica rate limiting. All three services are wired together over private networking, with generated secrets, official digest-pinned images, database migrations in a lightweight pre-deploy step, and deployment gated on readiness. No config file is required for a default deployment; add models and your provider credentials in the Admin UI afterwards.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| LiteLLM | `ghcr.io/berriai/litellm:v1.100.1@sha256:a3715fa7ad8387941ab697259bd2881d68931657247a41984f90fae6d11c62bf` | Web service |
+| LiteLLM | `ghcr.io/berriai/litellm:v1.100.4@sha256:ed8efb7e8c58c594bd919a1e106ed1f2900ce2ae946290dd40cfa76ca4fcb9e5` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18@sha256:469c779c7c57ec6bad4670a0a3cb5a830aa6e0ce4f3707137608de5223a5041c` | Database |
 | Redis | `redis:8.2@sha256:7d1e4ce8b9395088377ab382d1f6cfdbd13b3690795198a0399ab8d683064d6d` | Database |
 
@@ -43,7 +44,7 @@ LiteLLM Proxy runs as a Python service backed by Postgres for models, keys, budg
 | `ANTHROPIC_API_KEY` | LiteLLM | (secret) | Optional |
 | `STORE_MODEL_IN_DB` | LiteLLM | True | Lets you add models from the Admin UI. Without it, Add Model returns HTTP 500. |
 | `LITELLM_MASTER_KEY` | LiteLLM | - | Your API key AND the Admin UI password. Generated for you - copy it from this service's Variables tab after deploying. |
-| `OPENROUTER_API_KEY` | LiteLLM | (secret) | Optional - One key unlocks ~100 models via the openrouter/* wildcard. |
+| `OPENROUTER_API_KEY` | LiteLLM | (secret) | Optional - One key unlocks 400+ models via the openrouter/* wildcard. |
 | `LITELLM_CONFIG_YAML` | LiteLLM | - | Optional - Advanced config.yaml, e.g. Prometheus. Whitespace-only is ignored; invalid YAML fails pre-deploy before migrations. Max 32768 characters. |
 | `LITELLM_LOCAL_MODEL_COST_MAP` | LiteLLM | True | Uses the bundled pricing table instead of fetching it at boot. Halves startup time. |
 | `ENFORCE_PRISMA_MIGRATION_CHECK` | LiteLLM | true | Fails the deploy loudly on a bad migration instead of serving a half-migrated database. |

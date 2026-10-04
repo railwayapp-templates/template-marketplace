@@ -32,6 +32,7 @@ This template listens, answers, and shuts down cleanly, which is the smallest th
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Starters · **Languages:** TypeScript

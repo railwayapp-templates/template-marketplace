@@ -29,8 +29,9 @@ Nothing is missing that you cannot add in a minute - `npx sv add tailwindcss`, `
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Languages:** Svelte, JavaScript, TypeScript, HTML
+**Category:** Starters · **Languages:** Svelte, TypeScript, HTML
 
 [View on Railway →](https://railway.com/deploy/sveltekit-or-svelt-1)

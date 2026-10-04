@@ -32,6 +32,7 @@ This template pins 0.5.1 and commits Cargo.lock, so a build a year from now prod
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Starters · **Languages:** Rust, Dockerfile

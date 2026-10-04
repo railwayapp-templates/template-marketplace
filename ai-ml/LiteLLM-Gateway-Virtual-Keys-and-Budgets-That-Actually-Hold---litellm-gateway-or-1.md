@@ -41,6 +41,7 @@ Without Postgres there are no virtual keys, no budgets and no spend tracking —
 ## Configuration
 
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/health/liveliness`
 - **Networking:** Public domain with automatic HTTPS
 - **Start command:** `/bin/sh -c 'redis-server --requirepass "$REDIS_PASSWORD" --appendonly yes --bind 0.0.0.0 :: --protected-mode no'`
 - **Volume:** `/data`

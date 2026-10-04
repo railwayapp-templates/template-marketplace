@@ -18,6 +18,7 @@ Deploying Flask means more than pushing `app.py`. You need a production WSGI ser
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Starters · **Languages:** HTML, Python

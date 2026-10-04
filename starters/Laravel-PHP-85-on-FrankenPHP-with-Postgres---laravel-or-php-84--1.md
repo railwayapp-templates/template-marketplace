@@ -44,6 +44,7 @@ This one is a current scaffold in a container that gets two things right. Both a
 ## Configuration
 
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/up`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Starters · **Languages:** Blade, PHP, Shell, Dockerfile, JavaScript, CSS
