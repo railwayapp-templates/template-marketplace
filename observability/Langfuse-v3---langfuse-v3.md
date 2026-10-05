@@ -25,17 +25,19 @@ This template deploys the production Langfuse v3 stack on Railway as a 6-service
 
 | Service | Source | Type |
 |---------|--------|------|
+| minio | [INAPP-Mobile/railway-langfuse-v3](https://github.com/INAPP-Mobile/railway-langfuse-v3) (root: minio) | Database |
 | clickhouse | `clickhouse/clickhouse-server:25.12` | Database |
 | postgres | `postgres:17` | Database |
 | langfuse-worker | [INAPP-Mobile/railway-langfuse-v3](https://github.com/INAPP-Mobile/railway-langfuse-v3) (root: services/langfuse-worker) | Worker |
 | redis | [INAPP-Mobile/railway-langfuse-v3](https://github.com/INAPP-Mobile/railway-langfuse-v3) (root: services/redis) | Database |
-| minio | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
 | langfuse-web | [INAPP-Mobile/railway-langfuse-v3](https://github.com/INAPP-Mobile/railway-langfuse-v3) (root: services/langfuse-web) | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `MINIO_ROOT_USER` | minio | (secret) | RustFS (S3-compatible object storage, MinIO-compatible) root username. Referenced by Langfuse as ${{minio.MINIO_ROOT_USER}}. |
+| `MINIO_ROOT_PASSWORD` | minio | (secret) | RustFS (S3-compatible object storage, MinIO-compatible) root password. Auto-generated at deploy time. Referenced by Langfuse as ${{minio.MINIO_ROOT_PASSWORD}}. |
 | `CLICKHOUSE_DB` | clickhouse | default | Default ClickHouse database. Langfuse uses this for analytics data. Referenced as ${{clickhouse.CLICKHOUSE_DB}}. |
 | `CLICKHOUSE_USER` | clickhouse | (secret) | ClickHouse username. Referenced by Langfuse as ${{clickhouse.CLICKHOUSE_USER}}. |
 | `CLICKHOUSE_PASSWORD` | clickhouse | (secret) | ClickHouse password. Auto-generated at deploy time. Referenced by Langfuse as ${{clickhouse.CLICKHOUSE_PASSWORD}}. |
@@ -69,24 +71,22 @@ This template deploys the production Langfuse v3 stack on Railway as a 6-service
 | `LANGFUSE_S3_MEDIA_UPLOAD_PREFIX` | langfuse-worker | media/ | Key prefix for media upload objects. |
 | `LANGFUSE_S3_MEDIA_UPLOAD_REGION` | langfuse-worker | auto | S3 region for media uploads (MinIO expects "auto"). |
 | `LANGFUSE_S3_BATCH_EXPORT_ENABLED` | langfuse-worker | false | Batch export to S3. Off by default; flip to true to enable. |
-| `LANGFUSE_S3_BATCH_EXPORT_ENDPOINT` | langfuse-worker | - | Internal MinIO endpoint for batch exports. |
-| `LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT` | langfuse-worker | - | Internal MinIO endpoint used by the server for event uploads. |
-| `LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT` | langfuse-worker | - | PUBLIC MinIO endpoint used by browsers for presigned media uploads. |
-| `LANGFUSE_S3_BATCH_EXPORT_ACCESS_KEY_ID` | langfuse-worker | - | MinIO access key for batch exports — companion-referenced. |
-| `LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID` | langfuse-worker | - | MinIO access key for event uploads — companion-referenced. |
-| `LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID` | langfuse-worker | - | MinIO access key for media uploads — companion-referenced. |
+| `LANGFUSE_S3_BATCH_EXPORT_ENDPOINT` | langfuse-worker | - | Internal S3 endpoint (RustFS, MinIO-compatible) for batch exports. |
+| `LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT` | langfuse-worker | - | Internal S3 endpoint (RustFS, MinIO-compatible) used by the server for event uploads. |
+| `LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT` | langfuse-worker | - | PUBLIC S3 endpoint (RustFS, MinIO-compatible) used by browsers for presigned media uploads. |
+| `LANGFUSE_S3_BATCH_EXPORT_ACCESS_KEY_ID` | langfuse-worker | - | S3 access key (RustFS, MinIO-compatible) for batch exports — companion-referenced. |
+| `LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID` | langfuse-worker | - | S3 access key (RustFS, MinIO-compatible) for event uploads — companion-referenced. |
+| `LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID` | langfuse-worker | - | S3 access key (RustFS, MinIO-compatible) for media uploads — companion-referenced. |
 | `LANGFUSE_S3_BATCH_EXPORT_FORCE_PATH_STYLE` | langfuse-worker | true | Use path-style S3 URLs (required for MinIO). |
 | `LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE` | langfuse-worker | true | Use path-style S3 URLs (required for MinIO). |
 | `LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE` | langfuse-worker | true | Use path-style S3 URLs (required for MinIO). |
-| `LANGFUSE_S3_BATCH_EXPORT_EXTERNAL_ENDPOINT` | langfuse-worker | - | Public MinIO endpoint browsers use to download export files. |
-| `LANGFUSE_S3_BATCH_EXPORT_SECRET_ACCESS_KEY` | langfuse-worker | (secret) | MinIO secret key for batch exports — companion-referenced. |
-| `LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY` | langfuse-worker | (secret) | MinIO secret key for event uploads — companion-referenced. |
-| `LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY` | langfuse-worker | (secret) | MinIO secret key for media uploads — companion-referenced. |
+| `LANGFUSE_S3_BATCH_EXPORT_EXTERNAL_ENDPOINT` | langfuse-worker | - | Public S3 endpoint (RustFS, MinIO-compatible) browsers use to download export files. |
+| `LANGFUSE_S3_BATCH_EXPORT_SECRET_ACCESS_KEY` | langfuse-worker | (secret) | S3 secret key (RustFS, MinIO-compatible) for batch exports — companion-referenced. |
+| `LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY` | langfuse-worker | (secret) | S3 secret key (RustFS, MinIO-compatible) for event uploads — companion-referenced. |
+| `LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY` | langfuse-worker | (secret) | S3 secret key (RustFS, MinIO-compatible) for media uploads — companion-referenced. |
 | `REDIS_AUTH` | redis | - | Redis password (requirepass). Auto-generated at deploy time. Referenced by langfuse-web and langfuse-worker as ${{redis.REDIS_AUTH}}. |
 | `REDIS_HOST` | redis | - | Redis internal hostname. Referenced by Langfuse as ${{redis.REDIS_HOST}}. |
 | `REDIS_PORT` | redis | 6379 | Redis server listening port. Referenced by Langfuse as ${{redis.REDIS_PORT}}. |
-| `MINIO_ROOT_USER` | minio | (secret) | MinIO root username. Referenced by Langfuse as ${{minio.MINIO_ROOT_USER}}. |
-| `MINIO_ROOT_PASSWORD` | minio | (secret) | MinIO root password. Auto-generated at deploy time. Referenced by Langfuse as ${{minio.MINIO_ROOT_PASSWORD}}. |
 | `PORT` | langfuse-web | 3000 | HTTP port Langfuse web listens on. |
 | `SALT` | langfuse-web | - | Salt used for hashing API keys. Auto-generated at deploy time. Referenced by langfuse-worker. |
 | `REDIS_AUTH` | langfuse-web | - | Redis password — companion-referenced so consumer and producer always match. |
@@ -108,23 +108,22 @@ This template deploys the production Langfuse v3 stack on Railway as a 6-service
 | `LANGFUSE_S3_MEDIA_UPLOAD_BUCKET` | langfuse-web | langfuse | S3 bucket for media uploads. |
 | `LANGFUSE_S3_MEDIA_UPLOAD_PREFIX` | langfuse-web | media/ | Key prefix for media upload objects. |
 | `LANGFUSE_S3_MEDIA_UPLOAD_REGION` | langfuse-web | auto | S3 region for media uploads (MinIO expects "auto"). |
-| `LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT` | langfuse-web | - | Internal MinIO endpoint used by the server for event uploads. |
-| `LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT` | langfuse-web | - | PUBLIC MinIO endpoint used by browsers for presigned media uploads. |
-| `LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID` | langfuse-web | - | MinIO access key for event uploads — companion-referenced. |
-| `LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID` | langfuse-web | - | MinIO access key for media uploads — companion-referenced. |
+| `LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT` | langfuse-web | - | Internal S3 endpoint (RustFS, MinIO-compatible) used by the server for event uploads. |
+| `LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT` | langfuse-web | - | PUBLIC S3 endpoint (RustFS, MinIO-compatible) used by browsers for presigned media uploads. |
+| `LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID` | langfuse-web | - | S3 access key (RustFS, MinIO-compatible) for event uploads — companion-referenced. |
+| `LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID` | langfuse-web | - | S3 access key (RustFS, MinIO-compatible) for media uploads — companion-referenced. |
 | `LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE` | langfuse-web | true | Use path-style S3 URLs (required for MinIO). |
 | `LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE` | langfuse-web | true | Use path-style S3 URLs (required for MinIO). |
-| `LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY` | langfuse-web | (secret) | MinIO secret key for event uploads — companion-referenced. |
-| `LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY` | langfuse-web | (secret) | MinIO secret key for media uploads — companion-referenced. |
+| `LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY` | langfuse-web | (secret) | S3 secret key (RustFS, MinIO-compatible) for event uploads — companion-referenced. |
+| `LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY` | langfuse-web | (secret) | S3 secret key (RustFS, MinIO-compatible) for media uploads — companion-referenced. |
 
 ## Configuration
 
+- **Volume:** `/data`
 - **Volume:** `/var/lib/clickhouse`
 - **Volume:** `/var/lib/postgresql`
-- **Volume:** `/data`
-- **Start command:** `sh -c 'mkdir -p /data/langfuse && minio server /data --address 0.0.0.0:9000 --console-address 0.0.0.0:9001'`
-- **Networking:** Public domain with automatic HTTPS
 - **Healthcheck:** `/`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** Observability · **Languages:** Dockerfile, Shell
 

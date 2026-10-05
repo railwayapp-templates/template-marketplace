@@ -13,17 +13,17 @@ modern mail server, but it ships without a webmail UI. This template fills
 that gap: a fast, offline-capable JMAP mail client you point at your own
 Stalwart server — one container, two variables, done.
 
-A single SvelteKit (Node) service with a volume at `/app/.data` for sessions,
-rate limits and push subscriptions. Set `PUBLIC_JMAP_SERVER_URL` to your
+A single SvelteKit (Node) service with a volume at `/app/.data` for its SQLite
+store: sessions, rate limits, settings and push subscriptions. Set `PUBLIC_JMAP_SERVER_URL` to your
 Stalwart server's base URL (e.g. `https://mail.example.com`) — everything
 else has working defaults, and `SESSION_SECRET` is auto-generated. Your users
 sign in with their mailbox email + password (app passwords and
 `password$totp` TOTP suffixes work); credentials are AES-256-GCM-sealed in a
 server-side SQLite store, the browser cookie only ever holds an opaque
-session id, and all JMAP traffic is proxied same-origin. Mail is cached
-client-side in IndexedDB, so the app works offline and installs as a PWA. Set
-`PUBLIC_APP_NAME` and the UI, page titles and install manifest follow your
-branding. There's a [Stalwart template](https://railway.com/deploy/stalwart)
+session id, and all JMAP traffic is proxied same-origin. The client is Zaur Mail 2: mail,
+contacts, calendar and server-side filter rules in one app, with drafts and
+an outbox that keep working offline, live updates over JMAP push, and phone
+and tablet layouts. It installs as a PWA. There's a [Stalwart template](https://railway.com/deploy/stalwart)
 on Railway too — deploy both for a complete self-hosted mail stack.
 
 ## What gets deployed
@@ -38,8 +38,10 @@ on Railway too — deploy both for a complete self-hosted mail stack.
 | --------- | ------- | ----------- |
 | `HOST` | :: | Bind address - leave as :: (dual-stack) |
 | `PORT` | 3000 | App port - leave as 3000 |
+| `VAPID_SUBJECT` | - | Contact for push services, e.g. mailto:you@example.com |
 | `SESSION_SECRET` | (secret) | Auto-generated - seals sign-in credentials in the server-side store |
-| `PUBLIC_APP_NAME` | Webmail | App name shown in the UI, page titles and PWA manifest |
+| `VAPID_PUBLIC_KEY` | - | Web Push public key (npx web-push generate-vapid-keys) - enables new-mail notifications |
+| `VAPID_PRIVATE_KEY` | - | Web Push private key, pairs with VAPID_PUBLIC_KEY |
 | `PUBLIC_JMAP_SERVER_URL` | - | Base URL of your Stalwart (JMAP) server, e.g. https://mail.example.com |
 | `STALWART_OAUTH_ENABLED` | - | Set true to sign in via Stalwart OAuth instead of password |
 | `STALWART_OAUTH_CLIENT_ID` | - | OAuth client id registered in Stalwart (PKCE S256) |
@@ -51,6 +53,6 @@ on Railway too — deploy both for a complete self-hosted mail stack.
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/.data`
 
-**Category:** Other · **Languages:** TypeScript, Svelte, CSS, JavaScript, HTML, Shell, Python, Dockerfile, EJS, Java
+**Category:** Other · **Languages:** TypeScript, Svelte, CSS, JavaScript, HTML, Python, Shell, Dockerfile, EJS, Java
 
 [View on Railway →](https://railway.com/deploy/stalwart-webmail)

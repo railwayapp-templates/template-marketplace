@@ -1,4 +1,4 @@
-# Deploy WhatsApp Notifications API [Updated Oct'26] on Railway
+# Deploy WhatsApp on Railway
 
 Self-host WhatsApp order alerts, reminders & OTPs — no Meta approval
 

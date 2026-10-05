@@ -29,6 +29,6 @@ KrakenD Community Edition is a high-performance stateless API gateway. This temp
 - **Networking:** Public domain with automatic HTTPS
 - **Healthcheck:** `/healthz`
 
-**Category:** Starters · **Languages:** Shell, Dockerfile, JavaScript
+**Category:** Starters · **Languages:** JavaScript, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/krakend-gateway)

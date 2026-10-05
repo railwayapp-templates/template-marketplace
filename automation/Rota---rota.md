@@ -16,7 +16,7 @@ The Gateway service owns the public web domain. On first deployment, the Core se
 |---------|--------|------|
 | TimescaleDB | `timescale/timescaledb:2.30.0-pg17@sha256:3113d12b78392c064aa7475caf7a52b447b29ddd4f9bfd23526733fcb03e3459` | Database |
 | Core | [monotykamary/railway-template-rota](https://github.com/monotykamary/railway-template-rota) (root: core) | TCP service |
-| Dashboard | `ghcr.io/alpkeskin/rota-dashboard:2.2.2@sha256:86b4eed8b7f40432198b40bf1a5de48d9a45acd30eb7d68f3c5c0e4f5a46886a` | Worker |
+| Dashboard | `ghcr.io/alpkeskin/rota-dashboard:2.3.0@sha256:e56cb8b9d424b135a528d777917fe7133c715ee2e8216faaad22c4c04dff745a` | Worker |
 | Gateway | [monotykamary/railway-template-rota](https://github.com/monotykamary/railway-template-rota) (root: gateway) | Web service |
 
 ## Environment variables

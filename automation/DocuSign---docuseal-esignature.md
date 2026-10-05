@@ -1,4 +1,4 @@
-# Deploy Sign Documents Without DocuSign Fees — Self-Host DocuSeal on Railway on Railway
+# Deploy DocuSign on Railway
 
 Self-host DocuSeal: legal e-signatures. No DocuSign per-envelope fees.
 

@@ -14,7 +14,7 @@ This template runs the official `minio/minio` image wired for Railway. MinIO ser
 
 | Service | Source | Type |
 |---------|--------|------|
-| minio | `quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
+| minio | `pgsty/silo:RELEASE.2026-09-16T00-00-00Z` | Web service |
 
 ## Environment variables
 
@@ -25,7 +25,7 @@ This template runs the official `minio/minio` image wired for Railway. MinIO ser
 
 ## Configuration
 
-- **Start command:** `/bin/sh -c 'minio server /data --address ":${PORT:-9000}" --console-address ":9001"'`
+- **Start command:** `/bin/sh -c 'silo server /data --address ":${PORT:-9000}" --console-address ":9001"'`
 - **Healthcheck:** `/minio/health/live`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`

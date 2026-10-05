@@ -23,31 +23,51 @@ Hosting Twenty CRM involves deploying a self-hosted backend that manages your cu
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `ALLOW_NOSSL` | Postgres | false | - |
-| `POSTGRES_DB` | Postgres | postgres | - |
-| `POSTGRES_USER` | Postgres | (secret) | - |
-| `PGUSER_SUPERUSER` | Postgres | postgres | - |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | - |
-| `PGPASSWORD_SUPERUSER` | Postgres | (secret) | - |
-| `REDISPORT` | Redis | 6379 | - |
-| `REDISUSER` | Redis | default | - |
+| `ALLOW_NOSSL` | Postgres | false | Allow non-SSL connections |
+| `POSTGRES_DB` | Postgres | postgres | Default PostgreSQL database name |
+| `DATABASE_URL` | Postgres | - | PostgreSQL connection string |
+| `POSTGRES_USER` | Postgres | (secret) | PostgreSQL superuser username |
+| `PGUSER_SUPERUSER` | Postgres | postgres | PostgreSQL superuser name |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Password of Postgresql db |
+| `DATABASE_PUBLIC_URL` | Postgres | - | PostgreSQL public connection string |
+| `PGPASSWORD_SUPERUSER` | Postgres | (secret) | PostgreSQL superuser password |
+| `REDISHOST` | Redis | - | Redis server hostname |
+| `REDISPORT` | Redis | 6379 | Redis server port |
+| `REDISUSER` | Redis | default | Redis username |
 | `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis | (secret) | - |
-| `REDIS_PASSWORD` | Redis | (secret) | - |
+| `REDISPASSWORD` | Redis | (secret) | Redis password |
+| `REDIS_PASSWORD` | Redis | (secret) | Redis password for authentication |
 | `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
-| `NODE_PORT` | Twenty | 3000 | - |
-| `APP_SECRET` | Twenty | (secret) | - |
-| `STORAGE_TYPE` | Twenty | s3 | - |
-| `STORAGE_LOCAL_PATH` | Twenty | data | - |
-| `DISABLE_DB_MIGRATIONS` | Twenty | false | - |
-| `STORAGE_S3_SECRET_ACCESS_KEY` | Twenty | (secret) | - |
-| `DISABLE_CRON_JOBS_REGISTRATION` | Twenty | false | - |
-| `ENABLE_ALPINE_PRIVATE_NETWORKING` | Twenty | true | - |
-| `APP_SECRET` | Twenty Worker | (secret) | - |
-| `DISABLE_DB_MIGRATIONS` | Twenty Worker | true | - |
-| `STORAGE_S3_SECRET_ACCESS_KEY` | Twenty Worker | (secret) | - |
-| `DISABLE_CRON_JOBS_REGISTRATION` | Twenty Worker | true | - |
-| `ENABLE_ALPINE_PRIVATE_NETWORKING` | Twenty Worker | true | - |
+| `PORT` | Twenty | - | HTTP port for the Twenty application |
+| `NODE_PORT` | Twenty | 3000 | Node.js application port |
+| `REDIS_URL` | Twenty | - | Redis connection string |
+| `APP_SECRET` | Twenty | (secret) | Application secret key for encryption |
+| `SERVER_URL` | Twenty | - | Public server URL for Twenty application |
+| `STORAGE_TYPE` | Twenty | s3 | Storage backend type (s3 or local) |
+| `PG_DATABASE_URL` | Twenty | - | PostgreSQL database connection string |
+| `STORAGE_S3_NAME` | Twenty | - | S3 bucket name for file storage |
+| `STORAGE_S3_REGION` | Twenty | - | AWS S3 region |
+| `STORAGE_LOCAL_PATH` | Twenty | data | Local filesystem path for file storage |
+| `STORAGE_S3_ENDPOINT` | Twenty | - | S3-compatible endpoint URL |
+| `DISABLE_DB_MIGRATIONS` | Twenty | false | Set to true to skip database migrations on startup |
+| `STORAGE_S3_ACCESS_KEY_ID` | Twenty | - | S3 access key ID |
+| `STORAGE_S3_SECRET_ACCESS_KEY` | Twenty | (secret) | S3 secret access key |
+| `DISABLE_CRON_JOBS_REGISTRATION` | Twenty | false | Set to true to disable cron job registration |
+| `ENABLE_ALPINE_PRIVATE_NETWORKING` | Twenty | true | Enable private networking for Alpine |
+| `REDIS_URL` | Twenty Worker | - | Redis connection string |
+| `APP_SECRET` | Twenty Worker | (secret) | Application secret key for encryption |
+| `SERVER_URL` | Twenty Worker | - | Public server URL for Twenty application |
+| `STORAGE_TYPE` | Twenty Worker | - | Storage backend type (s3 or local) |
+| `PG_DATABASE_URL` | Twenty Worker | - | PostgreSQL database connection string |
+| `STORAGE_S3_NAME` | Twenty Worker | - | S3 bucket name for file storage |
+| `STORAGE_S3_REGION` | Twenty Worker | - | AWS S3 region |
+| `STORAGE_LOCAL_PATH` | Twenty Worker | - | Local filesystem path for file storage |
+| `STORAGE_S3_ENDPOINT` | Twenty Worker | - | S3-compatible endpoint URL |
+| `DISABLE_DB_MIGRATIONS` | Twenty Worker | true | Set to true to skip database migrations on startup |
+| `STORAGE_S3_ACCESS_KEY_ID` | Twenty Worker | - | S3 access key ID |
+| `STORAGE_S3_SECRET_ACCESS_KEY` | Twenty Worker | (secret) | S3 secret access key |
+| `DISABLE_CRON_JOBS_REGISTRATION` | Twenty Worker | true | Set to true to disable cron job registration |
+| `ENABLE_ALPINE_PRIVATE_NETWORKING` | Twenty Worker | true | Enable private networking for Alpine |
 
 ## Configuration
 

@@ -1,6 +1,6 @@
-# Deploy Instatic — Self-Hosted Webflow Alternative on Railway
+# Deploy Instatic on Railway
 
-Self-host Instatic — visual website builder, clean HTML, no lock-in
+Host Instatic [Oct'26] — visual website builder, clean HTML, no lock-in
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/instatic-website-builder)
 
