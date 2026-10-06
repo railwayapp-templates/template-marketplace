@@ -43,8 +43,8 @@ Buzz Relay is a Nostr relay with built-in Git hosting over Nostr (NIP-89). It le
 | `BUZZ_S3_ADDRESSING_STYLE` | relay | path | MinIO sibling uses path-style S3 addressing (required for private-network hostnames). |
 | `BUZZ_GIT_HOOK_HMAC_SECRET` | relay | (secret) | HMAC secret for git hook verification. Auto-generated. |
 | `REDIS_PASSWORD` | redis | (secret) | Redis password. Default literal 'redis' chosen so marketplace first-time deploys authenticate against the relay's literal REDIS_URL out of the box. Rotate this in the dashboard AND update the relay's REDIS_URL to match before going to production. |
-| `MINIO_ROOT_USER` | minio | (secret) | MinIO root (admin) username. Referenced by the relay as BUZZ_S3_ACCESS_KEY via ${{minio.MINIO_ROOT_USER}}. |
-| `MINIO_ROOT_PASSWORD` | minio | (secret) | MinIO root password — auto-generated at deploy time. Referenced by the relay as BUZZ_S3_SECRET_KEY via ${{minio.MINIO_ROOT_PASSWORD}}. |
+| `MINIO_ROOT_USER` | minio | (secret) | RustFS (S3-compatible object storage, MinIO-compatible) root username. RustFS reads this variable natively. Referenced by the relay as BUZZ_S3_ACCESS_KEY via ${{minio.MINIO_ROOT_USER}}. |
+| `MINIO_ROOT_PASSWORD` | minio | (secret) | RustFS (S3-compatible object storage, MinIO-compatible) root password — auto-generated at deploy time. RustFS reads this variable natively. Referenced by the relay as BUZZ_S3_SECRET_KEY via ${{minio.MINIO_ROOT_PASSWORD}}. |
 | `POSTGRES_DB` | postgres | buzz | Initial database created on first boot. MUST match the database name in the relay's DATABASE_URL (path component: /buzz). |
 | `POSTGRES_USER` | postgres | (secret) | Postgres superuser name. Used both for the running DB and as the credential prefix in the relay's DATABASE_URL. |
 | `POSTGRES_PASSWORD` | postgres | (secret) | Postgres password. Default literal 'postgres' chosen so marketplace first-time deploys authenticate against the relay's literal DATABASE_URL out of the box. Rotate this in the dashboard AND update the relay's DATABASE_URL to match before going to production. |

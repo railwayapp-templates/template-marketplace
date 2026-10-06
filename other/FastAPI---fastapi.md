@@ -44,7 +44,12 @@ docker run --rm -p 8000:8000 -e PORT=8000 railwayapp-fastapi
 
 | Service | Source | Type |
 |---------|--------|------|
-| railwayapp-fastapi | [vergissberlin/railwayapp-fastapi](https://github.com/vergissberlin/railwayapp-fastapi) | Worker |
+| railwayapp-fastapi | [vergissberlin/railwayapp-fastapi](https://github.com/vergissberlin/railwayapp-fastapi) (branch: main) | Web service |
+
+## Configuration
+
+- **Healthcheck:** `/health`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** Other · **Languages:** Dockerfile, Python
 

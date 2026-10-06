@@ -48,7 +48,12 @@ docker run --rm -p 3000:3000 railwayapp-nodejs
 
 | Service | Source | Type |
 |---------|--------|------|
-| railwayapp-nodejs | [vergissberlin/railwayapp-nodejs](https://github.com/vergissberlin/railwayapp-nodejs) | Worker |
+| railwayapp-nodejs | [vergissberlin/railwayapp-nodejs](https://github.com/vergissberlin/railwayapp-nodejs) (branch: main) | Web service |
+
+## Configuration
+
+- **Healthcheck:** `/health`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** Other · **Languages:** JavaScript, Dockerfile
 

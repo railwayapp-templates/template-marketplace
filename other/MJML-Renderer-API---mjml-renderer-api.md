@@ -59,10 +59,11 @@ docker run --rm -p 8080:8080 -e PORT=8080 railwayapp-mjml
 
 | Service | Source | Type |
 |---------|--------|------|
-| mjml-renderer-api | [vergissberlin/railwayapp-mjml](https://github.com/vergissberlin/railwayapp-mjml) | Web service |
+| mjml-renderer-api | [vergissberlin/railwayapp-mjml](https://github.com/vergissberlin/railwayapp-mjml) (branch: main) | Web service |
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Other · **Languages:** JavaScript, Dockerfile

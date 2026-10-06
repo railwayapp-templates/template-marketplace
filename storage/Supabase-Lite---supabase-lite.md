@@ -19,10 +19,10 @@ Supabase Lite runs 7 Docker-based services on Railway's managed infrastructure. 
 | rest | `postgrest/postgrest:v14.8` | Database |
 | realtime | `supabase/realtime:v2.76.5` | Database |
 | auth | `supabase/gotrue:v2.186.0` | Database |
+| minio | [INAPP-Mobile/railway-supabase-lite](https://github.com/INAPP-Mobile/railway-supabase-lite) (root: /minio) | Database |
 | postgres | [INAPP-Mobile/railway-supabase-lite](https://github.com/INAPP-Mobile/railway-supabase-lite) (root: postgres) | Database |
 | storage | `supabase/storage-api:v1.48.26` | Database |
 | kong | [INAPP-Mobile/railway-supabase-lite](https://github.com/INAPP-Mobile/railway-supabase-lite) (root: kong) | Web service |
-| minio | `minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
 
 ## Environment variables
 
@@ -66,6 +66,9 @@ Supabase Lite runs 7 Docker-based services on Railway's managed infrastructure. 
 | `GOTRUE_DB_DATABASE_URL` | auth | - | PostgreSQL connection string for GoTrue. Uses private networking and references postgres service vars. The *** is auto-resolved by Railway to the actual password. |
 | `GOTRUE_MAILER_AUTOCONFIRM` | auth | true | Auto-confirm user emails on signup (development mode). Set to false in production to require email verification. |
 | `GOTRUE_EXTERNAL_EMAIL_ENABLED` | auth | true | Enable external email provider support. Set to false to disable email auth. |
+| `PORT` | minio | 9000 | Port the public domain proxies to. RustFS binds RUSTFS_ADDRESS (0.0.0.0:9000) and ignores $PORT, so Railway's domain must be told explicitly which container port to route to. |
+| `MINIO_ROOT_USER` | minio | (secret) | RustFS (S3-compatible object storage, MinIO-compatible) root username. Referenced by Langfuse as ${{minio.MINIO_ROOT_USER}}. |
+| `MINIO_ROOT_PASSWORD` | minio | (secret) | RustFS (S3-compatible object storage, MinIO-compatible) root password. Auto-generated at deploy time. Referenced by Langfuse as ${{minio.MINIO_ROOT_PASSWORD}}. |
 | `POSTGRES_DB` | postgres | postgres | Name of the default database created on first boot. All Supabase schemas (auth, storage, _realtime, public) are created inside this database. |
 | `DATABASE_URL` | postgres | - | Self-referencing connection string. Consumed by the postgres service itself and referenced by dependent services as ${{postgres.DATABASE_URL}}. |
 | `POSTGRES_PORT` | postgres | 5432 | Port PostgreSQL listens on inside the container. Must stay 5432 — all other services reference this port via private networking. |
@@ -92,23 +95,18 @@ Supabase Lite runs 7 Docker-based services on Railway's managed infrastructure. 
 | `STORAGE_HOST` | kong | - | Private domain for the storage service. Kong proxies /storage/v1/* requests here. |
 | `REALTIME_HOST` | kong | - | Private domain for the realtime service. Kong proxies /realtime/v1/* requests here. |
 | `KONG_PROXY_LISTEN` | kong | - | Kong proxy listen address. Uses Railway-injected ${{PORT}} so health checks and external traffic can reach it. |
-| `PORT` | minio | 8080 | Railway-injected port. Minio API listens on this port. |
-| `MINIO_ADDRESS` | minio | 0.0.0.0:8080 | MinIO listen address. Port 8080 matches Railway's injected PORT so health checks can reach it. |
-| `MINIO_ROOT_USER` | minio | (secret) | MinIO root (admin) username. Referenced by the storage service as AWS_ACCESS_KEY_ID via ${{minio.MINIO_ROOT_USER}}. |
-| `MINIO_ROOT_PASSWORD` | minio | (secret) | MinIO root password — auto-generated at deploy time. Referenced by the storage service as AWS_SECRET_ACCESS_KEY via ${{minio.MINIO_ROOT_PASSWORD}}. |
 
 ## Configuration
 
 - **Healthcheck:** `/healthcheck`
 - **Start command:** `sh -c 'until nc -z $POSTGRES_HOST $POSTGRES_PORT 2>/dev/null; do echo waiting for postgres; sleep 2; done; exec gotrue'`
 - **Healthcheck:** `/health`
+- **Volume:** `/data`
+- **Start command:** `/custom-entrypoint.sh`
 - **Volume:** `/var/lib/postgresql`
 - **Start command:** `sh -c 'until nc -z $POSTGRES_HOST $POSTGRES_PORT 2>/dev/null; do echo waiting for postgres; sleep 2; done; until nc -z $MINIO_HOST 8080 2>/dev/null; do echo waiting for minio; sleep 2; done; exec node dist/start/server.js'`
 - **Healthcheck:** `/status`
 - **Networking:** Public domain with automatic HTTPS
-- **Start command:** `minio server /data --address 0.0.0.0:8080 --console-address 0.0.0.0:9001`
-- **Healthcheck:** `/minio/health/live`
-- **Volume:** `/data`
 
 **Category:** Storage · **Languages:** Shell, Dockerfile
 

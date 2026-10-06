@@ -48,17 +48,20 @@ EMAIL_CLIENT_FROM="Your App "
 
 | Service | Source | Type |
 |---------|--------|------|
-| railwayapp-email | [vergissberlin/railwayapp-email](https://github.com/vergissberlin/railwayapp-email) | Web service |
+| railwayapp-email | [vergissberlin/railwayapp-email](https://github.com/vergissberlin/railwayapp-email) (branch: main) | Web service |
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `EMAIL_CLIENT_USER` | (secret) |
-| `EMAIL_CLIENT_PASSWORD` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `EMAIL_API_KEY` | (secret) | API authentication key. |
+| `EMAIL_CLIENT_USER` | (secret) | - |
+| `EMAIL_CLIENT_PASSWORD` | (secret) | - |
 
 ## Configuration
 
+- **Start command:** `npm run build && npm start`
+- **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Other · **Languages:** TypeScript, HTML, Handlebars

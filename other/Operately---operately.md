@@ -20,7 +20,7 @@ proxy to configure by hand.
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| Operately | [vergissberlin/railwayapp-operately](https://github.com/vergissberlin/railwayapp-operately) | Web service |
+| Operately | [vergissberlin/railwayapp-operately](https://github.com/vergissberlin/railwayapp-operately) (branch: main) | Web service |
 
 ## Environment variables
 
@@ -35,9 +35,10 @@ proxy to configure by hand.
 ## Configuration
 
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/media`
 
-**Category:** Other · **Languages:** Dockerfile
+**Category:** Other · **Languages:** Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/operately)

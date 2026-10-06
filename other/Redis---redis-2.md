@@ -55,7 +55,18 @@ docker run --rm -e REDIS_PASSWORD=dev-password -p 6379:6379 railwayapp-redis
 
 | Service | Source | Type |
 |---------|--------|------|
-| railwayapp-redis | [vergissberlin/railwayapp-redis](https://github.com/vergissberlin/railwayapp-redis) | Worker |
+| railwayapp-redis | [vergissberlin/railwayapp-redis](https://github.com/vergissberlin/railwayapp-redis) (branch: main) | Database |
+
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `REDIS_URL` | - | Private connection URL. |
+| `REDIS_PASSWORD` | (secret) | Required authenticated startup. |
+
+## Configuration
+
+- **Volume:** `/data`
 
 **Category:** Other · **Languages:** Dockerfile
 

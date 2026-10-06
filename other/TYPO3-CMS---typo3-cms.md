@@ -14,7 +14,7 @@ Hosting TYPO3 means running a PHP application behind a web server and pairing it
 
 | Service | Source | Type |
 |---------|--------|------|
-| TYPO3 | [vergissberlin/railwayapp-typo3](https://github.com/vergissberlin/railwayapp-typo3) | Web service |
+| TYPO3 | [vergissberlin/railwayapp-typo3](https://github.com/vergissberlin/railwayapp-typo3) (branch: main) | Web service |
 | MySQL | `mysql:9` | Database |
 
 ## Environment variables
@@ -22,15 +22,14 @@ Hosting TYPO3 means running a PHP application behind a web server and pairing it
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
 | `PORT` | TYPO3 | 80 | Don't change this. |
-| `VERSION` | TYPO3 | latest | Available versions: https://hub.docker.com/r/martinhelmich/typo3/tags |
 | `TYPO3_CONTEXT` | TYPO3 | Production | Configure TYPO3 context (Development, Production) |
 | `TYPO3_DB_HOST` | TYPO3 | - | Takes the database credentials automatically. Don't change it! |
 | `TYPO3_DB_NAME` | TYPO3 | - | Takes the database credentials automatically. Don't change it! |
 | `TYPO3_DB_PORT` | TYPO3 | - | Takes the database credentials automatically. Don't change it! |
 | `TYPO3_DB_PASSWORD` | TYPO3 | (secret) | Takes the database credentials automatically. Don't change it! |
 | `TYPO3_DB_USERNAME` | TYPO3 | (secret) | Takes the database credentials automatically. Don't change it! |
-| `TYPO3_ADMIN_PASSWORD` | TYPO3 | (secret) | Setup the password for the backend login. MINIMUM 8 characters! |
-| `TYPO3_ADMIN_USERNAME` | TYPO3 | (secret) | The admin user for the backend login |
+| `TYPO3_ADMIN_PASSWORD` | TYPO3 | (secret) | Initial administrator password. |
+| `TYPO3_ADMIN_USERNAME` | TYPO3 | (secret) | Initial administrator username. |
 | `MYSQLHOST` | MySQL | - | Railway Private Domain Name. |
 | `MYSQLPORT` | MySQL | 3306 | MySQL port. |
 | `MYSQLUSER` | MySQL | root | MySQL user, used for the Data panel. |
@@ -43,7 +42,9 @@ Hosting TYPO3 means running a PHP application behind a web server and pairing it
 
 ## Configuration
 
+- **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/var/www/html`
 - **Start command:** `docker-entrypoint.sh mysqld --innodb-use-native-aio=0 --disable-log-bin --performance_schema=0`
 - **TCP Proxies:** 3306
 - **Volume:** `/var/lib/mysql`

@@ -16,9 +16,9 @@ Hosting NocoDB means running a no-code database platform that transforms relatio
 
 | Service | Source | Type |
 |---------|--------|------|
-| NocoDB | `nocodb/nocodb:2026.07.0` | Web service |
+| NocoDB | `nocodb/nocodb:2026.09.1` | Web service |
 | Redis | `redis:8.2` | Database |
-| NocoDB Worker | `nocodb/nocodb:2026.07.0` | Worker |
+| NocoDB Worker | `nocodb/nocodb:2026.09.1` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables

@@ -20,7 +20,7 @@ database connections you add inside the app.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Outerbase Studio | [vergissberlin/railwayapp-outerbase-studio](https://github.com/vergissberlin/railwayapp-outerbase-studio) | Web service |
+| Outerbase Studio | [vergissberlin/railwayapp-outerbase-studio](https://github.com/vergissberlin/railwayapp-outerbase-studio) (branch: main) | Web service |
 
 ## Environment variables
 
@@ -31,6 +31,7 @@ database connections you add inside the app.
 
 ## Configuration
 
+- **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/data`
 

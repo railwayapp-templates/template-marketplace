@@ -6,29 +6,95 @@ Deploy and Host Mosquitto MQTT with Railway
 
 ## About
 
-**What is Mosquitto MQTT?** [Eclipse Mosquitto](https://mosquitto.org/) is a lightweight open-source message broker that implements the MQTT protocol. Publishers send messages to named topics; subscribers receive them in real time. It is widely used for IoT, telemetry, and event-driven backends where many clients need reliable, low-overhead messaging over TCP.
+# MQTT for railway.app
 
-Running Mosquitto in production means packaging the broker (often via Docker), exposing the correct TCP port (typically **1883** for plain MQTT), and persisting state if you rely on retained messages or durable sessions. You configure listeners, logging, and persistence paths, then decide whether connections are anonymous or authenticated (for example with `password_file`). On a platform like Railway, you connect the service’s public hostname and port to your clients, attach a volume for `/mosquitto/data` when you need persistence across deploys, and set environment variables for optional username/password auth so the broker starts with a consistent, secure policy.
+![Template Header](./template-header.svg)
+
+
+Deploy MQTT on railway.app with a single click.
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/C09s2G?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+## ✨ Features
+
+* MQTT with automated setup
+* Optional password authentication via `MQTT_USER` and `MQTT_PASS`
+* Timezone Support (Set timezone in environment variables)
+* Railway config as code via `railway.toml`
+
+## 🏗️ Architecture
+
+```mermaid
+flowchart LR
+    Client(["📡 MQTT Client"]) -->|"MQTT / TCP"| Proxy["Railway TCP Proxy"]
+    Proxy -->|"TCP port 1883"| Entry["docker-entrypoint.sh"]
+    Entry --> App["Container\neclipse-mosquitto"]
+    App --> Volume[("Volume\n/mosquitto/data")]
+```
+
+## 🐍 How to Deploy
+
+1. Click Deploy on Railway and setup your credentials in the environment variables
+
+```bash
+    TZ=Europe/Amsterdam
+    MQTT_USER=yourusername
+    MQTT_PASS=yourpassword
+    PORT=1883 # Don't change this
+```
+
+## Production recommendations (Railway)
+
+* Set both `MQTT_USER` and `MQTT_PASS` to enable authenticated access
+* If one of them is missing, broker starts in anonymous mode
+* Use persistent storage for `/mosquitto/data`
+* This data mount is enforced via `requiredMountPath` in `railway.toml`
+* Keep external TCP port mapped to `1883`
+
+2. Wait for Build & Deployment to Finish
+3. Connect an MQTT client to the generated TCP proxy hostname and external port, using your credentials. MQTT has no HTTP login page.
+
+The published template generates a broker password, maps the TCP proxy to port `1883`, and mounts `/mosquitto/data`. The entrypoint gives Mosquitto access to its password file and data directory, and regenerates its password file atomically on restart. Logs go to stdout. The Docker healthcheck authenticates when credentials are configured; Railway's HTTP healthcheck is intentionally unset for this TCP service.
+
+## 🐳  Local Development
+
+```bash
+docker compose up -d
+```
+
+Connect an MQTT client to `localhost:1883`, using the username and password from the Compose configuration.
+
+Run the Docker integration tests (Docker and Node.js required):
+
+```bash
+docker build -t railwayapp-mqtt:test .
+node --test tests/runtime.test.mjs
+```
+
+<!-- footer -->
+---
+
+[![Airbyte](https://img.shields.io/badge/Airbyte-615EFF?style=for-the-badge&logo=airbyte&logoColor=white)](https://github.com/vergissberlin/railwayapp-airbyte) [![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)](https://github.com/vergissberlin/railwayapp-airflow) [![CloudBeaver](https://img.shields.io/badge/CloudBeaver-382923?style=for-the-badge&logo=dbeaver&logoColor=white)](https://github.com/vergissberlin/railwayapp-cloudbeaver-ce) [![CodiMD](https://img.shields.io/badge/CodiMD-0F766E?style=for-the-badge&logo=markdown&logoColor=white)](https://github.com/vergissberlin/railwayapp-codimd) [![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://github.com/vergissberlin/railwayapp-django) [![Email Service](https://img.shields.io/badge/Email%20Service-2563EB?style=for-the-badge&logo=maildotru&logoColor=white)](https://github.com/vergissberlin/railwayapp-email) [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://github.com/vergissberlin/railwayapp-fastapi) [![Flask](https://img.shields.io/badge/Flask-3fad48?style=for-the-badge&logo=flask&logoColor=white)](https://github.com/vergissberlin/railwayapp-flask) [![Flowise](https://img.shields.io/badge/Flowise-4F46E5?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://github.com/vergissberlin/railwayapp-flowise) [![GitLab CE](https://img.shields.io/badge/GitLab%20CE-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://github.com/vergissberlin/railwayapp-gitlab) [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://github.com/vergissberlin/railwayapp-grafana) [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-18BCF2?style=for-the-badge&logo=homeassistant&logoColor=white)](https://github.com/vergissberlin/railwayapp-homeassistant) [![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)](https://github.com/vergissberlin/railwayapp-influxdb) [![MJML](https://img.shields.io/badge/MJML-F45E43?style=for-the-badge&logo=mjml&logoColor=white)](https://github.com/vergissberlin/railwayapp-mjml) [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://github.com/vergissberlin/railwayapp-mongodb) [![Mosquitto MQTT](https://img.shields.io/badge/Mosquitto%20MQTT-3C5280?style=for-the-badge&logo=eclipsemosquitto&logoColor=white)](https://github.com/vergissberlin/railwayapp-mqtt) [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://github.com/vergissberlin/railwayapp-mysql) [![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)](https://github.com/vergissberlin/railwayapp-n8n) [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://github.com/vergissberlin/railwayapp-nodejs) [![Node-RED](https://img.shields.io/badge/Node-RED-8F0000?style=for-the-badge&logo=nodered&logoColor=white)](https://github.com/vergissberlin/railwayapp-nodered) [![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white)](https://github.com/vergissberlin/railwayapp-opensearch) [![Open WebUI](https://img.shields.io/badge/Open%20WebUI-D68E42?style=for-the-badge&logo=ollama&logoColor=white)](https://github.com/vergissberlin/railwayapp-openwebui) [![Operately](https://img.shields.io/badge/Operately-3185FF?style=for-the-badge&logo=operately&logoColor=white)](https://github.com/vergissberlin/railwayapp-operately) [![Outerbase Studio](https://img.shields.io/badge/Outerbase%20Studio-000000?style=for-the-badge&logo=outerbase&logoColor=white)](https://github.com/vergissberlin/railwayapp-outerbase-studio) [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://github.com/vergissberlin/railwayapp-postgresql) [![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://github.com/vergissberlin/railwayapp-redis) [![TYPO3 CMS](https://img.shields.io/badge/TYPO3%20CMS-FF8700?style=for-the-badge&logo=typo3&logoColor=white)](https://github.com/vergissberlin/railwayapp-typo3)
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| mqtt | [vergissberlin/railwayapp-mqtt](https://github.com/vergissberlin/railwayapp-mqtt) | Web service |
+| mqtt | [vergissberlin/railwayapp-mqtt](https://github.com/vergissberlin/railwayapp-mqtt) (branch: main) | Database |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `TZ` | Europe/Amsterdam | Set the timezone |
-| `PORT` | 1883 | D'not change this! |
-| `MQTT_PASS` | - | Set the password for MQTT user |
-| `MQTT_USER` | (secret) | Set the username for MQTT |
+| `MQTT_PASS` | - | Broker password. |
+| `MQTT_USER` | (secret) | Broker username. |
 
 ## Configuration
 
-- **Networking:** Public domain with automatic HTTPS
+- **TCP Proxies:** 1883
+- **Volume:** `/mosquitto/data`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** JavaScript, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/mosquitto-mqtt)

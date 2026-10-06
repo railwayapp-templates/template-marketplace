@@ -20,10 +20,11 @@ you only manage the data sources you connect to.
 
 | Service | Source | Type |
 |---------|--------|------|
-| CloudBeaver CE | [vergissberlin/railwayapp-cloudbeaver-ce](https://github.com/vergissberlin/railwayapp-cloudbeaver-ce) | Web service |
+| CloudBeaver CE | [vergissberlin/railwayapp-cloudbeaver-ce](https://github.com/vergissberlin/railwayapp-cloudbeaver-ce) (branch: main) | Web service |
 
 ## Configuration
 
+- **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/opt/cloudbeaver/workspace`
 

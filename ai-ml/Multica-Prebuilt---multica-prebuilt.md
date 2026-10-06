@@ -6,35 +6,29 @@ AI coding agent issue tracker for Claude Code, Codex, Cursor and 17 more
 
 ## About
 
-Multica is an open source issue tracker whose assignees can be AI coding
-agents. File an issue, assign it to Claude Code, Codex, Cursor, Copilot CLI,
-OpenCode, Qwen Code or one of a dozen more, and the agent picks up the work on
-a machine you control. This template runs the project's own prebuilt images,
-pinned to release v0.4.20, so a deploy takes about a minute instead of
-compiling a Go server and a Next.js app from source.
+Multica is a self-hosted issue tracker whose assignees can be AI coding agents.
+Assign work to Claude Code, Codex, Cursor, Copilot CLI, OpenCode or another
+supported agent, and it runs on a machine you control.
 
-Multica is three pieces: a Go API and live-updates server, a Next.js web app,
-and PostgreSQL with the vector extension. This template runs each as its own
-service and wires them together over Railway's private network.
+This template uses prebuilt images based on Multica v0.5.1 with an owner-password
+login patch. Enter your owner email and password during deployment, then sign in
+with those credentials. No email provider or verification code is required.
 
-The web service forwards API, sign-in, attachment and live-update traffic to
-the backend internally, so your browser only ever talks to one address. That
-choice is load bearing rather than cosmetic. Sign-in cookies cannot be scoped
-across two separate railway.app subdomains, so the alternative layout fails
-every write with a security error. Attachments are written to a disk attached
-to the API service, and the database keeps its own disk, so nothing is lost
-between deploys.
+The template includes three services: a Go API and live-updates server, a Next.js
+web app, and PostgreSQL 17 with pgvector. Services communicate over Railway's
+private network. The web service forwards API and sign-in requests to the backend
+so authentication cookies work on one browser address.
 
-Everything is generated per deploy: the database password and the session
-signing key are both random and unique to your instance.
+The API and database have separate persistent disks. Database passwords and
+session signing keys are generated uniquely for each deployment.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `pgvector/pgvector:pg17` | Database |
-| multica-web | `ghcr.io/multica-ai/multica-web:v0.5.1` | Web service |
-| multica-api | `ghcr.io/multica-ai/multica-backend:v0.5.1` | Web service |
+| multica-web | `ghcr.io/hmseeb/multica-web@sha256:d6ea63062f1dd35ca7c9e0f4235ed9e96bf74b27b9268e7cd6ef61d2c74646bf` | Web service |
+| multica-api | `ghcr.io/hmseeb/multica-backend@sha256:3357e63d44f82b1fd88e9c5bb1c1b5b4ce525bdb0acc5e05bfd493089395eb82` | Web service |
 
 ## Environment variables
 
@@ -48,11 +42,12 @@ signing key are both random and unique to your instance.
 | `PORT` | multica-api | 8080 | - |
 | `APP_ENV` | multica-api | production | - |
 | `JWT_SECRET` | multica-api | (secret) | - |
-| `ALLOW_SIGNUP` | multica-api | true | - |
-| `ALLOWED_EMAILS` | multica-api | - | Optional. Comma separated allowlist. Set your own address here so strangers cannot sign up. |
-| `RESEND_API_KEY` | multica-api | (secret) | Optional. Resend API key so sign-in codes are emailed. Leave blank to read the code from this service's logs instead. |
+| `ALLOW_SIGNUP` | multica-api | false | - |
+| `RESEND_API_KEY` | multica-api | (secret) | Optional. Enables email-code login and invitation emails; not needed for owner password login. |
 | `LOCAL_UPLOAD_DIR` | multica-api | /app/data/uploads | - |
-| `RESEND_FROM_EMAIL` | multica-api | - | Optional. Sender address for sign-in emails, on a domain you verified with Resend. |
+| `RESEND_FROM_EMAIL` | multica-api | - | Optional with Resend. Sender address on your verified domain; set this when adding a Resend API key. |
+| `MULTICA_OWNER_EMAIL` | multica-api | - | Owner account email. Sign in with this email and your owner password; email verification is not needed. |
+| `MULTICA_OWNER_PASSWORD` | multica-api | (secret) | Owner password: at least 15 characters. Saved on first boot only; changing this variable does not reset an existing account. |
 | `MULTICA_TRUSTED_PROXIES` | multica-api | 0.0.0.0/0,::/0 | - |
 
 ## Configuration

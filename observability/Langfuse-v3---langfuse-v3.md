@@ -36,6 +36,7 @@ This template deploys the production Langfuse v3 stack on Railway as a 6-service
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `PORT` | minio | 9000 | Port the public domain proxies to. RustFS binds RUSTFS_ADDRESS (0.0.0.0:9000) and ignores $PORT, so Railway's domain must be told explicitly which container port to route to. |
 | `MINIO_ROOT_USER` | minio | (secret) | RustFS (S3-compatible object storage, MinIO-compatible) root username. Referenced by Langfuse as ${{minio.MINIO_ROOT_USER}}. |
 | `MINIO_ROOT_PASSWORD` | minio | (secret) | RustFS (S3-compatible object storage, MinIO-compatible) root password. Auto-generated at deploy time. Referenced by Langfuse as ${{minio.MINIO_ROOT_PASSWORD}}. |
 | `CLICKHOUSE_DB` | clickhouse | default | Default ClickHouse database. Langfuse uses this for analytics data. Referenced as ${{clickhouse.CLICKHOUSE_DB}}. |

@@ -44,7 +44,12 @@ docker run --rm -p 8000:8000 -e PORT=8000 railwayapp-flask
 
 | Service | Source | Type |
 |---------|--------|------|
-| railwayapp-flask | [vergissberlin/railwayapp-flask](https://github.com/vergissberlin/railwayapp-flask) | Worker |
+| railwayapp-flask | [vergissberlin/railwayapp-flask](https://github.com/vergissberlin/railwayapp-flask) (branch: main) | Web service |
+
+## Configuration
+
+- **Healthcheck:** `/health`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** Other · **Languages:** Dockerfile, Python
 

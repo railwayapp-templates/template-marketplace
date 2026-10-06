@@ -57,11 +57,20 @@ Attach a Railway volume and mount to:
 
 | Service | Source | Type |
 |---------|--------|------|
-| railwayapp-homeassistant | [vergissberlin/railwayapp-homeassistant](https://github.com/vergissberlin/railwayapp-homeassistant) | Web service |
+| railwayapp-homeassistant | [vergissberlin/railwayapp-homeassistant](https://github.com/vergissberlin/railwayapp-homeassistant) (branch: main) | Web service |
+
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `TZ` | Europe/Berlin | Timezone. |
 
 ## Configuration
 
+- **Start command:** `/usr/local/bin/railway-homeassistant-entrypoint`
+- **Healthcheck:** `/manifest.json`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/config`
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 

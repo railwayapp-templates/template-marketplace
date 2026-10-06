@@ -63,8 +63,25 @@ docker run --rm -e MYSQL_ROOT_PASSWORD=dev -p 3306:3306 railwayapp-mysql
 
 | Service | Source | Type |
 |---------|--------|------|
-| railwayapp-mysql | [vergissberlin/railwayapp-mysql](https://github.com/vergissberlin/railwayapp-mysql) | Worker |
+| railwayapp-mysql | [vergissberlin/railwayapp-mysql](https://github.com/vergissberlin/railwayapp-mysql) (branch: main) | Database |
 
-**Category:** Other · **Languages:** Dockerfile
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `MYSQLHOST` | - | Private hostname. |
+| `MYSQLPORT` | 3306 | Database port. |
+| `MYSQLUSER` | root | Database username. |
+| `DATABASE_URL` | - | Private connection URL. |
+| `MYSQLDATABASE` | - | Database name reference. |
+| `MYSQLPASSWORD` | (secret) | Database password reference. |
+| `MYSQL_DATABASE` | app | Initial database. |
+| `MYSQL_ROOT_PASSWORD` | (secret) | Required on first initialization. |
+
+## Configuration
+
+- **Volume:** `/var/lib/mysql`
+
+**Category:** Other · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/mysql-1)

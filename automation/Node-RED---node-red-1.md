@@ -14,21 +14,24 @@ _Use this page for the **Railway** service or template **description** (copy int
 
 | Service | Source | Type |
 |---------|--------|------|
-| Node-RED | [vergissberlin/railwayapp-nodered](https://github.com/vergissberlin/railwayapp-nodered) | Web service |
+| Node-RED | [vergissberlin/railwayapp-nodered](https://github.com/vergissberlin/railwayapp-nodered) (branch: main) | Web service |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `NODE_RED_PASSWORD` | (secret) | Enter your password for the editor |
-| `NODE_RED_USERNAME` | (secret) | Enter your username for the editor |
+| `NODE_RED_PASSWORD` | (secret) | Editor administrator password. |
+| `NODE_RED_USERNAME` | (secret) | Editor administrator username. |
 | `NODE_RED_EDITOR_URI` | / | The URI for the editor |
 | `NODE_RED_DASHBOARD_URI` | ui | The path for the ui dashboard |
-| `NODE_RED_CREDENTIAL_SECRET` | (secret) | Secret token to secure your credentials |
+| `NODE_RED_CREDENTIAL_SECRET` | (secret) | Stable encryption key for persisted credentials. |
 
 ## Configuration
 
+- **Start command:** `node-red -u /data --settings /app/settings.js`
+- **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/data`
 
 **Category:** Automation · **Languages:** JavaScript
 

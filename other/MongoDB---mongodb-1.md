@@ -72,8 +72,20 @@ docker run --rm -p 27017:27017 --env-file .env railwayapp-mongodb
 
 | Service | Source | Type |
 |---------|--------|------|
-| railwayapp-mongodb | [vergissberlin/railwayapp-mongodb](https://github.com/vergissberlin/railwayapp-mongodb) | Worker |
+| railwayapp-mongodb | [vergissberlin/railwayapp-mongodb](https://github.com/vergissberlin/railwayapp-mongodb) (branch: main) | Database |
 
-**Category:** Other · **Languages:** Dockerfile
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `MONGO_URL` | - | Authenticated private connection URL. |
+| `MONGO_INITDB_ROOT_PASSWORD` | (secret) | Required administrator password. |
+| `MONGO_INITDB_ROOT_USERNAME` | (secret) | Initial administrator username. |
+
+## Configuration
+
+- **Volume:** `/data/db`
+
+**Category:** Other · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/mongodb-1)

@@ -58,7 +58,19 @@ Attach a Railway volume and mount these paths:
 
 | Service | Source | Type |
 |---------|--------|------|
-| railwayapp-gitlab | [vergissberlin/railwayapp-gitlab](https://github.com/vergissberlin/railwayapp-gitlab) | Worker |
+| railwayapp-gitlab | [vergissberlin/railwayapp-gitlab](https://github.com/vergissberlin/railwayapp-gitlab) (branch: main) | Web service |
+
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `GITLAB_ROOT_PASSWORD` | (secret) | Initial root password; requires at least 8 characters. |
+
+## Configuration
+
+- **Healthcheck:** `/users/sign_in`
+- **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/var/opt/gitlab`
 
 **Category:** Other · **Languages:** Shell, Dockerfile
 

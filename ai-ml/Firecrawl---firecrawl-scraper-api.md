@@ -1,6 +1,6 @@
-# Deploy Firecrawl — Web Scraper & Crawler API on Railway
+# Deploy Firecrawl on Railway
 
-Self-host Firecrawl — scrape & crawl any site to clean Markdown
+Host Firecrawl [Oct'26] — scrape & crawl any site to clean Markdown
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/firecrawl-scraper-api)
 

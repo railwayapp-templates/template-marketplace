@@ -134,24 +134,26 @@ Connect to http://localhost:3000 use setup username &amp; password from docker-c
 
 | Service | Source | Type |
 |---------|--------|------|
-| grafana | [vergissberlin/railwayapp-grafana](https://github.com/vergissberlin/railwayapp-grafana) | Web service |
+| grafana | [vergissberlin/railwayapp-grafana](https://github.com/vergissberlin/railwayapp-grafana) (branch: main) | Web service |
 
 ## Environment variables
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `PORT` | 3000 | Please don't change it! |
-| `VERSION` | latest | Setup the Grafana version to your needs, or leave it as latest to get the latest version. |
 | `GF_LOG_MODE` | console | How to log |
-| `GF_INSTALL_PLUGINS` | grafana-piechart-panel,grafana-worldmap-panel,grafana-clock-panel,grafana-simple-json-datasource | Add more plugins to your wish. Take a look to https://grafana.com/docs/grafana/latest/setup-grafana/installation/docker/ |
-| `GF_SECURITY_ADMIN_USER` | (secret) | Enter the name of your admin user |
+| `GF_SERVER_ROOT_URL` | - | Public HTTPS URL. |
+| `GF_PLUGINS_PREINSTALL` | grafana-clock-panel | Compatible plugin preinstallation. |
+| `GF_SECURITY_ADMIN_USER` | (secret) | Initial administrator username. |
 | `GF_DEFAULT_INSTANCE_NAME` | - | Name your Grafana instance! |
-| `GF_SECURITY_ADMIN_PASSWORD` | (secret) | Your secure password for the admin user |
+| `GF_SECURITY_ADMIN_PASSWORD` | (secret) | Initial administrator password. |
 
 ## Configuration
 
+- **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/var/lib/grafana`
 
-**Category:** Analytics · **Languages:** Dockerfile
+**Category:** Analytics · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/grafana)

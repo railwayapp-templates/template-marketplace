@@ -10,7 +10,7 @@ Rustic is an open-source, agentic code editor written in Rust. Rustic Server run
 
 This template deploys a single `rustic-server` service built from the [avijitbhuin21/Rustic](https://github.com/avijitbhuin21/Rustic) Dockerfile. The image bundles the Rust server, the web UI, git, node/npx and uv/uvx (for MCP servers), headless Chromium for the agent's browser, and Go/Rust/Bun/TypeScript toolchains. A persistent volume is mounted at `/data` so projects, chats, settings and browser logins survive redeploys, and a public HTTPS domain is generated for you.
 
-A strong login password (`RUSTIC_AUTH_PASSWORD`) and session secret (`RUSTIC_SESSION_SECRET`) are generated fresh for every deploy — find the password in the service's **Variables** tab, then open your domain and log in. Add your AI provider API keys (Anthropic, OpenAI, Gemini, OpenRouter or any OpenAI-compatible endpoint) in Rustic's Settings; they stay on your server.
+There is nothing to fill in: a strong login password (`RUSTIC_AUTH_PASSWORD`) and session secret (`RUSTIC_SESSION_SECRET`) are generated fresh for every deploy. After it's live, find the password in the service's **Variables** tab, open your domain and log in. Add your AI provider API keys (Anthropic, OpenAI, Gemini, OpenRouter or any OpenAI-compatible endpoint) in Rustic's Settings; they stay on your server.
 
 ## What gets deployed
 

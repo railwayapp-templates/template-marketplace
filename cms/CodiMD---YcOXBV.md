@@ -21,7 +21,7 @@ Overall, CodiMD is a versatile and powerful tool for collaborative markdown edit
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:latest` | Database |
-| railwayapp-codimd | [vergissberlin/railwayapp-codimd](https://github.com/vergissberlin/railwayapp-codimd) | Web service |
+| railwayapp-codimd | [vergissberlin/railwayapp-codimd](https://github.com/vergissberlin/railwayapp-codimd) (branch: main) | Web service |
 
 ## Environment variables
 
@@ -34,7 +34,7 @@ Overall, CodiMD is a versatile and powerful tool for collaborative markdown edit
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
 | `PORT` | railwayapp-codimd | 3000 | Don't change this! |
 | `CMD_DB_URL` | railwayapp-codimd | - | The URL to connect to the Postgres database. You don't need to change it! |
-| `CMD_DOMAIN` | railwayapp-codimd | - | Your custom domain. You don't need to change this. |
+| `CMD_DOMAIN` | railwayapp-codimd | - | Public domain without scheme or port. |
 | `CMD_USECDN` | railwayapp-codimd | false | Wether or not use a CDN. |
 | `CMD_PROTOCOL_USESSL` | railwayapp-codimd | true | Use https in urls |
 
@@ -42,7 +42,9 @@ Overall, CodiMD is a versatile and powerful tool for collaborative markdown edit
 
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/home/hackmd/app/public/uploads`
 
 **Category:** CMS · **Languages:** Dockerfile
 

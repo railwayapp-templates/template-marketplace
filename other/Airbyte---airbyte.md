@@ -1,6 +1,6 @@
 # Deploy Airbyte on Railway
 
-Airbyte production setup is multi-service.
+Legacy Airbyte 0.63.19 server (last Docker release), unmaintained
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/airbyte)
 

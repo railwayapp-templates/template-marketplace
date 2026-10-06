@@ -1,4 +1,4 @@
-# Deploy Jev os on Railway
+# Deploy JevOS on Railway
 
 Offline customer-support triage classifier (local Jev model server)
 

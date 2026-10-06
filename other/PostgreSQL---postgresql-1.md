@@ -61,8 +61,21 @@ docker run --rm -e POSTGRES_PASSWORD=dev -p 5432:5432 railwayapp-postgresql
 
 | Service | Source | Type |
 |---------|--------|------|
-| railwayapp-postgresql | [vergissberlin/railwayapp-postgresql](https://github.com/vergissberlin/railwayapp-postgresql) | Worker |
+| railwayapp-postgresql | [vergissberlin/railwayapp-postgresql](https://github.com/vergissberlin/railwayapp-postgresql) (branch: main) | Database |
 
-**Category:** Other · **Languages:** Dockerfile
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `POSTGRES_DB` | postgres | Initial database. |
+| `DATABASE_URL` | - | Private connection URL. |
+| `POSTGRES_USER` | (secret) | Initial database user. |
+| `POSTGRES_PASSWORD` | (secret) | Required on first initialization. |
+
+## Configuration
+
+- **Volume:** `/var/lib/postgresql/data`
+
+**Category:** Other · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/postgresql-1)

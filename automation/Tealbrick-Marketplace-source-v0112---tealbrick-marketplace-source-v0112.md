@@ -1,12 +1,12 @@
-# Deploy Tealbrick Marketplace — source v0.1.6 on Railway
+# Deploy Tealbrick Marketplace — source v0.1.12 on Railway
 
 Governed agent integrations, built from public source on Railway.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tealbrick-marketplace-source-v016)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tealbrick-marketplace-source-v0112)
 
 ## About
 
-Build Marketplace v0.1.6 from its public source inside your own Railway project. The protected release-marketplace-v0.1.6 branch resolves to 11b32dfd6792dd25aec8f6ab16aa814964b873bc. No Tealbrick GHCR credentials are required. The repository license governs use; public source is not a license purchase.
+Build Marketplace v0.1.12 from its public source inside your own Railway project. The protected release-marketplace-v0.1.12 branch resolves to e2da597cb827828cd8fa8fbb277f42f620e5d43c. No Tealbrick GHCR credentials are required. The repository license governs use; public source is not a license purchase.
 
 One service listens on port 5314 with one persistent /data volume. The tracked entrypoint prepares private state directories as root and then runs as uid 1000. Do not override the entrypoint. Instance-specific secrets are generated for each install; preserve the handoff encryption key across restart, upgrade and restore. Protect database and provider-settings backups separately from that key.
 
@@ -14,7 +14,7 @@ One service listens on port 5314 with one persistent /data volume. The tracked e
 
 | Service | Source | Type |
 |---------|--------|------|
-| marketplace | [Tealbrick/marketplace](https://github.com/Tealbrick/marketplace) (branch: release-marketplace-v0.1.6) (root: /release/railway) | Web service |
+| marketplace | [Tealbrick/marketplace](https://github.com/Tealbrick/marketplace) (branch: release-marketplace-v0.1.12) (root: /release/railway) | Web service |
 
 ## Environment variables
 
@@ -40,4 +40,4 @@ One service listens on port 5314 with one persistent /data volume. The tracked e
 
 **Category:** Automation · **Languages:** TypeScript, CSS, JavaScript, Python, Shell, HTML, Dockerfile
 
-[View on Railway →](https://railway.com/deploy/tealbrick-marketplace-source-v016)
+[View on Railway →](https://railway.com/deploy/tealbrick-marketplace-source-v0112)

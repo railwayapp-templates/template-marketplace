@@ -42,6 +42,6 @@ Additional integrations, such as Tailwind CSS, can be easily added by running th
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Starters · **Tags:** web, frontend, typescript · **Languages:** TypeScript, Svelte, CSS, HTML
+**Category:** Starters · **Verified:** Yes · **Tags:** web, frontend, typescript · **Languages:** TypeScript, Svelte, CSS, HTML
 
 [View on Railway →](https://railway.com/deploy/svelte-kit)

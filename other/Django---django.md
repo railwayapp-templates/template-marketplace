@@ -47,7 +47,18 @@ docker run --rm -p 8000:8000 -e PORT=8000 railwayapp-django
 
 | Service | Source | Type |
 |---------|--------|------|
-| railwayapp-django | [vergissberlin/railwayapp-django](https://github.com/vergissberlin/railwayapp-django) | Worker |
+| railwayapp-django | [vergissberlin/railwayapp-django](https://github.com/vergissberlin/railwayapp-django) (branch: main) | Web service |
+
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `DJANGO_SECRET_KEY` | (secret) | Application signing key. |
+
+## Configuration
+
+- **Healthcheck:** `/health/`
+- **Networking:** Public domain with automatic HTTPS
 
 **Category:** Other · **Languages:** Python, Dockerfile
 
