@@ -28,6 +28,7 @@ Buzz Relay is a Nostr relay with built-in Git hosting over Nostr (NIP-89). It le
 | `DATABASE_URL` | relay | - | PostgreSQL connection URL. Auto-wired from the sibling 'postgres' service via companion variable references. |
 | `BUZZ_BIND_ADDR` | relay | 0.0.0.0:3000 | Address and port the relay listens on. |
 | `BUZZ_S3_BUCKET` | relay | buzz-media | S3 bucket name for media storage. |
+| `MINIO_ROOT_USER` | relay | (secret) | MinIO/RustFS root username, wired to the relay so docker-entrypoint.sh can auto-create the buzz-media bucket on first boot (required for the A3 conformance gate to pass on fresh installs). |
 | `BUZZ_HEALTH_PORT` | relay | 8080 | Port for the health check endpoint. |
 | `BUZZ_S3_ENDPOINT` | relay | - | S3 endpoint for media storage. Points to the sibling 'minio' service. |
 | `BUZZ_AUTO_MIGRATE` | relay | true | Automatically run database migrations on startup. |
@@ -38,6 +39,7 @@ Buzz Relay is a Nostr relay with built-in Git hosting over Nostr (NIP-89). It le
 | `BUZZ_S3_SECRET_KEY` | relay | (secret) | S3 secret key. Auto-wired from the sibling 'minio' service. |
 | `RELAY_OWNER_PUBKEY` | relay | - | Optional: Nostr public key (hex) that owns this relay. If empty, the relay runs in open mode. |
 | `BUZZ_MEDIA_BASE_URL` | relay | - | Public base URL for media attachments. |
+| `MINIO_ROOT_PASSWORD` | relay | (secret) | MinIO/RustFS root password, wired to the relay so docker-entrypoint.sh can auto-create the buzz-media bucket on first boot (required for the A3 conformance gate to pass on fresh installs). |
 | `BUZZ_RELAY_PRIVATE_KEY` | relay | - | Nostr private key (hex) for the relay. Auto-generated if not provided. |
 | `BUZZ_MEDIA_SERVER_DOMAIN` | relay | - | Public domain used for media server URLs. |
 | `BUZZ_S3_ADDRESSING_STYLE` | relay | path | MinIO sibling uses path-style S3 addressing (required for private-network hostnames). |
@@ -56,7 +58,6 @@ Buzz Relay is a Nostr relay with built-in Git hosting over Nostr (NIP-89). It le
 - **Volume:** `/data/git`
 - **Start command:** `redis-server --appendonly yes`
 - **Volume:** `/data`
-- **Start command:** `sh -c "mkdir -p /data/buzz-media && exec minio server /data --address :8080 --console-address :9001"`
 - **Healthcheck:** `/minio/health/live`
 - **Volume:** `/var/lib/postgresql`
 

@@ -33,9 +33,13 @@ ClickHouse processes analytical queries 100-1000x faster than traditional row-or
 | `CLICKHOUSE_PASSWORD` | (secret) | Password for ClickHouse user |
 | `PUBLIC_DATABASE_URL` | - | Private database URL |
 | `PUBLIC_DATABASE_JDBC_URL` | - | Private database JDBC URL |
+| `CLICKHOUSE_EXTRA_USERS_XML` | - | Extra users and profiles XML, written to users.d |
+| `CLICKHOUSE_EXTRA_CONFIG_XML` | - | Extra server config XML, written to config.d |
+| `CLICKHOUSE_LOG_RETENTION_DAYS` | 7 | Days to keep query, part and error logs |
 
 ## Configuration
 
+- **Start command:** `/bin/sh -c 'if [ -n "$CLICKHOUSE_EXTRA_CONFIG_XML" ]; then printf "%s\n" "$CLICKHOUSE_EXTRA_CONFIG_XML" > /etc/clickhouse-server/config.d/zz-extra.xml; fi; if [ -n "$CLICKHOUSE_EXTRA_USERS_XML" ]; then printf "%s\n" "$CLICKHOUSE_EXTRA_USERS_XML" > /etc/clickhouse-server/users.d/zz-extra.xml; fi; exec /entrypoint.sh'`
 - **Healthcheck:** `/ping`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/clickhouse`

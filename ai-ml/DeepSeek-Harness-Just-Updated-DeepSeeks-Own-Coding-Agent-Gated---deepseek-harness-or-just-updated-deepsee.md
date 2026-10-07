@@ -49,7 +49,7 @@ Measured at 164 MiB idle under a 1 GB cap, so it fits Railway's Trial and Hobby 
 
 | Service | Source | Type |
 |---------|--------|------|
-| deepseek-harness | `ghcr.io/bon5co/deepseek-harness-railway:0.1.0-rc.6` | Web service |
+| deepseek-harness | `ghcr.io/bon5co/deepseek-harness-railway:0.2.0-rc.2` | Web service |
 
 ## Environment variables
 

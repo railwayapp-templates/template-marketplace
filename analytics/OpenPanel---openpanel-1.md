@@ -73,6 +73,9 @@ A Caddy reverse proxy is included so the dashboard and API are served from a sin
 | `CLICKHOUSE_DB` | op-clickhouse | openpanel | - |
 | `CLICKHOUSE_USER` | op-clickhouse | (secret) | - |
 | `CLICKHOUSE_PASSWORD` | op-clickhouse | (secret) | - |
+| `CLICKHOUSE_EXTRA_USERS_XML` | op-clickhouse | - | Extra users and profiles XML, written to users.d |
+| `CLICKHOUSE_EXTRA_CONFIG_XML` | op-clickhouse | - | Extra server config XML, written to config.d |
+| `CLICKHOUSE_LOG_RETENTION_DAYS` | op-clickhouse | 7 | Days to keep query, part and error logs |
 | `PORT` | op-dashboard | 3000 | - |
 | `SELF_HOSTED` | op-dashboard | true | - |
 | `POSTGRES_DB` | op-postgres | railway | - |
@@ -86,6 +89,7 @@ A Caddy reverse proxy is included so the dashboard and API are served from a sin
 - **Start command:** `sh -c 'echo "$CADDYFILE" > /etc/caddy/Caddyfile && caddy run --config /etc/caddy/Caddyfile'`
 - **Healthcheck:** `/healthcheck`
 - **Networking:** Public domain with automatic HTTPS
+- **Start command:** `/bin/sh -c 'if [ -n "$CLICKHOUSE_EXTRA_CONFIG_XML" ]; then printf "%s\n" "$CLICKHOUSE_EXTRA_CONFIG_XML" > /etc/clickhouse-server/config.d/zz-extra.xml; fi; if [ -n "$CLICKHOUSE_EXTRA_USERS_XML" ]; then printf "%s\n" "$CLICKHOUSE_EXTRA_USERS_XML" > /etc/clickhouse-server/users.d/zz-extra.xml; fi; exec /entrypoint.sh'`
 - **Healthcheck:** `/ping`
 - **Volume:** `/var/lib/clickhouse`
 - **Volume:** `/var/lib/postgresql/data`

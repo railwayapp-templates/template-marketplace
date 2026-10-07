@@ -33,10 +33,10 @@ Railway provides compute, TLS at the edge, public URLs, and volumes. New posts a
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
 | `TZ` | storage | UTC | Container timezone (IANA name). |
-| `PORT` | storage | 9000 | Port the MinIO S3 API listens on. |
-| `CONSOLE_PORT` | storage | 9001 | Port the MinIO web console listens on. |
-| `MINIO_ROOT_USER` | storage | (secret) | S3 root username for the MinIO object store. |
-| `MINIO_ROOT_PASSWORD` | storage | (secret) | Auto-generated S3 root password for MinIO. |
+| `PORT` | storage | 9000 | Port the RustFS (S3-compatible object storage, MinIO-compatible) S3 API listens on. RustFS binds RUSTFS_ADDRESS (0.0.0.0:9000) baked into its Dockerfile and ignores $PORT, so the domain must name the container port explicitly. |
+| `CONSOLE_PORT` | storage | 9001 | Port the RustFS (S3-compatible object storage, MinIO-compatible) web console listens on. |
+| `MINIO_ROOT_USER` | storage | (secret) | RustFS (S3-compatible object storage, MinIO-compatible) root username. RustFS reads this variable natively. |
+| `MINIO_ROOT_PASSWORD` | storage | (secret) | Auto-generated RustFS (S3-compatible object storage, MinIO-compatible) root password. RustFS reads this variable natively. |
 | `TZ` | comments | UTC | Container timezone (IANA name). |
 | `PORT` | comments | 8080 | Port the Artalk comment service listens on. |
 | `ARTALK_LOCALE` | comments | en | UI language (e.g. en, zh-CN, ja, fr, ko, ru, tr). |

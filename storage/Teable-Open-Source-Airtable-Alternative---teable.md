@@ -1,6 +1,6 @@
 # Deploy Teable (Open-Source Airtable Alternative) on Railway
 
-Teable [Sep ’26] (Airtable & Baserow alternative) Self Host
+Teable [Oct ’26] (Airtable & Baserow alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/teable)
 

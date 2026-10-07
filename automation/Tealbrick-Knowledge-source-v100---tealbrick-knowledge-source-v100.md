@@ -6,7 +6,7 @@ Private agent memory and research, built from source on Railway.
 
 ## About
 
-Deploy private agent memory and research in your own Railway project. Knowledge builds directly from public source at protected branch release-knowledge-v0.3.0, exact revision ea6608cf7933b835164727910a472f07a99ea1b9. No Tealbrick GHCR credentials are required. Public source does not replace the repository license or your workspace entitlement.
+Deploy private agent memory and research in your own Railway project. Knowledge builds directly from public source at protected branch release-knowledge-v0.4.2, exact revision 0ece21bbd34353302fc9141379e4229651dda81d. No Tealbrick GHCR credentials are required. Public source does not replace the repository license or your workspace entitlement.
 
 The template creates three services and three persistent volumes: Knowledge with bundled GBrain (/data), OpenNotebook 1.14.0 (/app/data), and SurrealDB 2.6.5 (/mydata). OpenNotebook and SurrealDB use digest-pinned public images and private Railway networking. Only Knowledge exposes an HTTPS endpoint. Source builds use deploy/container/Dockerfile. Preserve generated credentials and the OpenNotebook encryption key during upgrades; back up all volumes and protect recovery keys separately.
 
@@ -14,7 +14,7 @@ The template creates three services and three persistent volumes: Knowledge with
 
 | Service | Source | Type |
 |---------|--------|------|
-| Knowledge | [Tealbrick/knowledge](https://github.com/Tealbrick/knowledge) (branch: release-knowledge-v0.3.0) (root: /) | Web service |
+| Knowledge | [Tealbrick/knowledge](https://github.com/Tealbrick/knowledge) (branch: release-knowledge-v0.4.2) (root: /) | Web service |
 | SurrealDB | `surrealdb/surrealdb:v2.6.5@sha256:7db835aab6355b66e2b5779a3cddae811f201c417adadb4413310ae7f925110e` | Database |
 | OpenNotebook | `lfnovo/open_notebook:1.14.0@sha256:6c5fb35b6c60549e4c2dc7617d1f07aaf0a67c4954564a73498d536b8186e879` | Database |
 
@@ -54,6 +54,6 @@ The template creates three services and three persistent volumes: Knowledge with
 - **Volume:** `/mydata`
 - **Volume:** `/app/data`
 
-**Category:** Automation · **Languages:** TypeScript, JavaScript, Shell, Python, PLpgSQL, CSS, HTML, Dockerfile, C, Procfile
+**Category:** Automation · **Languages:** TypeScript, JavaScript, Shell, PLpgSQL, CSS, HTML, Dockerfile, C, Python, Procfile
 
 [View on Railway →](https://railway.com/deploy/tealbrick-knowledge-source-v100)

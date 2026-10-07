@@ -1,6 +1,6 @@
 # Deploy Windmill (Open-Source Automation & Workflow Orchestration Platform) on Railway
 
-Windmill [Sep’26] (Automation & ScriptFirst, Airflow Alternative) Self Host
+Windmill [Oct’26] (Automation & ScriptFirst, Airflow Alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/windmill)
 

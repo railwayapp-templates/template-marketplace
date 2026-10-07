@@ -58,6 +58,6 @@ Velm is also intended to be dual-licensed. Commercial terms may be available sep
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Starters · **Languages:** Go, HTML, CSS, PLpgSQL, JavaScript, Makefile, Dockerfile
+**Category:** Starters · **Languages:** Go, HTML, PLpgSQL, CSS, JavaScript, Makefile, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/velmdev)
