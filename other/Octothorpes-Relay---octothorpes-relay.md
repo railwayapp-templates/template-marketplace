@@ -38,7 +38,7 @@ A relay is two services: the app itself and an Oxigraph triplestore, kept privat
 
 ## Configuration
 
-- **Start command:** `serve --location /data --bind [::]:7878`
+- **Start command:** `/usr/local/bin/oxigraph serve --location /data --bind [::]:7878`
 - **Volume:** `/data`
 
 **Category:** Other · **Languages:** JavaScript, HTML, Svelte, CSS, Dockerfile

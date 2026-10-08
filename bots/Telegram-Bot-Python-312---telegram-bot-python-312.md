@@ -6,7 +6,7 @@ Webhook Telegram bot pinned to Python 3.12. Set TELEGRAM_BOT_TOKEN.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/telegram-bot-py312)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/telegram-bot-python-312)
 
 Webhook Telegram bot pinned to Python 3.12 so it does not crash on Railpack default Python 3.13 (`imghdr` removed, PEP 594). Set `TELEGRAM_BOT_TOKEN` from BotFather and deploy. Healthcheck: `GET /healthz`.
 

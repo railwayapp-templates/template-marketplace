@@ -1,6 +1,6 @@
 # Deploy n8n on Railway
 
-n8n [Oct '26]: SQLite in a single service with a volume. Cheapest to run.
+n8n [Oct '26]: (w/ sqlite)
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-7)
 
