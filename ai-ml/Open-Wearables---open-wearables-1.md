@@ -75,6 +75,6 @@ Open Wearables is designed for self-hosting with minimal setup complexity. The p
 - **Volume:** `/data`
 - **Start command:** `scripts/start/flower.sh`
 
-**Category:** AI/ML · **Languages:** Python, TypeScript, MDX, CSS, Dockerfile, Makefile, Shell, Mako, JavaScript
+**Category:** AI/ML · **Languages:** Python, TypeScript, Svelte, MDX, Shell, CSS, Makefile, Dockerfile, JavaScript, HTML, Mako
 
 [View on Railway →](https://railway.com/deploy/open-wearables-1)

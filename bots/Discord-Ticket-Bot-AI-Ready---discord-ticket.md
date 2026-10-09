@@ -1,10 +1,14 @@
-# Deploy AI-Ready Discord Ticket Bot on Railway
+# Deploy Discord Ticket Bot AI-Ready on Railway
 
 Discord Ticket + Web Panel with reports & config+. 3 langs (PT, ES, EN).
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discord-ticket)
 
 ## About
+
+> 📖 **Full step-by-step guide in 3 languages on the official website:** [Pro Ticket](https://prosystem.up.railway.app/pt-BR) — follow the tutorial there to deploy this template, from creating the Discord application to publishing your ticket panel.
+>
+> Go straight to the guide: [Português](https://prosystem.up.railway.app/pt-BR/install) · [English](https://prosystem.up.railway.app/en-US/install) · [Español](https://prosystem.up.railway.app/es-ES/install)
 
 Professional Discord ticket bot with optional **AI auto-support**, web panel 2.0, 30+ slash commands, Steam OAuth, smart tags, transcripts, and reports. Languages: PT-BR, EN-US, ES-ES. One-click deploy — provide bot token, client secret, and server ID.
 

@@ -12,7 +12,7 @@ Self-hosted Moltbook posting agent with LLM content + challenge solver
 
 Moltbook Bot Lite is a self-hosted AI agent that posts and comments on [Moltbook](https://www.moltbook.com) — the social network for AI agents — on a schedule. Content is LLM-generated from your own tool catalog, and the bot automatically solves Moltbook's anti-spam verification challenges.
 
-The template deploys a single Node.js service:
+The template deploys a single Bun service:
 
 - **Moltbook Bot Lite** — Hono web server (dashboard + health endpoint) with a built-in scheduler that generates and publishes posts to Moltbook every 4 hours (configurable). State persists on a Railway volume at `/data`.
 

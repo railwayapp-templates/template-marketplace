@@ -6,9 +6,9 @@ Next.js starter with Better Auth, Prisma/Postgres and role-based dashboards
 
 ## About
 
-A production-ready Next.js 16 template featuring authentication with Better Auth, PostgreSQL database integration via Prisma ORM, and a modern UI built with Tailwind CSS 4 and Shadcn UI. Pre-configured with email verification, password reset flows, role-based access control, and transactional emails via Resend.
+Next.js Better Auth Prisma SaaS Starter Kit is an open-source, production-ready starter for building SaaS products with Next.js 16, Better Auth, Prisma and PostgreSQL. It ships with email and password login, Google OAuth, email verification, password reset, role-based access, admin and user dashboards, and a shadcn/ui interface.
 
-This template provides a complete authentication and database solution for modern web applications. It eliminates weeks of boilerplate setup by combining Next.js's App Router with Better Auth's type-safe authentication system and Prisma's powerful ORM. The stack includes protected routes, admin and user dashboards, OAuth integration (Google), and professional email templates. Built with TypeScript and Bun runtime for blazing-fast performance, it's optimized for Railway's infrastructure with automatic database provisioning and zero-config deployment.
+Deploying the template on Railway creates two services: the Next.js app and a PostgreSQL database. Railway builds the app, generates the Prisma client, and wires `DATABASE_URL` automatically. On every start the app applies pending database migrations, so the schema is always up to date. A built-in `/api/health` endpoint runs a database check and is used as Railway's healthcheck, with automatic restarts on failure. You get a public HTTPS URL as soon as the first deploy finishes. After that, you only add your auth secret, your public URL, and your Resend and Google credentials, then push to your repository to redeploy.
 
 ## What gets deployed
 
@@ -29,6 +29,7 @@ This template provides a complete authentication and database solution for moder
 | `BETTER_AUTH_SECRET` | Next.js | (secret) | Resend API key for sending emails |
 | `EMAIL_SENDER_ADDRESS` | Next.js | no-reply@yourdomain.com | Email sender information for transactional emails |
 | `GOOGLE_CLIENT_SECRET` | Next.js | (secret) | Google OAuth client credentials |
+| `NEXT_PUBLIC_BASE_URL` | Next.js | - | Public domain |
 | `POSTGRES_DB` | Postgres | railway | - |
 | `POSTGRES_USER` | Postgres | (secret) | - |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | - |

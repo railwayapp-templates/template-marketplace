@@ -8,14 +8,16 @@ MCP browsers with saved profiles, human takeover, guest links and proxies.
 
 Give your AI agent a browser you can watch and take over.
 
-[Tallylamp](https://tallylamp.dev) gives your agent full, headed Chrome with a
-display and Chrome's normal user agent. Each browser saves its own profile by
-default, including cookies, logins, and local storage. Your agent can come back
-to that profile for its next task instead of starting with an empty browser.
+[Tallylamp](https://tallylamp.dev) runs full, headed Chrome with a display and
+Chrome's normal user agent. Each browser saves cookies, logins, and local
+storage in its own profile by default, ready for your agent's next task.
 
 Your agent drives the browser through MCP. You can watch the same browser live,
 take control to sign in or finish a verification step, then return it to the agent.
 Websites can still expire logins or ask you to sign in again.
+
+Agents sharing one MCP connection can drive separate browsers by passing
+`browserId` on every call.
 
 Tallylamp is open source under the MIT license. You pay Railway for the
 infrastructure your deployment uses.
@@ -32,7 +34,7 @@ the public domain, and use it to sign into the dashboard.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:4429543652378d650c9018cbb981b1a77fc9595f276e9459f66d13c70250246c` | Web service |
+| Tallylamp | `ghcr.io/nxfi777/tallylamp@sha256:e58b007ebb32deb4cdaf5006e02254ae3c751125ae5c8a4a4d3d61c52ba807d4` | Web service |
 
 ## Environment variables
 

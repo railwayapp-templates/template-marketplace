@@ -1,6 +1,6 @@
 # Deploy n8n on Railway
 
-n8n [Oct '26]: queue mode, workers, Redis and Postgres. Scale workers.
+n8n [Oct '26]: (w/ workers)
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-4)
 

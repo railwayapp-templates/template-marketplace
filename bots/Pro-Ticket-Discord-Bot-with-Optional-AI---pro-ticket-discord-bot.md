@@ -6,6 +6,10 @@ Ticket bot. 3 languages (PT, ES, EN). Web panel for stats, reports & config
 
 ## About
 
+> 📖 **Full step-by-step guide in 3 languages on the official website:** [Pro Ticket](https://prosystem.up.railway.app/pt-BR) — follow the tutorial there to deploy this template, from creating the Discord application to publishing your ticket panel.
+>
+> Go straight to the guide: [Português](https://prosystem.up.railway.app/pt-BR/install) · [English](https://prosystem.up.railway.app/en-US/install) · [Español](https://prosystem.up.railway.app/es-ES/install)
+
 Professional Discord ticket bot with optional **AI auto-support**, web panel 2.0, 30+ slash commands, Steam OAuth, smart tags, transcripts, and reports. Languages: PT-BR, EN-US, ES-ES. One-click deploy — provide bot token, client secret, and server ID.
 
 Railway provides MongoDB, SSL, and scaling. This template pre-configures env vars and DB connection. You only set Discord credentials; the rest (including `AI_MASTER_KEY` for encrypting AI API keys) is auto-configured. Steam verification needs Public Networking on port **8080**.
