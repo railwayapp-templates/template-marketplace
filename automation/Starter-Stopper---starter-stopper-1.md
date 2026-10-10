@@ -13,9 +13,9 @@ This template creates two Railway Functions: one starts your service, the other 
 By default, the service starts at 06:00 UTC and stops at 21:00 UTC, every day. You can change both times in the cron settings.
 
 You’ll need three variables:
-TARGET_SERVICE_ID: the ID of the service to start and stop.
-TARGET_ENVIRONMENT_ID: the ID of the environment it belongs to.
-RAILWAY_PROJECT_TOKEN: a Project Token for the target project, scoped to that environment.
+- `TARGET_SERVICE_ID`: the ID of the service to start and stop.
+- `TARGET_ENVIRONMENT_ID`: the ID of the environment it belongs to.
+- `RAILWAY_PROJECT_TOKEN`: a Project Token for the target project, scoped to that environment.
 
 ## What gets deployed
 

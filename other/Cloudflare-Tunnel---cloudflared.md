@@ -1,6 +1,6 @@
-# Deploy Cloudflared on Railway
+# Deploy Cloudflare Tunnel on Railway
 
-A lightweight Cloudflare Tunnel connector for securely exposing services.
+A secure service exposure solution on Railway with Cloudflared
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cloudflared)
 

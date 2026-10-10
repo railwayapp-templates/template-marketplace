@@ -1,6 +1,6 @@
-# Deploy Flask [Updated Sep '26] on Railway
+# Deploy Flask [Updated Oct '26] on Railway
 
-Flask [Sep '26] (Build & Deploy Python Web Apps Fast) Self Host
+Flask [Oct '26] (Build & Deploy Python Web Apps Fast) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flask-updated-jul-26)
 

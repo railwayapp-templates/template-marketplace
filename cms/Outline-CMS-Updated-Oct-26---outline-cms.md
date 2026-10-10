@@ -1,6 +1,6 @@
-# Deploy Outline CMS [Updated Sep'26] on Railway
+# Deploy Outline CMS [Updated Oct '26] on Railway
 
-Outline [Sep '26] (Team Wiki, Notion & Confluence Alternative) Self Host
+Outline [Oct '26] (Team Wiki, Notion & Confluence Alternative) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/outline-cms)
 

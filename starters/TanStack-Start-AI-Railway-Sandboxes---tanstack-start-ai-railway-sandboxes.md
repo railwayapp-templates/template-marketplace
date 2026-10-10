@@ -40,6 +40,6 @@ Railway builds the app with Railpack and runs the Nitro output. Before each depl
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Starters · **Languages:** TypeScript, CSS, JavaScript
+**Category:** Starters · **Verified:** Yes · **Languages:** TypeScript, CSS, JavaScript
 
 [View on Railway →](https://railway.com/deploy/tanstack-start-ai-railway-sandboxes)

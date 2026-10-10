@@ -1,6 +1,6 @@
 # Deploy n8n on Railway
 
-n8n [Oct '26]: (w/ workers)
+n8n [Oct '26]: (w/ workers) [stable version]
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-4)
 
@@ -21,9 +21,9 @@ Every n8n service is pinned to 2.40.7. The first boot runs n8n's database migrat
 
 | Service | Source | Type |
 |---------|--------|------|
-| n8n | `n8nio/n8n:2.40.7` | Web service |
+| n8n | `n8nio/n8n:2.42.6` | Web service |
 | Redis | `redis:8.2` | Database |
-| n8n-worker | `n8nio/n8n:2.40.7` | Worker |
+| n8n-worker | `n8nio/n8n:2.42.6` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables

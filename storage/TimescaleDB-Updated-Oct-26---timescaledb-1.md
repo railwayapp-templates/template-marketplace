@@ -1,6 +1,6 @@
-# Deploy TimescaleDB [Updated Sep '26] on Railway
+# Deploy TimescaleDB [Updated Oct '26] on Railway
 
-TimescaleDB [Sep '26] (Time-Series Database Built on Postgres) Self Host
+TimescaleDB [Oct '26] (Time-Series Database Built on Postgres) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/timescaledb-1)
 

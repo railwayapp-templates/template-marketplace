@@ -1,6 +1,6 @@
-# Deploy Lago [Updated Sep '26] on Railway
+# Deploy Lago [Updated Oct '26] on Railway
 
-Lago [Sep '26] (Open-Source Usage-Based Billing & Metering) Self Host
+Lago [Oct '26] (Open-Source Usage-Based Billing & Metering) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lago-1)
 

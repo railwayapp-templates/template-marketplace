@@ -1,6 +1,6 @@
-# Deploy FlowiseAI [Updated Sep '26] on Railway
+# Deploy FlowiseAI [Updated Oct '26] on Railway
 
-Flowise [Sep '26] (Visual Builder for LLM Apps & AI Agents) Self Host
+Flowise [Oct '26] (Visual Builder for LLM Apps & AI Agents) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowiseai)
 

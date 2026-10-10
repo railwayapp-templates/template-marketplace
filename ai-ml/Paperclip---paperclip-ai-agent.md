@@ -1,4 +1,4 @@
-# Deploy Paperclip — AI Agent Company OS on Railway on Railway
+# Deploy Paperclip on Railway
 
 Self-host Paperclip: org charts, goals & budgets for your AI agent team.
 

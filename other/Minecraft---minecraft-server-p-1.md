@@ -14,9 +14,9 @@ The deploy form asks for one thing: type `TRUE` in `EULA` to accept the [Minecra
 
 When the deploy is done, copy `SERVER_ADDRESS` from the Variables tab of the `minecraft` service (it looks like `something.proxy.rlwy.net:12345`). In Minecraft, open Multiplayer, Add Server, and paste it.
 
-In my test the first boot took 26 seconds, including downloading Paper and generating a new world. After a redeploy it came back in 8 seconds and loaded the same world from the volume. A Server List Ping (what the Multiplayer screen sends) answered in about half a second with the version and player count.
+In my test the first boot took 26 seconds, including downloading Paper and generating a new world (17 seconds with Paper 26.2 in October 2026). After a redeploy it came back in 8 seconds and loaded the same world from the volume. A Server List Ping (what the Multiplayer screen sends) answered in about half a second with the version and player count.
 
-An empty server used 0.86 GB of RAM in my test, which is about $9 a month at Railway's RAM price. The heap starts at 512 MB and grows up to `MAX_MEMORY` (2 GB by default) as players load chunks, so the bill follows how much the server is used.
+An empty server used 0.86 GB of RAM in my test, which is about $9 a month at Railway's RAM price. The heap starts small and grows as players load chunks, so the bill follows how much the server is used.
 
 ## What gets deployed
 
@@ -36,8 +36,8 @@ An empty server used 0.86 GB of RAM in my test, which is about $9 a month at Rai
 | `VERSION` | LATEST | Minecraft version, e.g. LATEST or 1.21.8 |
 | `WHITELIST` | - | Comma-separated usernames allowed when the whitelist is on |
 | `DIFFICULTY` | normal | peaceful, easy, normal or hard |
-| `MAX_MEMORY` | 2G | Heap limit. 2G is enough for a few friends; use 700M on Railway's trial (1 GB RAM cap) |
-| `INIT_MEMORY` | 512M | Heap at start. Kept low so an empty server uses less RAM |
+| `MAX_MEMORY` | 50% | Heap limit as a share of the service's RAM, so it fits any plan; Java needs the rest. Or a fixed size like 4G |
+| `INIT_MEMORY` | 25% | Heap at start, as a share of the service's RAM. Kept low so an empty server uses less |
 | `MAX_PLAYERS` | 10 | Player slots |
 | `ONLINE_MODE` | TRUE | Check accounts against Mojang. Keep TRUE unless you know why not |
 | `RCON_PASSWORD` | (secret) | Password for rcon-cli (open a shell with railway ssh, then run rcon-cli) |

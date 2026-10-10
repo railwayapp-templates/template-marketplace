@@ -37,6 +37,6 @@ Railway builds the app with Railpack and runs the Nitro output with `node .outpu
 - **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Starters · **Languages:** TypeScript, CSS, JavaScript
+**Category:** Starters · **Verified:** Yes · **Languages:** TypeScript, CSS, JavaScript
 
 [View on Railway →](https://railway.com/deploy/tanstack-start)

@@ -1,6 +1,6 @@
 # Deploy n8n on Railway
 
-n8n [Oct '26]: queue mode with workers and webhook processors.
+n8n [Oct '26]: (w/ webhook processors) [stable version]
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-6)
 
@@ -24,10 +24,10 @@ Every n8n service is pinned to 2.40.7. The first boot runs n8n's database migrat
 |---------|--------|------|
 | Redis | `redis:8.2` | Database |
 | Caddy | `caddy:2.11-alpine` | Web service |
-| n8n-worker | `n8nio/n8n:2.40.7` | Worker |
-| n8n-webhook | `n8nio/n8n:2.40.7` | Worker |
+| n8n-worker | `n8nio/n8n:2.42.6` | Worker |
+| n8n-webhook | `n8nio/n8n:2.42.6` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| n8n | `n8nio/n8n:2.40.7` | Worker |
+| n8n | `n8nio/n8n:2.42.6` | Worker |
 
 ## Environment variables
 

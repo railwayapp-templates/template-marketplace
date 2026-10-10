@@ -1,6 +1,6 @@
 # Deploy n8n on Railway
 
-n8n [Oct '26]: (/w external task runners)
+n8n [Oct '26]: (/w external task runners) [stable version]
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-8)
 
@@ -21,8 +21,8 @@ Both n8n images are pinned to 2.40.7. The first boot runs n8n's database migrati
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| n8n | `n8nio/n8n:2.40.7` | Web service |
-| n8n-runners | `n8nio/runners:2.40.7` | Worker |
+| n8n | `n8nio/n8n:2.42.6` | Web service |
+| n8n-runners | `n8nio/runners:2.42.6` | Worker |
 
 ## Environment variables
 

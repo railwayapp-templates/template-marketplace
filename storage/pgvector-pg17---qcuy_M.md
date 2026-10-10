@@ -49,11 +49,30 @@ Here’s a simple example to verify that the pgvector extension is set up and wo
    
    -- Perform a vector similarity search
    SELECT * FROM items 
-   ORDER BY embedding &lt;-&gt; '[3,1,2]' 
+   ORDER BY embedding <-> '[3,1,2]' 
    LIMIT 5;
    ```
 
-This SQL snippet sets up the pgvector extension, creates a table, inserts data, and runs a basic similarity query using the `&lt;-&gt;` operator to measure vector distance.
+This SQL snippet sets up the pgvector extension, creates a table, inserts data, and runs a basic similarity query using the `<->` operator to measure vector distance.
+
+### Upgrading an Existing Deployment
+
+New deployments always get the latest PGVector release. An existing deployment keeps running the image it was deployed with, and each database keeps its extension version until you update it. To upgrade:
+
+1. **Redeploy the service:** open your pgvector service, go to the **Deployments** tab, click the three dots on the active deployment and choose **Redeploy**.
+2. **Update the extension** in each database where you enabled it:
+
+   ```sql
+   ALTER EXTENSION vector UPDATE;
+   ```
+
+3. **Check the version:**
+
+   ```sql
+   SELECT default_version, installed_version FROM pg_available_extensions WHERE name = 'vector';
+   ```
+
+   `default_version` is what the image ships and `installed_version` is what your database uses. Both should match the newest release in the [PGVector changelog](https://github.com/pgvector/pgvector/blob/master/CHANGELOG.md).
 
 ### Further Information
 

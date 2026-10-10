@@ -1,6 +1,6 @@
-# Deploy Firecrawl API [Updated Sep '26] on Railway
+# Deploy Firecrawl API [Updated Oct '26] on Railway
 
-Firecrawl [Sep '26] (Web Scraping & Crawling API for LLMs) Self Host
+Firecrawl [Oct '26] (Web Scraping & Crawling API for LLMs) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/firecrawl-api)
 

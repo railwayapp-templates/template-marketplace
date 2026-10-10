@@ -1,4 +1,4 @@
-# Deploy Teleproxy [Updated Sep '26] on Railway
+# Deploy Teleproxy [Updated Oct '26] on Railway
 
 Teleproxy — Self-Hosted MTProto Proxy for Telegram, Fake-TLS DPI Resistant
 

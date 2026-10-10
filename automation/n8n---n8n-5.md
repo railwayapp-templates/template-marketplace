@@ -1,6 +1,6 @@
 # Deploy n8n on Railway
 
-n8n [Oct '26]: (w/ postgres)
+n8n [Oct '26]: (w/ postgres) [stable version]
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-5)
 
@@ -19,7 +19,7 @@ The `n8n` service keeps a volume at `/home/node/.n8n` for binary files from exec
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| n8n | `n8nio/n8n:2.40.7` | Web service |
+| n8n | `n8nio/n8n:2.42.6` | Web service |
 
 ## Environment variables
 

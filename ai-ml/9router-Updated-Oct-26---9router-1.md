@@ -1,6 +1,6 @@
-# Deploy 9router [Updated Sep '26] on Railway
+# Deploy 9router [Updated Oct '26] on Railway
 
-9Router [Sep '26] (Self-Hosted AI Gateway & LLM Router) Self Host
+9Router [Oct '26] (Self-Hosted AI Gateway & LLM Router) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9router-1)
 

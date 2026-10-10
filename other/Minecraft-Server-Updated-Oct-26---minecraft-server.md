@@ -1,6 +1,6 @@
-# Deploy Minecraft Server [Updated Sep '26] on Railway
+# Deploy Minecraft Server [Updated Oct '26] on Railway
 
-Minecraft Server [Sep '26] (Paper, Plugin-Compatible) Self Host
+Minecraft Server [Oct '26] (Paper, Plugin-Compatible) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/minecraft-server)
 

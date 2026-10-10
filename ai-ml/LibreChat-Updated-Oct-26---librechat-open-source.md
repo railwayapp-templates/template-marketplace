@@ -1,6 +1,6 @@
-# Deploy LibreChat [Updated Sep '26] on Railway
+# Deploy LibreChat [Updated Oct '26] on Railway
 
-LibreChat [Sep '26] (Self-Hosted ChatGPT UI, Multi-Provider + RAG)
+LibreChat [Oct '26] (Self-Hosted ChatGPT UI, Multi-Provider + RAG)
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/librechat-open-source)
 

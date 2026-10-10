@@ -1,6 +1,6 @@
-# Deploy Vaultwarden [Updated Sep '26] on Railway
+# Deploy Vaultwarden [Updated Oct '26] on Railway
 
-Vaultwarden [Sep '26] (Self-Hosted Bitwarden-Compatible Vault) Self Host
+Vaultwarden [Oct '26] (Self-Hosted Bitwarden-Compatible Vault) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/vaultwarden-7)
 

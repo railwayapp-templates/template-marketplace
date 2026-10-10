@@ -1,6 +1,6 @@
-# Deploy Appsmith [Updated Sep '26] on Railway
+# Deploy Appsmith [Updated Oct '26] on Railway
 
-Appsmith [Sep '26] (Build Internal Tools & Admin Panels Fast) Self Host
+Appsmith [Oct '26] (Build Internal Tools & Admin Panels Fast) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/appsmith)
 

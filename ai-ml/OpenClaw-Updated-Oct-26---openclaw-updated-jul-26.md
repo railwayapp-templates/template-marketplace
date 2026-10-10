@@ -1,6 +1,6 @@
-# Deploy OpenClaw [Updated Sep '26] on Railway
+# Deploy OpenClaw [Updated Oct '26] on Railway
 
-OpenClaw [Sep '26] (Self-Hosted AI Assistant & Multi-Channel Bot) Self Host
+OpenClaw [Oct '26] (Self-Hosted AI Assistant & Multi-Channel Bot) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openclaw-updated-jul-26)
 

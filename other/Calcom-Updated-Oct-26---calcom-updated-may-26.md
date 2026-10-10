@@ -1,6 +1,6 @@
-# Deploy Cal.com [Updated Sep '26] on Railway
+# Deploy Cal.com [Updated Oct '26] on Railway
 
-Cal.com [Sep '26] (Open-Source Scheduling & Appointment Booking) Self Host
+Cal.com [Oct '26] (Open-Source Scheduling & Appointment Booking) Self Host
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/calcom-updated-may-26)
 

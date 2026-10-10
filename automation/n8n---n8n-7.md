@@ -1,6 +1,6 @@
 # Deploy n8n on Railway
 
-n8n [Oct '26]: (w/ sqlite)
+n8n [Oct '26]: (w/ sqlite) [stable version]
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-7)
 
@@ -16,7 +16,7 @@ The first boot creates the database, which takes under a minute before the healt
 
 | Service | Source | Type |
 |---------|--------|------|
-| n8n | `n8nio/n8n:2.40.7` | Web service |
+| n8n | `n8nio/n8n:2.42.6` | Web service |
 
 ## Environment variables
 
