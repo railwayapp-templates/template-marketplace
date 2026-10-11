@@ -28,7 +28,7 @@ Minecraft is one of the most popular sandbox games ever created, allowing player
 | `DEBUG` | false | - |
 | `LEVEL` | world | - |
 | `MEMORY` | 2G | - |
-| `VERSION` | 1.21.1 | - |
+| `VERSION` | 26.3 | - |
 | `RCON_PORT` | 25575 | - |
 | `DIFFICULTY` | normal | - |
 | `QUERY_PORT` | 25565 | - |
@@ -37,6 +37,7 @@ Minecraft is one of the most popular sandbox games ever created, allowing player
 | `ONLINE_MODE` | TRUE | - |
 | `ALLOW_NETHER` | TRUE | - |
 | `ENABLE_QUERY` | TRUE | - |
+| `PAPER_CHANNEL` | experimental | - |
 | `RCON_PASSWORD` | (secret) | - |
 | `VIEW_DISTANCE` | 10 | - |
 | `USE_AIKAR_FLAGS` | TRUE | - |
@@ -52,6 +53,7 @@ Minecraft is one of the most popular sandbox games ever created, allowing player
 
 ## Configuration
 
+- **TCP Proxies:** 25565
 - **Volume:** `/data`
 
 **Category:** Other · **Languages:** Dockerfile

@@ -28,7 +28,7 @@ email address for your administrator account, and deploy.
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| ContextForge | `ghcr.io/ibm/mcp-context-forge:v1.0.10` | Web service |
+| ContextForge | `ghcr.io/ibm/mcp-context-forge:v1.0.11` | Web service |
 
 ## Environment variables
 
@@ -55,7 +55,7 @@ email address for your administrator account, and deploy.
 | `DEFAULT_USER_PASSWORD` | ContextForge | (secret) | Initial password of users created through the admin UI. They must replace it on first sign-in. |
 | `MCPGATEWAY_UI_ENABLED` | ContextForge | true | Serves the admin web UI at /admin. |
 | `AUTH_ENCRYPTION_SECRET` | ContextForge | (secret) | Encrypts the credentials you store for connected MCP servers. |
-| `PLATFORM_ADMIN_PASSWORD` | ContextForge | (secret) | First-login password of the administrator account. The gateway makes you replace it on first sign-in. |
+| `PLATFORM_ADMIN_PASSWORD` | ContextForge | (secret) | Password of the administrator account. Read on first boot only; to change it later, edit your user under Users in the admin UI. |
 | `MCPGATEWAY_SKIP_MIGRATIONS` | ContextForge | false | [Do not change] Runs database migrations on every deployment. |
 | `RATE_LIMITING_REDIS_ENABLED` | ContextForge | false | [Do not change] Rate limiting runs in memory. This template ships no Redis. |
 | `SSRF_ALLOW_PRIVATE_NETWORKS` | ContextForge | true | [Do not change] Allows registering MCP servers that run on this project's private network. |

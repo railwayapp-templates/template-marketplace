@@ -40,7 +40,7 @@ remember to delete afterwards.
 | builder | `ghcr.io/bon5co/typebot-railway-builder:3.17.2` | Web service |
 | redis | `redis:8.2.1-alpine` | Database |
 | postgres | `postgres:17.6-alpine` | Database |
-| minio | `quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
+| minio | `pgsty/silo:RELEASE.2026-09-16T00-00-00Z` | Web service |
 
 ## Environment variables
 
@@ -62,7 +62,7 @@ remember to delete afterwards.
 - **Start command:** `/bin/sh -c 'chown -R redis:redis /data && exec docker-entrypoint.sh redis-server --requirepass "$REDIS_PASSWORD" --appendonly yes --dir /data'`
 - **Volume:** `/data`
 - **Volume:** `/var/lib/postgresql`
-- **Start command:** `/bin/sh -c 'exec minio server --address "[::]:$PORT" --console-address 127.0.0.1:9001 /data'`
+- **Start command:** `/bin/sh -c 'rm -rf /data/lost+found; exec silo server --address "[::]:$PORT" --console-address 127.0.0.1:9001 /data'`
 - **Healthcheck:** `/minio/health/ready`
 
 **Category:** Bots

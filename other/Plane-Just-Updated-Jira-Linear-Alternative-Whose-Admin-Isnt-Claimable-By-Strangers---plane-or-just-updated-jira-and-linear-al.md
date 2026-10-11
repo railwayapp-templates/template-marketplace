@@ -17,7 +17,7 @@ This template runs Plane's all-in-one community image (web, API, background work
 | redis | `redis:8.2.1-alpine` | Database |
 | postgres | `postgres:16.4-alpine` | Database |
 | plane | `ghcr.io/bon5co/plane-railway:1.4.1` | Web service |
-| minio | `quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
+| minio | `pgsty/silo:RELEASE.2026-09-16T00-00-00Z` | Web service |
 | rabbitmq | `rabbitmq:4.1-alpine` | Database |
 
 ## Environment variables
@@ -25,15 +25,19 @@ This template runs Plane's all-in-one community image (web, API, background work
 | Variable | Service | Default |
 | --------- | ------- | ------- |
 | `REDIS_PASSWORD` | redis | (secret) |
+| `POSTGRES_DB` | postgres | plane |
 | `POSTGRES_USER` | postgres | (secret) |
 | `POSTGRES_PASSWORD` | postgres | (secret) |
+| `AWS_REGION` | plane | us-east-1 |
 | `SECRET_KEY` | plane | (secret) |
 | `ADMIN_PASSWORD` | plane | (secret) |
+| `AWS_S3_BUCKET_NAME` | plane | uploads |
 | `AWS_SECRET_ACCESS_KEY` | plane | (secret) |
 | `LIVE_SERVER_SECRET_KEY` | plane | (secret) |
 | `MINIO_ROOT_USER` | minio | (secret) |
 | `MINIO_ROOT_PASSWORD` | minio | (secret) |
 | `RABBITMQ_DEFAULT_USER` | rabbitmq | (secret) |
+| `RABBITMQ_DEFAULT_VHOST` | rabbitmq | plane |
 
 ## Configuration
 
@@ -41,7 +45,7 @@ This template runs Plane's all-in-one community image (web, API, background work
 - **Volume:** `/data`
 - **Volume:** `/var/lib/postgresql`
 - **Networking:** Public domain with automatic HTTPS
-- **Start command:** `/bin/sh -c 'exec minio server --address "[::]:$PORT" --console-address 127.0.0.1:9001 /data'`
+- **Start command:** `/bin/sh -c 'rm -rf /data/lost+found; exec silo server --address "[::]:$PORT" --console-address 127.0.0.1:9001 /data'`
 - **Volume:** `/var/lib/rabbitmq`
 
 **Category:** Other

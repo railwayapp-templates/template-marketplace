@@ -23,7 +23,7 @@ FerretDB enables you to use your existing MongoDB tools and drivers seamlessly w
 
 | Variable | Default |
 | --------- | ------- |
-| `POSTGRES_DB` | railway |
+| `POSTGRES_DB` | postgres |
 | `POSTGRES_USER` | (secret) |
 | `POSTGRES_PASSWORD` | (secret) |
 

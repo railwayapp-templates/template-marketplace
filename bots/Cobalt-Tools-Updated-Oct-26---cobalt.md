@@ -16,7 +16,7 @@ When self-hosted, Cobalt Tools can be integrated into workflows such as file man
 
 | Service | Source | Type |
 |---------|--------|------|
-| cobalt | `ghcr.io/imputnet/cobalt:latest` | Web service |
+| cobalt | `ghcr.io/imputnet/cobalt:11.7.1` | Web service |
 
 ## Environment variables
 
@@ -30,7 +30,7 @@ When self-hosted, Cobalt Tools can be integrated into workflows such as file man
 
 ## Configuration
 
-- **Healthcheck:** `/api/serverInfo`
+- **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
 
 **Category:** Bots

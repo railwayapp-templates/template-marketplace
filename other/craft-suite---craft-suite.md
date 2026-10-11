@@ -29,8 +29,8 @@ A `/healthz` endpoint is available for healthchecks.
 
 | Service | Source | Type |
 |---------|--------|------|
-| craft-relay | [derekcheungsa/craft-suite-railway](https://github.com/derekcheungsa/craft-suite-railway) (root: server) | Web service |
 | craft-suite | [derekcheungsa/craft-suite-railway](https://github.com/derekcheungsa/craft-suite-railway) | Web service |
+| craft-relay | [derekcheungsa/craft-suite-railway](https://github.com/derekcheungsa/craft-suite-railway) (root: server) | Web service |
 
 ## Environment variables
 

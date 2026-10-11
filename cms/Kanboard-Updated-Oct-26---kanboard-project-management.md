@@ -23,7 +23,7 @@ The result is simple: click deploy, open the URL, and start managing projects im
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Kanboard-Railway | [XavTo/Kanboard-Railway](https://github.com/XavTo/Kanboard-Railway) | Web service |
+| Kanboard-Railway | [Shinyduo/kanboard-railway](https://github.com/Shinyduo/kanboard-railway) | Web service |
 
 ## Environment variables
 

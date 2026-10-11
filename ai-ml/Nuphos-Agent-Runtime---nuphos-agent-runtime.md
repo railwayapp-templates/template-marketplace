@@ -16,6 +16,12 @@ This template deploys one service from the public `ghcr.io/nuphos/runtime` image
 |---------|--------|------|
 | runtime | `ghcr.io/nuphos/runtime:0.1.18-claude-code` | Web service |
 
+## Environment variables
+
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `OPENAB_ACP_AUTH_KEY` | (secret) | Password for the agent console and for connecting it to Nuphos. Generated for you; copy it from this service's Variables after deploying. |
+
 ## Configuration
 
 - **Start command:** `/bin/sh -c "mkdir -p /home/node/workspace && chown node:node /home/node /home/node/workspace && (rmdir /workspace 2>/dev/null || true) && ln -sfn /home/node/workspace /workspace && exec setpriv --reuid=node --regid=node --init-groups --no-new-privs /usr/local/bin/nuphos-runtime-start openab run -c /etc/openab/config.toml"`

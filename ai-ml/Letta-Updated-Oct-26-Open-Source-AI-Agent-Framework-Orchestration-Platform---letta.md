@@ -12,7 +12,7 @@ Letta is an open-source, voice and chat AI assistant framework designed for deve
 
 | Service | Source | Type |
 |---------|--------|------|
-| letta/letta:latest | `letta/letta:latest` | Web service |
+| letta/letta:latest | `letta/letta:0.16.8` | Web service |
 
 ## Environment variables
 

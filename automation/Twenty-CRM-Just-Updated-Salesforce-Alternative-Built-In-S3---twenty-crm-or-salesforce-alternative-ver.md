@@ -27,7 +27,7 @@ Sizing: the server is the memory-hungry service (roughly 1 GB), the worker a few
 | Service | Source | Type |
 |---------|--------|------|
 | twenty | `ghcr.io/bon5co/twenty-railway:latest` | Web service |
-| minio | `quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z` | Database |
+| minio | `pgsty/silo:RELEASE.2026-09-16T00-00-00Z` | Database |
 | redis | `redis:8.2.1` | Database |
 | postgres | `postgres:16` | Database |
 | worker | `ghcr.io/bon5co/twenty-railway:latest` | Worker |
@@ -49,7 +49,7 @@ Sizing: the server is the memory-hungry service (roughly 1 GB), the worker a few
 
 - **Healthcheck:** `/healthz`
 - **Networking:** Public domain with automatic HTTPS
-- **Start command:** `/bin/sh -c 'rm -rf /data/lost+found && mkdir -p /data/twenty && exec minio server --address ":9000" --console-address ":9001" /data'`
+- **Start command:** `/bin/sh -c 'rm -rf /data/lost+found && mkdir -p /data/twenty && exec silo server --address ":9000" --console-address ":9001" /data'`
 - **Volume:** `/data`
 - **Start command:** `/bin/sh -c 'chown -R redis:redis /data && exec docker-entrypoint.sh redis-server --requirepass "$REDIS_PASSWORD" --appendonly yes --dir /data --maxmemory-policy noeviction'`
 - **Volume:** `/var/lib/postgresql`

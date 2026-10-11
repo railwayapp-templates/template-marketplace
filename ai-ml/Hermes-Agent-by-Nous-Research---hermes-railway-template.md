@@ -23,6 +23,7 @@ Hosting Hermes Agent on Railway gives you a persistent messaging gateway without
 | `OPENROUTER_API_KEY` | (secret) |
 | `TELEGRAM_BOT_TOKEN` | (secret) |
 | `HERMES_IMAGE_VERSION` | latest |
+| `HERMES_WRITE_SAFE_ROOT` | /data |
 | `AGENT_CACHE_MEMORY_HIGH_MB` | 750 |
 
 ## Configuration
