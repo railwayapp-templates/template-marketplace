@@ -50,6 +50,6 @@ The stack is three pieces: Odoo, a private Postgres, and a Railway bucket for ba
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/odoo`
 
-**Category:** CMS · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/odoo-19)

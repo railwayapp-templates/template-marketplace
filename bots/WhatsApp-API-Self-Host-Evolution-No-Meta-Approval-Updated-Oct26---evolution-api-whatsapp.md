@@ -1,4 +1,4 @@
-# Deploy Evolution API [Updated Oct'26] on Railway
+# Deploy WhatsApp API — Self-Host Evolution, No Meta Approval [Updated Oct'26] on Railway
 
 WhatsApp messaging, groups & webhooks via REST. No per-message fees.
 

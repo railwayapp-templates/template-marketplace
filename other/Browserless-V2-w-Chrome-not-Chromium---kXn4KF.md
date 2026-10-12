@@ -1,4 +1,4 @@
-# Deploy browserless-with-chrome on Railway
+# Deploy Browserless V2 w/ Chrome not Chromium on Railway
 
 Browserless with Chrome not Chromium
 

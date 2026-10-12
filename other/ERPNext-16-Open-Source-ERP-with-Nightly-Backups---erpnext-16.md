@@ -51,6 +51,6 @@ The stack is three pieces: ERPNext, a private MariaDB, and a Railway bucket for 
 - **Start command:** `docker-entrypoint.sh mariadbd --datadir=/var/lib/mysql/data --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --skip-character-set-client-handshake`
 - **Volume:** `/var/lib/mysql`
 
-**Category:** CMS · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/erpnext-16)

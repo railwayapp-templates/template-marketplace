@@ -48,6 +48,6 @@ The station is already wired to Navidrome when it boots: the Navidrome admin use
 - **Healthcheck:** `/api/health`
 - **Volume:** `/var/sub-wave`
 
-**Category:** Other · **Languages:** Dockerfile, Shell
+**Category:** AI/ML · **Languages:** Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/subwave)

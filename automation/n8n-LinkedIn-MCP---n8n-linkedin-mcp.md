@@ -39,7 +39,7 @@ This template deploys three services on Railway: n8n, a Postgres database, and a
 | `POSTGRES_USER` | Postgres | (secret) | Superuser created on first start. Leave as postgres. |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Auto-generated password for the Postgres user. Unique per deploy. |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public connection string. Only works if you enable a TCP proxy. Not needed for n8n. |
-| `VNC` | linkedin-mcp | false | Turns on a VNC remote desktop so you can sign in to LinkedIn by hand. Leave as false unless you need it. |
+| `VNC` | linkedin-mcp | 0 | Turns on a VNC remote desktop so you can sign in to LinkedIn by hand. Leave as false unless you need it. |
 | `HOST` | linkedin-mcp | 0.0.0.0 | Network address the server binds to. Leave as 0.0.0.0 on Railway. |
 | `MODE` | linkedin-mcp | auth | Default mode |
 | `PORT` | linkedin-mcp | 8000 | Port the MCP server listens on. Must match the port Railway routes to. |
@@ -53,8 +53,8 @@ This template deploys three services on Railway: n8n, a Postgres database, and a
 | `VNC_PASSWORD` | linkedin-mcp | (secret) | Auto-generated password for the VNC desktop. Unique per deploy. |
 | `CHROME_EXTRA_FLAGS` | linkedin-mcp | --no-first-run --no-sandbox --disable-dev-shm-usage --no-default-browser-check --disable-search-engine-choice-screen --password-store=basic --disable-gpu --disable-software-rasterizer --disable-site-isolation-trials --disable-features=IsolateOrigins,site-per-process,Translate,MediaRouter,OptimizationHints --disable-back-forward-cache --disable-background-networking --disable-component-update --disable-sync --disable-extensions --disable-component-extensions-with-background-pages --disable-default-apps --disable-client-side-phishing-detection --disable-domain-reliability --disable-breakpad --disable-crash-reporter --no-pings --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-renderer-backgrounding --disable-ipc-flooding-protection --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-blink-features=AutomationControlled | chrome flags |
 | `LINKEDIN_MCP_CONTAINER` | linkedin-mcp | true | Tells the app it's running inside a container. Leave as true. |
-| `FASTMCP_HTTP_ALLOWED_HOSTS` | linkedin-mcp | - | Hostnames allowed to reach the server. Defaults to this service's Railway domain. |
-| `FASTMCP_HTTP_ALLOWED_ORIGINS` | linkedin-mcp | - | Browser origins allowed to call the server. Defaults to this service's Railway domain. |
+| `FASTMCP_HTTP_ALLOWED_HOSTS` | linkedin-mcp | - | Hostnames allowed to reach the server. Defaults to this service's Railway public and private domains. |
+| `FASTMCP_HTTP_ALLOWED_ORIGINS` | linkedin-mcp | - | Browser origins allowed to call the server. Defaults to this service's Railway public and private domains. |
 | `FASTMCP_HTTP_HOST_ORIGIN_PROTECTION` | linkedin-mcp | true | Checks the host and origin of incoming requests. Leave as true. |
 
 ## Configuration

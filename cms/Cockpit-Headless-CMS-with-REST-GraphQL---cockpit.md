@@ -30,6 +30,6 @@ This template runs Cockpit Core (free, open source) as a single Railway service 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/www/html/storage`
 
-**Category:** Other · **Languages:** Dockerfile
+**Category:** CMS · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/cockpit)

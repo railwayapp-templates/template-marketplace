@@ -1,6 +1,6 @@
 # Deploy Multica on Railway
 
-Multica: self-hosted AI team workspace with boards, chat, squads.
+AI teammates on one board: humans + agents, chat, squads, analytics.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/multica-1)
 
@@ -8,16 +8,16 @@ Multica: self-hosted AI team workspace with boards, chat, squads.
 
 Multica is a self-hosted AI team workspace: issue boards, agent squads, chat with connected agents, GitHub PR tracking, routines, and usage analytics — one place to run a human + AI team.
 
-This template deploys the official Multica images as a three-service stack: the Go backend (with database migrations running automatically at boot), the Next.js frontend (proxying API and WebSocket traffic to the backend over Railway's private network, so everything stays same-origin), and a bundled PostgreSQL 17 database with the extensions Multica needs already installed. Uploads live on a persistent volume; the database on its own.
+This template layers deployment wrappers over the pinned official Multica images: the Go backend runs migrations at boot, and the Next.js frontend forwards API, auth, uploads and WebSockets to the backend over Railway's private network. PostgreSQL 17 and uploads each have a persistent volume. The frontend wrapper rewires Next.js's build-time proxy configuration to the runtime private backend origin; merely setting `REMOTE_API_URL` on the official image is insufficient.
 
-Wire-up is automatic: `DATABASE_URL` is composed from the database service over the private network, `JWT_SECRET` and `POSTGRES_PASSWORD` are generated at deploy time, and the frontend's proxy target is a private-network reference. After deploying, generate a public domain on the `frontend` service and sign up — the first user owns the workspace.
+`DATABASE_URL` and the frontend proxy target reference the private database/backend domains. `FRONTEND_ORIGIN` references the frontend's HTTPS domain for Secure cookies and invitation links. The manifest requests generated secrets, but if the existing marketplace card prompts for blank secrets, generate strong unique values; publication of these defaults is being verified separately. After login, create your workspace to become its owner.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| frontend | `ghcr.io/multica-ai/multica-web:v0.3.29` | Worker |
-| backend | `wotonews/multica:v0.3.29-1` | Database |
+| backend | `wotonews/multica:v0.3.29-2` | Web service |
+| frontend | `wotonews/multica-web:v0.3.29-1` | Web service |
 | postgres | `wotonews/postgres:v17.11-3` | Database |
 
 ## Environment variables
@@ -29,6 +29,7 @@ Wire-up is automatic: `DATABASE_URL` is composed from the database service over 
 
 ## Configuration
 
+- **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/data/uploads`
 - **Volume:** `/var/lib/postgresql/data`
 

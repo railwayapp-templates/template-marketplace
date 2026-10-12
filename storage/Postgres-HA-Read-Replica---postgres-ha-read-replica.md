@@ -1,19 +1,20 @@
 # Deploy Postgres HA Read Replica on Railway
 
-Highly available PostgreSQL with automated failover and a read replica.
+Self-healing PostgreSQL: automated failover, read replica, pgAdmin.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgres-ha-read-replica)
 
 ## About
 
 Deploying this template provisions a three-service PostgreSQL high-availability
-formation in your Railway project:
+formation plus a pgAdmin UI service in your Railway project:
 
 | Component | Type | Source / Image | Persistent Volume | Public URL | Description |
 | :--- | :--- | :--- | :---: | :---: | :--- |
-| **`pgaf-monitor`** | Service | `wotonews/postgres-ha:v0.1.0` | Yes (`/data`) | No | pg_auto_failover monitor — the witness that arbitrates failover. |
-| **`pgaf-primary`** | Service | `wotonews/postgres-ha:v0.1.0` | Yes (`/data`) | No | The primary Postgres node — accepts all writes and reads. |
-| **`pgaf-replica`** | Service | `wotonews/postgres-ha:v0.1.0` | Yes (`/data`) | No | The standby node — hot streaming replica, promoted on failover. |
+| **`pgaf-monitor`** | Service | `wotonews/postgres-ha:v0.1.5` | Yes (`/data`) | No | pg_auto_failover monitor — the witness that arbitrates failover. |
+| **`pgaf-primary`** | Service | `wotonews/postgres-ha:v0.1.5` | Yes (`/data`) | No | The primary Postgres node — accepts all writes and reads. |
+| **`pgaf-replica`** | Service | `wotonews/postgres-ha:v0.1.5` | Yes (`/data`) | No | The standby node — hot streaming replica, promoted on failover. |
+| **`pgadmin`** | Service | `wotonews/pgadmin-ha:v9.18-1` | Yes (`/var/lib/pgadmin`) | Generate one | Browser UI with both cluster nodes pre-registered (`primary (writes)` / `replica (reads)`). |
 
 All three services run the same image and self-organize: roles are derived
 from Railway-injected environment variables (`RAILWAY_SERVICE_NAME` → monitor
@@ -34,13 +35,22 @@ to join the formation becomes the primary; the second clones it with
 
 | Service | Source | Type |
 |---------|--------|------|
+| pgaf-monitor | `wotonews/postgres-ha:v0.1.5` | Database |
 | pgaf-replica | `wotonews/postgres-ha:v0.1.5` | Database |
 | pgaf-primary | `wotonews/postgres-ha:v0.1.5` | Database |
-| pgaf-monitor | `wotonews/postgres-ha:v0.1.5` | Database |
+| pgadmin | `wotonews/pgadmin-ha:v9.18-2` | Web service |
+
+## Environment variables
+
+| Variable | Default |
+| --------- | ------- |
+| `PGADMIN_DEFAULT_PASSWORD` | (secret) |
 
 ## Configuration
 
 - **Volume:** `/data`
+- **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/var/lib/pgadmin`
 
 **Category:** Storage
 
