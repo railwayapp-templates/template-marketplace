@@ -6,18 +6,18 @@ Self-host your personal finances with Securo on Railway
 
 ## About
 
-Securo is an open-source, self-hosted personal finance manager focused on privacy and ownership of financial data. This template deploys the stable release `0.16.2` with durable PostgreSQL (including pgvector), Redis-backed task queues, and persistent attachment storage.
+Securo is an open-source, self-hosted personal finance manager focused on privacy and ownership of financial data. This template deploys the stable release `0.16.3` with durable PostgreSQL (including pgvector), Redis-backed task queues, and persistent attachment storage.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| celery-beat | `ghcr.io/securo-finance/securo-backend:0.16.0@sha256:f452147e07f1faab4dd8c5c654094fe0a9a7a65e6d9b201b8d06edca75951ab2` | Worker |
+| celery-beat | `ghcr.io/securo-finance/securo-backend:0.16.3@sha256:32db1a9409e1b848567bd907b535ec1b2896c7d0dee5887141d1ef00c72df9e7` | Worker |
 | frontend | [monotykamary/railway-template-securo](https://github.com/monotykamary/railway-template-securo) | Web service |
 | redis | `redis:8-alpine@sha256:978f0e01593e65eed801f2402944efcd936d43b5027e4908a7897baf88ed6241` | Database |
-| backend | `ghcr.io/securo-finance/securo-backend:0.16.0@sha256:f452147e07f1faab4dd8c5c654094fe0a9a7a65e6d9b201b8d06edca75951ab2` | Database |
+| backend | `ghcr.io/securo-finance/securo-backend:0.16.3@sha256:32db1a9409e1b848567bd907b535ec1b2896c7d0dee5887141d1ef00c72df9e7` | Database |
 | postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18@sha256:3b8bc16ccb823c9a293b09d20d4180049502ee2b243b5989d59e258450044e22` | Database |
-| celery-worker | `ghcr.io/securo-finance/securo-backend:0.16.0@sha256:f452147e07f1faab4dd8c5c654094fe0a9a7a65e6d9b201b8d06edca75951ab2` | Worker |
+| celery-worker | `ghcr.io/securo-finance/securo-backend:0.16.3@sha256:32db1a9409e1b848567bd907b535ec1b2896c7d0dee5887141d1ef00c72df9e7` | Worker |
 
 ## Environment variables
 

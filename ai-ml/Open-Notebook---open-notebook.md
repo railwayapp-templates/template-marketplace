@@ -8,7 +8,7 @@ Private AI research workspace with chat and podcast generation.
 
 Open Notebook is a privacy-focused, open-source research workspace for organizing sources, chatting with AI over your content, and generating multi-speaker podcasts.
 
-This template deploys Open Notebook `1.14.0`, SurrealDB `2.6.5`, and a Caddy `2.11.4` proxy. The proxy is the only public application entry point and routes the web interface and API through one HTTPS origin. Open Notebook connects to SurrealDB over Railway private networking.
+This template deploys Open Notebook `1.15.0`, SurrealDB `2.6.5`, and a Caddy `2.11.4` proxy. The proxy is the only public application entry point and routes the web interface and API through one HTTPS origin. Open Notebook connects to SurrealDB over Railway private networking.
 
 The application volume persists local Open Notebook data at `/app/data`, while SurrealDB stores its database on a separate volume at `/data`.
 
@@ -17,7 +17,7 @@ The application volume persists local Open Notebook data at `/app/data`, while S
 | Service | Source | Type |
 |---------|--------|------|
 | proxy | [monotykamary/railway-open-notebook-caddy-proxy](https://github.com/monotykamary/railway-open-notebook-caddy-proxy) | Web service |
-| open-notebook | `lfnovo/open_notebook:1.14.0@sha256:6c5fb35b6c60549e4c2dc7617d1f07aaf0a67c4954564a73498d536b8186e879` | Database |
+| open-notebook | `lfnovo/open_notebook:1.15.0@sha256:54b2025a4a4853c188f74b9b8246eca8c5480e5dd1babfa92db1038ff2f30212` | Database |
 | surrealdb | `surrealdb/surrealdb:v2.6.5@sha256:7db835aab6355b66e2b5779a3cddae811f201c417adadb4413310ae7f925110e` | Database |
 
 ## Environment variables

@@ -6,7 +6,7 @@ Deploy and Host Sim AI with Railway
 
 ## About
 
-Deploy Sim AI `v0.9.3`, an open-source visual platform for building, running, and scheduling AI-agent workflows.
+Deploy Sim AI `v0.9.19`, an open-source visual platform for building, running, and scheduling AI-agent workflows.
 
 This template deploys five coordinated services: the Sim web application and API, its realtime Socket.IO service, PostgreSQL 17 with pgvector, a one-shot database migration job, and the Sim cron scheduler. The application and realtime service each receive a Railway HTTPS domain; PostgreSQL, migrations, and cron remain private.
 
@@ -16,11 +16,11 @@ Open the `simstudio` domain to register the first account. Configure model-provi
 
 | Service | Source | Type |
 |---------|--------|------|
-| realtime | `ghcr.io/simstudioai/realtime:v0.9.3@sha256:b05de21468eeb386b8224eac530a78dd2c3139733571a9840827e97f92cc9041` | Web service |
-| simstudio | `ghcr.io/simstudioai/simstudio:v0.9.3@sha256:526823ba2425d25fea92bf2a402a1bb40c9d6c75bd583eac1b5babda372e1782` | Web service |
+| realtime | `ghcr.io/simstudioai/realtime:v0.9.19@sha256:b3c69b56e57e47d7483fd5300469d39a1f8345923545d4e3ab99cca23700c61c` | Web service |
+| simstudio | `ghcr.io/simstudioai/simstudio:v0.9.19@sha256:685d835dd125b5a3556c0948556cacaf1b6f1a8b5ba7b2dd035c097b0593e8b0` | Web service |
 | pgvector | `pgvector/pgvector:pg17@sha256:dca0d688bbb31d3f851502ffcb9c7791387b4fcc544ae434dab41761e5ece317` | Database |
-| migrations | `ghcr.io/simstudioai/migrations:v0.9.3@sha256:e882316cbc5c15ede9287f7b155fc0c63d2ccd143a71397f341c8b5dad9ec671` | Worker |
-| cron | `ghcr.io/simstudioai/cron:v0.9.3@sha256:825c4c6384689b0a0c84d670253235c9695a96c7c9d40f12dd42a281c6e08dec` | Worker |
+| migrations | `ghcr.io/simstudioai/migrations:v0.9.19@sha256:caa68496fb82d1a8da18dd15a5fbb1bb7fdd637b5908b073b803fd2f9193c02e` | Worker |
+| cron | `ghcr.io/simstudioai/cron:v0.9.19@sha256:8c3d2b53fd10d08ffe151869758b2c582b3882da1743daf5d9b74952ef6a92bd` | Worker |
 
 ## Environment variables
 

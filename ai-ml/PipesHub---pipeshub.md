@@ -6,7 +6,7 @@ AI context layer with enterprise search, connectors, agents, and RAG
 
 ## About
 
-PipesHub is an open-source AI context layer for enterprise search, retrieval, connectors, and agentic workflows. This template deploys the stable `v0.8.0` release with MongoDB, Redis Streams, Qdrant, and Neo4j. The `PipesHub` service owns the public HTTPS domain on port `3000`; all databases remain private.
+PipesHub is an open-source AI context layer for enterprise search, retrieval, connectors, and agentic workflows. This template deploys the stable `v0.10.0` release with MongoDB, Redis Streams, Qdrant, and Neo4j. The `PipesHub` service owns the public HTTPS domain on port `3000`; all databases remain private.
 
 On first deployment, enter `PIPESHUB_ADMIN_EMAIL`. The template generates the administrator password and all cross-service secrets. A bootstrap adapter creates the single initial organization before the public health gate succeeds. Sign in with the email you entered and the `PIPESHUB_ADMIN_PASSWORD` value shown on the PipesHub service.
 
@@ -41,13 +41,14 @@ On first deployment, enter `PIPESHUB_ADMIN_EMAIL`. The template generates the ad
 | `NEO4J_URI` | PipesHub | - | Private Neo4j Bolt endpoint. |
 | `REDIS_URL` | PipesHub | - | Private authenticated Redis connection URI. |
 | `DATA_STORE` | PipesHub | neo4j | Graph data-store provider selected for PipesHub. |
-| `MCP_SCOPES` | PipesHub | openid,profile,email,offline_access,semantic:write,conversation:write,conversation:chat,kb:read,team:read,user:read,config:read,agent:read,agent:execute,connector:read | OAuth scopes exposed to PipesHub MCP clients. |
+| `MCP_SCOPES` | PipesHub | openid,profile,email,offline_access,semantic:write,conversation:write,conversation:chat,kb:read,team:read,user:read,usergroup:read,config:read,agent:read,agent:execute,connector:read | OAuth scopes exposed to PipesHub MCP clients. |
 | `REDIS_HOST` | PipesHub | - | Redis hostname on Railway private networking. |
 | `REDIS_PORT` | PipesHub | 6379 | Redis TCP port. |
 | `SECRET_KEY` | PipesHub | (secret) | Generated application encryption and signing secret. |
 | `QDRANT_HOST` | PipesHub | - | Qdrant hostname on Railway private networking. |
 | `QDRANT_PORT` | PipesHub | 6333 | Qdrant HTTP API port. |
 | `STRICT_MODE` | PipesHub | false | Keeps the upstream optional strict validation mode disabled. |
+| `TRUST_PROXY` | PipesHub | 1 | Number of trusted reverse-proxy hops in front of PipesHub. Railway's edge is one hop, so 1 lets per-client login rate limits use the visitor address. Never set true. |
 | `SANDBOX_MODE` | PipesHub | docker | Keeps untrusted code execution disabled when Railway provides no Docker daemon. |
 | `KV_STORE_TYPE` | PipesHub | redis | Key-value store provider used by PipesHub. |
 | `MONGO_DB_NAME` | PipesHub | es | MongoDB database name used by PipesHub. |
@@ -76,7 +77,7 @@ On first deployment, enter `PIPESHUB_ADMIN_EMAIL`. The template generates the ad
 | `EMBEDDING_SERVER_URL` | PipesHub | http://localhost:8002 | Internal all-in-one embedding service endpoint. |
 | `PIPESHUB_ADMIN_EMAIL` | PipesHub | - | Required email address for the initial administrator. Enter this during deployment. |
 | `REDIS_STREAMS_MAXLEN` | PipesHub | 500000 | Approximate maximum length retained for Redis Streams. |
-| `SANDBOX_DOCKER_IMAGE` | PipesHub | pipeshubai/pipeshub-sandbox:0.6.0-slim | Pinned upstream sandbox image used only when a Docker daemon is available. |
+| `SANDBOX_DOCKER_IMAGE` | PipesHub | pipeshubai/pipeshub-sandbox:0.10.0-slim | Pinned upstream sandbox image used only when a Docker daemon is available. |
 | `REPLICA_SET_AVAILABLE` | PipesHub | false | Configures MongoDB as the tested single-node deployment. |
 | `PIPESHUB_ADMIN_PASSWORD` | PipesHub | (secret) | Generated password for the initial administrator. Retrieve it from service variables after deployment. |
 | `PIPESHUB_BOOTSTRAP_TIMEOUT` | PipesHub | 600 | Maximum seconds allowed for first-boot readiness and organization creation. |

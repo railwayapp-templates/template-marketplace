@@ -34,7 +34,7 @@ menu moves it between hosts, logins included.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Tallylamp Worker | `ghcr.io/nxfi777/tallylamp@sha256:e58b007ebb32deb4cdaf5006e02254ae3c751125ae5c8a4a4d3d61c52ba807d4` | Database |
+| Tallylamp Worker | `ghcr.io/nxfi777/tallylamp@sha256:77c612265f08ee24b20471dc0bb63c98069491b393eb04826becce0820029667` | Database |
 
 ## Environment variables
 

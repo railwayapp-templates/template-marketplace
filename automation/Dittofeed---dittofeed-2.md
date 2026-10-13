@@ -6,7 +6,7 @@ Customer engagement journeys — self-hosted Customer.io alternative
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/dittofeed?utm_medium=integration&utm_source=button&utm_campaign=dittofeed)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/dittofeed-2?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=dittofeed)
 
 [Dittofeed](https://dittofeed.com/) is an open-source customer engagement platform — a self-hosted alternative to Customer.io, Braze, and OneSignal. Build segment-driven automated journeys with a visual editor, send templated messages over email, SMS, and webhooks, and keep every user event in your own infrastructure.
 
@@ -18,7 +18,7 @@ This template runs Dittofeed's **lite** bundle — API, dashboard, and worker in
 |---------|--------|------|
 | dittofeed | [nomideusz/dittofeed-railway](https://github.com/nomideusz/dittofeed-railway) (root: /lite) | Web service |
 | postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
-| clickhouse | `clickhouse/clickhouse-server:24.12.6.70-alpine` | Database |
+| clickhouse | [nomideusz/dittofeed-railway](https://github.com/nomideusz/dittofeed-railway) (root: /clickhouse) | Database |
 | temporal | [nomideusz/dittofeed-railway](https://github.com/nomideusz/dittofeed-railway) (root: /temporal) | Worker |
 
 ## Environment variables
@@ -44,6 +44,7 @@ This template runs Dittofeed's **lite** bundle — API, dashboard, and worker in
 | `POSTGRES_DB` | postgres | dittofeed | App database (Temporal creates its own alongside) |
 | `POSTGRES_USER` | postgres | (secret) | Superuser - Dittofeed bootstrap and Temporal auto-setup need it |
 | `POSTGRES_PASSWORD` | postgres | (secret) | Auto-generated database password |
+| `MALLOC_CONF` | clickhouse | thp:never | Keeps jemalloc off transparent huge pages; without it idle ClickHouse memory creeps up on Railway |
 | `CLICKHOUSE_USER` | clickhouse | (secret) | ClickHouse application user |
 | `CLICKHOUSE_PASSWORD` | clickhouse | (secret) | Auto-generated ClickHouse password |
 | `DB` | temporal | postgresql | Temporal persistence driver - leave as is |

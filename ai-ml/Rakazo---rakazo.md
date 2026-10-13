@@ -32,7 +32,7 @@ recommendation for hosts without a nested Docker daemon.
 | Service | Source | Type |
 |---------|--------|------|
 | api | [monotykamary/railway-template-rakazo](https://github.com/monotykamary/railway-template-rakazo) | Database |
-| web | `ghcr.io/elie222/rakazo/app@sha256:fb60c6eeed892395f586794928ac8625f1a9553768095f30116d3eb9bd2b5e9a` | Web service |
+| web | `ghcr.io/elie222/rakazo/app:v0.2.0@sha256:2cb2749a580ab228816b0d75af413b0ee43d250b7a7beb36ba8926e92e746037` | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18@sha256:3b8bc16ccb823c9a293b09d20d4180049502ee2b243b5989d59e258450044e22` | Database |
 | worker | [monotykamary/railway-template-rakazo](https://github.com/monotykamary/railway-template-rakazo) | Database |
 

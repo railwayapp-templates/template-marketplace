@@ -6,9 +6,9 @@ Self-hosted AI agent observability with OTLP, evals, and MCP
 
 ## About
 
-Deploy Latitude `v0.3.118`, an open-source observability platform for AI agents and LLM applications. Capture OpenTelemetry traces, inspect sessions and tool calls, evaluate output quality, and use the API or MCP server from a complete Railway-hosted stack.
+Deploy Latitude `v0.3.92`, an open-source observability platform for AI agents and LLM applications. Capture OpenTelemetry traces, inspect sessions and tool calls, evaluate output quality, and use the API or MCP server from a complete Railway-hosted stack.
 
-This template deploys the six matching Latitude `0.3.98` application images: the web UI, public API and MCP server, OTLP ingest, BullMQ workers, Temporal workflow workers, and a one-shot migrations job. PostgreSQL with pgvector, ClickHouse, Redis, Temporal, and a Railway object-storage bucket provide the backing infrastructure.
+This template deploys the six matching Latitude `0.3.92` application images: the web UI, public API and MCP server, OTLP ingest, BullMQ workers, Temporal workflow workers, and a one-shot migrations job. PostgreSQL with pgvector, ClickHouse, Redis, Temporal, and a Railway object-storage bucket provide the backing infrastructure.
 
 The `web`, `api`, and `ingest` services each own a Railway HTTPS domain. PostgreSQL, ClickHouse, Redis, and Temporal remain private. Secrets and infrastructure passwords are generated per deployment and wired through service references.
 
@@ -26,7 +26,7 @@ A working email transport is required for magic-link sign-in. Configure authenti
 | workflows | `latitudedata/workflows:0.3.118@sha256:8075a750955653acc08c984c556ebead7d787b66bebdac65b0e8e348ec28d4ca` | Worker |
 | redis | `redis:7.4.11-alpine@sha256:ff02b58f971e7d7d156a1267e283fcbbeee91773b6aa36c49dac28ecfe28eadf` | Database |
 | postgres | [monotykamary/railway-template-latitude](https://github.com/monotykamary/railway-template-latitude) (root: /postgres) | Database |
-| workers | `latitudedata/workers:0.3.108@sha256:798d1bd15c46aac529efc390a6669b571f6740786d5fa3a84575dc66c6aa7fe4` | Worker |
+| workers | `latitudedata/workers:0.3.118@sha256:2ddbe608fe026777f380032737f19f936e81695a4386153a264db2a1d6ed5db9` | Worker |
 | temporal | `temporalio/auto-setup:1.27.4@sha256:5a21ca5ab7446661684f7346c5462c22160ccabe52ef6b4bb8a2790178fa5409` | Worker |
 
 ## Environment variables

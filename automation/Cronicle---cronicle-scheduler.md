@@ -6,9 +6,9 @@ Single-node task scheduling with persistent job history
 
 ## About
 
-Cronicle is a web-based task scheduler and runner with event timing, command plugins, live progress, job history, and operator access control. This template deploys stable version 0.9.134 as a supported single-node scheduler.
+Cronicle is a web-based task scheduler and runner with event timing, command plugins, live progress, job history, and operator access control. This template deploys stable version 0.9.135 as a supported single-node scheduler.
 
-Sign in using `CRONICLE_ADMIN_USERNAME` and the generated `CRONICLE_ADMIN_PASSWORD` service variable. This revision includes Cronicle dependency vulnerability fixes and the Node.js 22.23.2 security release.
+Sign in using `CRONICLE_ADMIN_USERNAME` and the generated `CRONICLE_ADMIN_PASSWORD` service variable. This revision includes Cronicle dependency vulnerability fixes and the Node.js 22.23.3 security release.
 
 ## What gets deployed
 

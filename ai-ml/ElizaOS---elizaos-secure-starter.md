@@ -6,7 +6,7 @@ Authenticated ElizaOS agent with OpenAI and persistent pgvector memory
 
 ## About
 
-ElizaOS is an open-source agent runtime with a browser dashboard, plugin system, persistent memory, and model-provider integrations. This template pins ElizaOS core/server `1.7.2`, OpenAI plugin `1.6.0`, Bun `1.2.21`, and Caddy `2.11.4`.
+ElizaOS is an open-source agent runtime with a browser dashboard, plugin system, persistent memory, and model-provider integrations. This template pins ElizaOS core/server `1.7.2`, OpenAI plugin `1.6.0`, Bun `1.2.21`, and Caddy `2.10.2`.
 
 ## What gets deployed
 

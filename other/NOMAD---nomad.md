@@ -16,7 +16,7 @@ The template generates an encryption key and initial administrator password, con
 
 | Service | Source | Type |
 |---------|--------|------|
-| TREK | `ghcr.io/monotykamary/nomad:4.2.1@sha256:25d6d332eab937d871cb1f196fdacc1d2f34a77ee98f3028092d24a47c81433c` | Web service |
+| TREK | [monotykamary/railway-template-trek](https://github.com/monotykamary/railway-template-trek) | Web service |
 
 ## Environment variables
 
@@ -40,6 +40,6 @@ The template generates an encryption key and initial administrator password, con
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/data`
 
-**Category:** Other
+**Category:** Other · **Languages:** Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/nomad)

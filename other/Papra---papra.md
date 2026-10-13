@@ -16,7 +16,7 @@ Hosting Papra involves running its web service alongside a persistent storage la
 
 | Service | Source | Type |
 |---------|--------|------|
-| Papra | `ghcr.io/papra-hq/papra:26.6.2-rootless@sha256:a281cb44176dbe5323e0f7ea2d6fd34d58914a3a8525c36437a086d1d7c4fef8` | Web service |
+| Papra | `ghcr.io/papra-hq/papra:26.7.0-rootless@sha256:bf4a66e776d0a40d71543747a2e17af800204b4a81d19f7951b8552c8032dbeb` | Web service |
 
 ## Environment variables
 

@@ -21,29 +21,29 @@ Hosting Overleaf means running the web app alongside MongoDB and Redis. Project 
 
 ## Environment variables
 
-| Variable | Service | Default |
-| --------- | ------- | ------- |
-| `PORT` | Overleaf | 80 |
-| `TEXMFVAR` | Overleaf | /var/lib/overleaf/tmp/texmf-var |
-| `REDIS_PASSWORD` | Overleaf | (secret) |
-| `OVERLEAF_APP_NAME` | Overleaf | Overleaf Community Edition |
-| `ENABLE_CONVERSIONS` | Overleaf | true |
-| `OVERLEAF_LISTEN_IP` | Overleaf | 0.0.0.0 |
-| `OVERLEAF_ADMIN_EMAIL` | Overleaf | admin@example.com |
-| `OVERLEAF_BEHIND_PROXY` | Overleaf | true |
-| `OVERLEAF_SITE_LANGUAGE` | Overleaf | en |
-| `ENABLED_LINKED_FILE_TYPES` | Overleaf | project_file,project_output_file |
-| `EMAIL_CONFIRMATION_DISABLED` | Overleaf | true |
-| `OVERLEAF_INVITE_TOKEN_SECRET` | Overleaf | (secret) |
-| `REDISPORT` | Redis | 6379 |
-| `REDISUSER` | Redis | default |
-| `REDISPASSWORD` | Redis | (secret) |
-| `REDIS_PASSWORD` | Redis | (secret) |
-| `MONGOPASSWORD` | Mongo Init | (secret) |
-| `MONGOPORT` | MongoDB | 27017 |
-| `MONGOPASSWORD` | MongoDB | (secret) |
-| `MONGO_INITDB_ROOT_PASSWORD` | MongoDB | (secret) |
-| `MONGO_INITDB_ROOT_USERNAME` | MongoDB | (secret) |
+| Variable | Service | Default | Description |
+| --------- | ------- | ------- | ----------- |
+| `PORT` | Overleaf | 80 | - |
+| `TEXMFVAR` | Overleaf | /var/lib/overleaf/tmp/texmf-var | - |
+| `REDIS_PASSWORD` | Overleaf | (secret) | - |
+| `OVERLEAF_APP_NAME` | Overleaf | Overleaf Community Edition | - |
+| `ENABLE_CONVERSIONS` | Overleaf | true | - |
+| `OVERLEAF_LISTEN_IP` | Overleaf | 0.0.0.0 | - |
+| `OVERLEAF_ADMIN_EMAIL` | Overleaf | admin@example.com | Administrator email address. Replace admin@example.com with your administrator's email address. |
+| `OVERLEAF_BEHIND_PROXY` | Overleaf | true | - |
+| `OVERLEAF_SITE_LANGUAGE` | Overleaf | en | Interface language. Defaults to en. Set zh-CN for Simplified Chinese, or use another supported locale. |
+| `ENABLED_LINKED_FILE_TYPES` | Overleaf | project_file,project_output_file | - |
+| `EMAIL_CONFIRMATION_DISABLED` | Overleaf | true | - |
+| `OVERLEAF_INVITE_TOKEN_SECRET` | Overleaf | (secret) | - |
+| `REDISPORT` | Redis | 6379 | - |
+| `REDISUSER` | Redis | default | - |
+| `REDISPASSWORD` | Redis | (secret) | - |
+| `REDIS_PASSWORD` | Redis | (secret) | - |
+| `MONGOPASSWORD` | Mongo Init | (secret) | - |
+| `MONGOPORT` | MongoDB | 27017 | - |
+| `MONGOPASSWORD` | MongoDB | (secret) | - |
+| `MONGO_INITDB_ROOT_PASSWORD` | MongoDB | (secret) | - |
+| `MONGO_INITDB_ROOT_USERNAME` | MongoDB | (secret) | - |
 
 ## Configuration
 

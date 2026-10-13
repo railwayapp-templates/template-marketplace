@@ -6,9 +6,9 @@ Self-hosted Open Design: AI prototypes, decks, and images
 
 ## About
 
-Open Design is a self-hosted design studio. Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images, and video, exported as real files. This template runs the official production image so you get the web UI and daemon in one service.
+Open Design is a self-hosted studio for creating prototypes, landing pages, dashboards, slides, images and video. You can export the results as files. This template runs the official production image, with the Web UI and daemon in one service.
 
-The official image serves both the UI and the API on port 7456. Project files and SQLite live on a volume at /app/.od. After deploy, the browser asks for HTTP Basic auth. Username is always open-design. The password is the OD_API_TOKEN you type on the Deploy form. Choose a password you will remember; it is not emailed to you.
+The official image serves both the UI and the API on port 7456. Project files and SQLite live on a volume at /app/.od. After deployment, sign in through the browser's HTTP Basic authentication prompt. Use open-design as the username and the OD_API_TOKEN you set on the deployment form as the password. Keep a copy of this password; it is not sent by email.
 
 ## What gets deployed
 

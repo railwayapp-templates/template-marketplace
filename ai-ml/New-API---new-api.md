@@ -27,10 +27,10 @@ This template runs `calciumion/new-api:latest` on port 8080, plus Postgres 18 an
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
-| `TZ` | New API Frontend | Asia/Shanghai | - |
-| `SQL_DSN` | New API Frontend | - | Your PG url |
+| `TZ` | New API Frontend | Asia/Shanghai | Application time zone. Defaults to Asia/Shanghai. Change it to your preferred IANA time zone. |
+| `SQL_DSN` | New API Frontend | - | PostgreSQL connection string used by New API, supplied by the Postgres service. |
 | `ERROR_LOG_ENABLED` | New API Frontend | true | - |
-| `REDIS_CONN_STRING` | New API Frontend | - | Your redis internal url |
+| `REDIS_CONN_STRING` | New API Frontend | - | Redis connection string used by New API over Railway's private network. |
 | `BATCH_UPDATE_ENABLED` | New API Frontend | true | - |
 | `REDISPORT` | Redis | 6379 | - |
 | `REDISUSER` | Redis | default | - |

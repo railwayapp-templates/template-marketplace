@@ -1,6 +1,6 @@
 # Deploy FreshRSS on Railway
 
-FreshRSS — one-click self-hosted feed reader
+Deploy FreshRSS, a self-hosted RSS and Atom feed reader.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/freshrss)
 
@@ -18,11 +18,11 @@ This template runs `freshrss/freshrss:latest` on port 8080 and stores applicatio
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `TZ` | Asia/Shanghai |
-| `LISTEN` | 0.0.0.0:8080 |
-| `CRON_MIN` | 1,31 |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `TZ` | Asia/Shanghai | Application time zone. Defaults to Asia/Shanghai. Change it to your preferred IANA time zone. |
+| `LISTEN` | 0.0.0.0:8080 | HTTP listening address. Keep 0.0.0.0:8080 to match the template's public port. |
+| `CRON_MIN` | 1,31 | Minutes past each hour to refresh feeds. The default 1,31 runs at minutes 1 and 31 of every hour. |
 
 ## Configuration
 
