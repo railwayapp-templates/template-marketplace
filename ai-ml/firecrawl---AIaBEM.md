@@ -22,7 +22,7 @@ _This repository is in its early development stages. We are still merging custom
 |---------|--------|------|
 | worker | `bonkboykz/firecrawl:latest` | Worker |
 | extract-worker | `bonkboykz/firecrawl:latest` | Worker |
-| Redis | `bitnami/redis:7.2.5` | Database |
+| Redis | `redis:8.2` | Database |
 | api | `bonkboykz/firecrawl:latest` | Web service |
 | playwright | `bonkboykz/firecrawl-playwright-ts:latest` | Worker |
 | nuq-postgres | `bonkboykz/nuq-postgres:latest` | Database |
@@ -39,15 +39,13 @@ _This repository is in its early development stages. We are still merging custom
 | `PORT` | extract-worker | 3002 | - |
 | `BULL_AUTH_KEY` | extract-worker | (secret) | - |
 | `OPENAI_API_KEY` | extract-worker | (secret) | - |
-| `REDISHOST` | Redis | - | Railway Private Domain Name. |
-| `REDISPORT` | Redis | 6379 | Port to connect to Redis. |
-| `REDISUSER` | Redis | default | Default user to connect to Redis. |
-| `REDIS_URL` | Redis | - | URL to connect to Redis over the private network. |
-| `REDISPASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PASSWORD` | Redis | (secret) | Password to connect to Redis. |
+| `REDISHOST` | Redis | - | Private network hostname of the Redis service |
+| `REDISPORT` | Redis | 6379 | Port that Redis listens on |
+| `REDISUSER` | Redis | default | Username for authenticating with Redis |
+| `REDIS_URL` | Redis | - | Connection string for connecting to Redis using the private network |
+| `REDISPASSWORD` | Redis | (secret) | Alias of REDIS_PASSWORD |
+| `REDIS_PASSWORD` | Redis | (secret) | Randomly generated password for authenticating with Redis |
 | `REDIS_PUBLIC_URL` | Redis | - | Public URL to connect to Redis, needed for the Data panel. |
-| `REDIS_RDB_POLICY` | Redis | 3600#1 300#100 60#10000 | Set a RDB snapshot policy. |
-| `REDIS_AOF_ENABLED` | Redis | no | Disable writing to AOF file. |
 | `HOST` | api | 0.0.0.0 | - |
 | `PORT` | api | 3002 | - |
 | `BULL_AUTH_KEY` | api | (secret) | - |
@@ -65,8 +63,9 @@ _This repository is in its early development stages. We are still merging custom
 
 - **Start command:** `npm run worker:production`
 - **Start command:** `pnpm nuq-worker:production`
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
-- **Volume:** `/bitnami`
+- **Volume:** `/data`
 - **Start command:** `pnpm server:production:nobuild`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`

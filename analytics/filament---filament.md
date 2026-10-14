@@ -19,6 +19,7 @@ Because Railway does not provide a Kubernetes Jobs API, pipeline runs execute in
 | postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | control-plane | `ghcr.io/galaxy-io/filament/control-plane` | Database |
 | server | `ghcr.io/galaxy-io/filament/server:latest` | Worker |
+| worker | `ghcr.io/galaxy-io/filament/worker:latest` | Worker |
 | nats | `nats:alpine3.22` | Database |
 
 ## Environment variables
@@ -29,14 +30,15 @@ Because Railway does not provide a Kubernetes Jobs API, pipeline runs execute in
 | `DATABASE_URL` | postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | postgres | (secret) | Password to connect to DB |
-| `PORT` | control-plane | 8081 | Control plane service port |
+| `PORT` | control-plane | 8081 | Health service port |
 | `NATS_URL` | control-plane | - | NATS connection URL |
 | `LOG_LEVEL` | control-plane | INFO | Application log level |
-| `HEALTH_ADDR` | control-plane | :8081 | Health server listen address |
+| `WORKER_URL` | control-plane | - | Worker service URL |
+| `HEALTH_ADDR` | control-plane | :8081 | Health listen address |
 | `NATS_STREAM` | control-plane | EVENTBUS | JetStream stream name |
-| `DISPATCH_MODE` | control-plane | inproc | Run execution mode |
+| `DISPATCH_MODE` | control-plane | worker | Run dispatch mode |
 | `NATS_SUBJECTS` | control-plane | ingestion.v1.> | JetStream subject filter |
-| `ENCRYPTION_KEY` | control-plane | - | Key used to decrypt stored secrets |
+| `ENCRYPTION_KEY` | control-plane | - | Key used to encrypt stored secrets |
 | `PERSISTENCE_DSN` | control-plane | - | PostgreSQL connection string |
 | `NATS_TTL_SECONDS` | control-plane | 604800 | Message retention period in seconds |
 | `EVENTBUS_PROVIDER` | control-plane | nats | Event bus provider |
@@ -44,6 +46,7 @@ Because Railway does not provide a Kubernetes Jobs API, pipeline runs execute in
 | `PORT` | server | 8080 | Server service port |
 | `NATS_URL` | server | - | NATS connection URL |
 | `LOG_LEVEL` | server | INFO | Application log level |
+| `WORKER_URL` | server | - | Worker service URL |
 | `NATS_STREAM` | server | EVENTBUS | JetStream stream name |
 | `SERVER_ADDR` | server | :8080 | Server listen address |
 | `NATS_SUBJECTS` | server | ingestion.v1.> | JetStream subject filter |
@@ -52,6 +55,17 @@ Because Railway does not provide a Kubernetes Jobs API, pipeline runs execute in
 | `NATS_TTL_SECONDS` | server | 604800 | Message retention period in seconds |
 | `EVENTBUS_PROVIDER` | server | nats | Event bus provider |
 | `PERSISTENCE_PROVIDER` | server | postgres | Datastore provider |
+| `PORT` | worker | 8080 | Worker service port |
+| `NATS_URL` | worker | - | NATS connection URL |
+| `LOG_LEVEL` | worker | INFO | Application log level |
+| `NATS_STREAM` | worker | EVENTBUS | JetStream stream name |
+| `WORKER_ADDR` | worker | :8080 | Worker listen address |
+| `NATS_SUBJECTS` | worker | ingestion.v1.> | JetStream subject filter |
+| `ENCRYPTION_KEY` | worker | - | Key used to encrypt stored secrets |
+| `PERSISTENCE_DSN` | worker | - | PostgreSQL connection string |
+| `NATS_TTL_SECONDS` | worker | 604800 | Message retention period in seconds |
+| `EVENTBUS_PROVIDER` | worker | nats | Event bus provider |
+| `PERSISTENCE_PROVIDER` | worker | postgres | Datastore provider |
 | `PORT` | nats | 8222 | NATS service port |
 | `NATS_URL` | nats | - | NATS connection URL |
 
@@ -60,6 +74,7 @@ Because Railway does not provide a Kubernetes Jobs API, pipeline runs execute in
 - **Volume:** `/var/lib/postgresql/data`
 - **Healthcheck:** `/readyz`
 - **Volume:** `/var/lib/filament-control-plane`
+- **Start command:** `/app -serve -execute`
 - **Start command:** `nats-server --jetstream --store_dir /data --server_name filament-nats`
 - **Volume:** `/data`
 

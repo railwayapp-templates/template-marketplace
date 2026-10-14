@@ -19,7 +19,7 @@ To see Judge0 in action, try Judge0 IDE - our free and open-source online code e
 | worker | `judge0/judge0` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:latest` | Database |
 | server | `judge0/judge0` | Web service |
-| Redis | `bitnami/redis:7.2.5` | Database |
+| Redis | `redis:8.2` | Database |
 
 ## Environment variables
 
@@ -46,15 +46,13 @@ To see Judge0 in action, try Judge0 IDE - our free and open-source online code e
 | `MAX_MAX_FILE_SIZE` | server | 4096 | - |
 | `POSTGRES_PASSWORD` | server | (secret) | - |
 | `MAX_NUMBER_OF_RUNS` | server | 20 | - |
-| `REDISHOST` | Redis | - | Railway Private Domain Name. |
-| `REDISPORT` | Redis | 6379 | Port to connect to Redis. |
-| `REDISUSER` | Redis | default | Default user to connect to Redis. |
-| `REDIS_URL` | Redis | - | URL to connect to Redis over the private network. |
-| `REDISPASSWORD` | Redis | (secret) | Password to connect to Redis. |
-| `REDIS_PASSWORD` | Redis | (secret) | Password to connect to Redis. |
+| `REDISHOST` | Redis | - | Private network hostname of the Redis service |
+| `REDISPORT` | Redis | 6379 | Port that Redis listens on |
+| `REDISUSER` | Redis | default | Username for authenticating with Redis |
+| `REDIS_URL` | Redis | - | Connection string for connecting to Redis using the private network |
+| `REDISPASSWORD` | Redis | (secret) | Alias of REDIS_PASSWORD |
+| `REDIS_PASSWORD` | Redis | (secret) | Randomly generated password for authenticating with Redis |
 | `REDIS_PUBLIC_URL` | Redis | - | Public URL to connect to Redis, needed for the Data panel. |
-| `REDIS_RDB_POLICY` | Redis | 3600#1 300#100 60#10000 | Set a RDB snapshot policy. |
-| `REDIS_AOF_ENABLED` | Redis | no | Disable writing to AOF file. |
 
 ## Configuration
 
@@ -63,8 +61,9 @@ To see Judge0 in action, try Judge0 IDE - our free and open-source online code e
 - **Volume:** `/var/lib/postgresql/data`
 - **Start command:** `bash ./scripts/server`
 - **Networking:** Public domain with automatic HTTPS
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
-- **Volume:** `/bitnami`
+- **Volume:** `/data`
 
 **Category:** Other
 

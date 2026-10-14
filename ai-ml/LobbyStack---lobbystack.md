@@ -23,9 +23,9 @@ Phone calls reach GPT-Live through a Twilio Elastic SIP trunk. Create the trunk 
 
 | Service | Source | Type |
 |---------|--------|------|
-| worker | [lobbystack/lobbystack](https://github.com/lobbystack/lobbystack) | Worker |
-| admin | [lobbystack/lobbystack](https://github.com/lobbystack/lobbystack) | Web service |
-| migrate | [lobbystack/lobbystack](https://github.com/lobbystack/lobbystack) | Worker |
+| worker | `morencyr/lobbystack-worker:latest` | Worker |
+| admin | `morencyr/lobbystack-admin:latest` | Web service |
+| migrate | `morencyr/lobbystack-migrator:latest` | Worker |
 | Redis | `redis:7-alpine` | Database |
 | Postgres | `pgvector/pgvector:pg16` | Database |
 
@@ -138,6 +138,6 @@ Phone calls reach GPT-Live through a Twilio Elastic SIP trunk. Create the trunk 
 - **Volume:** `/data`
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** AI/ML · **Languages:** TypeScript, MDX, Astro, JavaScript, PLpgSQL, CSS, Shell, Dockerfile
+**Category:** AI/ML
 
 [View on Railway →](https://railway.com/deploy/lobbystack)

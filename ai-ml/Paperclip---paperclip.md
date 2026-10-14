@@ -41,7 +41,7 @@ This template gives you a one-click deploy: a Railway project with the Paperclip
 
 ## Configuration
 
-- **Healthcheck:** `/api/health`
+- **Healthcheck:** `/setup/healthz`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/paperclip`
 - **TCP Proxies:** 5432
