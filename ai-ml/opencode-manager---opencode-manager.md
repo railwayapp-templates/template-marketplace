@@ -20,8 +20,15 @@ OpenCode Manager runs as a single container from `ghcr.io/chriswritescode-dev/op
 
 | Variable | Default |
 | --------- | ------- |
+| `HOST` | 0.0.0.0 |
+| `PGID` | 1000 |
+| `PORT` | 5003 |
+| `PUID` | 1000 |
+| `NODE_ENV` | production |
+| `ADMIN_EMAIL` | admin@example.com |
 | `AUTH_SECRET` | (secret) |
 | `ADMIN_PASSWORD` | (secret) |
+| `AUTH_SECURE_COOKIES` | false |
 
 ## Configuration
 

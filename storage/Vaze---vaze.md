@@ -23,13 +23,13 @@ Because Vaze uses SQLite for its internal database, there is no need to provisio
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
 | `BASE_URL` | - | The base URL of your Vaze instance. |
-| `AUTH_SECRET` | (secret) | A secret key used to sign JWT tokens. |
+| `AUTH_SECRET` | (secret) | Auth secret used by the auth library |
 
 ## Configuration
 
 - **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
-- **Volume:** `/app/apps/service/data`
+- **Volume:** `/var/lib/vaze`
 
 **Category:** Storage
 

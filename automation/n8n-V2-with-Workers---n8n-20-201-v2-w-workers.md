@@ -1,6 +1,6 @@
-# Deploy N8N V2 (2.20.9) (w/ workers) on Railway
+# Deploy n8n V2 with Workers on Railway
 
-Prod-ready N8N 2.0 2.20.9 worker+redis+postgres, secure default
+n8n 2.0 workflow automation with workers, PostgreSQL and Redis. Queue mode.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-20-201-v2-w-workers)
 

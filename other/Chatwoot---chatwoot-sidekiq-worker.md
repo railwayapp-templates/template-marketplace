@@ -1,6 +1,6 @@
 # Deploy Chatwoot on Railway
 
-Intercom alternative with a dedicated Sidekiq worker and shared storage
+Chatwoot with a dedicated Sidekiq worker and shared storage
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chatwoot-sidekiq-worker)
 

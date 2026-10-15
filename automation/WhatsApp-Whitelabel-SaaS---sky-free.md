@@ -6,6 +6,8 @@ Multi-channel messaging SaaS built on the WhatsApp Cloud API
 
 ## About
 
+You need to purchase key from skyfree.io
+
 Sky Free is a multi-channel customer engagement platform for WhatsApp, Instagram, and web chat — unifying conversations, contacts, campaigns, and AI-powered automation into one team inbox. It supports white-label, multi-tenant deployments, so agencies can resell it under their own brand while managing multiple client workspaces from a single instance.
 
 Sky Free runs as a Node.js/Express + React application backed by PostgreSQL and Redis, deployed from one Docker image with three interchangeable roles — web server, background worker (queues, cron jobs, automation execution), and a Caddy-based reverse proxy — selected via an `APP_MODE` environment variable. Production deployments benefit from PgBouncer in front of Postgres for connection pooling under bursty WhatsApp webhook traffic, and Redis for sessions, queues, and multi-instance Socket.IO sync. Mobile app builds (Android/iOS via Capacitor) require Java, Gradle, and Android SDK tooling baked into the image.
@@ -45,7 +47,7 @@ Sky Free runs as a Node.js/Express + React application backed by PostgreSQL and 
 | `LICENSE_KEY` | Scheduler | - | Auto filled |
 | `WORKER_ROLE` | Scheduler | scheduler | Auto filled |
 | `DATABASE_URL` | Scheduler | - | Auto filled |
-| `SESSION_SECRET` | Scheduler | (secret) | Auto filled |
+| `SESSION_SECRET` | Scheduler | (secret) | Empty value to be filled by the user |
 | `PORT` | Application | 8080 | Auto filled |
 | `APP_URL` | Application | - | Auto filled |
 | `APP_MODE` | Application | web | Auto filled |
@@ -54,7 +56,7 @@ Sky Free runs as a Node.js/Express + React application backed by PostgreSQL and 
 | `REDIS_URL` | Application | - | Auto filled |
 | `LICENSE_KEY` | Application | - | Auto filled |
 | `DATABASE_URL` | Application | - | Auto filled |
-| `SESSION_SECRET` | Application | (secret) | Auto filled |
+| `SESSION_SECRET` | Application | (secret) | Empty value to be filled by the user |
 | `PORT` | Autoscaler | 8080 | Auto filled |
 | `APP_URL` | Autoscaler | - | Auto filled |
 | `APP_MODE` | Autoscaler | worker | Auto filled |
@@ -64,7 +66,7 @@ Sky Free runs as a Node.js/Express + React application backed by PostgreSQL and 
 | `LICENSE_KEY` | Autoscaler | - | Auto filled |
 | `WORKER_ROLE` | Autoscaler | autoscaler | Auto filled |
 | `DATABASE_URL` | Autoscaler | - | Auto filled |
-| `SESSION_SECRET` | Autoscaler | (secret) | Auto filled |
+| `SESSION_SECRET` | Autoscaler | (secret) | Empty value to be filled by the user |
 | `CAMPAIGN_AUTOSCALE_QUEUE` | Autoscaler | campaign-messages | Auto filled |
 | `CAMPAIGN_AUTOSCALE_COMMAND` | Autoscaler | npx -y @railway/cli@latest scale --service production-sender --replicas {replicas} | Auto filled |
 | `CAMPAIGN_AUTOSCALE_MAX_REPLICAS` | Autoscaler | 8 | Auto filled |
@@ -80,7 +82,7 @@ Sky Free runs as a Node.js/Express + React application backed by PostgreSQL and 
 | `LICENSE_KEY` | Sender | - | Auto filled |
 | `WORKER_ROLE` | Sender | sender | Auto filled |
 | `DATABASE_URL` | Sender | - | Auto filled |
-| `SESSION_SECRET` | Sender | (secret) | Auto filled |
+| `SESSION_SECRET` | Sender | (secret) | Empty value to be filled by the user |
 
 ## Configuration
 

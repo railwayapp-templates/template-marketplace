@@ -1,73 +1,23 @@
 # Deploy PostgreSQL with pgvectorscale on Railway
 
-PostgreSQL 18 with pgvector and pgvectorscale extensions.
+PostgreSQL 18 with pgvector and pgvectorscale for vector search.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postgresql-with-pgvectorscale)
 
 ## About
 
-PostgreSQL 18 with pgvector and pgvectorscale extensions for high-performance vector similarity search with StreamingDiskANN indexing, providing superior performance for AI/ML applications requiring embeddings storage and semantic
-  search capabilities.
+PostgreSQL 18 with pgvector and pgvectorscale for vector search. pgvector adds
+vector types and HNSW and IVFFlat indexes; pgvectorscale adds StreamingDiskANN
+indexes and statistical binary quantization for larger embedding tables. Both
+extensions are created for you in the default database.
 
-  ## About Hosting PostgreSQL with pgvectorscale
-
-  pgvectorscale extends pgvector with advanced indexing algorithms like StreamingDiskANN, offering better performance and scalability for vector similarity search. This template provides a production-ready PostgreSQL 18 database with both extensions
-  pre-installed and configured. Built on Railway's official postgres-ssl image, it ships SSL out of the box with auto-generated certificates, pgBackRest WAL archiving with point-in-time recovery support, automatic extension initialization and updates, and persistent volume storage. Images are published under immutable version tags and smoke-tested in CI before release. Perfect for RAG applications, semantic search, recommendation systems,
-   and any AI application requiring efficient vector operations at scale.
-
-  ## Common Use Cases
-
-  - **RAG (Retrieval Augmented Generation)**: Store and retrieve document embeddings for AI chatbots and question-answering systems
-  - **Semantic Search**: Build intelligent search engines that understand context and meaning beyond keyword matching
-  - **Recommendation Systems**: Power personalized recommendations using vector similarity between user preferences and content
-  - **Image & Video Search**: Enable visual similarity search for media libraries and content discovery platforms
-  - **Anomaly Detection**: Identify outliers in high-dimensional data for fraud detection and monitoring systems
-
-  ## Dependencies for PostgreSQL with pgvectorscale Hosting
-
-  - **Docker**: Container runtime for building and running the PostgreSQL image
-
-  ### Deployment Dependencies
-
-  - [pgvector Documentation](https://github.com/pgvector/pgvector) - Core vector extension
-  - [pgvectorscale Documentation](https://github.com/timescale/pgvectorscale) - Performance enhancements and StreamingDiskANN
-  - [PostgreSQL Documentation](https://www.postgresql.org/docs/18/) - Database reference
-
-  ### Implementation Details
-
-  **Connecting to your database:**
-  ```python
-  import psycopg2
-  from pgvector.psycopg2 import register_vector
-
-  conn = psycopg2.connect(DATABASE_PUBLIC_URL)
-  register_vector(conn)
-
-  # Create a table with vector column
-  cur = conn.cursor()
-  cur.execute("""
-      CREATE TABLE items (
-          id SERIAL PRIMARY KEY,
-          embedding vector(1536)
-      )
-  """)
-
-  # Create StreamingDiskANN index
-  cur.execute("""
-      CREATE INDEX ON items
-      USING diskann (embedding)
-      WITH (num_neighbors=50)
-  """)
-```
-
-  ## Environment Variables:
-  - POSTGRES_PASSWORD: Database password (required)
-  - POSTGRES_USER: Database username (default: postgres)
-  - POSTGRES_DB: Database name (default: railway)
-  - PGDATA: Data directory (default: /var/lib/postgresql/data/pgdata)
-
-  Volume Configuration:
-  Mount a volume at /var/lib/postgresql/data for persistent storage.
+The template runs one PostgreSQL service from a tested image for amd64 and
+arm64, with a volume at `/var/lib/postgresql/data` and a generated password.
+The image builds on Railway's own `postgres-ssl` image, so it keeps SSL,
+pgBackRest WAL archiving, point-in-time recovery, and Railway's volume checks.
+On every boot it creates missing extensions and updates their SQL to match the
+image, so an image update never leaves a database on an old extension version.
+Patch releases install automatically during Railway's nightly update window.
 
 ## What gets deployed
 
@@ -77,11 +27,13 @@ PostgreSQL 18 with pgvector and pgvectorscale extensions for high-performance ve
 
 ## Environment variables
 
-| Variable | Default |
-| --------- | ------- |
-| `POSTGRES_DB` | railway |
-| `POSTGRES_USER` | (secret) |
-| `POSTGRES_PASSWORD` | (secret) |
+| Variable | Default | Description |
+| --------- | ------- | ----------- |
+| `POSTGRES_DB` | railway | Database created on first boot, with the extensions installed in it. |
+| `DATABASE_URL` | - | Connection string for services in this project, over private networking. |
+| `POSTGRES_USER` | (secret) | Database superuser. |
+| `POSTGRES_PASSWORD` | (secret) | Password for the postgres user. Generated for you. |
+| `DATABASE_PUBLIC_URL` | - | Connection string through the TCP proxy, for access from outside Railway. |
 
 ## Configuration
 

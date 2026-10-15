@@ -26,6 +26,7 @@ This template deploys the full GitTerm stack: web app, API server, proxy, backgr
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `PORT` | gitterm-server | 8080 | Port expected by the proxy, listener, and idle reaper |
 | `API_URL` | gitterm-server | - | Public API URL exposed through Caddy |
 | `BASE_URL` | gitterm-server | - | Public application origin used for redirects and generated links |
 | `REDIS_URL` | gitterm-server | - | Redis connection supplied by Railway |
@@ -55,16 +56,20 @@ This template deploys the full GitTerm stack: web app, API server, proxy, backgr
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
 | `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 | `DATABASE_PUBLIC_URL` | Postgres | - | Public URL to connect to Postgres database, used by the Data panel. |
+| `PORT` | gitterm-web | 8080 | Port expected by the Caddy proxy's WEB_URL |
 | `NEXT_PUBLIC_AUTH_URL` | gitterm-web | - | Better Auth origin supplied by the server |
 | `NEXT_PUBLIC_SERVER_URL` | gitterm-web | - | Public API endpoint supplied by the server |
 | `NEXT_PUBLIC_BASE_DOMAIN` | gitterm-web | - | Public domain without protocol |
 | `NEXT_PUBLIC_LISTENER_URL` | gitterm-web | - | Public real-time listener endpoint |
 | `NEXT_PUBLIC_ROUTING_MODE` | gitterm-web | - | Matches the server and proxy routing mode |
+| `NEXT_PUBLIC_DEPLOYMENT_MODE` | gitterm-web | - | Keeps the web UI in email-only self-hosted mode, matching the server |
+| `PORT` | gitterm-listener | 8080 | Port expected by the Caddy proxy's LISTENER_URL |
 | `SERVER_URL` | gitterm-listener | - | Private address of the API server |
 | `BASE_DOMAIN` | gitterm-listener | - | Public application domain without protocol |
 | `CORS_ORIGIN` | gitterm-listener | - | Browser origin allowed to open subscriptions |
 | `DATABASE_URL` | gitterm-listener | - | Database used for authentication and webhook processing |
 | `BETTER_AUTH_URL` | gitterm-listener | - | Public Better Auth origin |
+| `DEPLOYMENT_MODE` | gitterm-listener | - | Matches the server's self-hosted authentication behavior |
 | `INTERNAL_API_KEY` | gitterm-listener | (secret) | Shared key used for protected server procedures |
 | `BETTER_AUTH_SECRET` | gitterm-listener | (secret) | Shared auth secret required to validate sessions |
 | `WORKSPACE_JWT_SECRET` | gitterm-listener | (secret) | Worksapce JWT Secret |

@@ -13,10 +13,10 @@ Hosting ClassroomIO means running three application services together: the **API
 | Service | Source | Type |
 |---------|--------|------|
 | Redis | `redis:8.2.1` | Database |
+| cio-storage | `chrislusf/seaweedfs:4.48` | Worker |
 | cio-dashboard | `classroomio/dashboard:latest` | Worker |
 | db | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 | cio-jobs | `classroomio/jobs:edge` | Worker |
-| cio-minio | `minio/minio` | Database |
 | db-studio | `ghcr.io/drizzle-team/gateway:1.3.0` | Worker |
 | cio-api | `classroomio/api:edge` | Worker |
 
@@ -30,6 +30,8 @@ Hosting ClassroomIO means running three application services together: the **API
 | `REDISPASSWORD` | Redis | (secret) | - |
 | `REDIS_PASSWORD` | Redis | (secret) | - |
 | `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
+| `PORT` | cio-storage | 9000 | - |
+| `OBJECT_STORAGE_SECRET_ACCESS_KEY` | cio-storage | (secret) | - |
 | `PRIVATE_SERVER_KEY` | cio-dashboard | - | same value as cio-api |
 | `PUBLIC_IS_SELFHOSTED` | cio-dashboard | true | - |
 | `CSP_MEDIA_SRC_DOMAINS` | cio-dashboard | - | Optional broader override (custom domain): ALLOWED_EXTERNAL_DOMAINS=https://*.yourdomain.com,https://fonts.googleapis.com |
@@ -43,12 +45,10 @@ Hosting ClassroomIO means running three application services together: the **API
 | `SMTP_USER` | cio-jobs | (secret) | - |
 | `SMTP_PASSWORD` | cio-jobs | (secret) | - |
 | `OPENAI_API_KEY` | cio-jobs | (secret) | - |
+| `PUBLIC_IS_SELFHOSTED` | cio-jobs | true | - |
+| `CIO_DEPLOYMENT_METHOD` | cio-jobs | railway | - |
 | `OBJECT_STORAGE_FORCE_PATH_STYLE` | cio-jobs | true | - |
-| `OBJECT_STORAGE_SECRET_ACCESS_KEY` | cio-jobs | (secret) | - |
 | `OBJECT_STORAGE_MEDIA_PUBLIC_BASE_URL` | cio-jobs | - | Optional bucket overrides (defaults videos/documents/media): |
-| `MINIO_ROOT_USER` | cio-minio | (secret) | - |
-| `MINIO_SERVER_URL` | cio-minio | - | custom domain? hardcode https://storage.yourdomain.com |
-| `MINIO_ROOT_PASSWORD` | cio-minio | (secret) | Optional, silences console redirect warnings behind the proxy: |
 | `PORT` | db-studio | 4983 | - |
 | `STORE_PATH` | db-studio | /app | - |
 | `PORT` | cio-api | 3081 | - |
@@ -72,6 +72,7 @@ Hosting ClassroomIO means running three application services together: the **API
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **TCP Proxies:** 6379
 - **Volume:** `/data`
+- **Start command:** `/bin/sh -c 'mkdir -p /etc/seaweedfs; printf "{\"identities\":[{\"name\":\"admin\",\"credentials\":[{\"accessKey\":\"%s\",\"secretKey\":\"%s\"}],\"actions\":[\"Admin\",\"Read\",\"Write\",\"List\",\"Tagging\"]},{\"name\":\"anonymous\",\"actions\":[\"Read:media\"]}]}" "$OBJECT_STORAGE_ACCESS_KEY_ID" "$OBJECT_STORAGE_SECRET_ACCESS_KEY" > /etc/seaweedfs/s3.json; (until wget -q -O /dev/null http://127.0.0.1:9000/healthz; do sleep 2; done; for b in videos documents media; do echo "s3.bucket.create -name $b" | weed shell -master=127.0.0.1:9333; done) & exec /entrypoint.sh server -s3 -s3.port=9000 -s3.config=/etc/seaweedfs/s3.json "-s3.allowedOrigins=*"'`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 

@@ -6,21 +6,21 @@ A simple home inventory management software
 
 ## About
 
-Homebox is the inventory and organization system built for the Home User! With a focus on simplicity and ease of use, Homebox is the perfect solution for your home inventory, organization, and management needs.
+Homebox is an inventory and organization system built for the home user. Written in Go with a focus on speed, simplicity, and ease of use (typically using less than 50MB of RAM at idle), Homebox is designed to track household items, locations, warranties, maintenance schedules, receipts, and manuals across any device.
 
 * [Website](https://homebox.software/)
-* [Documentation](https://homebox.software/en/quick-start.html)
+* [Documentation](https://homebox.software/en/quick-start/)
 * [GitHub](https://github.com/sysadminsmedia/homebox)
 
-*Note: The development of Homebox was [taken over by SysAdmins Media](https://sysadminsjournal.com/were-continuing-homebox-development/) following the original maintainer [archiving](https://github.com/hay-kot/homebox/issues/919) the project.*
+This template deploys Homebox as a lightweight, self-contained container backed by an embedded SQLite database and file storage mounted on a persistent Railway Volume at `/data`.
 
-**Tips**
+### Deployment Tips & Configuration
 
-* By default, the template has `HBOX_OPTIONS_ALLOW_REGISTRATION=true` to allow for initial setup. Once you have created your account, consider setting this variable to `false` to disable open registration.
-* Since [Volumes on Railway](https://docs.railway.app/reference/volumes) are still a new feature, there is no option to access or backup the persistent data. While Homebox has the option to import/export an inventory, it currently *does not* offer a comprehensive backup/restore of an installation. This means attachments, such as images, will not be recoverable if the volume is deleted.
-* A complete list of supported environment variables can be found [here](https://homebox.sysadminsmedia.com/en/quick-start.html#env-variables-configuration). These can be added to the Homebox service to enable support for features such as email.
+- **Initial Registration:** By default, the template sets `HBOX_OPTIONS_ALLOW_REGISTRATION=true` so you can create your initial administrator account. Once you have registered, consider setting this variable to `false` to disable open registration.
+- **Backups:** You can protect your data using [Railway's native Volume Backups](https://docs.railway.com/reference/volumes#backups) to snapshot `/data`, or use Homebox's built-in **Collection Export** feature to export and import a complete `.zip` archive of your inventory (including photos, attachments, tags, and entities) as well as CSV exports.
+- **Advanced Configuration:** A complete list of supported environment variables can be found in the [Homebox documentation](https://homebox.software/en/quick-start/configure/). These can be added to the Homebox service to enable SMTP email, [OpenID Connect (OIDC) SSO](https://homebox.software/en/quick-start/configure/oidc/), or external PostgreSQL/Meilisearch services.
 
-*Note: This is a community-made template and therefore not supported by the Homebox team. Please direct help requests to the [Railway thread for the template](https://help.railway.app/templates/homebox-31aab3c1).*
+*Note: This is a community-made template and therefore not officially supported by the Homebox team. Please direct template-specific help requests to the [Railway thread for the template](https://station.railway.com/templates/homebox-31aab3c1).*
 
 ## What gets deployed
 
@@ -32,9 +32,10 @@ Homebox is the inventory and organization system built for the Home User! With a
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
-| `TZ` | UTC | Timezone |
-| `PORT` | 7745 | - |
-| `HBOX_OPTIONS_ALLOW_REGISTRATION` | true | Allow user registration (Consider disabling after setup) |
+| `PORT` | 7745 | Homebox interface port |
+| `HBOX_AUTH_API_KEY_PEPPER` | (secret) | Secure secret string for hashing static API keys |
+| `HBOX_WEB_MAX_UPLOAD_SIZE` | 20 | Maximum file/image upload size in MB |
+| `HBOX_OPTIONS_ALLOW_REGISTRATION` | true | Allow initial user registration (consider setting to false after setup) |
 
 ## Configuration
 

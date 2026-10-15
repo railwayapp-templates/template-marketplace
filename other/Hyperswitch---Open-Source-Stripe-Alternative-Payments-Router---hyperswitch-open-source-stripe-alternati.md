@@ -1,34 +1,40 @@
 # Deploy Hyperswitch - Open-Source Stripe Alternative (Payments Router) on Railway
 
-Self-host hyperswitch on Railway. Open-source Stripe alternative in Rust.
+Self-host Hyperswitch sandbox payments with a pinned, compatible stack.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hyperswitch-open-source-stripe-alternati)
 
 ## About
 
-Hyperswitch is a production-grade open-source payments orchestrator built in Rust by Juspay. It unifies 100+ payment processors (Stripe, Adyen, Checkout.com, PayPal, Braintree...) behind one API, with smart routing, automatic retries, cost observability, and a self-hosted control center — a true open alternative to closed orchestration platforms.
+Hyperswitch is an open-source payments orchestrator built in Rust by Juspay. Connect multiple payment processors through a unified API and manage them from a self-hosted dashboard.
 
-This template deploys the complete Hyperswitch stack on Railway, fully self-hosted with zero external dependencies. It provisions five services: the Rust payments router (with automatic Postgres migrations), the Control Center admin dashboard, the Web Checkout SDK (compiled from source with your Railway URLs baked in), Postgres, and a private Redis. All services are pre-wired through Railway's internal networking and use generated secrets, making the deploy reproducible and secure by default. After deploy, create your admin account, connect a payment processor, configure routing, and start accepting payments through a unified API or the embedded checkout.
+This template provisions five services: the payments router, Control Center dashboard, Web Checkout SDK, PostgreSQL and Redis. Database connections and public frontend URLs are wired automatically. Authentication and encryption secrets are generated independently for every deployment; you do not need to supply a shared template API key.
+
+The template uses a fixed compatible combination: **Router 1.123.1, Control Center 1.38.4 and Web SDK 0.131.0**. Router and SDK deployment sources are maintained on dedicated Railway branches. The SDK installs locked dependencies and its matching utility revision, then builds with your own Railway URLs. Public services have HTTP health checks with explicit ports. Router startup waits for PostgreSQL and Redis, serializes migrations and records transactional migrations atomically so a restart can safely resume.
+
+This is a **development and sandbox stack** using the built-in mock card locker. It is not a complete production card-processing deployment.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| hyperswitch-control-center | `juspaydotin/hyperswitch-control-center` | Web service |
-| hyperswitch-router | [XavTo/Hyperswitch](https://github.com/XavTo/Hyperswitch) | Web service |
+| hyperswitch-control-center | `juspaydotin/hyperswitch-control-center:v1.38.4` | Web service |
+| hyperswitch-router | [XavTo/Hyperswitch](https://github.com/XavTo/Hyperswitch) (branch: railway-stable-v1.123.1) | Web service |
 | Redis | `redis:7-alpine` | Database |
-| hyperswitch-web | [XavTo/hyperswitch-web](https://github.com/XavTo/hyperswitch-web) | Web service |
+| hyperswitch-web | [XavTo/hyperswitch-web](https://github.com/XavTo/hyperswitch-web) (branch: railway-stable-v0.131.0) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `default__server__host` | hyperswitch-control-center | 0.0.0.0 | Bind address inside the container, must stay 0.0.0.0 for Railway to route traffic |
-| `default__server__port` | hyperswitch-control-center | 9000 | Internal port the Control Center listens on, exposed via Railway target port |
-| `default__features__email` | hyperswitch-control-center | false | Disable email-based features (password reset, invites) since no SMTP is configured in this template |
-| `default__endpoints__api_url` | hyperswitch-control-center | - | Public URL of the Hyperswitch router service, used by the Control Center frontend to call the API |
-| `default__endpoints__sdk_url` | hyperswitch-control-center | - | Public URL of the Web SDK loader, used by the Control Center to embed the checkout preview |
+| `PORT` | hyperswitch-control-center | 9000 | HTTP port for Railway health checks |
+| `default__server__host` | hyperswitch-control-center | 0.0.0.0 | Bind address for Railway |
+| `default__server__port` | hyperswitch-control-center | 9000 | Internal dashboard port |
+| `default__features__email` | hyperswitch-control-center | false | Disable email features; no SMTP configured |
+| `default__endpoints__api_url` | hyperswitch-control-center | - | Public URL of the Hyperswitch router service |
+| `default__endpoints__sdk_url` | hyperswitch-control-center | - | Public URL of the Web SDK loader |
+| `PORT` | hyperswitch-router | 8080 | HTTP port for Railway health checks |
 | `ROUTER__REDIS__HOST` | hyperswitch-router | - | Redis host on private network |
 | `ROUTER__REDIS__PORT` | hyperswitch-router | 6379 | Redis port |
 | `ROUTER__SERVER__HOST` | hyperswitch-router | 0.0.0.0 | Bind address for Railway |
@@ -38,6 +44,7 @@ This template deploys the complete Hyperswitch stack on Railway, fully self-host
 | `ROUTER__REDIS__POOL_SIZE` | hyperswitch-router | 5 | Redis connection pool size |
 | `ROUTER__SERVER__BASE_URL` | hyperswitch-router | - | Public URL of the router |
 | `ROUTER__ANALYTICS__SOURCE` | hyperswitch-router | sqlx | Analytics backend (Postgres, no ClickHouse needed) |
+| `ROUTER__API_KEYS__HASH_KEY` | hyperswitch-router | (secret) | Unique API key hashing secret. Preserve with database and master key. |
 | `ROUTER__REDIS__DEFAULT_TTL` | hyperswitch-router | 300 | Default cache TTL in seconds |
 | `ROUTER__LOCKER__MOCK_LOCKER` | hyperswitch-router | true | Mock PCI vault for dev/test only |
 | `ROUTER__LOG__CONSOLE__LEVEL` | hyperswitch-router | INFO | Log verbosity |
@@ -78,7 +85,9 @@ This template deploys the complete Hyperswitch stack on Railway, fully self-host
 | `ROUTER__USER__FORCE_TWO_FACTOR_AUTH` | hyperswitch-router | false | Disable mandatory 2FA for users |
 | `ROUTER__SECRETS__RECON_ADMIN_API_KEY` | hyperswitch-router | (secret) | Auto-generated reconciliation admin key |
 | `ROUTER__REDIS__MAX_IN_FLIGHT_COMMANDS` | hyperswitch-router | 5000 | Max concurrent Redis commands |
+| `ROUTER__LOG__TELEMETRY__TRACES_ENABLED` | hyperswitch-router | false | No external telemetry collector |
 | `ROUTER__REDIS__DEFAULT_COMMAND_TIMEOUT` | hyperswitch-router | 30 | Default Redis command timeout |
+| `ROUTER__LOG__TELEMETRY__METRICS_ENABLED` | hyperswitch-router | false | No external telemetry collector |
 | `ROUTER__USER__PASSWORD_VALIDITY_IN_DAYS` | hyperswitch-router | (secret) | Password expiry policy |
 | `ROUTER__REDIS__DISABLE_AUTO_BACKPRESSURE` | hyperswitch-router | false | Enable Redis backpressure handling |
 | `ROUTER__ANALYTICS__SQLX__CONNECTION_TIMEOUT` | hyperswitch-router | 10 | Analytics DB connect timeout |
@@ -97,12 +106,13 @@ This template deploys the complete Hyperswitch stack on Railway, fully self-host
 ## Configuration
 
 - **Start command:** `node dist/server/server.js`
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Start command:** `/entrypoint.sh`
 - **Volume:** `/data`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 
-**Category:** Other · **Languages:** Shell, PLpgSQL, Dockerfile, ReScript, JavaScript, TypeScript, CSS, HTML, Makefile
+**Category:** Other · **Languages:** Shell, HTML, PLpgSQL, Dockerfile, ReScript, JavaScript, TypeScript, CSS, Makefile
 
 [View on Railway →](https://railway.com/deploy/hyperswitch-open-source-stripe-alternati)

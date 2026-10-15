@@ -60,7 +60,10 @@ This template deploys a complete private AI workspace on Railway across four ser
 
 - **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH"`
 - **Volume:** `/data`
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
+- **Volume:** `/app/backend/data`
+- **Healthcheck:** `/health/readiness`
 - **Volume:** `/var/lib/postgresql/data`
 
 **Category:** AI/ML
