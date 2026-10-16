@@ -1,16 +1,16 @@
 # Deploy Dify on Railway
 
-Dify workflows & RAG, chatbots, plugins, Qdrant and S3. Dify AI (DifyAI).
+Dify workflows & RAG Pro Stack: Dify plugins, Qdrant, S3. Dify AI (DifyAI).
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dify-ai-with-qdrant-and-s3)
 
 ## About
 
-Dify is an open-source platform for building AI chatbots, visual workflows, knowledge bases and retrieval-augmented generation (RAG). This template deploys Dify AI 1.17.1 with background workers, signed plugins, a Python/JavaScript code sandbox, Qdrant and persistent S3 storage. The dashboard, app APIs and file URLs share one Railway HTTPS domain.
+Dify builds AI chatbots, visual workflows, knowledge bases and RAG. This Pro Stack deploys Dify AI 1.17.1 with workers, signed plugins, a code sandbox, Qdrant and persistent S3 storage on one HTTPS domain.
 
 This stack runs the official Dify API, Web, Celery Worker and Beat images with a Plugin daemon, PostgreSQL, Redis, Qdrant, Dify Sandbox, an SSRF proxy and a small Nginx gateway. Railway creates the private networking, four persistent volumes and native S3 Bucket automatically. You do not need custom domains, a GitHub repository, SMTP or a model API key to deploy and create your first workflow.
 
-The template pins Dify API/Web/Worker/Beat to 1.17.1, Plugin daemon to 0.6.10-local, Sandbox to 0.2.15, Qdrant to 1.19.2, PostgreSQL to 17.11 and Redis to 7.2.16. Nginx and Squid images are pinned to immutable digests. Only the Dify gateway has a public HTTP domain; internal databases and runtime services stay private.
+The template pins Dify API/Web/Worker/Beat to 1.17.1, Plugin daemon to 0.6.10-local, Sandbox to 0.2.15, Qdrant to 1.19.2, Railway SSL PostgreSQL to 17.11 and Redis to the native Railway 8.2 image. PostgreSQL, Nginx and Squid images are pinned to immutable digests. Only the Dify gateway has a public HTTP domain; internal databases and runtime services stay private.
 
 ### First login
 
@@ -29,6 +29,8 @@ Nginx routes the dashboard to Web, `/console/api`, `/api`, `/v1`, `/files`, `/mc
 The URL variables follow the Dify service's generated Railway domain. If you add a custom domain later, choose it as the public domain and set the public URL/CORS variables in API and Web to that same HTTPS origin. Worker and Beat inherit API settings. The default setup uses host-only secure authentication cookies and does not require `COOKIE_DOMAIN` or a second custom domain.
 
 ### Durable data
+
+PostgreSQL and Redis reuse Railway native database service configurations, with standard connection URLs and `PG*` / `REDIS*` variables for the Data panel and other services. Dify keeps its separate plugin database and Redis database indexes. PostgreSQL accepts TLS connections; both databases stay private by default.
 
 - **Postgres volume:** accounts, workflows, knowledge metadata, encrypted provider credentials, and the separate `dify_plugin` database created by Plugin.
 - **Redis volume:** persistent Celery broker data and application state, with authentication and AOF enabled.
@@ -75,8 +77,6 @@ If the dashboard loads but operations fail, inspect API and Worker logs first, t
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `redis:7.2.16-bookworm` | Database |
-| Postgres | `postgres:17.11-bookworm` | Database |
 | Worker | `langgenius/dify-api:1.17.1` | Worker |
 | Plugin | `langgenius/dify-plugin-daemon:0.6.10-local` | Database |
 | Sandbox | `langgenius/dify-sandbox:0.2.15` | Worker |
@@ -84,18 +84,15 @@ If the dashboard loads but operations fail, inspect API and Worker logs first, t
 | Qdrant | `qdrant/qdrant:v1.19.2` | Database |
 | Dify | `nginx:1.28.0-alpine@sha256:30f1c0d78e0ad60901648be663a710bdadf19e4c10ac6782c235200619158284` | Web service |
 | Beat | `langgenius/dify-api:1.17.1` | Worker |
+| Redis | `redis:8.2` | Database |
 | API | `langgenius/dify-api:1.17.1` | Worker |
 | SSRF-Proxy | `ubuntu/squid@sha256:6a097f68bae708cedbabd6188d68c7e2e7a38cedd05a176e1cc0ba29e3bbe029` | Worker |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17.11@sha256:87184beace8ec657a760401a466a13c5b689066b31b77993103b4771933a9d31` | Database |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
-| `REDIS_PASSWORD` | Redis | (secret) | Generated Redis authentication password shared with API, workers and Plugin. |
-| `TZ` | Postgres | UTC | Tz default for the official Dify Postgres service. |
-| `POSTGRES_DB` | Postgres | dify | Primary Dify database; Plugin automatically creates its separate dify_plugin database. |
-| `POSTGRES_USER` | Postgres | (secret) | Database administrator username used by the Dify stack. |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | Generated PostgreSQL password. Referenced by Dify and Plugin automatically. |
 | `TZ` | Worker | - | Inherits TZ from API so background processes use the same configuration. |
 | `LANG` | Worker | - | Inherits LANG from API so background processes use the same configuration. |
 | `MODE` | Worker | worker | Selects the official Dify API image process: api, worker or beat. |
@@ -177,11 +174,11 @@ If the dashboard loads but operations fail, inspect API and Worker logs first, t
 | `TZ` | Plugin | UTC | Tz default for the official Dify Plugin service. |
 | `PORT` | Plugin | 5002 | Container HTTP port. Only the Dify proxy receives a public domain. |
 | `DB_HOST` | Plugin | - | Private db hostname inside the Railway project. |
-| `DB_PORT` | Plugin | 5432 | Db port default for the official Dify Plugin service. |
+| `DB_PORT` | Plugin | - | Db port default for the official Dify Plugin service. |
 | `DB_TYPE` | Plugin | postgresql | Db type default for the official Dify Plugin service. |
 | `REDIS_DB` | Plugin | 3 | Redis db default for the official Dify Plugin service. |
 | `REDIS_HOST` | Plugin | - | Private redis hostname inside the Railway project. |
-| `REDIS_PORT` | Plugin | 6379 | Redis port default for the official Dify Plugin service. |
+| `REDIS_PORT` | Plugin | - | Redis port default for the official Dify Plugin service. |
 | `SERVER_KEY` | Plugin | - | Generated plugin daemon API key. Keep Plugin private. |
 | `DB_DATABASE` | Plugin | dify_plugin | Db database default for the official Dify Plugin service. |
 | `DB_PASSWORD` | Plugin | (secret) | Db password default for the official Dify Plugin service. |
@@ -314,13 +311,19 @@ If the dashboard loads but operations fail, inspect API and Worker logs first, t
 | `ENABLE_EMAIL_PASSWORD_LOGIN` | Beat | (secret) | Enables normal email/password login without SMTP. |
 | `NEW_USER_DEFAULT_PLUGIN_IDS` | Beat | - | Installs the signed official OpenAI provider after first workspace setup. A provider API key is still required for paid models. |
 | `RESPECT_XFORWARD_HEADERS_ENABLED` | Beat | - | Trusts the HTTPS forwarding headers set by the Railway edge and public Nginx proxy. |
+| `REDISHOST` | Redis | - | Private network hostname of the Redis service, only resolvable from services in the same environment |
+| `REDISPORT` | Redis | 6379 | Port that Redis listens on |
+| `REDISUSER` | Redis | default | Username for authenticating with Redis |
+| `REDIS_URL` | Redis | - | Connection string for connecting to Redis using the private network |
+| `REDISPASSWORD` | Redis | (secret) | Alias of REDIS_PASSWORD for clients that expect the unseparated name |
+| `REDIS_PASSWORD` | Redis | (secret) | Randomly generated password for authenticating with Redis |
 | `TZ` | API | UTC | Tz default for the official Dify API service. |
 | `LANG` | API | C.UTF-8 | Lang default for the official Dify API service. |
 | `MODE` | API | api | Selects the official Dify API image process: api, worker or beat. |
 | `PORT` | API | 5001 | Container HTTP port. Only the Dify proxy receives a public domain. |
 | `LC_ALL` | API | C.UTF-8 | Lc all default for the official Dify API service. |
 | `DB_HOST` | API | - | Private db hostname inside the Railway project. |
-| `DB_PORT` | API | 5432 | Db port default for the official Dify API service. |
+| `DB_PORT` | API | - | Db port default for the official Dify API service. |
 | `DB_TYPE` | API | postgresql | Db type default for the official Dify API service. |
 | `REDIS_DB` | API | 0 | Redis db default for the official Dify API service. |
 | `DB_EXTRAS` | API | connect_timeout=10&keepalives=1&keepalives_idle=10&keepalives_interval=5&keepalives_count=3 | PostgreSQL connection timeout and TCP keepalives. Fast recovery when PostgreSQL containers or private IPs change; preserves stable application data. |
@@ -331,7 +334,7 @@ If the dashboard loads but operations fail, inspect API and Worker logs first, t
 | `DEPLOY_ENV` | API | PRODUCTION | Deploy env default for the official Dify API service. |
 | `QDRANT_URL` | API | - | Qdrant url configured for this stack. |
 | `REDIS_HOST` | API | - | Private redis hostname inside the Railway project. |
-| `REDIS_PORT` | API | 6379 | Redis port default for the official Dify API service. |
+| `REDIS_PORT` | API | - | Redis port default for the official Dify API service. |
 | `SECRET_KEY` | API | (secret) | Generated application signing/encryption secret shared by API and workers. Keep stable across redeploys and backups. |
 | `APP_API_URL` | API | - | Published application API URL follows the single public Dify domain automatically. |
 | `APP_WEB_URL` | API | - | Published application web URL follows the single public Dify domain automatically. |
@@ -393,12 +396,14 @@ If the dashboard loads but operations fail, inspect API and Worker logs first, t
 | `NEW_USER_DEFAULT_PLUGIN_IDS` | API | langgenius/openai | Installs the signed official OpenAI provider after first workspace setup. A provider API key is still required for paid models. |
 | `RESPECT_XFORWARD_HEADERS_ENABLED` | API | true | Trusts the HTTPS forwarding headers set by the Railway edge and public Nginx proxy. |
 | `SQUID_CONFIG_B64` | SSRF-Proxy | aHR0cF9wb3J0IDMxMjgKYWNsIGxvY2FsbmV0IHNyYyAxMC4wLjAuMC84IDEwMC42NC4wLjAvMTAgMTcyLjE2LjAuMC8xMiAxOTIuMTY4LjAuMC8xNiBmYzAwOjovNyBmZTgwOjovMTAKYWNsIGxvY2FsaG9zdCBzcmMgMTI3LjAuMC4xLzMyIDo6MQphY2wgcHJpdmF0ZSBkc3QgMC4wLjAuMC84IDEwLjAuMC4wLzggMTAwLjY0LjAuMC8xMCAxMjcuMC4wLjAvOCAxNjkuMjU0LjAuMC8xNiAxNzIuMTYuMC4wLzEyIDE5Mi4xNjguMC4wLzE2IDIyNC4wLjAuMC80IDI0MC4wLjAuMC80IDo6LzEyOCA6OjEvMTI4IDo6ZmZmZjowOjAvOTYgOjovOTYgZmMwMDo6LzcgZmU4MDo6LzEwCmFjbCBTU0xfcG9ydHMgcG9ydCA0NDMKYWNsIFNhZmVfcG9ydHMgcG9ydCA4MCA0NDMgMTAyNS02NTUzNQphY2wgQ09OTkVDVCBtZXRob2QgQ09OTkVDVApodHRwX2FjY2VzcyBkZW55ICFTYWZlX3BvcnRzCmh0dHBfYWNjZXNzIGRlbnkgQ09OTkVDVCAhU1NMX3BvcnRzCmh0dHBfYWNjZXNzIGRlbnkgcHJpdmF0ZQpodHRwX2FjY2VzcyBhbGxvdyBsb2NhbG5ldApodHRwX2FjY2VzcyBhbGxvdyBsb2NhbGhvc3QKaHR0cF9hY2Nlc3MgZGVueSBhbGwKY2FjaGUgZGVueSBhbGwKY2FjaGVfbWVtIDE2IE1CCmFjY2Vzc19sb2cgc3RkaW86L2Rldi9zdGRvdXQKY2FjaGVfbG9nIC9kZXYvc3RkZXJyCnBpZF9maWxlbmFtZSAvdG1wL3NxdWlkLnBpZApjb3JlZHVtcF9kaXIgL3RtcApzaHV0ZG93bl9saWZldGltZSAzIHNlY29uZHMK | Base64-encoded SSRF proxy configuration. Blocks private destination addresses and allows authenticated stack services to access public URLs. |
+| `TZ` | Postgres | UTC | Tz default for the official Dify Postgres service. |
+| `POSTGRES_DB` | Postgres | dify | Primary Dify database. Plugin automatically creates its separate dify_plugin database. |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres | (secret) | PostgreSQL administrator used by Dify and its plugin daemon; native PGUSER aliases this value. |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Password to connect to DB |
 
 ## Configuration
 
-- **Start command:** `sh -c 'exec redis-server --bind 0.0.0.0 :: --protected-mode yes --requirepass "$REDIS_PASSWORD" --appendonly yes --maxmemory-policy noeviction'`
-- **Volume:** `/data`
-- **Volume:** `/var/lib/postgresql/data`
 - **Healthcheck:** `/health/check`
 - **Volume:** `/app/storage`
 - **Healthcheck:** `/health`
@@ -407,7 +412,10 @@ If the dashboard loads but operations fail, inspect API and Worker logs first, t
 - **Volume:** `/qdrant/storage`
 - **Start command:** `sh -c 'printf %s "$NGINX_TEMPLATE_B64" | base64 -d > /tmp/nginx.template; resolver=$(sed -n "s/^nameserver //p" /etc/resolv.conf | head -n 1); case "$resolver" in *:*) resolver="[$resolver]";; esac; sed "s/RESOLVER/$resolver/" /tmp/nginx.template | envsubst "\$API_HOST \$WEB_HOST \$PLUGIN_HOST" > /etc/nginx/nginx.conf; exec nginx -g "daemon off;"'`
 - **Networking:** Public domain with automatic HTTPS
+- **Start command:** `/bin/sh -c 'rm -rf "$RAILWAY_VOLUME_MOUNT_PATH/lost+found"; exec docker-entrypoint.sh redis-server --bind 0.0.0.0 :: --protected-mode yes --requirepass "$REDIS_PASSWORD" --save 60 1 --dir "$RAILWAY_VOLUME_MOUNT_PATH" --appendonly yes --maxmemory-policy noeviction'`
+- **Volume:** `/data`
 - **Start command:** `sh -c 'printf %s "$SQUID_CONFIG_B64" | base64 -d > /etc/squid/squid.conf; exec /usr/sbin/squid -f /etc/squid/squid.conf -NYC'`
+- **Volume:** `/var/lib/postgresql/data`
 
 **Category:** AI/ML
 

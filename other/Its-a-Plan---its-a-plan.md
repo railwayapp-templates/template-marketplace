@@ -29,11 +29,14 @@ The stack is four services, a database and a bucket. Each service runs a publish
 | `POSTGRES_USER` | postgres | (secret) | Superuser created on first boot. |
 | `POSTGRES_PASSWORD` | postgres | (secret) | Superuser password, generated per deploy. |
 | `NODE_ENV` | bot | production | Runtime mode. Keep it on production. |
+| `DATABASE_URL` | bot | - | Database URL |
 | `SERVICE_URL_API` | bot | - | Private address of the API inside the project. |
+| `APP_ENCRYPTION_KEY` | bot | - | Encryption Key |
 | `WORKER_INTERNAL_TOKEN` | bot | (secret) | Shared secret for the API internal routes. |
 | `NODE_ENV` | worker | production | Runtime mode. Keep it on production. |
 | `DATABASE_URL` | worker | - | Postgres connection string. |
 | `SERVICE_URL_API` | worker | - | Private address of the API inside the project. |
+| `APP_ENCRYPTION_KEY` | worker | - | Encryption Key |
 | `WORKER_INTERNAL_TOKEN` | worker | (secret) | Shared secret for the API internal routes. |
 | `PORT` | web | 3001 | Port the web server listens on. |
 | `API_URL` | web | - | Public origin of the API, e.g. https://api.example.com. Attach this hostname to the api service after deploy. |

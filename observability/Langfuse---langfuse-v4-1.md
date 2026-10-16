@@ -1,6 +1,6 @@
 # Deploy Langfuse on Railway
 
-Langfuse LLM observability (v4, Lang Fuse) with ClickHouse, S3 and prompts.
+Langfuse LLM observability V4 Pro Stack. Langfuse ClickHouse/S3. Lang Fuse.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/langfuse-v4-1)
 
@@ -16,9 +16,9 @@ This template includes five services and one bucket:
 | --- | --- | --- |
 | Langfuse | Dashboard, authentication, public API and OTLP ingestion | 4.59.0 |
 | Langfuse Worker | Background ingestion and processing | 4.59.0 |
-| PostgreSQL | Application metadata and configuration | 17.11 |
+| PostgreSQL | Railway SSL-enabled database for application metadata and configuration | 17.11 |
 | ClickHouse | Observation storage and analytical queries | 26.4.5.143 |
-| Redis | Queues and cache, with `noeviction` and persistence | 7.2.16 |
+| Redis | Native Railway Redis service, with `noeviction`, AOF and RDB persistence | 8.2 |
 | Railway bucket | Private S3-compatible event, media, and export storage | Managed by Railway |
 
 Only Langfuse has a public HTTP domain. Internal services use Railway private networking. The bucket uses its authenticated S3 endpoint; media and exports are accessible through temporary signed URLs.
@@ -27,16 +27,21 @@ Only Langfuse has a public HTTP domain. Internal services use Railway private ne
 
 | Service | Source | Type |
 |---------|--------|------|
-| Redis | `redis:7.2.16-bookworm` | Database |
+| Redis | `redis:8.2` | Database |
 | ClickHouse | `clickhouse/clickhouse-server:26.4.5.143` | Database |
+| Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17.11` | Database |
 | Langfuse Worker | `langfuse/langfuse-worker:4.59.0` | Worker |
-| Postgres | `postgres:17.11-bookworm` | Database |
 | Langfuse | `langfuse/langfuse:4.59.0` | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `REDISHOST` | Redis | - | Private network hostname of the Redis service, only resolvable from services in the same environment |
+| `REDISPORT` | Redis | 6379 | Port that Redis listens on |
+| `REDISUSER` | Redis | default | Username for authenticating with Redis |
+| `REDIS_URL` | Redis | - | Connection string for connecting to Redis using the private network |
+| `REDISPASSWORD` | Redis | (secret) | Alias of REDIS_PASSWORD for clients that expect the unseparated name |
 | `REDIS_PASSWORD` | Redis | (secret) | Generated password used by the web and worker services over private networking. Preserve with the Redis volume. |
 | `TZ` | ClickHouse | UTC | Use UTC for consistent trace timestamps. |
 | `PORT` | ClickHouse | 8123 | Private HTTP port used by Langfuse and the /ping healthcheck. |
@@ -44,18 +49,25 @@ Only Langfuse has a public HTTP domain. Internal services use Railway private ne
 | `CLICKHOUSE_USER` | ClickHouse | (secret) | Dedicated database user for Langfuse. |
 | `CLICKHOUSE_PASSWORD` | ClickHouse | (secret) | Generated password referenced by Langfuse web and worker. |
 | `CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT` | ClickHouse | 1 | Allow Langfuse migrations to create and manage required database objects. |
+| `TZ` | Postgres | UTC | Container timezone; UTC is required for consistent timestamps. |
+| `PGTZ` | Postgres | UTC | PostgreSQL session timezone; keep UTC. |
+| `POSTGRES_DB` | Postgres | langfuse | Database name for Langfuse accounts, projects and settings. |
+| `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
+| `POSTGRES_USER` | Postgres | (secret) | Application database user. |
+| `POSTGRES_PASSWORD` | Postgres | (secret) | Generated database password. Preserve with the PostgreSQL data volume. |
 | `PORT` | Langfuse Worker | 3030 | Private HTTP port for worker health and readiness checks. |
 | `SALT` | Langfuse Worker | - | API-key hashing salt shared with the web service. Keep stable. |
 | `HOSTNAME` | Langfuse Worker | 0.0.0.0 | Listen on all interfaces so Railway can reach the application. |
-| `REDIS_AUTH` | Langfuse Worker | - | Generated Redis password shared through a service reference. |
-| `REDIS_HOST` | Langfuse Worker | - | Private Redis hostname for ingestion and background-job queues. |
-| `REDIS_PORT` | Langfuse Worker | 6379 | Redis port on the private network. |
+| `REDIS_AUTH` | Langfuse Worker | - | Generated Redis password supplied through the standard Railway alias. |
+| `REDIS_HOST` | Langfuse Worker | - | Private Redis hostname supplied by the native Railway database service. |
+| `REDIS_PORT` | Langfuse Worker | - | Redis port supplied by the native Railway database service. |
 | `DATABASE_URL` | Langfuse Worker | - | Private PostgreSQL URL for accounts, projects, prompts and settings. |
 | `NEXTAUTH_URL` | Langfuse Worker | - | Public instance URL shared with the web service. |
 | `NODE_OPTIONS` | Langfuse Worker | --max-old-space-size=3072 | Limit the Node.js heap to 3 GB; increase alongside allocated memory for larger workloads. |
 | `CLICKHOUSE_DB` | Langfuse Worker | default | ClickHouse database used for trace and observation tables. |
 | `CLICKHOUSE_URL` | Langfuse Worker | - | Private ClickHouse HTTP endpoint used to read and write observations. |
 | `ENCRYPTION_KEY` | Langfuse Worker | - | Encryption key shared with the web service. Keep stable and back up. |
+| `REDIS_USERNAME` | Langfuse Worker | (secret) | Redis ACL username supplied by the native Railway database service. |
 | `CLICKHOUSE_USER` | Langfuse Worker | (secret) | ClickHouse user provisioned by the database service. |
 | `NEXTAUTH_SECRET` | Langfuse Worker | (secret) | Session secret shared with the web service. |
 | `REDIS_TLS_ENABLED` | Langfuse Worker | false | False for Redis over Railway private networking. |
@@ -87,24 +99,19 @@ Only Langfuse has a public HTTP domain. Internal services use Railway private ne
 | `LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY` | Langfuse Worker | (secret) | event upload: Native bucket secret, supplied automatically by Railway. |
 | `LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY` | Langfuse Worker | (secret) | media upload: Native bucket secret, supplied automatically by Railway. |
 | `LANGFUSE_OTEL_INGESTION_QUEUE_PROCESSING_CONCURRENCY` | Langfuse Worker | 2 | Concurrent OTLP ingestion jobs; increase alongside worker resources for higher throughput. |
-| `TZ` | Postgres | UTC | Container timezone; UTC is required for consistent timestamps. |
-| `PGTZ` | Postgres | UTC | PostgreSQL session timezone; keep UTC. |
-| `POSTGRES_DB` | Postgres | langfuse | Database name for Langfuse accounts, projects and settings. |
-| `DATABASE_URL` | Postgres | - | Private connection string shared with web and worker services. |
-| `POSTGRES_USER` | Postgres | (secret) | Application database user. |
-| `POSTGRES_PASSWORD` | Postgres | (secret) | Generated database password. Preserve with the PostgreSQL data volume. |
 | `PORT` | Langfuse | 3000 | HTTP port for the public Langfuse interface. |
 | `SALT` | Langfuse | - | Generated API-key hashing salt. Preserve together with the databases. |
 | `HOSTNAME` | Langfuse | 0.0.0.0 | Listen on all interfaces so Railway can reach the application. |
-| `REDIS_AUTH` | Langfuse | - | Generated Redis password shared through a service reference. |
-| `REDIS_HOST` | Langfuse | - | Private Redis hostname for ingestion and background-job queues. |
-| `REDIS_PORT` | Langfuse | 6379 | Redis port on the private network. |
+| `REDIS_AUTH` | Langfuse | - | Generated Redis password supplied through the standard Railway alias. |
+| `REDIS_HOST` | Langfuse | - | Private Redis hostname supplied by the native Railway database service. |
+| `REDIS_PORT` | Langfuse | - | Redis port supplied by the native Railway database service. |
 | `DATABASE_URL` | Langfuse | - | Private PostgreSQL URL for accounts, projects, prompts and settings. |
 | `NEXTAUTH_URL` | Langfuse | - | Public HTTPS URL used for login callbacks and instance links. |
 | `NODE_OPTIONS` | Langfuse | --max-old-space-size=3072 | Limit the Node.js heap to 3 GB; increase alongside allocated memory for larger workloads. |
 | `CLICKHOUSE_DB` | Langfuse | default | ClickHouse database used for trace and observation tables. |
 | `CLICKHOUSE_URL` | Langfuse | - | Private ClickHouse HTTP endpoint used to read and write observations. |
 | `ENCRYPTION_KEY` | Langfuse | - | Generated 32-byte hex encryption key. Keep stable and back it up with the data. |
+| `REDIS_USERNAME` | Langfuse | (secret) | Redis ACL username supplied by the native Railway database service. |
 | `CLICKHOUSE_USER` | Langfuse | (secret) | ClickHouse user provisioned by the database service. |
 | `NEXTAUTH_SECRET` | Langfuse | (secret) | Generated session-signing secret. Keep stable after deployment. |
 | `REDIS_TLS_ENABLED` | Langfuse | false | False for Redis over Railway private networking. |
@@ -148,13 +155,13 @@ Only Langfuse has a public HTTP domain. Internal services use Railway private ne
 
 ## Configuration
 
-- **Start command:** `sh -c 'exec redis-server --bind 0.0.0.0 :: --protected-mode yes --requirepass "$REDIS_PASSWORD" --appendonly yes --maxmemory-policy noeviction'`
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH --appendonly yes --appendfsync everysec --maxmemory-policy noeviction"`
 - **Volume:** `/data`
 - **Start command:** `/entrypoint.sh -- --logger.console=1 --logger.level=warning`
 - **Healthcheck:** `/ping`
 - **Volume:** `/var/lib/clickhouse`
-- **Healthcheck:** `/api/health`
 - **Volume:** `/var/lib/postgresql/data`
+- **Healthcheck:** `/api/health`
 - **Healthcheck:** `/api/public/ready`
 - **Networking:** Public domain with automatic HTTPS
 

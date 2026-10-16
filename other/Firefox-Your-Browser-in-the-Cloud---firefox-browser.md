@@ -6,7 +6,7 @@ Desktop Firefox streamed to any device. Password-gated, profile persists.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/firefox-browser?utm_medium=integration&utm_source=button&utm_campaign=firefox-browser)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/firefox-browser?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=firefox-browser)
 
 This template runs a full desktop [Firefox](https://www.mozilla.org/firefox/) browser in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-firefox/) Selkies web interface. Open your Railway domain, log in, and you're inside a real browser running on the server — bookmarks, extensions, downloads, and sessions persist between visits.
 
@@ -34,6 +34,6 @@ The service streams a GPU-less desktop Firefox over WebSockets with the linuxser
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/firefox-browser)

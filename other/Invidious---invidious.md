@@ -10,7 +10,7 @@ Privacy-respecting front-end for YouTube. Self-hosted, no ads, no tracking.
 
 One-click deploy of [Invidious](https://github.com/iv-org/invidious) — a privacy-respecting, open-source front-end for YouTube — on [Railway](https://railway.com). Watch and search YouTube without ads, tracking, JavaScript, or a Google account.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/invidious?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=invidious)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/invidious?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=invidious)
 
 Live template: 
 
@@ -18,8 +18,8 @@ Live template:
 
 | Service | Image | Role |
 |---|---|---|
-| **Invidious** | `quay.io/invidious/invidious:latest` | Web front-end on a public HTTPS domain (port 3000) |
-| **Companion** | `quay.io/invidious/invidious-companion:latest` | Internal-only stream extractor (port 8282) |
+| **Invidious** | `quay.io/invidious/invidious:2026.10.13-57cc097` | Web front-end on a public HTTPS domain (port 3000) |
+| **Companion** | `quay.io/invidious/invidious-companion:2026.09.19-bb3b37f` | Internal-only stream extractor (port 8282) |
 | **Postgres** | `postgres:16-alpine` | Stores accounts, subscriptions, watch history, playlists. 5 GB volume. |
 
 All three services run on Railway's private IPv6 network. Only Invidious is publicly exposed. Shared secrets (`HMAC_KEY`, `INVIDIOUS_COMPANION_KEY`, `POSTGRES_PASSWORD`) are auto-generated per deploy via Railway's `${{secret(N)}}` template functions; cross-service references are resolved at deploy time.
@@ -44,11 +44,11 @@ Full background: [Invidious YouTube errors explained](https://docs.invidious.io/
 
 Edit `INVIDIOUS_CONFIG` on the Invidious service. It's a YAML document — see the [Invidious config reference](https://docs.invidious.io/configuration/). Don't edit the `db:`, `hmac_key:`, or `invidious_companion:` blocks — they're populated by `${{...}}` references that resolve at deploy.
 
-To pin image versions instead of `:latest`, change the source image tag on each service (e.g. `quay.io/invidious/invidious:2026.04.01`) and redeploy.
+Images are pinned to tested upstream builds. To move to a newer one, change the source image tag on the service (tags are listed at [quay.io/invidious/invidious](https://quay.io/repository/invidious/invidious?tab=tags) and [quay.io/invidious/invidious-companion](https://quay.io/repository/invidious/invidious-companion?tab=tags)) and redeploy.
 
 ## Troubleshooting
 
-**API and watch pages return 500 with "Youtube API returned status code 400"** — YouTube changed its API and your deployed image is stale. Redeploy both the Invidious and Companion services so Railway pulls the latest `:latest` images; the upstream projects track YouTube changes and a fresh image is usually the whole fix. (Video *playback* often keeps working while metadata breaks — that's the tell.)
+**API and watch pages return 500 with "Youtube API returned status code 400"** — YouTube changed its API and your deployed image is stale. Bump both the Invidious and Companion source image tags to the newest dated tags on quay.io and redeploy; the upstream projects track YouTube changes and a fresh image is usually the whole fix. (Video *playback* often keeps working while metadata breaks — that's the tell.)
 
 ## Where to file issues
 
@@ -74,9 +74,9 @@ Template wiring in this repo: MIT. Invidious and invidious-companion have their 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Companion | `quay.io/invidious/invidious-companion:2026.08.10-16cf10e` | Worker |
+| Companion | `quay.io/invidious/invidious-companion:2026.09.19-bb3b37f` | Worker |
 | Postgres | `postgres:16-alpine` | Database |
-| Invidious | `quay.io/invidious/invidious:2026.08.15-d10f2a4` | Web service |
+| Invidious | `quay.io/invidious/invidious:2026.10.13-57cc097` | Web service |
 
 ## Environment variables
 

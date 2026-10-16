@@ -1,6 +1,6 @@
-# Deploy Odysseus on Railway
+# Deploy Odysseus (PewDiePie) on Railway
 
-odysseus from pewdiepie. Self-hosted AI workspace. odyseus
+Odysseus AI workspace by PewDiePie: chat, agents, RAG. Odyseus.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/odysseus)
 
@@ -73,6 +73,6 @@ This template deploys a multi-service Odysseus stack on Railway: the main Odysse
 - **Volume:** `/etc/searxng`
 - **Volume:** `/app/data`
 
-**Category:** AI/ML · **Languages:** Python, JavaScript, CSS, HTML, Shell, PowerShell, TypeScript, Dockerfile, Batchfile
+**Category:** AI/ML · **Languages:** Python, JavaScript, CSS, HTML, Shell, PowerShell, Dockerfile, TypeScript, Batchfile
 
 [View on Railway →](https://railway.com/deploy/odysseus)

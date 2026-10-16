@@ -11,6 +11,7 @@ Mealie is a self-hosted recipe manager, meal planner, and shopping list applicat
 * [Website](https://mealie.io/)
 * [Documentation](https://mealie.io/documentation/getting-started/introduction/)
 * [GitHub](https://github.com/mealie-recipes/mealie)
+* [Demo Website](https://demo.mealie.io/login)
 
 This template deploys Mealie backed by a dedicated PostgreSQL database communicating over Railway's private network, along with persistent volumes attached to both services (`/app/data` for Mealie assets and `/var/lib/postgresql/data` for Postgres). Using PostgreSQL unlocks Mealie's advanced fuzzy search capabilities and provides improved concurrency over SQLite.
 

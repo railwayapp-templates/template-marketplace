@@ -1,4 +1,4 @@
-# Deploy Agentmemory - Self-hosted Memory for AI Agents on Railway
+# Deploy Agent Memory (Agentmemory) on Railway
 
 Persistent memory server for MCP agents. agentmemory agent memory
 

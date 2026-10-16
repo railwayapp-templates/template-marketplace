@@ -1,6 +1,6 @@
 # Deploy OpenWork on Railway
 
-OpenWork w/ OpenCode, persistent storage, remote access. openwork open work
+OpenWork (Open Work): remote OpenCode worker with persistent storage.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openwork)
 

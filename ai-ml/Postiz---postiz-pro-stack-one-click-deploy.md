@@ -1,6 +1,6 @@
-# Deploy postiz Pro Stack One-click Deploy With S3 on Railway
+# Deploy Postiz on Railway
 
-postiz, Temporal, Redis & S3 social media automation. Postiz
+Post iz (Postiz): social media scheduler Pro Stack, Temporal, Redis and S3.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/postiz-pro-stack-one-click-deploy)
 

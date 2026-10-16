@@ -1,34 +1,14 @@
 # Deploy n8n on Railway
 
-Simple and dependable automation platform using n8n + PostgreSQL.
+Simple and dependable automation platform using n8n + PostgreSQL
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xIplv6)
 
 ## About
 
-# n8n + PostgreSQL
+n8n is a fair-code workflow automation platform that connects apps, APIs, and AI models through a visual, node-based editor. It offers hundreds of built-in integrations, supports custom JavaScript and Python code, and can be fully self-hosted, keeping your data and credentials under your control.
 
-n8n is a open-source automation platform. This template aims to provide an affordable, stable and dependable self-hosted workflow service.
-
-## Features
-
-The template includes a single n8n instance (workers are not implemented to keep costs and complexity low) and a PostgreSQL database. It is therefore reccomended to people and entities that do not need to process large numbers of requests. If this is a requirement, take a look to other templates that feature n8n workers. Learn more about n8n workers on the [official documentation](https://docs.n8n.io/hosting/scaling/queue-mode/).
-
-## Setup
-
-You're asked to provide a single variable to get the template up and running.
-
-The variable is `GENERIC_TIMEZONE` and should be set to an appropriate value to get the most out of the [Schedule tool](https://docs.n8n.io/hosting/configuration/configuration-examples/time-zone/). Find your time zone on [momentjs.com](https://momentjs.com/timezone/).
-
-## Documentation
-
-If you encounter any issue, please feel free to contact me. For reference, the projects' docs are available on:
-
-- n8n website: [n8n website](https://n8n.io/) and [n8n first-party integrations](https://n8n.io/integrations)
-- n8n self-hosting documentation: [n8n docs](https://docs.n8n.io/hosting/)
-- PostgreSQL documentation: [PostgreSQL docs](https://www.postgresql.org/docs/)
-
-_I'm myselft a user of this template, so expect further updates and maintenance._
+Self-hosting n8n means running the n8n application alongside a database that stores your workflows, credentials, and execution history. This template provides an affordable, stable, and dependable setup: a single n8n instance backed by PostgreSQL, preconfigured to talk to each other over Railway's private network. To keep costs and complexity low, it does not use queue mode or separate workers, so all executions run on the main instance. This makes it a good fit for individuals and small teams with moderate workloads. If you need to process large volumes of executions, consider a template that includes n8n workers.
 
 ## What gets deployed
 

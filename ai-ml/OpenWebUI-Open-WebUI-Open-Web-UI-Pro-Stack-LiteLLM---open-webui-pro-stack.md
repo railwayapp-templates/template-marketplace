@@ -1,6 +1,6 @@
-# Deploy Open WebUI Pro Stack One-click Deploy on Railway
+# Deploy OpenWebUI (Open WebUI / Open Web UI) Pro Stack + LiteLLM on Railway
 
-AI stack: open webui, litellm, pg & redis. openwebui open web ui openweb ui
+Openweb UI: private AI chat/RAG with LiteLLM, PostgreSQL and Redis.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-webui-pro-stack)
 

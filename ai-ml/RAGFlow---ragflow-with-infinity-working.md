@@ -1,6 +1,6 @@
-# Deploy Ragflow v0.26.4 (Last Version) on Railway
+# Deploy RAGFlow on Railway
 
-ragflow stack lowest consumption with Infinity, 100% work, RAGFlow rag
+RAGFlow (RAG Flow): document AI chat with Infinity, MySQL and MinIO.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/ragflow-with-infinity-working)
 

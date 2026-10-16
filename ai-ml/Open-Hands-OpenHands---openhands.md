@@ -1,25 +1,17 @@
-# Deploy OpenHands on Railway
+# Deploy Open Hands (OpenHands) on Railway
 
-openhands: AI agent for coding and deployment. open hands
+Open Hands coding agent (OpenHands). Deployment with persistent data.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/openhands)
 
 ## About
 
-OpenHands is an open-source AI software engineer that plans, writes, runs, and
-debugs code through a web UI. It uses tools, executes commands, and keeps
-context across sessions, helping teams ship features, fix bugs, and automate
-repetitive engineering work while keeping control of data and models.
+OpenHands (Open Hands) is an open-source coding agent with a web interface and terminal tools.
 
-Hosting OpenHands means running the web UI, the backend API, and a sandbox
-runtime where the agent executes tools. On Railway, you deploy a container, set
-LLM credentials, and optionally mount a volume so ~/.openhands data persists
-across deploys. You can expose a public URL for callbacks and web access. Most
-configuration options map to environment variables, so Railway variables are the
-primary way to tune behavior. WebSocket streaming is supported, and this fork
-prefers HTTP message sends with a WebSocket fallback for proxy reliability. If
-you use OpenHands Secrets, custom secrets are exported as env vars in the agent
-runtime.
+This fork runs OpenHands with a local process runtime inside one Railway service.
+Docker-in-Docker and a Docker socket are not required. The instance is intended
+for one trusted owner: agent actions can access files and environment variables
+inside this container. It is not a multi-tenant sandbox service.
 
 ## What gets deployed
 
@@ -31,17 +23,22 @@ runtime.
 
 | Variable | Default | Description |
 | --------- | ------- | ----------- |
+| `PORT` | 3000 | Internal HTTP healthcheck port. |
 | `RUNTIME` | local | Runtime mode |
 | `WEB_HOST` | - | Public host URL |
 | `OH_WEB_URL` | - | Public web URL |
 | `OH_SECRET_KEY` | (secret) | App secret key |
 | `OH_ENABLE_BROWSER` | false | Disable browser |
 | `OH_PERSISTENCE_DIR` | /.openhands | Persistent data dir |
+| `LOCAL_WORKSPACE_BASE` | /.openhands/workspace | Persistent workspace for legacy local-runtime conversations. |
 | `OPENHANDS_BASIC_AUTH_USER` | (secret) | auth admin |
+| `SANDBOX_LOCAL_RUNTIME_URL` | http://127.0.0.1 | Loopback address for the agent process in the same Railway container. |
 | `OPENHANDS_BASIC_AUTH_PASSWORD` | (secret) | auth password |
+| `OPENHANDS_BASIC_AUTH_EXEMPT_PATHS` | /health | Readiness endpoint only. Application and Socket.IO routes remain protected. |
 
 ## Configuration
 
+- **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/.openhands`
 

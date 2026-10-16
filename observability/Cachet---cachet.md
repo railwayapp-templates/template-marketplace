@@ -1,6 +1,6 @@
 # Deploy Cachet on Railway
 
-Cachet is an open source status page system.
+Cachet is an open source status page system
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cachet)
 

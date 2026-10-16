@@ -1,6 +1,6 @@
-# Deploy lobehub on Railway
+# Deploy LobeChat (Lobe Chat / LobeHub) on Railway
 
-Deploy and Host Lobehub. Lobechat lobe hub lobe chat
+LobeChat (Lobe Chat): AI agents with Postgres, Redis and S3. Lobe Hub.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lobehub)
 

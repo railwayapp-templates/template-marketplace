@@ -6,7 +6,7 @@ Nous Research's self-improving agent: web dashboard, browser chat, Telegram
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/hermes-agent-dashboard?utm_medium=integration&utm_source=button&utm_campaign=hermes-agent-dashboard)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/hermes-agent-dashboard?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=hermes-agent-dashboard)
 
 [Hermes Agent](https://github.com/NousResearch/hermes-agent) is Nous Research's self-improving AI agent. It remembers you across sessions, writes its own skills, runs scheduled jobs and talks to you on Telegram, Discord, Slack and more. This template runs the official image with the password-protected web dashboard, the in-browser chat and the messaging gateway, with all agent state stored on a volume.
 
@@ -16,7 +16,7 @@ One service, one volume at `/opt/data`. The official `nousresearch/hermes-agent`
 
 | Service | Source | Type |
 |---------|--------|------|
-| Hermes Agent | `nousresearch/hermes-agent:v2026.9.24` | Web service |
+| Hermes Agent | `nousresearch/hermes-agent:v0.22.2` | Web service |
 
 ## Environment variables
 
