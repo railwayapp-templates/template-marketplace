@@ -44,8 +44,8 @@ Five services, wired over Railway's private network:
 | Service | Source | Type |
 |---------|--------|------|
 | Redis | `redis:8.2` | Database |
-| n8n-worker | [Kjudeh/n8n-production-stack](https://github.com/Kjudeh/n8n-production-stack) | Worker |
-| n8n | [Kjudeh/n8n-production-stack](https://github.com/Kjudeh/n8n-production-stack) | Web service |
+| n8n-worker | [Kjudeh/n8n-production-stack](https://github.com/Kjudeh/n8n-production-stack) (root: /services/n8n) | Worker |
+| n8n | [Kjudeh/n8n-production-stack](https://github.com/Kjudeh/n8n-production-stack) (root: /services/n8n) | Web service |
 | pg-backup | [Kjudeh/railway-postgres-backups](https://github.com/Kjudeh/railway-postgres-backups) (root: services/backup) | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
 
@@ -53,17 +53,51 @@ Five services, wired over Railway's private network:
 
 | Variable | Service | Default |
 | --------- | ------- | ------- |
+| `REDISPORT` | Redis | 6379 |
+| `REDISUSER` | Redis | default |
 | `REDISPASSWORD` | Redis | (secret) |
 | `REDIS_PASSWORD` | Redis | (secret) |
+| `PORT` | n8n-worker | 5678 |
+| `DB_TYPE` | n8n-worker | postgresdb |
+| `DEPLOY_TRIGGER` | n8n-worker | 1 |
+| `EXECUTIONS_MODE` | n8n-worker | queue |
+| `GENERIC_TIMEZONE` | n8n-worker | UTC |
+| `DB_POSTGRESDB_PORT` | n8n-worker | 5432 |
 | `DB_POSTGRESDB_USER` | n8n-worker | (secret) |
+| `EXECUTIONS_DATA_PRUNE` | n8n-worker | true |
+| `QUEUE_BULL_REDIS_PORT` | n8n-worker | 6379 |
 | `DB_POSTGRESDB_PASSWORD` | n8n-worker | (secret) |
+| `EXECUTIONS_DATA_MAX_AGE` | n8n-worker | 168 |
+| `N8N_DIAGNOSTICS_ENABLED` | n8n-worker | false |
 | `QUEUE_BULL_REDIS_PASSWORD` | n8n-worker | (secret) |
 | `QUEUE_BULL_REDIS_USERNAME` | n8n-worker | (secret) |
+| `QUEUE_HEALTH_CHECK_ACTIVE` | n8n-worker | true |
+| `EXECUTIONS_DATA_PRUNE_MAX_COUNT` | n8n-worker | 10000 |
+| `PORT` | n8n | 5678 |
+| `DB_TYPE` | n8n | postgresdb |
+| `N8N_PORT` | n8n | 5678 |
+| `N8N_PROTOCOL` | n8n | https |
+| `DEPLOY_TRIGGER` | n8n | 1 |
+| `N8N_PROXY_HOPS` | n8n | 1 |
+| `EXECUTIONS_MODE` | n8n | queue |
+| `GENERIC_TIMEZONE` | n8n | UTC |
+| `DB_POSTGRESDB_PORT` | n8n | 5432 |
 | `DB_POSTGRESDB_USER` | n8n | (secret) |
+| `EXECUTIONS_DATA_PRUNE` | n8n | true |
+| `QUEUE_BULL_REDIS_PORT` | n8n | 6379 |
 | `DB_POSTGRESDB_PASSWORD` | n8n | (secret) |
+| `EXECUTIONS_DATA_MAX_AGE` | n8n | 168 |
+| `N8N_DIAGNOSTICS_ENABLED` | n8n | false |
 | `QUEUE_BULL_REDIS_PASSWORD` | n8n | (secret) |
 | `QUEUE_BULL_REDIS_USERNAME` | n8n | (secret) |
+| `EXECUTIONS_DATA_PRUNE_MAX_COUNT` | n8n | 10000 |
+| `OFFLOAD_MANUAL_EXECUTIONS_TO_WORKERS` | n8n | true |
+| `BACKUP_PREFIX` | pg-backup | n8n-postgres |
+| `DEPLOY_TRIGGER` | pg-backup | 1 |
+| `BACKUP_INTERVAL` | pg-backup | 21600 |
 | `S3_SECRET_ACCESS_KEY` | pg-backup | (secret) |
+| `BACKUP_RETENTION_DAYS` | pg-backup | 7 |
+| `POSTGRES_DB` | Postgres | railway |
 | `POSTGRES_USER` | Postgres | (secret) |
 | `POSTGRES_PASSWORD` | Postgres | (secret) |
 

@@ -8,7 +8,7 @@ OpenAI-compatible LLM gateway: virtual keys, budgets, usage tracking
 
 [Otari](https://github.com/mozilla-ai/otari) is an open-source, OpenAI-compatible LLM gateway you run yourself. Put one endpoint in front of providers like OpenAI, Anthropic, Mistral, and Gemini, then issue virtual API keys, enforce budgets, and track usage and cost in one place. It speaks the OpenAI Chat Completions and Responses APIs plus the Anthropic Messages API.
 
-This template runs two services and a storage bucket: the Otari gateway from its published Docker image (`mzdotai/otari:0.15.0`, pinned to a release), a managed PostgreSQL database, and a Railway bucket for uploaded files. Otari keeps no state on its own disk. Postgres holds your keys, users, budgets, and usage; the bucket holds the files you upload through the Files API, so they survive a redeploy and every replica reads the same files.
+This template runs two services and a storage bucket: the Otari gateway from its published Docker image (`mzdotai/otari:0.27.0`, pinned to a release), a managed PostgreSQL database, and a Railway bucket for uploaded files. Otari keeps no state on its own disk. Postgres holds your keys, users, budgets, and usage; the bucket holds the files you upload through the Files API, so they survive a redeploy and every replica reads the same files.
 
 On first boot Otari runs its database migrations and prints a first-use API key in the deploy logs, so the gateway is usable right away. The template generates the master key, the key that encrypts stored provider credentials, and the provider account pepper for you. The gateway listens on port `8000`, with a healthcheck at `/api/v1/health/readiness`, so a deploy that cannot reach its database does not go live.
 
@@ -58,7 +58,7 @@ The image is pinned to a release, so a redeploy never migrates your schema by su
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| otari | `mzdotai/otari:0.15.0` | Web service |
+| otari | `mzdotai/otari:0.27.0` | Web service |
 
 ## Environment variables
 
@@ -76,7 +76,7 @@ The image is pinned to a release, so a redeploy never migrates your schema by su
 | `OTARI_DATABASE_URL` | otari | - | Postgres connection string. Wired to the managed Postgres service; leave as-is. Otari normalizes postgresql:// to the async driver automatically. |
 | `OTARI_FILES_BACKEND` | otari | s3 | Keep uploaded files in the otari-files bucket rather than on the container's disk, which Railway discards on every redeploy and does not share between replicas. Leave as-is. |
 | `AWS_SECRET_ACCESS_KEY` | otari | (secret) | Secret key of the otari-files bucket, under the name boto3 reads. Wired to the bucket; leave as-is. |
-| `OTARI_DEFAULT_PRICING` | otari | true | Fall back to community-maintained default pricing (the bundled genai-prices dataset) for models you have not priced explicitly. The image default is false; pre-set to true here so a fresh deploy meters common models out of the box. Prices you set in the dashboard or via /api/v1/pricing always override the fallback. |
+| `OTARI_DEFAULT_PRICING` | otari | true | Fall back to community-maintained default pricing (the models.dev catalog) for models you have not priced explicitly. The image default is false; pre-set to true here so a fresh deploy meters common models out of the box. Prices you set in the dashboard or via /api/v1/pricing always override the fallback. |
 | `OTARI_FILES_S3_BUCKET` | otari | - | S3 name of the otari-files bucket. Wired to the bucket; leave as-is. |
 | `OTARI_FILES_S3_REGION` | otari | - | S3 region of the otari-files bucket (Railway reports auto). Wired to the bucket; leave as-is. |
 | `OTARI_PUBLIC_BASE_URL` | otari | - | This deployment's public URL, with no trailing slash. Builds OAuth redirect URIs, the passkey relying-party ID and the links in outgoing email. Pre-wired to the service's Railway domain; change it if you attach a custom domain. |

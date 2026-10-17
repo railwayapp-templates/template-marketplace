@@ -40,7 +40,7 @@ The template deploys one service with start command `hermes gateway run`, port 8
 
 ## Configuration
 
-- **Start command:** `hermes gateway run`
+- **Start command:** `sh -c "mkdir -p /opt/data && chown -R 10000:10000 /opt/data && exec /opt/hermes/docker/entrypoint-dispatch.sh hermes gateway run"`
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/opt/data`

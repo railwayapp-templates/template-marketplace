@@ -45,6 +45,7 @@ Your app will then run, but you'll need to create a mirror of the repo in your o
 | `AWS_S3_REGION` | Server | your-region | - |
 | `MAILGUN_DOMAIN` | Server | dummy-value | - |
 | `OPENAI_API_KEY` | Server | (secret) | - |
+| `PADDLE_API_KEY` | Server | (secret) | - |
 | `STRIPE_API_KEY` | Server | (secret) | - |
 | `MAILGUN_API_KEY` | Server | (secret) | - |
 | `PLAUSIBLE_API_KEY` | Server | (secret) | - |
@@ -52,11 +53,13 @@ Your app will then run, but you'll need to create a mirror of the repo in your o
 | `PLAUSIBLE_BASE_URL` | Server | https://plausible.io/api | - |
 | `POLAR_SANDBOX_MODE` | Server | true | For production, set this to false, make sure to generate production organization and products. |
 | `AWS_S3_FILES_BUCKET` | Server | your-bucket-name | - |
+| `PADDLE_SANDBOX_MODE` | Server | true | - |
 | `LEMONSQUEEZY_API_KEY` | Server | (secret) | - |
 | `POLAR_WEBHOOK_SECRET` | Server | (secret) | - |
 | `AWS_S3_IAM_ACCESS_KEY` | Server | ACK... | - |
 | `AWS_S3_IAM_SECRET_KEY` | Server | (secret) | - |
 | `LEMONSQUEEZY_STORE_ID` | Server | dummy-value | - |
+| `PADDLE_WEBHOOK_SECRET` | Server | (secret) | - |
 | `STRIPE_WEBHOOK_SECRET` | Server | (secret) | - |
 | `LEMONSQUEEZY_WEBHOOK_SECRET` | Server | (secret) | - |
 | `PAYMENTS_CREDITS_10_PLAN_ID` | Server | 012345 | - |
@@ -73,6 +76,7 @@ Your app will then run, but you'll need to create a mirror of the repo in your o
 - **Volume:** `/var/lib/postgresql/data`
 - **Healthcheck:** `/`
 - **Networking:** Public domain with automatic HTTPS
+- **Healthcheck:** `/up`
 
 **Category:** Starters · **Verified:** Yes · **Languages:** TypeScript, CSS, Astro, JavaScript
 

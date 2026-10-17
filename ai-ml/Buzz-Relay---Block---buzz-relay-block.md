@@ -46,12 +46,12 @@ Hosting Buzz Relay gives you control over your community's identity, membership,
 | `BUZZ_GIT_HOOK_HMAC_SECRET` | block/buzz:main | (secret) | Per-deployment Git hook signing secret |
 | `BUZZ_GIT_CONFORMANCE_PROBE` | block/buzz:main | true | Test Git object storage on startup |
 | `BUZZ_REQUIRE_RELAY_MEMBERSHIP` | block/buzz:main | true | Restrict access to relay members |
-| `REDISPORT` | Redis | 6379 | - |
-| `REDISUSER` | Redis | default | - |
-| `REDIS_URL` | Redis | - | Connection string for connecting to redis using the private network |
-| `REDISPASSWORD` | Redis | (secret) | - |
-| `REDIS_PASSWORD` | Redis | (secret) | - |
-| `REDIS_PUBLIC_URL` | Redis | - | Connection string for connecting to redis externally |
+| `REDISHOST` | Redis | - | Port Redis listens on inside the private network (Redis default) |
+| `REDISPORT` | Redis | 6379 | Redis ACL username; "default" is the built-in user |
+| `REDISUSER` | Redis | default | Private-network connection string, built from the user, password, host and port above. Use this from other Railway services (no egress cost, not exposed publicly) |
+| `REDIS_URL` | Redis | - | Same password as REDIS_PASSWORD under a different name, for clients that expect REDISPASSWORD |
+| `REDISPASSWORD` | Redis | (secret) | Password Railway generates once when the service is created: 32 random letters (a-z, A-Z) |
+| `REDIS_PASSWORD` | Redis | (secret) | Public connection string through Railway's TCP proxy, for connecting from outside Railway (local dev, external tools). Exposed to the internet and counts as egress |
 | `POSTGRES_DB` | Postgres | buzz | Default database created when image is started. |
 | `DATABASE_URL` | Postgres | - | URL to connect to Postgres database. |
 | `POSTGRES_USER` | Postgres | (secret) | User to connect to Postgres DB |
