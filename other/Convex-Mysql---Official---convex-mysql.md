@@ -32,8 +32,8 @@ Links:
 | Service | Source | Type |
 |---------|--------|------|
 | MySQL | `mysql:9` | Database |
-| convex-backend | `ghcr.io/get-convex/convex-backend:latest` | Web service |
-| convex-dashboard | `ghcr.io/get-convex/convex-dashboard:latest` | Web service |
+| convex-backend | `ghcr.io/convex/convex-backend:latest` | Web service |
+| convex-dashboard | `ghcr.io/convex/convex-dashboard:latest` | Web service |
 
 ## Environment variables
 

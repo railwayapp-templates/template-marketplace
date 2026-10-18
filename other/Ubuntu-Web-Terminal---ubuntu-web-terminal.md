@@ -12,7 +12,7 @@ A real Ubuntu 24.04 shell in any browser tab — laptop, phone or locked-down wo
 
 **Get started**
 
-1. **Deploy.** Nothing to fill in. Idle, it uses about 20 MB of RAM and runs on every plan; Free and Trial volumes hold only 0.5 GB, so move to Hobby once you install toolchains or clone real projects.
+1. **Deploy.** Nothing to fill in. Idle, it uses about 20 MB of RAM and runs on every plan; Free and Trial give it 0.5 GB of volume and 1 GB of container disk, so move to Hobby once you install toolchains or clone real projects.
 2. **Sign in.** Open the service URL. Username `dev`; the password is `PASSWORD` in the service's **Variables** tab.
 3. **Start working.** You land in `tmux` with Node.js 24, Python 3, git, `gh` and Claude Code installed. Run `claude`, clone a repo, or start a long job and close the tab — reopening the URL reattaches.
 
@@ -22,7 +22,7 @@ The service runs two small processes: `ttyd` (a terminal over WebSocket) on loop
 
 | Service | Source | Type |
 |---------|--------|------|
-| ubuntu | `ghcr.io/will-bogusz/railway-ubuntu-ssh:24.04-20261003@sha256:f7231f540d36c0148d154bb43a4c46e924eb4a49a01b97dbffb94cce81e69b7c` | Web service |
+| ubuntu | `ghcr.io/will-bogusz/railway-ubuntu-ssh:24.04-20261019@sha256:b872e32d90bc122c13b2d2e4a0875f2b05b8fd2b608c28c5fcf2cc2bdfc3aec8` | Web service |
 
 ## Environment variables
 

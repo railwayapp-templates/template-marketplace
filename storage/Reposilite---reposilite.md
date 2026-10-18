@@ -35,6 +35,6 @@ On Railway, you can deploy the official Docker image, mount a volume for `/data`
 - **Start command:** `/bin/sh -c "java -jar reposilite.jar --token ${TEMP_NAME}:${TEMP_SECRET} --port ${PORT}"`
 - **Networking:** Public domain with automatic HTTPS
 
-**Category:** Other
+**Category:** Storage
 
 [View on Railway →](https://railway.com/deploy/reposilite)

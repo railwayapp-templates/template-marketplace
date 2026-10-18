@@ -1,6 +1,6 @@
 # Deploy Langflow on Railway
 
-Langflow: visual builder for AI agents and RAG flows. Requires Hobby plan
+Langflow: visual builder for AI agents and RAG flows. Needs Trial or Hobby
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kit-langflow-build-0919)
 
@@ -10,7 +10,7 @@ Langflow: visual builder for AI agents and RAG flows. Requires Hobby plan
 
 Build AI agents and RAG pipelines on a visual canvas, test them in the built-in chat, and call them as an API or MCP server — with flows, users and keys stored in Postgres.
 
-**Get started** — **requires the Hobby plan.** Langflow idles at about 1.25 GB, so on Free (0.5 GB) and Trial (1 GB) it stops at startup with a one-line plan message.
+**Get started** — **runs on Trial (1 GB) and Hobby, not on Free (0.5 GB).** On Free it stops at startup with a one-line plan message.
 
 1. **Deploy.** Nothing to fill in; Postgres and every secret are generated.
 2. **Sign in.** Open the Langflow service URL. Username `admin`; the password is `LANGFLOW_SUPERUSER_PASSWORD` in the service's **Variables** tab.
@@ -48,7 +48,7 @@ Langflow is the open-source visual builder for AI agents and RAG pipelines: drag
 
 ## Configuration
 
-- **Start command:** `/bin/sh -c 'm=$(cat /sys/fs/cgroup/memory.max 2>/dev/null || echo max); if [ "$m" != max ] && [ "$m" -lt 1500000000 ]; then echo "Langflow needs about 1.5 GB of RAM to start, but this service is limited to $((m/1048576)) MB. Railway Free (0.5 GB) and Trial (1 GB) plans cannot run it. Upgrade to Hobby, or raise the memory limit in the service Settings, then redeploy."; sleep 5; exit 1; fi; exec langflow run'`
+- **Start command:** `/bin/sh -c 'm=$(cat /sys/fs/cgroup/memory.max 2>/dev/null || echo max); if [ "$m" != max ] && [ "$m" -lt 900000000 ]; then echo "Langflow needs about 1 GB of RAM, but this service is limited to $((m/1048576)) MB. Railway Free (0.5 GB) cannot run it; Trial (1 GB) and Hobby can. Upgrade your plan, or raise the memory limit in the service Settings, then redeploy."; sleep 5; exit 1; fi; exec python -c "import uvicorn; from langflow.__main__ import build_direct_uvicorn_kwargs; from langflow.main import setup_app; from lfx.services.deps import get_settings_service; s = get_settings_service().settings; uvicorn.run(setup_app(backend_only=bool(s.backend_only)), **build_direct_uvicorn_kwargs(host=s.host, port=s.port, log_level=s.log_level, workers=1, loop=\"asyncio\", ssl_cert_file_path=None, ssl_key_file_path=None, trust_proxy=s.rate_limit_trust_proxy))"'`
 - **Healthcheck:** `/health_check`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/langflow`

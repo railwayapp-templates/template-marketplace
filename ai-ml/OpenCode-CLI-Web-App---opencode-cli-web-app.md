@@ -1,6 +1,6 @@
 # Deploy OpenCode CLI + Web App on Railway
 
-OpenCode web UI on a public URL + SSH TUI, all in one Railway box
+OpenCode web UI + SSH TUI in one box. Free models, no API key needed.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opencode-cli-web-app)
 
@@ -26,7 +26,9 @@ Deploys come from a **prebuilt, version-pinned image**, so there is no build to 
 every deploy runs the exact OpenCode build that was tested — new deploys pick up the latest patched
 image automatically, while a box you already have keeps running undisturbed until you redeploy it.
 The web UI password is **generated for your deploy**; you never invent one or inherit a shared
-default. Add a provider key on the deploy form, or run `opencode auth login` after connecting.
+default. You can **start coding free with no API key**: OpenCode's free models (such as DeepSeek)
+work as soon as the box boots. Add a provider key on the deploy form, or run `opencode auth login`
+after connecting, when you want Claude, GPT or your own account.
 
 ## What gets deployed
 

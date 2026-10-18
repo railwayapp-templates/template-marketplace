@@ -27,8 +27,8 @@ The backend API also supports HTTP actions under `/http`. For an application rou
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `postgres:17` | Database |
-| convex-backend | `ghcr.io/get-convex/convex-backend:latest` | Web service |
-| convex-dashboard | `ghcr.io/get-convex/convex-dashboard:latest` | Web service |
+| convex-backend | `ghcr.io/convex/convex-backend:latest` | Web service |
+| convex-dashboard | `ghcr.io/convex/convex-dashboard:latest` | Web service |
 
 ## Environment variables
 

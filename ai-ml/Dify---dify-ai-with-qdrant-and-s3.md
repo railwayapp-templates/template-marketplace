@@ -1,77 +1,30 @@
 # Deploy Dify on Railway
 
-Dify workflows & RAG Pro Stack: Dify plugins, Qdrant, S3. Dify AI (DifyAI).
+Dify workflows & RAG Pro Stack: Dify plugins, Qdrant, S3. Difi (DifyAI).
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dify-ai-with-qdrant-and-s3)
 
 ## About
 
-Dify builds AI chatbots, visual workflows, knowledge bases and RAG. This Pro Stack deploys Dify AI 1.17.1 with workers, signed plugins, a code sandbox, Qdrant and persistent S3 storage on one HTTPS domain.
+[Deploy Dify on Railway](https://railway.com/deploy/dify-ai-with-qdrant-and-s3) to build AI chatbots, visual workflows and document knowledge bases. This **Dify AI Pro Stack** connects **11 services**, native PostgreSQL and Redis, Qdrant vector search, signed plugins, a code sandbox and a private Railway S3-compatible Bucket behind **one public HTTPS domain**.
 
-This stack runs the official Dify API, Web, Celery Worker and Beat images with a Plugin daemon, PostgreSQL, Redis, Qdrant, Dify Sandbox, an SSRF proxy and a small Nginx gateway. Railway creates the private networking, four persistent volumes and native S3 Bucket automatically. You do not need custom domains, a GitHub repository, SMTP or a model API key to deploy and create your first workflow.
+The application runs **Dify 1.17.1**. First-owner setup needs no model key, SMTP or custom domain. Configure model providers inside Dify when you need chat, embeddings or other model-dependent features. If you searched for **Difi**, the open-source AI app builder's name is **Dify**.
 
-The template pins Dify API/Web/Worker/Beat to 1.17.1, Plugin daemon to 0.6.10-local, Sandbox to 0.2.15, Qdrant to 1.19.2, Railway SSL PostgreSQL to 17.11 and Redis to the native Railway 8.2 image. PostgreSQL, Nginx and Squid images are pinned to immutable digests. Only the Dify gateway has a public HTTP domain; internal databases and runtime services stay private.
+| Resource | Version or role |
+| --- | --- |
+| API, Web, Worker and Beat | Official Dify 1.17.1 application images |
+| Plugin | Official Plugin daemon 0.6.10-local, signed packages |
+| Sandbox | Dify Sandbox 0.2.15 for Code nodes |
+| Qdrant | 1.19.2 vector storage |
+| Postgres | Railway SSL PostgreSQL 17.11 |
+| Redis | Native Railway Redis 8.2 with authentication/AOF |
+| Dify gateway | Nginx, one public HTTPS origin |
+| SSRF-Proxy | Squid for restricted outbound HTTP requests |
+| Railway Bucket | Private shared S3-compatible storage |
 
-### First login
+PostgreSQL, Nginx and Squid images are pinned by immutable digest. PostgreSQL and Redis reuse native Railway database configurations with standard `PG*`, `REDIS*` and connection-URL variables. The Plugin daemon uses a separate `dify_plugin` database, and Redis database indexes separate application uses.
 
-1. Click **Deploy**. Wait for all 11 services, including API, Worker and Plugin, to finish starting. On a fresh database, migrations and image pulls can take several minutes.
-2. Open the public domain of the **Dify** service.
-3. Dify asks for an initialization key. Open **API → Variables**, copy the generated `INIT_PASSWORD` value and paste it into the initialization page. This guards the first owner setup. It is different from the account password you create next.
-4. Enter your email, name and a new account password to create the first owner and workspace. Log in with that account. The official signed OpenAI provider is installed automatically after workspace creation.
-5. To use LLMs or high-quality vector indexing, add a supported provider and its credentials in **Settings → Model Provider**. Provider API charges belong to the provider account and are separate from Railway hosting. A simple Python code workflow and economy keyword Knowledge indexing work without a paid model key.
-
-Generated values and reference variables are supplied automatically, so there are no required blank values before deployment. `INIT_PASSWORD` is the first-run setup gate, not an automatic admin account or a password-reset mechanism. It does not update existing users when changed after setup. Keep `SECRET_KEY` and the data stores stable across redeploys.
-
-### One public domain
-
-Nginx routes the dashboard to Web, `/console/api`, `/api`, `/v1`, `/files`, `/mcp` and trigger callbacks to API, and `/e/` to Plugin. It preserves Railway HTTPS forwarding headers, allows uploads up to 100 MB at the proxy, and streams chat/workflow responses without proxy buffering. Dify's own smaller upload limits still apply.
-
-The URL variables follow the Dify service's generated Railway domain. If you add a custom domain later, choose it as the public domain and set the public URL/CORS variables in API and Web to that same HTTPS origin. Worker and Beat inherit API settings. The default setup uses host-only secure authentication cookies and does not require `COOKIE_DOMAIN` or a second custom domain.
-
-### Durable data
-
-PostgreSQL and Redis reuse Railway native database service configurations, with standard connection URLs and `PG*` / `REDIS*` variables for the Data panel and other services. Dify keeps its separate plugin database and Redis database indexes. PostgreSQL accepts TLS connections; both databases stay private by default.
-
-- **Postgres volume:** accounts, workflows, knowledge metadata, encrypted provider credentials, and the separate `dify_plugin` database created by Plugin.
-- **Redis volume:** persistent Celery broker data and application state, with authentication and AOF enabled.
-- **Qdrant volume:** knowledge vectors and collections.
-- **Plugin volume:** installed signed packages, assets and Python execution environments.
-- **Native Railway Bucket:** uploaded documents, files and workspace RSA private keys. API and workers share this object store directly, so no shared local filesystem is required.
-
-Back up PostgreSQL, the Bucket, Plugin storage, Qdrant and the stable application secrets together. PostgreSQL alone cannot restore encrypted provider credentials: default workspace private keys are stored under `privkeys/WORKSPACE_ID/private.pem` in the Bucket. Keep the Bucket private. Do not delete persistent volumes or regenerate secrets as part of an ordinary redeploy.
-
-### What has been verified
-
-The acceptance checks use a fresh deployment of this exact configuration:
-
-- First-run initialization, owner creation, login and authenticated console access on one HTTPS domain.
-- A real Python Code node computes 42 from input 21 inside Dify Sandbox.
-- The same published workflow executes through `/v1/workflows/run` with an app API key; requests without an API key are rejected.
-- Text upload to the native Bucket, subsequent file read, completed Celery indexing and economy keyword retrieval.
-- Installation with signature verification enabled and execution of the official JSON Process plugin inside a workflow.
-- High-quality indexing and vector retrieval through Qdrant and the signed OpenAI-compatible provider, using a temporary private deterministic embedding fixture. This verifies the vector pipeline and credential handling; it does not measure an AI model's semantic quality. The fixture is not part of this template.
-- Public HTTP workflow requests succeed; private destination requests are blocked by Dify's SSRF guard.
-- Persistence after restart: the same owner, workflows, uploaded document, indexed Knowledge, vectors, encrypted provider credentials and signed plugin continue to work.
-
-### Included scope
-
-Classic visual workflows, Chatflow, chatbot apps, Knowledge/RAG, standard plugin tools, the existing agent nodes and Python/JavaScript Code nodes are included. Model-dependent features need the appropriate provider configuration.
-
-The new experimental **Agent V2 local shell runtime** and realtime collaborative workflow editing are disabled. They require additional backend/sandbox or websocket services beyond this template. Railway private networking does not reproduce Docker Compose's isolated per-service networks, so this template does not provide mutually hostile-tenant sandbox isolation. Use it for a workspace of trusted users and keep administrative access private. Standard code and plugin runtimes also execute within the same Railway project network.
-
-Email delivery is optional for initial owner creation and email/password login. Configure SMTP or a supported mail provider for invitations, password-reset emails and verified email changes. The Dify self-hosted license and upstream branding requirements still apply.
-
-### Resource use
-
-This is a complete multi-service stack. A brief acceptance run measured about **3.9 GB of combined memory** across the 11 included services after startup, with very low average CPU use. Using Railway's published resource rates, that snapshot is approximately **$40/month of compute if maintained continuously**, excluding persistent storage, Bucket usage, egress and model-provider charges. Any resource usage included in your Railway plan applies to the bill. This is an illustrative snapshot, not a guaranteed bill; document size, concurrent tasks, installed plugins and model traffic can change consumption.
-
-Worker concurrency defaults to two and API to one process. Measure sustained memory and task latency before increasing concurrency. Disable unused services only if you understand which capabilities they supply; Beat supports scheduled workflows and periodic maintenance, while Plugin supplies model providers and tools.
-
-### Upgrade and troubleshooting
-
-Upgrade API, Web, Worker and Beat together using the same Dify release. Read that release's compatibility notes for Plugin and Sandbox images and back up persistent stores first. API runs database migrations; Worker and Beat do not run competing migrations. Shared PostgreSQL timeouts and TCP keepalives allow recovery when containers and private IPs change after a restart. The initial startup queue can wait for dependencies and fresh migrations to complete. Web uses `/signin` as its stable public readiness page, while the gateway probes `/health` on API. Using `/` for Web readiness would break redeploys after owner setup because the root page then redirects to sign-in.
-
-If the dashboard loads but operations fail, inspect API and Worker logs first, then Plugin, Qdrant and the code Sandbox. A healthy dashboard alone does not establish that a Knowledge document finished indexing. Keep all private database/API keys generated by the template and do not expose database or runtime services through public domains.
+Only **Dify** receives a public HTTP domain. Databases and execution services use private networking. Nginx routes the dashboard to Web; `/console/api`, `/api`, `/v1`, `/files`, `/mcp` and trigger callbacks to API; and `/e/` to Plugin. Responses can stream without proxy buffering. The gateway permits uploads up to 100 MB; Dify's own smaller application limits still apply.
 
 ## What gets deployed
 

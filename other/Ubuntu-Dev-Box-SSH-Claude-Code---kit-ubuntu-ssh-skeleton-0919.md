@@ -12,7 +12,7 @@ Your own always-on Ubuntu 24.04 box with Claude Code: SSH in from any client or 
 
 **Get started**
 
-1. **Deploy.** Nothing to fill in; the SSH port is already exposed through a TCP proxy. Idle, it uses about 23 MB of RAM. Free and Trial volumes hold only 0.5 GB, so use Hobby for real projects.
+1. **Deploy.** Nothing to fill in; the SSH port is already exposed through a TCP proxy. Idle, it uses about 23 MB of RAM. Free and Trial give it 0.5 GB of volume and 1 GB of container disk, so use Hobby for real projects.
 2. **Connect.** The deploy log prints the exact `ssh dev@… -p …` line; the password is `SSH_PASSWORD` in the service's **Variables** tab. Or open the service URL for a browser terminal (user `dev`, same password).
 3. **Run `claude`.** Sign in once with your Claude subscription, or set `ANTHROPIC_API_KEY`; the login is stored on the volume.
 
@@ -22,7 +22,7 @@ A persistent Ubuntu 24.04 LTS dev box you reach over **SSH** (from Termius, Blin
 
 | Service | Source | Type |
 |---------|--------|------|
-| Ubuntu | `ghcr.io/will-bogusz/railway-ubuntu-ssh:24.04-20261003@sha256:f7231f540d36c0148d154bb43a4c46e924eb4a49a01b97dbffb94cce81e69b7c` | TCP service |
+| Ubuntu | `ghcr.io/will-bogusz/railway-ubuntu-ssh:24.04-20261019@sha256:b872e32d90bc122c13b2d2e4a0875f2b05b8fd2b608c28c5fcf2cc2bdfc3aec8` | TCP service |
 
 ## Environment variables
 

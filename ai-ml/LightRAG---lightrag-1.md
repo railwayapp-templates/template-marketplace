@@ -6,28 +6,35 @@ LightRAG Pro Stack: Light RAG, PostgreSQL, pgvector, GraphRAG and auth.
 
 ## About
 
-LightRAG (Light RAG) combines a knowledge graph with vector search so you can ask questions about your own documents. This **LightRAG Pro Stack** includes the Web UI, authenticated API, PostgreSQL and pgvector, with persistent storage already connected.
+Deploy [LightRAG on Railway](https://railway.com/deploy/lightrag-1) to build a document knowledge base combining a knowledge graph with vector search. This **LightRAG Pro Stack** connects the native Web UI and authenticated API to **PostgreSQL 18 with pgvector**, with two persistent volumes and generated administrator credentials. **No model API key is required to deploy:** enter it in Railway or in the protected application setup screen afterward.
 
-This template runs **LightRAG v1.5.7** and **Railway PostgreSQL 18 with pgvector** using the official LightRAG image pinned by digest and Railway’s native PostgreSQL SSL image. PostgreSQL stores the documents, processing status, embeddings, entities and relationships. Native `PGTableGraphStorage` keeps the knowledge graph in PostgreSQL as well.
+LightRAG, also written **Light RAG**, supports document Q&A and relationship exploration. It runs **v1.5.7** with a setup extension on the official container pinned by digest. Inference uses your configured provider.
 
-There are two services and two persistent volumes. The PostgreSQL service includes Railway’s standard `PGHOST`, `PGPORT`, `PGUSER`, `PGPASSWORD`, `PGDATABASE` and `DATABASE_URL` variables for the Data and Connect panels. The database is reachable over Railway's private network; only LightRAG receives a public HTTPS domain. An administrator password, API key and token signing secret are generated separately for every deployment.
+| Service | Storage | Purpose |
+| --- | --- | --- |
+| LightRAG v1.5.7 + setup extension | `/app/data` | Web UI, APIs, uploaded/working files, prompts, logs, encrypted provider settings |
+| Native Railway PostgreSQL 18 | `/var/lib/postgresql/data` | All four storage backends and pgvector; `PGDATA` is the `pgdata` subdirectory |
 
-### Get started
+Only LightRAG has a public HTTPS domain. PostgreSQL uses private networking, the native SSL image and standard `PGHOST`, `PGPORT`, `PGUSER`, `PGPASSWORD`, `PGDATABASE` and `DATABASE_URL` variables.
 
-1. Enter your **OpenAI API key** in `LLM_BINDING_API_KEY` and deploy. This is the only required input.
-2. Wait for both services to start, then open the LightRAG public URL.
-3. Sign in with username **admin** and the generated **ADMIN_PASSWORD** from the LightRAG service variables.
-4. Upload a text document or a PDF containing selectable text. Wait until its status is **Processed**.
-5. Open Retrieval and ask a question about the document. You can also explore its entities and relationships in the graph view.
+| Variable | Purpose |
+| --- | --- |
+| `LLM_BINDING_API_KEY` | Optional chat key; leave empty to configure chat in `/setup` |
+| `LLM_MODEL`, `LLM_BINDING_HOST` | Chat model and API base |
+| `EMBEDDING_BINDING_API_KEY` | Optional embedding key; references the Railway chat key by default |
+| `EMBEDDING_MODEL`, `EMBEDDING_DIM`, `EMBEDDING_BINDING_HOST` | Embedding model, dimension and API base |
+| `ADMIN_USERNAME`, `ADMIN_PASSWORD` | Administrator login; default username `admin`, generated password |
+| `LIGHTRAG_API_KEY` | Generated application API credential |
+| `TOKEN_SECRET` | Generated signing/encryption secret; keep stable |
 
-You can change `ADMIN_USERNAME` and `ADMIN_PASSWORD` in Railway variables, then redeploy LightRAG. The API key is a separate credential; it is not your administrator password or your model provider key.
+Saving configuration gracefully restarts the worker. Update admin variables in Railway and redeploy to change login.
 
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:18` | Database |
-| LightRAG | `ghcr.io/hkuds/lightrag@sha256:5bdbd524931b011df246fe20888d110cef691e6804c12cde636a2b746d7de27e` | Web service |
+| LightRAG | [XavTo/LightRAG-Railway](https://github.com/XavTo/LightRAG-Railway) | Web service |
 
 ## Environment variables
 
@@ -66,13 +73,13 @@ You can change `ADMIN_USERNAME` and `ADMIN_PASSWORD` in Railway variables, then 
 | `WEBUI_DESCRIPTION` | LightRAG | Private GraphRAG workspace with PostgreSQL and pgvector | - |
 | `VLM_PROCESS_ENABLE` | LightRAG | false | - |
 | `LIGHTRAG_KV_STORAGE` | LightRAG | PGKVStorage | - |
-| `LLM_BINDING_API_KEY` | LightRAG | (secret) | Your OpenAI API key. Used for chat and embeddings by default. For another provider, also change the model and API host variables. |
+| `LLM_BINDING_API_KEY` | LightRAG | (secret) | Optional. Set here, or leave blank and configure chat and embeddings in /setup after deployment. Railway keys take priority. OpenAI and compatible gateways supported. |
 | `MAX_PARALLEL_INSERT` | LightRAG | 1 | - |
 | `EMBEDDING_BINDING_HOST` | LightRAG | https://api.openai.com/v1 | - |
 | `LIGHTRAG_GRAPH_STORAGE` | LightRAG | PGTableGraphStorage | - |
 | `LIGHTRAG_VECTOR_STORAGE` | LightRAG | PGVectorStorage | - |
 | `POSTGRES_MAX_CONNECTIONS` | LightRAG | 10 | - |
-| `EMBEDDING_BINDING_API_KEY` | LightRAG | (secret) | - |
+| `EMBEDDING_BINDING_API_KEY` | LightRAG | (secret) | Optional at deployment. Use a separate embedding key here, or configure it in /setup. Defaults to the Railway chat key when supplied. |
 | `LIGHTRAG_DOC_STATUS_STORAGE` | LightRAG | PGDocStatusStorage | - |
 | `POSTGRES_CONNECTION_RETRIES` | LightRAG | 20 | - |
 | `POSTGRES_CONNECTION_RETRY_BACKOFF` | LightRAG | 2 | - |
@@ -85,6 +92,6 @@ You can change `ADMIN_USERNAME` and `ADMIN_PASSWORD` in Railway variables, then 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/app/data`
 
-**Category:** AI/ML
+**Category:** AI/ML · **Languages:** Python, HTML, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/lightrag-1)

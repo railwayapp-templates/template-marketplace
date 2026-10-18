@@ -6,9 +6,9 @@ Appwrite 2.3 with the new Console, PostgreSQL, VectorsDB and S3 storage
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/appwrite-1?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=appwrite)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/appwrite-1?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=appwrite)
 
-[Appwrite](https://appwrite.io/) is an open-source backend-as-a-service: authentication (email, OAuth, magic links, teams), databases, file storage with on-the-fly image transforms, realtime subscriptions, and messaging, all behind one API with SDKs for web, mobile, and server. This template runs **Appwrite 2.3**, the current major version, with the new Console.
+[Appwrite](https://appwrite.io/) is an open-source backend-as-a-service: authentication (email, OAuth, magic links, teams), databases, file storage with on-the-fly image transforms, realtime subscriptions, and messaging, all behind one API with SDKs for web, mobile, and server. This template runs **Appwrite 2.5**, the current major version, with the new Console.
 
 Appwrite 2 runs on PostgreSQL by default, keeps usage metrics in ClickHouse, and ships a new Console with a built-in terminal and API explorer. This template follows the upstream default ("combined") layout: the API, the Console, realtime, one worker that serves every queue, and the scheduler, maintenance and interval tasks, plus PostgreSQL, ClickHouse and Redis. A small nginx gateway takes Traefik's place and routes one public domain: `/v1` to the API, `/v1/realtime` to realtime, everything else to the Console. Uploaded files go to a **Railway bucket over S3**, so nothing needs a shared volume. Open your gateway domain once the deploy finishes and create the admin account (the first signup owns the instance).
 
@@ -122,6 +122,6 @@ Appwrite 2 runs on PostgreSQL by default, keeps usage metrics in ClickHouse, and
 - **Start command:** `realtime`
 - **Volume:** `/var/lib/clickhouse`
 
-**Category:** Other · **Languages:** Dockerfile, Shell, JavaScript
+**Category:** Other · **Languages:** Dockerfile
 
 [View on Railway →](https://railway.com/deploy/appwrite-1)

@@ -52,7 +52,7 @@ only and an unrequested upgrade on redeploy is not a feature.
 | Service | Source | Type |
 |---------|--------|------|
 | postgres | `postgres:17.10-alpine` | Database |
-| zammad | `ghcr.io/bon5co/zammad-railway:7.1.2` | Web service |
+| zammad | `ghcr.io/bon5co/zammad-railway:7.2.2` | Web service |
 | redis | `redis:7.4-alpine` | Database |
 
 ## Environment variables
@@ -61,6 +61,7 @@ only and an unrequested upgrade on redeploy is not a feature.
 | --------- | ------- | ------- |
 | `POSTGRES_USER` | postgres | (secret) |
 | `POSTGRES_PASSWORD` | postgres | (secret) |
+| `POSTGRESQL_USER` | zammad | (secret) |
 | `ZAMMAD_ADMIN_PASSWORD` | zammad | (secret) |
 
 ## Configuration

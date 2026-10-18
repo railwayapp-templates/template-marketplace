@@ -25,7 +25,7 @@ The stack has four services: Temporal, Temporal-UI, Gateway and Postgres.
 | Temporal | [nomideusz/temporal-railway](https://github.com/nomideusz/temporal-railway) (root: /server) | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 | Gateway | [nomideusz/temporal-railway](https://github.com/nomideusz/temporal-railway) (root: /gateway) | Web service |
-| Temporal-UI | `temporalio/ui:2.55.0` | Worker |
+| Temporal-UI | `temporalio/ui:2.56.0` | Worker |
 
 ## Environment variables
 

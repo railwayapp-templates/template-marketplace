@@ -1,12 +1,12 @@
-# Deploy payload-cms-postgres on Railway
+# Deploy Payload CMS [Oct 26] on Railway
 
-Open-source headless CMS on Next.js. Deploy on Railway with Postgres.
+Payload 3.91 headless CMS on Next.js 16.4 with Postgres · Updated Oct 26
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/payload-cms-postgres)
 
 ## About
 
-Railway provides a modern, streamlined platform for deploying web applications and databases. This template bundles **Payload CMS** — the open-source, fullstack Next.js framework for headless content management — running on Next.js 16 with a managed Postgres database. One-click deploy, auto-migrations, zero vendor lock-in.
+Railway provides a modern, streamlined platform for deploying web applications and databases. This template bundles **Payload CMS 3.91** (October 2026) — the open-source, fullstack Next.js framework for headless content management — running on Next.js 16.4 with a managed Postgres database. One-click deploy, auto-migrations, zero vendor lock-in.
 
 ## What gets deployed
 
@@ -25,6 +25,8 @@ Railway provides a modern, streamlined platform for deploying web applications a
 
 ## Configuration
 
+- **Start command:** `HOSTNAME=0.0.0.0 node .next/standalone/server.js`
+- **Healthcheck:** `/api/health`
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/var/lib/postgresql/data`
 

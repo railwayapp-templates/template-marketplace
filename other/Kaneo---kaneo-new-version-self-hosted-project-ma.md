@@ -1,14 +1,20 @@
-# Deploy Kaneo new version - Self-Hosted Project Management + PostgreSQL on Railway
+# Deploy Kaneo on Railway
 
-Kaneo - PostgreSQL for private team projects. kaneo w/ 1 service - api & ui
+Kaneo project management on Railway with persistent PostgreSQL.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kaneo-new-version-self-hosted-project-ma)
 
 ## About
 
-Kaneo is a fast, open-source project management platform designed to keep teams focused on their work without unnecessary complexity. This template deploys the new all-in-one Kaneo container with a persistent PostgreSQL database, providing a private, self-hosted workspace for organizing projects, tasks, priorities, and team collaboration.
+Kaneo is an open-source, self-hosted project management app for organizing team projects and day-to-day work. This Railway template deploys Kaneo with a persistent PostgreSQL database in one project. The application combines its web interface and API in one service, so you can open a private Kaneo workspace without wiring separate web and API containers yourself.
 
-This Railway template deploys Kaneo using its new combined web and API image alongside a persistent PostgreSQL database. Railway automatically provides the public application domain, private service networking, database storage, and generated authentication secrets. Kaneo serves its interface on port `5173`, while API requests are routed internally through `/api`. PostgreSQL stores users, workspaces, projects, tasks, and other application data. No persistent volume is required for the Kaneo service itself. After deployment, create the first account and optionally disable public registration to keep the instance private.
+Use this template to self-host Kaneo for project planning, Kanban boards, tasks, and team collaboration. Kaneo also offers list, calendar, and Gantt views, plus task descriptions, comments, labels, subtasks, dependencies, custom fields, and time tracking. The exact features available depend on the Kaneo version deployed.
+
+The template contains two Railway services: the Kaneo application and Railway's PostgreSQL service. The Kaneo container serves the web app on port `5173` and routes API requests through `/api`. Railway supplies the public domain and private service networking. The PostgreSQL database uses a persistent volume mounted at `/var/lib/postgresql/data` and stores Kaneo accounts, workspaces, projects, tasks, and other database records.
+
+Kaneo does not need a separate API service or Redis for this single application service. The application container itself does not need a persistent volume for normal database-backed project data. Optional S3-compatible object storage is required for file uploads; this template does not configure a bucket, so core project and task features work without uploads.
+
+After deploying, open the generated Kaneo domain and create the first account. Keep `DISABLE_REGISTRATION=false` during initial setup. Once the workspace owner is registered, set it to `true` and redeploy the Kaneo service to prevent open account creation. Invite additional users through the workspace.
 
 ## What gets deployed
 

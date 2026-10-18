@@ -22,7 +22,7 @@ A complete Ubuntu 24.04 LTS desktop (XFCE) that runs in your browser tab — no 
 
 | Service | Source | Type |
 |---------|--------|------|
-| ubuntu | `ghcr.io/will-bogusz/railway-ubuntu-desktop:24.04-20261003@sha256:65b8a64c9d0b5939ab8954dd0bb7f2e72a55449256e2dfea39c271de04d85930` | Web service |
+| ubuntu | `ghcr.io/will-bogusz/railway-ubuntu-desktop:24.04-20261019@sha256:94ec39ceb5e18068896afb209b55613d17c46d5338f8dc6b0026e7264399317c` | Web service |
 
 ## Environment variables
 

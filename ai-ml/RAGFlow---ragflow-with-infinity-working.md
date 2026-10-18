@@ -6,21 +6,21 @@ RAGFlow (RAG Flow): document AI chat with Infinity, MySQL and MinIO.
 
 ## About
 
-RAGFlow with Infinity is a production-ready Retrieval-Augmented
-Generation (RAG) stack combining document ingestion, vector search, and
-AI-powered chat. It integrates Infinity as a vector database, MinIO for
-object storage, and MySQL/Redis for persistence and caching.
+[Deploy RAGFlow on Railway](https://railway.com/deploy/ragflow-with-infinity-working) to build a document knowledge base with ingestion, retrieval and AI chat. This template connects **RAGFlow v0.26.4** to **Infinity v0.7.0**, **MinIO**, **MySQL** and **Redis**. Uploaded files, metadata and search data have persistent storage, and application connections use Railway's private network.
 
-This template deploys a complete multi-service RAG architecture on
-Railway. RAGFlow handles ingestion, chunking, embedding, and querying.
-Infinity stores vectors for semantic search, MinIO stores files, MySQL
-handles metadata, and Redis manages caching and queues.
+RAGFlow, also searched as **RAG Flow**, helps teams turn documents into searchable knowledge and assistants with source references. This is a **CPU configuration with external model providers**. After deployment, create your account, configure chat and embedding models, then import documents and test retrieval.
 
-All services are preconfigured to work together using internal Railway
-networking. The setup is optimized for CPU deployments and includes
-automatic MinIO bucket creation, secure credentials, and ready-to-use
-environment variables. Once deployed, you can upload documents and
-instantly query them via chat.
+| Service | Published source | Role |
+| --- | --- | --- |
+| ragflow | `XavTo/Ragflow`, default RAGFlow v0.26.4 | Web UI, API, parsing and chat |
+| infinity | `infiniflow/infinity:v0.7.0` | Document/vector search engine |
+| minio | `minio/minio` | Uploaded objects and automatic bucket creation |
+| MySQL | `mysql:9.4` | Accounts, knowledge-base metadata and application state |
+| Redis | `redis:8.2.1` | Queues and caching with volume-backed snapshots |
+
+The repository includes version-specific Nginx configuration and strictly checked parser patches for path-backed parsing. An incompatible patch target fails the image build, helping expose upstream changes before deployment. MinIO's image reference is floating; inspect and test upstream image changes before routine redeployments.
+
+The application uses private references for `INFINITY_HOST`, `MINIO_HOST`, `MYSQL_HOST` and `REDIS_HOST`. MySQL and Redis expose Railway-style connection variables. Preserve their generated passwords; the application references those service values automatically.
 
 ## What gets deployed
 

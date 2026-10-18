@@ -6,11 +6,11 @@ Open-source LLM app platform — workflows, agents, RAG. 10-service stack
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dify-production?utm_medium=integration&utm_source=button&utm_campaign=dify)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dify-production?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=dify)
 
 [Dify](https://dify.ai/) is an open-source LLM app development platform: build AI workflows, agents, and RAG pipelines visually, connect any model provider (OpenAI, Anthropic, local models), publish them as chatbots or APIs, and observe everything — a self-hosted alternative to hosted agent builders.
 
-Dify 1.15 is a genuinely multi-service stack — API, celery workers, a Next.js console, an isolated code-execution sandbox behind an SSRF proxy, and a plugin daemon for marketplace plugins. This template decomposes it into 10 Railway services wired over private networking, replacing the stock nginx compose ingress with a small gateway that replicates its routing (`/console/api`, `/api`, `/v1`, `/files` → API; `/e/` → plugin daemon; everything else → web). PostgreSQL runs the pgvector image and serves triple duty — main database, vector store (`VECTOR_STORE=pgvector`, so no separate Weaviate), and the plugin daemon's database — while user files go to a **Railway bucket over S3**. Every service binds IPv6 explicitly, since Railway private networking is IPv6-only (the footgun that breaks most naive multi-service templates). First boot runs migrations in about a minute; then open your gateway domain and create the admin account (first signup owns the instance).
+Dify 1.17 is a genuinely multi-service stack — API, celery workers, a Next.js console, an isolated code-execution sandbox behind an SSRF proxy, and a plugin daemon for marketplace plugins. This template decomposes it into 10 Railway services wired over private networking, replacing the stock nginx compose ingress with a small gateway that replicates its routing (`/console/api`, `/api`, `/v1`, `/files` → API; `/e/` → plugin daemon; everything else → web). PostgreSQL runs the pgvector image and serves triple duty — main database, vector store (`VECTOR_STORE=pgvector`, so no separate Weaviate), and the plugin daemon's database — while user files go to a **Railway bucket over S3**. Every service binds IPv6 explicitly, since Railway private networking is IPv6-only (the footgun that breaks most naive multi-service templates). First boot runs migrations in about a minute; then open your gateway domain and create the admin account (first signup owns the instance).
 
 ## What gets deployed
 

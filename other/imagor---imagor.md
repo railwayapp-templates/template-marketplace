@@ -20,7 +20,7 @@ Because signing is on, a plain request returns `403`. The signature is an HMAC o
 
 | Service | Source | Type |
 |---------|--------|------|
-| imagor | `shumc/imagor:1.9.6` | Web service |
+| imagor | `shumc/imagor:1.9.12` | Web service |
 
 ## Environment variables
 

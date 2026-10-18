@@ -75,7 +75,7 @@ container's cgroup limit instead of a fixed `-Xmx512m`.
 | postgres | `postgres:17.10-trixie` | Database |
 | elasticsearch | `ghcr.io/bon5co/postiz-railway-elasticsearch:7.17.27` | Database |
 | redis | `redis:8.2.1` | Database |
-| postiz | `ghcr.io/bon5co/postiz-railway:2.23.0` | Web service |
+| postiz | `ghcr.io/bon5co/postiz-railway:2.25.1` | Web service |
 | temporaldb | `postgres:17.10-trixie` | Database |
 | temporal | `ghcr.io/bon5co/postiz-railway-temporal:1.28.1` | Worker |
 

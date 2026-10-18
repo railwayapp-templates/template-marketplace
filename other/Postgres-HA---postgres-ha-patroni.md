@@ -1,4 +1,4 @@
-# Deploy Postgres HA | Highly Available Cluster on Railway
+# Deploy Postgres HA on Railway
 
 Self-host PostgreSQL HA with 0 downtime, auto failover using Patroni & etcd
 

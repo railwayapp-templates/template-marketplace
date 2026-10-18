@@ -6,7 +6,7 @@ Invoices, quotes and payments with working PDFs, queue and nightly backups
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/invoice-ninja-5?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=invoice-ninja-5)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/invoice-ninja-5?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=invoice-ninja-5)
 
 [Invoice Ninja](https://invoiceninja.com/) is self-hosted invoicing and billing for freelancers and small businesses: invoices, quotes, recurring invoices and subscriptions, expenses, time tracking, and a client portal where clients view and pay invoices through Stripe, PayPal, GoCardless and more than a dozen other payment gateways. Its source is on GitHub under the Elastic License 2.0. This template runs the official Invoice Ninja 5 image with everything it needs working from the first boot: PDF generation, the queue worker, the scheduler, and nightly backups.
 
@@ -14,7 +14,7 @@ The stack is three pieces: Invoice Ninja (nginx, PHP-FPM, queue worker and sched
 
 - **No open setup page.** A fresh Invoice Ninja shows its setup screen to whoever opens the URL first. This template creates your admin account on the first boot, before the site answers, with your email and a generated password. The database has a generated password and no public proxy.
 - **PDFs, emails and recurring invoices work.** The official image renders PDFs with Chrome, which is included and set up here. The queue worker sends emails and builds PDFs in the background, and the scheduler runs recurring invoices, reminders and auto-billing every hour. Queued jobs are stored in MariaDB, so they survive restarts.
-- **Pinned and upgraded on purpose.** The template pins Invoice Ninja 5.13.43 instead of `latest`, so a new upstream release never lands in the middle of your month. Database migrations run on every boot, so updating means bumping the tag and redeploying.
+- **Pinned and upgraded on purpose.** The template pins Invoice Ninja 5.13.48 instead of `latest`, so a new upstream release never lands in the middle of your month. Database migrations run on every boot, so updating means bumping the tag and redeploying.
 - **Nightly backups.** Every night at 03:00 UTC the database, uploaded files and the encryption key go to the bundled bucket, one archive per weekday, so the last 7 days are always there. Restoring is one command.
 
 ## What gets deployed

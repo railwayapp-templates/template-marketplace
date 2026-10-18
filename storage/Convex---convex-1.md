@@ -21,8 +21,8 @@ The backend has a generated instance secret, a `/version` readiness check, and a
 
 | Service | Source | Type |
 |---------|--------|------|
-| convex-dashboard | `ghcr.io/get-convex/convex-dashboard@sha256:4ebaebfd300c203753e5016be459a2408d1655b81beeb2b793229a6878f1ac45` | Web service |
-| convex-backend | `ghcr.io/get-convex/convex-backend@sha256:b756b06641d15a55b5ec0692897ce5ad3715ddccfd02e1e213621e9e764255c8` | Web service |
+| convex-dashboard | `ghcr.io/convex/convex-dashboard:latest` | Web service |
+| convex-backend | `ghcr.io/convex/convex-backend:latest` | Web service |
 
 ## Environment variables
 

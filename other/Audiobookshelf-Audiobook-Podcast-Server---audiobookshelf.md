@@ -6,7 +6,7 @@ Self-hosted audiobook & podcast server with apps, progress sync, uploads.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/audiobookshelf?utm_medium=integration&utm_source=button&utm_campaign=audiobookshelf)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/audiobookshelf?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=audiobookshelf)
 
 [Audiobookshelf](https://www.audiobookshelf.org/) is a free and open source self-hosted audiobook and podcast server. It streams your audiobooks and podcasts to any device with progress sync across all of them, a modern web player, and official mobile apps for iOS and Android. Chapters, bookmarks, sleep timers, series tracking, multi-user support, and automatic metadata fetching are all built in.
 

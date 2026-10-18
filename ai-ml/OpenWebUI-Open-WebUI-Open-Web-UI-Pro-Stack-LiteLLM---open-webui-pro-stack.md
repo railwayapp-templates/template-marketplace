@@ -6,9 +6,20 @@ Openweb UI: private AI chat/RAG with LiteLLM, PostgreSQL and Redis.
 
 ## About
 
-Open WebUI Pro Stack is a production-ready, self-hosted AI workspace that gives you a private ChatGPT-like interface connected to any LLM provider. Powered by Open WebUI, LiteLLM, Postgres, and Redis — fully yours, zero vendor lock-in, one-click deploy.
+**Open WebUI Pro Stack combines a self-hosted AI chat interface with LiteLLM, PostgreSQL and Redis in one Railway template.** Get a shared AI workspace with centrally managed provider connections, persistent chat history and uploaded files.
 
-This template deploys a complete private AI workspace on Railway across four services: Open WebUI as the chat frontend, LiteLLM as the multi-provider proxy, Postgres for persistent storage, and Redis for WebSocket session management. All services are pre-wired through Railway's internal private network with auto-generated secrets — no manual networking required. After deploy, log into LiteLLM's admin UI to add your API keys (OpenAI, Anthropic, Groq, Gemini, or any OpenAI-compatible provider), then open Open WebUI and start chatting. The first account created automatically becomes admin. Supports multi-user teams, RAG web search, image generation, and real-time streaming out of the box.
+Open WebUI, also searched as OpenWebUI or Open Web UI, is the chat application. **Pro Stack describes the included infrastructure**, not a paid edition of Open WebUI. Bring your own provider credentials; hosting and model usage are billed separately.
+
+The template connects the applications and databases through Railway's private network, with generated authentication secrets and persistent volumes already defined.
+
+| Included service | What it adds to your workspace |
+|---|---|
+| **Open WebUI** | Browser chat, user accounts, chat history, file uploads and the application's knowledge features. A volume is mounted at `/app/backend/data`. |
+| **LiteLLM** | A separate model gateway and admin interface. Add supported provider models in one place and expose their aliases to Open WebUI through an OpenAI-compatible API. Model configuration is stored in PostgreSQL. |
+| **PostgreSQL** | Persistent relational storage for application records and LiteLLM configuration, using Railway's PostgreSQL service image and standard connection variables. Its data volume is mounted at `/var/lib/postgresql/data`. |
+| **Redis** | A connected Redis service, including Open WebUI's Redis WebSocket manager, with a persistent volume at `/data`. |
+
+The chat path is **browser → Open WebUI → LiteLLM → your model provider**. Databases use internal Railway addresses. Public applications use login authentication.
 
 ## What gets deployed
 

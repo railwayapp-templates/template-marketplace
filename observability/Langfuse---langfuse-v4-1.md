@@ -6,22 +6,20 @@ Langfuse LLM observability V4 Pro Stack. Langfuse ClickHouse/S3. Lang Fuse.
 
 ## About
 
-Langfuse (also searched as Lang Fuse) is an open-source platform for tracing, debugging, evaluating, and monitoring AI applications. This template deploys Langfuse **4.59.0** with its web application, background worker, PostgreSQL, ClickHouse, Redis, and a private Railway S3-compatible bucket.
+[Deploy Langfuse V4 on Railway](https://railway.com/deploy/langfuse-v4-1) to trace, debug and evaluate AI applications on infrastructure you control. This **Langfuse Pro Stack** runs **Langfuse 4.59.0** with a matching worker, native PostgreSQL, ClickHouse, Redis and a private Railway S3-compatible Bucket.
 
-The services are connected automatically. Your organization, project, administrator account, and API keys are created on startup. Deploy with no required configuration, then sign in as **admin@example.com** with the unique generated password. You can set your own email before the first startup.
+Langfuse, also searched as **Lang Fuse**, records model/agent observations, latency and supplied usage/cost metadata. Your **administrator, organization, project and API keys are created at startup**. No model key or custom domain is required.
 
-This template includes five services and one bucket:
+| Resource | Version / purpose |
+| --- | --- |
+| Langfuse | 4.59.0 dashboard, authentication, API and OTLP ingestion |
+| Langfuse Worker | 4.59.0 background processing |
+| Postgres | Native SSL PostgreSQL 17.11, metadata/configuration volume |
+| ClickHouse | 26.4.5.143, observation storage/analytics volume |
+| Redis | Native Railway 8.2, persistent queues with AOF/RDB and `noeviction` |
+| Railway Bucket | Private S3-compatible event, media and export storage |
 
-| Resource | Purpose | Included version |
-| --- | --- | --- |
-| Langfuse | Dashboard, authentication, public API and OTLP ingestion | 4.59.0 |
-| Langfuse Worker | Background ingestion and processing | 4.59.0 |
-| PostgreSQL | Railway SSL-enabled database for application metadata and configuration | 17.11 |
-| ClickHouse | Observation storage and analytical queries | 26.4.5.143 |
-| Redis | Native Railway Redis service, with `noeviction`, AOF and RDB persistence | 8.2 |
-| Railway bucket | Private S3-compatible event, media, and export storage | Managed by Railway |
-
-Only Langfuse has a public HTTP domain. Internal services use Railway private networking. The bucket uses its authenticated S3 endpoint; media and exports are accessible through temporary signed URLs.
+Only Langfuse has a public domain. Services connect privately; the Bucket uses authenticated S3 and signed media/export URLs. Web and worker share storage/secret references. Standard database variables support Railway tooling.
 
 ## What gets deployed
 
