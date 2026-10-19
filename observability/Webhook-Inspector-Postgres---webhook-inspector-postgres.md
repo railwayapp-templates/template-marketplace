@@ -1,10 +1,12 @@
 # Deploy Webhook Inspector + Postgres on Railway
 
-Self-hosted webhook.site: capture & replay webhooks. Postgres included
+Self-hosted webhook.site: capture, inspect & replay webhooks. Zero config
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/webhook-inspector-postgres)
 
 ## About
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/webhook-inspector-postgres?referralCode=qxxcuG)
 
 webhook-inspector is a self-hosted webhook tester, debugger, and replay tool — an open-source alternative to webhook.site and RequestBin. It generates unique capture URLs, records every incoming HTTP request (headers, body, query, source IP) in PostgreSQL, streams them to a live UI in real time, and lets you replay any request to a target of your choice.
 

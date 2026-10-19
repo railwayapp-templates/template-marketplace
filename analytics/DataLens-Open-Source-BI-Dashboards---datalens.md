@@ -22,12 +22,12 @@ The stack is six services: DataLens (the web app, the only public one), US (Unit
 
 | Service | Source | Type |
 |---------|--------|------|
-| DataAPI | [nomideusz/datalens-railway](https://github.com/nomideusz/datalens-railway) (root: /) | Worker |
-| DataLens | [nomideusz/datalens-railway](https://github.com/nomideusz/datalens-railway) (root: /) | Web service |
-| Postgres | [nomideusz/datalens-railway](https://github.com/nomideusz/datalens-railway) (root: /) | Database |
-| ControlAPI | [nomideusz/datalens-railway](https://github.com/nomideusz/datalens-railway) (root: /) | Worker |
-| US | [nomideusz/datalens-railway](https://github.com/nomideusz/datalens-railway) (root: /) | Worker |
-| Auth | [nomideusz/datalens-railway](https://github.com/nomideusz/datalens-railway) (root: /) | Worker |
+| DataAPI | [two-workspaces/datalens](https://github.com/two-workspaces/datalens) (root: /) | Worker |
+| DataLens | [two-workspaces/datalens](https://github.com/two-workspaces/datalens) (root: /) | Web service |
+| Postgres | [two-workspaces/datalens](https://github.com/two-workspaces/datalens) (root: /) | Database |
+| ControlAPI | [two-workspaces/datalens](https://github.com/two-workspaces/datalens) (root: /) | Worker |
+| US | [two-workspaces/datalens](https://github.com/two-workspaces/datalens) (root: /) | Worker |
+| Auth | [two-workspaces/datalens](https://github.com/two-workspaces/datalens) (root: /) | Worker |
 
 ## Environment variables
 

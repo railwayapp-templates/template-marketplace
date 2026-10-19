@@ -6,7 +6,7 @@ Team ChatGPT-style UI with a LiteLLM gateway for 100+ model providers
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/open-webui-litellm?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=open-webui-litellm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/open-webui-litellm?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=open-webui-litellm)
 
 [Open WebUI](https://openwebui.com/) is the self-hosted ChatGPT-style interface for teams: chats, shared prompts, document and knowledge-base search (RAG), web search, tools and per-user permissions. [LiteLLM](https://www.litellm.ai/) is an open-source AI gateway that puts OpenAI, Anthropic, Gemini, OpenRouter, Bedrock, Azure and 100+ other providers behind one OpenAI-compatible API, with virtual keys, budgets and spend tracking. This template wires them together: every model you add in LiteLLM shows up in Open WebUI for your whole team.
 

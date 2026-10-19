@@ -6,7 +6,7 @@ Ubuntu 24.04 Linux shell in the browser and over SSH. tmux, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/ubuntu-terminal?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=ubuntu-terminal)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/ubuntu-terminal?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=ubuntu-terminal)
 
 This template gives you an always-on Ubuntu 24.04 shell. Open your Railway domain for a terminal in the browser, or SSH in through Railway's TCP proxy. Both land in the same `tmux` session, so a job you start from your laptop is still running when you reconnect from your phone. Your home directory lives on a volume, so repos, GitHub auth and dotfiles survive every redeploy.
 
@@ -16,7 +16,7 @@ One service, one volume. The image ships `git`, `gh`, Python 3 + `uv`, `tmux`, `
 
 | Service | Source | Type |
 |---------|--------|------|
-| ubuntu-terminal | [nomideusz/terminal-railway](https://github.com/nomideusz/terminal-railway) | TCP service |
+| ubuntu-terminal | [two-workspaces/terminal](https://github.com/two-workspaces/terminal) | TCP service |
 
 ## Environment variables
 
@@ -37,6 +37,6 @@ One service, one volume. The image ships `git`, `gh`, Python 3 + `uv`, `tmux`, `
 - **TCP Proxies:** 22
 - **Volume:** `/root`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Dockerfile, Python
 
 [View on Railway →](https://railway.com/deploy/ubuntu-terminal)

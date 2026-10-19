@@ -31,10 +31,10 @@ Both are on the Airweave service's Variables tab. API keys created inside the Ai
 
 | Service | Source | Type |
 |---------|--------|------|
-| Airweave | [nomideusz/airweave-railway](https://github.com/nomideusz/airweave-railway) (root: /gateway) | Web service |
+| Airweave | [two-workspaces/airweave](https://github.com/two-workspaces/airweave) (root: /gateway) | Web service |
 | Svix | `svix/svix-server:v1.101.0` | Worker |
 | Temporal | `temporalio/auto-setup:1.29.7` | Worker |
-| Vespa | [nomideusz/airweave-railway](https://github.com/nomideusz/airweave-railway) (root: /vespa) | Database |
+| Vespa | [two-workspaces/airweave](https://github.com/two-workspaces/airweave) (root: /vespa) | Database |
 | Redis | `redis:8.10.2-alpine` | Database |
 | Worker | `ghcr.io/airweave-ai/airweave-backend:v0.9.73` | Database |
 | Backend | `ghcr.io/airweave-ai/airweave-backend:v0.9.73` | Worker |

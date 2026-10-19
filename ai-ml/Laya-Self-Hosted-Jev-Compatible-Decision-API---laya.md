@@ -6,7 +6,7 @@ Open-weights Laya decision model behind a TypeSafe/Jev-compatible API
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/laya?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=laya)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/laya?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=laya)
 
 [Laya](https://github.com/NandhaKishorM/laya) is an open-weights (Apache-2.0) decision model. You give it a piece of text (a ticket, an email, a JSON record) and typed questions: pick one of several options, place it on a scale, or yes/no. It answers each with calibrated probabilities in a single forward pass and never generates text. The interface follows TypeSafe's Jev, and this template serves Laya over Jev's HTTP API, so code written for the TypeSafe SDKs runs against your own server once you change one environment variable.
 
@@ -21,7 +21,7 @@ One service, no database or volume. The checkpoints ship inside the image.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Laya | [nomideusz/laya-railway](https://github.com/nomideusz/laya-railway) (root: /) | Web service |
+| Laya | [two-workspaces/laya](https://github.com/two-workspaces/laya) (root: /) | Web service |
 
 ## Environment variables
 

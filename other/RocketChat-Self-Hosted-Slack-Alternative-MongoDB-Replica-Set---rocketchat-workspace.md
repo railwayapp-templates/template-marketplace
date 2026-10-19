@@ -23,7 +23,7 @@ The stack is two services: Rocket.Chat and MongoDB.
 | Service | Source | Type |
 |---------|--------|------|
 | Rocket.Chat | `rocketchat/rocket.chat:8.9.0` | Web service |
-| MongoDB | [nomideusz/rocketchat-railway](https://github.com/nomideusz/rocketchat-railway) (root: /mongodb) | Database |
+| MongoDB | [two-workspaces/rocketchat](https://github.com/two-workspaces/rocketchat) (root: /mongodb) | Database |
 
 ## Environment variables
 

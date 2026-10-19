@@ -6,7 +6,7 @@ Desktop Vivaldi streamed to any device. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/vivaldi-browser?utm_medium=integration&utm_source=button&utm_campaign=vivaldi-browser)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/vivaldi-browser?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=vivaldi-browser)
 
 This template runs a full desktop [Vivaldi](https://vivaldi.com/) browser in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-vivaldi/) Selkies web interface. Open your Railway domain, log in, and you're inside a real browser running on the server — bookmarks, extensions, downloads, and sessions persist between visits.
 
@@ -16,7 +16,7 @@ The service streams a GPU-less desktop Vivaldi over WebSockets with the linuxser
 
 | Service | Source | Type |
 |---------|--------|------|
-| vivaldi | [nomideusz/vivaldi-railway](https://github.com/nomideusz/vivaldi-railway) | Web service |
+| vivaldi | [two-workspaces/vivaldi](https://github.com/two-workspaces/vivaldi) | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,6 @@ The service streams a GPU-less desktop Vivaldi over WebSockets with the linuxser
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/vivaldi-browser)

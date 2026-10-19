@@ -6,6 +6,8 @@ Self-hosted Discord-style chat: servers, channels, DMs, uploads, search
 
 ## About
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/fluxer-chat?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=fluxer-chat)
+
 [Fluxer](https://fluxer.app/) is an open-source alternative to Discord. It has communities (servers), text channels, replies, DMs and group DMs, roles and permissions, invites, emoji, file uploads with previews, link embeds and full-text message search, all in a fast web client. This template runs the official Fluxer images in **text-chat mode**, with every database and secret generated for you. Voice and video are switched off because Railway has no UDP.
 
 Upstream's self-hosting setup is about 25 containers. This template collapses it into 13 Railway services while keeping each upstream image unchanged:
@@ -39,15 +41,15 @@ Upstream's self-hosting setup is about 25 containers. This template collapses it
 |---------|--------|------|
 | worker | `ghcr.io/fluxerapp/fluxer-api:2026.1004.160619` | Worker |
 | Valkey | `valkey/valkey:9.1-alpine` | Database |
-| svc | [nomideusz/fluxer-railway](https://github.com/nomideusz/fluxer-railway) (root: /svc) | Worker |
-| Fluxer | [nomideusz/fluxer-railway](https://github.com/nomideusz/fluxer-railway) (root: /edge) | Web service |
+| svc | [two-workspaces/fluxer](https://github.com/two-workspaces/fluxer) (root: /svc) | Worker |
+| Fluxer | [two-workspaces/fluxer](https://github.com/two-workspaces/fluxer) (root: /edge) | Web service |
 | NATS | `nats:2.14-alpine` | Database |
 | admin | `ghcr.io/fluxerapp/fluxer-admin:2026.1003.122521` | Worker |
 | Meilisearch | `getmeili/meilisearch:v1.53` | Database |
 | media-proxy | `ghcr.io/fluxerapp/fluxer-media-proxy:2026.1003.110721` | Worker |
 | gateway | `ghcr.io/fluxerapp/fluxer-gateway:2026.1004.10845` | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
-| SeaweedFS | [nomideusz/fluxer-railway](https://github.com/nomideusz/fluxer-railway) (root: /seaweedfs) | Database |
+| SeaweedFS | [two-workspaces/fluxer](https://github.com/two-workspaces/fluxer) (root: /seaweedfs) | Database |
 | api | `ghcr.io/fluxerapp/fluxer-api:2026.1004.160619` | Worker |
 | app-proxy | `ghcr.io/fluxerapp/fluxer-app-proxy-self-hosted:2026.1004.174950` | Worker |
 

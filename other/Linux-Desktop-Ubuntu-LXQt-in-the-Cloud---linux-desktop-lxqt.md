@@ -6,7 +6,7 @@ Ubuntu LXQt desktop in your browser. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/linux-desktop-lxqt?utm_medium=integration&utm_source=button&utm_campaign=linux-desktop-lxqt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/linux-desktop-lxqt?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=linux-desktop-lxqt)
 
 This template runs a full Ubuntu desktop with the LXQt environment in the cloud, streamed to any device through the [linuxserver.io Webtop](https://docs.linuxserver.io/images/docker-webtop/) Selkies web interface. Open your Railway domain, log in, and you have a real Linux desktop with a terminal, file manager, browser and `sudo`. Installed packages, files and settings under the home directory persist between visits.
 
@@ -16,7 +16,7 @@ The service streams a GPU-less LXQt desktop over WebSockets with the linuxserver
 
 | Service | Source | Type |
 |---------|--------|------|
-| linux-desktop-lxqt | [nomideusz/webtop-lxqt-railway](https://github.com/nomideusz/webtop-lxqt-railway) | Web service |
+| linux-desktop-lxqt | [two-workspaces/webtop-lxqt](https://github.com/two-workspaces/webtop-lxqt) | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,6 @@ The service streams a GPU-less LXQt desktop over WebSockets with the linuxserver
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/linux-desktop-lxqt)

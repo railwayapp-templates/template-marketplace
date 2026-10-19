@@ -6,7 +6,7 @@ Claude Code, git, gh, Node, Python. Browser terminal + SSH, home persists.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/claude-code?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=claude-code)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/claude-code?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=claude-code)
 
 This template gives you an always-on Ubuntu 24.04 workstation with [Claude Code](https://docs.anthropic.com/en/docs/claude-code) pre-installed. Open your Railway domain for a terminal in the browser, or SSH in through Railway's TCP proxy. Your home directory lives on a volume, so repos, Claude login, GitHub auth and dotfiles survive every redeploy.
 
@@ -16,7 +16,7 @@ One service, one volume. The image ships `claude`, `git`, `gh`, Node 22, Python 
 
 | Service | Source | Type |
 |---------|--------|------|
-| claude-code | [nomideusz/claude-code-railway](https://github.com/nomideusz/claude-code-railway) | TCP service |
+| claude-code | [two-workspaces/claude-code](https://github.com/two-workspaces/claude-code) | TCP service |
 
 ## Environment variables
 

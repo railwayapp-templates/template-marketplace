@@ -6,7 +6,7 @@ AionUi WebUI: chat, files, scheduled tasks, teams of AI agents, any model.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/aionui?utm_medium=integration&utm_source=button&utm_campaign=aionui)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/aionui?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=aionui)
 
 [AionUi](https://github.com/iOfficeAI/AionUi) is a free, open-source (Apache-2.0) "cowork" app for AI agents. You chat with an agent that can run commands, write files and work on projects, then review what it did in a files and changes panel. It can also run scheduled tasks and teams of agents. This template runs AionUi's WebUI as an always-on, password-protected web app on Railway, with all data kept on a volume.
 
@@ -20,7 +20,7 @@ The admin password comes from a Railway variable and is applied on every boot. C
 
 | Service | Source | Type |
 |---------|--------|------|
-| aionui | [nomideusz/aionui-railway](https://github.com/nomideusz/aionui-railway) | Web service |
+| aionui | [two-workspaces/aionui](https://github.com/two-workspaces/aionui) | Web service |
 
 ## Environment variables
 

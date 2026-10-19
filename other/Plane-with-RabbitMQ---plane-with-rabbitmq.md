@@ -25,8 +25,8 @@ Only the `Plane` proxy receives a public HTTP domain. Web, API, admin, spaces, l
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17@sha256:f79fd6806f02297f206ce01258f287e4f93faea2a6a2aaaffc24fe684417f0fb` | Database |
 | Web | `makeplane/plane-frontend:v1.4.2@sha256:22fd2434fb8d6658439f669ab72f999ce0773abe587663da21a77d70bd63ff61` | Worker |
 | Plane | [monotykamary/plane-caddy-proxy](https://github.com/monotykamary/plane-caddy-proxy) | Web service |
-| Bucket | `quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z@sha256:14cea493d9a34af32f524e538b8346cf79f3321eff8e708c1e2960462bd8936e` | Database |
-| Redis | `redis:8.2.9@sha256:66b7f4c2f3c6ef1b298bbd7b13c806bc6f71e61f1136a4f58710daf2cb053b21` | Database |
+| Bucket | `ghcr.io/coollabsio/minio:RELEASE.2025-10-15T17-29-55Z@sha256:69b55a1c1c5dc285ce04db96689f5b2102317fc77a50680a1874ca6efd1c87f9` | Database |
+| Redis | `redis:8.2.10@sha256:47670742d7924adbcdb404d1288b6327815b23141969c0939b8e5d61f78c2634` | Database |
 | Worker | `makeplane/plane-backend:v1.4.2@sha256:90032ce088708889b60c00d491897916f4deb882facda27db59fd10fb68729ef` | Worker |
 | Beat Worker | `makeplane/plane-backend:v1.4.2@sha256:90032ce088708889b60c00d491897916f4deb882facda27db59fd10fb68729ef` | Worker |
 

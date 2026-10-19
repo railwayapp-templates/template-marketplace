@@ -6,7 +6,7 @@ Surveys, NPS and in-app feedback on your own Postgres, Hub and Cube
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/formbricks-surveys?utm_medium=integration&utm_source=button&utm_campaign=formbricks-surveys)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/formbricks-surveys?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=formbricks-surveys)
 
 [Formbricks](https://formbricks.com/) is the open-source alternative to Typeform and Qualtrics: link surveys, website and in-app surveys, NPS and CSAT, with targeting, multi-language surveys, webhooks and an API, on data you own. This template runs Formbricks 6 with every service it needs to start: Postgres with pgvector, Valkey, Formbricks Hub, Cube and SpiceDB. Uploads go to a Railway bucket.
 
@@ -25,12 +25,12 @@ Every secret (auth, encryption, cron, Hub and Cube keys, SpiceDB key, database a
 
 | Service | Source | Type |
 |---------|--------|------|
-| Formbricks | [nomideusz/formbricks-railway](https://github.com/nomideusz/formbricks-railway) (root: /formbricks) | Web service |
+| Formbricks | [two-workspaces/formbricks](https://github.com/two-workspaces/formbricks) (root: /formbricks) | Web service |
 | SpiceDB | `authzed/spicedb:v1.52.0-debug` | Worker |
 | Valkey | `valkey/valkey:8.1.9-alpine` | Database |
 | Hub | `ghcr.io/formbricks/hub:0.8.7` | Worker |
 | Postgres | `pgvector/pgvector:0.8.7-pg17` | Database |
-| Cube | [nomideusz/formbricks-railway](https://github.com/nomideusz/formbricks-railway) (root: /cube) | Worker |
+| Cube | [two-workspaces/formbricks](https://github.com/two-workspaces/formbricks) (root: /cube) | Worker |
 
 ## Environment variables
 

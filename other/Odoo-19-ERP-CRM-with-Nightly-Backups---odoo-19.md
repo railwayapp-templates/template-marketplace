@@ -22,7 +22,7 @@ The stack is three pieces: Odoo, a private Postgres, and a Railway bucket for ba
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Odoo | [nomideusz/odoo-railway](https://github.com/nomideusz/odoo-railway) (root: /) | Web service |
+| Odoo | [two-workspaces/odoo](https://github.com/two-workspaces/odoo) (root: /) | Web service |
 
 ## Environment variables
 

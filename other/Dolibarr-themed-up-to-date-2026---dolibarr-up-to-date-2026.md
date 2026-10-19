@@ -1,4 +1,4 @@
-# Deploy Dolibarr [up-to-date 2026] on Railway
+# Deploy Dolibarr themed [up-to-date 2026] on Railway
 
 Dolibarr ERP & CRM with private MariaDB, persistent files and auto setup.
 
@@ -59,6 +59,6 @@ Docker build, automatic installation, backup contents, and persistence after con
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** Other · **Languages:** Python, PHP, Shell, Dockerfile
+**Category:** Other · **Languages:** CSS, Python, PHP, JavaScript, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/dolibarr-up-to-date-2026)

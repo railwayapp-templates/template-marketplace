@@ -23,7 +23,7 @@ One service, one volume. The pinned `t3` server (v0.1.0, checksum-verified at bu
 
 | Service | Source | Type |
 |---------|--------|------|
-| T3 Code | [nomideusz/t3code-railway](https://github.com/nomideusz/t3code-railway) | Web service |
+| T3 Code | [two-workspaces/t3code](https://github.com/two-workspaces/t3code) | Web service |
 
 ## Environment variables
 

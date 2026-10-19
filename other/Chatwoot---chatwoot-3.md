@@ -16,10 +16,10 @@ Chatwoot v4 is a Rails application with a real background-job tier. This templat
 
 | Service | Source | Type |
 |---------|--------|------|
-| postgres | [nomideusz/chatwoot-railway](https://github.com/nomideusz/chatwoot-railway) (root: /postgres) | Database |
-| redis | [nomideusz/chatwoot-railway](https://github.com/nomideusz/chatwoot-railway) (root: /redis) | Database |
-| web | [nomideusz/chatwoot-railway](https://github.com/nomideusz/chatwoot-railway) (root: /web) | Web service |
-| worker | [nomideusz/chatwoot-railway](https://github.com/nomideusz/chatwoot-railway) (root: /worker) | Worker |
+| postgres | [two-workspaces/chatwoot](https://github.com/two-workspaces/chatwoot) (root: /postgres) | Database |
+| redis | [two-workspaces/chatwoot](https://github.com/two-workspaces/chatwoot) (root: /redis) | Database |
+| web | [two-workspaces/chatwoot](https://github.com/two-workspaces/chatwoot) (root: /web) | Web service |
+| worker | [two-workspaces/chatwoot](https://github.com/two-workspaces/chatwoot) (root: /worker) | Worker |
 
 ## Environment variables
 

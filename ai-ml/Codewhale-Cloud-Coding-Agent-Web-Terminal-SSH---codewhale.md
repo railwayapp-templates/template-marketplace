@@ -6,7 +6,7 @@ Codewhale coding agent, git, gh, Node, Python. Browser terminal + SSH.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/codewhale?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=codewhale)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/codewhale?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=codewhale)
 
 [Codewhale](https://github.com/Hmbown/Codewhale) (formerly `deepseek-tui`) is an open-source coding agent written in Rust. It reads your project, edits files, runs commands and checks its own work, using DeepSeek, OpenRouter, Anthropic, OpenAI, Kimi or any other provider you connect. This template runs it on an always-on Ubuntu 24.04 box that you reach from a terminal in your browser or over SSH. Your home directory lives on a volume, so repos, Codewhale config and sessions survive every redeploy.
 
@@ -24,7 +24,7 @@ Codewhale's own `codewhale web` client is loopback-only by design, and upstream 
 
 | Service | Source | Type |
 |---------|--------|------|
-| codewhale | [nomideusz/codewhale-railway](https://github.com/nomideusz/codewhale-railway) | TCP service |
+| codewhale | [two-workspaces/codewhale](https://github.com/two-workspaces/codewhale) | TCP service |
 
 ## Environment variables
 

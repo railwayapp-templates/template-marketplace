@@ -6,7 +6,7 @@ Deploy and Host Tindra on Railway
 
 ## About
 
-Tindra is a self-hosted error tracking, performance monitoring, profiling, uptime monitoring, and cron monitoring platform with full Sentry SDK compatibility. This template deploys the stable release `1.1.0` as a single Go binary backed by PostgreSQL 18, with persistent volumes for the database and uploaded source maps.
+Tindra is a self-hosted error tracking, performance monitoring, profiling, uptime monitoring, and cron monitoring platform with full Sentry SDK compatibility. This template deploys the stable release `1.1.1` as a single Go binary backed by PostgreSQL 18, with persistent volumes for the database and uploaded source maps.
 
 ## What gets deployed
 
@@ -14,7 +14,7 @@ Tindra is a self-hosted error tracking, performance monitoring, profiling, uptim
 |---------|--------|------|
 | tindra-setup | [monotykamary/railway-template-tindra](https://github.com/monotykamary/railway-template-tindra) (root: /setup) | Worker |
 | postgres | `postgres:18.6-alpine@sha256:6c538e7206ea40ff740ef27883529390a690b6ead6ba96b44c67a9f7c638e8fd` | Database |
-| tindra | `ghcr.io/blendbyte/tindra:1.1.0@sha256:a71998a9d431db192e685fc25616f1dcbeb2d64545d3c818659705323fe4eebb` | Web service |
+| tindra | `ghcr.io/blendbyte/tindra:1.1.1@sha256:478187c3ae8ed3688de6cf27258e7fa0831920f9017ea859aaf0b70a2bc30ebe` | Web service |
 
 ## Environment variables
 

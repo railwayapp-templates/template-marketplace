@@ -10,11 +10,15 @@ Rota is an open-source proxy rotation platform with a high-performance Go proxy 
 
 The Gateway service owns the public web domain. On first deployment, the Core service seeds the administrator from `ROTA_ADMIN_USER` and the generated `ROTA_ADMIN_PASSWORD`. The Railway adapter also enables incoming proxy authentication from generated `ROTA_PROXY_USER` and `ROTA_PROXY_PASSWORD` variables.
 
+### TimescaleDB 2.30.2
+
+New deployments create the 2.30.2 extension. Existing deployments keep running 2.30.0 after the image change until you run `ALTER EXTENSION timescaledb UPDATE;` as the first command of a new `psql -X` session in each database that uses the extension. After that the 2.30.0 image can no longer be used.
+
 ## What gets deployed
 
 | Service | Source | Type |
 |---------|--------|------|
-| TimescaleDB | `timescale/timescaledb:2.30.0-pg17@sha256:3113d12b78392c064aa7475caf7a52b447b29ddd4f9bfd23526733fcb03e3459` | Database |
+| TimescaleDB | `timescale/timescaledb:2.30.2-pg17@sha256:b346edcdb51a1fd6020e3965e0bd1c9f3406fa6d5fbce1e28f4852587ef934e2` | Database |
 | Core | [monotykamary/railway-template-rota](https://github.com/monotykamary/railway-template-rota) (root: core) | TCP service |
 | Dashboard | `ghcr.io/alpkeskin/rota-dashboard:2.3.0@sha256:e56cb8b9d424b135a528d777917fe7133c715ee2e8216faaad22c4c04dff745a` | Worker |
 | Gateway | [monotykamary/railway-template-rota](https://github.com/monotykamary/railway-template-rota) (root: gateway) | Web service |

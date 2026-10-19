@@ -6,7 +6,7 @@ Ubuntu MATE desktop in your browser. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/linux-desktop-mate?utm_medium=integration&utm_source=button&utm_campaign=linux-desktop-mate)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/linux-desktop-mate?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=linux-desktop-mate)
 
 This template runs a full Ubuntu desktop with the MATE environment in the cloud, streamed to any device through the [linuxserver.io Webtop](https://docs.linuxserver.io/images/docker-webtop/) Selkies web interface. Open your Railway domain, log in, and you have a real Linux desktop with a terminal, file manager, browser and `sudo`. Installed packages, files and settings under the home directory persist between visits.
 
@@ -16,7 +16,7 @@ The service streams a GPU-less MATE desktop over WebSockets with the linuxserver
 
 | Service | Source | Type |
 |---------|--------|------|
-| linux-desktop-mate | [nomideusz/webtop-mate-railway](https://github.com/nomideusz/webtop-mate-railway) | Web service |
+| linux-desktop-mate | [two-workspaces/webtop-mate](https://github.com/two-workspaces/webtop-mate) | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,6 @@ The service streams a GPU-less MATE desktop over WebSockets with the linuxserver
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/linux-desktop-mate)

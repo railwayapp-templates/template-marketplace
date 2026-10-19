@@ -6,13 +6,13 @@ E-signatures on your own server, with the signing certificate made on boot
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/documenso-production?utm_medium=integration&utm_source=button&utm_campaign=documenso-production)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/documenso-production?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=documenso-production)
 
 [Documenso](https://documenso.com/) is the open-source DocuSign alternative. Upload a PDF, place signature, initials, date and text fields, and send it to one or more recipients in order. Each signed document comes back sealed with a digital signature and a signing certificate, with an audit log of every view and signature. It also has reusable templates, direct signing links, teams and a REST API with webhooks. This template runs the official Documenso image with Postgres, and creates both the signing certificate and your admin account on first boot, so you can sign in and seal documents right away, even without an email provider.
 
 The stack is two services: Documenso and Postgres.
 
-- **Upstream's image, pinned.** Documenso runs from the official `documenso/documenso` image at a fixed release (v2.20.0), not `latest`. A thin wrapper ([source](https://github.com/nomideusz/documenso-railway)) adds one entrypoint script for the first-boot steps below. Upgrading means bumping the tag.
+- **Upstream's image, pinned.** Documenso runs from the official `documenso/documenso` image at a fixed release (v2.20.0), not `latest`. A thin wrapper ([source](https://github.com/two-workspaces/documenso)) adds one entrypoint script for the first-boot steps below. Upgrading means bumping the tag.
 - **A signing certificate on first boot.** Documenso can't seal documents without a `.p12` certificate, and that is normally a manual OpenSSL step. On first boot the entrypoint creates a self-signed RSA certificate (valid 10 years, named after your domain) on a volume at `/opt/documenso/cert.p12`, protected by a generated passphrase. Later boots reuse it.
 - **An admin who can sign in without SMTP.** Documenso only lets verified email addresses sign in, so a fresh install with no mail server has no working login. On first boot the entrypoint signs up `DOCUMENSO_ADMIN_EMAIL` through Documenso's own sign-up endpoint, on a port Railway doesn't route, then marks the email as verified and grants the account admin rights.
 - **Sign-up closed.** Public sign-up is off by default (`NEXT_PUBLIC_DISABLE_SIGNUP=true`), so a stranger who finds your URL can't create an account on your instance. People you send documents to don't need an account to sign.
@@ -23,7 +23,7 @@ The stack is two services: Documenso and Postgres.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Documenso | [nomideusz/documenso-railway](https://github.com/nomideusz/documenso-railway) | Web service |
+| Documenso | [two-workspaces/documenso](https://github.com/two-workspaces/documenso) | Web service |
 | Postgres | `postgres:17.11-alpine` | Database |
 
 ## Environment variables

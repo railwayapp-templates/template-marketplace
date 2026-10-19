@@ -29,7 +29,7 @@ REI3 has no official container image, and its example Docker setup is marked "de
 
 | Service | Source | Type |
 |---------|--------|------|
-| REI3 | [nomideusz/rei3-railway](https://github.com/nomideusz/rei3-railway) | Web service |
+| REI3 | [two-workspaces/rei3](https://github.com/two-workspaces/rei3) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 
 ## Environment variables

@@ -6,7 +6,7 @@ Desktop Obsidian streamed to any device. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/obsidian?utm_medium=integration&utm_source=button&utm_campaign=obsidian)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/obsidian?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=obsidian)
 
 This template runs the full desktop [Obsidian](https://obsidian.md/) application in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-obsidian/) Selkies web interface. Open your Railway domain, log in, and Obsidian is running on the server with its files, settings and plugins persisted between visits.
 
@@ -16,7 +16,7 @@ Obsidian is the local-first Markdown knowledge base with graph view, plugins and
 
 | Service | Source | Type |
 |---------|--------|------|
-| obsidian | [nomideusz/obsidian-railway](https://github.com/nomideusz/obsidian-railway) | Web service |
+| obsidian | [two-workspaces/obsidian](https://github.com/two-workspaces/obsidian) | Web service |
 
 ## Environment variables
 
@@ -33,6 +33,6 @@ Obsidian is the local-first Markdown knowledge base with graph view, plugins and
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/obsidian)

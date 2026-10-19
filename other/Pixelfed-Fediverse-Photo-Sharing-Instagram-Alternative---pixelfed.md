@@ -18,7 +18,7 @@ This template runs the full Pixelfed stack in three Railway services: the Pixelf
 |---------|--------|------|
 | redis | `redis:7-alpine` | Database |
 | mysql | `mysql:8` | Database |
-| pixelfed | [nomideusz/pixelfed-railway](https://github.com/nomideusz/pixelfed-railway) | Web service |
+| pixelfed | [two-workspaces/pixelfed](https://github.com/two-workspaces/pixelfed) | Web service |
 
 ## Environment variables
 

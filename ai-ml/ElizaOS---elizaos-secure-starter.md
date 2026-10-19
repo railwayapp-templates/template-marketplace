@@ -12,7 +12,7 @@ ElizaOS is an open-source agent runtime with a browser dashboard, plugin system,
 
 | Service | Source | Type |
 |---------|--------|------|
-| pgvector | `pgvector/pgvector:0.8.6-pg17@sha256:cf134a767f474095eeba57e0117be8e568e011a63f33fbf252f14c9b760f8e6f` | Database |
+| pgvector | `pgvector/pgvector:0.8.7-pg17@sha256:ac08538c6f8b9904c33c8224c5e5706dbe760aca29db1d096972b4052c22a75d` | Database |
 | elizaos | [monotykamary/railway-template-elizaos](https://github.com/monotykamary/railway-template-elizaos) | Web service |
 
 ## Environment variables

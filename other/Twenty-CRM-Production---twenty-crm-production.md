@@ -16,10 +16,10 @@ This template runs Twenty v2 as four Railway services: the server (API + web app
 
 | Service | Source | Type |
 |---------|--------|------|
-| postgres | [nomideusz/twenty-railway](https://github.com/nomideusz/twenty-railway) (root: /postgres) | Database |
-| worker | [nomideusz/twenty-railway](https://github.com/nomideusz/twenty-railway) (root: /worker) | Worker |
-| redis | [nomideusz/twenty-railway](https://github.com/nomideusz/twenty-railway) (root: /redis) | Database |
-| server | [nomideusz/twenty-railway](https://github.com/nomideusz/twenty-railway) (root: /server) | Web service |
+| postgres | [two-workspaces/twenty](https://github.com/two-workspaces/twenty) (root: /postgres) | Database |
+| worker | [two-workspaces/twenty](https://github.com/two-workspaces/twenty) (root: /worker) | Worker |
+| redis | [two-workspaces/twenty](https://github.com/two-workspaces/twenty) (root: /redis) | Database |
+| server | [two-workspaces/twenty](https://github.com/two-workspaces/twenty) (root: /server) | Web service |
 
 ## Environment variables
 

@@ -6,7 +6,7 @@ Desktop Opera streamed to any device. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/opera-browser?utm_medium=integration&utm_source=button&utm_campaign=opera-browser)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/opera-browser?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=opera-browser)
 
 This template runs a full desktop [Opera](https://www.opera.com/) browser in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-opera/) Selkies web interface. Open your Railway domain, log in, and you're inside a real browser running on the server — bookmarks, extensions, downloads, and sessions persist between visits.
 
@@ -16,7 +16,7 @@ The service streams a GPU-less desktop Opera over WebSockets with the linuxserve
 
 | Service | Source | Type |
 |---------|--------|------|
-| opera | [nomideusz/opera-railway](https://github.com/nomideusz/opera-railway) | Web service |
+| opera | [two-workspaces/opera](https://github.com/two-workspaces/opera) | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,6 @@ The service streams a GPU-less desktop Opera over WebSockets with the linuxserve
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/opera-browser)

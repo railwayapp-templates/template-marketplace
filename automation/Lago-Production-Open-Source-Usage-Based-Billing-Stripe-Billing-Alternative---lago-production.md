@@ -6,7 +6,7 @@ Usage-based billing with the worker, clock and PDF invoices that bill
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/lago-production?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=lago-production)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/lago-production?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=lago-production)
 
 [Lago](https://www.getlago.com/) is the open-source billing engine for usage-based, subscription and hybrid pricing. It is an alternative to Stripe Billing, Chargebee and Orb. You send usage events to its API, and Lago meters them and applies your plans, coupons, credits and taxes. It then issues invoices with PDFs and pushes them to Stripe, Adyen or GoCardless for payment. This template runs the complete Lago v1.54.0 stack, including the background worker and scheduler that do the actual billing.
 
@@ -26,9 +26,9 @@ The stack is five services: Lago, API, PDF, Postgres and Redis.
 |---------|--------|------|
 | PDF | `getlago/lago-gotenberg:7.8.2` | Worker |
 | Redis | `redis:8.10.2-alpine` | Database |
-| API | [nomideusz/lago-railway](https://github.com/nomideusz/lago-railway) (root: /api) | Web service |
+| API | [two-workspaces/lago](https://github.com/two-workspaces/lago) (root: /api) | Web service |
 | Lago | `getlago/front:v1.54.0` | Web service |
-| Postgres | [nomideusz/lago-railway](https://github.com/nomideusz/lago-railway) (root: /postgres) | Database |
+| Postgres | [two-workspaces/lago](https://github.com/two-workspaces/lago) (root: /postgres) | Database |
 
 ## Environment variables
 

@@ -6,7 +6,7 @@ Marketing automation with the cron and workers that make campaigns fire
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/mautic-production?utm_medium=integration&utm_source=button&utm_campaign=mautic-production)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/mautic-production?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=mautic-production)
 
 [Mautic](https://mautic.org/) is the open-source marketing automation platform: contacts and segments, newsletters and email campaigns, forms and landing pages, lead scoring, and multi-step campaigns triggered by what your contacts do. It is an alternative to HubSpot Marketing Hub, ActiveCampaign and Mailchimp, with no per-contact pricing. This template runs Mautic 7.2.1 together with the cron jobs and queue workers that make campaigns actually run.
 
@@ -22,7 +22,7 @@ The stack is two services: Mautic and MySQL.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Mautic | [nomideusz/mautic-railway](https://github.com/nomideusz/mautic-railway) | Web service |
+| Mautic | [two-workspaces/mautic](https://github.com/two-workspaces/mautic) | Web service |
 | MySQL | `mysql:8.4.11` | Database |
 
 ## Environment variables

@@ -6,7 +6,7 @@ LobeHub server edition: team AI chat, files, knowledge base. Zero config.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/lobehub-chat?utm_medium=integration&utm_source=button&utm_campaign=lobehub-chat)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/lobehub-chat?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=lobehub-chat)
 
 This template deploys the server edition of [LobeHub](https://lobehub.com) (formerly Lobe Chat): a multi-user AI workspace with chat, agents, file uploads, knowledge bases and image generation, talking to any model provider you configure. Everything it needs is provisioned for you: a ParadeDB Postgres with the `pgvector` and `pg_search` extensions LobeHub requires, and a Railway Storage Bucket for uploads. Open your domain, create the first account, and start chatting.
 
@@ -16,8 +16,8 @@ Three resources: the `lobehub` service (official `lobehub/lobehub` image, pinned
 
 | Service | Source | Type |
 |---------|--------|------|
-| lobehub | [nomideusz/lobe-chat-railway](https://github.com/nomideusz/lobe-chat-railway) | Web service |
-| postgres | `paradedb/paradedb:0.25.6-pg17` | Database |
+| lobehub | [two-workspaces/lobe-chat](https://github.com/two-workspaces/lobe-chat) | Web service |
+| postgres | `paradedb/paradedb:0.26.2-pg17` | Database |
 
 ## Environment variables
 

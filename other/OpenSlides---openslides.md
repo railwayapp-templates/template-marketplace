@@ -21,7 +21,7 @@ Sign in as `superadmin` with `SUPERADMIN_PASSWORD` from the `backend-manage` ser
 | icc | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: icc) | Worker |
 | auth | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: auth) | Worker |
 | vote | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: vote) | Worker |
-| redis | `redis:8.4.6-alpine@sha256:12da49daa000c2be4d55118574f889c8cc298140ecf343d04f345c818f227823` | Database |
+| redis | `redis:8.4.7-alpine@sha256:0514fa59e3d84e2f3be66731c5401fc2a85b8ea71b49c0116c850f6a558076f4` | Database |
 | backendPresenter | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: backend) | Worker |
 | autoupdate | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: autoupdate) | Worker |
 | search | [monotykamary/railway-template-openslides](https://github.com/monotykamary/railway-template-openslides) (root: search) | Worker |

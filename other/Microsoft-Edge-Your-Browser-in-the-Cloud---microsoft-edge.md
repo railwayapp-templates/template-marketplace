@@ -6,7 +6,7 @@ Desktop Microsoft Edge streamed to any device. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/microsoft-edge?utm_medium=integration&utm_source=button&utm_campaign=microsoft-edge)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/microsoft-edge?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=microsoft-edge)
 
 This template runs a full desktop [Microsoft Edge](https://www.microsoft.com/edge) browser in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-msedge/) Selkies web interface. Open your Railway domain, log in, and you're inside a real browser running on the server — bookmarks, extensions, downloads, and sessions persist between visits.
 
@@ -16,7 +16,7 @@ The service streams a GPU-less desktop Microsoft Edge over WebSockets with the l
 
 | Service | Source | Type |
 |---------|--------|------|
-| edge | [nomideusz/edge-railway](https://github.com/nomideusz/edge-railway) | Web service |
+| edge | [two-workspaces/edge](https://github.com/two-workspaces/edge) | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,6 @@ The service streams a GPU-less desktop Microsoft Edge over WebSockets with the l
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/microsoft-edge)

@@ -16,10 +16,10 @@ This template runs Dittofeed's **lite** bundle — API, dashboard, and worker in
 
 | Service | Source | Type |
 |---------|--------|------|
-| dittofeed | [nomideusz/dittofeed-railway](https://github.com/nomideusz/dittofeed-railway) (root: /lite) | Web service |
+| dittofeed | [two-workspaces/dittofeed](https://github.com/two-workspaces/dittofeed) (root: /lite) | Web service |
 | postgres | `ghcr.io/railwayapp-templates/postgres-ssl:16` | Database |
-| clickhouse | [nomideusz/dittofeed-railway](https://github.com/nomideusz/dittofeed-railway) (root: /clickhouse) | Database |
-| temporal | [nomideusz/dittofeed-railway](https://github.com/nomideusz/dittofeed-railway) (root: /temporal) | Worker |
+| clickhouse | [two-workspaces/dittofeed](https://github.com/two-workspaces/dittofeed) (root: /clickhouse) | Database |
+| temporal | [two-workspaces/dittofeed](https://github.com/two-workspaces/dittofeed) (root: /temporal) | Worker |
 
 ## Environment variables
 
@@ -60,6 +60,6 @@ This template runs Dittofeed's **lite** bundle — API, dashboard, and worker in
 - **Volume:** `/var/lib/postgresql/data`
 - **Volume:** `/var/lib/clickhouse`
 
-**Category:** Automation · **Languages:** Shell, Dockerfile
+**Category:** Automation · **Languages:** Dockerfile, Shell
 
 [View on Railway →](https://railway.com/deploy/dittofeed-2)

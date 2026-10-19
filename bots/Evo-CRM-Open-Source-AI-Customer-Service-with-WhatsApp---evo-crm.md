@@ -32,8 +32,8 @@ Migrations run on boot: Auth first, then the CRM waits for Auth's health check b
 
 | Service | Source | Type |
 |---------|--------|------|
-| ClickHouse | [nomideusz/evo-crm-railway](https://github.com/nomideusz/evo-crm-railway) (root: /clickhouse) | Database |
-| Gateway | [nomideusz/evo-crm-railway](https://github.com/nomideusz/evo-crm-railway) (root: /gateway) | Web service |
+| ClickHouse | [two-workspaces/evo-crm](https://github.com/two-workspaces/evo-crm) (root: /clickhouse) | Database |
+| Gateway | [two-workspaces/evo-crm](https://github.com/two-workspaces/evo-crm) (root: /gateway) | Web service |
 | Frontend | `evoapicloud/evo-ai-frontend-community:1.1.0` | Web service |
 | Bot-Runtime | `evoapicloud/evo-bot-runtime:1.1.0` | Worker |
 | Auth-Worker | `evoapicloud/evo-auth-service-community:1.1.0` | Worker |
@@ -41,7 +41,7 @@ Migrations run on boot: Auth first, then the CRM waits for Auth's health check b
 | RabbitMQ | `rabbitmq:4.1.8-alpine` | Database |
 | Postgres | `pgvector/pgvector:0.8.7-pg16` | Database |
 | CRM-Worker | `evoapicloud/evo-ai-crm-community:1.1.0` | Worker |
-| EvoFlow | [nomideusz/evo-crm-railway](https://github.com/nomideusz/evo-crm-railway) (root: /evoflow) | Worker |
+| EvoFlow | [two-workspaces/evo-crm](https://github.com/two-workspaces/evo-crm) (root: /evoflow) | Worker |
 | Redis | `redis:7.4.11-alpine` | Database |
 | Auth | `evoapicloud/evo-auth-service-community:1.1.0` | Worker |
 | Processor | `evoapicloud/evo-ai-processor-community:1.1.0` | Worker |

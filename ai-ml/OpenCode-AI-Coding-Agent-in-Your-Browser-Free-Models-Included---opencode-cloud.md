@@ -18,7 +18,7 @@ The box ships `git`, `gh`, Node 22, Python 3 + `uv`, `build-essential`, `ripgrep
 
 | Service | Source | Type |
 |---------|--------|------|
-| OpenCode | [nomideusz/opencode-railway](https://github.com/nomideusz/opencode-railway) | TCP service |
+| OpenCode | [two-workspaces/opencode](https://github.com/two-workspaces/opencode) | TCP service |
 
 ## Environment variables
 

@@ -22,7 +22,7 @@ It's one service and needs no database or volume. Moli runs `moli serve` on loca
 
 | Service | Source | Type |
 |---------|--------|------|
-| moli | [nomideusz/moli-railway](https://github.com/nomideusz/moli-railway) | Web service |
+| moli | [two-workspaces/moli](https://github.com/two-workspaces/moli) | Web service |
 
 ## Environment variables
 

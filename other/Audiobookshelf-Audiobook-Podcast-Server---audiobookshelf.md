@@ -16,7 +16,7 @@ This template runs Audiobookshelf as a single Railway service. The config databa
 
 | Service | Source | Type |
 |---------|--------|------|
-| audiobookshelf | [nomideusz/audiobookshelf-railway](https://github.com/nomideusz/audiobookshelf-railway) | Web service |
+| audiobookshelf | [two-workspaces/audiobookshelf](https://github.com/two-workspaces/audiobookshelf) | Web service |
 
 ## Environment variables
 

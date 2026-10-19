@@ -6,7 +6,7 @@ Debian KDE Plasma desktop in your browser. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/linux-desktop-debian?utm_medium=integration&utm_source=button&utm_campaign=linux-desktop-debian)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/linux-desktop-debian?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=linux-desktop-debian)
 
 This template runs a full Debian desktop with the KDE Plasma environment in the cloud, streamed to any device through the [linuxserver.io Webtop](https://docs.linuxserver.io/images/docker-webtop/) Selkies web interface. Open your Railway domain, log in, and you have a real Linux desktop with a terminal, file manager, browser and `sudo`. Installed packages, files and settings under the home directory persist between visits.
 
@@ -16,7 +16,7 @@ The service streams a GPU-less KDE Plasma desktop over WebSockets with the linux
 
 | Service | Source | Type |
 |---------|--------|------|
-| linux-desktop-debian | [nomideusz/webtop-debian-railway](https://github.com/nomideusz/webtop-debian-railway) | Web service |
+| linux-desktop-debian | [two-workspaces/webtop-debian](https://github.com/two-workspaces/webtop-debian) | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,6 @@ The service streams a GPU-less KDE Plasma desktop over WebSockets with the linux
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/linux-desktop-debian)

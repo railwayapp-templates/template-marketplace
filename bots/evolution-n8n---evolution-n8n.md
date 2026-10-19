@@ -16,10 +16,10 @@ This template runs the full automation stack as four Railway services wired over
 
 | Service | Source | Type |
 |---------|--------|------|
-| n8n | [nomideusz/evolution-n8n-railway](https://github.com/nomideusz/evolution-n8n-railway) (root: /n8n) | Web service |
-| redis | [nomideusz/evolution-n8n-railway](https://github.com/nomideusz/evolution-n8n-railway) (root: /redis) | Worker |
-| postgres | [nomideusz/evolution-n8n-railway](https://github.com/nomideusz/evolution-n8n-railway) (root: /postgres) | Database |
-| evolution | [nomideusz/evolution-n8n-railway](https://github.com/nomideusz/evolution-n8n-railway) (root: /evolution) | Web service |
+| n8n | [two-workspaces/evolution-n8n](https://github.com/two-workspaces/evolution-n8n) (root: /n8n) | Web service |
+| redis | [two-workspaces/evolution-n8n](https://github.com/two-workspaces/evolution-n8n) (root: /redis) | Worker |
+| postgres | [two-workspaces/evolution-n8n](https://github.com/two-workspaces/evolution-n8n) (root: /postgres) | Database |
+| evolution | [two-workspaces/evolution-n8n](https://github.com/two-workspaces/evolution-n8n) (root: /evolution) | Web service |
 
 ## Environment variables
 

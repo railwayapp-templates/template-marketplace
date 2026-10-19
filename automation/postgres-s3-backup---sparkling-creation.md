@@ -1,6 +1,6 @@
 # Deploy postgres-s3-backup on Railway
 
-Automated PostgreSQL backups to S3 with restore verification
+[Oct'26] Postgres backups to S3, R2 or B2 + automatic restore tests
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/sparkling-creation)
 

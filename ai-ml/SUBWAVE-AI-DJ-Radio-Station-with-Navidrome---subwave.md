@@ -6,7 +6,7 @@ Internet radio with an AI DJ that picks and talks, fed by your music
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/subwave?utm_medium=integration&utm_source=button&utm_campaign=subwave)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/subwave?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=subwave)
 
 [SUB/WAVE](https://github.com/perminder-klair/subwave) is a personal internet radio station with an AI DJ. There is one Icecast stream and every listener hears the same thing at the same time. The DJ picks tracks from your own music library, talks between them (station idents, time checks, weather, intros), and takes song requests in plain language. It is radio, not a playlist: no skip button, no per-listener shuffle.
 
@@ -22,7 +22,7 @@ The station is already wired to Navidrome when it boots: the Navidrome admin use
 | Service | Source | Type |
 |---------|--------|------|
 | Navidrome | [nomideusz/navidrome-railway](https://github.com/nomideusz/navidrome-railway) (root: /) | Web service |
-| SUBWAVE | [nomideusz/subwave-railway](https://github.com/nomideusz/subwave-railway) (root: /) | Web service |
+| SUBWAVE | [two-workspaces/subwave](https://github.com/two-workspaces/subwave) (root: /) | Web service |
 
 ## Environment variables
 

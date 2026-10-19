@@ -56,7 +56,7 @@ Construído para desenvolvedores :
 | MinIO | `minio/minio:latest` | Database |
 | Builder | `baptistearno/typebot-builder:latest` | Web service |
 | Viewer | `baptistearno/typebot-viewer:latest` | Web service |
-| MinIO Init. | `minio/mc:RELEASE.2025-04-16T18-13-26Z` | Database |
+| MinIO Init. | `minio/minio:latest` | Database |
 
 ## Environment variables
 

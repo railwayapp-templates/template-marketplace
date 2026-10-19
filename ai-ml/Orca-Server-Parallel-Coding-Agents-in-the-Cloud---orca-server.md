@@ -23,7 +23,7 @@ One service, one volume. The pinned Orca release (v1.4.225, checksum-verified at
 
 | Service | Source | Type |
 |---------|--------|------|
-| Orca | [nomideusz/orca-railway](https://github.com/nomideusz/orca-railway) | Web service |
+| Orca | [two-workspaces/orca](https://github.com/two-workspaces/orca) | Web service |
 
 ## Environment variables
 

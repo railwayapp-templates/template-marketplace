@@ -16,7 +16,7 @@ GenOffice is a free alternative to Microsoft Office. It opens and saves real `.d
 
 | Service | Source | Type |
 |---------|--------|------|
-| genoffice | [nomideusz/genoffice-railway](https://github.com/nomideusz/genoffice-railway) | Web service |
+| genoffice | [two-workspaces/genoffice](https://github.com/two-workspaces/genoffice) | Web service |
 
 ## Environment variables
 

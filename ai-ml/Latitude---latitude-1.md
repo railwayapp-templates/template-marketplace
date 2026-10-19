@@ -18,15 +18,15 @@ A working email transport is required for magic-link sign-in. Configure authenti
 
 | Service | Source | Type |
 |---------|--------|------|
-| migrations | `latitudedata/migrations:0.3.118@sha256:b7729edfb4649df1cd9b6ae4b8505f7ec92abe253cced776426c2a0cb4b959ea` | Worker |
-| api | `latitudedata/api:0.3.118@sha256:ae7a7cc4f788962eaa03c040f62f63f38ed33b8f31e781804923b8302d72035a` | Web service |
+| migrations | `latitudedata/migrations:0.3.124@sha256:8751f8a7a078eb2351c35db3eab9e70a0752ddccb33c2dfec1063b1e9a0b4988` | Worker |
+| api | `latitudedata/api:0.3.124@sha256:9ad756af5d43c8ac1f72ee6d7a1f3cfad0949d912bb1e677b4c5d8ce65c403ae` | Web service |
 | clickhouse | [monotykamary/railway-template-latitude](https://github.com/monotykamary/railway-template-latitude) (root: /clickhouse) | Database |
-| web | `latitudedata/web:0.3.118@sha256:4c2ff898d14ba693f5f17e88bf2f02bfa6c1aa94b30deb88d36f888cb0c050b3` | Web service |
-| ingest | `latitudedata/ingest:0.3.118@sha256:f35134928d7fbf412306125220bf8d27190c47b2d7cbd1ad432688dcfd7107a4` | Web service |
-| workflows | `latitudedata/workflows:0.3.118@sha256:8075a750955653acc08c984c556ebead7d787b66bebdac65b0e8e348ec28d4ca` | Worker |
+| web | `latitudedata/web:0.3.124@sha256:b63ab7fb323732efea294d2fdffd14a91242e471478fae550578c786ef4a39ed` | Web service |
+| ingest | `latitudedata/ingest:0.3.124@sha256:35915bd49b686a50fc6ecf2bcc2b0b775df22a9a3091b77cc6fb1e170f058cb5` | Web service |
+| workflows | `latitudedata/workflows:0.3.124@sha256:c3130fc36dafd0fe4585d858143d6627ef56cfb6233b08aac4c31cd43a43dae9` | Worker |
 | redis | `redis:7.4.11-alpine@sha256:ff02b58f971e7d7d156a1267e283fcbbeee91773b6aa36c49dac28ecfe28eadf` | Database |
 | postgres | [monotykamary/railway-template-latitude](https://github.com/monotykamary/railway-template-latitude) (root: /postgres) | Database |
-| workers | `latitudedata/workers:0.3.118@sha256:2ddbe608fe026777f380032737f19f936e81695a4386153a264db2a1d6ed5db9` | Worker |
+| workers | `latitudedata/workers:0.3.124@sha256:13ed197736b42d42e6cc3c772d0368f706146f5db14437f4c23249032d30f4d8` | Worker |
 | temporal | `temporalio/auto-setup:1.27.4@sha256:5a21ca5ab7446661684f7346c5462c22160ccabe52ef6b4bb8a2790178fa5409` | Worker |
 
 ## Environment variables

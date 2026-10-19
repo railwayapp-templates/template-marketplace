@@ -6,7 +6,7 @@ Ungoogled Chromium streamed to any device. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/ungoogled-chromium?utm_medium=integration&utm_source=button&utm_campaign=ungoogled-chromium)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/ungoogled-chromium?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=ungoogled-chromium)
 
 This template runs a full desktop [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) browser in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-ungoogled-chromium/) Selkies web interface. Open your Railway domain, log in, and you're inside a real browser running on the server — bookmarks, extensions, downloads, and sessions persist between visits.
 
@@ -16,7 +16,7 @@ The service streams a GPU-less desktop Ungoogled Chromium over WebSockets with t
 
 | Service | Source | Type |
 |---------|--------|------|
-| ungoogled-chromium | [nomideusz/ungoogled-chromium-railway](https://github.com/nomideusz/ungoogled-chromium-railway) | Web service |
+| ungoogled-chromium | [two-workspaces/ungoogled-chromium](https://github.com/two-workspaces/ungoogled-chromium) | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,6 @@ The service streams a GPU-less desktop Ungoogled Chromium over WebSockets with t
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/ungoogled-chromium)

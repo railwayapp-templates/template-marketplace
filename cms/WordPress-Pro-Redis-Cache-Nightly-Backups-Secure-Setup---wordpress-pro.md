@@ -21,7 +21,7 @@ The stack is four pieces: WordPress (Apache and PHP 8.3), a private MariaDB, a p
 
 | Service | Source | Type |
 |---------|--------|------|
-| WordPress | [nomideusz/wordpress-railway](https://github.com/nomideusz/wordpress-railway) (root: /) | Web service |
+| WordPress | [two-workspaces/wordpress](https://github.com/two-workspaces/wordpress) (root: /) | Web service |
 | Redis | `redis:8.10.2-alpine` | Database |
 | MariaDB | `mariadb:11.8.9` | Database |
 

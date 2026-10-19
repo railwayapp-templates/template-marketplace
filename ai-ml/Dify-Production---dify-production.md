@@ -16,16 +16,16 @@ Dify 1.17 is a genuinely multi-service stack — API, celery workers, a Next.js 
 
 | Service | Source | Type |
 |---------|--------|------|
-| api | [nomideusz/dify-railway](https://github.com/nomideusz/dify-railway) (root: /api) | Worker |
-| gateway | [nomideusz/dify-railway](https://github.com/nomideusz/dify-railway) (root: /gateway) | Web service |
-| postgres | [nomideusz/dify-railway](https://github.com/nomideusz/dify-railway) (root: /postgres) | Database |
-| sandbox | [nomideusz/dify-railway](https://github.com/nomideusz/dify-railway) (root: /sandbox) | Worker |
-| ssrf-proxy | [nomideusz/dify-railway](https://github.com/nomideusz/dify-railway) (root: /ssrf-proxy) | Worker |
-| worker-beat | [nomideusz/dify-railway](https://github.com/nomideusz/dify-railway) (root: /worker-beat) | Worker |
-| plugin-daemon | [nomideusz/dify-railway](https://github.com/nomideusz/dify-railway) (root: /plugin-daemon) | Database |
-| worker | [nomideusz/dify-railway](https://github.com/nomideusz/dify-railway) (root: /worker) | Worker |
-| redis | [nomideusz/dify-railway](https://github.com/nomideusz/dify-railway) (root: /redis) | Worker |
-| web | [nomideusz/dify-railway](https://github.com/nomideusz/dify-railway) (root: /web) | Worker |
+| api | [two-workspaces/dify](https://github.com/two-workspaces/dify) (root: /api) | Worker |
+| gateway | [two-workspaces/dify](https://github.com/two-workspaces/dify) (root: /gateway) | Web service |
+| postgres | [two-workspaces/dify](https://github.com/two-workspaces/dify) (root: /postgres) | Database |
+| sandbox | [two-workspaces/dify](https://github.com/two-workspaces/dify) (root: /sandbox) | Worker |
+| ssrf-proxy | [two-workspaces/dify](https://github.com/two-workspaces/dify) (root: /ssrf-proxy) | Worker |
+| worker-beat | [two-workspaces/dify](https://github.com/two-workspaces/dify) (root: /worker-beat) | Worker |
+| plugin-daemon | [two-workspaces/dify](https://github.com/two-workspaces/dify) (root: /plugin-daemon) | Database |
+| worker | [two-workspaces/dify](https://github.com/two-workspaces/dify) (root: /worker) | Worker |
+| redis | [two-workspaces/dify](https://github.com/two-workspaces/dify) (root: /redis) | Worker |
+| web | [two-workspaces/dify](https://github.com/two-workspaces/dify) (root: /web) | Worker |
 
 ## Environment variables
 

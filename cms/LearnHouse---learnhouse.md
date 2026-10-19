@@ -13,7 +13,7 @@ LearnHouse is an open-source platform for creating courses and collaborative lea
 | Service | Source | Type |
 |---------|--------|------|
 | learnhouse | [monotykamary/railway-template-learnhouse](https://github.com/monotykamary/railway-template-learnhouse) (root: /learnhouse) | Web service |
-| postgres | `pgvector/pgvector:0.8.6-pg16@sha256:ccc6e83d6e35e931dc7c5def2022729d5a6c370318d099181995567ff1fb4d6b` | Database |
+| postgres | `pgvector/pgvector:0.8.7-pg16@sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a` | Database |
 | redis | [monotykamary/railway-template-learnhouse](https://github.com/monotykamary/railway-template-learnhouse) | Database |
 
 ## Environment variables

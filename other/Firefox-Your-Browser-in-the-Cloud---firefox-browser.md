@@ -16,7 +16,7 @@ The service streams a GPU-less desktop Firefox over WebSockets with the linuxser
 
 | Service | Source | Type |
 |---------|--------|------|
-| firefox | [nomideusz/firefox-railway](https://github.com/nomideusz/firefox-railway) | Web service |
+| firefox | [two-workspaces/firefox](https://github.com/two-workspaces/firefox) | Web service |
 
 ## Environment variables
 

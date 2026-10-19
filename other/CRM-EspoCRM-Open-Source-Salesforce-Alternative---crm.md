@@ -6,7 +6,7 @@ EspoCRM 10 on Postgres with live updates and an admin ready on boot
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/crm?utm_medium=integration&utm_source=button&utm_campaign=crm)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/crm?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=crm)
 
 [EspoCRM](https://www.espocrm.com/) is an open-source CRM: accounts, contacts, leads, opportunities with a sales pipeline, cases, calendar, tasks, email, reports and a portal for customers. You can add your own fields, entities and layouts without code. This template runs EspoCRM 10.0.8 on the official image with Postgres. The admin account is created on first boot, and live updates run over WebSocket, so it works as soon as the deploy finishes.
 
@@ -23,7 +23,7 @@ There are two services: EspoCRM and Postgres.
 | Service | Source | Type |
 |---------|--------|------|
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| EspoCRM | [nomideusz/espocrm-railway](https://github.com/nomideusz/espocrm-railway) (root: /espocrm) | Web service |
+| EspoCRM | [two-workspaces/espocrm](https://github.com/two-workspaces/espocrm) (root: /espocrm) | Web service |
 
 ## Environment variables
 

@@ -6,7 +6,7 @@ Arch Linux XFCE desktop in your browser. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/linux-desktop-arch?utm_medium=integration&utm_source=button&utm_campaign=linux-desktop-arch)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/linux-desktop-arch?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=linux-desktop-arch)
 
 This template runs a full Arch Linux desktop with the XFCE environment in the cloud, streamed to any device through the [linuxserver.io Webtop](https://docs.linuxserver.io/images/docker-webtop/) Selkies web interface. Open your Railway domain, log in, and you have a real Linux desktop with a terminal, file manager, browser and `sudo`. Installed packages, files and settings under the home directory persist between visits.
 
@@ -16,7 +16,7 @@ The service streams a GPU-less XFCE desktop over WebSockets with the linuxserver
 
 | Service | Source | Type |
 |---------|--------|------|
-| linux-desktop-arch | [nomideusz/webtop-arch-railway](https://github.com/nomideusz/webtop-arch-railway) | Web service |
+| linux-desktop-arch | [two-workspaces/webtop-arch](https://github.com/two-workspaces/webtop-arch) | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,6 @@ The service streams a GPU-less XFCE desktop over WebSockets with the linuxserver
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/linux-desktop-arch)

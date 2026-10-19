@@ -6,7 +6,7 @@ Plane project tracker with a Railway bucket and an admin ready on boot
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/plane-community?utm_medium=integration&utm_source=button&utm_campaign=plane-community)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/plane-community?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=plane-community)
 
 [Plane](https://plane.so/) is the open-source project tracker: work items, cycles (sprints), modules, a wiki with real-time collaborative pages, saved views, intake and analytics, in a fast keyboard-first interface. This template runs Plane Community Edition 1.4.2 on Plane's official all-in-one image with Postgres, Redis, RabbitMQ and a Railway bucket, and creates your admin account on first boot, so Plane's instance setup page is never open to whoever finds the URL first.
 
@@ -25,7 +25,7 @@ The stack is four services and a bucket: Plane, Postgres, Redis, RabbitMQ and th
 | Service | Source | Type |
 |---------|--------|------|
 | RabbitMQ | `rabbitmq:4.1.8-alpine` | Database |
-| Plane | [nomideusz/plane-railway](https://github.com/nomideusz/plane-railway) (root: /plane) | Web service |
+| Plane | [two-workspaces/plane](https://github.com/two-workspaces/plane) (root: /plane) | Web service |
 | Redis | `redis:8.10.2-alpine` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 

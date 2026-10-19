@@ -6,7 +6,7 @@ Issues, chat, docs and planning in one self-hosted team workspace
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/huly-platform?utm_medium=integration&utm_source=button&utm_campaign=huly-platform)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/huly-platform?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=huly-platform)
 
 [Huly](https://huly.io/) is the open-source all-in-one workspace that replaces Linear, Slack and Notion: issue tracking with projects, milestones and sprints, team chat with channels, threads and direct messages, collaborative documents, a planner and calendar, an HR and recruiting module. This template runs Huly 0.7.426, the current [huly-selfhost](https://github.com/hcengineering/huly-selfhost) release, on Postgres, Elasticsearch and Redpanda, and stores files in a Railway bucket.
 
@@ -25,7 +25,7 @@ Upstream's `hulykvs` container is left out because none of the services in this 
 | Service | Source | Type |
 |---------|--------|------|
 | Redpanda | `redpandadata/redpanda:v24.3.18` | Database |
-| Huly | [nomideusz/huly-railway](https://github.com/nomideusz/huly-railway) | Web service |
+| Huly | [two-workspaces/huly](https://github.com/two-workspaces/huly) | Web service |
 | Elasticsearch | `elasticsearch:7.17.28` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 

@@ -6,7 +6,7 @@ Desktop Brave browser streamed to any device. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/brave-browser?utm_medium=integration&utm_source=button&utm_campaign=brave-browser)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/brave-browser?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=brave-browser)
 
 This template runs a full desktop [Brave](https://brave.com/) browser in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-brave/) Selkies web interface. Open your Railway domain, log in, and you're inside a real browser running on the server — bookmarks, extensions, downloads, and sessions persist between visits.
 
@@ -16,7 +16,7 @@ The service streams a GPU-less desktop Brave over WebSockets with the linuxserve
 
 | Service | Source | Type |
 |---------|--------|------|
-| brave | [nomideusz/brave-railway](https://github.com/nomideusz/brave-railway) | Web service |
+| brave | [two-workspaces/brave](https://github.com/two-workspaces/brave) | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,6 @@ The service streams a GPU-less desktop Brave over WebSockets with the linuxserve
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/brave-browser)

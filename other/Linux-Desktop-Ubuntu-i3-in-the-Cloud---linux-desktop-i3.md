@@ -6,7 +6,7 @@ Ubuntu i3 tiling desktop in your browser. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/linux-desktop-i3?utm_medium=integration&utm_source=button&utm_campaign=linux-desktop-i3)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/linux-desktop-i3?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=linux-desktop-i3)
 
 This template runs a full Ubuntu desktop with the i3 tiling window manager environment in the cloud, streamed to any device through the [linuxserver.io Webtop](https://docs.linuxserver.io/images/docker-webtop/) Selkies web interface. Open your Railway domain, log in, and you have a real Linux desktop with a terminal, file manager, browser and `sudo`. Installed packages, files and settings under the home directory persist between visits.
 
@@ -16,7 +16,7 @@ The service streams a GPU-less i3 tiling window manager desktop over WebSockets 
 
 | Service | Source | Type |
 |---------|--------|------|
-| linux-desktop-i3 | [nomideusz/webtop-i3-railway](https://github.com/nomideusz/webtop-i3-railway) | Web service |
+| linux-desktop-i3 | [two-workspaces/webtop-i3](https://github.com/two-workspaces/webtop-i3) | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,6 @@ The service streams a GPU-less i3 tiling window manager desktop over WebSockets 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/linux-desktop-i3)

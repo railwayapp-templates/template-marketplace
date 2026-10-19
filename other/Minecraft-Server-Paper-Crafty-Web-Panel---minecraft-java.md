@@ -6,7 +6,7 @@ Paper server with Crafty web panel: join in minutes, nightly backups
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/minecraft-java?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=minecraft-java)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/minecraft-java?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=minecraft-java)
 
 A Minecraft Java Edition server your friends can join a few minutes after you click deploy, run from a web panel instead of a terminal. The server is [Paper](https://papermc.io/), the fast, plugin-ready fork of the vanilla server. The panel is [Crafty Controller](https://craftycontrol.com/), where you get the live console, a file manager, players, backups and schedules in your browser.
 
@@ -21,7 +21,7 @@ It's one service, a Railway volume, and a TCP proxy for players.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Minecraft | [nomideusz/minecraft-crafty-railway](https://github.com/nomideusz/minecraft-crafty-railway) (root: /) | TCP service |
+| Minecraft | [two-workspaces/minecraft-crafty](https://github.com/two-workspaces/minecraft-crafty) (root: /) | TCP service |
 
 ## Environment variables
 

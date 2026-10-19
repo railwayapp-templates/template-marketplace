@@ -6,7 +6,7 @@ Medusa 2.20: server + worker, Postgres, Redis. Admin user created on boot.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/medusa-commerce?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=medusa-commerce)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/medusa-commerce?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=medusa-commerce)
 
 [Medusa](https://medusajs.com/) is the open-source headless commerce platform: a Node.js backend with a modular commerce engine (products, carts, orders, pricing, promotions, fulfillment, payments) and a built-in admin dashboard. This template runs Medusa 2.x the way its deployment guide asks for: a server instance that serves the API and admin, a separate worker instance for background jobs, Postgres, and Redis for cache, events, workflows and locks.
 
@@ -16,10 +16,10 @@ Four services from one repo. The Medusa image is built from a stock `create-medu
 
 | Service | Source | Type |
 |---------|--------|------|
-| server | [nomideusz/medusa-railway](https://github.com/nomideusz/medusa-railway) | Web service |
-| redis | [nomideusz/medusa-railway](https://github.com/nomideusz/medusa-railway) (root: /redis) | Database |
-| postgres | [nomideusz/medusa-railway](https://github.com/nomideusz/medusa-railway) (root: /postgres) | Database |
-| worker | [nomideusz/medusa-railway](https://github.com/nomideusz/medusa-railway) | Worker |
+| server | [two-workspaces/medusa](https://github.com/two-workspaces/medusa) | Web service |
+| redis | [two-workspaces/medusa](https://github.com/two-workspaces/medusa) (root: /redis) | Database |
+| postgres | [two-workspaces/medusa](https://github.com/two-workspaces/medusa) (root: /postgres) | Database |
+| worker | [two-workspaces/medusa](https://github.com/two-workspaces/medusa) | Worker |
 
 ## Environment variables
 

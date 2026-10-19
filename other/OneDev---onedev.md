@@ -12,6 +12,10 @@ Hosting OneDev requires preserving both its relational database and its applicat
 
 The template does not configure a local CI executor. Railway does not provide the Docker socket or privileged nested-container support required by OneDev's Docker executors. Builds remain unassigned until a compatible external agent or shell executor is configured.
 
+### Upgrading an existing deployment to 16.9.3
+
+Back up the `/opt/onedev` volume and Postgres first. OneDev 16.9 replaces the service wrapper inside the persistent volume and moves the data version from 250 to 251, so going back to 16.8.x means restoring those backups.
+
 ## What gets deployed
 
 | Service | Source | Type |

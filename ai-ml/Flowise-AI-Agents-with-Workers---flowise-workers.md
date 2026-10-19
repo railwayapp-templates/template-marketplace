@@ -6,7 +6,7 @@ Flowise queue mode: main + worker, Postgres (pgvector), Redis, S3 bucket.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/flowise-workers?utm_medium=integration&utm_source=button&utm_campaign=flowise-workers)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/flowise-workers?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=flowise-workers)
 
 This template runs [Flowise](https://flowiseai.com/) in **queue mode**: the main instance serves the UI and API, and a separate worker service executes predictions, document upserts and scheduled runs. Postgres (with pgvector), Redis and a Railway storage bucket come pre-wired. Scale workers up when your agents get busy, without touching the UI.
 
@@ -24,10 +24,10 @@ Credentials are encrypted with `FLOWISE_SECRETKEY_OVERWRITE`, generated once and
 
 | Service | Source | Type |
 |---------|--------|------|
-| worker | [nomideusz/flowise-railway](https://github.com/nomideusz/flowise-railway) (root: /worker) | Worker |
-| redis | [nomideusz/flowise-railway](https://github.com/nomideusz/flowise-railway) (root: /redis) | Database |
-| flowise | [nomideusz/flowise-railway](https://github.com/nomideusz/flowise-railway) (root: /main) | Web service |
-| postgres | [nomideusz/flowise-railway](https://github.com/nomideusz/flowise-railway) (root: /postgres) | Database |
+| worker | [two-workspaces/flowise](https://github.com/two-workspaces/flowise) (root: /worker) | Worker |
+| redis | [two-workspaces/flowise](https://github.com/two-workspaces/flowise) (root: /redis) | Database |
+| flowise | [two-workspaces/flowise](https://github.com/two-workspaces/flowise) (root: /main) | Web service |
+| postgres | [two-workspaces/flowise](https://github.com/two-workspaces/flowise) (root: /postgres) | Database |
 
 ## Environment variables
 

@@ -8,9 +8,13 @@ Frappe HRMS v16 with ERPNext, MariaDB, Redis, and workers.
 
 Frappe HRMS is an open-source human resources and payroll platform covering employee lifecycle management, leave, attendance, expenses, recruitment, performance, and payroll.
 
-This template pins Frappe HRMS `v16.50.0` with ERPNext `v16.50.0`. It deploys one HRMS application service plus private MariaDB and Redis services. On first boot it creates the site, installs ERPNext and HRMS, and initializes the Administrator account. Subsequent boots run `bench migrate` before starting application processes.
+This template pins Frappe HRMS `v16.51.0` with ERPNext `v16.51.1`. It deploys one HRMS application service plus private MariaDB and Redis services. On first boot it creates the site, installs ERPNext and HRMS, and initializes the Administrator account. Subsequent boots run `bench migrate` before starting application processes.
 
 Frappe's standard production topology shares the `sites` directory across nginx, Gunicorn, Socket.IO, workers, and scheduler. Railway does not share volumes across services, so this template supervises those processes in one application container where they safely share one persistent volume.
+
+### Upgrading an existing deployment
+
+Back up MariaDB first. The boot-time `bench migrate` for ERPNext v16.51.1 runs patches that cannot be undone, including one that replaces the legacy standard print formats.
 
 ## What gets deployed
 

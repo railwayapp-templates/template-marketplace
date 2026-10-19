@@ -32,7 +32,7 @@ This template runs the official `v0.2.22` images as five services:
 | server | `ghcr.io/iflytek/skillhub-server:v0.2.22` | Database |
 | Postgres | `postgres:16.15-alpine` | Database |
 | Redis | `redis:8.10.2-alpine` | Database |
-| SkillHub | [nomideusz/skillhub-railway](https://github.com/nomideusz/skillhub-railway) | Web service |
+| SkillHub | [two-workspaces/skillhub](https://github.com/two-workspaces/skillhub) | Web service |
 | scanner | `ghcr.io/iflytek/skillhub-scanner:v0.2.22` | Worker |
 
 ## Environment variables

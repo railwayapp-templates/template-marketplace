@@ -22,7 +22,7 @@ Moodle is installed from the command line on first boot, with an admin password 
 
 | Service | Source | Type |
 |---------|--------|------|
-| Moodle | [nomideusz/moodle-railway](https://github.com/nomideusz/moodle-railway) (root: /) | Web service |
+| Moodle | [two-workspaces/moodle](https://github.com/two-workspaces/moodle) (root: /) | Web service |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 
 ## Environment variables

@@ -23,7 +23,7 @@ It's one service with a Railway volume. Sessions, settings, model keys, connecto
 
 | Service | Source | Type |
 |---------|--------|------|
-| openworker | [nomideusz/openworker-railway](https://github.com/nomideusz/openworker-railway) | Web service |
+| openworker | [two-workspaces/openworker](https://github.com/two-workspaces/openworker) | Web service |
 
 ## Environment variables
 

@@ -6,7 +6,7 @@ Team wiki with real-time editing. Sign in with a passkey, no SSO needed
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/outline-production?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=outline-production)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/outline-production?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=outline-production)
 
 [Outline](https://www.getoutline.com/) is the fast, open-source team wiki and knowledge base: nested documents in collections, real-time collaborative editing, Markdown shortcuts, full-text search, comments, version history, public sharing, templates, an API and imports from Notion, Confluence and Markdown. This template runs the official Outline image with Postgres, Redis and a volume for uploads, and it works the moment the deploy is green: no SSO provider, OAuth app or SMTP server to set up first.
 

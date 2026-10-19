@@ -21,7 +21,7 @@ It's one service, a Railway volume, and a TCP proxy for RTMP.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Oryx | [nomideusz/oryx-railway](https://github.com/nomideusz/oryx-railway) (root: /) | TCP service |
+| Oryx | [two-workspaces/oryx](https://github.com/two-workspaces/oryx) (root: /) | TCP service |
 
 ## Environment variables
 

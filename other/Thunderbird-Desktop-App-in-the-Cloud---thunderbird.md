@@ -6,7 +6,7 @@ Desktop Thunderbird streamed to any device. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/thunderbird?utm_medium=integration&utm_source=button&utm_campaign=thunderbird)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/thunderbird?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=thunderbird)
 
 This template runs the full desktop [Thunderbird](https://www.thunderbird.net/) application in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-thunderbird/) Selkies web interface. Open your Railway domain, log in, and Thunderbird is running on the server with its files, settings and plugins persisted between visits.
 
@@ -16,7 +16,7 @@ Thunderbird is the open-source mail, calendar and contacts client from Mozilla. 
 
 | Service | Source | Type |
 |---------|--------|------|
-| thunderbird | [nomideusz/thunderbird-railway](https://github.com/nomideusz/thunderbird-railway) | Web service |
+| thunderbird | [two-workspaces/thunderbird](https://github.com/two-workspaces/thunderbird) | Web service |
 
 ## Environment variables
 
@@ -33,6 +33,6 @@ Thunderbird is the open-source mail, calendar and contacts client from Mozilla. 
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/thunderbird)

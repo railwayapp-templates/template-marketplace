@@ -6,7 +6,7 @@ Desktop FileZilla streamed to any device. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/filezilla?utm_medium=integration&utm_source=button&utm_campaign=filezilla)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/filezilla?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=filezilla)
 
 This template runs the full desktop [FileZilla](https://filezilla-project.org/) application in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-filezilla/) Selkies web interface. Open your Railway domain, log in, and FileZilla is running on the server with its files, settings and plugins persisted between visits.
 
@@ -16,7 +16,7 @@ FileZilla is the classic FTP, FTPS and SFTP client. The service streams a GPU-le
 
 | Service | Source | Type |
 |---------|--------|------|
-| filezilla | [nomideusz/filezilla-railway](https://github.com/nomideusz/filezilla-railway) | Web service |
+| filezilla | [two-workspaces/filezilla](https://github.com/two-workspaces/filezilla) | Web service |
 
 ## Environment variables
 
@@ -33,6 +33,6 @@ FileZilla is the classic FTP, FTPS and SFTP client. The service streams a GPU-le
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/filezilla)

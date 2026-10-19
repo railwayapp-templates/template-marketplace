@@ -21,7 +21,7 @@ It's one service, a Railway volume, and a TCP proxy for players.
 
 | Service | Source | Type |
 |---------|--------|------|
-| MCSManager | [nomideusz/mcsmanager-railway](https://github.com/nomideusz/mcsmanager-railway) (root: /) | TCP service |
+| MCSManager | [two-workspaces/mcsmanager](https://github.com/two-workspaces/mcsmanager) (root: /) | TCP service |
 
 ## Environment variables
 

@@ -16,11 +16,11 @@ Five Railway services: the main instance (editor UI, queue producer), horizontal
 
 | Service | Source | Type |
 |---------|--------|------|
-| main | [nomideusz/n8n-queue-railway](https://github.com/nomideusz/n8n-queue-railway) (root: /main) | Web service |
-| redis | [nomideusz/n8n-queue-railway](https://github.com/nomideusz/n8n-queue-railway) (root: /redis) | Database |
-| postgres | [nomideusz/n8n-queue-railway](https://github.com/nomideusz/n8n-queue-railway) (root: /postgres) | Database |
-| worker | [nomideusz/n8n-queue-railway](https://github.com/nomideusz/n8n-queue-railway) (root: /worker) | Worker |
-| webhook | [nomideusz/n8n-queue-railway](https://github.com/nomideusz/n8n-queue-railway) (root: /webhook) | Web service |
+| main | [two-workspaces/n8n-queue](https://github.com/two-workspaces/n8n-queue) (root: /main) | Web service |
+| redis | [two-workspaces/n8n-queue](https://github.com/two-workspaces/n8n-queue) (root: /redis) | Database |
+| postgres | [two-workspaces/n8n-queue](https://github.com/two-workspaces/n8n-queue) (root: /postgres) | Database |
+| worker | [two-workspaces/n8n-queue](https://github.com/two-workspaces/n8n-queue) (root: /worker) | Worker |
+| webhook | [two-workspaces/n8n-queue](https://github.com/two-workspaces/n8n-queue) (root: /webhook) | Web service |
 
 ## Environment variables
 

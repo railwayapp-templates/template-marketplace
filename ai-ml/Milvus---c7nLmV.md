@@ -8,7 +8,7 @@ Authenticated Milvus v2.6 REST API with etcd and MinIO.
 
 Milvus is an open-source vector database for similarity search, embeddings, retrieval-augmented generation, recommendation, and other high-dimensional workloads.
 
-This template deploys Milvus Standalone `v2.6.25` with persistent etcd `v3.6.15`, MinIO `RELEASE.2025-10-15T17-29-55Z`, and a Caddy `2.11.4` REST proxy. Only the REST proxy receives a public domain; Milvus, etcd, and MinIO communicate through Railway private networking.
+This template deploys Milvus Standalone `v3.0.3` with persistent etcd `v3.6.15`, MinIO `RELEASE.2025-10-15T17-29-55Z`, and a Caddy `2.11.4` REST proxy. Only the REST proxy receives a public domain; Milvus, etcd, and MinIO communicate through Railway private networking.
 
 Milvus authentication is enabled with a generated root password. Milvus data, etcd metadata, and MinIO objects each use a separate persistent volume, and generated MinIO credentials are passed through Railway references.
 
@@ -21,7 +21,7 @@ The MinIO image is served from the `ghcr.io/coollabsio/minio` mirror of the offi
 | milvus-rest-proxy | `ghcr.io/monotykamary/grpc-reverse-proxy:v2.11.4-r3@sha256:9b2f53b986dbb773043ca1fef5de79ca8cb73925e31a5ee80848397d9ede7a4f` | Web service |
 | minio | `ghcr.io/coollabsio/minio:RELEASE.2025-10-15T17-29-55Z@sha256:69b55a1c1c5dc285ce04db96689f5b2102317fc77a50680a1874ca6efd1c87f9` | Database |
 | etcd | `quay.io/coreos/etcd:v3.6.15@sha256:7cf6622cb09b111289eed8a0cce3478e4f01d5048b0e0a1ed208299f3419334d` | Database |
-| standalone | `milvusdb/milvus:v2.6.25@sha256:29f7668e64df1c6d5cdadbfbee99f38c72e4001054f149a298725acae57230ad` | Database |
+| standalone | `milvusdb/milvus:v3.0.3@sha256:08747249b27c64f158db79a53ba008f89314ee240c731e585a7ec4fb7140731e` | Database |
 
 ## Environment variables
 

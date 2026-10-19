@@ -28,8 +28,8 @@ Every password, plus Opik's encryption key for saved LLM provider keys, is gener
 | MySQL | `mysql:8.4.2` | Database |
 | MinIO | `pgsty/silo:RELEASE.2026-08-06T00-00-00Z` | Database |
 | Redis | `redis:8.10.2-alpine` | Database |
-| Opik | [nomideusz/opik-railway](https://github.com/nomideusz/opik-railway) (root: /frontend) | Web service |
-| ClickHouse | [nomideusz/opik-railway](https://github.com/nomideusz/opik-railway) (root: /clickhouse) | Database |
+| Opik | [two-workspaces/opik](https://github.com/two-workspaces/opik) (root: /frontend) | Web service |
+| ClickHouse | [two-workspaces/opik](https://github.com/two-workspaces/opik) (root: /clickhouse) | Database |
 | Backend | `ghcr.io/comet-ml/opik/opik-backend:2.2.96` | Worker |
 
 ## Environment variables

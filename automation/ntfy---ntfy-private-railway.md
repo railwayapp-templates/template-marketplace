@@ -6,7 +6,7 @@ Private push notifications with durable auth and bucket-backed attachments
 
 ## About
 
-ntfy is an HTTP-based pub/sub notification service with web, desktop, Android, and iOS clients. This template deploys a private-by-default ntfy `v2.30.0` server with persistent users, cached messages, and S3-compatible attachments.
+ntfy is an HTTP-based pub/sub notification service with web, desktop, Android, and iOS clients. This template deploys a private-by-default ntfy `v2.32.0` server with persistent users, cached messages, and S3-compatible attachments.
 
 ## What gets deployed
 

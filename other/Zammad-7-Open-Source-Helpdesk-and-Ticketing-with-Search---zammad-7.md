@@ -22,10 +22,10 @@ The stack is four services: Zammad, Elasticsearch, Postgres and Redis.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Elasticsearch | [nomideusz/zammad-railway](https://github.com/nomideusz/zammad-railway) (root: /elasticsearch) | Database |
+| Elasticsearch | [two-workspaces/zammad](https://github.com/two-workspaces/zammad) (root: /elasticsearch) | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
 | Redis | `redis:8.10.2-alpine` | Database |
-| Zammad | [nomideusz/zammad-railway](https://github.com/nomideusz/zammad-railway) (root: /zammad) | Web service |
+| Zammad | [two-workspaces/zammad](https://github.com/two-workspaces/zammad) (root: /zammad) | Web service |
 
 ## Environment variables
 

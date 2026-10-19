@@ -12,6 +12,10 @@ OneDev stores relational metadata in PostgreSQL and repositories, attachments, a
 
 The default deployment keeps one runner available without requiring Railway API credentials. Users can add an environment-scoped Railway project token to enable queue-based scaling and cooldown scaling.
 
+### Upgrading an existing deployment to 16.9.3
+
+Back up the `/opt/onedev` volume and Postgres first. OneDev 16.9 replaces the service wrapper inside the persistent volume and moves the data version from 250 to 251, so going back to 16.8.x means restoring those backups.
+
 ## What gets deployed
 
 | Service | Source | Type |

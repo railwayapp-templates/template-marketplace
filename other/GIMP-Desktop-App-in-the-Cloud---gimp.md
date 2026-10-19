@@ -6,7 +6,7 @@ Desktop GIMP streamed to any device. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/gimp?utm_medium=integration&utm_source=button&utm_campaign=gimp)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/gimp?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=gimp)
 
 This template runs the full desktop [GIMP](https://www.gimp.org/) application in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-gimp/) Selkies web interface. Open your Railway domain, log in, and GIMP is running on the server with its files, settings and plugins persisted between visits.
 
@@ -16,7 +16,7 @@ GIMP is the open-source raster image editor for retouching, compositing and batc
 
 | Service | Source | Type |
 |---------|--------|------|
-| gimp | [nomideusz/gimp-railway](https://github.com/nomideusz/gimp-railway) | Web service |
+| gimp | [two-workspaces/gimp](https://github.com/two-workspaces/gimp) | Web service |
 
 ## Environment variables
 
@@ -33,6 +33,6 @@ GIMP is the open-source raster image editor for retouching, compositing and batc
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/gimp)

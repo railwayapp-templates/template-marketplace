@@ -1,6 +1,6 @@
 # Deploy n8n Production Stack (Queue Mode) on Railway
 
-[Sep'26] Production n8n: queue mode, workers + verified S3 backups
+[Oct'26] n8n queue mode + workers, Redis, Postgres & auto backups
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-production-stack-queue-mode)
 
@@ -36,7 +36,7 @@ Five services, wired over Railway's private network:
 
 1. Click **Deploy Now**. Everything deploys with auto-generated secrets — no required input.
 2. Open the n8n service URL, create your owner account, build workflows. Executions run on the worker via the queue automatically.
-3. *(Recommended)* Activate backups: set `S3_ENDPOINT`, `S3_BUCKET`, `S3_ACCESS_KEY_ID`, `S3_SECRET_ACCESS_KEY` on the pg-backup service — works with AWS S3, Backblaze B2 (cheapest), Cloudflare R2, or MinIO. Backups run every 6 hours with 7-day retention (both configurable).
+3. **Backups are already on.** The template ships with its own Railway storage bucket, so the first compressed `pg_dump` lands there within a minute of deploy — no S3 account, no keys to paste. Backups run every 6 hours with 7-day retention (both configurable). Prefer your own AWS S3, Backblaze B2 or Cloudflare R2? Just swap the five `S3_*` variables on pg-backup.
 4. **Scaling:** when executions queue up, increase the worker service's replicas in Railway — workers are stateless, so 2, 4, or 8 replicas just work. The main instance never needs scaling for execution load.
 
 ## What gets deployed

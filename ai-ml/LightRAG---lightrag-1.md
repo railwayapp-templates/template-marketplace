@@ -1,6 +1,6 @@
 # Deploy LightRAG on Railway
 
-LightRAG Pro Stack: Light RAG, PostgreSQL, pgvector, GraphRAG and auth.
+Light RAG Pro Stack: LightRAG, GraphRAG, PostgreSQL, pgvector and auth.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/lightrag-1)
 

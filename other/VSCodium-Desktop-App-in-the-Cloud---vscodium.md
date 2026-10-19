@@ -6,7 +6,7 @@ Desktop VSCodium streamed to any device. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/vscodium?utm_medium=integration&utm_source=button&utm_campaign=vscodium)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/vscodium?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=vscodium)
 
 This template runs the full desktop [VSCodium](https://vscodium.com/) application in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-vscodium/) Selkies web interface. Open your Railway domain, log in, and VSCodium is running on the server with its files, settings and plugins persisted between visits.
 
@@ -16,7 +16,7 @@ VSCodium is the telemetry-free community build of the VS Code editor, running as
 
 | Service | Source | Type |
 |---------|--------|------|
-| vscodium | [nomideusz/vscodium-railway](https://github.com/nomideusz/vscodium-railway) | Web service |
+| vscodium | [two-workspaces/vscodium](https://github.com/two-workspaces/vscodium) | Web service |
 
 ## Environment variables
 
@@ -33,6 +33,6 @@ VSCodium is the telemetry-free community build of the VS Code editor, running as
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/vscodium)

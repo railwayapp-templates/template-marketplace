@@ -20,7 +20,7 @@ It's one service and a TCP proxy. There's no database and no volume.
 
 | Service | Source | Type |
 |---------|--------|------|
-| neko | [nomideusz/neko-railway](https://github.com/nomideusz/neko-railway) | TCP service |
+| neko | [two-workspaces/neko](https://github.com/two-workspaces/neko) | TCP service |
 
 ## Environment variables
 

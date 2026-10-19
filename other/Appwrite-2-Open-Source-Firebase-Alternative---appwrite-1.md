@@ -16,17 +16,17 @@ Appwrite 2 runs on PostgreSQL by default, keeps usage metrics in ClickHouse, and
 
 | Service | Source | Type |
 |---------|--------|------|
-| appwrite | [nomideusz/appwrite-railway](https://github.com/nomideusz/appwrite-railway) (root: /appwrite) | Worker |
-| console | [nomideusz/appwrite-railway](https://github.com/nomideusz/appwrite-railway) (root: /console) | Worker |
-| gateway | [nomideusz/appwrite-railway](https://github.com/nomideusz/appwrite-railway) (root: /gateway) | Web service |
-| task-scheduler | [nomideusz/appwrite-railway](https://github.com/nomideusz/appwrite-railway) (root: /appwrite) | Worker |
-| task-maintenance | [nomideusz/appwrite-railway](https://github.com/nomideusz/appwrite-railway) (root: /appwrite) | Worker |
-| worker | [nomideusz/appwrite-railway](https://github.com/nomideusz/appwrite-railway) (root: /appwrite) | Worker |
-| task-interval | [nomideusz/appwrite-railway](https://github.com/nomideusz/appwrite-railway) (root: /appwrite) | Worker |
-| redis | `redis:7.4.7-alpine` | Database |
-| postgresql | [nomideusz/appwrite-railway](https://github.com/nomideusz/appwrite-railway) (root: /postgresql) | Database |
-| realtime | [nomideusz/appwrite-railway](https://github.com/nomideusz/appwrite-railway) (root: /appwrite) | Worker |
-| clickhouse | [nomideusz/appwrite-railway](https://github.com/nomideusz/appwrite-railway) (root: /clickhouse) | Database |
+| appwrite | [two-workspaces/appwrite](https://github.com/two-workspaces/appwrite) (root: /appwrite) | Worker |
+| console | [two-workspaces/appwrite](https://github.com/two-workspaces/appwrite) (root: /console) | Worker |
+| gateway | [two-workspaces/appwrite](https://github.com/two-workspaces/appwrite) (root: /gateway) | Web service |
+| task-scheduler | [two-workspaces/appwrite](https://github.com/two-workspaces/appwrite) (root: /appwrite) | Worker |
+| task-maintenance | [two-workspaces/appwrite](https://github.com/two-workspaces/appwrite) (root: /appwrite) | Worker |
+| worker | [two-workspaces/appwrite](https://github.com/two-workspaces/appwrite) (root: /appwrite) | Worker |
+| task-interval | [two-workspaces/appwrite](https://github.com/two-workspaces/appwrite) (root: /appwrite) | Worker |
+| redis | `redis:7.4.11-alpine` | Database |
+| postgresql | [two-workspaces/appwrite](https://github.com/two-workspaces/appwrite) (root: /postgresql) | Database |
+| realtime | [two-workspaces/appwrite](https://github.com/two-workspaces/appwrite) (root: /appwrite) | Worker |
+| clickhouse | [two-workspaces/appwrite](https://github.com/two-workspaces/appwrite) (root: /clickhouse) | Database |
 
 ## Environment variables
 

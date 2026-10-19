@@ -20,10 +20,10 @@ Two services get public domains here, which is unusual and deliberate: the app's
 
 | Service | Source | Type |
 |---------|--------|------|
-| app | [nomideusz/hyperdx-railway](https://github.com/nomideusz/hyperdx-railway) (root: /app) | Web service |
-| otel-collector | [nomideusz/hyperdx-railway](https://github.com/nomideusz/hyperdx-railway) (root: /otel-collector) | Web service |
-| mongo | [nomideusz/hyperdx-railway](https://github.com/nomideusz/hyperdx-railway) (root: /mongo) | Database |
-| clickhouse | [nomideusz/hyperdx-railway](https://github.com/nomideusz/hyperdx-railway) (root: /clickhouse) | Database |
+| app | [two-workspaces/hyperdx](https://github.com/two-workspaces/hyperdx) (root: /app) | Web service |
+| otel-collector | [two-workspaces/hyperdx](https://github.com/two-workspaces/hyperdx) (root: /otel-collector) | Web service |
+| mongo | [two-workspaces/hyperdx](https://github.com/two-workspaces/hyperdx) (root: /mongo) | Database |
+| clickhouse | [two-workspaces/hyperdx](https://github.com/two-workspaces/hyperdx) (root: /clickhouse) | Database |
 
 ## Environment variables
 

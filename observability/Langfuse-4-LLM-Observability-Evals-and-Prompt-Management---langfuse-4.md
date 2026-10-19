@@ -6,11 +6,11 @@ Langfuse v4 with ClickHouse, S3 bucket and API keys ready on first boot
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/langfuse-4?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=langfuse-4)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/langfuse-4?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=langfuse-4)
 
 [Langfuse](https://langfuse.com/) is the open-source LLM engineering platform: tracing for every model call, tool call and agent step, prompt management, evaluations, datasets and cost tracking. This template runs Langfuse v4, the current major version, with the same architecture Langfuse Cloud uses: web, worker, ClickHouse, Postgres, Redis and object storage. Your organization, project and API keys exist the moment the deploy finishes.
 
-- **The full v4 stack, pinned.** Langfuse web and worker 4.46.0, ClickHouse 25.12, Postgres 17 and Redis 8, all on Railway's private network. Nothing but the web UI has a public address.
+- **The full v4 stack, pinned.** Langfuse web and worker 4.63.0, ClickHouse 25.12, Postgres 17 and Redis 8, all on Railway's private network. Nothing but the web UI has a public address.
 - **Traces in a Railway bucket.** Raw events, media attached to traces and batch exports go to the bundled bucket instead of a MinIO container, so there is no storage service to size or back up.
 - **API keys on first boot.** The first boot creates your admin user, an organization, a project and its public and secret keys. Copy the keys from the Variables tab into your app, no clicking through the UI first.
 - **Closed by default.** Public sign-up is off: only the admin created on first boot can log in until you invite others.
@@ -23,9 +23,9 @@ Langfuse v4 with ClickHouse, S3 bucket and API keys ready on first boot
 |---------|--------|------|
 | Redis | `redis:8.10.2-alpine` | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| ClickHouse | [nomideusz/langfuse-railway](https://github.com/nomideusz/langfuse-railway) (root: /clickhouse) | Database |
-| Langfuse | `langfuse/langfuse:4.46.0` | Web service |
-| Worker | `langfuse/langfuse-worker:4.46.0` | Worker |
+| ClickHouse | [two-workspaces/langfuse](https://github.com/two-workspaces/langfuse) (root: /clickhouse) | Database |
+| Langfuse | `langfuse/langfuse:4.63.0` | Web service |
+| Worker | `langfuse/langfuse-worker:4.63.0` | Worker |
 
 ## Environment variables
 

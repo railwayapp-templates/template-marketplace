@@ -6,7 +6,7 @@ Desktop LibreWolf streamed to any device. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/librewolf-browser?utm_medium=integration&utm_source=button&utm_campaign=librewolf-browser)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/librewolf-browser?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=librewolf-browser)
 
 This template runs a full desktop [LibreWolf](https://librewolf.net/) browser in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-librewolf/) Selkies web interface. Open your Railway domain, log in, and you're inside a real browser running on the server — bookmarks, extensions, downloads, and sessions persist between visits.
 
@@ -16,7 +16,7 @@ The service streams a GPU-less desktop LibreWolf over WebSockets with the linuxs
 
 | Service | Source | Type |
 |---------|--------|------|
-| librewolf | [nomideusz/librewolf-railway](https://github.com/nomideusz/librewolf-railway) | Web service |
+| librewolf | [two-workspaces/librewolf](https://github.com/two-workspaces/librewolf) | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,6 @@ The service streams a GPU-less desktop LibreWolf over WebSockets with the linuxs
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/librewolf-browser)

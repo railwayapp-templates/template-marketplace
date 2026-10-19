@@ -6,7 +6,7 @@ Deep-document RAG engine: chat with PDFs, docs and sheets, with citations
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/ragflow-engine?utm_medium=integration&utm_source=button&utm_campaign=ragflow-engine)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/ragflow-engine?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=ragflow-engine)
 
 [RAGFlow](https://ragflow.io/) is an open-source RAG (retrieval-augmented generation) engine built around deep document understanding. It parses PDFs, Word files, slides, spreadsheets, scans and web pages into clean, layout-aware chunks, indexes them for hybrid full-text and vector search, and lets you chat with your knowledge bases through grounded answers that cite their sources. It also has an agent builder, an OpenAI-compatible API and an MCP server. This template runs the official RAGFlow image with Elasticsearch, MySQL, MinIO and Redis, each with its own volume.
 

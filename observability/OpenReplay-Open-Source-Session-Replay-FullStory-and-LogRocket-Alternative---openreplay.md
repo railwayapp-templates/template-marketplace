@@ -6,7 +6,7 @@ Self-hosted session replay, product analytics and DevTools for your web app
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/openreplay?utm_medium=integration&utm_source=button&utm_campaign=openreplay)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/openreplay?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=openreplay)
 
 [OpenReplay](https://openreplay.com/) is open-source session replay: watch exactly what a user did in your web app, with the console, network requests, errors and performance data playing alongside. It also does product analytics (funnels, journeys, heatmaps, dashboards). This template runs OpenReplay v1.28.0 on your own Railway project, so recordings never leave your infrastructure.
 
@@ -20,12 +20,12 @@ Self-hosted session replay, product analytics and DevTools for your web app
 | Service | Source | Type |
 |---------|--------|------|
 | Redis | `redis:8.10.2-alpine` | Database |
-| OpenReplay | [nomideusz/openreplay-railway](https://github.com/nomideusz/openreplay-railway) (root: /gateway) | Web service |
-| API | [nomideusz/openreplay-railway](https://github.com/nomideusz/openreplay-railway) (root: /chalice) | Worker |
-| ClickHouse | [nomideusz/openreplay-railway](https://github.com/nomideusz/openreplay-railway) (root: /clickhouse) | Database |
-| Storage | [nomideusz/openreplay-railway](https://github.com/nomideusz/openreplay-railway) (root: /storage) | Database |
+| OpenReplay | [two-workspaces/openreplay](https://github.com/two-workspaces/openreplay) (root: /gateway) | Web service |
+| API | [two-workspaces/openreplay](https://github.com/two-workspaces/openreplay) (root: /chalice) | Worker |
+| ClickHouse | [two-workspaces/openreplay](https://github.com/two-workspaces/openreplay) (root: /clickhouse) | Database |
+| Storage | [two-workspaces/openreplay](https://github.com/two-workspaces/openreplay) (root: /storage) | Database |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Backend | [nomideusz/openreplay-railway](https://github.com/nomideusz/openreplay-railway) (root: /backend) | Database |
+| Backend | [two-workspaces/openreplay](https://github.com/two-workspaces/openreplay) (root: /backend) | Database |
 
 ## Environment variables
 

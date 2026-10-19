@@ -6,7 +6,7 @@ Desktop Blender streamed to any device. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/blender?utm_medium=integration&utm_source=button&utm_campaign=blender)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/blender?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=blender)
 
 This template runs the full desktop [Blender](https://www.blender.org/) application in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-blender/) Selkies web interface. Open your Railway domain, log in, and Blender is running on the server with its files, settings and plugins persisted between visits.
 
@@ -16,7 +16,7 @@ Blender is the open-source 3D suite: modelling, sculpting, animation, video edit
 
 | Service | Source | Type |
 |---------|--------|------|
-| blender | [nomideusz/blender-railway](https://github.com/nomideusz/blender-railway) | Web service |
+| blender | [two-workspaces/blender](https://github.com/two-workspaces/blender) | Web service |
 
 ## Environment variables
 
@@ -33,6 +33,6 @@ Blender is the open-source 3D suite: modelling, sculpting, animation, video edit
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/blender)

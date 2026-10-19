@@ -6,7 +6,7 @@ Windmill scripts, flows and apps with workers and a superadmin on boot
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/windmill-dev?utm_medium=integration&amp;utm_source=button&amp;utm_campaign=windmill-dev)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/windmill-dev?referralCode=sLjDXb&amp;utm_medium=integration&amp;utm_source=button&amp;utm_campaign=windmill-dev)
 
 [Windmill](https://www.windmill.dev/) is the open-source developer platform for internal code: write a script in Python, TypeScript, Bash, Go, SQL or a dozen other languages, and Windmill gives it a generated UI, a webhook, a schedule and a place in multi-step flows with retries, approvals and branching. Build internal apps on top with a drag-and-drop editor. This template runs Windmill Community Edition 1.822.0 with a server, a job worker, a native worker and Postgres, and creates your superadmin on first boot, so Windmill's default `admin@windmill.dev` / `changeme` login never exists on a public URL.
 
@@ -24,10 +24,10 @@ The stack is four services: Windmill, Worker, Native Worker and Postgres.
 
 | Service | Source | Type |
 |---------|--------|------|
-| Worker | [nomideusz/windmill-railway](https://github.com/nomideusz/windmill-railway) (root: /server) | Worker |
+| Worker | [two-workspaces/windmill](https://github.com/two-workspaces/windmill) (root: /server) | Worker |
 | Postgres | `ghcr.io/railwayapp-templates/postgres-ssl:17` | Database |
-| Native Worker | [nomideusz/windmill-railway](https://github.com/nomideusz/windmill-railway) (root: /server) | Worker |
-| Windmill | [nomideusz/windmill-railway](https://github.com/nomideusz/windmill-railway) (root: /server) | Web service |
+| Native Worker | [two-workspaces/windmill](https://github.com/two-workspaces/windmill) (root: /server) | Worker |
+| Windmill | [two-workspaces/windmill](https://github.com/two-workspaces/windmill) (root: /server) | Web service |
 
 ## Environment variables
 

@@ -21,7 +21,7 @@ The stack is three pieces: Invoice Ninja (nginx, PHP-FPM, queue worker and sched
 
 | Service | Source | Type |
 |---------|--------|------|
-| Invoice Ninja | [nomideusz/invoiceninja-railway](https://github.com/nomideusz/invoiceninja-railway) (root: /) | Web service |
+| Invoice Ninja | [two-workspaces/invoiceninja](https://github.com/two-workspaces/invoiceninja) (root: /) | Web service |
 | MariaDB | `mariadb:11.8.9` | Database |
 
 ## Environment variables

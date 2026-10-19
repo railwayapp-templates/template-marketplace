@@ -6,7 +6,7 @@ Desktop Google Chrome streamed to any device. Password-gated, persistent.
 
 ## About
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/google-chrome?utm_medium=integration&utm_source=button&utm_campaign=google-chrome)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/google-chrome?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=google-chrome)
 
 This template runs a full desktop [Google Chrome](https://www.google.com/chrome/) browser in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-chrome/) Selkies web interface. Open your Railway domain, log in, and you're inside a real browser running on the server — bookmarks, extensions, downloads, and sessions persist between visits.
 
@@ -16,7 +16,7 @@ The service streams a GPU-less desktop Google Chrome over WebSockets with the li
 
 | Service | Source | Type |
 |---------|--------|------|
-| chrome | [nomideusz/chrome-railway](https://github.com/nomideusz/chrome-railway) | Web service |
+| chrome | [two-workspaces/chrome](https://github.com/two-workspaces/chrome) | Web service |
 
 ## Environment variables
 
@@ -34,6 +34,6 @@ The service streams a GPU-less desktop Google Chrome over WebSockets with the li
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/config`
 
-**Category:** Other · **Languages:** Shell, Dockerfile
+**Category:** Other · **Languages:** Shell, Python, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/google-chrome)

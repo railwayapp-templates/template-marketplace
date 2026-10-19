@@ -22,10 +22,10 @@ The stack is four services and a bucket: Morphik (the API), Morphik Worker, Post
 
 | Service | Source | Type |
 |---------|--------|------|
-| Morphik | [nomideusz/morphik-railway](https://github.com/nomideusz/morphik-railway) | Web service |
+| Morphik | [two-workspaces/morphik](https://github.com/two-workspaces/morphik) | Web service |
 | Redis | `redis:8.10.2-alpine` | Database |
 | Postgres | `pgvector/pgvector:0.8.7-pg17` | Database |
-| Morphik Worker | [nomideusz/morphik-railway](https://github.com/nomideusz/morphik-railway) | Worker |
+| Morphik Worker | [two-workspaces/morphik](https://github.com/two-workspaces/morphik) | Worker |
 
 ## Environment variables
 
