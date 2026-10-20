@@ -1,6 +1,6 @@
 # Deploy OpenCode on Railway
 
-OpenCode's web UI with a password, your projects and logins on a volume
+OpenCode, the open-source AI coding agent, in your browser with a password
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opencode-web)
 
@@ -29,7 +29,7 @@ Before publishing I tested it through the same HTTP API the web UI uses. Without
 | `GIT_USER_NAME` | - | Optional: name for commits the agent makes |
 | `GIT_USER_EMAIL` | - | Optional: email for commits the agent makes |
 | `OPENAI_API_KEY` | (secret) | Optional: OpenAI API key |
-| `OPENCODE_VERSION` | 1.18.32 | OpenCode version, used at build time. Change it and redeploy to upgrade |
+| `OPENCODE_VERSION` | 1.19.3 | OpenCode version, used at build time. Change it and redeploy to upgrade |
 | `ANTHROPIC_API_KEY` | (secret) | Optional: Anthropic API key |
 | `OPENROUTER_API_KEY` | (secret) | Optional: OpenRouter key. Or connect providers from the web UI |
 | `OPENCODE_SERVER_PASSWORD` | (secret) | Login password (generated) |
@@ -40,6 +40,6 @@ Before publishing I tested it through the same HTTP API the web UI uses. Without
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/home/dev`
 
-**Category:** AI/ML · **Tags:** opencode, coding-agent, ai, web-ui · **Languages:** Dockerfile, Shell
+**Category:** AI/ML · **Tags:** opencode, coding-agent, ai, web-ui · **Languages:** Shell, Dockerfile, JavaScript, TypeScript
 
 [View on Railway →](https://railway.com/deploy/opencode-web)

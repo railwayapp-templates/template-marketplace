@@ -1,6 +1,6 @@
 # Deploy n8n V2 with Workers on Railway
 
-n8n 2.0 workflow automation with workers, PostgreSQL and Redis. Queue mode.
+n8n 2.0 Pro Stack. n8n with Workers, PostgreSQL and Redis.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-20-201-v2-w-workers)
 
@@ -75,11 +75,12 @@ This template provisions a production‑grade N8N 2.20.9 stack in queue mode. Th
 ## Configuration
 
 - **Start command:** `n8n start`
+- **Healthcheck:** `/healthz/readiness`
 - **Networking:** Public domain with automatic HTTPS
 - **TCP Proxies:** 6379
 - **Volume:** `/bitnami`
 - **Start command:** `n8n worker`
-- **Start command:** `/bin/sh -c "unset PGPORT; docker-entrypoint.sh postgres --port=5432"`
+- **Start command:** `/bin/sh -c "unset PGPORT; exec docker-entrypoint.sh postgres --port=5432"`
 - **TCP Proxies:** 5432
 - **Volume:** `/var/lib/postgresql/data`
 

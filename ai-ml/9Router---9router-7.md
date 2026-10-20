@@ -1,6 +1,6 @@
 # Deploy 9Router on Railway
 
-9router AI router Pro Stack: API keys, backups and persistent SQLite.
+9 Router Pro Stack: persistent 9router AI router with API keys and backups.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/9router-7)
 

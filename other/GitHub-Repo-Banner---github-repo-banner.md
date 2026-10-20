@@ -14,30 +14,32 @@ GitHub Repo Banner is a lightweight, stateless API service built with Hono (ultr
 
 | Service | Source | Type |
 |---------|--------|------|
+| Banner API and Website | `warengonzaga/github-repo-banner:latest` | Web service |
 | Redis | `redis:8.2` | Database |
-| Banner API and Website | [warengonzaga/github-repo-banner](https://github.com/warengonzaga/github-repo-banner) | Web service |
 
 ## Environment variables
 
 | Variable | Service | Default | Description |
 | --------- | ------- | ------- | ----------- |
+| `PORT` | Banner API and Website | 8080 | Port the app listens on. |
+| `NODE_ENV` | Banner API and Website | production | Optional: defaults to production. |
+| `REDIS_URL` | Banner API and Website | - | Connection to your Redis service. |
+| `ENABLE_STATS` | Banner API and Website | false | Optional: set to "true" to enable usage stats. |
+| `PEXELS_API_KEY` | Banner API and Website | (secret) | Optional: set to enable photo search. |
 | `REDISHOST` | Redis | - | Private network hostname of the Redis service, only resolvable from services in the same environment |
 | `REDISPORT` | Redis | 6379 | Port that Redis listens on |
 | `REDISUSER` | Redis | default | Username for authenticating with Redis |
 | `REDIS_URL` | Redis | - | Connection string for connecting to Redis using the private network |
 | `REDISPASSWORD` | Redis | (secret) | Alias of REDIS_PASSWORD for clients that expect the unseparated name |
 | `REDIS_PASSWORD` | Redis | (secret) | Randomly generated password for authenticating with Redis |
-| `PORT` | Banner API and Website | 8080 | Application listening port; matches the template HTTP port. |
-| `REDIS_URL` | Banner API and Website | - | Private connection to the bundled Redis service. |
-| `PEXELS_API_KEY` | Banner API and Website | (secret) | Optional Pexels API key. Leave blank to hide photo search; direct image URLs still work. |
 
 ## Configuration
 
-- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH --appendonly yes --maxmemory 128mb --maxmemory-policy noeviction"`
-- **Volume:** `/data`
 - **Healthcheck:** `/health`
 - **Networking:** Public domain with automatic HTTPS
+- **Start command:** `/bin/sh -c "rm -rf $RAILWAY_VOLUME_MOUNT_PATH/lost+found/ && exec docker-entrypoint.sh redis-server --requirepass $REDIS_PASSWORD --save 60 1 --dir $RAILWAY_VOLUME_MOUNT_PATH --appendonly yes --maxmemory 128mb --maxmemory-policy noeviction"`
+- **Volume:** `/data`
 
-**Category:** Other · **Languages:** TypeScript, HTML, JavaScript, CSS, Shell, Dockerfile
+**Category:** Other
 
 [View on Railway →](https://railway.com/deploy/github-repo-banner)

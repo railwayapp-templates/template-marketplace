@@ -6,9 +6,7 @@ CLIProxyAPI gateway with verified daily updates and automatic rollback.
 
 ## About
 
-CLIProxyAPI is an open-source compatibility gateway for connecting authorized
-provider accounts and exposing compatible model APIs. This template packages
-it as a secure, persistent, release-tracked Railway service.
+CLIProxyAPI is an open-source proxy that lets you connect your own AI provider accounts and use them through a standard, compatible API. This template runs it on Railway and keeps it up to date for you.
 
 ## What gets deployed
 
@@ -29,6 +27,6 @@ it as a secure, persistent, release-tracked Railway service.
 - **Networking:** Public domain with automatic HTTPS
 - **Volume:** `/data`
 
-**Category:** AI/ML · **Languages:** Python, Shell, Go, Dockerfile
+**Category:** AI/ML · **Languages:** Go, Python, Shell, Dockerfile
 
 [View on Railway →](https://railway.com/deploy/cliproxyapi-secure-release-tracked)
